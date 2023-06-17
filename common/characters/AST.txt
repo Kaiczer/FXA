@@ -1,0 +1,304 @@
+characters = {
+	AST_Richard_Dixon = {
+		name = "Richard Dixon"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Generic/Portrait_Europe_Generic_new_1.png"
+			}
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+	}
+	AST_John_Curtin = {
+		name = "John Curtin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_John_Curtin_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	AST_Jack_Lang = {
+		name = "Jack Lang"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Jack_Lang.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+	AST_Earle_Page = {
+		name = "Earle Page"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Earle_Page.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+	}
+	AST_Robert_Menzies = {
+		name = "Robert Menzies"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Robert_Menzies.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	AST_Billy_Hughes = {
+		name = "Billy Hughes"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Billy_Hughes.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+	AST_Percy_Stephensen = {
+		name = "Percy Stephensen"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Percy_Stephensen.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	AST_Eric_Campbell = {
+		name = "Eric Campbell"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Eric_Campbell.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	AST_Lord_Birdwood = {
+		name = "Lord Birdwood"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AST/Portrait_AST_Lord_Birdwood.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	AST_Thomas_Blamey = {
+		name = "Thomas Blamey"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_Thomas_Blamey.png"
+			}
+		}
+		field_marshal = {
+			traits = {
+				trait_reckless
+				offensive_doctrine
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	AST_Leslie_Morshead = {
+		name = "Leslie Morshead"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_Leslie_Morshead.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				brilliant_strategist
+				trait_reckless
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	AST_Alan_Vasey = {
+		name = "Alan Vasey"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_Alan_Vasey.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trait_reckless
+				hill_fighter
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	AST_Horace_Robertson = {
+		name = "Horace Robertson"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_Horace_Robertson.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				desert_fox
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	AST_John_Northcott = {
+		name = "John Northcott"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_John_Northcott.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				panzer_leader
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	AST_Brudenell_White = {
+		name = "Brudenell White"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_Brudenell_White.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	AST_Harold_Farncomb = {
+		name = "Harold Farncomb"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Generic/Portrait_Britain_Generic_land_1.png"
+			}
+		}
+		navy_leader = {
+			traits = {
+				aviation_enthusiast
+				naval_lineage
+			}
+			skill = 1
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	AST_Victor_Crutchley = {
+		name = "Victor Crutchley"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Generic/Portrait_Britain_Generic_land_2.png"
+			}
+		}
+		navy_leader = {
+			traits = {
+				bold
+			}
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 1
+			coordination_skill = 3
+		}
+	}
+	AST_John_Collins = {
+		name = "John Collins"
+		portraits = {
+			army = {
+				large = "gfx/leaders/AST/Portrait_AST_John_Collins.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 1
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 3
+		}
+	}
+}

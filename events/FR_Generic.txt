@@ -1,0 +1,309 @@
+﻿###################
+###Generic Events##
+###################
+####MADE BY CIA####
+###################
+
+add_namespace = genfocus
+
+
+country_event = {
+	id = genfocus.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genfocus.1"}
+	title = genfocus.1.t
+	desc = genfocus.1.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "Germany"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_2 amount = 3500 producer = GER 
+		#create_if_missing = yes
+		}
+		GER = { country_event = genfocus.2 }
+		}
+	
+	option = {
+		name = "Britain"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = ENG }
+		ENG = { country_event = genfocus.2 }
+		}
+	
+	option = {
+		name = "France"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_1 amount = 6000 producer = FRA }
+		FRA = { country_event = genfocus.2 }
+		}
+
+	option = {
+		name = "Russia"
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 7500 producer = SOV }
+		SOV = { country_event = genfocus.2 }
+		}
+	}
+
+country_event = {
+	id = genfocus.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genfocus.2"}
+	title = genfocus.2.t
+	desc = genfocus.2.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "It was a pleasure doing business with you!"
+		add_timed_idea = {
+				idea = generic_arms_payments
+				days = 60
+		}
+	}
+}
+
+add_namespace = gencores
+
+country_event = { # FROM requests return of their core territory
+	id = gencores.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gencores.1"}
+	title = gencores.1.t
+	desc = gencores.1.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = { # Sure
+		trigger = {
+			any_owned_state = {
+				is_core_of = FROM
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+		}
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 5
+				FROM = {
+					OR = {
+						is_puppet_of = ROOT
+						is_in_faction_with = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				ROOT = {
+					has_opinion = {
+						target = FROM
+						value > 49
+					}	
+				}
+			}
+			modifier = {
+				factor = 5
+				ROOT = {
+					OR = {
+						has_government = libertarian_socialist
+						has_government = social_democrat
+						has_government = social_liberal
+						has_government = market_liberal
+						has_government = social_conservative
+					}
+				}
+			}
+		}
+		name = gencores.1.a
+		every_state = {
+			limit = {
+				is_owned_by = ROOT
+				is_core_of = FROM
+				NOT = {
+					is_core_of = ROOT
+				}
+			}
+			FROM = {
+				transfer_state = PREV
+			}
+		}
+		
+		ROOT = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = GEN_returned_territory
+			}
+		}
+		
+		FROM = {
+			country_event = gencores.2
+		}		
+	}
+	
+	option = { # never
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 5
+				FROM = {
+					NOT = {
+						OR = {
+							is_puppet_of = ROOT
+							is_in_faction_with = ROOT
+						}
+					}
+				}
+			}		
+			modifier = {
+				factor = 5
+				ROOT = {
+					has_opinion = {
+						target = FROM
+						value < 0
+					}	
+				}
+			}
+			modifier = {
+				factor = 5
+				any_owned_state = {
+					is_core_of = FROM
+					OR = {
+						is_ambition_area_of_ROOT = yes
+						is_core_of = ROOT
+						is_claimed_by = ROOT
+					}
+				}
+			}
+			modifier = {
+				factor = 5
+				ROOT = {
+					NOT = {
+						OR = {
+							has_government = libertarian_socialist
+							has_government = social_democrat
+							has_government = social_liberal
+							has_government = market_liberal
+							has_government = social_conservative
+						}
+					}
+				}
+			}		
+		}
+		name = gencores.1.b
+		FROM = {
+			country_event = gencores.3
+		}
+	}
+}
+
+country_event = { # FROM agrees to return our core territory
+	id = gencores.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gencores.2"}
+	title = gencores.2.t
+	desc = gencores.2.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = { # nice
+		name = gencores.2.a
+		ROOT = {
+			add_opinion_modifier = {
+				target = FROM
+				modifier = GEN_returned_territory
+			}
+		}
+	}
+}
+
+country_event = { # FROM refuses to return our core territory
+	id = gencores.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gencores.3"}
+	title = gencores.3.t
+	desc = gencores.3.d
+	picture = report_event_generic_conference
+	
+	is_triggered_only = yes
+
+	option = { # damn
+		name = gencores.3.a
+	}
+}
+
+
+
+##### Threat Generation Events (hidden) #####
+
+add_namespace = genthreat
+
+# - German-Soviet War
+
+country_event = {
+	id = genthreat.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genthreat.1"}
+	title = ""
+	desc = genthreat.1.d
+	
+	hidden = yes
+	
+	trigger = {
+		is_ai = yes
+		GER = { has_war_with = SOV }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		trigger = {
+			GER	= { has_offensive_war_with = SOV }
+		}
+		name = ""
+		GER = { add_named_threat = { threat = 15 name = 2GW_ger_sov } }
+	}
+	
+	option = {
+		trigger = {
+			SOV	= { has_offensive_war_with = GER }
+		}
+		name = ""
+		SOV = { add_named_threat = { threat = 15 name = 2GW_ger_sov } }
+	}
+}
+
+country_event = {
+	id = genthreat.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event genthreat.2"}
+	title = ""
+	desc = genthreat.2.d
+	
+	hidden = yes
+	
+	trigger = {
+		is_ai = yes
+		ENG = { has_war_with = FRA }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		trigger = {
+			ENG	= { has_offensive_war_with = FRA }
+		}
+		name = ""
+		ENG = { add_named_threat = { threat = 15 name = 2GW_eng_fra } }
+	}
+	
+	option = {
+		trigger = {
+			FRA	= { has_offensive_war_with = ENG }
+		}
+		name = ""
+		FRA = { add_named_threat = { threat = 15 name = 2GW_eng_fra } }
+	}
+}
+
+

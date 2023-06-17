@@ -1,0 +1,76 @@
+scripted_gui = {
+
+	view_pm = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "joe_biden_gui"
+
+		ai_check = {
+			always = no
+		}
+
+		triggers = {
+			pm_frame_visible = {
+				has_country_flag = HOG_veiw
+				NOT = {
+				}
+			}
+			leader_button_visible = {
+				OR = {
+					has_country_flag = LEADER_GUI_VISIBLE
+				}
+			}
+			Tokugawa_Iesato_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_country_flag = JAP_Tokugawa_Iesato_Not_Dead
+				}
+			}
+			Tri_Edo_Commissioner_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_country_flag = JAP_Tri_Edo_Commissioner
+				}
+			}
+			Hirohito_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_country_flag = JAP_Hirohito_hos
+				}
+			}
+			Yasuhito_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					has_country_flag = JAP_Yasuhito_hos
+				}
+			}
+			pm_name_visible = {
+				has_country_flag = HOG_veiw
+			}
+			
+		}
+		
+		properties = {
+		}
+			
+		visible = {
+			OR = {
+				has_country_flag = LEADER_GUI_VISIBLE
+			}
+		}
+		
+		effects = {
+			leader_button_click = {
+				if = {
+					limit = {
+						has_country_flag = HOG_veiw
+					}
+					clr_country_flag = HOG_veiw
+					else = {
+						set_country_flag = HOG_veiw
+					}
+				}
+			}
+		}
+	}
+}

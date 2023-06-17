@@ -1,0 +1,444 @@
+add_starting_ministers = {
+  # Afganistan 
+  AFG = {
+    add_ideas = {
+      AFG_Shah_Wali_Khan_hog_ade
+      AFG_Abdul_Hadi_Dawai_for_ade
+      AFG_Ahmad_Ali_Khan_Solaiman_eco_ade
+      AFG_Muhammed_Ghobar_sec_ade
+    }
+  }
+  # Arabia
+  ARB = {
+    add_ideas = {
+      ARB_Abd_al_Ilah_hog_pau
+      ARB_Sabah_al_Salem_al_Sabah_for_ade
+      ARB_Mohammed_bin_Awad_bin_Laden_eco_ade
+      ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade
+    }
+  }
+  # Argentina
+  ARG = {
+    add_ideas = {
+      ARG_Marcelo_T_de_Alvear_hog_sli
+      ARG_Miguel_Angel_Zabala_Ortiz_for_sli
+      ARG_Guillermo_Rothe_eco_sli
+      ARG_Arturo_Frondizi_sec_sli
+    }
+  }
+  # Belgium
+  BEL = {
+    add_ideas = {
+      BEL_Paul_Van_Zeeland_hog_sco
+      BEL_Roger_Motz_for_mli
+      BEL_Albert_Wauters_eco_sde
+      BEL_Francois_Bovesse_sec_sco
+    }
+  }
+  # Belarus
+  BLR = {
+    add_ideas = {
+      BLR_Radasłaŭ_Astroŭski_hog_val
+      BLR_Fabijan_Ivanovich_Akintschyz_for_val
+      BLR_Leon_Ivanovich_Dubeykovsky_eco_val
+      BLR_Francisak_Kusal_sec_pau
+    }
+  }
+  # Bolivia
+  BOL = {
+    add_ideas = {
+      BOL_Jose_Tejada_Sorzano_hog_sli
+      BOL_Eduardo_Anze_Matienzo_for_sli
+      BOL_Moritz_Hochschild_eco_mli
+      BOL_Jose_Santos_Quinteros_sec_sli
+    }
+  }
+  # Bulgaria
+  BUL = {
+    add_ideas = {
+      BUL_Ivan_Dochev_hog_npo
+      BUL_Stefan_Klechkov_for_npo
+      BUL_Asen_Kantardzhiev_eco_npo
+      BUL_Lyuben_Kostov_sec_npo
+    }
+  }
+  # Canada
+  CAN = {
+    add_ideas = {
+      CAN_RB_Bennett_hog_sco
+      CAN_Sidney_Earle_Smith_for_sco
+      CAN_Stephen_Leacock_eco_sco
+      CAN_Gordon_Graydon_sec_sco
+    }
+  }
+  # Chile
+  CHL = {
+    add_ideas = {
+      CHL_Juan_Esteban_Montero_hog_sli
+      CHL_JRGuiterrez_Allende_for_sli
+      CHL_Arturo_Maschke_eco_sli
+      CHL_Carlos_Valdovinos_Valdovinos_sec_sli
+    }
+  }
+  # Colombia 
+  COL = {
+    add_ideas = {
+      COL_Ruben_Piedrahita_Arango_hog_pau
+      COL_Julio_Cesar_Turbay_Ayala_for_pau
+      COL_Gabriel_Paris_Gordillo_eco_pau
+      COL_Alfredo_Vazquez_Carrizosa_sec_pau
+    }
+  }
+  # Cruzoob
+  CRU = {
+    add_ideas = {
+      CRU_Francisco_May_Pech_hog_val
+      CRU_Carlos_Jesus_Torre_Repetto_for_sde
+      CRU_Nicolas_Camara_Vales_eco_mli
+      CRU_Miguel_Alonzo_Romero_sec_sli
+    }
+  }
+  # Czechia
+  CZE = {
+    add_ideas = {
+      CZE_Alois_Elias_hog_pau
+      CZE_Josef_Svagrovsky_for_pau
+      CZE_Vladimir_Kajdos_eco_pau
+      CZE_Josef_Jezek_sec_pau
+    }
+  }
+  # Denmark
+  DEN = {
+    add_ideas = {
+      DEN_Thorvald_Stauning_hog_sde
+      DEN_Peter_Munch_for_sli
+      DEN_Alsing_Andersen_eco_sde
+      DEN_Karl_Kristian_Steincke_sec_sde
+    }
+  }
+  # Egypt
+  EGY = {
+    add_ideas = {
+      EGY_Mohamed_Tawfik_Naseem_hog_ade
+      EGY_Ahmed_Hassanein_for_pau
+      EGY_Sayyid_Qutb_eco_ade
+      EGY_Muhammad_Anwar_el_Sadat_sec_sde
+    }
+  }
+  # United Kingdom
+  ENG = {
+    add_ideas = {
+      ENG_Samuel_Hoare_hog_sco
+      ENG_John_Colville_for_sco
+      ENG_George_Lane_Fox_eco_sco
+      ENG_Edward_Cavendish_sec_sco
+    }
+  }
+  # Estonia
+  EST = {
+    add_ideas = {
+      EST_Konstantin_Pats_hog_ade
+      EST_Julius_Seljamaa_for_ade
+      EST_Karl_Selter_eco_ade
+      EST_Oskar_Angelus_sec_npo
+    }
+  }
+  # Finland
+  FIN = {
+    add_ideas = {
+      FIN_Juho_Sunila_hog_sli
+      FIN_Eljas_Erkko_for_mli
+      FIN_Albin_Manner_eco_sli
+      FIN_Urho_Castren_sec_sco
+    }
+  }
+  # France
+  FRA = {
+    add_ideas = {
+      FRA_Jean_Ybarnegaray_hog_sco
+      FRA_Georges_Mandel_for_sco
+      FRA_Andre_Tardieu_eco_mli
+      FRA_Jean_Fabry_sec_sli
+    }
+  }
+  # Germany
+  GER = {
+    add_ideas = {
+      GER_Anton_Arco_auf_Valley_hog_val
+      GER_Alfred_Rosenburg_for_val
+      GER_Adolf_Hitler_eco_val
+      GER_Hermann_Ehrhardt_sec_val
+    }
+  }
+  # Georgia
+  GEO = {
+    add_ideas = {
+      GEO_Akaki_Chkhenkeli_hog_sde
+      GEO_Grigol_Uratadze_for_col
+      GEO_Victor_Tevzaia_eco_sde
+      GEO_Vlasa_Mgeladze_sec_lib
+    }
+  }
+  # Dutch State
+  HOL = {
+    add_ideas = {
+      HOL_Cornelis_van_Geelkerken_hog_npo
+      HOL_Willem_Bernard_Engelbrecht_for_npo
+      HOL_Gerrit_van_Burink_eco_npo
+      HOL_Gerhardus_Dieters_sec_npo
+    }
+  }
+  # Hungary
+  HUN = {
+    add_ideas = {
+      HUN_Laszlo_Bardossy_hog_pau
+      HUN_Gabor_Kemeny_for_npo
+      HUN_Jenő_Racz_eco_npo
+      HUN_Andor_Jaross_sec_npo
+    }
+  }
+  # Italy 
+  ITA = {
+    add_ideas = {
+      ITA_Don_Luigi_Sturzo_hog_sde
+      ITA_Gaetano_Martino_for_sde
+      ITA_Rocco_Gullo_eco_sde
+      ITA_Enrico_Mole_sec_sde
+    }
+  }
+  # Insulindia
+  INS = {
+    add_ideas = {
+      INS_Sukarno_hog_ade
+      INS_Achmad_Soebardjo_for_ade
+      INS_Alexander_Maramis_eco_ade
+      INS_Sahardjo_sec_ade
+    }
+  }
+  # Japan
+  JAP = {
+    add_ideas = {
+      JAP_Inukai_Tsuyoshi_hog_sco
+      JAP_Yoshida_Shigeru_for_sco
+      JAP_Tsushima_Juichi_eco_sco
+      JAP_Kawamura_Takeji_sec_sco
+    }
+  }
+  # Manchuria
+  MAN = {
+    add_ideas = {
+      MAN_Zhang_Zuolin_hog_ade
+      MAN_Wu_Jinglian_for_ade
+      MAN_Pan_Fu_eco_ade
+      MAN_Tang_Yulin_sec_pau
+    }
+  }
+  # Mexico
+  MEX = {
+    add_ideas = {
+      MEX_Alberto_B_Gutierrez_hog_npo
+      MEX_Alfonso_Junco_for_npo
+      MEX_Pedro_Zuloaga_Irigoiti_eco_npo
+      MEX_Daniel_Cosio_Villegas_sec_npo
+    }
+  }
+  # New American Republic
+  NAR = {
+    add_ideas = {
+      NAR_Walter_C_Teagle_hog_pau
+      NAR_William_Bell_Riley_for_pau
+      NAR_Charles_Emil_Sorensen_eco_pau
+      NAR_DW_Griffith_sec_pau
+    }
+  }
+  # Norway
+  NOR = {
+    add_ideas = {
+      NOR_Sverre_Stostad_hog_lib
+      NOR_Nordahl_Grieg_for_lib
+      NOR_Adolf_Indrebo_eco_lib
+      NOR_Alfred_Madsen_sec_lib
+    }
+  }
+  # Persia
+  PER = {
+    add_ideas = {
+      PER_Ahmad_Matin_Daftari_hog_pau
+      PER_Ali_Soheili_for_pau
+      PER_Mahmoud_Modir_al_Molk_Djam_eco_pau
+      PER_Hasan_Arfa_sec_pau
+    }
+  }
+  # Philippines
+  PHI = {
+    add_ideas = {
+      PHI_Manuel_Luis_Quezon_hog_sco
+      PHI_Sergio_P_Osmena_for_sco
+      PHI_Benigno_Aquino_Sr_eco_sco
+      PHI_Teofisto_Sison_sec_sco
+    }
+  }
+  # Peru
+  PRU = {
+    add_ideas = {
+      PRU_Alberto_Zenon_Aguero_hog_ade
+      PRU_Alberto_Ulloa_Sotomayor_for_ade
+      PRU_Nicolas_Lindley_Lopez_eco_pau
+      PRU_Benigno_Ballon_Farfan_sec_sco
+    }
+  }
+  # Rhineland
+  RHI = {
+    add_ideas = {
+      RHI_Victor_Hay_hog_ade
+      RHI_William_Seeds_for_ade
+      RHI_EF_Schumachher_eco_ade
+      RHI_Karl_von_Starck_sec_ade
+      RHI_Charles_Mangin_cos_pau
+    }
+  }
+  # Romania
+  ROM = {
+    add_ideas = {
+      ROM_Regency_Council_hog_pau
+      ROM_Grigore_Niculescu_Buzesti_for_ade
+      ROM_Gheorghe_Potopeanu_eco_pau
+      ROM_Aurel_Aldea_sec_sco
+    }
+  }
+  # Russia
+  RUS = {
+    add_ideas = {
+      RUS_Vasily_Kanin_hog_ade
+      RUS_Mikhail_A_Taube_for_ade
+      RUS_Vladimir_N_Kokovtsov_eco_ade
+      RUS_Sergei_P_Melgunov_sec_ade
+    }
+  }
+  # Saudi Arabia
+  SAU = {
+    add_ideas = {
+      SAU_Saud_bin_Abdulaziz_hog_pau
+      SAU_Faisal_bin_Abdulaziz_for_pau
+      SAU_Muhammad_bin_Abdulaziz_Al_Saud_eco_pau
+      SAU_Bandar_bin_Abdulaziz_Al_Saud_sec_pau
+    }
+  }
+  # South Africa
+  SAF = {
+    add_ideas = {
+      SAF_James_Hertzog_hog_ade
+      SAF_Jan_C_Smuts_for_sco
+      SAF_Pieter_van_der_Byl_eco_sco
+      SAF_Ben_Schoeman_sec_ade
+    }
+  }
+  # Soviet Union
+  SOV = {
+    add_ideas = {
+      SOV_Aleksandra_Kollontay_hog_col
+      SOV_Georgiy_Malenkov_for_col
+      SOV_Sergey_Kirov_eco_col
+      SOV_Pyetr_Popkov_sec_col
+    }
+  }
+  # Spain - Anarchist
+  SPA = {
+    add_ideas = {
+      SPA_Jose_Diaz_Ramos_hog_col
+      SPA_Andres_Nin_Perez_for_col
+      SPA_Vicente_Uribe_Galdeano_eco_col
+      SPA_Buenaventura_Durruti_sec_col
+    }
+  }
+  # Spain - Falangist
+  SPF = {
+    add_ideas = {
+      SPF_Carlos_Ibarguren_hog_npo
+      SPF_Onesimo_Redondo_for_npo
+      SPF_Eugenio_d_Ors_eco_val
+      SPF_Nimio_de_Anquin_sec_pau
+    }
+  }
+  # Spain - Monarchist
+  SPM = {
+    add_ideas = {
+      SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade
+      SPM_Alberto_M_Artejo_Alvarez_for_ade
+      SPM_Jose_Calvo_Sotelo_eco_ade
+      SPM_Blas_Perez_Gonzalez_sec_ade
+    }
+  }
+  # Spain - Republican
+  SPR = {
+    add_ideas = {
+      SPR_Niceto_Alcala_Zamora_hog_mli
+      SPR_Diego_Hidalgo_Duran_for_sli
+      SPR_Josep_Tarradellas_eco_mli
+      SPR_Diego_Martines_Barrio_sec_sli
+    }
+  }
+  # Sweden
+  SWE = {
+    add_ideas = {
+      SWE_Fritiof_Domo_hog_sco
+      SWE_Christian_Gunther_for_sco
+      SWE_Ernst_Trygger_eco_sco
+      SWE_Knut_Ewerlof_sec_sco
+    }
+  }
+  # Switzerland
+  SWI = {
+    add_ideas = {
+      SWI_Johannes_Baumann_hog_mli
+      SWI_Marcel_Pilet_Golaz_for_mli
+      SWI_Friedrich_Traugott_Wahlen_eco_mli
+      SWI_Heinrich_Rothmund_sec_mli
+    }
+  }
+  # Ottoman Empire
+  # TUR = {
+  #   add_ideas = {
+  #     TUR_Prens_Sabahaddin_Efendi_hog_sli
+  #     TUR_Haqqi_al_Azm_for_sli
+  #     TUR_Berc_Keresteciyan_Bey_eco_sli
+  #     TUR_Ağaoglu_Ahmed_Paşa_sec_sli
+  #   }
+  # }
+  # Ukraine
+  UKR = {
+    add_ideas = {
+      UKR_Vsevolod_Holubovych_hog_sde
+      UKR_Nikolai_Skrypnik_for_sde
+      UKR_Nikolai_Shrag_eco_sli
+      UKR_Ivan_Feshenko_Chopovsky_sec_sli
+    }
+  }
+  # United States
+  USA = {
+    add_ideas = {
+      USA_Charles_Curtis_hog_mli
+      USA_Henry_Morgenthau_Jr_for_mli
+      USA_Daniel_Calhoun_Roper_eco_mli
+      USA_Robert_Ferdinand_Wagner_I_sec_mli
+    }
+  }
+  # Zhili Clique
+  ZHI = {
+    add_ideas = {
+      ZHI_Sun_Chuanfang_hog_pau
+      ZHI_Hu_Weide_for_pau
+      ZHI_Wang_Kemin_eco_pau
+      ZHI_Pan_Juying_sec_pau
+    }
+  }
+  # Iraq Mashriq
+  IRQ = {
+    add_ideas = {
+      IRQ_Musa_Al_Shabander_for_cli
+      IRQ_Dhia_Jafar_eco_cli
+      IRQ_Saeed_Qazaz_sec_cli
+      IRQ_Al_Chaderchi_hog_cli
+    }
+  }
+}

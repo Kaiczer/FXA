@@ -1,0 +1,224 @@
+characters = {
+	NZL_Alexander_Galbraith = {
+		name = "Alexander Galbraith"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Alexander_Galbraith.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguardist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = collectivist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = libertarian_socialist_subtype
+			traits = { }
+		}
+	}
+	NZL_Michael_Joseph_Savage = {
+		name = "Michael Joseph Savage"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Michael_Joseph_Savage.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	NZL_Eruera_Tirikatene = {
+		name = "Eruera Tirikatene"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Eruera_Tirikatene.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+	}
+	NZL_Albert_Ernest_Davy = {
+		name = "Albert Ernest Davy"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Albert_Davy.png"
+			}
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+	}
+	NZL_Adam_Hamilton = {
+		name = "Adam Hamilton"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Adam_Hamilton.png"
+			}
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	NZL_Sidney_Holland = {
+		name = "Sidney Holland"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Sidney_Holland_fx.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+	}
+	NZL_Robert_Begg = {
+		name = "Robert Begg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Robert_Begg.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+	NZL_John_Ormond = {
+		name = "John Ormond"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Generic/Portrait_Europe_Generic_new_2.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+	}
+	NZL_Lord_Monckton_Arundell = {
+		name = "Lord Monckton-Arundell"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Lord_Monckton_Arundell.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = market_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+	}
+	NZL_Bernard_Freyberg = {
+		name = "Bernard Freyberg"
+		portraits = {
+			army = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Bernard_Freyberg_fx.png"
+			}
+		}
+		field_marshal = {
+			traits = { }
+			skill = 1
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		}
+	}
+	NZL_Robert_Row = {
+		name = "Robert Row"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Generic/Portrait_Britain_Generic_land_1.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				naval_invader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+		}
+	}
+	NZL_William_Stevens = {
+		name = "William Stevens"
+		portraits = {
+			army = {
+				large = "gfx/leaders/Generic/Portrait_Britain_Generic_land_2.png"
+			}
+		}
+		corps_commander = {
+			traits = { }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+		}
+	}
+	NZL_Edmund_Rupert_Drummond = {
+		name = "Edmund Rupert Drummond"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/Generic/Portrait_Britain_Generic_navy_1.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+	NZL_Peter_Phipps = {
+		name = "Peter Phipps"
+		portraits = {
+			navy = {
+				large = "gfx/leaders/NZL/Portrait_NZL_Peter_Phipps.png"
+			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 2
+		}
+	}
+}

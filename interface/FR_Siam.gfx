@@ -1,0 +1,147 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_progress_bg"
+		texturefile = "gfx/interface/Siam/DealwithOpposition/SafetyBar_Frame.dds"
+	}
+	progressbartype = { 
+		name = "GFX_Siam_progressbar"
+		textureFile1 = "gfx/interface/Siam/DealwithOpposition/FULLBAR.dds"
+		textureFile2 = "gfx/interface/Siam/DealwithOpposition/EMPTYBAR.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = { 
+			x = 448
+			y = 27
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_idea_foreign_company_investment"
+		texturefile = "gfx/interface/ideas/SIA/company/foreign_asset.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_parliament_with_officers"
+		texturefile = "gfx/interface/ideas/SIA/company/Officers_and_Civilians.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stable_bureaucrat"
+		texturefile = "gfx/interface/ideas/SIA/company/stable_bureaucrat.dds"
+	}
+	##Economic
+	spriteType = {
+		name = "GFX_idea_black_wednesday"
+		texturefile = "gfx/interface/ideas/SIA/company/blackwednesday.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_black_wednesday_1"
+		texturefile = "gfx/interface/ideas/SIA/company/blackwednesday1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lands_reform"
+		texturefile = "gfx/interface/ideas/SIA/company/Lands_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_domestic_reform"
+		texturefile = "gfx/interface/ideas/SIA/company/Domestic_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_stable_central_price_for_commons"
+		texturefile = "gfx/interface/ideas/SIA/company/stable_price.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_region_trade_union"
+		texturefile = "gfx/interface/ideas/SIA/company/Regional_trade_union.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_increase_agriculture_product_market"
+		texturefile = "gfx/interface/ideas/SIA/company/Improve_agriculture_production.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trades_union_congress"
+		texturefile = "gfx/interface/ideas/SIA/company/Trade_unions_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_emphasized_the_inner_market"
+		texturefile = "gfx/interface/ideas/SIA/company/Inner_market_emphasize.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_yellow_dossier"
+		texturefile = "gfx/interface/ideas/SIA/company/Yellow_Dossier.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_provincial_career_centre"
+		texturefile = "gfx/interface/ideas/SIA/company/Provincial_Career_Cent.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_national_fund_for_commons_career"
+		texturefile = "gfx/interface/ideas/SIA/company/National_Fund.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_regional_cooperative_organization"
+		texturefile = "gfx/interface/ideas/SIA/company/Regional_Coop.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_five_years_plan_for_national_and_interior_trading"
+		texturefile = "gfx/interface/ideas/SIA/company/five_years_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_regional_bank"
+		texturefile = "gfx/interface/ideas/SIA/company/Bank.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_all_classes_compromise"
+		texturefile = "gfx/interface/ideas/Vanilla HOI4/idea_prc_low_popular_support3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_bills_for_economic_improvement"
+		texturefile = "gfx/interface/ideas/ideas/denbts.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_centralized_economic_assembly"
+		texturefile = "gfx/interface/ideas/Vanilla HOI4/idea_generic_neutrality_drift_bonus.dds"
+	}
+	##Industrial
+	spriteType = {
+		name = "GFX_idea_entrepreneur_association"
+		texturefile = "gfx/interface/ideas/SIA/company/Entrepreneur_asso.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_cp_industrial_company"
+		texturefile = "gfx/interface/ideas/SIA/company/CP.dds"
+	}
+	##Company
+	spriteType = {
+		name = "GFX_idea_project_ptt"
+		texturefile = "gfx/interface/ideas/SIA/company/PTT.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_chiatai"
+		texturefile = "gfx/interface/ideas/SIA/New_Company/chiatai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_national_housing_authority"
+		texturefile = "gfx/interface/ideas/SIA/New_Company/nha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_thonburi_panich"
+		texturefile = "gfx/interface/ideas/SIA/New_Company/Thonburi_Panich.dds"
+	}
+	##Valkist
+	spriteType = {
+		name = "GFX_idea_valkist_influence"
+		texturefile = "gfx/interface/ideas/SIA/company/valkist_influence_in_siam.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_sia_royal_market_palace"
+		texturefile = "gfx/interface/decisions/Royal_market.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_sia_mahasombat_ministry_icon"
+		texturefile = "gfx/interface/decisions/Mahasombat_ministry_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_national_research_group"
+		texturefile = "gfx/interface/technology_sharing/nrc.dds"
+	}
+}

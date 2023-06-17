@@ -1,0 +1,165 @@
+# defined_text = {
+# 	name = GUIHOSNAME
+# 	text = {
+# 		trigger = {
+# 			NOT = {
+# 			}
+# 		}
+# 		localization_key = GUIHOSNAME
+# 	}
+# 	text = {
+# 		trigger = {
+# 			OR = {
+				
+# 			}
+# 		}
+# 		localization_key = GUILEADERNAMETRAIT
+# 	}
+# }
+
+defined_text = {
+	name = GUIHOGNAME
+	text = {
+		trigger = {
+			NOT = {
+				has_idea = JAP_great_council_of_state_idea
+			}
+		}
+		localization_key = GUIHOGNAME
+	}
+	text = {
+		trigger = {
+			OR = {
+				has_idea = JAP_great_council_of_state_idea
+			}
+		}
+		localization_key = GUIHOGNAMETRAIT
+	}
+}
+
+# defined_text = {
+# 	name = GetLeaderTrait
+# 	text = {
+# 		trigger = {
+# 			has_idea = JAP_great_council_of_state_idea
+# 		}
+# 		localization_key = DAIJO_DAIJIN_TRAIT
+# 	}
+# }
+
+defined_text = {
+	name = GetHOGTrait
+	text = {
+		trigger = {
+			has_idea = JAP_great_council_of_state_idea
+		}
+		localization_key = DAIJO_DAIJIN_TRAIT
+	}
+}
+
+
+defined_text = {
+	name = GetHOGTitle
+	text = {
+		trigger = {
+			AND = {
+				tag = JAP
+				has_country_flag = JAP_Shogun_Regime
+				OR = {
+					has_country_flag = JAP_Tokugawa_Iesato_Not_Dead
+					has_country_flag = JAP_kuniyuki_reign
+				}
+			}
+		}
+		localization_key = LEADER_OR_SHG
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = JAP
+				has_country_flag = JAP_Shogun_Regime
+				has_country_flag = JAP_Tri_Edo_Commissioner
+			}
+		}
+		localization_key = LEADER_OR_CMS
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = JAP
+				has_country_leader = {
+					name = "Nakano Seigo"
+					ruling_only = yes 
+				}
+				OR = {
+					has_country_flag = JAP_Hirohito_hos
+					has_country_flag = JAP_Yasuhito_hos
+				}
+			}
+		}
+		localization_key = LEADER_OR_SHK
+	}
+	text = {
+		trigger = {
+			AND = {
+				tag = JAP
+				has_country_leader = {
+					name = "Inoue Nissho"
+					ruling_only = yes
+				}
+				OR = {
+					has_country_flag = JAP_Hirohito_hos
+					has_country_flag = JAP_Yasuhito_hos
+				}
+			}
+		}
+		localization_key = LEADER_OR_LSM
+	}
+}
+
+defined_text = {
+	name = GetHOGTrait
+
+	text = { #Not by Minister Ideas
+		trigger = {
+			AND = {
+				or = {
+					has_government = authoritarian_democrat
+					has_government = paternal_autocrat
+				}
+				has_idea = JAP_great_council_of_state_idea
+			}
+		}
+		localization_key = DAIJO_DAIJIN_TRAIT
+	}
+}
+defined_text = {
+	name = GetPrimeMinister
+	text = {
+		trigger = {
+			has_country_flag = JAP_Tokugawa_Iesato_Not_Dead
+		}
+		localization_key = "Tokugawa Iesato"
+	}
+	text = {
+		trigger = {
+			has_country_flag = JAP_Tri_Edo_Commissioner
+		}
+		localization_key = "Edo San-bugyō"
+	}
+	text = {
+		trigger = {
+			has_country_flag = JAP_Hirohito_hos
+		}
+		localization_key = "Hirohito"
+	}
+	text = {
+		trigger = {
+			has_country_flag = JAP_Yasuhito_hos
+		}
+		localization_key = "Yasuhito"
+	}
+	#so on and so forth
+}
+
+

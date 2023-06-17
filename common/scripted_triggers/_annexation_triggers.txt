@@ -1,0 +1,26 @@
+is_valid_annexation_state = {
+	is_owned_and_controlled_by = ROOT
+	is_claim_or_core_of_ROOT = no
+}
+
+ROOT_can_grant_land = {
+	exists = yes
+	NOT = {
+		has_war_with = ROOT
+		has_wargoal_against = ROOT
+		is_justifying_wargoal_against = ROOT
+		ROOT = { is_justifying_wargoal_against = PREV }
+		ROOT = { has_wargoal_against = PREV }
+		any_owned_state = { is_claim_or_core_of_ROOT = yes }
+	}
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_socialist_government = no
+			ROOT = { has_socialist_government = no }
+		}
+	}
+}

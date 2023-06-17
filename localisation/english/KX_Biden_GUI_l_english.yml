@@ -1,0 +1,21 @@
+﻿l_english:
+
+HOS_OR_HOG: "[GetHOGTitle]"
+GUILEADERNAME: "[GUIHOSNAME]"
+GUIHOSNAME: "§Y[ROOT.GetLeader]§!\n--------------\n [THIS.GetLeaderDescription]"
+GUILEADERNAMETRAIT: "§Y[ROOT.GetLeader]§!\n\n[THIS.GetLeaderTrait]\n --------------\n [THIS.GetLeaderDescription]"
+GUIHOGNAMETRAIT: "§Y[ROOT.GetPrimeMinister]§!\n\n[THIS.GetHOGTrait]\n --------------\n [THIS.GetHeadDescription]"
+GUIHOGNAME: "§Y[ROOT.GetPrimeMinister]§!\n--------------\n [THIS.GetHeadDescription]"
+GUIHEADNAME: "[GUIHOGNAME]"
+
+LEADER_OR_SHG: "Click to switch between §GEmperor§! and §CSei-i Taishogun§! view"
+LEADER_OR_CMS: "Click to switch between §GEmperor§! and §CEdo Commissioner§! view"
+LEADER_OR_SHK: "Click to switch between §GEmperor§! and §CShikken§! view"
+LEADER_OR_LSM: "Click to switch between §GShinseigun Sō-shirei§! and §CShinseigun Ji-i-shirei§! view"
+LEADER_OR_PRE: "Click to switch between §GEmperor§! and §CPresident of Supreme People's Congress§! view"
+### Leader GUI Stuff ###
+
+DAIJO_DAIJIN_TRAIT: "§YChancellor of State§!\n- Stability: §G+10.00%§!\n- War Support: §G+5.00%§!\n- Political Power Gain: §G+7.00%§!"
+
+
+
