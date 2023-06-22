@@ -4,7 +4,6 @@ state={
 	name="STATE_786"
 
 	history={
-		
 		owner = GER
 		buildings = {
 			infrastructure = 4
@@ -15,9 +14,10 @@ state={
 	}
 
 	provinces={
-		444 537 3473 6236 9387 11478 
+		444 537 3473 6236 11478 
 	}
 	manpower=246700
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

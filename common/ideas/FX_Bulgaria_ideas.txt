@@ -578,26 +578,26 @@ ideas = {
 	}
 
 #### Air and Naval Manufacturer ####
-	air_naval_manufacturer = {
-		designer = yes
+	# air_naval_manufacturer = {
+	# 	designer = yes
 
-		darzhavna_aeroplanna_rabotilnitsa = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea darzhavna_aeroplanna_rabotilnitsa"}
-			allowed = { original_tag = BUL }
-			traits = { fighter_producer_offense_1 }
-			research_bonus = {
-				air_equipment = 0.1
-			}
-		}
+	# 	darzhavna_aeroplanna_rabotilnitsa = {
+	# 		on_add = { log = "[GetDateText]: [Root.GetName]: add idea darzhavna_aeroplanna_rabotilnitsa"}
+	# 		allowed = { original_tag = BUL }
+	# 		traits = { fighter_producer_offense_1 }
+	# 		research_bonus = {
+	# 			air_equipment = 0.1
+	# 		}
+	# 	}
 
-		kaproni_bulgarski = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea kaproni_bulgarski"}
-			allowed = { original_tag = BUL }
-			traits = { bomber_producer_offense_1 }
-			research_bonus = {
-				air_equipment = 0.1
-			}
-		}
+	# 	kaproni_bulgarski = {
+	# 		on_add = { log = "[GetDateText]: [Root.GetName]: add idea kaproni_bulgarski"}
+	# 		allowed = { original_tag = BUL }
+	# 		traits = { bomber_producer_offense_1 }
+	# 		research_bonus = {
+	# 			air_equipment = 0.1
+	# 		}
+	# 	}
 
-	}
+	# }
 }

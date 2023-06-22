@@ -2,6 +2,7 @@
 state={
 	id=73
 	name="STATE_73"
+
 	history={
 		owner = SLO
 		buildings = {
@@ -15,8 +16,9 @@ state={
 		}
 
 	}
+
 	provinces={
-		3548 6571 9563 11536 
+		3548 6571 9563 11536 11691 
 	}
 	manpower=709100
 	buildings_max_level_factor=1.000

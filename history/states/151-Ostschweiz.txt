@@ -2,13 +2,8 @@
 state={
 	id=151
 	name="STATE_151"
-	manpower = 1854711
-	
-	
-	state_category = city
-	
 	resources={
-		aluminium=15.0
+		aluminium=15.000
 	}
 
 	history={
@@ -17,14 +12,20 @@ state={
 			infrastructure = 3
 			industrial_complex = 2
 			arms_factory = 1
+
 		}
 		victory_points = {
 			663 10 
 		}
 		add_core_of = SWI
+
 	}
 
 	provinces={
 		661 663 3660 11601 11623 
 	}
+	manpower=1854711
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

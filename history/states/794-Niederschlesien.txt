@@ -3,8 +3,8 @@ state={
 	id=794
 	name="STATE_794"
 	resources={
-		steel=69.0
-		aluminium=24.0
+		steel=69.000
+		aluminium=24.000
 	}
 
 	history={
@@ -24,9 +24,10 @@ state={
 	}
 
 	provinces={
-		552 3283 3438 3485 3510 3545 6462 6534 6595 9470 9570 11517 
+		552 3283 3438 3485 3510 3545 3572 6462 6534 6595 9470 9535 9570 11517 
 	}
 	manpower=2245020
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

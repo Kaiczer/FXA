@@ -1,19 +1,24 @@
+
 state={
 	id=1042
 	name="STATE_1042"
-	provinces={
-		11691 
-	}
-	history = {
-		owner = SLO
-		add_core_of = SLO
-		add_claim_by = HUN
+
+	history={
+		owner = DEN 
+		add_core_of = DEN 
+		add_claim_by = GER
 		buildings = {
 			infrastructure = 3
+
 		}
+
+	}
+
+	provinces={
+		332 11251 
 	}
 	manpower=145200
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category = rural
 }

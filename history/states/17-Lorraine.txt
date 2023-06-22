@@ -3,7 +3,7 @@ state={
 	id=17
 	name="STATE_17"
 	resources={
-		steel=28.0
+		steel=28.000
 	}
 
 	history={
@@ -18,16 +18,19 @@ state={
 			anti_air_building = 2
 			3646 = {
 				bunker = 3
+
 			}
+
 		}
 		add_core_of = FRA
 
 	}
 
 	provinces={
-		698 3646 3666 6698 9642 9658 11488 11642 
+		698 817 3646 3650 3666 6639 6668 6698 9642 9658 11488 11642 
 	}
 	manpower=2917500
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

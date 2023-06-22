@@ -9,26 +9,26 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
-			dockyard = 1
 			air_base = 6
-			485= {
-				naval_base = 1
-			}
+
 		}
 		victory_points = {
-			9434 8
+			9434 8 
 		}
 		victory_points = {
-			11563 6
+			11563 6 
 		}
 		victory_points = {
-			485 2
+			485 2 
 		}
+
 	}
+
 	provinces={
-		485 6569 9434 11563 
+		6547 9507 9523 9725 
 	}
-	manpower= 915628
-	state_category=city
+	manpower=915628
 	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

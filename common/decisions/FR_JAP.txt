@@ -1435,7 +1435,7 @@ JAP_south_asian_expansion = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision JAP_add_papua"
-			"INS" = { 
+			INS = { 
 				transfer_state = 669
 				transfer_state = 856
 				transfer_state = 523
@@ -1486,7 +1486,7 @@ JAP_south_asian_expansion = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision JAP_add_eastern_islands"
-			"INS" = { 
+			INS = { 
 				transfer_state = 737
 				transfer_state = 634
 				
