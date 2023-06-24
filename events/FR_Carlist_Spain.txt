@@ -120,7 +120,7 @@ country_event = {
 		name = carspain.4.a
 		add_political_power = 15
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 		}
 	}
@@ -144,7 +144,7 @@ country_event = {
 		name = carspain.5.a
 		add_political_power = 20
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = 0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.04 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}

@@ -4,12 +4,12 @@
 NFL_FUHRERREDUX_DESC: "remind CIA to write this"
 
 ### Country Names
-NFL_vanguardist: "Socialist Republic of Newfoundland"
-NFL_vanguardist_ADJ: "Newfoundlander"
-NFL_vanguardist_DEF: "The Socialist Republic of Newfoundland"
-NFL_collectivist: "Socialist Republic of Newfoundland"
-NFL_collectivist_ADJ: "Newfoundlander"
-NFL_collectivist_DEF: "The Socialist Republic of Newfoundland"
+NFL_auth_socialist: "Socialist Republic of Newfoundland"
+NFL_auth_socialist_ADJ: "Newfoundlander"
+NFL_auth_socialist_DEF: "The Socialist Republic of Newfoundland"
+NFL_vanguard_socialist: "Socialist Republic of Newfoundland"
+NFL_vanguard_socialist_ADJ: "Newfoundlander"
+NFL_vanguard_socialist_DEF: "The Socialist Republic of Newfoundland"
 NFL_libertarian_socialist: "Socialist Republic of Newfoundland"
 NFL_libertarian_socialist_ADJ: "Newfoundlander"
 NFL_libertarian_socialist_DEF: "The Socialist Republic of Newfoundland"
@@ -40,10 +40,10 @@ NFL_valkist_DEF: "Vinland"
 
 #### Political Parties ####
 
-NFL_vanguardist_party: "NDP"
-NFL_vanguardist_party_long: "New Democratic Party"
-NFL_collectivist_party: "PCPN"
-NFL_collectivist_party_long: "Popular Collectivist Party of Newfoundland" 
+NFL_auth_socialist_party: "NDP"
+NFL_auth_socialist_party_long: "New Democratic Party"
+NFL_vanguard_socialist_party: "PCPN"
+NFL_vanguard_socialist_party_long: "Popular Collectivist Party of Newfoundland" 
 NFL_libertarian_socialist_party: "MCU"
 NFL_libertarian_socialist_party_long: "Miner's Central Union"
 NFL_social_democrat_party: "FPU"

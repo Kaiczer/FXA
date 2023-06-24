@@ -212,11 +212,11 @@ country_event = { #Popular issurection
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = vanguard_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = auth_socialist
 			popularity = 0.1
 		}
 
@@ -1993,11 +1993,11 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 0.25
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			modifier = {
 				factor = 4
@@ -4303,11 +4303,11 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -4350,11 +4350,11 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			modifier = {
 				factor = 4
@@ -4443,11 +4443,11 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -4490,11 +4490,11 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			modifier = {
 				factor = 4

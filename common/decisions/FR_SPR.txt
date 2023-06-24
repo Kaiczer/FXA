@@ -832,8 +832,8 @@ SPA_foreign_policy = {
 			every_other_country = {
 				limit = {
 					OR = {
-						has_government = vanguardist
-						has_government = collectivist
+						has_government = auth_socialist
+						has_government = vanguard_socialist
 						has_government = libertarian_socialist
 					}
 				}

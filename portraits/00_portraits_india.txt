@@ -26,7 +26,7 @@ IND = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -34,7 +34,7 @@ IND = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -149,7 +149,7 @@ INC = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -157,7 +157,7 @@ INC = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -272,7 +272,7 @@ TRV = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -280,7 +280,7 @@ TRV = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -395,7 +395,7 @@ MDR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -403,7 +403,7 @@ MDR = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -518,7 +518,7 @@ HYD = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -526,7 +526,7 @@ HYD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -641,7 +641,7 @@ ORI = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -649,7 +649,7 @@ ORI = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -764,7 +764,7 @@ RJH = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -772,7 +772,7 @@ RJH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -887,7 +887,7 @@ BAL = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -895,7 +895,7 @@ BAL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1010,7 +1010,7 @@ PUN = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1018,7 +1018,7 @@ PUN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1133,7 +1133,7 @@ KAS = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1141,7 +1141,7 @@ KAS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1256,7 +1256,7 @@ BIH = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1264,7 +1264,7 @@ BIH = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1379,7 +1379,7 @@ BOM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1387,7 +1387,7 @@ BOM = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1502,7 +1502,7 @@ PAK = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1510,7 +1510,7 @@ PAK = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1625,7 +1625,7 @@ BAN = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1633,7 +1633,7 @@ BAN = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1748,7 +1748,7 @@ SRL = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1756,7 +1756,7 @@ SRL = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1871,7 +1871,7 @@ MLD = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -1879,7 +1879,7 @@ MLD = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -1994,7 +1994,7 @@ MYS = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -2002,7 +2002,7 @@ MYS = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"
@@ -2117,7 +2117,7 @@ RAJ = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_land_new_2.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
@@ -2125,7 +2125,7 @@ RAJ = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_6.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_India_Generic_new_1.png"
 				"gfx/leaders/Generic/Portrait_India_Generic_new_3.png"

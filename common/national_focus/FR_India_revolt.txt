@@ -107,7 +107,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus IND_Work_with_Communists"
 			add_war_support = 0.05
 			add_stability = 0.05
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 			add_manpower = 10000
 		}
 	}

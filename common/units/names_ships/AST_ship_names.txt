@@ -8,8 +8,8 @@ AST_DD_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -39,8 +39,8 @@ AST_CL_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -67,8 +67,8 @@ AST_CA_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -95,8 +95,8 @@ AST_BB_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -122,8 +122,8 @@ AST_BC_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -149,8 +149,8 @@ AST_CV_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -177,8 +177,8 @@ AST_SS_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -203,8 +203,8 @@ AST_ANIMALS = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -246,8 +246,8 @@ AST_DD_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -275,8 +275,8 @@ AST_CL_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -301,8 +301,8 @@ AST_CA_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -327,8 +327,8 @@ AST_BB_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -352,8 +352,8 @@ AST_BC_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -377,8 +377,8 @@ AST_CV_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -403,8 +403,8 @@ AST_SS_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -427,8 +427,8 @@ AST_ANIMALS_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}

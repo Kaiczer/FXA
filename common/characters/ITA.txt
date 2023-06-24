@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Palmiro_Togliatti_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Antonio_Gramsci_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -509,7 +509,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Sergio_Panunzio_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_relations_expert
 			}
 		}
@@ -536,7 +536,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vincenzo_Vacirca_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_biased_intellectual
 			}
 		}
@@ -739,11 +739,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -878,7 +878,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Nicola_Bombacci_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_industrialiser
 			}
 		}
@@ -1209,7 +1209,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ruggiero_Grieco_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_media_magnate
 			}
 		}
@@ -1236,7 +1236,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vittorio_Vidali_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1658,11 +1658,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

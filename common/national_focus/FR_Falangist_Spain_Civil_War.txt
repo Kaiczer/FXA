@@ -666,7 +666,7 @@ focus_tree = {
 			add_manpower = -200
 			add_stability = 0.03
 			add_war_support = 0.03
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			165 = {
 				add_resistance = -10
 			}

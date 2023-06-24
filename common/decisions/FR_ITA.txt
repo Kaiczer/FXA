@@ -1453,7 +1453,7 @@ ITA_socialist_march = {
 					add_to_variable = { var = socialist_control value = 3 }
 					custom_effect_tooltip = ITA_influence_gain3
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.02
 					}
 					add_popularity = {
@@ -1572,7 +1572,7 @@ ITA_socialist_march = {
 						}						
 					}
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.03
 					}
 					add_popularity = {
@@ -1603,7 +1603,7 @@ ITA_socialist_march = {
 					add_to_variable = { var = socialist_control value = 4 }
 					custom_effect_tooltip = ITA_influence_gain4
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.02
 					}
 					add_popularity = {
@@ -1722,7 +1722,7 @@ ITA_socialist_march = {
 						}						
 					}
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.03
 					}
 					add_popularity = {
@@ -1753,7 +1753,7 @@ ITA_socialist_march = {
 					add_to_variable = { var = socialist_control value = 4 }
 					custom_effect_tooltip = ITA_influence_gain4
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.02
 					}
 					add_popularity = {
@@ -1872,7 +1872,7 @@ ITA_socialist_march = {
 						}						
 					}
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.03
 					}
 					add_popularity = {
@@ -1903,7 +1903,7 @@ ITA_socialist_march = {
 					add_to_variable = { var = socialist_control value = 3 }
 					custom_effect_tooltip = ITA_influence_gain3
 					add_popularity = {
-						ideology = collectivist
+						ideology = vanguard_socialist
 						popularity = 0.02
 					}
 					add_popularity = {

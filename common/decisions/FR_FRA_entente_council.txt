@@ -514,8 +514,8 @@ FRA_entente_council = {
 			original_tag = FRA
 			SOV = {
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 				NOT = {

@@ -3,12 +3,12 @@
 FR_Denmark: "Danish National Focus Tree"
 
 ### Country Names
-DEN_vanguardist: "Republic of Denmark"
-DEN_vanguardist_ADJ: "Danish"
-DEN_vanguardist_DEF: "The Republic of Denmark"
-DEN_collectivist: "Republic of Denmark"
-DEN_collectivist_ADJ: "Danish"
-DEN_collectivist_DEF: "The Republic of Denmark"
+DEN_auth_socialist: "Republic of Denmark"
+DEN_auth_socialist_ADJ: "Danish"
+DEN_auth_socialist_DEF: "The Republic of Denmark"
+DEN_vanguard_socialist: "Republic of Denmark"
+DEN_vanguard_socialist_ADJ: "Danish"
+DEN_vanguard_socialist_DEF: "The Republic of Denmark"
 DEN_libertarian_socialist: "Republic of Denmark"
 DEN_libertarian_socialist_ADJ: "Danish"
 DEN_libertarian_socialist_DEF: "The Republic of Denmark"
@@ -39,10 +39,10 @@ DEN_valkist_DEF: "Deense Staat"
 
 #### Political Parties ####
 
-DEN_vanguardist_party: "Kommunisterne"
-DEN_vanguardist_party_long: "Danmarks Kommunistiske Parti (Radicals)"
-DEN_collectivist_party: "Kommunisterne"
-DEN_collectivist_party_long: "Danmarks Kommunistiske Parti (Moderates)"
+DEN_auth_socialist_party: "Kommunisterne"
+DEN_auth_socialist_party_long: "Danmarks Kommunistiske Parti (Radicals)"
+DEN_vanguard_socialist_party: "Kommunisterne"
+DEN_vanguard_socialist_party_long: "Danmarks Kommunistiske Parti (Moderates)"
 DEN_libertarian_socialist_party: "Republikanerne"
 DEN_libertarian_socialist_party_long: "Republikanerne"
 DEN_libertarian_socdem_party: "Socialdemokraterne"

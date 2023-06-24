@@ -1050,15 +1050,15 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = vanguardist }
+					PREV.ROOT = { has_government = auth_socialist }
 				}
-				vanguardist > 0.2
+				auth_socialist > 0.2
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = collectivist }
+					PREV.ROOT = { has_government = vanguard_socialist }
 				}
-				collectivist > 0.2
+				vanguard_socialist > 0.2
 			}
 			if = {
 				limit = {

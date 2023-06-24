@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-NIC_vanguardist: "Nicaraguan Socialist State"
-NIC_vanguardist_ADJ: "Nicaraguan"
-NIC_vanguardist_DEF: "Nicaraguan Socialist State"
-NIC_collectivist: "Nicaraguan Socialist State"
-NIC_collectivist_ADJ: "Nicaraguan"
-NIC_collectivist_DEF: "Nicaraguan Socialist State"
+NIC_auth_socialist: "Nicaraguan Socialist State"
+NIC_auth_socialist_ADJ: "Nicaraguan"
+NIC_auth_socialist_DEF: "Nicaraguan Socialist State"
+NIC_vanguard_socialist: "Nicaraguan Socialist State"
+NIC_vanguard_socialist_ADJ: "Nicaraguan"
+NIC_vanguard_socialist_DEF: "Nicaraguan Socialist State"
 NIC_libertarian_socialist: "Nicaraguan Communal Republic"
 NIC_libertarian_socialist_ADJ: "Nicaraguan"
 NIC_libertarian_socialist_DEF: "Nicaraguan Communal Republic"
@@ -36,10 +36,10 @@ NIC_valkist_ADJ: "Nicaraguan"
 NIC_valkist_DEF: "True Nicaraguan Republic"
 
 ### Parties
-NIC_vanguardist_party_long: "Partido Nacional Revolucionario"
-NIC_vanguardist_party: "PNR"
-NIC_collectivist_party_long: "Frente de Soberanía Nacional"
-NIC_collectivist_party: "FSN"
+NIC_auth_socialist_party_long: "Partido Nacional Revolucionario"
+NIC_auth_socialist_party: "PNR"
+NIC_vanguard_socialist_party_long: "Frente de Soberanía Nacional"
+NIC_vanguard_socialist_party: "FSN"
 NIC_libertarian_socialist_party_long: "Partido Campesino de Nicaragua"
 NIC_libertarian_socialist_party: "PCN"
 NIC_social_democrat_party_long: "Partido Campesino de Nicaragua"

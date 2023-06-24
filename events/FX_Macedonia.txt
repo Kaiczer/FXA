@@ -303,7 +303,7 @@ country_event = {
 			name = "Comrade Aléxandros"
 		}
 		set_politics = {
-			ruling_party = vanguardist
+			ruling_party = auth_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
@@ -311,7 +311,7 @@ country_event = {
 			popularity = -100
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = auth_socialist
 			popularity = 100
 		}
 	}

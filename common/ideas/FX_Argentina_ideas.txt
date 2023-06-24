@@ -237,17 +237,17 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.07
 			}
 		}
-		ARG_the_collectivist_revolution = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_collectivist_revolution"}
+		ARG_the_vanguard_socialist_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				vanguard_socialist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				auth_socialist_drift = 0.01
 			}
 		}
 
@@ -259,9 +259,9 @@ ideas = {
 
 			picture = generic_collectivism_banned
 			modifier = {
-				collectivist_drift = -0.03
+				vanguard_socialist_drift = -0.03
 				libertarian_socialist_drift = -0.01
-				vanguardist_drift = -0.01
+				auth_socialist_drift = -0.01
 			}
 		}
 
@@ -287,7 +287,7 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = -0.50 
 				resistance_activity = -0.1
-				collectivist_drift = -0.01
+				vanguard_socialist_drift = -0.01
 				libertarian_socialist_drift = -0.01
 			}
 		}
@@ -545,31 +545,31 @@ ideas = {
 			}
 		}
 
-		ARG_the_collectivist_revolution1 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_collectivist_revolution1"}
+		ARG_the_vanguard_socialist_revolution1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution1"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				vanguard_socialist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				auth_socialist_drift = 0.01
 				political_power_gain = 0.03
 			}
 		}
-		ARG_the_collectivist_revolution2 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_collectivist_revolution2"}
+		ARG_the_vanguard_socialist_revolution2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution2"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				collectivist_drift = 0.03
+				vanguard_socialist_drift = 0.03
 				libertarian_socialist_drift = 0.01
-				vanguardist_drift = 0.01
+				auth_socialist_drift = 0.01
 				political_power_gain = 0.05
 				stability_factor = 0.05	
 			}
@@ -610,15 +610,15 @@ ideas = {
 				min_export = -0.05     
 			}
 		}
-		ARG_the_vanguardist_revolution = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguardist_revolution"}
+		ARG_the_auth_socialist_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_auth_socialist_revolution"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_vanguardism_rising
 			modifier = {
-				vanguardist_drift = 0.04
+				auth_socialist_drift = 0.04
 				political_power_gain = 0.07
 				stability_factor = 0.07
 				war_support_factor = 0.01

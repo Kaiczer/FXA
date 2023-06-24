@@ -668,8 +668,8 @@ ITA_become_kingdom = {
 
     hidden_effect = {
       ITA_Amedeo_di_Savoia_Aosta = {
-        promote_character = vanguardist_subtype
-        promote_character = collectivist_subtype
+        promote_character = authsoc_subtype
+        promote_character = vansoc_subtype
         promote_character = libertarian_socialist_subtype
         promote_character = social_democrat_subtype
         promote_character = social_liberal_subtype

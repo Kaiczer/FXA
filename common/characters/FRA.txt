@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Marcel_Deat_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -39,7 +39,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -590,7 +590,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Georges_Valois_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -617,7 +617,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Benoit_Frachon_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -644,7 +644,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Marceau_Pivert_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_naive_optimist
 			}
 		}
@@ -1034,7 +1034,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Jacques_Duclos_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -1061,7 +1061,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Charles_Rappoport_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1304,7 +1304,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Daniel_Renoult_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_reformer
 			}
 		}
@@ -1331,7 +1331,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Leon_Jouhaux_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1606,7 +1606,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Claudine_Chomat_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}
@@ -1633,7 +1633,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Bonnet_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1660,7 +1660,7 @@ characters = {
 				ROOT = { clr_country_flag = FRA_Henri_Gourdeaux_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_health_and_safety
 			}
 		}

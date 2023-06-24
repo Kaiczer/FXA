@@ -106,13 +106,13 @@ set_temp_variable = {
 }
 add_to_coalition = yes
 set_temp_variable = {
-	coalition_partner_var = token:collectivist
+	coalition_partner_var = token:vanguard_socialist
 }
 add_to_coalition = yes
 
 set_popularities = {
-  vanguardist = 0
-  collectivist = 3
+  auth_socialist = 0
+  vanguard_socialist = 3
   libertarian_socialist = 5
   social_democrat = 4
   social_liberal = 37

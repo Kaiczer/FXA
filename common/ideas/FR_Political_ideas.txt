@@ -1,15 +1,15 @@
 ideas = {
 	country = {
 
-		vanguardist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea vanguardist_influence"}
+		auth_socialist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea auth_socialist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 
 			removal_cost = -1
@@ -17,20 +17,20 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				vanguardist_drift = 0.1
-				vanguardist_acceptance = 85
+				auth_socialist_drift = 0.1
+				auth_socialist_acceptance = 85
 			}
 		}
 		
-		collectivist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea collectivist_influence"}
+		vanguard_socialist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea vanguard_socialist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
 
 			removal_cost = -1
@@ -38,8 +38,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				collectivist_drift = 0.1
-				collectivist_acceptance = 85
+				vanguard_socialist_drift = 0.1
+				vanguard_socialist_acceptance = 85
 			}
 		}
 		

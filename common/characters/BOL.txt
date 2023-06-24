@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Guillermo_Lora_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -48,7 +48,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Orlando_Capriles_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -553,7 +553,7 @@ characters = {
 				ROOT = { clr_country_flag = BOL_Edwin_Moller_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1042,7 +1042,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -1054,7 +1054,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}

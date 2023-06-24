@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -460,7 +460,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Hakon_Meyer_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -488,7 +488,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Halvard_Olsen_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -515,7 +515,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Haakon_Lie_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_charismatic_charmer
 			}
 		}
@@ -542,7 +542,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Konrad_Nordahl_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -870,7 +870,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Albin_Eines_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -897,7 +897,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Elias_Volan_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -924,7 +924,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Arnulf_Overland_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_hawkish_intervener
 			}
 		}
@@ -951,7 +951,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Arvid_Gilbert_Hansen_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1384,7 +1384,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Haavard_Langseth_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1411,7 +1411,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Johan_Strand_Johansen_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1438,7 +1438,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Fredrik_Monsen_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_reformer
 			}
 		}
@@ -1465,7 +1465,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Ole_Colbjornsen_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_industrialiser
 			}
 		}
@@ -1924,7 +1924,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Henry_Wilhelm_Kristiansen_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1951,7 +1951,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Sverre_Krogh_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_crime_fighter
 			}
 		}
@@ -1978,7 +1978,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Emil_Stang_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_back_stabber
 			}
 		}
@@ -2005,7 +2005,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Olav_Hindahl_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -2724,7 +2724,7 @@ characters = {
 				ROOT = { clr_country_flag = NOR_Peder_Furubotn_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}

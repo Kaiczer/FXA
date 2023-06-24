@@ -24,8 +24,8 @@ ITA_socialist_march = {
 	
 	visible = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -112,8 +112,8 @@ ITA_socialist_march_rome = {
 
 	visible = {
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 		NOT = {

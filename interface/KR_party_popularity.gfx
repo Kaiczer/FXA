@@ -1,11 +1,11 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_vanguardist_small"
-		texturefile = "gfx/interface/ideologies/vanguardist_small.png"
+		name = "GFX_auth_socialist_small"
+		texturefile = "gfx/interface/ideologies/auth_socialist_small.png"
 	}
 	spriteType = {
-		name = "GFX_collectivist_small"
-		texturefile = "gfx/interface/ideologies/collectivist_small.png"
+		name = "GFX_vanguard_socialist_small"
+		texturefile = "gfx/interface/ideologies/vanguard_socialist_small.png"
 	}
 	spriteType = {
 		name = "GFX_libertarian_socialist_small"

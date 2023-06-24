@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-JAP_vanguardist: "Federated Communal Republic of Japan" #日本公社連合共和国
-JAP_vanguardist_ADJ: "Japanese"
-JAP_vanguardist_DEF: "The Federated Communal Republic of Japan" 
-JAP_collectivist: "United Provinces of Revolutionary Japan" #日本革命連邦共和国
-JAP_collectivist_ADJ: "Japanese"
-JAP_collectivist_DEF: "The United Provinces of Revolutionary Japan"
+JAP_auth_socialist: "Federated Communal Republic of Japan" #日本公社連合共和国
+JAP_auth_socialist_ADJ: "Japanese"
+JAP_auth_socialist_DEF: "The Federated Communal Republic of Japan" 
+JAP_vanguard_socialist: "United Provinces of Revolutionary Japan" #日本革命連邦共和国
+JAP_vanguard_socialist_ADJ: "Japanese"
+JAP_vanguard_socialist_DEF: "The United Provinces of Revolutionary Japan"
 JAP_libertarian_socialist: "Japanese Democratic People's Republic"
 JAP_libertarian_socialist_ADJ: "Japan"
 JAP_libertarian_socialist_DEF: "The Japanese Democratic People's Republic"
@@ -50,10 +50,10 @@ JAP_Suiheisha_libertarian_socialist: "Democratic Confederation of Japan"
 JAP_Suiheisha_libertarian_socialist_DEF: "The Democratic Confederation of Japan"
 JAP_Republican_libertarian_socialist: "Socialist Republic of Japan"
 JAP_Republican_libertarian_socialist_DEF: "The Socialist Republic of Japan"
-JAP_Republican_collectivist: "Japanese Socialist Council Republic"
-JAP_Republican_collectivist_DEF: "The Japanese Socialist Council Republic"
-JAP_Republican_vanguardist: "Japanese Revolutionary Communes"
-JAP_Republican_vanguardist_DEF: "The Federation of Japanese Revolutionary Communes"
+JAP_Republican_vanguard_socialist: "Japanese Socialist Council Republic"
+JAP_Republican_vanguard_socialist_DEF: "The Japanese Socialist Council Republic"
+JAP_Republican_auth_socialist: "Japanese Revolutionary Communes"
+JAP_Republican_auth_socialist_DEF: "The Federation of Japanese Revolutionary Communes"
 JAP_Red_Empire: "Dai Nihon Teikoku Renmei"
 JAP_Red_Empire_DEF: "The Greater Union of Imperial Japan"
 JAP_Social_Fem: "Federal Democratic Republic of Japan"
@@ -61,10 +61,10 @@ JAP_Social_Fem_DEF: "The Federal Democratic Republic of Japan"
 
 
 #### Political Parties ####
-JAP_vanguardist_party: "Shakai Zen'ei-ha" #社会前衛派
-JAP_vanguardist_party_long: "Nippon Shakaishugi Domei - Shakai Zen'ei-ha (Japan Socialist League - Vanguardist)"
-JAP_collectivist_party: "Kyōsan-ha"
-JAP_collectivist_party_long: "Nippon Shakaishugi Domei - Kyōsan-ha (Japan Socialist League - Communist)"
+JAP_auth_socialist_party: "Shakai Zen'ei-ha" #社会前衛派
+JAP_auth_socialist_party_long: "Nippon Shakaishugi Domei - Shakai Zen'ei-ha (Japan Socialist League - Vanguardist)"
+JAP_vanguard_socialist_party: "Kyōsan-ha"
+JAP_vanguard_socialist_party_long: "Nippon Shakaishugi Domei - Kyōsan-ha (Japan Socialist League - Communist)"
 JAP_libertarian_socialist_party: "Kakumei-ha"
 JAP_libertarian_socialist_party_long: "Nippon Shakaishugi Domei - Kakumei-ha (Japan Socialist League - Revolutionist)"
 JAP_social_democrat_party: "Shakai Taishūtō"
@@ -105,12 +105,12 @@ JAP_Suiheisha_libertarian_socialist_party: "Kyokutō Suiheisha"
 JAP_Suiheisha_libertarian_socialist_party_long: "Kyokutō Suiheisha (Far Eastern Society of Levellers)"
 JAP_Republican_libertarian_socialist_party: "Jinmin-kai"
 JAP_Republican_libertarian_socialist_party_long: "Saikō Jinmin Kumiai Hyōgi-kai (Supreme People's Union Council)"
-JAP_Republican_collectivist_party: "Seito-ha"
-JAP_Republican_collectivist_party_long: "Kyōsan-tō - Seito-ha (Japanese Communist Party - Orthodoxy)"
-JAP_Republican_vanguardist_party: "Zen'ei-sha"
-JAP_Republican_vanguardist_party_long: "Kyōsan-tō - Zen'ei-sha (Japanese Communist Party - Vanguardist)"
-JAP_Red_Empire_vanguardist_party: "Shin Sakurakai"
-JAP_Red_Empire_vanguardist_party_long: "Shin Sakurakai (New Sakura Society)"
+JAP_Republican_vanguard_socialist_party: "Seito-ha"
+JAP_Republican_vanguard_socialist_party_long: "Kyōsan-tō - Seito-ha (Japanese Communist Party - Orthodoxy)"
+JAP_Republican_auth_socialist_party: "Zen'ei-sha"
+JAP_Republican_auth_socialist_party_long: "Kyōsan-tō - Zen'ei-sha (Japanese Communist Party - Vanguardist)"
+JAP_Red_Empire_auth_socialist_party: "Shin Sakurakai"
+JAP_Red_Empire_auth_socialist_party_long: "Shin Sakurakai (New Sakura Society)"
 JAP_Social_Fem_libertarian_socialist_party: "Jiritsu-ha"
 JAP_Social_Fem_libertarian_socialist_party_long: "Kyōsan-tō - Jiritsu-ha (Japanese Communist Party - Autonomist)"
 

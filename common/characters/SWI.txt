@@ -89,11 +89,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -111,7 +111,7 @@ characters = {
 				ROOT = { clr_country_flag = SWI_Fritz_Platten_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -292,7 +292,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marino_Bodenmann_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -319,7 +319,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Jules_Humbert_Droz_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -949,7 +949,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Jakob_Herzog_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_biased_intellectual
 			}
 		}
@@ -976,7 +976,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Rudolf_Gelpke_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_biased_intellectual
 			}
 		}
@@ -1225,7 +1225,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Franz_Welti_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_industrialiser
 			}
 		}
@@ -1252,7 +1252,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Charles_Naine_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1549,7 +1549,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Heinrich_Abbegg_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}
@@ -1576,7 +1576,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Ernest_Paul_Graber_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_health_and_safety
 			}
 		}

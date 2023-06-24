@@ -6,8 +6,8 @@ DEN_domestic_affairs_decisions = {
 		icon = generic_form_nation
 		available = {
 			NOT = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 				is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
 			}

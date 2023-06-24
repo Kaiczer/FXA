@@ -1320,11 +1320,11 @@ focus_tree = {
         popularity = -0.1
       }
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = -0.1
       }
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = -0.1
       }
     }
@@ -1610,11 +1610,11 @@ focus_tree = {
     completion_reward = {
       add_stability = 0.15
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = -0.15
       }
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = -0.15
       }
     }
@@ -4688,11 +4688,11 @@ focus_tree = {
     completion_reward = {
       remove_ideas = PHI_guerilla_problem
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = -0.2
       }
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = -0.2
       }
       add_popularity = {

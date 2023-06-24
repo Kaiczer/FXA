@@ -35,8 +35,8 @@ focus_tree = {
 		
 		bypass = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -178,8 +178,8 @@ focus_tree = {
 					FRA = {
 						NOT = {
 							OR = {
-								has_government = vanguardist
-								has_government = collectivist
+								has_government = auth_socialist
+								has_government = vanguard_socialist
 								has_government = libertarian_socialist
 							}
 						}

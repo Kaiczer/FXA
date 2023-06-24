@@ -73,13 +73,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAU_control_workers"
 			add_political_power = 50
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 		}
 
 	}
 	focus = {
 		id = SPA_MAU_defend_spanish_socialism
-		icon = GFX_goal_ideology_vanguardist
+		icon = GFX_goal_ideology_auth_socialist
 		cost = 8.00
 		prerequisite = {
 			focus = SPA_MAU_tighten_police_control
@@ -118,7 +118,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAU_matanzas_de_paracuellos"
 			add_stability = 0.05
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 			add_manpower = -5000
 		}
 
@@ -161,7 +161,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAU_grow_personality_cult"
 			add_stability = 0.05
-			add_popularity = { ideology = vanguardist popularity = 0.03 }
+			add_popularity = { ideology = auth_socialist popularity = 0.03 }
 		}
 
 	}

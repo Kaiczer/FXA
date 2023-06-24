@@ -53,7 +53,7 @@ country_event = { #STALIN RESURFACING
 	}
 	option = {
 		name = ge.1000.a #Leave him alone
-		add_popularity = { ideology = vanguardist popularity = 0.05 }
+		add_popularity = { ideology = auth_socialist popularity = 0.05 }
 		set_country_flag = GEO_stalin_left_alone
 		ai_chance = {
 			factor = 20
@@ -112,7 +112,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ge.1002.a #Stalin is still a nut ("Maybe we should have gotten him therapy as well")
-		add_popularity = { ideology = vanguardist popularity = 0.1 }
+		add_popularity = { ideology = auth_socialist popularity = 0.1 }
 		set_country_flag = GEO_stalin_left_alone
 	}
 }
@@ -141,7 +141,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = ge.1004.a #Stalin is still a nut ("Maybe we should have gotten him therapy as well")
-		add_popularity = { ideology = vanguardist popularity = 0.1 }
+		add_popularity = { ideology = auth_socialist popularity = 0.1 }
 		set_country_flag = GEO_stalin_left_alone
 	}
 }
@@ -175,20 +175,20 @@ country_event = { #STALIN'S COUP
 		name = ge.1100.a #"This is a dark time for our country."
 		
 		hidden_effect = {
-			set_party_name = { ideology = vanguardist long_name = GEO_stalin_party_long name = GEO_stalin_party }
+			set_party_name = { ideology = auth_socialist long_name = GEO_stalin_party_long name = GEO_stalin_party }
 			set_cosmetic_tag = GEO_STA
       add_country_leader_role = {
         character = GEO_Ioseb_Jugashvili
         promote_leader = yes
         country_leader = {
-          ideology = vanguardist_subtype
+          ideology = authsoc_subtype
           traits = {}
         }
       }
-			add_popularity = { ideology = vanguardist popularity = 0.2 }
+			add_popularity = { ideology = auth_socialist popularity = 0.2 }
 			add_ideas = one_party_dictatorship
 			set_politics = {
-				ruling_party = vanguardist
+				ruling_party = auth_socialist
 				elections_allowed = no
 			}
 			set_country_flag = stalin
@@ -393,7 +393,7 @@ country_event = { #Georgia switches to Soviet Puppet tree, test event
 		
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = collectivist
+			ruling_party = vanguard_socialist
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -407,7 +407,7 @@ country_event = { #Georgia switches to Soviet Puppet tree, test event
           character = GEO_Sergo_Ordzhonikidze
           promote_leader = yes
           country_leader = {
-            ideology = vanguardist_subtype
+            ideology = authsoc_subtype
             traits = {}
           }
         }
@@ -538,8 +538,8 @@ country_event = { #ELECTIONS
 		add_ideas = parliamentary_republic
 		set_politics = { ruling_party = libertarian_socialist elections_allowed = no }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.1 }
-		add_popularity = { ideology = collectivist popularity = 0.05 }
-		add_popularity = { ideology = vanguardist popularity = 0.05 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+		add_popularity = { ideology = auth_socialist popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.05 }
 		complete_national_focus = GEO_1936_elections
 		add_ideas = {
@@ -829,8 +829,8 @@ country_event = { #Sochi intervention by Soviet
 				factor = 0.25
 				NOT = {
 					OR = {
-						has_government = vanguardist
-						has_government = collectivist
+						has_government = auth_socialist
+						has_government = vanguard_socialist
 					}
 				}
 			}
@@ -845,8 +845,8 @@ country_event = { #Sochi intervention by Soviet
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 				}
 			}
 		}
@@ -2136,8 +2136,8 @@ country_event = {
 						# tag = TRT
 					}
 					NOT = { 
-						has_government = vanguardist
-						has_government = collectivist 
+						has_government = auth_socialist
+						has_government = vanguard_socialist 
 						has_government = libertarian_socialist 
 						has_government = social_democrat 
 						has_government = social_liberal 
@@ -2188,8 +2188,8 @@ country_event = { #Ekvtime opens up a museaum exhibition
 		tag = GEO
 		NOT = {
 			OR = {
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 	}
@@ -2214,8 +2214,8 @@ country_event = { #Tbilisi Central Stadium is renovated
 		tag = GEO
 		NOT = {
 			OR = {
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 	}
@@ -2240,8 +2240,8 @@ country_event = { #Chiaureli releases Arsen
 		tag = GEO
 		NOT = {
 			OR = {
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 	}
@@ -2277,8 +2277,8 @@ country_event = { #Chiaureli releases The Great Dawn
 		has_global_flag = All_News_Events
 		NOT = {
 			OR = {
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 	}
@@ -2350,8 +2350,8 @@ country_event = { #Gerzel Baazov writes a nice book
 		tag = GEO
 		NOT = {
 			OR = {
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 	}

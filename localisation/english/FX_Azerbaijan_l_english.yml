@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-AZR_vanguardist: "People's Republic of Azerbaijan"
-AZR_vanguardist_ADJ: "Azeri"
-AZR_vanguardist_DEF: "The People's Republic of Azerbaijan"
-AZR_collectivist: "Baku Commune"
-AZR_collectivist_ADJ: "Azeri"
-AZR_collectivist_DEF: "The Second Baku Commune"
+AZR_auth_socialist: "People's Republic of Azerbaijan"
+AZR_auth_socialist_ADJ: "Azeri"
+AZR_auth_socialist_DEF: "The People's Republic of Azerbaijan"
+AZR_vanguard_socialist: "Baku Commune"
+AZR_vanguard_socialist_ADJ: "Azeri"
+AZR_vanguard_socialist_DEF: "The Second Baku Commune"
 AZR_libertarian_socialist: "Azerbaijan SR"
 AZR_libertarian_socialist_ADJ: "Azeri"
 AZR_libertarian_socialist_DEF: "The Azerbaijan Socialist Republic"
@@ -36,10 +36,10 @@ AZR_valkist_ADJ: "Azeri"
 AZR_valkist_DEF: "The Azerbaijan National State"
 
 ### Parties (from KR)
-AZR_vanguardist_party: "Bolshevik"
-AZR_vanguardist_party_long: "The Bolshevik Party"
-AZR_collectivist_party: "Syndikist"
-AZR_collectivist_party_long: "The Syndikist Party"
+AZR_auth_socialist_party: "Bolshevik"
+AZR_auth_socialist_party_long: "The Bolshevik Party"
+AZR_vanguard_socialist_party: "Syndikist"
+AZR_vanguard_socialist_party_long: "The Syndikist Party"
 AZR_libertarian_socialist_party: "MSB"
 AZR_libertarian_socialist_party_long: "The Muslim Socialist Bloc"
 AZR_social_democrat_party: "Himmat"

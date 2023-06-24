@@ -1076,11 +1076,11 @@ country_event = {
 	option = {
 		name = "We will cleanse Russia of the traitors"
 			add_popularity = { 
-			    ideology = vanguardist
+			    ideology = auth_socialist
 			    popularity = -0.05
 			}
 			add_popularity = { 
-			    ideology = collectivist
+			    ideology = vanguard_socialist
 			    popularity = -0.05
 		    }
 			add_popularity = { 

@@ -341,8 +341,8 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = -0.10
 				conscription_factor = 0.05
-				vanguardist_acceptance = 15
-				collectivist_acceptance = 15
+				auth_socialist_acceptance = 15
+				vanguard_socialist_acceptance = 15
 				libertarian_socialist_acceptance = 15
 			}
 		}
@@ -500,7 +500,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				conscription_factor = 0.08
 				production_speed_buildings_factor = 0.05
-				collectivist_drift = -0.02
+				vanguard_socialist_drift = -0.02
 			}
 		}
 		
@@ -535,7 +535,7 @@ ideas = {
 				political_power_gain = 0.05
 				conscription_factor = 0.30
 				production_speed_buildings_factor = 0.05
-				collectivist_drift = -0.02
+				vanguard_socialist_drift = -0.02
 			}
 		}
 		

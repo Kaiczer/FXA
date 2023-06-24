@@ -591,7 +591,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Giannis_Ioannidis_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_red_chairmen
 			}
 		}
@@ -619,7 +619,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Pantelis_Pouliopoulos_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_sincere_internationalist
 			}
 		}
@@ -828,7 +828,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -840,7 +840,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -1063,7 +1063,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Petros_Rousos_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_general_staffer
 			}
 		}
@@ -1091,7 +1091,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Serafeim_Maximos_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1399,7 +1399,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Vasilis_Bartziotas_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1427,7 +1427,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Olga_Bakola_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1780,7 +1780,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Markos_Vafiadis_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1808,7 +1808,7 @@ characters = {
 				ROOT = { clr_country_flag = GRE_Dimitris_Koutsogiannis_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}

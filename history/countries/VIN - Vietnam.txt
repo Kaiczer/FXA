@@ -76,8 +76,8 @@ add_ideas = {
 }
 
 set_popularities = {
-	vanguardist = 11
-	collectivist = 21
+	auth_socialist = 11
+	vanguard_socialist = 21
 	libertarian_socialist = 5
 	social_democrat = 27
 	social_liberal = 4
@@ -90,7 +90,7 @@ set_popularities = {
 }
 
 set_politics = {
-	ruling_party = collectivist
+	ruling_party = vanguard_socialist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

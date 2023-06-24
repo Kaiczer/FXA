@@ -6593,8 +6593,8 @@ country_event = { # Denmark winning - Sweden wants peace
 					OR = {
 						has_government = national_populist
 						has_government = valkist
-						has_government = collectivist
-						has_government = vanguardist
+						has_government = vanguard_socialist
+						has_government = auth_socialist
 					}
 				}
 				SWE = {
@@ -6613,8 +6613,8 @@ country_event = { # Denmark winning - Sweden wants peace
 						OR = {
 							has_government = national_populist
 							has_government = valkist
-							has_government = collectivist
-							has_government = vanguardist
+							has_government = vanguard_socialist
+							has_government = auth_socialist
 						}
 					}
 				}

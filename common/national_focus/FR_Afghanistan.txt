@@ -719,7 +719,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_recieve_soviet_aid"
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 
 	}
@@ -935,7 +935,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_soviet_collaboration"
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 
 	}
@@ -1907,7 +1907,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_soviet_air_planes"
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_tech_bonus = {
 				name = fighter_bonus
 				bonus = 0.5
@@ -2846,7 +2846,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus AFG_strengthen_general_secretary"
 			add_political_power = -30
 			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
-			add_popularity = { ideology = vanguardist popularity = 0.03 }
+			add_popularity = { ideology = auth_socialist popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = AFG_tarakis_land_reform_idea
 				add_idea = AFG_strengthen_general_secretary_idea
@@ -3067,7 +3067,7 @@ focus_tree = {
 				name = AFG_soccon_party
 			}
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
 			if = {
 				limit = {
 					has_idea = AFG_opposition_revolution_idea

@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-AFG_vanguardist: "Republic of Afghanistan"
-AFG_vanguardist_ADJ: "Afghan"
-AFG_vanguardist_DEF: "The Democratic Republic of Afghanistan"
-AFG_collectivist: "Afghan Soviet"
-AFG_collectivist_ADJ: "Afghan"
-AFG_collectivist_DEF: "The Soviet Socialist Republic of Afghanistan"
+AFG_auth_socialist: "Republic of Afghanistan"
+AFG_auth_socialist_ADJ: "Afghan"
+AFG_auth_socialist_DEF: "The Democratic Republic of Afghanistan"
+AFG_vanguard_socialist: "Afghan Soviet"
+AFG_vanguard_socialist_ADJ: "Afghan"
+AFG_vanguard_socialist_DEF: "The Soviet Socialist Republic of Afghanistan"
 AFG_libertarian_socialist: "Republic of Afghanistan"
 AFG_libertarian_socialist_ADJ: "Afghan"
 AFG_libertarian_socialist_DEF: "The Democratic Republic of Afghanistan"
@@ -36,10 +36,10 @@ AFG_valkist_ADJ: "Afghan"
 AFG_valkist_DEF: "The Valkist Empire of Afghanistan"
 
 ### Parties
-AFG_vanguardist_party: "Weekh Zalmian"
-AFG_vanguardist_party_long: "Weekh Zalmian (National Socialists)"
-AFG_collectivist_party: "Pro-Soviets"
-AFG_collectivist_party_long: "Afghan Pro-Soviets"
+AFG_auth_socialist_party: "Weekh Zalmian"
+AFG_auth_socialist_party_long: "Weekh Zalmian (National Socialists)"
+AFG_vanguard_socialist_party: "Pro-Soviets"
+AFG_vanguard_socialist_party_long: "Afghan Pro-Soviets"
 AFG_libertarian_socialist_party: "Weekh Zalmian"
 AFG_libertarian_socialist_party_long: "Weekh Zalmian (Moderate Socialists)"
 AFG_social_democrat_party: "Weekh Zalmian"

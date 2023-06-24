@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-SPR_vanguardist: "Republican Spain"
-SPR_vanguardist_ADJ: "Spanish"
-SPR_vanguardist_DEF: "Republican Spain"
-SPR_collectivist: "Republican Spain"
-SPR_collectivist_ADJ: "Spanish"
-SPR_collectivist_DEF: "Republican Spain"
+SPR_auth_socialist: "Republican Spain"
+SPR_auth_socialist_ADJ: "Spanish"
+SPR_auth_socialist_DEF: "Republican Spain"
+SPR_vanguard_socialist: "Republican Spain"
+SPR_vanguard_socialist_ADJ: "Spanish"
+SPR_vanguard_socialist_DEF: "Republican Spain"
 SPR_libertarian_socialist: "Republican Spain"
 SPR_libertarian_socialist_ADJ: "Spanish"
 SPR_libertarian_socialist_DEF: "Republican Spain"
@@ -36,10 +36,10 @@ SPR_valkist_ADJ: "Spanish"
 SPR_valkist_DEF: "Republican Spain"
 
 ### Parties ###
-SPR_vanguardist_party: "PCE"
-SPR_vanguardist_party_long: "Partido Comunista de España"
-SPR_collectivist_party: "PCE"
-SPR_collectivist_party_long: "Partido Comunista de España"
+SPR_auth_socialist_party: "PCE"
+SPR_auth_socialist_party_long: "Partido Comunista de España"
+SPR_vanguard_socialist_party: "PCE"
+SPR_vanguard_socialist_party_long: "Partido Comunista de España"
 SPR_libertarian_socialist_party: "PSOE"
 SPR_libertarian_socialist_party_long: "Partido Socialista Obrero Español - Radical"
 SPR_social_democrat_party: "PSOE"

@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-COS_vanguardist: "Workers' State of Costa Rica"
-COS_vanguardist_ADJ: "Costa Rican"
-COS_vanguardist_DEF: "Workers' State of Costa Rica"
-COS_collectivist: "Costa Rican Socialist State"
-COS_collectivist_ADJ: "Costa Rican"
-COS_collectivist_DEF: "Costa Rican Socialist State"
+COS_auth_socialist: "Workers' State of Costa Rica"
+COS_auth_socialist_ADJ: "Costa Rican"
+COS_auth_socialist_DEF: "Workers' State of Costa Rica"
+COS_vanguard_socialist: "Costa Rican Socialist State"
+COS_vanguard_socialist_ADJ: "Costa Rican"
+COS_vanguard_socialist_DEF: "Costa Rican Socialist State"
 COS_libertarian_socialist: "Costa Rican Communal Republic"
 COS_libertarian_socialist_ADJ: "Costa Rican"
 COS_libertarian_socialist_DEF: "Costa Rican Communal Republic"
@@ -36,10 +36,10 @@ COS_valkist_ADJ: "Costa Rican"
 COS_valkist_DEF: "Glorous Republic of the Coast"
 
 ### Parties
-COS_vanguardist_party_long: "Partido Vanguardia Popular"
-COS_vanguardist_party: "PVP"
-COS_collectivist_party_long: "Partido Vanguardia Popular"
-COS_collectivist_party: "PVP"
+COS_auth_socialist_party_long: "Partido Vanguardia Popular"
+COS_auth_socialist_party: "PVP"
+COS_vanguard_socialist_party_long: "Partido Vanguardia Popular"
+COS_vanguard_socialist_party: "PVP"
 COS_libertarian_socialist_party_long: "Partido Vanguardia Popular"
 COS_libertarian_socialist_party: "PVP"
 COS_social_democrat_party_long: "Partido Republicano Nacional"

@@ -6,8 +6,8 @@ PRU_political_decisions = {
 		available = {
  			has_country_flag = PRU_annexbol
 			NOT = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			owns_state = 302
@@ -16,8 +16,8 @@ PRU_political_decisions = {
  		visible = { 
  			has_country_flag = PRU_annexbol
 			NOT = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			owns_state = 302
@@ -41,8 +41,8 @@ PRU_political_decisions = {
 		available = {
  			has_country_flag = PRU_annexbol
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			owns_state = 302
@@ -51,8 +51,8 @@ PRU_political_decisions = {
  		visible = { 
  			has_country_flag = PRU_annexbol
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			owns_state = 302
@@ -77,15 +77,15 @@ PRU_political_decisions = {
 		icon = generic_construction
 		available = {
 			NOT = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
  		}
  		visible = { 
 			NOT = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
  		}
@@ -105,30 +105,30 @@ PRU_political_decisions = {
 		icon = generic_political_discourse
 		available = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			ARG = {
 				is_faction_leader = yes
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist		
 				}
 			}
  		}
  		visible = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			ARG = {
 				is_faction_leader = yes
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist		
 				}
 			}

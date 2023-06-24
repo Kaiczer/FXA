@@ -112,8 +112,8 @@ POL_THEME_KINGS = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -150,8 +150,8 @@ POL_THEME_HISTORICAL_FIGURES = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}

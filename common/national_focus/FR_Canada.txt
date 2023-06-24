@@ -2539,8 +2539,8 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_king_purge_socialists"
-			add_popularity = { ideology = vanguardist popularity = -0.1 }
-			add_popularity = { ideology = collectivist popularity = -0.1 }
+			add_popularity = { ideology = auth_socialist popularity = -0.1 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.1 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.1 }
 			add_popularity = { ideology = social_democrat popularity = -0.1 } 
 			add_political_power = 100

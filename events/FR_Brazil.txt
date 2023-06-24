@@ -104,7 +104,7 @@ country_event = { #anarchists support collies
 	option = {
 		name = bra.5.a
 		add_popularity = {
-			ideology = collectivist popularity = 0.025
+			ideology = vanguard_socialist popularity = 0.025
 			}
 		add_popularity = {
 			ideology = libertarian_socialist popularity = 0.025
@@ -226,7 +226,7 @@ country_event = { #Collie Mass Strike
 		name = bra.11.a
 		add_political_power = -60
 		add_popularity = {
-			ideology = collectivist popularity = 0.05
+			ideology = vanguard_socialist popularity = 0.05
 			}
 		set_country_flag = BRA_lefties
 	}

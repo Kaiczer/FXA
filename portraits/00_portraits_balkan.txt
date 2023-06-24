@@ -59,13 +59,13 @@ ARM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -180,13 +180,13 @@ AZR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"

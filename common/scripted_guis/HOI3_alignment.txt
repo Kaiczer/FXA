@@ -29,11 +29,11 @@ scripted_gui = {
 						alignment_array_Y = 0
 					}					
 					set_temp_variable = {
-						communism_X = party_popularity@vanguardist
+						communism_X = party_popularity@auth_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_X
-						value = party_popularity@collectivist
+						value = party_popularity@vanguard_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_X
@@ -43,11 +43,11 @@ scripted_gui = {
 						communism_X = -210
 					}
 					set_temp_variable = {
-						communism_Y = party_popularity@vanguardist
+						communism_Y = party_popularity@auth_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_Y
-						value = party_popularity@collectivist
+						value = party_popularity@vanguard_socialist
 					}
 					add_to_temp_variable = {
 						var = communism_Y
@@ -175,8 +175,8 @@ scripted_gui = {
 					limit = {
 						is_faction_leader = yes
 						OR = {
-							has_government = vanguardist
-							has_government = collectivist
+							has_government = auth_socialist
+							has_government = vanguard_socialist
 							has_government = libertarian_socialist
 						}
 						all_of_scopes = {

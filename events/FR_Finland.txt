@@ -272,8 +272,8 @@ country_event = {
         name = finland.9.a
 		add_stability = -0.05
 		hidden_effect = {
-			add_popularity = { ideology = vanguardist popularity = 0.01 }
-			add_popularity = { ideology = collectivist popularity = 0.01 }
+			add_popularity = { ideology = auth_socialist popularity = 0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
 			add_popularity = { ideology = national_populist popularity = 0.01 }
 			country_event = {
@@ -396,8 +396,8 @@ country_event = {
 		add_stability = 0.05
 		hidden_effect = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
-			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = auth_socialist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			country_event = {
@@ -412,7 +412,7 @@ country_event = {
 		add_stability = 0.03
 		add_ideas = FIN_Adolf_Taimi_hog_col
 		set_politics = {
-			ruling_party = collectivist elections_allowed = no
+			ruling_party = vanguard_socialist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Arvo_Tuominen_for_van
@@ -437,8 +437,8 @@ country_event = {
 			set_country_flag = FIN_ready_take_army_focuses_flag
 			set_country_flag = FIN_rural_support_flag
 			set_country_flag = FIN_allow_foreclousures_flag
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = social_liberal popularity = -0.02 }
@@ -448,7 +448,7 @@ country_event = {
 			add_popularity = { ideology = national_populist popularity = -0.03 }
 			clr_country_flag = coalition_market_liberal
 			clr_country_flag = coalition_social_conservative
-			set_country_flag = coalition_vanguardist
+			set_country_flag = coalition_auth_socialist
 			set_country_flag = coalition_libertarian_socialist
 			add_ideas = workers_republic
 		}
@@ -479,8 +479,8 @@ country_event = {
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
 			clr_country_flag = coalition_market_liberal
 			
-			add_popularity = { ideology = vanguardist popularity = -0.03 }
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = auth_socialist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
 			add_popularity = { ideology = national_populist popularity = -0.04 }
@@ -531,8 +531,8 @@ country_event = {
 			add_ideas = FIN_Karl_Lennart_Oesch_hog
 			add_ideas = military_junta
 			
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
-			add_popularity = { ideology = collectivist popularity = -0.01 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.01 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
@@ -615,8 +615,8 @@ country_event = {
 			set_country_flag = FIN_allow_foreclousures_flag
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 			add_popularity = { ideology = national_populist popularity = 0.03 }
-			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = auth_socialist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			add_ideas = one_party_dictatorship
@@ -629,7 +629,7 @@ country_event = {
 		add_stability = 0.03
 		add_ideas = FIN_Adolf_Taimi_hog_col
 		set_politics = {
-			ruling_party = collectivist elections_allowed = no
+			ruling_party = vanguard_socialist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Arvo_Tuominen_for_van
@@ -654,8 +654,8 @@ country_event = {
 			set_country_flag = FIN_ready_take_army_focuses_flag
 			set_country_flag = FIN_rural_support_flag
 			set_country_flag = FIN_allow_foreclousures_flag
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = social_liberal popularity = -0.02 }
@@ -663,7 +663,7 @@ country_event = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
 			add_popularity = { ideology = national_populist popularity = -0.05 }
 			clr_country_flag = coalition_national_populist
-			set_country_flag = coalition_vanguardist
+			set_country_flag = coalition_auth_socialist
 			set_country_flag = coalition_libertarian_socialist
 			add_ideas = workers_republic
 			set_cosmetic_tag = FIN_socialist
@@ -1611,8 +1611,8 @@ country_event = {
 		ai_chance = { base = 35 }
 		add_stability = 0.05
 		hidden_effect = {
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			country_event = {
@@ -1731,7 +1731,7 @@ country_event = {
 		add_stability = 0.03
 		add_ideas = FIN_Adolf_Taimi_hog_col
 		set_politics = {
-			ruling_party = collectivist elections_allowed = no
+			ruling_party = vanguard_socialist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Arvo_Tuominen_for_van
@@ -1754,8 +1754,8 @@ country_event = {
 			clr_country_flag = FIN_stable_democratic_government_flag
 			set_country_flag = FIN_aftermath_mantsala_uprising_flag
 			set_country_flag = FIN_finnish_revolution_flag
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = social_liberal popularity = -0.02 }
@@ -1775,7 +1775,7 @@ country_event = {
 			}
 			clr_country_flag = coalition_market_liberal
 			clr_country_flag = coalition_social_conservative
-			set_country_flag = coalition_vanguardist
+			set_country_flag = coalition_auth_socialist
 			set_country_flag = coalition_libertarian_socialist
 			add_ideas = workers_republic
 			set_cosmetic_tag = FIN_socialist
@@ -2242,7 +2242,7 @@ country_event = {
 		name = finland.104.a
 		ai_chance = { base = 60 }
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 	}
 	
@@ -2250,7 +2250,7 @@ country_event = {
 		name = finland.104.b
 		ai_chance = { base = 40 }
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 			country_event = {
 				id = finland.105 days = 1
 			}
@@ -2274,12 +2274,12 @@ country_event = {
 		ai_chance = { base = 60 }
 		add_ideas = FIN_Otto_Wille_Kuusinen_hog_van
 		set_politics = {
-			ruling_party = vanguardist elections_allowed = no
+			ruling_party = auth_socialist elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = FIN_Arvo_Tuominen_for_van
 			add_ideas = FIN_Eero_Haapalainen_eco_van
-			add_popularity = { ideology = vanguardist popularity = 0.03 }
+			add_popularity = { ideology = auth_socialist popularity = 0.03 }
 		}
 	}
 	
@@ -2328,8 +2328,8 @@ country_event = {
 		add_stability = 0.02
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 2
 				social_democrat = 35
 				social_liberal = 29
@@ -2351,8 +2351,8 @@ country_event = {
 		add_stability = 0.02
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 5
 				social_democrat = 44
 				social_liberal = 21
@@ -2375,8 +2375,8 @@ country_event = {
 		add_stability = 0.02
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 2
 				social_democrat = 35
 				social_liberal = 20
@@ -2418,8 +2418,8 @@ country_event = {
 		add_political_power = 10
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 2
 				social_democrat = 34
 				social_liberal = 31
@@ -2440,8 +2440,8 @@ country_event = {
 		add_political_power = 10
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 5
 				social_democrat = 44
 				social_liberal = 21
@@ -2463,8 +2463,8 @@ country_event = {
 		add_political_power = 10
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 0
+				auth_socialist = 0
+				vanguard_socialist = 0
 				libertarian_socialist = 2
 				social_democrat = 34
 				social_liberal = 19
@@ -3029,7 +3029,7 @@ country_event = {
 		name = finland.125.a
 		add_stability = 0.01
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = 0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
 			SOV = {
 				country_event = { id = finland.126 days = 1 }
 			}
@@ -3498,8 +3498,8 @@ country_event = {
 		else_if = {
 			limit = {
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 			}
@@ -3624,8 +3624,8 @@ country_event = {
 		else_if = {
 			limit = {
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 			}

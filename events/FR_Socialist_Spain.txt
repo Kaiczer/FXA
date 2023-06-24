@@ -235,8 +235,8 @@ country_event = {
 		add_ideas = SPR_civil_war_recovery_idea
 		hidden_effect = {
 			load_focus_tree = FR_Socialist_Spain
-			add_popularity = { ideology = vanguardist popularity = -0.02 }
-			add_popularity = { ideology = collectivist popularity = -0.08 }
+			add_popularity = { ideology = auth_socialist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.08 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.08 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			set_capital = { state = 41 }
@@ -334,8 +334,8 @@ country_event = {
 		add_stability = -0.03
 		add_political_power = -20
 		hidden_effect = {
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 		}
 	}
@@ -396,8 +396,8 @@ country_event = {
 		add_political_power = -35
 		add_stability = -0.03
 		hidden_effect = {
-			add_popularity = { ideology = vanguardist popularity = 0.02 }
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = auth_socialist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 	}
 	
@@ -407,7 +407,7 @@ country_event = {
 		add_political_power = -20
 		add_stability = -0.05
 		hidden_effect = {
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 		}
 	}
@@ -418,7 +418,7 @@ country_event = {
 		add_political_power = -35
 		add_stability = -0.03
 		hidden_effect = {
-			add_popularity = { ideology = vanguardist popularity = -0.02 }
+			add_popularity = { ideology = auth_socialist popularity = -0.02 }
 		}
 	}
 }
@@ -690,11 +690,11 @@ country_event = {
 		}
 		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = 0.05 }
-		add_popularity = { ideology = vanguardist popularity = -0.04 }
-		add_popularity = { ideology = collectivist popularity = -0.04 }
+		add_popularity = { ideology = auth_socialist popularity = -0.04 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 		set_country_flag = SPA_PSOE_governs_flag
 		set_country_flag = SPA_socialist_divisions_flag
-		remove_coalition_vanguardist = yes 
+		remove_coalition_auth_socialist = yes 
 		remove_coalition_libertarian_socialist = yes 
 		hidden_effect = {
 			
@@ -726,11 +726,11 @@ country_event = {
 			ruling_party = libertarian_socialist elections_allowed = no
 		}
 		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
-		add_popularity = { ideology = vanguardist popularity = -0.02 }
-		add_popularity = { ideology = collectivist popularity = -0.02 }
+		add_popularity = { ideology = auth_socialist popularity = -0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 		set_country_flag = SPA_CNT_FAI_governs_flag
 		set_country_flag = SPA_socialist_divisions_flag
-		remove_coalition_vanguardist = yes 
+		remove_coalition_auth_socialist = yes 
 		remove_coalition_libertarian_socialist = yes 
 		remove_coalition_social_democrat = yes 
 		set_cosmetic_tag = SPA_anarcho
@@ -908,8 +908,8 @@ country_event = {
 	option = {
 		name = socspain.113.a
 		add_political_power = 50
-		add_popularity = { ideology = vanguardist popularity = 0.03 }
-		add_popularity = { ideology = collectivist popularity = 0.05 }
+		add_popularity = { ideology = auth_socialist popularity = 0.03 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 		add_popularity = { ideology = social_democrat popularity = -0.04 }
 		set_country_flag = SPA_PCE_governs_flag
@@ -1126,7 +1126,7 @@ country_event = {
 			}
 		}
 		modify_country_flag = { flag = SPA_ramos_flag value = 2 }
-		add_popularity = { ideology = collectivist popularity = 0.01 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = socspain.121 days = 3 }
 		}
@@ -1158,7 +1158,7 @@ country_event = {
 			}
 		}
 		modify_country_flag = { flag = SPA_ibarruri_flag value = 2 }
-		add_popularity = { ideology = collectivist popularity = 0.01 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = socspain.121 days = 3 }
 		}
@@ -1190,7 +1190,7 @@ country_event = {
 			}
 		}
 		modify_country_flag = { flag = SPA_maure_flag value = 2 }
-		add_popularity = { ideology = vanguardist popularity = 0.01 }
+		add_popularity = { ideology = auth_socialist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = socspain.121 days = 3 }
 		}
@@ -1254,7 +1254,7 @@ country_event = {
 			}
 		}
 		modify_country_flag = { flag = SPA_nin_flag value = 2 }
-		add_popularity = { ideology = collectivist popularity = 0.01 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
 		hidden_effect = {
 			country_event = { id = socspain.121 days = 3 }
 		}
@@ -1807,7 +1807,7 @@ country_event = {
         character = SPA_Dolores_Ibarruri
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }
@@ -1956,9 +1956,9 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Socialist_Spain_Maure
 			set_politics = {
-				ruling_party = vanguardist elections_allowed = no
+				ruling_party = auth_socialist elections_allowed = no
 			}
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 		}
 	}
 }
@@ -1988,11 +1988,11 @@ country_event = {
         character = SPA_Juan_Modesto
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		}
 	}
 }
@@ -2069,9 +2069,9 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Socialist_Spain_Maure
 			set_politics = {
-				ruling_party = vanguardist elections_allowed = no
+				ruling_party = auth_socialist elections_allowed = no
 			}
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 			add_stability = 0.05
 		}
 	}
@@ -2102,7 +2102,7 @@ country_event = {
         character = SPA_Jose_Diaz_Ramos
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }
@@ -2259,7 +2259,7 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = FR_Socialist_Spain_Perez
 			set_party_name = { 
-				ideology = collectivist 
+				ideology = vanguard_socialist 
 				long_name = SPA_PCE_trot_party_long 
 				name = SPA_PCE_trot_party 
 			}
@@ -2267,7 +2267,7 @@ country_event = {
         character = SPA_Andres_Nin_Perez
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }
@@ -2300,7 +2300,7 @@ country_event = {
         character = SPA_Jose_Diaz_Ramos
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }

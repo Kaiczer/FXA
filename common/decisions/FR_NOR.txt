@@ -7,8 +7,8 @@ NOR_economical_decision_group = {
 		available = {
 			110 = { is_owned_by = NOR }
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			has_completed_focus = NOR_economical_projects
@@ -16,8 +16,8 @@ NOR_economical_decision_group = {
  		visible = { 
  			110 = { is_owned_by = NOR }
  			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			has_completed_focus = NOR_economical_projects

@@ -333,8 +333,8 @@ SAM_SCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -352,8 +352,8 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes
@@ -506,8 +506,8 @@ SAM_SCW_matters = {
 			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -525,8 +525,8 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes
@@ -700,8 +700,8 @@ SAM_SCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -719,8 +719,8 @@ SAM_SCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes
@@ -865,8 +865,8 @@ SAM_BCW_matters = {
  	 		has_equipment = { infantry_equipment > 1000 } 
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -881,8 +881,8 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes
@@ -1021,8 +1021,8 @@ SAM_BCW_matters = {
 			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -1037,8 +1037,8 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes
@@ -1197,8 +1197,8 @@ SAM_BCW_matters = {
  	 		has_manpower > 4999
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
  		visible = { 
@@ -1213,8 +1213,8 @@ SAM_BCW_matters = {
  			}
  	 		OR = {
  	 			has_government = libertarian_socialist
- 	 			has_government = collectivist
- 	 			has_government = vanguardist
+ 	 			has_government = vanguard_socialist
+ 	 			has_government = auth_socialist
  	 		}
  		}
 		fire_only_once = yes

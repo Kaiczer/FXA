@@ -486,8 +486,8 @@ focus_tree = {
  				OR = {
  					has_country_flag = CZE_france_abandoned_us
  					has_government = libertarian_socialist
- 					has_government = collectivist
- 					has_government = vanguardist
+ 					has_government = vanguard_socialist
+ 					has_government = auth_socialist
  				}
  			}
  		}
@@ -512,8 +512,8 @@ focus_tree = {
  				OR = {
  					has_country_flag = CZE_france_abandoned_us
  					has_government = libertarian_socialist
- 					has_government = collectivist
- 					has_government = vanguardist
+ 					has_government = vanguard_socialist
+ 					has_government = auth_socialist
  				}
  			}
  		}
@@ -537,8 +537,8 @@ focus_tree = {
  		available = {
  				OR = {
  					has_government = libertarian_socialist
- 					has_government = collectivist
- 					has_government = vanguardist
+ 					has_government = vanguard_socialist
+ 					has_government = auth_socialist
  				}
  		}
 		available_if_capitulated = yes  
@@ -560,8 +560,8 @@ focus_tree = {
  		available = {
  				OR = {
  					has_government = libertarian_socialist
- 					has_government = collectivist
- 					has_government = vanguardist
+ 					has_government = vanguard_socialist
+ 					has_government = auth_socialist
  				}
  				has_war = no
  		}
@@ -1831,7 +1831,7 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.05
 			}
 		} 
@@ -2489,8 +2489,8 @@ focus_tree = {
  		bypass = {
  			OR = {
  				has_government = libertarian_socialist
- 				has_government = collectivist
- 				has_government = vanguardist
+ 				has_government = vanguard_socialist
+ 				has_government = auth_socialist
  			}
  		}
 		available_if_capitulated = yes  
@@ -2573,7 +2573,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_collective_councils"
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = 0.05
 			}
 		} 
@@ -2597,7 +2597,7 @@ focus_tree = {
 	}
 		focus = { 
 		id = CZE_age_of_collectivism
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 
  		ai_will_do = { factor = 50 } 
 
@@ -2610,7 +2610,7 @@ focus_tree = {
 		available_if_capitulated = yes  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_age_of_collectivism"
-			add_ideas = CZE_revolution_collectivist
+			add_ideas = CZE_revolution_vanguard_socialist
 			hidden_effect = {
 				country_event = { days = 15 id = cze.130 }
 			}
@@ -2671,19 +2671,19 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus CZE_political_commisaries"
 			if = { 
 				limit = { 
-					has_government = collectivist
+					has_government = vanguard_socialist
 					}
 				add_popularity = {
-					ideology = collectivist
+					ideology = vanguard_socialist
 					popularity = 0.05
 				}
 			}
 			if = { 
 				limit = { 
-					has_government = vanguardist
+					has_government = auth_socialist
 					}
 				add_popularity = {
-					ideology = vanguardist
+					ideology = auth_socialist
 					popularity = 0.05
 				}
 			}
@@ -2709,19 +2709,19 @@ focus_tree = {
 			}
 			if = { 
 				limit = { 
-					has_government = collectivist
+					has_government = vanguard_socialist
 					}
 				add_popularity = {
-					ideology = vanguardist
+					ideology = auth_socialist
 					popularity = -0.025
 				}
 			}
 			if = { 
 				limit = { 
-					has_government = vanguardist
+					has_government = auth_socialist
 					}
 				add_popularity = {
-					ideology = collectivist
+					ideology = vanguard_socialist
 					popularity = -0.025
 				}
 			}
@@ -2854,8 +2854,8 @@ focus_tree = {
  			SLO = {
  				NOT = {
  					has_government = libertarian_socialist
- 					has_government = collectivist
- 					has_government = vanguardist
+ 					has_government = vanguard_socialist
+ 					has_government = auth_socialist
  				}
  			}
  		}
@@ -2996,7 +2996,7 @@ focus_tree = {
 				popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = collectivist 
+				ideology = vanguard_socialist 
 				popularity = -0.025
 			}
 			add_popularity = { 

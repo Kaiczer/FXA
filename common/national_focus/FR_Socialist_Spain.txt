@@ -792,8 +792,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_crush_communists"
 			add_political_power = -40
-			add_popularity = { ideology = vanguardist popularity = -0.05 }
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = auth_socialist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		}
 
 	}
@@ -971,8 +971,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_reject_violent_revolutions"
 			add_stability = 0.02
 			add_political_power = -35
-			add_popularity = { ideology = vanguardist popularity = -0.04 }
-			add_popularity = { ideology = collectivist popularity = -0.04 }
+			add_popularity = { ideology = auth_socialist popularity = -0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
 		}
 
@@ -1043,8 +1043,8 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_legalize_republicanism"
-			add_popularity = { ideology = vanguardist popularity = -0.03 }
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = auth_socialist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
 			add_popularity = { ideology = market_liberal popularity = 0.02 }
 			swap_ideas = {
@@ -1072,8 +1072,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_crush_communist_influence"
 			add_stability = 0.03
-			add_popularity = { ideology = vanguardist popularity = -0.05 }
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = auth_socialist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		}
 
 	}
@@ -1143,7 +1143,7 @@ focus_tree = {
 			add_political_power = -35
 			add_popularity = { ideology = social_democrat popularity = -0.04 }
 			add_popularity = { ideology = social_liberal popularity = -0.04 }
-			add_popularity = { ideology = vanguardist popularity = -0.04 }
+			add_popularity = { ideology = auth_socialist popularity = -0.04 }
 		}
 
 	}
@@ -1275,7 +1275,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SPA_pce_dominates
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = SPA_socialist_divisions
@@ -1294,8 +1294,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_pce_dominates"
 			add_political_power = 25
-			add_popularity = { ideology = vanguardist popularity = 0.01 }
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = auth_socialist popularity = 0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
 		}
 
@@ -1341,12 +1341,12 @@ focus_tree = {
 			add_popularity = { ideology = market_liberal popularity = -0.05 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			set_party_name = { 
-				ideology = vanguardist 
+				ideology = auth_socialist 
 				long_name = SPA_PCE_van_party_long 
 				name = SPA_PCE_van_party 
 			}
 			set_party_name = { 
-				ideology = collectivist 
+				ideology = vanguard_socialist 
 				long_name = SPA_PCE_col_party_long 
 				name = SPA_PCE_col_party 
 			}
@@ -1381,8 +1381,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_leninist_revolution"
 			add_stability = 0.03
 			add_war_support = 0.05
-			add_popularity = { ideology = vanguardist popularity = 0.02 }
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = auth_socialist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 		}
 

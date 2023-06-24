@@ -13,8 +13,8 @@
  party_popularity_dynamic_modifier_coalition: "Coalitions"
 
  party_pop_coalition: "\n\n§HCoalition Partners:§!\n"
- party_pop_coalition_vanguardist: "- [?token:vanguardist.GetTokenLocalizedKey]\n"
- party_pop_coalition_collectivist: "- [?token:collectivist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_auth_socialist: "- [?token:auth_socialist.GetTokenLocalizedKey]\n"
+ party_pop_coalition_vanguard_socialist: "- [?token:vanguard_socialist.GetTokenLocalizedKey]\n"
  party_pop_coalition_libertarian_socialist: "- [?token:libertarian_socialist.GetTokenLocalizedKey]\n"
  party_pop_coalition_social_democrat: "- [?token:social_democrat.GetTokenLocalizedKey]\n"
  party_pop_coalition_social_liberal: "- [?token:social_liberal.GetTokenLocalizedKey]\n"
@@ -33,8 +33,8 @@
 
  coalition_stability_tooltip: "Coalition partners now provide $RIGHT|G%0$ of their popularity as additional §Hpolitical power gain§!."
  empty: ""
- colour_vanguardist_red: "o"
- colour_collectivist_red: "r"
+ colour_auth_socialist_red: "o"
+ colour_vanguard_socialist_red: "r"
  colour_socdem_pink: "S"
  colour_soclib_orange: "l"
  colour_marlib_yellow: "m"

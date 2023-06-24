@@ -373,11 +373,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_anti_communist_education"
 			add_popularity = { 
-			    ideology = vanguardist
+			    ideology = auth_socialist
 			    popularity = -0.20 
 			}
 			add_popularity = { 
-			    ideology = collectivist
+			    ideology = vanguard_socialist
 			    popularity = -0.20
 		    }
 			add_popularity = { 

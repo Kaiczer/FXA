@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-SPM_vanguardist: "Monarchist Spain"
-SPM_vanguardist_ADJ: "Spanish"
-SPM_vanguardist_DEF: "Monarchist Spain"
-SPM_collectivist: "Monarchist Spain"
-SPM_collectivist_ADJ: "Spanish"
-SPM_collectivist_DEF: "Monarchist Spain"
+SPM_auth_socialist: "Monarchist Spain"
+SPM_auth_socialist_ADJ: "Spanish"
+SPM_auth_socialist_DEF: "Monarchist Spain"
+SPM_vanguard_socialist: "Monarchist Spain"
+SPM_vanguard_socialist_ADJ: "Spanish"
+SPM_vanguard_socialist_DEF: "Monarchist Spain"
 SPM_libertarian_socialist: "Monarchist Spain"
 SPM_libertarian_socialist_ADJ: "Spanish"
 SPM_libertarian_socialist_DEF: "Monarchist Spain"
@@ -36,10 +36,10 @@ SPM_valkist_ADJ: "Spanish"
 SPM_valkist_DEF: "Monarchist Spain"
 
 ### Parties ###
-SPM_vanguardist_party: "PCE"
-SPM_vanguardist_party_long: "Partido Comunista de España"
-SPM_collectivist_party: "PCE"
-SPM_collectivist_party_long: "Partido Comunista de España"
+SPM_auth_socialist_party: "PCE"
+SPM_auth_socialist_party_long: "Partido Comunista de España"
+SPM_vanguard_socialist_party: "PCE"
+SPM_vanguard_socialist_party_long: "Partido Comunista de España"
 SPM_libertarian_socialist_party: "PSOE"
 SPM_libertarian_socialist_party_long: "Partido Socialista Obrero Español - Radical"
 SPM_social_democrat_party: "PSOE"

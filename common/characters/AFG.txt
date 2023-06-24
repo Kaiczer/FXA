@@ -23,11 +23,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -49,7 +49,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Nur_Muhammad_Taraki_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -651,7 +651,7 @@ characters = {
 				ROOT = { clr_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_back_stabber
 			}
 		}

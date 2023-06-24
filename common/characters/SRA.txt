@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_William_Haywood_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_James_W_Ford_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_red_chairmen
 			}
 		}
@@ -126,7 +126,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Edward_Carter_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_driven_recruiter
 			}
 		}

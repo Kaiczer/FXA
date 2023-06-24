@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-TUN_vanguardist: "Union of Tunisia"
-TUN_vanguardist_ADJ: "Tunisian"
-TUN_vanguardist_DEF: "The Union of Tunisia"
-TUN_collectivist: "Tunisian Workers State"
-TUN_collectivist_ADJ: "Tunisian"
-TUN_collectivist_DEF: "The Workers State of Tunisia"
+TUN_auth_socialist: "Union of Tunisia"
+TUN_auth_socialist_ADJ: "Tunisian"
+TUN_auth_socialist_DEF: "The Union of Tunisia"
+TUN_vanguard_socialist: "Tunisian Workers State"
+TUN_vanguard_socialist_ADJ: "Tunisian"
+TUN_vanguard_socialist_DEF: "The Workers State of Tunisia"
 TUN_libertarian_socialist: "Socialist Republic of Tunisia"
 TUN_libertarian_socialist_ADJ: "Tunisian"
 TUN_libertarian_socialist_DEF: "The Socialist Republic of Tunisia"
@@ -15,10 +15,10 @@ TUN_ADJ: "Tunisian"
 TUN_DEF: "The State of Tunisia"
 
 ### Parties
-TUN_vanguardist_party: "Néo-Destour"
-TUN_vanguardist_party_long: "Nouveau Parti libéral constitutionnel"
-TUN_collectivist_party: "CGTT"
-TUN_collectivist_party_long: "Confédération Générale Des Travailleurs Tunisiens"
+TUN_auth_socialist_party: "Néo-Destour"
+TUN_auth_socialist_party_long: "Nouveau Parti libéral constitutionnel"
+TUN_vanguard_socialist_party: "CGTT"
+TUN_vanguard_socialist_party_long: "Confédération Générale Des Travailleurs Tunisiens"
 TUN_libertarian_socialist_party: "CGTT"
 TUN_libertarian_socialist_party_long: "Confédération Générale Des Travailleurs Tunisiens"
 TUN_social_democrat_party: "Fédération Tunisienne Socialiste"

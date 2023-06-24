@@ -44,8 +44,8 @@ focus_tree = {
 
 
 	focus = {	
-		id = SOV_gain_support_vanguardist 
-		icon = GFX_goal_ideology_vanguardist
+		id = SOV_gain_support_auth_socialist 
+		icon = GFX_goal_ideology_auth_socialist
 		available = {
 		}
 		prerequisite = { 
@@ -62,7 +62,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus SOV_gain_support_vanguardist"
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_gain_support_auth_socialist"
 			custom_effect_tooltip = Kirov_3
 			add_to_variable = { var = sov_kirov_factor value = 3 }
 		}
@@ -155,7 +155,7 @@ focus_tree = {
 		available = {
 		}
 		prerequisite = { 
-		    focus = SOV_gain_support_vanguardist 
+		    focus = SOV_gain_support_auth_socialist 
 		}
 		prerequisite = { 
 		    focus = SOV_support_from_the_poor 
@@ -164,7 +164,7 @@ focus_tree = {
 		}	
 		x = 1
 		y = 1
-		relative_position_id = SOV_gain_support_vanguardist
+		relative_position_id = SOV_gain_support_auth_socialist
 		cost = 5
 		ai_will_do = {
 			factor = 5

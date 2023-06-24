@@ -208,13 +208,13 @@ foreign_politics = {
 			hidden_effect = {
 				DEN = {
 					set_politics = {
-						ruling_party = vanguardist
+						ruling_party = auth_socialist
 						elections_allowed = no
           }
 
           set_popularities = {
-              vanguardist = 46
-              collectivist = 19
+              auth_socialist = 46
+              vanguard_socialist = 19
               libertarian_socialist = 7
               social_democrat = 9
               social_liberal = 6

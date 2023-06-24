@@ -170,7 +170,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_IBA_outlaw_factions"
-			add_popularity = { ideology = collectivist popularity = 0.10 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.10 }
 		}
 
 	}
@@ -222,7 +222,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_IBA_question_womens_role"
 			add_stability = -0.03
-			add_popularity = { ideology = collectivist popularity = 0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 			add_ideas = SPA_IBA_question_womens_role_idea
 		}
 

@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Klement_Gottwald_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_red_chairmen
 			}
 		}
@@ -303,7 +303,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Bohuslav_Vrbensky_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -595,7 +595,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Rudolf_Slansky_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_biased_intellectual
 			}
 		}
@@ -622,7 +622,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Artur_London_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -892,7 +892,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Augustin_Kliment_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -919,7 +919,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Zdeněk_Nejedly_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_mixed_economy
 			}
 		}
@@ -1184,7 +1184,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Bruno_Kohler_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}
@@ -1211,7 +1211,7 @@ characters = {
 				ROOT = { clr_country_flag = CZE_Antonin_Srba_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_prince_of_terror
 			}
 		}

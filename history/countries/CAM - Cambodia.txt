@@ -62,8 +62,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-    vanguardist = 25
-    collectivist = 0
+    auth_socialist = 25
+    vanguard_socialist = 0
     libertarian_socialist = 0
     social_democrat = 0
     social_liberal = 0

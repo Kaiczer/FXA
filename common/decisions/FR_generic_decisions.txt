@@ -5,10 +5,10 @@ political_actions_left = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = vanguardist
+			has_government = auth_socialist
 		}
 		visible = {
-			has_government = vanguardist
+			has_government = auth_socialist
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_vang"
@@ -24,10 +24,10 @@ political_actions_left = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		visible = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_collie"
@@ -64,14 +64,14 @@ political_actions_left = {
 		days_remove = 30
 		available = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 			}
 		}
 		visible = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 			}
 		}
 		modifier = {
@@ -385,8 +385,8 @@ political_actions = {
 			OR = {
 				has_government = social_democrat
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 			NOT = {
 				has_country_flag = NO_GENERIC_STABILITY_DECISIONS
@@ -1340,11 +1340,11 @@ war_measures = {
 			has_war = yes
 			OR = {
 				AND = {
-					has_government = vanguardist
+					has_government = auth_socialist
 					has_war_support > 0.85
 				}
 				AND = {
-					has_government = collectivist
+					has_government = vanguard_socialist
 					has_war_support > 0.79
 				}
 				AND = {

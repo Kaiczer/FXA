@@ -223,14 +223,14 @@ country_event = { # King Edward VIII assassinated
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = vanguardist_subtype
+						ideology = authsoc_subtype
 						traits = { }
 					}
 				}
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = collectivist_subtype
+						ideology = vansoc_subtype
 						traits = { }
 					}
 				}
@@ -1014,11 +1014,11 @@ country_event = { # Clashes with Police
 		name = uk.24.a
 		add_stability = -0.025
 		add_popularity = {
-			ideology = collectivist
+			ideology = vanguard_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = auth_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1611,7 +1611,7 @@ country_event = {	# The Revolution is here!
 			transfer_state = 120
 			transfer_state = 136
 			change_tag_from = ENG
-			set_politics = { ruling_party = collectivist elections_allowed = no }
+			set_politics = { ruling_party = vanguard_socialist elections_allowed = no }
 		}
 		UOB = { country_event = { id = uob.2 hours = 1 } }
 		hidden_effect = {
@@ -11565,10 +11565,10 @@ country_event = { # Marxist Rally
 		add_political_power = -50
 		random_list = {
 			60 = {
-				add_popularity = { ideology = collectivist popularity = 0.05 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			}
 			40 = {
-				add_popularity = { ideology = vanguardist popularity = 0.05 }
+				add_popularity = { ideology = auth_socialist popularity = 0.05 }
 			}
 		}
 		hidden_effect = {

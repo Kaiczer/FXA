@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-LUX_vanguardist: "Workers State of Luxembourg"
-LUX_vanguardist_ADJ: "Luxembourgish"
-LUX_vanguardist_DEF: "The Workers State of Luxembourg"
-LUX_collectivist: "Workers State of Luxembourg"
-LUX_collectivist_ADJ: "Luxembourgish"
-LUX_collectivist_DEF: "The Workers State of Luxembourg"
+LUX_auth_socialist: "Workers State of Luxembourg"
+LUX_auth_socialist_ADJ: "Luxembourgish"
+LUX_auth_socialist_DEF: "The Workers State of Luxembourg"
+LUX_vanguard_socialist: "Workers State of Luxembourg"
+LUX_vanguard_socialist_ADJ: "Luxembourgish"
+LUX_vanguard_socialist_DEF: "The Workers State of Luxembourg"
 LUX_libertarian_socialist: "People's Republic of Luxembourg"
 LUX_libertarian_socialist_ADJ: "Luxembourgish"
 LUX_libertarian_socialist_DEF: "The People's Republic of Luxembourg"
@@ -36,10 +36,10 @@ LUX_valkist_ADJ: "Luxembourgish"
 LUX_valkist_DEF: "The Grand Duchy of Luxembourg"
 
 ### Parties
-LUX_vanguardist_party: "VP"
-LUX_vanguardist_party_long: "Vanguardist Partei"
-LUX_collectivist_party: "KP"
-LUX_collectivist_party_long: "Kollektivist Partei"
+LUX_auth_socialist_party: "VP"
+LUX_auth_socialist_party_long: "Vanguardist Partei"
+LUX_vanguard_socialist_party: "KP"
+LUX_vanguard_socialist_party_long: "Kollektivist Partei"
 LUX_libertarian_socialist_party: "RZP"
 LUX_libertarian_socialist_party_long: "Radikal-Sozialistesch Partei"
 LUX_social_democrat_party: "LSAP"

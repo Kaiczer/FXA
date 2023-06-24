@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-CRO_vanguardist: "Socialist Federal Republic of Croatia"
-CRO_vanguardist_ADJ: "Croatian"
-CRO_vanguardist_DEF: "The Socialist Federal Republic of Croatia"
-CRO_collectivist: "People’s Croatia"
-CRO_collectivist_ADJ: "Croatian"
-CRO_collectivist_DEF: "People’s Croatia"
+CRO_auth_socialist: "Socialist Federal Republic of Croatia"
+CRO_auth_socialist_ADJ: "Croatian"
+CRO_auth_socialist_DEF: "The Socialist Federal Republic of Croatia"
+CRO_vanguard_socialist: "People’s Croatia"
+CRO_vanguard_socialist_ADJ: "Croatian"
+CRO_vanguard_socialist_DEF: "People’s Croatia"
 CRO_libertarian_socialist: "Revolutionary Croatian Democratic Republic"
 CRO_libertarian_socialist_ADJ: "Revolutionary Croatian"
 CRO_libertarian_socialist_DEF: "Revolutionary Croatian Democratic Republic"
@@ -36,10 +36,10 @@ CRO_valkist_ADJ: "Hrvatski"
 CRO_valkist_DEF: "Hrvatska Država"
 
 ### Parties
-CRO_vanguardist_party: "KPH"
-CRO_vanguardist_party_long: "Komunistička Partija Hrvatske"
-CRO_collectivist_party: "HSRS"
-CRO_collectivist_party_long: "Hrvatska Socijalistička Radnička Stranka"
+CRO_auth_socialist_party: "KPH"
+CRO_auth_socialist_party_long: "Komunistička Partija Hrvatske"
+CRO_vanguard_socialist_party: "HSRS"
+CRO_vanguard_socialist_party_long: "Hrvatska Socijalistička Radnička Stranka"
 CRO_libertarian_socialist_party: "SSH"
 CRO_libertarian_socialist_party_long: "Socijalistička Stranka Hrvatske"
 CRO_social_democrat_party: "SDSH"

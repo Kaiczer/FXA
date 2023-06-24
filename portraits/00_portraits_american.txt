@@ -22,7 +22,7 @@ SRA = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -32,7 +32,7 @@ SRA = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -191,7 +191,7 @@ ORE = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -201,7 +201,7 @@ ORE = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -360,7 +360,7 @@ CLB = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -370,7 +370,7 @@ CLB = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -529,7 +529,7 @@ NEE = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -539,7 +539,7 @@ NEE = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -698,7 +698,7 @@ NAR = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -708,7 +708,7 @@ NAR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"

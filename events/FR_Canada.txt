@@ -1452,7 +1452,7 @@ country_event = {
 	option = {
 		name = "Agree to the plan of the Collectivist Party of Canada."
 		ai_chance = { factor = 40 }
-		add_popularity = { ideology = collectivist popularity = 0.05 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 		swap_ideas = { 
   			remove_idea = CAN_relief_idea 
  			add_idea = CAN_relief_idea_CPC 
@@ -1592,8 +1592,8 @@ country_event = {
 		ai_chance = { factor = 70 }
 		hidden_effect = { country_event = { id = canada.42 days = 6 } }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.025 }
-		add_popularity = { ideology = collectivist popularity = 0.025 }
-		add_popularity = { ideology = vanguardist popularity = 0.025 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.025 }
+		add_popularity = { ideology = auth_socialist popularity = 0.025 }
 	}
 
 	option = {
@@ -1601,8 +1601,8 @@ country_event = {
 		ai_chance = { factor = 30 }
 		hidden_effect = { country_event = { id = canada.42 days = 6 } }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.025 }
-		add_popularity = { ideology = collectivist popularity = -0.025 }
-		add_popularity = { ideology = vanguardist popularity = -0.025 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.025 }
+		add_popularity = { ideology = auth_socialist popularity = -0.025 }
 		add_political_power = -50
 	}
 }
@@ -1699,8 +1699,8 @@ country_event = {
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		add_popularity = { ideology = social_liberal popularity = 0.01 }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
-		add_popularity = { ideology = collectivist popularity = 0.01 }
-		add_popularity = { ideology = vanguardist popularity = 0.01 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
+		add_popularity = { ideology = auth_socialist popularity = 0.01 }
 	}
 }
 
@@ -1727,7 +1727,7 @@ country_event = {
 		name = "These socialists prey on the frustrations of good men."
 		add_political_power = -25
 		add_popularity = { ideology = libertarian_socialist popularity = 0.025 }
-		add_popularity = { ideology = collectivist popularity = 0.025 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.025 }
 		hidden_effect = { country_event = { id = canada.46 days = 5 } }
 	}
 }
@@ -1745,7 +1745,7 @@ country_event = {
 		name = "Attempt to mediate a negotiation."
 		add_political_power = -50
 		add_popularity = { ideology = libertarian_socialist popularity = 0.025 }
-		add_popularity = { ideology = collectivist popularity = 0.025 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.025 }
 		hidden_effect = { country_event = { id = canada.47 days = 5 } }
 	}
 	option = {
@@ -1754,8 +1754,8 @@ country_event = {
 		add_manpower = -1000
 		add_popularity = { ideology = social_democrat popularity = -0.025 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.025 }
-		add_popularity = { ideology = collectivist popularity = -0.025 }
-		add_popularity = { ideology = vanguardist popularity = -0.025 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.025 }
+		add_popularity = { ideology = auth_socialist popularity = -0.025 }
 	}
 }
 
@@ -1930,7 +1930,7 @@ country_event = {
 	option = {
 		name = "Arrest the leadership, the mob will eventually burn themselves out."
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.015 }
-		add_popularity = { ideology = vanguardist popularity = 0.015 }
+		add_popularity = { ideology = auth_socialist popularity = 0.015 }
 		decrease_ruling_party_popularity_by_5 = yes
 		add_manpower = -25
 		add_timed_idea = {
@@ -2663,8 +2663,8 @@ country_event = {
 		ai_chance = { factor = 100 }
 		ENG = { country_event = canelection.18 }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
-		add_popularity = { ideology = collectivist popularity = 0.03 }
-		add_popularity = { ideology = vanguardist popularity = 0.03 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
+		add_popularity = { ideology = auth_socialist popularity = 0.03 }
 		add_ideas = {
 			CAN_JS_Woodsworth_hog_sde
 			CAN_David_Lewis_for_sde
@@ -2681,8 +2681,8 @@ country_event = {
 		ai_chance = { factor = 0 }
 		ENG = { country_event = canelection.17 }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.08 }
-		add_popularity = { ideology = collectivist popularity = 0.06 }
-		add_popularity = { ideology = vanguardist popularity = 0.06 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.06 }
+		add_popularity = { ideology = auth_socialist popularity = 0.06 }
 		add_ideas = {
 			CAN_JS_Woodsworth_hog_sde
 			CAN_David_Lewis_for_sde

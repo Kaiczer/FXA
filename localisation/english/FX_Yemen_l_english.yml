@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-YEM_vanguardist: "Union of Yemen"
-YEM_vanguardist_ADJ: "Yemeni"
-YEM_vanguardist_DEF: "The Union of Yemen"
-YEM_collectivist: "Commune of Yemen"
-YEM_collectivist_ADJ: "Yemeni"
-YEM_collectivist_DEF: "The United Yemeni Communes"
+YEM_auth_socialist: "Union of Yemen"
+YEM_auth_socialist_ADJ: "Yemeni"
+YEM_auth_socialist_DEF: "The Union of Yemen"
+YEM_vanguard_socialist: "Commune of Yemen"
+YEM_vanguard_socialist_ADJ: "Yemeni"
+YEM_vanguard_socialist_DEF: "The United Yemeni Communes"
 YEM_libertarian_socialist: "Yemeni People's Republic"
 YEM_libertarian_socialist_ADJ: "Yemeni"
 YEM_libertarian_socialist_DEF: "The People's Republic of Yemen"
@@ -36,10 +36,10 @@ YEM_valkist_ADJ: "Yemeni"
 YEM_valkist_DEF: "The Imamate of Yemen"
 
 ### Parties
-YEM_vanguardist_party: "ATUM"
-YEM_vanguardist_party_long: "Aden Trade Union Maximists"
-YEM_collectivist_party: "ATUC"
-YEM_collectivist_party_long: "Aden Trade Union Congress"
+YEM_auth_socialist_party: "ATUM"
+YEM_auth_socialist_party_long: "Aden Trade Union Maximists"
+YEM_vanguard_socialist_party: "ATUC"
+YEM_vanguard_socialist_party_long: "Aden Trade Union Congress"
 YEM_libertarian_socialist_party: "Lajnat Almuqawama"
 YEM_libertarian_socialist_party_long: "Lajnat Almuqawama"
 YEM_social_democrat_party: "MTU"

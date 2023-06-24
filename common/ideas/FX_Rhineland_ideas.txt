@@ -34,8 +34,8 @@ ideas = {
 			picture = generic_fascism_drift_2
 			modifier = {
 				stability_factor = -0.1
-				collectivist_drift = -0.03
-				vanguardist_drift = -0.03
+				vanguard_socialist_drift = -0.03
+				auth_socialist_drift = -0.03
 				libertarian_socialist_drift = -0.01
 			}
 		}
@@ -51,8 +51,8 @@ ideas = {
 			picture = generic_collectivism_rising
 			modifier = {
 				stability_factor = -0.05
-				collectivist_drift = 0.03
-				vanguardist_drift = 0.03
+				vanguard_socialist_drift = 0.03
+				auth_socialist_drift = 0.03
 				libertarian_socialist_drift = 0.01
 			}	
 		}

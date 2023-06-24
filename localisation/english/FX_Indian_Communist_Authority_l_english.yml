@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Communist India
-INC_vanguardist: "Indian People's Front"
-INC_vanguardist_ADJ: "Indian"
-INC_vanguardist_DEF: "Indian People's Front"
-INC_collectivist: "Indian People's Front"
-INC_collectivist_ADJ: "Indian"
-INC_collectivist_DEF: "Indian People's Front"
+INC_auth_socialist: "Indian People's Front"
+INC_auth_socialist_ADJ: "Indian"
+INC_auth_socialist_DEF: "Indian People's Front"
+INC_vanguard_socialist: "Indian People's Front"
+INC_vanguard_socialist_ADJ: "Indian"
+INC_vanguard_socialist_DEF: "Indian People's Front"
 INC_libertarian_socialist: "Indian People's Front"
 INC_libertarian_socialist_ADJ: "Indian"
 INC_libertarian_socialist_DEF: "Indian People's Front"
@@ -37,10 +37,10 @@ INC_valkist_DEF: "Indian People's Front"
 
 
 #Parties
-INC_vanguardist_party: "CPI"
-INC_vanguardist_party_long: "Communist Party of India"
-INC_collectivist_party: "RSP"
-INC_collectivist_party_long: "Revolutionary Socialist Party"
+INC_auth_socialist_party: "CPI"
+INC_auth_socialist_party_long: "Communist Party of India"
+INC_vanguard_socialist_party: "RSP"
+INC_vanguard_socialist_party_long: "Revolutionary Socialist Party"
 INC_libertarian_socialist_party: "Radical Democratic Party"
 INC_libertarian_socialist_party_long: "Radical Democratic Party"
 INC_social_democrat_party: "Congress Party"

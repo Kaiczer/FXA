@@ -113,7 +113,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -131,7 +131,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Dong_Biwu_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_privileged_socialist
 			}
 		}

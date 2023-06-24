@@ -1561,7 +1561,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_and_against_extremism"
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = DEN_unrest_in_flensburg1_idea
@@ -1941,7 +1941,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_empower_unions"
 			add_stability = 0.03
 			add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_ideas = DEN_empower_unions_idea
 		}
 
@@ -2062,7 +2062,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_strengthen_agricultural_sector"
 			add_stability = -0.03
 			add_political_power = -50
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			add_popularity = { ideology = national_populist popularity = -0.03 }
 			swap_ideas = {
@@ -2260,7 +2260,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_cut_subsidies"
 			add_stability = -0.02
 			add_political_power = 20
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 		}
 
@@ -2410,7 +2410,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_red_scare"
 			add_stability = -0.03
 			add_political_power = -50
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			swap_ideas = {
@@ -2529,7 +2529,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_target_enemies_monarchy"
 			add_stability = -0.03
 			add_political_power = -50
-			add_popularity = { ideology = collectivist popularity = -0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
 			swap_ideas = {
 				remove_idea = DEN_danish_republicanism_idea
@@ -2803,7 +2803,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_break_up_dangerous_unions"
 			add_stability = -0.04
 			add_political_power = 25
-			add_popularity = { ideology = collectivist popularity = -0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.04 }
 			hidden_effect = {
 				country_event = { id = denmark.106 days = 2 }
@@ -3113,7 +3113,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_communist_law"
 			add_stability = -0.03
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			remove_ideas = DEN_weaken_monarchs_power_idea
 		}
@@ -3268,7 +3268,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_remove_disloyal_unions"
 			add_stability = -0.04
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
 			hidden_effect = {
 				country_event = { id = denmark.106 days = 2 }
@@ -3979,8 +3979,8 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 		}
@@ -3992,8 +3992,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_trash_capitalist_loans"
 			add_stability = -0.03
-			add_popularity = { ideology = vanguardist popularity = 0.01 }
-			add_popularity = { ideology = collectivist popularity = 0.03 }
+			add_popularity = { ideology = auth_socialist popularity = 0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
 			remove_ideas = DEN_trash_capitalist_loans_idea
 			set_country_flag = DEN_economic_recovery_flag
@@ -4002,7 +4002,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DEN_communist_dominance
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = DEN_danish_revolution
@@ -4021,7 +4021,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_return_of_king"
 			add_stability = 0.07
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 
 	}
@@ -4101,7 +4101,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_political_power	= -40
 			add_manpower = -200
-			add_popularity = { ideology = collectivist popularity = 0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 			remove_ideas = DEN_trial_against_lyksborg_idea
 		}
 
@@ -4176,7 +4176,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus DEN_socialist_republic"
 			add_stability = 0.05
 			add_war_support = 0.03
-			add_popularity = { ideology = collectivist popularity = 0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.04 }
 		}
 
 	}

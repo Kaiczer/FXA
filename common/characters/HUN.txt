@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -456,7 +456,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Laszlo_Rajk_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -483,7 +483,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Sandor_Garbai_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -934,7 +934,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Erik_Molnar_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_biased_intellectual
 			}
 		}
@@ -961,7 +961,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Mate_Zalka_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -988,7 +988,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jozsef_Pogany_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1312,7 +1312,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Ernő_Gerő_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_mixed_economy
 			}
 		}
@@ -1339,7 +1339,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Zoltan_Vas_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_trade_proponent
 			}
 		}
@@ -1366,7 +1366,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Rezső_Fiedler_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_construction_magnate
 			}
 		}
@@ -1663,7 +1663,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Ferenc_Erdei_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1690,7 +1690,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Mihaly_Farkas_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1717,7 +1717,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Bela_Vago_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1744,7 +1744,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jozsef_Revai_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_prince_of_terror
 			}
 		}

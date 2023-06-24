@@ -21,13 +21,13 @@ ALG = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -143,13 +143,13 @@ EGY = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -265,13 +265,13 @@ WES = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -387,13 +387,13 @@ LBA = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -509,13 +509,13 @@ MOR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -631,13 +631,13 @@ SUD = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -722,7 +722,7 @@ SUD = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
@@ -753,13 +753,13 @@ TUN = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -875,13 +875,13 @@ PHN = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -997,13 +997,13 @@ KUR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1119,13 +1119,13 @@ IRQ = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1241,13 +1241,13 @@ ARB = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1363,13 +1363,13 @@ YEM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1485,13 +1485,13 @@ ARM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1607,13 +1607,13 @@ AZR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1729,13 +1729,13 @@ TRK = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -1852,13 +1852,13 @@ ISR = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
@@ -1952,13 +1952,13 @@ PER = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"
@@ -2074,13 +2074,13 @@ PER = {
 # 		}
 # 	}
 # 	political = {
-# 		vanguardist = {
+# 		auth_socialist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_6.png"
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_3.png"
 # 			}
 # 		}
-# 		collectivist = {
+# 		vanguard_socialist = {
 # 			male = {
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_4.png"
 # 				"gfx/leaders/Generic/Portrait_Arabia_Generic_new_7.png"

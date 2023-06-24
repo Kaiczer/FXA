@@ -4,12 +4,12 @@
 MAN_FUHRERREDUX_DESC: "With the Anti-Zhili Coaltion being formed in 1924 consisting of the Anhui, Kuomintang, and Fengtian, the war ended disastrously for the Zhili, resulting in a large collapse of the Clique itself. With the Fengtian Clique finally reigning supreme in Beijing, Beiyang had managed to become stable once again with the Zhili remaining a minority in the government. However the relations with the Kuomintang in the south quickly souring, the Northern Expedition against Beiyang began. While the Kuomintang saw initial success, intervention by Shanxi caused their advance to stall, forcing peace between the two biggests governments in China."
 
 ### Country Names
-MAN_vanguardist: "Manchurian People's Republic"
-MAN_vanguardist_ADJ: "Fengtian"
-MAN_vanguardist_DEF: "Manchuria"
-MAN_collectivist: "Manchurian People's Republic"
-MAN_collectivist_ADJ: "Fengtian"
-MAN_collectivist_DEF: "Manchuria"
+MAN_auth_socialist: "Manchurian People's Republic"
+MAN_auth_socialist_ADJ: "Fengtian"
+MAN_auth_socialist_DEF: "Manchuria"
+MAN_vanguard_socialist: "Manchurian People's Republic"
+MAN_vanguard_socialist_ADJ: "Fengtian"
+MAN_vanguard_socialist_DEF: "Manchuria"
 MAN_libertarian_socialist: "Manchuria"
 MAN_libertarian_socialist_ADJ: "Fengtian"
 MAN_libertarian_socialist_DEF: "Manchuria"
@@ -40,10 +40,10 @@ MAN_valkist_DEF: "The Fengtian State"
 
 #### Political Parties ####
 
-MAN_vanguardist_party: "Manchurian Soviets"
-MAN_vanguardist_party_long: "Manchurian Soviets"
-MAN_collectivist_party: "Manchurian Soviets"
-MAN_collectivist_party_long: "Manchurian Soviets"
+MAN_auth_socialist_party: "Manchurian Soviets"
+MAN_auth_socialist_party_long: "Manchurian Soviets"
+MAN_vanguard_socialist_party: "Manchurian Soviets"
+MAN_vanguard_socialist_party_long: "Manchurian Soviets"
 MAN_libertarian_socialist_party: "Manchurian People's Association"
 MAN_libertarian_socialist_party_long: "Manchurian People's Association"
 MAN_social_democrat_party: "Unificationists"

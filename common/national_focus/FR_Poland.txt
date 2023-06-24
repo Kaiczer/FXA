@@ -3588,8 +3588,8 @@ focus = {
 		OR = {
 			has_government = social_democrat
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 			SOV = { has_government = social_democrat }
 		}
 	}

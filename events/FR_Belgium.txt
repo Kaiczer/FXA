@@ -47,7 +47,7 @@ country_event = { #King Albert dies
         character = BEL_Hendrik_de_Man
         promote_leader = yes
         country_leader = {
-          ideology = vanguardist_subtype
+          ideology = authsoc_subtype
           traits = {}
         }
       }
@@ -55,7 +55,7 @@ country_event = { #King Albert dies
         character = BEL_Julien_Lahaut
         promote_leader = yes
         country_leader = {
-          ideology = collectivist_subtype
+          ideology = vansoc_subtype
           traits = {}
         }
       }
@@ -194,7 +194,7 @@ country_event = { #Killer caught
 	option = {
 		name = bel.5.a
 		add_popularity = {
-			ideology = collectivist 
+			ideology = vanguard_socialist 
 			popularity = -0.05
 		}
 		set_country_flag = BEL_killer_caught
@@ -299,7 +299,7 @@ country_event = { #Communist uprising
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = authoritarian_democrat
-				ideology = collectivist
+				ideology = vanguard_socialist
 				size = 0.5
 				capital = 34
 				states = { 34 802 806 }
@@ -326,7 +326,7 @@ country_event = { #Communist uprising
 		hidden_effect = {
 			set_capital = { state = 34 }
 			start_civil_war = {
-				ruling_party = collectivist
+				ruling_party = vanguard_socialist
 				ideology = authoritarian_democrat
 				size = 0.5
 				capital = 6
@@ -334,11 +334,11 @@ country_event = { #Communist uprising
 			}
 			add_ideas = revolutionary_movement
 			set_politics = {
-				ruling_party = collectivist
+				ruling_party = vanguard_socialist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = 0.4
 			}
 			add_popularity = {
@@ -1177,14 +1177,14 @@ country_event = { #Henrik De Man becomes leader
 	option = {
 		name = bel.31.a
 		set_politics = {
-			ruling_party = vanguardist
+			ruling_party = auth_socialist
 			elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = one_party_dictatorship
 			set_capital = { state = 6 }
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = 0.4
 			}
 			add_popularity = {

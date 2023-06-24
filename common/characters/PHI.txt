@@ -38,7 +38,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Luis_Taruc_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -52,7 +52,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -70,7 +70,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Pedro_Abad_Santos_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -84,7 +84,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { PHI_the_union_man }
 		}
 		advisor = {
@@ -1109,7 +1109,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Casto_Alejandrino_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1344,7 +1344,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Herminegildo_Cruz_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1703,7 +1703,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Guillermo_Capadocia_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -1722,7 +1722,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Guillermo_Capadocia_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_health_and_safety
 			}
 		}
@@ -2195,7 +2195,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jesus_Lava_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -2214,7 +2214,7 @@ characters = {
 				ROOT = { clr_country_flag = PHI_Jesus_Lava_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_prince_of_terror
 			}
 		}

@@ -16,15 +16,15 @@ defined_text = {
 	name = GetPopularityTooltipDesc
 	text = {
 		trigger = {
-			has_government = vanguardist
+			has_government = auth_socialist
 		}
-		localization_key = vanguardist_subtype_desc
+		localization_key = authsoc_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
-		localization_key = collectivist_subtype_desc
+		localization_key = vansoc_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -147,12 +147,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = vanguardist
-				check_variable = { political_power_ideology = token:vanguardist }
+				has_government = auth_socialist
+				check_variable = { political_power_ideology = token:auth_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:vanguardist }
+			is_in_array = { ROOT.coalition_partners = token:auth_socialist }
 		}
-		localization_key = party_pop_coalition_vanguardist
+		localization_key = party_pop_coalition_auth_socialist
 	}
 	text = {
 		localization_key = empty
@@ -163,12 +163,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = collectivist
-				check_variable = { political_power_ideology = token:collectivist }
+				has_government = vanguard_socialist
+				check_variable = { political_power_ideology = token:vanguard_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:collectivist }
+			is_in_array = { ROOT.coalition_partners = token:vanguard_socialist }
 		}
-		localization_key = party_pop_coalition_collectivist
+		localization_key = party_pop_coalition_vanguard_socialist
 	}
 	text = {
 		localization_key = empty
@@ -316,15 +316,15 @@ defined_text = {
 	name = GetCoalitionTooltipColour
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:vanguardist }
+			check_variable = { coalition_partner_var = token:auth_socialist }
 		}
-		localization_key = colour_vanguardist_red
+		localization_key = colour_auth_socialist_red
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:collectivist }
+			check_variable = { coalition_partner_var = token:vanguard_socialist }
 		}
-		localization_key = colour_collectivist_red
+		localization_key = colour_vanguard_socialist_red
 	}
 	text = {
 		trigger = {

@@ -8,11 +8,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -30,7 +30,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Sven_Linderot_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -49,7 +49,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Sven_Linderot_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -940,7 +940,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Frans_Severin_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_happy_amateur
 			}
 		}
@@ -1251,7 +1251,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Hilding_Hagberg_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1278,7 +1278,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Albert_Jensen_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1605,7 +1605,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Gustav_Sjostrom_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_administrative_genius
 			}
 		}
@@ -1902,7 +1902,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Arvid_Olsson_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}
@@ -1929,7 +1929,7 @@ characters = {
 				ROOT = { clr_country_flag = SWE_Folke_Fridell_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_man_of_the_people
 			}
 		}

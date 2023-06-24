@@ -9,12 +9,12 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -423,7 +423,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Apostol_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_red_chairmen
 			}
 		}
@@ -718,7 +718,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ana_Pauker_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -961,7 +961,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Miron_Constantinescu_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1204,7 +1204,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Teohari_Georgescu_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}

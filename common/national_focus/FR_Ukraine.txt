@@ -1997,8 +1997,8 @@ focus_tree = {
 			custom_effect_tooltip = UKR_coalition_with_the_cpu_tt
 
 			add_political_power = -100
-			set_country_flag = coalition_collectivist
-			set_country_flag = coalition_vanguardist
+			set_country_flag = coalition_vanguard_socialist
+			set_country_flag = coalition_auth_socialist
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 	}
@@ -3694,11 +3694,11 @@ focus_tree = {
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.15
 			}
 		}
@@ -3912,11 +3912,11 @@ focus_tree = {
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.1
 			}
 		}

@@ -55,7 +55,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_socialist_militas"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			if = {
 				limit = {
@@ -137,7 +137,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPR_ban_communist_party"
 			add_stability = 0.02
 			add_political_power = -20
-			add_popularity = { ideology = collectivist popularity = -0.04 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 			if = {
 				limit = {
 					has_idea = SPR_civil_war_recovery_idea
@@ -606,7 +606,7 @@ focus_tree = {
 			country_event = { id = repspain.105 days = 1 }
 			add_political_power = -25
 			add_popularity = { ideology = libertarian_socialist popularity = -0.07 }
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 		}
 
 	}
@@ -690,7 +690,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_popularity = { ideology = social_liberal popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 		}
 
 	}

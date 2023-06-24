@@ -612,7 +612,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = vanguardist_subtype
+      ideology = authsoc_subtype
       traits = {}
     }
 		advisor = {
@@ -630,7 +630,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_David_Wijnkoop_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -644,7 +644,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = collectivist_subtype
+      ideology = vansoc_subtype
       traits = {}
     }
 		advisor = {
@@ -662,7 +662,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Anton_Pannekoek_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -689,7 +689,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Harm_Kolthek_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -770,7 +770,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Paul_de_Groot_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -797,7 +797,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Nicolaas_Beuzemaker_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -851,7 +851,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Louis_de_Visser_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -878,7 +878,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Abraham_Verduin_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -964,7 +964,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Bernhard_Coltof_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -991,7 +991,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Daniel_Goulooze_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1018,7 +1018,7 @@ characters = {
 				ROOT = { clr_country_flag = HOL_Henriette_Roland_Holst_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}

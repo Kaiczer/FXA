@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-HON_vanguardist: "Workers' State of Honduras"
-HON_vanguardist_ADJ: "Honduran"
-HON_vanguardist_DEF: "Workers' State of Honduras"
-HON_collectivist: "Honduran Socialist State"
-HON_collectivist_ADJ: "Honduran"
-HON_collectivist_DEF: "Honduran Socialist State"
+HON_auth_socialist: "Workers' State of Honduras"
+HON_auth_socialist_ADJ: "Honduran"
+HON_auth_socialist_DEF: "Workers' State of Honduras"
+HON_vanguard_socialist: "Honduran Socialist State"
+HON_vanguard_socialist_ADJ: "Honduran"
+HON_vanguard_socialist_DEF: "Honduran Socialist State"
 HON_libertarian_socialist: "Honduran Communal Republic"
 HON_libertarian_socialist_ADJ: "Honduran"
 HON_libertarian_socialist_DEF: "Honduran Communal Republic"
@@ -37,10 +37,10 @@ HON_valkist_DEF: "Blessed Honduran Republic"
 
 #### Political Parties ####
 
-HON_vanguardist_party: "PTR"
-HON_vanguardist_party_long: "Revolutionary Labor Party"
-HON_collectivist_party: "PTR"
-HON_collectivist_party_long: "Revolutionary Labor Party"
+HON_auth_socialist_party: "PTR"
+HON_auth_socialist_party_long: "Revolutionary Labor Party"
+HON_vanguard_socialist_party: "PTR"
+HON_vanguard_socialist_party_long: "Revolutionary Labor Party"
 HON_libertarian_socialist_party: "PTR"
 HON_libertarian_socialist_party_long: "Revolutionary Labor Party"
 HON_social_democrat_party: "PDR"

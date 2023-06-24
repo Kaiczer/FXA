@@ -453,11 +453,11 @@ country_event = { # Farmers Demands Government Help
       popularity = 0.1
     }
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = vanguardist
+      ideology = auth_socialist
       popularity = 0.05
     }
     hidden_effect = {
@@ -531,11 +531,11 @@ country_event = { # Scouts Expel Protesters in Mendiola
       popularity = 0.1
     }
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = vanguardist
+      ideology = auth_socialist
       popularity = 0.05
     }
     hidden_effect = {
@@ -872,11 +872,11 @@ country_event = { # Elections of 1937
       set_country_flag = PHI_socialists_in_control
       mark_focus_tree_layout_dirty = yes
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = 0.1
       }
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = 0.1
       }
     }

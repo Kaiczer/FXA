@@ -16,7 +16,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -34,7 +34,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Stanislav_Kosior_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_great_compromiser
 			}
 		}
@@ -47,7 +47,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -453,7 +453,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksander_Shumsky_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -712,7 +712,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vlas_Chubar_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1252,7 +1252,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Grigorij_Petrovsky_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1279,7 +1279,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Panas_P_Lyubchenko_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_industrialiser
 			}
 		}
@@ -1306,7 +1306,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Yuri_Kotsiubinsky_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_steel_magnate
 			}
 		}
@@ -1468,7 +1468,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Emanoil_Kviring_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1495,7 +1495,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Leonid_Melnikov_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1522,7 +1522,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Khrystian_G_Rakovsky_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1549,7 +1549,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vladimir_Antonov_Ovseyenko_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_media_magnate
 			}
 		}

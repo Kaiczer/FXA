@@ -623,8 +623,8 @@ ideas = {
 			picture = officers_purged
 			modifier = {
 				libertarian_socialist_acceptance = -25
-				collectivist_acceptance = -25
-				vanguardist_acceptance = -25
+				vanguard_socialist_acceptance = -25
+				auth_socialist_acceptance = -25
 			}
 		}
 		GER_tst_army = {
@@ -1808,7 +1808,7 @@ ideas = {
 			picture = NOR_uob_support_idea
 			allowed = { original_tag = GER }
             modifier = {
-				collectivist_drift = 0.01
+				vanguard_socialist_drift = 0.01
 				libertarian_socialist_drift = 0.01
 				social_democrat_drift = 0.01
 				social_liberal_drift = 0.01
@@ -1822,7 +1822,7 @@ ideas = {
 			picture = NOR_uob_support_idea
 			allowed = { original_tag = GER }
             modifier = {
-				collectivist_drift = 0.01
+				vanguard_socialist_drift = 0.01
 				libertarian_socialist_drift = 0.03
 				social_democrat_drift = 0.02
 				social_liberal_drift = 0.01

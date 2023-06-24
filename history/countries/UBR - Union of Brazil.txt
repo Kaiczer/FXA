@@ -8,7 +8,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = collectivist
+	ruling_party = vanguard_socialist
 	last_election = "1934.7.17"
 	election_frequency = 48
 	elections_allowed = no
@@ -21,9 +21,9 @@ set_popularities = {
   paternal_autocrat = 2
   social_democrat = 5
   valkist = 2
-  collectivist = 52
+  vanguard_socialist = 52
   libertarian_socialist = 17
-  vanguardist = 7
+  auth_socialist = 7
 }
 
 set_stability = 0.555

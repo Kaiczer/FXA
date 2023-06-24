@@ -186,7 +186,7 @@ country_event = {
 		name = bei.1.a
 		add_political_power = -20
 		add_stability = -0.02
-		add_popularity = { ideology = collectivist popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 	}
 }
 
@@ -674,8 +674,8 @@ country_event = {
             }
 
                 set_popularities = {
-                    vanguardist = 3
-                    collectivist = 7
+                    auth_socialist = 3
+                    vanguard_socialist = 7
                     libertarian_socialist = 6
                     social_democrat = 4
                     social_liberal = 2
@@ -917,8 +917,8 @@ country_event = {
             }
 
                 set_popularities = {
-                    vanguardist = 3
-                    collectivist = 8
+                    auth_socialist = 3
+                    vanguard_socialist = 8
                     libertarian_socialist = 6
                     social_democrat = 4
                     social_liberal = 2
@@ -1028,8 +1028,8 @@ country_event = {
             }
 
                 set_popularities = {
-                    vanguardist = 3
-                    collectivist = 8
+                    auth_socialist = 3
+                    vanguard_socialist = 8
                     libertarian_socialist = 7
                     social_democrat = 4
                     social_liberal = 2

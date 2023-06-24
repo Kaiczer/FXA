@@ -52,7 +52,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAR_beurocratic_reforms"
 			add_stability = 0.05
-			add_popularity = { ideology = vanguardist popularity = -0.03 }
+			add_popularity = { ideology = auth_socialist popularity = -0.03 }
 		}
 
 	}
@@ -193,7 +193,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAR_marxist_pluralism"
 			add_political_power = -75
-			add_popularity = { ideology = collectivist popularity = 0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 		}
@@ -219,8 +219,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAR_close_out_trotskyist_voices"
 			add_stability = -0.05
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
-			add_popularity = { ideology = collectivist popularity = -0.04 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
 		}
 
 	}
@@ -243,7 +243,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_MAR_purge_reactionaries"
 			add_political_power = -25
 			add_stability = 0.03
-			add_popularity = { ideology = vanguardist popularity = -0.05 }
+			add_popularity = { ideology = auth_socialist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 		}
 

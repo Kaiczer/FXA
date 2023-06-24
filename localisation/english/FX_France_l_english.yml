@@ -4,12 +4,12 @@
 FRA_FUHRERREDUX_DESC: "Victorious, but at what cost? Many Frenchmen found themselves asking this in the aftermath of the Great War. France had reclaimed its rightful land, and established a protectorate over the Rheinland to prevent the Germans from ever threatening La Patrie ever again. However as the 1930s come to an end, France's position in Europe and the world is increasingly threatened, with a hostile British Empire threatening France's colonies and a increasingly belligerent Soviet Union, but perhaps of the greatest concern is a resurgent Germany. France will need cunning, bravery, and excellent diplomacy to emerge from the coming storm unscathed."
 
 ### Country Names
-FRA_vanguardist: "Commune of France"
-FRA_vanguardist_ADJ: "French"
-FRA_vanguardist_DEF: "The Commune of France"
-FRA_collectivist: "Commune of France"
-FRA_collectivist_ADJ: "French"
-FRA_collectivist_DEF: "The Commune of France"
+FRA_auth_socialist: "Commune of France"
+FRA_auth_socialist_ADJ: "French"
+FRA_auth_socialist_DEF: "The Commune of France"
+FRA_vanguard_socialist: "Commune of France"
+FRA_vanguard_socialist_ADJ: "French"
+FRA_vanguard_socialist_DEF: "The Commune of France"
 FRA_libertarian_socialist: "Commune of France"
 FRA_libertarian_socialist_ADJ: "French"
 FRA_libertarian_socialist_DEF: "The Commune of France"
@@ -44,10 +44,10 @@ continental_entente_research_desc: "The Entente Institute of Research, or simply
 
 #### Political Parties ####
 
-FRA_vanguardist_party: "PFNC"
-FRA_vanguardist_party_long: "Parti Français National Communiste                        §gA fringe political movement in France, the PFNC was formed during the February 1934 riots as a far-left split of Parti Populaire Français, which itself was a breakaway of the Parti Communiste Français. The party soon asserted itself as the most radical of the leftist parties in France, supporting racist doctrine refusing to cooperate with the government in any way. The party supports both Rattachism and pan-European nationalism, seeking to unify Europe under a single centralized government with the French at the top calling the shot. Despite being an extreme party, the PFNC is highly antagonistic towards the Parti Populaire Français and other radicals on both the left and right. The original leader of the PFNC, Marcel Déat, has shown to have highly radical opinions even by the standards of the party, and some have even branded him as a lover of Dressler's Germany. Should the PFNC come to power, France may find herself devoid of allies and with enemies on all sides.§!"
-FRA_collectivist_party: "PCF"
-FRA_collectivist_party_long: "Parti Communiste Français                                   §gThe Parti Communiste Français is the mainline Communist party presently active in France. Originally formed as a more radical offshoot of the SFIO in late 1920, the PCF quickly became the primary communist organization in France during the 20s and 30s, gaining great influence within the working class and having the power to call strikes at will, even if said strikes were few and far between. The PCF has affirmed itself as a revolutionary party and even included people such as Nguyen Sinh Cung, who was in fact one of its founding members. The party has steadily gained popularity throughout the early 19th Century, and polls show that support for the PCF is higher than ever due to the resurgent German power in the East and expanding Soviet influence across Europe. Maurice Thorez, the parties leader, is an outspoken communist with ties to the government and much political experience.Many believe that if leftism were to come to France, the PCF would be the vanguard and the one's taking charge of the political situation.§!"
+FRA_auth_socialist_party: "PFNC"
+FRA_auth_socialist_party_long: "Parti Français National Communiste                        §gA fringe political movement in France, the PFNC was formed during the February 1934 riots as a far-left split of Parti Populaire Français, which itself was a breakaway of the Parti Communiste Français. The party soon asserted itself as the most radical of the leftist parties in France, supporting racist doctrine refusing to cooperate with the government in any way. The party supports both Rattachism and pan-European nationalism, seeking to unify Europe under a single centralized government with the French at the top calling the shot. Despite being an extreme party, the PFNC is highly antagonistic towards the Parti Populaire Français and other radicals on both the left and right. The original leader of the PFNC, Marcel Déat, has shown to have highly radical opinions even by the standards of the party, and some have even branded him as a lover of Dressler's Germany. Should the PFNC come to power, France may find herself devoid of allies and with enemies on all sides.§!"
+FRA_vanguard_socialist_party: "PCF"
+FRA_vanguard_socialist_party_long: "Parti Communiste Français                                   §gThe Parti Communiste Français is the mainline Communist party presently active in France. Originally formed as a more radical offshoot of the SFIO in late 1920, the PCF quickly became the primary communist organization in France during the 20s and 30s, gaining great influence within the working class and having the power to call strikes at will, even if said strikes were few and far between. The PCF has affirmed itself as a revolutionary party and even included people such as Nguyen Sinh Cung, who was in fact one of its founding members. The party has steadily gained popularity throughout the early 19th Century, and polls show that support for the PCF is higher than ever due to the resurgent German power in the East and expanding Soviet influence across Europe. Maurice Thorez, the parties leader, is an outspoken communist with ties to the government and much political experience.Many believe that if leftism were to come to France, the PCF would be the vanguard and the one's taking charge of the political situation.§!"
 FRA_libertarian_socialist_party: "Anarchistes"
 FRA_libertarian_socialist_party_long: "Mouvement Anarchiste Français                             §gA collection of Anarchists and libertarian socialist movements led by Sébastien Faure under a common banner, the Anarchistes wish to see a great degree of decentralization come to France and a peaceful, democratic transition to revolution. While the Anarchiste movement may be small in number and low in popularity, they may prove invaluable in the case of a leftist government coming to power in France, democratically or otherwise.§!"
 FRA_social_democrat_party: "SFIO"

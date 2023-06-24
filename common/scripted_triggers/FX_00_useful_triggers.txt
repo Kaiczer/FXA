@@ -224,12 +224,12 @@ is_not_claim_or_core_of_PREV = {
 has_same_government_as_ROOT = {
 	OR = {
 		AND = {
-			has_government = vanguardist
-			ROOT = { has_government = vanguardist }
+			has_government = auth_socialist
+			ROOT = { has_government = auth_socialist }
 		}
 		AND = {
-			has_government = collectivist
-			ROOT = { has_government = collectivist }
+			has_government = vanguard_socialist
+			ROOT = { has_government = vanguard_socialist }
 		}
 		AND = {
 			has_government = libertarian_socialist
@@ -275,8 +275,8 @@ has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = FX_is_socialist_tt
 		OR = {
-			has_government = vanguardist
-			has_government = collectivist
+			has_government = auth_socialist
+			has_government = vanguard_socialist
 			has_government = libertarian_socialist
 		}
 	}

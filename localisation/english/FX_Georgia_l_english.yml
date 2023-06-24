@@ -2,12 +2,12 @@
 l_english:
 
 ### Country Names
-GEO_vanguardist: "Democratic Georgia"
-GEO_vanguardist_ADJ: "Georgian"
-GEO_vanguardist_DEF: "The Georgian People's Republic"
-GEO_collectivist: "Democratic Georgia"
-GEO_collectivist_ADJ: "Democratic Georgia"
-GEO_collectivist_DEF: "The Georgian People's Republic"
+GEO_auth_socialist: "Democratic Georgia"
+GEO_auth_socialist_ADJ: "Georgian"
+GEO_auth_socialist_DEF: "The Georgian People's Republic"
+GEO_vanguard_socialist: "Democratic Georgia"
+GEO_vanguard_socialist_ADJ: "Democratic Georgia"
+GEO_vanguard_socialist_DEF: "The Georgian People's Republic"
 GEO_libertarian_socialist: "Georgia"
 GEO_libertarian_socialist_ADJ: "Georgian"
 GEO_libertarian_socialist_DEF: "The Democratic Republic of Georgia"
@@ -37,10 +37,10 @@ GEO_valkist_ADJ: "Kartuli"
 GEO_valkist_DEF: "Sakartvelos Respublika"
 
 #### PARTIES
-GEO_vanguardist_party: "RKP(nc)"
-GEO_vanguardist_party_long: "Rossiyskaya Kommunisticheskaya Partiya (national-collectivists)"
-GEO_collectivist_party: "SKP"
-GEO_collectivist_party_long: "Sakartvelos Komunisturi Partia"
+GEO_auth_socialist_party: "RKP(nc)"
+GEO_auth_socialist_party_long: "Rossiyskaya Kommunisticheskaya Partiya (national-vanguard_socialists)"
+GEO_vanguard_socialist_party: "SKP"
+GEO_vanguard_socialist_party_long: "Sakartvelos Komunisturi Partia"
 GEO_libertarian_socialist_party: "SSDP(r)"
 GEO_libertarian_socialist_party_long: "Sakartvelos Social-Demokratiuli Partia (radicals)"
 GEO_social_democrat_party: "SSDP(m)"

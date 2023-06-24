@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Diaz_Loyola_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Diaz_Loyola_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -54,7 +54,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -72,7 +72,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Labarca_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_happy_amateur
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Clotario_Blest_Riffo_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -126,7 +126,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Luis_Alberto_Corvalan_Lepe_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -153,7 +153,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Luis_Emilio_Recabarren_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -570,7 +570,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Jose_Santos_Salas_Morales_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_hawkish_intervener
 			}
 		}
@@ -597,7 +597,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Bernardo_Ibanez_Aguila_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -624,7 +624,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Luis_Arteaga_Garcia_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_biased_intellectual
 			}
 		}
@@ -1002,7 +1002,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Victor_Contreras_Tapia_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1029,7 +1029,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Augustin_Edwards_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -1056,7 +1056,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Eulogia_Roman_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1385,7 +1385,7 @@ characters = {
 				ROOT = { clr_country_flag = CHL_Carlos_Gregorio_Davila_Espinoza_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}

@@ -940,8 +940,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_SUP_discredit_radicals"
 
-		add_popularity = { ideology = vanguardist popularity = -0.05 }
-		add_popularity = { ideology = collectivist popularity = -0.05 }
+		add_popularity = { ideology = auth_socialist popularity = -0.05 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
 		add_popularity = { ideology = social_liberal popularity = 0.10 }
 		add_popularity = { ideology = market_liberal popularity = 0.05 }
@@ -1208,8 +1208,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_crackdown_on_radicals"
 
-		add_popularity = { ideology = collectivist popularity = -0.02 }
-		add_popularity = { ideology = vanguardist popularity = -0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
+		add_popularity = { ideology = auth_socialist popularity = -0.02 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 		add_popularity = { ideology = national_populist popularity = -0.02 }
@@ -1234,8 +1234,8 @@ focus_tree = {
 
 		add_stability = -0.03
 		add_political_power = 100
-		add_popularity = { ideology = vanguardist popularity = -0.02 }
-		add_popularity = { ideology = collectivist popularity = -0.02 }
+		add_popularity = { ideology = auth_socialist popularity = -0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 		add_popularity = { ideology = valkist popularity = -0.02 }
 

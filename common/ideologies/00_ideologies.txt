@@ -7,12 +7,11 @@
 
 ideologies = {
 
-	vanguardist = {
+	auth_socialist = {
 		types = {
-			vanguardist_subtype = {}
+			authsoc_subtype = {}
 			revolutionary_showaist_subtype = { can_be_randomly_selected = no }
 			autocratic_socialist_subtype = {can_be_randomly_selected = no}
-			##internationalist_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VANGUARDIST_1"
@@ -42,19 +41,19 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	collectivist = {
+	vanguard_socialist = {
 		types = {
-			collectivist_subtype = {}
+			vansoc_subtype = {}
 			monsoc_subtype = { can_be_randomly_selected = no }
 			leninism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_collectivist_1"
-			"FACTION_NAME_collectivist_2"
-			"FACTION_NAME_collectivist_3"
-			"FACTION_NAME_collectivist_4"
-			"FACTION_NAME_collectivist_5"
-			"FACTION_NAME_collectivist_6"
+			"FACTION_NAME_vanguard_socialist_1"
+			"FACTION_NAME_vanguard_socialist_2"
+			"FACTION_NAME_vanguard_socialist_3"
+			"FACTION_NAME_vanguard_socialist_4"
+			"FACTION_NAME_vanguard_socialist_5"
+			"FACTION_NAME_vanguard_socialist_6"
 		}
 		color = { 164 26 26 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
 		rules = {

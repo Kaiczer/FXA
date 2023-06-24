@@ -2969,11 +2969,11 @@ focus_tree = {
 		relative_position_id = ROM_establish_the_siguranta
 		completion_reward = {
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -3291,11 +3291,11 @@ focus_tree = {
 		relative_position_id = ROM_seize_foreign_industries
 		completion_reward = {
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = 0.025
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -3564,11 +3564,11 @@ focus_tree = {
 		relative_position_id = ROM_the_siguranta
 		completion_reward = {
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -4176,11 +4176,11 @@ focus_tree = {
 		relative_position_id = ROM_guide_the_nation
 		completion_reward = {
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.15
 			}
 			add_popularity = {

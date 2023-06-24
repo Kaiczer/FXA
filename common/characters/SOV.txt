@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = {
 				SOV_the_bureaucrat
 			}
@@ -28,7 +28,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Vyacheslav_Molotov_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -609,7 +609,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Aleksandra_Kollontay_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -664,7 +664,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Karl_Radek_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -691,7 +691,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Georgiy_Malenkov_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -745,7 +745,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Mikhail_Tomskiy_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -773,7 +773,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Sergey_Kirov_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_construction_magnate
 			}
 		}
@@ -827,7 +827,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Genrikh_Yagoda_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_back_stabber
 			}
 		}
@@ -854,7 +854,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Pyetr_Popkov_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}

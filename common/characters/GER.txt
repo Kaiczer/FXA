@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -1812,7 +1812,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ernst_Toller_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -1839,7 +1839,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Paul_Levi_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -2176,7 +2176,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ernst_Rohm_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -2203,7 +2203,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Willi_Munzenburg_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_industrialiser
 			}
 		}
@@ -2230,7 +2230,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Willi_Stoph_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -2609,7 +2609,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ludwig_Renn_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -2636,7 +2636,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Eugen_Levine_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -2663,7 +2663,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hilde_Benjamin_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_silent_lawyer
 			}
 		}

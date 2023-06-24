@@ -201,8 +201,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_collectivist_revolution
-		icon = GFX_goal_ideology_collectivist
+		id = ARG_vanguard_socialist_revolution
+		icon = GFX_goal_ideology_vanguard_socialist
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_a_red_republic }
  		x =2
@@ -212,8 +212,8 @@ focus_tree = {
 		available_if_capitulated = yes  
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_collectivist_revolution"
-			add_ideas = ARG_the_collectivist_revolution
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialist_revolution"
+			add_ideas = ARG_the_vanguard_socialist_revolution
 		} 
 	}
 
@@ -221,7 +221,7 @@ focus_tree = {
 		id = ARG_nationalize_industry
 		icon = GFX_goal_socialist_industry
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_collectivist_revolution }
+		prerequisite = { focus = ARG_vanguard_socialist_revolution }
  		x =1
  		y =7
  		cost = 8
@@ -265,7 +265,7 @@ focus_tree = {
 		id = ARG_productive_redistribution
 		icon = GFX_goal_production
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_collectivist_revolution }
+		prerequisite = { focus = ARG_vanguard_socialist_revolution }
  		x =3
  		y =7
  		cost = 8
@@ -313,8 +313,8 @@ focus_tree = {
 				country_event = { id = arg.16 }
 			}
 			swap_ideas = {
-				remove_idea = ARG_the_collectivist_revolution
-				add_idea = ARG_the_collectivist_revolution1
+				remove_idea = ARG_the_vanguard_socialist_revolution
+				add_idea = ARG_the_vanguard_socialist_revolution1
 			}
 		} 
 	}
@@ -373,7 +373,7 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_collectivist_arms
+		id = ARG_vanguard_socialist_arms
 		icon = GFX_goal_generic_construct_mil_factory
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_central_union_leadership }
@@ -384,7 +384,7 @@ focus_tree = {
 		available_if_capitulated = yes  
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_collectivist_arms"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialist_arms"
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 					add_building_construction = {
@@ -445,7 +445,7 @@ focus_tree = {
 		id = ARG_socialist_education
 		icon = GFX_focus_generic_socialist_science
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_collectivist_arms }
+		prerequisite = { focus = ARG_vanguard_socialist_arms }
  		x =3
  		y =11
  		cost = 8
@@ -496,8 +496,8 @@ focus_tree = {
 				country_event = { id = arg.17 }
 			}
 			swap_ideas = {
-				remove_idea = ARG_the_collectivist_revolution1
-				add_idea = ARG_the_collectivist_revolution2
+				remove_idea = ARG_the_vanguard_socialist_revolution1
+				add_idea = ARG_the_vanguard_socialist_revolution2
 			}
 		} 
 	}
@@ -573,11 +573,11 @@ focus_tree = {
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = collectivist
+			ideology = vanguard_socialist
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = vanguardist
+			ideology = auth_socialist
 			popularity = -0.0375
 			}
 		} 
@@ -771,7 +771,7 @@ focus_tree = {
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = collectivist
+			ideology = vanguard_socialist
 			popularity = -0.0375
 			}
 		add_popularity = {
@@ -3020,8 +3020,8 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				}
 				NOT = { has_war_with = ARG }
 			}
@@ -3057,8 +3057,8 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				}
 				NOT = { has_war_with = ARG }
 			}
@@ -3558,9 +3558,9 @@ focus_tree = {
 						is_in_faction_with = ARG
 						is_subject_of = ARG
 						has_war_with = ARG
-						has_government = vanguardist
+						has_government = auth_socialist
 						has_government = libertarian_socialist
-						has_government = collectivist
+						has_government = vanguard_socialist
 						has_government = paternal_autocrat
 						has_government = authoritarian_democrat
 						has_government = valkist
@@ -3745,8 +3745,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_the_collectivist_menace
-		icon = GFX_goal_collectivist_menace
+		id = ARG_the_vanguard_socialist_menace
+		icon = GFX_goal_vanguard_socialist_menace
  		ai_will_do = { factor = 16 } 
  		prerequisite = { focus = ARG_alianza_del_sur focus = ARG_pact_of_la_plata }
  		x =26
@@ -3754,7 +3754,7 @@ focus_tree = {
 		available_if_capitulated = yes  
  		cost = 10  
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_the_collectivist_menace"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_the_vanguard_socialist_menace"
 			every_country = {
 				limit = {
 					NOT = {
@@ -3780,7 +3780,7 @@ focus_tree = {
 		id = ARG_contain_bolivia
 		icon = GFX_goal_generic_attack_bolivia
  		ai_will_do = { factor = 10 } 
- 		prerequisite = { focus = ARG_the_collectivist_menace }
+ 		prerequisite = { focus = ARG_the_vanguard_socialist_menace }
  		bypass = { has_completed_focus = ARG_invade_bolivia }
  		available = { BOL = { has_country_flag = BOL_revolutionary } 
  		 ARG = {
@@ -3803,7 +3803,7 @@ focus_tree = {
 		id = ARG_the_enemy_in_brazil
 		icon = GFX_goal_generic_attack_socialist_brazil
  		ai_will_do = { factor = 10 } 
- 		prerequisite = { focus = ARG_the_collectivist_menace }
+ 		prerequisite = { focus = ARG_the_vanguard_socialist_menace }
  		mutually_exclusive = { focus = ARG_break_the_state }
  		x =27
  		y =19
@@ -4093,8 +4093,8 @@ focus_tree = {
 		available = {
 			NOT = {
 				PRU = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 			}
@@ -4186,8 +4186,8 @@ focus_tree = {
 		available = { has_completed_focus = ARG_red_sunrise 
 					has_global_flag = ARG_anwin}
 		prerequisite = { focus = ARG_congress_of_41}
-		mutually_exclusive = { focus = ARG_collectivists_prevail }
-		mutually_exclusive = { focus = ARG_vanguardist_success }
+		mutually_exclusive = { focus = ARG_vanguard_socialists_prevail }
+		mutually_exclusive = { focus = ARG_auth_socialist_success }
  		cost = 1 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_anarchist_victory"
@@ -4210,7 +4210,7 @@ focus_tree = {
 				country_event = { id = arg.300 }
 				}
 			swap_ideas = {
-				remove_idea = ARG_the_collectivist_revolution2
+				remove_idea = ARG_the_vanguard_socialist_revolution2
 				add_idea = ARG_the_anarchist_revolution
 			}
 		} 
@@ -4315,8 +4315,8 @@ focus_tree = {
 		} 
 	}
 		focus = {
-		id = ARG_collectivists_prevail
-		icon = GFX_goal_collectivist_menace
+		id = ARG_vanguard_socialists_prevail
+		icon = GFX_goal_vanguard_socialist_menace
  		ai_will_do = { factor = 10 }
  		x =9
  		y =25
@@ -4325,10 +4325,10 @@ focus_tree = {
 					has_global_flag = ARG_orthwin}
 		prerequisite = { focus = ARG_congress_of_41}
 		mutually_exclusive = { focus = ARG_anarchist_victory }
-		mutually_exclusive = { focus = ARG_vanguardist_success }
+		mutually_exclusive = { focus = ARG_auth_socialist_success }
  		cost = 1  
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_collectivists_prevail"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialists_prevail"
 		add_political_power = 25
 		} 
 	}
@@ -4340,7 +4340,7 @@ focus_tree = {
  		x =8
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_collectivists_prevail }
+		prerequisite = { focus = ARG_vanguard_socialists_prevail }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_socialist_traditions"
@@ -4363,7 +4363,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_collective_society"
 			swap_ideas = {
-				remove_idea = ARG_the_collectivist_revolution2
+				remove_idea = ARG_the_vanguard_socialist_revolution2
 				add_idea = ARG_the_orthodox_revolution
 			}
 		} 
@@ -4393,7 +4393,7 @@ focus_tree = {
  		x =10
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_collectivists_prevail }
+		prerequisite = { focus = ARG_vanguard_socialists_prevail }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_we_will_overcome"
@@ -4424,8 +4424,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_vanguardist_success
-		icon = GFX_goal_ideology_vanguardist
+		id = ARG_auth_socialist_success
+		icon = GFX_goal_ideology_auth_socialist
  		ai_will_do = { factor = 10 }
  		x =15
  		y =25
@@ -4433,11 +4433,11 @@ focus_tree = {
 		available = { has_completed_focus = ARG_red_sunrise 
 					has_global_flag = ARG_vangvang }
 		prerequisite = { focus = ARG_congress_of_41}
-		mutually_exclusive = { focus = ARG_collectivists_prevail }
+		mutually_exclusive = { focus = ARG_vanguard_socialists_prevail }
 		mutually_exclusive = { focus = ARG_anarchist_victory }
  		cost = 1
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguardist_success"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_auth_socialist_success"
 			add_political_power = 25
 		} 
 	}
@@ -4448,7 +4448,7 @@ focus_tree = {
  		x =14
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_vanguardist_success }
+		prerequisite = { focus = ARG_auth_socialist_success }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_honour_the_chairman"
@@ -4485,7 +4485,7 @@ focus_tree = {
  		x =16
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_vanguardist_success }
+		prerequisite = { focus = ARG_auth_socialist_success }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_social_work_program"
@@ -4826,7 +4826,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_renovated_workers_promises"
 			add_popularity = {
-			ideology = collectivist popularity = -0.05
+			ideology = vanguard_socialist popularity = -0.05
 			}
 			add_political_power = 50
 		} 
@@ -5058,7 +5058,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_listen_to_the_unions"
 		add_popularity = {
-			ideology = collectivist popularity = -0.025
+			ideology = vanguard_socialist popularity = -0.025
 		}			
 		add_popularity = {
 			ideology = libertarian_socialist popularity = -0.025

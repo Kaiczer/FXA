@@ -1612,23 +1612,23 @@ focus_tree = {
 			add_political_power = -50
 			PHI = {
 				add_political_power = -30
-				add_popularity = { ideology = collectivist popularity = 0.02 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			}
 			JAP = {
 				add_political_power = -30
-				add_popularity = { ideology = collectivist popularity = 0.02 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			}
 			MAN = {
 				add_political_power = -30
-				add_popularity = { ideology = collectivist popularity = 0.02 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			}
 			ZHI = {
 				add_political_power = -30
-				add_popularity = { ideology = collectivist popularity = 0.02 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			}
 			CHI = {
 				add_political_power = -30
-				add_popularity = { ideology = collectivist popularity = 0.02 }
+				add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			}
 		}
 	}
@@ -1685,8 +1685,8 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 				has_government = social_democrat
 				has_government = social_conservative
@@ -2123,7 +2123,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INS_pki_government
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = INS_first_insulindian_election
@@ -2132,7 +2132,7 @@ focus_tree = {
 		y = 3
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2142,7 +2142,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_pki_government"
 			add_political_power = 20
-			add_popularity = { ideology = collectivist popularity = 0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 		}
 
 	}
@@ -2157,7 +2157,7 @@ focus_tree = {
 		y = 4
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 			controls_state = 335
 		}
 		
@@ -2191,7 +2191,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2217,7 +2217,7 @@ focus_tree = {
 		y = 7
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2246,7 +2246,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 			controls_state = 335
 		}
 		
@@ -2256,7 +2256,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_collectivize_industries"
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			335 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2282,7 +2282,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2309,7 +2309,7 @@ focus_tree = {
 		y = 6
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2319,8 +2319,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_socialist_democracy"
 			add_political_power = 15
-			add_popularity = { ideology = vanguardist popularity = 0.02 }
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
@@ -2329,7 +2329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = INS_kolektivisme
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = INS_workers_farmers_rights
@@ -2341,7 +2341,7 @@ focus_tree = {
 		y = 8
 		
 		available = {
-			has_government = collectivist
+			has_government = vanguard_socialist
 		}
 		
 		ai_will_do = {
@@ -2352,7 +2352,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_kolektivisme"
 			add_stability = 0.05
 			add_political_power = 25
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			remove_ideas = INS_political_instability_idea
 		}
 
@@ -2404,7 +2404,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_promote_mahaenism"
 			add_stability = 0.03
 			add_popularity = { ideology = social_liberal popularity = -0.02 }
-			add_popularity = { ideology = vanguardist popularity = -0.02 }
+			add_popularity = { ideology = auth_socialist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
 			add_popularity = { ideology = national_populist popularity = -0.02 }
 			add_ideas = INS_promote_mahaenism_idea
@@ -2424,7 +2424,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 				has_government = authoritarian_democrat
 			}
 		}
@@ -2454,7 +2454,7 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 				has_government = authoritarian_democrat
 			}
 		}
@@ -2524,7 +2524,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_guided_democracy"
 			add_political_power = 20
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -2607,7 +2607,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_purge_for_stability"
 			add_stability = -0.04
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -2765,7 +2765,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_decentralize_presidential_power"
 			add_stability = 0.03
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
 			swap_ideas = {
 				remove_idea = INS_build_islamic_democracy_idea
@@ -2825,7 +2825,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_limit_pki_influences"
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 		}
 
 	}
@@ -2880,7 +2880,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_promote_traditionalism"
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_ideas = INS_promote_traditionalism_idea
 		}
 
@@ -2997,7 +2997,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_purge_non_islamic_parties"
 			add_political_power = -30
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 		}
 
@@ -3112,7 +3112,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = INS_slaugther_collectivists
+		id = INS_slaugther_vanguard_socialists
 		icon = GFX_HOL_crackdown_syndie
 		cost = 10.00
 		prerequisite = {
@@ -3130,9 +3130,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus INS_slaugther_collectivists"
+			log = "[GetDateText]: [Root.GetName]: Focus INS_slaugther_vanguard_socialists"
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		}
 
 	}
@@ -3144,7 +3144,7 @@ focus_tree = {
 			focus = INS_establish_islamic_state
 		}
 		prerequisite = {
-			focus = INS_slaugther_collectivists
+			focus = INS_slaugther_vanguard_socialists
 		}
 		x = 40
 		y = 6
@@ -3267,7 +3267,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus INS_eradicate_left_opposition"
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = -0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
 		}
 
 	}
@@ -3276,7 +3276,7 @@ focus_tree = {
 		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
-			focus = INS_slaugther_collectivists
+			focus = INS_slaugther_vanguard_socialists
 			focus = INS_eradicate_left_opposition
 		}
 		x = 42

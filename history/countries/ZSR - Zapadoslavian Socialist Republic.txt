@@ -54,15 +54,15 @@ set_stability = 0.50
 set_war_support = 0.50
 
 set_politics = {	
-	ruling_party = vanguardist
+	ruling_party = auth_socialist
 	last_election = "1934.6.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  vanguardist = 39
-  collectivist = 3
+  auth_socialist = 39
+  vanguard_socialist = 3
   libertarian_socialist = 3
   social_democrat = 13
   social_liberal = 11

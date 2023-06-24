@@ -52,7 +52,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_PER_relegalize_cnt_fai"
 			add_political_power = -40
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
 		}
 
@@ -142,7 +142,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_PER_purge_dissident"
 			add_political_power = -50
 			add_stability = 0.03
-			add_popularity = { ideology = vanguardist popularity = -0.05 }
+			add_popularity = { ideology = auth_socialist popularity = -0.05 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
 		}
 
@@ -186,7 +186,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SPA_PER_fighting_beuocracy"
 			add_stability = 0.05
-			add_popularity = { ideology = vanguardist popularity = -0.03 }
+			add_popularity = { ideology = auth_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 		}
 

@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-PAR_vanguardist: "Socialist Republic of Paraguay"
-PAR_vanguardist_ADJ: "Paraguayan"
-PAR_vanguardist_DEF: "SThe ocialist Republic of Paraguay"
-PAR_collectivist: "Socialist Republic of Paraguay"
-PAR_collectivist_ADJ: "Paraguayan"
-PAR_collectivist_DEF: "Socialist Republic of Paraguay"
+PAR_auth_socialist: "Socialist Republic of Paraguay"
+PAR_auth_socialist_ADJ: "Paraguayan"
+PAR_auth_socialist_DEF: "SThe ocialist Republic of Paraguay"
+PAR_vanguard_socialist: "Socialist Republic of Paraguay"
+PAR_vanguard_socialist_ADJ: "Paraguayan"
+PAR_vanguard_socialist_DEF: "Socialist Republic of Paraguay"
 PAR_libertarian_socialist: "The Socialist Republic of Paraguay"
 PAR_libertarian_socialist_ADJ: "Paraguayan"
 PAR_libertartarian_socialist_DEF: "The Socialist Republic of Paraguay"
@@ -54,10 +54,10 @@ PAR_market_liberal_party: "PNL"
 PAR_market_liberal_party_long: "Partido Nacional Liberal Ortodoxo"
 PAR_libertarian_socialist_party: "FAP"
 PAR_libertarianl_socialist_party_long: "Federacion Anarco-Socialista Paraguaya"
-PAR_collectivist_party: "PSP"
-PAR_collectivist_party_long: "Partido Socialista de Paraguay"
-PAR_vanguardist_party: "PAP"
-PAR_vanguardist_party_long: "Partido Abrilista Paraguayo"
+PAR_vanguard_socialist_party: "PSP"
+PAR_vanguard_socialist_party_long: "Partido Socialista de Paraguay"
+PAR_auth_socialist_party: "PAP"
+PAR_auth_socialist_party_long: "Partido Abrilista Paraguayo"
 
 # Companies
 AA: "Arsenal de Asunción"

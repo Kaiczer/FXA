@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-ELS_vanguardist: "Workers' State of Salvador"
-ELS_vanguardist_ADJ: "Salvadorian"
-ELS_vanguardist_DEF: "Workers' State of Salvador"
-ELS_collectivist: "People's Republic of Salvador"
-ELS_collectivist_ADJ: "Salvadorian"
-ELS_collectivist_DEF: "People's Republic of Salvador"
+ELS_auth_socialist: "Workers' State of Salvador"
+ELS_auth_socialist_ADJ: "Salvadorian"
+ELS_auth_socialist_DEF: "Workers' State of Salvador"
+ELS_vanguard_socialist: "People's Republic of Salvador"
+ELS_vanguard_socialist_ADJ: "Salvadorian"
+ELS_vanguard_socialist_DEF: "People's Republic of Salvador"
 ELS_libertarian_socialist: "Salvadorian Communes"
 ELS_libertarian_socialist_ADJ: "Salvadorian"
 ELS_libertarian_socialist_DEF: "Salvadorian Communes"
@@ -40,10 +40,10 @@ ELS_UFCO_DEF: "The United Fruit Company & Associated Enterprises"
 
 #### Political Parties ####
 
-ELS_vanguardist_party: "PTL"
-ELS_vanguardist_party_long: "Free Workers' Party"
-ELS_collectivist_party: "PTL"
-ELS_collectivist_party_long: "Free Workers' Party"
+ELS_auth_socialist_party: "PTL"
+ELS_auth_socialist_party_long: "Free Workers' Party"
+ELS_vanguard_socialist_party: "PTL"
+ELS_vanguard_socialist_party_long: "Free Workers' Party"
 ELS_libertarian_socialist_party: "PTL"
 ELS_libertarian_socialist_party_long: "Free Workers' Party"
 ELS_social_democrat_party: "PNTP"

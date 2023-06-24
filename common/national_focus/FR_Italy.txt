@@ -302,7 +302,7 @@
 	
 	shared_focus = {
 		id = ITA_political_correctness
-		icon = GFX_goal_ideology_vanguardist
+		icon = GFX_goal_ideology_auth_socialist
 		x = 2
 		y = 8
 		cost = 5
@@ -327,11 +327,11 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_political_correctness"
 			# add opinion modifier with SOV
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = 0.05
 			}				
 		}
@@ -412,7 +412,7 @@
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -454,8 +454,8 @@
 			SOV = {
 				exists = yes
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 			}
@@ -1449,11 +1449,11 @@
 			}
 			
 			add_popularity = {
-				ideology = vanguardist
+				ideology = auth_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = collectivist
+				ideology = vanguard_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
@@ -2455,8 +2455,8 @@
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 					has_government = valkist
 					has_government = national_populist
@@ -2534,7 +2534,7 @@
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
 			is_puppet = no
 			OR = {
@@ -2752,7 +2752,7 @@
 				has_government = national_populist
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				#has_government = vanguardist
+				#has_government = auth_socialist
 			}		
 			SER = {
 				OR = {
@@ -3633,7 +3633,7 @@
 				OR = {
 					has_government = national_populist
 					has_government = valkist
-					has_government = vanguardist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -3669,8 +3669,8 @@
 				}
 			}
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 			}
 			is_puppet = no
@@ -3710,8 +3710,8 @@
 						}
 					}
 					OR = {
-						has_government = vanguardist
-						has_government = collectivist
+						has_government = auth_socialist
+						has_government = vanguard_socialist
 						has_government = libertarian_socialist
 					}
 				}
@@ -3784,8 +3784,8 @@
 					is_puppet = no
 					has_war = no
 					OR = {
-						has_government = vanguardist
-						has_government = collectivist
+						has_government = auth_socialist
+						has_government = vanguard_socialist
 						has_government = libertarian_socialist
 					}
 				}
@@ -3867,8 +3867,8 @@
 				exists = yes
 				is_puppet = no
 				OR = {
-					has_government = vanguardist
-					has_government = collectivist
+					has_government = auth_socialist
+					has_government = vanguard_socialist
 					has_government = libertarian_socialist
 				}
 			}
@@ -4955,16 +4955,16 @@
 				if = {
 					limit = {
 						ITA = {
-							has_government = vanguardist
+							has_government = auth_socialist
 						}
 					}
 					LBA = {
 						set_politics = {
-							ruling_party = vanguardist
+							ruling_party = auth_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = vanguardist
+							ideology = auth_socialist
 							popularity = 0.2
 						}
 						copy_government_idea_of_ROOT = yes
@@ -4973,16 +4973,16 @@
 				else_if = {
 					limit = {
 						ITA = {
-							has_government = collectivist
+							has_government = vanguard_socialist
 						}
 					}
 					LBA = {
 						set_politics = {
-							ruling_party = collectivist
+							ruling_party = vanguard_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = collectivist
+							ideology = vanguard_socialist
 							popularity = 0.2
 						}
 						copy_government_idea_of_ROOT = yes					
@@ -5004,13 +5004,13 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = vanguardist_subtype
+                  ideology = authsoc_subtype
                 }
               }
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = collectivist_subtype
+                  ideology = vansoc_subtype
                 }
               }
               add_country_leader_role = {

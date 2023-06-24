@@ -1844,7 +1844,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Status_Quo"
 			add_stability = -0.05
 			add_political_power = -25
-			add_popularity = { ideology = vanguardist popularity = 0.05 }
+			add_popularity = { ideology = auth_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
 			add_popularity = { ideology = national_populist popularity = 0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
@@ -1884,7 +1884,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Restrict_Communication"
-			add_popularity = { ideology = vanguardist popularity = -0.05 }
+			add_popularity = { ideology = auth_socialist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_popularity = { ideology = national_populist popularity = -0.05 }
 			add_political_power = 50

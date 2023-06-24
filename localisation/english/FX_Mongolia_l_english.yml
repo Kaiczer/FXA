@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-MON_vanguardist: "Mongolian Soviet Republic"
-MON_vanguardist_ADJ: "Mongolian"
-MON_vanguardist_DEF: "Mongolian"
-MON_collectivist: "Mongolian Soviet Republic"
-MON_collectivist_ADJ: "Mongolian"
-MON_collectivist_DEF: "Mongolian"
+MON_auth_socialist: "Mongolian Soviet Republic"
+MON_auth_socialist_ADJ: "Mongolian"
+MON_auth_socialist_DEF: "Mongolian"
+MON_vanguard_socialist: "Mongolian Soviet Republic"
+MON_vanguard_socialist_ADJ: "Mongolian"
+MON_vanguard_socialist_DEF: "Mongolian"
 MON_libertarian_socialist: "Mongolian Communal Republic"
 MON_libertarian_socialist_ADJ: "Mongolian"
 MON_libertarian_socialist_DEF: "Mongolian"
@@ -38,11 +38,11 @@ MON_valkist_DEF: "Mongolia"
 #Parties
 
 #Mongolian Revolutionary Party
-MON_vanguardist_party: "MKN"
-MON_vanguardist_party_long: "Mongolian Revolutionary Party" 
+MON_auth_socialist_party: "MKN"
+MON_auth_socialist_party_long: "Mongolian Revolutionary Party" 
 #Communist party of Mongolia
-MON_collectivist_party: "PPM"
-MON_collectivist_party_long: "People's Party of Mongolia"
+MON_vanguard_socialist_party: "PPM"
+MON_vanguard_socialist_party_long: "People's Party of Mongolia"
 #Socialist Party
 MON_libertarian_socialist_party: "Socialist Party"
 MON_libertarian_socialist_party_long: "Mongolian Socialist Party"

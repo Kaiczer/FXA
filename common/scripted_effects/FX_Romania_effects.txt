@@ -117,7 +117,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = vanguardist_subtype
+				ideology = authsoc_subtype
 				traits = {}
 			}
 		}
@@ -125,7 +125,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = collectivist_subtype
+				ideology = vansoc_subtype
 				traits = {}
 			}
 		}
@@ -208,26 +208,26 @@ ROM_make_nicholas_king = {
 	ROM_Nicholas_von_Hohenzollern_Sigmaringen = {
 		if = {
 			limit = {
-				NOT = { has_ideology_group = vanguardist }
+				NOT = { has_ideology_group = auth_socialist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = vanguardist_subtype
+					ideology = authsoc_subtype
 					traits = {}
 				}
 			}
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = collectivist }
+				NOT = { has_ideology_group = vanguard_socialist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = collectivist_subtype
+					ideology = vansoc_subtype
 					traits = {}
 				}
 			}
@@ -357,7 +357,7 @@ ROM_become_republic = {
 		character = ROM_Gheorghe_Gheorghiu
 		promote_leader = yes
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { charismatic }
 		}
 	}
@@ -365,7 +365,7 @@ ROM_become_republic = {
 		character = ROM_Petru_Groza
 		promote_leader = yes
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = {}
 		}
 	}

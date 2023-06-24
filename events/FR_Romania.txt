@@ -1056,11 +1056,11 @@ country_event = { # The King's and Romania's Safety
 		add_stability = 0.15
 		set_country_flag = ROM_banned_radicals
 		add_popularity = {
-			ideology = vanguardist
+			ideology = auth_socialist
 			popularity = -0.15
 		}
 		add_popularity = {
-			ideology = collectivist
+			ideology = vanguard_socialist
 			popularity = -0.15
 		}
 		add_popularity = {
@@ -1306,8 +1306,8 @@ country_event = { # The Monarch
     has_country_flag = ROM_empty_throne
 		NOT = {
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = libertarian_socialist
 				has_government = valkist
 			}
@@ -1358,7 +1358,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = vanguardist_subtype
+        ideology = authsoc_subtype
         traits = {}
       }
     }
@@ -1366,7 +1366,7 @@ country_event = { # Coronation of Alexander I
       character = ROM_Alexandru_Cantacuzino
       promote_leader = yes
       country_leader = {
-        ideology = collectivist_subtype
+        ideology = vansoc_subtype
         traits = {}
       }
     }

@@ -108,9 +108,9 @@
 # 					SOV = {
 # 						controls_state = 195
 # 						OR = {
-# 							has_government = collectivist
+# 							has_government = vanguard_socialist
 # 							has_government = libertarian_socialist
-# 							has_government = vanguardist
+# 							has_government = auth_socialist
 # 						}
 # 					}
 # 				}
@@ -137,9 +137,9 @@
 # 						controls_state = 195
 # 						NOT = {
 # 							OR = {
-# 								has_government = collectivist
+# 								has_government = vanguard_socialist
 # 								has_government = libertarian_socialist
-# 								has_government = vanguardist
+# 								has_government = auth_socialist
 # 							}
 # 						}
 # 					}

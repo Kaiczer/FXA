@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-GOR_vanguardist: "Mountain People's Republic"
-GOR_vanguardist_ADJ: "Mountain"
-GOR_vanguardist_DEF: "The Mountain People's Republic"
-GOR_collectivist: "Mountain People's Republic"
-GOR_collectivist_ADJ: "Mountain"
-GOR_collectivist_DEF: "The Mountain People's Republic"
+GOR_auth_socialist: "Mountain People's Republic"
+GOR_auth_socialist_ADJ: "Mountain"
+GOR_auth_socialist_DEF: "The Mountain People's Republic"
+GOR_vanguard_socialist: "Mountain People's Republic"
+GOR_vanguard_socialist_ADJ: "Mountain"
+GOR_vanguard_socialist_DEF: "The Mountain People's Republic"
 GOR_libertarian_socialist: "Mountain SR"
 GOR_libertarian_socialist_ADJ: "Mountain"
 GOR_libertarian_socialist_DEF: "The Mountain Socialist Republic"
@@ -36,10 +36,10 @@ GOR_valkist_ADJ: "Ciscaucasian"
 GOR_valkist_DEF: "The Empire of Ciscaucasia"
 
 ### Parties
-GOR_vanguardist_party: "OKSP"
-GOR_vanguardist_party_long: "Ob'yedinionniy Komitet Sotsialisticheskikh Partiy"
-GOR_collectivist_party: "OKSP"
-GOR_collectivist_party_long: "Ob'yedinionniy Komitet Sotsialisticheskikh Partiy"
+GOR_auth_socialist_party: "OKSP"
+GOR_auth_socialist_party_long: "Ob'yedinionniy Komitet Sotsialisticheskikh Partiy"
+GOR_vanguard_socialist_party: "OKSP"
+GOR_vanguard_socialist_party_long: "Ob'yedinionniy Komitet Sotsialisticheskikh Partiy"
 GOR_libertarian_socialist_party: "OKSP"
 GOR_libertarian_socialist_party_long: "Ob'yedinionniy Komitet Sotsialisticheskikh Partiy"
 GOR_social_democrat_party: "SOG"

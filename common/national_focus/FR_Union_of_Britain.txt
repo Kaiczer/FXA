@@ -187,7 +187,7 @@ focus_tree = {
 	
 	focus = {	
 		id = UOB_socialist_nation
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		available = {
 			always = no
 			custom_trigger_tooltip = { tooltip = unlocked_later }
@@ -226,7 +226,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UOB_no_gods"
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			add_ideas = UOB_enforced_atheism
 		}
 	}
@@ -330,7 +330,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UOB_emergency_measures"
 			add_political_power = 100
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 		}
 	}
 	
@@ -351,7 +351,7 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus UOB_new_britain"
-			add_popularity = { ideology = collectivist popularity = 0.05 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 			remove_ideas = UOB_revo_recov
 		}
 	}
@@ -360,7 +360,7 @@ focus_tree = {
 	
 	focus = {	
 		id = UOB_fires_revo
-		icon = GFX_goal_ideology_vanguardist
+		icon = GFX_goal_ideology_auth_socialist
 		available = {
 			always = no
 			custom_trigger_tooltip = { tooltip = unlocked_later }

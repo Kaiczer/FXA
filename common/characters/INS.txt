@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Munawar_Musso_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -48,7 +48,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sudisman_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -75,7 +75,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Amir_Hamzah_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -102,7 +102,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Semaun_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -151,7 +151,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		field_marshal = {
@@ -179,7 +179,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Tan_Malaka_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -450,7 +450,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Subandrio_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_relations_expert
 			}
 		}
@@ -477,7 +477,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Agus_Salim_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_biased_intellectual
 			}
 		}
@@ -801,7 +801,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Alimin_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -828,7 +828,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Njoto_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_reformer
 			}
 		}
@@ -855,7 +855,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Rustam_Effendi_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_industrialiser
 			}
 		}
@@ -882,7 +882,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sumitro_Djojohadikusumo_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1233,7 +1233,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Suparna_Sastra_Diredja_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}

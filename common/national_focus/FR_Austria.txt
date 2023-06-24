@@ -1735,7 +1735,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = AUS_collectivist_ethos_kr
+		id = AUS_vanguard_socialist_ethos_kr
 		icon = GFX_goal_generic_national_unity #icon = GFX_goal_tripartite_pact
 
 		prerequisite = { focus = AUS_political_effort }
@@ -1749,7 +1749,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus AUS_collectivist_ethos_kr"
+			log = "[GetDateText]: [Root.GetName]: Focus AUS_vanguard_socialist_ethos_kr"
 
 			add_stability = 0.05
 
@@ -1765,7 +1765,7 @@ focus_tree = {
 
 			NOT = {
 
-				has_government = vanguardist
+				has_government = auth_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 
@@ -1774,7 +1774,7 @@ focus_tree = {
 		}
 
 		prerequisite = { focus = AUS_political_effort }
-		mutually_exclusive = { focus = AUS_collectivist_ethos_kr }
+		mutually_exclusive = { focus = AUS_vanguard_socialist_ethos_kr }
 
 		x = 23
 		y = 1
@@ -1795,7 +1795,7 @@ focus_tree = {
 		id = AUS_militarism
 		icon = GFX_goal_generic_political_pressure
 
-		prerequisite = { focus = AUS_collectivist_ethos_kr }
+		prerequisite = { focus = AUS_vanguard_socialist_ethos_kr }
 		x = 21
 		y = 2
 		cost = 10

@@ -18,8 +18,8 @@ ideas = {
 				resistance_damage_to_garrison = 0.3
 				foreign_subversive_activites = 0.3
 				libertarian_socialist_drift = 0.02
-				collectivist_drift = 0.02
-				vanguardist_drift = 0.02
+				vanguard_socialist_drift = 0.02
+				auth_socialist_drift = 0.02
 				political_power_gain = -0.15
 			}
 			picture = generic_intel_bonus
@@ -31,7 +31,7 @@ ideas = {
 			allowed = {	always = no	}
 			allowed_civil_war = { always = yes }
 			modifier = {
-				vanguardist_drift = 0.05
+				auth_socialist_drift = 0.05
 			}
 			picture = generic_spy_political #generic_vanguardism_rising
 			removal_cost = -1
@@ -44,8 +44,8 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				libertarian_socialist_drift = -0.02
-				collectivist_drift = -0.02
-				vanguardist_drift = -0.02
+				vanguard_socialist_drift = -0.02
+				auth_socialist_drift = -0.02
 				political_power_gain = -0.15
 			}
 			picture = death_men #generic_collectivism_banned

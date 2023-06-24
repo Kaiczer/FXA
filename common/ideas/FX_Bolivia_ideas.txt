@@ -56,8 +56,8 @@ ideas = {
 			}
 		}
 
-		BOL_collectivist_administration = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BOL_collectivist_administration"}
+		BOL_vanguard_socialist_administration = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea BOL_vanguard_socialist_administration"}
 			allowed = {
 			original_tag = "BOL"
 			}

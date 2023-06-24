@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		advisor = {
@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Tim_Buck_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -39,7 +39,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -297,7 +297,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Richard_Parmater_Pettipiece_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -849,7 +849,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Alexander_Albert_MacLeod_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_relations_expert
 			}
 		}
@@ -876,7 +876,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Joe_Zuken_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_relations_expert
 			}
 		}
@@ -1200,7 +1200,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_James_Litterick_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1227,7 +1227,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Kashtan_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_administrative_genius
 			}
 		}
@@ -1524,7 +1524,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Tom_McEwan_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1551,7 +1551,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Norman_Bethune_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_health_and_safety
 			}
 		}

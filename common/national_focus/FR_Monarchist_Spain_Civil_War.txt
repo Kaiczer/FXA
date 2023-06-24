@@ -321,8 +321,8 @@ focus_tree = {
 				limit = {
 					ENG = {
 						NOT = {
-							has_government = vanguardist
-							has_government = collectivist
+							has_government = auth_socialist
+							has_government = vanguard_socialist
 							has_government = libertarian_socialist
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
@@ -342,8 +342,8 @@ focus_tree = {
 				limit = {
 					USA = {
 						NOT = {
-							has_government = vanguardist
-							has_government = collectivist
+							has_government = auth_socialist
+							has_government = vanguard_socialist
 							has_government = libertarian_socialist
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
@@ -366,8 +366,8 @@ focus_tree = {
 				limit = {
 					POL = {
 						NOT = {
-							has_government = vanguardist
-							has_government = collectivist
+							has_government = auth_socialist
+							has_government = vanguard_socialist
 							has_government = libertarian_socialist
 							has_government = authoritarian_democrat
 							has_government = paternal_autocrat
@@ -718,7 +718,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_war_support = 0.03
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			165 = {
 				add_resistance = -10

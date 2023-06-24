@@ -714,11 +714,11 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = {
       popularity = 0.01
-      ideology = collectivist
+      ideology = vanguard_socialist
     }
     add_popularity = {
       popularity = 0.01
-      ideology = vanguardist
+      ideology = auth_socialist
     }
     add_popularity = {
       popularity = 0.01
@@ -1051,7 +1051,7 @@ country_event = { #woo poli chain
       set_demilitarized_zone = yes
     }
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = 0.05
     } 
   }
@@ -1103,10 +1103,10 @@ country_event = { #woo poli chain
     9 = {
       set_demilitarized_zone = no
     }
-    add_popularity = { ideology = collectivist popularity = 0.25 }
+    add_popularity = { ideology = vanguard_socialist popularity = 0.25 }
     add_ideas = workers_republic
     set_politics = {
-      ruling_party = collectivist
+      ruling_party = vanguard_socialist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1241,10 +1241,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.113.a
     ai_chance = { factor = 99 }
-    add_popularity = { ideology = collectivist popularity = 0.25 }
+    add_popularity = { ideology = vanguard_socialist popularity = 0.25 }
     add_ideas = workers_republic
     set_politics = {
-      ruling_party = collectivist
+      ruling_party = vanguard_socialist
       elections_allowed = no
     }
     if = { limit = { has_idea = CZE_suspended_democracy1 }  remove_ideas = CZE_suspended_democracy1 }
@@ -1347,7 +1347,7 @@ country_event = { #factionsomglol
       popularity = 0.03
     }
     add_popularity = {
-      ideology = vanguardist
+      ideology = auth_socialist
       popularity = 0.03
     }
   }
@@ -1360,7 +1360,7 @@ country_event = { #factionsomglol
   picture = GFX_event_generic_rally2
   trigger = {
     tag = CZE
-    has_government = collectivist
+    has_government = vanguard_socialist
     has_completed_focus = CZE_age_of_collectivism
   }
   mean_time_to_happen = { 
@@ -1449,7 +1449,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.137 days = 3 }
     }
     add_popularity = {
-      ideology = collectivist 
+      ideology = vanguard_socialist 
       popularity = -0.025
     }
   }
@@ -1492,7 +1492,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.138 days = 3 }
     }
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = 0.025
     }
   }
@@ -1582,7 +1582,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.142 days = 3}
     }
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = -0.05
     }
   }
@@ -1649,7 +1649,7 @@ country_event = { #factionsomglol
       character = CZE_Jan_Sverma
       promote_leader = yes
       country_leader = {
-      ideology = collectivist_subtype
+      ideology = vansoc_subtype
       traits = {}
       }
     }
@@ -1673,7 +1673,7 @@ country_event = { #factionsomglol
       character = CZE_Ludvik_Svoboda
       promote_leader = yes
       country_leader = {
-      ideology = collectivist_subtype
+      ideology = vansoc_subtype
       traits = {}
       }
     }
@@ -1690,7 +1690,7 @@ country_event = { #factionsomglol
       character = CZE_Richard_Tesařik
       promote_leader = yes
       country_leader = {
-      ideology = collectivist_subtype
+      ideology = vansoc_subtype
       traits = {}
       }
     }
@@ -1712,14 +1712,14 @@ country_event = { #factionsomglol
     ai_chance = { factor = 60 }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = vanguardist
+      ruling_party = auth_socialist
     }
     hidden_effect = {
       remove_ideas_with_trait = head_of_government
     }
     add_ideas = CZE_Klement_Gottwald_hog_col
     add_popularity = {
-      ideology = vanguardist
+      ideology = auth_socialist
       popularity = 0.4
     }
   }
@@ -2086,7 +2086,7 @@ country_event = { #waityo
   option = {
     name = cze.173.a
     add_popularity = {
-      ideology = collectivist
+      ideology = vanguard_socialist
       popularity = -0.025
     }
     clr_country_flag = CZE_oo_mission_in_progress

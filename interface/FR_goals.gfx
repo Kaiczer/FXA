@@ -248,8 +248,8 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_ideology_libertarian_socialism.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_collectivist"
-		texturefile= "gfx/interface/goals/goal_ideology_collectivist.png"
+		name = "GFX_goal_ideology_vanguard_socialist"
+		texturefile= "gfx/interface/goals/goal_ideology_vanguard_socialist.png"
 	}
 	SpriteType = {
 		name = "GFX_goal_wiphala_corporatism"
@@ -726,8 +726,8 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_chile_alliance.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_collectivist_menace"
-		texturefile= "gfx/interface/goals/goal_collectivist_menace.png"
+		name = "GFX_goal_vanguard_socialist_menace"
+		texturefile= "gfx/interface/goals/goal_vanguard_socialist_menace.png"
 	}
 	SpriteType = {
 		name = "GFX_goal_bol_contain"
@@ -778,8 +778,8 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_argie_stand.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_vanguardist"
-		texturefile= "gfx/interface/goals/goal_ideology_vanguardist.png"
+		name = "GFX_goal_ideology_auth_socialist"
+		texturefile= "gfx/interface/goals/goal_ideology_auth_socialist.png"
 	}
 	SpriteType = {
 		name = "GFX_goal_ideology_valkist"

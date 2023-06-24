@@ -40,8 +40,8 @@ HOL_INF_01 =
 		NOT = {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 			}
@@ -93,8 +93,8 @@ HOL_INF_02 =
 	can_use = {
 		OR = {
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 		}
 	}
 	division_types = { "infantry" }
@@ -187,8 +187,8 @@ HOL_CAV_01 =
 		NOT = {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 			}
@@ -228,8 +228,8 @@ HOL_CAV_02 =
 	can_use = {
 		OR = {
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 		}
 	}
 
@@ -266,8 +266,8 @@ HOL_CAV_03 =
 	can_use = {
 		OR = {
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 		}
 	}
 
@@ -338,8 +338,8 @@ HOL_MEC_01 =
 		NOT = {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 			}
@@ -380,8 +380,8 @@ HOL_MEC_02 =
 	can_use = {
 		OR = {
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 			has_government = national_populist
 		}
 	}
@@ -649,8 +649,8 @@ HOL_FIETS_01 =
 		NOT = {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 			}
@@ -690,8 +690,8 @@ HOL_FIETS_02 =
 	can_use = {
 		OR = {
 			has_government = libertarian_socialist
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 		}
 	}
 

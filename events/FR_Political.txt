@@ -332,15 +332,15 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
-			set_country_flag = opinion_set_vanguardist
+			set_country_flag = opinion_set_auth_socialist
 		}
 		if = {
 			limit = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
-			set_country_flag = opinion_set_collectivist
+			set_country_flag = opinion_set_vanguard_socialist
 		}
 		if = {
 			limit = {
@@ -416,12 +416,12 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				NOT = { has_government = vanguardist }
-				has_country_flag = opinion_set_vanguardist
+				NOT = { has_government = auth_socialist }
+				has_country_flag = opinion_set_auth_socialist
 			}
 			AND = {
-				NOT = { has_government = collectivist }
-				has_country_flag = opinion_set_collectivist
+				NOT = { has_government = vanguard_socialist }
+				has_country_flag = opinion_set_vanguard_socialist
 			}
 			AND = {
 				NOT = { has_government = libertarian_socialist }
@@ -460,8 +460,8 @@ country_event = {
 				has_country_flag = opinion_set_valkist
 			}
 			AND = {
-				NOT = { has_country_flag = opinion_set_vanguardist }
-				NOT = { has_country_flag = opinion_set_collectivist }
+				NOT = { has_country_flag = opinion_set_auth_socialist }
+				NOT = { has_country_flag = opinion_set_vanguard_socialist }
 				NOT = { has_country_flag = opinion_set_libertarian_socialist }
 				NOT = { has_country_flag = opinion_set_social_democrat }
 				NOT = { has_country_flag = opinion_set_social_liberal }
@@ -480,8 +480,8 @@ country_event = {
 	}
 
 	immediate = {
-		clr_country_flag = opinion_set_vanguardist
-		clr_country_flag = opinion_set_collectivist
+		clr_country_flag = opinion_set_auth_socialist
+		clr_country_flag = opinion_set_vanguard_socialist
 		clr_country_flag = opinion_set_libertarian_socialist
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_social_liberal
@@ -643,15 +643,15 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = vanguardist
+				has_government = auth_socialist
 			}
-			set_country_flag = opinion_set_vanguardist
+			set_country_flag = opinion_set_auth_socialist
 		}
 		if = {
 			limit = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 			}
-			set_country_flag = opinion_set_collectivist
+			set_country_flag = opinion_set_vanguard_socialist
 		}
 		if = {
 			limit = {

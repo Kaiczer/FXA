@@ -55,8 +55,8 @@ ideas = {
 			#}
 			
 			modifier = {
-				vanguardist_drift = -0.01
-				collectivist_drift = -0.01
+				auth_socialist_drift = -0.01
+				vanguard_socialist_drift = -0.01
 				libertarian_socialist_drift = -0.01
 			}
 		}
@@ -72,8 +72,8 @@ ideas = {
 			picture = anti_soviet_pact
 			
 			modifier = {
-				vanguardist_drift = -0.01
-				collectivist_drift = -0.01
+				auth_socialist_drift = -0.01
+				vanguard_socialist_drift = -0.01
 				libertarian_socialist_drift = -0.01
 				social_democrat_drift = -0.01
 			}

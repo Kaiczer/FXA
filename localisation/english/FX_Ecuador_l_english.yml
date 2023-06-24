@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-ECU_vanguardist: "Socialist Republic of Ecuador"
-ECU_vanguardist_ADJ: "Ecuadorian"
-ECU_vanguardist_DEF: "Ecuador"
-ECU_collectivist: "Socialist Republic of Ecuador"
-ECU_collectivist_ADJ: "Ecuadorian"
-ECU_collectivist_DEF: "Ecuador"
+ECU_auth_socialist: "Socialist Republic of Ecuador"
+ECU_auth_socialist_ADJ: "Ecuadorian"
+ECU_auth_socialist_DEF: "Ecuador"
+ECU_vanguard_socialist: "Socialist Republic of Ecuador"
+ECU_vanguard_socialist_ADJ: "Ecuadorian"
+ECU_vanguard_socialist_DEF: "Ecuador"
 ECU_libertarian_socialist: "Socialist Republic of Ecuador"
 ECU_libertarian_socialist_ADJ: "Ecuadorian"
 ECU_libertartarian_socialist_DEF: "Ecuador"
@@ -38,10 +38,10 @@ ECU_valkist_DEF: "Ecuador"
 
 ### Political Parties ###
 
-ECU_vanguardist_party: "VSE"
-ECU_vanguardist_party_long: "Vanguardia Socialista Ecuatoriana"
-ECU_collectivist_party: "PCE"
-ECU_collectivist_party_long: "Partido Colectivista Ecuatoriano"
+ECU_auth_socialist_party: "VSE"
+ECU_auth_socialist_party_long: "Vanguardia Socialista Ecuatoriana"
+ECU_vanguard_socialist_party: "PCE"
+ECU_vanguard_socialist_party_long: "Partido Colectivista Ecuatoriano"
 ECU_libertarian_socialist_party: "PSE"
 ECU_libertarian_socialist_party_long: "Radical Wing of Partido Socialista Ecuatoriano"
 ECU_social_democrat_party: "PSE"

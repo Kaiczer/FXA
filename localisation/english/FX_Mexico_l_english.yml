@@ -4,12 +4,12 @@
 MEX_FUHRERREDUX_DESC: "Suffering immense political turmoil at the turn of the century, Mexico became centralized under Venustiano Carranza. On a wave of anti-American sentiment (especially over the Tampico affair), the country eventually had war declared on it by the United States. After its defeat, the country became an American client state. Now free after the collapse of the American economy, the country has become divided by three nationalistic factions, each with their own vision of a Greater Mexico."
 
 ### Country Names
-MEX_vanguardist: "Vanguard Mexico"
-MEX_vanguardist_ADJ: "Mexican"
-MEX_vanguardist_DEF: "Vanguard Mexico"
-MEX_collectivist: "United Socialist States of Mexico"
-MEX_collectivist_ADJ: "Mexican"
-MEX_collectivist_DEF: "United Socialist States of Mexico"
+MEX_auth_socialist: "Vanguard Mexico"
+MEX_auth_socialist_ADJ: "Mexican"
+MEX_auth_socialist_DEF: "Vanguard Mexico"
+MEX_vanguard_socialist: "United Socialist States of Mexico"
+MEX_vanguard_socialist_ADJ: "Mexican"
+MEX_vanguard_socialist_DEF: "United Socialist States of Mexico"
 MEX_libertarian_socialist: "United Provinces of Mexico"
 MEX_libertarian_socialist_ADJ: "Mexican"
 MEX_libertarian_socialist_DEF: "The United Provinces of Mexico"
@@ -40,10 +40,10 @@ MEX_valkist_DEF: "Estado de México"
 
 #### Political Parties ####
 
-MEX_vanguardist_party: "C"
-MEX_vanguardist_party_long: "Comunistas"
-MEX_collectivist_party: "NV"
-MEX_collectivist_party_long: "Neo-Villistas"
+MEX_auth_socialist_party: "C"
+MEX_auth_socialist_party_long: "Comunistas"
+MEX_vanguard_socialist_party: "NV"
+MEX_vanguard_socialist_party_long: "Neo-Villistas"
 MEX_libertarian_socialist_party: "LMAS"
 MEX_libertarian_socialist_party_long: "Liga Mexicana de Anarcho-Socialistas"
 MEX_social_democrat_party: "ERI"

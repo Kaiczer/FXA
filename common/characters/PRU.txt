@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Gamaliel_Churata_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -49,12 +49,12 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Victor_Raul_Haya_de_la_Torre_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_happy_amateur
 			}
 		}
     country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -493,7 +493,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Cesar_Atahualpa_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -520,7 +520,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Jose_Carlos_Mariategui_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -547,7 +547,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Cesar_Vallejo_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -763,7 +763,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Manuel_Gonzalez_Prada_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -790,7 +790,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Antenor_Orrego_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_industrialiser
 			}
 		}
@@ -995,7 +995,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Alejandro_Peralta_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1022,7 +1022,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Carlos_Manuel_Cox_Roose_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1049,7 +1049,7 @@ characters = {
 				ROOT = { clr_country_flag = PRU_Ciro_Alegria_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_regionalist
 			}
 		}

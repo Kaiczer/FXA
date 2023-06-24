@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-LAT_vanguardist: "Latvian Soviet Republic"
-LAT_vanguardist_ADJ: "Latvian"
-LAT_vanguardist_DEF: "The Soviet Republic of Latvia"
-LAT_collectivist: "Latvian Soviet Republic"
-LAT_collectivist_ADJ: "Latvian"
-LAT_collectivist_DEF: "The Soviet Republic of Latvia"
+LAT_auth_socialist: "Latvian Soviet Republic"
+LAT_auth_socialist_ADJ: "Latvian"
+LAT_auth_socialist_DEF: "The Soviet Republic of Latvia"
+LAT_vanguard_socialist: "Latvian Soviet Republic"
+LAT_vanguard_socialist_ADJ: "Latvian"
+LAT_vanguard_socialist_DEF: "The Soviet Republic of Latvia"
 LAT_libertarian_socialist: "Latvian Socialist Republic"
 LAT_libertarian_socialist_ADJ: "Latvian"
 LAT_libertarian_socialist_DEF: "The Socialist Republic of Latvia"
@@ -36,10 +36,10 @@ LAT_valkist_ADJ: "Latviešu"
 LAT_valkist_DEF: "Latvijas Valstsa"
 
 ### Parties
-LAT_vanguardist_party: "LKP"
-LAT_vanguardist_party_long: "Latvijas Komunistiskā partija"
-LAT_collectivist_party: "LKP"
-LAT_collectivist_party_long: "Latvijas Komunistiskā partija"
+LAT_auth_socialist_party: "LKP"
+LAT_auth_socialist_party_long: "Latvijas Komunistiskā partija"
+LAT_vanguard_socialist_party: "LKP"
+LAT_vanguard_socialist_party_long: "Latvijas Komunistiskā partija"
 LAT_libertarian_socialist_party: "LKP"
 LAT_libertarian_socialist_party_long: "Latvijas Komunistiskā partija"
 LAT_social_democrat_party: "LSDSP"

@@ -11,11 +11,11 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -212,7 +212,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Julien_Lahaut_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -392,7 +392,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_War_van_Overstraeten_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_sincere_internationalist
 			}
 		}
@@ -411,7 +411,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_War_van_Overstraeten_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -675,7 +675,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Edgar_Lalmand_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_foreign_sympathizer
 			}
 		}
@@ -945,7 +945,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Albert_Marteaux_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_industrialiser
 			}
 		}
@@ -972,7 +972,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Abraham_Leon_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1323,7 +1323,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Jean_Terfve_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1350,7 +1350,7 @@ characters = {
 				ROOT = { clr_country_flag = BEL_Willem_Eekelers_sec_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				sec_compassionate_gentleman
 			}
 		}

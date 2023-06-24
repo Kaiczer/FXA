@@ -61,7 +61,7 @@ if = {
 	}
 }
 
-add_coalition_collectivist = yes 
+add_coalition_vanguard_socialist = yes 
 
 set_politics = {	
 	ruling_party = libertarian_socialist
@@ -82,8 +82,8 @@ add_ideas = {
 }
 
 set_popularities = {
-  vanguardist = 2
-  collectivist = 8
+  auth_socialist = 2
+  vanguard_socialist = 8
   libertarian_socialist = 35
   social_democrat = 7
   social_liberal = 13

@@ -1215,11 +1215,11 @@ focus_tree = {
     relative_position_id = HOL_the_armys_coup
     completion_reward = {
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = -0.15
       }
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = -0.15
       }
       add_popularity = {
@@ -1475,7 +1475,7 @@ focus_tree = {
     completion_reward = {
       add_political_power = 50
       add_popularity = {
-        ideology = collectivist
+        ideology = vanguard_socialist
         popularity = 0.1
       }
       add_popularity = {
@@ -1483,7 +1483,7 @@ focus_tree = {
         popularity = 0.1
       }
       add_popularity = {
-        ideology = vanguardist
+        ideology = auth_socialist
         popularity = 0.1
       }
       add_popularity = {

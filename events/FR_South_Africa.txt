@@ -85,8 +85,8 @@ country_event = { #Party Merger - March 14 1936
 		add_stability = 0.3
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 1
-    			collectivist = 8
+			auth_socialist = 1
+    			vanguard_socialist = 8
     			libertarian_socialist = 0
     			social_democrat = 4
     			social_liberal = 10
@@ -422,14 +422,14 @@ country_event = { #GG Patrick Duncan
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = vanguardist_subtype
+            ideology = authsoc_subtype
             traits = {}
           }
         }
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = collectivist_subtype
+            ideology = vansoc_subtype
             traits = {}
           }
         }
@@ -531,14 +531,14 @@ country_event = { #GG Hertzog
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = vanguardist_subtype
+            ideology = authsoc_subtype
             traits = {}
           }
         }
         add_country_leader_role = {
           promote_leader = yes
           country_leader = {
-            ideology = collectivist_subtype
+            ideology = vansoc_subtype
             traits = {}
           }
         }
@@ -773,7 +773,7 @@ country_event = { #SACP Announcement - May 1937
 			}
 		}
 			add_popularity = {
-				ideology = vanguardist popularity = 0.01
+				ideology = auth_socialist popularity = 0.01
 			}
 		hidden_effect = {
 			add_to_variable = {	var = saf_united value = 1 }
@@ -931,8 +931,8 @@ country_event = { #1937 Election - ANC Victory
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 1
-				collectivist = 10
+				auth_socialist = 1
+				vanguard_socialist = 10
 				libertarian_socialist = 0
 				social_democrat = 25
 				social_liberal = 20
@@ -977,8 +977,8 @@ country_event = { #1937 Election - United Victory
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 1
-				collectivist = 5
+				auth_socialist = 1
+				vanguard_socialist = 5
 				libertarian_socialist = 0
 				social_democrat = 4
 				social_liberal = 5
@@ -1027,8 +1027,8 @@ country_event = { #1937 Election - PNP Victory
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 1
-				collectivist = 5
+				auth_socialist = 1
+				vanguard_socialist = 5
 				libertarian_socialist = 0
 				social_democrat = 4
 				social_liberal = 5
@@ -1140,8 +1140,8 @@ country_event = { #3-way tie (idk if this is even possible)
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 10
+			auth_socialist = 0
+    			vanguard_socialist = 10
     			libertarian_socialist = 0
     			social_democrat = 10
     			social_liberal = 14
@@ -1173,8 +1173,8 @@ country_event = { #3-way tie (idk if this is even possible)
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 10
+			auth_socialist = 0
+    			vanguard_socialist = 10
     			libertarian_socialist = 0
     			social_democrat = 10
     			social_liberal = 13
@@ -1210,8 +1210,8 @@ country_event = { #3-way tie (idk if this is even possible)
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 10
+			auth_socialist = 0
+    			vanguard_socialist = 10
     			libertarian_socialist = 0
     			social_democrat = 10
     			social_liberal = 13
@@ -1254,8 +1254,8 @@ country_event = { #ANC-PNP tie
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 12
+				auth_socialist = 0
+				vanguard_socialist = 12
 				libertarian_socialist = 0
 				social_democrat = 12
 				social_liberal = 13
@@ -1287,8 +1287,8 @@ country_event = { #ANC-PNP tie
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 12
+			auth_socialist = 0
+    			vanguard_socialist = 12
     			libertarian_socialist = 0
     			social_democrat = 12
     			social_liberal = 12
@@ -1331,8 +1331,8 @@ country_event = { #ANC-United tie
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 11
+				auth_socialist = 0
+				vanguard_socialist = 11
 				libertarian_socialist = 0
 				social_democrat = 11
 				social_liberal = 15
@@ -1361,8 +1361,8 @@ country_event = { #ANC-United tie
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 11
+			auth_socialist = 0
+    			vanguard_socialist = 11
     			libertarian_socialist = 0
     			social_democrat = 11
     			social_liberal = 14
@@ -1409,8 +1409,8 @@ country_event = { #United-PNP tie
 		}
 		hidden_effect = {
 			set_popularities = {
-			vanguardist = 0
-    			collectivist = 5
+			auth_socialist = 0
+    			vanguard_socialist = 5
     			libertarian_socialist = 0
     			social_democrat = 10
     			social_liberal = 12
@@ -1446,8 +1446,8 @@ country_event = { #United-PNP tie
 		}
 		hidden_effect = {
 			set_popularities = {
-				vanguardist = 0
-				collectivist = 5
+				auth_socialist = 0
+				vanguard_socialist = 5
 				libertarian_socialist = 0
 				social_democrat = 10
 				social_liberal = 12
@@ -3365,8 +3365,8 @@ country_event = { #ZAF Victory
           }
         }
 				set_popularities = {
-					vanguardist = 0
-          collectivist = 0
+					auth_socialist = 0
+          vanguard_socialist = 0
           libertarian_socialist = 0
           social_democrat = 0
           social_liberal = 0

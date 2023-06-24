@@ -28,8 +28,8 @@ ideas = {
 				}
 				cancel = { 
 					OR = {
-						has_government = collectivist
-						has_government = vanguardist
+						has_government = vanguard_socialist
+						has_government = auth_socialist
 					}
 				}
 			}
@@ -119,8 +119,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			picture = generic_production_bonus
@@ -216,7 +216,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				vanguardist_drift = 0.1
+				auth_socialist_drift = 0.1
 				political_power_gain = 0.1
 				war_support_factor = -0.1
 			}
@@ -318,8 +318,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -335,8 +335,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -352,8 +352,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -369,8 +369,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -385,8 +385,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -403,8 +403,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -420,8 +420,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {
@@ -437,8 +437,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = collectivist
-					has_government = vanguardist
+					has_government = vanguard_socialist
+					has_government = auth_socialist
 				}
 			}
 			modifier = {

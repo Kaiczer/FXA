@@ -154,8 +154,8 @@ news_event = {
 			OR = {
 				tag = SOV
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 		name = worldnews.5.a
@@ -640,8 +640,8 @@ news_event = {
 		BOL= {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 				}
 			OR = {
 				has_global_flag = All_News_Events
@@ -668,8 +668,8 @@ news_event = {
 		trigger = {
 			OR = {
 				has_government = libertarian_socialist
-				has_government = collectivist
-				has_government = vanguardist
+				has_government = vanguard_socialist
+				has_government = auth_socialist
 			}
 		}
 		name = worldnews.50.a
@@ -679,8 +679,8 @@ news_event = {
 		trigger = {
 			AND = {
 				NOT = { has_government = libertarian_socialist }
-				NOT = { has_government = collectivist }
-				NOT = { has_government = vanguardist }
+				NOT = { has_government = vanguard_socialist }
+				NOT = { has_government = auth_socialist }
 			}
 		}
 		name = worldnews.50.b

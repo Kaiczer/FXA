@@ -102,7 +102,7 @@ country_event = {
 		name = "Not in a million years."
     add_popularity = { ideology = social_democrat popularity = 0.01 }
     add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
-    add_popularity = { ideology = collectivist popularity = 0.01 }
+    add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
     add_political_power = -20
     hidden_effect = {
     IF = {
@@ -651,7 +651,7 @@ country_event = {
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
       add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
-      add_popularity = { ideology = collectivist popularity = 0.02 }
+      add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 
       hidden_effect = {
 
@@ -671,7 +671,7 @@ country_event = {
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
       add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
-      add_popularity = { ideology = collectivist popularity = 0.02 }
+      add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 
       hidden_effect = {
 

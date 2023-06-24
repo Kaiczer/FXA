@@ -1462,8 +1462,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_crack_down_independence_activists"
 			add_political_power = -10
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
-			add_popularity = { ideology = collectivist popularity = -0.01 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.01 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = 0.03 }
 		}
@@ -1550,8 +1550,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_trial_independence_leaders"
 			add_political_power = -10
 			add_stability = 0.02
-			add_popularity = { ideology = vanguardist popularity = -0.01 }
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = auth_socialist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 		}
@@ -1678,7 +1678,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_amnesty_for_some"
 			add_political_power = -10
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 		}
@@ -2084,7 +2084,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_united_against_independence_activists"
 			add_stability = 0.03
 			add_political_power = -40
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 			swap_ideas = {
@@ -2116,7 +2116,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_trial_their_leaders"
 			add_stability = 0.02
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.01 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
@@ -2236,7 +2236,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_campaign_against_dissident"
 			add_stability = 0.03
 			add_political_power = -40
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
@@ -2268,7 +2268,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BEA_no_fair_trials"
 			add_political_power = -30
-			add_popularity = { ideology = collectivist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.01 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.01 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }

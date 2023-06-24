@@ -1080,7 +1080,7 @@ focus_tree = {
 				has_country_flag = PER_monarchy_flag
 				AND = {
 					has_country_flag = PER_republic_flag
-					has_government = collectivist
+					has_government = vanguard_socialist
 				}
 			}
 		}
@@ -1858,7 +1858,7 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						has_government = collectivist
+						has_government = vanguard_socialist
 						has_government = libertarian_socialist
 					}
 				}
@@ -2280,7 +2280,7 @@ focus_tree = {
 				has_war_with = SOV
 			}
 			OR = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 				AND = {
 					has_government = social_democrat
 					has_country_flag = PER_republic_flag
@@ -2315,7 +2315,7 @@ focus_tree = {
 				has_war_with = SOV
 			}
 			OR = {
-				has_government = collectivist
+				has_government = vanguard_socialist
 				AND = {
 					has_government = social_democrat
 					has_country_flag = PER_republic_flag
@@ -2347,8 +2347,8 @@ focus_tree = {
 			is_subject = no
 			date > 1938.6.1
 			OR = {
-				has_government = vanguardist
-				has_government = collectivist
+				has_government = auth_socialist
+				has_government = vanguard_socialist
 				has_government = paternal_autocrat
 				has_government = national_populist
 				has_government = valkist
@@ -2700,7 +2700,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_MIL_purge_socialist_elements"
 			add_stability = 0.02
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			swap_ideas = {
 				remove_idea = PER_underground_revolutionaries_idea
@@ -3558,7 +3558,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_kick_out_mohammad_reza"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
@@ -3598,7 +3598,7 @@ focus_tree = {
 	}
 	focus = {
 		id = PER_REP_tudeh_victory
-		icon = GFX_goal_ideology_collectivist
+		icon = GFX_goal_ideology_vanguard_socialist
 		cost = 5
 		prerequisite = {
 			focus = PER_REP_republican_election
@@ -3645,7 +3645,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_socialism_and_nationalism"
 			add_stability = -0.02
 			add_political_power = 50
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		}
 
 	}
@@ -3965,7 +3965,7 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = 0.05
 			add_research_slot = 1
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
@@ -4044,7 +4044,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_REP_reform_administration"
 			add_political_power = -15
 			add_ideas = PER_REP_reform_administration_idea
-			add_popularity = { ideology = collectivist popularity = -0.01 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.01 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.01 }
 			add_popularity = { ideology = national_populist popularity = -0.01 }
 			add_popularity = { ideology = valkist popularity = -0.01 }
@@ -4318,7 +4318,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_crush_teheran_socialists"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 		}
@@ -4367,7 +4367,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus PER_NAT_crush_southern_socialists"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = collectivist popularity = -0.03 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.02 }
 		}
@@ -4398,7 +4398,7 @@ focus_tree = {
 			add_political_power = 50
 			add_stability = 0.04
 			remove_ideas = PER_civil_war_situation_idea
-			add_popularity = { ideology = collectivist popularity = -0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 			add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 			add_popularity = { ideology = market_liberal popularity = -0.01 }

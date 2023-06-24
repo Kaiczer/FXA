@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -687,7 +687,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Zheko_Dimitrov_for_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1065,7 +1065,7 @@ characters = {
 				ROOT = { clr_country_flag = BUL_Vasil_Ikonomov_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}

@@ -765,10 +765,10 @@ country_event = { #new commie government
 		name = chl.101.a
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = collectivist
+			ruling_party = vanguard_socialist
 		}
 		add_popularity = {
-				ideology = collectivist popularity = 0.25
+				ideology = vanguard_socialist popularity = 0.25
 		}
 			hidden_effect = {
 			remove_ideas_with_trait = head_of_government

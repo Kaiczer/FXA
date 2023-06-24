@@ -25,7 +25,7 @@ country_event = { # Commies recruiting part 1
 	option = {
 		name = alb.1.a
 		add_political_power = -25
-		add_popularity = { ideology = collectivist popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		
 		hidden_effect = {
 			ROOT = {
@@ -51,7 +51,7 @@ country_event = { # Commies recruiting loop. Ends when you remove the related id
 				has_idea = ALB_liberation_movement
 			}
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = 0.02	 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02	 }
 		
 			hidden_effect = {
 				ROOT = {
@@ -71,8 +71,8 @@ country_event = { # Commies win, unrest is invalid
 		original_tag = ALB
 		has_idea = ALB_liberation_movement
 		OR = {
-			has_government = collectivist
-			has_government = vanguardist
+			has_government = vanguard_socialist
+			has_government = auth_socialist
 			has_government = libertarian_socialist
 		}
 	}
@@ -143,7 +143,7 @@ country_event = { # Parade, Ferdinand does attend
 
 	is_triggered_only = yes	
 
-	option = { # collectivist bomb attack, Ferdinand dead
+	option = { # vanguard_socialist bomb attack, Ferdinand dead
 		name = alb.5.a
 		add_stability = -0.15
 		add_political_power = -25
@@ -170,7 +170,7 @@ country_event = { # Parade, Ferdinand does not attend
 
 	is_triggered_only = yes	
 
-	option = { # collectivist bomb attack, Ferdinand still alive
+	option = { # vanguard_socialist bomb attack, Ferdinand still alive
 		name = alb.5.a
 		add_stability = -0.1
 		add_political_power = -25
@@ -207,7 +207,7 @@ country_event = { # Parade Bombing, Rome's response
 	}
 }
 
-country_event = { # Rome sends support to counter collectivists
+country_event = { # Rome sends support to counter vanguard_socialists
 	id = alb.8
 	immediate = {log = "[GetDateText]: [Root.GetName]: event alb.8"}
 	title = alb.8.t
@@ -251,7 +251,7 @@ country_event = { # Rome refuses to spare any support
 	}
 }
 
-country_event = { # Midhat Frashëri demands government support for Balli Kombetar to help fight the collectivists
+country_event = { # Midhat Frashëri demands government support for Balli Kombetar to help fight the vanguard_socialists
 	id = alb.10
 	immediate = {log = "[GetDateText]: [Root.GetName]: event alb.10"}
 	title = alb.10.t
@@ -289,7 +289,7 @@ country_event = { # Midhat Frashëri demands government support for Balli Kombet
 	}
 }
 
-country_event = { # Albanian-Italo forces strike at collectivists
+country_event = { # Albanian-Italo forces strike at vanguard_socialists
 	id = alb.11
 	immediate = {log = "[GetDateText]: [Root.GetName]: event alb.11"}
 	title = alb.11.t
@@ -329,7 +329,7 @@ country_event = { # Albanian-Italo forces win
 		add_stability = 0.05
 		add_war_support = 0.05
 		add_manpower = -1000
-		add_popularity = { ideology = collectivist popularity = -0.15 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.15 }
 		SER = {
 			country_event = alb.14
 		}
@@ -345,12 +345,12 @@ country_event = { # Albanian-Italo forces lose
 
 	is_triggered_only = yes	
 
-	option = { # collectivists are emboldened
+	option = { # vanguard_socialists are emboldened
 		name = alb.13.a
 		add_political_power = -50
 		add_stability = -0.1
 		add_manpower = -5000
-		add_popularity = { ideology = collectivist popularity = 0.03 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
 		hidden_effect = {
 			ROOT = {
 				country_event = { id = alb.15 days = 30 }
@@ -368,10 +368,10 @@ country_event = { # Serbia - Albanian communists flee to Northern Albania
 
 	is_triggered_only = yes	
 
-	option = { # collectivists influence grows	
+	option = { # vanguard_socialists influence grows	
 		name = alb.14.a
 		add_stability = -0.05
-		add_popularity = { ideology = collectivist popularity = 0.05 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 	}
 }
 
@@ -434,11 +434,11 @@ country_event = { # Collectivists win
 		name = alb.16.a
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = collectivist 
+			ruling_party = vanguard_socialist 
 			elections_allowed = no
 		}
 		add_popularity = { 
-			ideology = collectivist 
+			ideology = vanguard_socialist 
 			popularity = 0.2
 		}
 		ITA = {
@@ -467,7 +467,7 @@ country_event = { # Collectivists lose
 		add_stability = 0.1
 		add_manpower = -1000
 		remove_ideas = ALB_liberation_movement
-		add_popularity = { ideology = collectivist popularity = -0.15 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.15 }
 		SER = {
 			country_event = alb.14
 		}
@@ -733,7 +733,7 @@ country_event = { # Communist Albania supports rebels in Serbia
 
 	is_triggered_only = yes	
 
-	option = { # collectivists influence grows	
+	option = { # vanguard_socialists influence grows	
 		name = alb.23.a
 		add_manpower = -10000
 		SER = {
@@ -755,7 +755,7 @@ country_event = { # SER - Commies recruiting part 1
 		name = alb.24.a
 		add_ideas = SER_liberation_movement
 		add_political_power = -25
-		add_popularity = { ideology = collectivist popularity = 0.05 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
 		
 		hidden_effect = {
 			ROOT = {
@@ -781,7 +781,7 @@ country_event = { # SER - Commies recruiting loop. Ends when you remove the rela
 				has_idea = SER_liberation_movement
 			}
 			add_political_power = -25
-			add_popularity = { ideology = collectivist popularity = 0.02 }
+			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		
 			hidden_effect = {
 				ROOT = {
@@ -943,7 +943,7 @@ country_event = { # Serbia wins
 	option = { 
 		name = alb.31.a
 		remove_ideas = SER_liberation_movement
-		add_popularity = { ideology = collectivist popularity = -0.1 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.1 }
 		add_political_power = 100
 		add_stability = 0.1	
 	}
@@ -961,7 +961,7 @@ country_event = { # Serbia loses
 	option = { 
 		name = alb.32.a
 		remove_ideas = SER_liberation_movement
-		add_popularity = { ideology = collectivist popularity = -0.1 }	
+		add_popularity = { ideology = vanguard_socialist popularity = -0.1 }	
 	}
 	
 	option = { # Serbia doesn't accept it

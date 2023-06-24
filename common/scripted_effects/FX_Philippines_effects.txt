@@ -552,22 +552,22 @@ PHI_add_governor_general = {
     limit = { has_character = ENG_Henry_Windsor }
     ENG_Henry_Windsor = {
       if = {
-        limit = { has_ideology = vanguardist_subtype }
-        promote_character = { ideology = vanguardist_subtype }
+        limit = { has_ideology = authsoc_subtype }
+        promote_character = { ideology = authsoc_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = vanguardist_subtype }
+          country_leader = { ideology = authsoc_subtype }
           promote_leader = yes
         }
       }
       if = {
-        limit = { has_ideology = collectivist_subtype }
-        promote_character = { ideology = collectivist_subtype }
+        limit = { has_ideology = vansoc_subtype }
+        promote_character = { ideology = vansoc_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = collectivist_subtype }
+          country_leader = { ideology = vansoc_subtype }
           promote_leader = yes
         }
       }
@@ -669,24 +669,24 @@ PHI_remove_governor_general = {
   add_ideas = presidential_republic
   PHI_Pedro_Abad_Santos = {
     if = {
-      limit = { has_ideology = vanguardist_subtype }
-      promote_character = { ideology = vanguardist_subtype }
+      limit = { has_ideology = authsoc_subtype }
+      promote_character = { ideology = authsoc_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = vanguardist_subtype }
+        country_leader = { ideology = authsoc_subtype }
         promote_leader = yes
       }
     }
   }
   PHI_Luis_Taruc = {
     if = {
-      limit = { has_ideology = collectivist_subtype }
-      promote_character = { ideology = collectivist_subtype }
+      limit = { has_ideology = vansoc_subtype }
+      promote_character = { ideology = vansoc_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = collectivist_subtype }
+        country_leader = { ideology = vansoc_subtype }
         promote_leader = yes
       }
     }

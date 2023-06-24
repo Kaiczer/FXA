@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-ROR_vanguardist: "Romanian People’s Republic"
-ROR_vanguardist_ADJ: "Romanian"
-ROR_vanguardist_DEF: "The People's Republic of Romania"
-ROR_collectivist: "Romanian People’s Republic"
-ROR_collectivist_ADJ: "Romanian"
-ROR_collectivist_DEF: "The People's Republic of Romania"
+ROR_auth_socialist: "Romanian People’s Republic"
+ROR_auth_socialist_ADJ: "Romanian"
+ROR_auth_socialist_DEF: "The People's Republic of Romania"
+ROR_vanguard_socialist: "Romanian People’s Republic"
+ROR_vanguard_socialist_ADJ: "Romanian"
+ROR_vanguard_socialist_DEF: "The People's Republic of Romania"
 ROR_libertarian_socialist: "Romanian People’s Republic"
 ROR_libertarian_socialist_ADJ: "Romanian"
 ROR_libertarian_socialist_DEF: "The People's Republic of Romania"
@@ -36,10 +36,10 @@ ROR_valkist_ADJ: "Română"
 ROR_valkist_DEF: "Legionar România"
 
 ### Parties
-ROR_vanguardist_party: "PCR"
-ROR_vanguardist_party_long: "Partidul Comunist Român (Romanian Communist Party)"
-ROR_collectivist_party: "FP"
-ROR_collectivist_party_long: "Frontul Plugarilor (Ploughmen's Front)"
+ROR_auth_socialist_party: "PCR"
+ROR_auth_socialist_party_long: "Partidul Comunist Român (Romanian Communist Party)"
+ROR_vanguard_socialist_party: "FP"
+ROR_vanguard_socialist_party_long: "Frontul Plugarilor (Ploughmen's Front)"
 ROR_libertarian_socialist_party: "PDaT"
 ROR_libertarian_socialist_party_long: "Partidul Democratic al Tăranilor (Democratic Peasants' Party)"
 ROR_social_democrat_party: "PSDR"

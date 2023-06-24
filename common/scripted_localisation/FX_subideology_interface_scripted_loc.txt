@@ -301,15 +301,15 @@ defined_text = {
 	name = GetDiploRulingPartySubtype
 	text = {
 		trigger = {
-			has_country_leader_ideology = vanguardist_subtype
+			has_country_leader_ideology = authsoc_subtype
 		}
-		localization_key = vanguardist
+		localization_key = auth_socialist
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = collectivist_subtype
+			has_country_leader_ideology = vansoc_subtype
 		}
-		localization_key = collectivist
+		localization_key = vanguard_socialist
 	}
 	text = {
 		trigger = {
@@ -972,15 +972,15 @@ defined_text = {
 	name = GetDiploPopularityTooltipDesc
 	text = {
 		trigger = {
-			has_country_leader_ideology = vanguardist_subtype
+			has_country_leader_ideology = authsoc_subtype
 		}
-		localization_key = vanguardist_subtype_desc
+		localization_key = authsoc_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = collectivist_subtype
+			has_country_leader_ideology = vansoc_subtype
 		}
-		localization_key = collectivist_subtype_desc
+		localization_key = vansoc_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1343,22 +1343,22 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = vanguardist_subtype
+				has_country_leader_ideology = authsoc_subtype
 				has_country_leader_ideology = revolutionary_showaist_subtype
 				has_country_leader_ideology = autocratic_socialist_subtype
 			}
 		}
-		localization_key = vanguardist_color
+		localization_key = auth_socialist_color
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = collectivist_subtype
+				has_country_leader_ideology = vansoc_subtype
 				has_country_leader_ideology = monsoc_subtype
 				has_country_leader_ideology = leninism_subtype
 			}
 		}
-		localization_key = collectivist_color
+		localization_key = vanguard_socialist_color
 	}
 	text = {
 		trigger = {

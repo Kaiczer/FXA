@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 	}
@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 	}
@@ -273,7 +273,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Arnold_Veimer_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -300,7 +300,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Johannes_Lauristin_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_happy_amateur
 			}
 		}
@@ -319,7 +319,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Johannes_Lauristin_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -349,7 +349,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Johannes_Vares_Barbaruse_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_underground_figurehead
 			}
 		}
@@ -384,7 +384,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Oskar_Sepre_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -622,7 +622,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Hans_Kruus_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -649,7 +649,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Nigol_Andresen_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_ideological_crusader
 			}
 		}
@@ -822,7 +822,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Juhan_Narma_Nihtig_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -849,7 +849,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Nikolaus_Pilankor_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -876,7 +876,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Paul_Keerdo_eco_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				eco_construction_magnate
 			}
 		}
@@ -1006,7 +1006,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Aleksander_Rusev_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1033,7 +1033,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Andrey_Murro_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_crime_fighter
 			}
 		}
@@ -1060,7 +1060,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Boris_Kumm_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1087,7 +1087,7 @@ characters = {
 				ROOT = { clr_country_flag = EST_Maksim_Unt_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_man_of_the_people
 			}
 		}

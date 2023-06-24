@@ -448,7 +448,7 @@ country_event = {
 		add_stability = -0.03
 		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = vanguardist popularity = 0.01 }
+		add_popularity = { ideology = auth_socialist popularity = 0.01 }
 	}
 }
 
@@ -1157,7 +1157,7 @@ country_event = {
 
 	option = {
 		name = afghan.29.a
-		add_popularity = { ideology = collectivist popularity = 0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
 		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
 		add_popularity = { ideology = social_democrat popularity = -0.04 }
 		hidden_effect = {
@@ -1188,7 +1188,7 @@ country_event = {
 			AFG_Mohammed_Hashim_Maiwandwal_eco_sde
 			AFG_Abdul_Majid_Zabuli_sec_sli
 		}		
-		add_popularity = { ideology = collectivist popularity = -0.02 }
+		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
 		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
 		add_popularity = { ideology = social_democrat popularity = 0.04 }
 		hidden_effect = {

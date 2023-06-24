@@ -20,7 +20,7 @@ PRU = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -30,7 +30,7 @@ PRU = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -191,7 +191,7 @@ WGR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -201,7 +201,7 @@ WGR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -362,7 +362,7 @@ DDR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -372,7 +372,7 @@ DDR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -533,7 +533,7 @@ SAX = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -543,7 +543,7 @@ SAX = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -704,7 +704,7 @@ POM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -714,7 +714,7 @@ POM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -875,7 +875,7 @@ SHO = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -885,7 +885,7 @@ SHO = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1046,7 +1046,7 @@ BRW = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1056,7 +1056,7 @@ BRW = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1217,7 +1217,7 @@ HAN = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1227,7 +1227,7 @@ HAN = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1388,7 +1388,7 @@ ERM = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1398,7 +1398,7 @@ ERM = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1559,7 +1559,7 @@ HES = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1569,7 +1569,7 @@ HES = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1730,7 +1730,7 @@ BAW = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1740,7 +1740,7 @@ BAW = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1901,7 +1901,7 @@ BAY = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -1911,7 +1911,7 @@ BAY = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2072,7 +2072,7 @@ SIL = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2082,7 +2082,7 @@ SIL = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2243,7 +2243,7 @@ GRP = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2253,7 +2253,7 @@ GRP = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2435,7 +2435,7 @@ GRP = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2445,7 +2445,7 @@ GRP = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2606,7 +2606,7 @@ DDR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2616,7 +2616,7 @@ DDR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2777,7 +2777,7 @@ WGR = {
 		}
 	}
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"
@@ -2787,7 +2787,7 @@ WGR = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_12.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_16.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_13.png"

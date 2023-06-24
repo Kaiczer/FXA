@@ -419,8 +419,8 @@ war_measures = {
 			if = {
 				limit = {
 					NOT = {
-						has_government = vanguardist
-						has_government = collectivist
+						has_government = auth_socialist
+						has_government = vanguard_socialist
 					}
 				}
 				set_country_flag = GEO_menshie_officers

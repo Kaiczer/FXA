@@ -180,8 +180,8 @@ change_ruling_party_popularity = {
 
 save_current_party_popularities = {
 	clear_temp_array = saved_popularities
-	add_to_temp_array = { saved_popularities = party_popularity_100@vanguardist }
-	add_to_temp_array = { saved_popularities = party_popularity_100@collectivist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@auth_socialist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@vanguard_socialist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@libertarian_socialist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_democrat }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_liberal }
@@ -210,23 +210,23 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = vanguardist
-				check_variable = { political_power_ideology = token:vanguardist }
+				has_government = auth_socialist
+				check_variable = { political_power_ideology = token:auth_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:vanguardist }
+			is_in_array = { ROOT.coalition_partners = token:auth_socialist }
 		}
-		set_temp_variable = { coali_van = THIS.party_popularity@vanguardist }
+		set_temp_variable = { coali_van = THIS.party_popularity@auth_socialist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_van }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_government = collectivist
-				check_variable = { political_power_ideology = token:collectivist }
+				has_government = vanguard_socialist
+				check_variable = { political_power_ideology = token:vanguard_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:collectivist }
+			is_in_array = { ROOT.coalition_partners = token:vanguard_socialist }
 		}
-		set_temp_variable = { coali_col = THIS.party_popularity@collectivist }
+		set_temp_variable = { coali_col = THIS.party_popularity@vanguard_socialist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_col }
 	}
 	if = {
@@ -329,12 +329,12 @@ set_coalition_government_popularity = {
 		add_to_variable = { coalition_ruling_combined_pop = coali_val  }
 	}
 }
-add_coalition_vanguardist = {
-	set_temp_variable = { coalition_partner_var = token:vanguardist }
+add_coalition_auth_socialist = {
+	set_temp_variable = { coalition_partner_var = token:auth_socialist }
 	add_to_coalition = yes 
 }
-add_coalition_collectivist = {
-	set_temp_variable = { coalition_partner_var = token:collectivist }
+add_coalition_vanguard_socialist = {
+	set_temp_variable = { coalition_partner_var = token:vanguard_socialist }
 	add_to_coalition = yes 
 }
 add_coalition_libertarian_socialist = {
@@ -374,12 +374,12 @@ add_coalition_valkist = {
 	add_to_coalition = yes 
 }
 
-remove_coalition_vanguardist = {
-	set_temp_variable = { coalition_partner_var = token:vanguardist }
+remove_coalition_auth_socialist = {
+	set_temp_variable = { coalition_partner_var = token:auth_socialist }
 	remove_from_coalition = yes 
 }
-remove_coalition_collectivist = {
-	set_temp_variable = { coalition_partner_var = token:collectivist }
+remove_coalition_vanguard_socialist = {
+	set_temp_variable = { coalition_partner_var = token:vanguard_socialist }
 	remove_from_coalition = yes 
 }
 remove_coalition_libertarian_socialist = {

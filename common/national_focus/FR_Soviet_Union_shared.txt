@@ -1149,7 +1149,7 @@
 		log = "[GetDateText]: [Root.GetName]: Focus SOV_new_gear"
 			if = {
 				limit = {
-					has_government = vanguardist
+					has_government = auth_socialist
 				}
 			country_event = {
 				id = sovietpol.1329

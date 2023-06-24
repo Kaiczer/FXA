@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-TRT_vanguardist: "Ottoman Socialist Republic"
-TRT_vanguardist_ADJ: "Ottoman"
-TRT_vanguardist_DEF: "The Ottoman Socialist Republic"
-TRT_collectivist: "Ottoman Soviet State"
-TRT_collectivist_ADJ: "Ottoman"
-TRT_collectivist_DEF: "The Ottoman Soviet State"
+TRT_auth_socialist: "Ottoman Socialist Republic"
+TRT_auth_socialist_ADJ: "Ottoman"
+TRT_auth_socialist_DEF: "The Ottoman Socialist Republic"
+TRT_vanguard_socialist: "Ottoman Soviet State"
+TRT_vanguard_socialist_ADJ: "Ottoman"
+TRT_vanguard_socialist_DEF: "The Ottoman Soviet State"
 TRT_libertarian_socialist: "Ottoman Commune"
 TRT_libertarian_socialist_ADJ: "Ottoman"
 TRT_libertarian_socialist_DEF: "The Ottoman Commune"
@@ -36,10 +36,10 @@ TRT_valkist_ADJ: "Osmanlı"
 TRT_valkist_DEF: "Osmanlı İmparatorluğu"
 
 ### Parties
-TRT_vanguardist_party: "Ahali Fırkası"
-TRT_vanguardist_party_long: "Ahali Fırkası"
-TRT_collectivist_party: "Bolşevik Fırkası"
-TRT_collectivist_party_long: "Bolşevik Fırkası"
+TRT_auth_socialist_party: "Ahali Fırkası"
+TRT_auth_socialist_party_long: "Ahali Fırkası"
+TRT_vanguard_socialist_party: "Bolşevik Fırkası"
+TRT_vanguard_socialist_party_long: "Bolşevik Fırkası"
 TRT_marxist_leninist_party: "KF"
 TRT_marxist_leninist_party_long: "Komünist Fırkası"
 TRT_libertarian_socialist_party: "AF"

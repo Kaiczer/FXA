@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-SER_vanguardist: "SFR Serbia"
-SER_vanguardist_ADJ: "Serbian"
-SER_vanguardist_DEF: "The Socialist Federative Republic of Serbia"
-SER_collectivist: "SFR Serbia"
-SER_collectivist_ADJ: "Serbia"
-SER_collectivist_DEF: "The Socialist Federative Republic of Serbia"
+SER_auth_socialist: "SFR Serbia"
+SER_auth_socialist_ADJ: "Serbian"
+SER_auth_socialist_DEF: "The Socialist Federative Republic of Serbia"
+SER_vanguard_socialist: "SFR Serbia"
+SER_vanguard_socialist_ADJ: "Serbia"
+SER_vanguard_socialist_DEF: "The Socialist Federative Republic of Serbia"
 SER_libertarian_socialist: "SFR Serbia"
 SER_libertarian_socialist_ADJ: "Serbian"
 SER_libertarian_socialist_DEF: "The Socialist Federative Republic of Serbian"
@@ -36,10 +36,10 @@ SER_valkist_ADJ: "Srpski"
 SER_valkist_DEF: "Srpsko Carstvo"
 
 ### Parties
-SER_vanguardist_party: "Istinski Komunisti"
-SER_vanguardist_party_long: "Istinski komunisti"
-SER_collectivist_party: "RDS"
-SER_collectivist_party_long: "Revolucionarna Država Stranka"
+SER_auth_socialist_party: "Istinski Komunisti"
+SER_auth_socialist_party_long: "Istinski komunisti"
+SER_vanguard_socialist_party: "RDS"
+SER_vanguard_socialist_party_long: "Revolucionarna Država Stranka"
 SER_libertarian_socialist_party: "Socijalna Unija"
 SER_libertarian_socialist_party_long: "Socijalna unija"
 SER_social_democrat_party: "SP"

@@ -280,7 +280,7 @@ focus_tree = {
 
 		focus = { 
 		id = COL_the_marxist_enemy
-		icon = GFX_goal_collectivist_menace
+		icon = GFX_goal_vanguard_socialist_menace
 
  		ai_will_do = { factor = 10 } 
  		prerequisite = { focus = COL_mobilze_the_people }
@@ -423,7 +423,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus COL_deal_with_marxism"
 			add_political_power = -25
 			add_popularity = { 
-				ideology = collectivist popularity = -0.025
+				ideology = vanguard_socialist popularity = -0.025
 				}
 			add_popularity = { 
 				ideology = libertarian_socialist popularity = -0.025

@@ -5,12 +5,12 @@
 PER_FUHRERREDUX_DESC: "Iran has for many years been under military rule, after the fall of the Qajar dynasty in 1922. The country has modernized in many areas, but it is also a country that is nearly powerless to do anything about the British influencing and nearly controlling the lands of Iran.\n\nBut with new challenges approaching Britain, Iran may be able to rid themselves of British influence and control. Either under continued military rule or another regime."
 
 ### Country Names
-PER_vanguardist: "Socialist Republic of Iran"
-PER_vanguardist_ADJ: "Iranian"
-PER_vanguardist_DEF: "The Socialist Republic of Iran"
-PER_collectivist: "Socialist Republic of Iran"
-PER_collectivist_ADJ: "Iranian"
-PER_collectivist_DEF: "The Socialist Republic of Iran"
+PER_auth_socialist: "Socialist Republic of Iran"
+PER_auth_socialist_ADJ: "Iranian"
+PER_auth_socialist_DEF: "The Socialist Republic of Iran"
+PER_vanguard_socialist: "Socialist Republic of Iran"
+PER_vanguard_socialist_ADJ: "Iranian"
+PER_vanguard_socialist_DEF: "The Socialist Republic of Iran"
 PER_libertarian_socialist: "Republic of Iran"
 PER_libertarian_socialist_ADJ: "Iranian"
 PER_libertarian_socialist_DEF: "The Republic of Iran"
@@ -41,10 +41,10 @@ PER_valkist_DEF: "Ērānshahr"
 
 #### Political Parties ####
 
-PER_vanguardist_party: "Tude-ye"
-PER_vanguardist_party_long: "Hezb-e Tude-ye Iran"
-PER_collectivist_party: "Tude-ye"
-PER_collectivist_party_long: "Hezb-e Tude-ye Iran"
+PER_auth_socialist_party: "Tude-ye"
+PER_auth_socialist_party_long: "Hezb-e Tude-ye Iran"
+PER_vanguard_socialist_party: "Tude-ye"
+PER_vanguard_socialist_party_long: "Hezb-e Tude-ye Iran"
 PER_libertarian_socialist_party: "Hamrahan"
 PER_libertarian_socialist_party_long: "Hezb-e Hamrahan"
 PER_social_democrat_party: "Iran"

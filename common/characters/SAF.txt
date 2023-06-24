@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_James_La_Guma_hog_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_James_La_Guma_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -67,7 +67,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_hog_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -86,7 +86,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_industrialiser
 			}
 		}
@@ -400,7 +400,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Goolam_Gool_for_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				for_relations_expert
 			}
 		}
@@ -481,7 +481,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Thabo_Mofutsanyana_eco_col_hired }
 			}
 			traits = {
-				collectivist
+				vanguard_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -737,7 +737,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Moses_Kotane_sec_van_hired }
 			}
 			traits = {
-				vanguardist
+				auth_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1202,11 +1202,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = vanguardist_subtype
+			ideology = authsoc_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = collectivist_subtype
+			ideology = vansoc_subtype
 			traits = { }
 		}
 		country_leader = {

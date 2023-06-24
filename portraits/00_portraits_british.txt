@@ -199,14 +199,14 @@ SAF = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
@@ -301,14 +301,14 @@ ZAF = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
@@ -403,14 +403,14 @@ ZIM = {
 	}
 
 	political = {
-		vanguardist = {
+		auth_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		collectivist = {
+		vanguard_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_10.png"
 				"gfx/leaders/Generic/Portrait_Europe_Generic_new_15.png"
