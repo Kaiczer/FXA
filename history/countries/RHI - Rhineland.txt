@@ -18,6 +18,8 @@ set_technology = {
 	basic_train = 1
 }
 
+51 = { set_demilitarized_zone = yes }
+
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 	set_technology = {
