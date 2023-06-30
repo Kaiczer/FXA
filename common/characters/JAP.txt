@@ -144,7 +144,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oyama_Ikuo_hog_col_hired }
@@ -175,7 +175,7 @@ characters = {
 			}
 		}
 		advisor = { #Pre Iesato Death
-			cost = 150
+			cost = 0
 			slot = security_minister
 			allowed = {
 				has_character_flag = JAP_Tokugawa_Iesato_Not_Dead
@@ -187,12 +187,12 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_sec_val_hired }
 			traits = {
-				valkist
+				head_of_government
 				sec_prince_of_terror
 			}
 		}
 		advisor = { #Post Iesato Death
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Inoue_Nissho_hog_val_hired }
@@ -206,7 +206,7 @@ characters = {
 			on_add = { set_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			on_remove = { clr_character_flag = JAP_Inoue_Nissho_hog_val_hired }
 			traits = {
-				valkist
+				head_of_government
 				hog_holy_vice_marshal
 			}
 		}
@@ -232,7 +232,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			allowed = {
 				has_country_flag = JAP_Shogun_Regime
@@ -257,7 +257,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			allowed = {
 				has_country_flag = JAP_Shogun_Regime
@@ -283,7 +283,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			allowed = {
 				has_country_flag = JAP_Shogun_Regime
@@ -310,7 +310,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			allowed = {
 				has_country_flag = JAP_Shogun_Regime
@@ -328,7 +328,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nakano_Seigo_hog_npo_hired }
@@ -369,7 +369,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Tomoyuki_Yamashita_cos
 			traits = {
@@ -377,7 +377,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = JAP_Tomoyuki_Yamashita_carm
 			traits = {
@@ -385,7 +385,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = JAP_Tomoyuki_Yamashita_cair
 			traits = {
@@ -461,7 +461,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kanji_Ishiwara_sec_val_hired }
@@ -696,7 +696,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Yoshijiro_Umezu_cos
 			traits = {
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = JAP_Yoshijiro_Umezu_carm
 			traits = {
@@ -963,7 +963,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Isoroku_Yamamoto_cnav
 			traits = {
@@ -992,7 +992,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Mineichi_Koga_cnav
 			traits = {
@@ -1093,7 +1093,7 @@ characters = {
 			coordination_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Soemu_Toyoda_cnav
 			traits = {
@@ -1121,7 +1121,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Jisaburo_Ozawa_cnav
 			traits = {
@@ -1206,7 +1206,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suzuki_Mosaburo_hog_lib_hired }
@@ -1232,7 +1232,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Abe_Iso_hog_sde_hired }
@@ -1258,7 +1258,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Katayama_Tetsu_hog_sde_hired }
@@ -1284,7 +1284,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hamaguchi_Osachi_hog_mli_hired }
@@ -1310,7 +1310,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Machida_Chuji_hog_mli_hired }
@@ -1336,7 +1336,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Miki_Bukichi_hog_mli_hired }
@@ -1362,7 +1362,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ugaki_Kazushige_hog_mli_hired }
@@ -1388,7 +1388,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hatoyama_Ichiro_hog_sco_hired }
@@ -1414,7 +1414,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Inukai_Tsuyoshi_hog_sco_hired }
@@ -1440,7 +1440,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mitsuchi_Chuzo_hog_sco_hired }
@@ -1466,7 +1466,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mizuno_Rentaro_hog_sco_hired }
@@ -1492,7 +1492,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suzuki_Kisaburo_hog_sco_hired }
@@ -1518,7 +1518,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yoshizawa_Kenkichi_hog_sco_hired }
@@ -1544,7 +1544,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Adachi_Kenzo_hog_ade_hired }
@@ -1570,7 +1570,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Maeda_Yonezo_hog_ade_hired }
@@ -1596,7 +1596,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nakajima_Chikuhei_hog_ade_hired }
@@ -1622,7 +1622,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hayashi_Senjuro_hog_pau_hired }
@@ -1648,7 +1648,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hiranuma_Kiichiro_hog_pau_hired }
@@ -1674,7 +1674,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagata_Tetsuzan_hog_pau_hired }
@@ -1700,7 +1700,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Tojo_Hideki_hog_pau_hired }
@@ -1726,7 +1726,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Araki_Sadao_hog_npo_hired }
@@ -1752,7 +1752,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Konoe_Fumimaro_hog_npo_hired }
@@ -1778,7 +1778,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kuhara_Fusanosuke_hog_npo_hired }
@@ -1804,7 +1804,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Fukumoto_Kazuo_for_van_hired }
@@ -1830,7 +1830,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yamamoto_Kenzo_for_col_hired }
@@ -1856,7 +1856,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shidehara_Kijuro_for_mli_hired }
@@ -1882,7 +1882,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ashida_Hitoshi_for_sco_hired }
@@ -1908,7 +1908,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yoshida_Shigeru_for_sco_hired }
@@ -1934,7 +1934,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Naotake_Sato_for_sco_hired }
@@ -1956,7 +1956,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Arita_Hachiro_for_ade_hired }
@@ -1982,7 +1982,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hirota_Koki_for_ade_hired }
@@ -2008,7 +2008,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ogawa_Gotaro_for_ade_hired }
@@ -2034,7 +2034,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hayashi_Fusao_for_val_hired }
@@ -2060,7 +2060,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mushanokoji_Kintomo_for_pau_hired }
@@ -2086,7 +2086,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shiratori_Toshio_for_npo_hired }
@@ -2112,7 +2112,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Honda_Kumataro_for_pau_hired }
@@ -2138,7 +2138,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Tatekawa_Yoshitsugu_for_pau_hired }
@@ -2164,7 +2164,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Okawa_Shumei_for_npo_hired }
@@ -2190,7 +2190,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Asanuma_Inejiro_eco_van_hired }
@@ -2216,7 +2216,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yamada_Moritaro_eco_col_hired }
@@ -2242,7 +2242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Eda_Saburo_eco_sde_hired }
@@ -2268,7 +2268,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mizutani_Chozaburo_eco_sde_hired }
@@ -2294,7 +2294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Inoue_Junnosuke_eco_mli_hired }
@@ -2320,7 +2320,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsumura_Kenzo_eco_mli_hired }
@@ -2346,7 +2346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ikeda_Shigeaki_eco_sco_hired }
@@ -2372,7 +2372,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsuno_Tsuruhei_eco_sco_hired }
@@ -2398,7 +2398,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oguchi_Kiroku_eco_sco_hired }
@@ -2424,7 +2424,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Tsushima_Juichi_eco_sco_hired }
@@ -2450,7 +2450,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Horikiri_Zenbee_eco_ade_hired }
@@ -2476,7 +2476,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Godo_Takuo_eco_pau_hired }
@@ -2502,7 +2502,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shoda_Kazue_eco_pau_hired }
@@ -2528,7 +2528,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suzuki_Teiichi_eco_npo_hired }
@@ -2554,7 +2554,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Etsusaburo_Shiina_eco_npo_hired }
@@ -2580,7 +2580,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kimura_Takeo_eco_val_hired }
@@ -2606,7 +2606,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagayuki_Asano_eco_pau_hired }
@@ -2632,7 +2632,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Takashi_Hishikari_sec_npo_hired }
@@ -2658,7 +2658,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yoshikawa_Takeo_sec_pau_hired }
@@ -2684,7 +2684,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Sakisaka_Itsuro_sec_lib_hired }
@@ -2710,7 +2710,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsuoka_Komakichi_sec_sde_hired }
@@ -2736,7 +2736,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Katsu_sec_mli_hired }
@@ -2762,7 +2762,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Takukichi_sec_mli_hired }
@@ -2788,7 +2788,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kimura_Kozaemon_sec_mli_hired }
@@ -2814,7 +2814,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Saito_Takao_sec_mli_hired }
@@ -2840,7 +2840,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawamura_Takeji_sec_sco_hired }
@@ -2866,7 +2866,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ohara_Naoshi_sec_sco_hired }
@@ -2892,7 +2892,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Akita_Kiyoshi_sec_ade_hired }
@@ -2918,7 +2918,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mochizuki_Keisuke_sec_ade_hired }
@@ -2944,7 +2944,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagai_Ryutaro_sec_ade_hired }
@@ -2970,7 +2970,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oasa_Tadao_sec_ade_hired }
@@ -2996,7 +2996,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Fujie_Keisuke_sec_pau_hired }
@@ -3022,7 +3022,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shiono_Suehiko_sec_pau_hired }
@@ -3048,7 +3048,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suetsugu_Nobumasa_sec_npo_hired }
@@ -3074,7 +3074,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Anami_Korechika_cos
 			traits = {
@@ -3090,7 +3090,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Kanin_Kotohito_cos
 			traits = {
@@ -3098,7 +3098,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = JAP_Kanin_Kotohito_carm
 			traits = {
@@ -3114,7 +3114,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Sugiyama_Hajime_cos
 			traits = {
@@ -3122,7 +3122,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = JAP_Sugiyama_Hajime_carm
 			traits = {
@@ -3138,7 +3138,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = JAP_Masaki_Jinzaburo_cos
 			traits = {
@@ -3146,7 +3146,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = JAP_Masaki_Jinzaburo_carm
 			traits = {
@@ -3162,7 +3162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Nagano_Osami_cnav
 			traits = {
@@ -3178,7 +3178,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Oikawa_Koshiro_cnav
 			traits = {
@@ -3194,7 +3194,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Fushimi_Hiroyasu_cnav
 			traits = {
@@ -3210,7 +3210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = JAP_Shimada_Shigetaro_cnav
 			traits = {
@@ -3226,7 +3226,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = JAP_Teramoto_Kumaichi_cair
 			traits = {
@@ -3242,7 +3242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = JAP_Sugawara_Michio_cair
 			traits = {

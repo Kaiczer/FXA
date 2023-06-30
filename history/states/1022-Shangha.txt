@@ -2,6 +2,7 @@
 state={
 	id=1022
 	name="STATE_1022"
+
 	history={
 		owner = CHI
 		buildings = {
@@ -12,14 +13,15 @@ state={
 		victory_points = {
 			7097 5 
 		}
-
 		add_core_of = CHI
+
 	}
 
 	provinces={
-		7097 13140 9999 1640 13143 12483 7502
+		1640 7097 7502 9999 10517 12483 13140 13143 
 	}
 	manpower=2300452
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

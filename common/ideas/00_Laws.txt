@@ -129,7 +129,7 @@ ideas = {
 
 		civilian_economy = {
 			level = 5
-			cost = 100
+			
 			removal_cost = -1
 
 			modifier = {
@@ -153,7 +153,7 @@ ideas = {
 
 		low_economic_mobilisation = {
 			level = 4
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -180,7 +180,7 @@ ideas = {
 
 		partial_economic_mobilisation = {
 			level = 3
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -208,7 +208,7 @@ ideas = {
 
 		war_economy = {
 			level = 2
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -242,7 +242,7 @@ ideas = {
 
 		tot_economic_mobilisation = {
 			level = 1
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -280,7 +280,6 @@ ideas = {
 		}
 		macedonian_economy = {
 			level = 1
-			cost = 1000
 			picture = macedonian_economy
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -317,7 +316,7 @@ ideas = {
 
 		free_trade = {
 			level = 4
-			cost = 100
+			
 
 			removal_cost = -1
 
@@ -353,7 +352,7 @@ ideas = {
 
 		export_focus = {
 			level = 3
-			cost = 100
+			
 
 			removal_cost = -1
 
@@ -380,7 +379,7 @@ ideas = {
 
 		limited_exports = {
 			level = 2
-			cost = 100
+			
 
 			removal_cost = -1
 
@@ -416,7 +415,7 @@ ideas = {
 
 		closed_economy = {
 			level = 1
-			cost = 100
+			
 
 			removal_cost = -1
 
@@ -453,7 +452,6 @@ ideas = {
 		macedonian_trade = {
 			picture = macedonian_trade
 			level = 10
-			cost = 1000
 			removal_cost = -1
 			cancel_if_invalid = no
 			available = {
@@ -507,7 +505,7 @@ ideas = {
 
 		disarmed_nation = {
 			level = 7
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -522,7 +520,7 @@ ideas = {
 
 		volunteer_only = {
 			level = 6
-			cost = 100
+			
 
 			cancel_if_invalid = no
 			available = {
@@ -542,7 +540,7 @@ ideas = {
 
 		limited_conscription = {
 			level = 5
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -571,7 +569,7 @@ ideas = {
 
 		extensive_conscription = {
 			level = 4
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -599,7 +597,7 @@ ideas = {
 
 		service_by_requirement = {
 			level = 3
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -640,7 +638,7 @@ ideas = {
 
 		all_adults_serve = {
 			level = 2
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -681,7 +679,7 @@ ideas = {
 
 		scraping_the_barrel = {
 			level = 1
-			cost = 100
+			
 			removal_cost = -1
 
 			cancel_if_invalid = no
@@ -721,7 +719,6 @@ ideas = {
 		}
 		macedonian_legions = {
 			level = 1
-			cost = 1000
 			removal_cost = -1
 			cancel_if_invalid = no
 			picture = macedonian_legions

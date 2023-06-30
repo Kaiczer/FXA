@@ -439,7 +439,7 @@ country_event = {
 	trigger = {
 		tag = RHI
 		has_country_flag = rhi_conference_end
-		has_country_flag = { flag = RHI_conf value > 0}	
+		has_country_flag = { flag = RHI_conf value > 1 }	
 	}
 	
 	mean_time_to_happen = {
@@ -468,7 +468,10 @@ country_event = {
 	trigger = {
 		tag = RHI
 		has_country_flag = rhi_conference_end
-		has_country_flag = { flag = RHI_conf value < 0}	
+		has_country_flag = { flag = RHI_conf value < 2 }	
+		NOT = {
+			has_country_flag = { flag = RHI_conf value < -1 }	
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -489,7 +492,7 @@ country_event = {
 	id = rhi.crisis.10
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.crisis.10"}
 	title = "Valkist Putsche!"
-	desc = rhi.20.d
+	desc = rhi.10.d
 	picture = GFX_report_event_german_troops
 	
 	fire_only_once = yes
@@ -497,11 +500,7 @@ country_event = {
 	trigger = {
 		tag = RHI
 		has_country_flag = rhi_conference_end
-		AND = {
-			has_country_flag = { flag = RHI_conf value < 1 }	
-			has_country_flag = { flag = RHI_conf value > -1 }	
-		}
-		
+		has_country_flag = { flag = RHI_conf value < -1 }
 	}
 	
 	mean_time_to_happen = {
@@ -515,15 +514,12 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = {
-					FRA = {is_ai = yes}
+					FRA = { is_ai = yes }
 				}
-				FRA = { country_event = { id = rhi.france.8 days = 1 }}
+				FRA = { country_event = { id = rhi.france.8 days = 1 } }
 			}
-			if = {
-				limit = {
-					FRA = {is_ai = no}
-				}
-				FRA = { country_event = { id = rhi.france.3 days = 1 }}
+			else = {
+				FRA = { country_event = { id = rhi.france.3 days = 1 } }
 			}
 		}
 	}
@@ -531,23 +527,16 @@ country_event = {
 		name = "Embrace the German revolution!"
 		add_popularity = { ideology = valkist popularity = 0.10 }
 		add_stability = -0.10
+		country_event = {
+			id = rhi.crisis.22
+			days = 14
+		}
 		hidden_effect = {
 			if = {
 				limit = {
-					FRA = {is_ai = yes}
+					FRA = { is_ai = yes }
 				}
-				FRA = { 
-					#country_event = { 
-					#	id = rhi.france.7 
-					#	days = 1 
-					#}
-				}
-			}
-			if = {
-				limit = {
-					FRA = {is_ai = no}
-				}
-				FRA = { country_event = { id = rhi.france.3 days = 1 }}
+				FRA = { country_event = { id = rhi.france.8 days = 1 } }
 			}
 		}
 	}
@@ -660,12 +649,12 @@ country_event = {
 			elections_allowed = no
 		}
 		hidden_effect = {
-      add_ideas = {
-        RHI_Henri_Mordacq_hog_ade
-        RHI_Andre_Francois_Poncet_for_pau
-        RHI_EF_Schumachher_eco_ade
-        RHI_Karl_von_Starck_sec_ade
-      }
+			add_ideas = {
+				RHI_Henri_Mordacq_hog_ade
+				RHI_Andre_Francois_Poncet_for_pau
+				RHI_EF_Schumachher_eco_ade
+				RHI_Karl_von_Starck_sec_ade
+			}
 			set_global_flag = RHI_F_crisis_end
 			set_global_flag = RHI_F_mandate
 			country_event = { id = rhi.political.5 days = 7 }
@@ -676,7 +665,7 @@ country_event = {
 	id = rhi.crisis.22
 	immediate = {log = "[GetDateText]: [Root.GetName]: event rhi.crisis.22"}
 	title = "The German Rhine!"
-	desc = rhi.32.d
+	desc = rhi.22.d
 	picture = GFX_report_event_RHI_tst_troops
 
 	 
@@ -692,48 +681,41 @@ country_event = {
 		hidden_effect = {
 			set_global_flag = RHI_F_crisis_end
 			set_global_flag = RHI_F_valkist
-      add_ideas = {
-        RHI_Albert_Leo_Schlageter_hog_val
-        RHI_Walter_Stennes_for_val
-        RHI_Heinrich_Himmler_eco_val
-        RHI_Franz_Pfeffer_von_Salomon_sec_val
-      }
+			set_country_flag = LEADER_GUI_VISIBLE
+			set_country_flag = HOG_veiw
+			add_ideas = {
+				RHI_Viktor_Lutze_hog_val
+				RHI_Walter_Stennes_for_val
+				RHI_Heinrich_Himmler_eco_val
+				RHI_Franz_Pfeffer_von_Salomon_sec_val
+			}
 			remove_ideas = RHI_Charles_Mangin_cos
 			country_event = { id = rhi.political.5 days = 7 }
-		  retire_character = RHI_Charles_Mangin
-      retire_character = RHI_Adolphe_Guillaumat
-      retire_character = RHI_Louis_Theodore_Kleinmann
-      retire_character = RHI_Henri_Mordacq
-      retire_character = RHI_Albert_Tanant
-      retire_character = RHI_Victor_Louis_Goybet
+			retire_character = RHI_Charles_Mangin
+			retire_character = RHI_Adolphe_Guillaumat
+			retire_character = RHI_Louis_Theodore_Kleinmann
+			retire_character = RHI_Henri_Mordacq
+			retire_character = RHI_Albert_Tanant
+			retire_character = RHI_Victor_Louis_Goybet
 		}
-    add_field_marshal_role = {
-      character = RHI_Viktor_Lutze
-      traits = { politically_connected organizer }
-      skill = 3
-      attack_skill = 2
-      defense_skill = 2
-      planning_skill = 3
-      logistics_skill = 3
-    }
-    add_corps_commander_role = {
-      character = RHI_Albert_Leo_Schlageter
-      traits = {brilliant_strategist politically_connected trait_reckless}
-			skill = 4
-			attack_skill = 4
-			defense_skill = 4
-			planning_skill = 2
-			logistics_skill = 2
-    }
-    add_corps_commander_role = {
-      character = RHI_Franz_Pfeffer_von_Salomon
-      traits = {politically_connected harsh_leader}
+		add_field_marshal_role = {
+			character = RHI_Viktor_Lutze
+			traits = { politically_connected organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		}
+		add_corps_commander_role = {
+			character = RHI_Franz_Pfeffer_von_Salomon
+			traits = { politically_connected harsh_leader }
 			skill = 2
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
-    }
+		}
 		#FRA = { remove_ideas = FRA_rhineland_coal }
 		remove_ideas = RHI_S_rhineland_coal
 		delete_unit_template_and_units = { division_template = "French Garrison" }
@@ -1101,7 +1083,7 @@ country_event = {
 		add_stability = -0.02
 		add_manpower = -10000
 		hidden_effect = {
-		RHI= { country_event = { id = rhi.crisis.21 days = 3 }}
+			RHI = { country_event = { id = rhi.crisis.21 days = 3 }}
 		}
 		ai_chance = {
 			factor = 320

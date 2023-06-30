@@ -1,7 +1,7 @@
 guiTypes = {
 	containerWindowType =  {
 		name = "joe_biden_gui"
-		position = { x = 10 y = 53 }
+		position = { x = 9 y = 56 }
 		size = { width = 170 height = 260 }
 		orientation = upper_left
 		#background = {
@@ -28,6 +28,11 @@ guiTypes = {
 			name = "Yasuhito"
 			position = { x = 8 y = 10 }
 			spriteType = "GFX_Portrait_Japan_Yasuhito"
+		}
+		iconType = {
+			name = "Viktor_Lutze"
+			position = { x = 8 y = 10 }
+			spriteType = "GFX_Portrait_Rhine_Viktor_Lutze"
 		}
 
 		# Add a new iconType (copy-paste) for every PM. Change its name and set the SpriteType to the PM, please give it an entry in the .gfx file

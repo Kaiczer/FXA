@@ -1544,10 +1544,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_ideology_vanguard_socialist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_vanguard_socialist.png"
+		texturefile = "gfx/interface/goals/goal_ideology_vanguard_socialism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_vanguard_socialist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_vanguard_socialism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -1560,7 +1560,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_vanguard_socialist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_vanguard_socialism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5259,10 +5259,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_vanguard_socialist_menace_shine"
-		texturefile = "gfx/interface/goals/goal_vanguard_socialist_menace.png"
+		texturefile = "gfx/interface/goals/goal_collectivist_menace.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_vanguard_socialist_menace.png"
+			animationmaskfile = "gfx/interface/goals/goal_collectivist_menace.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5275,7 +5275,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_vanguard_socialist_menace.png"
+			animationmaskfile = "gfx/interface/goals/goal_collectivist_menace.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -5675,10 +5675,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_goal_ideology_auth_socialist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_auth_socialist.png"
+		texturefile = "gfx/interface/goals/goal_ideology_auth_socialism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_auth_socialist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_auth_socialism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -5691,7 +5691,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_auth_socialist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_auth_socialism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

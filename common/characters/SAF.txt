@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_James_La_Guma_hog_van_hired }
@@ -26,7 +26,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_James_La_Guma_sec_van_hired }
@@ -53,7 +53,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Solomon_Sachs_hog_col_hired }
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Solomon_Sachs_eco_col_hired }
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Sidney_Bunting_hog_lib_hired }
@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Alex_Hepple_hog_sde_hired }
@@ -145,7 +145,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Alex_Hepple_eco_sde_hired }
@@ -172,7 +172,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_J_G_N_Strauss_hog_sco_hired }
@@ -213,7 +213,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Jan_C_Smuts_hog_sco_hired }
@@ -232,7 +232,7 @@ characters = {
 			}
 		}
     advisor = {
-      cost = 150
+      cost = 0
       slot = foreign_minister
       available = {
         hidden_trigger = { has_country_flag = SAF_Jan_C_Smuts_for_sco_hired }
@@ -251,7 +251,7 @@ characters = {
       }
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = SAF_Jan_C_Smuts_cos_sco
 			traits = {
@@ -259,7 +259,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_Jan_C_Smuts_carm_sco
 			traits = {
@@ -276,7 +276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_James_Hertzog_hog_ade_hired }
@@ -304,7 +304,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Nicolaas_Havenga_hog_ade_hired }
@@ -332,7 +332,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_D_F_Malan_hog_npo_hired }
@@ -359,7 +359,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_J_F_van_Rensburg_hog_npo_hired }
@@ -386,7 +386,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Goolam_Gool_for_van_hired }
@@ -413,7 +413,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Bram_Fischer_for_lib_hired }
@@ -440,7 +440,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Yusuf_Dadoo_for_lib_hired }
@@ -467,7 +467,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Thabo_Mofutsanyana_eco_col_hired }
@@ -494,7 +494,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Lazar_Bach_eco_lib_hired }
@@ -521,7 +521,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Frederic_Creswell_eco_sde_hired }
@@ -551,7 +551,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Jimmy_Green_eco_sde_hired }
@@ -570,7 +570,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_Jimmy_Green_carm_sde
 			traits = {
@@ -586,7 +586,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Walter_Madeley_eco_sde_hired }
@@ -613,7 +613,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Alan_Paton_eco_sli_hired }
@@ -641,7 +641,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Jan_Hendrik_Hofmeyr_eco_sli_hired }
@@ -668,7 +668,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Pieter_van_der_Byl_eco_sco_hired }
@@ -695,7 +695,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_J_G_Strijdom_eco_pau_hired }
@@ -723,7 +723,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Moses_Kotane_sec_van_hired }
@@ -750,7 +750,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Douglas_Wolton_sec_lib_hired }
@@ -777,7 +777,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_W_H_Andrews_hog_lib_hired }
@@ -796,7 +796,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_W_H_Andrews_sec_lib_hired }
@@ -823,7 +823,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Thomas_Boydell_sec_sde_hired }
@@ -850,7 +850,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Deneys_Reitz_sec_sco_hired }
@@ -877,7 +877,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Ben_Schoeman_sec_ade_hired }
@@ -904,7 +904,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_C_F_Stallard_hog_sde_hired }
@@ -923,7 +923,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_C_F_Stallard_sec_sde_hired }
@@ -950,7 +950,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_F_C_Erasmus_sec_pau_hired }
@@ -977,7 +977,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = SAF_James_Mitchell_Baker_cos_sco
 			traits = {
@@ -1002,7 +1002,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = SAF_Leonard_Beyers_cos_sco
 			traits = {
@@ -1018,7 +1018,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = SAF_Pierre_van_Ryneveld_cos_sco
 			traits = {
@@ -1026,7 +1026,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_Pierre_van_Ryneveld_carm_sco
 			traits = {
@@ -1052,7 +1052,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = SAF_Christian_du_Toit_cos_ade
 			traits = {
@@ -1060,7 +1060,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_Christian_du_Toit_carm_ade
 			traits = {
@@ -1076,7 +1076,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_Francois_Theron_carm_sco
 			traits = {
@@ -1092,7 +1092,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = SAF_JF_Naude_carm_ade
 			traits = {
@@ -1118,7 +1118,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = SAF_Pieter_de_Waal_cnav_sco
 			traits = {
@@ -1144,7 +1144,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = SAF_Adolph_Malan_cair_sli
 			traits = {
@@ -1170,7 +1170,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = SAF_Christoffel_Venter_cair_mli
 			traits = {
@@ -1186,7 +1186,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = SAF_Stephen_Melville_cair_mli
 			traits = {
@@ -1405,7 +1405,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Alfred_Bitini_Xuma_hog_lib_hired }
@@ -1432,7 +1432,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SAF_Tielman_Roos_hog_npo_hired }

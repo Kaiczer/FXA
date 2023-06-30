@@ -20,7 +20,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Stanislav_Kosior_for_van_hired }
@@ -100,7 +100,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vyacheslav_Lypynsky_hog_sco_hired }
@@ -144,7 +144,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yevhen_Konovalets_hog_pau_hired }
@@ -180,7 +180,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Dmitri_Dontsov_hog_npo_hired }
@@ -439,7 +439,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksander_Shumsky_hog_van_hired }
@@ -466,7 +466,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Vynnychenko_hog_sco_hired }
@@ -498,7 +498,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Andrey_Livytskyi_hog_sde_hired }
@@ -525,7 +525,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Boris_Martos_hog_ade_hired }
@@ -552,7 +552,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikhail_Bulgakov_hog_ade_hired }
@@ -579,7 +579,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Nikolai_Boretsky_hog_ade_hired }
@@ -606,7 +606,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Patriarch_Mstyslav_hog_ade_hired }
@@ -633,7 +633,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vyacheslav_Prokopovich_hog_ade_hired }
@@ -663,7 +663,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Pavlo_Skoropadsky_hog_pau_hired }
@@ -682,7 +682,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Pavlo_Skoropadsky_cos_pau
 			traits = {
@@ -698,7 +698,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vlas_Chubar_for_van_hired }
@@ -725,7 +725,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Grigori_Sokolnikov_hog_lib_hired }
@@ -752,7 +752,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Shulhyn_for_lib_hired }
@@ -779,7 +779,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykhailo_Boholiepov_eco_lib_hired }
@@ -806,7 +806,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Pavlo_Khrystiuk_sec_lib_hired }
@@ -833,7 +833,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Nikolai_Skrypnik_for_sde_hired }
@@ -860,7 +860,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Alexander_Shulgin_for_sco_hired }
@@ -887,7 +887,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Konstantin_Prisovsky_for_pau_hired }
@@ -914,7 +914,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yuri_Lipa_for_pau_hired }
@@ -941,7 +941,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Serhii_Shemet_hog_ade_hired }
@@ -968,7 +968,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykhailo_Savur_Tsypriianovych_for_sco_hired }
@@ -995,7 +995,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Volodymyr_Zalozetskyi_Sas_eco_sco_hired }
@@ -1022,7 +1022,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Skoropys_Yoltukhovskyi_eco_ade_hired }
@@ -1049,7 +1049,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vasyl_Kuchabskyi_sec_sco_hired }
@@ -1076,7 +1076,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Dmitri_Doroshenko_for_ade_hired }
@@ -1103,7 +1103,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Stepan_Vytvytskyi_hog_sli_hired }
@@ -1130,7 +1130,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Liubynskyi_for_sli_hired }
@@ -1157,7 +1157,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Tvorydlo_eco_sli_hired }
@@ -1184,7 +1184,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Zhukivskyi_sec_sli_hired }
@@ -1211,7 +1211,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikola_Lebid_sec_pau_hired }
@@ -1238,7 +1238,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Grigorij_Petrovsky_eco_col_hired }
@@ -1265,7 +1265,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Panas_P_Lyubchenko_eco_col_hired }
@@ -1292,7 +1292,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yuri_Kotsiubinsky_eco_col_hired }
@@ -1319,7 +1319,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Nikolai_Shrag_eco_sli_hired }
@@ -1346,7 +1346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Tarnovsky_eco_sco_hired }
@@ -1373,7 +1373,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Kirill_Osmak_eco_ade_hired }
@@ -1400,7 +1400,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Sergei_Ostapenko_eco_ade_hired }
@@ -1427,7 +1427,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikola_Stsiborsky_eco_pau_hired }
@@ -1454,7 +1454,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Emanoil_Kviring_sec_van_hired }
@@ -1481,7 +1481,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Leonid_Melnikov_sec_van_hired }
@@ -1508,7 +1508,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Khrystian_G_Rakovsky_sec_col_hired }
@@ -1535,7 +1535,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Antonov_Ovseyenko_sec_col_hired }
@@ -1562,7 +1562,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Ivan_Feshenko_Chopovsky_sec_sli_hired }
@@ -1589,7 +1589,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Daniil_Skoropadsky_sec_ade_hired }
@@ -1616,7 +1616,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Igor_Kistyakovsky_sec_ade_hired }
@@ -1643,7 +1643,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Chekhovsky_sec_ade_hired }
@@ -1670,7 +1670,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Khitrovo_sec_ade_hired }
@@ -1697,7 +1697,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Sergei_Kubiyovich_sec_pau_hired }
@@ -1724,7 +1724,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikhaylo_Kolodzinsky_hog_npo_hired }
@@ -1751,7 +1751,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Vitaly_Primakov_cos
 			traits = {
@@ -1767,7 +1767,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Emelian_Volokh_cos
 			traits = {
@@ -1783,7 +1783,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Sydor_Kovpak_cos
 			traits = {
@@ -1800,7 +1800,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Mikhail_Omelianovych_Pavlenko_cos
 			traits = {
@@ -1819,7 +1819,7 @@ characters = {
 			slot = army_chief
 			idea_token =  UKR_Mikhail_Omelianovych_Pavlenko_cair
 			traits = { army_chief_defensive_2 }
-			cost = 150
+			cost = 0
 		}
 	}
 	UKR_Vsevolod_Petrov = {
@@ -1831,7 +1831,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = UKR_Vsevolod_Petrov_cos
 			traits = {
@@ -1855,7 +1855,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Yan_Gamarnik_carm
 			traits = {
@@ -1871,7 +1871,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Veniamin_Ruvinski_carm
 			traits = {
@@ -1887,7 +1887,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Vladimir_Salski_carm
 			traits = {
@@ -1903,7 +1903,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Vladislav_Dashkevich_Gorbatsky_carm
 			traits = {
@@ -1919,7 +1919,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Alexander_Dolgorukov_carm
 			traits = {
@@ -1935,7 +1935,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Pavlo_Shandruk_carm
 			traits = {
@@ -1951,7 +1951,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Vladimir_Sinkler_carm
 			traits = {
@@ -1967,7 +1967,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Taras_Bulba_Borovets_carm
 			traits = {
@@ -1983,7 +1983,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Vladimir_Sikevich_carm
 			traits = {
@@ -1999,7 +1999,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = UKR_Roman_Shukhevich_carm
 			traits = {
@@ -2015,7 +2015,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Ivan_Isakov_cnav
 			traits = {
@@ -2031,7 +2031,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Sergei_Gorshkov_cnav
 			traits = {
@@ -2047,7 +2047,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Vladimir_Pilipenko_cnav
 			traits = {
@@ -2063,7 +2063,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Andrey_Pokrovsky_cnav
 			traits = {
@@ -2079,7 +2079,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Nikolai_Maximov_cnav
 			traits = {
@@ -2095,7 +2095,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = UKR_Vladimir_Savchenko_Belski_cnav
 			traits = {
@@ -2111,7 +2111,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = UKR_Grigori_Shtern_cair_van
 			traits = {
@@ -2127,7 +2127,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = UKR_Vyacheslav_Tkachev_cair
 			traits = {
@@ -2143,7 +2143,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Andrii_Melnyk_hog_pau_hired }
@@ -2170,7 +2170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Richard_Yaryi_hog_pau_hired }
@@ -2197,7 +2197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Dmytro_Andriievskyi_for_pau_hired }
@@ -2224,7 +2224,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Stsiborskyi_eco_pau_hired }
@@ -2251,7 +2251,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Volodymyr_Kubiiovych_for_npo_hired }
@@ -2278,7 +2278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Leonid_Kostariv_eco_npo_hired }
@@ -2305,7 +2305,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yaroslav_Diakon_sec_npo_hired }
@@ -2332,7 +2332,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vsevolod_Holubovych_hog_sde_hired }

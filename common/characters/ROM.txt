@@ -58,7 +58,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Regency_Council_hog_pau_hired }
@@ -90,7 +90,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Corneliu_Zelea_Codreanu_hog_val_hired }
@@ -142,7 +142,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ROM_Ion_Antonescu_cos
 			traits = {
@@ -167,7 +167,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ROM_Gheorghe_Argeseanu_cos
 			traits = {
@@ -256,7 +256,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ROM_Constantin_Pantazi_cos
 			traits = {
@@ -393,7 +393,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ROM_Horia_Macellariu_cnav
 			traits = {
@@ -409,7 +409,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Gheorghe_Apostol_hog_col_hired }
@@ -437,7 +437,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Virgil_Madgearu_hog_sde_hired }
@@ -464,7 +464,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Iuliu_Maniu_hog_sli_hired }
@@ -492,7 +492,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Constantin_Bratianu_hog_mli_hired }
@@ -520,7 +520,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Constantin_Angelescu_hog_mli_hired }
@@ -547,7 +547,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Alexandru_Vaida_Voevod_hog_sco_hired }
@@ -575,7 +575,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Armand_Calinescu_hog_ade_hired }
@@ -603,7 +603,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Alexandru_Cantacuzino_hog_pau_hired }
@@ -630,7 +630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Horia_Sima_hog_npo_hired }
@@ -658,7 +658,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ion_Mota_hog_val_hired }
@@ -677,7 +677,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ion_Mota_for_val_hired }
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ana_Pauker_for_col_hired }
@@ -731,7 +731,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Grigore_Gafencu_for_sli_hired }
@@ -758,7 +758,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Gheorghe_Tatarescu_for_mli_hired }
@@ -785,7 +785,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Savel_Radulescu_for_mli_hired }
@@ -812,7 +812,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Viorel_Tilea_for_sco_hired }
@@ -839,7 +839,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Grigore_Niculescu_Buzesti_for_ade_hired }
@@ -866,7 +866,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Constantin_Papanace_for_npo_hired }
@@ -893,7 +893,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Mihail_Sturdza_for_npo_hired }
@@ -920,7 +920,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Radu_Mironovici_for_npo_hired }
@@ -947,7 +947,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Miron_Constantinescu_eco_van_hired }
@@ -974,7 +974,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ion_Mihalache_eco_sde_hired }
@@ -1001,7 +1001,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Victor_Slavescu_eco_mli_hired }
@@ -1028,7 +1028,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Mitita_Constantinescu_eco_mli_hired }
@@ -1055,7 +1055,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Gheorghe_Mironescu_eco_sco_hired }
@@ -1082,7 +1082,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Gheorghe_Potopeanu_eco_pau_hired }
@@ -1109,7 +1109,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ilie_Garneata_eco_npo_hired }
@@ -1136,7 +1136,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Mihail_Manoilescu_eco_npo_hired }
@@ -1163,7 +1163,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Gheorghe_Clime_eco_val_hired }
@@ -1190,7 +1190,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Teohari_Georgescu_sec_van_hired }
@@ -1217,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Pantelimon_Halippa_sec_sde_hired }
@@ -1244,7 +1244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Victor_Iamandi_sec_mli_hired }
@@ -1271,7 +1271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Richard_Franasovici_sec_mli_hired }
@@ -1298,7 +1298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Mihail_Ghelmegeanu_sec_sco_hired }
@@ -1325,7 +1325,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Aurel_Aldea_sec_sco_hired }
@@ -1352,7 +1352,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ROM_Ion_Belgea_sec_val_hired }
@@ -1379,7 +1379,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ROM_Ioan_Ilcus_cos_sli
 			traits = {
@@ -1395,7 +1395,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ROM_Mihail_Racovita_cos_sli
 			traits = {
@@ -1411,7 +1411,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ROM_Costin_Ionascu_carm_sli
 			traits = {
@@ -1427,7 +1427,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ROM_Constantin_Sanatescu_carm_ade
 			traits = {
@@ -1443,7 +1443,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ROM_Gheorghe_Mihail_carm_ade
 			traits = {
@@ -1459,7 +1459,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ROM_Ilie_Steflea_carm_pau
 			traits = {
@@ -1475,7 +1475,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ROM_Alexandru_Ioanitiu_carm_npo
 			traits = {
@@ -1491,7 +1491,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ROM_Nicolae_Sova_cnav_ade
 			traits = {
@@ -1507,7 +1507,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ROM_Ioan_Georgescu_cnav_pau
 			traits = {
@@ -1523,7 +1523,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ROM_Gheorghe_Jienescu_cair_ade
 			traits = {
@@ -1539,7 +1539,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ROM_Paul_Teodorescu_cair_ade
 			traits = {
@@ -1555,7 +1555,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ROM_Ermil_Gheorghiu_cair_pau
 			traits = {

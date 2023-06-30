@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli_hired }
@@ -36,7 +36,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Themistoklis_Sofoulis_hog_sli_hired }
@@ -64,7 +64,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Sofoklis_Venizelos_hog_sli_hired }
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Kondylis_hog_mli_hired }
@@ -120,7 +120,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Ioannis_Theotokis_hog_mli_hired }
@@ -148,7 +148,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Kafantaris_hog_sde_hired }
@@ -176,7 +176,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Papandreou_hog_sde_hired }
@@ -195,7 +195,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Papandreou_for_sde_hired }
@@ -223,7 +223,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Panagiotis_Kanellopoulos_hog_sde_hired }
@@ -251,7 +251,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Sotirios_Gotzamanis_hog_ade_hired }
@@ -295,7 +295,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Alexandros_Othonaios_hog_ade_hired }
@@ -327,7 +327,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Ioannis_Michail_Metaxas_hog_pau_hired }
@@ -346,7 +346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Ioannis_Michail_Metaxas_for_pau_hired }
@@ -378,7 +378,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Alexandros_Koryzis_hog_pau_hired }
@@ -397,7 +397,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Alexandros_Koryzis_eco_pau_hired }
@@ -429,7 +429,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Kosmidis_hog_npo_hired }
@@ -461,7 +461,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Poulos_hog_npo_hired }
@@ -493,7 +493,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Spyridon_Merkouris_hog_val_hired }
@@ -521,7 +521,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Manolis_Manoleas_hog_val_hired }
@@ -549,7 +549,7 @@ characters = {
 	# 		}
 	# 	}
 	# 	advisor = {
-	# 		cost = 150
+	# 		cost = 0
 	# 		slot = head_of_government
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Miltiadis_Porfyrogenis_hog_lib_hired }
@@ -577,7 +577,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Giannis_Ioannidis_hog_col_hired }
@@ -605,7 +605,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Pantelis_Pouliopoulos_hog_van_hired }
@@ -853,7 +853,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Andreas_Michalakopoulos_for_sli_hired }
@@ -881,7 +881,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitrios_Maximos_for_sco_hired }
@@ -909,7 +909,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Alexandros_Papanastasiou_for_sde_hired }
@@ -937,7 +937,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Konstantinos_Logothetopoulos_for_ade_hired }
@@ -965,7 +965,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Anastasios_Tavoularis_for_npo_hired }
@@ -993,7 +993,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitrios_Delivanis_for_val_hired }
@@ -1021,7 +1021,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Andreas_Tzimas_for_lib_hired }
@@ -1049,7 +1049,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Petros_Rousos_for_col_hired }
@@ -1077,7 +1077,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Serafeim_Maximos_for_van_hired }
@@ -1105,7 +1105,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Alexandros_Diomidis_eco_sli_hired }
@@ -1133,7 +1133,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Kyriakos_Varvaresos_eco_sli_hired }
@@ -1161,7 +1161,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Kartalis_eco_mli_hired }
@@ -1189,7 +1189,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Pesmazoglou_eco_sco_hired }
@@ -1217,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Aristotelis_Sideris_eco_sde_hired }
@@ -1245,7 +1245,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Nikolaos_Kanellopoulos_eco_ade_hired }
@@ -1273,7 +1273,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Mantzavinos_eco_pau_hired }
@@ -1301,7 +1301,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Ektor_Tsironikos_eco_npo_hired }
@@ -1329,7 +1329,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Simitis_eco_val_hired }
@@ -1357,7 +1357,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Kostas_Theos_eco_lib_hired }
@@ -1385,7 +1385,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Vasilis_Bartziotas_eco_col_hired }
@@ -1413,7 +1413,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Olga_Bakola_eco_van_hired }
@@ -1441,7 +1441,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Georgios_Maris_sec_sli_hired }
@@ -1469,7 +1469,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Ioannis_Tsirimokos_sec_sli_hired }
@@ -1497,7 +1497,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitrios_Stefanopoulos_sec_mli_hired }
@@ -1525,7 +1525,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Aristeidis_Basiakos_sec_sco_hired }
@@ -1553,7 +1553,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitrios_Psarros_sec_sde_hired }
@@ -1581,7 +1581,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Kostas_Kotzias_sec_ade_hired }
@@ -1626,7 +1626,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Konstantinos_Manetas_sec_ade_hired }
@@ -1654,7 +1654,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Konstantinos_Maniadakis_sec_pau_hired }
@@ -1682,7 +1682,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Panagiotis_Demestichas_sec_npo_hired }
@@ -1710,7 +1710,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Nikolaos_Kalyvas_sec_val_hired }
@@ -1738,7 +1738,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Vasilis_Nefeloudis_sec_lib_hired }
@@ -1766,7 +1766,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Markos_Vafiadis_sec_col_hired }
@@ -1794,7 +1794,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitris_Koutsogiannis_sec_van_hired }
@@ -1822,7 +1822,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command			
 			idea_token = GRE_Xasapidis_Aristeidis_cos
 			traits = {
@@ -1839,7 +1839,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command			
 			idea_token = GRE_Nikolaos_Plastiras_cos
 			traits = {
@@ -1869,7 +1869,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command		
 			idea_token = GRE_Theodoros_Pangalos_cos
 			traits = {
@@ -1886,7 +1886,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command		
 			idea_token = GRE_Paraschos_Melissinos_cos
 			traits = {
@@ -1903,7 +1903,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command		
 			idea_token = GRE_Panagiotis_Dedes_cos
 			traits = {
@@ -1920,7 +1920,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command		
 			idea_token = GRE_Achilleas_Protosyggelos_cos
 			traits = {
@@ -1937,7 +1937,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command		
 			idea_token = GRE_Napoleon_Batas_cos
 			traits = {
@@ -1966,7 +1966,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Georgios_Tsolakoglou_carm
 			traits = {
@@ -1983,7 +1983,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Papastergiou_Georgios_carm
 			traits = {
@@ -2000,7 +2000,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Tsipouras_Dimitrios_Nikolaos_carm
 			traits = {
@@ -2017,7 +2017,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Liosis_Efstathios_carm
 			traits = {
@@ -2034,7 +2034,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Sokratis_Louka_Dimaratos_carm
 			traits = {
@@ -2051,7 +2051,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Georgios_Stanotas_carm
 			traits = {
@@ -2068,7 +2068,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = GRE_Sotirios_Moutousis_carm
 			traits = {
@@ -2085,7 +2085,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = GRE_Theodoros_Lymperakis_cnav
 			traits = {
@@ -2113,7 +2113,7 @@ characters = {
 			coordination_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = GRE_Ioannis_Toumbas_cnav
 			traits = {
@@ -2130,7 +2130,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = GRE_Epameinondas_Kavvadias_cnav
 			traits = {
@@ -2157,7 +2157,7 @@ characters = {
 			coordination_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = GRE_Petros_Voulgaris_cnav
 			traits = {
@@ -2174,7 +2174,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = GRE_Dimitrios_Oikonomou_cnav
 			traits = {
@@ -2191,7 +2191,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = GRE_Panagiotis_Gazis_cair
 			traits = {
@@ -2208,7 +2208,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = GRE_Kostas_Perrikos_cair
 			traits = {
@@ -2225,7 +2225,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = GRE_Vasileios_Tsarpalis_cair
 			traits = {
@@ -2242,7 +2242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = GRE_Georgios_Alexandris_cair
 			traits = {
@@ -2259,7 +2259,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = GRE_Miltiadis_Georgiadis_cair
 			traits = {
@@ -2574,7 +2574,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Dimitrios_Gounaris_hog_sco_hired }
@@ -2602,7 +2602,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Konstantinos_Tsaldaris_hog_sco_hired }
@@ -2630,7 +2630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = GRE_Konstantinos_Karamanlis_hog_sco_hired }

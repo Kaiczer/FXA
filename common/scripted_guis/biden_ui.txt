@@ -44,6 +44,14 @@ scripted_gui = {
 					has_country_flag = JAP_Yasuhito_hos
 				}
 			}
+			Viktor_Lutze_visible = {
+				AND = {
+					has_country_flag = HOG_veiw
+					RHI = {
+						has_idea = RHI_Viktor_Lutze_hog_val
+					}
+				}
+			}
 			pm_name_visible = {
 				has_country_flag = HOG_veiw
 			}

@@ -68,7 +68,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Paul_Henri_Spaak_for_sde_hired }
@@ -104,7 +104,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_hog_val_hired }
@@ -123,7 +123,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_for_val_hired }
@@ -142,7 +142,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_eco_val_hired }
@@ -170,7 +170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Joseph_Jacquemotte_hog_lib_hired }
@@ -198,7 +198,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Julien_Lahaut_hog_col_hired }
@@ -234,7 +234,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Staf_de_Clercq_hog_npo_hired }
@@ -292,7 +292,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Victor_Van_Strydonck_de_Burkel_cos
 			traits = {
@@ -300,7 +300,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Victor_Van_Strydonck_de_Burkel_carm
 			traits = {
@@ -346,7 +346,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = BEL_Georges_Timmermans_cnav
 			traits = {
@@ -378,7 +378,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_War_van_Overstraeten_hog_col_hired }
@@ -397,7 +397,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_War_van_Overstraeten_for_col_hired }
@@ -424,7 +424,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Lucie_Dejardin_hog_lib_hired }
@@ -451,7 +451,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Achille_Van_Acker_hog_sde_hired }
@@ -478,7 +478,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Victor_de_Laveleye_hog_sli_hired }
@@ -505,7 +505,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Frans_Van_Cauwelaert_hog_sco_hired }
@@ -524,7 +524,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Frans_Van_Cauwelaert_for_sco_hired }
@@ -551,7 +551,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Hubert_Pierlot_hog_sco_hired }
@@ -579,7 +579,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Paul_Van_Zeeland_hog_sco_hired }
@@ -606,7 +606,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Dr_August_Borms_hog_ade_hired }
@@ -634,7 +634,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Joris_Van_Severen_hog_pau_hired }
@@ -661,7 +661,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Edgar_Lalmand_for_van_hired }
@@ -688,7 +688,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Louis_Paul_Boon_for_lib_hired }
@@ -715,7 +715,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Camille_Huysmans_for_sde_hired }
@@ -742,7 +742,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jules_Pire_for_sde_hired }
@@ -769,7 +769,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Eugene_Soudan_for_sli_hired }
@@ -796,7 +796,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Roger_Motz_for_mli_hired }
@@ -823,7 +823,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Gaston_Eyskens_for_sco_hired }
@@ -850,7 +850,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Charles_d_Aspremont_Lynden_for_ade_hired }
@@ -877,7 +877,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Ward_Hermans_for_pau_hired }
@@ -904,7 +904,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jef_Francois_for_npo_hired }
@@ -931,7 +931,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Marteaux_eco_van_hired }
@@ -958,7 +958,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Abraham_Leon_eco_col_hired }
@@ -985,7 +985,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Adhemar_Henneaut_eco_lib_hired }
@@ -1012,7 +1012,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Wauters_eco_sde_hired }
@@ -1039,7 +1039,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Charles_Pomaret_eco_sde_hired }
@@ -1066,7 +1066,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jules_Merlot_eco_sli_hired }
@@ -1093,7 +1093,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Alexandre_Galopin_eco_mli_hired }
@@ -1120,7 +1120,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Franz_de_Voghel_eco_mli_hired }
@@ -1147,7 +1147,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Maurice_Lippens_eco_mli_hired }
@@ -1174,7 +1174,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Georges_Theunis_eco_sco_hired }
@@ -1201,7 +1201,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Gustaaf_Sap_eco_sco_hired }
@@ -1228,7 +1228,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Hendrik_Heyman_eco_sco_hired }
@@ -1255,7 +1255,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jean_Duvieusart_eco_sco_hired }
@@ -1282,7 +1282,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Rene_Lambrichts_eco_pau_hired }
@@ -1309,7 +1309,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jean_Terfve_sec_van_hired }
@@ -1336,7 +1336,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Willem_Eekelers_sec_col_hired }
@@ -1363,7 +1363,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
@@ -1390,7 +1390,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Adolphe_Van_Glabbeke_sec_sli_hired }
@@ -1417,7 +1417,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Deveze_sec_mli_hired }
@@ -1444,7 +1444,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
@@ -1471,7 +1471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Albert_Janssen_sec_sco_hired }
@@ -1498,7 +1498,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_August_De_Schryver_sec_sco_hired }
@@ -1525,7 +1525,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Francois_Bovesse_sec_sco_hired }
@@ -1552,7 +1552,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Jean_Rey_sec_sco_hired }
@@ -1579,7 +1579,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Georges_Thone_sec_ade_hired }
@@ -1606,7 +1606,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
@@ -1633,7 +1633,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
@@ -1660,7 +1660,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Adolphe_Cumont_cos
 			traits = {
@@ -1676,7 +1676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Auguste_Baesens_cos
 			traits = {
@@ -1692,7 +1692,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Georges_Deffontaine_cos
 			traits = {
@@ -1711,7 +1711,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Georges_Vereecken_cos
 			traits = {
@@ -1719,7 +1719,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Georges_Vereecken_carm
 			traits = {
@@ -1727,7 +1727,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = BEL_Georges_Vereecken_cnav
 			traits = {
@@ -1743,7 +1743,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Gustave_Fromont_cos
 			traits = {
@@ -1759,7 +1759,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Olivier_Derousseaux_cos
 			traits = {
@@ -1775,7 +1775,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = BEL_Oscar_Michiels_cos
 			traits = {
@@ -1783,7 +1783,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Oscar_Michiels_carm
 			traits = {
@@ -1799,7 +1799,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Charles_Bastin_carm
 			traits = {
@@ -1815,7 +1815,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Edouard_Van_Den_Bergen_carm
 			traits = {
@@ -1831,7 +1831,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Lambert_Chardome_carm
 			traits = {
@@ -1847,7 +1847,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Raoul_van_Overstraeten_carm
 			traits = {
@@ -1863,7 +1863,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Rene_Lagrou_carm
 			traits = {
@@ -1879,7 +1879,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = BEL_Yvan_Gerard_carm
 			traits = {
@@ -1895,7 +1895,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = BEL_Etienne_Glorie_cnav
 			traits = {
@@ -1911,7 +1911,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = BEL_Fritz_Conrad_cnav
 			traits = {
@@ -1927,7 +1927,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = BEL_Henri_Decarpentrie_cnav
 			traits = {
@@ -1955,7 +1955,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_Edouard_Blondeel_cair
 			traits = {
@@ -1971,7 +1971,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_Felix_Iserentant_cair
 			traits = {
@@ -1987,7 +1987,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_Fritz_Lob_cair
 			traits = {
@@ -2003,7 +2003,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_LFE_Wouters_cair
 			traits = {
@@ -2019,7 +2019,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_Paul_Nothomb_cair
 			traits = {
@@ -2035,7 +2035,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = BEL_Rene_Legros_cair
 			traits = {

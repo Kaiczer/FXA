@@ -1,9 +1,9 @@
 
 state={
 	id=747
-	name="STATE_747" #Nancy
+	name="STATE_747"
 	resources={
-		steel=88.0
+		steel=88.000
 	}
 
 	history={
@@ -18,7 +18,7 @@ state={
 			3560 = {
 				bunker = 2
 
-			}			
+			}
 			5291 = {
 				bunker = 2
 
@@ -31,9 +31,10 @@ state={
 	}
 
 	provinces={
-		521 3560 5291 11516 13295
+		521 11516 
 	}
 	manpower=467500
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

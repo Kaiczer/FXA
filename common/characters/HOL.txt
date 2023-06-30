@@ -19,7 +19,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Izaak_Reynders_hog_ade_hired }
@@ -58,7 +58,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Cornelis_van_Geelkerken_hog_npo_hired }
@@ -85,7 +85,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Jan_Baars_for_pau_hired }
@@ -104,7 +104,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Jan_Baars_eco_pau_hired }
@@ -131,7 +131,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Willem_Bernard_Engelbrecht_for_npo_hired }
@@ -158,7 +158,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Henri_Johannes_ter_Hal_eco_pau_hired }
@@ -185,7 +185,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Alfred_Haighton_eco_npo_hired }
@@ -212,7 +212,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Gerrit_van_Burink_eco_npo_hired }
@@ -239,7 +239,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Frederik_Carel_Gerretson_sec_pau_hired }
@@ -266,7 +266,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Johannes_Linthorst_Homan_sec_pau_hired }
@@ -293,7 +293,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_AJ_van_der_Hoeven_sec_npo_hired }
@@ -320,7 +320,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HOL_Gerhardus_Dieters_sec_npo_hired }
@@ -356,7 +356,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = HOL_Hendrik_Seyffardt_cos_pau
 			traits = {
@@ -364,7 +364,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = HOL_Hendrik_Seyffardt_carm_pau
 			traits = {
@@ -389,7 +389,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = HOL_Godfried_van_Voorst_tot_Voorst_carm_pau
 			traits = {
@@ -414,7 +414,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = HOL_Herman_van_Voorst_tot_Voorst_carm_pau
 			traits = {
@@ -430,7 +430,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = HOL_Adrianus_Zondervan_carm_npo
 			traits = {
@@ -455,7 +455,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = HOL_Johan_Furstner_cnav_pau
 			traits = {
@@ -471,7 +471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = HOL_Pieter_Koenraad_cnav_pau
 			traits = {
@@ -487,7 +487,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = HOL_Julius_Zegers_cair_ade
 			traits = {
@@ -616,7 +616,7 @@ characters = {
       traits = {}
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = HOL_David_Wijnkoop_hog_van_hired }
@@ -648,7 +648,7 @@ characters = {
       traits = {}
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Anton_Pannekoek_hog_col_hired }
@@ -675,7 +675,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Harm_Kolthek_hog_col_hired }
@@ -702,7 +702,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Henk_Sneevliet_hog_lib_hired }
@@ -729,7 +729,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Piet_Johannes_Schmidt_hog_lib_hired }
@@ -756,7 +756,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Paul_de_Groot_for_van_hired }
@@ -783,7 +783,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Nicolaas_Beuzemaker_for_col_hired }
@@ -810,7 +810,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Benjamin_Boers_for_lib_hired }
@@ -837,7 +837,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Louis_de_Visser_eco_van_hired }
@@ -864,7 +864,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Abraham_Verduin_eco_col_hired }
@@ -896,7 +896,7 @@ characters = {
       traits = {}
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Jacques_de_Kadt_eco_lib_hired }
@@ -923,7 +923,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Jan_Tinbergen_eco_lib_hired }
@@ -950,7 +950,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Bernhard_Coltof_sec_van_hired }
@@ -977,7 +977,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Daniel_Goulooze_sec_col_hired }
@@ -1004,7 +1004,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Henriette_Roland_Holst_sec_col_hired }
@@ -1031,7 +1031,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Abraham_Menist_sec_lib_hired }
@@ -1058,7 +1058,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = HOL_Fokke_Bosman_sec_lib_hired }

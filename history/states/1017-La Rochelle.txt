@@ -2,18 +2,14 @@
 state={
 	id=1017
 	name="STATE_1017"
-	manpower = 860890
-	
-	state_category = large_town
-	
 	resources={
-		steel=20
+		steel=20.000
 	}
 
 	history={
 		owner = FRA
 		victory_points = {
-			6657 5
+			6657 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -21,12 +17,19 @@ state={
 			dockyard = 4
 			6657 = {
 				naval_base = 3
+
 			}
+
 		}
 		add_core_of = FRA
+
 	}
 
 	provinces={
-		595 6657 9597 11565 11582 11600
+		454 3402 6585 9561 11420 
 	}
+	manpower=860890
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }

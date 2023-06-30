@@ -124,7 +124,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ritter_von_Leeb_hog_pau_hired }
@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Ritter_von_Leeb_carm_pau
 			traits = {
@@ -164,7 +164,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Goring_hog_npo_hired }
@@ -183,7 +183,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GER_Hermann_Goring_cair_npo
 			traits = {
@@ -225,7 +225,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Gerd_von_Rundstedt_cos_ade
 			traits = {
@@ -254,7 +254,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Gunther_von_Kluge_cos_pau
 			traits = {
@@ -305,7 +305,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Friedrich_Paulus_carm_sco
 			traits = {
@@ -336,7 +336,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Erwin_Rommel_carm_sco
 			traits = {
@@ -367,7 +367,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Erich_von_Manstein_cos
 			traits = {
@@ -416,7 +416,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Erwin_von_Witzleben_cos
 			traits = {
@@ -424,7 +424,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Erwin_von_Witzleben_carm
 			traits = {
@@ -588,7 +588,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GER_Albert_Kesselring_cair
 			traits = {
@@ -744,7 +744,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Erich_Hoepner_carm
 			traits = {
@@ -792,7 +792,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ferdinand_Schoerner_hog_pau_hired }
@@ -1386,7 +1386,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GER_Wilhelm_Marschall_cnav
 			traits = {
@@ -1420,7 +1420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Grotewohl_hog_lib_hired }
@@ -1447,7 +1447,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Braun_hog_sde_hired }
@@ -1474,7 +1474,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Erich_Koch_Weser_hog_sli_hired }
@@ -1501,7 +1501,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hans_von_Raumer_hog_mli_hired }
@@ -1528,7 +1528,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Marx_hog_sco_hired }
@@ -1555,7 +1555,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Max_von_Baden_hog_ade_hired }
@@ -1582,7 +1582,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Oskar_von_Hindenburg_hog_ade_hired }
@@ -1609,7 +1609,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hans_Juergen_Graf_von_Blumenthal_hog_ade_hired }
@@ -1636,7 +1636,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Frick_hog_npo_hired }
@@ -1663,7 +1663,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Heinrich_Behrmann_hog_npo_hired }
@@ -1690,7 +1690,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Sebottendorf_hog_val_hired }
@@ -1717,7 +1717,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Julius_Schrek_hog_val_hired }
@@ -1744,7 +1744,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Erich_Schmidt_hog_val_hired }
@@ -1771,7 +1771,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
       slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Anton_Arco_auf_Valley_hog_val_hired }
@@ -1798,7 +1798,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ernst_Toller_for_col_hired }
@@ -1825,7 +1825,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Paul_Levi_for_col_hired }
@@ -1852,7 +1852,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Heinirch_Mann_for_lib_hired }
@@ -1879,7 +1879,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hans_Vogel_for_sde_hired }
@@ -1906,7 +1906,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Albert_Dufour_Feronce_for_sli_hired }
@@ -1933,7 +1933,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Roepke_for_mli_hired }
@@ -1960,7 +1960,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Heinrich_von_Brentano_for_sco_hired }
@@ -1987,7 +1987,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Friedrich_Werner_von_der_Schulenberg_for_ade_hired }
@@ -2014,7 +2014,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Walther_von_Brauchistsch_for_ade_hired }
@@ -2033,7 +2033,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Walther_von_Brauchitsch_carm_pau
 			traits = {
@@ -2054,7 +2054,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Franz_von_Papen_for_pau_hired }
@@ -2081,7 +2081,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Konstantin_von_Neurath_for_npo_hired }
@@ -2108,7 +2108,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Max_Amann_for_val_hired }
@@ -2135,7 +2135,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Alfred_Rosenburg_for_val_hired }
@@ -2162,7 +2162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ernst_Rohm_eco_van_hired }
@@ -2189,7 +2189,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Willi_Munzenburg_eco_van_hired }
@@ -2216,7 +2216,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Willi_Stoph_eco_col_hired }
@@ -2243,7 +2243,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Lujo_Brentano_eco_lib_hired }
@@ -2270,7 +2270,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Kurt_Schumacher_eco_sde_hired }
@@ -2297,7 +2297,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Wissel_eco_sde_hired }
@@ -2324,7 +2324,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Dietrich_eco_sli_hired }
@@ -2351,7 +2351,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Julius_Curtis_eco_mli_hired }
@@ -2378,7 +2378,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Adam_Stregerwald_eco_sco_hired }
@@ -2405,7 +2405,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hjalmar_Schacht_eco_ade_hired }
@@ -2432,7 +2432,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Paul_Lejune_Jung_eco_pau_hired }
@@ -2459,7 +2459,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Alfred_Hugenberg_eco_pau_hired }
@@ -2486,7 +2486,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gregor_Strasser_eco_val_hired }
@@ -2513,7 +2513,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gernhard_Rossbach_eco_val_hired }
@@ -2541,7 +2541,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Strasser_eco_val_hired }
@@ -2568,7 +2568,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Adolf_Hitler_eco_val_hired }
@@ -2595,7 +2595,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ludwig_Renn_sec_van_hired }
@@ -2622,7 +2622,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Eugen_Levine_sec_col_hired }
@@ -2649,7 +2649,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hilde_Benjamin_sec_col_hired }
@@ -2676,7 +2676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gustav_Noske_sec_sde_hired }
@@ -2703,7 +2703,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Gessler_sec_sli_hired }
@@ -2730,7 +2730,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
@@ -2757,7 +2757,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Goerner_sec_sco_hired }
@@ -2784,7 +2784,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Arthur_Nebe_sec_sco_hired }
@@ -2811,7 +2811,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Fritz_Dietlog_Schulenburg_sec_ade_hired }
@@ -2838,7 +2838,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Roland_Freisler_sec_pau_hired }
@@ -2865,7 +2865,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_von_Gayl_sec_pau_hired }
@@ -2892,7 +2892,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Hess_sec_npo_hired }
@@ -2919,7 +2919,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Kurt_Deluge_sec_npo_hired }
@@ -2946,7 +2946,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Diels_sec_npo_hired }
@@ -2973,7 +2973,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Ehrhardt_sec_val_hired }
@@ -3000,7 +3000,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Hans_Speidel_cos_sco
 			traits = {
@@ -3008,7 +3008,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Hans_Speidel_carm_sco
 			traits = {
@@ -3024,7 +3024,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GER_Adolf_Heusinger_cos_ade
 			traits = {
@@ -3032,7 +3032,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Adolf_Heusinger_carm_ade
 			traits = {
@@ -3061,7 +3061,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Werner_von_Blomberg_carm_pau
 			traits = {
@@ -3086,7 +3086,7 @@ characters = {
 			logistics_skill = 3
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Heinz_Guderian_carm_ade
 			traits = {
@@ -3102,7 +3102,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Ludwig_Beck_carm_ade
 			traits = {
@@ -3119,7 +3119,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GER_Erich_Kohler_cnav_mli
 			traits = {
@@ -3136,7 +3136,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GER_Karl_Donitz_cnav_sco
 			traits = {
@@ -3162,7 +3162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GER_Erich_Raeder_cnav_pau
 			traits = {
@@ -3187,7 +3187,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GER_Alfred_Bulowius_cair_sco
 			traits = {
@@ -3203,7 +3203,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GER_Hermann_Kohl_cair_ade
 			traits = {
@@ -3236,7 +3236,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Hans_von_Seeckt_carm_ade
 			traits = {
@@ -3268,7 +3268,7 @@ characters = {
 			logistics_skill = 2	
     }
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GER_Fedor_von_Bock_carm
 			traits = {

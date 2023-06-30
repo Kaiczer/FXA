@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Grigol_Robakidze_hog_val_hired }
@@ -64,7 +64,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Raphiel_Ingilo_Ivanitski_hog_sco_hired }
@@ -96,7 +96,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Aleqsandre_Asatiani_hog_mli_hired }
@@ -115,7 +115,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Aleqsandre_Asatiani_eco_mli_hired }
@@ -147,7 +147,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ioseb_Baratashvili_hog_sli_hired }
@@ -179,7 +179,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Akaki_Chkhenkeli_hog_sde_hired }
@@ -211,7 +211,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Irakli_Tsereteli_hog_lib_hired }
@@ -386,7 +386,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GEO_Yaroslav_Iosseliani_cnav
 			traits = {
@@ -403,7 +403,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ioseb_Jugashvili_hog_van_hired }
@@ -430,7 +430,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mamia_Orakhelashvili_hog_col_hired }
@@ -457,7 +457,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Revaz_Gabashvili_hog_sco_hired }
@@ -484,7 +484,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mikheil_Tsereteli_hog_ade_hired }
@@ -511,7 +511,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Georges_Vasili_Matchabelli_hog_pau_hired }
@@ -539,7 +539,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Salva_Karumidze_hog_npo_hired }
@@ -570,7 +570,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Levan_Gogoberidze_for_van_hired }
@@ -597,7 +597,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mikheil_Kakhiani_for_van_hired }
@@ -624,7 +624,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Grigol_Uratadze_for_col_hired }
@@ -651,7 +651,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Zurab_Avalishvili_for_sde_hired }
@@ -678,7 +678,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Simon_Mdivani_for_sli_hired }
@@ -705,7 +705,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Akaki_Khoshtaria_for_mli_hired }
@@ -732,7 +732,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Haidar_Bammat_for_sco_hired }
@@ -759,7 +759,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Konstantine_Gamsakhurdia_for_sco_hired }
@@ -786,7 +786,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Alexander_Svanidze_eco_van_hired }
@@ -813,7 +813,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ilya_Tsivtsivadze_eco_van_hired }
@@ -840,7 +840,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Beso_Lominadze_eco_col_hired }
@@ -867,7 +867,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Giorgi_Tsintsadze_eco_lib_hired }
@@ -894,7 +894,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Teimuraz_Chelidze_eco_lib_hired }
@@ -921,7 +921,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Victor_Tevzaia_eco_sde_hired }
@@ -948,7 +948,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mammad_Yusif_Jafarov_eco_sli_hired }
@@ -975,7 +975,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Grigol_Natadze_eco_sli_hired }
@@ -1002,7 +1002,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Georgi_Atarbekov_sec_van_hired }
@@ -1029,7 +1029,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Mikhail_Givishiani_sec_van_hired }
@@ -1056,7 +1056,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Vlasa_Mgeladze_sec_lib_hired }
@@ -1083,7 +1083,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ruben_Ter_Minasian_sec_sde_hired }
@@ -1110,7 +1110,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Aslan_Beg_Abashidze_sec_sde_hired }
@@ -1137,7 +1137,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Ioseb_Gedevanishvili_sec_sli_hired }
@@ -1164,7 +1164,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Leo_Kereselidze_sec_sco_hired }
@@ -1191,7 +1191,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = GEO_Shalva_Maglakelidze_sec_ade_hired }
@@ -1218,7 +1218,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GEO_Simon_Arshaki_Ter_Petrosian_cos
 			traits = {
@@ -1234,7 +1234,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GEO_Andria_Chiabrishvili_cos
 			traits = {
@@ -1250,7 +1250,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = GEO_Artem_Jijikhia_cos
 			traits = {
@@ -1266,7 +1266,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GEO_Ivane_Kazbegi_carm
 			traits = {
@@ -1282,7 +1282,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GEO_Aleksandre_Andronikashvili_carm
 			traits = {
@@ -1298,7 +1298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GEO_Konstantin_Leselidze_carm
 			traits = {
@@ -1314,7 +1314,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GEO_Aleks_Inauri_carm
 			traits = {
@@ -1330,7 +1330,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = GEO_Varden_Tsuluksidze_carm
 			traits = {
@@ -1346,7 +1346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GEO_Vikto_Lomidze_cnav
 			traits = {
@@ -1362,7 +1362,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = GEO_Giorgi_Tumanishvili_cnav
 			traits = {
@@ -1378,7 +1378,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GEO_Vakhtang_Makashvili_cair
 			traits = {
@@ -1394,7 +1394,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GEO_Evstafii_Tatanashvili_cair
 			traits = {
@@ -1410,7 +1410,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GEO_Chichiko_Bendeliani_cair
 			traits = {
@@ -1426,7 +1426,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = GEO_Nikolo_Abramishvili_cair
 			traits = {

@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Palmiro_Togliatti_hog_van_hired }
@@ -44,7 +44,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Antonio_Gramsci_hog_col_hired }
@@ -71,7 +71,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Pietro_Nenni_hog_lib_hired }
@@ -103,7 +103,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giacomo_Matteotti_hog_lib_hired }
@@ -135,7 +135,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Don_Luigi_Sturzo_hog_sde_hired }
@@ -163,7 +163,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giuseppe_Saragat_hog_sde_hired }
@@ -195,7 +195,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Ferruccio_Parri_hog_sli_hired }
@@ -223,7 +223,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Ivanoe_Bonomi_hog_sli_hired }
@@ -250,7 +250,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Luigi_Einaudi_hog_mli_hired }
@@ -282,7 +282,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Alcide_De_Gasperi_hog_sco_hired }
@@ -309,7 +309,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Cesare_Forni_hog_ade_hired }
@@ -353,7 +353,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Pietro_Badoglio_hog_pau_hired }
@@ -372,7 +372,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ITA_Pietro_Badoglio_cos_pau
 			traits = {
@@ -380,7 +380,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ITA_Pietro_Badoglio_carm_pau
 			traits = {
@@ -401,7 +401,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Italo_Balbo_hog_npo_hired }
@@ -420,7 +420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ITA_Italo_Balbo_cair_npo
 			traits = {
@@ -436,7 +436,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giovanni_Giuriati_hog_npo_hired }
@@ -468,7 +468,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Gabrielle_D_Annunzio_hog_val_hired }
@@ -495,7 +495,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Sergio_Panunzio_for_van_hired }
@@ -522,7 +522,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Vincenzo_Vacirca_for_col_hired }
@@ -549,7 +549,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Altiero_Spinelli_for_lib_hired }
@@ -576,7 +576,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Gaetano_Martino_for_sde_hired }
@@ -603,7 +603,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Paolo_Treves_for_sde_hired }
@@ -630,7 +630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Nicolo_Carandini_for_sde_hired }
@@ -657,7 +657,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Manlio_Brosio_for_mli_hired }
@@ -684,7 +684,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giuseppe_Pella_for_sco_hired }
@@ -711,7 +711,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Raffaele_Guariglia_for_ade_hired }
@@ -783,7 +783,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Amedeo_di_Savoia_Aosta_for_pau_hired }
@@ -810,7 +810,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Dino_Alfieri_for_npo_hired }
@@ -837,7 +837,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giacomo_Acerbo_for_val_hired }
@@ -864,7 +864,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Nicola_Bombacci_eco_van_hired }
@@ -892,7 +892,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Alceste_De_Ambris_eco_val_hired }
@@ -919,7 +919,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Achille_Grandi_eco_lib_hired }
@@ -946,7 +946,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giuseppe_Romita_eco_sde_hired }
@@ -973,7 +973,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Rocco_Gullo_eco_sde_hired }
@@ -1000,7 +1000,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Piero_Calamandrei_eco_sli_hired }
@@ -1027,7 +1027,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Marcello_Soleri_eco_mli_hired }
@@ -1059,7 +1059,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giovanni_Gronchi_eco_sco_hired }
@@ -1086,7 +1086,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Antonio_Mosconi_eco_ade_hired }
@@ -1113,7 +1113,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Alfredo_Covelli_eco_pau_hired }
@@ -1140,7 +1140,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giuseppe_Volpi_eco_npo_hired }
@@ -1168,7 +1168,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Edmondo_Rossoni_eco_val_hired }
@@ -1195,7 +1195,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Ruggiero_Grieco_sec_van_hired }
@@ -1222,7 +1222,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Vittorio_Vidali_sec_col_hired }
@@ -1249,7 +1249,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
@@ -1276,7 +1276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Enrico_Mole_sec_sde_hired }
@@ -1303,7 +1303,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Pietro_Mastino_sec_sli_hired }
@@ -1330,7 +1330,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giovanni_Uberti_sec_sco_hired }
@@ -1357,7 +1357,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Giacomo_Carboni_sec_ade_hired }
@@ -1384,7 +1384,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Luigi_Arborio_Mella_di_Sant_Elia_sec_pau_hired }
@@ -1411,7 +1411,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Alessandro_Pavolini_sec_npo_hired }
@@ -1438,7 +1438,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Luigi_Razza_sec_val_hired }
@@ -1465,7 +1465,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ITA_Mario_Roatta_cos
 			traits = {
@@ -1481,7 +1481,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ITA_Vittorio_Ambrosio_cos
 			traits = {
@@ -1497,7 +1497,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command
 			idea_token = ITA_Alfredo_Guzzoni_cos
 			traits = {
@@ -1523,7 +1523,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ITA_Ugo_Cavallero_carm
 			traits = {
@@ -1553,7 +1553,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ITA_Emilio_de_Bono_carm
 			traits = {
@@ -1569,7 +1569,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ITA_Domenico_Cavagnari_cnav
 			traits = {
@@ -1585,7 +1585,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ITA_Arturo_Riccardi_cnav
 			traits = {
@@ -1610,7 +1610,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief
 			idea_token = ITA_Inigo_Campioni_cnav
 			traits = {
@@ -1626,7 +1626,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ITA_Rino_Carso_Fougier_cair
 			traits = {
@@ -1642,7 +1642,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief
 			idea_token = ITA_Francesco_Pricolo_cair
 			traits = {
@@ -1815,7 +1815,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ITA_Giovanni_Messe_carm
 			traits = {
@@ -1899,7 +1899,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief
 			idea_token = ITA_Rodolfo_Graziani_carm
 			traits = {

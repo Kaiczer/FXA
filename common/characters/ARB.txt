@@ -38,7 +38,7 @@ characters = {
 			traits = { }
 		}
     advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abd_al_Ilah_hog_pau_hired }
@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Fahd_Al_Salem_Al_Sabah_hog_sde_hired }
@@ -162,7 +162,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Husain_Sirhan_hog_sli_hired }
@@ -189,7 +189,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Ahmad_Al_Jaber_Al_Sabah_hog_mli_hired }
@@ -217,7 +217,7 @@ characters = {
       }
     }
     advisor = {
-      cost = 150
+      cost = 0
       slot = head_of_government
       available = {
 				hidden_trigger = { has_country_flag = ARB_Calouste_Gulbenkian_hog_mli_hired }
@@ -244,7 +244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_III_Al_Salim_Al_Sabah_hog_sco_hired }
@@ -271,7 +271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Ali_bin_Ashwan_hog_ade_hired }
@@ -298,7 +298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Eqab_bin_Mohaya_hog_ade_hired }
@@ -325,7 +325,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Hamad_bin_Jazi_al_Hawaita_hog_ade_hired }
@@ -356,7 +356,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
@@ -375,7 +375,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = air_chief			
 			idea_token = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_cair_mli
 			traits = {
@@ -391,7 +391,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco_hired }
@@ -410,7 +410,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
@@ -437,7 +437,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
@@ -464,7 +464,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
@@ -494,7 +494,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
@@ -513,7 +513,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = ARB_Mubarak_Al_Hamad_Al_Sabah_carm_mli
 			traits = {
@@ -529,7 +529,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
@@ -556,7 +556,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
@@ -583,7 +583,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
@@ -610,7 +610,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
@@ -637,7 +637,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
@@ -664,7 +664,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco_hired }
@@ -694,7 +694,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
@@ -713,7 +713,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = ARB_Mohammed_bin_Sharif_Al_Farouqi_carm_sco
 			traits = {
@@ -729,7 +729,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
@@ -759,7 +759,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command			
 			idea_token = ARB_Jamil_al_Madafi_cos
 			traits = {
@@ -767,7 +767,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = army_chief			
 			idea_token = ARB_Jamil_al_Madafi_carm
 			traits = {
@@ -775,7 +775,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = navy_chief			
 			idea_token = ARB_Jamil_al_Madafi_cnav
 			traits = {
@@ -791,7 +791,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 150
+			cost = 0
 			slot = high_command			
 			idea_token = ARB_Nada_bin_Nuhair_cos
 			traits = {
@@ -807,7 +807,7 @@ characters = {
       }
     }
     advisor = {
-			cost = 150
+			cost = 0
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Nuri_al_Said_hog_mli_hired }
@@ -834,7 +834,7 @@ characters = {
       }
     }
     advisor = {
-			cost = 150
+			cost = 0
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Francis_Humphrys_for_mli_hired }
@@ -861,7 +861,7 @@ characters = {
       }
     }
     advisor = {
-			cost = 150
+			cost = 0
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_John_Cadman_eco_mli_hired }
@@ -888,7 +888,7 @@ characters = {
       }
     }
     advisor = {
-			cost = 150
+			cost = 0
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Percy_Cox_sec_mli_hired }

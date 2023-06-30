@@ -115,6 +115,18 @@ defined_text = {
 		}
 		localization_key = LEADER_OR_LSM
 	}
+	text = {
+		trigger = {
+			AND = {
+				tag = RHI
+				RHI = {
+					has_idea = RHI_Viktor_Lutze_hog_val
+				}
+				has_government = valkist
+			}
+		}
+		localization_key = RSH_OR_MNP
+	}
 }
 
 defined_text = {
@@ -158,6 +170,14 @@ defined_text = {
 			has_country_flag = JAP_Yasuhito_hos
 		}
 		localization_key = "Yasuhito"
+	}
+	text = {
+		trigger = {
+			RHI = {
+				has_idea = RHI_Viktor_Lutze_hog_val
+			}
+		}
+		localization_key = "Viktor Lutze"
 	}
 	#so on and so forth
 }

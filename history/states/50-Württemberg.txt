@@ -3,11 +3,10 @@ state={
 	id=50
 	name="STATE_50"
 	resources={
-		aluminium=19.0
+		aluminium=19.000
 	}
 
 	history={
-		
 		owner = GER
 		victory_points = {
 			9517 5 
@@ -28,12 +27,14 @@ state={
 
 		}
 		add_core_of = GER
+
 	}
 
 	provinces={
-		519 694 3530 6555 6568 6581 9517 9545 11486 11499 
+		519 694 3690 6555 6581 9517 9545 9655 11486 11499 
 	}
 	manpower=4686854
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }
