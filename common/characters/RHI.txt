@@ -509,36 +509,6 @@ characters = {
 			}
 		}
 	}
-	RHI_Albert_Leo_Schlageter = {
-		name = "Albert Leo Schlageter"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/RHI/RHI_Albert_Leo_Schlageter.png"
-			}
-      army = {
-				large = "gfx/leaders/Generic/Portrait_Germany_Generic_land_7.png"
-			}
-		}
-		advisor = {
-			cost = 0
-			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = RHI_Albert_Leo_Schlageter_hog_val_hired }
-			}
-			idea_token = RHI_Albert_Leo_Schlageter_hog_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = RHI_Albert_Leo_Schlageter_hog_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = RHI_Albert_Leo_Schlageter_hog_val_hired }
-			}
-			traits = {
-				valkist
-				hog_naive_optimist
-			}
-		}
-	}
 	RHI_Walter_Kreiser = {
 		name = "Walter Kreiser"
 		portraits = {
@@ -1034,33 +1004,56 @@ characters = {
 	RHI_Viktor_Lutze = {
 		name = "Viktor Lutze"
 		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/RHI/RHI_Viktor_Lutze.png"
+				large = "gfxgfx/leaders/RHI/Portrait_RHI_Viktor_Lutze.png"
+			}
 			army = {
 				large = "gfx/leaders/RHI/Portrait_RHI_Viktor_Lutze.png"
 			}
 		}
+		advisor = {
+			cost = 0
+			slot = head_of_government
+			available = { 
+				hidden_trigger = { has_country_flag = RHI_Viktor_Lutze_hog_val_hired }
+			}
+			idea_token = RHI_Viktor_Lutze_hog_val
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = RHI_Viktor_Lutze_hog_val_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = RHI_Viktor_Lutze_hog_val_hired }
+			}
+			traits = {
+				valkist
+				hog_political_protege
+			}
+		}
 	}
-  RHI_Hans_Salmuth = {
-    name = "Hans von Salmuth"
-    portraits = {
-			army = {
-				large = "gfx/leaders/RHI/Portrait_RHI_Hans_Salmuth.png"
+	RHI_Hans_Salmuth = {
+		name = "Hans von Salmuth"
+		portraits = {
+				army = {
+					large = "gfx/leaders/RHI/Portrait_RHI_Hans_Salmuth.png"
+				}
 			}
-		}
-  }
-  RHI_Ludwig_Cruwell = {
-    name = "Ludwig Crüwell"
-    portraits = {
-			army = {
-				large = "gfx/leaders/RHI/Portrait_RHI_Ludwig_Cruwell.png"
+	}
+	RHI_Ludwig_Cruwell = {
+		name = "Ludwig Crüwell"
+		portraits = {
+				army = {
+					large = "gfx/leaders/RHI/Portrait_RHI_Ludwig_Cruwell.png"
+				}
 			}
-		}
-  }
-  RHI_Curt_Gallenkamp = {
-    name = "Curt Gallenkamp"
-    portraits = {
+	}
+	RHI_Curt_Gallenkamp = {
+	name = "Curt Gallenkamp"
+	portraits = {
 			army = {
 				large = "gfx/leaders/RHI/Portrait_RHI_Curt_Gallenkamp.png"
 			}
 		}
-  }
+	}
 }
