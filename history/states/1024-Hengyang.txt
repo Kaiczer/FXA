@@ -4,20 +4,16 @@ state={
 	name="STATE_1024"
 
 	history={
-		owner = CHI
-		buildings = {
-			infrastructure = 2
-
-		}
-		add_core_of = CHI
+		owner = TIB
+		add_core_of = TIB
 
 	}
 
 	provinces={
 		2010 5011 8068 10918 
 	}
-	manpower=1600450
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=wasteland
 	local_supplies=0.000
 }
