@@ -2,21 +2,25 @@
 state={
 	id=1062
 	name="STATE_1062"
-	provinces={
-		3225 9542 9566 11553 
-	}
-	history = {
+
+	history={
 		owner = SOV
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
-			9566 2
+			9566 2 
 		}
+
+	}
+
+	provinces={
+		3225 9566 11553 
 	}
 	manpower=179197
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
-	state_category = town
 }

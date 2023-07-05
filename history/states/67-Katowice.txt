@@ -14,17 +14,20 @@ state={
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 2
+
 		}
 		add_core_of = POL
 		victory_points = {
-			13211 5
+			13211 5 
 		}
+
 	}
 
 	provinces={
-		506 13211 
+		506 6464 
 	}
 	manpower=140194
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

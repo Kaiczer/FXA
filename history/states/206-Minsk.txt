@@ -2,14 +2,11 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower =  1163163
-	
-	state_category = city
 
 	history={
 		owner = BLR
 		victory_points = {
-			11370 20
+			11370 20 
 		}
 		buildings = {
 			infrastructure = 3
@@ -17,12 +14,18 @@ state={
 			air_base = 8
 			arms_factory = 3
 			industrial_complex = 2
+
 		}
 		add_core_of = BLR
 		add_claim_by = SOV
+
 	}
 
 	provinces={
-		216 277 294 342 406 3267 3378 6292 9289 9341 11216 11322 11370 
+		216 233 277 294 304 331 342 358 360 386 406 3267 3293 3331 3350 3378 3759 6220 6292 6319 6340 6371 6373 6413 9236 9241 9289 9341 11216 11285 11313 11322 11370 11391 13315 
 	}
+	manpower=1163163
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

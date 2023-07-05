@@ -1,16 +1,20 @@
+
 state={
 	id=1066
 	name="STATE_1066"
-	provinces={
-		878 
-	}
-	history = {
+
+	history={
 		owner = GRE
 		add_claim_by = GRE
 		add_core_of = BUL
+
+	}
+
+	provinces={
+		9351 13211 13212 
 	}
 	manpower=28967
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-	state_category = rural
 }

@@ -1,21 +1,24 @@
+
 state={
 	id=971
 	name="STATE_971"
-	manpower = 3153
-	
-	state_category = wasteland
 
 	history={
 		add_core_of = GYA
-    add_claim_by = ENG
+		add_claim_by = ENG
 		owner = ENG
 		buildings = {
 			infrastructure = 0
+
 		}
+
 	}
-	
+
 	provinces={
-		4982 8107 12716 
+		4982 8107 13272 
 	}
-	impassable = yes
+	manpower=3153
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }
