@@ -1,15 +1,19 @@
+
 state={
 	id=1035
 	name="STATE_1035"
-	state_category=rural
-	provinces={
-		953 11845 
-	}
-	history = {
+
+	history={
 		owner = SER
 		add_core_of = SER
+
+	}
+
+	provinces={
+		6306 6359 13311 13313 13314 
 	}
 	manpower=113100
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }
