@@ -1,22 +1,27 @@
+
 state={
 	id=1041
 	name="STATE_1041"
-	history = {
+
+	history={
 		owner = ROM
 		add_core_of = ROM
 		victory_points = {
-			577 3
+			577 3 
 		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+
 		}
+
 	}
+
 	provinces={
-		9548 577
+		577 9548 
 	}
 	manpower=237300
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 	local_supplies=0.000
 }

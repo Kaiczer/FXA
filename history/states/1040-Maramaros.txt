@@ -1,23 +1,24 @@
+
 state={
 	id=1040
 	name="STATE_1040"
-	provinces={
-		727 13210 9704 746
-	}
-	history = {
-		owner = ROM
-		add_core_of = ROM
-		add_claim_by = HUN
-		victory_points = {
-			746 2
-		}
+
+	history={
+		owner = BLR
+		add_core_of = BLR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
+
 	}
-	state_category = rural
+
+	provinces={
+		6359 13314 
+	}
 	manpower=282046
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=1.000
 }

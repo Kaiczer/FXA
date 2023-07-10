@@ -4,13 +4,13 @@ state={
 	name="STATE_1035"
 
 	history={
-		owner = SER
-		add_core_of = SER
+		owner = BLR
+		add_core_of = BLR
 
 	}
 
 	provinces={
-		6306 6359 13311 13313 13314 
+		6306 13311 13313 
 	}
 	manpower=113100
 	buildings_max_level_factor=1.000
