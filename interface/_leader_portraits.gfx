@@ -1430,18 +1430,4 @@ spriteTypes = {
 		name = "GFX_Portrait_Turkey_Generic_land_3_small"
 		texturefile = "gfx/interface/ministers/Generic/Portrait_Turkey_Generic_land_3.png"
 	}
-
-	#### Alexander The Great Portraits
-	spriteType = {
-		name = "GFX_Portrait_Macedonia_Alexander_Communist"
-		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great_Communist.png"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Macedonia_Alexander_Valkist"
-		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great_Valkist.png"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Macedonia_Alexander_Monarch"
-		textureFile = "gfx/leaders/MAC/Portrait_MAC_Alexander_The_Great.png"
-	}
 }

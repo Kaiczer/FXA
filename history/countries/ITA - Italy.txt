@@ -4,8 +4,6 @@ oob = "ITA"
 
 set_research_slots = 4
 
-set_cosmetic_tag = ITA_kingdom
-
 add_ideas = {
 	#limited_conscription
 	ITA_colonial_administration
@@ -295,3 +293,4 @@ recruit_character = ITA_Venanzio_Gabriotti
 recruit_character = ITA_Fedele_de_Giorgis
 recruit_character = ITA_Enrico_Riccardi
 recruit_character = ITA_Pope_Julius_IV
+recruit_character = ITA_Michele_Bianchi

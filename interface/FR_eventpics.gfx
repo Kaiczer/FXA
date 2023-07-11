@@ -374,9 +374,4 @@ spriteTypes = {
 		name = "GFX_baazov"
 		texturefile = "gfx/event_pictures/caucasia/GEO/baazov.png"	
 	}
-	#macedonia
-	spriteType = {
-		name = "GFX_report_event_Alexander_returned"
-		textureFile = "gfx/event_pictures/Europe/Macedonia/report_event_MAC_Alexander_returned.png"
-	}
 }

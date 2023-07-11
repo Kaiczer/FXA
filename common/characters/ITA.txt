@@ -400,6 +400,10 @@ characters = {
 				small = "gfx/interface/ministers/ITA/ITA_Italo_Balbo.png"
 			}
 		}
+		country_leader = {
+			ideology = legionarism_subtype
+			traits = {  }
+		}
 		advisor = {
 			cost = 0
 			slot = head_of_government
@@ -463,10 +467,10 @@ characters = {
 				small = "gfx/interface/ministers/ITA/ITA_Gabrielle_D_Annunzio.png"
 			}
 		}
-		country_leader = {
-			ideology = valkist_subtype
-			traits = { }
-		}
+		# country_leader = {
+		# 	ideology = valkist_subtype
+		# 	traits = { }
+		# }
 		advisor = {
 			cost = 0
 			slot = head_of_government
@@ -485,6 +489,18 @@ characters = {
 				valkist
 				hog_underground_figurehead
 			}
+		}
+	}
+	ITA_Michele_Bianchi = {
+		name = "Michele Bianchi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ITA/Portrait_ITA_Michele_Bianchi.png"
+			}
+		}
+		country_leader = {
+			ideology = valkist_subtype
+			traits = { }
 		}
 	}
 	ITA_Sergio_Panunzio = {
@@ -737,50 +753,6 @@ characters = {
 				large = "gfx/leaders/ITA/Portrait_ITA_Amedeo_di_Savoia_Aosta.png"
 				small = "gfx/interface/ministers/ITA/ITA_Amedeo_di_Savoia_Aosta.png"
 			}
-		}
-		country_leader = {
-			ideology = authsoc_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = vansoc_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = libertarian_socialist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = market_liberal_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = social_conservative_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = authoritarian_democrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = paternal_autocrat_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = national_populist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = valkist_subtype
-			traits = { }
 		}
 		advisor = {
 			cost = 0
@@ -1693,14 +1665,7 @@ characters = {
 			ideology = paternal_autocrat_subtype
 			traits = { ITA_soldier_king }
 		}
-		country_leader = {
-			ideology = legionarism_subtype
-			traits = { ITA_soldier_king }
-		}
-		country_leader = {
-			ideology = valkist_subtype
-			traits = { ITA_soldier_king }
-		}
+		
 	}
 	ITA_Reginaldo_Giuliani = {
 		name = "Reginaldo Giuliani"

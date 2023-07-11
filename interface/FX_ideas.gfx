@@ -968,10 +968,6 @@ spriteTypes = {
 	textureFile = "gfx/interface/ideas/ideas/FIN_winter_war.png" 
   }
   spriteType = {
-    name = "GFX_idea_MAC_macedonian_undefeatable_legions"
-    textureFile = "gfx/interface/ideas/MAC/MAC_idea_macedonian_legions.png"
-  }
-  spriteType = {
     name = "GFX_idea_IRQ_hashmite_dynasty"
     textureFile = "gfx/interface/ideas/IRQ/IRQ_hasmite_dynasty.png"
   }
