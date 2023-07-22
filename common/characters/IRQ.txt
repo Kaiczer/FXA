@@ -124,7 +124,7 @@ characters = {
 			slot = head_of_government
 			idea_token = IRQ_Al_Chaderchi_hog_cli
 			can_be_fired = no
-			cost = 0
+			
 			traits = {
 				hog_privileged_socialist
 				hog_state_secularist
@@ -139,7 +139,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			can_be_fired = no
 			slot = security_minister
 			idea_token = IRQ_Saeed_Qazaz_sec_cli
@@ -156,7 +156,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			can_be_fired = no
 			slot = economy_minister
 			idea_token = IRQ_Dhia_Jafar_eco_cli
@@ -173,7 +173,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			can_be_fired = no
 			slot = foreign_minister
 			idea_token = IRQ_Musa_Al_Shabander_for_cli

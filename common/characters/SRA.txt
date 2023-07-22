@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SRA_William_Haywood_for_van_hired }
@@ -44,7 +44,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SRA_James_W_Ford_hog_col_hired }
@@ -76,7 +76,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SRA_Bayard_Rustin_eco_lso_hired }
@@ -112,7 +112,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SRA_Edward_Carter_sec_col_hired }
@@ -140,7 +140,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Oliver_Law_cos
 			traits = {
@@ -148,7 +148,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SRA_Oliver_Law_carm
 			traits = {
@@ -173,7 +173,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Thomas_Page_cos
 			traits = {
@@ -181,7 +181,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SRA_Thomas_Page_carm
 			traits = {
@@ -206,7 +206,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SRA_Hugh_Mulzac_cnav
 			traits = {
@@ -247,7 +247,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Benjamin_Oliver_Davis_Sr_cos
 			traits = {
@@ -255,7 +255,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SRA_Benjamin_Oliver_Davis_Sr_carm
 			traits = {
@@ -280,7 +280,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Evans_Fordyce_Carlson_cos
 			traits = {
@@ -288,7 +288,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SRA_Evans_Fordyce_Carlson_carm
 			traits = {
@@ -313,7 +313,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Robert_Sharon_Allen_cos
 			traits = {
@@ -321,7 +321,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SRA_Robert_Sharon_Allen_carm
 			traits = {
@@ -346,7 +346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SRA_Campbell_Carrington_Johnson_cos
 			traits = {

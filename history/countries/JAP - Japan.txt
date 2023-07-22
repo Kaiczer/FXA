@@ -972,6 +972,10 @@ recruit_character = JAP_Shiratori_Toshio
 recruit_character = JAP_Mushanokoji_Kintomo
 recruit_character = JAP_Hayashi_Fusao
 ###
+activate_advisor = JAP_Inukai_Tsuyoshi_hog_sco
+activate_advisor = JAP_Yoshida_Shigeru_for_sco
+activate_advisor = JAP_Tsushima_Juichi_eco_sco
+activate_advisor = JAP_Kawamura_Takeji_sec_sco
 every_unit_leader = {
 	set_character_flag = JAP_leader
 }

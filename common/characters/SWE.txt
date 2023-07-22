@@ -16,7 +16,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Sven_Linderot_hog_van_hired }
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Sven_Linderot_eco_van_hired }
@@ -67,7 +67,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Nils_Flyg_hog_lib_hired }
@@ -135,7 +135,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Sven_Olov_Lindholm_for_npo_hired }
@@ -174,7 +174,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Olof_Thornell_cos
 			traits = {
@@ -182,7 +182,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Olof_Thornell_carm
 			traits = {
@@ -212,7 +212,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Oscar_Nygren_hog_ade_hired }
@@ -231,7 +231,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Oscar_Nygren_cos_ade
 			traits = {
@@ -239,7 +239,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Oscar_Nygren_carm_ade
 			traits = {
@@ -270,7 +270,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Archibald_Douglas_hog_pau_hired }
@@ -289,7 +289,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Archibald_Douglas_carm_pau
 			traits = {
@@ -314,7 +314,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Carl_Gustaf_Hammarskjold_hog_ade_hired }
@@ -355,7 +355,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Helge_Jung_hog_ade_hired }
@@ -374,7 +374,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Helge_Jung_carm_ade
 			traits = {
@@ -423,7 +423,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Carl_August_Ehrensvard_hog_pau_hired }
@@ -442,7 +442,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Carl_August_Ehrensvard_cos_pau
 			traits = {
@@ -508,7 +508,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Harald_Malmberg_eco_ade_hired }
@@ -587,7 +587,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Ernst_af_Klercker_cos
 			traits = {
@@ -668,7 +668,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Fabian_Tamm_cnav
 			traits = {
@@ -693,7 +693,7 @@ characters = {
 			coordination_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Otto_Lybeck_cnav
 			traits = {
@@ -737,7 +737,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Charles_de_Champs_cnav
 			traits = {
@@ -794,7 +794,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Gosta_Ehrensvard_cnav
 			traits = {
@@ -853,7 +853,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Per_Albin_Hansson_hog_sde_hired }
@@ -880,7 +880,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gosta_Bagge_eco_sco_hired }
@@ -899,7 +899,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gosta_Bagge_hog_sco_hired }
@@ -926,7 +926,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Frans_Severin_hog_col_hired }
@@ -953,7 +953,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Kilbom_hog_lib_hired }
@@ -972,7 +972,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Kilbom_sec_lib_hired }
@@ -999,7 +999,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karin_Boye_hog_lib_hired }
@@ -1026,7 +1026,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Tage_Erlander_hog_sde_hired }
@@ -1053,7 +1053,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Axel_Pehrsson_Bramstorp_hog_sli_hired }
@@ -1080,7 +1080,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Bertil_Ohlin_hog_mli_hired }
@@ -1107,7 +1107,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Fritiof_Domo_hog_sco_hired }
@@ -1137,7 +1137,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Axel_Gyllenkrok_hog_npo_hired }
@@ -1156,7 +1156,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Axel_Gyllenkrok_cair_npo
 			traits = {
@@ -1175,7 +1175,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Martin_Ekstrom_hog_npo_hired }
@@ -1194,7 +1194,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Martin_Ekstrom_sec_npo_hired }
@@ -1213,7 +1213,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Martin_Ekstrom_cos_npo
 			traits = {
@@ -1221,7 +1221,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Martin_Ekstrom_carm_npo
 			traits = {
@@ -1237,7 +1237,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Hilding_Hagberg_for_van_hired }
@@ -1264,7 +1264,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Albert_Jensen_for_col_hired }
@@ -1291,7 +1291,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Fredrik_Strom_for_lib_hired }
@@ -1321,7 +1321,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Erik_Palmstierna_for_sde_hired }
@@ -1340,7 +1340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Erik_Palmstierna_cnav_sde
 			traits = {
@@ -1356,7 +1356,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_J_Rickard_Sandler_for_sde_hired }
@@ -1375,7 +1375,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_J_Rickard_Sandler_sec_sde_hired }
@@ -1402,7 +1402,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Gustaf_Westman_for_sli_hired }
@@ -1429,7 +1429,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gustaf_Andersson_i_Rasjon_for_mli_hired }
@@ -1456,7 +1456,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Christian_Gunther_for_sco_hired }
@@ -1483,7 +1483,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Martin_Skoglund_for_sco_hired }
@@ -1510,7 +1510,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Sven_Hedin_for_ade_hired }
@@ -1537,7 +1537,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gunnar_Berggren_for_pau_hired }
@@ -1564,7 +1564,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Erik_von_Rosen_for_npo_hired }
@@ -1591,7 +1591,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gustav_Sjostrom_eco_col_hired }
@@ -1618,7 +1618,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Osten_Unden_eco_lib_hired }
@@ -1645,7 +1645,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Anna_Johansson_Visborg_eco_sde_hired }
@@ -1672,7 +1672,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Per_Edvin_Skold_eco_sde_hired }
@@ -1699,7 +1699,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Ernst_Wigforss_eco_sde_hired }
@@ -1726,7 +1726,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Arthur_Heiding_eco_sli_hired }
@@ -1753,7 +1753,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gustav_Cassel_eco_mli_hired }
@@ -1780,7 +1780,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Ernst_Trygger_eco_sco_hired }
@@ -1807,7 +1807,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Marcus_Wallenberg_eco_pau_hired }
@@ -1834,7 +1834,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Arthur_Linden_eco_npo_hired }
@@ -1861,7 +1861,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Elof_Eriksson_eco_npo_hired }
@@ -1888,7 +1888,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Arvid_Olsson_sec_van_hired }
@@ -1915,7 +1915,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Folke_Fridell_sec_col_hired }
@@ -1942,7 +1942,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Karl_Schlyter_sec_sde_hired }
@@ -1969,7 +1969,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Thorwald_Bergquist_sec_mli_hired }
@@ -1996,7 +1996,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Gustav_Andersson_i_Rasjon_sec_mli_hired }
@@ -2023,7 +2023,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Jarl_Hjalmarson_sec_sco_hired }
@@ -2050,7 +2050,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Knut_Ewerlof_sec_sco_hired }
@@ -2077,7 +2077,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Carlos_Adlercreutz_sec_ade_hired }
@@ -2107,7 +2107,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Axel_Rappe_sec_pau_hired }
@@ -2126,7 +2126,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Axel_Rappe_carm_pau
 			traits = {
@@ -2145,7 +2145,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SWE_Per_Sylvan_sec_ade_hired }
@@ -2164,7 +2164,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Per_Sylvan_cos_ade
 			traits = {
@@ -2172,7 +2172,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Per_Sylvan_carm_ade
 			traits = {
@@ -2188,7 +2188,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SWE_Axel_Bredberg_cos_sli
 			traits = {
@@ -2196,7 +2196,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SWE_Axel_Bredberg_carm_sli
 			traits = {
@@ -2212,7 +2212,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SWE_Helge_Stromback_cnav_sli
 			traits = {
@@ -2228,7 +2228,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Anton_Nilsson_cair_lib
 			traits = {
@@ -2244,7 +2244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Krister_Reutersward_cair_lib
 			traits = {
@@ -2260,7 +2260,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Axel_Ljungdahl_cair_sli
 			traits = {
@@ -2276,7 +2276,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Bengt_Nordenskiold_cair_mli
 			traits = {
@@ -2292,7 +2292,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SWE_Torsten_Friis_cair_mli
 			traits = {

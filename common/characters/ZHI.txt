@@ -26,7 +26,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Sun_Chuanfang_hog_pau_hired }
@@ -45,7 +45,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ZHI_Sun_Chuanfang_cos_pau
 			traits = {
@@ -66,7 +66,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Ku_Wei_Chun_hog_mli_hired }
@@ -85,7 +85,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Ku_Wei_Chun_for_mli_hired }
@@ -117,7 +117,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Dong_Biwu_hog_col_hired }
@@ -149,7 +149,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Yan_Huiqing_hog_sco_hired }
@@ -198,7 +198,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wu_Peifu_hog_ade_hired }
@@ -217,7 +217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ZHI_Wu_Peifu_cos_ade
 			traits = {
@@ -244,7 +244,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ZHI_Wang_Chengbing_cos
 			traits = {
@@ -291,7 +291,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Zhang_Shaozeng_carm
 			traits = {
@@ -427,7 +427,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ZHI_Du_Xigui_cnav
 			traits = {
@@ -451,7 +451,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Cao_Kun_hog_ade_hired }
@@ -478,7 +478,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wang_Kemin_eco_pau_hired }
@@ -505,7 +505,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Tang_Erho_eco_ade_hired }
@@ -532,7 +532,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Gao_Lingwei_eco_ade_hired }
@@ -559,7 +559,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wang_Yitang_sec_pau_hired }
@@ -586,7 +586,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Wen_Shizhen_sec_ade_hired }
@@ -613,7 +613,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Pan_Juying_sec_pau_hired }
@@ -640,7 +640,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Zhang_Ting_e_carm
 			traits = {
@@ -656,7 +656,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Xiao_Yaonan_carm
 			traits = {
@@ -672,7 +672,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Lu_Jin_carm
 			traits = {
@@ -688,7 +688,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Cai_Chengxun_carm
 			traits = {
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ZHI_Jiang_Yanxing_carm
 			traits = {
@@ -720,7 +720,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Hu_Weide_for_pau_hired }
@@ -747,7 +747,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ZHI_Hu_Shih_for_mli_hired }

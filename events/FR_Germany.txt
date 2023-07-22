@@ -6239,7 +6239,6 @@ country_event = { # select economic minister
 		base = 40
 	}
 	name = ger.148.b
-		deactivate_advisor = GER_Adolf_Hitler_eco_val
 		activate_advisor = GER_Otto_Strasser_eco_val
 		set_country_flag = GER_strasser_right
 	}

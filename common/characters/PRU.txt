@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Gamaliel_Churata_hog_van_hired }
@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Victor_Raul_Haya_de_la_Torre_hog_col_hired }
@@ -66,7 +66,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Jose_Galvez_Barrenechea_hog_sde_hired }
@@ -105,7 +105,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Jose_Alcamora_hog_sli_hired }
@@ -132,7 +132,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Cisneros_Sanchez_hog_mli_hired }
@@ -159,7 +159,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Rafael_Belaunde_Diez_hog_mli_hired }
@@ -186,7 +186,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Adolfo_Solf_y_Muro_hog_sco_hired }
@@ -213,7 +213,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alberto_Rey_de_Castro_hog_sco_hired }
@@ -243,7 +243,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alberto_Roque_Saldias_hog_sco_hired }
@@ -262,7 +262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = PRU_Alberto_Roque_Saldias_cnav_sco
 			traits = {
@@ -278,7 +278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_David_S_Ocampo_hog_sco_hired }
@@ -305,7 +305,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alberto_Zenon_Aguero_hog_ade_hired }
@@ -332,7 +332,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Ernesto_Montagne_Sanchez_hog_pau_hired }
@@ -359,7 +359,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Odria_hog_pau_hired }
@@ -389,7 +389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Carlos_Miro_Quesada_hog_npo_hired }
@@ -440,7 +440,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Jose_de_la_Riva_Aguero_hog_npo_hired }
@@ -479,7 +479,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Cesar_Atahualpa_for_van_hired }
@@ -506,7 +506,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Jose_Carlos_Mariategui_for_van_hired }
@@ -533,7 +533,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Cesar_Vallejo_for_col_hired }
@@ -560,7 +560,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Oscar_Miro_Quesada_for_sde_hired }
@@ -587,7 +587,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Javier_Correa_Elias_for_mli_hired }
@@ -614,7 +614,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Prado_y_Ugarteche_for_mli_hired }
@@ -641,7 +641,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Enrique_Goytisola_Bolognesi_for_sco_hired }
@@ -668,7 +668,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alberto_Ulloa_Sotomayor_for_ade_hired }
@@ -695,7 +695,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Felipe_Tudela_for_pau_hired }
@@ -722,7 +722,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Raul_Ferrero_Rebagliati_for_npo_hired }
@@ -749,7 +749,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Gonzalez_Prada_eco_van_hired }
@@ -776,7 +776,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Antenor_Orrego_eco_col_hired }
@@ -819,7 +819,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Vasquez_Diaz_eco_sde_hired }
@@ -846,7 +846,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Guillermo_Almenara_Irigoyen_eco_mli_hired }
@@ -873,7 +873,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Romulo_Ferrero_eco_mli_hired }
@@ -900,7 +900,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Armando_Revoredo_Iglesias_eco_sco_hired }
@@ -927,7 +927,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Eduardo_Rebagliati_Martins_eco_sco_hired }
@@ -954,7 +954,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Oscar_Trelles_Montes_eco_sco_hired }
@@ -981,7 +981,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Alejandro_Peralta_sec_van_hired }
@@ -1008,7 +1008,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Carlos_Manuel_Cox_Roose_sec_col_hired }
@@ -1035,7 +1035,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Ciro_Alegria_sec_col_hired }
@@ -1062,7 +1062,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Ildefonso_Ballon_Beltran_sec_sde_hired }
@@ -1089,7 +1089,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Victor_N_Benavente_sec_sde_hired }
@@ -1116,7 +1116,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Manuel_Gallagher_sec_sli_hired }
@@ -1143,7 +1143,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Benigno_Ballon_Farfan_sec_sco_hired }
@@ -1186,7 +1186,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = PRU_Felipe_Sassone_cos
 			traits = {
@@ -1202,7 +1202,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = PRU_Fortunato_Quesada_Larrea_cos
 			traits = {
@@ -1219,7 +1219,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = PRU_Gustavo_Jimenez_cos
 			traits = {
@@ -1242,7 +1242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = PRU_Nicolas_Lindley_Lopez_cos
 			traits = {
@@ -1250,7 +1250,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = PRU_Nicolas_Lindley_Lopez_cnav
 			traits = {
@@ -1258,7 +1258,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = PRU_Nicolas_Lindley_Lopez_eco_pau_hired }
@@ -1285,7 +1285,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = PRU_Eduardo_Montero_Rojas_carm
 			traits = {
@@ -1302,7 +1302,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = PRU_Vladimiro_Lopez_Trigoso_carm
 			traits = {
@@ -1319,7 +1319,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = PRU_Oscar_Benavides_Larrea_carm
 			traits = {
@@ -1336,7 +1336,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = PRU_Riccardo_Perez_Godoy_carm
 			traits = {
@@ -1353,7 +1353,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = PRU_Manuel_Odria_Amoretti_carm
 			traits = {
@@ -1370,7 +1370,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = PRU_Manuel_Montero_y_Tirada_cair
 			traits = {

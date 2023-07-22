@@ -35,7 +35,6 @@ characters = {
 			traits = { }
 		}
     advisor = {
-			cost = 0
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Nur_Muhammad_Taraki_eco_van_hired }
@@ -118,7 +117,7 @@ characters = {
 			logistics_skill = 1
 		}
     advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Mohammed_Daoud_Khan_eco_pau_hired }
@@ -145,7 +144,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
@@ -172,7 +171,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
@@ -199,7 +198,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Mohammed_Nadir_Shah_hog_sco_hired }
@@ -226,7 +225,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Abdul_Hadi_Dawai_hog_ade_hired }
@@ -245,7 +244,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Abdul_Hadi_Dawai_for_ade_hired }
@@ -272,7 +271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Ghobar_hog_ade_hired }
@@ -291,7 +290,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
@@ -318,7 +317,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Hashim_hog_ade_hired }
@@ -345,7 +344,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Shah_Wali_Khan_hog_ade_hired }
@@ -372,7 +371,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Inayatullah_Khan_Seraj_hog_pau_hired }
@@ -399,7 +398,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
@@ -426,7 +425,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Ghulam_Mohammad_Farhad_for_sde_hired }
@@ -453,7 +452,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Ali_Muhammed_Khan_for_sco_hired }
@@ -480,7 +479,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau_hired }
@@ -507,7 +506,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Mohammed_Hashim_Maiwandwal_eco_sde_hired }
@@ -537,7 +536,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Nasirullah_Husain_eco_sco_hired }
@@ -556,7 +555,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = AFG_Nasirullah_Husain_cos_sco
 			traits = {
@@ -572,7 +571,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade_hired }
@@ -602,7 +601,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
@@ -621,7 +620,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = AFG_Mirza_Ali_Khan_carm_npo
 			traits = {
@@ -637,7 +636,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
@@ -664,7 +663,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Asadullah_Seraj_Khan_sec_sco_hired }
@@ -694,7 +693,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
@@ -713,7 +712,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = AFG_Muhammed_Zahir_cnav_ade
 			traits = {
@@ -721,7 +720,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = AFG_Muhammed_Zahir_cair_ade
 			traits = {
@@ -737,7 +736,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
@@ -763,8 +762,7 @@ characters = {
 				small = "gfx/interface/ministers/AFG/AFG_Khalilullah_Khalili.png"
 			}
 		}
-		advisor = {
-			cost = 0
+		advisor = {			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
@@ -791,7 +789,6 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
 			slot = high_command
 			idea_token = AFG_Shah_Mahmud_Khan_cos
 			traits = {
@@ -807,7 +804,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = AFG_Shah_Mahmud_Ghazi_cos
 			traits = {
@@ -823,7 +820,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = AFG_Gholam_Wali_carm
 			traits = {
@@ -839,7 +836,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = AFG_Ghulam_Nabi_Charkhi_carm
 			traits = {

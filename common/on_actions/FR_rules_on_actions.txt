@@ -2,37 +2,6 @@ on_actions = {
 	#Not run on a specific country.
 	on_startup = {
 		effect = {
-			# MEME PATHS RULES HERE
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = allow_alexander_meme_options
-						option = ALEXANDER_MEME_DISABLE
-					}
-				}
-				set_global_flag = ALEXANDER_MEME_DISABLED
-			}
-			else_if = {
-				limit = {
-					has_game_rule = {
-						rule = allow_alexander_meme_options
-						option = ALEXANDER_MEME_ENABLE
-					}
-					GRE = {
-						is_ai = no
-					}
-				}
-				set_global_flag = ALEXANDER_MEME_ENABLED
-				every_country = {
-					news_event = {
-						id = macedonia.1
-						days = 15
-					}
-				}
-			}
-			else = {
-				set_global_flag = ALEXANDER_MEME_NO_GREECE
-			}
 			### Britain
 			ENG = {
 				if = { 

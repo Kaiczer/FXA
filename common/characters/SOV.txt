@@ -14,7 +14,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Vyacheslav_Molotov_hog_van_hired }
@@ -146,7 +146,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SOV_Aleksandr_Vasilevsky_cos
 			traits = {
@@ -174,7 +174,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SOV_Boris_Shaposhnikov_cos
 			traits = {
@@ -222,7 +222,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Ivan_Konev_carm
 			traits = {
@@ -299,7 +299,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SOV_Mikhail_Tukhachevsky_cos
 			traits = {
@@ -307,7 +307,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Mikhail_Tukhachevsky_carm
 			traits = {
@@ -389,7 +389,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SOV_Kirill_Meretskov_cos
 			traits = {
@@ -397,7 +397,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Kirill_Meretskov_carm
 			traits = {
@@ -595,7 +595,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Aleksandra_Kollontay_hog_col_hired }
@@ -623,7 +623,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Nikolay_Bukharin_hog_lib_hired }
@@ -650,7 +650,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Karl_Radek_for_van_hired }
@@ -677,7 +677,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Georgiy_Malenkov_for_col_hired }
@@ -704,7 +704,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Mariya_Spiridonova_for_lib_hired }
@@ -731,7 +731,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Mikhail_Tomskiy_eco_van_hired }
@@ -759,7 +759,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Sergey_Kirov_eco_col_hired }
@@ -786,7 +786,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Matvey_Skobelev_eco_lib_hired }
@@ -813,7 +813,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Genrikh_Yagoda_sec_van_hired }
@@ -840,7 +840,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pyetr_Popkov_sec_col_hired }
@@ -867,7 +867,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pavel_Sudoplatov_sec_lib_hired }
@@ -905,7 +905,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SOV_Aleksandr_Yegorov_cos
 			traits = {
@@ -913,7 +913,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Aleksandr_Yegorov_carm
 			traits = {
@@ -929,7 +929,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Rodion_Malinovskiy_carm
 			traits = {
@@ -945,7 +945,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SOV_Vasiliy_Blyukher_carm
 			traits = {
@@ -961,7 +961,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SOV_Ivan_Isakov_cnav
 			traits = {
@@ -977,7 +977,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SOV_Mikhail_Viktorov_cnav
 			traits = {
@@ -993,7 +993,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SOV_Nikolay_Kuznetsov_cnav
 			traits = {
@@ -1009,7 +1009,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SOV_Vladimir_Orlov_cnav
 			traits = {
@@ -1025,7 +1025,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SOV_Aleksandr_Golovanov_cair
 			traits = {
@@ -1041,7 +1041,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SOV_Aleksandr_Kazakov_cair
 			traits = {
@@ -1057,7 +1057,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SOV_Aleksandr_Novikov_cair
 			traits = {
@@ -1073,7 +1073,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SOV_YV_Vladimirovich_cair
 			traits = {
@@ -1081,11 +1081,11 @@ characters = {
 			}
 		}
 	}
-	SOV_Congress_of_Soviets = {
-		name = "Congress of Soviets"
+	SOV_Mikhail_Kalinin = {
+		name = "Mikhail Kalinin"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/Portrait_SOV_Congress_of_Soviets.png"
+				large = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Kalinin.png"
 			}
 		}
 	}

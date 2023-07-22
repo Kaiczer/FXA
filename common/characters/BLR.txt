@@ -19,7 +19,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jazep_Adamovic_hog_van_hired }
@@ -46,7 +46,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Michas_Javar_for_van_hired }
@@ -73,7 +73,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Salamon_Kacenbohien_eco_van_hired }
@@ -100,7 +100,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Nicypar_Natalievic_sec_van_hired }
@@ -139,7 +139,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Paluta_Badunova_hog_col_hired }
@@ -158,7 +158,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Paluta_Badunova_for_col_hired }
@@ -185,7 +185,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Nikolay_Gusarov_for_col_hired }
@@ -212,7 +212,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jauhien_Ladnou_for_col_hired }
@@ -239,7 +239,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Adam_Bildziukievic_eco_col_hired }
@@ -266,7 +266,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jafim_Bialievic_sec_col_hired }
@@ -294,7 +294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Aliaksandr_Charviakou_hog_lib_hired }
@@ -313,7 +313,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Aliaksandr_Charviakou_for_lib_hired }
@@ -340,7 +340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Symon_Rak_Michajlouksi_hog_lib_hired }
@@ -359,7 +359,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Symon_Rak_Michajlouksi_for_lib_hired }
@@ -386,7 +386,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Dmitry_Pryshchepau_eco_lib_hired }
@@ -413,7 +413,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
@@ -452,7 +452,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Lutskevic_hog_sde_hired }
@@ -471,7 +471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Lutskevic_for_sde_hired }
@@ -498,7 +498,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Boryk_for_sde_hired }
@@ -525,7 +525,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Ivan_Kraskouski_for_sde_hired }
@@ -552,7 +552,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jazep_Lesik_sec_sde_hired }
@@ -591,7 +591,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jazep_Varonka_hog_sli_hired }
@@ -618,7 +618,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jan_Sierada_eco_sli_hired }
@@ -645,7 +645,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Alyaksandr_Tsvikyevich_sec_sli_hired }
@@ -684,7 +684,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Raman_Skirmunt_hog_mli_hired }
@@ -711,7 +711,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Mitrofan_Dovnar_Zapolsky_for_mli_hired }
@@ -738,7 +738,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Karol_Niezabytowski_eco_mli_hired }
@@ -765,7 +765,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
@@ -792,7 +792,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jazep_Hermanovic_hog_sco_hired }
@@ -824,7 +824,7 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Adam_Stankievic_for_sco_hired }
@@ -851,7 +851,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Alieh_Vasilkouski_for_sco_hired }
@@ -878,7 +878,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Adolf_Klimovic_eco_sco_hired }
@@ -905,7 +905,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Jan_Pazniak_sec_sco_hired }
@@ -937,7 +937,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Vasil_Zacharka_hog_ade_hired }
@@ -964,7 +964,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade_hired }
@@ -991,7 +991,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Symon_Kandybovic_eco_ade_hired }
@@ -1018,7 +1018,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Sokal_Kutylouski_sec_ade_hired }
@@ -1045,7 +1045,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Panteleimon_Rozhnovsky_hog_pau_hired }
@@ -1072,7 +1072,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Ivan_Jermachenka_hog_pau_hired }
@@ -1091,7 +1091,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Ivan_Jermachenka_for_pau_hired }
@@ -1118,7 +1118,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Anton_Adamovic_eco_pau_hired }
@@ -1210,7 +1210,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Uladzislau_Kazlouski_for_npo_hired }
@@ -1237,7 +1237,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Janka_Carapuk_for_npo_hired }
@@ -1264,7 +1264,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Mikalaj_Skialionak_eco_npo_hired }
@@ -1291,7 +1291,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
@@ -1319,7 +1319,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Radasłaŭ_Astroŭski_hog_val_hired }
@@ -1346,7 +1346,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_hog_val_hired }
@@ -1365,7 +1365,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_for_val_hired }
@@ -1392,7 +1392,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Vladislav_Wenceslaus_Kozlowski_for_val_hired }
@@ -1419,7 +1419,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = BLR_Leon_Ivanovich_Dubeykovsky_eco_val_hired }
@@ -1459,7 +1459,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
@@ -1478,7 +1478,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = BLR_Francisak_Kusal_cos
 			traits = {
@@ -1486,7 +1486,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Francisak_Kusal_carm
 			traits = {
@@ -1511,7 +1511,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = BLR_Kanstancin_Jezavitau_cos
 			traits = {
@@ -1519,7 +1519,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Kanstancin_Jezavitau_carm
 			traits = {
@@ -1544,7 +1544,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Timokh_Khvedashchenya
 			can_be_fired = no
@@ -1602,7 +1602,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Paval_Vent_carm
 			traits = {
@@ -1627,7 +1627,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = BLR_Hasan_Kanapatski
 			can_be_fired = no
@@ -1636,7 +1636,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Hasan_Kanapatski_carm
 			traits = {
@@ -1652,7 +1652,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = BLR_Hieorhij_Khalasciakou_cnav
 			traits = {
@@ -1668,7 +1668,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = BLR_Anton_Ausianik_cair
 			traits = {
@@ -1684,7 +1684,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = BLR_Michal_Vituska_carm
 			traits = {
@@ -1692,7 +1692,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = BLR_Michal_Vituska_cair
 			traits = {

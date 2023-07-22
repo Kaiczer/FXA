@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Marcel_Deat_eco_van_hired }
@@ -68,7 +68,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Leon_Blum_hog_sde_hired }
@@ -112,7 +112,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Marin_sec_sco_hired }
@@ -144,7 +144,7 @@ characters = {
 			traits = { }
 		}
     advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_de_la_Rocque_hog_ade_hired }
@@ -163,7 +163,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_de_La_Rocque_sec_ade_hired }
@@ -210,7 +210,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Philippe_Petain_hog_pau_hired }
@@ -293,7 +293,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Alphonse_Juin_carm
 			traits = {
@@ -321,7 +321,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Maurice_Janin_carm
 			traits = {
@@ -352,7 +352,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Charles_de_Gaulle_cos
 			traits = {
@@ -381,7 +381,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Jean_de_Lattre_de_Tassigny_cos
 			traits = {
@@ -389,7 +389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Jean_de_Lattre_de_Tassigny_carm
 			traits = {
@@ -419,7 +419,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Maxime_Weygand_carm
 			traits = {
@@ -471,7 +471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Antoine_Bethouart_cos
 			traits = {
@@ -576,7 +576,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Georges_Valois_hog_van_hired }
@@ -603,7 +603,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Benoit_Frachon_hog_col_hired }
@@ -630,7 +630,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Marceau_Pivert_hog_col_hired }
@@ -657,7 +657,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Benoit_Broutchoux_hog_lib_hired }
@@ -684,7 +684,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Daniel_Guerin_hog_lib_hired }
@@ -711,7 +711,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Paul_Ramadier_hog_sde_hired }
@@ -738,7 +738,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Edouard_Daladier_hog_sli_hired }
@@ -765,7 +765,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Paul_Reynaud_hog_mli_hired }
@@ -792,7 +792,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Ybarnegaray_hog_sco_hired }
@@ -819,7 +819,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Mermoz_hog_ade_hired }
@@ -846,7 +846,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Ernest_Mercier_hog_pau_hired }
@@ -865,7 +865,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Ernest_Mercier_sec_pau_hired }
@@ -896,7 +896,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Franchet_d_Esperey_hog_pau_hired }
@@ -915,7 +915,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Louis_Franchet_d_Esperey_cos_pau
 			traits = {
@@ -938,7 +938,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Alexandre_Audibert_hog_pau_hired }
@@ -966,7 +966,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Charles_Maurras_hog_npo_hired }
@@ -993,7 +993,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jacques_Doriot_hog_val_hired }
@@ -1020,7 +1020,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jacques_Duclos_for_van_hired }
@@ -1047,7 +1047,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Charles_Rappoport_for_col_hired }
@@ -1074,7 +1074,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Nestor_Makhno_for_lib_hired }
@@ -1101,7 +1101,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Pierre_Laval_for_sde_hired }
@@ -1128,7 +1128,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_George_Bonnet_for_sli_hired }
@@ -1155,7 +1155,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Camille_Barrere_for_sco_hired }
@@ -1182,7 +1182,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Georges_Mandel_for_sco_hired }
@@ -1209,7 +1209,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Paul_Baudouin_for_ade_hired }
@@ -1236,7 +1236,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Joseph_Darnand_for_pau_hired }
@@ -1263,7 +1263,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Maurice_Pujo_for_npo_hired }
@@ -1290,7 +1290,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Daniel_Renoult_eco_col_hired }
@@ -1317,7 +1317,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Leon_Jouhaux_eco_col_hired }
@@ -1344,7 +1344,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Tanguy_eco_lib_hired }
@@ -1371,7 +1371,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Zay_eco_sde_hired }
@@ -1398,7 +1398,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Andre_Tardieu_eco_mli_hired }
@@ -1430,7 +1430,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Pierre_Etienne_Flandin_eco_mli_hired }
@@ -1457,7 +1457,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Charles_Vallin_eco_ade_hired }
@@ -1484,7 +1484,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Marie_Eugene_Debeney_eco_ade_hired }
@@ -1511,7 +1511,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Eugene_Schueller_eco_pau_hired }
@@ -1538,7 +1538,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_Coty_eco_pau_hired }
@@ -1565,7 +1565,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Eugene_Deloncle_eco_npo_hired }
@@ -1592,7 +1592,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Claudine_Chomat_sec_van_hired }
@@ -1619,7 +1619,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Bonnet_sec_col_hired }
@@ -1646,7 +1646,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Gourdeaux_sec_col_hired }
@@ -1673,7 +1673,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_May_Picqueray_sec_lib_hired }
@@ -1700,7 +1700,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Albert_Sarraut_sec_sli_hired }
@@ -1727,7 +1727,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Fabry_sec_sli_hired }
@@ -1754,7 +1754,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_George_Lamirand_sec_pau_hired }
@@ -1781,7 +1781,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Renault_sec_pau_hired }
@@ -1808,7 +1808,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Massis_sec_npo_hired }
@@ -1835,7 +1835,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Henri_Amiel_cos_sli
 			traits = {
@@ -1851,7 +1851,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Bernard_Serrigny_cos_ade
 			traits = {
@@ -1894,7 +1894,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Charles_Huntzinger_cos_ade
 			traits = {
@@ -1910,7 +1910,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Eugene_Bridoux_cos_ade
 			traits = {
@@ -1918,7 +1918,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Eugene_Bridoux_carm_ade
 			traits = {
@@ -1934,7 +1934,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Henri_Albert_Niessel_cos_ade
 			traits = {
@@ -1950,7 +1950,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Henri_Dentz_cos_ade
 			traits = {
@@ -1966,7 +1966,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FRA_Philippe_de_Hauteclocque_cos_ade
 			traits = {
@@ -1982,7 +1982,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Gabriel_Puaux_carm_sli
 			traits = {
@@ -1999,7 +1999,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Jean_Touzet_du_Vigier_carm_sco
 			traits = {
@@ -2027,7 +2027,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FRA_Joseph_de_Goislard_de_Monsabert_carm_sco
 			traits = {
@@ -2043,7 +2043,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Francois_Carre_de_Lusancay_cnav_sli
 			traits = {
@@ -2059,7 +2059,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Louis_Finet_cnav_sli
 			traits = {
@@ -2075,7 +2075,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Georges_Thierry_d_Argenlieu_cnav_ade
 			traits = {
@@ -2091,7 +2091,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Jean_Esteva_cnav_ade
 			traits = {
@@ -2107,7 +2107,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Jean_Marie_Abrial_cnav_ade
 			traits = {
@@ -2123,7 +2123,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FRA_Marie_Jean_Lucien_Lacaze_cnav_ade
 			traits = {
@@ -2139,7 +2139,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FRA_Henri_Soulat_cair_sli
 			traits = {
@@ -2155,7 +2155,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FRA_Antonin_Brocard_cair_mli
 			traits = {
@@ -2171,7 +2171,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FRA_Marie_Charles_Duval_cair_sco
 			traits = {
@@ -2187,7 +2187,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FRA_Jean_Bergeret_cair_ade
 			traits = {
@@ -2203,7 +2203,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FRA_Rene_Paul_Fonck_cair_ade
 			traits = {

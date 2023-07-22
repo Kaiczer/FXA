@@ -51,7 +51,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Radola_Gajda_cos_npo
 			traits = {
@@ -103,7 +103,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Klement_Gottwald_hog_col_hired }
@@ -135,7 +135,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Antonin_Hampl_hog_sde_hired }
@@ -205,7 +205,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Ludvik_Svoboda_cos_van
 			traits = {
@@ -289,7 +289,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Bohuslav_Vrbensky_hog_col_hired }
@@ -316,7 +316,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Vilem_Brodecky_hog_lib_hired }
@@ -343,7 +343,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jan_Garrigue_Masaryk_hog_sli_hired }
@@ -370,7 +370,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Rudolf_Mlčoch_hog_mli_hired }
@@ -400,7 +400,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Bedřich_Homola_hog_sco_hired }
@@ -419,7 +419,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Bedřich_Homola_carm_sco
 			traits = {
@@ -435,7 +435,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jan_Sramek_hog_sco_hired }
@@ -462,7 +462,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jan_Černy_hog_sco_hired }
@@ -489,7 +489,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Emil_Hacha_hog_ade_hired }
@@ -519,7 +519,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Alois_Elias_hog_pau_hired }
@@ -538,7 +538,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Alois_Elias_carm_pau
 			traits = {
@@ -554,7 +554,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Frantisek_Mikulas_Mlčoch_hog_npo_hired }
@@ -581,7 +581,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Rudolf_Slansky_for_van_hired }
@@ -608,7 +608,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Artur_London_for_col_hired }
@@ -635,7 +635,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Gertruda_Sekaninova_Čakrtova_for_lib_hired }
@@ -662,7 +662,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Arnost_Heidrich_for_sde_hired }
@@ -689,7 +689,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Frantisek_Josef_Kinsky_for_sli_hired }
@@ -716,7 +716,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Kamil_Krofta_for_mli_hired }
@@ -743,7 +743,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Petr_Zenkl_for_sco_hired }
@@ -770,7 +770,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Bedřich_Neumann_for_ade_hired }
@@ -797,7 +797,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Michael_Rustler_von_Neuenacker_for_ade_hired }
@@ -824,7 +824,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Josef_Svagrovsky_for_pau_hired }
@@ -851,7 +851,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Frantisek_Chvalkovsky_for_npo_hired }
@@ -878,7 +878,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Augustin_Kliment_eco_van_hired }
@@ -905,7 +905,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Zdeněk_Nejedly_eco_col_hired }
@@ -932,7 +932,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Frantiska_Plaminkova_eco_lib_hired }
@@ -959,7 +959,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Ludwig_Czech_eco_sde_hired }
@@ -986,7 +986,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Emil_Franke_eco_sli_hired }
@@ -1013,7 +1013,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Josef_Kalfus_eco_mli_hired }
@@ -1040,7 +1040,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jiři_Hejda_eco_sco_hired }
@@ -1067,7 +1067,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Vladislav_Brdlik_eco_ade_hired }
@@ -1097,7 +1097,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Vladimir_Kajdos_eco_pau_hired }
@@ -1116,7 +1116,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Vladimir_Kajdos_cos_pau
 			traits = {
@@ -1135,7 +1135,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jiři_Střibrny_eco_npo_hired }
@@ -1154,7 +1154,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Jiři_Střibrny_cos_npo
 			traits = {
@@ -1170,7 +1170,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Bruno_Kohler_sec_van_hired }
@@ -1197,7 +1197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Antonin_Srba_sec_col_hired }
@@ -1224,7 +1224,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Alfred_Meissner_sec_lib_hired }
@@ -1251,7 +1251,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Rudolf_Bechyne_sec_sde_hired }
@@ -1278,7 +1278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Prokop_Drtina_sec_sli_hired }
@@ -1305,7 +1305,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jaroslav_Stransky_sec_mli_hired }
@@ -1332,7 +1332,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Jan_Kapras_sec_sco_hired }
@@ -1359,7 +1359,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Robert_Mayr_Harting_sec_sco_hired }
@@ -1386,7 +1386,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Frantisek_Machnik_sec_ade_hired }
@@ -1413,7 +1413,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Josef_Jezek_sec_pau_hired }
@@ -1440,7 +1440,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = CZE_Ladislav_Kobsinek_sec_npo_hired }
@@ -1467,7 +1467,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Bruno_Sklenovsky_cos_mli
 			traits = {
@@ -1483,7 +1483,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Jan_Sergej_Ingr_cos_mli
 			traits = {
@@ -1499,7 +1499,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Jaroslav_Čihak_cos_mli
 			traits = {
@@ -1515,7 +1515,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = CZE_Frantisek_Bartos_cos_ade
 			traits = {
@@ -1531,7 +1531,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Bohumil_Bosek_carm_mli
 			traits = {
@@ -1547,7 +1547,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Frantisek_Zaviska_carm_mli
 			traits = {
@@ -1563,7 +1563,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Ludvik_Krejči_carm_mli
 			traits = {
@@ -1579,7 +1579,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Jaroslav_Eminger_carm_sco
 			traits = {
@@ -1595,7 +1595,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Jan_Syrovy_carm_ade
 			traits = {
@@ -1611,7 +1611,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = CZE_Otto_Blaha_carm_npo
 			traits = {
@@ -1627,7 +1627,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = CZE_Antonin_Hasal_cnav_mli
 			traits = {
@@ -1643,7 +1643,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = CZE_Robert_Rychtrmoc_cnav_npo
 			traits = {
@@ -1659,7 +1659,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = CZE_Jan_Prokop_cair_van
 			traits = {
@@ -1675,7 +1675,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = CZE_Josef_Frantisek_cair_mli
 			traits = {
@@ -1691,7 +1691,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = CZE_Karel_Janousek_cair_mli
 			traits = {
@@ -1707,7 +1707,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = CZE_Karel_Kuttelwascher_cair_mli
 			traits = {

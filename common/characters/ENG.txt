@@ -115,7 +115,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ENG_Alan_Brooke_cos
 			traits = {
@@ -166,7 +166,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_Claude_Auchinleck_carm
 			traits = {
@@ -285,7 +285,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ENG_Harold_Alexander_cos
 			traits = {
@@ -293,7 +293,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_Harold_Alexander_carm
 			traits = {
@@ -415,7 +415,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_Miles_Dempsey_carm
 			traits = {
@@ -650,7 +650,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Oswald_Mosley_hog_lib_hired }
@@ -669,7 +669,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Oswald_Mosley_eco_lib_hired }
@@ -696,7 +696,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Arthur_Greenwood_hog_sde_hired }
@@ -723,7 +723,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Hugh_Gaitskell_hog_sde_hired }
@@ -742,7 +742,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Hugh_Gaitskell_eco_sde_hired }
@@ -769,7 +769,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Richard_Acland_hog_sli_hired }
@@ -796,7 +796,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Archibald_Sinclair_hog_mli_hired }
@@ -823,7 +823,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Simon_hog_mli_hired }
@@ -850,7 +850,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Anthony_Eden_hog_sco_hired }
@@ -877,7 +877,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Robert_Cecil_hog_sco_hired }
@@ -904,7 +904,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Samuel_Hoare_hog_sco_hired }
@@ -931,7 +931,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Jack_Churchill_hog_ade_hired }
@@ -958,7 +958,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Henry_Page_Croft_hog_ade_hired }
@@ -997,7 +997,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Louis_Mountbatten_hog_pau_hired }
@@ -1016,7 +1016,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Louis_Mountbatten_cnav_pau
 			traits = {
@@ -1032,7 +1032,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Archibald_Ramsay_hog_npo_hired }
@@ -1059,7 +1059,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Rotha_Beryl_Lintorn_Orman_hog_val_hired }
@@ -1086,7 +1086,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Herbert_Morrison_for_sde_hired }
@@ -1113,7 +1113,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_E_H_Carr_for_sli_hired }
@@ -1140,7 +1140,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Violet_Bonham_Carter_for_mli_hired }
@@ -1167,7 +1167,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Walter_Runciman_for_mli_hired }
@@ -1197,7 +1197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Adrian_Carton_de_Wiart_for_sco_hired }
@@ -1235,7 +1235,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Colville_for_sco_hired }
@@ -1262,7 +1262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Robert_Boothby_for_sco_hired }
@@ -1289,7 +1289,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Arthur_Wellesley_for_ade_hired }
@@ -1316,7 +1316,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Vere_Ponsonby_for_ade_hired }
@@ -1343,7 +1343,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Hugo_Russell_for_pau_hired }
@@ -1370,7 +1370,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Alexander_Raven_Thomson_for_npo_hired }
@@ -1397,7 +1397,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Hugh_Dalton_eco_sde_hired }
@@ -1424,7 +1424,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_R_H_Tawney_eco_sli_hired }
@@ -1451,7 +1451,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Ernest_Simon_eco_mli_hired }
@@ -1478,7 +1478,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Isaac_Foot_eco_mli_hired }
@@ -1505,7 +1505,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Joseph_Kenworthy_eco_mli_hired }
@@ -1532,7 +1532,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_George_Lane_Fox_eco_sco_hired }
@@ -1559,7 +1559,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Siddeley_eco_sco_hired }
@@ -1586,7 +1586,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Montagu_Norman_eco_sco_hired }
@@ -1613,7 +1613,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Philip_Lloyd_Greame_eco_sco_hired }
@@ -1640,7 +1640,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Carnegie_eco_ade_hired }
@@ -1667,7 +1667,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Noel_Pemberton_Billing_eco_pau_hired }
@@ -1694,7 +1694,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Alliott_Vernon_Roe_eco_npo_hired }
@@ -1721,7 +1721,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_James_Chuter_Ede_sec_sde_hired }
@@ -1748,7 +1748,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_H_G_Wells_sec_sli_hired }
@@ -1775,7 +1775,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Ivor_Brown_sec_mli_hired }
@@ -1802,7 +1802,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Anderson_sec_mli_hired }
@@ -1829,7 +1829,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Desmond_Morton_sec_sco_hired }
@@ -1856,7 +1856,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Edward_Cavendish_sec_sco_hired }
@@ -1883,7 +1883,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Randolph_Churchill_sec_sco_hired }
@@ -1910,7 +1910,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Maxwell_Knight_sec_ade_hired }
@@ -1940,7 +1940,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Trafford_Leigh_Mallory_sec_ade_hired }
@@ -1959,7 +1959,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = ENG_Trafford_Leigh_Mallory_cair_ade
 			traits = {
@@ -1975,7 +1975,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Jeffrey_Hamm_sec_pau_hired }
@@ -2002,7 +2002,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_John_Beckett_sec_npo_hired }
@@ -2038,7 +2038,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ENG_John_Dill_cos
 			traits = {
@@ -2046,7 +2046,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_John_Dill_carm
 			traits = {
@@ -2074,7 +2074,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ENG_John_Vereker_cos
 			traits = {
@@ -2082,7 +2082,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_John_Vereker_carm
 			traits = {
@@ -2113,7 +2113,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = ENG_Edmund_Ironside_cos
 			traits = {
@@ -2121,7 +2121,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = ENG_Edmund_Ironside_carm
 			traits = {
@@ -2149,7 +2149,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Dudley_Pound_cnav
 			traits = {
@@ -2165,7 +2165,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Ernle_Chatfield_cnav
 			traits = {
@@ -2181,7 +2181,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Philip_Vian_cnav
 			traits = {
@@ -2197,7 +2197,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Roger_Keyes_cnav
 			traits = {
@@ -2238,7 +2238,7 @@ characters = {
 			coordination_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Tom_Phillips_cnav
 			traits = {
@@ -2254,7 +2254,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Winston_Churchill_cnav
 			traits = {
@@ -2270,7 +2270,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Leo_Amery_cnav
 			traits = {
@@ -2286,7 +2286,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = ENG_Duff_Cooper_cnav
 			traits = {
@@ -2302,7 +2302,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = ENG_Arthur_Tedder_cair
 			traits = {
@@ -2318,7 +2318,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = ENG_Charles_Portal_cair
 			traits = {
@@ -2334,7 +2334,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = ENG_Hugh_Trenchard_cair
 			traits = {
@@ -2350,7 +2350,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = ENG_John_Chamier_cair
 			traits = {
@@ -2367,7 +2367,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ENG_Edward_Windsor_hog_pau_hired }

@@ -55,15 +55,15 @@ country_event = { #Lenin Death
 			remove_idea = SOV_political_divide
 			add_idea = SOV_political_chaos
 		}
-    retire_character = SOV_Vladimir_Lenin
-    add_country_leader_role = {
-      character = SOV_Congress_of_Soviets
-      promote_leader = yes
-      country_leader = {
-        ideology = vansoc_subtype
-        traits = {}
-      }
-    }
+    	retire_character = SOV_Vladimir_Lenin
+		add_country_leader_role = {
+			character = SOV_Mikhail_Kalinin
+			promote_leader = yes
+			country_leader = {
+				ideology = vansoc_subtype
+				traits = {}
+			}
+		}
 		set_country_flag = SOV_LENIN_DEATH	
 	}	
 }
@@ -1505,14 +1505,14 @@ country_event = {
 		}
 		set_country_flag = SOV_Tukhachevsky_in_charge
 		load_focus_tree = sov_focus_tukhachevsky
-    add_country_leader_role = {
-      character = SOV_Mikhail_Tukhachevsky
-      promote_leader = yes
-      country_leader = {
-        ideology = vansoc_subtype
-        traits = { SOV_the_soldier }
-      }
-    }
+		add_country_leader_role = {
+		character = SOV_Mikhail_Tukhachevsky
+		promote_leader = yes
+			country_leader = {
+				ideology = vansoc_subtype
+				traits = { SOV_the_soldier }
+			}
+		}
 	hidden_effect = {
 		random_other_country = {
 			news_event = {
@@ -3173,7 +3173,7 @@ country_event = {
 	        }
         }
     }
-	country_event = {	
+country_event = {	
 	id = sovietpol.1114
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietpol.1114"}
 		title = "Voroshilov coups Tukhachevsky"
@@ -3208,23 +3208,23 @@ country_event = {
 				SOV_Mikhail_Tomskiy_eco_van
 				SOV_Genrikh_Yagoda_sec_van
 			}
-      add_country_leader_role = {
-        character = SOV_Kliment_Voroshilov
-        promote_leader = yes
-        country_leader = {
-          ideology = authsoc_subtype
-          traits = { SOV_the_general }
-        }
-      }
 			effect_tooltip = {
-			retire_character = SOV_Mikhail_Tukhachevsky
-		}
-		hidden_effect = {
-			SOV_Mikhail_Tukhachevsky = { set_nationality = XXB }
-		}
+				retire_character = SOV_Mikhail_Tukhachevsky
+			}
+			hidden_effect = {
+				retire_country_leader = yes
+			}
+			add_country_leader_role = {
+				character = SOV_Kliment_Voroshilov
+				promote_leader = yes
+				country_leader = {
+					ideology = authsoc_subtype
+					traits = { SOV_the_general }
+				}
+			}
     }
-  }
-	country_event = {	
+}
+country_event = {	
 	id = sovietpol.1115
 	immediate = {log = "[GetDateText]: [Root.GetName]: event sovietpol.1115"}
 		title = "Yezhov and Voroshilov protest agains Tukhachevsky"

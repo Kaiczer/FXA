@@ -64,7 +64,7 @@ characters = {
       traits = {}
     }
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Pehr_Evind_Svinhufvud_hog_sco_hired }
@@ -125,7 +125,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Carl_Gustav_Mannerheim_hog_ade_hired }
@@ -144,7 +144,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FIN_Carl_Gustav_Mannerheim_cos_ade
 			traits = {
@@ -165,7 +165,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vihtori_Kosola_sec_pau_hired }
@@ -197,7 +197,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vilho_Annala_hog_npo_hired }
@@ -229,7 +229,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vilho_Helanen_sec_val_hired }
@@ -273,7 +273,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Karl_Lennart_Oesch_hog_hired }
@@ -291,7 +291,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Karl_Lennart_Oesch_sec_hired }
@@ -309,7 +309,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FIN_Karl_Lennart_Oesch_carm
 			traits = {
@@ -338,7 +338,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FIN_Erik_Heinrichs_cos
 			traits = {
@@ -370,7 +370,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vilho_Petter_Nenonen_sec_ade_hired }
@@ -389,7 +389,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FIN_Vilho_Petter_Nenonen_carm_ade
 			traits = {
@@ -417,7 +417,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FIN_Lauri_Malmberg_cos
 			traits = {
@@ -449,7 +449,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Aarne_Sihvo_for_ade_hired }
@@ -468,7 +468,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Aarne_Sihvo_sec_ade_hired }
@@ -487,7 +487,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FIN_Aarne_Sihvo_cos_ade
 			traits = {
@@ -518,7 +518,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Aksel_Airo_for_ade_hired }
@@ -537,7 +537,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FIN_Aksel_Airo_carm_ade
 			traits = {
@@ -601,7 +601,7 @@ characters = {
 			coordination_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FIN_Vaino_Valve_cnav
 			traits = {
@@ -628,7 +628,7 @@ characters = {
 			coordination_skill = 2
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = FIN_Eero_Rahola_cnav
 			traits = {
@@ -676,7 +676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Arvo_Tuominen_hog_van_hired }
@@ -695,7 +695,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Arvo_Tuominen_for_van_hired }
@@ -722,7 +722,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Tuomas_Hyrskymurto_hog_van_hired }
@@ -749,7 +749,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Adolf_Taimi_hog_col_hired }
@@ -776,7 +776,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Jaakko_Kivi_hog_lib_hired }
@@ -803,7 +803,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Karl_August_Fagerholm_hog_sde_hired }
@@ -830,7 +830,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Juho_Sunila_hog_sli_hired }
@@ -857,7 +857,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Aimo_Cajander_hog_mli_hired }
@@ -884,7 +884,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Oskari_Mantere_hog_mli_hired }
@@ -911,7 +911,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Edwin_Linkomies_hog_sco_hired }
@@ -938,7 +938,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Juho_Kusti_Paasikivi_hog_sco_hired }
@@ -965,7 +965,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Paavo_Virkkunen_hog_sco_hired }
@@ -995,7 +995,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Karl_Fredrik_Wilkama_hog_ade_hired }
@@ -1014,7 +1014,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = FIN_Karl_Fredrik_Wilkama_carm_ade
 			traits = {
@@ -1030,7 +1030,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Rafael_Erich_hog_pau_hired }
@@ -1057,7 +1057,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Bruno_Salmiala_hog_npo_hired }
@@ -1084,7 +1084,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Ville_Pessi_for_col_hired }
@@ -1111,7 +1111,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Yrjo_Sirola_for_col_hired }
@@ -1138,7 +1138,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Hannes_Pulkkinen_for_lib_hired }
@@ -1165,7 +1165,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vaino_Voionmaa_for_sde_hired }
@@ -1192,7 +1192,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Urho_Kekkonen_for_sli_hired }
@@ -1219,7 +1219,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Eljas_Erkko_for_mli_hired }
@@ -1246,7 +1246,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Toivo_Mikael_Kivimaki_for_mli_hired }
@@ -1273,7 +1273,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Aarno_Yrjo_Koskinen_for_sco_hired }
@@ -1300,7 +1300,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Kaarle_Nestor_Rantakari_for_pau_hired }
@@ -1327,7 +1327,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Paavo_Hynninen_for_pau_hired }
@@ -1354,7 +1354,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Arne_Somersalo_for_npo_hired }
@@ -1381,7 +1381,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Eero_Haapalainen_eco_van_hired }
@@ -1408,7 +1408,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Edvard_Gylling_eco_col_hired }
@@ -1435,7 +1435,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Elin_Airamo_eco_lib_hired }
@@ -1462,7 +1462,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Frans_Hiilos_eco_lib_hired }
@@ -1489,7 +1489,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Hannes_Ryoma_eco_sde_hired }
@@ -1516,7 +1516,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Mauno_Pekkala_eco_sde_hired }
@@ -1543,7 +1543,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vaino_Salovaara_eco_sde_hired }
@@ -1570,7 +1570,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Albin_Manner_eco_sli_hired }
@@ -1597,7 +1597,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Eemil_Linna_eco_mli_hired }
@@ -1624,7 +1624,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Juho_Vennola_eco_mli_hired }
@@ -1651,7 +1651,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Risto_Ryti_eco_mli_hired }
@@ -1678,7 +1678,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Kyosti_Jarvinen_eco_sco_hired }
@@ -1705,7 +1705,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Oskari_Lehtonen_eco_sco_hired }
@@ -1735,7 +1735,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Jarl_Lundqvist_eco_ade_hired }
@@ -1754,7 +1754,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FIN_Jarl_Lundqvist_cair_ade
 			traits = {
@@ -1770,7 +1770,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Karl_Alfred_Paloheimo_eco_pau_hired }
@@ -1797,7 +1797,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Jussi_Muilu_eco_npo_hired }
@@ -1824,7 +1824,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Rafael_Haarla_eco_npo_hired }
@@ -1851,7 +1851,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Akseli_Anttila_sec_van_hired }
@@ -1878,7 +1878,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Eino_Rahja_sec_van_hired }
@@ -1905,7 +1905,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Evert_Eloranta_sec_col_hired }
@@ -1932,7 +1932,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Toivo_Alavirta_sec_col_hired }
@@ -1959,7 +1959,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Kaarlo_Heinonen_sec_sde_hired }
@@ -1986,7 +1986,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Vaino_Hakkila_sec_sde_hired }
@@ -2013,7 +2013,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Juho_Niukkanen_sec_sli_hired }
@@ -2040,7 +2040,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Urho_Castren_sec_sco_hired }
@@ -2067,7 +2067,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Hjalmar_Procope_sec_pau_hired }
@@ -2094,7 +2094,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Elias_Simojoki_sec_npo_hired }
@@ -2121,7 +2121,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = FIN_Martti_Pihkala_sec_npo_hired }
@@ -2148,7 +2148,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = FIN_Hugo_Osterman_cos_ade
 			traits = {
@@ -2164,7 +2164,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = FIN_Vaino_Vuori_cair_ade
 			traits = {

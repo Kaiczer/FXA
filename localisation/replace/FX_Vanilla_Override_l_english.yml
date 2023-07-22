@@ -28,5 +28,6 @@ EXECUTE_HISTORY: "Reinstalling the Kaiser"
 CREATING_CHKSUM: "Dispersing the Protesters"
 GENERATING_GRADIENT_BORDERS: "Supporting a Red South America"
 
-CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED: "\n§HMinisters can only be changed through focuses, events or decisions.§!"
-CHARACTER_ADVISOR_CANT_BE_FIRED: "\n§RMinister cannot be manually dismissed§!"
+CHARACTER_ADVISOR_ON_REMOVE_TOOLTIP: "\nWhen dismissed:"
+CHARACTER_ADVISOR_CANT_BE_FIRED_ONCE_HIRED: "\n§RAdvisor can not be dismissed once hired§!"
+CHARACTER_ADVISOR_CANT_BE_FIRED: ""

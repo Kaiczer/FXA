@@ -448,36 +448,6 @@ ideas = {
 				}
 			}
 		}
-		
-		macedonian_trade = {
-			picture = macedonian_trade
-			level = 10
-			removal_cost = -1
-			cancel_if_invalid = no
-			available = {
-				original_tag = BUL
-			}
-			ai_will_do = {
-				factor = 1000
-				modifier = {
-					factor = 0
-					NOT = {
-						original_tag = MAC
-					}
-				}
-			}
-			visible = {
-				original_tag = MAC
-			}
-			modifier = {
-				min_export = 0
-				industrial_capacity_factory = 1
-				industrial_capacity_dockyard = 1
-				production_speed_buildings_factor = 1
-				research_speed_factor = 1
-
-			}
-		}
 	}
 
 	mobilization_laws = {
@@ -715,34 +685,6 @@ ideas = {
 					factor = 0
 					manpower_per_military_factory >  5000
 				}
-			}
-		}
-		macedonian_legions = {
-			level = 1
-			removal_cost = -1
-			cancel_if_invalid = no
-			picture = macedonian_legions
-			available = {
-				original_tag = MAC
-			}
-			visible = {
-				original_tag = MAC
-			}
-			ai_will_do = {
-				factor = 1000
-				modifier = {
-					factor = 0
-					NOT = {
-						original_tag = MAC
-					}
-				}
-			}
-			modifier = {
-				conscription = 1
-				training_time_factor = -0.98
-				industrial_capacity_dockyard = 1
-				industrial_capacity_factory = 1
-				research_speed_factor = 1
 			}
 		}
 	}

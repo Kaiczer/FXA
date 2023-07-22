@@ -12,7 +12,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jose_Cazorla_Maure_hog_van_hired }
@@ -44,7 +44,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jose_Diaz_Ramos_hog_col_hired }
@@ -63,7 +63,7 @@ characters = {
 			}
     }
     advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jose_Diaz_Ramos_sec_col_hired }
@@ -95,7 +95,7 @@ characters = {
 			traits = { }
 		}
     advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
@@ -127,7 +127,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Juan_Negrin_hog_sde_hired }
@@ -187,7 +187,7 @@ characters = {
 			logistics_skill = 1
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Buenaventura_Durruti_sec_col_hired }
@@ -206,7 +206,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SPA_Buenaventura_Durruti_cos_col
 			traits = {
@@ -214,7 +214,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SPA_Buenaventura_Durruti_carm_col
 			traits = {
@@ -261,7 +261,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SPA_Enrique_Lister_Forjan_cos_van
 			traits = {
@@ -269,7 +269,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SPA_Enrique_Lister_Forjan_carm_van
 			traits = {
@@ -294,7 +294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Dolores_Ibarruri_hog_col_hired }
@@ -313,7 +313,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Dolores_Ibaurri_for_van_hired }
@@ -332,7 +332,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Dolores_Ibaurri_sec_van_hired }
@@ -360,7 +360,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_hog_col_hired }
@@ -379,7 +379,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_for_col_hired }
@@ -398,7 +398,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_sec_col_hired }
@@ -425,7 +425,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Santiago_Carrillo_Solares_hog_van_hired }
@@ -452,7 +452,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Vicente_Uribe_Galdeano_hog_col_hired }
@@ -471,7 +471,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Vicente_Uribe_Galdeano_eco_col_hired }
@@ -499,7 +499,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
@@ -526,7 +526,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
@@ -545,7 +545,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
@@ -572,7 +572,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
@@ -599,7 +599,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Anastasio_de_Gracia_Villarrubia_hog_sde_hired }
@@ -618,7 +618,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Anastasio_de_Garcia_Villarrubia_eco_sde_hired }
@@ -645,7 +645,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jesus_Hernandez_y_Tomas_for_van_hired }
@@ -664,7 +664,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jesus_Hernandez_y_Tomas_eco_van_hired }
@@ -695,7 +695,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Jordi_Arquer_for_lib_hired }
@@ -722,7 +722,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Eduardo_de_Guzman_for_col_hired }
@@ -749,7 +749,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
@@ -776,7 +776,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
@@ -803,7 +803,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
@@ -822,7 +822,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
@@ -849,7 +849,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Enrique_Castro_Delgado_eco_van_hired }
@@ -876,7 +876,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Rafael_Vidiella_Franch_eco_col_hired }
@@ -903,7 +903,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Miquel_Valdes_i_Valdes_eco_col_hired }
@@ -930,7 +930,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Federica_Monsteny_Mane_eco_col_hired }
@@ -957,7 +957,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Joaquin_Ascaso_Budria_eco_col_hired }
@@ -990,7 +990,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Juan_Lopez_Sanchez_eco_col_hired }
@@ -1009,7 +1009,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SPA_Juan_Lopez_Sanchez_cnav_col
 			traits = {
@@ -1017,7 +1017,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SPA_Juan_Lopez_Sanchez_cair_col
 			traits = {
@@ -1039,7 +1039,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Juan_Peiro_Belis_eco_col_hired }
@@ -1058,7 +1058,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = SPA_Juan_Peiro_Belis_cnav_col
 			traits = {
@@ -1066,7 +1066,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = SPA_Juan_Peiro_Belis_cair_col
 			traits = {
@@ -1082,7 +1082,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
@@ -1109,7 +1109,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
@@ -1136,7 +1136,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Antonio_Mije_sec_van_hired }
@@ -1163,7 +1163,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Joaquin_Grimau_Garcia_sec_van_hired }
@@ -1190,7 +1190,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Valentin_Gonzalez_Gonzalez_sec_van_hired }
@@ -1217,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
@@ -1244,7 +1244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
@@ -1271,7 +1271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = {
 				hidden_trigger = { has_country_flag = SPA_Indalecio_Prieto_sec_sde_hired }
@@ -1298,7 +1298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SPA_Emilio_Kleber_cos_van
 			traits = {
@@ -1314,7 +1314,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = SPA_Francisco_Ascaso_Budria_cos_col
 			traits = {
@@ -1322,7 +1322,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = SPA_Francisco_Ascaso_Budria_carm_col
 			traits = {

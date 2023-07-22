@@ -1213,21 +1213,19 @@ ideas = {
 
 		MAN_french_democracy = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_french_democracy"}
-		picture = generic_scales
+			picture = generic_scales
 
-		allowed = {
-			always = no
-		}
-
-		modifier = {
-			#these costs factors aren't working proprely, increased pp factor from 0.05 to 0.15 to compensate
-			# turned it back
-			political_advisor_cost_factor = -0.10
-			mobilization_laws_cost_factor = -0.10
-			economy_cost_factor = -0.10
-			political_power_factor = 0.05 
+			allowed = {
+				always = no
 			}
-	}
+
+			modifier = {
+				political_advisor_cost_factor = -0.10
+				mobilization_laws_cost_factor = -0.10
+				economy_cost_factor = -0.10
+				political_power_factor = 0.05 
+			}
+		}
 
 		MAN_polish_democracy = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea MAN_polish_democracy"}

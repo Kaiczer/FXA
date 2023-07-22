@@ -1,31 +1,4 @@
 add_starting_ministers = {
-  # Afganistan 
-  AFG = {
-    add_ideas = {
-      AFG_Shah_Wali_Khan_hog_ade
-      AFG_Abdul_Hadi_Dawai_for_ade
-      AFG_Ahmad_Ali_Khan_Solaiman_eco_ade
-      AFG_Muhammed_Ghobar_sec_ade
-    }
-  }
-  # Arabia
-  ARB = {
-    add_ideas = {
-      ARB_Abd_al_Ilah_hog_pau
-      ARB_Sabah_al_Salem_al_Sabah_for_ade
-      ARB_Mohammed_bin_Awad_bin_Laden_eco_ade
-      ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade
-    }
-  }
-  # Argentina
-  ARG = {
-    add_ideas = {
-      ARG_Marcelo_T_de_Alvear_hog_sli
-      ARG_Miguel_Angel_Zabala_Ortiz_for_sli
-      ARG_Guillermo_Rothe_eco_sli
-      ARG_Arturo_Frondizi_sec_sli
-    }
-  }
   # Belgium
   BEL = {
     add_ideas = {
@@ -213,15 +186,6 @@ add_starting_ministers = {
       INS_Achmad_Soebardjo_for_ade
       INS_Alexander_Maramis_eco_ade
       INS_Sahardjo_sec_ade
-    }
-  }
-  # Japan
-  JAP = {
-    add_ideas = {
-      JAP_Inukai_Tsuyoshi_hog_sco
-      JAP_Yoshida_Shigeru_for_sco
-      JAP_Tsushima_Juichi_eco_sco
-      JAP_Kawamura_Takeji_sec_sco
     }
   }
   # Manchuria

@@ -20,7 +20,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 3 }
-    	fire_only_once = yes
+    fire_only_once = yes
 	
 	option = {
 		name = gre.0.a
@@ -29,14 +29,12 @@ country_event = {
 			country_event = {
 				id = gre.1
 			}
-			GRE = {
-				# add_ideas = {
-					activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
-					activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
-					activate_advisor = GRE_Alexandros_Diomidis_eco_sli
-					activate_advisor = GRE_Georgios_Maris_sec_sli
-				# }
-			}
+			# GRE = {
+			# 	# activate_advisor = GRE_Eleftherios_Kyriakou_Venizelos_hog_sli
+			# 	# activate_advisor = GRE_Andreas_Michalakopoulos_for_sli
+			# 	# activate_advisor = GRE_Alexandros_Diomidis_eco_sli
+			# 	# activate_advisor = GRE_Georgios_Maris_sec_sli
+			# }
 		}
 	}
 }

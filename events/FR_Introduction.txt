@@ -10,7 +10,7 @@ country_event = {
 	immediate = {
     log = "[GetDateText]: [Root.GetName]: event intro.1"
     	hidden_effect = {
-      	add_starting_ministers = yes
+      		
     	}
   	}
 	title = intro.1.t

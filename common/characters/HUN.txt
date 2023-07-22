@@ -168,7 +168,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Karoly_Beregfy_cos
 			traits = {
@@ -426,7 +426,7 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = HUN_Miklos_Horthy_cnav
 			traits = {
@@ -442,7 +442,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Laszlo_Rajk_hog_van_hired }
@@ -469,7 +469,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Sandor_Garbai_hog_col_hired }
@@ -496,7 +496,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Arpad_Szakasits_hog_sde_hired }
@@ -523,7 +523,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Karoly_Rassay_hog_sli_hired }
@@ -550,7 +550,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Bela_Miklos_de_Dalnok_hog_sco_hired }
@@ -577,7 +577,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Endre_Bajcsy_Zsilinszky_hog_sco_hired }
@@ -604,7 +604,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Janos_Esterhazy_hog_sco_hired }
@@ -631,7 +631,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Zoltan_Tildy_hog_sco_hired }
@@ -658,7 +658,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Ferenc_Keresztes_Fischer_hog_ade_hired }
@@ -685,7 +685,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Geza_Lakatos_de_Csikszentsimon_hog_ade_hired }
@@ -712,7 +712,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Istvan_Bethlen_hog_ade_hired }
@@ -739,7 +739,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Karoly_Bartha_de_Dalnokfalva_hog_ade_hired }
@@ -766,7 +766,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Pal_Teleki_de_Szek_hog_ade_hired }
@@ -785,7 +785,7 @@ characters = {
 			}
 		}
     advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Pal_Teleki_de_Szek_for_ade_hired }
@@ -812,7 +812,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Dezső_Pattantyus_Abraham_hog_pau_hired }
@@ -839,7 +839,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gyula_Gombos_de_Jakfa_hog_pau_hired }
@@ -866,7 +866,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Kalman_Daranyi_de_Pusztaszentgyorgyi_hog_pau_hired }
@@ -893,7 +893,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Laszlo_Bardossy_hog_pau_hired }
@@ -920,7 +920,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Erik_Molnar_for_van_hired }
@@ -947,7 +947,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Mate_Zalka_for_van_hired }
@@ -974,7 +974,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jozsef_Pogany_for_col_hired }
@@ -1001,7 +1001,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Imre_Csaky_for_mli_hired }
@@ -1028,7 +1028,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Moric_Esterhazy_for_mli_hired }
@@ -1055,7 +1055,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Francois_Deak_for_sco_hired }
@@ -1082,7 +1082,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Janos_Gyongyosi_for_sco_hired }
@@ -1109,7 +1109,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Edgar_Keksz_for_ade_hired }
@@ -1136,7 +1136,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gustav_Hennyey_for_pau_hired }
@@ -1163,7 +1163,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Istvan_Csaky_for_pau_hired }
@@ -1190,7 +1190,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jenő_Ghyczy_for_pau_hired }
@@ -1217,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Kalman_Kanya_for_pau_hired }
@@ -1244,7 +1244,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Kallay_de_Nagykallo_for_pau_hired }
@@ -1271,7 +1271,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = foreign_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gabor_Kemeny_for_npo_hired }
@@ -1298,7 +1298,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Ernő_Gerő_eco_van_hired }
@@ -1325,7 +1325,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Zoltan_Vas_eco_van_hired }
@@ -1352,7 +1352,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Rezső_Fiedler_eco_col_hired }
@@ -1379,7 +1379,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Bela_Zsedenyi_eco_sli_hired }
@@ -1406,7 +1406,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gusztav_Gratz_eco_mli_hired }
@@ -1433,7 +1433,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Olgyay_eco_sco_hired }
@@ -1460,7 +1460,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Imre_Oltvanyi_eco_ade_hired }
@@ -1487,7 +1487,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Istvan_Winchkler_eco_ade_hired }
@@ -1514,7 +1514,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Bela_Imredy_de_Omoravia_eco_pau_hired }
@@ -1541,7 +1541,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Laszlo_Endre_eco_pau_hired }
@@ -1568,7 +1568,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Lajos_Remenyi_Schneller_eco_pau_hired }
@@ -1595,7 +1595,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Tihamer_Fabinyi_eco_pau_hired }
@@ -1622,7 +1622,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = economy_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jenő_Racz_eco_npo_hired }
@@ -1649,7 +1649,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Ferenc_Erdei_sec_van_hired }
@@ -1676,7 +1676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Mihaly_Farkas_sec_van_hired }
@@ -1703,7 +1703,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Bela_Vago_sec_col_hired }
@@ -1730,7 +1730,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jozsef_Revai_sec_col_hired }
@@ -1757,7 +1757,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Karoly_Peyer_sec_sde_hired }
@@ -1784,7 +1784,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Oszkar_Jaszi_sec_sli_hired }
@@ -1811,7 +1811,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gabor_Ugron_sec_mli_hired }
@@ -1838,7 +1838,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Jozsef_Szell_sec_sco_hired }
@@ -1865,7 +1865,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Bonczos_sec_sco_hired }
@@ -1892,7 +1892,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Laszlo_Baky_sec_ade_hired }
@@ -1919,7 +1919,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Banffy_sec_ade_hired }
@@ -1946,7 +1946,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Kalman_Szell_sec_pau_hired }
@@ -1973,7 +1973,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Miklos_Kozma_sec_pau_hired }
@@ -2000,7 +2000,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Andor_Jaross_sec_npo_hired }
@@ -2027,7 +2027,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = security_minister
 			available = { 
 				hidden_trigger = { has_country_flag = HUN_Gabor_Vajna_sec_npo_hired }
@@ -2054,7 +2054,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Antal_Lehar_cos
 			traits = {
@@ -2070,7 +2070,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Ferenc_Szombathelyi_cos
 			traits = {
@@ -2086,7 +2086,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Gusztav_Cziegler_cos
 			traits = {
@@ -2102,7 +2102,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Vilmos_Rőder_cos
 			traits = {
@@ -2118,7 +2118,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = high_command
 			idea_token = HUN_Sandor_Szurmay_cos
 			traits = {
@@ -2134,7 +2134,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Nikolaj_Berzin_carm
 			traits = {
@@ -2150,7 +2150,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Janos_Voros_carm
 			traits = {
@@ -2166,7 +2166,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Hugo_Sonyi_carm
 			traits = {
@@ -2182,7 +2182,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Henrik_Werth_carm
 			traits = {
@@ -2198,7 +2198,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Kalman_Shvoy_carm
 			traits = {
@@ -2214,7 +2214,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = army_chief
 			idea_token = HUN_Lajos_Csatay_de_Csataj_carm
 			traits = {
@@ -2230,7 +2230,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = HUN_Kalman_Hardy_cnav
 			traits = {
@@ -2246,7 +2246,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = HUN_Rezső_Kasztner_cnav
 			traits = {
@@ -2262,7 +2262,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = navy_chief
 			idea_token = HUN_Sandor_Csia_cnav
 			traits = {
@@ -2278,7 +2278,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = HUN_Bela_Rakosi_cair
 			traits = {
@@ -2294,7 +2294,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = HUN_Kalman_Ternegg_Ratz_cair
 			traits = {
@@ -2310,7 +2310,7 @@ characters = {
 			}
 		}
 		advisor = {
-			cost = 0
+			
 			slot = air_chief
 			idea_token = HUN_Laszlo_Tomor_cair
 			traits = {
