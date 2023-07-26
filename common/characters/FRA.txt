@@ -13,7 +13,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Marcel_Deat_eco_van_hired }
 			}
@@ -113,7 +113,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Marin_sec_sco_hired }
 			}
@@ -164,7 +164,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_de_La_Rocque_sec_ade_hired }
 			}
@@ -866,7 +866,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Ernest_Mercier_sec_pau_hired }
 			}
@@ -1021,7 +1021,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jacques_Duclos_for_van_hired }
 			}
@@ -1048,7 +1048,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Charles_Rappoport_for_col_hired }
 			}
@@ -1075,7 +1075,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Nestor_Makhno_for_lib_hired }
 			}
@@ -1102,7 +1102,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Pierre_Laval_for_sde_hired }
 			}
@@ -1129,7 +1129,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_George_Bonnet_for_sli_hired }
 			}
@@ -1156,7 +1156,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Camille_Barrere_for_sco_hired }
 			}
@@ -1183,7 +1183,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Georges_Mandel_for_sco_hired }
 			}
@@ -1210,7 +1210,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Paul_Baudouin_for_ade_hired }
 			}
@@ -1237,7 +1237,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Joseph_Darnand_for_pau_hired }
 			}
@@ -1264,7 +1264,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Maurice_Pujo_for_npo_hired }
 			}
@@ -1291,7 +1291,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Daniel_Renoult_eco_col_hired }
 			}
@@ -1318,7 +1318,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Leon_Jouhaux_eco_col_hired }
 			}
@@ -1345,7 +1345,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Tanguy_eco_lib_hired }
 			}
@@ -1372,7 +1372,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Zay_eco_sde_hired }
 			}
@@ -1399,7 +1399,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Andre_Tardieu_eco_mli_hired }
 			}
@@ -1431,7 +1431,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Pierre_Etienne_Flandin_eco_mli_hired }
 			}
@@ -1458,7 +1458,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Charles_Vallin_eco_ade_hired }
 			}
@@ -1485,7 +1485,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Marie_Eugene_Debeney_eco_ade_hired }
 			}
@@ -1512,7 +1512,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Eugene_Schueller_eco_pau_hired }
 			}
@@ -1539,7 +1539,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Francois_Coty_eco_pau_hired }
 			}
@@ -1566,7 +1566,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Eugene_Deloncle_eco_npo_hired }
 			}
@@ -1593,7 +1593,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Claudine_Chomat_sec_van_hired }
 			}
@@ -1620,7 +1620,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Bonnet_sec_col_hired }
 			}
@@ -1647,7 +1647,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Gourdeaux_sec_col_hired }
 			}
@@ -1674,7 +1674,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_May_Picqueray_sec_lib_hired }
 			}
@@ -1701,7 +1701,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Albert_Sarraut_sec_sli_hired }
 			}
@@ -1728,7 +1728,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Jean_Fabry_sec_sli_hired }
 			}
@@ -1755,7 +1755,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_George_Lamirand_sec_pau_hired }
 			}
@@ -1782,7 +1782,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Louis_Renault_sec_pau_hired }
 			}
@@ -1809,7 +1809,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = FRA_Henri_Massis_sec_npo_hired }
 			}

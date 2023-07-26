@@ -68,19 +68,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Paul_Henri_Spaak_for_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Paul_Henri_Spaak_for_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Paul_Henri_Spaak_for_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Paul_Henri_Spaak_for_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_moderate_among_radicals
@@ -104,60 +96,25 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_hog_val_hired }
-			}
 			idea_token = BEL_Leon_Degrelle_hog_val
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Leon_Degrelle_hog_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Leon_Degrelle_hog_val_hired }
-			}
 			traits = {
 				valkist
 				hog_underground_figurehead
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_for_val_hired }
+				has_authoritarian_government = yes 
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BEL_Leon_Degrelle_for_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Leon_Degrelle_for_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Leon_Degrelle_for_val_hired }
-			}
 			traits = {
 				valkist
 				for_the_cloak_n_dagger_schemer
-			}
-		}
-		advisor = {
-			
-			slot = economy_minister
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Leon_Degrelle_eco_val_hired }
-			}
-			idea_token = BEL_Leon_Degrelle_eco_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Leon_Degrelle_eco_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Leon_Degrelle_eco_val_hired }
-			}
-			traits = {
-				valkist
-				eco_planned_economy_proponent
 			}
 		}
 	}
@@ -170,19 +127,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Joseph_Jacquemotte_hog_lib_hired }
-			}
 			idea_token = BEL_Joseph_Jacquemotte_hog_lib
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Joseph_Jacquemotte_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Joseph_Jacquemotte_hog_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				hog_red_chairmen
@@ -198,19 +146,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Julien_Lahaut_hog_col_hired }
-			}
 			idea_token = BEL_Julien_Lahaut_hog_col
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Julien_Lahaut_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Julien_Lahaut_hog_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				hog_ambitious_union_boss
@@ -234,19 +173,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Staf_de_Clercq_hog_npo_hired }
-			}
 			idea_token = BEL_Staf_de_Clercq_hog_npo
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Staf_de_Clercq_hog_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Staf_de_Clercq_hog_npo_hired }
-			}
 			traits = {
 				national_populist
 				hog_determined_populist
@@ -292,7 +222,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Victor_Van_Strydonck_de_Burkel_cos
 			traits = {
@@ -300,7 +230,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Victor_Van_Strydonck_de_Burkel_carm
 			traits = {
@@ -346,7 +276,7 @@ characters = {
 			coordination_skill = 4
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BEL_Georges_Timmermans_cnav
 			traits = {
@@ -378,38 +308,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_War_van_Overstraeten_hog_col_hired }
-			}
 			idea_token = BEL_War_van_Overstraeten_hog_col
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_War_van_Overstraeten_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_War_van_Overstraeten_hog_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				hog_sincere_internationalist
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_War_van_Overstraeten_for_col_hired }
+				has_socialist_government = yes 
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BEL_War_van_Overstraeten_for_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_War_van_Overstraeten_for_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_War_van_Overstraeten_for_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				for_radical_among_moderates
@@ -424,19 +338,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Lucie_Dejardin_hog_lib_hired }
-			}
 			idea_token = BEL_Lucie_Dejardin_hog_lib
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Lucie_Dejardin_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Lucie_Dejardin_hog_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				hog_naive_optimist
@@ -451,19 +356,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Achille_Van_Acker_hog_sde_hired }
-			}
 			idea_token = BEL_Achille_Van_Acker_hog_sde
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Achille_Van_Acker_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Achille_Van_Acker_hog_sde_hired }
-			}
 			traits = {
 				social_democrat
 				hog_happy_amateur
@@ -478,19 +374,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0 
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Victor_de_Laveleye_hog_sli_hired }
-			}
 			idea_token = BEL_Victor_de_Laveleye_hog_sli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Victor_de_Laveleye_hog_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Victor_de_Laveleye_hog_sli_hired }
-			}
 			traits = {
 				social_liberal
 				hog_political_protege
@@ -505,38 +392,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Frans_Van_Cauwelaert_hog_sco_hired }
-			}
 			idea_token = BEL_Frans_Van_Cauwelaert_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Frans_Van_Cauwelaert_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Frans_Van_Cauwelaert_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_silent_workhorse
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Frans_Van_Cauwelaert_for_sco_hired }
+				not_already_hired_except_as = political_advisor
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Frans_Van_Cauwelaert_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Frans_Van_Cauwelaert_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Frans_Van_Cauwelaert_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_foreign_sympathizer
@@ -551,19 +422,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Hubert_Pierlot_hog_sco_hired }
-			}
 			idea_token = BEL_Hubert_Pierlot_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Hubert_Pierlot_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Hubert_Pierlot_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_accomplished_diplomat
@@ -574,24 +436,15 @@ characters = {
 		name = "Paul Van Zeeland"
 		portraits = {
 			civilian = {
-        large = "gfx/leaders/BEL/Portrait_BEL_Paul_van_Zeeland.png"
+      			large = "gfx/leaders/BEL/Portrait_BEL_Paul_van_Zeeland.png"
 				small = "gfx/interface/ministers/BEL/BEL_Paul_Van_Zeeland.png"
 			}
 		}
 		advisor = {
-			
+			cost = 0	
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Paul_Van_Zeeland_hog_sco_hired }
-			}
 			idea_token = BEL_Paul_Van_Zeeland_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Paul_Van_Zeeland_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Paul_Van_Zeeland_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_corporate_suit
@@ -606,19 +459,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Dr_August_Borms_hog_ade_hired }
-			}
 			idea_token = BEL_Dr_August_Borms_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Dr_August_Borms_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Dr_August_Borms_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_flamboyant_tough_guy
@@ -634,19 +478,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BEL_Joris_Van_Severen_hog_pau_hired }
-			}
 			idea_token = BEL_Joris_Van_Severen_hog_pau
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Joris_Van_Severen_hog_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Joris_Van_Severen_hog_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				hog_happy_amateur
@@ -661,19 +496,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Edgar_Lalmand_for_van_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BEL_Edgar_Lalmand_for_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Edgar_Lalmand_for_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Edgar_Lalmand_for_van_hired }
-			}
 			traits = {
 				auth_socialist
 				for_foreign_sympathizer
@@ -688,19 +515,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Louis_Paul_Boon_for_lib_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BEL_Louis_Paul_Boon_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Louis_Paul_Boon_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Louis_Paul_Boon_for_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				for_foreign_sympathizer
@@ -715,19 +534,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Camille_Huysmans_for_sde_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_Camille_Huysmans_for_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Camille_Huysmans_for_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Camille_Huysmans_for_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_biased_intellectual
@@ -742,19 +553,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jules_Pire_for_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Jules_Pire_for_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jules_Pire_for_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jules_Pire_for_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_apologetic_clerk
@@ -769,19 +572,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Eugene_Soudan_for_sli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Eugene_Soudan_for_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Eugene_Soudan_for_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Eugene_Soudan_for_sli_hired }
-			}
 			traits = {
 				social_liberal
 				for_great_compromiser
@@ -796,19 +591,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Roger_Motz_for_mli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Roger_Motz_for_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Roger_Motz_for_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Roger_Motz_for_mli_hired }
-			}
 			traits = {
 				market_liberal
 				for_relations_expert
@@ -823,19 +610,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Gaston_Eyskens_for_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Gaston_Eyskens_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Gaston_Eyskens_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Gaston_Eyskens_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_iron_fisted_brute
@@ -850,19 +629,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Charles_d_Aspremont_Lynden_for_ade_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BEL_Charles_d_Aspremont_Lynden_for_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Charles_d_Aspremont_Lynden_for_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Charles_d_Aspremont_Lynden_for_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				for_relations_expert
@@ -877,19 +648,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Ward_Hermans_for_pau_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = BEL_Ward_Hermans_for_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Ward_Hermans_for_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Ward_Hermans_for_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				for_general_staffer
@@ -904,19 +667,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jef_Francois_for_npo_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = BEL_Jef_Francois_for_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jef_Francois_for_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jef_Francois_for_npo_hired }
-			}
 			traits = {
 				national_populist
 				for_apologetic_clerk
@@ -931,19 +686,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Albert_Marteaux_eco_van_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BEL_Albert_Marteaux_eco_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Albert_Marteaux_eco_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Albert_Marteaux_eco_van_hired }
-			}
 			traits = {
 				auth_socialist
 				eco_industrialiser
@@ -958,19 +705,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Abraham_Leon_eco_col_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BEL_Abraham_Leon_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Abraham_Leon_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Abraham_Leon_eco_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				eco_planned_economy_proponent
@@ -984,20 +723,12 @@ characters = {
 				small = "gfx/interface/ministers/BEL/BEL_Adhemar_Henneaut.png"
 			}
 		}
-		advisor = {
-			
-			slot = economy_minister
+		advisor = {			
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Adhemar_Henneaut_eco_lib_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BEL_Adhemar_Henneaut_eco_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Adhemar_Henneaut_eco_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Adhemar_Henneaut_eco_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				eco_reformer
@@ -1012,19 +743,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Albert_Wauters_eco_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Albert_Wauters_eco_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Albert_Wauters_eco_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Albert_Wauters_eco_sde_hired }
-			}
 			traits = {
 				social_democrat
 				eco_reformer
@@ -1039,19 +762,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Charles_Pomaret_eco_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Charles_Pomaret_eco_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Charles_Pomaret_eco_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Charles_Pomaret_eco_sde_hired }
-			}
 			traits = {
 				social_democrat
 				eco_balanced_budget_economy
@@ -1066,19 +781,12 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jules_Merlot_eco_sli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Jules_Merlot_eco_sli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jules_Merlot_eco_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jules_Merlot_eco_sli_hired }
-			}
 			traits = {
 				social_liberal
 				eco_administrative_genius
@@ -1093,19 +801,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Alexandre_Galopin_eco_mli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Alexandre_Galopin_eco_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Alexandre_Galopin_eco_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Alexandre_Galopin_eco_mli_hired }
-			}
 			traits = {
 				market_liberal
 				eco_devoted_monopoly_buster
@@ -1120,19 +820,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Franz_de_Voghel_eco_mli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Franz_de_Voghel_eco_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Franz_de_Voghel_eco_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Franz_de_Voghel_eco_mli_hired }
-			}
 			traits = {
 				market_liberal
 				eco_national_liberal
@@ -1146,20 +838,12 @@ characters = {
 				small = "gfx/interface/ministers/BEL/BEL_Maurice_Lippens.png"
 			}
 		}
-		advisor = {
-			
-			slot = economy_minister
+		advisor = {			
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Maurice_Lippens_eco_mli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Maurice_Lippens_eco_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Maurice_Lippens_eco_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Maurice_Lippens_eco_mli_hired }
-			}
 			traits = {
 				market_liberal
 				eco_trade_proponent
@@ -1174,19 +858,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Georges_Theunis_eco_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Georges_Theunis_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Georges_Theunis_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Georges_Theunis_eco_sco_hired }
-			}
 			traits = {
 				social_conservative
 				eco_the_minister_for_everything
@@ -1201,19 +877,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Gustaaf_Sap_eco_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Gustaaf_Sap_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Gustaaf_Sap_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Gustaaf_Sap_eco_sco_hired }
-			}
 			traits = {
 				social_conservative
 				eco_industrial_chemist
@@ -1228,19 +896,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Hendrik_Heyman_eco_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_Hendrik_Heyman_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Hendrik_Heyman_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Hendrik_Heyman_eco_sco_hired }
-			}
 			traits = {
 				social_conservative
 				eco_corrupt_kleptocrat
@@ -1255,19 +915,12 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jean_Duvieusart_eco_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Jean_Duvieusart_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jean_Duvieusart_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jean_Duvieusart_eco_sco_hired }
-			}
+
 			traits = {
 				social_conservative
 				eco_mixed_economy
@@ -1282,19 +935,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Rene_Lambrichts_eco_pau_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = BEL_Rene_Lambrichts_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Rene_Lambrichts_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Rene_Lambrichts_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_resource_industrialist
@@ -1309,19 +954,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jean_Terfve_sec_van_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BEL_Jean_Terfve_sec_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jean_Terfve_sec_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jean_Terfve_sec_van_hired }
-			}
 			traits = {
 				auth_socialist
 				sec_health_and_safety
@@ -1336,19 +973,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Willem_Eekelers_sec_col_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BEL_Willem_Eekelers_sec_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Willem_Eekelers_sec_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Willem_Eekelers_sec_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				sec_compassionate_gentleman
@@ -1363,19 +992,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BEL_Felix_Van_den_Bergh_sec_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Felix_Van_den_Bergh_sec_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				sec_silent_lawyer
@@ -1390,19 +1011,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Adolphe_Van_Glabbeke_sec_sli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Adolphe_Van_Glabbeke_sec_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Adolphe_Van_Glabbeke_sec_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Adolphe_Van_Glabbeke_sec_sli_hired }
-			}
 			traits = {
 				social_liberal
 				sec_efficient_sociopath
@@ -1417,19 +1030,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Albert_Deveze_sec_mli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_Albert_Deveze_sec_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Albert_Deveze_sec_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Albert_Deveze_sec_mli_hired }
-			}
 			traits = {
 				market_liberal
 				sec_prince_of_terror
@@ -1444,19 +1049,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_Victor_Maistriau_sec_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Victor_Maistriau_sec_mli_hired }
-			}
 			traits = {
 				market_liberal
 				sec_compassionate_gentleman
@@ -1471,19 +1068,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Albert_Janssen_sec_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Albert_Janssen_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Albert_Janssen_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Albert_Janssen_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_back_stabber
@@ -1498,19 +1087,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_August_De_Schryver_sec_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_August_De_Schryver_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_August_De_Schryver_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_August_De_Schryver_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_silent_lawyer
@@ -1525,19 +1106,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Francois_Bovesse_sec_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BEL_Francois_Bovesse_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Francois_Bovesse_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Francois_Bovesse_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_secret_police_chief
@@ -1552,19 +1125,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Jean_Rey_sec_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BEL_Jean_Rey_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Jean_Rey_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Jean_Rey_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_man_of_the_people
@@ -1579,19 +1144,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Georges_Thone_sec_ade_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BEL_Georges_Thone_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Georges_Thone_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Georges_Thone_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_media_magnate
@@ -1606,19 +1163,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
+				has_dictatorship_government = yes
 			}
 			idea_token = BEL_Emiel_Thiers_sec_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Emiel_Thiers_sec_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				sec_health_and_safety
@@ -1633,19 +1182,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
+				has_dictatorship_government = yes
 			}
 			idea_token = BEL_Paul_Ouwerx_sec_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BEL_Paul_Ouwerx_sec_npo_hired }
-			}
 			traits = {
 				national_populist
 				sec_efficient_sociopath
@@ -1660,7 +1201,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Adolphe_Cumont_cos
 			traits = {
@@ -1676,7 +1217,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Auguste_Baesens_cos
 			traits = {
@@ -1692,7 +1233,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Georges_Deffontaine_cos
 			traits = {
@@ -1711,7 +1252,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Georges_Vereecken_cos
 			traits = {
@@ -1719,7 +1260,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Georges_Vereecken_carm
 			traits = {
@@ -1727,7 +1268,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BEL_Georges_Vereecken_cnav
 			traits = {
@@ -1743,7 +1284,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Gustave_Fromont_cos
 			traits = {
@@ -1759,7 +1300,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Olivier_Derousseaux_cos
 			traits = {
@@ -1775,7 +1316,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BEL_Oscar_Michiels_cos
 			traits = {
@@ -1783,7 +1324,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Oscar_Michiels_carm
 			traits = {
@@ -1799,7 +1340,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Charles_Bastin_carm
 			traits = {
@@ -1815,7 +1356,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Edouard_Van_Den_Bergen_carm
 			traits = {
@@ -1831,7 +1372,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Lambert_Chardome_carm
 			traits = {
@@ -1847,7 +1388,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Raoul_van_Overstraeten_carm
 			traits = {
@@ -1863,7 +1404,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Rene_Lagrou_carm
 			traits = {
@@ -1879,7 +1420,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BEL_Yvan_Gerard_carm
 			traits = {
@@ -1895,7 +1436,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BEL_Etienne_Glorie_cnav
 			traits = {
@@ -1911,7 +1452,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BEL_Fritz_Conrad_cnav
 			traits = {
@@ -1927,7 +1468,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BEL_Henri_Decarpentrie_cnav
 			traits = {
@@ -1955,7 +1496,7 @@ characters = {
 			logistics_skill = 4
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_Edouard_Blondeel_cair
 			traits = {
@@ -1971,7 +1512,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_Felix_Iserentant_cair
 			traits = {
@@ -1987,7 +1528,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_Fritz_Lob_cair
 			traits = {
@@ -2003,7 +1544,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_LFE_Wouters_cair
 			traits = {
@@ -2019,7 +1560,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_Paul_Nothomb_cair
 			traits = {
@@ -2035,7 +1576,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BEL_Rene_Legros_cair
 			traits = {

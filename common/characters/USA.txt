@@ -909,7 +909,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Eugene_Dennis_for_lib_hired }
 			}
@@ -936,7 +936,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Adolf_Augustus_Berle_Jr_for_sde_hired }
 			}
@@ -966,7 +966,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_George_Catlett_Marshall_Jr_for_sde_hired }
 			}
@@ -1001,7 +1001,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Hugh_Simons_Gibson_for_sde_hired }
 			}
@@ -1028,7 +1028,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Henry_Lewis_Stimson_for_sli_hired }
 			}
@@ -1055,7 +1055,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_John_Bassett_Moore_for_sli_hired }
 			}
@@ -1082,7 +1082,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Cordell_Hull_for_mli_hired }
 			}
@@ -1109,7 +1109,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Henry_Morgenthau_Jr_for_mli_hired }
 			}
@@ -1136,7 +1136,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Dean_Gooderham_Acheson_for_sco_hired }
 			}
@@ -1163,7 +1163,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_James_Watson_Gerard_Jr_for_sco_hired }
 			}
@@ -1190,7 +1190,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Coughlin_for_ade_hired }
 			}
@@ -1217,7 +1217,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_John_Davison_Rockefeller_Jr_for_pau_hired }
 			}
@@ -1244,7 +1244,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_John_William_Davis_for_pau_hired }
 			}
@@ -1271,7 +1271,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Paul_Mattick_eco_lib_hired }
 			}
@@ -1298,7 +1298,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Hjalmar_Petersen_eco_sde_hired }
 			}
@@ -1325,7 +1325,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Jesse_Holman_Jones_eco_sde_hired }
 			}
@@ -1352,7 +1352,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Edison_eco_sli_hired }
 			}
@@ -1379,7 +1379,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Alfred_Emanuel_Smith_eco_mli_hired }
 			}
@@ -1406,7 +1406,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Daniel_Calhoun_Roper_eco_mli_hired }
 			}
@@ -1433,7 +1433,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_William_Daniel_Leahy_eco_sco_hired }
 			}
@@ -1460,7 +1460,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Robert_Abercrombie_Lovett_eco_pau_hired }
 			}
@@ -1490,7 +1490,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_William_Harrison_Standley_eco_pau_hired }
 			}
@@ -1525,7 +1525,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_John_Abt_sec_lib_hired }
 			}
@@ -1552,7 +1552,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Elmer_Austin_Benson_sec_sde_hired }
 			}
@@ -1579,7 +1579,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Konrad_Knute_Solberg_sec_sde_hired }
 			}
@@ -1606,7 +1606,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Douglas_Jackson_sec_sli_hired }
 			}
@@ -1633,7 +1633,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Charles_Evans_Hughes_Sr_sec_sli_hired }
 			}
@@ -1660,7 +1660,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Robert_Ferdinand_Wagner_I_sec_mli_hired }
 			}
@@ -1687,7 +1687,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Martin_Dies_Jr_sec_sco_hired }
 			}
@@ -1714,7 +1714,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_Joel_Bennett_Clark_sec_pau_hired }
 			}
@@ -1741,7 +1741,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = USA_William_Randolph_Hearst_Sr_sec_pau_hired }
 			}

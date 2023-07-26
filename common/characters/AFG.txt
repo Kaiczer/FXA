@@ -20,6 +20,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/AFG/Portrait_AFG_Nur_Muhammad_Taraki.png"
+				small = "gfx/interface/ministers/AFG/AFG_Nur_Muhammad_Taraki.png"
 			}
 		}
 		country_leader = {
@@ -34,19 +35,12 @@ characters = {
 			ideology = libertarian_socialist_subtype
 			traits = { }
 		}
-    advisor = {
-			slot = economy_minister
+   		advisor = {
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Nur_Muhammad_Taraki_eco_van_hired }
+				has_socialist_government = yes
 			}
 			idea_token = AFG_Nur_Muhammad_Taraki_eco_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Nur_Muhammad_Taraki_eco_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Nur_Muhammad_Taraki_eco_van_hired }
-			}
 			traits = {
 				auth_socialist
 				eco_planned_economy_proponent
@@ -102,6 +96,10 @@ characters = {
 	AFG_Mohammed_Daoud_Khan = {
 		name = "Mohammed Daoud Khan"
 		portraits = {
+			civilian = {
+				large = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Daoud_Khan.png"
+				small = "gfx/interface/ministers/AFG/AFG_Mohammed_Daoud_Khan.png"
+			}
 			army = {
 				large = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Daoud_Khan.png"
 			}
@@ -116,20 +114,12 @@ characters = {
 			planning_skill = 4
 			logistics_skill = 1
 		}
-    advisor = {
-			
-			slot = economy_minister
+	    advisor = {
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Mohammed_Daoud_Khan_eco_pau_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = AFG_Mohammed_Daoud_Khan_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Mohammed_Daoud_Khan_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Mohammed_Daoud_Khan_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_mixed_economy
@@ -144,19 +134,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
-			}
 			idea_token = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				hog_ambitious_union_boss
@@ -171,19 +152,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
-			}
 			idea_token = AFG_Abdul_Majid_Zabuli_hog_sli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Abdul_Majid_Zabuli_hog_sli_hired }
-			}
 			traits = {
 				social_liberal
 				hog_charismatic_charmer
@@ -198,19 +170,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Mohammed_Nadir_Shah_hog_sco_hired }
-			}
 			idea_token = AFG_Mohammed_Nadir_Shah_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Mohammed_Nadir_Shah_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Mohammed_Nadir_Shah_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_silent_workhorse
@@ -225,38 +188,21 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Abdul_Hadi_Dawai_hog_ade_hired }
-			}
 			idea_token = AFG_Abdul_Hadi_Dawai_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Abdul_Hadi_Dawai_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Abdul_Hadi_Dawai_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_naive_optimist
 			}
 		}
-    advisor = {
-			
-			slot = foreign_minister
+    	advisor = {
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Abdul_Hadi_Dawai_for_ade_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = AFG_Abdul_Hadi_Dawai_for_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Abdul_Hadi_Dawai_for_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Abdul_Hadi_Dawai_for_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				for_general_staffer
@@ -271,38 +217,21 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Muhammed_Ghobar_hog_ade_hired }
-			}
 			idea_token = AFG_Muhammed_Ghobar_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Muhammed_Ghobar_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Muhammed_Ghobar_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_corporate_suit
 			}
 		}
-    advisor = {
-			
-			slot = security_minister
+    	advisor = {
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = AFG_Muhammed_Ghobar_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Muhammed_Ghobar_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_secret_police_chief
@@ -317,19 +246,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Muhammed_Hashim_hog_ade_hired }
-			}
 			idea_token = AFG_Muhammed_Hashim_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Muhammed_Hashim_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Muhammed_Hashim_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_flamboyant_tough_guy
@@ -344,19 +264,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Shah_Wali_Khan_hog_ade_hired }
-			}
 			idea_token = AFG_Shah_Wali_Khan_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Shah_Wali_Khan_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Shah_Wali_Khan_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_backroom_backstabber
@@ -371,19 +282,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0 
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = AFG_Inayatullah_Khan_Seraj_hog_pau_hired }
-			}
 			idea_token = AFG_Inayatullah_Khan_Seraj_hog_pau
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Inayatullah_Khan_Seraj_hog_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Inayatullah_Khan_Seraj_hog_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				hog_pragmatic_statesman
@@ -398,19 +300,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = AFG_Mir_Gul_Khan_Nasir_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Mir_Gul_Khan_Nasir_for_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				for_ideological_crusader
@@ -425,19 +319,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Ghulam_Mohammad_Farhad_for_sde_hired }
+				has_democratic_government = yes
 			}
 			idea_token = AFG_Ghulam_Mohammad_Farhad_for_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Ghulam_Mohammad_Farhad_for_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Ghulam_Mohammad_Farhad_for_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_general_staffer
@@ -452,19 +338,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Ali_Muhammed_Khan_for_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = AFG_Ali_Muhammed_Khan_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Ali_Muhammed_Khan_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Ali_Muhammed_Khan_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_apologetic_clerk
@@ -479,19 +357,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Haji_Faiz_Muhammed_Zikeria_for_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				for_iron_fisted_brute
@@ -506,19 +376,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Mohammed_Hashim_Maiwandwal_eco_sde_hired }
+				has_democratic_government = yes
 			}
 			idea_token = AFG_Mohammed_Hashim_Maiwandwal_eco_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Mohammed_Hashim_Maiwandwal_eco_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Mohammed_Hashim_Maiwandwal_eco_sde_hired }
-			}
 			traits = {
 				social_democrat
 				eco_reformer
@@ -536,26 +398,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Nasirullah_Husain_eco_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = AFG_Nasirullah_Husain_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Nasirullah_Husain_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Nasirullah_Husain_eco_sco_hired }
-			}
 			traits = {
 				social_conservative
 				eco_balanced_budget_economy
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = AFG_Nasirullah_Husain_cos_sco
 			traits = {
@@ -571,19 +425,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Ahmad_Ali_Khan_Solaiman_eco_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				eco_railway_magnate
@@ -601,26 +447,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
+				has_dictatorship_government = yes
 			}
 			idea_token = AFG_Mirza_Ali_Khan_eco_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Mirza_Ali_Khan_eco_npo_hired }
-			}
 			traits = {
 				national_populist
 				eco_industrialiser
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = AFG_Mirza_Ali_Khan_carm_npo
 			traits = {
@@ -636,19 +474,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
+				has_socialist_government = yes
 			}
 			idea_token = AFG_Dada_Amir_Haider_Khan_sec_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Dada_Amir_Haider_Khan_sec_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				sec_back_stabber
@@ -663,19 +493,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Asadullah_Seraj_Khan_sec_sco_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = AFG_Asadullah_Seraj_Khan_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Asadullah_Seraj_Khan_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Asadullah_Seraj_Khan_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_compassionate_gentleman
@@ -693,26 +515,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = AFG_Muhammed_Zahir_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Muhammed_Zahir_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_secret_police_chief
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = AFG_Muhammed_Zahir_cnav_ade
 			traits = {
@@ -720,7 +534,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = AFG_Muhammed_Zahir_cair_ade
 			traits = {
@@ -736,19 +550,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = AFG_Ghulam_Faruq_Usman_sec_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Ghulam_Faruq_Usman_sec_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				sec_man_of_the_people
@@ -763,18 +569,11 @@ characters = {
 			}
 		}
 		advisor = {			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = AFG_Khalilullah_Khalili_sec_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = AFG_Khalilullah_Khalili_sec_npo_hired }
-			}
 			traits = {
 				national_populist
 				sec_prince_of_terror
@@ -789,6 +588,7 @@ characters = {
 			}
 		}
 		advisor = {
+			cost = 150
 			slot = high_command
 			idea_token = AFG_Shah_Mahmud_Khan_cos
 			traits = {
@@ -804,7 +604,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = AFG_Shah_Mahmud_Ghazi_cos
 			traits = {
@@ -820,7 +620,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = AFG_Gholam_Wali_carm
 			traits = {
@@ -836,7 +636,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = AFG_Ghulam_Nabi_Charkhi_carm
 			traits = {
@@ -844,28 +644,28 @@ characters = {
 			}
 		}
 	}
-  AFG_Transitional_Government = {
-    name = "Transitional Government"
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/AFG/Portrait_AFG_Transitional_Government.png"
-      }
-    }
-  }
-  AFG_Mohammed_Zahir_Khan = {
-    name = "Mohammed Zahir Khan"
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Khan.png"
-      }
-    }
-  }
-  AFG_Amanullah_Khan = {
-    name = "Amanullah Khan"
-    portraits = {
-      civilian = {
-        large = "gfx/leaders/AFG/Portrait_AFG_Amanullah_Khan.png"
-      }
-    }
-  }
+	AFG_Transitional_Government = {
+		name = "Transitional Government"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AFG/Portrait_AFG_Transitional_Government.png"
+			}
+		}
+	}
+	AFG_Mohammed_Zahir_Khan = {
+		name = "Mohammed Zahir Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AFG/Portrait_AFG_Mohammed_Zahir_Khan.png"
+			}
+		}
+	}
+	AFG_Amanullah_Khan = {
+	name = "Amanullah Khan"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AFG/Portrait_AFG_Amanullah_Khan.png"
+			}
+		}
+	}
 }

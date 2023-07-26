@@ -225,7 +225,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Papandreou_for_sde_hired }
 	# 		}			
@@ -376,7 +376,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Ioannis_Michail_Metaxas_for_pau_hired }
 	# 		}			
@@ -427,7 +427,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Alexandros_Koryzis_eco_pau_hired }
 	# 		}			
@@ -856,7 +856,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Andreas_Michalakopoulos_for_sli_hired }
 	# 		}			
@@ -884,7 +884,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Dimitrios_Maximos_for_sco_hired }
 	# 		}			
@@ -912,7 +912,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Alexandros_Papanastasiou_for_sde_hired }
 	# 		}			
@@ -940,7 +940,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Konstantinos_Logothetopoulos_for_ade_hired }
 	# 		}			
@@ -968,7 +968,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Anastasios_Tavoularis_for_npo_hired }
 	# 		}			
@@ -996,7 +996,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Dimitrios_Delivanis_for_val_hired }
 	# 		}			
@@ -1024,7 +1024,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Andreas_Tzimas_for_lib_hired }
 	# 		}			
@@ -1052,7 +1052,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Petros_Rousos_for_col_hired }
 	# 		}			
@@ -1080,7 +1080,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = foreign_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Serafeim_Maximos_for_van_hired }
 	# 		}			
@@ -1108,7 +1108,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Alexandros_Diomidis_eco_sli_hired }
 	# 		}			
@@ -1136,7 +1136,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Kyriakos_Varvaresos_eco_sli_hired }
 	# 		}			
@@ -1164,7 +1164,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Kartalis_eco_mli_hired }
 	# 		}			
@@ -1192,7 +1192,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Pesmazoglou_eco_sco_hired }
 	# 		}			
@@ -1220,7 +1220,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Aristotelis_Sideris_eco_sde_hired }
 	# 		}			
@@ -1248,7 +1248,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Nikolaos_Kanellopoulos_eco_ade_hired }
 	# 		}			
@@ -1276,7 +1276,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Mantzavinos_eco_pau_hired }
 	# 		}			
@@ -1304,7 +1304,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Ektor_Tsironikos_eco_npo_hired }
 	# 		}			
@@ -1332,7 +1332,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Simitis_eco_val_hired }
 	# 		}			
@@ -1360,7 +1360,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Kostas_Theos_eco_lib_hired }
 	# 		}			
@@ -1388,7 +1388,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Vasilis_Bartziotas_eco_col_hired }
 	# 		}			
@@ -1416,7 +1416,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = economy_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Olga_Bakola_eco_van_hired }
 	# 		}			
@@ -1444,7 +1444,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Georgios_Maris_sec_sli_hired }
 	# 		}			
@@ -1472,7 +1472,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Ioannis_Tsirimokos_sec_sli_hired }
 	# 		}			
@@ -1500,7 +1500,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Dimitrios_Stefanopoulos_sec_mli_hired }
 	# 		}			
@@ -1528,7 +1528,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Aristeidis_Basiakos_sec_sco_hired }
 	# 		}			
@@ -1556,7 +1556,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Dimitrios_Psarros_sec_sde_hired }
 	# 		}			
@@ -1584,7 +1584,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Kostas_Kotzias_sec_ade_hired }
 	# 		}			
@@ -1629,7 +1629,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Konstantinos_Manetas_sec_ade_hired }
 	# 		}			
@@ -1657,7 +1657,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Konstantinos_Maniadakis_sec_pau_hired }
 	# 		}			
@@ -1685,7 +1685,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Panagiotis_Demestichas_sec_npo_hired }
 	# 		}			
@@ -1713,7 +1713,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Nikolaos_Kalyvas_sec_val_hired }
 	# 		}			
@@ -1741,7 +1741,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Vasilis_Nefeloudis_sec_lib_hired }
 	# 		}			
@@ -1769,7 +1769,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Markos_Vafiadis_sec_col_hired }
 	# 		}			
@@ -1797,7 +1797,7 @@ characters = {
 	# 	}
 	# 	advisor = {
 	# 		
-	# 		slot = security_minister
+	# 		slot = political_advisor
 	# 		available = {
 	# 			hidden_trigger = { has_country_flag = GRE_Dimitris_Koutsogiannis_sec_van_hired }
 	# 		}			

@@ -64,7 +64,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Paul_Tirard_for_ade_hired }
 			}
@@ -163,7 +163,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Heinrich_Himmler_eco_val_hired }
 			}
@@ -265,7 +265,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Adolphe_Guillaumat_eco_hired }
 			}
@@ -362,7 +362,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Albert_Tanant_sec_hired }
 			}
@@ -434,7 +434,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Kurt_Tucholsky_for_sde_hired }
 			}
@@ -518,7 +518,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Walter_Kreiser_for_sde_hired }
 			}
@@ -545,7 +545,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_William_Seeds_for_ade_hired }
 			}
@@ -572,7 +572,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Andre_Francois_Poncet_for_pau_hired }
 			}
@@ -599,7 +599,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Theodor_Reismann_Grone_for_npo_hired }
 			}
@@ -626,7 +626,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Walter_Stennes_for_val_hired }
 			}
@@ -653,7 +653,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Walter_Kolb_eco_sde_hired }
 			}
@@ -680,7 +680,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Franz_Blucher_eco_sco_hired }
 			}
@@ -707,7 +707,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_EF_Schumachher_eco_ade_hired }
 			}
@@ -734,7 +734,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Emil_Kirdorf_eco_npo_hired }
 			}
@@ -761,7 +761,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Georg_Buch_sec_sde_hired }
 			}
@@ -788,7 +788,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Wilhelm_Rombach_sec_sco_hired }
 			}
@@ -815,7 +815,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Karl_von_Starck_sec_ade_hired }
 			}
@@ -845,7 +845,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Walther_Lichtschlag_sec_npo_hired }
 			}
@@ -883,7 +883,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = RHI_Franz_Pfeffer_von_Salomon_sec_val_hired }
 			}

@@ -357,7 +357,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_Ahmad_Al_Jaber_Al_Sabah_for_mli_hired }
 			}			
@@ -391,8 +391,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_for_sco_hired }
 			}			
@@ -409,25 +408,6 @@ characters = {
 				for_apologetic_clerk
 			}
 		}
-		advisor = {
-			
-			slot = economy_minister
-			available = {
-				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
-			}			
-			idea_token = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = ARB_Abdullah_Al_Jaber_Al_Sabah_eco_sco_hired }
-			}
-			traits = {
-				social_conservative
-				eco_construction_magnate
-			}
-		}
 	}
 	ARB_Tahseen_Qadri = {
 		name = "Tahseen Qadri"
@@ -438,7 +418,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Tahseen_Qadri_for_sli_hired }
 			}			
@@ -465,7 +445,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sabah_al_Salem_al_Sabah_for_ade_hired }
 			}			
@@ -495,7 +475,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mubarak_Al_Hamad_Al_Sabah_eco_mli_hired }
 			}			
@@ -530,7 +510,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sheikh_Salih_al_Rajihi_eco_pau_hired }
 			}			
@@ -557,7 +537,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
 			}			
@@ -584,7 +564,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Sulaiman_S_Olayan_eco_ade_hired }
 			}			
@@ -611,7 +591,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Abdullah_Al_Ahmad_Al_Jaber_Al_Sabah_sec_mli_hired }
 			}			
@@ -638,7 +618,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Hazaa_bin_Sultan_Al_Nahyan_sec_mli_hired }
 			}			
@@ -665,7 +645,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Jassim_bin_Muhammed_bin_Jassim_Al_Thani_sec_sco_hired }
 			}			
@@ -695,7 +675,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
 			}			
@@ -730,7 +710,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Salem_Al_Mubarak_Al_Sabah_sec_ade_hired }
 			}			
@@ -835,7 +815,7 @@ characters = {
     }
     advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Francis_Humphrys_for_mli_hired }
 			}			
@@ -862,7 +842,7 @@ characters = {
     }
     advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_John_Cadman_eco_mli_hired }
 			}			
@@ -889,7 +869,7 @@ characters = {
     }
     advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = ARB_Percy_Cox_sec_mli_hired }
 			}			

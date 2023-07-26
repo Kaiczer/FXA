@@ -171,7 +171,7 @@ characters = {
 			}
 		}
 		advisor = { #Pre Iesato Death
-			slot = security_minister
+			slot = political_advisor
 			allowed = {
 				has_character_flag = JAP_Tokugawa_Iesato_Not_Dead
 			}
@@ -263,7 +263,7 @@ characters = {
 		}
 		advisor = {
 			cost = 150
-			slot = foreign_minister
+			slot = political_advisor
 			allowed = {
 				has_country_flag = JAP_Shogun_Regime
 				has_country_flag = JAP_Tokugawa_Iesato_Not_Dead
@@ -284,7 +284,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = economy_minister
+			slot = political_advisor
 			allowed = {
 				OR = {
 					has_country_flag = JAP_Shogun_Regime
@@ -427,7 +427,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = security_minister
+			slot = political_advisor
 			idea_token = JAP_Kanji_Ishiwara_sec_val
 			traits = {
 				valkist
@@ -1644,7 +1644,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = JAP_Fukumoto_Kazuo_for_van
 			traits = {
 				auth_socialist
@@ -1660,7 +1660,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = JAP_Yamamoto_Kenzo_for_col
 			traits = {
 				vanguard_socialist
@@ -1676,7 +1676,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = JAP_Shidehara_Kijuro_for_mli
 			traits = {
 				market_liberal
@@ -1692,7 +1692,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = JAP_Ashida_Hitoshi_for_sco
 			traits = {
 				social_conservative
@@ -1708,7 +1708,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = JAP_Yoshida_Shigeru_for_sco
 			traits = {
 				social_conservative
@@ -1725,7 +1725,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Naotake_Sato_for_sco_hired }
 			}
@@ -1747,7 +1747,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Arita_Hachiro_for_ade_hired }
 			}
@@ -1773,7 +1773,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hirota_Koki_for_ade_hired }
 			}
@@ -1799,7 +1799,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ogawa_Gotaro_for_ade_hired }
 			}
@@ -1825,7 +1825,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Hayashi_Fusao_for_val_hired }
 			}
@@ -1851,7 +1851,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mushanokoji_Kintomo_for_pau_hired }
 			}
@@ -1877,7 +1877,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shiratori_Toshio_for_npo_hired }
 			}
@@ -1903,7 +1903,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Honda_Kumataro_for_pau_hired }
 			}
@@ -1929,7 +1929,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Tatekawa_Yoshitsugu_for_pau_hired }
 			}
@@ -1955,7 +1955,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Okawa_Shumei_for_npo_hired }
 			}
@@ -1981,7 +1981,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Asanuma_Inejiro_eco_van_hired }
 			}
@@ -2007,7 +2007,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yamada_Moritaro_eco_col_hired }
 			}
@@ -2033,7 +2033,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Eda_Saburo_eco_sde_hired }
 			}
@@ -2059,7 +2059,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mizutani_Chozaburo_eco_sde_hired }
 			}
@@ -2085,7 +2085,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Inoue_Junnosuke_eco_mli_hired }
 			}
@@ -2111,7 +2111,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsumura_Kenzo_eco_mli_hired }
 			}
@@ -2137,7 +2137,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ikeda_Shigeaki_eco_sco_hired }
 			}
@@ -2163,7 +2163,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsuno_Tsuruhei_eco_sco_hired }
 			}
@@ -2189,7 +2189,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oguchi_Kiroku_eco_sco_hired }
 			}
@@ -2215,7 +2215,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Tsushima_Juichi_eco_sco_hired }
 			}
@@ -2241,7 +2241,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Horikiri_Zenbee_eco_ade_hired }
 			}
@@ -2267,7 +2267,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Godo_Takuo_eco_pau_hired }
 			}
@@ -2293,7 +2293,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shoda_Kazue_eco_pau_hired }
 			}
@@ -2319,7 +2319,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suzuki_Teiichi_eco_npo_hired }
 			}
@@ -2345,7 +2345,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Etsusaburo_Shiina_eco_npo_hired }
 			}
@@ -2371,7 +2371,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kimura_Takeo_eco_val_hired }
 			}
@@ -2397,7 +2397,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagayuki_Asano_eco_pau_hired }
 			}
@@ -2423,7 +2423,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Takashi_Hishikari_sec_npo_hired }
 			}
@@ -2449,7 +2449,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Yoshikawa_Takeo_sec_pau_hired }
 			}
@@ -2475,7 +2475,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Sakisaka_Itsuro_sec_lib_hired }
 			}
@@ -2501,7 +2501,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Matsuoka_Komakichi_sec_sde_hired }
 			}
@@ -2527,7 +2527,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Katsu_sec_mli_hired }
 			}
@@ -2553,7 +2553,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawasaki_Takukichi_sec_mli_hired }
 			}
@@ -2579,7 +2579,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kimura_Kozaemon_sec_mli_hired }
 			}
@@ -2605,7 +2605,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Saito_Takao_sec_mli_hired }
 			}
@@ -2631,7 +2631,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Kawamura_Takeji_sec_sco_hired }
 			}
@@ -2657,7 +2657,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Ohara_Naoshi_sec_sco_hired }
 			}
@@ -2683,7 +2683,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Akita_Kiyoshi_sec_ade_hired }
 			}
@@ -2709,7 +2709,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Mochizuki_Keisuke_sec_ade_hired }
 			}
@@ -2735,7 +2735,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Nagai_Ryutaro_sec_ade_hired }
 			}
@@ -2761,7 +2761,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Oasa_Tadao_sec_ade_hired }
 			}
@@ -2787,7 +2787,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Fujie_Keisuke_sec_pau_hired }
 			}
@@ -2813,7 +2813,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Shiono_Suehiko_sec_pau_hired }
 			}
@@ -2839,7 +2839,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_character_flag = JAP_Suetsugu_Nobumasa_sec_npo_hired }
 			}

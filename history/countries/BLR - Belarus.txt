@@ -137,7 +137,7 @@ recruit_character = BLR_Home_Guard_Command
 recruit_character = BLR_Vaclau_Lastouski
 recruit_character = BLR_Stanislaw_Bulak_Balachowicz
 recruit_character = BLR_Vasil_Zacharka
-recruit_character = BLR_Radasłaŭ_Astroŭski
+recruit_character = BLR_Radaslau_Astrouski
 recruit_character = BLR_Aliaksandr_Charviakou
 recruit_character = BLR_Arkady_Smolich
 recruit_character = BLR_Fabijan_Ivanovich_Akintschyz
@@ -152,3 +152,8 @@ recruit_character = BLR_Paval_Vent
 recruit_character = BLR_Hasan_Kanapatski
 recruit_character = BLR_Michal_Vituska
 recruit_character = BLR_Hieorhij_Khalasciakou
+
+activate_advisor = BLR_Radaslau_Astrouski_hog_val
+activate_advisor = BLR_Fabijan_Ivanovich_Akintschyz_for_val
+activate_advisor = BLR_Leon_Ivanovich_Dubeykovsky_eco_val
+activate_advisor = BLR_Francisak_Kusal_sec_pau

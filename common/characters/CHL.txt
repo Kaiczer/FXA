@@ -27,7 +27,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Diaz_Loyola_for_van_hired }
 			}
@@ -536,7 +536,7 @@ characters = {
 			}
 		}
 		advisor = {
-			slot = security_minister
+			slot = political_advisor
 			
 			idea_token = CHL_Francisco_Javier_Diaz_Valderrama_sec_npo
 			traits = { }
@@ -557,7 +557,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Jose_Santos_Salas_Morales_for_van_hired }
 			}
@@ -584,7 +584,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Bernardo_Ibanez_Aguila_for_col_hired }
 			}
@@ -611,7 +611,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Luis_Arteaga_Garcia_for_col_hired }
 			}
@@ -638,7 +638,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Fernando_Brown_Morales_for_lib_hired }
 			}
@@ -665,7 +665,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Gabriela_Mandujano_for_lib_hired }
 			}
@@ -692,7 +692,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Enrique_Victor_Aquiles_Balmaceda_Toro_for_sde_hired }
 			}
@@ -719,7 +719,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_J_Fernandez_y_Fernandez_for_sde_hired }
 			}
@@ -746,7 +746,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Luis_Alamos_Barros_for_sde_hired }
 			}
@@ -773,7 +773,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_Mora_Miranda_for_sde_hired }
 			}
@@ -800,7 +800,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_JRGuiterrez_Allende_for_sli_hired }
 			}
@@ -827,7 +827,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Miguel_Cruchaga_Tocornal_for_mli_hired }
 			}
@@ -854,7 +854,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Francisco_O_Ryan_Orrego_for_sco_hired }
 			}
@@ -881,7 +881,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Javier_Angel_Figueroa_for_sco_hired }
 			}
@@ -908,7 +908,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Emilio_Bello_Codesido_for_ade_hired }
 			}
@@ -935,7 +935,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Luis_Altamirano_Talavera_for_pau_hired }
 			}
@@ -962,7 +962,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Fernando_Guarello_Fitz_Henry_for_npo_hired }
 			}
@@ -989,7 +989,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Victor_Contreras_Tapia_eco_van_hired }
 			}
@@ -1016,7 +1016,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Augustin_Edwards_eco_col_hired }
 			}
@@ -1043,7 +1043,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Eulogia_Roman_eco_col_hired }
 			}
@@ -1070,7 +1070,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Aurelio_Celedon_Palma_eco_lib_hired }
 			}
@@ -1097,7 +1097,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Garcia_Palacios_eco_sde_hired }
 			}
@@ -1124,7 +1124,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Juan_Rios_Morales_eco_sde_hired }
 			}
@@ -1151,7 +1151,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_C_Pereira_eco_sde_hired }
 			}
@@ -1178,7 +1178,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Arturo_Maschke_eco_sli_hired }
 			}
@@ -1205,7 +1205,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Cristobal_Saenz_Cerda_eco_mli_hired }
 			}
@@ -1237,7 +1237,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Gustavo_Ross_Santa_Maria_eco_sco_hired }
 			}
@@ -1264,7 +1264,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Julio_Perez_Canto_eco_sco_hired }
 			}
@@ -1291,7 +1291,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Pedro_Pablo_Dartnell_Encina_eco_ade_hired }
 			}
@@ -1318,7 +1318,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Ramon_Callis_eco_pau_hired }
 			}
@@ -1345,7 +1345,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Evaldo_Klein_Doener_eco_npo_hired }
 			}
@@ -1372,7 +1372,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Gregorio_Davila_Espinoza_sec_col_hired }
 			}
@@ -1399,7 +1399,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Alberto_Cabero_Diaz_sec_lib_hired }
 			}
@@ -1426,7 +1426,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Max_Westenhofer_sec_lib_hired }
 			}
@@ -1453,7 +1453,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Eduardo_Nicanor_Frei_Montalva_sec_sde_hired }
 			}
@@ -1480,7 +1480,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_Salinas_sec_sde_hired }
 			}
@@ -1507,7 +1507,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Valdovinos_Valdovinos_sec_sli_hired }
 			}
@@ -1534,7 +1534,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Manuel_Rivas_Vicuna_sec_sco_hired }
 			}
@@ -1561,7 +1561,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Vergara_Montero_sec_ade_hired }
 			}
@@ -1588,7 +1588,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = CHL_Carlos_Keller_Rueff_sec_pau_hired }
 			}

@@ -495,7 +495,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Sayyid_Qutb_eco_ade_hired }
 			}
@@ -576,7 +576,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Salah_Salem_for_sde_hired }
 			}
@@ -603,7 +603,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Kamil_Abdul_Rahim_for_sli_hired }
 			}
@@ -622,7 +622,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Kamil_Abdul_Rahim_eco_sli_hired }
 			}
@@ -649,7 +649,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abdul_Khalek_Hassouna_for_sli_hired }
 			}
@@ -676,7 +676,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Hassan_Sabry_for_mli_hired }
 			}
@@ -703,7 +703,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Ali_Shamsi_for_mli_hired }
 			}
@@ -730,7 +730,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abdelfattah_Amr_for_sco_hired }
 			}
@@ -757,7 +757,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Ahmed_Hassanein_for_pau_hired }
 			}
@@ -784,7 +784,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Mohammed_Ali_Tewfik_for_pau_hired }
 			}
@@ -811,7 +811,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abdel_Latif_Boghdadi_eco_sde_hired }
 			}
@@ -838,7 +838,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Saba_Habachy_eco_sli_hired }
 			}
@@ -865,7 +865,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Talaat_Harb_eco_mli_hired }
 			}
@@ -892,7 +892,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Hassan_Allam_eco_sco_hired }
 			}
@@ -919,7 +919,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Mohamed_Ahmed_Farghaly_eco_sco_hired }
 			}
@@ -946,7 +946,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Youssef_Zulficar_eco_pau_hired }
 			}
@@ -973,7 +973,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Muhammad_Anwar_el_Sadat_sec_sde_hired }
 			}
@@ -1000,7 +1000,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Taha_Hussein_sec_sli_hired }
 			}
@@ -1027,7 +1027,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Muhammad_Husayn_Haykal_sec_sli_hired }
 			}
@@ -1054,7 +1054,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abbas_al_Aqqad_sec_mli_hired }
 			}
@@ -1081,7 +1081,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Abdel_Hamid_Badawi_sec_mli_hired }
 			}
@@ -1108,7 +1108,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = EGY_Sheikh_Mahmud_Shaltut_sec_sco_hired }
 			}

@@ -1799,7 +1799,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ernst_Toller_for_col_hired }
 			}
@@ -1826,7 +1826,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Paul_Levi_for_col_hired }
 			}
@@ -1853,7 +1853,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Heinirch_Mann_for_lib_hired }
 			}
@@ -1880,7 +1880,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hans_Vogel_for_sde_hired }
 			}
@@ -1907,7 +1907,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Albert_Dufour_Feronce_for_sli_hired }
 			}
@@ -1934,7 +1934,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Roepke_for_mli_hired }
 			}
@@ -1961,7 +1961,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Heinrich_von_Brentano_for_sco_hired }
 			}
@@ -1988,7 +1988,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Friedrich_Werner_von_der_Schulenberg_for_ade_hired }
 			}
@@ -2015,7 +2015,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Walther_von_Brauchistsch_for_ade_hired }
 			}
@@ -2055,7 +2055,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Franz_von_Papen_for_pau_hired }
 			}
@@ -2082,7 +2082,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Konstantin_von_Neurath_for_npo_hired }
 			}
@@ -2109,7 +2109,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Max_Amann_for_val_hired }
 			}
@@ -2136,7 +2136,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Alfred_Rosenburg_for_val_hired }
 			}
@@ -2163,7 +2163,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ernst_Rohm_eco_van_hired }
 			}
@@ -2190,7 +2190,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Willi_Munzenburg_eco_van_hired }
 			}
@@ -2217,7 +2217,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Willi_Stoph_eco_col_hired }
 			}
@@ -2244,7 +2244,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Lujo_Brentano_eco_lib_hired }
 			}
@@ -2271,7 +2271,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Kurt_Schumacher_eco_sde_hired }
 			}
@@ -2298,7 +2298,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Wissel_eco_sde_hired }
 			}
@@ -2325,7 +2325,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Dietrich_eco_sli_hired }
 			}
@@ -2352,7 +2352,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Julius_Curtis_eco_mli_hired }
 			}
@@ -2379,7 +2379,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Adam_Stregerwald_eco_sco_hired }
 			}
@@ -2406,7 +2406,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hjalmar_Schacht_eco_ade_hired }
 			}
@@ -2433,7 +2433,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Paul_Lejune_Jung_eco_pau_hired }
 			}
@@ -2460,7 +2460,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Alfred_Hugenberg_eco_pau_hired }
 			}
@@ -2487,7 +2487,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gregor_Strasser_eco_val_hired }
 			}
@@ -2514,7 +2514,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gernhard_Rossbach_eco_val_hired }
 			}
@@ -2542,7 +2542,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Strasser_eco_val_hired }
 			}
@@ -2569,7 +2569,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Adolf_Hitler_eco_val_hired }
 			}
@@ -2596,7 +2596,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Ludwig_Renn_sec_van_hired }
 			}
@@ -2623,7 +2623,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Eugen_Levine_sec_col_hired }
 			}
@@ -2650,7 +2650,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hilde_Benjamin_sec_col_hired }
 			}
@@ -2677,7 +2677,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Gustav_Noske_sec_sde_hired }
 			}
@@ -2704,7 +2704,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Otto_Gessler_sec_sli_hired }
 			}
@@ -2731,7 +2731,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
 			}
@@ -2758,7 +2758,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_Goerner_sec_sco_hired }
 			}
@@ -2785,7 +2785,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Arthur_Nebe_sec_sco_hired }
 			}
@@ -2812,7 +2812,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Fritz_Dietlog_Schulenburg_sec_ade_hired }
 			}
@@ -2839,7 +2839,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Roland_Freisler_sec_pau_hired }
 			}
@@ -2866,7 +2866,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Wilhelm_von_Gayl_sec_pau_hired }
 			}
@@ -2893,7 +2893,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Hess_sec_npo_hired }
 			}
@@ -2920,7 +2920,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Kurt_Deluge_sec_npo_hired }
 			}
@@ -2947,7 +2947,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Rudolf_Diels_sec_npo_hired }
 			}
@@ -2974,7 +2974,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = GER_Hermann_Ehrhardt_sec_val_hired }
 			}

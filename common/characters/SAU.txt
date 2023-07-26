@@ -99,7 +99,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Saad_bin_Abdulaziz_al_Saud_eco_sco_hired }
 			}			
@@ -341,7 +341,7 @@ characters = {
 		}
     advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Auda_Abu_Tayi_eco_npo_hired }
 			}			
@@ -368,7 +368,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Saud_Al_Kabeer_bin_Abdulaziz_bin_Saud_bin_Faisal_Al_Saud_for_sco_hired }
 			}			
@@ -395,7 +395,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Dhaidan_Ben_Hethlain_for_ade_hired }
 			}			
@@ -422,7 +422,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Mutlag_ibn_al_Juba_a_for_ade_hired }
 			}			
@@ -449,7 +449,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Faisal_bin_Abdulaziz_for_pau_hired }
 			}			
@@ -476,7 +476,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Mohammed_bin_Jassim_Al_Thani_eco_sco_hired }
 			}			
@@ -503,7 +503,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Mohammed_bin_Awad_bin_Laden_eco_ade_hired }
 			}			
@@ -530,7 +530,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Muhammad_bin_Abdulaziz_Al_Saud_eco_pau_hired }
 			}			
@@ -557,7 +557,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Bandar_bin_Abdulaziz_Al_Saud_sec_pau_hired }
 			}			
@@ -584,7 +584,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Jahjah_bin_Bajad_bin_Humaid_al_Otaibi_sec_ade_hired }
 			}			
@@ -611,7 +611,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = SAU_Mohammed_bin_Sharif_Al_Farouqi_sec_sco_hired }
 			}			

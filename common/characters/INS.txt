@@ -437,7 +437,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Subandrio_for_van_hired }
 			}			
@@ -464,7 +464,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Agus_Salim_for_col_hired }
 			}			
@@ -491,7 +491,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Adam_Malik_for_lib_hired }
 			}			
@@ -518,7 +518,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Sukarni_for_lib_hired }
 			}			
@@ -545,7 +545,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ide_Anak_Agung_Gde_Agung_for_sde_hired }
 			}			
@@ -572,7 +572,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Abdul_Malik_for_sco_hired }
 			}			
@@ -599,7 +599,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Mohammed_Roem_for_sco_hired }
 			}			
@@ -626,7 +626,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Achmad_Soebardjo_for_ade_hired }
 			}			
@@ -653,7 +653,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ali_Sastroamidjojo_for_ade_hired }
 			}			
@@ -680,7 +680,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ruslan_Abdulgani_for_ade_hired }
 			}			
@@ -707,7 +707,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Albertus_Sugiyapranata_for_pau_hired }
 			}			
@@ -734,7 +734,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ipik_Gandamana_for_pau_hired }
 			}			
@@ -761,7 +761,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Isa_Anshari_for_pau_hired }
 			}			
@@ -788,7 +788,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Alimin_eco_van_hired }
 			}			
@@ -815,7 +815,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Njoto_eco_van_hired }
 			}			
@@ -842,7 +842,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Rustam_Effendi_eco_col_hired }
 			}			
@@ -869,7 +869,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Sumitro_Djojohadikusumo_eco_col_hired }
 			}			
@@ -896,7 +896,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Chairul_Saleh_eco_lib_hired }
 			}			
@@ -923,7 +923,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Utomo_Ramelan_eco_lib_hired }
 			}			
@@ -950,7 +950,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Soenarjo_Kolopaking_eco_sde_hired }
 			}			
@@ -977,7 +977,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Wilopo_eco_sde_hired }
 			}			
@@ -1004,7 +1004,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Kasman_Singodimedjo_eco_sco_hired }
 			}			
@@ -1031,7 +1031,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Sjafruddin_Prawiranegara_eco_sco_hired }
 			}			
@@ -1058,7 +1058,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Alexander_Maramis_eco_ade_hired }
 			}			
@@ -1085,7 +1085,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Wongsonegoro_eco_ade_hired }
 			}			
@@ -1112,7 +1112,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ibnu_Hadjar_eco_pau_hired }
 			}			
@@ -1139,7 +1139,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ignatius_J_Kasimo_eco_pau_hired }
 			}			
@@ -1166,7 +1166,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Mangkunegara_VIII_eco_pau_hired }
 			}			
@@ -1193,7 +1193,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Prawoto_Mangkusasmito_eco_pau_hired }
 			}			
@@ -1220,7 +1220,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Suparna_Sastra_Diredja_sec_col_hired }
 			}			
@@ -1247,7 +1247,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Albert_M_Sipahoetar_sec_lib_hired }
 			}			
@@ -1274,7 +1274,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Maria_Ulfah_Santoso_sec_sde_hired }
 			}			
@@ -1301,7 +1301,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Teuku_Muhammad_Hasan_sec_sde_hired }
 			}			
@@ -1328,7 +1328,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Halibno_Tjokroaminoto_sec_sco_hired }
 			}			
@@ -1355,7 +1355,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Sahardjo_sec_ade_hired }
 			}			
@@ -1387,7 +1387,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Daud_Beureueh_sec_npo_hired }
 			}			
@@ -1414,7 +1414,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Ki_Bagus_Hadikusumo_sec_pau_hired }
 			}			
@@ -1441,7 +1441,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Paku_Alam_VIII_sec_pau_hired }
 			}			
@@ -1468,7 +1468,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = {
 				hidden_trigger = { has_country_flag = INS_Tirto_Adhi_Suryo_sec_pau_hired }
 			}			

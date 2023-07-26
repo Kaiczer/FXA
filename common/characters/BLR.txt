@@ -19,19 +19,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Jazep_Adamovic_hog_van_hired }
-			}
 			idea_token = BLR_Jazep_Adamovic_hog_van
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jazep_Adamovic_hog_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jazep_Adamovic_hog_van_hired }
-			}
 			traits = {
 				auth_socialist
 				hog_ambitious_union_boss
@@ -46,19 +37,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Michas_Javar_for_van_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Michas_Javar_for_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Michas_Javar_for_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Michas_Javar_for_van_hired }
-			}
 			traits = {
 				auth_socialist
 				for_great_compromiser
@@ -73,19 +56,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Salamon_Kacenbohien_eco_van_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Salamon_Kacenbohien_eco_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Salamon_Kacenbohien_eco_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Salamon_Kacenbohien_eco_van_hired }
-			}
 			traits = {
 				auth_socialist
 				eco_theoretical_scientist
@@ -100,19 +75,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Nicypar_Natalievic_sec_van_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Nicypar_Natalievic_sec_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Nicypar_Natalievic_sec_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Nicypar_Natalievic_sec_van_hired }
-			}
 			traits = {
 				auth_socialist
 				sec_silent_lawyer
@@ -139,38 +106,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Paluta_Badunova_hog_col_hired }
-			}
 			idea_token = BLR_Paluta_Badunova_hog_col
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Paluta_Badunova_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Paluta_Badunova_hog_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				hog_sincere_internationalist
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Paluta_Badunova_for_col_hired }
+				has_socialist_government = yes
+				not_already_hired_except_as = political_advisor 
 			}
 			idea_token = BLR_Paluta_Badunova_for_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Paluta_Badunova_for_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Paluta_Badunova_for_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				for_ideological_crusader
@@ -185,19 +136,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Nikolay_Gusarov_for_col_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BLR_Nikolay_Gusarov_for_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Nikolay_Gusarov_for_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Nikolay_Gusarov_for_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				for_moderate_among_radicals
@@ -212,19 +155,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jauhien_Ladnou_for_col_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Jauhien_Ladnou_for_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jauhien_Ladnou_for_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jauhien_Ladnou_for_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				for_the_cloak_n_dagger_schemer
@@ -239,19 +174,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Adam_Bildziukievic_eco_col_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Adam_Bildziukievic_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Adam_Bildziukievic_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Adam_Bildziukievic_eco_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				eco_military_entrepreneur
@@ -266,19 +193,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jafim_Bialievic_sec_col_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Jafim_Bialievic_sec_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jafim_Bialievic_sec_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jafim_Bialievic_sec_col_hired }
-			}
 			traits = {
 				vanguard_socialist
 				sec_efficient_sociopath
@@ -294,38 +213,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BLR_Aliaksandr_Charviakou_hog_lib_hired }
-			}
 			idea_token = BLR_Aliaksandr_Charviakou_hog_lib
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Aliaksandr_Charviakou_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Aliaksandr_Charviakou_hog_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				hog_privileged_socialist
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BLR_Aliaksandr_Charviakou_for_lib_hired }
+				has_socialist_government = yes 
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BLR_Aliaksandr_Charviakou_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Aliaksandr_Charviakou_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Aliaksandr_Charviakou_for_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				for_general_staffer
@@ -340,38 +243,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0			
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Symon_Rak_Michajlouksi_hog_lib_hired }
-			}
 			idea_token = BLR_Symon_Rak_Michajlouksi_hog_lib
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Symon_Rak_Michajlouksi_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Symon_Rak_Michajlouksi_hog_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				hog_red_chairmen
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Symon_Rak_Michajlouksi_for_lib_hired }
+			slot = political_advisor
+			available = { 
+				has_socialist_government = yes 
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BLR_Symon_Rak_Michajlouksi_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Symon_Rak_Michajlouksi_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Symon_Rak_Michajlouksi_for_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				for_biased_intellectual
@@ -386,19 +273,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Dmitry_Pryshchepau_eco_lib_hired }
+				has_socialist_government = yes 
 			}
 			idea_token = BLR_Dmitry_Pryshchepau_eco_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Dmitry_Pryshchepau_eco_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Dmitry_Pryshchepau_eco_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				eco_administrative_genius
@@ -413,19 +292,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
+				has_socialist_government = yes
 			}
 			idea_token = BLR_Pavel_Valoshin_sec_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Pavel_Valoshin_sec_lib_hired }
-			}
 			traits = {
 				libertarian_socialist
 				sec_back_stabber
@@ -452,38 +323,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Anton_Lutskevic_hog_sde_hired }
-			}
 			idea_token = BLR_Anton_Lutskevic_hog_sde
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Anton_Lutskevic_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Anton_Lutskevic_hog_sde_hired }
-			}
 			traits = {
 				social_democrat
 				hog_naive_optimist
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Anton_Lutskevic_for_sde_hired }
+				has_democratic_government = yes 
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BLR_Anton_Lutskevic_for_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Anton_Lutskevic_for_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Anton_Lutskevic_for_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_great_compromiser
@@ -498,19 +353,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Anton_Boryk_for_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BLR_Anton_Boryk_hog_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Anton_Boryk_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Anton_Boryk_hog_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_the_cloak_n_dagger_schemer
@@ -525,19 +372,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Ivan_Kraskouski_for_sde_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BLR_Ivan_Kraskouski_hog_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Ivan_Kraskouski_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Ivan_Kraskouski_hog_sde_hired }
-			}
 			traits = {
 				social_democrat
 				for_general_staffer
@@ -552,19 +391,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jazep_Lesik_sec_sde_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Jazep_Lesik_sec_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jazep_Lesik_sec_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jazep_Lesik_sec_sde_hired }
-			}
 			traits = {
 				social_democrat
 				sec_man_of_the_people
@@ -591,19 +422,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0 
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Jazep_Varonka_hog_sli_hired }
-			}
 			idea_token = BLR_Jazep_Varonka_hog_sli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jazep_Varonka_hog_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jazep_Varonka_hog_sli_hired }
-			}
 			traits = {
 				social_liberal
 				hog_charismatic_charmer
@@ -618,19 +440,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jan_Sierada_eco_sli_hired }
+				has_democratic_government = yes 
 			}
 			idea_token = BLR_Jan_Sierada_eco_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jan_Sierada_eco_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jan_Sierada_eco_sli_hired }
-			}
 			traits = {
 				social_liberal
 				eco_reformer
@@ -645,19 +459,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Alyaksandr_Tsvikyevich_sec_sli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Alyaksandr_Tsvikyevich_sec_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Alyaksandr_Tsvikyevich_sec_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Alyaksandr_Tsvikyevich_sec_sli_hired }
-			}
 			traits = {
 				social_liberal
 				sec_compassionate_gentleman
@@ -684,19 +490,9 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Raman_Skirmunt_hog_mli_hired }
-			}
 			idea_token = BLR_Raman_Skirmunt_hog_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Raman_Skirmunt_hog_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Raman_Skirmunt_hog_mli_hired }
-			}
 			traits = {
 				market_liberal
 				hog_corporate_suit
@@ -711,19 +507,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Mitrofan_Dovnar_Zapolsky_for_mli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Mitrofan_Dovnar_Zapolsky_for_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Mitrofan_Dovnar_Zapolsky_for_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Mitrofan_Dovnar_Zapolsky_for_mli_hired }
-			}
 			traits = {
 				market_liberal
 				for_biased_intellectual
@@ -738,19 +526,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Karol_Niezabytowski_eco_mli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Karol_Niezabytowski_eco_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Karol_Niezabytowski_eco_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Karol_Niezabytowski_eco_mli_hired }
-			}
 			traits = {
 				market_liberal
 				eco_resource_industrialist
@@ -765,19 +545,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Jerzy_Osmolowski_sec_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jerzy_Osmolowski_sec_mli_hired }
-			}
 			traits = {
 				market_liberal
 				sec_efficient_sociopath
@@ -792,19 +564,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Jazep_Hermanovic_hog_sco_hired }
-			}
 			idea_token = BLR_Jazep_Hermanovic_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jazep_Hermanovic_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jazep_Hermanovic_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_happy_amateur
@@ -824,19 +587,12 @@ characters = {
 			traits = {}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Adam_Stankievic_for_sco_hired }
+				is_country_leader = no
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Adam_Stankievic_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Adam_Stankievic_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Adam_Stankievic_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_ideological_crusader
@@ -851,19 +607,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Alieh_Vasilkouski_for_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Alieh_Vasilkouski_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Alieh_Vasilkouski_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Alieh_Vasilkouski_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_general_staffer
@@ -878,19 +626,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Adolf_Klimovic_eco_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Adolf_Klimovic_eco_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Adolf_Klimovic_eco_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Adolf_Klimovic_eco_sco_hired }
-			}
 			traits = {
 				social_conservative
 				eco_mixed_economy
@@ -905,19 +645,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Jan_Pazniak_sec_sco_hired }
+				has_democratic_government = yes
 			}
 			idea_token = BLR_Jan_Pazniak_sec_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Jan_Pazniak_sec_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Jan_Pazniak_sec_sco_hired }
-			}
 			traits = {
 				social_conservative
 				sec_crime_fighter
@@ -937,19 +669,10 @@ characters = {
 			traits = { }
 		}
 		advisor = {
-			
+			cost = 0			
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Vasil_Zacharka_hog_ade_hired }
-			}
 			idea_token = BLR_Vasil_Zacharka_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Vasil_Zacharka_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Vasil_Zacharka_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_silent_workhorse
@@ -964,19 +687,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Klaudzij_Sciapanavic_Duz_Duseuski_for_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				for_general_staffer
@@ -991,19 +706,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Symon_Kandybovic_eco_ade_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = BLR_Symon_Kandybovic_eco_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Symon_Kandybovic_eco_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Symon_Kandybovic_eco_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				eco_construction_magnate
@@ -1018,19 +725,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Anton_Sokal_Kutylouski_sec_ade_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = BLR_Anton_Sokal_Kutylouski_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Anton_Sokal_Kutylouski_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Anton_Sokal_Kutylouski_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_secret_police_chief
@@ -1045,19 +744,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Panteleimon_Rozhnovsky_hog_pau_hired }
-			}
 			idea_token = BLR_Panteleimon_Rozhnovsky_hog_pau
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Panteleimon_Rozhnovsky_hog_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Panteleimon_Rozhnovsky_hog_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				hog_backroom_backstabber
@@ -1072,38 +762,21 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = BLR_Ivan_Jermachenka_hog_pau_hired }
-			}
 			idea_token = BLR_Ivan_Jermachenka_hog_pau
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Ivan_Jermachenka_hog_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Ivan_Jermachenka_hog_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				hog_respected_war_hero
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Ivan_Jermachenka_for_pau_hired }
+				has_dictatorship_government = yes
 			}
 			idea_token = BLR_Ivan_Jermachenka_for_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Ivan_Jermachenka_for_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Ivan_Jermachenka_for_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				for_great_compromiser
@@ -1118,19 +791,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Anton_Adamovic_eco_pau_hired }
+				has_dictatorship_government = yes
 			}
 			idea_token = BLR_Anton_Adamovic_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Anton_Adamovic_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Anton_Adamovic_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_infantry_proponent
@@ -1210,19 +875,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Uladzislau_Kazlouski_for_npo_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = BLR_Uladzislau_Kazlouski_for_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Uladzislau_Kazlouski_for_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Uladzislau_Kazlouski_for_npo_hired }
-			}
 			traits = {
 				national_populist
 				for_biased_intellectual
@@ -1237,19 +894,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Janka_Carapuk_for_npo_hired }
+				has_dictatorship_government = yes 
 			}
 			idea_token = BLR_Janka_Carapuk_for_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Janka_Carapuk_for_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Janka_Carapuk_for_npo_hired }
-			}
 			traits = {
 				national_populist
 				for_ideological_crusader
@@ -1264,19 +913,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Mikalaj_Skialionak_eco_npo_hired }
+				has_authoritarian_government = yes
 			}
 			idea_token = BLR_Mikalaj_Skialionak_eco_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Mikalaj_Skialionak_eco_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Mikalaj_Skialionak_eco_npo_hired }
-			}
 			traits = {
 				national_populist
 				eco_laissez_faire_capitalist
@@ -1291,47 +932,30 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BLR_Juryj_Sabalieuski_sec_npo
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Juryj_Sabalieuski_sec_npo_hired }
-			}
 			traits = {
 				national_populist
 				sec_efficient_sociopath
 			}
 		}
 	}
-	BLR_Radasłaŭ_Astroŭski = {
+	BLR_Radaslau_Astrouski = {
 		name = "Radasłaŭ Astroŭski"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/BLR/Portrait_BLR_Radasłaŭ_Astroŭski.png"
-				small = "gfx/interface/ministers/BLR/BLR_Radasłaŭ_Astroŭski.png"
+				large = "gfx/leaders/BLR/Portrait_BLR_Radaslau_Astrouski.png"
+				small = "gfx/interface/ministers/BLR/BLR_Radaslau_Astrouski.png"
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BLR_Radasłaŭ_Astroŭski_hog_val_hired }
-			}
-			idea_token = BLR_Radasłaŭ_Astroŭski_hog_val
+			idea_token = BLR_Radaslau_Astrouski_hog_val
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Radasłaŭ_Astroŭski_hog_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Radasłaŭ_Astroŭski_hog_val_hired }
-			}
 			traits = {
 				valkist
 				hog_determined_populist
@@ -1346,38 +970,22 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = { 
-				hidden_trigger = { has_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_hog_val_hired }
-			}
 			idea_token = BLR_Fabijan_Ivanovich_Akintschyz_hog_val
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_hog_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_hog_val_hired }
-			}
 			traits = {
 				valkist
 				hog_accomplished_diplomat
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_for_val_hired }
+				has_authoritarian_government = yes
+				not_already_hired_except_as = political_advisor
 			}
 			idea_token = BLR_Fabijan_Ivanovich_Akintschyz_for_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_for_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Fabijan_Ivanovich_Akintschyz_for_val_hired }
-			}
 			traits = {
 				valkist
 				for_biased_intellectual
@@ -1392,19 +1000,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = foreign_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Vladislav_Wenceslaus_Kozlowski_for_val_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BLR_Vladislav_Wenceslaus_Kozlowski_for_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Vladislav_Wenceslaus_Kozlowski_for_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Vladislav_Wenceslaus_Kozlowski_for_val_hired }
-			}
 			traits = {
 				valkist
 				for_foreign_sympathizer
@@ -1419,19 +1019,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
-			slot = economy_minister
+			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = BLR_Leon_Ivanovich_Dubeykovsky_eco_val_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BLR_Leon_Ivanovich_Dubeykovsky_eco_val
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Leon_Ivanovich_Dubeykovsky_eco_val_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Leon_Ivanovich_Dubeykovsky_eco_val_hired }
-			}
 			traits = {
 				valkist
 				eco_planned_economy_proponent
@@ -1459,36 +1051,34 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
-				hidden_trigger = { has_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
+				has_authoritarian_government = yes 
 			}
 			idea_token = BLR_Francisak_Kusal_sec_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = BLR_Francisak_Kusal_sec_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				sec_efficient_sociopath
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
+			available = {
+				not_already_hired_except_as = army_chief
+			}
 			idea_token = BLR_Francisak_Kusal_cos
 			traits = {
 				cos_school_of_commando_operations
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Francisak_Kusal_carm
+			available = {
+				not_already_hired_except_as = high_command
+			}
 			traits = {
 				carm_commando_doctrine
 			}
@@ -1511,7 +1101,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BLR_Kanstancin_Jezavitau_cos
 			traits = {
@@ -1519,7 +1109,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Kanstancin_Jezavitau_carm
 			traits = {
@@ -1544,7 +1134,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Timokh_Khvedashchenya
 			can_be_fired = no
@@ -1602,7 +1192,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Paval_Vent_carm
 			traits = {
@@ -1627,7 +1217,7 @@ characters = {
 			logistics_skill = 2
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command
 			idea_token = BLR_Hasan_Kanapatski
 			can_be_fired = no
@@ -1636,7 +1226,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Hasan_Kanapatski_carm
 			traits = {
@@ -1652,7 +1242,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief
 			idea_token = BLR_Hieorhij_Khalasciakou_cnav
 			traits = {
@@ -1668,7 +1258,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BLR_Anton_Ausianik_cair
 			traits = {
@@ -1684,7 +1274,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief
 			idea_token = BLR_Michal_Vituska_carm
 			traits = {
@@ -1692,7 +1282,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief
 			idea_token = BLR_Michal_Vituska_cair
 			traits = {

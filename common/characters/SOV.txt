@@ -651,7 +651,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Karl_Radek_for_van_hired }
 			}
@@ -678,7 +678,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Georgiy_Malenkov_for_col_hired }
 			}
@@ -705,7 +705,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Mariya_Spiridonova_for_lib_hired }
 			}
@@ -732,7 +732,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Mikhail_Tomskiy_eco_van_hired }
 			}
@@ -760,7 +760,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Sergey_Kirov_eco_col_hired }
 			}
@@ -787,7 +787,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Matvey_Skobelev_eco_lib_hired }
 			}
@@ -814,7 +814,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Genrikh_Yagoda_sec_van_hired }
 			}
@@ -841,7 +841,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pyetr_Popkov_sec_col_hired }
 			}
@@ -868,7 +868,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SOV_Pavel_Sudoplatov_sec_lib_hired }
 			}

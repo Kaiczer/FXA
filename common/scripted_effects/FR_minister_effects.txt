@@ -1,40 +1,4 @@
 add_starting_ministers = {
-  # Belgium
-  BEL = {
-    add_ideas = {
-      BEL_Paul_Van_Zeeland_hog_sco
-      BEL_Roger_Motz_for_mli
-      BEL_Albert_Wauters_eco_sde
-      BEL_Francois_Bovesse_sec_sco
-    }
-  }
-  # Belarus
-  BLR = {
-    add_ideas = {
-      BLR_Radasłaŭ_Astroŭski_hog_val
-      BLR_Fabijan_Ivanovich_Akintschyz_for_val
-      BLR_Leon_Ivanovich_Dubeykovsky_eco_val
-      BLR_Francisak_Kusal_sec_pau
-    }
-  }
-  # Bolivia
-  BOL = {
-    add_ideas = {
-      BOL_Jose_Tejada_Sorzano_hog_sli
-      BOL_Eduardo_Anze_Matienzo_for_sli
-      BOL_Moritz_Hochschild_eco_mli
-      BOL_Jose_Santos_Quinteros_sec_sli
-    }
-  }
-  # Bulgaria
-  BUL = {
-    add_ideas = {
-      BUL_Ivan_Dochev_hog_npo
-      BUL_Stefan_Klechkov_for_npo
-      BUL_Asen_Kantardzhiev_eco_npo
-      BUL_Lyuben_Kostov_sec_npo
-    }
-  }
   # Canada
   CAN = {
     add_ideas = {

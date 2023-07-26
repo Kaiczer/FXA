@@ -110,7 +110,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Cao_Rulin_for_npo_hired }
 			}
@@ -128,7 +128,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Cao_Rulin_sec_npo_hired }
 			}
@@ -221,7 +221,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Ma_Zhanshan_sec_pau_hired }
 			}
@@ -328,7 +328,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Zhang_Xueliang_eco_pau_hired }
 			}
@@ -403,7 +403,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Ruan_Zhenduo_for_sde_hired }
 			}
@@ -421,7 +421,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Ruan_Zhenduo_eco_sde_hired }
 			}
@@ -468,7 +468,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Yang_Yuting_sec_mli_hired }
 			}
@@ -528,7 +528,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Liang_Shiyi_sec_sco_hired }
 			}
@@ -598,7 +598,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Huang_Fu_for_ade_hired }
 			}
@@ -642,7 +642,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Jin_Yunpeng_eco_ade_hired }
 			}
@@ -660,7 +660,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Jin_Yunpeng_sec_ade_hired }
 			}
@@ -704,7 +704,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Wang_Yitang_for_ade_hired }
 			}
@@ -733,7 +733,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Yu_Zhishan_for_mli_hired }
 			}
@@ -751,7 +751,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Yu_Zhishan_eco_mli_hired }
 			}
@@ -785,7 +785,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Wu_Jinglian_for_ade_hired }
 			}
@@ -814,7 +814,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Sun_Qichang_for_pau_hired }
 			}
@@ -832,7 +832,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Sun_Qichang_eco_pau_hired }
 			}
@@ -866,7 +866,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Wang_Yintai_for_pau_hired }
 			}
@@ -892,7 +892,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Li_Shaogeng_eco_sco_hired }
 			}
@@ -910,7 +910,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Li_Shaogeng_sec_sco_hired }
 			}
@@ -936,7 +936,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Lu_Ronghuan_eco_sco_hired }
 			}
@@ -962,7 +962,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Pan_Fu_eco_ade_hired }
 			}
@@ -988,7 +988,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Tang_Yulin_eco_pau_hired }
 			}
@@ -1006,7 +1006,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Tang_Yulin_sec_pau_hired }
 			}
@@ -1032,7 +1032,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Yuan_Jinkai_eco_pau_hired }
 			}
@@ -1050,7 +1050,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Yuan_Jinkai_sec_pau_hired }
 			}
@@ -1076,7 +1076,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = MAN_Ding_Jianxiu_sec_sde_hired }
 			}

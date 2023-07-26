@@ -98,7 +98,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Fritz_Platten_sec_van_hired }
 			}
@@ -379,7 +379,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernst_Nobs_eco_sde_hired }
 			}
@@ -452,7 +452,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Eduard_von_Steiger_sec_sli_hired }
 			}
@@ -498,7 +498,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Giuseppe_Motta_for_sli_hired }
 			}
@@ -544,7 +544,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Max_Petitpierre_for_sli_hired }
 			}
@@ -590,7 +590,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Philipp_Etter_sec_sli_hired }
 			}
@@ -663,7 +663,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernst_Wetter_eco_mli_hired }
 			}
@@ -736,7 +736,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Karl_Kobelt_eco_mli_hired }
 			}
@@ -782,7 +782,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Marcel_Pilet_Golaz_for_mli_hired }
 			}
@@ -828,7 +828,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Walther_Stampfli_for_mli_hired }
 			}
@@ -936,7 +936,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Jakob_Herzog_for_van_hired }
 			}
@@ -963,7 +963,7 @@ ranger
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Rudolf_Gelpke_for_col_hired }
 			}
@@ -1004,7 +1004,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Jakob_I_Huber_for_sli_hired }
 			}
@@ -1023,7 +1023,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Jakob_I_Huber_eco_sli_hired }
 			}
@@ -1050,7 +1050,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Karl_Zeltner_for_sli_hired }
 			}
@@ -1077,7 +1077,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Leo_Niklaus_Lejeune_for_sli_hired }
 			}
@@ -1104,7 +1104,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Max_Kaufmann_for_sli_hired }
 			}
@@ -1131,7 +1131,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Justus_Stocklin_for_mli_hired }
 			}
@@ -1158,7 +1158,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Jacob_Lorenz_for_pau_hired }
 			}
@@ -1185,7 +1185,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernst_Leonhardt_for_npo_hired }
 			}
@@ -1212,7 +1212,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Franz_Welti_eco_van_hired }
 			}
@@ -1239,7 +1239,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Charles_Naine_eco_col_hired }
 			}
@@ -1266,7 +1266,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Leo_Schweizer_eco_sde_hired }
 			}
@@ -1293,7 +1293,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Otto_Gass_eco_sde_hired }
 			}
@@ -1320,7 +1320,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Werner_Jenni_eco_sde_hired }
 			}
@@ -1347,7 +1347,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernst_Weber_eco_sli_hired }
 			}
@@ -1374,7 +1374,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Jakob_Mosimann_eco_sli_hired }
 			}
@@ -1401,7 +1401,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Leonardo_Castelli_eco_sli_hired }
 			}
@@ -1428,7 +1428,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Friedrich_Traugott_Wahlen_eco_mli_hired }
 			}
@@ -1455,7 +1455,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Rudolf_Minger_eco_mli_hired }
 			}
@@ -1482,7 +1482,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Hans_Oehler_eco_pau_hired }
 			}
@@ -1509,7 +1509,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Max_Leo_Keller_eco_npo_hired }
 			}
@@ -1536,7 +1536,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Heinrich_Abbegg_sec_van_hired }
 			}
@@ -1563,7 +1563,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernest_Paul_Graber_sec_col_hired }
 			}
@@ -1590,7 +1590,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Ernst_Loliger_sec_sde_hired }
 			}
@@ -1617,7 +1617,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Guido_Miescher_sec_sde_hired }
 			}
@@ -1644,7 +1644,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Hans_Leupin_sec_sde_hired }
 			}
@@ -1674,7 +1674,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Traugott_Meyer_sec_sde_hired }
 			}
@@ -1709,7 +1709,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Edmund_Schulthess_sec_sli_hired }
 			}
@@ -1736,7 +1736,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Felix_Calonder_sec_sli_hired }
 			}
@@ -1763,7 +1763,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Gonzague_de_Reynold_sec_sli_hired }
 			}
@@ -1790,7 +1790,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Hugo_Gschwind_sec_sli_hired }
 			}
@@ -1817,7 +1817,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Max_Waibel_sec_sli_hired }
 			}
@@ -1844,7 +1844,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Heinrich_Rothmund_sec_mli_hired }
 			}
@@ -1871,7 +1871,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Paul_Frutig_sec_mli_hired }
 			}
@@ -1898,7 +1898,7 @@ trait_mountaineer
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = SWI_Arthur_Fonjallaz_sec_npo_hired }
 			}

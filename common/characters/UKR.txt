@@ -21,7 +21,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Stanislav_Kosior_for_van_hired }
 			}
@@ -699,7 +699,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vlas_Chubar_for_van_hired }
 			}
@@ -753,7 +753,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Shulhyn_for_lib_hired }
 			}
@@ -780,7 +780,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykhailo_Boholiepov_eco_lib_hired }
 			}
@@ -807,7 +807,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Pavlo_Khrystiuk_sec_lib_hired }
 			}
@@ -834,7 +834,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Nikolai_Skrypnik_for_sde_hired }
 			}
@@ -861,7 +861,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Alexander_Shulgin_for_sco_hired }
 			}
@@ -888,7 +888,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Konstantin_Prisovsky_for_pau_hired }
 			}
@@ -915,7 +915,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yuri_Lipa_for_pau_hired }
 			}
@@ -942,7 +942,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Serhii_Shemet_hog_ade_hired }
 			}
@@ -969,7 +969,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykhailo_Savur_Tsypriianovych_for_sco_hired }
 			}
@@ -996,7 +996,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Volodymyr_Zalozetskyi_Sas_eco_sco_hired }
 			}
@@ -1023,7 +1023,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Skoropys_Yoltukhovskyi_eco_ade_hired }
 			}
@@ -1050,7 +1050,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vasyl_Kuchabskyi_sec_sco_hired }
 			}
@@ -1077,7 +1077,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Dmitri_Doroshenko_for_ade_hired }
 			}
@@ -1131,7 +1131,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Liubynskyi_for_sli_hired }
 			}
@@ -1158,7 +1158,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Tvorydlo_eco_sli_hired }
 			}
@@ -1185,7 +1185,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Oleksandr_Zhukivskyi_sec_sli_hired }
 			}
@@ -1212,7 +1212,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikola_Lebid_sec_pau_hired }
 			}
@@ -1239,7 +1239,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Grigorij_Petrovsky_eco_col_hired }
 			}
@@ -1266,7 +1266,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Panas_P_Lyubchenko_eco_col_hired }
 			}
@@ -1293,7 +1293,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yuri_Kotsiubinsky_eco_col_hired }
 			}
@@ -1320,7 +1320,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Nikolai_Shrag_eco_sli_hired }
 			}
@@ -1347,7 +1347,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Tarnovsky_eco_sco_hired }
 			}
@@ -1374,7 +1374,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Kirill_Osmak_eco_ade_hired }
 			}
@@ -1401,7 +1401,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Sergei_Ostapenko_eco_ade_hired }
 			}
@@ -1428,7 +1428,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mikola_Stsiborsky_eco_pau_hired }
 			}
@@ -1455,7 +1455,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Emanoil_Kviring_sec_van_hired }
 			}
@@ -1482,7 +1482,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Leonid_Melnikov_sec_van_hired }
 			}
@@ -1509,7 +1509,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Khrystian_G_Rakovsky_sec_col_hired }
 			}
@@ -1536,7 +1536,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Antonov_Ovseyenko_sec_col_hired }
 			}
@@ -1563,7 +1563,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Ivan_Feshenko_Chopovsky_sec_sli_hired }
 			}
@@ -1590,7 +1590,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Daniil_Skoropadsky_sec_ade_hired }
 			}
@@ -1617,7 +1617,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Igor_Kistyakovsky_sec_ade_hired }
 			}
@@ -1644,7 +1644,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Chekhovsky_sec_ade_hired }
 			}
@@ -1671,7 +1671,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Vladimir_Khitrovo_sec_ade_hired }
 			}
@@ -1698,7 +1698,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Sergei_Kubiyovich_sec_pau_hired }
 			}
@@ -2198,7 +2198,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Dmytro_Andriievskyi_for_pau_hired }
 			}
@@ -2225,7 +2225,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Mykola_Stsiborskyi_eco_pau_hired }
 			}
@@ -2252,7 +2252,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Volodymyr_Kubiiovych_for_npo_hired }
 			}
@@ -2279,7 +2279,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Leonid_Kostariv_eco_npo_hired }
 			}
@@ -2306,7 +2306,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = UKR_Yaroslav_Diakon_sec_npo_hired }
 			}

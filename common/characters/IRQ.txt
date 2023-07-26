@@ -141,7 +141,7 @@ characters = {
 		advisor = {
 			
 			can_be_fired = no
-			slot = security_minister
+			slot = political_advisor
 			idea_token = IRQ_Saeed_Qazaz_sec_cli
 			traits = {
 				sec_secret_police_chief
@@ -158,7 +158,7 @@ characters = {
 		advisor = {
 			
 			can_be_fired = no
-			slot = economy_minister
+			slot = political_advisor
 			idea_token = IRQ_Dhia_Jafar_eco_cli
 			traits = {
 				eco_industrialiser
@@ -175,7 +175,7 @@ characters = {
 		advisor = {
 			
 			can_be_fired = no
-			slot = foreign_minister
+			slot = political_advisor
 			idea_token = IRQ_Musa_Al_Shabander_for_cli
 			traits = {
 				for_great_compromiser

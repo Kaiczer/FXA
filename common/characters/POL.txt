@@ -534,7 +534,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Jerzy_Kurcyusz_for_val_hired }
 			}
@@ -561,7 +561,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Stanisław_Głąbiński_for_npo_hired }
 			}
@@ -588,7 +588,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Maciej_Rataj_for_sli_hired }
 			}
@@ -615,7 +615,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Kazimierz_Sosnkowski_for_pau_hired }
 			}
@@ -642,7 +642,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Ignacy_Daszyński_for_sde_hired }
 			}
@@ -669,7 +669,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Jędrzej_Giertych_for_npo_hired }
 			}
@@ -696,7 +696,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Stanisław_Kozicki_for_npo_hired }
 			}
@@ -723,7 +723,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Jozef_Feliks_Ciszewski_for_col_hired }
 			}
@@ -750,7 +750,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = foreign_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Maria_Koszutska_for_col_hired }
 			}
@@ -769,7 +769,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Maria_Koszutska_eco_col_hired }
 			}
@@ -796,7 +796,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Adam_Chądzyński_eco_sco_hired }
 			}
@@ -823,7 +823,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Adam_Koc_eco_pau_hired }
 			}
@@ -850,7 +850,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Leon_Marchlewski_eco_sco_hired }
 			}
@@ -877,7 +877,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Roman_Rybarski_eco_npo_hired }
 			}
@@ -904,7 +904,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Stanisław_Mikołajczyk_eco_sli_hired }
 			}
@@ -931,7 +931,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tadeusz_Todtleben_eco_val_hired }
 			}
@@ -958,7 +958,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = economy_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tomasz_Arciszewski_eco_sde_hired }
 			}
@@ -985,7 +985,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Jan_Jodzewicz_sec_val_hired }
 			}
@@ -1012,7 +1012,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Karol_Popiel_sec_sco_hired }
 			}
@@ -1039,7 +1039,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Kazimierz_Pużak_sec_sde_hired }
 			}
@@ -1066,7 +1066,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tadeusz_Bielecki_sec_npo_hired }
 			}
@@ -1093,7 +1093,7 @@ characters = {
 		}
 		advisor = {
 			
-			slot = security_minister
+			slot = political_advisor
 			available = { 
 				hidden_trigger = { has_country_flag = POL_Tadeusz_Gluziński_sec_val_hired }
 			}

@@ -598,6 +598,7 @@ country_event = { #Unbelievable Situation - Fate of Daijo-Kan
 	desc = jap_shogun.16.d
 	
 	is_triggered_only = yes 
+
 	option = { #The Kingmaker Elected
 	name = jap_shogun.16.a
 		clr_country_flag = JAP_Tri_Edo_Commissioner
