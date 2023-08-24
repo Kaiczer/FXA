@@ -1,3 +1,4 @@
+
 state={
 	id=355
 	name="STATE_355"
@@ -5,7 +6,7 @@ state={
 	history={
 		owner = TUR
 		victory_points = {
-			11881 1
+			11881 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -13,15 +14,19 @@ state={
 			arms_factory = 1
 			11881 = {
 				naval_base = 4
+
 			}
+
 		}
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		9900 9915 11881 
+		11881 11894 
 	}
 	manpower=491863
 	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

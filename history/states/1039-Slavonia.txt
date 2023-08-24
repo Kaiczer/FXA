@@ -1,15 +1,19 @@
+
 state={
 	id=1039
 	name="STATE_1039"
-	state_category=town
-	provinces={
-		3627 6647 9595 
-	}
-	history = {
+
+	history={
 		owner = SER
 		add_core_of = SER
+
+	}
+
+	provinces={
+		624 3592 3596 3601 3627 9595 9611 11581 11594 
 	}
 	manpower=670200
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

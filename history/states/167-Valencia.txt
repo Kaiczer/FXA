@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SPA
+		add_core_of = SPA
+		
+		
+		
 		victory_points = {
 			6906 5 
 		}
@@ -29,10 +33,6 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
 	}
 
 	provinces={

@@ -1,8 +1,6 @@
 
 CZE_legacy_of_czechoslovakia = {
-	
 	CZE_revive_our_claims = {
-
 		icon = generic_political_discourse
 		available = {
 			CZE = {
@@ -46,12 +44,32 @@ CZE_legacy_of_czechoslovakia = {
 
 		icon = generic_political_discourse
 		available = {
-			70 = { is_owned_by = CZE }
-			71 = { is_owned_by = CZE }
+			custom_trigger_tooltip = {
+				tooltip = "Assumed the domination over Czechoslovak region"
+				check_variable = {
+					CZE.num_of_controlled_states@SLO > 2
+				}
+			}
+			SLO = { 
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				}
+			}
  		}
  		visible = { 
-			70 = { is_owned_by = CZE }
-			71 = { is_owned_by = CZE }
+			custom_trigger_tooltip = {
+				tooltip = "Assumed the domination over Czechoslovak region"
+				check_variable = {
+					CZE.num_of_controlled_states@SLO > 2
+				}
+			}
+			SLO = { 
+				OR = {
+					exists = no
+					is_subject_of = ROOT
+				} 
+			}
  		}
 		ai_will_do = {
 			factor = 1
@@ -60,6 +78,14 @@ CZE_legacy_of_czechoslovakia = {
 		cost = 75
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision CZE_reform_czechoslovakia"
+			if = {
+				limit = {
+					SLO = {
+						is_subject_of = ROOT 
+					}
+				}
+				annex_country = { target = SLO }
+			}
 			set_cosmetic_tag = CZE_czsl
 			complete_national_focus = CZE_the_new_czechoslovakia
 		}

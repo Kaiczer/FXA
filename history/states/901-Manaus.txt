@@ -2,6 +2,7 @@
 state={
 	id=901
 	name="STATE_901"
+	impassable = yes
 
 	history={
 		owner = BRA
@@ -14,9 +15,10 @@ state={
 	}
 
 	provinces={
-		5083 12919 13083
+		5083 12919 
 	}
 	manpower=210500
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

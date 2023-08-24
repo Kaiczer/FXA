@@ -5011,17 +5011,54 @@ focus_tree = {
 		relative_position_id = ROM_reclaim_the_territories
 		completion_reward = {
 			every_owned_state = {
-        limit = {
-          OR = {
-            is_core_of = GRE
-            is_core_of = BUL
-            is_core_of = SER
-            is_core_of = TUR
-          }
-        }
-        add_core_of = ROOT
-      }
-      set_cosmetic_tag = ROM_byzantium
+				limit = {
+					OR = {
+						is_core_of = GRE
+						is_core_of = BUL
+						is_core_of = SER
+						is_core_of = TUR
+					}
+				}
+				add_core_of = ROM
+    		}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = GRE
+						is_core_of = BUL
+						is_core_of = SER
+						is_core_of = TUR
+					}
+					NOT = {
+						is_owned_by = ROM 
+					}
+				}
+				add_claim_by = ROM
+			}
+      		if = {
+				limit = {
+					count_triggers = {
+						amount = 2
+						341 = {
+							is_owned_and_controlled_by = ROM
+						}
+						any_owned_state = {
+							NOT = { state = 341 }
+							region = 25
+						}
+						GRE = {
+							is_puppet_of = ROM
+						}
+						GRE = {
+							exists = no 
+						}
+					}
+				}
+				set_cosmetic_tag = ROM_byzantium_unified
+			}
+			else = {
+				set_cosmetic_tag = ROM_byzantium
+			}
 		}
 	}
 }

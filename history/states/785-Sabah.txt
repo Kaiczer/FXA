@@ -1,11 +1,9 @@
-state = {
-	id=785
-	name = "STATE_785"
-	manpower = 302100
-	state_category = town
 
-	history = {
-		
+state={
+	id=785
+	name="STATE_785"
+
+	history={
 		owner = BEA
 		add_core_of = BEA
 		buildings = {
@@ -14,30 +12,35 @@ state = {
 			infrastructure = 2
 			10212 = {
 				naval_base = 3
+
 			}
 			10199 = {
 				naval_base = 1
+
 			}
 			12228 = {
 				naval_base = 1
-			}
-		}
-		
-		victory_points = {
-			10212 15
-		}
-		victory_points = {
-			10199 5
-		}
-		victory_points = {
-			12228 5
-		}
-	}
 
-		
+			}
+
+		}
+		victory_points = {
+			10212 15 
+		}
+		victory_points = {
+			10199 5 
+		}
+		victory_points = {
+			12228 5 
+		}
+
+	}
 
 	provinces={
-		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+		1306 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
 	}
-	
+	manpower=302100
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

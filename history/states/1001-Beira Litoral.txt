@@ -2,27 +2,31 @@
 state={
 	id=1001
 	name="STATE_1001"
-	manpower = 687671
 	resources={
-		tungsten=38.0
+		tungsten=38.000
 	}
-	
-	state_category = town
 
 	history={
-		owner = POR
+		owner = PRR
 		victory_points = {
-			3798 5
+			3798 5 
 		}
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
 		}
-		add_core_of = POR
+		add_core_of = ANG
+		add_claim_by = POR
 		add_core_of = PRR
+
 	}
 
 	provinces={
-		799 889 1043 3798 6924 9787
+		2115 
 	}
+	manpower=687671
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

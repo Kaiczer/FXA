@@ -4,7 +4,7 @@ state={
 	name="STATE_291"
 	resources={
 		oil=15.000
-		aluminium = 15
+		aluminium=15.000
 	}
 
 	history={
@@ -17,11 +17,14 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
+
 		}
 		add_core_of = IRQ
+
 	}
+
 	provinces={
-		2097 7994 10876 12046 12839 12855 
+		2097 7977 10876 12046 12855 
 	}
 	manpower=1069420
 	buildings_max_level_factor=1.000

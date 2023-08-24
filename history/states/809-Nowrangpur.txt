@@ -1,3 +1,4 @@
+
 state={
 	id=809
 	name="STATE_809"
@@ -10,12 +11,14 @@ state={
 		}
 		add_core_of = IND
 		add_core_of = RAJ
+
 	}
 
 	provinces={
-		4237 7372 7428 7465 10001 10255 12241 
+		7372 7428 7465 12241 
 	}
 	manpower=4520100
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

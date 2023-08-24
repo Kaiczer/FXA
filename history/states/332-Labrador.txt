@@ -2,9 +2,11 @@
 state={
 	id=332
 	name="STATE_332"
+	impassable = yes
 	resources={
-		steel=11.0
+		steel=11.000
 	}
+
 	history={
 		owner = NFL
 		buildings = {
@@ -18,14 +20,16 @@ state={
 		add_core_of = CAN
 		add_core_of = NFL
 		victory_points = {
-			4720 1
+			4720 1 
 		}
+
 	}
 
 	provinces={
-		1426 4720 13180 13219 13229 
+		1426 1785 4720 4787 12503 13165 13180 13219 13229 
 	}
 	manpower=52179
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

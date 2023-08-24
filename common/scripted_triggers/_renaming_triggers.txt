@@ -151,9 +151,9 @@ is_russian_tag = {
 is_spanish_tag = {
   OR = {
     tag = SPA
-    tag = SPR
+    tag = SWF
     tag = SPM
-    tag = SPF
+    tag = SPN
   }
 }
 

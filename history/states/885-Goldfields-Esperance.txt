@@ -2,28 +2,30 @@
 state={
 	id=885
 	name="STATE_885"
-	
-	manpower = 31050
-	state_category = rural
-	
 	resources={
-		steel=10.0
-		tungsten=3.0
-		chromium=2.0
+		steel=10.000
+		tungsten=3.000
+		chromium=2.000
 	}
 
 	history={
 		owner = AST
 		buildings = {
 			infrastructure = 2
+
 		}
 		victory_points = {
 			12962 1 
 		}
 		add_core_of = AST
+
 	}
 
 	provinces={
-		1526 2191 8200 10949 10969 10997 11011 12948 12962 12976 12990
+		1526 2191 10949 10969 10997 11011 12948 12962 12976 12990 
 	}
+	manpower=31050
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

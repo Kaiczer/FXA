@@ -38,7 +38,7 @@ spanish_civil_war_volunteers = {
 	has_global_flag = spanish_civil_war
 	OR = {
 		AND = {
-			FROM = { tag = SPR }
+			FROM = { tag = SPA }
 			has_elected_government = yes
 			num_of_military_factories > 8
 		}
@@ -51,7 +51,7 @@ spanish_civil_war_volunteers = {
 			num_of_military_factories > 8
 		}
 		AND = {
-			FROM = { tag = SPF }
+			FROM = { tag = SPN }
 			OR = {
 				has_government = national_populist
 				has_government = valkist
@@ -59,7 +59,7 @@ spanish_civil_war_volunteers = {
 			num_of_military_factories > 8
 		}
 		AND = {
-			FROM = { tag = SPA }
+			FROM = { tag = SWF }
 			has_socialist_government = yes
 			num_of_military_factories > 8
 		}
@@ -186,31 +186,31 @@ needs_cheap_infantry = {
 			tag = SPA
 			OR = {
 				has_war_with = SPF
-				has_war_with = SPR
+				has_war_with = SPN
 				has_war_with = SPM
 			}
 		}
 		AND = {
-			tag = SPF
+			tag = SPN
 			OR = {
 				has_war_with = SPA
-				has_war_with = SPR
+				has_war_with = SWF 
 				has_war_with = SPM
 			}
 		}
 		AND = {
-			tag = SPR
+			tag = SWF
 			OR = {
 				has_war_with = SPA
-				has_war_with = SPF
+				has_war_with = SPN 
 				has_war_with = SPM
 			}
 		}
 		AND = {
 			tag = SPM
 			OR = {
-				has_war_with = SPR
-				has_war_with = SPF
+				has_war_with = SPN 
+				has_war_with = SPF 
 				has_war_with = SPA
 			}
 		}

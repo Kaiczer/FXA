@@ -1187,7 +1187,7 @@ create_ambition_areas = {
 			}
 			set_variable = { ambition_area_@SHX = 1 }
 		}
-		# SPA - Commie Spain
+		# SPA - Spain
 		if = {
 			limit = {
 				OR = {
@@ -1200,48 +1200,6 @@ create_ambition_areas = {
 				}
 			}
 			set_variable = { ambition_area_@SPA = 1 }
-		}
-		# SPF - Falangist Spain
-		if = {
-			limit = {
-				OR = {
-					is_core_of = SPF
-					is_claimed_by = SPF
-					region = 41 # Iberia
-					region = 48 # Canary Islands
-					region = 182 # North West Africa
-					region = 68 # West Mediterranean
-				}
-			}
-			set_variable = { ambition_area_@SPF = 1 }
-		}
-		# SPR - Republican Spain
-		if = {
-			limit = {
-				OR = {
-					is_core_of = SPR
-					is_claimed_by = SPR
-					region = 41 # Iberia
-					region = 48 # Canary Islands
-					region = 182 # North West Africa
-					region = 68 # West Mediterranean
-				}
-			}
-			set_variable = { ambition_area_@SPR = 1 }
-		}
-		# SPM - Monarchist Spain
-		if = {
-			limit = {
-				OR = {
-					is_core_of = SPM
-					is_claimed_by = SPM
-					region = 41 # Iberia
-					region = 48 # Canary Islands
-					region = 182 # North West Africa
-					region = 68 # West Mediterranean
-				}
-			}
-			set_variable = { ambition_area_@SPM = 1 }
 		}
 		# SOV - Soviet Union
 		if = {

@@ -1,10 +1,7 @@
 
 state={
 	id=547
-	name="STATE_547" #Kenya
-	manpower = 3392000
-	
-	state_category = rural
+	name="STATE_547"
 
 	history={
 		owner = ENG
@@ -13,19 +10,26 @@ state={
 			industrial_complex = 1
 			5210 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
-			5210 4
+			5210 4 
 		}
 		victory_points = {
-			1939 5
+			1939 5 
 		}
 		add_core_of = KEN
-    add_claim_by = ENG
+		add_claim_by = ENG
+
 	}
 
 	provinces={
-		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11145 12842 12927 13135 
+		1939 2066 5079 5160 5196 5210 6020 8133 10761 10860 10962 10976 11145 12927 13135 
 	}
+	manpower=3392000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

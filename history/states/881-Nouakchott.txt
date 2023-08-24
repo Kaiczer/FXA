@@ -1,3 +1,4 @@
+
 state={
 	id=881
 	name="STATE_881"
@@ -7,14 +8,17 @@ state={
 		owner = NFA
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = NFA
+
 	}
 
 	provinces={
-		8035 10814 8058 5077 5034 7992
+		5034 5077 8058 10771 
 	}
-	manpower = 172654
+	manpower=172654
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
+	local_supplies=0.000
 }

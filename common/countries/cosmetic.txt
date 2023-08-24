@@ -350,6 +350,35 @@ SPA_SSR = {
 	color = rgb { 140 40 40 }
 	color_ui = rgb { 150 17 59 }
 }
+SPA_cw = {
+	color = rgb { 200 167 85 }
+	color_ui = rgb { 200 167 85 }
+}
+SPA_kingdom = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 189 167 85 }
+}
+SPA_nationalist = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 200 100 31 }
+}
+SPA_kingdom_cw = {
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
+}
+SPA_nationalist_cw = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 200 100 31 }
+}
+SPA_socialist = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
+}
+SPA_socialist_cw = {
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
+}
+
 BEL_SSR = {
 	color = rgb { 140 40 40 }
 	color_ui = rgb { 150 17 59 }
@@ -691,6 +720,10 @@ UKR_NIPU = {
 	color_ui = rgb { 102 0 0 }
 }
 ROM_byzantium = {
+	color = rgb { 127 0 55 }
+	color_ui = rgb { 127 0 55 }
+}
+ROM_byzantium_unified = {
 	color = rgb { 127 0 55 }
 	color_ui = rgb { 127 0 55 }
 }

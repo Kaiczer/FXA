@@ -2,11 +2,9 @@
 state={
 	id=527
 	name="STATE_527"
-	manpower = 6474200
-	state_category = town
 	resources={
-		steel=23.0
-		tungsten=40.0
+		steel=23.000
+		tungsten=40.000
 	}
 
 	history={
@@ -15,14 +13,20 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		add_core_of = KOR
 		victory_points = {
-			11915 1
+			11915 1 
 		}
+
 	}
 
 	provinces={
-		848 1003 4107 7070 7155 7171 9981 10065 10083 11770 11915 12040 
+		848 9981 10083 12040 
 	}
+	manpower=6474200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

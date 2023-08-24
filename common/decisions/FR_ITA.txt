@@ -10111,10 +10111,7 @@ ITA_expand_latin_category = {
 	}
 	
 	ITA_expand_latin_spain = {
-		war_with_on_remove = SPF
-		war_with_on_remove = SPR
-		war_with_on_remove = SPM
-		war_with_on_remove = SPA
+		war_with_on_remove = SPA 
 	
 		icon = infiltrate_state
 
@@ -10123,41 +10120,12 @@ ITA_expand_latin_category = {
 		fire_only_once = yes
 		
 		visible = {
-			OR = {
-				SPF = {
-					exists = yes
-					NOT = {
-						OR = {
-							is_in_faction_with = ITA
-							has_war_with = ITA
-						}
-					}
-				}
-				SPR = {
-					exists = yes
-					NOT = {
-						OR = {
-							is_in_faction_with = ITA
-							has_war_with = ITA
-						}
-					}
-				}
-				SPM = {
-					exists = yes
-					NOT = {
-						OR = {
-							is_in_faction_with = ITA
-							has_war_with = ITA
-						}
-					}
-				}
-				SPA = {
-					exists = yes
-					NOT = {
-						OR = {
-							is_in_faction_with = ITA
-							has_war_with = ITA
-						}
+			SPA = {
+				exists = yes
+				NOT = {
+					OR = {
+						is_in_faction_with = ITA
+						has_war_with = ITA
 					}
 				}
 			}
@@ -10173,57 +10141,6 @@ ITA_expand_latin_category = {
 		cost = 75
 		
 		remove_effect = {
-			if = {
-				limit = {
-					SPF = {
-						exists = yes
-						NOT = {
-							OR = {
-								is_in_faction_with = ITA
-								has_war_with = ITA
-							}
-						}
-					}
-				}
-				declare_war_on = {
-					target = SPF
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					SPR = {
-						exists = yes
-						NOT = {
-							OR = {
-								is_in_faction_with = ITA
-								has_war_with = ITA
-							}
-						}
-					}
-				}
-				declare_war_on = {
-					target = SPR
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					SPM = {
-						exists = yes
-						NOT = {
-							OR = {
-								is_in_faction_with = ITA
-								has_war_with = ITA
-							}
-						}
-					}
-				}
-				declare_war_on = {
-					target = SPM
-					type = annex_everything
-				}
-			}
 			if = {
 				limit = {
 					SPA = {
@@ -10468,15 +10385,6 @@ ITA_expand_latin_category = {
 						}
 					}
 				}
-				MAC = {
-					exists = yes
-					NOT = {
-						OR = {
-							is_in_faction_with = ITA
-							has_war_with = ITA
-						}
-					}
-				}
 				SLV = {
 					exists = yes
 					NOT = {
@@ -10556,23 +10464,6 @@ ITA_expand_latin_category = {
 				}
 				declare_war_on = {
 					target = BOS
-					type = annex_everything
-				}
-			}
-			if = {
-				limit = {
-					MAC = {
-						exists = yes
-						NOT = {
-							OR = {
-								is_in_faction_with = ITA
-								has_war_with = ITA
-							}
-						}
-					}
-				}
-				declare_war_on = {
-					target = MAC
 					type = annex_everything
 				}
 			}

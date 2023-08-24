@@ -4,16 +4,18 @@ state={
 	name="STATE_778"
 
 	history={
-		owner = TUR
+		owner = ARM
 		buildings = {
 			infrastructure = 3
-			
+
 		}
+		add_core_of = ARM
 		add_core_of = TUR
+
 	}
 
 	provinces={
-		960 975 3965 11894 
+		975 3714 9932 
 	}
 	manpower=335345
 	buildings_max_level_factor=1.000

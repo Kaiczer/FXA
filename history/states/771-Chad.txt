@@ -1,3 +1,4 @@
+
 state={
 	id=771
 	name="STATE_771"
@@ -9,17 +10,19 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			2081 2 
 		}
+
 	}
 
-
 	provinces={
-		1473 1883 1993 2081 3123 3181 4897 4978 7919 8078 9152 13138
+		1473 1883 1993 2081 3123 3181 4897 4978 7919 9152 13138 13327 
 	}
 	manpower=1286228
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

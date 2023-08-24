@@ -4,8 +4,9 @@ state={
 	name="STATE_1040"
 
 	history={
-		owner = BLR
-		add_core_of = BLR
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = IND
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -15,7 +16,7 @@ state={
 	}
 
 	provinces={
-		6359 13314 
+		7903 10813 13314 
 	}
 	manpower=282046
 	buildings_max_level_factor=1.000

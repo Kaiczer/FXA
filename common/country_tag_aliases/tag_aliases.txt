@@ -10,3 +10,15 @@ CRP = { # ROM, HUN, SLO
 CAU = { # GEO, GOR, AZR, ARM
 	global_event_target = unified_caucasia
 }
+SPN = {
+	original_tag = SPA 
+	has_country_flag = SPA_is_nationalists
+}
+SWF = {
+	original_tag = SPA 
+	has_country_flag = SPA_is_socialist
+}
+SPM = {
+	original_tag = SPA 
+	has_country_flag = SPA_is_kingdom
+}

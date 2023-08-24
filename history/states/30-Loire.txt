@@ -3,14 +3,13 @@ state={
 	id=30
 	name="STATE_30"
 	resources={
-		aluminium=15.0
-		tungsten=26.0
-		chromium=60.0
+		aluminium=15.000
+		tungsten=26.000
+		chromium=60.000
 	}
 
 	history={
 		owner = FRA
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 4
@@ -28,9 +27,10 @@ state={
 	}
 
 	provinces={
-		3495 3509 3523 9478 11463 
+		503 3495 3509 3523 9478 11463 13286 
 	}
 	manpower=1288400
 	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

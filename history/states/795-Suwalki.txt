@@ -8,12 +8,14 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		add_core_of = LIT
+
 	}
 
 	provinces={
-		3254 3272 6281 6407 11312 
+		3272 6281 6407 11312 
 	}
 	manpower=1992576
 	buildings_max_level_factor=1.000

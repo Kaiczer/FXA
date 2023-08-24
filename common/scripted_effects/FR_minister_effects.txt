@@ -270,42 +270,6 @@ add_starting_ministers = {
       SOV_Pyetr_Popkov_sec_col
     }
   }
-  # Spain - Anarchist
-  SPA = {
-    add_ideas = {
-      SPA_Jose_Diaz_Ramos_hog_col
-      SPA_Andres_Nin_Perez_for_col
-      SPA_Vicente_Uribe_Galdeano_eco_col
-      SPA_Buenaventura_Durruti_sec_col
-    }
-  }
-  # Spain - Falangist
-  SPF = {
-    add_ideas = {
-      SPF_Carlos_Ibarguren_hog_npo
-      SPF_Onesimo_Redondo_for_npo
-      SPF_Eugenio_d_Ors_eco_val
-      SPF_Nimio_de_Anquin_sec_pau
-    }
-  }
-  # Spain - Monarchist
-  SPM = {
-    add_ideas = {
-      SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade
-      SPM_Alberto_M_Artejo_Alvarez_for_ade
-      SPM_Jose_Calvo_Sotelo_eco_ade
-      SPM_Blas_Perez_Gonzalez_sec_ade
-    }
-  }
-  # Spain - Republican
-  SPR = {
-    add_ideas = {
-      SPR_Niceto_Alcala_Zamora_hog_mli
-      SPR_Diego_Hidalgo_Duran_for_sli
-      SPR_Josep_Tarradellas_eco_mli
-      SPR_Diego_Martines_Barrio_sec_sli
-    }
-  }
   # Sweden
   SWE = {
     add_ideas = {
@@ -324,15 +288,6 @@ add_starting_ministers = {
       SWI_Heinrich_Rothmund_sec_mli
     }
   }
-  # Ottoman Empire
-  # TUR = {
-  #   add_ideas = {
-  #     TUR_Prens_Sabahaddin_Efendi_hog_sli
-  #     TUR_Haqqi_al_Azm_for_sli
-  #     TUR_Berc_Keresteciyan_Bey_eco_sli
-  #     TUR_Ağaoglu_Ahmed_Paşa_sec_sli
-  #   }
-  # }
   # Ukraine
   UKR = {
     add_ideas = {

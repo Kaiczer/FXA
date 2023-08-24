@@ -10,5 +10,9 @@ characters = {
 			ideology = pataut_warlordism_subtype
 			traits = { }
 		}
+		country_leader = {
+			ideology = national_populist_subtype
+			traits = { }
+		}
 	}
 }

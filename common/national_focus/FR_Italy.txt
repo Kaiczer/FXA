@@ -3973,12 +3973,7 @@
 				controller = {
 					is_puppet = no
 					has_war = no
-					OR = {
-						has_government = authoritarian_democrat
-						has_government = paternal_autocrat
-						has_government = national_populist
-						has_government = valkist
-					}
+					has_authoritarian_government = yes 
 				}
 			}
 		}
@@ -4007,14 +4002,14 @@
 			modifier = {
 				factor = 2
 				has_opinion = {
-					target = SPF
+					target = SPA
 					value > 24
 				}
 			}
 			modifier = {
 				factor = 2
 				has_opinion = {
-					target = SPF
+					target = SPA
 					value > 50
 				}
 			}
@@ -4054,7 +4049,7 @@
 					}
 				}
 				ITA = {
-					owns_state = 177
+					owns_state = 171
 				}
 			}
 		}		
@@ -4068,7 +4063,7 @@
 			modifier = {
 				factor = 0.5
 				has_opinion = {
-					target = SPF
+					target = SPA 
 					value > 49
 				}
 			}

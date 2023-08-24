@@ -2253,65 +2253,6 @@ leader_traits = {
 		}
 	}
 
-	trait_SPA_nationalist_sympathies = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPA_falangist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPA_carlist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_republican_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_stalinist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
-
-	trait_SPR_anti_stalinist_loyalties = {
-
-		type = all
-		trait_type = personality_trait
-
-		new_commander_weight = {
-			factor = 0
-		}
-	}
 
 	trait_BUL_zveno_member = {
 

@@ -288,7 +288,7 @@ foreign_politics = {
     days_remove = 2
     fire_only_once = yes
     allowed = { original_tag = USA }
-    targets = { POR SPM SPR SPA SPF DEN NOR }
+    targets = { POR DEN NOR }
     target_trigger = {
       FROM = {
         exists = yes

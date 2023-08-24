@@ -11,13 +11,16 @@ state={
 		add_claim_by = MAN
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-	  2087 4525 7048 7631 10424 10629 12331 12403 12609 12880 
+		2087 4525 7048 7158 7631 10424 10629 12331 12403 12609 12880 
 	}
-	manpower= 741410
+	manpower=741410
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

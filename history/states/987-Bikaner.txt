@@ -2,18 +2,23 @@
 state={
 	id=987
 	name="STATE_987"
-	provinces={
-		7998 12041 12844 12876 
-	}
+
 	history={
 		owner = RAJ
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = IND
 		add_core_of = RAJ
+
+	}
+
+	provinces={
+		7998 10866 12041 12718 12844 12876 
 	}
 	manpower=462880
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

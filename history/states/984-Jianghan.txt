@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ZHI
+		owner = CHI
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2
@@ -25,13 +25,15 @@ state={
 		}
 		add_core_of = CHI
 		add_core_of = ZHI
-		add_claim_by = MAN 
+		add_core_of = MAN
+
 	}
 
 	provinces={
-		1036 4619 4631 7167 7637 9959 10462 12467 
+		1036 1612 4130 4619 4631 7625 9934 12467 
 	}
 	manpower=21401000
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

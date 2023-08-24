@@ -1,0 +1,611 @@
+capital = 41
+
+oob = "SPA"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	fuel_silos = 1
+	basic_train = 1
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+
+	create_equipment_variant = {
+		name = "C Class"
+		type = ship_hull_submarine_2
+
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Churruca Class"
+		type = ship_hull_light_1
+
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+
+	else = {
+		set_technology = {
+			early_submarine = 1
+			early_destroyer = 1
+			basic_destroyer = 1
+			early_light_cruiser = 1
+			early_heavy_cruiser = 1
+			basic_heavy_cruiser = 1
+			early_battleship = 1
+			transport = 1
+		}
+		
+		create_equipment_variant = {
+			name = "C Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+				sub_torpedo_upgrade = 1
+			}
+		}
+
+		create_equipment_variant = {
+			name = "Churruca Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_anti_air_upgrade = 1
+			}
+		}
+	}
+}
+
+create_dynamic_country = {
+	original_tag = SPA
+	set_country_flag = SPA_is_socialist
+	set_cosmetic_tag = SPA_socialist_cw
+	load_focus_tree = FR_Socialist_Spain_CivilWar
+
+	set_stability = 0.7
+	add_war_support = 0.4
+	set_politics = { ruling_party = vanguard_socialist }
+	set_popularities = {
+		auth_socialist = 20
+		libertarian_socialist = 33
+		vanguard_socialist = 39
+		social_democrat = 8
+		social_liberal = 0
+		market_liberal = 0
+		social_conservative = 0
+		authoritarian_democrat = 0
+		paternal_autocrat = 0
+		national_populist = 0
+		valkist = 0
+	}
+
+	add_ideas = {
+		limited_conscription
+		low_economic_mobilisation
+
+		SPA_civil_war_idea
+		SPA_prolonged_recession_idea
+	}
+
+	add_equipment_to_stockpile = {
+		type = convoy_1
+		amount = 30
+		producer = SPA
+	}
+	
+	recruit_character = SWF_Francisco_Largo_Caballero
+	recruit_character = SWF_Jose_Diaz_Ramos
+	recruit_character = SWF_Jose_Cazorla_Maure
+
+	SWF_Jose_Diaz_Ramos = { promote_character = vanguard_socialist_subtype }
+	SWF_Francisco_Largo_Caballero = { promote_character = libertarian_socialist_subtype }
+	SWF_Jose_Cazorla_Maure = { promote_character = auth_socialist_subtype }
+
+	recruit_character = SWF_Buenaventura_Durruti 
+	SWF_Buenaventura_Durruti = {
+		add_advisor_role = {
+			character = THIS
+			activate = yes
+			advisor = {
+				slot = head_of_government
+				cost = 0
+				idea_token = SWF_Buenaventura_Durruti_hog
+				traits = {
+					libertarian_socialist
+					hog_reformist_soldier
+				}
+			}
+		}
+	}
+	recruit_character = SWF_CNT_FAI
+	recruit_character = SWF_Juan_Negrin
+	recruit_character = SWF_Juan_Modesto
+	recruit_character = SWF_Cipriano_Mera_Sanz
+	recruit_character = SWF_Enrique_Lister_Forjan
+	recruit_character = SWF_Andres_Nin_Perez
+	recruit_character = SWF_Santiago_Carrillo_Solares
+	recruit_character = SWF_Vicente_Uribe_Galdeano
+	recruit_character = SWF_Joaquin_Maurin
+	recruit_character = SWF_Juan_Garcia_Oliver
+	recruit_character = SWF_Angel_Pestana_Nunez
+	recruit_character = SWF_Anastasio_de_Gracia_Villarrubia
+	recruit_character = SWF_Jesus_Hernandez_y_Tomas
+	recruit_character = SWF_Jordi_Arquer
+	recruit_character = SWF_Eduardo_de_Guzman
+	recruit_character = SWF_Julian_Besteiro_Fernandez
+	recruit_character = SWF_Julio_Alvarez_del_Vayo
+	recruit_character = SWF_Fernando_de_los_Rios_Urruti
+	recruit_character = SWF_Enrique_Castro_Delgado
+	recruit_character = SWF_Rafael_Vidiella_Franch
+	recruit_character = SWF_Miquel_Valdes_i_Valdes
+	recruit_character = SWF_Federica_Monsteny_Mane
+	recruit_character = SWF_Joaquin_Ascaso_Budria
+	recruit_character = SWF_Juan_Lopez_Sanchez
+	recruit_character = SWF_Juan_Peiro_Belis
+	recruit_character = SWF_Belamino_Tomas_Alvarez
+	recruit_character = SWF_Felix_Gordon_Ordas
+	recruit_character = SWF_Antonio_Mije
+	recruit_character = SWF_Joaquin_Grimau_Garcia
+	recruit_character = SWF_Valentin_Gonzalez_Gonzalez
+	recruit_character = SWF_Angel_Galarza_y_Gago
+	recruit_character = SWF_Antonio_Ortega_Gutierrez
+	recruit_character = SWF_Indalecio_Prieto
+	recruit_character = SWF_Emilio_Kleber
+	recruit_character = SWF_Francisco_Ascaso_Budria
+
+	### Variants ###
+	#SPA_naval_variants = yes
+
+	reserve_dynamic_country = yes
+	set_country_flag = reserved_dynamic_tag
+}
+
+create_dynamic_country = {
+	original_tag = SPA
+	set_country_flag = SPA_is_nationalists 
+	set_cosmetic_tag = SPA_nationalist_cw
+	load_focus_tree = FR_Falangist_Spain_Civil_War
+
+	set_stability = 0.7
+	add_war_support = 0.4
+	set_politics = { ruling_party = national_populist }
+	set_popularities = {
+		auth_socialist = 0
+		libertarian_socialist = 0
+		vanguard_socialist = 0
+		social_democrat = 5
+		social_liberal = 3
+		market_liberal = 5
+		social_conservative = 7
+		authoritarian_democrat = 3
+		paternal_autocrat = 23
+		national_populist = 33
+		valkist = 21
+	}
+
+	add_ideas = {
+		limited_conscription
+		low_economic_mobilisation
+		
+		SPA_civil_war_idea
+		SPA_prolonged_recession_idea
+	}
+
+	add_equipment_to_stockpile = {
+		type = convoy_1
+		amount = 30
+		producer = SPA
+	}
+
+	recruit_character = SPN_Javier_Borbon_Parma
+	recruit_character = SPN_Infante_Jaime
+	recruit_character = SPN_Jose_Maria_Albinana
+	recruit_character = SPN_Jose_Antonio_Primo_de_Rivera
+	recruit_character = SPN_Ramiro_Ledesma_Ramos
+	recruit_character = SPN_Juan_Yague
+	recruit_character = SPN_Gonzalo_Queipo_de_Llano
+	recruit_character = SPN_Emilio_Mola
+	recruit_character = SPN_Mohamed_Meziane
+	recruit_character = SPN_Nimio_de_Anquin
+	recruit_character = SPN_Alvaro_Cunqueiro
+	recruit_character = SPN_Ernesto_Gimenez_Caballero
+	recruit_character = SPN_Carlos_Ibarguren
+	recruit_character = SPN_Pedro_Lain_Entralgo
+	recruit_character = SPN_Eugenio_d_Ors
+	recruit_character = SPN_Leopoldo_Panero
+	recruit_character = SPN_Jose_Maria_Peman
+	recruit_character = SPN_Onesimo_Redondo
+	recruit_character = SPN_Dionisio_Ridruejo
+	recruit_character = SPN_Pedro_Sainz_Rodriguez
+	recruit_character = SPN_Rafael_Sanchez_Mazas
+	recruit_character = SPN_Gonzalo_Torrente_Ballester
+	recruit_character = SPN_Antonio_Tovar
+	
+	promote_character = SPN_Jose_Antonio_Primo_de_Rivera
+	
+	### Variants ###
+	#SPA_naval_variants = yes
+
+	reserve_dynamic_country = yes
+	set_country_flag = reserved_dynamic_tag
+}
+
+create_dynamic_country = {
+	original_tag = SPA
+	set_country_flag = SPA_is_kingdom
+	set_cosmetic_tag = SPA_kingdom_cw
+	load_focus_tree = FR_Monarchist_Spain_Civil_War
+
+	set_stability = 0.7
+	add_war_support = 0.4
+	set_politics = { ruling_party = authoritarian_democrat }
+	set_popularities = {
+		auth_socialist = 0
+		libertarian_socialist = 0
+		vanguard_socialist = 0
+		social_democrat = 5
+		social_liberal = 3
+		market_liberal = 5
+		social_conservative = 23
+		authoritarian_democrat = 36
+		paternal_autocrat = 23
+		national_populist = 5
+		valkist = 0
+	}
+
+	add_ideas = {
+		limited_conscription
+		low_economic_mobilisation
+		
+		SPA_civil_war_idea
+		SPA_prolonged_recession_idea
+	}
+
+	add_equipment_to_stockpile = {
+		type = convoy_1
+		amount = 30
+		producer = SPA
+	}
+
+	recruit_character = SPM_Alfonso_XIII
+	SPM_Alfonso_XIII = {
+		promote_character = social_conservative_subtype
+		promote_character = authoritarian_democrat_subtype
+		promote_character = paternal_autocrat_subtype
+		promote_character = national_populist_subtype
+	}
+	recruit_character = SPM_Jaime_III
+	recruit_character = SPM_Juan_III
+
+	recruit_character = SPM_Jose_Sanjurjo
+	recruit_character = SPM_Miguel_Cabanellas
+	recruit_character = SPM_Leopoldo_Saro
+	recruit_character = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor
+	recruit_character = SPM_Juan_de_la_Cierva_y_Penafiel
+	recruit_character = SPM_Francesc_Cambo
+	recruit_character = SPM_Jose_Maria_Gil_Robles_y_Quinones
+	recruit_character = SPM_Antonio_Goicoechea
+	recruit_character = SPM_Alfonso_Castelao
+	recruit_character = SPM_Anton_Vilar_Ponte
+	recruit_character = SPM_Claudio_Sanchez_Albornoz
+	recruit_character = SPM_Francisco_de_Borbon_de_la_Torre
+	recruit_character = SPM_Francisco_Javier_de_Landaburu
+	recruit_character = SPM_Alberto_M_Artejo_Alvarez
+	recruit_character = SPM_Francisco_de_Asis_Serrat_y_Bonastre
+	recruit_character = SPM_Jose_Luis_Arrese_Magra
+	recruit_character = SPM_Tomas_Conde_de_Redezno
+	recruit_character = SPM_Bernardo_Giner_de_los_Rios_Garcia
+	recruit_character = SPM_Emilio_Herrera
+	recruit_character = SPM_Alexandre_Boveda_Iglesias
+	recruit_character = SPM_Diego_Hidalgo_Duran
+	recruit_character = SPM_Jose_Calvo_Sotelo
+	recruit_character = SPM_Fidel_Davila_Arrondo
+	recruit_character = SPM_German_Gil_y_Yuste
+	recruit_character = SPM_Juan_Vigon_Suerodiaz
+	recruit_character = SPM_Federico_Escofet_Alsina
+	recruit_character = SPM_Miguel_Maura_Gamazo
+	recruit_character = SPM_Blas_Perez_Gonzalez
+	recruit_character = SPM_Miguel_Ponte_Manso_de_Zuniga
+	recruit_character = SPM_Gonzalo_Queipo_de_Llano
+	recruit_character = SPM_Pedro_Mourlane_Michelena
+	recruit_character = SPM_Miguel_Cabanellas_Ferrer
+	recruit_character = SPM_Francisco_Franco_Bahamonde
+	recruit_character = SPM_Camilo_Alonso_Vega
+	recruit_character = SPM_Ricardo_de_Rada
+	recruit_character = SPM_Francisco_Moreno_Fernandez
+
+	### Variants ###
+	#SPA_naval_variants = yes
+
+	reserve_dynamic_country = yes
+	set_country_flag = reserved_dynamic_tag
+}
+
+set_global_flag = spanish_civil_war
+set_cosmetic_tag = SPA_cw
+every_state = {
+	limit = {
+		OR = {
+			state = 171
+			state = 833
+			state = 174
+			state = 172
+			state = 176
+			state = 1006
+			state = 990
+		}
+	}
+	transfer_state_to = SPN 
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 169
+			state = 834
+			state = 173
+			state = 168
+		}
+	}
+	transfer_state_to = SPM 
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 165
+			state = 167
+			state = 177
+			state = 1005
+			state = 166
+		}
+	}
+	transfer_state_to = SWF 
+}
+
+save_global_event_target_as = original_spain
+declare_war_on = {
+	target = SPM
+	type = civil_war
+}
+declare_war_on = {
+	target = SPN
+	type = civil_war
+}
+create_wargoal = {
+    type = civil_war
+    target = SWF
+}
+give_military_access = SWF 
+add_civil_war_target = SPM
+add_civil_war_target = SPN
+add_civil_war_target = SWF
+
+SPN = {
+	create_wargoal = {
+		type = civil_war
+		target = SPM
+	}
+	declare_war_on = {
+		target = SWF
+		type = civil_war
+	}
+	add_civil_war_target = SPM
+	add_civil_war_target = SPA
+	add_civil_war_target = SWF
+	give_military_access = SPM 
+	### Templates ###
+	SPA_create_templates = yes
+
+	set_party_name = {
+		ideology = social_conservative
+		long_name = SPN_social_conservative_party_long
+		name = SPN_social_conservative_party
+	}
+	set_party_name = {
+		ideology = authoritarian_democrat
+		long_name = SPN_authoritarian_democrat_party_long
+		name = SPN_authoritarian_democrat_party
+	}
+	set_party_name = {
+		ideology = paternal_autocrat
+		long_name = SPN_paternal_autocrat_party_long
+		name = SPN_paternal_autocrat_party
+	}
+	set_party_name = {
+		ideology = national_populist
+		long_name = SPN_national_populist_party_long
+		name = SPN_national_populist_party
+	}
+	set_party_name = {
+		ideology = valkist
+		long_name = SPN_valkist_party_long
+		name = SPN_valkist_party
+	}
+}
+SPM = {
+	create_wargoal = {
+		type = civil_war
+		target = SPN
+	}
+	declare_war_on = {
+		target = SWF
+		type = civil_war
+	}
+	give_military_access = SPN 
+	add_civil_war_target = SPN 
+	add_civil_war_target = SPA 
+	add_civil_war_target = SWF
+	### Templates ###
+	SPA_create_templates = yes
+
+	set_party_name = {
+		ideology = social_conservative
+		long_name = SPM_social_conservative_party_long
+		name = SPM_social_conservative_party
+	}
+	set_party_name = {
+		ideology = authoritarian_democrat
+		long_name = SPM_authoritarian_democrat_party_long
+		name = SPM_authoritarian_democrat_party
+	}
+	set_party_name = {
+		ideology = paternal_autocrat
+		long_name = SPM_paternal_autocrat_party_long
+		name = SPM_paternal_autocrat_party
+	}
+	set_party_name = {
+		ideology = national_populist
+		long_name = SPM_national_populist_party_long
+		name = SPM_national_populist_party
+	}
+}
+SWF = {
+	give_military_access = SPA 
+	create_wargoal = {
+		type = civil_war
+		target = SPA
+	}
+	add_civil_war_target = SPN 
+	add_civil_war_target = SPA 
+	add_civil_war_target = SPM
+	### Templates ###
+	SPA_create_templates = yes
+
+	set_party_name = {
+		ideology = auth_socialist
+		long_name = SWF_auth_socialist_party_long
+		name = SWF_auth_socialist_party
+	}
+	set_party_name = {
+		ideology = vanguard_socialist
+		long_name = SWF_vanguard_socialist_party_long
+		name = SWF_vanguard_socialist_party
+	}
+	set_party_name = {
+		ideology = libertarian_socialist
+		long_name = SWF_libertarian_socialist_party_long
+		name = SWF_libertarian_socialist_party
+	}
+}
+
+give_military_access = SWF
+
+add_ideas = {
+	SPA_civil_war_idea
+	SPA_prolonged_recession_idea
+	
+	extensive_conscription
+	low_economic_mobilisation
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	auth_socialist = 8
+	vanguard_socialist = 17
+	libertarian_socialist = 15
+	social_democrat = 10
+	social_liberal = 5
+	market_liberal = 18
+	social_conservative = 4
+	authoritarian_democrat = 3
+	paternal_autocrat = 0
+	national_populist = 4
+	valkist = 16
+}
+
+set_convoys = 150
+set_stability = 0.65
+set_war_support = 0.80
+
+recruit_character = SPA_Alejandro_Lerroux
+recruit_character = SPA_Niceto_Alcala_Zamora
+recruit_character = SPA_Vicente_Rojo_Lluch
+recruit_character = SPA_Jose_Miaja
+recruit_character = SPA_Carlos_Romero_Gimenez
+recruit_character = SPA_Manuel_Azana
+recruit_character = SPA_Juan_Hernandez_Saravia
+recruit_character = SPA_Diego_Martines_Barrio
+recruit_character = SPA_Miguel_Maura_Gamazo
+recruit_character = SPA_Anxel_Casal
+recruit_character = SPA_Bibiano_Fernandez_Ossorio
+recruit_character = SPA_Diego_Hidalgo_Duran
+recruit_character = SPA_Jose_Martinez_de_Velasco
+recruit_character = SPA_Ramon_Otero_Pedrayo
+recruit_character = SPA_Alexandre_Boveda_Iglesias
+recruit_character = SPA_Claudio_Sanchez_Albornoz
+recruit_character = SPA_Emilio_Herrera
+recruit_character = SPA_Joaquin_Chapaprieta_Torregosa
+recruit_character = SPA_Josep_Tarradellas
+recruit_character = SPA_Francisco_de_Borbon_de_la_Torre
+recruit_character = SPA_Juan_Vigon_Suerodiaz
+recruit_character = SPA_Mariano_Anso
+recruit_character = SPA_Amos_Salvador_Carreras
+recruit_character = SPA_Marcelino_Domingo_Sanjuan
+recruit_character = SPA_Antonio_Roson
+recruit_character = SPA_Carlos_Asensio_Cabanillas
+recruit_character = SPA_Antonio_Ortega
+recruit_character = SPA_Fidel_Davila_Arrondo
+

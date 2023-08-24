@@ -1,26 +1,23 @@
+
 state={
 	id=739
 	name="STATE_739"
 
 	history={
-		owner = CAN
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 
-			1869 = {
-				naval_base = 1
-
-			}
-
-
 		}
-		add_core_of = CAN
+		add_core_of = AFG
+
 	}
 
 	provinces={
-		1869
+		5082 8090 10737 10826 12831 
 	}
 	manpower=12684
-	buildings_max_level_factor=1	
-	state_category="small_island"
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

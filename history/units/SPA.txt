@@ -1,5 +1,5 @@
-﻿division_template = {
-	name = "Soldados Populares" 
+﻿division_template = { #Loyalist Infantry Division
+	name = "División de Leales"
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,8 +14,8 @@
 	}	
 }
 
-division_template = {# Popular Infantry Section
-	name = "Sección de Infantería Popular" 				
+division_template = { #Republican Infantry Section
+	name = "Sección de Infantería Republicana"			
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
@@ -32,146 +32,218 @@ division_template = {# Popular Infantry Section
 units = {
 
 	division= {	
-		name = "1a Sección de Infantería Popular"
-		location = 11838
-		division_template = "Sección de Infantería Popular"
+		name = "1a Sección de Infantería Republicana"
+		location = 11766
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "2a Sección de Infantería Popular"
-		location = 9842
-		division_template = "Sección de Infantería Popular"
+		name = "2a Sección de Infantería Republicana"
+		location = 3859
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "3a Sección de Infantería Popular"
-		location = 9840
-		division_template = "Sección de Infantería Popular"
+		name = "3a Sección de Infantería Republicana"
+		location = 11806
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "4a Sección de Infantería Popular"
-		location = 9813
-		division_template = "Sección de Infantería Popular"
+		name = "4a Sección de Infantería Republicana"
+		location = 11809
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "5a Sección de Infantería Popular"
-		location = 3954
-		division_template = "Sección de Infantería Popular"
+		name = "5a Sección de Infantería Republicana"
+		location = 9827
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "6a Sección de Infantería Popular"
-		location = 798
-		division_template = "Sección de Infantería Popular"
+		name = "6a Sección de Infantería Republicana"
+		location = 9846
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "7a Sección de Infantería Popular"
-		location = 747
-		division_template = "Sección de Infantería Popular"
+		name = "7a Sección de Infantería Republicana"
+		location = 6907
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "8a Sección de Infantería Popular"
-		location = 9903
-		division_template = "Sección de Infantería Popular"
+		name = "8a Sección de Infantería Republicana"
+		location = 874
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "9a Sección de Infantería Popular"
-		location = 9903
-		division_template = "Sección de Infantería Popular"
+		name = "9a Sección de Infantería Republicana"
+		location = 9917
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "10a Sección de Infantería Popular"
-		location = 4195
-		division_template = "Sección de Infantería Popular"
+		name = "10a Sección de Infantería Republicana"
+		location = 6902
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "11a Sección de Infantería Popular"
-		location = 7196
-		division_template = "Sección de Infantería Popular"
+		name = "11a Sección de Infantería Republicana"
+		location = 9925
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "12a Sección de Infantería Popular"
-		location = 11956
-		division_template = "Sección de Infantería Popular"
+		name = "12a Sección de Infantería Republicana"
+		location = 985
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "13a Sección de Infantería Popular"
-		location = 1176
-		division_template = "Sección de Infantería Popular"
+		name = "13a Sección de Infantería Republicana"
+		location = 3986
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "14a Sección de Infantería Popular"
-		location = 7068
-		division_template = "Sección de Infantería Popular"
+		name = "14a Sección de Infantería Republicana"
+		location = 3986
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "15a Sección de Infantería Popular"
-		location = 10009
-		division_template = "Sección de Infantería Popular"
+		name = "15a Sección de Infantería Republicana"
+		location = 9881
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "16a Sección de Infantería Popular"
-		location = 9979
-		division_template = "Sección de Infantería Popular"
+		name = "16a Sección de Infantería Republicana"
+		location = 6800
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "17a Sección de Infantería Popular"
-		location = 962
-		division_template = "Sección de Infantería Popular"
+		name = "17a Sección de Infantería Republicana"
+		location = 9778
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "1a Soldados Populares"
-		location = 9764
-		division_template = "Soldados Populares"
+		name = "18a Sección de Infantería Republicana"
+		location = 12081
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "2a Soldados Populares"
-		location = 9764
-		division_template = "Soldados Populares"
+		name = "19a Sección de Infantería Republicana"
+		location = 9828
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
 	division= {	
-		name = "3a Soldados Populares"
-		location = 6906
-		division_template = "Soldados Populares"
+		name = "20a Sección de Infantería Republicana"
+		location = 11807
+		division_template = "Sección de Infantería Republicana"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.9
 	}
+	division= {	
+		name = "21a Sección de Infantería Republicana"
+		location = 3835
+		division_template = "Sección de Infantería Republicana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "22a Sección de Infantería Republicana"
+		location = 813
+		division_template = "Sección de Infantería Republicana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "23a Sección de Infantería Republicana"
+		location = 11809
+		division_template = "Sección de Infantería Republicana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "24a Sección de Infantería Republicana"
+		location = 3816
+		division_template = "Sección de Infantería Republicana"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "1a División de Leales"
+		location = 3938
+		division_template = "División de Leales"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "2a División de Leales"
+		location = 3938
+		division_template = "División de Leales"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division= {	
+		name = "3a División de Leales"
+		location = 3816
+		division_template = "División de Leales"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+
 }
+
+### The Spanish Airforce. Might want to uncomment this.
+#air_wings = {
+#	41 = { 
+#		fighter_equipment_0 = {
+#			owner = "SPR" 
+#			amount = 36
+#		}
+#	}
+#	41 = {
+#		fighter_equipment_0 = {
+#			owner = "SPR" 
+#			amount = 24
+#		}
+#	}
+#	41 = {
+#		nav_bomber_equipment_1 = {
+#			owner = "SPR" 
+#			amount = 27
+#		}
+#	}
+#}
 
 ### STARTING PRODUCTION ###
 instant_effect = {
@@ -180,8 +252,8 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "SPA"
 		}
-		requested_factories = 2
-		progress = 0.78
-		efficiency = 100
+		requested_factories = 3
+		progress = 0.90
+		efficiency = 80
 	}
 }

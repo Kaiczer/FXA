@@ -1,19 +1,23 @@
 
 state={
 	id=975
-	name="STATE_975" #Taklamakan Desert
-	manpower = 1746	
-	state_category = wasteland
+	name="STATE_975"
+	impassable = yes
 
 	history={
 		owner = SIK
 		add_core_of = SIK
 		buildings = {
+
 		}
+
 	}
 
 	provinces={
-		5016 7790 8042 8086 10885 12864  
+		4682 5016 7702 7790 7949 8042 8086 10885 12864 
 	}
-	impassable = yes
+	manpower=1746
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

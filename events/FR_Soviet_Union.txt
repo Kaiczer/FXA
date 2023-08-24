@@ -61,7 +61,9 @@ country_event = { #Lenin Death
 			promote_leader = yes
 			country_leader = {
 				ideology = vansoc_subtype
-				traits = {}
+				traits = {
+					#FXA_acting_figurehead
+				}
 			}
 		}
 		set_country_flag = SOV_LENIN_DEATH	

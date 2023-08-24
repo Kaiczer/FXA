@@ -1,23 +1,26 @@
 
 state={
 	id=654
-	name="STATE_654" # Gorno-Altaysk
-	manpower = 153510
-	
-	state_category = pastoral
+	name="STATE_654"
 
 	history={
 		owner = SOV
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SOV
 		victory_points = {
 			4800 2 
 		}
+
 	}
 
 	provinces={
-		4781 4800 10531 10713 12509 
+		1749 1818 1864 4674 4781 4800 10531 10610 10713 12427 12509 12564 
 	}
+	manpower=153510
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

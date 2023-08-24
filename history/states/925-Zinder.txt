@@ -2,21 +2,24 @@
 state={
 	id=925
 	name="STATE_925"
-	manpower = 1439609
-	
-	state_category = rural
-	
+
 	history={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
+
 		}
-		owner = NFA
-		add_core_of = NFA
-		add_core_of = NGR
+		owner = ENG
+		add_claim_by = ENG
+		add_core_of = NGA
+
 	}
 
 	provinces={
-		8028 10758 10780 10805 
+		1891 1969 4938 4972 
 	}
+	manpower=1439609
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

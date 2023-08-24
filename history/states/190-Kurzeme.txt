@@ -2,10 +2,7 @@
 state={
 	id=190
 	name="STATE_190"
-	manpower = 679500
-	
-	state_category = town
-	
+
 	history={
 		owner = LAT
 		victory_points = {
@@ -13,17 +10,22 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 2
 			air_base = 3
 			3319 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = LAT
+
 	}
 
 	provinces={
-		3194 3296 3319 3525 6322 6342 9262 11246
+		3194 3296 3319 3525 6222 6322 6342 9262 11246 
 	}
+	manpower=679500
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

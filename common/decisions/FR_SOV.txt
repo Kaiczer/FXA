@@ -2049,26 +2049,26 @@ SOV_foreign_decision = {
 	}
 	SOV_supporting_spain = {
 		icon = ger_military_buildup
-		targets = { SPA }
+		targets = { SWF }
 		target_trigger = {
-			country_exists = SPA 
+			country_exists = SWF 
 		}
 		available = {
-			country_exists = SPA
-			SPA = {
+			country_exists = SWF
+			SWF = {
 				OR = {
-					has_war_with = SPR
+					has_war_with = SPA 
 					has_war_with = SPM
-					has_war_with = SPF
+					has_war_with = SPN
 				}
 			}
 		}
 		visible = {
-			SPA = {
+			SWF = {
 				OR = {
-					has_war_with = SPR
+					has_war_with = SPA 
 					has_war_with = SPM
-					has_war_with = SPF
+					has_war_with = SPN
 				}
 			}
 		}
@@ -2078,7 +2078,7 @@ SOV_foreign_decision = {
 		custom_cost_text = 2000_infantry_equipment_1
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision SOV_supporting_spain target: [From.GetName]"
-			send_equipment = { target = SPA type = infantry_equipment amount = 2000 }
+			send_equipment = { target = SWF type = infantry_equipment amount = 2000 }
 			FROM = { country_event = { id = soviet.31 days = 2 } }
 		}
 		ai_will_do = {

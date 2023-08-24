@@ -1,8 +1,9 @@
+
 state={
 	id=829
 	name="STATE_829"
 	resources={
-		steel=50.0
+		steel=50.000
 	}
 
 	history={
@@ -12,16 +13,17 @@ state={
 
 		}
 		add_core_of = KOR
-
 		victory_points = {
-			7221 3
+			7221 3 
 		}
+
 	}
 
 	provinces={
-		7221 1100 10115 4103 7204 11992 7175
+		1100 4103 7175 7204 10115 11977 11992 
 	}
 	manpower=293101
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

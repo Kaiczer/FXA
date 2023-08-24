@@ -4,8 +4,9 @@ state={
 	name="STATE_1062"
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = UKR
+		add_claim_by = SOV
+		add_core_of = UKR
 		buildings = {
 			infrastructure = 3
 
@@ -17,7 +18,7 @@ state={
 	}
 
 	provinces={
-		3225 9566 11553 
+		238 546 3542 3568 6589 9506 
 	}
 	manpower=179197
 	buildings_max_level_factor=1.000

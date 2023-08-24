@@ -3,9 +3,9 @@ state={
 	id=106
 	name="STATE_106"
 	resources={
-		chromium=83.0
-		aluminium=23.0
-		tungsten=17.0
+		chromium=83.000
+		aluminium=23.000
+		tungsten=17.000
 	}
 
 	history={
@@ -24,9 +24,10 @@ state={
 	}
 
 	provinces={
-		867 833 907 3865 3882 11832 
+		907 974 3833 3865 3882 6886 11856 
 	}
 	manpower=1374200
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

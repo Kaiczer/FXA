@@ -1,3 +1,4 @@
+
 state={
 	id=817
 	name="STATE_817"
@@ -5,7 +6,7 @@ state={
 	history={
 		add_core_of = CMR
 		owner = ITA
-    add_claim_by = ITA
+		add_claim_by = ITA
 		buildings = {
 			infrastructure = 2
 			5036 = {
@@ -13,16 +14,19 @@ state={
 				coastal_bunker = 1
 
 			}
+
 		}
 		victory_points = {
 			5036 5 
 		}
+
 	}
 
 	provinces={
-		2080 5036 6039 9137 
+		2080 6039 9137 
 	}
 	manpower=857600
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

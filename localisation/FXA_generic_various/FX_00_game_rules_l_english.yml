@@ -136,56 +136,6 @@ RULE_OPTION_SOV_TUKHACHEVSKY_DESC: "Marshal Tukhachevsky will takeover the Sovie
 RULE_OPTION_SOV_KIROV: "Elect Kirov"
 RULE_OPTION_SOV_KIROV_DESC: "Kirov will assume his role as Lenin's successor"
 
-### SPA - Socialist Spain
-SPA_AI_BEHAVIOR: "@SPA Socialist Spain"
-RULE_OPTION_SPA_CNT_FAI_ANARCHIST: "An Anarchist CNT-FAI Rules Spain"
-RULE_OPTION_SPA_CNT_FAI_ANARCHIST_DESC: "The Anarchist section of Confederación Nacional del Trabajo - Federación Anarquista Ibérica will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_CNT_FAI_SYNDICALIST: "A Syndicalist CNT-FAI Rules Spain"
-RULE_OPTION_SPA_CNT_FAI_SYNDICALIST_DESC: "The Syndicalist section of Confederación Nacional del Trabajo - Federación Anarquista Ibérica will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PSOE_DEMOCRATIC: "A Democratic PSOE Rules Spain"
-RULE_OPTION_SPA_PSOE_DEMOCRATIC_DESC: "The Democratic section of Partido Socialista Obrero Español will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PSOE_MARXIST: "A Marxist PSOE Rules Spain"
-RULE_OPTION_SPA_PSOE_MARXIST_DESC: "The Marxist section of Partido Socialista Obrero Español will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PCE_RAMOS: "Ramos and the PCE Rules Spain"
-RULE_OPTION_SPA_PCE_RAMOS_DESC: "Partido Comunista de España under José Díaz Ramos will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PCE_IBARRURI: "Ibárruri and the PCE Rules Spain"
-RULE_OPTION_SPA_PCE_IBARRURI_DESC: "Partido Comunista de España under Dolores Ibárruri will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PCE_MAURE: "Maure and the PCE Rules Spain"
-RULE_OPTION_SPA_PCE_MAURE_DESC: "Partido Comunista de España under José Cazorla Maure will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PCE_MAURIN: "Maurín and the PCE Rules Spain"
-RULE_OPTION_SPA_PCE_MAURIN_DESC: "Partido Comunista de España under Joaquín Maurín will come to power in Spain after the civil war, in the event of a Socialist victory."
-RULE_OPTION_SPA_PCE_NIN_PEREZ: "Nin Pérez and the PCE Rules Spain"
-RULE_OPTION_SPA_PCE_NIN_PEREZ_DESC: "Partido Comunista de España under Andrés Nin Pérez will come to power in Spain after the civil war, in the event of a Socialist victory."
-
-### SPF - Falangist Spain
-SPF_AI_BEHAVIOR: "@SPF Nationalist Spain"
-RULE_OPTION_SPF_JCAH: "JACH Takes Power in Spain"
-RULE_OPTION_SPF_JCAH_DESC: "Juntas Castellanas de Actuación Hispánica will come to power in Spain after the civil war, in the event of a Nationalist victory."
-RULE_OPTION_SPF_FALANGE: "The Falange Takes Power in Spain"
-RULE_OPTION_SPF_FALANGE_DESC: "Falange Española will come to power in Spain after the civil war, in the event of a Nationalist victory."
-RULE_OPTION_SPF_PNE_CARLIST: "PNE With a Carlist King Rules Spain"
-RULE_OPTION_SPF_PNE_CARLIST_DESC: "Partido Nacionalista Español with a Carlist king will come to power in Spain after the civil war, in the event of a Nationalist victory."
-RULE_OPTION_SPF_PNE_ALFONSIST: "PNE With an Alfonsist King Rules Spain"
-RULE_OPTION_SPF_PNE_ALFONSIST_DESC: "Partido Nacionalista Español with an Alfonsist king will come to power in Spain after the civil war, in the event of a Nationalist victory."
-
-### SPM - Monarchist Spain
-SPM_AI_BEHAVIOR: "@SPM Monarchist Spain"
-RULE_OPTION_SPM_RE: "Renovación Española Rules the Kingdom of Spain"
-RULE_OPTION_SPM_RE_DESC: "A Renovación Española government will be picked by the monarch after the Spanish civil war, in the event of a Monarchist victory."
-RULE_OPTION_SPM_CEDA: "CEDA Rules the Kingdom of Spain"
-RULE_OPTION_SPM_CEDA_DESC: "A Confederación Española de Derechas Autónomas government will be picked by the monarch after the Spanish civil war, in the event of a Monarchist victory."
-RULE_OPTION_SPM_LRC: "Lliga Regionalista Rules the Kingdom of Spain"
-RULE_OPTION_SPM_LRC_DESC: "A Lliga Regionalista de Española government will be picked by the monarch after the Spanish civil war, in the event of a Monarchist victory."
-RULE_OPTION_SPM_LRC_LIBERAL: "Liberal Monarchists Rules the Kingdom of Spain"
-RULE_OPTION_SPM_LRC_LIBERAL_DESC: "Either Partido Liberal or Partido Liberal-Conservador will end up ruling Spain after the civil war, in the event of a Monarchist victory."
-
-### SPR - Republican Spain
-SPR_AI_BEHAVIOR: "@SPR Republican Spain"
-RULE_OPTION_SPR_AZANA: "Manuel Azaña Becomes President of Spain"
-RULE_OPTION_SPR_AZANA_DESC: "Manuel Azaña will become the next President of Spain after the civil war, in the event of a Republican victory."
-RULE_OPTION_SPR_LERROUX: "Alejandro Lerroux Becomes President of Spain"
-RULE_OPTION_SPR_LERROUX_DESC: "Alejandro Lerroux will become the next President of Spain after the civil war, in the event of a Republican victory."
-
 ### UKR - Ukraine
 UKR_AI_BEHAVIOR: "@UKR Ukraine"
 RULE_OPTION_UKR_SOCIALIST_DEMOCRACY: "Socialist Democracy"

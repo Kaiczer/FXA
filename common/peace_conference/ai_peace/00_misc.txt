@@ -157,23 +157,4 @@ peace_ai_desires = {
 		}
 		ai_desire = -400
 	}
-	not_liberate_macedonia = {
-		peace_action_type = { liberate puppet force_government }
-		enable = {
-			# ROOT = {
-			# 	tag = EGY 
-			# }
-			# FROM.FROM = {
-			# 	tag = EGY
-			# }
-			FROM = {
-				tag = MAC
-			}
-			MAC = {
-				exists = no
-			}
-			
-		}
-		ai_desire = -100000
-	}
 }

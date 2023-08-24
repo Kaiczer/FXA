@@ -10,6 +10,7 @@ state={
 		owner = PER
 		buildings = {
 			infrastructure = 3
+
 		}
 		victory_points = {
 			5050 2 
@@ -19,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1922 2065 5050 5089 10774 
+		1922 5005 5089 7953 
 	}
 	manpower=797356
 	buildings_max_level_factor=1.000

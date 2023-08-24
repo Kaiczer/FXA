@@ -7,13 +7,14 @@ state={
 		owner = BLR
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = BLR
 
 	}
 
 	provinces={
-		233 342 358 3331 3350 3378 6220 6319 6371 6373 9241 9289 9341 11322 
+		342 3331 3378 6371 9241 9289 11322 
 	}
 	manpower=42442
 	buildings_max_level_factor=1.000

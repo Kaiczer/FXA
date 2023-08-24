@@ -1,9 +1,9 @@
+
 state={
 	id=849
 	name="STATE_849"
 
 	history={
-		
 		owner = ITA
 		buildings = {
 			industrial_complex = 2
@@ -18,9 +18,10 @@ state={
 	}
 
 	provinces={
-		883 6843 6939 6980 
+		6862 11751 
 	}
-	manpower= 199864
+	manpower=199864
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

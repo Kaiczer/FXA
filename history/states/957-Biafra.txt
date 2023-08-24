@@ -3,23 +3,26 @@ state={
 	id=957
 	name="STATE_957"
 	resources={
-		rubber=25.0
+		rubber=25.000
 	}
 
 	history={
 		add_core_of = NGA
 		owner = ENG
-    add_claim_by = ENG
+		add_claim_by = ENG
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		8034 10831
+		8034 10831 
 	}
 	manpower=3292834
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

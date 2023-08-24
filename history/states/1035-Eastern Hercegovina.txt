@@ -4,13 +4,13 @@ state={
 	name="STATE_1035"
 
 	history={
-		owner = BLR
-		add_core_of = BLR
-
+		owner = TRK
+		add_core_of = TRK
+		add_claim_by = PER
 	}
 
 	provinces={
-		6306 13311 13313 
+		7491 10510 12333 12359 13311 13313 
 	}
 	manpower=113100
 	buildings_max_level_factor=1.000

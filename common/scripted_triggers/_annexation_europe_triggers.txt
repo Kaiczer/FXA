@@ -1085,10 +1085,7 @@ can_release_spain = {
     NOT = {
       is_spanish_tag = yes
       has_country_flag = SPA_CONQ
-      country_exists = SPR
       country_exists = SPA
-      country_exists = SPM
-      country_exists = SPF
     }
   }
 }

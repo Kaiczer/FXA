@@ -1,9 +1,10 @@
+
 state={
 	id=909
 	name="STATE_909"
 	resources={
 		tungsten=50.000
-	}	
+	}
 
 	history={
 		owner = SWE
@@ -16,9 +17,10 @@ state={
 	}
 
 	provinces={
-		61 151 201 6168 6170 6208 9147 11060 
+		118 182 3113 6083 6125 6132 6161 6165 9093 9108 9143 9147 9220 11067 11201 
 	}
 	manpower=82641
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

@@ -1,15 +1,19 @@
+
 state={
 	id=1032
 	name="STATE_1032"
-  history = {
-    owner = ARB
-    add_core_of = ARB
-  }
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+
+	}
+
 	provinces={
-		8004 10892 12813 12870 
+		4995 12757 12812 13324 
 	}
 	manpower=72000
-  state_category=enclave
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

@@ -10,16 +10,17 @@ state={
 
 		}
 		victory_points = {
-			921 1
+			921 1 
 		}
 		add_core_of = TUR
 
 	}
 
 	provinces={
-		869 921 961 3870 3921 6888 6956 6977 9830 9861 
+		886 921 961 3870 3890 3921 6813 6956 6965 9830 
 	}
 	manpower=858452
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

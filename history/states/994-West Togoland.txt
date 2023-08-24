@@ -1,22 +1,25 @@
+
 state={
 	id=994
 	name="STATE_994"
-	
-	state_category = pastoral
 
 	history={
 		owner = ENG
 		add_core_of = GHA
 		add_core_of = TOG
-    add_claim_by = ENG
+		add_claim_by = ENG
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		12785 8088 
+		12785 
 	}
 	manpower=158180
 	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
 }

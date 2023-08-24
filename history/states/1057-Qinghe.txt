@@ -1,20 +1,25 @@
+
 state={
 	id=1057
 	name="STATE_1057"
-	provinces={
-		1188 7092 7129 7160 9987 11962 12062 
-	}
+
 	history={
-		owner = MAN
-		add_claim_by = CHI
+		owner = ZHI
+		add_core_of = ZHI 
+		add_core_of = CHI
 		add_core_of = MAN
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
+
+	provinces={
+		1169 1188 7092 9987 12062 
+	}
 	manpower=5970000
-	state_category = large_town
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }

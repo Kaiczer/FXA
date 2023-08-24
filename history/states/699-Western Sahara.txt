@@ -4,24 +4,28 @@ state={
 	name="STATE_699"
 
 	history={
-		owner = FRA
+		owner = NFA
+		add_core_of = NFA
 		buildings = {
 			infrastructure = 1
 			8038 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_claim_by = MOR
 		victory_points = {
 			8038 2 
 		}
-    add_claim_by = FRA
-	}
 
+	}
+	impassable = yes
 	provinces={
-		1897 5012 7979 8038 10875 
+		4920 5012 7979 8038 8111 10875 
 	}
 	manpower=32000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	local_supplies=0.000
 }

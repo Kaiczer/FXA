@@ -2,9 +2,19 @@
 ENG_FUHRERREDUX_DESC: "The Great War lasted for five long years of merciless slaughter and destruction. In the end, Britain stood victorious over the butchered Central Powers, establishing itself once more as the global hegemon. The 1931 Statute of Autonomy would grant the Dominion nations only limited powers, with the original proposals being drastically altered resulting in great resentment towards the mother country. Britain is in a precarious position. The Imperial Conference of 1937 looms ever closer and in the years that follow Britain will be faced with choices that will not only determine the fate of the Empire, but of the future of Britain itself."
 
 ### Country Names
+ENG_auth_socialist: "British Socialist Federation"
+ENG_auth_socialist_DEF: "the British Socialist Federation"
+ENG_vanguard_socialist: "Union of Britain"
+ENG_vanguard_socialist_DEF: "the Union of Britain"
+ENG_libertarian_socialist: "Union of Britain"
+ENG_libertarian_socialist_DEF: "the Union of Britain"
 ENG: "United Kingdom"
 ENG_ADJ: "British"
-ENG_DEF: "The United Kingdom"
+ENG_DEF: "the United Kingdom of Great Britain and Ireland"
+ENG_valkist: "Britannic England"
+ENG_valkist_DEF: "the Imperial Commonwealth of Britannia and Scotia"
+ENG_republic: "British Commonwealth"
+ENG_republic_DEF: "the British Commonwealth"
 
 ### Protectorates: God Save the King
 ENG_FRP: "Kingdom of France"
@@ -13,68 +23,68 @@ ENG_FRP_DEF: "Kingdom of France"
 
 ENG_SAU: "British Arabia"
 ENG_SAU_ADJ: "Anglo-Arabian"
-ENG_SAU_DEF: "The British Protectorate of Arabia"
+ENG_SAU_DEF: "the British Protectorate of Arabia"
 
 ENG_IRQ: "British Mesopotamia"
 ENG_IRQ_ADJ: "Anglo-Mesopotamian"
-ENG_IRQ_DEF: "The British Protectorate of Mesopotamia"
+ENG_IRQ_DEF: "the British Protectorate of Mesopotamia"
 
 ENG_PER: "British Persia"
 ENG_PER_ADJ: "Anglo-Persian"
-ENG_PER_DEF: "The British Protectorate of Persia"
+ENG_PER_DEF: "the British Protectorate of Persia"
 
 ENG_NEP: "British Nepal"
 ENG_NEP_ADJ: "Anglo-Nepalese"
-ENG_NEP_DEF: "The British Protectorate of Nepal"
+ENG_NEP_DEF: "the British Protectorate of Nepal"
 
 ENG_BHU: "British Bhutan"
 ENG_BHU_ADJ: "Anglo-Bhutanese"
-ENG_BHU_DEF: "The British Protectorate of Bhutan"
+ENG_BHU_DEF: "the British Protectorate of Bhutan"
 
 ENG_TIB: "British Tibet"
 ENG_TIB_ADJ: "Anglo-Tibetan"
-ENG_TIB_DEF: "The British Protectorate of Tibet"
+ENG_TIB_DEF: "the British Protectorate of Tibet"
 
 ENG_SIA: "British Siam"
 ENG_SIA_ADJ: "Anglo-Siamese"
-ENG_SIA_DEF: "The British Protectorate of Siam"
+ENG_SIA_DEF: "the British Protectorate of Siam"
 
 ENG_KEN: "British East Africa"
 ENG_KEN_ADJ: "Anglo-Kenyan"
-ENG_KEN_DEF: "The British Protectorate of East Africa"
+ENG_KEN_DEF: "the British Protectorate of East Africa"
 
 ENG_RHO: "British Rhodesia & Nyasaland"
 ENG_RHO_ADJ: "Anglo-Rhodesian"
-ENG_RHO_DEF: "The British Protectorate of Rhodesia & Nyasaland"
+ENG_RHO_DEF: "the British Protectorate of Rhodesia & Nyasaland"
 
 ENG_MAL: "British Malaya"
 ENG_MAL_ADJ: "AngloMalayan"
-ENG_MAL_DEF: "The British Protectorate of Malaya"
+ENG_MAL_DEF: "the British Protectorate of Malaya"
 
 ENG_JOR: "British Transjordan"
 ENG_JOR_ADJ: "Anglo-Transjordan"
-ENG_JOR_DEF: "The British Protectorate of Transjordan"
+ENG_JOR_DEF: "the British Protectorate of Transjordan"
 
 ENG_AFG: "British Afghanistan"
 ENG_AFG_ADJ: "Anglo-Afghan"
-ENG_AFG_DEF: "The British Protectorate of Afghanistan"
+ENG_AFG_DEF: "the British Protectorate of Afghanistan"
 
 ENG_TRK: "British Transcaspia"
 ENG_TRK_ADJ: "Anglo-Transcapian"
-ENG_TRK_DEF: "The British Protectorate of Transcaspia"
+ENG_TRK_DEF: "the British Protectorate of Transcaspia"
 
 ENG_USA: "Dominion of North America"
 ENG_USA_ADJ: "Anglo-American"
-ENG_USA_DEF: "The Dominion of North America"
+ENG_USA_DEF: "the Dominion of North America"
 
 IRE_ENG: "Dominion of Ireland"
 IRE_ENG_ADJ: "Anglo-Irish"
-IRE_ENG_DEF: "The Dominion of Ireland"
+IRE_ENG_DEF: "the Dominion of Ireland"
 
 ### Imperial Federation
 IMP_ENG: "Imperial Federation"
 IMP_ENG_ADJ: "Imperial"
-IMP_ENG_DEF: "The Imperial Federation"
+IMP_ENG_DEF: "the Imperial Federation"
 
 IMP_CAN: "Imperial Canada"
 IMP_CAN_ADJ: "Canadian"
@@ -107,14 +117,14 @@ ENG_market_liberal_party: "Liberal Nationals"
 ENG_market_liberal_party_long: "Liberal Nationals Party"
 ENG_social_conservative_party: "Tories"
 ENG_social_conservative_party_long: "Conservative Party"
-ENG_authoritarian_democrat_party: "Military Government"
-ENG_authoritarian_democrat_party_long: "Military Government"
-ENG_paternal_autocrat_party: "Windsor"
-ENG_paternal_autocrat_party_long: "House of Windsor"
-ENG_national_populist_party: "IFL"
-ENG_national_populist_party_long: "Imperial Federation League"
-ENG_valkist_party: "PSPB"
-ENG_valkist_party_long: "People's Socialist Party of Britannia"
+ENG_authoritarian_democrat_party: "High Tories"
+ENG_authoritarian_democrat_party_long: "Conservative Party (High Toryist)"
+ENG_paternal_autocrat_party: "Imperial Government"
+ENG_paternal_autocrat_party_long: "British Imperial Administration"
+ENG_national_populist_party: "BNF"
+ENG_national_populist_party_long: "British Union of Folkists"
+ENG_valkist_party: "ICL"
+ENG_valkist_party_long: "Imperial Carnarianist League"
 
 ### Puppet Parties
 ENG_ITP_authoritarian_democrat: "Military Administration"

@@ -1,0 +1,24 @@
+
+state={
+	id=1069
+	name="STATE_1069"
+
+	history={
+		owner = RAJ
+		add_core_of = IND
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1159 1609 4062 4204 4245 4644 7220 7565 7593 10077 12050 
+	}
+	manpower=744302
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

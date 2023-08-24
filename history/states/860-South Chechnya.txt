@@ -1,8 +1,9 @@
+
 state={
 	id=860
 	name="STATE_860"
 	resources={
-		chromium=9.0
+		chromium=9.000
 	}
 
 	history={
@@ -16,9 +17,10 @@ state={
 	}
 
 	provinces={
-		11609 3667 1455
+		666 1455 3667 
 	}
 	manpower=115248
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

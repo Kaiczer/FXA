@@ -337,12 +337,12 @@ SOV_naval_role_ratios_historical = {
 SOV_support_socialist_spain = {
 	allowed = { original_tag = SOV }
 	enable = {
-		SPA = {
+		SWF = {
 			exists = yes
 			OR = {
 				has_war_with = SPM
-				has_war_with = SPR
-				has_war_with = SPF
+				has_war_with = SPN
+				has_war_with = SPA
 			}
 		}
 	}
@@ -350,12 +350,12 @@ SOV_support_socialist_spain = {
 	ai_strategy = {
 		value = 200
 		type = support
-		id = SPA
+		id = SWF
 	}
 	ai_strategy = {
 		value = 200
 		type = send_volunteers_desire
-		id = SPA
+		id = SWF
 	}
 }
 

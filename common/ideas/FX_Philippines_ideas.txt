@@ -551,16 +551,6 @@ ideas = {
     }
 
     # Foreign
-    PHI_intervention_in_spain = {
-      allowed = { original_tag = PHI }
-      picture = chi_army_corruption3
-      available = {
-        NOT = { has_global_flag = SPR_spanish_civil_war_ended_flag }
-      }
-      modifier = {
-        send_volunteer_size = 3
-      }
-    }
     PHI_bastion_of_liberty = {
       allowed = { original_tag = PHI }
       picture = generic_victors_of_ww1

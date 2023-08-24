@@ -4,7 +4,8 @@ state={
 	name="STATE_174"
 
 	history={
-		owner = SPF
+		owner = SPA
+		add_core_of = SPA
 		victory_points = {
 			11707 4 
 		}
@@ -24,20 +25,14 @@ state={
 			}
 
 		}
-		add_core_of = SPF
-		add_claim_by = SPR
-		add_claim_by = SPA
-		add_claim_by = SPM
-		SPR = {
-			set_province_controller = 6907
-		}
 
 	}
 
 	provinces={
-		726 918 920 3727 3729 3918 3920 4024 6746 6749 6907 9699 11707 
+		726 918 920 3725 3727 3918 3920 4024 6746 6907 9699 13358 
 	}
 	manpower=1566041
 	buildings_max_level_factor=1.000
 	state_category=large_town
+	local_supplies=0.000
 }

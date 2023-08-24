@@ -2,24 +2,27 @@
 state={
 	id=344
 	name="STATE_344"
-	manpower = 617198
-	
-	state_category = town
 
 	history={
 		owner = PHN
 		victory_points = {
-			9893 5
+			9893 5 
 		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+
 		}
 		add_core_of = TUR
 		add_core_of = PHN
+
 	}
 
 	provinces={
-		806 886 3889 6813 9893 
+		806 3889 7620 9823 9893 9912 12029 
 	}
+	manpower=617198
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

@@ -4,9 +4,9 @@ state={
 	name="STATE_929"
 
 	history={
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
+		owner = FIC
+		add_core_of = FIC
+		add_core_of = CAM
 		buildings = {
 			infrastructure = 2
 
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		3791 6811 7670 10376 10503 11893 11906 12355 12412 12482 
+		1620 4330 4596 7645 10204 12167 12260 12288 
 	}
 	manpower=374000
 	buildings_max_level_factor=1.000

@@ -2,9 +2,6 @@
 state={
 	id=455
 	name="STATE_455"
-	manpower = 233000
-	
-	state_category = rural
 
 	history={
 		owner = IRQ
@@ -12,15 +9,20 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
+
 		}
 		victory_points = {
 			4574 2 
 		}
-
 		add_core_of = IRQ
+
 	}
 
 	provinces={
-		1544 4562 4574 4591 4603 7001 11976 12101 13259 13263
+		1544 4440 4562 4574 4591 4603 7001 7151 7170 11976 13259 13263 
 	}
+	manpower=233000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

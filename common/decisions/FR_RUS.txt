@@ -615,13 +615,12 @@ RUS_retaking_homeland = {
 		}
 
 		visible = {
-			SPA = {
+			SWF = {
 				exists = yes
 				OR = {
-					has_war_with = SPR
+					has_war_with = SPA
+					has_war_with = SPN 
 					has_war_with = SPM
-					has_war_with = SPF
-
 				}
 			}
 		}
@@ -634,7 +633,7 @@ RUS_retaking_homeland = {
 
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision RUS_supporting_spain target: [From.GetName]"
-			send_equipment = { target = SPA type = infantry_equipment amount = 2000 }
+			send_equipment = { target = SWF type = infantry_equipment amount = 2000 }
 			FROM = {
 				country_event = soviet.31
 			}

@@ -1,24 +1,23 @@
-state=
-{
+
+state={
 	id=147
 	name="STATE_147"
-	manpower = 4630
-	
-	state_category = wasteland
-	
-	history = {	
-		owner = FIN
+	impassable = yes
+
+	history={
+		owner = SWE
 		buildings = {
 			infrastructure = 3
-		}
-		add_core_of = FIN
 
-		victory_points = {
-			197 1
 		}
+		add_core_of = SWE
 	}
 
 	provinces={
-		197 9158 11085 	
+		61 151 201 6168 6170 6208 11060 
 	}
+	manpower=4630
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
 }

@@ -17,10 +17,10 @@ focus_tree = {
 
   
 	continuous_focus_position = { x = 100 y = 1700 }
-  initial_show_position = {
-    x = 26
-    y = 0
-  }
+	initial_show_position = {
+		x = 26
+		y = 0
+	}
 	
   ## Forming a Government
 	focus = {
@@ -337,10 +337,11 @@ focus_tree = {
 			add_war_support = 0.1
 			add_ideas = ger_germanic_conquer
 			country_event = ger.11
-      add_named_threat = {
-        threat = 40
-        name = GER_pangerman
-      }
+			add_named_threat = {
+				threat = 25
+				name = GER_pangerman
+			}
+			set_cosmetic_tag = GER_pan_german
 		}
 	}
 	

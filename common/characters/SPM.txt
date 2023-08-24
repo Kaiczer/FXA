@@ -22,28 +22,52 @@ characters = {
 			ideology = social_conservative_subtype
 			traits = { }
 		}
+	}
+	SPM_Jaime_III = {
+		name = "Jaime III"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPM/Portrait_SPM_Jaime_III.png"
+			}
+		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = national_populist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_democrat_subtype
+			ideology = authoritarian_democrat_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+	SPM_Juan_III = {
+		name = "Juan III"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPM/Portrait_SPM_Juan_III.png"
+			}
+		}
+		country_leader = {
+			ideology = national_populist_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = vansoc_subtype
+			ideology = paternal_autocrat_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = authsoc_subtype
+			ideology = authoritarian_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
 			traits = { }
 		}
 	}
@@ -64,25 +88,6 @@ characters = {
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 2
-			logistics_skill = 1
-		}
-	}
-	SPM_Francisco_Franco = {
-		name = "Francisco Franco"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SPM/Portrait_SPM_Francisco_Franco.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				politically_connected 
-				infantry_leader
-			}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 4
 			logistics_skill = 1
 		}
 	}
@@ -122,22 +127,7 @@ characters = {
 			logistics_skill = 1
 		}
 	}
-	SPM_Jaime_III = {
-		name = "Jaime III"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPM/Portrait_SPM_Jaime_III.png"
-			}
-		}
-	}
-	SPM_Juan_III = {
-		name = "Juan III"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPM/Portrait_SPM_Juan_III.png"
-			}
-		}
-	}
+	
 	SPM_Leopoldo_Saro = {
 		name = "Leopoldo Saro"
 		portraits = {
@@ -154,7 +144,7 @@ characters = {
 			logistics_skill = 2
 		}
 	}
-  SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor = {
+  	SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor = {
 		name = "Álvaro de Figueroa y Torres-Sotomayor"
 		portraits = {
 			civilian = {
@@ -162,19 +152,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor_hog_sli_hired }
-			}			
 			idea_token = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor_hog_sli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor_hog_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Alvaro_de_Figueroa_y_Torres_Sotomayor_hog_sli_hired }
-			}
 			traits = {
 				social_liberal
 				hog_charismatic_charmer
@@ -189,19 +170,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0 
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli_hired }
-			}			
 			idea_token = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli_hired }
-			}
 			traits = {
 				market_liberal
 				hog_corporate_suit
@@ -216,19 +188,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Francesc_Cambo_hog_sco_hired }
-			}			
 			idea_token = SPM_Francesc_Cambo_hog_sco
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Francesc_Cambo_hog_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Francesc_Cambo_hog_sco_hired }
-			}
 			traits = {
 				social_conservative
 				hog_happy_amateur
@@ -243,19 +206,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade_hired }
-			}			
 			idea_token = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Jose_Maria_Gil_Robles_y_Quinones_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_flamboyant_tough_guy
@@ -270,19 +224,10 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Antonio_Goicoechea_hog_pau_hired }
-			}			
 			idea_token = SPM_Antonio_Goicoechea_hog_pau
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Antonio_Goicoechea_hog_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Antonio_Goicoechea_hog_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				hog_silent_workhorse
@@ -297,19 +242,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Alfonso_Castelao_for_sli_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Alfonso_Castelao_for_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Alfonso_Castelao_for_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Alfonso_Castelao_for_sli_hired }
-			}
 			traits = {
 				social_liberal
 				for_biased_intellectual
@@ -324,19 +261,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Anton_Vilar_Ponte_for_sli_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Anton_Vilar_Ponte_for_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Anton_Vilar_Ponte_for_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Anton_Vilar_Ponte_for_sli_hired }
-			}
 			traits = {
 				social_liberal
 				for_ideological_crusader
@@ -351,19 +280,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Claudio_Sanchez_Albornoz_for_mli_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Claudio_Sanchez_Albornoz_for_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Claudio_Sanchez_Albornoz_for_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Claudio_Sanchez_Albornoz_for_mli_hired }
-			}
 			traits = {
 				market_liberal
 				for_apologetic_clerk
@@ -378,19 +299,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Francisco_de_Borbon_de_la_Torre_for_sco_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Francisco_de_Borbon_de_la_Torre_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Francisco_de_Borbon_de_la_Torre_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Francisco_de_Borbon_de_la_Torre_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_biased_intellectual
@@ -405,19 +318,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Francisco_Javier_de_Landaburu_for_sco_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Francisco_Javier_de_Landaburu_for_sco
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Francisco_Javier_de_Landaburu_for_sco_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Francisco_Javier_de_Landaburu_for_sco_hired }
-			}
 			traits = {
 				social_conservative
 				for_great_compromiser
@@ -648,19 +553,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Fidel_Davila_Arrondo_eco_pau_hired }
+				has_authoritarian_government = yes 
 			}			
 			idea_token = SPM_Fidel_Davila_Arrondo_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Fidel_Davila_Arrondo_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Fidel_Davila_Arrondo_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_construction_magnate
@@ -675,19 +572,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_German_Gil_y_Yuste_eco_pau_hired }
+				has_authoritarian_government = yes 
 			}			
 			idea_token = SPM_German_Gil_y_Yuste_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_German_Gil_y_Yuste_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_German_Gil_y_Yuste_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_mixed_economy
@@ -705,51 +594,24 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Jose_Luis_Arrese_Magra_eco_pau_hired }
+				has_authoritarian_government = yes 
 			}			
 			idea_token = SPM_Jose_Luis_Arrese_Magra_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Jose_Luis_Arrese_Magra_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Jose_Luis_Arrese_Magra_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_industrial_chemist
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief			
 			idea_token = SPM_Jose_Luis_Arrese_Magra_cair_pau
 			traits = {
 				cair_battlefield_support_doctrine
 			}
 		}
-    advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Jose_Luis_Arrese_Magra_for_pau_hired }
-			}			
-			idea_token = SPM_Jose_Luis_Arrese_Magra_for_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Jose_Luis_Arrese_Magra_for_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Jose_Luis_Arrese_Magra_for_pau_hired }
-			}
-			traits = {
-				paternal_autocrat
-				for_foreign_sympathizer
-			}
-  }
 	}
 	SPM_Juan_Vigon_Suerodiaz = {
 		name = "Juan Vigón Suerodíaz"
@@ -762,26 +624,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Juan_Vigon_Suerodiaz_eco_pau_hired }
+				has_authoritarian_government = yes 
 			}			
 			idea_token = SPM_Juan_Vigon_Suerodiaz_eco_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Juan_Vigon_Suerodiaz_eco_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Juan_Vigon_Suerodiaz_eco_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				eco_devoted_monopoly_buster
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = air_chief			
 			idea_token = SPM_Juan_Vigon_Suerodiaz_cair_pau
 			traits = {
@@ -797,19 +651,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Federico_Escofet_Alsina_sec_sli_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Federico_Escofet_Alsina_sec_sli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Federico_Escofet_Alsina_sec_sli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Federico_Escofet_Alsina_sec_sli_hired }
-			}
 			traits = {
 				social_liberal
 				sec_efficient_sociopath
@@ -827,26 +673,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
+				has_democratic_government = yes 
 			}			
 			idea_token = SPM_Miguel_Maura_Gamazo_sec_mli
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Miguel_Maura_Gamazo_sec_mli_hired }
-			}
 			traits = {
 				market_liberal
 				sec_back_stabber
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief			
 			idea_token = SPM_Miguel_Maura_Gamazo_cnav_mli
 			traits = {
@@ -862,19 +700,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Blas_Perez_Gonzalez_sec_ade_hired }
+				has_authoritarian_government = yes 
 			}			
 			idea_token = SPM_Blas_Perez_Gonzalez_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Blas_Perez_Gonzalez_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Blas_Perez_Gonzalez_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_compassionate_gentleman
@@ -889,19 +719,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade_hired }
-			}			
+				has_dictatorship_government = yes 
+			}
 			idea_token = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Miguel_Ponte_Manso_de_Zuniga_sec_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				sec_man_of_the_people
@@ -919,26 +741,18 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Gonzalo_Queipo_de_Llano_sec_pau_hired }
-			}			
+				has_dictatorship_government = yes 
+			}
 			idea_token = SPM_Gonzalo_Queipo_de_Llano_sec_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Gonzalo_Queipo_de_Llano_sec_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Gonzalo_Queipo_de_Llano_sec_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				sec_man_of_the_people
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command			
 			idea_token = SPM_Gonzalo_Queipo_de_Llano_cos_pau
 			traits = {
@@ -946,7 +760,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief			
 			idea_token = SPM_Gonzalo_Queipo_de_Llano_carm_pau
 			traits = {
@@ -962,19 +776,11 @@ characters = {
 			}
 		}
 		advisor = {
-			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPM_Pedro_Mourlane_Michelena_sec_pau_hired }
+				has_dictatorship_government = yes
 			}			
 			idea_token = SPM_Pedro_Mourlane_Michelena_sec_pau
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Pedro_Mourlane_Michelena_sec_pau_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Pedro_Mourlane_Michelena_sec_pau_hired }
-			}
 			traits = {
 				paternal_autocrat
 				sec_secret_police_chief
@@ -989,7 +795,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command			
 			idea_token = SPM_Miguel_Cabanellas_Ferrer_cos_mli
 			traits = {
@@ -997,7 +803,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief			
 			idea_token = SPM_Miguel_Cabanellas_Ferrer_carm_mli
 			traits = {
@@ -1016,26 +822,17 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 0			
 			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPM_Francisco_Franco_Bahamonde_hog_ade_hired }
-			}			
 			idea_token = SPM_Francisco_Franco_Bahamonde_hog_ade
 			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPM_Francisco_Franco_Bahamonde_hog_ade_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPM_Francisco_Franco_Bahamonde_hog_ade_hired }
-			}
 			traits = {
 				authoritarian_democrat
 				hog_old_general
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command			
 			idea_token = SPM_Francisco_Franco_Bahamonde_cos_ade
 			traits = {
@@ -1043,7 +840,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief			
 			idea_token = SPM_Francisco_Franco_Bahamonde_carm_ade
 			traits = {
@@ -1070,7 +867,7 @@ characters = {
 			logistics_skill = 3
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command			
 			idea_token = SPM_Camilo_Alonso_Vega_cos_pau
 			traits = {
@@ -1078,7 +875,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief			
 			idea_token = SPM_Camilo_Alonso_Vega_carm_pau
 			traits = {
@@ -1094,7 +891,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = high_command			
 			idea_token = SPM_Ricardo_de_Rada_cos_pau
 			traits = {
@@ -1102,7 +899,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = army_chief			
 			idea_token = SPM_Ricardo_de_Rada_carm_pau
 			traits = {
@@ -1118,7 +915,7 @@ characters = {
 			}
 		}
 		advisor = {
-			
+			cost = 150
 			slot = navy_chief			
 			idea_token = SPM_Francisco_Moreno_Fernandez_cnav_pau
 			traits = {

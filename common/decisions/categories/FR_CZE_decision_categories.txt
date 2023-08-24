@@ -1,16 +1,10 @@
 CZE_legacy_of_czechoslovakia = {
 	icon = generic_monarchism #generic_political_actions
 	priority = {
-		base = 5
+		base = 99
 	}
-	allowed = {
+	visible = {
 		original_tag = CZE
-		NOT = { 
-			has_government = national_populist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
-			has_government = auth_socialist
-		}
 	}
 }
 CZE_the_oo = {

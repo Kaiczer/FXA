@@ -142,7 +142,15 @@ is_owned_and_controlled_by_ROOT_or_subject = {
 		}
 	}
 }
-
+is_owned_and_controlled_by_our_subject_only = {
+	custom_trigger_tooltip = {
+		tooltip = FX_owned_and_controlled_by_our_subject_only
+		owner = {
+			controls_state = PREV
+			is_subject_of = ROOT
+		}
+	}
+}
 # Can be used in state scope, to check if the owner and controller is ROOT or a subject of ROOT
 is_owned_and_controlled_by_ROOT_or_ally = {
 	custom_trigger_tooltip = {
@@ -695,15 +703,6 @@ is_central_american_tag = {
 		tag = HON
 		tag = ELS
 		tag = GUA
-	}
-}
-
-is_spanish_tag = {
-	OR = {
-		tag = SPA
-		tag = SPR
-		tag = SPF
-		tag = SPM
 	}
 }
 

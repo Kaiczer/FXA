@@ -9,13 +9,14 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = CHI 
-		add_core_of = YUN 
+		add_core_of = CHI
+		add_core_of = YUN
 		add_core_of = MAN
+
 	}
 
 	provinces={
-		1474 7521 7549 7577 
+		1474 7521 7577 
 	}
 	manpower=1100890
 	buildings_max_level_factor=1.000

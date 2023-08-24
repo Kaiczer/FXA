@@ -7813,10 +7813,6 @@ country_event = {
 	option = {
 		name = ger.220.a
 		army_experience = 10
-		load_oob = SPF_german
-		GER = {
-			set_country_flag = GER_supported_spain
-		}
 	}
 }
 
@@ -7827,21 +7823,7 @@ country_event = {
 	desc = ger.221.d
 	picture = diplomacy4
 
-	trigger = {
-		SPF = {
-			exists = yes
-			has_war = no
-		}
-		GER = {
-			has_country_flag = GER_supported_spain
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-
-	fire_only_once = yes
+	is_triggered_only = yes 
 
 	option = {
 		name = ger.220.a
@@ -10909,19 +10891,7 @@ country_event = { # France Capitulates to North Africa
 							controls_state = PREV
 							NOT = { has_war_with = GER }
 						}
-						SPF = {
-							controls_state = PREV
-							NOT = { has_war_with = GER }
-						}
-						SPM = {
-							controls_state = PREV
-							NOT = { has_war_with = GER }
-						}
 						SPA = {
-							controls_state = PREV
-							NOT = { has_war_with = GER }
-						}
-						SPR = {
 							controls_state = PREV
 							NOT = { has_war_with = GER }
 						}
@@ -11837,16 +11807,7 @@ country_event = { # Italy Capitulates to North Africa
 						USA = {
 							controls_state = PREV
 						}
-						SPF = {
-							controls_state = PREV
-						}
-						SPM = {
-							controls_state = PREV
-						}
 						SPA = {
-							controls_state = PREV
-						}
-						SPR = {
 							controls_state = PREV
 						}
 						GRE = {
@@ -12728,7 +12689,7 @@ country_event = { # England Capitulates to Canada? will edit
 				set_country_flag = GER_england_escapes
 				country_event = { id = ger.4219 }
 			}
-			SPR = {
+			SPA = {
 				set_country_flag = GER_england_escapes
 				country_event = { id = ger.4221 }
 			}
@@ -12810,7 +12771,7 @@ country_event = { # England Capitulates to Canada? will edit
 			set_country_flag = GER_england_escapes
 			country_event = { id = ger.4219 }
 		}
-		SPR = {
+		SPA = {
 			set_country_flag = GER_england_escapes
 			country_event = { id = ger.4231 }
 		}
@@ -13412,12 +13373,7 @@ country_event = { # British collapse - Spain
 	picture = GFX_report_event_communists_cheer
 
 	trigger = {
-		OR = {
-			tag = SPR
-			tag = SPF
-			tag = SPA
-			original_tag = SPM
-		}
+		tag = SPA 
 		has_country_flag = GER_england_escapes
 		has_opinion = { target = ENG value < 50 }
 		controls_state = 41

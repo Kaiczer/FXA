@@ -1,13 +1,9 @@
 
 state={
 	id=956
-	name="STATE_956" # Leopoldville
-	manpower = 966724
-	
-	state_category = rural
-	
+	name="STATE_956"
 	resources={
-		tungsten=2.0
+		tungsten=2.000
 	}
 
 	history={
@@ -15,15 +11,21 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
 		victory_points = {
 			191 1 
 		}
 		add_core_of = COG
-    add_claim_by = BEL
+		add_claim_by = BEL
+
 	}
 
-	provinces = {
-		7716 2024 1731 10858 12907 1817 191 4515 1968 12795 9986 1516 1929
+	provinces={
+		191 1516 1731 1817 1929 1968 2024 4515 7161 7716 8016 9986 12795 12907 
 	}
+	manpower=966724
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

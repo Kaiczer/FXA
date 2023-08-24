@@ -1,3 +1,4 @@
+
 state={
 	id=793
 	name="STATE_793"
@@ -19,12 +20,14 @@ state={
 		victory_points = {
 			1150 5 
 		}
+
 	}
 
 	provinces={
-		1150
+		1150 6851 
 	}
 	manpower=1258785
 	buildings_max_level_factor=1.000
 	state_category=major_treaty_port
+	local_supplies=0.000
 }

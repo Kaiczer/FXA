@@ -2,6 +2,7 @@
 state={
 	id=273
 	name="STATE_273"
+	impassable = yes
 
 	history={
 		owner = LBA
@@ -14,10 +15,10 @@ state={
 	}
 
 	provinces={
-		12082 12711 
+		1994 5004 7985 12022 12082 12866 
 	}
 	manpower=42633
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
+	local_supplies=0.000
 }

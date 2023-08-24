@@ -3,11 +3,12 @@ state={
 	id=290
 	name="STATE_290"
 	resources={
-		steel=15.0
+		steel=15.000
 	}
 
 	history={
-		owner = SPR
+		owner = SPA
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 3
 			air_base = 3
@@ -17,17 +18,14 @@ state={
 			}
 
 		}
-		add_claim_by = MOR
-		add_claim_by = SPM
-		add_claim_by = SPA
-		add_claim_by = SPF
-    add_claim_by = SPR
+
 	}
 
 	provinces={
-		4199 7215 12087 12100 
+		4199 7215 10113 12087 12100 
 	}
 	manpower=202300
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

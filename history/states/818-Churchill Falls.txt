@@ -1,22 +1,26 @@
+
 state={
 	id=818
 	name="STATE_818"
 
 	history={
-		owner = CAN
+		owner = MAN
 		buildings = {
 			infrastructure = 2
 
 		}
-	add_core_of = CAN
-	add_core_of = NFL
+		add_core_of = MAN
+		add_core_of = CHI
+		add_claim_by = ZHI
+		add_core_of = MON 
 
 	}
 
 	provinces={
-		1785 4787 12503 13165
+		4873 
 	}
 	manpower=32000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
+	local_supplies=0.000
 }

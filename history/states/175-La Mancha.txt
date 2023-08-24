@@ -2,30 +2,26 @@
 state={
 	id=175
 	name="STATE_175"
-	manpower = 848903
-	
-	state_category = town
 
 	history={
-		owner = SPR
+		owner = SPA
+		add_core_of = SPA
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 3
-		}
-		add_core_of = SPR
-		add_claim_by = SPM
-		add_claim_by = SPA
-		add_claim_by = SPF
-		SPM = {
-			set_province_controller = 6832
-			set_province_controller = 6896
+
 		}
 		victory_points = {
-			942 2
+			942 2 
 		}
+
 	}
 
 	provinces={
-		888 942 3891 3945 3953 6800 6832 6879 6896 9757 9778 9828 9852 9881 11742 11812 11863 12081 
+		832 888 942 3835 3891 3953 6800 6832 6896 9757 9778 9828 9852 11812 11863 12081 13348 
 	}
+	manpower=848903
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

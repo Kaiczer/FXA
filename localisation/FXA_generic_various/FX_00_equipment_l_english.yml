@@ -3111,45 +3111,8 @@ SOV_armored_car_at_equipment: "BA-64E-37"
 SOV_armored_car_at_equipment_short: "BA-64E-37"
 
 #######################################
-# SPA/SPR/SPM/SPF - Spain
+# SPA - Spain
 #######################################
-# Republican
-SPR_infantry_equipment_0: "Mauser M93"
-SPR_infantry_equipment_0_short: "Mauser M93"
-SPR_infantry_equipment_1: "Destroyer Carbine"
-SPR_infantry_equipment_1_short: "Destroyer Carbine"
-SPR_infantry_equipment_2: "Labora Fontbernat M38"
-SPR_infantry_equipment_2_short: "Labora Fontbernat M38"
-SPR_infantry_equipment_3: "EMP-Coruña"
-SPR_infantry_equipment_3_short: "EMP-Coruña"
-
-SPR_gw_tank_equipment: "Trubia A4"
-SPR_gw_tank_equipment_short: "Trubia A4"
-SPR_light_tank_equipment_1: "Trubia Naval"
-SPR_light_tank_equipment_1_short: "Trubia Naval"
-SPR_light_tank_equipment_2: "Verdeja 1"
-SPR_light_tank_equipment_2_short: "Verdeja 1"
-SPR_light_tank_equipment_3: "Verdeja 2"
-SPR_light_tank_equipment_3_short: "Verdeja 2"
-# Monarchist
-SPM_infantry_equipment_0: "Mauser M93"
-SPM_infantry_equipment_0_short: "Mauser M93"
-SPM_infantry_equipment_1: "Destroyer Carbine"
-SPM_infantry_equipment_1_short: "Destroyer Carbine"
-SPM_infantry_equipment_2: "Labora Fontbernat M38"
-SPM_infantry_equipment_2_short: "Labora Fontbernat M38"
-SPM_infantry_equipment_3: "EMP-Coruña"
-SPM_infantry_equipment_3_short: "EMP-Coruña"
-
-SPM_gw_tank_equipment: "Trubia A4"
-SPM_gw_tank_equipment_short: "Trubia A4"
-SPM_light_tank_equipment_1: "Trubia Naval"
-SPM_light_tank_equipment_1_short: "Trubia Naval"
-SPM_light_tank_equipment_2: "Verdeja 1"
-SPM_light_tank_equipment_2_short: "Verdeja 1"
-SPM_light_tank_equipment_3: "Verdeja 2"
-SPM_light_tank_equipment_3_short: "Verdeja 2"
-# Anarchist
 SPA_infantry_equipment_0: "Mauser M93"
 SPA_infantry_equipment_0_short: "Mauser M93"
 SPA_infantry_equipment_1: "Destroyer Carbine"
@@ -3167,24 +3130,6 @@ SPA_light_tank_equipment_2: "Verdeja 1"
 SPA_light_tank_equipment_2_short: "Verdeja 1"
 SPA_light_tank_equipment_3: "Verdeja 2"
 SPA_light_tank_equipment_3_short: "Verdeja 2"
-# Falangist
-SPF_infantry_equipment_0: "Mauser M93"
-SPF_infantry_equipment_0_short: "Mauser M93"
-SPF_infantry_equipment_1: "Destroyer Carbine"
-SPF_infantry_equipment_1_short: "Destroyer Carbine"
-SPF_infantry_equipment_2: "Labora Fontbernat M38"
-SPF_infantry_equipment_2_short: "Labora Fontbernat M38"
-SPF_infantry_equipment_3: "EMP-Coruña"
-SPF_infantry_equipment_3_short: "EMP-Coruña"
-
-SPF_gw_tank_equipment: "Trubia A4"
-SPF_gw_tank_equipment_short: "Trubia A4"
-SPF_light_tank_equipment_1: "Trubia Naval"
-SPF_light_tank_equipment_1_short: "Trubia Naval"
-SPF_light_tank_equipment_2: "Verdeja 1"
-SPF_light_tank_equipment_2_short: "Verdeja 1"
-SPF_light_tank_equipment_3: "Verdeja 2"
-SPF_light_tank_equipment_3_short: "Verdeja 2"
 
 #######################################
 # SWE - Sweden

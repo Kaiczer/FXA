@@ -1,0 +1,23 @@
+
+state={
+	id=1070
+	name="STATE_1070"
+	history={
+		owner = ZHI
+		add_core_of = CHI
+		add_core_of = ZHI
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+	provinces={
+		4079 4158 7094 9937 10040 10079 11916 12036 
+	}
+	manpower=550410
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

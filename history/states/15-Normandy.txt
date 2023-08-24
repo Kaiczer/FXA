@@ -2,29 +2,32 @@
 state={
 	id=15
 	name="STATE_15"
-	manpower = 1324059
 	resources={
-		steel=42.0
+		steel=42.000
 	}
-	
-	state_category = small_town
 
 	history={
 		owner = FRA
 		victory_points = {
-			3549 1
+			3549 1 
 		}
 		victory_points = {
-			11535 3
+			11535 3 
 		}
 		buildings = {
 			infrastructure = 3
 			air_base = 1
+
 		}
 		add_core_of = FRA
+
 	}
 
 	provinces={
-		539 553 3534 3549 3579 6599 9578 11521 11535 
+		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 
 	}
+	manpower=1324059
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
 }

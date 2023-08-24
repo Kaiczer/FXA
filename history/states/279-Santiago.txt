@@ -3,7 +3,7 @@ state={
 	id=279
 	name="STATE_279"
 	resources={
-		steel=16.0
+		steel=16.000
 	}
 
 	history={
@@ -17,7 +17,6 @@ state={
 				naval_base = 5
 
 			}
-
 			650 = {
 				bunker = 1
 
@@ -32,9 +31,10 @@ state={
 	}
 
 	provinces={
-		650 5191 8194 8222 8229 8251 12984 
+		650 5191 8194 8222 8229 
 	}
 	manpower=3621940
 	buildings_max_level_factor=1.000
 	state_category=large_city
+	local_supplies=0.000
 }

@@ -3,8 +3,8 @@ state={
 	id=393
 	name="STATE_393"
 	resources={
-		steel=60
-		oil=6
+		steel=60.000
+		oil=6.000
 	}
 
 	history={
@@ -14,6 +14,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 4
+
 		}
 		add_core_of = USA
 		victory_points = {
@@ -25,12 +26,14 @@ state={
 		victory_points = {
 			11669 8 
 		}
+
 	}
 
 	provinces={
-		691 695 3766 4854 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 13155 13199 13200 709 751 5205  
+		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 13155 13199 13200 
 	}
 	manpower=4578073
 	buildings_max_level_factor=1.000
 	state_category=metropolis
+	local_supplies=0.000
 }

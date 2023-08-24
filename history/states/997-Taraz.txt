@@ -9,14 +9,16 @@ state={
 		add_core_of = SOV
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
 
 	provinces={
-		1825 4686 7706 10148 10408 10660 12583 12640
+		1825 7706 10408 10603 12583 12640 
 	}
 	manpower=1253342
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=0.000
 }

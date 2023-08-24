@@ -1703,38 +1703,6 @@ ENG_foreign_intervention = {
 		}
 	}
 	
-	ENG_scw_inter = {
-		icon = infiltrate_state
-		cost = 100
-		targets = { SPM }
-		target_trigger = { country_exists = SPM }
-		visible = {
-			SPM = { exists = yes }
-			OR = {
-				SPM = { has_war_with = SPR }
-				SPM = { has_war_with = SPF }
-				SPM = { has_war_with = SPA }
-			}
-		}
-		ai_will_do = {
-			factor = 320
-			modifier = {
-				has_war = yes
-				factor = 0
-			}
-		}
-		available = {
-			original_tag = ENG
-		}
-		fire_only_once = yes
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision ENG_scw_inter"
-			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = -5000 producer = ENG }
-			add_manpower = -10000
-			SPM = { country_event = { id = ukf.190 } }
-		}
-	}
-	
 	ENG_reconquer_india_prep = {
 	
 		visible = {

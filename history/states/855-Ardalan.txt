@@ -1,3 +1,4 @@
+
 state={
 	id=855
 	name="STATE_855"
@@ -16,9 +17,10 @@ state={
 	}
 
 	provinces={
-		4943 9816
+		4943 5050 8040 8125 9816 12773 
 	}
 	manpower=262355
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

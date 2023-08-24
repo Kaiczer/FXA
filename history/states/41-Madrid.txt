@@ -1,17 +1,14 @@
 
 state={
 	id=41
-	name="STATE_41" # Madrid
-	manpower = 2269659
-
-	state_category = large_city
-
+	name="STATE_41"
 	resources={
-		aluminium=1.0
+		aluminium=1.000
 	}
 
 	history={
-		owner = SPR
+		owner = SPA
+		add_core_of = SPA
 		victory_points = {
 			3938 30.0 
 		}
@@ -20,14 +17,16 @@ state={
 			arms_factory = 4
 			industrial_complex = 3
 			air_base = 6
+
 		}
-		add_core_of = SPR
-		add_claim_by = SPM
-		add_claim_by = SPA
-		add_claim_by = SPF
+
 	}
 
 	provinces={
-		858 896 939 977 3794 3845 3858 3938 3986 6841 6914 6993 9767 9785 9933 11820 11870 
+		858 896 939 977 3794 3820 3845 3858 3938 3945 3986 6841 6879 6914 6993 9767 9785 9800 9881 9933 11742 11820 11870 13350 13357 
 	}
+	manpower=2269659
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
 }

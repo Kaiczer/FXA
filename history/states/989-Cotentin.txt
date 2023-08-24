@@ -2,14 +2,11 @@
 state={
 	id=989
 	name="STATE_989"
-	manpower = 438539
-	
-	state_category = small_town
 
 	history={
 		owner = FRA
 		victory_points = {
-			6449 5
+			6449 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -18,12 +15,19 @@ state={
 			6449 = {
 				naval_base = 5
 				coastal_bunker = 1
+
 			}
+
 		}
 		add_core_of = FRA
+
 	}
 
 	provinces={
-		9550 6449
+		743 11697 
 	}
+	manpower=438539
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
 }

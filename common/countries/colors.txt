@@ -558,21 +558,9 @@ SAR = {
 	color = rgb{ 216  25  33 }
 	color_ui = rgb{ 216  25  33 }
 }
-SPF = {
-	color = rgb { 169 128 40 }
-	color_ui = rgb { 194 133 35 }
-}
 SPA = {
 	color = rgb { 189 31 53 }
 	color_ui = rgb { 224 56 48 }
-}
-SPM = {
-	color = rgb { 199 181 65 } #222 205 94 is much more tame. 242 205 94 
-	color_ui = rgb { 194 176 30 }
-}
-SPR = {# 220 180 6 # 200 130 222 # 179 138 184 # 189 110 211 
-	color = rgb { 164 113 159 }
-	color_ui = rgb { 179 138 164 }
 }
 LMK = {
 	color = rgb { 77 183 153 }
@@ -942,10 +930,6 @@ SLV = {
 	color = rgb { 102 178 255 }
 	color_ui = rgb { 102 178 255 }
 }
-MAC = {
-	color = rgb { 255 51 51 }
-	color_ui = rgb { 255 51 51 }
-}
 GDL = {
 	color = rgb { 153 255 255 }
 	color_ui = rgb { 153 255 255 }
@@ -1053,10 +1037,6 @@ RAS = {
 KMT = {
 	color = rgb { 248 198 0 }
 	color_ui = rgb { 255 198 0 }
-}
-MAC = {
-	color = rgb { 0 43 111 }
-	color_ui = rgb { 0 43 111 }
 }
 ICR = {
 	color = rgb { 80 135 224 }

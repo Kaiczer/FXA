@@ -2402,14 +2402,14 @@ focus_tree = {
     available = {
       num_divisions > 15
       NOT = {
-        has_global_flag = SPR_spanish_civil_war_ended_flag
+        has_global_flag = SPA_spanish_civil_war_ended_flag
       }
     }
     prerequisite = { focus = PHI_into_the_world }
     relative_position_id = PHI_into_the_world
     completion_reward = {
-      add_ideas = PHI_intervention_in_spain
-      unlock_decision_category_tooltip = PHI_spanish_civil_war
+      #add_ideas = PHI_intervention_in_spain
+      #unlock_decision_category_tooltip = PHI_spanish_civil_war
     }
   }
 

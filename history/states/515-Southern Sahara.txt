@@ -2,6 +2,7 @@
 state={
 	id=515
 	name="STATE_515"
+	impassable = yes
 
 	history={
 		add_core_of = NGR
@@ -9,15 +10,16 @@ state={
 		add_core_of = NFA
 		buildings = {
 			infrastructure = 0
+
 		}
 
 	}
 
 	provinces={
-		1956 4913 7939 8128 10917 
+		4913 7939 8128 10917 
 	}
-	manpower= 43135
+	manpower=43135
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
+	local_supplies=0.000
 }

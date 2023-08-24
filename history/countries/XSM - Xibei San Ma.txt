@@ -11,7 +11,6 @@ set_technology = {
 }
 
 add_ideas = {
-	party_pop_0_60
 	backwards_economy
 	iliterate_population
 	military_junta
@@ -32,9 +31,9 @@ set_popularities = {
   social_liberal = 6
   market_liberal = 0
   social_conservative = 8
-  authoritarian_democrat = 14
+  authoritarian_democrat = 0
   paternal_autocrat = 60
-  national_populist = 8
+  national_populist = 22
   valkist = 0
 }
 

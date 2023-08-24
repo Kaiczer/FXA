@@ -2,32 +2,32 @@
 state={
 	id=586
 	name="STATE_586"
-	resources={
-		steel=32.0
-		chromium=29.0
-		tungsten=9.0
-		aluminium=21.0
-	}
+	# resources={
+	# 	steel=32.000
+	# 	chromium=29.000
+	# 	tungsten=9.000
+	# 	aluminium=21.000
+	# }
 
 	history={
-		add_core_of = KAZ
-		owner = SOV
+		add_core_of = AFG
+		owner = AFG
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			arms_factory = 1
 		}
-		add_core_of = SOV
-		victory_points = {
-			1591 5 
-		}
+		# victory_points = {
+		# 	1591 5 
+		# }
 
 	}
 
 	provinces={
-		1591 4224 13147
+		7519 12314 12653 
 	}
 	manpower=1387682
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=rural
+	local_supplies=0.000
 }

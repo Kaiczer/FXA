@@ -1,22 +1,25 @@
+
 state={
 	id=779
 	name="STATE_779"
 
 	history={
-		owner = TUR
+		owner = KUR
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			}
-		add_core_of = TUR
 
 		}
+		add_core_of = KUR
+		add_core_of = TUR
 
+	}
 
 	provinces={
-		933 3935 6978 9844 9871 11839 11897 
+		876 9860 10399 11797 
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

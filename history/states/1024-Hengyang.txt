@@ -2,6 +2,7 @@
 state={
 	id=1024
 	name="STATE_1024"
+	impassable = yes
 
 	history={
 		owner = TIB
@@ -10,11 +11,10 @@ state={
 	}
 
 	provinces={
-		2010 5011 8068 10918 
+		2010 2093 4994 5011 5094 7926 8068 10755 10918 12801 
 	}
 	manpower=160
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 	local_supplies=0.000
-	impassable = yes
 }

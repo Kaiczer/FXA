@@ -1,11 +1,9 @@
+
 state={
 	id=736
 	name="STATE_736"
-	
-	state_category = rural
 
 	history={
-		
 		owner = ITA
 		add_core_of = ITA
 		buildings = {
@@ -24,8 +22,10 @@ state={
 	}
 
 	provinces={
-		599 11595 11735 13260
+		599 11595 11735 13260 
 	}
 	manpower=763159
 	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

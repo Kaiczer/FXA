@@ -14,12 +14,14 @@ state={
 		}
 		add_core_of = IND
 		add_core_of = RAJ
+
 	}
 
 	provinces={
-		1444 1569 1637 4516 4544 4571 7497 7537 7593 10358 10471 12035 12307 12452 12480 
+		1059 1444 1569 1637 4516 4544 4571 7497 7537 10358 10471 12035 12307 12452 12480 
 	}
 	manpower=36574500
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

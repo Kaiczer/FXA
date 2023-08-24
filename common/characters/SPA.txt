@@ -1,380 +1,240 @@
 characters = {
-	SPA_Jose_Cazorla_Maure = {
-		name = "José Cazorla Maure"
+	SPA_Alejandro_Lerroux = {
+		name = "Alejandro Lerroux"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Jose_Cazorla_Maure.png"
-				small = "gfx/interface/ministers/SPA/SPA_Jose_Cazorla_Maure.png"
+				large = "gfx/leaders/SPA/Portrait_SPA_Alejandro_Lerroux.png"
+        		small = "gfx/interface/ministers/SPA/SPA_Alejandro_Lerroux.png"
 			}
 		}
-		country_leader = {
-			ideology = authsoc_subtype
-			traits = { }
-		}
-		advisor = {
-			
+  		advisor = {
 			slot = head_of_government
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Jose_Cazorla_Maure_hog_van_hired }
+				hidden_trigger = { has_country_flag = SPA_Alejandro_Lerroux_hog_mli_hired }
 			}			
-			idea_token = SPA_Jose_Cazorla_Maure_hog_van
+			idea_token = SPA_Alejandro_Lerroux_hog_mli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Jose_Cazorla_Maure_hog_van_hired }
+				ROOT = { set_country_flag = SPA_Alejandro_Lerroux_hog_mli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jose_Cazorla_Maure_hog_van_hired }
+				ROOT = { clr_country_flag = SPA_Alejandro_Lerroux_hog_mli_hired }
 			}
 			traits = {
-				auth_socialist
-				hog_red_chairmen
+				market_liberal
+				hog_charismatic_charmer
 			}
 		}
 	}
-	SPA_Jose_Diaz_Ramos = {
-		name = "José Díaz Ramos"
+	SPA_Niceto_Alcala_Zamora = {
+		name = "Niceto Alcalá-Zamora"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Jose_Diaz_Ramos.png"
-				small = "gfx/interface/ministers/SPA/SPA_Jose_Diaz_Ramos.png"
+				large = "gfx/leaders/SPA/Portrait_SPA_Niceto_Alcala_Zamora_fx.png"
+        		small = "gfx/interface/ministers/SPA/SPA_Niceto_Alcala_Zamora.png"
 			}
 		}
 		country_leader = {
-			ideology = vansoc_subtype
+			ideology = market_liberal_subtype
 			traits = { }
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Jose_Diaz_Ramos_hog_col_hired }
-			}			
-			idea_token = SPA_Jose_Diaz_Ramos_hog_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Jose_Diaz_Ramos_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jose_Diaz_Ramos_hog_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				hog_ambitious_union_boss
-			}
-    }
-    advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Jose_Diaz_Ramos_sec_col_hired }
-			}			
-			idea_token = SPA_Jose_Diaz_Ramos_sec_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Jose_Diaz_Ramos_sec_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jose_Diaz_Ramos_sec_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				sec_prince_of_terror
-			}
-		}
-	}
-	SPA_Francisco_Largo_Caballero = {
-		name = "Francisco Largo Caballero"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Francisco_Largo_Caballero.png"
-				small = "gfx/interface/ministers/SPA/SPA_Francisco_Largo_Caballero.png"
-			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = social_conservative_subtype
 			traits = { }
-		}
-    advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
-			}			
-			idea_token = SPA_Francisco_Largo_Caballero_hog_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Francisco_Largo_Caballero_hog_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				hog_backroom_backstabber
-			}
-		}
-	}
-	SPA_Juan_Negrin = {
-		name = "Juan Negrín"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Juan_Negrin.png"
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Negrin.png"
-			}
 		}
 		country_leader = {
 			ideology = social_democrat_subtype
 			traits = { }
 		}
-		advisor = {
-			
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+    	advisor = {
 			slot = head_of_government
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Juan_Negrin_hog_sde_hired }
+				hidden_trigger = { has_country_flag = SPA_Niceto_Alcala_Zamora_hog_mli_hired }
 			}			
-			idea_token = SPA_Juan_Negrin_hog_sde
+			idea_token = SPA_Niceto_Alcala_Zamora_hog_mli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Juan_Negrin_hog_sde_hired }
+				ROOT = { set_country_flag = SPA_Niceto_Alcala_Zamora_hog_mli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Juan_Negrin_hog_sde_hired }
+				ROOT = { clr_country_flag = SPA_Niceto_Alcala_Zamora_hog_mli_hired }
 			}
 			traits = {
-				social_democrat
+				market_liberal
 				hog_silent_workhorse
 			}
 		}
 	}
-	SPA_Juan_Modesto = {
-		name = "Juan Modesto"
+	SPA_Vicente_Rojo_Lluch = {
+		name = "Vicente Rojo Lluch"
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Juan_Modesto.png"
-			}
 			army = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Juan_Modesto.png"
+				large = "gfx/leaders/SPA/Portrait_SPA_Vicente_Rojo_Lluch.png"
+				small = "gfx/interface/ministers/SPA/SPA_Vicente_Rojo_Lluch.png"
+			}
+     		civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Vicente_Rojo_Lluch.png"
 			}
 		}
 		field_marshal = {
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Vicente_Rojo_Lluch_hog_ade_hired }
+			}			
+			idea_token = SPA_Vicente_Rojo_Lluch_hog_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Vicente_Rojo_Lluch_hog_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Vicente_Rojo_Lluch_hog_ade_hired }
+			}
 			traits = {
+				authoritarian_democrat
+				hog_corporate_suit
+			}
+		}
+		advisor = {
+			slot = high_command
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Vicente_Rojo_Lluch_cos_ade_hired }
+			}			
+			idea_token = SPA_Vicente_Rojo_Lluch_cos_ade
+			on_add = {
+				ROOT = { set_country_flag = SPA_Vicente_Rojo_Lluch_cos_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Vicente_Rojo_Lluch_cos_ade_hired }
+			}
+			traits = {
+				cos_school_of_psychology
+			}
+		}
+		advisor = {
+			slot = army_chief		
+			idea_token = SPA_Vicente_Rojo_Lluch_carm_ade
+			traits = {
+				carm_guns_and_butter_doctrine
+			}
+		}
+	}
+	SPA_Jose_Miaja = {
+		name = "José Miaja"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SPA/Portrait_SPA_Jose_Miaja.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				trickster
+				infantry_leader
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+	SPA_Carlos_Romero_Gimenez = {
+		name = "Carlos Romero Giménez"
+		portraits = {
+			army = {
+				large = "gfx/leaders/SPA/Portrait_SPA_Carlos_Romero_Gimenez.png"
+			}
+		}
+		corps_commander = {
+			traits = {
+				infantry_leader
 			}
 			skill = 4
 			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 1
-		}
-	}
-	SPA_Buenaventura_Durruti = {
-		name = "Buenaventura Durruti"
-		portraits = {
-      civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Buenaventura_Durruti.png"
-			}
-			army = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Buenaventura_Durruti.png"
-				small = "gfx/interface/ministers/SPA/SPA_Buenaventura_Durruti.png"
-			}
-		}
-		field_marshal = {
-			traits = {
-			}
-			skill = 3
-			attack_skill = 1
-			defense_skill = 3
-			planning_skill = 4
-			logistics_skill = 1
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Buenaventura_Durruti_sec_col_hired }
-			}			
-			idea_token = SPA_Buenaventura_Durruti_sec_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Buenaventura_Durruti_sec_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Buenaventura_Durruti_sec_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				sec_crime_fighter
-			}
-		}
-		advisor = {
-			
-			slot = high_command
-			idea_token = SPA_Buenaventura_Durruti_cos_col
-			traits = {
-				cos_school_of_mass_combat
-			}
-		}
-		advisor = {
-			
-			slot = army_chief
-			idea_token = SPA_Buenaventura_Durruti_carm_col
-			traits = {
-				carm_armoured_spearhead_doctrine
-			}
-		}
-	}
-	SPA_Cipriano_Mera_Sanz = {
-		name = "Cipriano Mera Sanz"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Cipriano_Mera_Sanz.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				cavalry_officer
-				trait_reckless
-			}
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 1
-			logistics_skill = 1
-		}
-	}
-	SPA_Enrique_Lister_Forjan = {
-		name = "Enrique Líster Forján"
-		portraits = {
-			army = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Enrique_Lister_Forjan.png"
-				small = "gfx/interface/ministers/SPA/SPA_Enrique_Lister_Forjan.png"
-			}
-		}
-		corps_commander = {
-			traits = {
-				infantry_officer
-				fortress_buster
-			}
-			skill = 4
-			attack_skill = 2
 			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
 		}
-		advisor = {
-			
-			slot = high_command
-			idea_token = SPA_Enrique_Lister_Forjan_cos_van
-			traits = {
-				cos_school_of_fire_support
+	}
+	SPA_Manuel_Azana = {
+		name = "Manuel Azaña"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPA/Portrait_SPA_Manuel_Azana_fx.png"
+				small = "gfx/interface/ministers/SPA/SPA_Manuel_Azana.png"
 			}
 		}
 		advisor = {
-			
-			slot = army_chief
-			idea_token = SPA_Enrique_Lister_Forjan_carm_van
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Manuel_Azana_hog_sli_hired }
+			}			
+			idea_token = SPA_Manuel_Azana_hog_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Manuel_Azana_hog_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Manuel_Azana_hog_sli_hired }
+			}
 			traits = {
-				carm_elastic_defence_doctrine
+				social_liberal
+				hog_silent_workhorse
 			}
 		}
 	}
-	SPA_The_CNT_FAI_Congress = {
-		name = "The CNT-FAI Congress"
+	SPA_Juan_Hernandez_Saravia = {
+		name = "Juan Hernandez Saravia"
 		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_The_CNT_FAI_Congress.png"
+			army = {
+				large = "gfx/leaders/SPA/Portrait_SPA_Juan_Hernandez_Saravia.png"
 			}
 		}
+		corps_commander = {
+			traits = {
+				infantry_leader
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 4
+		}
 	}
-	SPA_Dolores_Ibarruri = {
-		name = "Dolores Ibárruri"
+	SPA_Diego_Martines_Barrio = {
+		name = "Diego Martínes Barrio"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Dolores_Ibarruri.png"
-				small = "gfx/interface/ministers/SPA/SPA_Dolores_Ibarruri.png"
+				small = "gfx/interface/ministers/SPA/SPA_Diego_Martines_Barrio.png"
 			}
 		}
 		advisor = {
 			
 			slot = head_of_government
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Dolores_Ibarruri_hog_col_hired }
+				hidden_trigger = { has_country_flag = SPA_Diego_Martines_Barrio_hog_sli_hired }
 			}			
-			idea_token = SPA_Dolores_Ibarruri_hog_col
+			idea_token = SPA_Diego_Martines_Barrio_hog_sli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Dolores_Ibarruri_hog_col_hired }
+				ROOT = { set_country_flag = SPA_Diego_Martines_Barrio_hog_sli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Dolores_Ibarruri_hog_col_hired }
+				ROOT = { clr_country_flag = SPA_Diego_Martines_Barrio_hog_sli_hired }
 			}
 			traits = {
-				vanguard_socialist
-				hog_pragmatic_statesman
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Dolores_Ibaurri_for_van_hired }
-			}			
-			idea_token = SPA_Dolores_Ibaurri_for_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Dolores_Ibaurri_for_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Dolores_Ibaurri_for_van_hired }
-			}
-			traits = {
-				auth_socialist
-				for_ideological_crusader
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Dolores_Ibaurri_sec_van_hired }
-			}			
-			idea_token = SPA_Dolores_Ibaurri_sec_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Dolores_Ibaurri_sec_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Dolores_Ibaurri_sec_van_hired }
-			}
-			traits = {
-				auth_socialist
-				sec_silent_lawyer
-			}
-		}
-	}
-	SPA_Andres_Nin_Perez = {
-		name = "Andrés Nin Pérez"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Andres_Nin_Perez.png"
-				small = "gfx/interface/ministers/SPA/SPA_Andres_Nin_Perez.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_hog_col_hired }
-			}			
-			idea_token = SPA_Andres_Nin_Perez_hog_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Andres_Nin_Perez_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_hog_col_hired }
-			}
-			traits = {
-				vanguard_socialist
+				social_liberal
 				hog_happy_amateur
 			}
 		}
@@ -382,18 +242,157 @@ characters = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_for_col_hired }
+				hidden_trigger = { has_country_flag = SPA_Diego_Martines_Barrio_for_sli_hired }
 			}			
-			idea_token = SPA_Andres_Nin_Perez_for_col
+			idea_token = SPA_Diego_Martines_Barrio_for_sli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Andres_Nin_Perez_for_col_hired }
+				ROOT = { set_country_flag = SPA_Diego_Martines_Barrio_for_sli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_for_col_hired }
+				ROOT = { clr_country_flag = SPA_Diego_Martines_Barrio_for_sli_hired }
 			}
 			traits = {
-				vanguard_socialist
+				social_liberal
+				for_apologetic_clerk
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Diego_Martines_Barrio_sec_sli_hired }
+			}			
+			idea_token = SPA_Diego_Martines_Barrio_sec_sli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Diego_Martines_Barrio_sec_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Diego_Martines_Barrio_sec_sli_hired }
+			}
+			traits = {
+				social_liberal
+				sec_driven_recruiter
+			}
+		}
+	}
+	SPA_Miguel_Maura_Gamazo = {
+		name = "Miguel Maura Gamazo"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Miguel_Maura_Gamazo.png"
+			}
+			navy = {
+				small = "gfx/interface/ministers/SPA/SPA_Miguel_Maura_Gamazo.png"
+			}
+		}
+		advisor = {
+			
+			slot = head_of_government
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Miguel_Maura_Gamazo_hog_sco_hired }
+			}			
+			idea_token = SPA_Miguel_Maura_Gamazo_hog_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Miguel_Maura_Gamazo_hog_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Miguel_Maura_Gamazo_hog_sco_hired }
+			}
+			traits = {
+				social_conservative
+				hog_smiling_oilman
+			}
+		}
+		advisor = {
+			
+			slot = navy_chief
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Miguel_Maura_Gamazo_cnav_sco_hired }
+			}			
+			idea_token = SPA_Miguel_Maura_Gamazo_cnav_sco
+			on_add = {
+				ROOT = { set_country_flag = SPA_Miguel_Maura_Gamazo_cnav_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Miguel_Maura_Gamazo_cnav_sco_hired }
+			}
+			traits = {
+				cnav_indirect_approach_doctrine
+			}
+		}
+	}
+	SPA_Anxel_Casal = {
+		name = "Ánxel Casal"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Anxel_Casal.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Anxel_Casal_for_sde_hired }
+			}			
+			idea_token = SPA_Anxel_Casal_for_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Anxel_Casal_for_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Anxel_Casal_for_sde_hired }
+			}
+			traits = {
+				social_democrat
+				for_general_staffer
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Anxel_Casal_eco_sde_hired }
+			}			
+			idea_token = SPA_Anxel_Casal_eco_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Anxel_Casal_eco_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Anxel_Casal_eco_sde_hired }
+			}
+			traits = {
+				social_democrat
+				eco_reformer
+			}
+		}
+	}
+	SPA_Bibiano_Fernandez_Ossorio = {
+		name = "Bibiano Fernández Ossorio"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Bibiano_Fernandez_Ossorio.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Bibiano_Fernandez_Ossorio_for_sde_hired }
+			}			
+			idea_token = SPA_Bibiano_Fernandez_Ossorio_for_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Bibiano_Fernandez_Ossorio_for_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Bibiano_Fernandez_Ossorio_for_sde_hired }
+			}
+			traits = {
+				social_democrat
 				for_biased_intellectual
 			}
 		}
@@ -401,932 +400,513 @@ characters = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Andres_Nin_Perez_sec_col_hired }
+				hidden_trigger = { has_country_flag = SPA_Bibiano_Fernandez_Ossorio_eco_sde_hired }
 			}			
-			idea_token = SPA_Andres_Nin_Perez_sec_col
+			idea_token = SPA_Bibiano_Fernandez_Ossorio_eco_sde
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Andres_Nin_Perez_sec_col_hired }
+				ROOT = { set_country_flag = SPA_Bibiano_Fernandez_Ossorio_eco_sde_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Andres_Nin_Perez_sec_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				sec_efficient_sociopath
-			}
-		}
-	}
-	SPA_Santiago_Carrillo_Solares = {
-		name = "Santiago Carrillo Solares"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Santiago_Carrillo_Solares.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Santiago_Carrillo_Solares_hog_van_hired }
-			}			
-			idea_token = SPA_Santiago_Carrillo_Solares_hog_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Santiago_Carrillo_Solares_hog_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Santiago_Carrillo_Solares_hog_van_hired }
-			}
-			traits = {
-				auth_socialist
-				hog_backroom_backstabber
-			}
-		}
-	}
-	SPA_Vicente_Uribe_Galdeano = {
-		name = "Vicente Uribe Galdeano"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Vicente_Uribe_Galdeano.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Vicente_Uribe_Galdeano_hog_col_hired }
-			}			
-			idea_token = SPA_Vicente_Uribe_Galdeano_hog_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Vicente_Uribe_Galdeano_hog_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Vicente_Uribe_Galdeano_hog_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				hog_flamboyant_tough_guy
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Vicente_Uribe_Galdeano_eco_col_hired }
-			}			
-			idea_token = SPA_Vicente_Uribe_Galdeano_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Vicente_Uribe_Galdeano_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Vicente_Uribe_Galdeano_eco_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				eco_balanced_budget_economy
-			}
-		}
-	}
-	SPA_Joaquin_Maurin = {
-		name = "Joaquín Maurín"
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/SPA/Portrait_SPA_Joaquin_Maurin.png"
-				small = "gfx/interface/ministers/SPA/SPA_Joaquin_Maurin.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
-			}			
-			idea_token = SPA_Joaquin_Maurin_hog_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Joaquin_Maurin_hog_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				hog_charismatic_charmer
-			}
-		}
-	}
-	SPA_Juan_Garcia_Oliver = {
-		name = "Juan García Oliver"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Garcia_Oliver.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
-			}			
-			idea_token = SPA_Juan_Garcia_Oliver_hog_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_hog_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				hog_political_protege
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
-			}			
-			idea_token = SPA_Juan_Garcia_Oliver_sec_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Juan_Garcia_Oliver_sec_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				sec_health_and_safety
-			}
-		}
-	}
-	SPA_Angel_Pestana_Nunez = {
-		name = "Ángel Pestaña Nuñez"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Angel_Pestana_Nunez.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
-			}			
-			idea_token = SPA_Angel_Pestana_Nunez_hog_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Angel_Pestana_Nunez_hog_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				hog_ambitious_union_boss
-			}
-		}
-	}
-	SPA_Anastasio_de_Gracia_Villarrubia = {
-		name = "Anastasio de Gracia Villarrubia"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Anastasio_de_Gracia_Villarrubia.png"
-			}
-		}
-		advisor = {
-			
-			slot = head_of_government
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Anastasio_de_Gracia_Villarrubia_hog_sde_hired }
-			}			
-			idea_token = SPA_Anastasio_de_Gracia_Villarrubia_hog_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Anastasio_de_Gracia_Villarrubia_hog_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Anastasio_de_Gracia_Villarrubia_hog_sde_hired }
+				ROOT = { clr_country_flag = SPA_Bibiano_Fernandez_Ossorio_eco_sde_hired }
 			}
 			traits = {
 				social_democrat
-				hog_happy_amateur
-			}
-		}
-    advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Anastasio_de_Garcia_Villarrubia_eco_sde_hired }
-			}			
-			idea_token = SPA_Anastasio_de_Garcia_Villarrubia_eco_sde
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Anastasio_de_Garcia_Villarrubia_eco_sde_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Anastasio_de_Garcia_Villarrubia_eco_sde_hired }
-			}
-			traits = {
-				social_democrat
-				eco_devoted_monopoly_buster
+				eco_mixed_economy
 			}
 		}
 	}
-	SPA_Jesus_Hernandez_y_Tomas = {
-		name = "Jesús Hernández y Tomás"
+	SPA_Diego_Hidalgo_Duran = {
+		name = "Diego Hidalgo Dúran"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Jesus_Hernandez_y_Tomas.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Jesus_Hernandez_y_Tomas_for_van_hired }
-			}			
-			idea_token = SPA_Jesus_Hernandez_y_Tomas_for_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Jesus_Hernandez_y_Tomas_for_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jesus_Hernandez_y_Tomas_for_van_hired }
-			}
-			traits = {
-				auth_socialist
-				for_radical_among_moderates
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Jesus_Hernandez_y_Tomas_eco_van_hired }
-			}			
-			idea_token = SPA_Jesus_Hernandez_y_Tomas_eco_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Jesus_Hernandez_y_Tomas_eco_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jesus_Hernandez_y_Tomas_eco_van_hired }
-			}
-			traits = {
-				auth_socialist
-				eco_resource_industrialist
-			}
-		}
-	}
-	SPA_Dolores_Ibaurri_Gomez = {
-		name = "Dolores Ibáurri Gómez"
-		
-	}
-	SPA_Jordi_Arquer = {
-		name = "Jordi Arquer"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Jordi_Arquer.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Jordi_Arquer_for_lib_hired }
-			}			
-			idea_token = SPA_Jordi_Arquer_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Jordi_Arquer_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Jordi_Arquer_for_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				for_apologetic_clerk
-			}
-		}
-	}
-	SPA_Eduardo_de_Guzman = {
-		name = "Eduardo de Guzmán"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Eduardo_de_Guzman.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Eduardo_de_Guzman_for_col_hired }
-			}			
-			idea_token = SPA_Eduardo_de_Guzman_for_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Eduardo_de_Guzman_for_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Eduardo_de_Guzman_for_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				for_moderate_among_radicals
-			}
-		}
-	}
-	SPA_Julian_Besteiro_Fernandez = {
-		name = "Julián Besteiro Fernández"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Julian_Besteiro_Fernandez.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
-			}			
-			idea_token = SPA_Julian_Besteiro_Fernandez_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Julian_Besteiro_Fernandez_for_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				for_iron_fisted_brute
-			}
-		}
-	}
-	SPA_Julio_Alvarez_del_Vayo = {
-		name = "Julio Álvarez del Vayo"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Julio_Alvarez_del_Vayo.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
-			}			
-			idea_token = SPA_Julio_Alvarez_del_Vayo_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Julio_Alvarez_del_Vayo_for_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				for_relations_expert
-			}
-		}
-	}
-	SPA_Fernando_de_los_Rios_Urruti = {
-		name = "Fernando de los Ríos Urruti"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Fernando_de_los_Rios_Urruti.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
-			}			
-			idea_token = SPA_Fernando_de_los_Rios_Urruti_for_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_for_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				for_relations_expert
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
-			}			
-			idea_token = SPA_Fernando_de_los_Rios_Urruti_eco_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Fernando_de_los_Rios_Urruti_eco_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				eco_tank_proponent
-			}
-		}
-	}
-	SPA_Enrique_Castro_Delgado = {
-		name = "Enrique Castro Delgado"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Enrique_Castro_Delgado.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Enrique_Castro_Delgado_eco_van_hired }
-			}			
-			idea_token = SPA_Enrique_Castro_Delgado_eco_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Enrique_Castro_Delgado_eco_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Enrique_Castro_Delgado_eco_van_hired }
-			}
-			traits = {
-				auth_socialist
-				eco_planned_economy_proponent
-			}
-		}
-	}
-	SPA_Rafael_Vidiella_Franch = {
-		name = "Rafael Vidiella Franch"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Rafael_Vidiella_Franch.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Rafael_Vidiella_Franch_eco_col_hired }
-			}			
-			idea_token = SPA_Rafael_Vidiella_Franch_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Rafael_Vidiella_Franch_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Rafael_Vidiella_Franch_eco_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				eco_industrialiser
-			}
-		}
-	}
-	SPA_Miquel_Valdes_i_Valdes = {
-		name = "Miquel Valdés i Valdés"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Miquel_Valdes_i_Valdes.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Miquel_Valdes_i_Valdes_eco_col_hired }
-			}			
-			idea_token = SPA_Miquel_Valdes_i_Valdes_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Miquel_Valdes_i_Valdes_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Miquel_Valdes_i_Valdes_eco_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				eco_administrative_genius
-			}
-		}
-	}
-	SPA_Federica_Monsteny_Mane = {
-		name = "Federica Monsteny Mané"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Federica_Monsteny_Mane.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Federica_Monsteny_Mane_eco_col_hired }
-			}			
-			idea_token = SPA_Federica_Monsteny_Mane_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Federica_Monsteny_Mane_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Federica_Monsteny_Mane_eco_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				eco_infantry_proponent
-			}
-		}
-	}
-	SPA_Joaquin_Ascaso_Budria = {
-		name = "Joaquín Ascaso Budriá"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Joaquin_Ascaso_Budria.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Joaquin_Ascaso_Budria_eco_col_hired }
-			}			
-			idea_token = SPA_Joaquin_Ascaso_Budria_eco_col
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Joaquin_Ascaso_Budria_eco_col_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Joaquin_Ascaso_Budria_eco_col_hired }
-			}
-			traits = {
-				vanguard_socialist
-				eco_battlefield_support_proponent
-			}
-		}
-	}
-	SPA_Juan_Lopez_Sanchez = {
-		name = "Juan López Sánchez"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Lopez_Sanchez.png"
+				small = "gfx/interface/ministers/SPA/SPA_Diego_Hidalgo_Duran.png"
 			}
 			army = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Lopez_Sanchez.png"
-			}
-			navy = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Lopez_Sanchez.png"
+				small = "gfx/interface/ministers/SPA/SPA_Diego_Hidalgo_Duran.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Juan_Lopez_Sanchez_eco_col_hired }
+				hidden_trigger = { has_country_flag = SPA_Diego_Hidalgo_Duran_for_sli_hired }
 			}			
-			idea_token = SPA_Juan_Lopez_Sanchez_eco_col
+			idea_token = SPA_Diego_Hidalgo_Duran_for_sli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Juan_Lopez_Sanchez_eco_col_hired }
+				ROOT = { set_country_flag = SPA_Diego_Hidalgo_Duran_for_sli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Juan_Lopez_Sanchez_eco_col_hired }
+				ROOT = { clr_country_flag = SPA_Diego_Hidalgo_Duran_for_sli_hired }
 			}
 			traits = {
-				vanguard_socialist
-				eco_the_minister_for_everything
-			}
-		}
-		advisor = {
-			
-			slot = navy_chief
-			idea_token = SPA_Juan_Lopez_Sanchez_cnav_col
-			traits = {
-				cnav_open_seas_doctrine
+				social_liberal
+				for_ideological_crusader
 			}
 		}
 		advisor = {
 			
 			slot = air_chief
-			idea_token = SPA_Juan_Lopez_Sanchez_cair_col
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Diego_Hidalgo_Duran_cair_sli_hired }
+			}			
+			idea_token = SPA_Diego_Hidalgo_Duran_cair_sli
+			on_add = {
+				ROOT = { set_country_flag = SPA_Diego_Hidalgo_Duran_cair_sli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Diego_Hidalgo_Duran_cair_sli_hired }
+			}
 			traits = {
 				cair_air_superiority_doctrine
 			}
 		}
 	}
-	SPA_Juan_Peiro_Belis = {
-		name = "Juan Peiró Belis"
+	SPA_Jose_Martinez_de_Velasco = {
+		name = "José Martínez de Velasco"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Peiro_Belis.png"
-			}
-			army = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Peiro_Belis.png"
-			}
-			navy = {
-				small = "gfx/interface/ministers/SPA/SPA_Juan_Peiro_Belis.png"
+				small = "gfx/interface/ministers/SPA/SPA_Jose_Martinez_de_Velasco.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Juan_Peiro_Belis_eco_col_hired }
+				hidden_trigger = { has_country_flag = SPA_Jose_Martinez_de_Velasco_for_mli_hired }
 			}			
-			idea_token = SPA_Juan_Peiro_Belis_eco_col
+			idea_token = SPA_Jose_Martinez_de_Velasco_for_mli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Juan_Peiro_Belis_eco_col_hired }
+				ROOT = { set_country_flag = SPA_Jose_Martinez_de_Velasco_for_mli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Juan_Peiro_Belis_eco_col_hired }
+				ROOT = { clr_country_flag = SPA_Jose_Martinez_de_Velasco_for_mli_hired }
 			}
 			traits = {
-				vanguard_socialist
-				eco_trade_proponent
+				market_liberal
+				for_general_staffer
+			}
+		}
+	}
+	SPA_Ramon_Otero_Pedrayo = {
+		name = "Ramón Otero Pedrayo"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Ramon_Otero_Pedrayo.png"
 			}
 		}
 		advisor = {
 			
-			slot = navy_chief
-			idea_token = SPA_Juan_Peiro_Belis_cnav_col
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Ramon_Otero_Pedrayo_for_mli_hired }
+			}			
+			idea_token = SPA_Ramon_Otero_Pedrayo_for_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Ramon_Otero_Pedrayo_for_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Ramon_Otero_Pedrayo_for_mli_hired }
+			}
 			traits = {
-				cnav_decisive_battle_doctrine
+				market_liberal
+				for_iron_fisted_brute
+			}
+		}
+	}
+	SPA_Alexandre_Boveda_Iglesias = {
+		name = "Alexandre Bóveda Iglesias"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Alexandre_Boveda_Iglesias.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Alexandre_Boveda_Iglesias_for_sco_hired }
+			}			
+			idea_token = SPA_Alexandre_Boveda_Iglesias_for_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Alexandre_Boveda_Iglesias_for_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Alexandre_Boveda_Iglesias_for_sco_hired }
+			}
+			traits = {
+				social_conservative
+				for_relations_expert
+			}
+		}
+	}
+	SPA_Claudio_Sanchez_Albornoz = {
+		name = "Claudio Sánchez Albornoz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Claudio_Sanchez_Albornoz.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Claudio_Sanchez_Albornoz_for_sco_hired }
+			}			
+			idea_token = SPA_Claudio_Sanchez_Albornoz_for_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Claudio_Sanchez_Albornoz_for_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Claudio_Sanchez_Albornoz_for_sco_hired }
+			}
+			traits = {
+				social_conservative
+				for_the_cloak_n_dagger_schemer
+			}
+		}
+	}
+	SPA_Emilio_Herrera = {
+		name = "Emilio Herrera"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Emilio_Herrera.png"
+			}
+			army = {
+				small = "gfx/interface/ministers/SPA/SPA_Emilio_Herrera.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Emilio_Herrera_eco_mli_hired }
+			}			
+			idea_token = SPA_Emilio_Herrera_eco_mli
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Emilio_Herrera_eco_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Emilio_Herrera_eco_mli_hired }
+			}
+			traits = {
+				market_liberal
+				eco_balanced_budget_economy
 			}
 		}
 		advisor = {
 			
 			slot = air_chief
-			idea_token = SPA_Juan_Peiro_Belis_cair_col
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Emilio_Herrera_cair_mli_hired }
+			}			
+			idea_token = SPA_Emilio_Herrera_cair_mli
+			on_add = {
+				ROOT = { set_country_flag = SPA_Emilio_Herrera_cair_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Emilio_Herrera_cair_mli_hired }
+			}
 			traits = {
-				cair_naval_aviation_doctrine
+				cair_battlefield_support_doctrine
 			}
 		}
 	}
-	SPA_Belamino_Tomas_Alvarez = {
-		name = "Belamino Tomás Álvarez"
+	SPA_Joaquin_Chapaprieta_Torregosa = {
+		name = "Joaquín Chapaprieta Torregosa"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Belamino_Tomas_Alvarez.png"
+				small = "gfx/interface/ministers/SPA/SPA_Joaquin_Chapaprieta_Torregosa.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
+				hidden_trigger = { has_country_flag = SPA_Joaquin_Chapaprieta_Torregosa_eco_mli_hired }
 			}			
-			idea_token = SPA_Belamino_Tomas_Alvarez_eco_lib
+			idea_token = SPA_Joaquin_Chapaprieta_Torregosa_eco_mli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
+				ROOT = { set_country_flag = SPA_Joaquin_Chapaprieta_Torregosa_eco_mli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Belamino_Tomas_Alvarez_eco_lib_hired }
+				ROOT = { clr_country_flag = SPA_Joaquin_Chapaprieta_Torregosa_eco_mli_hired }
 			}
 			traits = {
-				libertarian_socialist
-				eco_industrial_chemist
+				market_liberal
+				eco_steel_magnate
 			}
 		}
 	}
-	SPA_Felix_Gordon_Ordas = {
-		name = "Felix Gordón Ordás"
+	SPA_Josep_Tarradellas = {
+		name = "Josep Tarradellas"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Felix_Gordon_Ordas.png"
+				small = "gfx/interface/ministers/SPA/SPA_Josep_Tarradellas.png"
+			}
+			navy = {
+				small = "gfx/interface/ministers/SPA/SPA_Josep_Tarradellas.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
+				hidden_trigger = { has_country_flag = SPA_Josep_Tarradellas_eco_mli_hired }
 			}			
-			idea_token = SPA_Felix_Gordon_Ordas_eco_lib
+			idea_token = SPA_Josep_Tarradellas_eco_mli
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
+				ROOT = { set_country_flag = SPA_Josep_Tarradellas_eco_mli_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Felix_Gordon_Ordas_eco_lib_hired }
+				ROOT = { clr_country_flag = SPA_Josep_Tarradellas_eco_mli_hired }
 			}
 			traits = {
-				libertarian_socialist
-				eco_reformer
+				market_liberal
+				eco_administrative_genius
+			}
+		}
+		advisor = {
+			
+			slot = navy_chief
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Josep_Tarradellas_cnav_mli_hired }
+			}			
+			idea_token = SPA_Josep_Tarradellas_cnav_mli
+			on_add = {
+				ROOT = { set_country_flag = SPA_Josep_Tarradellas_cnav_mli_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Josep_Tarradellas_cnav_mli_hired }
+			}
+			traits = {
+				cnav_open_seas_doctrine
 			}
 		}
 	}
-	SPA_Antonio_Mije = {
-		name = "Antonio Mije"
+	SPA_Francisco_de_Borbon_de_la_Torre = {
+		name = "Francisco de Borbón de la Torre"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Antonio_Mije.png"
+				small = "gfx/interface/ministers/SPA/SPA_Francisco_de_Borbon_de_la_Torre.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Antonio_Mije_sec_van_hired }
+				hidden_trigger = { has_country_flag = SPA_Francisco_de_Borbon_de_la_Torre_eco_sco_hired }
 			}			
-			idea_token = SPA_Antonio_Mije_sec_van
+			idea_token = SPA_Francisco_de_Borbon_de_la_Torre_eco_sco
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Antonio_Mije_sec_van_hired }
+				ROOT = { set_country_flag = SPA_Francisco_de_Borbon_de_la_Torre_eco_sco_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Antonio_Mije_sec_van_hired }
+				ROOT = { clr_country_flag = SPA_Francisco_de_Borbon_de_la_Torre_eco_sco_hired }
 			}
 			traits = {
-				auth_socialist
+				social_conservative
+				eco_bank_president
+			}
+		}
+	}
+	SPA_Juan_Vigon_Suerodiaz = {
+		name = "Juan Vigón Suerodíaz"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Juan_Vigon_Suerodiaz.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Juan_Vigon_Suerodiaz_eco_sco_hired }
+			}			
+			idea_token = SPA_Juan_Vigon_Suerodiaz_eco_sco
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Juan_Vigon_Suerodiaz_eco_sco_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Juan_Vigon_Suerodiaz_eco_sco_hired }
+			}
+			traits = {
+				social_conservative
+				eco_industrialiser
+			}
+		}
+	}
+	SPA_Mariano_Anso = {
+		name = "Mariano Ansó"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Mariano_Anso.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Mariano_Anso_eco_ade_hired }
+			}			
+			idea_token = SPA_Mariano_Anso_eco_ade
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Mariano_Anso_eco_ade_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Mariano_Anso_eco_ade_hired }
+			}
+			traits = {
+				authoritarian_democrat
+				eco_national_liberal
+			}
+		}
+	}
+	SPA_Amos_Salvador_Carreras = {
+		name = "Amós Salvador Carreras"
+		portraits = {
+			civilian = {
+				small = "gfx/interface/ministers/SPA/SPA_Amos_Salvador_Carreras.png"
+			}
+		}
+		advisor = {
+			
+			slot = political_advisor
+			available = {
+				hidden_trigger = { has_country_flag = SPA_Amos_Salvador_Carreras_sec_sde_hired }
+			}			
+			idea_token = SPA_Amos_Salvador_Carreras_sec_sde
+			can_be_fired = no
+			on_add = {
+				ROOT = { set_country_flag = SPA_Amos_Salvador_Carreras_sec_sde_hired }
+			}
+			on_remove = {
+				ROOT = { clr_country_flag = SPA_Amos_Salvador_Carreras_sec_sde_hired }
+			}
+			traits = {
+				social_democrat
 				sec_back_stabber
 			}
 		}
 	}
-	SPA_Joaquin_Grimau_Garcia = {
-		name = "Joaquín Grimau García"
+	SPA_Marcelino_Domingo_Sanjuan = {
+		name = "Marcelino Domingo Sanjuán"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Joaquin_Grimau_Garcia.png"
+				small = "gfx/interface/ministers/SPA/SPA_Marcelino_Domingo_Sanjuan.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Joaquin_Grimau_Garcia_sec_van_hired }
+				hidden_trigger = { has_country_flag = SPA_Marcelino_Domingo_Sanjuan_sec_sde_hired }
 			}			
-			idea_token = SPA_Joaquin_Grimau_Garcia_sec_van
+			idea_token = SPA_Marcelino_Domingo_Sanjuan_sec_sde
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Joaquin_Grimau_Garcia_sec_van_hired }
+				ROOT = { set_country_flag = SPA_Marcelino_Domingo_Sanjuan_sec_sde_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Joaquin_Grimau_Garcia_sec_van_hired }
+				ROOT = { clr_country_flag = SPA_Marcelino_Domingo_Sanjuan_sec_sde_hired }
 			}
 			traits = {
-				auth_socialist
-				sec_secret_police_chief
-			}
-		}
-	}
-	SPA_Valentin_Gonzalez_Gonzalez = {
-		name = "Valentín González González"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Valentin_Gonzalez_Gonzalez.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Valentin_Gonzalez_Gonzalez_sec_van_hired }
-			}			
-			idea_token = SPA_Valentin_Gonzalez_Gonzalez_sec_van
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Valentin_Gonzalez_Gonzalez_sec_van_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Valentin_Gonzalez_Gonzalez_sec_van_hired }
-			}
-			traits = {
-				auth_socialist
-				sec_man_of_the_people
-			}
-		}
-	}
-	SPA_Angel_Galarza_y_Gago = {
-		name = "Ángel Galarza y Gago"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Angel_Galarza_y_Gago.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
-			}			
-			idea_token = SPA_Angel_Galarza_y_Gago_sec_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Angel_Galarza_y_Gago_sec_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
-				sec_media_magnate
-			}
-		}
-	}
-	SPA_Antonio_Ortega_Gutierrez = {
-		name = "Antonio Ortega Gutiérrez"
-		portraits = {
-			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Antonio_Ortega_Gutierrez.png"
-			}
-		}
-		advisor = {
-			
-			slot = political_advisor
-			available = {
-				hidden_trigger = { has_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
-			}			
-			idea_token = SPA_Antonio_Ortega_Gutierrez_sec_lib
-			can_be_fired = no
-			on_add = {
-				ROOT = { set_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
-			}
-			on_remove = {
-				ROOT = { clr_country_flag = SPA_Antonio_Ortega_Gutierrez_sec_lib_hired }
-			}
-			traits = {
-				libertarian_socialist
+				social_democrat
 				sec_compassionate_gentleman
 			}
 		}
 	}
-	SPA_Indalecio_Prieto = {
-		name = "Indalecio Prieto"
+	SPA_Antonio_Roson = {
+		name = "Antonio Roson"
 		portraits = {
 			civilian = {
-				small = "gfx/interface/ministers/SPA/SPA_Indalecio_Prieto.png"
+				small = "gfx/interface/ministers/SPA/SPA_Antonio_Roson.png"
 			}
 		}
 		advisor = {
 			
 			slot = political_advisor
 			available = {
-				hidden_trigger = { has_country_flag = SPA_Indalecio_Prieto_sec_sde_hired }
+				hidden_trigger = { has_country_flag = SPA_Antonio_Roson_sec_sco_hired }
 			}			
-			idea_token = SPA_Indalecio_Prieto_sec_sde
+			idea_token = SPA_Antonio_Roson_sec_sco
 			can_be_fired = no
 			on_add = {
-				ROOT = { set_country_flag = SPA_Indalecio_Prieto_sec_sde_hired }
+				ROOT = { set_country_flag = SPA_Antonio_Roson_sec_sco_hired }
 			}
 			on_remove = {
-				ROOT = { clr_country_flag = SPA_Indalecio_Prieto_sec_sde_hired }
+				ROOT = { clr_country_flag = SPA_Antonio_Roson_sec_sco_hired }
 			}
 			traits = {
-				social_democrat
-				sec_silent_lawyer
+				social_conservative
+				sec_media_magnate
 			}
 		}
 	}
-	SPA_Emilio_Kleber = {
-		name = "Emilio Kléber"
+	SPA_Carlos_Asensio_Cabanillas = {
+		name = "Carlos Asensio Cabanillas"
 		portraits = {
 			army = {
-				small = "gfx/interface/ministers/SPA/SPA_Emilio_Kleber.png"
+				small = "gfx/interface/ministers/SPA/SPA_Carlos_Asensio_Cabanillas.png"
 			}
 		}
 		advisor = {
 			
-			slot = high_command
-			idea_token = SPA_Emilio_Kleber_cos_van
+			slot = high_command		
+			idea_token = SPA_Carlos_Asensio_Cabanillas_cos_ade
 			traits = {
 				cos_school_of_manoeuvre
 			}
 		}
+		advisor = {
+			
+			slot = army_chief		
+			idea_token = SPA_Carlos_Asensio_Cabanillas_carm_ade
+			traits = {
+				carm_armoured_spearhead_doctrine
+			}
+		}
 	}
-	SPA_Francisco_Ascaso_Budria = {
-		name = "Francisco Ascaso Budría"
+	SPA_Antonio_Ortega = {
+		name = "Antonio Ortega"
 		portraits = {
 			army = {
-				small = "gfx/interface/ministers/SPA/SPA_Francisco_Ascaso_Budria.png"
+				small = "gfx/interface/ministers/SPA/SPA_Antonio_Ortega.png"
 			}
 		}
 		advisor = {
 			
-			slot = high_command
-			idea_token = SPA_Francisco_Ascaso_Budria_cos_col
+			slot = army_chief			
+			idea_token = SPA_Antonio_Ortega_carm_sco
 			traits = {
-				cos_school_of_psychology
+				carm_decisive_battle_doctrine
+			}
+		}
+	}
+	SPA_Fidel_Davila_Arrondo = {
+		name = "Fidel Dávila Arrondo"
+		portraits = {
+			army = {
+				small = "gfx/interface/ministers/SPA/SPA_Fidel_Davila_Arrondo.png"
 			}
 		}
 		advisor = {
 			
-			slot = army_chief
-			idea_token = SPA_Francisco_Ascaso_Budria_carm_col
+			slot = army_chief		
+			idea_token = SPA_Fidel_Davila_Arrondo_carm_ade
 			traits = {
-				carm_guns_and_butter_doctrine
+				carm_commando_doctrine
 			}
 		}
 	}

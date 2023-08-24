@@ -2,20 +2,23 @@
 state={
 	id=753
 	name="STATE_753"
-	manpower = 96626
-
-	state_category = town
 
 	history={
 		owner = PRU
 		buildings = {
 			infrastructure = 3
+
 		}
 		add_claim_by = PRU
 		add_core_of = COL
+
 	}
 
 	provinces={
-		12770 12825 12869 
+		12825 12869 
 	}
+	manpower=96626
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
 }

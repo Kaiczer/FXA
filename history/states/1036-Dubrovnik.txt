@@ -1,15 +1,21 @@
+
 state={
 	id=1036
 	name="STATE_1036"
-	state_category=rural
+
+	history={
+		owner = ENG
+		add_core_of = RHO
+		add_claim_by = SAF
+		add_claim_by = ENG
+
+	}
+
 	provinces={
-		6889 
+		2255 12908 12986 13319 
 	}
-	history = {
-		owner = SER
-		add_core_of = SER
-	}
-	manpower= 90300
+	manpower=90300
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
 }

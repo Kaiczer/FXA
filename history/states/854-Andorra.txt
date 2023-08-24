@@ -4,22 +4,20 @@ state={
 	name="STATE_854"
 
 	history={
-		owner = SPA
+		owner = TRK
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SPA
-		add_claim_by = SPR
-		add_claim_by = SPM
-		add_claim_by = SPF
+		add_core_of = TRK
 
 	}
 
 	provinces={
-		3898 3899 9824 11779
+		756 4549 4958 5003 
 	}
 	manpower=2030
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+	local_supplies=0.000
 }

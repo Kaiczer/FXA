@@ -3900,9 +3900,6 @@ country_event = { # Fate of Spain
   immediate = {
     hidden_effect = {
       add_to_temp_array = { core_removal_array = SPA }
-      add_to_temp_array = { core_removal_array = SPF }
-      add_to_temp_array = { core_removal_array = SPR }
-      add_to_temp_array = { core_removal_array = SPM }
       remove_all_cores_and_claims_of_tags = yes
     }
   }
@@ -3918,18 +3915,24 @@ country_event = { # Fate of Spain
     if = {
       limit = { has_socialist_government = yes }
       set_temp_variable = { tag_to_release = SPA }
+      SPA = {
+        set_country_flag = SPA_is_socialist
+      }
       core_spain_for_faction = yes
       release_targeted_tag = yes
     }
     else_if = {
       limit = { has_democratic_government = yes }
-      set_temp_variable = { tag_to_release = SPR }
+      set_temp_variable = { tag_to_release = SPA }
       core_spain_for_faction = yes
       release_targeted_tag = yes
     }
     else_if = {
-      limit = { has_dictatorship_government = yes }
-      set_temp_variable = { tag_to_release = SPF }
+      limit = { has_authoritarian_government = yes }
+      set_temp_variable = { tag_to_release = SPA }
+      SPA = {
+        set_country_flag = SPA_is_nationalist
+      }
       core_spain_for_faction = yes
       release_targeted_tag = yes
     }
@@ -3943,7 +3946,10 @@ country_event = { # Fate of Spain
     trigger = {
       tag = ENG
     }
-    set_temp_variable = { tag_to_release = SPM }
+    set_temp_variable = { tag_to_release = SPA }
+    SPA = {
+      set_country_flag = SPA_is_kingdom
+    }
     core_spain_for_faction = yes
     release_targeted_tag = yes
   }
