@@ -1195,23 +1195,11 @@ characters = {
 		}
 	}
 	SAF_Lord_Hyde = {
-		name = "Lord Hyde"
+		name = "George H. Hyde Villiers"
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/SAF/Portrait_SAF_Lord_Hyde.png"
 			}
-		}
-		country_leader = {
-			ideology = authsoc_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = vansoc_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = libertarian_socialist_subtype
-			traits = { }
 		}
 		country_leader = {
 			ideology = social_democrat_subtype
@@ -1239,10 +1227,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = national_populist_subtype
-			traits = { }
-		}
-		country_leader = {
-			ideology = valkist_subtype
 			traits = { }
 		}
 	}
