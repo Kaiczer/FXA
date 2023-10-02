@@ -381,43 +381,43 @@ create_dynamic_country = {
 
 set_global_flag = spanish_civil_war
 set_cosmetic_tag = SPA_cw
-every_state = {
-	limit = {
-		OR = {
-			state = 171
-			state = 833
-			state = 174
-			state = 172
-			state = 176
-			state = 1006
-			state = 990
-		}
-	}
-	transfer_state_to = SPN 
-}
-every_state = {
-	limit = {
-		OR = {
-			state = 169
-			state = 834
-			state = 173
-			state = 168
-		}
-	}
-	transfer_state_to = SPM 
-}
-every_state = {
-	limit = {
-		OR = {
-			state = 165
-			state = 167
-			state = 177
-			state = 1005
-			state = 166
-		}
-	}
-	transfer_state_to = SWF 
-}
+# every_state = {
+# 	limit = {
+# 		OR = {
+# 			state = 171
+# 			state = 833
+# 			state = 174
+# 			state = 172
+# 			state = 176
+# 			state = 1006
+# 			state = 990
+# 		}
+# 	}
+# 	transfer_state_to = SPN 
+# }
+# every_state = {
+# 	limit = {
+# 		OR = {
+# 			state = 169
+# 			state = 834
+# 			state = 173
+# 			state = 168
+# 		}
+# 	}
+# 	transfer_state_to = SPM 
+# }
+# every_state = {
+# 	limit = {
+# 		OR = {
+# 			state = 165
+# 			state = 167
+# 			state = 177
+# 			state = 1005
+# 			state = 166
+# 		}
+# 	}
+# 	transfer_state_to = SWF 
+# }
 
 save_global_event_target_as = original_spain
 declare_war_on = {
