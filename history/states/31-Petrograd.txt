@@ -5,6 +5,10 @@ state={
 	provinces={
 		79 149 3151 6174 9097 11068 
 	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

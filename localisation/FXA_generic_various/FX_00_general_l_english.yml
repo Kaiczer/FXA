@@ -72,7 +72,7 @@ market_liberal: "Classical Liberal"
 social_conservative: "Social Conservative"
 authoritarian_democrat: "Authoritarian Democrat"
 paternal_autocrat: "Paternal Autocrat"
-national_populist: "National Populist"
+national_populist: "Reactionary Nationalist"
 valkist: "Volkist"
 
 ### Ideologies Colored
@@ -86,7 +86,7 @@ market_liberal_color: "§2Classical Liberal§!"
 social_conservative_color: "§3Social Conservatives§!"
 authoritarian_democrat_color: "§gAuthoritarian Democrats§!"
 paternal_autocrat_color: "§LPaternal Autocrats§!"
-national_populist_color: "§NNational Populists§!"
+national_populist_color: "§NReactionary Nationalists§!"
 valkist_color: "§GVolkists§!"
 
 ### Ideology Nouns
@@ -99,7 +99,7 @@ market_liberal_noun: "Classical Liberalism"
 social_conservative_noun: "Social Conservatism"
 authoritarian_democrat_noun: "Authoritarian Democracy"
 paternal_autocrat_noun: "Paternal Autocracy"
-national_populist_noun: "National Populism"
+national_populist_noun: "Reactionary Nationalism"
 valkist_noun: "Volkism"
 
 ### Ideology Desc
@@ -126,7 +126,7 @@ market_liberal_drift: "Daily Classical Liberal support"
 social_conservative_drift: "Daily Social Conservative support"
 authoritarian_democrat_drift: "Daily Authoritarian Democrat support"
 paternal_autocrat_drift: "Daily Paternal Autocrat support"
-national_populist_drift: "Daily National Populist support"
+national_populist_drift: "Daily Reactionary Nationalist support"
 valkist_drift: "Daily Volkist support"
 
 ### Ideology Subtype Desc
@@ -139,8 +139,8 @@ market_liberal_subtype_desc: "Market Liberals see themselves as the mainstream l
 social_conservative_subtype_desc: "Conservatism is a political ideology which can vary greatly depending on the political history of the region or nation. Nonetheless, it is normally centred on preserving traditional beliefs, attitudes and philosophy as well as the traditional power dynamic of society while using the democratic system. Opposed to both radical and moderate changes to the status quo, conservatives want to keep society in order and stable. Most conservative societies usually promote a regulated market economy and economic protectionism."
 authoritarian_democrat_subtype_desc: "Authoritarian Democracy is an ideology that combines a strong executive power with a representative parliament and a partial democratic political system. Authoritarian Democratic regimes often take a conservative stance on social issues, favour centralization and typically have Hawkish sentiments in-government; although isolationist branches of this ideology are not unheard of. The aim of these regimes is to maintain national stability and provide the people both a popular and responsible government."
 paternal_autocrat_subtype_desc: "Paternal Autocracy is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very authoritarian government, conservative social views and a state-controlled economy."
-national_populist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, National Populism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, National Populists typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, National Populism is vehemently opposed by most other political parties."
-valkist_subtype_desc: "After the war that filled the land with bloodshed and tears passed, the feeling of being defeated still smoldered in the vengeful and hopeless hearts. Struggling to restore the nation that had fallen from grace becomes the ultimate motivation for some people. The Italian romantic futurist poet, Gabriele D’Annunzio, marched the endeavors to Fiume. Whereat the Charter of Carnaro, with his skilled poetry and his syndicalist sympathizing comrade, had been written, full with the dream of a new harmonic nation of class cooperation. Granting the autonomy of occupations and creating class democracy for synchronizing the existing classes in the harmony and unity of state. In the meantime, the war veteran and völkisch movement leader, Adam Dressler, said in his Volkist Manifesto that the Carnaro Charter must be enhanced with theory of national rebirth from the national cultures, the national myths, incorporation of Volksgemeinschaft (People's Community), and the strong leadership to guide the nation. Toward the final goal of creating a corporatist people’s nation-state built for her people."
+national_populist_subtype_desc: "Encompassing a variety of ultra-nationalist and militaristic movements, Reactionary Nationalism typically venerates devotion to the state, uniting the people under a strong leader and a corporate economy. Diplomatically, Reactionary Nationalist typically emphasize Expansionist, Hawkish, and Revanchist policies when appropriate or relevant to the given Nation. Often espousing racial politics and violent rhetoric, Reactionary Nationalism is vehemently opposed by most other political parties."
+valkist_subtype_desc: "After the war, which saturated the land with bloodshed and tears, had concluded, the enduring sense of defeat continued to smolder within the hearts of the vengeful and despondent. Struggling to rejuvenate a nation that had fallen from grace became the paramount aspiration for certain individuals. Notably, the Italian romantic futurist poet, Gabriele D’Annunzio, embarked on a mission to Fiume. It was here that the Charter of Carnaro, infused with his poetic mastery and camaraderie with syndicalist sympathizers, was penned. This charter brimmed with the vision of a new harmonious nation founded on class cooperation, granting autonomy to various occupations and fostering class democracy to harmonize the existing social strata within the unity of the state. Simultaneously, war veteran and leader of the völkisch movement, Adam Dressler, articulated in his Völkisch Manifesto that the Carnaro Charter needed to be bolstered with a theoretical framework for national rebirth rooted in national cultures, myths, the integration of Volksgemeinschaft (the People's Community), and strong leadership to guide the nation towards its ultimate objective: the creation of a corporatist people's nation-state designed to serve its populace."
 internationalist_subtype_desc: "Developed from particularly interventionist branches of collectivism and marxism overall, Internationalist Socialism, as it calls itself, or more commonly known as Internationalism,  is a socialist ideology that proposes the workers, once in power, must organize to enact a perpetual revolution, and to continue proactively in their struggle to bring socialism to the world. While most socialist strains are of international nature, the proactive spirit of Internationalism has given it a more militant nature, and Internationalist ideologues are known advocates of increased militarization of the workers in name of the revolution, as well as establishing a strong state that is able to defend the workers’ interests and protect the revolution from reactionary forces that may oppose it, as the revolution is never supposed to stop spreading."
 
 ### Ideology Acceptance
@@ -153,7 +153,7 @@ market_liberal_acceptance: "Acceptance of Market Liberalism"
 social_conservative_acceptance: "Acceptance of Social Conservatism"
 authoritarian_democrat_acceptance: "Acceptance of Authoritarian Democracy"
 paternal_autocrat_acceptance: "Acceptance of Paternal Autocracy"
-national_populist_acceptance: "Acceptance of National Populism"
+national_populist_acceptance: "Acceptance of Reactionary Nationalism"
 valkist_acceptance: "Acceptance of Volkism"
 
 ### Ideology Banned
@@ -166,7 +166,7 @@ market_liberal_banned: "Banned Market Liberals"
 social_conservative_banned: "Banned Social Conservatives"
 authoritarian_democrat_banned: "Banned Authoritarian Democrats"
 paternal_autocrat_banned: "Banned Paternal Autocrats"
-national_populist_banned: "Banned National Populists"
+national_populist_banned: "Banned Reactionary Nationalists"
 valkist_banned: "Banned Volkists"
 
 ### Triggers
