@@ -5,6 +5,11 @@ state={
 	provinces={
 		1104 1200 4186 7105 10018 
 	}
+	history = {
+		add_core_of = ZHI
+		owner = ZHI
+		add_claim_by = FNG 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

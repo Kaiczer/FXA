@@ -62,14 +62,17 @@ if = {
 	}
 }
 
+create_faction = "Anguojun"
+add_to_faction = ZHI 
+
 add_ideas = {
 	party_pop_0_40
 	limited_conscription
 	MAN_political_reform
 	MAN_antijapanese_sentiment
 	MAN_warlord_ubiquity
-  backwards_economy
-  iliterate_population
+	backwards_economy
+	iliterate_population
 
 	military_junta
 }
