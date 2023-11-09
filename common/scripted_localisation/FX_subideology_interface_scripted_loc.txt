@@ -182,12 +182,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
-		}
-		localization_key = marlib_classical_liberalism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = controlled_democracy_subtype
 		}
 		localization_key = controlled_democracy_subtype
@@ -547,12 +541,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
-		}
-		localization_key = marlib_classical_liberalism_subtype
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = controlled_democracy_subtype
 		}
 		localization_key = controlled_democracy_subtype
@@ -843,12 +831,6 @@ defined_text = {
 			has_country_leader_ideology = legionarism_subtype
 		}
 		localization_key = legionarism_subtype_desc
-	}
-	text = {
-		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
-		}
-		localization_key = marlib_classical_liberalism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1218,12 +1200,6 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = marlib_classical_liberalism_subtype
-		}
-		localization_key = marlib_classical_liberalism_subtype_desc
-	}
-	text = {
-		trigger = {
 			has_country_leader_ideology = controlled_democracy_subtype
 		}
 		localization_key = controlled_democracy_subtype_desc
@@ -1401,7 +1377,6 @@ defined_text = {
 			OR = {
 				has_country_leader_ideology = market_liberal_subtype
 				has_country_leader_ideology = marlib_centrist_subtype
-				has_country_leader_ideology = marlib_classical_liberalism_subtype
 				has_country_leader_ideology = liberal_conservative_subtype
 				has_country_leader_ideology = marklib_venizelism_subtype
 			}

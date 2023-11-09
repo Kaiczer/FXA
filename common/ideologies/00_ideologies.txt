@@ -189,7 +189,6 @@ ideologies = {
 		types = {
 			market_liberal_subtype = {}
 			marlib_centrist_subtype = { can_be_randomly_selected = no }
-			marlib_classical_liberalism_subtype = { can_be_randomly_selected = no }
 			liberal_conservative_subtype = { can_be_randomly_selected = no }
 			marklib_venizelism_subtype = { can_be_randomly_selected = no }
 		}

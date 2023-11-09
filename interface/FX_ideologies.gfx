@@ -121,10 +121,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/legionarism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_marlib_classical_liberalism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/marlib_classical_liberalism_group.png"
-	}
-	spriteType = {
 		name = "GFX_ideology_controlled_democracy_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/controlled_democracy_group.png"
 	}

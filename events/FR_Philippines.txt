@@ -1695,7 +1695,7 @@ country_event = { # 1953 Presidential Elections
       set_country_flag = PHI_has_1953_elections
       remove_country_leader_role = {
         character = PHI_Manuel_Roxas
-        ideology = marlib_classical_liberalism_subtype
+        ideology = market_liberal_subtype
       }
       add_country_leader_role = {
         character = PHI_J_Antonio_Araneta
