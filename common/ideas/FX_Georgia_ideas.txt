@@ -28,8 +28,8 @@ ideas = {
 				}
 				cancel = { 
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
 					}
 				}
 			}
@@ -50,7 +50,7 @@ ideas = {
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -58,11 +58,11 @@ ideas = {
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GEO_reforming_society"}
 			picture = generic_radical_socialist_revolution
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				broad_socialism_drift = 0.1
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -73,11 +73,11 @@ ideas = {
 				opinion_gain_monthly_same_ideology_factor = 0.4
 				enemy_justify_war_goal_time = 0.3
 				foreign_subversive_activites = -0.25
-				libertarian_socialist_acceptance = 20
+				broad_socialism_acceptance = 20
 			}
 			cancel = {
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -119,8 +119,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			picture = generic_production_bonus
@@ -216,7 +216,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				auth_socialist_drift = 0.1
+				soviet_socialist_drift = 0.1
 				political_power_gain = 0.1
 				war_support_factor = -0.1
 			}
@@ -233,7 +233,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				libertarian_socialist_drift = -0.1
+				broad_socialism_drift = -0.1
 				social_democrat_drift = -0.1
 			}
 		}
@@ -259,11 +259,11 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.03
+				broad_socialism_drift = 0.03
 			}
 			cancel = { 
 				NOT = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -289,7 +289,7 @@ ideas = {
 				always = no
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				broad_socialism_drift = 0.1
 				political_power_gain = 0.1
 			}
 		}
@@ -318,12 +318,12 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
-				libertarian_socialist_drift = 0.1
+				broad_socialism_drift = 0.1
 				political_power_gain = -0.1
 			}
 		}
@@ -335,8 +335,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -352,8 +352,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -369,8 +369,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -385,8 +385,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -403,8 +403,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -420,8 +420,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -437,8 +437,8 @@ ideas = {
 			}
 			cancel = { 
 				OR = {
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {

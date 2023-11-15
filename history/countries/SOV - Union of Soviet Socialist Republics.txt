@@ -105,26 +105,26 @@ country_event = { id = sovietpol.1303 days = 12 }
 country_event = {  id = sovietpol.1336 days = 300 random = 2400 }
 set_country_flag = SOV_lacking_industrialization_flag
 # DIPLOMACY
-add_coalition_libertarian_socialist = yes 
-add_coalition_auth_socialist = yes 
+add_coalition_broad_socialism = yes 
+add_coalition_soviet_socialist = yes 
 set_politics = {	
-	ruling_party = vanguard_socialist
+	ruling_party = soviet_socialist
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 15
-  vanguard_socialist = 50
-  libertarian_socialist = 26
+  soviet_socialist = 15
+  soviet_socialist = 50
+  broad_socialism = 26
   social_democrat = 8
   social_liberal = 1
-  market_liberal = 0
+  classical_liberal = 0
   social_conservative = 0
   authoritarian_democrat = 0
   paternal_autocrat = 0
-  national_populist = 0
+  reactionary_ultranationalism = 0
   valkist = 0
 }
 

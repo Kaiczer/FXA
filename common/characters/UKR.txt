@@ -34,7 +34,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Stanislav_Kosior_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_great_compromiser
 			}
 		}
@@ -59,7 +59,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -83,7 +83,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}
@@ -172,7 +172,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -194,7 +194,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Dmitri_Dontsov_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -453,7 +453,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksander_Shumsky_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -712,7 +712,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vlas_Chubar_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -739,7 +739,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Grigori_Sokolnikov_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -766,7 +766,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Oleksandr_Shulhyn_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_biased_intellectual
 			}
 		}
@@ -793,7 +793,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mykhailo_Boholiepov_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_imbedded_unioneer
 			}
 		}
@@ -820,7 +820,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Pavlo_Khrystiuk_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_efficient_sociopath
 			}
 		}
@@ -1252,7 +1252,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Grigorij_Petrovsky_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1279,7 +1279,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Panas_P_Lyubchenko_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -1306,7 +1306,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Yuri_Kotsiubinsky_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_steel_magnate
 			}
 		}
@@ -1468,7 +1468,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Emanoil_Kviring_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -1495,7 +1495,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Leonid_Melnikov_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1522,7 +1522,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Khrystian_G_Rakovsky_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1549,7 +1549,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Vladimir_Antonov_Ovseyenko_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_media_magnate
 			}
 		}
@@ -1738,7 +1738,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Mikhaylo_Kolodzinsky_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_the_grey_cardinal
 			}
 		}
@@ -2265,7 +2265,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Volodymyr_Kubiiovych_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -2292,7 +2292,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Leonid_Kostariv_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_infantry_proponent
 			}
 		}
@@ -2319,7 +2319,7 @@ characters = {
 				ROOT = { clr_country_flag = UKR_Yaroslav_Diakon_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_preserver_of_culture
 			}
 		}

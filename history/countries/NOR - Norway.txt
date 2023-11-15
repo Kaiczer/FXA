@@ -61,10 +61,10 @@ if = {
 	}
 }
 
-add_coalition_vanguard_socialist = yes 
+add_coalition_soviet_socialist = yes 
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = broad_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -82,16 +82,16 @@ add_ideas = {
 }
 
 set_popularities = {
-  auth_socialist = 2
-  vanguard_socialist = 8
-  libertarian_socialist = 35
+  soviet_socialist = 2
+  soviet_socialist = 8
+  broad_socialism = 35
   social_democrat = 7
   social_liberal = 13
-  market_liberal = 19
+  classical_liberal = 19
   social_conservative = 5
   authoritarian_democrat = 4
   paternal_autocrat = 3
-  national_populist = 2
+  reactionary_ultranationalism = 2
   valkist = 2
 }
 

@@ -62,23 +62,23 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = reactionary_ultranationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 1
-  vanguard_socialist = 4
-  libertarian_socialist = 2
+  soviet_socialist = 1
+  soviet_socialist = 4
+  broad_socialism = 2
   social_democrat = 2
   social_liberal = 6
-  market_liberal = 3
+  classical_liberal = 3
   social_conservative = 18
   authoritarian_democrat = 23
   paternal_autocrat = 9
-  national_populist = 32
+  reactionary_ultranationalism = 32
   valkist = 0
 }
 

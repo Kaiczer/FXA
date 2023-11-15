@@ -39,11 +39,11 @@ HOL_INF_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 	}
@@ -92,9 +92,9 @@ HOL_INF_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
-			has_government = vanguard_socialist
-			has_government = auth_socialist
+			has_government = broad_socialism
+			has_government = soviet_socialist
+			has_government = soviet_socialist
 		}
 	}
 	division_types = { "infantry" }
@@ -139,7 +139,7 @@ HOL_INF_03 =
 
 	can_use = {
 		OR = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			has_government = paternal_autocrat
 		}
 	}
@@ -186,11 +186,11 @@ HOL_CAV_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 	}
@@ -227,9 +227,9 @@ HOL_CAV_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
-			has_government = vanguard_socialist
-			has_government = auth_socialist
+			has_government = broad_socialism
+			has_government = soviet_socialist
+			has_government = soviet_socialist
 		}
 	}
 
@@ -265,9 +265,9 @@ HOL_CAV_03 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
-			has_government = vanguard_socialist
-			has_government = auth_socialist
+			has_government = broad_socialism
+			has_government = soviet_socialist
+			has_government = soviet_socialist
 		}
 	}
 
@@ -337,11 +337,11 @@ HOL_MEC_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 	}
@@ -379,10 +379,10 @@ HOL_MEC_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
-			has_government = vanguard_socialist
-			has_government = auth_socialist
-			has_government = national_populist
+			has_government = broad_socialism
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = reactionary_ultranationalism
 		}
 	}
 
@@ -648,11 +648,11 @@ HOL_FIETS_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 	}
@@ -689,9 +689,9 @@ HOL_FIETS_02 =
 
 	can_use = {
 		OR = {
-			has_government = libertarian_socialist
-			has_government = vanguard_socialist
-			has_government = auth_socialist
+			has_government = broad_socialism
+			has_government = soviet_socialist
+			has_government = soviet_socialist
 		}
 	}
 
@@ -728,7 +728,7 @@ HOL_FIETS_03 =
 	can_use = {
 		OR = {
 			has_government = paternal_autocrat
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 	}
 

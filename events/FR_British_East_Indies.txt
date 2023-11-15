@@ -186,7 +186,7 @@ country_event = {
 		name = bei.1.a
 		add_political_power = -20
 		add_stability = -0.02
-		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 	}
 }
 
@@ -265,7 +265,7 @@ country_event = {
 		add_political_power = -30
 		add_stability = -0.05
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.01 }
-		add_popularity = { ideology = national_populist popularity = -0.01 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = -0.01 }
 		set_country_flag = BEA_dutch_influence_declined_flag
 		hidden_effect = {
 			country_event = {
@@ -280,7 +280,7 @@ country_event = {
 		add_political_power = -30
 		add_stability = 0.03
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.03 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		set_country_flag = BEA_dutch_influence_accepted_flag
 		hidden_effect = {
 			country_event = {
@@ -362,7 +362,7 @@ country_event = {
 		add_political_power = -20
 		add_stability = -0.01
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.01 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.01 }
 		hidden_effect = {
 		}
     }
@@ -601,7 +601,7 @@ country_event = {
 			ruling_party = authoritarian_democrat elections_allowed = no
 		}
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 		every_country = {
 			limit = {
 				has_war_with = BEA
@@ -611,9 +611,9 @@ country_event = {
 		hidden_effect = {
 			set_cosmetic_tag = BEA_DUTCH
 			set_party_name = { 
-				ideology = libertarian_socialist 
-				long_name = BEA_DUTCH_libertarian_socialist_party_long 
-				name = BEA_DUTCH_libertarian_socialist_party 
+				ideology = broad_socialism 
+				long_name = BEA_DUTCH_broad_socialism_party_long 
+				name = BEA_DUTCH_broad_socialism_party 
 			}
 			set_party_name = { 
 				ideology = social_democrat 
@@ -626,9 +626,9 @@ country_event = {
 				name = BEA_DUTCH_social_liberal_party 
 			}
 			set_party_name = { 
-				ideology = market_liberal 
-				long_name = BEA_DUTCH_market_liberal_party_long 
-				name = BEA_DUTCH_market_liberal_party 
+				ideology = classical_liberal 
+				long_name = BEA_DUTCH_classical_liberal_party_long 
+				name = BEA_DUTCH_classical_liberal_party 
 			}
 			set_party_name = { 
 				ideology = social_conservative 
@@ -674,16 +674,16 @@ country_event = {
             }
 
                 set_popularities = {
-                    auth_socialist = 3
-                    vanguard_socialist = 7
-                    libertarian_socialist = 6
+                    soviet_socialist = 3
+                    soviet_socialist = 7
+                    broad_socialism = 6
                     social_democrat = 4
                     social_liberal = 2
-                    market_liberal = 3
+                    classical_liberal = 3
                     social_conservative = 4
                     authoritarian_democrat = 36
                     paternal_autocrat = 15
-                    national_populist = 20
+                    reactionary_ultranationalism = 20
                     valkist = 0
                 }
 			}
@@ -850,7 +850,7 @@ country_event = {
     option = {
         name = bei.23.a
 		add_stability = -0.05
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		hidden_effect = {
 			BEA = {
@@ -878,9 +878,9 @@ country_event = {
 		add_political_power = 20
 		add_stability = 0.02
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = reactionary_ultranationalism elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		hidden_effect = {
 			HOL = {
 				country_event = {
@@ -913,20 +913,20 @@ country_event = {
 		hidden_effect = {
 			BEA = {
 				set_politics = {
-					ruling_party = national_populist
+					ruling_party = reactionary_ultranationalism
             }
 
                 set_popularities = {
-                    auth_socialist = 3
-                    vanguard_socialist = 8
-                    libertarian_socialist = 6
+                    soviet_socialist = 3
+                    soviet_socialist = 8
+                    broad_socialism = 6
                     social_democrat = 4
                     social_liberal = 2
-                    market_liberal = 3
+                    classical_liberal = 3
                     social_conservative = 4
                     authoritarian_democrat = 19
                     paternal_autocrat = 13
-                    national_populist = 38
+                    reactionary_ultranationalism = 38
                     valkist = 0
                 }
 			}
@@ -964,7 +964,7 @@ country_event = {
 
     option = {
         name = bei.26.a
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		set_country_flag = BEA_return_dutch_control_flag
 		set_country_flag = BEA_bernhard_faction_flag
     }
@@ -1028,16 +1028,16 @@ country_event = {
             }
 
                 set_popularities = {
-                    auth_socialist = 3
-                    vanguard_socialist = 8
-                    libertarian_socialist = 7
+                    soviet_socialist = 3
+                    soviet_socialist = 8
+                    broad_socialism = 7
                     social_democrat = 4
                     social_liberal = 2
-                    market_liberal = 3
+                    classical_liberal = 3
                     social_conservative = 4
                     authoritarian_democrat = 19
                     paternal_autocrat = 40
-                    national_populist = 10
+                    reactionary_ultranationalism = 10
                     valkist = 0
                 }
 			}

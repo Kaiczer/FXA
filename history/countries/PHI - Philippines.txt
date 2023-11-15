@@ -100,18 +100,18 @@ set_politics = {
 }
 
 set_popularities = {
-	libertarian_socialist = 0
+	broad_socialism = 0
 	social_democrat = 10
 	social_liberal = 4
-	market_liberal = 20
+	classical_liberal = 20
 	social_conservative = 40
 	authoritarian_democrat = 10
-	national_populist = 4
+	reactionary_ultranationalism = 4
 	valkist = 12
 }
 
 add_coalition_social_liberal = yes
-add_coalition_market_liberal = yes 
+add_coalition_classical_liberal = yes 
 
 recruit_character = PHI_Armed_Forces_Command
 recruit_character = PHI_Luis_Taruc

@@ -15,7 +15,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -60,7 +60,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -85,7 +85,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -111,7 +111,7 @@ characters = {
 				ROOT = { clr_country_flag = SWI_Fritz_Platten_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -292,7 +292,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marino_Bodenmann_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -319,7 +319,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Jules_Humbert_Droz_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -630,7 +630,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Albert_Meyer_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -657,7 +657,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Ernst_Wetter_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -676,7 +676,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Ernst_Wetter_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_national_liberal
 			}
 		}
@@ -703,7 +703,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Johannes_Baumann_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -730,7 +730,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Karl_Kobelt_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -749,7 +749,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Karl_Kobelt_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_oil_baron
 			}
 		}
@@ -776,7 +776,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marcel_Pilet_Golaz_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_old_compromiser
 			}
 		}
@@ -795,7 +795,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Marcel_Pilet_Golaz_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_apologetic_clerk
 			}
 		}
@@ -822,7 +822,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Walther_Stampfli_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_silent_workhorse
 			}
 		}
@@ -841,7 +841,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Walther_Stampfli_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_biased_intellectual
 			}
 		}
@@ -922,7 +922,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Johann_Otto_Kellerhals_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_determined_populist
 			}
 		}
@@ -949,7 +949,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Jakob_Herzog_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -976,7 +976,7 @@ ranger
 				ROOT = { clr_country_flag = SWI_Rudolf_Gelpke_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -1144,7 +1144,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Justus_Stocklin_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_great_compromiser
 			}
 		}
@@ -1198,7 +1198,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Ernst_Leonhardt_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_relations_expert
 			}
 		}
@@ -1225,7 +1225,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Franz_Welti_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -1252,7 +1252,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Charles_Naine_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1441,7 +1441,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Friedrich_Traugott_Wahlen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_the_minister_for_everything
 			}
 		}
@@ -1468,7 +1468,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Rudolf_Minger_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_bank_president
 			}
 		}
@@ -1522,7 +1522,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Max_Leo_Keller_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_industrial_chemist
 			}
 		}
@@ -1549,7 +1549,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Heinrich_Abbegg_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_back_stabber
 			}
 		}
@@ -1576,7 +1576,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Ernest_Paul_Graber_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1857,7 +1857,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Heinrich_Rothmund_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_great_soul
 			}
 		}
@@ -1884,7 +1884,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Paul_Frutig_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_media_magnate
 			}
 		}
@@ -1911,7 +1911,7 @@ trait_mountaineer
 				ROOT = { clr_country_flag = SWI_Arthur_Fonjallaz_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}

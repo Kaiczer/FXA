@@ -154,14 +154,14 @@ country_event = { #collies take over
 	option = {#welp
 		name = arg.50.a
 		set_global_flag = ARG_left_republic
-		set_cosmetic_tag = ARG_vanguard_socialist
+		set_cosmetic_tag = ARG_soviet_socialist
 		add_political_power = 50
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 		add_popularity = {
-				ideology = vanguard_socialist 
+				ideology = soviet_socialist 
 				popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -185,14 +185,14 @@ country_event = { #collies take over or dems
 		name = arg.51.a
 		ai_chance = { factor = 30 }
 		set_global_flag = ARG_left_republic
-		set_cosmetic_tag = ARG_vanguard_socialist
+		set_cosmetic_tag = ARG_soviet_socialist
 		add_political_power = 50
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 		add_popularity = {
-				ideology = vanguard_socialist 
+				ideology = soviet_socialist 
 				popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -214,7 +214,7 @@ country_event = { #collies take over or dems
 				popularity = 0.1
 		}
 		add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.05
 		}
 	}
@@ -234,7 +234,7 @@ country_event = { #lpa
 		set_country_flag = ARG_republic_survives
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -252,14 +252,14 @@ country_event = { #lpa
 		name = arg.53.b
 		ai_chance = { factor = 60 }
 		set_global_flag = ARG_left_republic
-		set_cosmetic_tag = ARG_vanguard_socialist
+		set_cosmetic_tag = ARG_soviet_socialist
 		add_political_power = 50
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 		add_popularity = {
-				ideology = vanguard_socialist 
+				ideology = soviet_socialist 
 				popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -285,7 +285,7 @@ country_event = { #lpa
 		set_country_flag = ARG_republic_survives
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -409,15 +409,15 @@ country_event = { #Government deals with the labourers
 		name = arg.10.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = vanguard_socialist 
+			ideology = soviet_socialist 
 			popularity = 0.025
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.025
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.025
 		}
 		add_political_power = 25	
@@ -442,7 +442,7 @@ country_event = { #LPA factionalism
 		ai_chance = { factor = 50 }
 		add_political_power = -25
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.025
 		}	
 	}
@@ -451,7 +451,7 @@ country_event = { #LPA factionalism
 		ai_chance = { factor = 50 }
 		add_political_power = 25
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.0125
 		}
 	}
@@ -470,7 +470,7 @@ country_event = { #Collies in memorial
 		ai_chance = { factor = 50 }
 		add_political_power = 25
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.025
 		}	
 	}
@@ -479,7 +479,7 @@ country_event = { #Collies in memorial
 		ai_chance = { factor = 50 }
 		add_political_power = -25
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.0125
 		}
 	}
@@ -516,7 +516,7 @@ country_event = { #Revolution arrives
 		ai_chance = { factor = 100 }
 		add_political_power = 50
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.2
 		}	
 	}
@@ -548,7 +548,7 @@ country_event = { #reactionaries flee
 		name = arg.16.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.0125
 		}
 		add_popularity = {
@@ -600,7 +600,7 @@ country_event = { #standforthefederation
 		set_global_flag = ARG_radical_government
 		set_country_flag = ARG_republic_survives
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.05
 		}
 		add_popularity = {
@@ -615,7 +615,7 @@ country_event = { #standforthefederation
 		set_global_flag = ARG_LPA_coalition
 		set_country_flag = ARG_republic_survives
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -652,7 +652,7 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -691,15 +691,15 @@ country_event = { #subsidized
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.0125
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.0125
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.0125
 		}
 	}
@@ -1095,10 +1095,10 @@ country_event = { #socialism across the andes
 		name = arg.100.a
 		ai_chance = { factor = 50 }
 		add_popularity = { 
-			ideology = vanguard_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = broad_socialism popularity = 0.025
 			}
 		}
 	option = {
@@ -1355,10 +1355,10 @@ country_event = { #socialism in bolivia
 		name = arg.104.a
 		ai_chance = { factor = 50 }
 		add_popularity = { 
-			ideology = vanguard_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = broad_socialism popularity = 0.025
 			}
 		}
 	option = {
@@ -1460,10 +1460,10 @@ country_event = { #socialism paraguay
 		name = arg.106.a
 		ai_chance = { factor = 50 }
 		add_popularity = { 
-			ideology = vanguard_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = broad_socialism popularity = 0.025
 			}
 		}
 	option = {
@@ -1597,10 +1597,10 @@ country_event = { #socialism uruguay
 		name = arg.109.a
 		ai_chance = { factor = 50 }
 		add_popularity = { 
-			ideology = vanguard_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_popularity = { 
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = broad_socialism popularity = 0.025
 			}
 		}
 	option = {
@@ -1769,9 +1769,9 @@ country_event = { #Split in Collies
 	option = {
 		name = arg.250.a
 		add_political_power = -25
-		set_party_name = { ideology = auth_socialist long_name = ARG_vangs name = ARG_vang }
+		set_party_name = { ideology = soviet_socialist long_name = ARG_vangs name = ARG_vang }
 		add_popularity = {
-			ideology = auth_socialist popularity = 0.05
+			ideology = soviet_socialist popularity = 0.05
 			}		
 	}
 }
@@ -1796,7 +1796,7 @@ country_event = { #UCR unites
 	option = {
 		name = arg.251.a
 		add_political_power = 25
-		set_party_name = { ideology = market_liberal long_name = ARG_social_liberal_party_long name = ARG_social_liberal_party }	
+		set_party_name = { ideology = classical_liberal long_name = ARG_social_liberal_party_long name = ARG_social_liberal_party }	
 	}
 }
 
@@ -1843,10 +1843,10 @@ country_event = { #40 elections
 	option = { #gallo
 		name = arg.252.b
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 		}
 			add_popularity = {
-				ideology = market_liberal popularity = 0.1
+				ideology = classical_liberal popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_gallo_won
@@ -1910,10 +1910,10 @@ country_event = { #infamous day
 		name = arg.253.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 		}
 			add_popularity = {
-				ideology = national_populist popularity = 0.1
+				ideology = reactionary_ultranationalism popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_LPA_coup
@@ -1973,10 +1973,10 @@ country_event = { #congress of workers
 		name = arg.254.a
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 			add_popularity = {
-				ideology = vanguard_socialist popularity = 0.1
+				ideology = soviet_socialist popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_orthwin
@@ -1988,10 +1988,10 @@ country_event = { #congress of workers
 		name = arg.254.b
 		add_ideas = communist_state
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 		}
 			add_popularity = {
-				ideology = libertarian_socialist popularity = 0.2
+				ideology = broad_socialism popularity = 0.2
 		}
 		hidden_effect = {
 			set_global_flag = ARG_anwin
@@ -2013,10 +2013,10 @@ country_event = { #congress of workers
 		name = arg.254.c
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist 
+			ideology = soviet_socialist 
 			popularity = 0.2
 		}
 		hidden_effect = {
@@ -2044,10 +2044,10 @@ country_event = { #infamous day
 		name = arg.253.a
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 		}
 			add_popularity = {
-				ideology = national_populist popularity = 0.1
+				ideology = reactionary_ultranationalism popularity = 0.1
 		}
 		hidden_effect = {
 			set_global_flag = ARG_LPA_coup
@@ -2188,10 +2188,10 @@ country_event = { #you don goofed
 		ai_chance = { factor = 60 }
 		add_political_power = -30
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.05
+			ideology = broad_socialism popularity = 0.05
 		}
 		add_popularity = {
-			ideology = vanguard_socialist popularity = -0.05
+			ideology = soviet_socialist popularity = -0.05
 			}
 		}
 	}
@@ -2229,10 +2229,10 @@ country_event = { #you don diddit
 		ai_chance = { factor = 60 }
 		add_political_power = 40
 		add_popularity = {
-			ideology = vanguard_socialist popularity = 0.05
+			ideology = soviet_socialist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = auth_socialist popularity = -0.08
+			ideology = soviet_socialist popularity = -0.08
 			}
 		}
 	}
@@ -2249,10 +2249,10 @@ country_event = { #the great coalition
 		ai_chance = { factor = 60 }
 		add_political_power = -40
 		add_popularity = {
-			ideology = vanguard_socialist popularity = 0.05
+			ideology = soviet_socialist popularity = 0.05
 		}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.05
+			ideology = broad_socialism popularity = 0.05
 			}
 		}
 	}
@@ -2286,7 +2286,7 @@ country_event = { #the great takeover2
 		ai_chance = { factor = 100 }
 		add_political_power = -100
 		add_popularity = {
-			ideology = auth_socialist popularity = 0.15
+			ideology = soviet_socialist popularity = 0.15
 		}
 		add_manpower = -500
 		}
@@ -2317,7 +2317,7 @@ country_event = { #woo nps
 		ai_chance = { factor = 100 }
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = reactionary_ultranationalism popularity = 0.05
 		}
 		}
 	}
@@ -2363,7 +2363,7 @@ country_event = { #demonstratios
 		ai_chance = { factor = 100 }
 		add_political_power = -25
 		add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = classical_liberal popularity = -0.025
 		}		
 		}
 	}
@@ -2427,7 +2427,7 @@ country_event = { #woosocdems
 			ideology = social_democrat popularity = 0.05 
 		}
 		add_popularity = {
-			ideology = vanguard_socialist popularity = -0.025
+			ideology = soviet_socialist popularity = -0.025
 		}				
 	}
 }

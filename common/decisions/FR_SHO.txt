@@ -208,21 +208,21 @@ foreign_politics = {
 			hidden_effect = {
 				DEN = {
 					set_politics = {
-						ruling_party = auth_socialist
+						ruling_party = soviet_socialist
 						elections_allowed = no
           }
 
           set_popularities = {
-              auth_socialist = 46
-              vanguard_socialist = 19
-              libertarian_socialist = 7
+              soviet_socialist = 46
+              soviet_socialist = 19
+              broad_socialism = 7
               social_democrat = 9
               social_liberal = 6
-              market_liberal = 3
+              classical_liberal = 3
               social_conservative = 0
               authoritarian_democrat = 0
               paternal_autocrat = 10
-              national_populist = 0
+              reactionary_ultranationalism = 0
               valkist = 0
           }
 				}

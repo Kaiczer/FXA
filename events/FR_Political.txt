@@ -332,21 +332,21 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
-			set_country_flag = opinion_set_auth_socialist
+			set_country_flag = opinion_set_soviet_socialist
 		}
 		if = {
 			limit = {
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
-			set_country_flag = opinion_set_vanguard_socialist
+			set_country_flag = opinion_set_soviet_socialist
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
-			set_country_flag = opinion_set_libertarian_socialist
+			set_country_flag = opinion_set_broad_socialism
 		}
 		if = {
 			limit = {
@@ -362,9 +362,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
-			set_country_flag = opinion_set_market_liberal
+			set_country_flag = opinion_set_classical_liberal
 		}
 		if = {
 			limit = {
@@ -386,9 +386,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_reactionary_ultranationalism
 		}
 		if = {
 			limit = {
@@ -416,16 +416,16 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				NOT = { has_government = auth_socialist }
-				has_country_flag = opinion_set_auth_socialist
+				NOT = { has_government = soviet_socialist }
+				has_country_flag = opinion_set_soviet_socialist
 			}
 			AND = {
-				NOT = { has_government = vanguard_socialist }
-				has_country_flag = opinion_set_vanguard_socialist
+				NOT = { has_government = soviet_socialist }
+				has_country_flag = opinion_set_soviet_socialist
 			}
 			AND = {
-				NOT = { has_government = libertarian_socialist }
-				has_country_flag = opinion_set_libertarian_socialist
+				NOT = { has_government = broad_socialism }
+				has_country_flag = opinion_set_broad_socialism
 			}
 			AND = {
 				NOT = { has_government = social_democrat }
@@ -436,8 +436,8 @@ country_event = {
 				has_country_flag = opinion_set_social_liberal
 			}
 			AND = {
-				NOT = { has_government = market_liberal }
-				has_country_flag = opinion_set_market_liberal
+				NOT = { has_government = classical_liberal }
+				has_country_flag = opinion_set_classical_liberal
 			}
 			AND = {
 				NOT = { has_government = social_conservative }
@@ -452,24 +452,24 @@ country_event = {
 				has_country_flag = opinion_set_paternal_autocrat
 			}
 			AND = {
-				NOT = { has_government = national_populist }
-				has_country_flag = opinion_set_national_populist
+				NOT = { has_government = reactionary_ultranationalism }
+				has_country_flag = opinion_set_reactionary_ultranationalism
 			}
 			AND = {
 				NOT = { has_government = valkist }
 				has_country_flag = opinion_set_valkist
 			}
 			AND = {
-				NOT = { has_country_flag = opinion_set_auth_socialist }
-				NOT = { has_country_flag = opinion_set_vanguard_socialist }
-				NOT = { has_country_flag = opinion_set_libertarian_socialist }
+				NOT = { has_country_flag = opinion_set_soviet_socialist }
+				NOT = { has_country_flag = opinion_set_soviet_socialist }
+				NOT = { has_country_flag = opinion_set_broad_socialism }
 				NOT = { has_country_flag = opinion_set_social_democrat }
 				NOT = { has_country_flag = opinion_set_social_liberal }
-				NOT = { has_country_flag = opinion_set_market_liberal }
+				NOT = { has_country_flag = opinion_set_classical_liberal }
 				NOT = { has_country_flag = opinion_set_social_conservative }
 				NOT = { has_country_flag = opinion_set_authoritarian_democrat }
 				NOT = { has_country_flag = opinion_set_paternal_autocrat }
-				NOT = { has_country_flag = opinion_set_national_populist }
+				NOT = { has_country_flag = opinion_set_reactionary_ultranationalism }
 				NOT = { has_country_flag = opinion_set_valkist }
 			}
 		}
@@ -480,16 +480,16 @@ country_event = {
 	}
 
 	immediate = {
-		clr_country_flag = opinion_set_auth_socialist
-		clr_country_flag = opinion_set_vanguard_socialist
-		clr_country_flag = opinion_set_libertarian_socialist
+		clr_country_flag = opinion_set_soviet_socialist
+		clr_country_flag = opinion_set_soviet_socialist
+		clr_country_flag = opinion_set_broad_socialism
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_social_liberal
-		clr_country_flag = opinion_set_market_liberal
+		clr_country_flag = opinion_set_classical_liberal
 		clr_country_flag = opinion_set_social_conservative
 		clr_country_flag = opinion_set_authoritarian_democrat
 		clr_country_flag = opinion_set_paternal_autocrat
-		clr_country_flag = opinion_set_national_populist
+		clr_country_flag = opinion_set_reactionary_ultranationalism
 		clr_country_flag = opinion_set_valkist
 		every_country = {
 			remove_opinion_modifier = {
@@ -643,21 +643,21 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
-			set_country_flag = opinion_set_auth_socialist
+			set_country_flag = opinion_set_soviet_socialist
 		}
 		if = {
 			limit = {
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
-			set_country_flag = opinion_set_vanguard_socialist
+			set_country_flag = opinion_set_soviet_socialist
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
-			set_country_flag = opinion_set_libertarian_socialist
+			set_country_flag = opinion_set_broad_socialism
 		}
 		if = {
 			limit = {
@@ -673,9 +673,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
-			set_country_flag = opinion_set_market_liberal
+			set_country_flag = opinion_set_classical_liberal
 		}
 		if = {
 			limit = {
@@ -697,9 +697,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
-			set_country_flag = opinion_set_national_populist
+			set_country_flag = opinion_set_reactionary_ultranationalism
 		}
 		if = {
 			limit = {

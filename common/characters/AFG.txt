@@ -32,7 +32,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
    		advisor = {
@@ -42,7 +42,7 @@ characters = {
 			}
 			idea_token = AFG_Nur_Muhammad_Taraki_eco_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -71,7 +71,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -139,7 +139,7 @@ characters = {
 			idea_token = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -306,7 +306,7 @@ characters = {
 			}
 			idea_token = AFG_Mir_Gul_Khan_Nasir_for_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_ideological_crusader
 			}
 		}
@@ -453,7 +453,7 @@ characters = {
 			}
 			idea_token = AFG_Mirza_Ali_Khan_eco_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_industrialiser
 			}
 		}
@@ -480,7 +480,7 @@ characters = {
 			}
 			idea_token = AFG_Dada_Amir_Haider_Khan_sec_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_back_stabber
 			}
 		}
@@ -575,7 +575,7 @@ characters = {
 			}
 			idea_token = AFG_Khalilullah_Khalili_sec_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_prince_of_terror
 			}
 		}

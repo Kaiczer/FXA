@@ -13,16 +13,16 @@ set_politics = {
 }
 
 set_popularities = {
-	auth_socialist = 0
-	vanguard_socialist = 10
-	libertarian_socialist = 14
+	soviet_socialist = 0
+	soviet_socialist = 10
+	broad_socialism = 14
 	social_democrat = 7
 	social_liberal = 11
-	market_liberal = 6
+	classical_liberal = 6
 	social_conservative = 4
 	authoritarian_democrat = 16
 	paternal_autocrat = 30
-	national_populist = 2
+	reactionary_ultranationalism = 2
 }
 
 set_variable = { var = minority_suppression value = 50 }

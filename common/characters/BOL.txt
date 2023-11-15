@@ -12,7 +12,7 @@ characters = {
 			idea_token = BOL_Guillermo_Lora_hog_van
 			can_be_fired = no
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -30,7 +30,7 @@ characters = {
 			idea_token = BOL_Orlando_Capriles_hog_col
 			can_be_fired = no
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -48,7 +48,7 @@ characters = {
 			idea_token = BOL_Gustavo_Adolfo_Navarro_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_happy_amateur
 			}
 		}
@@ -120,7 +120,7 @@ characters = {
 			idea_token = BOL_Daniel_Sanchez_Bustamante_Vasquez_hog_mli
 			can_be_fired = no
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_charismatic_charmer
 			}
 		}
@@ -192,7 +192,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -296,7 +296,7 @@ characters = {
 			}
 			idea_token = BOL_Adolfo_Costa_du_Reis_for_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				for_general_staffer
 			}
 		}
@@ -372,7 +372,7 @@ characters = {
 			}
 			idea_token = BOL_Gonzalo_Romero_Alvarez_Garcia_for_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_hawkish_intervener
 			}
 		}
@@ -391,7 +391,7 @@ characters = {
 			}
 			idea_token = BOL_Edwin_Moller_eco_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -410,7 +410,7 @@ characters = {
 			}
 			idea_token = BOL_Roberto_Jordan_eco_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_trade_proponent
 			}
 		}
@@ -448,7 +448,7 @@ characters = {
 			}
 			idea_token = BOL_Moritz_Hochschild_eco_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_mixed_economy
 			}
 		}
@@ -573,7 +573,7 @@ characters = {
 			}
 			idea_token = BOL_Juan_Sanjines_eco_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_military_entrepreneur
 			}
 		}
@@ -592,7 +592,7 @@ characters = {
 			}
 			idea_token = BOL_Mariano_Basptista_sec_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_health_and_safety
 			}
 		}
@@ -649,7 +649,7 @@ characters = {
 			}
 			idea_token = BOL_Roberto_Hinojosa_sec_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_silent_lawyer
 			}
 		}
@@ -706,7 +706,7 @@ characters = {
 			}
 			idea_token = BOL_Julian_V_Montellano_Carrasco_sec_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}
@@ -776,7 +776,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -788,7 +788,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}

@@ -96,7 +96,7 @@ country_event = { # Clashes Between the OUN and PNIU
       }
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.05
     }
   }
@@ -126,7 +126,7 @@ country_event = { # Clashes Between the OUN and PNIU
       popularity = 0.03
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.03
     }
   }
@@ -149,7 +149,7 @@ country_event = { # Dontsov Accusses Government of Wide-Scale Corruption
       }
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.05
     }
   }
@@ -191,7 +191,7 @@ country_event = { # Rumours of President Hankevych's Death
       }
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.05
     }
     add_popularity = {
@@ -278,7 +278,7 @@ country_event = { # OUN Supporters flock to NIPU
       popularity = -0.15
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.15
     }
   }
@@ -297,7 +297,7 @@ country_event = { # Attempted Assassination of Konovalets!
     add_stability = 0.05
     set_country_flag = UKR_nipu_dead
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = -0.15
     }
   }
@@ -319,7 +319,7 @@ country_event = { # Strikes!
     name = ukraine.12.b
     ai_chance = { base = 80 }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = 0.1
     }
   }
@@ -348,7 +348,7 @@ country_event = { # 1936 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = broad_socialism
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -471,7 +471,7 @@ country_event = { # 1936 Elections
       has_country_flag = UKR_oun_dead
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -504,7 +504,7 @@ country_event = { # Status of the Bund
   option = {
     name = ukraine.14.b
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.1
     }
   }
@@ -1724,7 +1724,7 @@ country_event = { # 1946 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = broad_socialism
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1852,7 +1852,7 @@ country_event = { # 1946 Elections
       has_country_flag = UKR_oun_dead
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1900,7 +1900,7 @@ country_event = { # 1951 Elections
       }
     }
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = broad_socialism
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -2028,7 +2028,7 @@ country_event = { # 1951 Elections
       has_country_flag = UKR_oun_dead
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     increase_ruling_party_popularity_by_10 = yes

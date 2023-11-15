@@ -1,26 +1,26 @@
 
-auth_socialist_allowed = {
+soviet_socialist_allowed = {
 	OR = {
-		has_government = auth_socialist
-		has_government = vanguard_socialist
-		has_government = libertarian_socialist
+		has_government = soviet_socialist
+		has_government = soviet_socialist
+		has_government = broad_socialism
 	}
 }
 
-vanguard_socialist_allowed = {
+soviet_socialist_allowed = {
 	OR = {
-		has_government = auth_socialist
-		has_government = vanguard_socialist
-		has_government = libertarian_socialist
+		has_government = soviet_socialist
+		has_government = soviet_socialist
+		has_government = broad_socialism
 		has_government = social_democrat
 	}
 }
 
-libertarian_socialist_allowed = {
+broad_socialism_allowed = {
 	OR = {
-		has_government = auth_socialist
-		has_government = vanguard_socialist
-		has_government = libertarian_socialist
+		has_government = soviet_socialist
+		has_government = soviet_socialist
+		has_government = broad_socialism
 		has_government = social_democrat
 		has_government = social_liberal
 	}
@@ -28,11 +28,11 @@ libertarian_socialist_allowed = {
 
 social_democrat_allowed = {
 	OR = {
-		has_government = vanguard_socialist
-		has_government = libertarian_socialist
+		has_government = soviet_socialist
+		has_government = broad_socialism
 		has_government = social_democrat
 		has_government = social_liberal
-		has_government = market_liberal
+		has_government = classical_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 	}
@@ -40,21 +40,21 @@ social_democrat_allowed = {
 
 social_liberal_allowed = {
 	OR = {
-		has_government = libertarian_socialist
+		has_government = broad_socialism
 		has_government = social_democrat
 		has_government = social_liberal
-		has_government = market_liberal
+		has_government = classical_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
 	}
 }
 
-market_liberal_allowed = {
+classical_liberal_allowed = {
 	OR = {
 		has_government = social_democrat
 		has_government = social_liberal
-		has_government = market_liberal
+		has_government = classical_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
@@ -65,22 +65,22 @@ social_conservative_allowed = {
 	OR = {
 		has_government = social_democrat
 		has_government = social_liberal
-		has_government = market_liberal
+		has_government = classical_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = reactionary_ultranationalism
 		has_government = valkist
 	}
 }
 
 authoritarian_democrat_allowed = {
 	OR = {
-		has_government = market_liberal
+		has_government = classical_liberal
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = reactionary_ultranationalism
 		has_government = valkist
 	}
 }
@@ -90,16 +90,16 @@ paternal_autocrat_allowed = {
 		has_government = social_conservative
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = reactionary_ultranationalism
 		has_government = valkist
 	}
 }
 
-national_populist_allowed = {
+reactionary_ultranationalism_allowed = {
 	OR = {
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = reactionary_ultranationalism
 		has_government = valkist
 	}
 }
@@ -108,7 +108,7 @@ valkist_allowed = {
 	OR = {
 		has_government = authoritarian_democrat
 		has_government = paternal_autocrat
-		has_government = national_populist
+		has_government = reactionary_ultranationalism
 		has_government = valkist
 	}
 }

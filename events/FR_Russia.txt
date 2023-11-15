@@ -368,7 +368,7 @@ country_event = {   #Creation of Democracy
     country_event = { id = rus.17 days = 20 }
     add_coalition_paternal_autocrat = yes 
     add_coalition_valkist = yes 
-    add_coalition_market_liberal = yes 
+    add_coalition_classical_liberal = yes 
     add_coalition_social_liberal = yes 
     add_coalition_social_democrat = yes 
   } 
@@ -536,13 +536,13 @@ country_event = { #Elections
       RUS_Grigory_Gershuni_sec_sde
     }
 		add_popularity = { ideology = social_liberal popularity = 0.1 }
-		add_popularity = { ideology = market_liberal popularity = 0.1 }
+		add_popularity = { ideology = classical_liberal popularity = 0.1 }
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		country_event = { id = rusur.1 days = 7 }
 		complete_national_focus = RUS_control_economy
 		set_country_flag = UR_Victorious
 		set_country_flag = RUS_ready_militarise
-		add_coalition_market_liberal = yes 
+		add_coalition_classical_liberal = yes 
 		add_coalition_social_democrat = yes 
 		news_event = {
 			id = worldnews.113
@@ -928,7 +928,7 @@ country_event = {
 	option = {
 		name = "Finally someone with a strong will"
 		add_popularity = { 
-		    ideology = national_populist 
+		    ideology = reactionary_ultranationalism 
 		    popularity = 0.3
 		}
 		set_country_flag = RUS_np_victorious
@@ -936,7 +936,7 @@ country_event = {
 		complete_national_focus = RUS_control_economy
 		add_ideas = military_junta
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 			last_election = "1937.6.13"
 			election_frequency = 72
@@ -945,7 +945,7 @@ country_event = {
         character = RUS_Spiridon_Dionisovich_Merkulov
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = reactionary_ultranationalism_subtype
           traits = {}
         }
       }
@@ -1054,7 +1054,7 @@ country_event = {
       character = RUS_Mikhail_Diterikhs
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = reactionary_ultranationalism_subtype
         traits = {}
       }
     }
@@ -1076,15 +1076,15 @@ country_event = {
 	option = {
 		name = "We will cleanse Russia of the traitors"
 			add_popularity = { 
-			    ideology = auth_socialist
+			    ideology = soviet_socialist
 			    popularity = -0.05
 			}
 			add_popularity = { 
-			    ideology = vanguard_socialist
+			    ideology = soviet_socialist
 			    popularity = -0.05
 		    }
 			add_popularity = { 
-			    ideology = libertarian_socialist 
+			    ideology = broad_socialism 
 			    popularity = -0.05
 		    }
 			add_popularity = { 
@@ -1096,7 +1096,7 @@ country_event = {
 			    popularity = -0.05
 		    }	
 			add_popularity = { 
-			    ideology = market_liberal 
+			    ideology = classical_liberal 
 			    popularity = -0.05
 		    }			
 		hidden_effect = {

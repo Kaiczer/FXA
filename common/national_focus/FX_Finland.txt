@@ -430,7 +430,7 @@ focus_tree = {
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 		}
@@ -495,10 +495,10 @@ focus_tree = {
 		available = {
 			has_country_flag = FIN_ready_take_army_focuses_flag
 			OR = {
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 				has_government = social_democrat
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 			}
@@ -622,9 +622,9 @@ focus_tree = {
 		available = {
 			has_country_flag = FIN_ready_take_army_focuses_flag
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 		
@@ -1505,7 +1505,7 @@ focus_tree = {
 			has_completed_focus = FIN_regulate_trade
 			has_completed_focus = FIN_cut_spendings
 			NOT = {
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 			}
 		}
@@ -1723,7 +1723,7 @@ focus_tree = {
 			has_completed_focus = FIN_leviate_indebted_farmers
 			OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 			}
 			NOT = {
@@ -3040,9 +3040,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_reject_extremism"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.05 }
 		}
 
 	}
@@ -3096,7 +3096,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = classical_liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
 
@@ -3282,7 +3282,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = FIN_ban_national_populist_movements
+		id = FIN_ban_reactionary_ultranationalism_movements
 		icon = GFX_goal_HOL_ban_VNH
 		cost = 8.00
 		prerequisite = {
@@ -3304,10 +3304,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus FIN_ban_national_populist_movements"
+			log = "[GetDateText]: [Root.GetName]: Focus FIN_ban_reactionary_ultranationalism_movements"
 			add_political_power = -20
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-			add_popularity = { ideology = national_populist popularity = -0.04 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.04 }
 			add_popularity = { ideology = valkist popularity = -0.03 }
 		}
 
@@ -3347,7 +3347,7 @@ focus_tree = {
 		icon = GFX_goal_Finland_Flag
 		cost = 5.00
 		prerequisite = {
-			focus = FIN_ban_national_populist_movements
+			focus = FIN_ban_reactionary_ultranationalism_movements
 		}
 		prerequisite = {
 			focus = FIN_curtail_swedish_influence
@@ -3387,7 +3387,7 @@ focus_tree = {
 			has_country_flag = FIN_porvaristo_ja_viljelijat_flag
 			OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 			}
 		}
@@ -3401,7 +3401,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = 25
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = classical_liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 
@@ -3428,9 +3428,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_tackle_social_democratic_influence"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 		}
 
@@ -3458,7 +3458,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-			add_popularity = { ideology = national_populist popularity = -0.04 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.04 }
 			add_popularity = { ideology = valkist popularity = -0.03 }
 		}
 
@@ -3574,7 +3574,7 @@ focus_tree = {
 			add_war_support = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = classical_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 		}
 
@@ -3595,7 +3595,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			has_country_flag = FIN_president_svinhufvud_flag
 			has_country_flag = FIN_porvaristo_ja_viljelijat_flag
@@ -3646,7 +3646,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.03 }
+			add_popularity = { ideology = classical_liberal popularity = 0.03 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 		}
 
@@ -3701,10 +3701,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_gain_church_support"
 			add_stability = 0.05
 			add_popularity = { ideology = social_liberal popularity = 0.03 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = classical_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.03 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.03 }
 			add_popularity = { ideology = valkist popularity = -0.01 }
 		}
 
@@ -3814,10 +3814,10 @@ focus_tree = {
 			add_political_power = -25
 			add_stability = 0.05
 			add_war_support = 0.03
-			add_popularity = { ideology = auth_socialist popularity = -0.02 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.02 }
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.02 }
 		}
 
 	}
@@ -3839,9 +3839,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_pacify_socialists"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.03 }
 		}
 
 	}
@@ -3991,7 +3991,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = paternal_autocrat popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.03 }
 			add_popularity = { ideology = valkist popularity = -0.03 }
 		}
 
@@ -4073,7 +4073,7 @@ focus_tree = {
 			has_country_flag = FIN_lapua_movement_in_power_flag
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 		
@@ -4086,7 +4086,7 @@ focus_tree = {
 			add_stability = 0.03
 			add_political_power = 25
 			add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.01 }
 		}
 
 	}
@@ -4109,7 +4109,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = paternal_autocrat popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 			country_event = {
 				id = finland.102 days = 1
 			}
@@ -4134,7 +4134,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_new_style_governing"
 			add_political_power = -20
 			add_war_support = 0.03
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.01 }
 			add_ideas = FIN_strengthen_sinimustat_idea
 		}
 
@@ -4157,9 +4157,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_crack_down_socialists"
 			add_political_power = -20
 			add_stability = 0.02
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.03 }
 		}
 
 	}
@@ -4183,7 +4183,7 @@ focus_tree = {
 			add_stability = 0.02
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = social_liberal popularity = -0.03 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = classical_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}
 
@@ -4394,9 +4394,9 @@ focus_tree = {
 		available = {
 			has_country_flag = FIN_finnish_revolution_flag
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 		
@@ -4408,9 +4408,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_finnish_revolution"
 			add_stability = 0.03
 			add_political_power = 25
-			add_popularity = { ideology = auth_socialist popularity = 0.01 }
-			add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
-			add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.01 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.01 }
+			add_popularity = { ideology = broad_socialism popularity = 0.01 }
 		}
 
 	}
@@ -4431,21 +4431,21 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_communist_party_dominance"
 			add_stability = 0.03
-			add_popularity = { ideology = auth_socialist popularity = 0.02 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 			set_party_name = {
-				ideology = auth_socialist 
+				ideology = soviet_socialist 
 				long_name = FIN_skp_vanguard_party_long 
 				name = FIN_skp_vanguard_party 
 			}
-			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 			set_party_name = {
-				ideology = vanguard_socialist 
+				ideology = soviet_socialist 
 				long_name = FIN_skp_collie_party_long 
 				name = FIN_skp_collie_party 
 			}
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = broad_socialism popularity = 0.02 }
 			set_party_name = {
-				ideology = libertarian_socialist 
+				ideology = broad_socialism 
 				long_name = FIN_skp_libsoc_party_long 
 				name = FIN_skp_libsoc_party 
 			}
@@ -4472,7 +4472,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = paternal_autocrat popularity = -0.04 }
-			add_popularity = { ideology = national_populist popularity = -0.04 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.04 }
 			add_popularity = { ideology = valkist popularity = -0.03 }
 		}
 
@@ -4496,7 +4496,7 @@ focus_tree = {
 			add_political_power = -20
 			add_stability = 0.02
 			add_popularity = { ideology = social_liberal popularity = -0.04 }
-			add_popularity = { ideology = market_liberal popularity = -0.03 }
+			add_popularity = { ideology = classical_liberal popularity = -0.03 }
 			add_popularity = { ideology = social_conservative popularity = -0.04 }
 		}
 
@@ -4529,7 +4529,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FIN_punakaarti_control
-		icon = GFX_goal_ideology_auth_socialist
+		icon = GFX_goal_ideology_soviet_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = FIN_finnish_peoples_delegation
@@ -4538,7 +4538,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		
 		ai_will_do = {
@@ -4549,7 +4549,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_punakaarti_control"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		}
 
 	}
@@ -4571,14 +4571,14 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_vanguard_revolution"
 			add_political_power = -20
 			add_war_support = 0.03
-			add_popularity = { ideology = auth_socialist popularity = 0.01 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.01 }
 			add_ideas = FIN_vanguard_revolution_idea
 		}
 
 	}
 	focus = {
 		id = FIN_ortodoksinen_control
-		icon = GFX_goal_ideology_vanguard_socialist
+		icon = GFX_goal_ideology_soviet_socialist
 		cost = 5.00
 		prerequisite = {
 			focus = FIN_finnish_peoples_delegation
@@ -4587,7 +4587,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		
 		ai_will_do = {
@@ -4598,7 +4598,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_ortodoksinen_control"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		}
 
 	}
@@ -4662,8 +4662,8 @@ focus_tree = {
 			add_stability = -0.03
 			add_war_support = 0.03
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
+			add_popularity = { ideology = broad_socialism popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
 		}
 
 	}
@@ -4684,7 +4684,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_centralisation_power"
 			add_war_support = 0.03
-			add_popularity = { ideology = auth_socialist popularity = 0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
 			swap_ideas = {
 				remove_idea = FIN_vanguard_revolution_idea
 				add_idea = FIN_centralisation_power_idea
@@ -4703,7 +4703,7 @@ focus_tree = {
 		y = 5
 		
 		available = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		
 		ai_will_do = {
@@ -4714,7 +4714,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_sosialistinen_control"
 			add_stability = 0.02
 			add_war_support = 0.02
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 		}
 
 	}
@@ -4763,8 +4763,8 @@ focus_tree = {
 			add_stability = -0.03
 			add_war_support = 0.03
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
-			add_popularity = { ideology = auth_socialist popularity = -0.05 }
+			add_popularity = { ideology = broad_socialism popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
 		}
 
 	}
@@ -4785,7 +4785,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_following_moscow_line"
 			add_stability = 0.03
-			add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		}
 
 	}
@@ -4806,7 +4806,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_integrate_social_democrats"
 			add_stability = 0.02
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.07 }
 		}
 
@@ -4831,7 +4831,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_strengthen_labour_unions"
 			add_war_support = 0.03
-			add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+			add_popularity = { ideology = broad_socialism popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = FIN_democracy_workplace_idea
 				add_idea = FIN_strengthen_labour_unions_idea
@@ -4856,7 +4856,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus FIN_decentralisation_power"
 			add_stability = 0.03
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
 		}
 
 	}

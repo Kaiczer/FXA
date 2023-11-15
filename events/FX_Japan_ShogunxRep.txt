@@ -213,7 +213,7 @@ country_event = { #Political Turmoil
 			ideology = paternal_autocrat
 			popularity = 0.1
 		}
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:valkist }
 		add_to_coalition = yes 
@@ -302,9 +302,9 @@ country_event = { #Political Turmoil
 				}
 			}
 			set_party_name = {
-				ideology = national_populist
-				long_name = JAP_national_populist_party_shogun_long
-				name = JAP_national_populist_party_shogun
+				ideology = reactionary_ultranationalism
+				long_name = JAP_reactionary_ultranationalism_party_shogun_long
+				name = JAP_reactionary_ultranationalism_party_shogun
 			}
 			set_party_name = {
 				ideology = paternal_autocrat
@@ -632,15 +632,15 @@ country_event = { #Unbelievable Situation - Fate of Daijo-Kan
 	option = { #The Manager Elected
 	name = jap_shogun.16.b
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.37
 		}
 		clr_country_flag = JAP_Tri_Edo_Commissioner
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
-			long_name = JAP_Toho_national_populist_party_long
-			name = JAP_Toho_national_populist_party
+			long_name = JAP_Toho_reactionary_ultranationalism_party_long
+			name = JAP_Toho_reactionary_ultranationalism_party
 		}
 		set_cosmetic_tag = JAP_tohokai
 		set_country_flag = JAP_sgrp_foreign_unlock
@@ -747,15 +747,15 @@ country_event = { #Unbelievable Situation - Burakumin - Socialist Revolution / D
 	option = {
 		name = "The red militia shot everyone dead, even the bald man"
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.37
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -774,12 +774,12 @@ country_event = { #Unbelievable Situation - Burakumin - Socialist Revolution / D
 		load_focus_tree = FX_Japan_Republic_Tree
 		mark_focus_tree_layout_dirty = yes
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
-		set_temp_variable = { coalition_partner_var = token:vanguard_socialist }
+		set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:auth_socialist }
+		set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 		add_to_coalition = yes
 		set_temp_variable = { coalition_partner_var = token:social_democrat }
 		add_to_coalition = yes
@@ -1255,7 +1255,7 @@ country_event = {
 	option = {
 		name = "Father of Suiseisha, Jiichiro Matsumoto"
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		add_country_leader_role = {
@@ -1273,19 +1273,19 @@ country_event = {
 			popularity = 0.1
 		}
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = JAP_Suiheisha_libertarian_socialist_party_long
-			name = JAP_Suiheisha_libertarian_socialist_party
+			ideology = broad_socialism
+			long_name = JAP_Suiheisha_broad_socialism_party_long
+			name = JAP_Suiheisha_broad_socialism_party
 		}
 		set_party_name = {
-			ideology = vanguard_socialist
-			long_name = JAP_Republican_vanguard_socialist_party_long
-			name = JAP_Republican_vanguard_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 		set_party_name = {
-			ideology = auth_socialist
-			long_name = JAP_Republican_auth_socialist_party_long
-			name = JAP_Republican_auth_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 	}
 	option = {
@@ -1293,7 +1293,7 @@ country_event = {
 		set_temp_variable = { coalition_partner_var = token:social_democrat }
 		remove_from_coalition = yes
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
@@ -1310,19 +1310,19 @@ country_event = {
 		}
 		set_cosmetic_tag = JAP_Republican
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = JAP_Suiheisha_libertarian_socialist_party_long
-			name = JAP_Suiheisha_libertarian_socialist_party
+			ideology = broad_socialism
+			long_name = JAP_Suiheisha_broad_socialism_party_long
+			name = JAP_Suiheisha_broad_socialism_party
 		}
 		set_party_name = {
-			ideology = vanguard_socialist
-			long_name = JAP_Republican_vanguard_socialist_party_long
-			name = JAP_Republican_vanguard_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 		set_party_name = {
-			ideology = auth_socialist
-			long_name = JAP_Republican_auth_socialist_party_long
-			name = JAP_Republican_auth_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 	}
 	option = {
@@ -1330,7 +1330,7 @@ country_event = {
 		set_temp_variable = { coalition_partner_var = token:social_democrat }
 		remove_from_coalition = yes
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
@@ -1347,19 +1347,19 @@ country_event = {
 		}
 		set_cosmetic_tag = JAP_Republican 
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = JAP_Suiheisha_libertarian_socialist_party_long
-			name = JAP_Suiheisha_libertarian_socialist_party
+			ideology = broad_socialism
+			long_name = JAP_Suiheisha_broad_socialism_party_long
+			name = JAP_Suiheisha_broad_socialism_party
 		}
 		set_party_name = {
-			ideology = vanguard_socialist
-			long_name = JAP_Republican_vanguard_socialist_party_long
-			name = JAP_Republican_vanguard_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 		set_party_name = {
-			ideology = auth_socialist
-			long_name = JAP_Republican_auth_socialist_party_long
-			name = JAP_Republican_auth_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 	}
 }
@@ -1412,16 +1412,16 @@ country_event = {
 		complete_national_focus = JAP_matsumoto_presidency
 		if = {
 			limit = { 
-				libertarian_socialist < 0.3
+				broad_socialism < 0.3
 			}
 			add_popularity = {
-				ideology = libertarian_socialist 
+				ideology = broad_socialism 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		add_country_leader_role = {
@@ -1459,16 +1459,16 @@ country_event = {
 		complete_national_focus = JAP_kikue_presidency
 		if = {
 			limit = { 
-				libertarian_socialist < 0.3
+				broad_socialism < 0.3
 			}
 			add_popularity = {
-				ideology = libertarian_socialist 
+				ideology = broad_socialism 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		} 
 		add_country_leader_role = {
@@ -1480,9 +1480,9 @@ country_event = {
 			}
 		}
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = JAP_Social_Fem_libertarian_socialist_party_long
-			name = JAP_Social_Fem_libertarian_socialist_party
+			ideology = broad_socialism
+			long_name = JAP_Social_Fem_broad_socialism_party_long
+			name = JAP_Social_Fem_broad_socialism_party
 		}
 	}
 	option = {
@@ -1494,16 +1494,16 @@ country_event = {
 		complete_national_focus = JAP_kingoro_presidency
 		if = {
 			limit = { 
-				auth_socialist < 0.3
+				soviet_socialist < 0.3
 			}
 			add_popularity = {
-				ideology = auth_socialist 
+				ideology = soviet_socialist 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
@@ -1515,9 +1515,9 @@ country_event = {
 			}
 		}
 		set_party_name = {
-			ideology = auth_socialist
-			long_name = JAP_Red_Empire_auth_socialist_party_long
-			name = JAP_Red_Empire_auth_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Red_Empire_soviet_socialist_party_long
+			name = JAP_Red_Empire_soviet_socialist_party
 		}
 		set_cosmetic_tag = JAP_KINGORO
 	}
@@ -1530,16 +1530,16 @@ country_event = {
 		complete_national_focus = JAP_nosaka_presidency
 		if = {
 			limit = { 
-				vanguard_socialist < 0.3
+				soviet_socialist < 0.3
 			}
 			add_popularity = {
-				ideology = vanguard_socialist 
+				ideology = soviet_socialist 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		add_country_leader_role = {
@@ -1551,9 +1551,9 @@ country_event = {
 			}
 		}
 		set_party_name = {
-			ideology = vanguard_socialist
-			long_name = JAP_Republican_vanguard_socialist_party_long
-			name = JAP_Republican_vanguard_socialist_party
+			ideology = soviet_socialist
+			long_name = JAP_Republican_soviet_socialist_party_long
+			name = JAP_Republican_soviet_socialist_party
 		}
 		set_cosmetic_tag = JAP_NOSAKA
 	}
@@ -1566,26 +1566,26 @@ country_event = {
 		complete_national_focus = JAP_hisashi_presidency
 		if = {
 			limit = { 
-				libertarian_socialist < 0.3
+				broad_socialism < 0.3
 			}
 			add_popularity = {
-				ideology = libertarian_socialist 
+				ideology = broad_socialism 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		promote_character = {
 			character = JAP_Aso_Hisashi
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 		}
 		set_party_name = {
-			ideology = libertarian_socialist
-			long_name = JAP_Republican_libertarian_socialist_party_long
-			name = JAP_Republican_libertarian_socialist_party
+			ideology = broad_socialism
+			long_name = JAP_Republican_broad_socialism_party_long
+			name = JAP_Republican_broad_socialism_party
 		}
 		drop_cosmetic_tag = yes 
 		set_cosmetic_tag = JAP_HISASHI_Reformed  
@@ -1599,16 +1599,16 @@ country_event = {
 		complete_national_focus = JAP_kanson_presidency
 		if = {
 			limit = { 
-				libertarian_socialist < 0.3
+				broad_socialism < 0.3
 			}
 			add_popularity = {
-				ideology = libertarian_socialist 
+				ideology = broad_socialism 
 				popularity = 0.2
 			}
 		}
 		end_coalition = yes 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		add_country_leader_role = {
@@ -1620,7 +1620,7 @@ country_event = {
 			}
 		}
 		set_party_name = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			long_name = JAP_Republican_Kanson_party_long 
 			name = JAP_Republican_Kanson_party
 		}

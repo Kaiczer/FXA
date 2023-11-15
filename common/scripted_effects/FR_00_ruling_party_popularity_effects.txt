@@ -33,28 +33,28 @@
 increase_ruling_party_popularity_by_5 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.05
 		}
 	}
@@ -78,10 +78,10 @@ increase_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.05
 		}
 	}
@@ -114,10 +114,10 @@ increase_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.05
 		}
 	}
@@ -135,28 +135,28 @@ increase_ruling_party_popularity_by_5 = {
 increase_ruling_party_popularity_by_10 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.10
 		}
 	}
@@ -180,10 +180,10 @@ increase_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.10
 		}
 	}
@@ -216,10 +216,10 @@ increase_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.10
 		}
 	}
@@ -237,28 +237,28 @@ increase_ruling_party_popularity_by_10 = {
 increase_ruling_party_popularity_by_15 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.15
 		}
 	}
@@ -282,10 +282,10 @@ increase_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.15
 		}
 	}
@@ -318,10 +318,10 @@ increase_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.15
 		}
 	}
@@ -339,28 +339,28 @@ increase_ruling_party_popularity_by_15 = {
 increase_ruling_party_popularity_by_20 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.20
 		}
 	}
@@ -384,10 +384,10 @@ increase_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.20
 		}
 	}
@@ -420,10 +420,10 @@ increase_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.20
 		}
 	}
@@ -441,28 +441,28 @@ increase_ruling_party_popularity_by_20 = {
 increase_ruling_party_popularity_by_25 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.25
 		}
 	}
@@ -486,10 +486,10 @@ increase_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.25
 		}
 	}
@@ -522,10 +522,10 @@ increase_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.25
 		}
 	}
@@ -543,28 +543,28 @@ increase_ruling_party_popularity_by_25 = {
 increase_ruling_party_popularity_by_30 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.30
 		}
 	}
@@ -588,10 +588,10 @@ increase_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.30
 		}
 	}
@@ -624,10 +624,10 @@ increase_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.30
 		}
 	}
@@ -645,28 +645,28 @@ increase_ruling_party_popularity_by_30 = {
 increase_ruling_party_popularity_by_35 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.35
 		}
 	}
@@ -690,10 +690,10 @@ increase_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.35
 		}
 	}
@@ -726,10 +726,10 @@ increase_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.35
 		}
 	}
@@ -747,28 +747,28 @@ increase_ruling_party_popularity_by_35 = {
 increase_ruling_party_popularity_by_40 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.40
 		}
 	}
@@ -792,10 +792,10 @@ increase_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.40
 		}
 	}
@@ -828,10 +828,10 @@ increase_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.40
 		}
 	}
@@ -849,28 +849,28 @@ increase_ruling_party_popularity_by_40 = {
 increase_ruling_party_popularity_by_45 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.45
 		}
 	}
@@ -894,10 +894,10 @@ increase_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.45
 		}
 	}
@@ -930,10 +930,10 @@ increase_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.45
 		}
 	}
@@ -951,28 +951,28 @@ increase_ruling_party_popularity_by_45 = {
 increase_ruling_party_popularity_by_50 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.50
 		}
 	}
@@ -996,10 +996,10 @@ increase_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.50
 		}
 	}
@@ -1032,10 +1032,10 @@ increase_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.50
 		}
 	}
@@ -1053,28 +1053,28 @@ increase_ruling_party_popularity_by_50 = {
 decrease_ruling_party_popularity_by_5 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.05
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.05
 		}
 	}
@@ -1098,10 +1098,10 @@ decrease_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.05
 		}
 	}
@@ -1134,10 +1134,10 @@ decrease_ruling_party_popularity_by_5 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.05
 		}
 	}
@@ -1155,28 +1155,28 @@ decrease_ruling_party_popularity_by_5 = {
 decrease_ruling_party_popularity_by_10 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.10
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.10
 		}
 	}
@@ -1200,10 +1200,10 @@ decrease_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.10
 		}
 	}
@@ -1236,10 +1236,10 @@ decrease_ruling_party_popularity_by_10 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.10
 		}
 	}
@@ -1257,28 +1257,28 @@ decrease_ruling_party_popularity_by_10 = {
 decrease_ruling_party_popularity_by_15 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.15
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.15
 		}
 	}
@@ -1302,10 +1302,10 @@ decrease_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.15
 		}
 	}
@@ -1338,10 +1338,10 @@ decrease_ruling_party_popularity_by_15 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.15
 		}
 	}
@@ -1359,28 +1359,28 @@ decrease_ruling_party_popularity_by_15 = {
 decrease_ruling_party_popularity_by_20 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.20
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.20
 		}
 	}
@@ -1404,10 +1404,10 @@ decrease_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.20
 		}
 	}
@@ -1440,10 +1440,10 @@ decrease_ruling_party_popularity_by_20 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.20
 		}
 	}
@@ -1461,28 +1461,28 @@ decrease_ruling_party_popularity_by_20 = {
 decrease_ruling_party_popularity_by_25 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.25
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.25
 		}
 	}
@@ -1506,10 +1506,10 @@ decrease_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.25
 		}
 	}
@@ -1542,10 +1542,10 @@ decrease_ruling_party_popularity_by_25 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.25
 		}
 	}
@@ -1563,28 +1563,28 @@ decrease_ruling_party_popularity_by_25 = {
 decrease_ruling_party_popularity_by_30 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.30
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.30
 		}
 	}
@@ -1608,10 +1608,10 @@ decrease_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.30
 		}
 	}
@@ -1644,10 +1644,10 @@ decrease_ruling_party_popularity_by_30 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.30
 		}
 	}
@@ -1665,28 +1665,28 @@ decrease_ruling_party_popularity_by_30 = {
 decrease_ruling_party_popularity_by_35 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.35
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.35
 		}
 	}
@@ -1710,10 +1710,10 @@ decrease_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.35
 		}
 	}
@@ -1746,10 +1746,10 @@ decrease_ruling_party_popularity_by_35 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.35
 		}
 	}
@@ -1767,28 +1767,28 @@ decrease_ruling_party_popularity_by_35 = {
 decrease_ruling_party_popularity_by_40 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.40
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.40
 		}
 	}
@@ -1812,10 +1812,10 @@ decrease_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.40
 		}
 	}
@@ -1848,10 +1848,10 @@ decrease_ruling_party_popularity_by_40 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.40
 		}
 	}
@@ -1869,28 +1869,28 @@ decrease_ruling_party_popularity_by_40 = {
 decrease_ruling_party_popularity_by_45 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.45
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.45
 		}
 	}
@@ -1914,10 +1914,10 @@ decrease_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.45
 		}
 	}
@@ -1950,10 +1950,10 @@ decrease_ruling_party_popularity_by_45 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.45
 		}
 	}
@@ -1971,28 +1971,28 @@ decrease_ruling_party_popularity_by_45 = {
 decrease_ruling_party_popularity_by_50 = {
 	if = {
 		limit = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.50
 		}
 	}
 	if = {
 		limit = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.50
 		}
 	}
@@ -2016,10 +2016,10 @@ decrease_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = -0.50
 		}
 	}
@@ -2052,10 +2052,10 @@ decrease_ruling_party_popularity_by_50 = {
 	}
 	if = {
 		limit = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.50
 		}
 	}

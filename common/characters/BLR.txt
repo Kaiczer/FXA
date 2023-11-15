@@ -24,7 +24,7 @@ characters = {
 			idea_token = BLR_Jazep_Adamovic_hog_van
 			can_be_fired = no
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -43,7 +43,7 @@ characters = {
 			}
 			idea_token = BLR_Michas_Javar_for_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_great_compromiser
 			}
 		}
@@ -62,7 +62,7 @@ characters = {
 			}
 			idea_token = BLR_Salamon_Kacenbohien_eco_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_theoretical_scientist
 			}
 		}
@@ -81,7 +81,7 @@ characters = {
 			}
 			idea_token = BLR_Nicypar_Natalievic_sec_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -111,7 +111,7 @@ characters = {
 			idea_token = BLR_Paluta_Badunova_hog_col
 			can_be_fired = no
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_sincere_internationalist
 			}
 		}
@@ -123,7 +123,7 @@ characters = {
 			}
 			idea_token = BLR_Paluta_Badunova_for_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -142,7 +142,7 @@ characters = {
 			}
 			idea_token = BLR_Nikolay_Gusarov_for_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -161,7 +161,7 @@ characters = {
 			}
 			idea_token = BLR_Jauhien_Ladnou_for_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -180,7 +180,7 @@ characters = {
 			}
 			idea_token = BLR_Adam_Bildziukievic_eco_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_military_entrepreneur
 			}
 		}
@@ -199,7 +199,7 @@ characters = {
 			}
 			idea_token = BLR_Jafim_Bialievic_sec_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -218,7 +218,7 @@ characters = {
 			idea_token = BLR_Aliaksandr_Charviakou_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_privileged_socialist
 			}
 		}
@@ -230,7 +230,7 @@ characters = {
 			}
 			idea_token = BLR_Aliaksandr_Charviakou_for_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_general_staffer
 			}
 		}
@@ -248,7 +248,7 @@ characters = {
 			idea_token = BLR_Symon_Rak_Michajlouksi_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_red_chairmen
 			}
 		}
@@ -260,7 +260,7 @@ characters = {
 			}
 			idea_token = BLR_Symon_Rak_Michajlouksi_for_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_biased_intellectual
 			}
 		}
@@ -279,7 +279,7 @@ characters = {
 			}
 			idea_token = BLR_Dmitry_Pryshchepau_eco_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_administrative_genius
 			}
 		}
@@ -298,7 +298,7 @@ characters = {
 			}
 			idea_token = BLR_Pavel_Valoshin_sec_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_back_stabber
 			}
 		}
@@ -311,7 +311,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = {}
 		}
 	}
@@ -494,7 +494,7 @@ characters = {
 			slot = head_of_government
 			idea_token = BLR_Raman_Skirmunt_hog_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -513,7 +513,7 @@ characters = {
 			}
 			idea_token = BLR_Mitrofan_Dovnar_Zapolsky_for_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				for_biased_intellectual
 			}
 		}
@@ -532,7 +532,7 @@ characters = {
 			}
 			idea_token = BLR_Karol_Niezabytowski_eco_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_resource_industrialist
 			}
 		}
@@ -551,7 +551,7 @@ characters = {
 			}
 			idea_token = BLR_Jerzy_Osmolowski_sec_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -864,7 +864,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 		}
 	}
 	BLR_Uladzislau_Kazlouski = {
@@ -881,7 +881,7 @@ characters = {
 			}
 			idea_token = BLR_Uladzislau_Kazlouski_for_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_biased_intellectual
 			}
 		}
@@ -900,7 +900,7 @@ characters = {
 			}
 			idea_token = BLR_Janka_Carapuk_for_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_ideological_crusader
 			}
 		}
@@ -919,7 +919,7 @@ characters = {
 			}
 			idea_token = BLR_Mikalaj_Skialionak_eco_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -938,7 +938,7 @@ characters = {
 			}
 			idea_token = BLR_Juryj_Sabalieuski_sec_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}

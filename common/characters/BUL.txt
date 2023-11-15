@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -78,7 +78,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
     country_leader = {
@@ -131,7 +131,7 @@ characters = {
 			idea_token = BUL_Ivan_Dochev_hog_npo
 			can_be_fired = no
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_charismatic_charmer
 			}
 		}
@@ -606,7 +606,7 @@ characters = {
 			}			
 			idea_token = BUL_Zheko_Dimitrov_for_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -698,7 +698,7 @@ characters = {
 			}			
 			idea_token = BUL_Stefan_Klechkov_for_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_hawkish_intervener
 			}
 		}
@@ -717,7 +717,7 @@ characters = {
 			}			
 			idea_token = BUL_Ivan_Stefanov_eco_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -850,7 +850,7 @@ characters = {
 			}			
 			idea_token = BUL_Asen_Kantardzhiev_eco_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_construction_magnate
 			}
 		}
@@ -869,7 +869,7 @@ characters = {
 			}			
 			idea_token = BUL_Vasil_Ikonomov_sec_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1002,7 +1002,7 @@ characters = {
 			}			
 			idea_token = BUL_Lyuben_Kostov_sec_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_secret_police_chief
 			}
 		}

@@ -242,7 +242,7 @@ NFA = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -250,7 +250,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -260,7 +260,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -288,7 +288,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -327,7 +327,7 @@ NFA = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -370,7 +370,7 @@ NFQ = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -378,7 +378,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -388,7 +388,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -416,7 +416,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -455,7 +455,7 @@ NFQ = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -502,7 +502,7 @@ ETH = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -510,7 +510,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -520,7 +520,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -548,7 +548,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -587,7 +587,7 @@ ETH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -634,7 +634,7 @@ IVO = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -642,7 +642,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -652,7 +652,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -680,7 +680,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -719,7 +719,7 @@ IVO = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -766,7 +766,7 @@ DAH = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -774,7 +774,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -784,7 +784,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -812,7 +812,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -851,7 +851,7 @@ DAH = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -898,7 +898,7 @@ TOG = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -906,7 +906,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -916,7 +916,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -944,7 +944,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -983,7 +983,7 @@ TOG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1030,7 +1030,7 @@ VOL = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -1038,7 +1038,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1048,7 +1048,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1076,7 +1076,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1115,7 +1115,7 @@ VOL = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
@@ -1162,7 +1162,7 @@ COG = {
 	}
 
 	political = {
-		auth_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_1.png"
@@ -1170,7 +1170,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_land_new_8.png"
 			}
 		}
-		vanguard_socialist = {
+		soviet_socialist = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1180,7 +1180,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_8.png"
 			}
 		}
-		libertarian_socialist = {
+		broad_socialism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1208,7 +1208,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_6.png"
 			}
 		}
-		market_liberal = {
+		classical_liberal = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_5.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
@@ -1247,7 +1247,7 @@ COG = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"
 			}
 		}
-		national_populist = {
+		reactionary_ultranationalism = {
 			male = {
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_4.png"
 				"gfx/leaders/Generic/Portrait_Africa_Generic_new_7.png"

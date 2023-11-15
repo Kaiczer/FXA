@@ -35,9 +35,9 @@ focus_tree = {
 		
 		bypass = {
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 		
@@ -178,9 +178,9 @@ focus_tree = {
 					FRA = {
 						NOT = {
 							OR = {
-								has_government = auth_socialist
-								has_government = vanguard_socialist
-								has_government = libertarian_socialist
+								has_government = soviet_socialist
+								has_government = soviet_socialist
+								has_government = broad_socialism
 							}
 						}
 					}

@@ -237,17 +237,17 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.07
 			}
 		}
-		ARG_the_vanguard_socialist_revolution = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution"}
+		ARG_the_soviet_socialist_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_soviet_socialist_revolution"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				vanguard_socialist_drift = 0.03
-				libertarian_socialist_drift = 0.01
-				auth_socialist_drift = 0.01
+				soviet_socialist_drift = 0.03
+				broad_socialism_drift = 0.01
+				soviet_socialist_drift = 0.01
 			}
 		}
 
@@ -259,9 +259,9 @@ ideas = {
 
 			picture = generic_collectivism_banned
 			modifier = {
-				vanguard_socialist_drift = -0.03
-				libertarian_socialist_drift = -0.01
-				auth_socialist_drift = -0.01
+				soviet_socialist_drift = -0.03
+				broad_socialism_drift = -0.01
+				soviet_socialist_drift = -0.01
 			}
 		}
 
@@ -273,7 +273,7 @@ ideas = {
 
 			picture = generic_populism_banned
 			modifier = {
-				national_populist_drift = -0.02
+				reactionary_ultranationalism_drift = -0.02
 				social_liberal_drift = -0.02
 			}
 		}
@@ -287,8 +287,8 @@ ideas = {
 			modifier = {
 				foreign_subversive_activites = -0.50 
 				resistance_activity = -0.1
-				vanguard_socialist_drift = -0.01
-				libertarian_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
+				broad_socialism_drift = -0.01
 			}
 		}
 		ARG_the_nationalist_pact = {
@@ -299,7 +299,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				reactionary_ultranationalism_drift = 0.02
 				social_liberal_drift = 0.02
 			}
 		}
@@ -312,7 +312,7 @@ ideas = {
 
 			picture = generic_fascism_drift_2
 			modifier = {
-				national_populist_drift = 0.02
+				reactionary_ultranationalism_drift = 0.02
 				social_liberal_drift = 0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.03
@@ -328,7 +328,7 @@ ideas = {
 
 			picture = UK_military_loyal_idea
 			modifier = {
-				national_populist_drift = -0.02
+				reactionary_ultranationalism_drift = -0.02
 				army_morale_factor = 0.05
 				political_power_gain = 0.1
 
@@ -484,7 +484,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				classical_liberal_drift = 0.02
 				social_liberal_drift = 0.02
 			}
 		}
@@ -497,7 +497,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				classical_liberal_drift = 0.02
 				social_liberal_drift = 0.02
 				stability_factor = 0.05
 			}
@@ -511,7 +511,7 @@ ideas = {
 
 			picture = generic_democratic_drift_bonus
 			modifier = {
-				market_liberal_drift = 0.02
+				classical_liberal_drift = 0.02
 				social_liberal_drift = 0.02
 				stability_factor = 0.06
 				production_speed_industrial_complex_factor = 0.05
@@ -545,31 +545,31 @@ ideas = {
 			}
 		}
 
-		ARG_the_vanguard_socialist_revolution1 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution1"}
+		ARG_the_soviet_socialist_revolution1 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_soviet_socialist_revolution1"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				vanguard_socialist_drift = 0.03
-				libertarian_socialist_drift = 0.01
-				auth_socialist_drift = 0.01
+				soviet_socialist_drift = 0.03
+				broad_socialism_drift = 0.01
+				soviet_socialist_drift = 0.01
 				political_power_gain = 0.03
 			}
 		}
-		ARG_the_vanguard_socialist_revolution2 = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_vanguard_socialist_revolution2"}
+		ARG_the_soviet_socialist_revolution2 = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_soviet_socialist_revolution2"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_collectivism_rising
 			modifier = {
-				vanguard_socialist_drift = 0.03
-				libertarian_socialist_drift = 0.01
-				auth_socialist_drift = 0.01
+				soviet_socialist_drift = 0.03
+				broad_socialism_drift = 0.01
+				soviet_socialist_drift = 0.01
 				political_power_gain = 0.05
 				stability_factor = 0.05	
 			}
@@ -582,7 +582,7 @@ ideas = {
 
 			picture = generic_anarchism_rising
 			modifier = {
-				libertarian_socialist_drift = 0.04
+				broad_socialism_drift = 0.04
 				political_power_gain = 0.07
 				stability_factor = 0.07	
 			}
@@ -610,15 +610,15 @@ ideas = {
 				min_export = -0.05     
 			}
 		}
-		ARG_the_auth_socialist_revolution = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_auth_socialist_revolution"}
+		ARG_the_soviet_socialist_revolution = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea ARG_the_soviet_socialist_revolution"}
 			allowed = {
 			original_tag = "ARG"
 			}
 
 			picture = generic_vanguardism_rising
 			modifier = {
-				auth_socialist_drift = 0.04
+				soviet_socialist_drift = 0.04
 				political_power_gain = 0.07
 				stability_factor = 0.07
 				war_support_factor = 0.01

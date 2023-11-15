@@ -527,19 +527,19 @@ PHI_create_papal_state = {
   ITP = {
     set_cosmetic_tag = ITA_PAP
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
       name = ITP_pope_party
       long_name = ITP_pope_party_long
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.45
     }
     ITA_Pope_Julius_IV = {
       promote_character = yes
       remove_trait = {
-        ideology = national_populist_subtype
+        ideology = reactionary_ultranationalism_subtype
         trait = exiled_pope
       }
     }
@@ -572,12 +572,12 @@ PHI_add_governor_general = {
         }
       }
       if = {
-        limit = { has_ideology = libertarian_socialist_subtype }
-        promote_character = { ideology = libertarian_socialist_subtype }
+        limit = { has_ideology = broad_socialism_subtype }
+        promote_character = { ideology = broad_socialism_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = libertarian_socialist_subtype }
+          country_leader = { ideology = broad_socialism_subtype }
           promote_leader = yes
         }
       }
@@ -602,12 +602,12 @@ PHI_add_governor_general = {
         }
       }
       if = {
-        limit = { has_ideology = market_liberal_subtype }
-        promote_character = { ideology = market_liberal_subtype }
+        limit = { has_ideology = classical_liberal_subtype }
+        promote_character = { ideology = classical_liberal_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = market_liberal_subtype }
+          country_leader = { ideology = classical_liberal_subtype }
           promote_leader = yes
         }
       }
@@ -642,12 +642,12 @@ PHI_add_governor_general = {
         }
       }
       if = {
-        limit = { has_ideology = national_populist_subtype }
-        promote_character = { ideology = national_populist_subtype }
+        limit = { has_ideology = reactionary_ultranationalism_subtype }
+        promote_character = { ideology = reactionary_ultranationalism_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = national_populist_subtype }
+          country_leader = { ideology = reactionary_ultranationalism_subtype }
           promote_leader = yes
         }
       }
@@ -693,12 +693,12 @@ PHI_remove_governor_general = {
   }
   PHI_Crisanto_Evangelista = {
     if = {
-      limit = { has_ideology = libertarian_socialist_subtype }
-      promote_character = { ideology = libertarian_socialist_subtype }
+      limit = { has_ideology = broad_socialism_subtype }
+      promote_character = { ideology = broad_socialism_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = libertarian_socialist_subtype }
+        country_leader = { ideology = broad_socialism_subtype }
         promote_leader = yes
       }
     }
@@ -729,12 +729,12 @@ PHI_remove_governor_general = {
   }
   PHI_Manuel_Roxas = {
     if = {
-      limit = { has_ideology = market_liberal_subtype }
-      promote_character = { ideology = market_liberal_subtype }
+      limit = { has_ideology = classical_liberal_subtype }
+      promote_character = { ideology = classical_liberal_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = market_liberal_subtype }
+        country_leader = { ideology = classical_liberal_subtype }
         promote_leader = yes
       }
     }
@@ -777,12 +777,12 @@ PHI_remove_governor_general = {
   }
   PHI_Andres_Soriano = {
     if = {
-      limit = { has_ideology = national_populist_subtype }
-      promote_character = { ideology = national_populist_subtype }
+      limit = { has_ideology = reactionary_ultranationalism_subtype }
+      promote_character = { ideology = reactionary_ultranationalism_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = national_populist_subtype }
+        country_leader = { ideology = reactionary_ultranationalism_subtype }
         promote_leader = yes
       }
     }

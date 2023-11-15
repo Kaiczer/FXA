@@ -31,23 +31,23 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = market_liberal
+	ruling_party = classical_liberal
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	auth_socialist = 0
-	vanguard_socialist = 6
-	libertarian_socialist = 0
+	soviet_socialist = 0
+	soviet_socialist = 6
+	broad_socialism = 0
 	social_democrat = 12
 	social_liberal = 4
-	market_liberal = 51
+	classical_liberal = 51
 	social_conservative = 22
 	authoritarian_democrat = 0
 	paternal_autocrat = 2
-	national_populist = 3
+	reactionary_ultranationalism = 3
 	valkist = 0
 }
 

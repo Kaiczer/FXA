@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -33,7 +33,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -53,7 +53,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -646,7 +646,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -664,7 +664,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_meme_man
 			}
 		}
@@ -683,7 +683,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Archibald_Sinclair_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -837,7 +837,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_John_Simon_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_smiling_oilman
 			}
 		}
@@ -1046,7 +1046,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Archibald_Ramsay_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_pragmatic_statesman
 			}
 		}
@@ -1154,7 +1154,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Violet_Bonham_Carter_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_relations_expert
 			}
 		}
@@ -1181,7 +1181,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Walter_Runciman_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1384,7 +1384,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Alexander_Raven_Thomson_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_radical_among_moderates
 			}
 		}
@@ -1465,7 +1465,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Ernest_Simon_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_the_minister_for_everything
 			}
 		}
@@ -1492,7 +1492,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Isaac_Foot_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_trade_proponent
 			}
 		}
@@ -1519,7 +1519,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Joseph_Kenworthy_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_construction_magnate
 			}
 		}
@@ -1708,7 +1708,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Alliott_Vernon_Roe_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_balanced_budget_economy
 			}
 		}
@@ -1789,7 +1789,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Ivor_Brown_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_back_stabber
 			}
 		}
@@ -1816,7 +1816,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_John_Anderson_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -2016,7 +2016,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_John_Beckett_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_prince_of_terror
 			}
 		}

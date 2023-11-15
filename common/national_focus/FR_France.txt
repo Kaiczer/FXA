@@ -730,7 +730,7 @@ focus_tree = {
    				popularity = 0.02
 			}
 			add_popularity = {
-    			ideology = market_liberal
+    			ideology = classical_liberal
    				popularity = 0.05
 			}
 		}
@@ -938,7 +938,7 @@ focus_tree = {
 	# Regulating the Franc
 	focus = {
 		id = fra_regulate_franc
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
 		x = -2
 		y = 1
 		cost = 3
@@ -4993,19 +4993,19 @@ focus_tree = {
 		relative_position_id = fra_bridge_gap
 		completion_reward = {
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.02
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = -0.05
 			}
 		}
@@ -5135,15 +5135,15 @@ focus_tree = {
 		relative_position_id = fra_martial_law
 		completion_reward = {
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.03
 			}
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.03
 			}
 
@@ -5400,15 +5400,15 @@ focus_tree = {
    				popularity = -0.01
 			}
 			add_popularity = {
-    			ideology = libertarian_socialist
+    			ideology = broad_socialism
    				popularity = -0.01
 			}
 			add_popularity = {
-    			ideology = vanguard_socialist
+    			ideology = soviet_socialist
    				popularity = -0.01
 			}
 			add_popularity = {
-    			ideology = auth_socialist
+    			ideology = soviet_socialist
    				popularity = -0.01
 			}
 		}
@@ -5471,7 +5471,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = {
-    			ideology = auth_socialist
+    			ideology = soviet_socialist
    				popularity = -0.1
 			}
 		}
@@ -5520,15 +5520,15 @@ focus_tree = {
    				popularity = -0.05
 			}
 			add_popularity = {
-    			ideology = libertarian_socialist
+    			ideology = broad_socialism
    				popularity = -0.05
 			}
 			add_popularity = {
-    			ideology = vanguard_socialist
+    			ideology = soviet_socialist
    				popularity = -0.05
 			}
 			add_popularity = {
-    			ideology = auth_socialist
+    			ideology = soviet_socialist
    				popularity = -0.05
 			}
 			custom_effect_tooltip = fra_socialism_warn

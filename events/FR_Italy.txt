@@ -89,7 +89,7 @@ country_event = { # The socialists complain
 	option = {
 		name = ita.2.a
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.05
 		}
 	}
@@ -172,11 +172,11 @@ country_event = { # Fate of the PPI
 	option = { # pick conservatives
 		name = ita.4.a
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
@@ -256,7 +256,7 @@ country_event = { # Socialists leave the PPI
 		name = ita.6.a
 		add_political_power = 50
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.05
 		}
 	}
@@ -308,7 +308,7 @@ country_event = { # Socialists attack ppi
 		name = ita.8.a
 		add_political_power = -50
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.03
 		}
 	}
@@ -331,7 +331,7 @@ country_event = { # Valkists attack the PPI
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.03
 		}
 	}
@@ -382,7 +382,7 @@ country_event = { # Market Liberals leave the coalition
 	option = {
 		name = ita.11.a
 		add_political_power = -50
-		remove_coalition_market_liberal = yes 
+		remove_coalition_classical_liberal = yes 
 		set_country_flag = ITA_liberals_right
 	}
 }
@@ -399,7 +399,7 @@ country_event = { # Libertarians join the coalition
 	option = {
 		name = ita.12.a
 		add_political_power = 50
-		add_coalition_libertarian_socialist = yes 
+		add_coalition_broad_socialism = yes 
 	}
 }
 
@@ -496,8 +496,8 @@ country_event = { # election events
 		}
 		set_country_flag = ITA_fpick_com # Foreign minister candidate
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		SOV = {
 			add_opinion_modifier = { target = ITA modifier = ITA_elecsupport_ussr }
 		}
@@ -527,7 +527,7 @@ country_event = { # election events
 		set_country_flag = ITA_fpick_lib # Foreign minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		add_political_power = 50
 		country_event = {
 			id = ita.15
@@ -564,7 +564,7 @@ country_event = { # election events
 		}
 		set_country_flag = ITA_fpick_nat # Foreign minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		every_country = {
 			limit = {
@@ -602,8 +602,8 @@ country_event = {
 			}
 		}
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		add_political_power = -30
 		country_event = {
 			id = ita.16
@@ -627,7 +627,7 @@ country_event = {
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		country_event = {
 			id = ita.16
 			hours = 12
@@ -659,7 +659,7 @@ country_event = {
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		add_political_power = 30
 		country_event = {
@@ -693,8 +693,8 @@ country_event = {
 		}
 		set_country_flag = ITA_spick_com # security minister candidate
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		load_oob = ITA_Commie_Militia
 		country_event = {
 			id = ita.17
@@ -724,7 +724,7 @@ country_event = {
 		set_country_flag = ITA_spick_lib # security minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		add_political_power = -20
 		country_event = {
 			id = ita.17
@@ -763,7 +763,7 @@ country_event = {
 		}
 		set_country_flag = ITA_spick_nat # security minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		ITA = {
 			add_opinion_modifier = { target = USA modifier = ITA_elecanti_usa }
@@ -800,8 +800,8 @@ country_event = { # Economic reforms
 		}
 		set_country_flag = ITA_epick_com # economic minister candidate
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		random_owned_state = {
 			add_extra_state_shared_building_slots = 1
 			add_building_construction = {
@@ -834,7 +834,7 @@ country_event = { # Economic reforms
 		set_country_flag = ITA_epick_lib # economic minister candidate
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		add_political_power = 20
 		country_event = {
 			id = ita.18
@@ -869,7 +869,7 @@ country_event = { # Economic reforms
 		}
 		set_country_flag = ITA_epick_nat # economic minister candidate
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		158 = {
 			add_resource = {  
@@ -921,8 +921,8 @@ country_event = { # Role of the Monarchy
 			}
 		}
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		add_political_power = -30
 		country_event = {
 			id = ita.19
@@ -946,7 +946,7 @@ country_event = { # Role of the Monarchy
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		country_event = {
 			id = ita.19
 			hours = 12
@@ -978,7 +978,7 @@ country_event = { # Role of the Monarchy
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		add_political_power = -30
 		country_event = {
@@ -1011,8 +1011,8 @@ country_event = { # Colonial policy
 			}
 		}
 		add_to_variable = {	var = ita_commie value = 1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		add_political_power = -30
 		# add opinion mod for african and middle east states
 		set_country_flag = ITA_election_done
@@ -1031,7 +1031,7 @@ country_event = { # Colonial policy
 		ai_chance = { factor = 15 }
 		add_to_variable = {	var = ita_liberal value = 1 }
 		add_to_variable = {	var = ita_liberal_vote value = 1 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		random_state = {
 			limit = {
 				OR = {
@@ -1078,7 +1078,7 @@ country_event = { # Colonial policy
 			}
 		}
 		add_to_variable = {	var = ita_nationalist value = 1 }
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		add_popularity = { ideology = valkist popularity = 0.03 }
 		add_war_support = 0.05
 		set_country_flag = ITA_election_done
@@ -1126,18 +1126,18 @@ country_event = { # Commies win
 	option = {
 		trigger = {
 			check_variable = { 
-				party_popularity@vanguard_socialist > party_popularity@libertarian_socialist 
+				party_popularity@soviet_socialist > party_popularity@broad_socialism 
 			}
 		}
 		name = ita.20.a
 		set_country_flag = ITA_com_win
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 		add_political_power = 50
 		end_coalition = yes 
-		add_coalition_libertarian_socialist = yes 
-		add_coalition_auth_socialist = yes 
+		add_coalition_broad_socialism = yes 
+		add_coalition_soviet_socialist = yes 
 		hidden_effect = {
       add_corps_commander_role = {
         character = ITA_Pompeo_Colajanni
@@ -1172,18 +1172,18 @@ country_event = { # Commies win
 	option = {
 		trigger = {
 			check_variable = { 
-				party_popularity@libertarian_socialist > party_popularity@vanguard_socialist 
+				party_popularity@broad_socialism > party_popularity@soviet_socialist 
 			}
 		}
 		name = ita.20.a 
 		set_country_flag = ITA_com_win
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 		}
 		add_political_power = 50
 		end_coalition = yes 
-		add_coalition_vanguard_socialist = yes 
-		add_coalition_auth_socialist = yes 
+		add_coalition_soviet_socialist = yes 
+		add_coalition_soviet_socialist = yes 
 		hidden_effect = {
 			add_corps_commander_role = {
         character = ITA_Pompeo_Colajanni
@@ -1265,7 +1265,7 @@ country_event = { # Soc Dem win
 		add_political_power = 50
 		remove_coalition_social_democrat = yes 
 		remove_coalition_valkist = yes
-		remove_coalition_national_populist = yes 
+		remove_coalition_reactionary_ultranationalism = yes 
 		every_country = {
 			limit = {
 				is_ai = no
@@ -1329,11 +1329,11 @@ country_event = { # liberal win
 		name = ita.22.a 
 		set_country_flag = ITA_lib_win
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 		}
 		add_political_power = 50
-		remove_coalition_market_liberal = yes
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_classical_liberal = yes
+		remove_coalition_broad_socialism = yes 
 		remove_coalition_social_democrat = yes 
 		if = {
 			limit = {
@@ -1401,20 +1401,20 @@ country_event = { # conservative win
 			ruling_party = social_conservative
 		}
 		remove_coalition_social_conservative = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_broad_socialism = yes 
 		remove_coalition_social_democrat = yes 
 		if = {
 			limit = {
 				has_country_flag = ITA_right_coalition
 			}
 			add_coalition_valkist = yes 
-			add_coalition_national_populist = yes 
+			add_coalition_reactionary_ultranationalism = yes 
 		}
 		if = {
 			limit = {
 				has_country_flag = ITA_liberals_right
 			}
-			add_coalition_market_liberal = yes 
+			add_coalition_classical_liberal = yes 
 		}
 		add_political_power = 50
 		hidden_effect = {
@@ -1477,7 +1477,7 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@valkist > ROOT.party_popularity@national_populist 
+				ROOT.party_popularity@valkist > ROOT.party_popularity@reactionary_ultranationalism 
 			}
 		}
 		name = ita.24.a 
@@ -1486,7 +1486,7 @@ country_event = { # nationalist win
 			ruling_party = valkist
 		}
 		end_coalition = yes 
-		add_coalition_national_populist = yes 
+		add_coalition_reactionary_ultranationalism = yes 
 		if = {
 			limit = {
 				has_country_flag = ITA_right_coalition
@@ -1514,13 +1514,13 @@ country_event = { # nationalist win
 	option = {
 		trigger = {
 			check_variable = { 
-				ROOT.party_popularity@national_populist > ROOT.party_popularity@valkist 
+				ROOT.party_popularity@reactionary_ultranationalism > ROOT.party_popularity@valkist 
 			}
 		}
 		name = ita.20.a 
 		set_country_flag = ITA_nat_win
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 		}
 		add_political_power = 50
 		end_coalition = yes 
@@ -1680,11 +1680,11 @@ country_event = { # Italian Civil War - Commies
 				}
 				set_capital = { state = 159 }
 				add_popularity = {
-					ideology = auth_socialist
+					ideology = soviet_socialist
 					popularity = 0.4
 				}
 				set_politics = {
-					ruling_party = auth_socialist
+					ruling_party = soviet_socialist
 					elections_allowed = no
 				}
         load_oob = PIE_socialist
@@ -1702,15 +1702,15 @@ country_event = { # Italian Civil War - Commies
 		ITA = {
       retire_character = ITA_Palmiro_Togliatti
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}	
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.05
 			}
 		}
@@ -1773,7 +1773,7 @@ country_event = { # Italian Civil War - Nationalists
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = -0.05
 			}
 		}
@@ -2606,7 +2606,7 @@ country_event = { # Christian democrats join nationalists
 			popularity = 0.03
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.01
 		}
 		add_popularity = {
@@ -2637,8 +2637,8 @@ country_event = { # Forming government - foreign minister
 		OR = {
 			AND = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 				OR = {
 					has_country_flag = ITA_fpick_sde
@@ -2653,7 +2653,7 @@ country_event = { # Forming government - foreign minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = classical_liberal
 				OR = {
 					has_country_flag = ITA_fpick_con
 					has_country_flag = ITA_fpick_lib
@@ -2672,7 +2672,7 @@ country_event = { # Forming government - foreign minister
 			AND = {
 				OR = {
 					has_government = valkist
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 				}
 				OR = {
 					has_country_flag = ITA_fpick_lib
@@ -2691,8 +2691,8 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -2708,8 +2708,8 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -2744,7 +2744,7 @@ country_event = { # Forming government - foreign minister
 		trigger = {
 			has_country_flag = ITA_fpick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 		}	
 		name = ita.50.e
@@ -2771,7 +2771,7 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -2788,7 +2788,7 @@ country_event = { # Forming government - foreign minister
 			has_country_flag = ITA_fpick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -2827,8 +2827,8 @@ country_event = { # Forming government - economic minister
 		OR = {
 			AND = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 				OR = {
 					has_country_flag = ITA_epick_sde
@@ -2843,7 +2843,7 @@ country_event = { # Forming government - economic minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = classical_liberal
 				OR = {
 					has_country_flag = ITA_epick_con
 					has_country_flag = ITA_epick_lib
@@ -2862,7 +2862,7 @@ country_event = { # Forming government - economic minister
 			AND = {
 				OR = {
 					has_government = valkist
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 				}
 				OR = {
 					has_country_flag = ITA_epick_lib
@@ -2881,8 +2881,8 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -2898,8 +2898,8 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -2934,7 +2934,7 @@ country_event = { # Forming government - economic minister
 		trigger = {
 			has_country_flag = ITA_epick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 		}	
 		name = ita.51.e
@@ -2961,7 +2961,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -2978,7 +2978,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_epick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3017,8 +3017,8 @@ country_event = { # Forming government - economic minister
 		OR = {
 			AND = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 				OR = {
 					has_country_flag = ITA_spick_sde
@@ -3033,7 +3033,7 @@ country_event = { # Forming government - economic minister
 				}
 			}
 			AND = {
-				has_government = market_liberal
+				has_government = classical_liberal
 				OR = {
 					has_country_flag = ITA_spick_con
 					has_country_flag = ITA_spick_lib
@@ -3052,7 +3052,7 @@ country_event = { # Forming government - economic minister
 			AND = {
 				OR = {
 					has_government = valkist
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 				}
 				OR = {
 					has_country_flag = ITA_spick_lib
@@ -3071,8 +3071,8 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -3088,8 +3088,8 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_com
 			NOT = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}	
@@ -3117,7 +3117,7 @@ country_event = { # Forming government - economic minister
 		trigger = {
 			has_country_flag = ITA_spick_lib
 			NOT = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 		}	
 		name = ita.52.e
@@ -3144,7 +3144,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3161,7 +3161,7 @@ country_event = { # Forming government - economic minister
 			has_country_flag = ITA_spick_nat
 			NOT = {
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3213,10 +3213,10 @@ country_event = { # Italy - What should we do about French states?
 			modifier = {
 				factor = 8
 				OR = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 					has_government = social_democrat
 					has_government = social_liberal
-					has_government = market_liberal
+					has_government = classical_liberal
 					has_government = social_conservative
 				}
 			}
@@ -3247,9 +3247,9 @@ country_event = { # Italy - What should we do about French states?
 				factor = 4
 				OR = {
 					has_government = valkist
-					has_government = national_populist
-					has_government = vanguard_socialist
-					has_government = auth_socialist
+					has_government = reactionary_ultranationalism
+					has_government = soviet_socialist
+					has_government = soviet_socialist
 				}
 			}
 		} 	
@@ -5166,11 +5166,11 @@ country_event = { # France/Italy - Corsican declares independence
 			copy_government_idea_of_ROOT = yes
 			transfer_state = 1
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = reactionary_ultranationalism
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = 0.2
 			}			
 			hidden_effect = {
@@ -10250,33 +10250,33 @@ country_event = { # Various - Italy supports commies
 		if = {
 			limit = {
 				ITA = {
-					has_government = auth_socialist
+					has_government = soviet_socialist
 				}
 			}
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.03
 			}
 		}
 		else_if = {
 			limit = {
 				ITA = {
-					has_government = vanguard_socialist
+					has_government = soviet_socialist
 				}
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = 0.03
 			}
 		}	
 		else_if = {
 			limit = {
 				ITA = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 				}
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.03
 			}
 		}
@@ -13968,7 +13968,7 @@ country_event = { # French/Italy - border war
 		date > 1938.1.1
 		threat > 0.25
 		ITA = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			has_government = valkist
 			controls_state = 158
 		}
@@ -14130,12 +14130,12 @@ country_event = { # Italy - 1941 election
 	option = { # Socialists
 		name = ita.221.b
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.10
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			add_political_power = 50
 		}
@@ -14171,10 +14171,10 @@ country_event = { # Italy - 1941 election
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.10
 			}
 		}
@@ -14186,7 +14186,7 @@ country_event = { # Italy - 1941 election
 		}
 		if = {
 			limit = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			add_political_power = 50
 		}
@@ -14217,12 +14217,12 @@ country_event = { # Italy - 1941 election
 	option = { # nationalists
 		name = ita.221.g
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.10
 		}
 		if = {
 			limit = {
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 			add_political_power = 50
 		}
@@ -14245,11 +14245,11 @@ country_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
-				has_government = auth_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
 				has_government = social_democrat
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = social_liberal
 			}
@@ -14265,9 +14265,9 @@ country_event = {
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 				has_government = valkist
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 		name = "He is sentenced to death"
@@ -14573,14 +14573,14 @@ country_event = { # Fate of the Left
 			}
    		}
 		remove_coalition_social_democrat = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_broad_socialism = yes 
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.05
 		}
 		
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
@@ -14599,9 +14599,9 @@ country_event = { # Fate of the Left
 				FRA = {
 					NOT = {
 						OR = {
-							has_government = auth_socialist
-							has_government = vanguard_socialist
-							has_government = libertarian_socialist
+							has_government = soviet_socialist
+							has_government = soviet_socialist
+							has_government = broad_socialism
 						}
 					}
 				}
@@ -14625,14 +14625,14 @@ country_event = { # Fate of the Left
 			}
 		}
 		remove_coalition_social_democrat = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_broad_socialism = yes 
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.05
 		}
 
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
@@ -14651,9 +14651,9 @@ country_event = { # Fate of the Left
 				FRA = {
 					NOT = {
 						OR = {
-							has_government = auth_socialist
-							has_government = vanguard_socialist
-							has_government = libertarian_socialist
+							has_government = soviet_socialist
+							has_government = soviet_socialist
+							has_government = broad_socialism
 						}
 					}
 				}
@@ -14678,12 +14678,12 @@ country_event = { # Fate of the Left
 		}
 		remove_coalition_social_democrat = yes 
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.05
 		}
 
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			last_election = "1934.3.26"
 			election_frequency = 60
 			elections_allowed = no
@@ -14702,9 +14702,9 @@ country_event = { # Fate of the Left
 				FRA = {
 					NOT = {
 						OR = {
-							has_government = auth_socialist
-							has_government = vanguard_socialist
-							has_government = libertarian_socialist
+							has_government = soviet_socialist
+							has_government = soviet_socialist
+							has_government = broad_socialism
 						}
 					}
 				}
@@ -14717,14 +14717,14 @@ country_event = { # Fate of the Left
 	option = { # Matteotti wins
 		name = itasoc.2.e
 		set_country_flag = ITA_socialist_picked	
-		remove_coalition_auth_socialist = yes 
-		remove_coalition_libertarian_socialist = yes 
+		remove_coalition_soviet_socialist = yes 
+		remove_coalition_broad_socialism = yes 
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		
@@ -14740,11 +14740,11 @@ country_event = { # Fate of the Left
 		name = itasoc.2.f
 		set_country_flag = ITA_socialist_picked
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.05
 		}
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		
@@ -14825,7 +14825,7 @@ country_event = { # France - Italy kicks out the pope
 	option = {
 		name = itasoc.4.b
 		add_popularity = {
-			ideology = libertarian_socialist 
+			ideology = broad_socialism 
 			popularity = 0.02
 		}
 		add_political_power = 25
@@ -14878,7 +14878,7 @@ country_event = { # Soviets - Italy wants support
 		name = itasoc.5.b
 		add_political_power = 50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		ITA = {
@@ -15258,11 +15258,11 @@ country_event = { #Italy - Pick Nat Pops or Valkists
 			add_coalition_valkist = yes 
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.15
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
 		hidden_effect = {
@@ -15281,10 +15281,10 @@ country_event = { #Italy - Pick Nat Pops or Valkists
 		if = {
 			limit = {
 				NOT = {
-					is_in_array = { ROOT.coalition_partners = token:national_populist }
+					is_in_array = { ROOT.coalition_partners = token:reactionary_ultranationalism }
 				}
 			}
-			add_coalition_national_populist = yes 
+			add_coalition_reactionary_ultranationalism = yes 
 		}		
 		add_popularity = {
 			ideology = valkist

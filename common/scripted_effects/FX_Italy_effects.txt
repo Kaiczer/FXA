@@ -47,7 +47,7 @@ ITA_create_east_africa = {
       add_country_leader_role = {
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = { }
         }
       }
@@ -75,7 +75,7 @@ ITA_create_east_africa = {
       add_country_leader_role = {
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = reactionary_ultranationalism_subtype
           traits = { }
         }
       }
@@ -670,14 +670,14 @@ ITA_become_kingdom = {
       ITA_Amedeo_di_Savoia_Aosta = {
         promote_character = authsoc_subtype
         promote_character = vansoc_subtype
-        promote_character = libertarian_socialist_subtype
+        promote_character = broad_socialism_subtype
         promote_character = social_democrat_subtype
         promote_character = social_liberal_subtype
-        promote_character = market_liberal_subtype
+        promote_character = classical_liberal_subtype
         promote_character = social_conservative_subtype
         promote_character = authoritarian_democrat_subtype
         promote_character = paternal_autocrat_subtype
-        promote_character = national_populist_subtype
+        promote_character = reactionary_ultranationalism_subtype
         promote_character = valkist_subtype
       }
     }

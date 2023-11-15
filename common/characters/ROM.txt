@@ -19,7 +19,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -34,7 +34,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -54,7 +54,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_REGENCY_COUNCIL_ROMANIA_DESC
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -423,7 +423,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Apostol_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -506,7 +506,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Bratianu_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_smiling_oilman
 			}
 		}
@@ -534,7 +534,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Angelescu_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -644,7 +644,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Horia_Sima_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_backroom_backstabber
 			}
 		}
@@ -718,7 +718,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ana_Pauker_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -772,7 +772,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Gheorghe_Tatarescu_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -799,7 +799,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Savel_Radulescu_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_ideological_crusader
 			}
 		}
@@ -880,7 +880,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Constantin_Papanace_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_moderate_among_radicals
 			}
 		}
@@ -907,7 +907,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mihail_Sturdza_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_hawkish_intervener
 			}
 		}
@@ -934,7 +934,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Radu_Mironovici_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_biased_intellectual
 			}
 		}
@@ -961,7 +961,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Miron_Constantinescu_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1015,7 +1015,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Victor_Slavescu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_bank_president
 			}
 		}
@@ -1042,7 +1042,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mitita_Constantinescu_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_construction_magnate
 			}
 		}
@@ -1123,7 +1123,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Ilie_Garneata_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_mixed_economy
 			}
 		}
@@ -1150,7 +1150,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Mihail_Manoilescu_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_steel_magnate
 			}
 		}
@@ -1204,7 +1204,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Teohari_Georgescu_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1258,7 +1258,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Victor_Iamandi_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1285,7 +1285,7 @@ characters = {
 				ROOT = { clr_country_flag = ROM_Richard_Franasovici_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_crime_fighter
 			}
 		}

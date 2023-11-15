@@ -261,7 +261,7 @@ focus_tree = {
 
 	focus = {
 		id = MEX_national_synarchist_union
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		prerequisite = { focus = MEX_final_election }
 		mutually_exclusive = { focus = MEX_royalists focus = MEX_valkists }
 		x = 4
@@ -294,9 +294,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_crackdown_on_socialist_elements"
-			add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
-			add_popularity = { ideology = auth_socialist popularity = -0.05 }
+			add_popularity = { ideology = broad_socialism popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
 			add_political_power = 25
 		}
 	}
@@ -314,7 +314,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus MEX_crackdown_on_democratic_elements"
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			add_popularity = { ideology = market_liberal popularity = -0.05 }
+			add_popularity = { ideology = classical_liberal popularity = -0.05 }
 			add_popularity = { ideology = social_liberal popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 			add_political_power = 25

@@ -65,16 +65,16 @@ add_ideas = {
 set_cosmetic_tag = NFQ_FRA
 
 set_popularities = {
-	auth_socialist = 0
-	vanguard_socialist = 3
-	libertarian_socialist = 4
+	soviet_socialist = 0
+	soviet_socialist = 3
+	broad_socialism = 4
 	social_democrat = 0
 	social_liberal = 25
-	market_liberal = 9
+	classical_liberal = 9
 	social_conservative = 15
 	authoritarian_democrat = 1
 	paternal_autocrat = 43
-	national_populist = 0
+	reactionary_ultranationalism = 0
 	valkist = 0
 }
 	

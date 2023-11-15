@@ -11,7 +11,7 @@ HUN_alternate_plan_1 = { #why is the word alternate in there? your guess is as g
 		original_tag = HUN
 		has_country_flag = hun_strat_plan
 		HUN = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 	}
 
@@ -22,12 +22,12 @@ HUN_alternate_plan_1 = { #why is the word alternate in there? your guess is as g
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_liberal
 				has_government = social_democrat
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				has_completed_focus = hun_demand_transylvania # might delete this later, needs more testing
 			}
 		}

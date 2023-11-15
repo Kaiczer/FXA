@@ -88,7 +88,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = market_liberal_subtype
+              ideology = classical_liberal_subtype
               traits = {}
             }
           }
@@ -116,7 +116,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = national_populist_subtype
+              ideology = reactionary_ultranationalism_subtype
               traits = {}
             }
           }
@@ -373,15 +373,15 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RUS_anti_communist_education"
 			add_popularity = { 
-			    ideology = auth_socialist
+			    ideology = soviet_socialist
 			    popularity = -0.20 
 			}
 			add_popularity = { 
-			    ideology = vanguard_socialist
+			    ideology = soviet_socialist
 			    popularity = -0.20
 		    }
 			add_popularity = { 
-			    ideology = libertarian_socialist 
+			    ideology = broad_socialism 
 			    popularity = -0.20
 		    }
 		}

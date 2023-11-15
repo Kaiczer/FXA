@@ -96,23 +96,23 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = market_liberal
+	ruling_party = classical_liberal
 	last_election = "1934.9.15"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_popularities = {
-	auth_socialist = 0
-	vanguard_socialist = 0
-	libertarian_socialist = 2
+	soviet_socialist = 0
+	soviet_socialist = 0
+	broad_socialism = 2
 	social_democrat = 32
 	social_liberal = 3
-	market_liberal = 38
+	classical_liberal = 38
 	social_conservative = 16
 	authoritarian_democrat = 3
 	paternal_autocrat = 0
-	national_populist = 6
+	reactionary_ultranationalism = 6
 	valkist = 0
 }
 

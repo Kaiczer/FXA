@@ -58,14 +58,14 @@ focus_tree = {
 	}
 	focus = {
 		id = EST_vaps_movement_siezes_power
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		cost = 4.30
 		x = 10
 		y = 0
 		
 		available = {
 			has_country_flag = EST_vaps_movement_siezes_power_flag
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		
 		ai_will_do = {
@@ -76,7 +76,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_vaps_movement_siezes_power"
 			add_political_power = 25
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		}
 
 	}
@@ -275,7 +275,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_trial_pats_loyalists"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = national_populist popularity = -0.08 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.08 }
 			remove_ideas = EST_ineffective_government_and_unrest1_idea
 			country_event = { id = estonia.104 days = 1 }
 		}
@@ -542,7 +542,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_rely_popular_support"
 			add_political_power = -25
 			add_stability = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.03 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		}
 
 	}
@@ -683,9 +683,9 @@ focus_tree = {
 			add_political_power = 20
 			add_stability = 0.05
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = classical_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
-			add_popularity = { ideology = national_populist popularity = 0.01 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.01 }
 			country_event = { id = estonia.105 days = 1 }
 		}
 
@@ -762,7 +762,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_strengthen_presidential_power"
 			add_political_power = -25
 			add_stability = -0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = EST_empower_movement_figures_idea
 				add_idea = EST_strengthen_presidential_power_idea
@@ -812,7 +812,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_veterans_cause"
 			add_stability = 0.03
 			add_war_support = 0.02
-			add_popularity = { ideology = national_populist popularity = 0.02 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 			swap_ideas = {
 				remove_idea = EST_strengthen_presidential_power_idea
 				add_idea = EST_veterans_cause_idea
@@ -1036,9 +1036,9 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_defence_against_reds"
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = social_liberal popularity = -0.03 }
 			add_war_support = 0.05
@@ -1065,9 +1065,9 @@ focus_tree = {
 		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_for_stable_and_secure_country"
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = broad_socialism popularity = -0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.03 }
 			add_popularity = { ideology = social_liberal popularity = -0.03 }
 			add_war_support = 0.05
@@ -1166,9 +1166,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus EST_future_military_government"
 			add_political_power = -20
 			add_stability = 0.08
-			add_popularity = { ideology = national_populist popularity = 0.08 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.08 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 }
+			add_popularity = { ideology = classical_liberal popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = 0.02 }
 			country_event = { id = estonia.107 days = 1 }
 		}

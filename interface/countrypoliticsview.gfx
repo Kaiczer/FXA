@@ -489,16 +489,16 @@ spriteTypes = {
 	}
 
   spriteType = {
-		name = "GFX_ideology_auth_socialist_group"
+		name = "GFX_ideology_soviet_socialist_group"
 		texturefile = "gfx/interface/ideologies/auth_socialism_group.png"
 	}
   spriteType = {
-		name = "GFX_ideology_vanguard_socialist_group"
-		texturefile = "gfx/interface/ideologies/vanguard_socialist_group.png"
+		name = "GFX_ideology_soviet_socialist_group"
+		texturefile = "gfx/interface/ideologies/soviet_socialist_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_libertarian_socialist_group"
-		texturefile = "gfx/interface/ideologies/libertarian_socialist_group.png"
+		name = "GFX_ideology_broad_socialism_group"
+		texturefile = "gfx/interface/ideologies/broad_socialism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_democrat_group"
@@ -509,8 +509,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_liberal_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_market_liberal_group"
-		texturefile = "gfx/interface/ideologies/market_liberal_group.png"
+		name = "GFX_ideology_classical_liberal_group"
+		texturefile = "gfx/interface/ideologies/classical_liberal_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_social_conservative_group"
@@ -525,8 +525,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_national_populist_group"
-		texturefile = "gfx/interface/ideologies/national_populist_group.png"
+		name = "GFX_ideology_reactionary_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/reactionary_ultranationalism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_valkist_group"

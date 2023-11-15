@@ -237,7 +237,7 @@ country_event = { # King Edward VIII assassinated
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = libertarian_socialist_subtype
+						ideology = broad_socialism_subtype
 						traits = { }
 					}
 				}
@@ -258,7 +258,7 @@ country_event = { # King Edward VIII assassinated
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = market_liberal_subtype
+						ideology = classical_liberal_subtype
 						traits = { }
 					}
 				}
@@ -286,7 +286,7 @@ country_event = { # King Edward VIII assassinated
 				add_country_leader_role = {
 					promote_leader = yes
 					country_leader = {
-						ideology = national_populist_subtype
+						ideology = reactionary_ultranationalism_subtype
 						traits = { }
 					}
 				}
@@ -1014,11 +1014,11 @@ country_event = { # Clashes with Police
 		name = uk.24.a
 		add_stability = -0.025
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1611,7 +1611,7 @@ country_event = {	# The Revolution is here!
 			transfer_state = 120
 			transfer_state = 136
 			change_tag_from = ENG
-			set_politics = { ruling_party = vanguard_socialist elections_allowed = no }
+			set_politics = { ruling_party = soviet_socialist elections_allowed = no }
 		}
 		UOB = { country_event = { id = uob.2 hours = 1 } }
 		hidden_effect = {
@@ -1667,7 +1667,7 @@ country_event = {	# Snap Elections Results
 			}
 
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = classical_liberal popularity = 0.05 }
 			set_country_flag = tory_coal
 		}
 	}
@@ -1698,7 +1698,7 @@ country_event = {	# Snap Elections Results
 			}
 
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			set_country_flag = labour_ilp
 			country_event = { id = uk.140 days = 30 }
 		}
@@ -1781,7 +1781,7 @@ country_event = { # General Elections
 				ENG_John_Anderson_sec_mli
 			}
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = classical_liberal popularity = 0.05 }
 			set_country_flag = tory_coal
 		}
 	}
@@ -1812,7 +1812,7 @@ country_event = { # General Elections
 				ENG_James_Chuter_Ede_sec_sde
 			}
 			increase_ruling_party_popularity_by_15 = yes
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			set_country_flag = labour_ilp
 			country_event = { id = uk.140 days = 30 }
 		}
@@ -2154,7 +2154,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -2249,7 +2249,7 @@ country_event = { # Ireland and the United Kingdom
         character = IRE_James_Matthew_Dillon
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -2736,7 +2736,7 @@ country_event = { # National Coal Strike 1938
 		NOT = { has_country_flag = direct_rule_from_buckingham }
 		NOT = { has_country_flag = mil_coup }
 		NOT = { has_government = social_democrat }
-		NOT = { has_government = libertarian_socialist }
+		NOT = { has_government = broad_socialism }
 	}
 
   option = { # Ignore this rabble
@@ -3551,7 +3551,7 @@ country_event = { # Changing Allegiances
 	option = { # Tell the Party Whip to get his act together!
 		name = uk.143.a
 		add_political_power = -50
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = 0.05 }
 		hidden_effect = {
 			country_event = { id = uk.144 days = 30 }
 		}
@@ -3618,7 +3618,7 @@ country_event = { # Labour Defectors
 	option = { # Crows! Vultures! Rats!
 		name = uk.146.a
 		add_political_power = -50
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = 0.05 }
 		hidden_effect = {
 			country_event = { id = uk.147 days = 30 }
 		}
@@ -3636,7 +3636,7 @@ country_event = { # A New Prime Minister
 	option = { # In this period of history, change is necessary
 		name = uk.147.a
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -3654,26 +3654,26 @@ country_event = { # A New Prime Minister
 			if = {
 				limit = {
 					AND = {
-						libertarian_socialist < 20
-						libertarian_socialist > 10
+						broad_socialism < 20
+						broad_socialism > 10
 					}
 				}
-				add_popularity = { ideology = libertarian_socialist popularity = 0.10 }
+				add_popularity = { ideology = broad_socialism popularity = 0.10 }
 			}
 			if = {
 				limit = {
-					libertarian_socialist < 10
+					broad_socialism < 10
 				}
-				add_popularity = { ideology = libertarian_socialist popularity = 0.30 }
+				add_popularity = { ideology = broad_socialism popularity = 0.30 }
 			}
 			if = {
 				limit = {
 					AND = {
-						libertarian_socialist < 30
-						libertarian_socialist > 20
+						broad_socialism < 30
+						broad_socialism > 20
 					}
 				}
-				add_popularity = { ideology = libertarian_socialist popularity = 0.10 }
+				add_popularity = { ideology = broad_socialism popularity = 0.10 }
 			}
 			ENG_Jock_Haston = { promote_character = yes }
 			ENG_Arthur_MacManus = { promote_character = yes }
@@ -3768,7 +3768,7 @@ country_event = { # Subjugating Labour
 	option = { # Our socialist brothers must be shown the way.
 		name = uk.152.a
 		add_political_power = 100
-		add_popularity = { ideology = libertarian_socialist popularity = 0.1 }
+		add_popularity = { ideology = broad_socialism popularity = 0.1 }
 	}
 }
 
@@ -4041,7 +4041,7 @@ country_event = { # The Anglo-Arabian Oil Company
 		name = ukf.2.c
 		add_political_power = 100
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.05
 		}
 	}
@@ -9965,7 +9965,7 @@ country_event = {
 				add = -20
 			}
 			modifier = {
-				ENG = { has_government = libertarian_socialist }
+				ENG = { has_government = broad_socialism }
 				add = -20
 			}
 			modifier = {
@@ -10077,7 +10077,7 @@ country_event = {
 				add = 20
 			}
 			modifier = {
-				ENG = { has_government = libertarian_socialist }
+				ENG = { has_government = broad_socialism }
 				add = 20
 			}
 			modifier = {
@@ -11565,10 +11565,10 @@ country_event = { # Marxist Rally
 		add_political_power = -50
 		random_list = {
 			60 = {
-				add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+				add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 			}
 			40 = {
-				add_popularity = { ideology = auth_socialist popularity = 0.05 }
+				add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 			}
 		}
 		hidden_effect = {
@@ -11625,10 +11625,10 @@ country_event = { # Successful Policies
 		}
 		if = {
 			limit = {
-				has_government = libertarian_socialist
-				libertarian_socialist < 50
+				has_government = broad_socialism
+				broad_socialism < 50
 			}
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 		}
 	}
 }

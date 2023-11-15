@@ -148,9 +148,9 @@ propaganda_efforts = {
 			industrial_capacity_factory = -0.05
 			political_power_cost = 0.15
 			social_conservative_drift = -0.05
-			market_liberal_drift = -0.05
+			classical_liberal_drift = -0.05
 			social_liberal_drift = -0.05
-			national_populist_drift = -0.05
+			reactionary_ultranationalism_drift = -0.05
 		}
 		
 		complete_effect = {
@@ -189,9 +189,9 @@ propaganda_efforts = {
 			production_factory_max_efficiency_factor = -0.05
 			political_power_cost = 0.15
 			social_democrat_drift = -0.05
-			libertarian_socialist_drift = -0.05
-			vanguard_socialist_drift = -0.05
-			auth_socialist_drift = -0.05
+			broad_socialism_drift = -0.05
+			soviet_socialist_drift = -0.05
+			soviet_socialist_drift = -0.05
 		}
 		
 		complete_effect = {
@@ -560,9 +560,9 @@ CAN_parliamentary_affairs = {
 		}
 		
 		modifier = {
-			libertarian_socialist_drift = -0.05
-			vanguard_socialist_drift = -0.05
-			auth_socialist_drift = -0.05
+			broad_socialism_drift = -0.05
+			soviet_socialist_drift = -0.05
+			soviet_socialist_drift = -0.05
 			authoritarian_democrat_drift = -0.05
 			valkist_drift = -0.05
 			political_power_gain = -0.1

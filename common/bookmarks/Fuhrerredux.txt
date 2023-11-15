@@ -14,7 +14,7 @@ bookmarks = {
     #### Majors
     "USA" = {
       history = "USA_FUHRERREDUX_DESC"
-      ideology = market_liberal
+      ideology = classical_liberal
       ideas = {
         USA_the_greater_depression
         USA_malnourished_populace
@@ -29,7 +29,7 @@ bookmarks = {
     }
     "SOV" = {
       history = "SOV_FUHRERREDUX_DESC"
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       ideas = {
         unpopular_conscription
         unbalanced_economy
@@ -124,7 +124,7 @@ bookmarks = {
     ### Minors
     "HOL" = {
       history = "HOL_FUHRERREDUX_DESC"
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       minor = yes
       ideas = {
         HOL_revaunchist_state
@@ -156,7 +156,7 @@ bookmarks = {
     }
     "HUN" = {
       history = "HUN_FUHRERREDUX_DESC"
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       minor = yes
       ideas = {
         hun_trianon
@@ -295,7 +295,7 @@ bookmarks = {
     }
     "SWI" = {
       history = "SWI_FUHRERREDUX_DESC"
-      ideology = market_liberal
+      ideology = classical_liberal
       minor = yes
       ideas = {
         SWI_die_schweizer_armee

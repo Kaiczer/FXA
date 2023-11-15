@@ -8,9 +8,9 @@ AST_DD_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -39,9 +39,9 @@ AST_CL_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -67,9 +67,9 @@ AST_CA_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -95,9 +95,9 @@ AST_BB_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -122,9 +122,9 @@ AST_BC_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -149,9 +149,9 @@ AST_CV_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -177,9 +177,9 @@ AST_SS_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -203,9 +203,9 @@ AST_ANIMALS = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -246,9 +246,9 @@ AST_DD_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -275,9 +275,9 @@ AST_CL_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -301,9 +301,9 @@ AST_CA_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -327,9 +327,9 @@ AST_BB_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -352,9 +352,9 @@ AST_BC_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -377,9 +377,9 @@ AST_CV_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -403,9 +403,9 @@ AST_SS_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -427,9 +427,9 @@ AST_ANIMALS_COMMUNIST = {
 
 	can_use = {
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 

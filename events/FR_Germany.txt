@@ -205,15 +205,15 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -252,15 +252,15 @@ country_event = { # Germany wants to renegotiate Navy
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -430,15 +430,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.5
@@ -489,15 +489,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 2
@@ -544,15 +544,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.5
@@ -613,15 +613,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 2
@@ -1163,15 +1163,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -1217,15 +1217,15 @@ country_event = {
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -1517,15 +1517,15 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -1562,15 +1562,15 @@ country_event = { # German alliance - Poland
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -2985,7 +2985,7 @@ country_event = { # Italy supports Austria without France
 		ITA = {
 			OR = {
 				has_government = social_democrat
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 			}
 		}
@@ -7843,7 +7843,7 @@ country_event = {
 		AND = {
 			original_tag = GER
 			SHO = {
-				has_government = auth_socialist
+				has_government = soviet_socialist
 				owns_state = 37
 			}
 			GER = {
@@ -7949,15 +7949,15 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -7996,15 +7996,15 @@ country_event = { # Slovakia - German alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -8620,15 +8620,15 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -8667,15 +8667,15 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -9359,15 +9359,15 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -9406,15 +9406,15 @@ country_event = { # Finland - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -9492,15 +9492,15 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -9571,15 +9571,15 @@ country_event = { # Turkey - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -9758,15 +9758,15 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -9803,15 +9803,15 @@ country_event = { # Lithuania - German support?
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -11602,12 +11602,12 @@ country_event = { # Italy Capitulates to North Africa
 					has_war_with = GER
 					NOT = {
 						OR = {
-							has_government = vanguard_socialist
-							has_government = libertarian_socialist
-							has_government = auth_socialist
+							has_government = soviet_socialist
+							has_government = broad_socialism
+							has_government = soviet_socialist
 							has_government = valkist
 							has_government = paternal_autocrat
-							has_government = national_populist
+							has_government = reactionary_ultranationalism
 						}
 					}
 				}

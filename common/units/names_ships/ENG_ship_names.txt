@@ -8,9 +8,9 @@ ENG_DD_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -72,9 +72,9 @@ ENG_DE_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -116,9 +116,9 @@ ENG_CL_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -153,9 +153,9 @@ ENG_CLAA_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -186,9 +186,9 @@ ENG_CA_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -219,9 +219,9 @@ ENG_MINELAYERS_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -249,9 +249,9 @@ ENG_BB_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -279,9 +279,9 @@ ENG_BC_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -307,9 +307,9 @@ ENG_CV_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -337,9 +337,9 @@ ENG_CVL_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -368,9 +368,9 @@ ENG_SS_HISTORICAL = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -418,9 +418,9 @@ ENG_COUNTIES = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -442,9 +442,9 @@ ENG_CITIES = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -466,9 +466,9 @@ ENG_COLONIES = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -493,9 +493,9 @@ ENG_DD_COMMUNIST = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -555,9 +555,9 @@ ENG_DE_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -597,9 +597,9 @@ ENG_CL_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -632,9 +632,9 @@ ENG_CLAA_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -663,9 +663,9 @@ ENG_CA_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -694,9 +694,9 @@ ENG_MINELAYERS_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -722,9 +722,9 @@ ENG_BB_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -750,9 +750,9 @@ ENG_BC_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -776,9 +776,9 @@ ENG_CV_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -804,9 +804,9 @@ ENG_CVL_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -833,9 +833,9 @@ ENG_SS_COMMUNISM= {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -881,9 +881,9 @@ ENG_COUNTIES_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 
@@ -903,9 +903,9 @@ ENG_CITIES_COMMUNISM = {
 
 	can_use = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
-			has_government = libertarian_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
+			has_government = broad_socialism
 		}
 	}
 

@@ -144,7 +144,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_dispose_of_the_traitors"
 		
 			add_popularity = { 
-				ideology = market_liberal popularity = -0.05
+				ideology = classical_liberal popularity = -0.05
 				}
 			add_popularity = { 
 				ideology = social_conservative popularity = -0.05
@@ -320,9 +320,9 @@ focus_tree = {
 						is_in_faction_with = BOL
 						is_subject_of = BOL
 						has_war_with = BOL
-						has_government = vanguard_socialist
-						has_government = auth_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 					OR = {
 						any_neighbor_country = { tag = BOL }
@@ -340,12 +340,12 @@ focus_tree = {
 						is_subject_of = BOL
 						has_war_with = BOL
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = valkist
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = paternal_autocrat						
 
 					}
@@ -389,9 +389,9 @@ focus_tree = {
 				has_war = no
 				NOT = {
 					CHL = {
-						has_government = auth_socialist
-						has_government = vanguard_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}				
 			}
@@ -431,9 +431,9 @@ focus_tree = {
 		available = {
 			NOT = {
 				PRU = {
-					has_government = auth_socialist
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -457,9 +457,9 @@ focus_tree = {
 				has_war = no
 				NOT = {
 					PRU = {
-						has_government = auth_socialist
-						has_government = vanguard_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}				
 			}
@@ -490,9 +490,9 @@ focus_tree = {
 				has_war = no
 				NOT = {
 					PAR = {
-						has_government = auth_socialist
-						has_government = vanguard_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}				
 			}
@@ -1672,7 +1672,7 @@ focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_expel_the_colonials"
 			add_political_power = 50
 			add_popularity = { 
-				ideology = market_liberal popularity = -0.05
+				ideology = classical_liberal popularity = -0.05
 				}
 			add_popularity = { 
 				ideology = social_democrat popularity = -0.05
@@ -1700,10 +1700,10 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_control_the_opposition"
 			add_popularity = { 
-				ideology = auth_socialist popularity = -0.10
+				ideology = soviet_socialist popularity = -0.10
 				}
 			add_popularity = { 
-				ideology = vanguard_socialist popularity = -0.05
+				ideology = soviet_socialist popularity = -0.05
 			
 			}
 		}
@@ -2391,7 +2391,7 @@ focus = {
 
 focus = {
 		id = BOL_maintaining_the_revolution
-		icon = GFX_goal_ideology_auth_socialist
+		icon = GFX_goal_ideology_soviet_socialist
 		x = 9
 		y = 13
 		cost = 10
@@ -2400,7 +2400,7 @@ focus = {
 		bypass = {
 			has_country_flag = BOL_intbois
 		}
-		mutually_exclusive = { focus = BOL_vanguard_socialist_revolutionaries }
+		mutually_exclusive = { focus = BOL_soviet_socialist_revolutionaries }
 		mutually_exclusive = { focus = BOL_social_autonomism }
 		prerequisite = { focus = BOL_workers_congress_of_bolivia }		
 		completion_reward = {
@@ -2499,8 +2499,8 @@ focus = {
 	}
 
 focus = {
-		id = BOL_vanguard_socialist_revolutionaries
-		icon = GFX_goal_ideology_vanguard_socialist
+		id = BOL_soviet_socialist_revolutionaries
+		icon = GFX_goal_ideology_soviet_socialist
 		x = 13
 		y = 13
 		cost = 10
@@ -2513,7 +2513,7 @@ focus = {
 		mutually_exclusive = { focus = BOL_social_autonomism }
 		prerequisite = { focus = BOL_workers_congress_of_bolivia }				
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus BOL_vanguard_socialist_revolutionaries"
+			log = "[GetDateText]: [Root.GetName]: Focus BOL_soviet_socialist_revolutionaries"
 
 		}		
 	}	
@@ -2525,7 +2525,7 @@ focus = {
 		y = 14
 		cost = 10
 		ai_will_do = { factor = 20 } 
-		prerequisite = { focus = BOL_vanguard_socialist_revolutionaries }				
+		prerequisite = { focus = BOL_soviet_socialist_revolutionaries }				
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_collectivized_farms"
 			random_owned_state = {
@@ -2539,7 +2539,7 @@ focus = {
 }	
 
 focus = {
-		id = BOL_vanguard_socialist_economy
+		id = BOL_soviet_socialist_economy
 		icon = GFX_goal_collie_industry
 		x = 12
 		y = 15
@@ -2547,8 +2547,8 @@ focus = {
 		ai_will_do = { factor = 20 } 
 		prerequisite = { focus = BOL_collectivized_farms }				
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus BOL_vanguard_socialist_economy"
-			add_ideas = BOL_vanguard_socialist_administration
+			log = "[GetDateText]: [Root.GetName]: Focus BOL_soviet_socialist_economy"
+			add_ideas = BOL_soviet_socialist_administration
 	}	
 }
 
@@ -2559,7 +2559,7 @@ focus = {
 		y = 14
 		cost = 10
 		ai_will_do = { factor = 20 } 
-		prerequisite = { focus = BOL_vanguard_socialist_revolutionaries }				
+		prerequisite = { focus = BOL_soviet_socialist_revolutionaries }				
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_political_checks"
 			add_political_power = 50
@@ -2578,26 +2578,26 @@ focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_proletariat_democracy"
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = 0.075
+				ideology = broad_socialism popularity = 0.075
 				}
 			add_popularity = { 
-				ideology = vanguard_socialist popularity = 0.075
+				ideology = soviet_socialist popularity = 0.075
 				}
 			add_popularity = { 
-				ideology = auth_socialist popularity = 0.075
+				ideology = soviet_socialist popularity = 0.075
 				}
 	}	
 }
 
 focus = {
 		id = BOL_workers_republic
-		icon = GFX_goal_vanguard_socialist_menace
+		icon = GFX_goal_soviet_socialist_menace
 		x = 13
 		y = 16
 		cost = 10
 		ai_will_do = { factor = 20 } 
 		prerequisite = { focus = BOL_proletariat_democracy }
-		prerequisite = { focus = BOL_vanguard_socialist_economy }			
+		prerequisite = { focus = BOL_soviet_socialist_economy }			
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_workers_republic"
 			country_event = { id = bol.42 }
@@ -2616,7 +2616,7 @@ focus = {
 			has_country_flag = BOL_libboring
 		}
 		prerequisite = { focus = BOL_workers_congress_of_bolivia }
-		mutually_exclusive = { focus = BOL_vanguard_socialist_revolutionaries }
+		mutually_exclusive = { focus = BOL_soviet_socialist_revolutionaries }
 		mutually_exclusive = { focus = BOL_maintaining_the_revolution }		
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BOL_social_autonomism"

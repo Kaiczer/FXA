@@ -28,7 +28,7 @@ country_event = {
 			country_event = {
 				id = insulindia.1 days = 25
 			}
-			add_coalition_vanguard_socialist = yes 
+			add_coalition_soviet_socialist = yes 
 			add_coalition_social_conservative = yes 
 		}
 	}
@@ -231,24 +231,24 @@ country_event = {
 		name = insulindia.5.a
 		ai_chance = { base = 25 }
 		add_political_power = 15
-		add_popularity = { ideology = vanguard_socialist popularity = 0.04 }
-		set_country_flag = INS_vanguard_socialist_appeacement
+		add_popularity = { ideology = soviet_socialist popularity = 0.04 }
+		set_country_flag = INS_soviet_socialist_appeacement
 	}
 	
 	option = {
 		name = insulindia.5.b
 		ai_chance = { base = 50 }
 		add_political_power = -10
-		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
-		set_country_flag = INS_vanguard_socialist_middle_ground
+		add_popularity = { ideology = soviet_socialist popularity = 0.01 }
+		set_country_flag = INS_soviet_socialist_middle_ground
 	}
 	
 	option = {
 		name = insulindia.5.c
 		ai_chance = { base = 25 }
 		add_political_power = -30
-		add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
-		set_country_flag = INS_vanguard_socialist_rejected
+		add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+		set_country_flag = INS_soviet_socialist_rejected
 	}
 }
 
@@ -271,7 +271,7 @@ country_event = {
 		name = insulindia.6.a
 		ai_chance = { base = 25 }
 		add_political_power = 15
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 		add_popularity = { ideology = social_conservative popularity = 0.02 }
 		set_country_flag = INS_islamist_appeacement
 	}
@@ -289,7 +289,7 @@ country_event = {
 		ai_chance = { base = 25 }
 		add_political_power = -30
 		add_popularity = { ideology = social_conservative popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = -0.02 }
 		set_country_flag = INS_islamist_rejected
 	}
 }
@@ -348,7 +348,7 @@ country_event = {
         original_tag = INS
 		has_country_flag = INS_nationalist_appeacement
 		OR = {
-			has_country_flag = INS_vanguard_socialist_rejected
+			has_country_flag = INS_soviet_socialist_rejected
 			has_country_flag = INS_islamist_rejected
 		}
     }
@@ -380,8 +380,8 @@ country_event = {
 	trigger = {
         original_tag = INS
 		OR = {
-			has_country_flag = INS_vanguard_socialist_appeacement
-			has_country_flag = INS_vanguard_socialist_middle_ground
+			has_country_flag = INS_soviet_socialist_appeacement
+			has_country_flag = INS_soviet_socialist_middle_ground
 		}
 		has_country_flag = INS_islamist_rejected
     }
@@ -395,7 +395,7 @@ country_event = {
 		add_political_power = -20
 		add_stability = -0.05
 		add_popularity = { ideology = social_conservative popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath
 		}
@@ -415,7 +415,7 @@ country_event = {
 			has_country_flag = INS_islamist_appeacement
 			has_country_flag = INS_islamist_middle_ground
 		}
-		has_country_flag = INS_vanguard_socialist_rejected
+		has_country_flag = INS_soviet_socialist_rejected
     }
 	
     fire_only_once = yes
@@ -426,8 +426,8 @@ country_event = {
 		name = insulindia.11.a
 		add_political_power = -20
 		add_stability = -0.05
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+		add_popularity = { ideology = broad_socialism popularity = 0.01 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 		hidden_effect = {
 			set_country_flag = INS_appeacement_aftermath
 		}
@@ -448,8 +448,8 @@ country_event = {
 			has_country_flag = INS_islamist_middle_ground
 		}
 		OR = {
-			has_country_flag = INS_vanguard_socialist_appeacement
-			has_country_flag = INS_vanguard_socialist_middle_ground
+			has_country_flag = INS_soviet_socialist_appeacement
+			has_country_flag = INS_soviet_socialist_middle_ground
 		}
 		has_country_flag = INS_nationalist_rejected
     }
@@ -479,7 +479,7 @@ country_event = {
 	trigger = {
         original_tag = INS
 		has_country_flag = INS_nationalist_rejected
-		has_country_flag = INS_vanguard_socialist_rejected
+		has_country_flag = INS_soviet_socialist_rejected
 		has_country_flag = INS_islamist_rejected
     }
 	
@@ -510,7 +510,7 @@ country_event = {
 	trigger = {
         original_tag = INS
 		has_country_flag = INS_nationalist_appeacement
-		has_country_flag = INS_vanguard_socialist_appeacement
+		has_country_flag = INS_soviet_socialist_appeacement
 		has_country_flag = INS_islamist_appeacement
     }
 	
@@ -541,7 +541,7 @@ country_event = {
 	trigger = {
         original_tag = INS
 		has_country_flag = INS_nationalist_middle_ground
-		has_country_flag = INS_vanguard_socialist_middle_ground
+		has_country_flag = INS_soviet_socialist_middle_ground
 		has_country_flag = INS_islamist_middle_ground
     }
 	
@@ -658,9 +658,9 @@ country_event = {
 		add_stability = 0.02
 		add_ideas = presidential_republic
 		set_politics = {
-			ruling_party = vanguard_socialist elections_allowed = no
+			ruling_party = soviet_socialist elections_allowed = no
 		}
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		set_country_flag = INS_first_insulindian_election_flag
 		hidden_effect = {
 			swap_ideas = {
@@ -759,9 +759,9 @@ country_event = {
 		add_stability = 0.05
 		add_ideas = theocratic_dictatorship
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = reactionary_ultranationalism elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.10 }
 		set_country_flag = INS_darul_islam_government_flag
 		hidden_effect = {
 			set_country_flag = INS_AUTOCRACY

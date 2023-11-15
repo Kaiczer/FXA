@@ -101,20 +101,20 @@ set_politics = {
 
 }
 
-add_coalition_libertarian_socialist = yes
-add_coalition_vanguard_socialist = yes 
+add_coalition_broad_socialism = yes
+add_coalition_soviet_socialist = yes 
 
 set_popularities = {
-  auth_socialist = 0
-  vanguard_socialist = 3
-  libertarian_socialist = 5
+  soviet_socialist = 0
+  soviet_socialist = 3
+  broad_socialism = 5
   social_democrat = 4
   social_liberal = 37
-  market_liberal = 22
+  classical_liberal = 22
   social_conservative = 19
   authoritarian_democrat = 2
   paternal_autocrat = 3
-  national_populist = 5
+  reactionary_ultranationalism = 5
   valkist = 0
 }
 

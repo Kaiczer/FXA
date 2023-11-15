@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Olga_Eggers_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Aksel_Larsen_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -100,7 +100,7 @@ characters = {
 			traits = { }
 		}
     country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
     country_leader = {
@@ -143,7 +143,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -393,7 +393,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Christian_Eli_Christensen_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -594,7 +594,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Knud_Kristensen_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_accomplished_diplomat
 			}
 		}
@@ -621,7 +621,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Thomas_Madsen_Mygdal_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -821,7 +821,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Max_Arildskov_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_silent_workhorse
 			}
 		}
@@ -848,7 +848,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Wilfred_Petersen_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -875,7 +875,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Ib_Norlund_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -902,7 +902,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Martin_Andersen_Nexo_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -929,7 +929,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Albert_Olsen_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -1010,7 +1010,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Gustav_Rasmussen_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_ideological_crusader
 			}
 		}
@@ -1037,7 +1037,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Henrik_Hauch_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_general_staffer
 			}
 		}
@@ -1145,7 +1145,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Axel_Christian_Hartel_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_ideological_crusader
 			}
 		}
@@ -1172,7 +1172,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Borge_Jakobsen_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1199,7 +1199,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Andreas_Fritzner_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -1226,7 +1226,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Poul_Gissemann_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_reformer
 			}
 		}
@@ -1245,7 +1245,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Poul_Gissemann_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1272,7 +1272,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Alfred_Jensen_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1299,7 +1299,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Niels_Bohr_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_mixed_economy
 			}
 		}
@@ -1453,7 +1453,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Soren_Brorsen_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_trade_proponent
 			}
 		}
@@ -1588,7 +1588,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Arent_Lemvigh_Muller_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_mixed_economy
 			}
 		}
@@ -1615,7 +1615,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Harald_Bergstedt_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_back_stabber
 			}
 		}
@@ -1696,7 +1696,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Harald_Petersen_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1723,7 +1723,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Ivar_Stamm_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_efficient_sociopath
 			}
 		}
@@ -1831,7 +1831,7 @@ characters = {
 				ROOT = { clr_country_flag = DEN_Anders_Malling_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_crime_fighter
 			}
 		}

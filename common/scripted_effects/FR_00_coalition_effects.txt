@@ -180,16 +180,16 @@ change_ruling_party_popularity = {
 
 save_current_party_popularities = {
 	clear_temp_array = saved_popularities
-	add_to_temp_array = { saved_popularities = party_popularity_100@auth_socialist }
-	add_to_temp_array = { saved_popularities = party_popularity_100@vanguard_socialist }
-	add_to_temp_array = { saved_popularities = party_popularity_100@libertarian_socialist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@soviet_socialist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@soviet_socialist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@broad_socialism }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_democrat }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_liberal }
-	add_to_temp_array = { saved_popularities = party_popularity_100@market_liberal }
+	add_to_temp_array = { saved_popularities = party_popularity_100@classical_liberal }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_conservative }
 	add_to_temp_array = { saved_popularities = party_popularity_100@authoritarian_democrat }
 	add_to_temp_array = { saved_popularities = party_popularity_100@paternal_autocrat }
-	add_to_temp_array = { saved_popularities = party_popularity_100@national_populist }
+	add_to_temp_array = { saved_popularities = party_popularity_100@reactionary_ultranationalism }
 
 	set_temp_variable = { sum = 100 }
 	for_each_loop = {
@@ -210,34 +210,34 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = auth_socialist
-				check_variable = { political_power_ideology = token:auth_socialist }
+				has_government = soviet_socialist
+				check_variable = { political_power_ideology = token:soviet_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:auth_socialist }
+			is_in_array = { ROOT.coalition_partners = token:soviet_socialist }
 		}
-		set_temp_variable = { coali_van = THIS.party_popularity@auth_socialist }
+		set_temp_variable = { coali_van = THIS.party_popularity@soviet_socialist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_van }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_government = vanguard_socialist
-				check_variable = { political_power_ideology = token:vanguard_socialist }
+				has_government = soviet_socialist
+				check_variable = { political_power_ideology = token:soviet_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:vanguard_socialist }
+			is_in_array = { ROOT.coalition_partners = token:soviet_socialist }
 		}
-		set_temp_variable = { coali_col = THIS.party_popularity@vanguard_socialist }
+		set_temp_variable = { coali_col = THIS.party_popularity@soviet_socialist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_col }
 	}
 	if = {
 		limit = {
 			NOT = {
-				has_government = libertarian_socialist
-				check_variable = { political_power_ideology = token:libertarian_socialist }
+				has_government = broad_socialism
+				check_variable = { political_power_ideology = token:broad_socialism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+			is_in_array = { ROOT.coalition_partners = token:broad_socialism }
 		}
-		set_temp_variable = { coali_lis = THIS.party_popularity@libertarian_socialist }
+		set_temp_variable = { coali_lis = THIS.party_popularity@broad_socialism }
 		add_to_variable = { coalition_ruling_combined_pop = coali_lis }
 	}
 	if = {
@@ -265,12 +265,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = market_liberal
-				check_variable = { political_power_ideology = token:market_liberal }
+				has_government = classical_liberal
+				check_variable = { political_power_ideology = token:classical_liberal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:market_liberal }
+			is_in_array = { ROOT.coalition_partners = token:classical_liberal }
 		}
-		set_temp_variable = { coali_mar = THIS.party_popularity@market_liberal }
+		set_temp_variable = { coali_mar = THIS.party_popularity@classical_liberal }
 		add_to_variable = { coalition_ruling_combined_pop = coali_mar  }
 	}
 	if = {
@@ -309,12 +309,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = national_populist
-				check_variable = { political_power_ideology = token:national_populist }
+				has_government = reactionary_ultranationalism
+				check_variable = { political_power_ideology = token:reactionary_ultranationalism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:national_populist }
+			is_in_array = { ROOT.coalition_partners = token:reactionary_ultranationalism }
 		}
-		set_temp_variable = { coali_nat = THIS.party_popularity@national_populist }
+		set_temp_variable = { coali_nat = THIS.party_popularity@reactionary_ultranationalism }
 		add_to_variable = { coalition_ruling_combined_pop = coali_nat  }
 	}
 	if = {
@@ -329,16 +329,16 @@ set_coalition_government_popularity = {
 		add_to_variable = { coalition_ruling_combined_pop = coali_val  }
 	}
 }
-add_coalition_auth_socialist = {
-	set_temp_variable = { coalition_partner_var = token:auth_socialist }
+add_coalition_soviet_socialist = {
+	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	add_to_coalition = yes 
 }
-add_coalition_vanguard_socialist = {
-	set_temp_variable = { coalition_partner_var = token:vanguard_socialist }
+add_coalition_soviet_socialist = {
+	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	add_to_coalition = yes 
 }
-add_coalition_libertarian_socialist = {
-	set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+add_coalition_broad_socialism = {
+	set_temp_variable = { coalition_partner_var = token:broad_socialism }
 	add_to_coalition = yes 
 }
 add_coalition_social_democrat = {
@@ -357,16 +357,16 @@ add_coalition_authoritarian_democrat = {
 	set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 	add_to_coalition = yes 
 }
-add_coalition_market_liberal = {
-	set_temp_variable = { coalition_partner_var = token:market_liberal }
+add_coalition_classical_liberal = {
+	set_temp_variable = { coalition_partner_var = token:classical_liberal }
 	add_to_coalition = yes 
 }
 add_coalition_paternal_autocrat = {
 	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 	add_to_coalition = yes 
 }
-add_coalition_national_populist = {
-	set_temp_variable = { coalition_partner_var = token:national_populist }
+add_coalition_reactionary_ultranationalism = {
+	set_temp_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 	add_to_coalition = yes 
 }
 add_coalition_valkist = {
@@ -374,16 +374,16 @@ add_coalition_valkist = {
 	add_to_coalition = yes 
 }
 
-remove_coalition_auth_socialist = {
-	set_temp_variable = { coalition_partner_var = token:auth_socialist }
+remove_coalition_soviet_socialist = {
+	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	remove_from_coalition = yes 
 }
-remove_coalition_vanguard_socialist = {
-	set_temp_variable = { coalition_partner_var = token:vanguard_socialist }
+remove_coalition_soviet_socialist = {
+	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	remove_from_coalition = yes 
 }
-remove_coalition_libertarian_socialist = {
-	set_temp_variable = { coalition_partner_var = token:libertarian_socialist }
+remove_coalition_broad_socialism = {
+	set_temp_variable = { coalition_partner_var = token:broad_socialism }
 	remove_from_coalition = yes 
 }
 remove_coalition_social_democrat = {
@@ -402,16 +402,16 @@ remove_coalition_authoritarian_democrat = {
 	set_temp_variable = { coalition_partner_var = token:authoritarian_democrat }
 	remove_from_coalition = yes 
 }
-remove_coalition_market_liberal = {
-	set_temp_variable = { coalition_partner_var = token:market_liberal }
+remove_coalition_classical_liberal = {
+	set_temp_variable = { coalition_partner_var = token:classical_liberal }
 	remove_from_coalition = yes 
 }
 remove_coalition_paternal_autocrat = {
 	set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 	remove_from_coalition = yes 
 }
-remove_coalition_national_populist = {
-	set_temp_variable = { coalition_partner_var = token:national_populist }
+remove_coalition_reactionary_ultranationalism = {
+	set_temp_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 	remove_from_coalition = yes 
 }
 remove_coalition_valkist = {

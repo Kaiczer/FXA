@@ -1160,9 +1160,9 @@ ideas = {
 			picture = generic_secret_police
 			removal_cost = -1
 			modifier = {
-				auth_socialist_drift = -0.1
-				vanguard_socialist_drift = -0.1
-				libertarian_socialist_drift = -0.1
+				soviet_socialist_drift = -0.1
+				soviet_socialist_drift = -0.1
+				broad_socialism_drift = -0.1
 				political_power_gain = 0.1
 			}
 		}
@@ -1182,11 +1182,11 @@ ideas = {
 			picture = ast_volunteer_defence_corps
 			removal_cost = -1
 			modifier = {
-				auth_socialist_drift = -0.1
-				vanguard_socialist_drift = -0.1
-				libertarian_socialist_drift = -0.1
+				soviet_socialist_drift = -0.1
+				soviet_socialist_drift = -0.1
+				broad_socialism_drift = -0.1
 				social_democrat_drift = -0.02
-				market_liberal_drift = -0.02
+				classical_liberal_drift = -0.02
 				social_liberal_drift = -0.02
 			}
 		}
@@ -1407,7 +1407,7 @@ ideas = {
 			picture = generic_intel_bonus
 			removal_cost = -1
 			modifier = {
-				market_liberal_drift = 0.1
+				classical_liberal_drift = 0.1
 			}
 		}
 		ENG_agit_4 = {

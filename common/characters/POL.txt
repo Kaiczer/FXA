@@ -16,7 +16,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -79,7 +79,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -92,7 +92,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -110,7 +110,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Roman_Dmowski_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_determined_populist
 			}
 		}
@@ -574,7 +574,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Głąbiński_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_iron_fisted_brute
 			}
 		}
@@ -682,7 +682,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jędrzej_Giertych_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_relations_expert
 			}
 		}
@@ -709,7 +709,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Stanisław_Kozicki_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_apologetic_clerk
 			}
 		}
@@ -736,7 +736,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Jozef_Feliks_Ciszewski_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -763,7 +763,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maria_Koszutska_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -782,7 +782,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Maria_Koszutska_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -890,7 +890,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Roman_Rybarski_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_mixed_economy
 			}
 		}
@@ -1079,7 +1079,7 @@ characters = {
 				ROOT = { clr_country_flag = POL_Tadeusz_Bielecki_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_secret_police_chief
 			}
 		}

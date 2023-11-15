@@ -30,9 +30,9 @@ ideas = {
 			allowed = { original_tag = ITA }
 			cancel = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
-					has_government = national_populist
+					has_government = soviet_socialist
+					has_government = broad_socialism
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 					has_completed_focus = ITA_italian_election
 				}
@@ -120,8 +120,8 @@ ideas = {
 			cancel = {
 				NOT = {
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
 					}
 				}
 			}
@@ -137,8 +137,8 @@ ideas = {
 			cancel = {
 				NOT = {
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
 					}
 				}
 			}
@@ -155,9 +155,9 @@ ideas = {
 			cancel = {
 				NOT = {
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}
 			}
@@ -174,9 +174,9 @@ ideas = {
 			cancel = {
 				NOT = {
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}
 			}
@@ -192,9 +192,9 @@ ideas = {
 			cancel = {
 				NOT = {
 					OR = {
-						has_government = vanguard_socialist
-						has_government = auth_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}
 			}

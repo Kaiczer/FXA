@@ -983,9 +983,9 @@ country_event = { #the republics revolt!
 		name = cen.44.a
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 		add_popularity = { ideology = social_democrat popularity = -0.25 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.25 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.25 }
-		add_popularity = { ideology = auth_socialist popularity = -0.25 }
+		add_popularity = { ideology = broad_socialism popularity = -0.25 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.25 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.25 }
 		add_popularity = { ideology = valkist popularity = -0.25 }
 		add_popularity = { ideology = social_conservative popularity = -0.3 }
 		add_popularity = { ideology = social_liberal popularity = -0.1 }
@@ -1293,9 +1293,9 @@ country_event = { #we lost the battle!
 	option = {
 		name = cen.55.a #the end
 		set_country_flag = CEN_gajda_wins
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = reactionary_ultranationalism elections_allowed = no }
 		add_popularity = {
-		ideology = national_populist
+		ideology = reactionary_ultranationalism
 		popularity = 0.6
 		}
 	}
@@ -1423,9 +1423,9 @@ country_event = { #gajda takeover
 	option = {
 		name = cen.62.a #ripperoni
 		set_country_flag = CEN_gajda_wins
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = reactionary_ultranationalism elections_allowed = no }
 		add_popularity = {
-		ideology = national_populist
+		ideology = reactionary_ultranationalism
 		popularity = 0.6
 		}
 	}
@@ -1452,7 +1452,7 @@ country_event = { #wat
 		popularity = 0.05
 		}
 		add_popularity = {
-		ideology = libertarian_socialist
+		ideology = broad_socialism
 		popularity = 0.05
 		}
 		}

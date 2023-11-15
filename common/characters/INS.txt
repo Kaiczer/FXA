@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Munawar_Musso_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -48,7 +48,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sudisman_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -75,7 +75,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Amir_Hamzah_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -102,7 +102,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Semaun_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -116,7 +116,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -134,7 +134,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Amir_Sjarifuddin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_local_tyrant
 			}
 		}
@@ -179,7 +179,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Tan_Malaka_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -450,7 +450,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Subandrio_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_relations_expert
 			}
 		}
@@ -477,7 +477,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Agus_Salim_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Adam_Malik_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_radical_among_moderates
 			}
 		}
@@ -531,7 +531,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sukarni_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_iron_fisted_brute
 			}
 		}
@@ -801,7 +801,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Alimin_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -828,7 +828,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Njoto_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_reformer
 			}
 		}
@@ -855,7 +855,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Rustam_Effendi_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -882,7 +882,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Sumitro_Djojohadikusumo_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -909,7 +909,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Chairul_Saleh_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -936,7 +936,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Utomo_Ramelan_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -1233,7 +1233,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Suparna_Sastra_Diredja_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1260,7 +1260,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Albert_M_Sipahoetar_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_back_stabber
 			}
 		}
@@ -1382,7 +1382,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1400,7 +1400,7 @@ characters = {
 				ROOT = { clr_country_flag = INS_Daud_Beureueh_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_secret_police_chief
 			}
 		}

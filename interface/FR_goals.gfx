@@ -248,7 +248,7 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_ideology_libertarian_socialism.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_vanguard_socialist"
+		name = "GFX_goal_ideology_soviet_socialist"
 		texturefile= "gfx/interface/goals/goal_ideology_vanguard_socialism.png"
 	}
 	SpriteType = {
@@ -726,7 +726,7 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_chile_alliance.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_vanguard_socialist_menace"
+		name = "GFX_goal_soviet_socialist_menace"
 		texturefile= "gfx/interface/goals/goal_collectivist_menace.png"
 	}
 	SpriteType = {
@@ -778,7 +778,7 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/goal_argie_stand.png"
 	}
 	SpriteType = {
-		name = "GFX_goal_ideology_auth_socialist"
+		name = "GFX_goal_ideology_soviet_socialist"
 		texturefile= "gfx/interface/goals/goal_ideology_auth_socialism.png"
 	}
 	SpriteType = {
@@ -1475,7 +1475,7 @@ spriteTypes = {
 		texturefile= "gfx/interface/goals/ZHI_blinding_sun.png"
 	}
 	SpriteType = {
-	name = "GFX_goal_Five_Races_National_Populist"
+	name = "GFX_goal_Five_Races_reactionary_ultranationalism"
 	texturefile= "gfx/interface/goals/Five_Races_Natpop.png"
 	}
 	SpriteType = {
@@ -1951,8 +1951,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/SWI_social_conservative.png"
 	}
 	SpriteType = {
-	    name =  "GFX_SWI_market_liberal"
-		texturefile = "gfx/interface/goals/SWI_market_liberal.png"
+	    name =  "GFX_SWI_classical_liberal"
+		texturefile = "gfx/interface/goals/SWI_classical_liberal.png"
 	}
 	SpriteType = {
 	    name =  "GFX_SWI_authoritarian_democrat"

@@ -278,7 +278,7 @@ country_event = { #1936 election
 	#option = { #QP coalition victory
 	#	name = fra.8.f
 	#	set_politics = {
-	#		ruling_party = market_liberal
+	#		ruling_party = classical_liberal
 	#	}
 	#	add_coalition_social_liberal = yes 
 	#	set_country_flag = fra_triple_win_flag
@@ -1235,15 +1235,15 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1277,15 +1277,15 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1319,15 +1319,15 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1361,15 +1361,15 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1400,15 +1400,15 @@ country_event = {
 		}
 		add_political_power = -50
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.02
 		}
 		custom_effect_tooltip = fra_bloodbath
@@ -1459,12 +1459,12 @@ country_event = {
 	option = {
 		name = fra.40.a
 		set_party_name = {
-            ideology = libertarian_socialist
+            ideology = broad_socialism
             long_name = "Parti socialiste ouvrier et paysan"
             name = "PSOP"
         }
         add_popularity = {
-    		ideology = libertarian_socialist
+    		ideology = broad_socialism
    			popularity = 0.02
 		}
 	}
@@ -2863,15 +2863,15 @@ country_event = {
 	option = {
 		name = fra.81.a
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.01
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.02
 		}
 		add_popularity = {
@@ -3506,11 +3506,11 @@ country_event = { #1940 election
 			set_country_flag = fra_1940_elections
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.05
 		}
 		remove_every_minister = yes
@@ -4068,7 +4068,7 @@ country_event = { #Sending Denmark support in their war against SHO
 			has_war_with = SHO
 		}
 		SHO = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 	}
 
@@ -4227,7 +4227,7 @@ country_event = { #start of the First Indochina War
 				transfer_state = 960
 				transfer_state = 959
 				set_politics = {
-					ruling_party = libertarian_socialist
+					ruling_party = broad_socialism
 				}
 				load_oob = LAO_1936
 				add_to_war = { 
@@ -4827,19 +4827,19 @@ country_event = { #North Korean officials petition Soviet government for self de
 				transfer_state = 830
 				transfer_state = 832
 				set_politics = {
-					ruling_party = libertarian_socialist
+					ruling_party = broad_socialism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = libertarian_socialist
+					ideology = broad_socialism
 					popularity = 0.20
 				}
 				add_popularity = {
-					ideology = vanguard_socialist
+					ideology = soviet_socialist
 					popularity = 0.07
 				}
 				add_popularity = {
-					ideology = auth_socialist
+					ideology = soviet_socialist
 					popularity = 0.07
 				}
 			}
@@ -4855,19 +4855,19 @@ country_event = { #North Korean officials petition Soviet government for self de
 				transfer_state = 830
 				transfer_state = 832
 				set_politics = {
-					ruling_party = libertarian_socialist
+					ruling_party = broad_socialism
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = libertarian_socialist
+					ideology = broad_socialism
 					popularity = 0.20
 				}
 				add_popularity = {
-					ideology = vanguard_socialist
+					ideology = soviet_socialist
 					popularity = 0.07
 				}
 				add_popularity = {
-					ideology = auth_socialist
+					ideology = soviet_socialist
 					popularity = 0.07
 				}
 			}

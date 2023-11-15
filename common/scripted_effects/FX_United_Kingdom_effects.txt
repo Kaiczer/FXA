@@ -1050,7 +1050,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = libertarian_socialist_subtype
+        ideology = broad_socialism_subtype
         traits = { meddler charismatic }
       }
     }
@@ -1074,7 +1074,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = market_liberal_subtype
+        ideology = classical_liberal_subtype
         traits = { meddler charismatic }
       }
     }
@@ -1106,7 +1106,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = national_populist_subtype
+        ideology = reactionary_ultranationalism_subtype
         traits = { meddler charismatic }
       }
     }

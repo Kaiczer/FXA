@@ -745,9 +745,9 @@ ideas = {
 				consumer_goods_factor = 0.05
 				political_power_gain = -0.15
 				industrial_capacity_factory = -0.10
-				auth_socialist_drift = -0.01
-				vanguard_socialist_drift = -0.01
-				libertarian_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
+				broad_socialism_drift = -0.01
 				social_democrat_drift = -0.01
 			}
 		}
@@ -919,8 +919,8 @@ ideas = {
 			picture = generic_secret_police
 			modifier = {
 				political_power_factor = 0.05
-				auth_socialist_drift = 0.02
-				vanguard_socialist_drift = 0.02
+				soviet_socialist_drift = 0.02
+				soviet_socialist_drift = 0.02
 			}
 		}
 		SWE_improved_worker_conditions_idea = {

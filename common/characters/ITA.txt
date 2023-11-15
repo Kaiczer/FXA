@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Palmiro_Togliatti_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Antonio_Gramsci_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -85,7 +85,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Nenni_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_political_protege
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Matteotti_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_silent_workhorse
 			}
 		}
@@ -264,7 +264,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Luigi_Einaudi_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_happy_amateur
 			}
 		}
@@ -419,7 +419,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Italo_Balbo_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_old_general
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giovanni_Giuriati_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_determined_populist
 			}
 		}
@@ -525,7 +525,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Sergio_Panunzio_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_relations_expert
 			}
 		}
@@ -552,7 +552,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vincenzo_Vacirca_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -579,7 +579,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Altiero_Spinelli_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_apologetic_clerk
 			}
 		}
@@ -687,7 +687,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Manlio_Brosio_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -796,7 +796,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Dino_Alfieri_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_relations_expert
 			}
 		}
@@ -850,7 +850,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Nicola_Bombacci_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -905,7 +905,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Achille_Grandi_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -1013,7 +1013,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Marcello_Soleri_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_infantry_proponent
 			}
 		}
@@ -1027,7 +1027,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -1126,7 +1126,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giuseppe_Volpi_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_industrial_chemist
 			}
 		}
@@ -1181,7 +1181,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Ruggiero_Grieco_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_media_magnate
 			}
 		}
@@ -1208,7 +1208,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Vittorio_Vidali_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1235,7 +1235,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_silent_lawyer
 			}
 		}
@@ -1397,7 +1397,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Alessandro_Pavolini_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_secret_police_chief
 			}
 		}
@@ -1638,7 +1638,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
@@ -1650,7 +1650,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
@@ -1830,7 +1830,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}

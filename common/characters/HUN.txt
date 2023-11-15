@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -43,7 +43,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}
@@ -80,7 +80,7 @@ characters = {
 		}
 		country_leader = {
       desc = POLITICS_FERENC_SZALASI_DESC
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -456,7 +456,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Laszlo_Rajk_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -483,7 +483,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Sandor_Garbai_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -934,7 +934,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Erik_Molnar_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -961,7 +961,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Mate_Zalka_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -988,7 +988,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jozsef_Pogany_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -1015,7 +1015,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Imre_Csaky_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_ideological_crusader
 			}
 		}
@@ -1042,7 +1042,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Moric_Esterhazy_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_relations_expert
 			}
 		}
@@ -1285,7 +1285,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Kemeny_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_ideological_crusader
 			}
 		}
@@ -1312,7 +1312,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Ernő_Gerő_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_mixed_economy
 			}
 		}
@@ -1339,7 +1339,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Zoltan_Vas_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_trade_proponent
 			}
 		}
@@ -1366,7 +1366,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Rezső_Fiedler_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_construction_magnate
 			}
 		}
@@ -1420,7 +1420,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gusztav_Gratz_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_reformer
 			}
 		}
@@ -1636,7 +1636,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jenő_Racz_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_reformer
 			}
 		}
@@ -1663,7 +1663,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Ferenc_Erdei_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1690,7 +1690,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Mihaly_Farkas_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1717,7 +1717,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Bela_Vago_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1744,7 +1744,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Jozsef_Revai_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -1825,7 +1825,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Ugron_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_crooked_kleptocrat
 			}
 		}
@@ -2014,7 +2014,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Andor_Jaross_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_silent_lawyer
 			}
 		}
@@ -2041,7 +2041,7 @@ characters = {
 				ROOT = { clr_country_flag = HUN_Gabor_Vajna_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_crime_fighter
 			}
 		}

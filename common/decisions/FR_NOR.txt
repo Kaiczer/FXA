@@ -7,18 +7,18 @@ NOR_economical_decision_group = {
 		available = {
 			110 = { is_owned_by = NOR }
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 			has_completed_focus = NOR_economical_projects
  		}
  		visible = { 
  			110 = { is_owned_by = NOR }
  			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 			has_completed_focus = NOR_economical_projects
  		}
@@ -157,7 +157,7 @@ NOR_war_with_decistions = {
 		}
  		visible = { 
 			OR = {
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
  		}

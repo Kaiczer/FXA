@@ -76,21 +76,21 @@ add_ideas = {
 }
 
 set_popularities = {
-	auth_socialist = 11
-	vanguard_socialist = 21
-	libertarian_socialist = 5
+	soviet_socialist = 11
+	soviet_socialist = 21
+	broad_socialism = 5
 	social_democrat = 27
 	social_liberal = 4
-	market_liberal = 4
+	classical_liberal = 4
 	social_conservative = 15
 	authoritarian_democrat = 9
 	paternal_autocrat = 3
-	national_populist = 1
+	reactionary_ultranationalism = 1
 	valkist = 0
 }
 
 set_politics = {
-	ruling_party = vanguard_socialist
+	ruling_party = soviet_socialist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no

@@ -36,9 +36,9 @@ foreign_politics = {
 #		
 #		complete_effect = {
 #			set_country_flag = A_LIT_WETDREAM
-#			add_popularity = { ideology = national_populist popularity = 0.55 }
+#			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.55 }
 #			set_politics = {
-#				ruling_party = national_populist
+#				ruling_party = reactionary_ultranationalism
 #				elections_allowed = no
 #			}
 #			POL = {
@@ -110,9 +110,9 @@ foreign_politics = {
 #		
 #		complete_effect = {
 #			set_country_flag = S_LIT_WETDREAM
-#			add_popularity = { ideology = auth_socialist popularity = 0.55 }
+#			add_popularity = { ideology = soviet_socialist popularity = 0.55 }
 #			set_politics = {
-#				ruling_party = auth_socialist
+#				ruling_party = soviet_socialist
 #				elections_allowed = no
 #			}
 #			every_state = {

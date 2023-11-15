@@ -104,10 +104,10 @@ country_event = { #anarchists support collies
 	option = {
 		name = bra.5.a
 		add_popularity = {
-			ideology = vanguard_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_popularity = {
-			ideology = libertarian_socialist popularity = 0.025
+			ideology = broad_socialism popularity = 0.025
 			}
 		hidden_effect = {
 			country_event = { days = 28 id = bra.6}
@@ -137,7 +137,7 @@ country_event = { #tensions in the cabinet
 	option = {
 		name = bra.6.a
 		add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = classical_liberal popularity = -0.025
 			}
 		add_popularity = {
 			ideology = social_conservative popularity = 0.025
@@ -174,7 +174,7 @@ country_event = { #speech for republic
 	option = {
 		name = bra.8.a
 		add_popularity = {
-			ideology = market_liberal popularity = 0.025
+			ideology = classical_liberal popularity = 0.025
 			}
 		add_political_power = 5
 		set_country_flag = BRA_firstpartdone
@@ -226,7 +226,7 @@ country_event = { #Collie Mass Strike
 		name = bra.11.a
 		add_political_power = -60
 		add_popularity = {
-			ideology = vanguard_socialist popularity = 0.05
+			ideology = soviet_socialist popularity = 0.05
 			}
 		set_country_flag = BRA_lefties
 	}

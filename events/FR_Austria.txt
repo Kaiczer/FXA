@@ -56,7 +56,7 @@ country_event = {
 		name = "The SDAPÖ-KPÖ Coalition"
 		ai_chance = { factor = 35 } 
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.1 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.1 }
 		set_politics = {
 			ruling_party = social_democrat
 			elections_allowed = no
@@ -114,7 +114,7 @@ country_event = {
 	}
 	option = {
 		name = "The SDAPÖ and KPÖ agree to form a Coalition."
-		add_popularity = { ideology = vanguard_socialist popularity = 0.1 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.1 }
 		add_popularity = { ideology = social_democrat popularity = 0.1 }
 		ai_chance = { factor = 100 }
 		set_global_flag = AUS_SOCCDEMCOALITION
@@ -136,7 +136,7 @@ country_event = {
 	option = {
 		name = "The SDAPÖ respects the Coalition and agrees to some reforms."
 		add_political_power = -50
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		ai_chance = { factor = 20 }
 		hidden_effect = { 
 			country_event = { days = 62 id = austria.6 }
@@ -153,10 +153,10 @@ country_event = {
 		name = "The KPÖ gains a majority!"
 		add_political_power = 20
 		ai_chance = { factor = 30 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.15 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.15 }
 		add_popularity = { ideology = social_democrat popularity = -0.1 }
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		set_global_flag = AUS_MODERATE_INSTABILITY
@@ -220,7 +220,7 @@ country_event = {
 
 	option = {
 		name = "Deploy the Army!"
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		add_manpower = -10000
 		hidden_effect = { 
 			country_event = { days = 31 id = austria.8 }
@@ -242,10 +242,10 @@ country_event = {
 
 	option = {
 		name = "Our nation must be protected from the godless Leftists!"
-		add_popularity = { ideology = national_populist popularity = 0.3 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.3 }
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
 		add_manpower = -30000
@@ -271,7 +271,7 @@ country_event = { #Leftie Civil War
 	option = {
 		name = "We cannot handle this on our own; unify with Germany!"
 		add_named_threat = { threat = 5 name = AUS_acw_threat }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.2 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.2 }
 		GER = { country_event = { days = 2 id = austria.10 } }
 		ai_chance = { factor = 100 }
     retire_character = AUS_Otto_Bauer
@@ -296,7 +296,7 @@ country_event = { #Leftie Civil War
 	option = {
 		name = "We'll put these Socialists down ourselves!"
 		add_named_threat = { threat = 5 name = AUS_acw_threat }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.2 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.2 }
     retire_character = AUS_Otto_Bauer
 		ASR = { 
 			add_ideas = revolutionary_movement
@@ -492,7 +492,7 @@ country_event = {
 
 	option = {
 		name = "I was lying about being understanding to the opposition."
-		add_popularity = { ideology = vanguard_socialist popularity = -0.1 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.1 }
 		hidden_effect = { 
 			country_event = { days = 31 id = austria.28 }
 		}
@@ -576,7 +576,7 @@ country_event = {
 		name = "Blast!"
 		#add_political_power = -50
 		add_stability = -0.05
-		add_popularity = { ideology = vanguard_socialist popularity = 0.15 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.15 }
 		#hidden_effect = { 
 		#	country_event = { days = 31 id = austria.31 }
 		#}

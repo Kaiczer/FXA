@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Anibal_Ponce_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_local_tyrant
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Anibal_Ponce_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -68,7 +68,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Liborio_Justo_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -100,7 +100,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Rodolfo_Ghioldi_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -127,7 +127,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Lopez_Arango_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -154,7 +154,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Miguel_Arcangel_Roscigna_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -213,7 +213,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Angel_Borlenghi_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 			}
 		}
 	}
@@ -239,7 +239,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Domingo_Mercante_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_happy_amateur
 			}
 		}
@@ -320,7 +320,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Robustiniano_Patron_Costas_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_smiling_oilman
 			}
 		}
@@ -347,7 +347,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Torcuato_di_Tella_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -498,7 +498,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Manuel_Carles_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_respected_war_hero
 			}
 		}
@@ -525,7 +525,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Jose_Fernando_Penelon_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -552,7 +552,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Leonidas_Barletta_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -579,7 +579,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_German_Boris_Wladimirovich_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -606,7 +606,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Rodolfo_Gonzalez_Pacheco_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -633,7 +633,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Virginia_Bolten_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -660,7 +660,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Gregorio_Bermann_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_great_compromiser
 			}
 		}
@@ -687,7 +687,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_John_William_Cooke_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_great_compromiser
 			}
 		}
@@ -779,7 +779,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Segundo_Rosa_Storni_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_general_staffer
 			}
 		}
@@ -887,7 +887,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Estanislao_Zeballos_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_the_cloak_n_dagger_schemer
 			}
 		}
@@ -914,7 +914,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Geronimo_Arnedo_Alvarez_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_imbedded_unioneer
 			}
 		}
@@ -941,7 +941,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Diego_Abad_de_Santillan_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_reformer
 			}
 		}
@@ -968,7 +968,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Esteban_Lucich_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_railway_magnate
 			}
 		}
@@ -995,7 +995,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Antonio_de_Tomaso_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_industrialiser
 			}
 		}
@@ -1022,7 +1022,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Juana_Rouco_Buella_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -1049,7 +1049,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Sebastian_Marotta_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_balanced_budget_economy
 			}
 		}
@@ -1076,7 +1076,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Oscar_Alende_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_construction_magnate
 			}
 		}
@@ -1157,7 +1157,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Alvaro_Alsogaray_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_laissez_faire_capitalist
 			}
 		}
@@ -1292,7 +1292,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Diego_Isidro_Mason_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_planned_economy_proponent
 			}
 		}
@@ -1322,7 +1322,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Manuel_Savio_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_industrialiser
 			}
 		}
@@ -1357,7 +1357,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Jose_Peter_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1384,7 +1384,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Alvaro_Yunque_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_crooked_kleptocrat
 			}
 		}
@@ -1411,7 +1411,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Micaela_Feldman_de_Etchebehere_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1438,7 +1438,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Candido_Testa_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1465,7 +1465,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Juan_Antonio_Moran_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_great_soul
 			}
 		}
@@ -1492,7 +1492,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Roberto_Noble_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_preserver_of_culture
 			}
 		}
@@ -1728,7 +1728,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Elbio_Anaya_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_back_stabber
 			}
 		}
@@ -2112,7 +2112,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -2124,7 +2124,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}

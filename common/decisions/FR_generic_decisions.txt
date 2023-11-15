@@ -5,10 +5,10 @@ political_actions_left = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		visible = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_vang"
@@ -24,10 +24,10 @@ political_actions_left = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		visible = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_collie"
@@ -43,10 +43,10 @@ political_actions_left = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		visible = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_libsoc"
@@ -64,14 +64,14 @@ political_actions_left = {
 		days_remove = 30
 		available = {
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 		}
 		visible = {
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 		}
 		modifier = {
@@ -90,10 +90,10 @@ political_actions_left = {
 		days_re_enable = 730 #2 years until the decision may be taken again
 		days_remove = 30
 		available = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		visible = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		modifier = {
 			production_speed_buildings_factor = -0.05
@@ -151,10 +151,10 @@ political_actions_dem = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		visible = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_marklib"
@@ -211,13 +211,13 @@ political_actions_dem = {
 		available = {
 			OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 		}
 		visible = {
 			OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 		}
 		modifier = {
@@ -305,10 +305,10 @@ political_actions_right = {
 		fire_only_once = no #May take this decision multiple times
 		days_re_enable = 730 #2 years until the decision may be taken again
 		available = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		visible = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision increase_popularity_natpop"
@@ -346,14 +346,14 @@ political_actions_right = {
 		available = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 		}
 		visible = {
 			OR = {
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 		}
@@ -384,9 +384,9 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = social_democrat
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 			NOT = {
 				has_country_flag = NO_GENERIC_STABILITY_DECISIONS
@@ -423,7 +423,7 @@ political_actions = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			NOT = {
@@ -462,7 +462,7 @@ political_actions = {
 		visible = {
 			OR = {
 				has_government = social_conservative
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_liberal
 			}
 			NOT = {
@@ -1340,15 +1340,15 @@ war_measures = {
 			has_war = yes
 			OR = {
 				AND = {
-					has_government = auth_socialist
+					has_government = soviet_socialist
 					has_war_support > 0.85
 				}
 				AND = {
-					has_government = vanguard_socialist
+					has_government = soviet_socialist
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 					has_war_support > 0.79
 				}
 				AND = {
@@ -1360,7 +1360,7 @@ war_measures = {
 					has_war_support > 0.60
 				}
 				AND = {
-					has_government = market_liberal
+					has_government = classical_liberal
 					has_war_support > 0.60
 				}
 				AND = {
@@ -1376,7 +1376,7 @@ war_measures = {
 					has_war_support > 0.79
 				}
 				AND = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_war_support > 0.79
 				}
 				AND = {

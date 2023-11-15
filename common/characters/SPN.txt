@@ -35,7 +35,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -295,7 +295,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Ernesto_Gimenez_Caballero_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_happy_amateur
 			}
 		}
@@ -314,7 +314,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Ernesto_Gimenez_Caballero_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_mixed_economy
 			}
 		}
@@ -333,7 +333,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Ernesto_Gimenez_Caballero_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}
@@ -360,7 +360,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Carlos_Ibarguren_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_corporate_suit
 			}
 		}
@@ -379,7 +379,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Carlos_Ibarguren_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_construction_magnate
 			}
 		}
@@ -398,7 +398,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Carlos_Ibarguren_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_prince_of_terror
 			}
 		}
@@ -563,7 +563,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Jose_Maria_Peman_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_relations_expert
 			}
 		}
@@ -590,7 +590,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Onesimo_Redondo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_foreign_sympathizer
 			}
 		}
@@ -617,7 +617,7 @@ characters = {
 				ROOT = { clr_country_flag = SPN_Dionisio_Ridruejo_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_biased_intellectual
 			}
 		}

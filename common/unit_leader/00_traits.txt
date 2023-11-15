@@ -2308,7 +2308,7 @@ leader_traits = {
 			modifier = {
 				factor = 0
 				OR = {
-					FROM = { vanguard_socialist < 0.05 }
+					FROM = { soviet_socialist < 0.05 }
 				}
 			}
 		}

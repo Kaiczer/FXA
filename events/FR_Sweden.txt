@@ -230,7 +230,7 @@ country_event = {
 		name = sweden.8.a
 		add_political_power = -10
 		add_stability = -0.03
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 	}
 }
 
@@ -249,7 +249,7 @@ country_event = {
 		name = sweden.9.a
 		add_political_power = -10
 		add_stability = -0.03
-		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 	}
 }
 
@@ -281,7 +281,7 @@ country_event = {
 		name = sweden.10.a
 		ai_chance = { factor = 20 }
 		add_political_power = -10
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = broad_socialism popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.07 }
 		add_popularity = { ideology = social_liberal popularity = 0.01 }
 		country_event = { days = 8 id = sweden.11 }
@@ -292,7 +292,7 @@ country_event = {
 		name = sweden.10.b
 		ai_chance = { factor = 10 }
 		add_political_power = -50
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = classical_liberal popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
@@ -317,7 +317,7 @@ country_event = {
 		ai_chance = { factor = 70 }
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.07 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.07 }
 		add_popularity = { ideology = valkist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
@@ -371,7 +371,7 @@ country_event = {
 		}
 		remove_coalition_authoritarian_democrat = yes 
 		remove_coalition_social_conservative = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_classical_liberal = yes 
 		remove_coalition_social_liberal = yes 
 	}
 }
@@ -406,7 +406,7 @@ country_event = {
 
 		remove_coalition_social_conservative = yes 
 		add_coalition_social_liberal = yes 
-		add_coalition_market_liberal = yes 
+		add_coalition_classical_liberal = yes 
 		add_coalition_authoritarian_democrat = yes 
 		hidden_effect = {
 			country_event = { days = 120 id = sweden.32 }
@@ -438,7 +438,7 @@ country_event = {
 	option = {
 		name = sweden.12.b
 		ai_chance = { factor = 35 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 		set_politics = {
 			ruling_party = social_conservative
 			elections_allowed = no
@@ -454,9 +454,9 @@ country_event = {
 		set_country_flag = SWE_deal_with_devil_flag
 		
 		remove_coalition_social_liberal = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_classical_liberal = yes 
 		add_coalition_authoritarian_democrat = yes 
-		add_coalition_national_populist = yes 
+		add_coalition_reactionary_ultranationalism = yes 
 
 		set_country_flag = SWE_RIGHT_WING_TREE
 		mark_focus_tree_layout_dirty = yes
@@ -509,7 +509,7 @@ country_event = {
 		name = sweden.13.a
 		add_political_power = -10
 		add_stability = -0.02
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 	}
 }
 
@@ -541,9 +541,9 @@ country_event = {
 		name = sweden.14.a
 		add_political_power = -10
 		add_stability = -0.02
-		add_popularity = { ideology = auth_socialist popularity = 0.02 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
+		add_popularity = { ideology = broad_socialism popularity = 0.02 }
 	}
 }
 
@@ -578,9 +578,9 @@ country_event = {
 		name = sweden.15.a
 		add_political_power = -15
 		add_stability = -0.04
-		add_popularity = { ideology = auth_socialist popularity = 0.03 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		set_country_flag = SWE_escalating_far_left_flag
 		hidden_effect = {
 			SOV = { country_event = { days = 2 id = sweden.16 } }
@@ -655,9 +655,9 @@ country_event = {
 		ai_chance = { factor = 65 }
 		add_political_power = -10
 		add_stability = -0.05
-		add_popularity = { ideology = auth_socialist popularity = 0.04 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.04 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = 0.04 }
 		add_ideas = SWE_civil_war_idea
 		hidden_effect = {
 			country_event = { days = 2 id = sweden.19 }
@@ -669,9 +669,9 @@ country_event = {
 		ai_chance = { factor = 35 }
 		add_manpower = -500
 		add_stability = -0.03
-		add_popularity = { ideology = auth_socialist popularity = 0.04 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.04 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = 0.04 }
 		add_ideas = SWE_civil_war_idea
 		hidden_effect = {
 			country_event = { days = 2 id = sweden.42 }
@@ -740,7 +740,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -791,11 +791,11 @@ country_event = {
 		add_political_power = 50
 		add_stability = 0.15
 		set_politics = {
-			ruling_party = vanguard_socialist elections_allowed = no
+			ruling_party = soviet_socialist elections_allowed = no
 		}
-		add_popularity = { ideology = auth_socialist popularity = 0.03 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.06 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.06 }
+		add_popularity = { ideology = broad_socialism popularity = 0.03 }
 		remove_ideas = SWE_civil_war_idea
 		set_country_flag = SWE_socialists_in_control_flag
 		mark_focus_tree_layout_dirty = yes
@@ -821,9 +821,9 @@ country_event = {
 
 
 		remove_coalition_social_liberal = yes 
-		remove_coalition_market_liberal = yes 
-		add_coalition_auth_socialist = yes 
-		add_coalition_libertarian_socialist = yes 
+		remove_coalition_classical_liberal = yes 
+		add_coalition_soviet_socialist = yes 
+		add_coalition_broad_socialism = yes 
 		
 		hidden_effect = {
 			141 = { set_demilitarized_zone = no }
@@ -969,7 +969,7 @@ country_event = {
 		add_political_power = 10
 		add_timed_idea = { idea = SWE_maternity_leave_child_welfare_idea days = 500 }
 		add_popularity = { ideology = social_democrat popularity = 0.02 }
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 	}
 
 	option = {
@@ -1096,7 +1096,7 @@ country_event = {
 			
 			remove_coalition_social_conservative = yes 
 			add_coalition_authoritarian_democrat = yes 
-			add_coalition_market_liberal = yes 
+			add_coalition_classical_liberal = yes 
 			add_coalition_social_liberal = yes 
 			
 			country_event = { days = 4 id = sweden.31 }
@@ -1107,7 +1107,7 @@ country_event = {
 		name = sweden.30.b
 		ai_chance = { base = 25 }
 		set_politics = {
-			ruling_party = market_liberal elections_allowed = no
+			ruling_party = classical_liberal elections_allowed = no
 		}
 		hidden_effect = {
 			remove_every_minister = yes
@@ -1145,7 +1145,7 @@ country_event = {
 			remove_coalition_social_conservative = yes 
 			add_coalition_authoritarian_democrat = yes 
 			add_coalition_social_conservative = yes 
-			add_coalition_market_liberal = yes 
+			add_coalition_classical_liberal = yes 
 			
 			country_event = { days = 4 id = sweden.31 }
 		}
@@ -1234,7 +1234,7 @@ country_event = {
 		name = sweden.33.a
 		ai_chance = { factor = 20 }
 		add_political_power = -10
-		add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
+		add_popularity = { ideology = broad_socialism popularity = 0.01 }
 		add_popularity = { ideology = social_democrat popularity = 0.07 }
 		add_popularity = { ideology = social_liberal popularity = 0.01 }
 		country_event = { days = 8 id = sweden.11 }
@@ -1245,7 +1245,7 @@ country_event = {
 		name = sweden.33.b
 		ai_chance = { factor = 5 }
 		add_political_power = -50
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = classical_liberal popularity = 0.01 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.01 }
 		country_event = { days = 8 id = sweden.12 }
@@ -1270,7 +1270,7 @@ country_event = {
 		ai_chance = { factor = 65 }
 		add_political_power = 10
 		add_popularity = { ideology = paternal_autocrat popularity = 0.01 }
-		add_popularity = { ideology = national_populist popularity = 0.07 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.07 }
 		add_popularity = { ideology = valkist popularity = 0.01 }
 		country_event = { days = 8 id = sweden.34 }
 		set_country_flag = SWE_election_happened_flag
@@ -1299,7 +1299,7 @@ country_event = {
 	option = {
 		name = sweden.34.a
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -1333,7 +1333,7 @@ country_event = {
 		
 		remove_coalition_authoritarian_democrat = yes 
 		remove_coalition_social_conservative = yes 
-		remove_coalition_market_liberal = yes 
+		remove_coalition_classical_liberal = yes 
 		remove_coalition_social_liberal = yes 
 		add_coalition_paternal_autocrat = yes 
 		add_coalition_valkist = yes 
@@ -1493,7 +1493,7 @@ country_event = {
 	option = {
 		name = sweden.39.a
 		add_stability = -0.04
-		add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 		hidden_effect = {
 			country_event = { days = 4 id = sweden.40 }
 		}
@@ -1514,7 +1514,7 @@ country_event = {
 	option = {
 		name = sweden.40.a
 		add_stability = -0.04
-		add_popularity = { ideology = national_populist popularity = 0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.02 }
 		hidden_effect = {
 			country_event = { days = 3 id = sweden.41 }
 		}
@@ -1537,7 +1537,7 @@ country_event = {
 		ai_chance = { factor = 65 }
 		add_stability = -0.03
 		add_manpower = -500
-		add_popularity = { ideology = national_populist popularity = 0.03 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
 			country_event = { days = 3 id = sweden.43 }
@@ -1549,7 +1549,7 @@ country_event = {
 		ai_chance = { factor = 35 }
 		add_stability = -0.03
 		add_manpower = -500
-		add_popularity = { ideology = vanguard_socialist popularity = 0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.03 }
 		hidden_effect = {
 			add_popularity = { ideology = paternal_autocrat popularity = -0.08 }
 			country_event = { days = 3 id = sweden.19 }
@@ -1573,9 +1573,9 @@ country_event = {
 		add_political_power = 15
 		add_stability = 0.07
 		add_manpower = -500
-		add_popularity = { ideology = auth_socialist popularity = -0.03 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.04 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.04 }
+		add_popularity = { ideology = broad_socialism popularity = -0.03 }
 		clr_country_flag = SWE_escalating_far_left_flag
 	}
 }
@@ -1594,7 +1594,7 @@ country_event = {
 	option = {
 		name = sweden.43.a
 		add_stability = -0.03
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		set_capital = { state = 140 }
 		hidden_effect = {
 			country_event = { days = 10 id = sweden.44 }
@@ -1640,7 +1640,7 @@ country_event = {
         character = SWE_Gustaf_VI_Adolf
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -1691,9 +1691,9 @@ country_event = {
 		add_political_power = 50
 		add_stability = 0.15
 		set_politics = {
-			ruling_party = national_populist elections_allowed = no
+			ruling_party = reactionary_ultranationalism elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.06 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.06 }
 		remove_ideas = SWE_civil_war_idea
 		set_country_flag = SWE_far_right_victory_flag
 		mark_focus_tree_layout_dirty = yes
@@ -1735,15 +1735,15 @@ country_event = {
         character = SWE_Per_Engdahl
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = reactionary_ultranationalism_subtype
           traits = {}
         }
       }
 			remove_coalition_social_liberal = yes 
-			remove_coalition_market_liberal = yes 
+			remove_coalition_classical_liberal = yes 
 			remove_coalition_social_conservative = yes 
 			remove_coalition_authoritarian_democrat = yes 
-			remove_coalition_national_populist = yes 
+			remove_coalition_reactionary_ultranationalism = yes 
 			remove_ideas = SWE_steps_toward_new_sweden_balance_idea
 			remove_ideas = SWE_steps_toward_new_sweden_slight_con_idea
 			remove_ideas = SWE_steps_toward_new_sweden_favour_con_idea
@@ -1947,7 +1947,7 @@ country_event = {
 		add_political_power = -30
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
 		add_popularity = { ideology = social_liberal popularity = 0.02 }
-		add_popularity = { ideology = market_liberal popularity = 0.01 }
+		add_popularity = { ideology = classical_liberal popularity = 0.01 }
 		hidden_effect = {
 			country_event = { days = 10 id = sweden.55 }
 		}
@@ -2025,8 +2025,8 @@ country_event = {
 		name = sweden.56.a
 		add_political_power = -30
 		add_popularity = { ideology = social_democrat popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.02 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
+		add_popularity = { ideology = broad_socialism popularity = 0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.01 }
 		hidden_effect = {
 		}
 	}
@@ -2149,7 +2149,7 @@ country_event = {
 		}
 		hidden_effect = {
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
-			add_popularity = { ideology = market_liberal popularity = 0.01 }
+			add_popularity = { ideology = classical_liberal popularity = 0.01 }
 			add_popularity = { ideology = social_conservative popularity = 0.01 }
 		}
 	}
@@ -2206,10 +2206,10 @@ country_event = {
 	option = {
 		name = sweden.64.a
 		hidden_effect = {
-			add_popularity = { ideology = auth_socialist popularity = -0.03 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.03 }
-			add_popularity = { ideology = national_populist popularity = -0.03 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.03 }
 		}
 	}
 }
@@ -2882,7 +2882,7 @@ country_event = {
         character = SWE_Per_Engdahl
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = reactionary_ultranationalism_subtype
           traits = {}
         }
       }
@@ -3010,7 +3010,7 @@ country_event = {
 		}
 		add_popularity = { ideology = authoritarian_democrat popularity = 0.04 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.15 }
-		add_popularity = { ideology = national_populist popularity = 0.04 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.04 }
 		set_party_name = {
 			ideology = paternal_autocrat
 			long_name = SWE_pataut_monarchy_long
@@ -3604,12 +3604,12 @@ country_event = {
 	option = {
 		name = sweden.105.a
 		ai_chance = { factor = 40 }
-		add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
-		add_popularity = { ideology = auth_socialist popularity = -0.02 }
+		add_popularity = { ideology = broad_socialism popularity = 0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -3622,17 +3622,17 @@ country_event = {
 		set_country_flag = SWE_lib_soc_victory_flag
 		set_country_flag = SWE_socialist_diplomacy_available
 		
-		remove_coalition_auth_socialist = yes 
-		remove_coalition_libertarian_socialist = yes 
-		add_coalition_vanguard_socialist = yes 
+		remove_coalition_soviet_socialist = yes 
+		remove_coalition_broad_socialism = yes 
+		add_coalition_soviet_socialist = yes 
 	}
 	
 	option = {
 		name = sweden.105.b
 		ai_chance = { factor = 40 }
-		add_popularity = { ideology = vanguard_socialist popularity = 0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
-		add_popularity = { ideology = auth_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
 		add_ideas = workers_republic
 		remove_every_minister = yes
 		add_ideas = {
@@ -3648,12 +3648,12 @@ country_event = {
 	option = {
 		name = sweden.105.c
 		ai_chance = { factor = 20 }
-		add_popularity = { ideology = auth_socialist popularity = 0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.05 }
+		add_popularity = { ideology = broad_socialism popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -3666,9 +3666,9 @@ country_event = {
 		set_country_flag = SWE_vanguard_victory_flag
 		set_country_flag = SWE_socialist_diplomacy_available
 		
-		remove_coalition_auth_socialist = yes 
-		remove_coalition_libertarian_socialist = yes 
-		add_coalition_vanguard_socialist = yes 
+		remove_coalition_soviet_socialist = yes 
+		remove_coalition_broad_socialism = yes 
+		add_coalition_soviet_socialist = yes 
 	}
 }
 
@@ -4039,9 +4039,9 @@ news_event = {
 	option = {
 		trigger = {
 			AND = {
-				NOT = { has_government = libertarian_socialist }
-				NOT = { has_government = vanguard_socialist }
-				NOT = { has_government = auth_socialist }
+				NOT = { has_government = broad_socialism }
+				NOT = { has_government = soviet_socialist }
+				NOT = { has_government = soviet_socialist }
 				NOT = { original_tag = NOR }
 				NOT = { original_tag = SWE }
 			}
@@ -4052,9 +4052,9 @@ news_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 			AND = {
 				NOT = { original_tag = NOR }

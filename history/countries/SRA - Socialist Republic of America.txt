@@ -5,23 +5,23 @@ set_stability = 0.56
 set_war_support = 0.34
 
 set_politics = {
-	ruling_party = vanguard_socialist
+	ruling_party = soviet_socialist
 	last_election = "1932.11.15"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	auth_socialist = 3
-	vanguard_socialist = 48
-	libertarian_socialist = 22
+	soviet_socialist = 3
+	soviet_socialist = 48
+	broad_socialism = 22
 	social_democrat = 17
 	social_liberal = 8
-	market_liberal = 2
+	classical_liberal = 2
 	social_conservative = 0
 	authoritarian_democrat = 0
 	paternal_autocrat = 0
-	national_populist = 0
+	reactionary_ultranationalism = 0
 }
 
 add_ideas = {

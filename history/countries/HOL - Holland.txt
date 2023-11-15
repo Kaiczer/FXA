@@ -100,23 +100,23 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = national_populist
+	ruling_party = reactionary_ultranationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 2
-  vanguard_socialist = 0
-  libertarian_socialist = 0
+  soviet_socialist = 2
+  soviet_socialist = 0
+  broad_socialism = 0
   social_democrat = 9
   social_liberal = 0
-  market_liberal = 3
+  classical_liberal = 3
   social_conservative = 9
   authoritarian_democrat = 17
   paternal_autocrat = 15
-  national_populist = 45
+  reactionary_ultranationalism = 45
   valkist = 0
 }
 add_coalition_authoritarian_democrat = yes 

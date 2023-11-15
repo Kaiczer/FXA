@@ -48,7 +48,7 @@ country_event = { # Compromise with Simmons?
 			factor = 20
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.05
 		}
 		hidden_effect = {
@@ -267,11 +267,11 @@ country_event = { # Simmons Coup
 			country_event = { id = newamerica.17 months = 1 }
 		}
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.25
 		}
 		remove_every_minister = yes

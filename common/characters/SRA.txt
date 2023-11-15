@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_William_Haywood_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -58,7 +58,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_James_W_Ford_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -72,7 +72,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -90,7 +90,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Bayard_Rustin_eco_lso_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_imbedded_unioneer
 			}
 		}
@@ -126,7 +126,7 @@ characters = {
 				ROOT = { clr_country_flag = SRA_Edward_Carter_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_driven_recruiter
 			}
 		}

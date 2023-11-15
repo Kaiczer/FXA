@@ -15,7 +15,7 @@ add_ideas = {
 }
 
 add_coalition_social_liberal = yes 
-add_coalition_market_liberal = yes 
+add_coalition_classical_liberal = yes 
 
 # Starting tech
 set_technology = {
@@ -141,16 +141,16 @@ set_politics = {
 }
 
 set_popularities = {
-	auth_socialist = 2
-	vanguard_socialist = 10
-	libertarian_socialist = 14
+	soviet_socialist = 2
+	soviet_socialist = 10
+	broad_socialism = 14
 	social_democrat = 40
 	social_liberal = 4
-	market_liberal = 7
+	classical_liberal = 7
 	social_conservative = 5
 	authoritarian_democrat = 2
 	paternal_autocrat = 1
-	national_populist = 5
+	reactionary_ultranationalism = 5
 	valkist = 10
 }
 

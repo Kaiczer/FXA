@@ -1,15 +1,15 @@
 ideas = {
 	country = {
 
-		auth_socialist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea auth_socialist_influence"}
+		soviet_socialist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea soviet_socialist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 
 			removal_cost = -1
@@ -17,20 +17,20 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				auth_socialist_drift = 0.1
-				auth_socialist_acceptance = 85
+				soviet_socialist_drift = 0.1
+				soviet_socialist_acceptance = 85
 			}
 		}
 		
-		vanguard_socialist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea vanguard_socialist_influence"}
+		soviet_socialist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea soviet_socialist_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 
 			removal_cost = -1
@@ -38,13 +38,13 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				vanguard_socialist_drift = 0.1
-				vanguard_socialist_acceptance = 85
+				soviet_socialist_drift = 0.1
+				soviet_socialist_acceptance = 85
 			}
 		}
 		
-		libertarian_socialist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea libertarian_socialist_influence"}
+		broad_socialism_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea broad_socialism_influence"}
 			
 			
 			allowed = {
@@ -52,7 +52,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 
 			removal_cost = -1
@@ -60,8 +60,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				libertarian_socialist_drift = 0.1
-				libertarian_socialist_acceptance = 85
+				broad_socialism_drift = 0.1
+				broad_socialism_acceptance = 85
 			}
 		}
 
@@ -107,15 +107,15 @@ ideas = {
 			}
 		}
 
-		market_liberal_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea market_liberal_influence"}
+		classical_liberal_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea classical_liberal_influence"}
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 
 			removal_cost = -1
@@ -123,8 +123,8 @@ ideas = {
 			picture = generic_democratic_drift_bonus
 			
 			modifier = {
-				market_liberal_drift = 0.1
-				market_liberal_acceptance = 85
+				classical_liberal_drift = 0.1
+				classical_liberal_acceptance = 85
 			}
 		}
 
@@ -191,15 +191,15 @@ ideas = {
 			}
 		}
 
-		national_populist_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea national_populist_influence"}
+		reactionary_ultranationalism_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea reactionary_ultranationalism_influence"}
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 
 			removal_cost = -1
@@ -207,8 +207,8 @@ ideas = {
 			picture = generic_fascist_drift_bonus
 			
 			modifier = {
-				national_populist_drift = 0.1
-				national_populist_acceptance = 85
+				reactionary_ultranationalism_drift = 0.1
+				reactionary_ultranationalism_acceptance = 85
 			}
 		}
 

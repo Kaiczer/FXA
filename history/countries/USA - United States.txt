@@ -115,23 +115,23 @@ set_stability = 0.56
 set_war_support = 0.34
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = classical_liberal
 	last_election = "1932.11.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-  auth_socialist = 1
-  vanguard_socialist = 1
-  libertarian_socialist = 8
+  soviet_socialist = 1
+  soviet_socialist = 1
+  broad_socialism = 8
   social_democrat = 19
   social_liberal = 20
-  market_liberal = 27
+  classical_liberal = 27
   social_conservative = 18
   authoritarian_democrat = 3
   paternal_autocrat = 0
-  national_populist = 3
+  reactionary_ultranationalism = 3
   valkist = 0
 }
 

@@ -256,7 +256,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_kill_Goring"
 			retire_character = GER_Hermann_Goring
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = -0.10
 			}
 			add_timed_idea = {
@@ -10183,7 +10183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GER_Hermann_dictatorship
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		cost = 2
 		prerequisite = {
 			focus = GER_officers_seize_power
@@ -10424,10 +10424,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_press"
             add_stability = -0.05
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = classical_liberal popularity = 0.02 } 
 	 }
 	}
 	focus = {
@@ -10443,10 +10443,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_speech"
 			add_stability = -0.05
-            add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+            add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = classical_liberal popularity = 0.02 } 
 	  	}
 	}
 	focus = {
@@ -10462,10 +10462,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GER_freedom_of_religion"
 		    add_stability = -0.05
-			add_popularity = { ideology = libertarian_socialist popularity = 0.05 }
+			add_popularity = { ideology = broad_socialism popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
-			add_popularity = { ideology = market_liberal popularity = 0.02 } 
+			add_popularity = { ideology = classical_liberal popularity = 0.02 } 
 	  	}
 	}
 	focus = {
@@ -10529,7 +10529,7 @@ focus_tree = {
 			focus = GER_new_german_army
 		}
 		available = {
-			has_government = national_populist	
+			has_government = reactionary_ultranationalism	
 		}
 		x = -4
 		y = 1
@@ -10634,7 +10634,7 @@ focus_tree = {
 		    OR = {
 				has_government = social_democrat  
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
@@ -11016,7 +11016,7 @@ focus_tree = {
 		icon = GFX_goal_generic_air_production
 		cost = 8
 		available = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = {
 			focus = GER_Luftwaffe
@@ -11512,7 +11512,7 @@ focus_tree = {
 		icon = GFX_goal_generic_attack_allies
 		cost = 4
 		available = {
-      has_government = national_populist
+      has_government = reactionary_ultranationalism
 		}
 		prerequisite = {
 			focus = GER_Germany_in_Europe
@@ -12675,7 +12675,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_New_order
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		cost = 3
 		x = 14
 		y = 11
@@ -12705,7 +12705,7 @@ focus_tree = {
 		relative_position_id = GER_New_order
 	 	completion_reward = {
 		   log = "[GetDateText]: [Root.GetName]: Focus GER_absorming_remnants"
-		   add_popularity = { ideology = national_populist popularity = 0.2 }
+		   add_popularity = { ideology = reactionary_ultranationalism popularity = 0.2 }
 		}
 	}
 	

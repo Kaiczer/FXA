@@ -517,15 +517,15 @@ ideas = {
 				OR = {
 					has_democratic_government = yes
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 				country_exists = JAP
 			}
 			modifier = {
-				auth_socialist_acceptance = -50
-				vanguard_socialist_acceptance = -50
-				libertarian_socialist_acceptance = -50
+				soviet_socialist_acceptance = -50
+				soviet_socialist_acceptance = -50
+				broad_socialism_acceptance = -50
 				send_volunteer_size = 2
 				army_org_factor = 0.1
 			}
@@ -539,9 +539,9 @@ ideas = {
 				country_exists = JAP
 			}
 			modifier = {
-				auth_socialist_acceptance = 50
-				vanguard_socialist_acceptance = 50
-				libertarian_socialist_acceptance = 50
+				soviet_socialist_acceptance = 50
+				soviet_socialist_acceptance = 50
+				broad_socialism_acceptance = 50
 				send_volunteer_size = 2
 				army_org_factor = 0.1
 			}
@@ -741,7 +741,7 @@ ideas = {
 			picture = generic_education_budget
 			allowed = { original_tag = JAP }
 			modifier = {
-				national_populist_drift = 0.05
+				reactionary_ultranationalism_drift = 0.05
 				research_speed_factor = 0.05
 			}
 			research_bonus = {
@@ -754,7 +754,7 @@ ideas = {
 			picture = generic_education_budget
 			modifier = {
 				political_power_gain = 0.05
-				national_populist_drift = 0.1
+				reactionary_ultranationalism_drift = 0.1
 				research_speed_factor = 0.1
 			}
 			research_bonus = {
@@ -1661,9 +1661,9 @@ ideas = {
 			allowed = { original_tag = JAP }
 			picture = ger_bulwark_against_bolshevism
 			modifier = {
-				auth_socialist_acceptance = -50
-				vanguard_socialist_acceptance = -50
-				libertarian_socialist_acceptance = -50
+				soviet_socialist_acceptance = -50
+				soviet_socialist_acceptance = -50
+				broad_socialism_acceptance = -50
 			}
 		}
 		jap_rus_cooprosperity = {

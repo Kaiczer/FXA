@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -27,7 +27,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -43,7 +43,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -132,7 +132,7 @@ characters = {
 			idea_token = BEL_Joseph_Jacquemotte_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_red_chairmen
 			}
 		}
@@ -151,7 +151,7 @@ characters = {
 			idea_token = BEL_Julien_Lahaut_hog_col
 			can_be_fired = no
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -178,7 +178,7 @@ characters = {
 			idea_token = BEL_Staf_de_Clercq_hog_npo
 			can_be_fired = no
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_determined_populist
 			}
 		}
@@ -313,7 +313,7 @@ characters = {
 			idea_token = BEL_War_van_Overstraeten_hog_col
 			can_be_fired = no
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_sincere_internationalist
 			}
 		}
@@ -325,7 +325,7 @@ characters = {
 			}
 			idea_token = BEL_War_van_Overstraeten_for_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -343,7 +343,7 @@ characters = {
 			idea_token = BEL_Lucie_Dejardin_hog_lib
 			can_be_fired = no
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_naive_optimist
 			}
 		}
@@ -502,7 +502,7 @@ characters = {
 			}
 			idea_token = BEL_Edgar_Lalmand_for_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_foreign_sympathizer
 			}
 		}
@@ -521,7 +521,7 @@ characters = {
 			}
 			idea_token = BEL_Louis_Paul_Boon_for_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_foreign_sympathizer
 			}
 		}
@@ -597,7 +597,7 @@ characters = {
 			}
 			idea_token = BEL_Roger_Motz_for_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				for_relations_expert
 			}
 		}
@@ -673,7 +673,7 @@ characters = {
 			}
 			idea_token = BEL_Jef_Francois_for_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_apologetic_clerk
 			}
 		}
@@ -692,7 +692,7 @@ characters = {
 			}
 			idea_token = BEL_Albert_Marteaux_eco_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -711,7 +711,7 @@ characters = {
 			}
 			idea_token = BEL_Abraham_Leon_eco_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -730,7 +730,7 @@ characters = {
 			}
 			idea_token = BEL_Adhemar_Henneaut_eco_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -807,7 +807,7 @@ characters = {
 			}
 			idea_token = BEL_Alexandre_Galopin_eco_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -826,7 +826,7 @@ characters = {
 			}
 			idea_token = BEL_Franz_de_Voghel_eco_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_national_liberal
 			}
 		}
@@ -845,7 +845,7 @@ characters = {
 			}
 			idea_token = BEL_Maurice_Lippens_eco_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_trade_proponent
 			}
 		}
@@ -960,7 +960,7 @@ characters = {
 			}
 			idea_token = BEL_Jean_Terfve_sec_van
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_health_and_safety
 			}
 		}
@@ -979,7 +979,7 @@ characters = {
 			}
 			idea_token = BEL_Willem_Eekelers_sec_col
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_compassionate_gentleman
 			}
 		}
@@ -998,7 +998,7 @@ characters = {
 			}
 			idea_token = BEL_Felix_Van_den_Bergh_sec_lib
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_silent_lawyer
 			}
 		}
@@ -1036,7 +1036,7 @@ characters = {
 			}
 			idea_token = BEL_Albert_Deveze_sec_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_prince_of_terror
 			}
 		}
@@ -1055,7 +1055,7 @@ characters = {
 			}
 			idea_token = BEL_Victor_Maistriau_sec_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_compassionate_gentleman
 			}
 		}
@@ -1188,7 +1188,7 @@ characters = {
 			}
 			idea_token = BEL_Paul_Ouwerx_sec_npo
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}

@@ -246,7 +246,7 @@ country_event = {
 			}
 		add_political_power = 50
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.02
 		}
 		add_popularity = {
@@ -959,7 +959,7 @@ country_event = {
             ideology = social_liberal_subtype
           }
           remove_country_leader_role = {
-            ideology = market_liberal_subtype
+            ideology = classical_liberal_subtype
           }
           remove_country_leader_role = {
             ideology = social_conservative_subtype
@@ -997,7 +997,7 @@ country_event = {
         character = POL_Walery_Sławek
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -1151,7 +1151,7 @@ country_event = {
         ideology = social_liberal_subtype
       }
       remove_country_leader_role = {
-        ideology = market_liberal_subtype
+        ideology = classical_liberal_subtype
       }
       remove_country_leader_role = {
         ideology = social_conservative_subtype
@@ -1203,7 +1203,7 @@ country_event = {
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
-					ideology = market_liberal_subtype
+					ideology = classical_liberal_subtype
 					traits = { }
 				}
 			}
@@ -1503,11 +1503,11 @@ country_event = {
 		add_political_power = 50
 		
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.3
 		}
 		add_ideas = republican_dictatorship
-		set_politics = { ruling_party = national_populist elections_allowed = no }
+		set_politics = { ruling_party = reactionary_ultranationalism elections_allowed = no }
 	}
 }
 
@@ -1549,7 +1549,7 @@ country_event = {
 		country_event = { days = 7 id = poland.44 } }
 		
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = -0.1
 		}
 		add_popularity = {

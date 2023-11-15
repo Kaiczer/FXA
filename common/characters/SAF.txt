@@ -21,7 +21,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_James_La_Guma_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -40,7 +40,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_James_La_Guma_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -67,7 +67,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -86,7 +86,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Solomon_Sachs_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -113,7 +113,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Sidney_Bunting_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_happy_amateur
 			}
 		}
@@ -346,7 +346,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_D_F_Malan_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_local_tyrant
 			}
 		}
@@ -373,7 +373,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_J_F_van_Rensburg_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_silent_workhorse
 			}
 		}
@@ -400,7 +400,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Goolam_Gool_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_relations_expert
 			}
 		}
@@ -427,7 +427,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Bram_Fischer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_biased_intellectual
 			}
 		}
@@ -454,7 +454,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Yusuf_Dadoo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_ideological_crusader
 			}
 		}
@@ -481,7 +481,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Thabo_Mofutsanyana_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -508,7 +508,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Lazar_Bach_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -737,7 +737,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Moses_Kotane_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -764,7 +764,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Douglas_Wolton_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_efficient_sociopath
 			}
 		}
@@ -791,7 +791,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_W_H_Andrews_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_compassionate_gentleman
 			}
 		}
@@ -1210,7 +1210,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -1226,7 +1226,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}
@@ -1403,7 +1403,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Alfred_Bitini_Xuma_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_privileged_socialist
 			}
 		}
@@ -1430,7 +1430,7 @@ characters = {
 				ROOT = { clr_country_flag = SAF_Tielman_Roos_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_local_tyrant
 			}
 		}

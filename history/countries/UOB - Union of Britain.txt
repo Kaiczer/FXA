@@ -17,16 +17,16 @@ set_stability = 0.45
 set_war_support = 0.45
 
 set_politics = {	
-	ruling_party = libertarian_socialist
+	ruling_party = broad_socialism
 	last_election = "1935.9.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 10
-  vanguard_socialist = 20
-  libertarian_socialist = 40
+  soviet_socialist = 10
+  soviet_socialist = 20
+  broad_socialism = 40
   social_democrat = 15
   social_liberal = 5
   social_conservative = 10

@@ -62,7 +62,7 @@ ideas = {
 			ledger = army
 			visible = {
 				OR = {
-					has_government = auth_socialist
+					has_government = soviet_socialist
 					has_authoritarian_government = yes
 				}
 			}
@@ -202,8 +202,8 @@ ideas = {
 			ledger = army
 			visible = {
 				OR = {
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 			modifier = {
@@ -220,7 +220,7 @@ ideas = {
 			visible = {
 				OR = {
 					has_government = paternal_autocrat
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 				}
 			}
 			modifier = {

@@ -133,7 +133,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = libertarian_socialist_subtype
+				ideology = broad_socialism_subtype
 				traits = {}
 			}
 		}
@@ -157,7 +157,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = market_liberal_subtype
+				ideology = classical_liberal_subtype
 				traits = {}
 			}
 		}
@@ -189,7 +189,7 @@ ROM_make_michael_king = {
 			promote_leader = yes
 			country_leader = {
 				desc = POLITICS_MICHAEL_I_DESC
-				ideology = national_populist_subtype
+				ideology = reactionary_ultranationalism_subtype
 				traits = {}
 			}
 		}
@@ -208,7 +208,7 @@ ROM_make_nicholas_king = {
 	ROM_Nicholas_von_Hohenzollern_Sigmaringen = {
 		if = {
 			limit = {
-				NOT = { has_ideology_group = auth_socialist }
+				NOT = { has_ideology_group = soviet_socialist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
@@ -221,7 +221,7 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = vanguard_socialist }
+				NOT = { has_ideology_group = soviet_socialist }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
@@ -234,13 +234,13 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = libertarian_socialist }
+				NOT = { has_ideology_group = broad_socialism }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = libertarian_socialist_subtype
+					ideology = broad_socialism_subtype
 					traits = {}
 				}
 			}
@@ -273,13 +273,13 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = market_liberal }
+				NOT = { has_ideology_group = classical_liberal }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
 				country_leader = {
 					desc = POLITICS_NICHOLAS_I_DESC
-					ideology = market_liberal_subtype
+					ideology = classical_liberal_subtype
 					traits = {}
 				}
 			}
@@ -325,7 +325,7 @@ ROM_make_nicholas_king = {
 		}
 		if = {
 			limit = {
-				NOT = { has_ideology_group = national_populist }
+				NOT = { has_ideology_group = reactionary_ultranationalism }
 			}
 			add_country_leader_role = {
 				promote_leader = yes
@@ -373,7 +373,7 @@ ROM_become_republic = {
 		character = ROM_Mihai_Dumitru_Ralea
 		promote_leader = yes
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = {}
 		}
 	}
@@ -397,7 +397,7 @@ ROM_become_republic = {
 		character = ROM_Constantin_Angelescu
 		promote_leader = yes
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}
@@ -421,7 +421,7 @@ ROM_become_republic = {
 		character = ROM_Alexandru_Cantacuzino
 		promote_leader = yes
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 	}

@@ -20,10 +20,10 @@ country_event = {
 		name = "The CPGB will bring the revolution to the world!"
 		add_ideas = one_party_dictatorship
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = auth_socialist popularity = 0.4 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.4 }
 		set_country_flag = cpgb_victory
 	}
 	
@@ -31,10 +31,10 @@ country_event = {
 		name = "The BSP will ensure socialism in Britain!"
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
-		add_popularity = { ideology = vanguard_socialist popularity = 0.4 }
+		add_popularity = { ideology = soviet_socialist popularity = 0.4 }
 		set_country_flag = bsp_victory
 	}
 	
@@ -42,10 +42,10 @@ country_event = {
 		name = "The ILP with their moderate socialism will ensure stability"
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
-		add_popularity = { ideology = libertarian_socialist popularity = 0.4 }
+		add_popularity = { ideology = broad_socialism popularity = 0.4 }
 		set_country_flag = ilp_victory
 	}
 }

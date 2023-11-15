@@ -278,8 +278,8 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.2
 			}
 		}
-		CZE_revolution_vanguard_socialist = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CZE_revolution_vanguard_socialist"}
+		CZE_revolution_soviet_socialist = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea CZE_revolution_soviet_socialist"}
 			allowed = {
 			original_tag = "CZE"
 			}

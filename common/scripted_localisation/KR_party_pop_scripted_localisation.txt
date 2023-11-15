@@ -16,21 +16,21 @@ defined_text = {
 	name = GetPopularityTooltipDesc
 	text = {
 		trigger = {
-			has_government = auth_socialist
+			has_government = soviet_socialist
 		}
 		localization_key = authsoc_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		localization_key = vansoc_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = broad_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -46,9 +46,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = market_liberal
+			has_government = classical_liberal
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = classical_liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -70,9 +70,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = reactionary_ultranationalism_subtype_desc
 	}
     text = {
 		trigger = {
@@ -147,12 +147,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = auth_socialist
-				check_variable = { political_power_ideology = token:auth_socialist }
+				has_government = soviet_socialist
+				check_variable = { political_power_ideology = token:soviet_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:auth_socialist }
+			is_in_array = { ROOT.coalition_partners = token:soviet_socialist }
 		}
-		localization_key = party_pop_coalition_auth_socialist
+		localization_key = party_pop_coalition_soviet_socialist
 	}
 	text = {
 		localization_key = empty
@@ -163,12 +163,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = vanguard_socialist
-				check_variable = { political_power_ideology = token:vanguard_socialist }
+				has_government = soviet_socialist
+				check_variable = { political_power_ideology = token:soviet_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:vanguard_socialist }
+			is_in_array = { ROOT.coalition_partners = token:soviet_socialist }
 		}
-		localization_key = party_pop_coalition_vanguard_socialist
+		localization_key = party_pop_coalition_soviet_socialist
 	}
 	text = {
 		localization_key = empty
@@ -179,12 +179,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = libertarian_socialist
-				check_variable = { political_power_ideology = token:libertarian_socialist }
+				has_government = broad_socialism
+				check_variable = { political_power_ideology = token:broad_socialism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:libertarian_socialist }
+			is_in_array = { ROOT.coalition_partners = token:broad_socialism }
 		}
-		localization_key = party_pop_coalition_libertarian_socialist
+		localization_key = party_pop_coalition_broad_socialism
 	}
 	text = {
 		localization_key = empty
@@ -227,12 +227,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = market_liberal
-				check_variable = { political_power_ideology = token:market_liberal }
+				has_government = classical_liberal
+				check_variable = { political_power_ideology = token:classical_liberal }
 			}
-			is_in_array = { ROOT.coalition_partners = token:market_liberal }
+			is_in_array = { ROOT.coalition_partners = token:classical_liberal }
 		}
-		localization_key = party_pop_coalition_market_liberal
+		localization_key = party_pop_coalition_classical_liberal
 	}
 	text = {
 		localization_key = empty
@@ -290,10 +290,10 @@ defined_text = {
 	name = GetCoalitionNationalPopulist
 	text = {
 		trigger = {
-			NOT = { has_government = national_populist }
-			is_in_array = { ROOT.coalition_partners = token:national_populist }
+			NOT = { has_government = reactionary_ultranationalism }
+			is_in_array = { ROOT.coalition_partners = token:reactionary_ultranationalism }
 		}
-		localization_key = party_pop_coalition_national_populist
+		localization_key = party_pop_coalition_reactionary_ultranationalism
 	}
 	text = {
 		localization_key = empty
@@ -316,19 +316,19 @@ defined_text = {
 	name = GetCoalitionTooltipColour
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:auth_socialist }
+			check_variable = { coalition_partner_var = token:soviet_socialist }
 		}
-		localization_key = colour_auth_socialist_red
+		localization_key = colour_soviet_socialist_red
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:vanguard_socialist }
+			check_variable = { coalition_partner_var = token:soviet_socialist }
 		}
-		localization_key = colour_vanguard_socialist_red
+		localization_key = colour_soviet_socialist_red
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:libertarian_socialist }
+			check_variable = { coalition_partner_var = token:broad_socialism }
 		}
 		localization_key = colour_red
 	}
@@ -346,7 +346,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:market_liberal }
+			check_variable = { coalition_partner_var = token:classical_liberal }
 		}
 		localization_key = colour_marlib_yellow
 	}
@@ -370,7 +370,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:national_populist }
+			check_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 		}
 		localization_key = colour_natpop_brown
 	}

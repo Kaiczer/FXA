@@ -57,23 +57,23 @@ set_stability = 0.6
 set_war_support = 0.6
 
 set_politics = {
-	ruling_party = national_populist
+	ruling_party = reactionary_ultranationalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 0
-  vanguard_socialist = 0
-  libertarian_socialist = 0
+  soviet_socialist = 0
+  soviet_socialist = 0
+  broad_socialism = 0
   social_democrat = 7
   social_liberal = 0
-  market_liberal = 10
+  classical_liberal = 10
   social_conservative = 4
   authoritarian_democrat = 1
   paternal_autocrat = 1
-  national_populist = 70
+  reactionary_ultranationalism = 70
   valkist = 7
 }
 

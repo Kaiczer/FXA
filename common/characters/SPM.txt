@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -55,7 +55,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -175,7 +175,7 @@ characters = {
 			idea_token = SPM_Juan_de_la_Cierva_y_Penafiel_hog_mli
 			can_be_fired = no
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -286,7 +286,7 @@ characters = {
 			}			
 			idea_token = SPM_Claudio_Sanchez_Albornoz_for_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				for_apologetic_clerk
 			}
 		}
@@ -486,7 +486,7 @@ characters = {
 				ROOT = { clr_country_flag = SPM_Diego_Hidalgo_Duran_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_national_liberal
 			}
 		}
@@ -679,7 +679,7 @@ characters = {
 			}			
 			idea_token = SPM_Miguel_Maura_Gamazo_sec_mli
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_back_stabber
 			}
 		}

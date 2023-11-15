@@ -2539,9 +2539,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CAN_king_purge_socialists"
-			add_popularity = { ideology = auth_socialist popularity = -0.1 }
-			add_popularity = { ideology = vanguard_socialist popularity = -0.1 }
-			add_popularity = { ideology = libertarian_socialist popularity = -0.1 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.1 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.1 }
+			add_popularity = { ideology = broad_socialism popularity = -0.1 }
 			add_popularity = { ideology = social_democrat popularity = -0.1 } 
 			add_political_power = 100
 		}
@@ -2720,7 +2720,7 @@ focus_tree = {
 #LIBERAL VICTORY
 	focus = {
 		id = CAN_liberal_victory
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
 		prerequisite = { focus = CAN_elections_1938 }
 		mutually_exclusive = { focus = CAN_tory_victory }
 		mutually_exclusive = { focus = CAN_ccf_victory }
@@ -2943,7 +2943,7 @@ focus_tree = {
 
 	focus = {
 		id = CAN_socred_victory
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		prerequisite = { focus = CAN_elections_1938 }
 		mutually_exclusive = { focus = CAN_liberal_victory }
 		mutually_exclusive = { focus = CAN_tory_victory }

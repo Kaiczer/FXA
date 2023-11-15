@@ -30,7 +30,7 @@ country_event = { # Elections!
   option = {
     name = australia.1.a
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

@@ -32,16 +32,16 @@ set_politics = {
 }
 
 set_popularities = {
-	auth_socialist = 3
-	vanguard_socialist = 8
-	libertarian_socialist = 7
+	soviet_socialist = 3
+	soviet_socialist = 8
+	broad_socialism = 7
 	social_democrat = 4
 	social_liberal = 2
-	market_liberal = 3
+	classical_liberal = 3
 	social_conservative = 4
 	authoritarian_democrat = 25
 	paternal_autocrat = 34
-	national_populist = 10
+	reactionary_ultranationalism = 10
 	valkist = 0
 }
 

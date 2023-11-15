@@ -1475,7 +1475,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.1 }
 		}
 	}
 
@@ -1576,7 +1576,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Root_Out_Remnants"
 			add_political_power = 25
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.05 }
 		}
 	}
 
@@ -1844,9 +1844,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Status_Quo"
 			add_stability = -0.05
 			add_political_power = -25
-			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = 0.05 }
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.15 }
 		}
 	}
@@ -1884,9 +1884,9 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Restrict_Communication"
-			add_popularity = { ideology = auth_socialist popularity = -0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.05 }
 			add_political_power = 50
 		}
 	}
@@ -2041,7 +2041,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Subdue_Nationalists"
-			add_popularity = { ideology = national_populist popularity = -0.1 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.1 }
 		}
 	}
 
@@ -2061,7 +2061,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus RAJ_Boost_Moderates"
-			add_popularity = { ideology = market_liberal popularity = 0.05 }
+			add_popularity = { ideology = classical_liberal popularity = 0.05 }
 			add_popularity = { ideology = social_democrat popularity = -0.05 }
 		}
 	}

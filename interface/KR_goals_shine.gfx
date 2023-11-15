@@ -487,11 +487,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_market_liberal_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+		name = "GFX_goal_ideology_classical_liberal_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_classical_liberal.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_classical_liberal.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -504,7 +504,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_classical_liberal.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -583,11 +583,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_national_populist_shine"
-		texturefile = "gfx/interface/goals/goal_ideology_national_populist.png"
+		name = "GFX_goal_ideology_reactionary_ultranationalism_shine"
+		texturefile = "gfx/interface/goals/goal_ideology_reactionary_ultranationalism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_reactionary_ultranationalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -600,7 +600,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/goal_ideology_national_populist.png"
+			animationmaskfile = "gfx/interface/goals/goal_ideology_reactionary_ultranationalism.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

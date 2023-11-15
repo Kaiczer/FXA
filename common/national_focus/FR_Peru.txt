@@ -57,7 +57,7 @@ focus_tree = {
 	}
 		focus = { 
 		id = PRU_threat_of_insurrection
-		icon = GFX_goal_vanguard_socialist_menace
+		icon = GFX_goal_soviet_socialist_menace
 		prerequisite = { focus = PRU_issues_of_our_own }
  		ai_will_do = { factor = 15 } 
 
@@ -154,7 +154,7 @@ focus_tree = {
 						is_in_faction_with = PRU
 						is_subject_of = PRU
 						has_war_with = PRU
-						has_government = market_liberal
+						has_government = classical_liberal
 						has_government = social_liberal
 						has_government = social_democrat
 						has_government = social_conservative
@@ -307,7 +307,7 @@ focus_tree = {
 				ideology = social_conservative popularity = 0.025
 			}
 			add_popularity = { 
-				ideology = market_liberal popularity = 0.025
+				ideology = classical_liberal popularity = 0.025
 			}
 			add_popularity = { 
 				ideology = social_liberal popularity = 0.025
@@ -331,10 +331,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_work_with_the_unions"
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = -0.025
+				ideology = broad_socialism popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = vanguard_socialist popularity = -0.025
+				ideology = soviet_socialist popularity = -0.025
 			}
 			add_popularity = { 
 				ideology = paternal_autocrat popularity = 0.025
@@ -560,10 +560,10 @@ focus_tree = {
 			}
 			add_political_power = -25
 			add_popularity = { 
-				ideology = vanguard_socialist popularity = -0.025
+				ideology = soviet_socialist popularity = -0.025
 			}
 			add_popularity = { 
-				ideology = libertarian_socialist popularity = -0.025
+				ideology = broad_socialism popularity = -0.025
 			}
 		} 
 	}
@@ -1905,7 +1905,7 @@ focus = {
 		y = 2
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = reactionary_ultranationalism }
 		PRU = {
 			is_subject = no
 			}
@@ -1926,7 +1926,7 @@ focus = {
 		y = 3
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = reactionary_ultranationalism }
 		PRU = {
 			is_subject = no
 			}
@@ -1947,7 +1947,7 @@ focus = {
 		y = 4
 		cost = 10
 		available = { 
-		COL = { has_government = national_populist }
+		COL = { has_government = reactionary_ultranationalism }
 		PRU = {
 			is_subject = no
 			has_war = no
@@ -2146,9 +2146,9 @@ focus = {
 		has_war = no
 		BOL = {
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 				has_government = valkist
 				}
 			is_subject = no
@@ -2174,9 +2174,9 @@ focus = {
 		has_war = no
 		BOL = {
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 				has_government = valkist
 				}
 			is_subject = no
@@ -2194,7 +2194,7 @@ focus = {
 	
 	focus = { 
 		id = PRU_peruvian_revolution
-		icon = GFX_goal_vanguard_socialist_menace
+		icon = GFX_goal_soviet_socialist_menace
 
  		ai_will_do = { factor = 10 } 
 		allow_branch = {
@@ -2934,7 +2934,7 @@ focus = {
  		available = { always = no }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRU_aprist_program"
-			add_popularity = { ideology = auth_socialist popularity = 0.05 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
 		} 
 	}
 		focus = { 

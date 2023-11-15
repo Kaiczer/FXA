@@ -66,31 +66,31 @@ set_puppet_minister_middle_east = {}
 #	if = {
 #		limit = { tag = [tag] }
 #		if = {
-#			limit = { has_socialist_government = yes }	# auth_socialist, vanguard_socialist, libertarian_socialist ( social_democrat for some )
+#			limit = { has_socialist_government = yes }	# soviet_socialist, soviet_socialist, broad_socialism ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}
 #		}
 #		else_if = {
-#			limit = { has_elected_government = yes }	# social_liberal, market_liberal, social_conservative ( social_democrat for some )
+#			limit = { has_elected_government = yes }	# social_liberal, classical_liberal, social_conservative ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}
 #		}
 #		else_if = {
-#			limit = { has_democratic_government = yes }	# social_liberal, market_liberal, social_conservative, authotharian_democrat ( social_democrat for some )
+#			limit = { has_democratic_government = yes }	# social_liberal, classical_liberal, social_conservative, authotharian_democrat ( social_democrat for some )
 #			add_ideas = {
 #				# Insert Ministers here
 #			}
 #		}
 #		else_if = {
-#			limit = { has_authoritarian_government = yes }	# authotharian_democrat, paternal_autocrat, national_populist
+#			limit = { has_authoritarian_government = yes }	# authotharian_democrat, paternal_autocrat, reactionary_ultranationalism
 #			add_ideas = {
 #				# Insert Ministers here
 #			}
 #		}
 #		else_if = {
-#			limit = { has_dictatorship_government = yes }	# paternal_autocrat, national_populist, valkist
+#			limit = { has_dictatorship_government = yes }	# paternal_autocrat, reactionary_ultranationalism, valkist
 #			add_ideas = {
 #				# Insert Ministers here
 #			}

@@ -1220,7 +1220,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Prioritize_Transvaal"
-			add_popularity = { ideology = national_populist popularity = 0.025 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.025 }
 			add_popularity = { ideology = valkist popularity = 0.025 }
 			hidden_effect = {
 				add_to_variable = {	var = saf_pnp value = 1 }
@@ -1379,7 +1379,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Go_Alone"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		}
 	}
 
@@ -1530,11 +1530,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1567,11 +1567,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1599,11 +1599,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1631,11 +1631,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1681,11 +1681,11 @@ focus_tree = {
 					controls_state = 810
 				}
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1734,11 +1734,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1766,11 +1766,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1798,11 +1798,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1830,11 +1830,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1843,7 +1843,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Solidify_the_Coalition"
-			add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+			add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.02 }
 			add_popularity = { ideology = social_liberal popularity = 0.02 }
 		}
@@ -1864,11 +1864,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1896,11 +1896,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1910,7 +1910,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Work_Without_Nationalists"
 			add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-			add_popularity = { ideology = national_populist popularity = -0.02 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.02 }
 			add_popularity = { ideology = valkist popularity = -0.02 }
 		}
 	}
@@ -1932,11 +1932,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -1966,11 +1966,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2001,11 +2001,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2035,11 +2035,11 @@ focus_tree = {
 		available = {
 			has_country_flag = SAF_ANC
 			NOT = { 
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2475,7 +2475,7 @@ focus_tree = {
 #### PNP Victory ####
 	focus = {
 		id = SAF_PNP_Victory
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		prerequisite = { focus = SAF_1937_Election }
 #		mutually_exclusive = { focus = SAF_ANC_Victory }
 #		mutually_exclusive = { focus = SAF_United_Victory }
@@ -2492,7 +2492,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2526,7 +2526,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2536,7 +2536,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Kalahari_Reservation"
 			add_stability = -0.1
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		}
 	}
 
@@ -2556,7 +2556,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2585,7 +2585,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2614,7 +2614,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2645,7 +2645,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2674,7 +2674,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2718,7 +2718,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2728,7 +2728,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Unlimited_Power"
 			add_political_power = 100
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		}
 	}
 
@@ -2748,7 +2748,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2778,7 +2778,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2812,7 +2812,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2842,7 +2842,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2876,7 +2876,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2910,7 +2910,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -2941,7 +2941,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist 
+				has_government = reactionary_ultranationalism 
 				has_government = valkist
 			}
 		}
@@ -3094,7 +3094,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Our_Place_Empire"
 			add_political_power = 50
-			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = -0.05 }
 			add_popularity = { ideology = valkist popularity = -0.05 }
 		}
 	}
@@ -3594,7 +3594,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SAF_Summon_House"
-			add_popularity = { ideology = national_populist popularity = 0.05 }
+			add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 			add_popularity = { ideology = valkist popularity = 0.05 }
 		}
 	}

@@ -101,7 +101,7 @@ country_event = { #Chaos in the Country
 			popularity = 0.2
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.1
 		}
 
@@ -162,7 +162,7 @@ country_event = { #Chaos in the Country
 		}
 
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.4
 		}
 		add_popularity = {
@@ -175,7 +175,7 @@ country_event = { #Chaos in the Country
 		}
 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
     retire_character = GER_Valkist_Council
@@ -208,20 +208,20 @@ country_event = { #Popular issurection
 		}
 
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = 0.1
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.1
 		}
 
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 
@@ -253,7 +253,7 @@ country_event = { #Popular issurection
         character = GER_Willy_Brandt
         promote_leader = yes
         country_leader = {
-          ideology = libertarian_socialist_subtype
+          ideology = broad_socialism_subtype
           traits = {}
         }
       }
@@ -306,7 +306,7 @@ country_event = { #Goering's Speech
 		name = valkyrie.6.a
 		add_political_power = 65
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.05
 		}
 	}
@@ -323,7 +323,7 @@ country_event = { #Goering Blue Max Tour
 		name = valkyrie.7.a
 		add_political_power = 65
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.1
 		}
 		   swap_ideas = { remove_idea = ger_political_collapse_3_g add_idea = ger_political_collapse_4_g }
@@ -340,10 +340,10 @@ country_event = { #Popular insurection
 	option = {
 		name = valkyrie.8.a
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.1
 		}
-		set_party_name = { ideology = libertarian_socialist long_name = "Allgemeiner Deutscher Gewerkschaftsbund" name = "ADGB" }
+		set_party_name = { ideology = broad_socialism long_name = "Allgemeiner Deutscher Gewerkschaftsbund" name = "ADGB" }
 	}
 }
 
@@ -397,7 +397,7 @@ country_event = { #inviting the local princes
 		add_political_power = -50
 		
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.03
 		}
 		add_popularity = {
@@ -460,7 +460,7 @@ country_event = { #Absolutist vs Parlementarian decision
       add_ideas = constitutional_monarchy
     }
     add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.10
 		}
 		add_popularity = {
@@ -506,7 +506,7 @@ country_event = { #Accession to the throne authdem/conservativism
 			popularity = 0.4
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.15
 		}
 		add_popularity = {
@@ -561,7 +561,7 @@ country_event = { #First German election
 		}
 
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.2
 		}
 		add_popularity = {
@@ -574,7 +574,7 @@ country_event = { #First German election
 		}
 
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 			elections_allowed = yes
 		}
 		
@@ -1989,15 +1989,15 @@ country_event = { #France gets the German demand for referundum
 			}
 			modifier = {
 				factor = 0.5
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -2601,7 +2601,7 @@ country_event = { #General strike event
 		RHI = { set_cosmetic_tag = RHI_VLK }
 	
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		
@@ -2744,7 +2744,7 @@ country_event = { #Germany funded rebels in the Rhineland
 		RHI = { set_cosmetic_tag = RHI_VLK }
 		
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		retire_country_leader = yes
@@ -2980,7 +2980,7 @@ country_event = { #USSR gets its claims
 	tag = GER
 	
 	GER = {
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		
 		
@@ -3485,7 +3485,7 @@ country_event = { # WIP Austria coup
 			popularity = 0.25
 		}
 		add_popularity = {
-			ideology = national_populist
+			ideology = reactionary_ultranationalism
 			popularity = 0.15
 		}
 		clr_country_flag = GER_aus_coup
@@ -3603,7 +3603,7 @@ country_event = {
       character = AUS_Ernst_Kaltenbrunner
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = reactionary_ultranationalism_subtype
         traits = {}
       }
     }
@@ -4299,15 +4299,15 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -4346,15 +4346,15 @@ country_event = { # Belarus - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
@@ -4439,15 +4439,15 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 0.25
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 0.25
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 0.25
@@ -4486,15 +4486,15 @@ country_event = { # Ukriane - Germany offers alliance
 			}
 			modifier = {
 				factor = 4
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 			}
 			modifier = {
 				factor = 4
-				has_government = vanguard_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			modifier = {
 				factor = 4

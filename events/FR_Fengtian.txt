@@ -101,8 +101,8 @@ country_event = {
 	option = {
 		name = "Not in a million years."
     add_popularity = { ideology = social_democrat popularity = 0.01 }
-    add_popularity = { ideology = libertarian_socialist popularity = 0.01 }
-    add_popularity = { ideology = vanguard_socialist popularity = 0.01 }
+    add_popularity = { ideology = broad_socialism popularity = 0.01 }
+    add_popularity = { ideology = soviet_socialist popularity = 0.01 }
     add_political_power = -20
     hidden_effect = {
     IF = {
@@ -187,7 +187,7 @@ country_event = {
 		value = 1
 		}
 		custom_effect_tooltip = 12_MAN_tt
-    add_popularity = { ideology = national_populist popularity = 0.03 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.03 }
     add_political_power = -35
     hidden_effect = {
     IF = {
@@ -592,7 +592,7 @@ country_event = {
 
     add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
     add_popularity = { ideology = social_conservative popularity = 0.04 }
-    add_popularity = { ideology = market_liberal popularity = 0.02 }
+    add_popularity = { ideology = classical_liberal popularity = 0.02 }
 
     hidden_effect = {
 
@@ -612,7 +612,7 @@ country_event = {
 
     add_popularity = { ideology = authoritarian_democrat popularity = 0.02 }
     add_popularity = { ideology = social_conservative popularity = 0.04 }
-    add_popularity = { ideology = market_liberal popularity = 0.02 }
+    add_popularity = { ideology = classical_liberal popularity = 0.02 }
 
     hidden_effect = {
 
@@ -650,8 +650,8 @@ country_event = {
       add_political_power = -75
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
-      add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
-      add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+      add_popularity = { ideology = broad_socialism popularity = 0.04 }
+      add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 
       hidden_effect = {
 
@@ -670,8 +670,8 @@ country_event = {
       add_political_power = 50
 
       add_popularity = { ideology = social_democrat popularity = 0.02 }
-      add_popularity = { ideology = libertarian_socialist popularity = 0.04 }
-      add_popularity = { ideology = vanguard_socialist popularity = 0.02 }
+      add_popularity = { ideology = broad_socialism popularity = 0.04 }
+      add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 
       hidden_effect = {
 
@@ -708,7 +708,7 @@ country_event = {
 
       add_political_power = -75
 
-      add_popularity = { ideology = national_populist popularity = 0.06 }
+      add_popularity = { ideology = reactionary_ultranationalism popularity = 0.06 }
 
 			add_to_variable = {
 			var = MAN_fengtian_influence_with_japan
@@ -733,7 +733,7 @@ country_event = {
 
       add_political_power = 50
 
-      add_popularity = { ideology = national_populist popularity = 0.06 }
+      add_popularity = { ideology = reactionary_ultranationalism popularity = 0.06 }
 
       hidden_effect = {
 
@@ -1084,7 +1084,7 @@ country_event = {
 
 		name = "A worthy association for a worthy cause."
 
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.15 }
 
 		add_stability = 0.05
 
@@ -1174,7 +1174,7 @@ country_event = {
         popularity = 0.10
       }
 		  add_popularity = { 
-        ideology = national_populist
+        ideology = reactionary_ultranationalism
         popularity = 0.10
       }
 
@@ -1227,7 +1227,7 @@ country_event = {
 
     add_political_power = -50
 
-    add_popularity = { ideology = market_liberal popularity = 0.05 }
+    add_popularity = { ideology = classical_liberal popularity = 0.05 }
     add_popularity = { ideology = social_liberal popularity = 0.03 }
 
     hidden_effect = {
@@ -1369,7 +1369,7 @@ country_event = {
 		name = "Damn it all!"
 
     add_political_power = -200
-    add_popularity = { ideology = national_populist popularity = 0.1 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.1 }
     add_popularity = { ideology = social_conservative popularity = 0.1 }
 
     hidden_effect = {
@@ -1406,7 +1406,7 @@ country_event = {
 		add_idea = MAN_antijapanese_sentiment
  		}
 
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.10 }
 		add_popularity = { ideology = valkist popularity = 0.05 }
 
 	add_ideas = military_junta
@@ -1420,7 +1420,7 @@ country_event = {
 	}
 
 	 set_politics = {
-			 ruling_party = national_populist
+			 ruling_party = reactionary_ultranationalism
 			 elections_allowed = no
 		 }
 
@@ -2063,7 +2063,7 @@ country_event = {
 
 		custom_effect_tooltip = 12_MAN_tt
 
-    add_popularity = { ideology = national_populist popularity = 0.10 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.10 }
 		add_popularity = { ideology = valkist popularity = 0.05 }
 		add_ideas = MAN_culture_manchu_revival
 	}
@@ -2089,7 +2089,7 @@ country_event = {
     add_political_power = -20
 		add_stability = -0.025
 		add_ideas = MAN_culture_westernized
-		add_popularity = { ideology = market_liberal popularity = 0.10 }
+		add_popularity = { ideology = classical_liberal popularity = 0.10 }
 		set_global_flag = MAN_manchurian_culture_is_western
 	}
 }
@@ -2112,7 +2112,7 @@ country_event = {
 	name = "These are no defenders of the 'people'!"
 	add_stability = -0.03
 	add_political_power = 25
-	add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+	add_popularity = { ideology = broad_socialism popularity = -0.05 }
 	set_global_flag = MAN_end_of_the_association
 	}
 
@@ -2510,7 +2510,7 @@ country_event = {
 
 	option = {
 		name = "The state should serve more than just the Chinese people!"
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
 		value = 1
@@ -2596,7 +2596,7 @@ country_event = {
 
 	option = {
 		name = "An army for a new Asian state!"
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
@@ -2684,7 +2684,7 @@ country_event = {
 
 	option = {
 		name = "A childest concept doomed to fail."
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 
 		add_to_variable = {
 		var = MAN_fengtian_influence_with_japan
@@ -2756,7 +2756,7 @@ country_event = {
 		custom_effect_tooltip = 12_MAN_tt
 
 
-		add_popularity = { ideology = national_populist popularity = 0.10 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.10 }
 		set_global_flag = MAN_concordia_rules_fengtian
 		add_political_power = -50
 
@@ -2773,7 +2773,7 @@ country_event = {
 		hidden_effect = {
 			add_ideas = parliamentary_republic
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = reactionary_ultranationalism
 				elections_allowed = no
 			}
 			complete_national_focus = MAN_the_first_fengtian_elections
@@ -2786,7 +2786,7 @@ country_event = {
 			has_global_flag = MAN_fengtian_supports_concordia_3
 		}
 		name = "It is good to know that we are well-loved. Mostly."
-		add_popularity = { ideology = national_populist popularity = 0.15 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.15 }
 
 
 		add_to_variable = {
@@ -2810,7 +2810,7 @@ country_event = {
 		hidden_effect = {
 			add_ideas = parliamentary_republic
 			set_politics = {
-				ruling_party = national_populist
+				ruling_party = reactionary_ultranationalism
 				elections_allowed = no
 			}
 			complete_national_focus = MAN_the_first_fengtian_elections
@@ -2961,7 +2961,7 @@ country_event = {
 					hidden_effect = {
 					MAN = { country_event = { id = man.77 days = 5 }}
 					add_popularity = { ideology = social_conservative popularity = -0.10 }
-					add_popularity = { ideology = national_populist popularity = 0.05 }
+					add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 					add_popularity = { ideology = social_liberal popularity = 0.05 }
 					}
 			}
@@ -2982,7 +2982,7 @@ country_event = {
 					name = "Such bloodshed- what are they getting at?"
 					hidden_effect = {
 					MAN = { country_event = { id = man.78 days = 5 }}
-					add_popularity = { ideology = national_populist popularity = -0.10 }
+					add_popularity = { ideology = reactionary_ultranationalism popularity = -0.10 }
 					add_popularity = { ideology = social_conservative popularity = 0.05 }
 					add_popularity = { ideology = social_democrat popularity = 0.05 }
 					}
@@ -3005,7 +3005,7 @@ country_event = {
 					add_stability = -0.05
 					hidden_effect = {
 					add_popularity = { ideology = social_liberal popularity = -0.05 }
-					add_popularity = { ideology = national_populist popularity = 0.05 }
+					add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 					complete_national_focus = MAN_concordia_association_controls_the_senate
 					}
 			}
@@ -3164,7 +3164,7 @@ country_event = {
 				name = "Concordia will take power now."
 				add_ideas = parliamentary_republic
 			 	set_politics = {
-					 ruling_party = national_populist
+					 ruling_party = reactionary_ultranationalism
 					 elections_allowed = no
 				 }
 				 remove_every_minister = yes
@@ -3176,7 +3176,7 @@ country_event = {
 				 }
 				hidden_effect = {
 				complete_national_focus = MAN_concordia_association_controls_the_senate
-				add_popularity = { ideology = national_populist popularity = 0.10 }
+				add_popularity = { ideology = reactionary_ultranationalism popularity = 0.10 }
 				add_stability = -0.025
 				}
 				}
@@ -3244,10 +3244,10 @@ country_event = {
 					set_global_flag = MAN_sides_with_the_market_league
 					add_stability = -0.05
 					add_political_power = 50
-					add_popularity = { ideology = market_liberal popularity = 0.10 }
+					add_popularity = { ideology = classical_liberal popularity = 0.10 }
 					add_ideas = parliamentary_republic
 					set_politics = {
-			        ruling_party = market_liberal
+			        ruling_party = classical_liberal
 			        elections_allowed = no
 			      }
 				  remove_every_minister = yes
@@ -3822,7 +3822,7 @@ country_event = {
 		OR = {
 			USA = { has_government = social_democrat }
 			USA = { has_government = social_liberal }
-			USA = { has_government = market_liberal }
+			USA = { has_government = classical_liberal }
 			USA = { has_government = social_conservative }
 			USA = { has_government = authoritarian_democrat }
 		}
@@ -3837,7 +3837,7 @@ country_event = {
 		OR = {
 			ENG = { has_government = social_democrat }
 			ENG = { has_government = social_liberal }
-			ENG = { has_government = market_liberal }
+			ENG = { has_government = classical_liberal }
 			ENG = { has_government = social_conservative }
 			ENG = { has_government = authoritarian_democrat }
 		}
@@ -3852,7 +3852,7 @@ country_event = {
 		OR = {
 			FRA = { has_government = social_democrat }
 			FRA = { has_government = social_liberal }
-			FRA = { has_government = market_liberal }
+			FRA = { has_government = classical_liberal }
 			FRA = { has_government = social_conservative }
 			FRA = { has_government = authoritarian_democrat }
 		}
@@ -3867,7 +3867,7 @@ country_event = {
 			OR = {
 				POL = { has_government = social_democrat }
 				POL = { has_government = social_liberal }
-				POL = { has_government = market_liberal }
+				POL = { has_government = classical_liberal }
 				POL = { has_government = social_conservative }
 				POL = { has_government = authoritarian_democrat }
 			}
@@ -3882,7 +3882,7 @@ country_event = {
 			OR = {
 				PER = { has_government = social_democrat }
 				PER = { has_government = social_liberal }
-				PER = { has_government = market_liberal }
+				PER = { has_government = classical_liberal }
 				PER = { has_government = social_conservative }
 				PER = { has_government = authoritarian_democrat }
 			}

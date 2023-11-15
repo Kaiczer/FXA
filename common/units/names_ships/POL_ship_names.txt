@@ -112,9 +112,9 @@ POL_THEME_KINGS = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}
@@ -150,9 +150,9 @@ POL_THEME_HISTORICAL_FIGURES = {
 	can_use = {
 		not = { 
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 		}
 	}

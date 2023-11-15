@@ -796,7 +796,7 @@ focus_tree = {
 	# The Liberal Regent
 	focus = {
 		id = ROM_the_liberal_regent
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
 		x = 1
 		y = 1
 		cost = 6
@@ -2090,7 +2090,7 @@ focus_tree = {
 		relative_position_id = ROM_limit_the_kings_powers
 		completion_reward = {
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = -0.15
 			}
 			add_popularity = {
@@ -2229,7 +2229,7 @@ focus_tree = {
 	# The Liberal Government
 	focus = {
 		id = ROM_the_liberal_government
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
 		x = 0
 		y = 1
 		cost = 6
@@ -2969,15 +2969,15 @@ focus_tree = {
 		relative_position_id = ROM_establish_the_siguranta
 		completion_reward = {
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.25
 			}
 		}
@@ -3291,15 +3291,15 @@ focus_tree = {
 		relative_position_id = ROM_seize_foreign_industries
 		completion_reward = {
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.025
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.1
 			}
 			add_popularity = {
@@ -3564,15 +3564,15 @@ focus_tree = {
 		relative_position_id = ROM_the_siguranta
 		completion_reward = {
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.05
 			}
 		}
@@ -4176,15 +4176,15 @@ focus_tree = {
 		relative_position_id = ROM_guide_the_nation
 		completion_reward = {
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.15
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.15
 			}
 		}
@@ -4403,7 +4403,7 @@ focus_tree = {
 	# The Nationalist Kingdom
 	focus = {
 		id = ROM_the_nationalist_kingdom
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		x = 18
 		y = 0
 		cost = 6
@@ -4437,7 +4437,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4455,7 +4455,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4510,7 +4510,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		relative_position_id = ROM_get_corporate_support
@@ -4583,7 +4583,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		prerequisite = { focus = ROM_new_legal_codes }
@@ -4602,7 +4602,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		prerequisite = { focus = ROM_new_cities }
@@ -4624,7 +4624,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		relative_position_id = ROM_efficient_production
@@ -4646,7 +4646,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_efficient_production }
 		relative_position_id = ROM_efficient_production
@@ -4664,7 +4664,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_get_corporate_support }
 		relative_position_id = ROM_get_corporate_support
@@ -4683,7 +4683,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_new_legal_codes }
 		relative_position_id = ROM_new_legal_codes
@@ -4707,7 +4707,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_the_nationalist_kingdom }
 		relative_position_id = ROM_the_nationalist_kingdom
@@ -4725,7 +4725,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_patriotism }
 		relative_position_id = ROM_patriotism
@@ -4782,7 +4782,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4803,7 +4803,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_rescue_failing_companies }
 		prerequisite = { focus = ROM_create_youth_organizations }
@@ -4822,7 +4822,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4843,7 +4843,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			country_exists = GRE
 		}
 		mutually_exclusive = { focus = ROM_strike_first }
@@ -4868,7 +4868,7 @@ focus_tree = {
 		}
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			country_exists = GRE
 			can_declare_war_on = GRE
 		}
@@ -4907,7 +4907,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			country_exists = TUR
 			can_declare_war_on = TUR
 		}
@@ -4942,7 +4942,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_resurrect_an_empire }
 		relative_position_id = ROM_resurrect_an_empire
@@ -4985,7 +4985,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_industrial_renovation }
 		relative_position_id = ROM_industrial_renovation
@@ -5003,7 +5003,7 @@ focus_tree = {
 		cost = 6
 		available = {
 			has_capitulated = no
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		prerequisite = { focus = ROM_new_education_curriculum }
 		prerequisite = { focus = ROM_reclaim_the_territories }

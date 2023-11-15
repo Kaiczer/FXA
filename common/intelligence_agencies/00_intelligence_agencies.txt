@@ -290,8 +290,8 @@ intelligence_agency = {
 	
 	available = { 
 		OR = {
-			has_government = auth_socialist
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
+			has_government = soviet_socialist
 		}
 	}
 	

@@ -457,7 +457,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = market_liberal_subtype
+              ideology = classical_liberal_subtype
               traits = {}
             }
           }
@@ -485,7 +485,7 @@ focus_tree = {
           add_country_leader_role = {
             promote_leader = yes
             country_leader = {
-              ideology = national_populist_subtype
+              ideology = reactionary_ultranationalism_subtype
               traits = {}
             }
           }

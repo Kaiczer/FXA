@@ -299,7 +299,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_the_search_begins
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
     prerequisite = { focus = SWI_request_access_through_italian_ports }
 		x = 4
 		y = 6
@@ -918,7 +918,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_SUP_socialist_stimulation"
 
-		add_popularity = { ideology = libertarian_socialist popularity = -0.03 }
+		add_popularity = { ideology = broad_socialism popularity = -0.03 }
 		add_popularity = { ideology = social_democrat popularity = -0.06 }
 		swap_ideas = {
 		remove_idea = SWI_the_swiss_banking_act
@@ -940,14 +940,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_SUP_discredit_radicals"
 
-		add_popularity = { ideology = auth_socialist popularity = -0.05 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.05 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.05 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.05 }
+		add_popularity = { ideology = broad_socialism popularity = -0.05 }
 		add_popularity = { ideology = social_liberal popularity = 0.10 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
-		add_popularity = { ideology = national_populist popularity = -0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = -0.05 }
 		add_popularity = { ideology = valkist popularity = -0.05 }
 		add_political_power = -50
 
@@ -1153,7 +1153,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_confederation_of_compromise
-		icon = GFX_SWI_market_liberal
+		icon = GFX_SWI_classical_liberal
     prerequisite = { focus = SWI_status_quo_council_membership }
 		x = 23
 		y = 3
@@ -1180,7 +1180,7 @@ focus_tree = {
 		available = {
 
 		NOT = {
-		has_government = market_liberal
+		has_government = classical_liberal
 		}
 
 		}
@@ -1208,11 +1208,11 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_crackdown_on_radicals"
 
-		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
-		add_popularity = { ideology = auth_socialist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+		add_popularity = { ideology = broad_socialism popularity = -0.02 }
 		add_popularity = { ideology = paternal_autocrat popularity = -0.02 }
-		add_popularity = { ideology = national_populist popularity = -0.02 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = -0.02 }
 		add_popularity = { ideology = valkist popularity = -0.02 }
 
 		add_timed_idea = { idea = SWI_internal_remediation  days = 70 }
@@ -1234,9 +1234,9 @@ focus_tree = {
 
 		add_stability = -0.03
 		add_political_power = 100
-		add_popularity = { ideology = auth_socialist popularity = -0.02 }
-		add_popularity = { ideology = vanguard_socialist popularity = -0.02 }
-		add_popularity = { ideology = libertarian_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+		add_popularity = { ideology = soviet_socialist popularity = -0.02 }
+		add_popularity = { ideology = broad_socialism popularity = -0.02 }
 		add_popularity = { ideology = valkist popularity = -0.02 }
 
 		}
@@ -1264,7 +1264,7 @@ focus_tree = {
 
 		add_political_power = 30
 		add_popularity = { ideology = social_democrat popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = classical_liberal popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 
 		}
@@ -1283,7 +1283,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_bring_progressives_into_the_coalition"
 
 		add_popularity = { ideology = social_liberal popularity = 0.03 }
-		add_popularity = { ideology = market_liberal popularity = 0.03 }
+		add_popularity = { ideology = classical_liberal popularity = 0.03 }
 		add_popularity = { ideology = social_conservative popularity = 0.03 }
 		add_political_power = 30
 
@@ -1293,7 +1293,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_liberal_hegemony
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
     prerequisite = { focus = SWI_bring_progressives_into_the_coalition }
 		x = 21
 		y = 6
@@ -1302,7 +1302,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWI_liberal_hegemony"
 
-		add_ideas = SWI_market_liberal_hegemony
+		add_ideas = SWI_classical_liberal_hegemony
 
 		}
 
@@ -1417,7 +1417,7 @@ focus_tree = {
 
   focus = {
 		id = SWI_FDP_maintains_seniority
-		icon = GFX_SWI_market_liberal
+		icon = GFX_SWI_classical_liberal
     prerequisite = { focus = SWI_confederation_of_compromise }
     mutually_exclusive = { focus = SWI_CDVP_becomes_senior_member }
 		x = 28

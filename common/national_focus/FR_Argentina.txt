@@ -77,7 +77,7 @@ focus_tree = {
 			popularity = 0.0125
 		}
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.0125
 		}
 		add_popularity = {
@@ -201,8 +201,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_vanguard_socialist_revolution
-		icon = GFX_goal_ideology_vanguard_socialist
+		id = ARG_soviet_socialist_revolution
+		icon = GFX_goal_ideology_soviet_socialist
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_a_red_republic }
  		x =2
@@ -212,8 +212,8 @@ focus_tree = {
 		available_if_capitulated = yes  
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialist_revolution"
-			add_ideas = ARG_the_vanguard_socialist_revolution
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_soviet_socialist_revolution"
+			add_ideas = ARG_the_soviet_socialist_revolution
 		} 
 	}
 
@@ -221,7 +221,7 @@ focus_tree = {
 		id = ARG_nationalize_industry
 		icon = GFX_goal_socialist_industry
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_vanguard_socialist_revolution }
+		prerequisite = { focus = ARG_soviet_socialist_revolution }
  		x =1
  		y =7
  		cost = 8
@@ -265,7 +265,7 @@ focus_tree = {
 		id = ARG_productive_redistribution
 		icon = GFX_goal_production
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_vanguard_socialist_revolution }
+		prerequisite = { focus = ARG_soviet_socialist_revolution }
  		x =3
  		y =7
  		cost = 8
@@ -313,8 +313,8 @@ focus_tree = {
 				country_event = { id = arg.16 }
 			}
 			swap_ideas = {
-				remove_idea = ARG_the_vanguard_socialist_revolution
-				add_idea = ARG_the_vanguard_socialist_revolution1
+				remove_idea = ARG_the_soviet_socialist_revolution
+				add_idea = ARG_the_soviet_socialist_revolution1
 			}
 		} 
 	}
@@ -373,7 +373,7 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_vanguard_socialist_arms
+		id = ARG_soviet_socialist_arms
 		icon = GFX_goal_generic_construct_mil_factory
  		ai_will_do = { factor = 10 } 
 		prerequisite = { focus = ARG_central_union_leadership }
@@ -384,7 +384,7 @@ focus_tree = {
 		available_if_capitulated = yes  
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialist_arms"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_soviet_socialist_arms"
 			random_owned_state = {
 				add_extra_state_shared_building_slots = 1
 					add_building_construction = {
@@ -445,7 +445,7 @@ focus_tree = {
 		id = ARG_socialist_education
 		icon = GFX_focus_generic_socialist_science
  		ai_will_do = { factor = 10 } 
-		prerequisite = { focus = ARG_vanguard_socialist_arms }
+		prerequisite = { focus = ARG_soviet_socialist_arms }
  		x =3
  		y =11
  		cost = 8
@@ -496,8 +496,8 @@ focus_tree = {
 				country_event = { id = arg.17 }
 			}
 			swap_ideas = {
-				remove_idea = ARG_the_vanguard_socialist_revolution1
-				add_idea = ARG_the_vanguard_socialist_revolution2
+				remove_idea = ARG_the_soviet_socialist_revolution1
+				add_idea = ARG_the_soviet_socialist_revolution2
 			}
 		} 
 	}
@@ -569,15 +569,15 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_stop_the_strikes"
 		add_manpower = -5000
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.0375
 			}
 		} 
@@ -771,11 +771,11 @@ focus_tree = {
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.0375
 			}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.0375
 			}
 		add_popularity = {
@@ -2830,12 +2830,12 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = valkist
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = paternal_autocrat						
 
 					}
@@ -2880,12 +2880,12 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = valkist
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = paternal_autocrat						
 
 					}
@@ -3019,9 +3019,9 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				}
 				NOT = { has_war_with = ARG }
 			}
@@ -3056,9 +3056,9 @@ focus_tree = {
 				is_subject = no
 				is_in_faction = no
 				OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				}
 				NOT = { has_war_with = ARG }
 			}
@@ -3558,13 +3558,13 @@ focus_tree = {
 						is_in_faction_with = ARG
 						is_subject_of = ARG
 						has_war_with = ARG
-						has_government = auth_socialist
-						has_government = libertarian_socialist
-						has_government = vanguard_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
+						has_government = soviet_socialist
 						has_government = paternal_autocrat
 						has_government = authoritarian_democrat
 						has_government = valkist
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 					}
 				}
 				add_opinion_modifier = { target = ARG modifier = CHL_friendly_democracy }
@@ -3616,7 +3616,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3642,7 +3642,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3670,7 +3670,7 @@ focus_tree = {
 				is_in_faction = no
 				OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3720,7 +3720,7 @@ focus_tree = {
 				has_global_flag = PRU_DEMPATH
 				OR = {
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = social_democrat
 				}
@@ -3745,8 +3745,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_the_vanguard_socialist_menace
-		icon = GFX_goal_vanguard_socialist_menace
+		id = ARG_the_soviet_socialist_menace
+		icon = GFX_goal_soviet_socialist_menace
  		ai_will_do = { factor = 16 } 
  		prerequisite = { focus = ARG_alianza_del_sur focus = ARG_pact_of_la_plata }
  		x =26
@@ -3754,7 +3754,7 @@ focus_tree = {
 		available_if_capitulated = yes  
  		cost = 10  
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_the_vanguard_socialist_menace"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_the_soviet_socialist_menace"
 			every_country = {
 				limit = {
 					NOT = {
@@ -3762,12 +3762,12 @@ focus_tree = {
 						is_subject_of = ARG
 						has_war_with = ARG
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 						has_government = authoritarian_democrat
 						has_government = social_democrat
 						has_government = social_conservative
 						has_government = valkist
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = paternal_autocrat
 					}
 				}
@@ -3780,7 +3780,7 @@ focus_tree = {
 		id = ARG_contain_bolivia
 		icon = GFX_goal_generic_attack_bolivia
  		ai_will_do = { factor = 10 } 
- 		prerequisite = { focus = ARG_the_vanguard_socialist_menace }
+ 		prerequisite = { focus = ARG_the_soviet_socialist_menace }
  		bypass = { has_completed_focus = ARG_invade_bolivia }
  		available = { BOL = { has_country_flag = BOL_revolutionary } 
  		 ARG = {
@@ -3803,7 +3803,7 @@ focus_tree = {
 		id = ARG_the_enemy_in_brazil
 		icon = GFX_goal_generic_attack_socialist_brazil
  		ai_will_do = { factor = 10 } 
- 		prerequisite = { focus = ARG_the_vanguard_socialist_menace }
+ 		prerequisite = { focus = ARG_the_soviet_socialist_menace }
  		mutually_exclusive = { focus = ARG_break_the_state }
  		x =27
  		y =19
@@ -4093,9 +4093,9 @@ focus_tree = {
 		available = {
 			NOT = {
 				PRU = {
-					has_government = auth_socialist
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -4186,8 +4186,8 @@ focus_tree = {
 		available = { has_completed_focus = ARG_red_sunrise 
 					has_global_flag = ARG_anwin}
 		prerequisite = { focus = ARG_congress_of_41}
-		mutually_exclusive = { focus = ARG_vanguard_socialists_prevail }
-		mutually_exclusive = { focus = ARG_auth_socialist_success }
+		mutually_exclusive = { focus = ARG_soviet_socialists_prevail }
+		mutually_exclusive = { focus = ARG_soviet_socialist_success }
  		cost = 1 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_anarchist_victory"
@@ -4210,7 +4210,7 @@ focus_tree = {
 				country_event = { id = arg.300 }
 				}
 			swap_ideas = {
-				remove_idea = ARG_the_vanguard_socialist_revolution2
+				remove_idea = ARG_the_soviet_socialist_revolution2
 				add_idea = ARG_the_anarchist_revolution
 			}
 		} 
@@ -4315,8 +4315,8 @@ focus_tree = {
 		} 
 	}
 		focus = {
-		id = ARG_vanguard_socialists_prevail
-		icon = GFX_goal_vanguard_socialist_menace
+		id = ARG_soviet_socialists_prevail
+		icon = GFX_goal_soviet_socialist_menace
  		ai_will_do = { factor = 10 }
  		x =9
  		y =25
@@ -4325,10 +4325,10 @@ focus_tree = {
 					has_global_flag = ARG_orthwin}
 		prerequisite = { focus = ARG_congress_of_41}
 		mutually_exclusive = { focus = ARG_anarchist_victory }
-		mutually_exclusive = { focus = ARG_auth_socialist_success }
+		mutually_exclusive = { focus = ARG_soviet_socialist_success }
  		cost = 1  
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_vanguard_socialists_prevail"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_soviet_socialists_prevail"
 		add_political_power = 25
 		} 
 	}
@@ -4340,7 +4340,7 @@ focus_tree = {
  		x =8
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_vanguard_socialists_prevail }
+		prerequisite = { focus = ARG_soviet_socialists_prevail }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_socialist_traditions"
@@ -4363,7 +4363,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_collective_society"
 			swap_ideas = {
-				remove_idea = ARG_the_vanguard_socialist_revolution2
+				remove_idea = ARG_the_soviet_socialist_revolution2
 				add_idea = ARG_the_orthodox_revolution
 			}
 		} 
@@ -4393,7 +4393,7 @@ focus_tree = {
  		x =10
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_vanguard_socialists_prevail }
+		prerequisite = { focus = ARG_soviet_socialists_prevail }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_we_will_overcome"
@@ -4424,8 +4424,8 @@ focus_tree = {
 	}
 
 		focus = {
-		id = ARG_auth_socialist_success
-		icon = GFX_goal_ideology_auth_socialist
+		id = ARG_soviet_socialist_success
+		icon = GFX_goal_ideology_soviet_socialist
  		ai_will_do = { factor = 10 }
  		x =15
  		y =25
@@ -4433,11 +4433,11 @@ focus_tree = {
 		available = { has_completed_focus = ARG_red_sunrise 
 					has_global_flag = ARG_vangvang }
 		prerequisite = { focus = ARG_congress_of_41}
-		mutually_exclusive = { focus = ARG_vanguard_socialists_prevail }
+		mutually_exclusive = { focus = ARG_soviet_socialists_prevail }
 		mutually_exclusive = { focus = ARG_anarchist_victory }
  		cost = 1
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus ARG_auth_socialist_success"
+			log = "[GetDateText]: [Root.GetName]: Focus ARG_soviet_socialist_success"
 			add_political_power = 25
 		} 
 	}
@@ -4448,7 +4448,7 @@ focus_tree = {
  		x =14
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_auth_socialist_success }
+		prerequisite = { focus = ARG_soviet_socialist_success }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_honour_the_chairman"
@@ -4485,7 +4485,7 @@ focus_tree = {
  		x =16
  		y =26
 		available_if_capitulated = yes 
-		prerequisite = { focus = ARG_auth_socialist_success }
+		prerequisite = { focus = ARG_soviet_socialist_success }
  		cost = 10  
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_social_work_program"
@@ -4550,7 +4550,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_lpa_coup_succeeds
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
  		ai_will_do = { factor = 10 }
  		x =22
  		y =24
@@ -4639,13 +4639,13 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_destroy_democracy"
 			add_popularity = {
-			ideology = national_populist popularity = 0.05
+			ideology = reactionary_ultranationalism popularity = 0.05
 			}		
 			add_popularity = {
 			ideology = social_liberal popularity = -0.025
 			}
 			add_popularity = {
-			ideology = market_liberal popularity = -0.025
+			ideology = classical_liberal popularity = -0.025
 			}
 		} 
 	}
@@ -4700,7 +4700,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_crush_the_leagues"
 		add_popularity = {
-			ideology = national_populist popularity = -0.1
+			ideology = reactionary_ultranationalism popularity = -0.1
 		}
 		add_political_power = -25
 		} 
@@ -4796,7 +4796,7 @@ focus_tree = {
 
 		focus = {
 		id = ARG_gallo_victory
-		icon = GFX_goal_ideology_market_liberal
+		icon = GFX_goal_ideology_classical_liberal
  		ai_will_do = { factor = 10 }
  		x =37
  		y =25
@@ -4826,7 +4826,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_renovated_workers_promises"
 			add_popularity = {
-			ideology = vanguard_socialist popularity = -0.05
+			ideology = soviet_socialist popularity = -0.05
 			}
 			add_political_power = 50
 		} 
@@ -4944,7 +4944,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_conservative_laicism"
 		add_popularity = {
-			ideology = national_populist popularity = -0.05
+			ideology = reactionary_ultranationalism popularity = -0.05
 		}			
 		add_popularity = {
 			ideology = authoritarian_democrat popularity = -0.05
@@ -5058,10 +5058,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ARG_listen_to_the_unions"
 		add_popularity = {
-			ideology = vanguard_socialist popularity = -0.025
+			ideology = soviet_socialist popularity = -0.025
 		}			
 		add_popularity = {
-			ideology = libertarian_socialist popularity = -0.025
+			ideology = broad_socialism popularity = -0.025
 		}			
 		} 
 	}

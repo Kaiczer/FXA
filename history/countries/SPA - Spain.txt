@@ -122,18 +122,18 @@ create_dynamic_country = {
 
 	set_stability = 0.7
 	add_war_support = 0.4
-	set_politics = { ruling_party = vanguard_socialist }
+	set_politics = { ruling_party = soviet_socialist }
 	set_popularities = {
-		auth_socialist = 20
-		libertarian_socialist = 33
-		vanguard_socialist = 39
+		soviet_socialist = 20
+		broad_socialism = 33
+		soviet_socialist = 39
 		social_democrat = 8
 		social_liberal = 0
-		market_liberal = 0
+		classical_liberal = 0
 		social_conservative = 0
 		authoritarian_democrat = 0
 		paternal_autocrat = 0
-		national_populist = 0
+		reactionary_ultranationalism = 0
 		valkist = 0
 	}
 
@@ -155,9 +155,9 @@ create_dynamic_country = {
 	recruit_character = SWF_Jose_Diaz_Ramos
 	recruit_character = SWF_Jose_Cazorla_Maure
 
-	SWF_Jose_Diaz_Ramos = { promote_character = vanguard_socialist_subtype }
-	SWF_Francisco_Largo_Caballero = { promote_character = libertarian_socialist_subtype }
-	SWF_Jose_Cazorla_Maure = { promote_character = auth_socialist_subtype }
+	SWF_Jose_Diaz_Ramos = { promote_character = soviet_socialist_subtype }
+	SWF_Francisco_Largo_Caballero = { promote_character = broad_socialism_subtype }
+	SWF_Jose_Cazorla_Maure = { promote_character = soviet_socialist_subtype }
 
 	recruit_character = SWF_Buenaventura_Durruti 
 	SWF_Buenaventura_Durruti = {
@@ -169,7 +169,7 @@ create_dynamic_country = {
 				cost = 0
 				idea_token = SWF_Buenaventura_Durruti_hog
 				traits = {
-					libertarian_socialist
+					broad_socialism
 					hog_reformist_soldier
 				}
 			}
@@ -226,18 +226,18 @@ create_dynamic_country = {
 
 	set_stability = 0.7
 	add_war_support = 0.4
-	set_politics = { ruling_party = national_populist }
+	set_politics = { ruling_party = reactionary_ultranationalism }
 	set_popularities = {
-		auth_socialist = 0
-		libertarian_socialist = 0
-		vanguard_socialist = 0
+		soviet_socialist = 0
+		broad_socialism = 0
+		soviet_socialist = 0
 		social_democrat = 5
 		social_liberal = 3
-		market_liberal = 5
+		classical_liberal = 5
 		social_conservative = 7
 		authoritarian_democrat = 3
 		paternal_autocrat = 23
-		national_populist = 33
+		reactionary_ultranationalism = 33
 		valkist = 21
 	}
 
@@ -298,16 +298,16 @@ create_dynamic_country = {
 	add_war_support = 0.4
 	set_politics = { ruling_party = authoritarian_democrat }
 	set_popularities = {
-		auth_socialist = 0
-		libertarian_socialist = 0
-		vanguard_socialist = 0
+		soviet_socialist = 0
+		broad_socialism = 0
+		soviet_socialist = 0
 		social_democrat = 5
 		social_liberal = 3
-		market_liberal = 5
+		classical_liberal = 5
 		social_conservative = 23
 		authoritarian_democrat = 36
 		paternal_autocrat = 23
-		national_populist = 5
+		reactionary_ultranationalism = 5
 		valkist = 0
 	}
 
@@ -330,7 +330,7 @@ create_dynamic_country = {
 		promote_character = social_conservative_subtype
 		promote_character = authoritarian_democrat_subtype
 		promote_character = paternal_autocrat_subtype
-		promote_character = national_populist_subtype
+		promote_character = reactionary_ultranationalism_subtype
 	}
 	recruit_character = SPM_Jaime_III
 	recruit_character = SPM_Juan_III
@@ -469,9 +469,9 @@ SPN = {
 		name = SPN_paternal_autocrat_party
 	}
 	set_party_name = {
-		ideology = national_populist
-		long_name = SPN_national_populist_party_long
-		name = SPN_national_populist_party
+		ideology = reactionary_ultranationalism
+		long_name = SPN_reactionary_ultranationalism_party_long
+		name = SPN_reactionary_ultranationalism_party
 	}
 	set_party_name = {
 		ideology = valkist
@@ -511,9 +511,9 @@ SPM = {
 		name = SPM_paternal_autocrat_party
 	}
 	set_party_name = {
-		ideology = national_populist
-		long_name = SPM_national_populist_party_long
-		name = SPM_national_populist_party
+		ideology = reactionary_ultranationalism
+		long_name = SPM_reactionary_ultranationalism_party_long
+		name = SPM_reactionary_ultranationalism_party
 	}
 }
 SWF = {
@@ -529,19 +529,19 @@ SWF = {
 	SPA_create_templates = yes
 
 	set_party_name = {
-		ideology = auth_socialist
-		long_name = SWF_auth_socialist_party_long
-		name = SWF_auth_socialist_party
+		ideology = soviet_socialist
+		long_name = SWF_soviet_socialist_party_long
+		name = SWF_soviet_socialist_party
 	}
 	set_party_name = {
-		ideology = vanguard_socialist
-		long_name = SWF_vanguard_socialist_party_long
-		name = SWF_vanguard_socialist_party
+		ideology = soviet_socialist
+		long_name = SWF_soviet_socialist_party_long
+		name = SWF_soviet_socialist_party
 	}
 	set_party_name = {
-		ideology = libertarian_socialist
-		long_name = SWF_libertarian_socialist_party_long
-		name = SWF_libertarian_socialist_party
+		ideology = broad_socialism
+		long_name = SWF_broad_socialism_party_long
+		name = SWF_broad_socialism_party
 	}
 }
 
@@ -563,16 +563,16 @@ set_politics = {
 }
 
 set_popularities = {
-	auth_socialist = 8
-	vanguard_socialist = 17
-	libertarian_socialist = 15
+	soviet_socialist = 8
+	soviet_socialist = 17
+	broad_socialism = 15
 	social_democrat = 10
 	social_liberal = 5
-	market_liberal = 18
+	classical_liberal = 18
 	social_conservative = 4
 	authoritarian_democrat = 3
 	paternal_autocrat = 0
-	national_populist = 4
+	reactionary_ultranationalism = 4
 	valkist = 16
 }
 

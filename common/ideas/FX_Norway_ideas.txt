@@ -7,7 +7,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				political_power_gain = 0.05
-				libertarian_socialist_drift = 0.01
+				broad_socialism_drift = 0.01
 			}
 		}
 		NOR_monarchist_right_idea = {
@@ -28,7 +28,7 @@ ideas = {
 				stability_factor = -0.10
 				conscription_factor = -0.05
 				political_power_gain = -0.20
-				national_populist_drift = 0.01
+				reactionary_ultranationalism_drift = 0.01
 				valkist_drift = 0.01
 			}
 		}
@@ -39,7 +39,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.05
 				political_power_gain = -0.10
-				national_populist_drift = 0.01
+				reactionary_ultranationalism_drift = 0.01
 				valkist_drift = 0.01
 			}
 		}
@@ -361,7 +361,7 @@ ideas = {
 				conscription_factor = 0.10
 				political_power_gain = 0.10
 				paternal_autocrat_drift = -0.02
-				national_populist_drift = -0.02
+				reactionary_ultranationalism_drift = -0.02
 				valkist_drift = -0.02
 			}
 		}
@@ -372,9 +372,9 @@ ideas = {
 			modifier = {
 				conscription_factor = 0.15
 				political_power_gain = 0.10
-				auth_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
 				paternal_autocrat_drift = -0.03
-				national_populist_drift = -0.03
+				reactionary_ultranationalism_drift = -0.03
 				valkist_drift = -0.03
 			}
 		}
@@ -388,7 +388,7 @@ ideas = {
 				social_conservative_drift = -0.01
 				authoritarian_democrat_drift = -0.01
 				paternal_autocrat_drift = -0.03
-				national_populist_drift = -0.03
+				reactionary_ultranationalism_drift = -0.03
 				valkist_drift = -0.03
 			}
 		}
@@ -410,7 +410,7 @@ ideas = {
 				stability_factor = -0.05
 				conscription_factor = -0.03
 				political_power_gain = -0.10
-				national_populist_drift = 0.01
+				reactionary_ultranationalism_drift = 0.01
 				valkist_drift = 0.01
 			}
 		}
@@ -512,7 +512,7 @@ ideas = {
 				industrial_capacity_factory = 0.07
 				authoritarian_democrat_drift = 0.02
 				social_conservative_drift = 0.02
-				market_liberal_drift = 0.02
+				classical_liberal_drift = 0.02
 				political_power_gain = -0.10
 			}
 		}
@@ -522,10 +522,10 @@ ideas = {
 			picture = generic_morale_bonus
 			modifier = {
 				political_power_gain = -0.05
-				auth_socialist_drift = -0.01
-				vanguard_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
+				soviet_socialist_drift = -0.01
 				paternal_autocrat_drift = -0.01
-				national_populist_drift = -0.01
+				reactionary_ultranationalism_drift = -0.01
 				valkist_drift = -0.01
 			}
 		}
@@ -617,9 +617,9 @@ ideas = {
 			picture = generic_morale_bonus
 			modifier = {
 				political_power_factor = 0.05
-				auth_socialist_drift = -0.02
-				vanguard_socialist_drift = -0.02
-				libertarian_socialist_drift = -0.02
+				soviet_socialist_drift = -0.02
+				soviet_socialist_drift = -0.02
+				broad_socialism_drift = -0.02
 				social_democrat_drift = -0.01
 			}
 		}
@@ -641,7 +641,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.05
-				national_populist_drift = 0.02
+				reactionary_ultranationalism_drift = 0.02
 			}
 		}
 		NOR_promote_christian_valkism_idea = {
@@ -650,7 +650,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.05
-				national_populist_drift = 0.05
+				reactionary_ultranationalism_drift = 0.05
 				monthly_population = 0.05
 			}
 		}
@@ -660,7 +660,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				reactionary_ultranationalism_drift = 0.05
 				monthly_population = 0.05
 				army_morale_factor = 0.05
 			}
@@ -671,7 +671,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				reactionary_ultranationalism_drift = 0.05
 				monthly_population = 0.05
 				army_morale_factor = 0.08
 				conscription_factor = 0.05
@@ -683,7 +683,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 			modifier = {
 				stability_factor = 0.10
-				national_populist_drift = 0.05
+				reactionary_ultranationalism_drift = 0.05
 				monthly_population = 0.10
 				army_morale_factor = 0.08
 				conscription_factor = 0.10
@@ -904,7 +904,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 			}
@@ -915,7 +915,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				conscription_factor = 0.25
@@ -928,7 +928,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				conscription_factor = 0.25
@@ -945,7 +945,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				conscription_factor = 0.25
@@ -960,7 +960,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				conscription_factor = 0.25
@@ -975,7 +975,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				justify_war_goal_time = 0.05
@@ -989,7 +989,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				justify_war_goal_time = 0.05
@@ -1006,7 +1006,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				justify_war_goal_time = 0.05
@@ -1022,7 +1022,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				justify_war_goal_time = 0.05
@@ -1038,7 +1038,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				production_speed_arms_factory_factor = -0.15
@@ -1051,7 +1051,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				production_speed_arms_factory_factor = -0.15
@@ -1068,7 +1068,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				production_speed_arms_factory_factor = -0.15
@@ -1082,7 +1082,7 @@ ideas = {
 			picture = UK_economy_syn_idea
 			modifier = {
 				social_liberal_acceptance = -70
-				market_liberal_acceptance = -90
+				classical_liberal_acceptance = -90
 				social_conservative_acceptance = -90
 				authoritarian_democrat_acceptance = -70
 				production_speed_arms_factory_factor = -0.15
@@ -1312,7 +1312,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = jap_the_unthinkable_option
 			modifier = {
-				vanguard_socialist_drift = 0.01
+				soviet_socialist_drift = 0.01
 				stability_factor = 0.05
 				drift_defence_factor = 0.10
 				political_power_gain = 0.05
@@ -1324,7 +1324,7 @@ ideas = {
 			allowed = { original_tag = NOR }
 			picture = jap_the_unthinkable_option
 			modifier = {
-				vanguard_socialist_drift = 0.01
+				soviet_socialist_drift = 0.01
 				stability_factor = 0.03
 				drift_defence_factor = 0.15
 				political_power_gain = 0.05
@@ -1357,8 +1357,8 @@ ideas = {
 			picture = generic_morale_bonus
 			modifier = {
 				political_power_gain = -0.10
-				vanguard_socialist_drift = 0.01
-				libertarian_socialist_drift = 0.02
+				soviet_socialist_drift = 0.01
+				broad_socialism_drift = 0.02
 				social_democrat_drift = 0.01
 			}
 		}

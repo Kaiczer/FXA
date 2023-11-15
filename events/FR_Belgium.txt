@@ -63,7 +63,7 @@ country_event = { #King Albert dies
         character = BEL_Joseph_Jacquemotte
         promote_leader = yes
         country_leader = {
-          ideology = libertarian_socialist_subtype
+          ideology = broad_socialism_subtype
           traits = {}
         }
       }
@@ -87,7 +87,7 @@ country_event = { #King Albert dies
         character = BEL_King_Leopold_III
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -119,7 +119,7 @@ country_event = { #King Albert dies
         character = BEL_Staf_de_Clercq
         promote_leader = yes
         country_leader = {
-          ideology = national_populist_subtype
+          ideology = reactionary_ultranationalism_subtype
           traits = {}
         }
       }
@@ -194,7 +194,7 @@ country_event = { #Killer caught
 	option = {
 		name = bel.5.a
 		add_popularity = {
-			ideology = vanguard_socialist 
+			ideology = soviet_socialist 
 			popularity = -0.05
 		}
 		set_country_flag = BEL_killer_caught
@@ -299,7 +299,7 @@ country_event = { #Communist uprising
 		hidden_effect = {
 			start_civil_war = {
 				ruling_party = authoritarian_democrat
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				size = 0.5
 				capital = 34
 				states = { 34 802 806 }
@@ -326,7 +326,7 @@ country_event = { #Communist uprising
 		hidden_effect = {
 			set_capital = { state = 34 }
 			start_civil_war = {
-				ruling_party = vanguard_socialist
+				ruling_party = soviet_socialist
 				ideology = authoritarian_democrat
 				size = 0.5
 				capital = 6
@@ -334,15 +334,15 @@ country_event = { #Communist uprising
 			}
 			add_ideas = revolutionary_movement
 			set_politics = {
-				ruling_party = vanguard_socialist
+				ruling_party = soviet_socialist
 				elections_allowed = no
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = 0.4
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.1
 			}
 			FRA = {
@@ -392,7 +392,7 @@ country_event = { #Communist uprising
         character = BEL_Paul_Emile_Janson
         promote_leader = yes
         country_leader = {
-          ideology = market_liberal_subtype
+          ideology = classical_liberal_subtype
           traits = {}
         }
       }
@@ -592,10 +592,10 @@ country_event = { #KP-LP-PP Coalition
 		set_temp_variable = { coalition_partner_var = token:social_conservative }
 		add_to_coalition = yes 
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 			elections_allowed = no
 		}
-		add_popularity = { ideology = market_liberal popularity = 0.4 }
+		add_popularity = { ideology = classical_liberal popularity = 0.4 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
 		add_popularity = { ideology = social_liberal popularity = 0.05 }
 		if = {
@@ -642,7 +642,7 @@ country_event = { #KP-LP-PP Coalition
 		ai_chance = { factor = 30 }
 		set_temp_variable = { coalition_partner_var = token:social_conservative }
 		add_to_coalition = yes
-		set_temp_variable = { coalition_partner_var = token:market_liberal }
+		set_temp_variable = { coalition_partner_var = token:classical_liberal }
 		add_to_coalition = yes  
 		set_politics = {
 			ruling_party = social_liberal
@@ -650,7 +650,7 @@ country_event = { #KP-LP-PP Coalition
 		}
 		add_popularity = { ideology = social_liberal popularity = 0.4 }
 		add_popularity = { ideology = social_conservative popularity = 0.05 }
-		add_popularity = { ideology = market_liberal popularity = 0.05 }
+		add_popularity = { ideology = classical_liberal popularity = 0.05 }
 		if = {
 			limit = {
 				BEL = {
@@ -706,10 +706,10 @@ country_event = { #Far-right Coalition
 		set_temp_variable = { coalition_partner_var = token:valkist }
 		add_to_coalition = yes 
 		set_politics = {
-			ruling_party = national_populist
+			ruling_party = reactionary_ultranationalism
 			elections_allowed = no
 		}
-		add_popularity = { ideology = national_populist popularity = 0.4 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
 		add_popularity = { ideology = valkist popularity = 0.05 }
 		hidden_effect = {
@@ -728,7 +728,7 @@ country_event = { #Far-right Coalition
 	option = { #Verdinaso provides PM
 		name = bel.12.b
 		ai_chance = { factor = 15 }
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 		add_to_coalition = yes 
 		set_temp_variable = { coalition_partner_var = token:valkist }
 		add_to_coalition = yes 
@@ -737,7 +737,7 @@ country_event = { #Far-right Coalition
 			elections_allowed = no
 		}
 		add_popularity = { ideology = paternal_autocrat popularity = 0.4 }
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		add_popularity = { ideology = valkist popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -757,7 +757,7 @@ country_event = { #Far-right Coalition
 		ai_chance = { factor = 70 }
 		set_temp_variable = { coalition_partner_var = token:paternal_autocrat }
 		add_to_coalition = yes 
-		set_temp_variable = { coalition_partner_var = token:national_populist }
+		set_temp_variable = { coalition_partner_var = token:reactionary_ultranationalism }
 		add_to_coalition = yes 
 		set_politics = {
 			ruling_party = valkist
@@ -765,7 +765,7 @@ country_event = { #Far-right Coalition
 		}
 		add_popularity = { ideology = valkist popularity = 0.4 }
 		add_popularity = { ideology = paternal_autocrat popularity = 0.05 }
-		add_popularity = { ideology = national_populist popularity = 0.05 }
+		add_popularity = { ideology = reactionary_ultranationalism popularity = 0.05 }
 		hidden_effect = {
 			remove_ideas_with_trait = head_of_government
 			remove_ideas_with_trait = foreign_minister
@@ -1177,14 +1177,14 @@ country_event = { #Henrik De Man becomes leader
 	option = {
 		name = bel.31.a
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		hidden_effect = {
 			add_ideas = one_party_dictatorship
 			set_capital = { state = 6 }
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.4
 			}
 			add_popularity = {

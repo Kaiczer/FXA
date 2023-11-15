@@ -25,7 +25,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jose_Cazorla_Maure_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -56,7 +56,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jose_Diaz_Ramos_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_ambitious_union_boss
 			}
     	}
@@ -74,7 +74,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jose_Diaz_Ramos_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_prince_of_terror
 			}
 		}
@@ -88,7 +88,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
     	advisor = {
@@ -105,7 +105,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Francisco_Largo_Caballero_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_backroom_backstabber
 			}
 		}
@@ -196,7 +196,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Buenaventura_Durruti_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_crime_fighter
 			}
 		}
@@ -302,7 +302,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Dolores_Ibarruri_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_pragmatic_statesman
 			}
 		}
@@ -320,7 +320,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Dolores_Ibaurri_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -339,7 +339,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Dolores_Ibaurri_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -367,7 +367,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Andres_Nin_Perez_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_happy_amateur
 			}
 		}
@@ -386,7 +386,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Andres_Nin_Perez_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_biased_intellectual
 			}
 		}
@@ -405,7 +405,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Andres_Nin_Perez_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -432,7 +432,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Santiago_Carrillo_Solares_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -459,7 +459,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Vicente_Uribe_Galdeano_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -478,7 +478,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Vicente_Uribe_Galdeano_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -506,7 +506,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Joaquin_Maurin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_charismatic_charmer
 			}
 		}
@@ -533,7 +533,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Garcia_Oliver_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_political_protege
 			}
 		}
@@ -552,7 +552,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Garcia_Oliver_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_health_and_safety
 			}
 		}
@@ -579,7 +579,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Angel_Pestana_Nunez_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -652,7 +652,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jesus_Hernandez_y_Tomas_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_radical_among_moderates
 			}
 		}
@@ -671,7 +671,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jesus_Hernandez_y_Tomas_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -702,7 +702,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jordi_Arquer_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_apologetic_clerk
 			}
 		}
@@ -729,7 +729,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Eduardo_de_Guzman_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_moderate_among_radicals
 			}
 		}
@@ -756,7 +756,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Julian_Besteiro_Fernandez_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_iron_fisted_brute
 			}
 		}
@@ -783,7 +783,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Julio_Alvarez_del_Vayo_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_relations_expert
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Fernando_de_los_Rios_Urruti_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_relations_expert
 			}
 		}
@@ -829,7 +829,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Fernando_de_los_Rios_Urruti_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_tank_proponent
 			}
 		}
@@ -856,7 +856,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Enrique_Castro_Delgado_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -883,7 +883,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Rafael_Vidiella_Franch_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -910,7 +910,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Miquel_Valdes_i_Valdes_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_administrative_genius
 			}
 		}
@@ -937,7 +937,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Federica_Monsteny_Mane_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_infantry_proponent
 			}
 		}
@@ -964,7 +964,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Joaquin_Ascaso_Budria_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_battlefield_support_proponent
 			}
 		}
@@ -997,7 +997,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Lopez_Sanchez_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_the_minister_for_everything
 			}
 		}
@@ -1046,7 +1046,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Peiro_Belis_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_trade_proponent
 			}
 		}
@@ -1089,7 +1089,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Belamino_Tomas_Alvarez_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_industrial_chemist
 			}
 		}
@@ -1116,7 +1116,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Felix_Gordon_Ordas_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -1143,7 +1143,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Antonio_Mije_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_back_stabber
 			}
 		}
@@ -1170,7 +1170,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Joaquin_Grimau_Garcia_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_secret_police_chief
 			}
 		}
@@ -1197,7 +1197,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Valentin_Gonzalez_Gonzalez_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -1224,7 +1224,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Angel_Galarza_y_Gago_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_media_magnate
 			}
 		}
@@ -1251,7 +1251,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Antonio_Ortega_Gutierrez_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_compassionate_gentleman
 			}
 		}

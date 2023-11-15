@@ -17,12 +17,12 @@ country_event = {
 		original_tag = CAM
 		VIN = {
 			has_war_with = FIC
-			has_government = vanguard_socialist
+			has_government = soviet_socialist
 		}
 		CAM = {
 			exists = yes
 			has_war_with = FIC
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 	}
 

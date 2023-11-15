@@ -239,13 +239,13 @@ country_event = { #suspending democracy
 		name = pru.4.a
 		add_stability = -0.10
 		add_popularity = {
-			ideology = auth_socialist popularity = 0.1
+			ideology = soviet_socialist popularity = 0.1
 			}
 		add_popularity = {
-			ideology = vanguard_socialist popularity = 0.05
+			ideology = soviet_socialist popularity = 0.05
 			}
 		add_popularity ={
-			ideology = libertarian_socialist popularity = 0.05
+			ideology = broad_socialism popularity = 0.05
 			}
 		add_political_power = -40
 		add_timed_idea = {
@@ -275,7 +275,7 @@ country_event = { #suspending democracy
 			ideology = social_democrat popularity = 0.025
 			}
 		add_popularity ={
-			ideology = market_liberal popularity = 0.025
+			ideology = classical_liberal popularity = 0.025
 			}
 		add_political_power = -35
 		hidden_effect = { country_event = { days = 14 id = pru.7 } }
@@ -303,7 +303,7 @@ country_event = { #suspending democracy
 			ideology = social_democrat popularity = -0.025
 			}
 		add_popularity ={
-			ideology = market_liberal popularity = -0.025
+			ideology = classical_liberal popularity = -0.025
 			}
 		hidden_effect = { country_event = { days = 20 id = pru.1337 } }
 		}
@@ -324,7 +324,7 @@ country_event = { #toi left
 	option = {
 		name = pru.6.a
 		add_popularity = {
-			ideology = auth_socialist popularity = 0.025
+			ideology = soviet_socialist popularity = 0.025
 			}
 		add_stability = -0.05
 	}
@@ -356,7 +356,7 @@ country_event = { #funding colombian dissidents colombia receives
 		ai_chance = { factor = 100 }
 		add_political_power = -50
 		add_popularity = {
-			ideology = national_populist popularity = -0.05
+			ideology = reactionary_ultranationalism popularity = -0.05
 			}
 	}
 }
@@ -915,7 +915,7 @@ country_event = { #dissident centralization
 		name = pru.60.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.025
 		}
 		add_manpower = -1000
@@ -954,7 +954,7 @@ country_event = { #crushing vangs
 		name = pru.62.a
 		ai_chance = { factor = 50 }
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.05
 		}
 		add_manpower = -5000
@@ -979,7 +979,7 @@ country_event = { #vangwar
 			add_war_support = 0.1
 		ai_chance = { factor = 50 }
 			start_civil_war = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				size = 0.3
 				capital = 492
 			}
@@ -993,10 +993,10 @@ country_event = { #vangwar
 			set_cosmetic_tag = PRU_revolutionary
 			add_ideas = one_party_dictatorship
 			set_politics = {
-				ruling_party = auth_socialist
+				ruling_party = soviet_socialist
 			}
 				add_popularity = {
-					ideology = auth_socialist popularity = 0.15
+					ideology = soviet_socialist popularity = 0.15
 			}
 			remove_every_minister = yes
 			add_ideas = {
@@ -1061,7 +1061,7 @@ country_event = { #vangwar
 	trigger = {
 		AND = {
 			owns_state = 492
-			has_government = auth_socialist
+			has_government = soviet_socialist
 			has_war_with = PRU
 		}
 	}

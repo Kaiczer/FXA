@@ -1577,7 +1577,7 @@ focus_tree = {
 
 			modifier = {
 				factor = 1.5
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			modifier = {
 				factor = 1.5
@@ -1689,12 +1689,12 @@ focus_tree = {
 
 			modifier = {
 				factor = 0.5
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 
 			modifier = {
 				factor = 1.5
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 			
 			modifier = {
@@ -1851,12 +1851,12 @@ focus_tree = {
 
 			modifier = {
 				factor = 1.5
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 			modifier = {
 				factor = 1.5
@@ -1985,11 +1985,11 @@ focus_tree = {
 
 			modifier = {
 				factor = 2
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			modifier = {
 				factor = 0.5
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 			modifier = {
 				factor = 2
@@ -2228,11 +2228,11 @@ focus_tree = {
 
 			modifier = {
 				factor = 0.5
-				has_government = market_liberal
+				has_government = classical_liberal
 			}
 			modifier = {
 				factor = 2
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 			modifier = {
 				factor = 2
@@ -2543,7 +2543,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			is_in_faction = no
@@ -2593,7 +2593,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			GER = {
@@ -2641,7 +2641,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			GER = {
@@ -2698,7 +2698,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			GER = {
@@ -2756,7 +2756,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 		}
@@ -2855,7 +2855,7 @@ focus_tree = {
 			OR = {
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = valkist
 			}
 			GER = {
@@ -3898,7 +3898,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = 0.05
 			}
 		}
@@ -4246,7 +4246,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.05
 			}
 			add_stability = 0.1
@@ -4335,7 +4335,7 @@ focus_tree = {
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.05
 			}
 			add_political_power = 50

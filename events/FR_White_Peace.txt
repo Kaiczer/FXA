@@ -6591,10 +6591,10 @@ country_event = { # Denmark winning - Sweden wants peace
 			limit = {
 				DEN = {
 					OR = {
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = valkist
-						has_government = vanguard_socialist
-						has_government = auth_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
 					}
 				}
 				SWE = {
@@ -6611,10 +6611,10 @@ country_event = { # Denmark winning - Sweden wants peace
 				DEN = {
 					NOT = {
 						OR = {
-							has_government = national_populist
+							has_government = reactionary_ultranationalism
 							has_government = valkist
-							has_government = vanguard_socialist
-							has_government = auth_socialist
+							has_government = soviet_socialist
+							has_government = soviet_socialist
 						}
 					}
 				}
@@ -6680,10 +6680,10 @@ country_event = { # Sweden losing - Peace with Moderate Norway?
 		}
 		NOR = {
 			OR = { # Must have a moderate government
-				has_government = libertarian_socialist
+				has_government = broad_socialism
 				has_government = social_democrat
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat

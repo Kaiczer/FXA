@@ -162,10 +162,10 @@ country_event = { #40 elections
 			CHL_Manuel_Rivas_Vicuna_sec_sco
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = classical_liberal popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -394,10 +394,10 @@ country_event = { #blanche open elections
 			presidential_republic
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = classical_liberal popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -493,10 +493,10 @@ country_event = { #blanche no left elections
 			presidential_republic
 		}
 		set_politics = {
-			ruling_party = market_liberal
+			ruling_party = classical_liberal
 		}
 		add_popularity = {
-			ideology = market_liberal popularity = 0.25
+			ideology = classical_liberal popularity = 0.25
 		}
 		hidden_effect = {
 			set_global_flag = GRWON
@@ -765,10 +765,10 @@ country_event = { #new commie government
 		name = chl.101.a
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = vanguard_socialist
+			ruling_party = soviet_socialist
 		}
 		add_popularity = {
-				ideology = vanguard_socialist popularity = 0.25
+				ideology = soviet_socialist popularity = 0.25
 		}
 			hidden_effect = {
 			remove_ideas_with_trait = head_of_government
@@ -874,7 +874,7 @@ country_event = { #Flavor3
 		name = chl.1002.a
 		add_political_power = 25
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.025
 		}
 	}
@@ -907,7 +907,7 @@ country_event = { #Flavor4 economic plan
 		name = chl.1003.a
 		add_political_power = -25
 		add_popularity = {
-			ideology = market_liberal
+			ideology = classical_liberal
 			popularity = 0.025
 		}
 	}

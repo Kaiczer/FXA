@@ -187,7 +187,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_capitalists_support"
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.05
 			}
 			add_popularity = {
@@ -302,7 +302,7 @@
 	
 	shared_focus = {
 		id = ITA_political_correctness
-		icon = GFX_goal_ideology_auth_socialist
+		icon = GFX_goal_ideology_soviet_socialist
 		x = 2
 		y = 8
 		cost = 5
@@ -327,11 +327,11 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_political_correctness"
 			# add opinion modifier with SOV
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = 0.05
 			}				
 		}
@@ -412,11 +412,11 @@
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.05
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = 0.05
 			}			
 		}
@@ -454,9 +454,9 @@
 			SOV = {
 				exists = yes
 				OR = {
-					has_government = auth_socialist
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -508,7 +508,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_communal_democracy"
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.1
 			}			
 		}
@@ -575,7 +575,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_christian_socialism"
 			add_stability = 0.1
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.05
 			}			
 		}
@@ -875,7 +875,7 @@
 				OR = {
 					OR = {
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 					}
 					check_variable = { 
 						ita_liberal_vote > 0
@@ -895,7 +895,7 @@
 				factor = 1.5
 				OR = {
 					has_government = social_liberal
-					has_government = market_liberal
+					has_government = classical_liberal
 				}
 			}
 		}
@@ -904,7 +904,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_liberal_reforms"
 			
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = 0.05
 			}	
 			add_popularity = {
@@ -927,7 +927,7 @@
 				OR = {
 					OR = {
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 					}
 					check_variable = { 
 						ita_liberal_vote > 1
@@ -946,7 +946,7 @@
 				factor = 1.5
 				OR = {
 					has_government = social_liberal
-					has_government = market_liberal
+					has_government = classical_liberal
 				}
 			}
 		}
@@ -983,7 +983,7 @@
 				OR = {
 					OR = {
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 					}
 					check_variable = { 
 						ita_liberal_vote > 2
@@ -1002,7 +1002,7 @@
 				factor = 1.5
 				OR = {
 					has_government = social_liberal
-					has_government = market_liberal
+					has_government = classical_liberal
 				}
 			}
 		}
@@ -1026,7 +1026,7 @@
 				OR = {
 					OR = {
 						has_government = social_liberal
-						has_government = market_liberal
+						has_government = classical_liberal
 					}
 					check_variable = { 
 						ita_liberal_vote > 3
@@ -1045,7 +1045,7 @@
 				factor = 1.5
 				OR = {
 					has_government = social_liberal
-					has_government = market_liberal
+					has_government = classical_liberal
 				}
 			}
 		}
@@ -1285,7 +1285,7 @@
 				OR = {
 					OR = {
 						has_government = social_conservative
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 					}
 					check_variable = { 
 						ita_conservative_vote > 3
@@ -1328,7 +1328,7 @@
 				OR = {
 					OR = {
 						has_government = social_conservative
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 					}
 					check_variable = { 
 						ita_conservative_vote > 4
@@ -1449,15 +1449,15 @@
 			}
 			
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = vanguard_socialist
+				ideology = soviet_socialist
 				popularity = -0.05
 			}
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = -0.05
 			}
 		}
@@ -1541,7 +1541,7 @@
 		
 		available = {
 			has_country_flag = ITA_picked_nat_pops
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			has_country_leader = {
 				character = ITA_Victor_Emmanuel_III
 				ruling_only = yes
@@ -1549,7 +1549,7 @@
 		}		
 		
 		bypass = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 			NOT = {
 				has_country_leader = {
 					character = ITA_Victor_Emmanuel_III
@@ -1577,13 +1577,13 @@
 	
 	shared_focus = {
 		id = ITA_dio_patria_famiglia
-		icon = GFX_goal_ideology_national_populist
+		icon = GFX_goal_ideology_reactionary_ultranationalism
 		x = 14
 		y = 9
 		cost = 5
 		
 		available = {
-			has_government = national_populist
+			has_government = reactionary_ultranationalism
 		}
 		
 		prerequisite = {
@@ -1597,7 +1597,7 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus ITA_stregthen_king"
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = 0.1
 			}
 			add_ideas = ITA_dio_patria_famiglia_idea
@@ -1791,7 +1791,7 @@
 					# OR = {
 						# has_government = social_democrat
 						# has_government = social_liberal
-						# has_government = market_liberal
+						# has_government = classical_liberal
 						# has_government = social_conservative
 					# }
 				# }
@@ -2455,11 +2455,11 @@
 			modifier = {
 				factor = 0
 				OR = {
-					has_government = auth_socialist
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 					has_government = valkist
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 				}
 			}			
 		}
@@ -2531,10 +2531,10 @@
 			}
 			OR = {
 				has_government = valkist
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				has_government = auth_socialist
+				has_government = soviet_socialist
 			}
 			is_puppet = no
 			OR = {
@@ -2622,7 +2622,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}			
@@ -2704,7 +2704,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}			
@@ -2749,10 +2749,10 @@
 		available = {
 			OR = {
 				has_government = valkist
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
-				#has_government = auth_socialist
+				#has_government = soviet_socialist
 			}		
 			SER = {
 				OR = {
@@ -2793,7 +2793,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}			
@@ -2851,7 +2851,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -2961,7 +2961,7 @@
 		available = {
 			OR = {
 				has_government = valkist
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 				has_government = paternal_autocrat
 				has_government = authoritarian_democrat
 			}
@@ -2994,7 +2994,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}		
@@ -3061,7 +3061,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3126,7 +3126,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3189,7 +3189,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3312,7 +3312,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}		
@@ -3366,7 +3366,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3464,7 +3464,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3534,7 +3534,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}
@@ -3631,9 +3631,9 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
-					has_government = auth_socialist
+					has_government = soviet_socialist
 				}
 			}
 			modifier = {
@@ -3669,9 +3669,9 @@
 				}
 			}
 			OR = {
-				has_government = auth_socialist
-				has_government = vanguard_socialist
-				has_government = libertarian_socialist
+				has_government = soviet_socialist
+				has_government = soviet_socialist
+				has_government = broad_socialism
 			}
 			is_puppet = no
 		}		
@@ -3710,9 +3710,9 @@
 						}
 					}
 					OR = {
-						has_government = auth_socialist
-						has_government = vanguard_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}
 				country_event = ita.173
@@ -3784,9 +3784,9 @@
 					is_puppet = no
 					has_war = no
 					OR = {
-						has_government = auth_socialist
-						has_government = vanguard_socialist
-						has_government = libertarian_socialist
+						has_government = soviet_socialist
+						has_government = soviet_socialist
+						has_government = broad_socialism
 					}
 				}
 			}
@@ -3867,9 +3867,9 @@
 				exists = yes
 				is_puppet = no
 				OR = {
-					has_government = auth_socialist
-					has_government = vanguard_socialist
-					has_government = libertarian_socialist
+					has_government = soviet_socialist
+					has_government = soviet_socialist
+					has_government = broad_socialism
 				}
 			}
 		}
@@ -4574,7 +4574,7 @@
 			}
 			modifier = {
 				factor = 2
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 		
@@ -4628,7 +4628,7 @@
 					OR = {
 						has_government = valkist
 						has_government = paternal_autocrat
-						has_government = national_populist
+						has_government = reactionary_ultranationalism
 						has_government = authoritarian_democrat
 						has_government = social_conservative
 					}
@@ -4950,16 +4950,16 @@
 				if = {
 					limit = {
 						ITA = {
-							has_government = auth_socialist
+							has_government = soviet_socialist
 						}
 					}
 					LBA = {
 						set_politics = {
-							ruling_party = auth_socialist
+							ruling_party = soviet_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = auth_socialist
+							ideology = soviet_socialist
 							popularity = 0.2
 						}
 						copy_government_idea_of_ROOT = yes
@@ -4968,16 +4968,16 @@
 				else_if = {
 					limit = {
 						ITA = {
-							has_government = vanguard_socialist
+							has_government = soviet_socialist
 						}
 					}
 					LBA = {
 						set_politics = {
-							ruling_party = vanguard_socialist
+							ruling_party = soviet_socialist
 							elections_allowed = no
 						}
 						add_popularity = {
-							ideology = vanguard_socialist
+							ideology = soviet_socialist
 							popularity = 0.2
 						}
 						copy_government_idea_of_ROOT = yes					
@@ -5011,7 +5011,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = libertarian_socialist_subtype
+                  ideology = broad_socialism_subtype
                 }
               }
               add_country_leader_role = {
@@ -5029,7 +5029,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = market_liberal_subtype
+                  ideology = classical_liberal_subtype
                 }
               }
               add_country_leader_role = {
@@ -5053,7 +5053,7 @@
               add_country_leader_role = {
                 promote_leader = yes
                 country_leader = {
-                  ideology = national_populist_subtype
+                  ideology = reactionary_ultranationalism_subtype
                 }
               }
               add_country_leader_role = {
@@ -5248,7 +5248,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = libertarian_socialist
+					has_government = broad_socialism
 					has_government = social_democrat
 					has_government = social_liberal
 				}
@@ -5291,7 +5291,7 @@
 			modifier = {
 				factor = 2
 				OR = {
-					has_government = national_populist
+					has_government = reactionary_ultranationalism
 					has_government = valkist
 				}
 			}

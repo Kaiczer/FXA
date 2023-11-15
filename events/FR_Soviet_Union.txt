@@ -303,7 +303,7 @@ country_event = {
 		name = "Cracks have begun appearing in the troika."
 		add_political_power = -5
 		set_party_name = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			long_name = SOV_bukharin_opposition_long
 			name = SOV_bukharin_opposition
 			}
@@ -1263,11 +1263,11 @@ country_event = {
 			id = worldnews.136
 		}	
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -1305,7 +1305,7 @@ country_event = {
 			id = worldnews.135	
 		}	
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = 0.15
 		}
     add_country_leader_role = {
@@ -1317,7 +1317,7 @@ country_event = {
       }
     }
 		set_politics = {
-			ruling_party = libertarian_socialist
+			ruling_party = broad_socialism
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -2487,18 +2487,18 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = sov_focus_shliapnikov
 			set_politics = {
-				ruling_party = libertarian_socialist
+				ruling_party = broad_socialism
 				elections_allowed = no
 			}		
 			add_popularity = {
-				ideology = libertarian_socialist
+				ideology = broad_socialism
 				popularity = 0.15
 			}
       add_country_leader_role = {
       character = SOV_Alexander_Shliapnikov
       promote_leader = yes
       country_leader = {
-        ideology = libertarian_socialist_subtype
+        ideology = broad_socialism_subtype
         traits = { SOV_the_metallworker }
       }
     }
@@ -3091,13 +3091,13 @@ country_event = {
 		name = "God save us"	
 		set_country_flag = SOV_Yezhov_in_charge
 		set_politics = {
-			ruling_party = auth_socialist
+			ruling_party = soviet_socialist
 			elections_allowed = no
 			last_election = "1935.9.13"
 			election_frequency = 72
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = 0.15
 		}
 		remove_every_minister = yes
@@ -3194,13 +3194,13 @@ country_event = {
 	   		subtract_from_variable = { var = sov_stability_factor value = 5 }
 			set_country_flag = SOV_Voroshilov_in_charge
 			set_politics = {
-				ruling_party = auth_socialist
+				ruling_party = soviet_socialist
 				elections_allowed = no
 				last_election = "1935.9.13"
 				election_frequency = 72
 			}
 			add_popularity = {
-				ideology = auth_socialist
+				ideology = soviet_socialist
 				popularity = 0.15
 			}
 			remove_every_minister = yes
@@ -5782,8 +5782,8 @@ country_event = {
 			tag = SOV
 		    date > 1937.1.1	
 		    OR = {
-		    	has_government = vanguard_socialist
-		    	has_government = libertarian_socialist
+		    	has_government = soviet_socialist
+		    	has_government = broad_socialism
 		    }
 		}
 		mean_time_to_happen = {
@@ -5804,7 +5804,7 @@ country_event = {
 		picture = soviet_latinisation
 		trigger = {
 			tag = SOV
-		    has_government = auth_socialist
+		    has_government = soviet_socialist
 		}
 		mean_time_to_happen = {
 			months = 3
@@ -5932,7 +5932,7 @@ country_event = {
 
 		trigger = {
 			tag = SOV
-			has_government = libertarian_socialist
+			has_government = broad_socialism
 		}
 		mean_time_to_happen = {
 			months = 3

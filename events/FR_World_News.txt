@@ -153,9 +153,9 @@ news_event = {
 			NOT = { tag = FRA }
 			OR = {
 				tag = SOV
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 		}
 		name = worldnews.5.a
@@ -167,7 +167,7 @@ news_event = {
 			OR = {
 				has_government = social_democrat
 				has_government = social_liberal
-				has_government = market_liberal
+				has_government = classical_liberal
 				has_government = social_conservative
 			}
 		}
@@ -184,7 +184,7 @@ news_event = {
 				tag = FRA
 				has_government = authoritarian_democrat
 				has_government = paternal_autocrat
-				has_government = national_populist
+				has_government = reactionary_ultranationalism
 			}
 		}
 		name = worldnews.5.c
@@ -639,9 +639,9 @@ news_event = {
 		}
 		BOL= {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 				}
 			OR = {
 				has_global_flag = All_News_Events
@@ -667,9 +667,9 @@ news_event = {
 	option = {
 		trigger = {
 			OR = {
-				has_government = libertarian_socialist
-				has_government = vanguard_socialist
-				has_government = auth_socialist
+				has_government = broad_socialism
+				has_government = soviet_socialist
+				has_government = soviet_socialist
 			}
 		}
 		name = worldnews.50.a
@@ -678,9 +678,9 @@ news_event = {
 	option = {
 		trigger = {
 			AND = {
-				NOT = { has_government = libertarian_socialist }
-				NOT = { has_government = vanguard_socialist }
-				NOT = { has_government = auth_socialist }
+				NOT = { has_government = broad_socialism }
+				NOT = { has_government = soviet_socialist }
+				NOT = { has_government = soviet_socialist }
 			}
 		}
 		name = worldnews.50.b

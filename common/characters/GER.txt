@@ -31,7 +31,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -67,7 +67,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 	}
@@ -160,7 +160,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -178,7 +178,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hermann_Goring_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_old_admiral
 			}
 		}
@@ -1434,7 +1434,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Otto_Grotewohl_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -1515,7 +1515,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hans_von_Raumer_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_corporate_suit
 			}
 		}
@@ -1650,7 +1650,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Frick_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_happy_amateur
 			}
 		}
@@ -1677,7 +1677,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinrich_Behrmann_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_local_tyrant
 			}
 		}
@@ -1812,7 +1812,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ernst_Toller_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -1839,7 +1839,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Paul_Levi_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_ideological_crusader
 			}
 		}
@@ -1866,7 +1866,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Heinirch_Mann_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_radical_among_moderates
 			}
 		}
@@ -1947,7 +1947,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Roepke_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_great_compromiser
 			}
 		}
@@ -2095,7 +2095,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Konstantin_von_Neurath_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_biased_intellectual
 			}
 		}
@@ -2176,7 +2176,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ernst_Rohm_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -2203,7 +2203,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Willi_Munzenburg_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_industrialiser
 			}
 		}
@@ -2230,7 +2230,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Willi_Stoph_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -2257,7 +2257,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Lujo_Brentano_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_devoted_monopoly_buster
 			}
 		}
@@ -2365,7 +2365,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Julius_Curtis_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_bank_president
 			}
 		}
@@ -2609,7 +2609,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Ludwig_Renn_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_man_of_the_people
 			}
 		}
@@ -2636,7 +2636,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Eugen_Levine_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -2663,7 +2663,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Hilde_Benjamin_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -2744,7 +2744,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Wilhelm_Abegg_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_crime_fighter
 			}
 		}
@@ -2906,7 +2906,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Hess_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_efficient_sociopath
 			}
 		}
@@ -2933,7 +2933,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Kurt_Deluge_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_silent_lawyer
 			}
 		}
@@ -2960,7 +2960,7 @@ characters = {
 				ROOT = { clr_country_flag = GER_Rudolf_Diels_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_secret_police_chief
 			}
 		}

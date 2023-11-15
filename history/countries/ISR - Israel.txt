@@ -39,23 +39,23 @@ ENG = {
 }
 
 set_politics = {
-	ruling_party = market_liberal
+	ruling_party = classical_liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-  auth_socialist = 2
-  vanguard_socialist = 4
-  libertarian_socialist = 10
+  soviet_socialist = 2
+  soviet_socialist = 4
+  broad_socialism = 10
   social_democrat = 16
   social_liberal = 13
-  market_liberal = 23
+  classical_liberal = 23
   social_conservative = 15
   authoritarian_democrat = 7
   paternal_autocrat = 5
-  national_populist = 3
+  reactionary_ultranationalism = 3
   valkist = 2
 }
 

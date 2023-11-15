@@ -1664,8 +1664,8 @@ PHI_great_game = {
     }
     available = {
       NOT = {
-        has_government = auth_socialist
-        has_government = vanguard_socialist
+        has_government = soviet_socialist
+        has_government = soviet_socialist
       }
     }
     complete_effect = {

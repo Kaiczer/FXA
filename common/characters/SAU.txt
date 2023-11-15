@@ -201,7 +201,7 @@ characters = {
 			}
 		}
     country_leader = {
-      ideology = national_populist_subtype
+      ideology = reactionary_ultranationalism_subtype
       traits = { }
     }
 		corps_commander = {
@@ -235,7 +235,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Shakhbut_bin_Sultan_Al_Nahyan_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_smiling_oilman
 			}
 		}
@@ -335,7 +335,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Auda_Abu_Tayi_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_political_protege
 			}
 		}
@@ -354,7 +354,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Auda_Abu_Tayi_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_mixed_economy
 			}
 		}
@@ -651,7 +651,7 @@ characters = {
 				ROOT = { clr_country_flag = SAU_Abdul_Aziz_bin_Faisal_al_Dawish_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_flamboyant_tough_guy
 			}
 		}

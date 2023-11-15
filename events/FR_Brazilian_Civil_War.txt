@@ -31,7 +31,7 @@ country_event = { #Collies Rise up
 		set_country_flag = BCW_collies_risen
 		BRA = {		
 			add_popularity = {
-			ideology = vanguard_socialist 
+			ideology = soviet_socialist 
 			popularity = -0.1
 			}
 		}

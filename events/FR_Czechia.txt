@@ -211,7 +211,7 @@ country_event = { #fuckinglanguagesprudes
   option = {
     name = cze.55.b
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     set_country_flag = CZE_uncucked
@@ -539,7 +539,7 @@ country_event = { #fuckinglanguagesprudes
   option = {
     name = cze.68.b
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     set_country_flag = CZE_chadczechia
@@ -714,15 +714,15 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = {
       popularity = 0.01
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
     }
     add_popularity = {
       popularity = 0.01
-      ideology = auth_socialist
+      ideology = soviet_socialist
     }
     add_popularity = {
       popularity = 0.01
-      ideology = libertarian_socialist
+      ideology = broad_socialism
     }
     hidden_effect = { country_event = { id = cze.92 days = 21 } }
      
@@ -768,7 +768,7 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = { 
       popularity = 0.05
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
     }
     hidden_effect = { country_event = { id = cze.94 days = 21 } }
 
@@ -801,7 +801,7 @@ country_event = { #woo poli chain
     }
     add_popularity = { 
       popularity = 0.05
-      ideology = market_liberal
+      ideology = classical_liberal
     }
     add_popularity = { 
       popularity = 0.05
@@ -845,7 +845,7 @@ country_event = { #woo poli chain
     ai_chance = { factor = 99 }
     add_popularity = { 
       popularity = 0.05
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
     }
     hidden_effect = { country_event = { id = cze.97 days = 21 } }
 
@@ -903,9 +903,9 @@ country_event = { #woo poli chain
     name = cze.97.c
     ai_chance = { factor = 15 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = market_liberal popularity = 0.25 }
+    add_popularity = { ideology = classical_liberal popularity = 0.25 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -939,9 +939,9 @@ country_event = { #woo poli chain
     name = cze.97.f
     ai_chance = { factor = 5 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.25 }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1051,7 +1051,7 @@ country_event = { #woo poli chain
       set_demilitarized_zone = yes
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     } 
   }
@@ -1103,10 +1103,10 @@ country_event = { #woo poli chain
     9 = {
       set_demilitarized_zone = no
     }
-    add_popularity = { ideology = vanguard_socialist popularity = 0.25 }
+    add_popularity = { ideology = soviet_socialist popularity = 0.25 }
     add_ideas = workers_republic
     set_politics = {
-      ruling_party = vanguard_socialist
+      ruling_party = soviet_socialist
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1137,9 +1137,9 @@ country_event = { #woo poli chain
       set_demilitarized_zone = no
     }
     add_ideas = one_party_dictatorship
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.25 }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1241,10 +1241,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.113.a
     ai_chance = { factor = 99 }
-    add_popularity = { ideology = vanguard_socialist popularity = 0.25 }
+    add_popularity = { ideology = soviet_socialist popularity = 0.25 }
     add_ideas = workers_republic
     set_politics = {
-      ruling_party = vanguard_socialist
+      ruling_party = soviet_socialist
       elections_allowed = no
     }
     if = { limit = { has_idea = CZE_suspended_democracy1 }  remove_ideas = CZE_suspended_democracy1 }
@@ -1266,10 +1266,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.112.a
     ai_chance = { factor = 99 }
-    add_popularity = { ideology = national_populist popularity = 0.25 }
+    add_popularity = { ideology = reactionary_ultranationalism popularity = 0.25 }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -1343,11 +1343,11 @@ country_event = { #factionsomglol
     name = cze.130.a
     ai_chance = { factor = 99 }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = 0.03
     }
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.03
     }
   }
@@ -1360,7 +1360,7 @@ country_event = { #factionsomglol
   picture = GFX_event_generic_rally2
   trigger = {
     tag = CZE
-    has_government = vanguard_socialist
+    has_government = soviet_socialist
     has_completed_focus = CZE_age_of_collectivism
   }
   mean_time_to_happen = { 
@@ -1449,7 +1449,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.137 days = 3 }
     }
     add_popularity = {
-      ideology = vanguard_socialist 
+      ideology = soviet_socialist 
       popularity = -0.025
     }
   }
@@ -1492,7 +1492,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.138 days = 3 }
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.025
     }
   }
@@ -1582,7 +1582,7 @@ country_event = { #factionsomglol
       country_event = { id = cze.142 days = 3}
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = -0.05
     }
   }
@@ -1712,14 +1712,14 @@ country_event = { #factionsomglol
     ai_chance = { factor = 60 }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = auth_socialist
+      ruling_party = soviet_socialist
     }
     hidden_effect = {
       remove_ideas_with_trait = head_of_government
     }
     add_ideas = CZE_Klement_Gottwald_hog_col
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.4
     }
   }
@@ -1819,7 +1819,7 @@ country_event = { #waityo
   fire_only_once = yes
   trigger = {
     tag = CZE
-    has_government = national_populist
+    has_government = reactionary_ultranationalism
     is_subject = no
   }
   mean_time_to_happen = { months = 6 }
@@ -1847,7 +1847,7 @@ country_event = { #waityo
   option = {
     name = cze.161.a
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     hidden_effect = {
@@ -1866,7 +1866,7 @@ country_event = { #waityo
   option = {
     name = cze.162.a
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     hidden_effect = {
@@ -1907,7 +1907,7 @@ country_event = { #waityo
   option = {
     name = cze.164.a
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     hidden_effect = {
@@ -1926,7 +1926,7 @@ country_event = { #waityo
   option = {
     name = cze.164.a
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.025
     }
     add_war_support = 0.025
@@ -1947,7 +1947,7 @@ country_event = { #waityo
       character = CZE_Emanuel_Moravec
       promote_leader = yes
       country_leader = {
-      ideology = national_populist_subtype
+      ideology = reactionary_ultranationalism_subtype
       traits = {}
       }
     }
@@ -1980,7 +1980,7 @@ country_event = { #waityo
       }
     add_ideas = CZE_Frantisek_Mikulas_Mlcoch_hog_npo
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = -0.15
     }
   }
@@ -2086,7 +2086,7 @@ country_event = { #waityo
   option = {
     name = cze.173.a
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = -0.025
     }
     clr_country_flag = CZE_oo_mission_in_progress
@@ -2217,13 +2217,13 @@ country_event = { #waityo
       character = CZE_Emanuel_Moravec
       promote_leader = yes
       country_leader = {
-      ideology = national_populist_subtype
+      ideology = reactionary_ultranationalism_subtype
       traits = {}
       }
     }
     add_ideas = one_party_dictatorship
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
     }
     remove_every_minister = yes
     add_ideas = CZE_Frantisek_Mikulas_Mlcoch_hog_npo
@@ -2248,7 +2248,7 @@ country_event = { #waityo
     name = cze.181.a
     add_political_power = 50
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = -0.1
     }
   }
@@ -2351,9 +2351,9 @@ country_event = { #woo poli chain
     name = cze.220.c
     ai_chance = { factor = 15 }
     add_ideas = parliamentary_republic
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = classical_liberal popularity = 0.3 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2417,9 +2417,9 @@ country_event = { #woo poli chain
   option = {
     name = cze.221.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = classical_liberal popularity = 0.3 }
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2484,10 +2484,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.222.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.05 }
+    add_popularity = { ideology = classical_liberal popularity = 0.05 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = no
     }
     remove_every_minister = yes
@@ -2552,10 +2552,10 @@ country_event = { #woo poli chain
   option = {
     name = cze.223.c
     ai_chance = { factor = 15 }
-    add_popularity = { ideology = market_liberal popularity = 0.3 }
+    add_popularity = { ideology = classical_liberal popularity = 0.3 }
     add_ideas = parliamentary_republic
     set_politics = {
-      ruling_party = market_liberal
+      ruling_party = classical_liberal
       elections_allowed = no
     }
     remove_every_minister = yes

@@ -940,7 +940,7 @@ country_event = { # Landwacht Scandal
 
   trigger = {
     tag = HOL
-    has_government = national_populist
+    has_government = reactionary_ultranationalism
   }
 
   option = { # Punish whose responsible
@@ -1247,11 +1247,11 @@ country_event = { # Louis de Visser Arrested by Landwacht
   option = { # Send him to prison
     name = dutchstate.54.b
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     hidden_effect = {
@@ -1276,15 +1276,15 @@ country_event = { # Death of Louis de Visser in Prison
     retire_character = HOL_Louis_de_Visser
     add_stability = -0.05
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = 0.05
     }
     hidden_effect = {
@@ -1369,7 +1369,7 @@ country_event = { # Monarchist Sympathies in the Bureaucracy
   }
   desc = {
     text = dutchstate.60.d.natpop
-    trigger = { has_government = national_populist }
+    trigger = { has_government = reactionary_ultranationalism }
   }
   picture = GFX_report_event_HOL_border_incident
   is_triggered_only = yes
@@ -1471,7 +1471,7 @@ country_event = { # Germany Requests that We Join the Stahlpakt
         popularity = 0.35
       }
       add_popularity = {
-        ideology = national_populist
+        ideology = reactionary_ultranationalism
         popularity = 0.05
       }
       add_popularity = {
@@ -1771,7 +1771,7 @@ country_event = { # Investigation Complete
       }
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = -0.15
     }
     hidden_effect = {
@@ -1865,16 +1865,16 @@ country_event = { # Prince Bernhard Assassinated!
       character = HOL_Cornelis_van_Geelkerken
       promote_leader = yes
       country_leader = {
-        ideology = national_populist_subtype
+        ideology = reactionary_ultranationalism_subtype
         traits = {}
       }
     }
     set_politics = {
-      ruling_party = national_populist
+      ruling_party = reactionary_ultranationalism
       elections_allowed = no
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = 0.05
     }
     remove_every_minister = yes
@@ -1936,7 +1936,7 @@ country_event = { # Army Coup
       popularity = 0.15
     }
     add_popularity = {
-      ideology = national_populist
+      ideology = reactionary_ultranationalism
       popularity = -0.15
     }
     remove_every_minister = yes
@@ -2009,15 +2009,15 @@ country_event = { # Targeting Socialists
       }
     }
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = -0.15
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = -0.15
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = -0.15
     }
     add_manpower = -1500
@@ -2137,19 +2137,19 @@ country_event = { # Fall of the Nationalist Government
     }
     
     set_politics = {
-      ruling_party = vanguard_socialist
+      ruling_party = soviet_socialist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.4
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = 0.15
     }
     add_popularity = {
@@ -2251,7 +2251,7 @@ country_event = { # GER: Socialism in the Netherlands
       base = 0
       modifier = {
         add = 400
-        has_government = national_populist
+        has_government = reactionary_ultranationalism
       }
     }
     declare_war_on = {
@@ -2284,11 +2284,11 @@ country_event = { # Socialist Elections
   option = { # RF
     name = dutchstate.120.a
     set_politics = {
-      ruling_party = auth_socialist
+      ruling_party = soviet_socialist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = auth_socialist
+      ideology = soviet_socialist
       popularity = 0.15
     }
     remove_every_minister = yes
@@ -2303,11 +2303,11 @@ country_event = { # Socialist Elections
   option = { # VVA
     name = dutchstate.120.b
     set_politics = {
-      ruling_party = vanguard_socialist
+      ruling_party = soviet_socialist
       elections_allowed = no
     }
     add_popularity = {
-      ideology = vanguard_socialist
+      ideology = soviet_socialist
       popularity = 0.05
     }
     remove_every_minister = yes
@@ -2322,11 +2322,11 @@ country_event = { # Socialist Elections
   option = { # AP
     name = dutchstate.120.c
     set_politics = {
-      ruling_party = libertarian_socialist
+      ruling_party = broad_socialism
       elections_allowed = no
     }
     add_popularity = {
-      ideology = libertarian_socialist
+      ideology = broad_socialism
       popularity = 0.15
     }
     remove_every_minister = yes

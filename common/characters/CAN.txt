@@ -26,7 +26,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Tim_Buck_hog_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				hog_red_chairmen
 			}
 		}
@@ -51,7 +51,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -77,7 +77,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_John_Ross_Taylor_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_reformer
 			}
 		}
@@ -297,7 +297,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Richard_Parmater_Pettipiece_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -324,7 +324,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Claude_Jodoin_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_ambitious_union_boss
 			}
 		}
@@ -351,7 +351,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Humphrey_Mitchell_hog_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				hog_naive_optimist
 			}
 		}
@@ -370,7 +370,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Humphrey_Mitchell_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_apologetic_clerk
 			}
 		}
@@ -507,7 +507,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Charles_Gavan_Power_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_silent_workhorse
 			}
 		}
@@ -521,7 +521,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -539,7 +539,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Lyon_Mackenzie_King_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_respected_war_hero
 			}
 		}
@@ -805,7 +805,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -849,7 +849,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Alexander_Albert_MacLeod_for_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				for_relations_expert
 			}
 		}
@@ -876,7 +876,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Joe_Zuken_for_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				for_relations_expert
 			}
 		}
@@ -903,7 +903,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Romeo_Mathieu_for_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				for_general_staffer
 			}
 		}
@@ -1011,7 +1011,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_George_W_Stephens_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_ideological_crusader
 			}
 		}
@@ -1038,7 +1038,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Vincent_Massey_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_iron_fisted_brute
 			}
 		}
@@ -1173,7 +1173,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Adrien_Arcand_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_ideological_crusader
 			}
 		}
@@ -1200,7 +1200,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_James_Litterick_eco_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				eco_planned_economy_proponent
 			}
 		}
@@ -1227,7 +1227,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Kashtan_eco_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				eco_administrative_genius
 			}
 		}
@@ -1254,7 +1254,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_William_Charles_Good_eco_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				eco_reformer
 			}
 		}
@@ -1362,7 +1362,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_CD_Howe_eco_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				eco_trade_proponent
 			}
 		}
@@ -1497,7 +1497,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Murdoch_Alexander_MacPherson_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_national_liberal
 			}
 		}
@@ -1524,7 +1524,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Tom_McEwan_sec_van_hired }
 			}
 			traits = {
-				auth_socialist
+				soviet_socialist
 				sec_efficient_sociopath
 			}
 		}
@@ -1551,7 +1551,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Norman_Bethune_sec_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				sec_health_and_safety
 			}
 		}
@@ -1578,7 +1578,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Joseph_Andrew_Clarke_sec_lib_hired }
 			}
 			traits = {
-				libertarian_socialist
+				broad_socialism
 				sec_crime_fighter
 			}
 		}
@@ -1686,7 +1686,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Douglas_Abbott_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_driven_recruiter
 			}
 		}
@@ -1713,7 +1713,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Ernest_Lapointe_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_silent_lawyer
 			}
 		}
@@ -1740,7 +1740,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_James_Garfield_Gardiner_sec_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				sec_crime_fighter
 			}
 		}
@@ -1848,7 +1848,7 @@ characters = {
 				ROOT = { clr_country_flag = CAN_Chuck_Crate_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_compassionate_gentleman
 			}
 		}
@@ -2146,7 +2146,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -2162,7 +2162,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		country_leader = {

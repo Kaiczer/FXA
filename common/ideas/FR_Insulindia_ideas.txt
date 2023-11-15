@@ -322,7 +322,7 @@ ideas = {
 				justify_war_goal_time = 0.30
 				social_democrat_acceptance = 15
 				social_liberal_acceptance = 15
-				market_liberal_acceptance = 15
+				classical_liberal_acceptance = 15
 				social_conservative_acceptance = 15
 				authoritarian_democrat_acceptance = 10
 			}
@@ -341,9 +341,9 @@ ideas = {
 			modifier = {
 				justify_war_goal_time = -0.10
 				conscription_factor = 0.05
-				auth_socialist_acceptance = 15
-				vanguard_socialist_acceptance = 15
-				libertarian_socialist_acceptance = 15
+				soviet_socialist_acceptance = 15
+				soviet_socialist_acceptance = 15
+				broad_socialism_acceptance = 15
 			}
 		}
 		
@@ -500,7 +500,7 @@ ideas = {
 				consumer_goods_factor = 0.05
 				conscription_factor = 0.08
 				production_speed_buildings_factor = 0.05
-				vanguard_socialist_drift = -0.02
+				soviet_socialist_drift = -0.02
 			}
 		}
 		
@@ -535,7 +535,7 @@ ideas = {
 				political_power_gain = 0.05
 				conscription_factor = 0.30
 				production_speed_buildings_factor = 0.05
-				vanguard_socialist_drift = -0.02
+				soviet_socialist_drift = -0.02
 			}
 		}
 		

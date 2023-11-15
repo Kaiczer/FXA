@@ -773,7 +773,7 @@ focus_tree = {
 		popularity = 0.3
 			}
 		add_popularity = {
-		ideology = libertarian_socialist
+		ideology = broad_socialism
 		popularity = 0.1
 		}
 		set_politics = { ruling_party = social_democrat elections_allowed = no }
@@ -860,7 +860,7 @@ focus_tree = {
 		popularity = 0.05
 		}
 		add_popularity = {
-		ideology = libertarian_socialist
+		ideology = broad_socialism
 		popularity = 0.05
 		}
 	}
@@ -1557,12 +1557,12 @@ focus_tree = {
 		available = { 
 			OR = {
 				has_government = social_democrat 
-				has_government = libertarian_socialist 
+				has_government = broad_socialism 
 			}
 			SOV = {
 				OR = {
 					has_government = social_democrat 
-					has_government = libertarian_socialist 
+					has_government = broad_socialism 
 					}
 				}
 			}
@@ -1846,15 +1846,15 @@ focus = {
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = auth_socialist
+			ideology = soviet_socialist
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = libertarian_socialist
+			ideology = broad_socialism
 			popularity = -0.1
 		}
 		add_popularity = {
-			ideology = vanguard_socialist
+			ideology = soviet_socialist
 			popularity = -0.1
 		}
 		}
@@ -1875,7 +1875,7 @@ focus = {
 		
 		completion_reward = {
 			add_popularity = {
-				ideology = market_liberal
+				ideology = classical_liberal
 				popularity = -0.1
 			}
 			add_popularity = {
@@ -2150,7 +2150,7 @@ focus = {
 				popularity = -0.1
 			}
 			add_popularity = {
-				ideology = national_populist
+				ideology = reactionary_ultranationalism
 				popularity = 0.05
 			}
 		add_ideas = CEN_natpop_youth

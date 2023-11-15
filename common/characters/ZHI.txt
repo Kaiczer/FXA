@@ -62,7 +62,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = market_liberal_subtype
+			ideology = classical_liberal_subtype
 			traits = { }
 		}
 		advisor = {
@@ -80,7 +80,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Ku_Wei_Chun_hog_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				hog_sincere_internationalist
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Ku_Wei_Chun_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_foreign_sympathizer
 			}
 		}
@@ -131,7 +131,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Dong_Biwu_hog_col_hired }
 			}
 			traits = {
-				vanguard_socialist
+				soviet_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -761,7 +761,7 @@ characters = {
 				ROOT = { clr_country_flag = ZHI_Hu_Shih_for_mli_hired }
 			}
 			traits = {
-				market_liberal
+				classical_liberal
 				for_general_staffer
 			}
 		}

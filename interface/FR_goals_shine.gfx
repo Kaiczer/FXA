@@ -1543,7 +1543,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_vanguard_socialist_shine"
+		name = "GFX_goal_ideology_soviet_socialist_shine"
 		texturefile = "gfx/interface/goals/goal_ideology_vanguard_socialism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -5258,7 +5258,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_vanguard_socialist_menace_shine"
+		name = "GFX_goal_soviet_socialist_menace_shine"
 		texturefile = "gfx/interface/goals/goal_collectivist_menace.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -5674,7 +5674,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_ideology_auth_socialist_shine"
+		name = "GFX_goal_ideology_soviet_socialist_shine"
 		texturefile = "gfx/interface/goals/goal_ideology_auth_socialism.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -11241,7 +11241,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_goal_Five_Races_National_Populist_shine"
+		name = "GFX_goal_Five_Races_reactionary_ultranationalism_shine"
 		texturefile = "gfx/interface/goals/Five_Races_Natpop.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -15049,11 +15049,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_SWI_market_liberal_shine"
-		texturefile = "gfx/interface/goals/SWI_market_liberal.png"
+		name = "GFX_SWI_classical_liberal_shine"
+		texturefile = "gfx/interface/goals/SWI_classical_liberal.png"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/SWI_classical_liberal.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -15066,7 +15066,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/SWI_market_liberal.png"
+			animationmaskfile = "gfx/interface/goals/SWI_classical_liberal.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

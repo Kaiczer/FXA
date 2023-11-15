@@ -297,19 +297,19 @@ defined_text = {
 		trigger = {
 			has_country_leader_ideology = authsoc_subtype
 		}
-		localization_key = auth_socialist
+		localization_key = soviet_socialist
 	}
 	text = {
 		trigger = {
 			has_country_leader_ideology = vansoc_subtype
 		}
-		localization_key = vanguard_socialist
+		localization_key = soviet_socialist
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = broad_socialism_subtype
 		}
-		localization_key = libertarian_socialist
+		localization_key = broad_socialism
 	}
 	text = {
 		trigger = {
@@ -325,9 +325,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = classical_liberal_subtype
 		}
-		localization_key = market_liberal
+		localization_key = classical_liberal
 	}
 	text = {
 		trigger = {
@@ -355,9 +355,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = reactionary_ultranationalism_subtype
 		}
-		localization_key = national_populist
+		localization_key = reactionary_ultranationalism
 	}
 	text = {
 		trigger = {
@@ -966,9 +966,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = libertarian_socialist_subtype
+			has_country_leader_ideology = broad_socialism_subtype
 		}
-		localization_key = libertarian_socialist_subtype_desc
+		localization_key = broad_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -984,9 +984,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = market_liberal_subtype
+			has_country_leader_ideology = classical_liberal_subtype
 		}
-		localization_key = market_liberal_subtype_desc
+		localization_key = classical_liberal_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1014,9 +1014,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = national_populist_subtype
+			has_country_leader_ideology = reactionary_ultranationalism_subtype
 		}
-		localization_key = national_populist_subtype_desc
+		localization_key = reactionary_ultranationalism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -1324,7 +1324,7 @@ defined_text = {
 				has_country_leader_ideology = autocratic_socialist_subtype
 			}
 		}
-		localization_key = auth_socialist_color
+		localization_key = soviet_socialist_color
 	}
 	text = {
 		trigger = {
@@ -1334,12 +1334,12 @@ defined_text = {
 				has_country_leader_ideology = leninism_subtype
 			}
 		}
-		localization_key = vanguard_socialist_color
+		localization_key = soviet_socialist_color
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = libertarian_socialist_subtype
+				has_country_leader_ideology = broad_socialism_subtype
 				has_country_leader_ideology = socialist_feminist_subtype
 				has_country_leader_ideology = libsoc_utopian_socialism_subtype
 				has_country_leader_ideology = anarcho_syndicalism_subtype
@@ -1348,7 +1348,7 @@ defined_text = {
 				has_country_leader_ideology = moderate_socialist_subtype
 			}
 		}
-		localization_key = libertarian_socialist_color
+		localization_key = broad_socialism_color
 	}
 	text = {
 		trigger = {
@@ -1375,13 +1375,13 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = market_liberal_subtype
+				has_country_leader_ideology = classical_liberal_subtype
 				has_country_leader_ideology = marlib_centrist_subtype
 				has_country_leader_ideology = liberal_conservative_subtype
 				has_country_leader_ideology = marklib_venizelism_subtype
 			}
 		}
-		localization_key = market_liberal_color
+		localization_key = classical_liberal_color
 	}
 	text = {
 		trigger = {
@@ -1443,13 +1443,13 @@ defined_text = {
 	text = {
 		trigger = {
 			OR = {
-				has_country_leader_ideology = national_populist_subtype
+				has_country_leader_ideology = reactionary_ultranationalism_subtype
 				has_country_leader_ideology = statist_showaist_subtype	
 				has_country_leader_ideology = legionarism_subtype
 				has_country_leader_ideology = integralism_subtype
 				has_country_leader_ideology = klan_nationalism_subtype
 			}
 		}
-		localization_key = national_populist_color
+		localization_key = reactionary_ultranationalism_color
 	}
 }

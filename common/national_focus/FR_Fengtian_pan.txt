@@ -656,7 +656,7 @@ focus_tree = {
 
 		focus = {
 			id = MAN_a_new_kind_of_panasianism
-			icon = GFX_goal_Five_Races_National_Populist
+			icon = GFX_goal_Five_Races_reactionary_ultranationalism
 			mutually_exclusive = { focus = MAN_our_young_government_collapses }
 			prerequisite = { focus = MAN_betrayal_from_above }
 			cost = 5

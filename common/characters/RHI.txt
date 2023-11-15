@@ -126,7 +126,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = national_populist_subtype
+			ideology = reactionary_ultranationalism_subtype
 			traits = { }
 		}
 		advisor = {
@@ -144,7 +144,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Hans_Adam_Dorten_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_backroom_backstabber
 			}
 		}
@@ -201,7 +201,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -237,7 +237,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = libertarian_socialist_subtype
+			ideology = broad_socialism_subtype
 			traits = { }
 		}
 	}
@@ -504,7 +504,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Otto_Lichtschlag_hog_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				hog_flamboyant_tough_guy
 			}
 		}
@@ -612,7 +612,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Theodor_Reismann_Grone_for_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				for_general_staffer
 			}
 		}
@@ -747,7 +747,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Emil_Kirdorf_eco_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				eco_reformer
 			}
 		}
@@ -858,7 +858,7 @@ characters = {
 				ROOT = { clr_country_flag = RHI_Walther_Lichtschlag_sec_npo_hired }
 			}
 			traits = {
-				national_populist
+				reactionary_ultranationalism
 				sec_prince_of_terror
 			}
 		}
