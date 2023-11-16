@@ -1687,7 +1687,7 @@ focus_tree = {
 			OR = {
 				has_government = soviet_socialist
 				has_government = soviet_socialist
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = social_democrat
 				has_government = social_conservative
 				has_government = authoritarian_democrat
@@ -2321,7 +2321,7 @@ focus_tree = {
 			add_political_power = 15
 			add_popularity = { ideology = soviet_socialist popularity = 0.02 }
 			add_popularity = { ideology = soviet_socialist popularity = 0.05 }
-			add_popularity = { ideology = broad_socialism popularity = 0.02 }
+			add_popularity = { ideology = broad_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_conservative popularity = -0.05 }
 			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
 		}

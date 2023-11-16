@@ -3,7 +3,7 @@ soviet_socialist_allowed = {
 	OR = {
 		has_government = soviet_socialist
 		has_government = soviet_socialist
-		has_government = broad_socialism
+		has_government = broad_socialist
 	}
 }
 
@@ -11,16 +11,16 @@ soviet_socialist_allowed = {
 	OR = {
 		has_government = soviet_socialist
 		has_government = soviet_socialist
-		has_government = broad_socialism
+		has_government = broad_socialist
 		has_government = social_democrat
 	}
 }
 
-broad_socialism_allowed = {
+broad_socialist_allowed = {
 	OR = {
 		has_government = soviet_socialist
 		has_government = soviet_socialist
-		has_government = broad_socialism
+		has_government = broad_socialist
 		has_government = social_democrat
 		has_government = social_liberal
 	}
@@ -29,7 +29,7 @@ broad_socialism_allowed = {
 social_democrat_allowed = {
 	OR = {
 		has_government = soviet_socialist
-		has_government = broad_socialism
+		has_government = broad_socialist
 		has_government = social_democrat
 		has_government = social_liberal
 		has_government = classical_liberal
@@ -40,7 +40,7 @@ social_democrat_allowed = {
 
 social_liberal_allowed = {
 	OR = {
-		has_government = broad_socialism
+		has_government = broad_socialist
 		has_government = social_democrat
 		has_government = social_liberal
 		has_government = classical_liberal

@@ -516,7 +516,7 @@ FRA_entente_council = {
 				OR = {
 					has_government = soviet_socialist
 					has_government = soviet_socialist
-					has_government = broad_socialism
+					has_government = broad_socialist
 				}
 				NOT = {
 					is_in_faction_with = FRA

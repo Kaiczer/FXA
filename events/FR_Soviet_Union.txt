@@ -303,7 +303,7 @@ country_event = {
 		name = "Cracks have begun appearing in the troika."
 		add_political_power = -5
 		set_party_name = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			long_name = SOV_bukharin_opposition_long
 			name = SOV_bukharin_opposition
 			}
@@ -1305,7 +1305,7 @@ country_event = {
 			id = worldnews.135	
 		}	
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.15
 		}
     add_country_leader_role = {
@@ -1317,7 +1317,7 @@ country_event = {
       }
     }
 		set_politics = {
-			ruling_party = broad_socialism
+			ruling_party = broad_socialist
 			elections_allowed = no
 		}
 		remove_every_minister = yes
@@ -2487,18 +2487,18 @@ country_event = {
 		hidden_effect = {
 			load_focus_tree = sov_focus_shliapnikov
 			set_politics = {
-				ruling_party = broad_socialism
+				ruling_party = broad_socialist
 				elections_allowed = no
 			}		
 			add_popularity = {
-				ideology = broad_socialism
+				ideology = broad_socialist
 				popularity = 0.15
 			}
       add_country_leader_role = {
       character = SOV_Alexander_Shliapnikov
       promote_leader = yes
       country_leader = {
-        ideology = broad_socialism_subtype
+        ideology = broad_socialist_subtype
         traits = { SOV_the_metallworker }
       }
     }
@@ -5783,7 +5783,7 @@ country_event = {
 		    date > 1937.1.1	
 		    OR = {
 		    	has_government = soviet_socialist
-		    	has_government = broad_socialism
+		    	has_government = broad_socialist
 		    }
 		}
 		mean_time_to_happen = {
@@ -5932,7 +5932,7 @@ country_event = {
 
 		trigger = {
 			tag = SOV
-			has_government = broad_socialism
+			has_government = broad_socialist
 		}
 		mean_time_to_happen = {
 			months = 3

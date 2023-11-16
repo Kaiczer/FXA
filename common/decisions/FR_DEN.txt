@@ -8,13 +8,13 @@ DEN_domestic_affairs_decisions = {
 			NOT = {
 				has_government = soviet_socialist
 				has_government = soviet_socialist
-				has_government = broad_socialism
-				is_in_array = { ROOT.coalition_partners = token:broad_socialism }
+				has_government = broad_socialist
+				is_in_array = { ROOT.coalition_partners = token:broad_socialist }
 			}
  		}
  		visible = {
  			NOT = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 			}
  		}
 		ai_will_do = {
@@ -28,7 +28,7 @@ DEN_domestic_affairs_decisions = {
 		
 		modifier = {
 			political_power_gain = -0.10
-			broad_socialism_drift = -0.01
+			broad_socialist_drift = -0.01
 		}
 		
 		complete_effect = {

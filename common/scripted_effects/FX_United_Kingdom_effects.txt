@@ -1050,7 +1050,7 @@ ENG_add_edward_windsor = {
       promote_leader = yes
       country_leader = {
         desc = "POLITICS_ENG_EDWARD_VIII_DESC"
-        ideology = broad_socialism_subtype
+        ideology = broad_socialist_subtype
         traits = { meddler charismatic }
       }
     }

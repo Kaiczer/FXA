@@ -125,7 +125,7 @@ create_dynamic_country = {
 	set_politics = { ruling_party = soviet_socialist }
 	set_popularities = {
 		soviet_socialist = 20
-		broad_socialism = 33
+		broad_socialist = 33
 		soviet_socialist = 39
 		social_democrat = 8
 		social_liberal = 0
@@ -156,7 +156,7 @@ create_dynamic_country = {
 	recruit_character = SWF_Jose_Cazorla_Maure
 
 	SWF_Jose_Diaz_Ramos = { promote_character = soviet_socialist_subtype }
-	SWF_Francisco_Largo_Caballero = { promote_character = broad_socialism_subtype }
+	SWF_Francisco_Largo_Caballero = { promote_character = broad_socialist_subtype }
 	SWF_Jose_Cazorla_Maure = { promote_character = soviet_socialist_subtype }
 
 	recruit_character = SWF_Buenaventura_Durruti 
@@ -169,7 +169,7 @@ create_dynamic_country = {
 				cost = 0
 				idea_token = SWF_Buenaventura_Durruti_hog
 				traits = {
-					broad_socialism
+					broad_socialist
 					hog_reformist_soldier
 				}
 			}
@@ -229,7 +229,7 @@ create_dynamic_country = {
 	set_politics = { ruling_party = reactionary_ultranationalism }
 	set_popularities = {
 		soviet_socialist = 0
-		broad_socialism = 0
+		broad_socialist = 0
 		soviet_socialist = 0
 		social_democrat = 5
 		social_liberal = 3
@@ -299,7 +299,7 @@ create_dynamic_country = {
 	set_politics = { ruling_party = authoritarian_democrat }
 	set_popularities = {
 		soviet_socialist = 0
-		broad_socialism = 0
+		broad_socialist = 0
 		soviet_socialist = 0
 		social_democrat = 5
 		social_liberal = 3
@@ -539,9 +539,9 @@ SWF = {
 		name = SWF_soviet_socialist_party
 	}
 	set_party_name = {
-		ideology = broad_socialism
-		long_name = SWF_broad_socialism_party_long
-		name = SWF_broad_socialism_party
+		ideology = broad_socialist
+		long_name = SWF_broad_socialist_party_long
+		name = SWF_broad_socialist_party
 	}
 }
 
@@ -565,7 +565,7 @@ set_politics = {
 set_popularities = {
 	soviet_socialist = 8
 	soviet_socialist = 17
-	broad_socialism = 15
+	broad_socialist = 15
 	social_democrat = 10
 	social_liberal = 5
 	classical_liberal = 18

@@ -572,12 +572,12 @@ PHI_add_governor_general = {
         }
       }
       if = {
-        limit = { has_ideology = broad_socialism_subtype }
-        promote_character = { ideology = broad_socialism_subtype }
+        limit = { has_ideology = broad_socialist_subtype }
+        promote_character = { ideology = broad_socialist_subtype }
       }
       else = {
         add_country_leader_role = {
-          country_leader = { ideology = broad_socialism_subtype }
+          country_leader = { ideology = broad_socialist_subtype }
           promote_leader = yes
         }
       }
@@ -693,12 +693,12 @@ PHI_remove_governor_general = {
   }
   PHI_Crisanto_Evangelista = {
     if = {
-      limit = { has_ideology = broad_socialism_subtype }
-      promote_character = { ideology = broad_socialism_subtype }
+      limit = { has_ideology = broad_socialist_subtype }
+      promote_character = { ideology = broad_socialist_subtype }
     }
     else = {
       add_country_leader_role = {
-        country_leader = { ideology = broad_socialism_subtype }
+        country_leader = { ideology = broad_socialist_subtype }
         promote_leader = yes
       }
     }

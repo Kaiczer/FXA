@@ -181,7 +181,7 @@ shared_focus = {
 	completion_reward = {
 		if = {
 			limit = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 			}
 			JAP = {
 				create_faction = "Fifth International"

@@ -472,14 +472,14 @@ country_event = { #workers congress 40 part 2
 		name = bol.20.c
 		add_ideas = workers_republic
 		set_politics = {
-			ruling_party = broad_socialism
+			ruling_party = broad_socialist
 		}
 			add_popularity = {
-				ideology = broad_socialism popularity = 0.25
+				ideology = broad_socialist popularity = 0.25
 			}
 		hidden_effect = {
 			set_country_flag = BOL_libboring
-			set_politics = { ruling_party = broad_socialism }
+			set_politics = { ruling_party = broad_socialist }
 			random_country = {
 				limit = { NOT = { TAG = BOL } }
 			}
@@ -538,7 +538,7 @@ country_event = { #a
 	option = {
 		name = bol.41.a
 		add_popularity = {
-			ideology = broad_socialism popularity = -0.025
+			ideology = broad_socialist popularity = -0.025
 		}
 		add_popularity = {
 			ideology = soviet_socialist popularity = -0.025
@@ -574,7 +574,7 @@ country_event = { #a
 		name = bol.42.a
 		add_political_power = 50
 		add_popularity = {
-			ideology = broad_socialism popularity = 0.05
+			ideology = broad_socialist popularity = 0.05
 		}
 		set_cosmetic_tag = BOL_soccom
 	}

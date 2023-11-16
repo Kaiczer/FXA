@@ -88,7 +88,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
     	advisor = {
@@ -105,7 +105,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Francisco_Largo_Caballero_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_backroom_backstabber
 			}
 		}
@@ -506,7 +506,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Joaquin_Maurin_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_charismatic_charmer
 			}
 		}
@@ -533,7 +533,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Garcia_Oliver_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_political_protege
 			}
 		}
@@ -552,7 +552,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Juan_Garcia_Oliver_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_health_and_safety
 			}
 		}
@@ -579,7 +579,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Angel_Pestana_Nunez_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -702,7 +702,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Jordi_Arquer_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -756,7 +756,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Julian_Besteiro_Fernandez_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_iron_fisted_brute
 			}
 		}
@@ -783,7 +783,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Julio_Alvarez_del_Vayo_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_relations_expert
 			}
 		}
@@ -810,7 +810,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Fernando_de_los_Rios_Urruti_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_relations_expert
 			}
 		}
@@ -829,7 +829,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Fernando_de_los_Rios_Urruti_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_tank_proponent
 			}
 		}
@@ -1089,7 +1089,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Belamino_Tomas_Alvarez_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_industrial_chemist
 			}
 		}
@@ -1116,7 +1116,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Felix_Gordon_Ordas_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_reformer
 			}
 		}
@@ -1224,7 +1224,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Angel_Galarza_y_Gago_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_media_magnate
 			}
 		}
@@ -1251,7 +1251,7 @@ characters = {
 				ROOT = { clr_country_flag = SWF_Antonio_Ortega_Gutierrez_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_compassionate_gentleman
 			}
 		}

@@ -6,7 +6,7 @@ set_convoys = 50
 set_stability = 0.53
 set_war_support = 0.5
 
-add_coalition_broad_socialism = yes 
+add_coalition_broad_socialist = yes 
 
 # Starting tech
 set_technology = {
@@ -88,7 +88,7 @@ set_politics = {
 set_popularities = {
     soviet_socialist = 1
     soviet_socialist = 4
-    broad_socialism = 36
+    broad_socialist = 36
     social_democrat = 32
     social_liberal = 11
     classical_liberal = 6

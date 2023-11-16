@@ -1062,9 +1062,9 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = broad_socialism }
+					PREV.ROOT = { has_government = broad_socialist }
 				}
-				broad_socialism > 0.2
+				broad_socialist > 0.2
 			}
 			if = {
 				limit = {

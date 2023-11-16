@@ -43,8 +43,8 @@ ideas = {
 			}
 		}
 		
-		broad_socialism_influence = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea broad_socialism_influence"}
+		broad_socialist_influence = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea broad_socialist_influence"}
 			
 			
 			allowed = {
@@ -52,7 +52,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 			}
 
 			removal_cost = -1
@@ -60,8 +60,8 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				broad_socialism_drift = 0.1
-				broad_socialism_acceptance = 85
+				broad_socialist_drift = 0.1
+				broad_socialist_acceptance = 85
 			}
 		}
 

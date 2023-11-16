@@ -203,7 +203,7 @@ ideas = {
 			visible = {
 				OR = {
 					has_government = soviet_socialist
-					has_government = broad_socialism
+					has_government = broad_socialist
 				}
 			}
 			modifier = {

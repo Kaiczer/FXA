@@ -64,7 +64,7 @@ if = {
 add_coalition_soviet_socialist = yes 
 
 set_politics = {	
-	ruling_party = broad_socialism
+	ruling_party = broad_socialist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -84,7 +84,7 @@ add_ideas = {
 set_popularities = {
   soviet_socialist = 2
   soviet_socialist = 8
-  broad_socialism = 35
+  broad_socialist = 35
   social_democrat = 7
   social_liberal = 13
   classical_liberal = 19

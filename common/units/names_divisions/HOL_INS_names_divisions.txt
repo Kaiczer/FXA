@@ -39,7 +39,7 @@ HOL_INF_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = soviet_socialist
 				has_government = soviet_socialist
 				has_government = paternal_autocrat
@@ -92,7 +92,7 @@ HOL_INF_02 =
 
 	can_use = {
 		OR = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 		}
@@ -186,7 +186,7 @@ HOL_CAV_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = soviet_socialist
 				has_government = soviet_socialist
 				has_government = paternal_autocrat
@@ -227,7 +227,7 @@ HOL_CAV_02 =
 
 	can_use = {
 		OR = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 		}
@@ -265,7 +265,7 @@ HOL_CAV_03 =
 
 	can_use = {
 		OR = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 		}
@@ -337,7 +337,7 @@ HOL_MEC_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = soviet_socialist
 				has_government = soviet_socialist
 				has_government = paternal_autocrat
@@ -379,7 +379,7 @@ HOL_MEC_02 =
 
 	can_use = {
 		OR = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 			has_government = reactionary_ultranationalism
@@ -648,7 +648,7 @@ HOL_FIETS_01 =
 	can_use = {
 		NOT = {
 			OR = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = soviet_socialist
 				has_government = soviet_socialist
 				has_government = paternal_autocrat
@@ -689,7 +689,7 @@ HOL_FIETS_02 =
 
 	can_use = {
 		OR = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 		}

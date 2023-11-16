@@ -3587,7 +3587,7 @@ focus = {
 		has_completed_focus = POL_the_east
 		OR = {
 			has_government = social_democrat
-			has_government = broad_socialism
+			has_government = broad_socialist
 			has_government = soviet_socialist
 			has_government = soviet_socialist
 			SOV = { has_government = social_democrat }
@@ -3749,7 +3749,7 @@ focus = {
 	available = {
 		NOT = {
 			OR = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 				has_government = social_democrat
 				has_government = classical_liberal
 				has_government = social_liberal

@@ -85,7 +85,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Pietro_Nenni_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_political_protege
 			}
 		}
@@ -99,7 +99,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -117,7 +117,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Giacomo_Matteotti_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_silent_workhorse
 			}
 		}
@@ -472,7 +472,6 @@ characters = {
 		# 	traits = { }
 		# }
 		advisor = {
-			
 			slot = head_of_government
 			available = { 
 				hidden_trigger = { has_country_flag = ITA_Gabrielle_D_Annunzio_hog_val_hired }
@@ -579,7 +578,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Altiero_Spinelli_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_apologetic_clerk
 			}
 		}
@@ -905,7 +904,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Achille_Grandi_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_reformer
 			}
 		}
@@ -1235,7 +1234,7 @@ characters = {
 				ROOT = { clr_country_flag = ITA_Francesco_De_Martino_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_silent_lawyer
 			}
 		}
@@ -1638,7 +1637,7 @@ characters = {
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { ITA_soldier_king }
 		}
 		country_leader = {

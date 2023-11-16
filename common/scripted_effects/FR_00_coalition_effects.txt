@@ -182,7 +182,7 @@ save_current_party_popularities = {
 	clear_temp_array = saved_popularities
 	add_to_temp_array = { saved_popularities = party_popularity_100@soviet_socialist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@soviet_socialist }
-	add_to_temp_array = { saved_popularities = party_popularity_100@broad_socialism }
+	add_to_temp_array = { saved_popularities = party_popularity_100@broad_socialist }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_democrat }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_liberal }
 	add_to_temp_array = { saved_popularities = party_popularity_100@classical_liberal }
@@ -232,12 +232,12 @@ set_coalition_government_popularity = {
 	if = {
 		limit = {
 			NOT = {
-				has_government = broad_socialism
-				check_variable = { political_power_ideology = token:broad_socialism }
+				has_government = broad_socialist
+				check_variable = { political_power_ideology = token:broad_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:broad_socialism }
+			is_in_array = { ROOT.coalition_partners = token:broad_socialist }
 		}
-		set_temp_variable = { coali_lis = THIS.party_popularity@broad_socialism }
+		set_temp_variable = { coali_lis = THIS.party_popularity@broad_socialist }
 		add_to_variable = { coalition_ruling_combined_pop = coali_lis }
 	}
 	if = {
@@ -337,8 +337,8 @@ add_coalition_soviet_socialist = {
 	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	add_to_coalition = yes 
 }
-add_coalition_broad_socialism = {
-	set_temp_variable = { coalition_partner_var = token:broad_socialism }
+add_coalition_broad_socialist = {
+	set_temp_variable = { coalition_partner_var = token:broad_socialist }
 	add_to_coalition = yes 
 }
 add_coalition_social_democrat = {
@@ -382,8 +382,8 @@ remove_coalition_soviet_socialist = {
 	set_temp_variable = { coalition_partner_var = token:soviet_socialist }
 	remove_from_coalition = yes 
 }
-remove_coalition_broad_socialism = {
-	set_temp_variable = { coalition_partner_var = token:broad_socialism }
+remove_coalition_broad_socialist = {
+	set_temp_variable = { coalition_partner_var = token:broad_socialist }
 	remove_from_coalition = yes 
 }
 remove_coalition_social_democrat = {

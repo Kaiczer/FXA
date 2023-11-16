@@ -55,7 +55,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = {
 				SOV_the_metallworker
 			}
@@ -637,7 +637,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Nikolay_Bukharin_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_respected_war_hero
 			}
 		}
@@ -718,7 +718,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Mariya_Spiridonova_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_relations_expert
 			}
 		}
@@ -800,7 +800,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Matvey_Skobelev_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_resource_industrialist
 			}
 		}
@@ -881,7 +881,7 @@ characters = {
 				ROOT = { clr_country_flag = SOV_Pavel_Sudoplatov_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_silent_lawyer
 			}
 		}

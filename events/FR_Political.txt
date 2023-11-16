@@ -344,9 +344,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 			}
-			set_country_flag = opinion_set_broad_socialism
+			set_country_flag = opinion_set_broad_socialist
 		}
 		if = {
 			limit = {
@@ -424,8 +424,8 @@ country_event = {
 				has_country_flag = opinion_set_soviet_socialist
 			}
 			AND = {
-				NOT = { has_government = broad_socialism }
-				has_country_flag = opinion_set_broad_socialism
+				NOT = { has_government = broad_socialist }
+				has_country_flag = opinion_set_broad_socialist
 			}
 			AND = {
 				NOT = { has_government = social_democrat }
@@ -462,7 +462,7 @@ country_event = {
 			AND = {
 				NOT = { has_country_flag = opinion_set_soviet_socialist }
 				NOT = { has_country_flag = opinion_set_soviet_socialist }
-				NOT = { has_country_flag = opinion_set_broad_socialism }
+				NOT = { has_country_flag = opinion_set_broad_socialist }
 				NOT = { has_country_flag = opinion_set_social_democrat }
 				NOT = { has_country_flag = opinion_set_social_liberal }
 				NOT = { has_country_flag = opinion_set_classical_liberal }
@@ -482,7 +482,7 @@ country_event = {
 	immediate = {
 		clr_country_flag = opinion_set_soviet_socialist
 		clr_country_flag = opinion_set_soviet_socialist
-		clr_country_flag = opinion_set_broad_socialism
+		clr_country_flag = opinion_set_broad_socialist
 		clr_country_flag = opinion_set_social_democrat
 		clr_country_flag = opinion_set_social_liberal
 		clr_country_flag = opinion_set_classical_liberal
@@ -655,9 +655,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				has_government = broad_socialism
+				has_government = broad_socialist
 			}
-			set_country_flag = opinion_set_broad_socialism
+			set_country_flag = opinion_set_broad_socialist
 		}
 		if = {
 			limit = {

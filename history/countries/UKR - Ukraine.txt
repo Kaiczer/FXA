@@ -99,7 +99,7 @@ add_ideas = {
 	UKR_underfunded_army
 }
 
-set_country_flag = coalition_broad_socialism
+set_country_flag = coalition_broad_socialist
 set_country_flag = coalition_social_liberal
 
 set_politics = {	
@@ -112,7 +112,7 @@ set_politics = {
 set_popularities = {
   soviet_socialist = 0
   soviet_socialist = 6
-  broad_socialism = 3
+  broad_socialist = 3
   social_democrat = 20
   social_liberal = 22
   classical_liberal = 11

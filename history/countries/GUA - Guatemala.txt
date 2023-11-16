@@ -36,7 +36,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = broad_socialism
+	ruling_party = broad_socialist
 	last_election = "1931.2.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,7 +45,7 @@ set_politics = {
 set_popularities = {
   soviet_socialist = 22
   soviet_socialist = 5
-  broad_socialism = 53
+  broad_socialist = 53
   social_democrat = 16
   social_liberal = 3
   classical_liberal = 1

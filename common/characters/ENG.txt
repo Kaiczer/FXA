@@ -18,7 +18,7 @@ characters = {
 		}
 		country_leader = {
       desc = "POLITICS_ENG_GEORGE_V_DESC"
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -646,7 +646,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 		advisor = {
@@ -664,7 +664,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_meme_man
 			}
 		}
@@ -683,7 +683,7 @@ characters = {
 				ROOT = { clr_country_flag = ENG_Oswald_Mosley_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_reformer
 			}
 		}

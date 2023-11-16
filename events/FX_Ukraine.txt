@@ -319,7 +319,7 @@ country_event = { # Strikes!
     name = ukraine.12.b
     ai_chance = { base = 80 }
     add_popularity = {
-      ideology = broad_socialism
+      ideology = broad_socialist
       popularity = 0.1
     }
   }
@@ -348,7 +348,7 @@ country_event = { # 1936 Elections
       }
     }
     set_politics = {
-      ruling_party = broad_socialism
+      ruling_party = broad_socialist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_15 = yes
@@ -1724,7 +1724,7 @@ country_event = { # 1946 Elections
       }
     }
     set_politics = {
-      ruling_party = broad_socialism
+      ruling_party = broad_socialist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes
@@ -1900,7 +1900,7 @@ country_event = { # 1951 Elections
       }
     }
     set_politics = {
-      ruling_party = broad_socialism
+      ruling_party = broad_socialist
       elections_allowed = yes
     }
     increase_ruling_party_popularity_by_10 = yes

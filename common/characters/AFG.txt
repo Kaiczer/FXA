@@ -32,7 +32,7 @@ characters = {
 			traits = { }
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
    		advisor = {
@@ -139,7 +139,7 @@ characters = {
 			idea_token = AFG_Khan_Abdul_Ghaffar_Khan_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_ambitious_union_boss
 			}
 		}
@@ -306,7 +306,7 @@ characters = {
 			}
 			idea_token = AFG_Mir_Gul_Khan_Nasir_for_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_ideological_crusader
 			}
 		}

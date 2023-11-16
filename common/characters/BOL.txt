@@ -48,7 +48,7 @@ characters = {
 			idea_token = BOL_Gustavo_Adolfo_Navarro_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_happy_amateur
 			}
 		}
@@ -410,7 +410,7 @@ characters = {
 			}
 			idea_token = BOL_Roberto_Jordan_eco_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_trade_proponent
 			}
 		}
@@ -592,7 +592,7 @@ characters = {
 			}
 			idea_token = BOL_Mariano_Basptista_sec_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_health_and_safety
 			}
 		}
@@ -776,7 +776,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 	}

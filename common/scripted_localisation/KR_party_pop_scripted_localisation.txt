@@ -28,9 +28,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = broad_socialism
+			has_government = broad_socialist
 		}
-		localization_key = broad_socialism_subtype_desc
+		localization_key = broad_socialist_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -179,12 +179,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = broad_socialism
-				check_variable = { political_power_ideology = token:broad_socialism }
+				has_government = broad_socialist
+				check_variable = { political_power_ideology = token:broad_socialist }
 			}
-			is_in_array = { ROOT.coalition_partners = token:broad_socialism }
+			is_in_array = { ROOT.coalition_partners = token:broad_socialist }
 		}
-		localization_key = party_pop_coalition_broad_socialism
+		localization_key = party_pop_coalition_broad_socialist
 	}
 	text = {
 		localization_key = empty
@@ -328,7 +328,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:broad_socialism }
+			check_variable = { coalition_partner_var = token:broad_socialist }
 		}
 		localization_key = colour_red
 	}

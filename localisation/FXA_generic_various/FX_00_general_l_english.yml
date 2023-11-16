@@ -64,7 +64,7 @@ POLITICS_NOELECTIONS: "No Elections"
 
 ### Ideologies
 soviet_socialist: "Soviet Socialist"
-broad_socialism: "Broad Socialist"
+broad_socialist: "Broad Socialist"
 social_democrat: "Social Democrat"
 social_liberal: "Social Liberal"
 classical_liberal: "Classical Liberal"
@@ -78,7 +78,7 @@ carnarianist: "Carnarianist"
 ### Ideologies Colored
 
 soviet_socialist_color: "§tSoviet Socialists§!"
-broad_socialism_color: "§tBroad Socialists§!"
+broad_socialist_color: "§tBroad Socialists§!"
 social_democrat_color: "§OSocial Democrats§!"
 social_liberal_color: "§9Social Liberals§!"
 classical_liberal_color: "§2Classical Liberal§!"
@@ -91,7 +91,7 @@ valkist_color: "§GVolkists§!"
 
 ### Ideology Nouns
 soviet_socialist_noun: "Soviet Socialism"
-broad_socialism_noun: "Broad Socialism"
+broad_socialist_noun: "Broad Socialism"
 social_democrat_noun: "Social Democracy"
 social_liberal_noun: "Social Liberalism"
 classical_liberal_noun: "Classical Liberalism"
@@ -105,7 +105,7 @@ valkist_noun: "Volkism"
 ### Ideology Desc
 ideology_alignment: "Government"
 soviet_socialist_desc: "Revolutionary"
-broad_socialism_desc: "Revolutionary"
+broad_socialist_desc: "Revolutionary"
 social_democrat_desc: "Progressive"
 social_liberal_desc: "Progressive"
 classical_liberal_desc: "Liberal Conservative"
@@ -118,7 +118,7 @@ valkist_desc: "Authoritarian"
 
 ### Ideology Drift
 soviet_socialist_drift: "Daily Soviet Socialist support"
-broad_socialism_drift: "Daily Broad Socialist support"
+broad_socialist_drift: "Daily Broad Socialist support"
 social_democrat_drift: "Daily Social Democrat support"
 social_liberal_drift: "Daily Social Liberal support"
 classical_liberal_drift: "Daily Classical Liberal support"
@@ -131,7 +131,7 @@ carnarianist_drift: "Daily Carnarianist support"
 
 ### Ideology Subtype Desc
 soviet_socialism_subtype_desc: "Created in the aftermath of the Russian Revolution, Vanguard Socialism or Marxist-Leninism is the mainstream socialist ideology. Named after the interpretations of Karl Marx by revolutionary Vladimir Lenin, Vanguard Socialism adheres to the creation of a revolutionary vanguard and the dictatorship of the proletariat through class struggle and violent overthrow of the capitalist state. The eventual goal of Socialism is for the state functions to wither away and eventually transform society into a Marxist communist society. The Vanguard Socialist political system is built around a single party state ran by the revolutionary workers party that adheres to a top-down approach towards governing known as democratic centralism, while the economic system is reliant of worker controlled regional and municipal councils known as soviets. Internationalist in tone, Vanguard Socialism is often exported around the globe by its adherents and is heavily reinforced by the Union of Soviet Socialist Republics."
-broad_socialism_subtype_desc: "Libertarianism represents a wide range of socialist doctrines that oppose the Leninist hegemony on the socialist movement through support of a decentralized, anti-authoritarian and anti-capitalist society ran democratically by the workers alongside worker-owned means of production. Libertarian ideologies include left communism, council communism, anarcho-syndicalism, and anarcho-communism, and do not strictly support the tenets of Marxism or Communism."
+broad_socialist_subtype_desc: "Libertarianism represents a wide range of socialist doctrines that oppose the Leninist hegemony on the socialist movement through support of a decentralized, anti-authoritarian and anti-capitalist society ran democratically by the workers alongside worker-owned means of production. Libertarian ideologies include left communism, council communism, anarcho-syndicalism, and anarcho-communism, and do not strictly support the tenets of Marxism or Communism."
 social_democrat_subtype_desc: "Social Democracy is an ideology whose goal is to reform capitalism and humanize it by aligning it with the ethical ideals of social welfare while maintaining the capitalist mode of production, rather than creating an alternative socialist economic system. While usually promoting a plutocratic form of government and a heavily regulated market economy, some more radical streams exist."
 social_liberal_subtype_desc: "Social Liberalism is a variation on mainstream Market liberalism, with the main difference being is the inclusion of various civil freedoms as basic human rights. Professing progressive social and economic policies the social liberals aim to create a society where every individual is free to live his own life with full opportunities regardless of their status."
 classical_liberal_subtype_desc: "As a branch of mainline Liberalism that advocates for a free market and laissez-faire economics, and for civil liberties tied to economic and political freedom under the rule of law of a limited government. Differing from mainline Social Liberalism, Classical Liberals look more negatively on social policies, welfare systems, heavy taxation, and state involvement in the lives of its citizens, instead advocating for deregulation and decentralization, sharing some ideas with Liberal Conservatives, despite despising Conservative economics such as protectionism. Tied to the ‘original’ Liberals of the 19th Century, such as John Locke, Jean-Baptiste Say, Thomas Robert Malthus, and David Ricardo, Classical Liberalism is rooted in the ideas of Adam Smith, standing true to natural law, liberal progress, utilitarianism, and to the lessons learned during the rise of the Industrial Revolution and urbanization. From Hayek to Mises, Classical Liberals tow the line between the Center-Right and the Center-Left, seeking to bring about the ideas of the Enlightenment to their wayward shores."
@@ -144,7 +144,7 @@ valkist_subtype_desc: "After the war, which saturated the land with bloodshed an
 
 ### Ideology Acceptance
 soviet_socialist_acceptance: "Acceptance of Soviet Socialism"
-broad_socialism_acceptance: "Acceptance of Broad Socialism"
+broad_socialist_acceptance: "Acceptance of Broad Socialism"
 social_democrat_acceptance: "Acceptance of Social Democracy"
 social_liberal_acceptance: "Acceptance of Social Liberalism"
 classical_liberal_acceptance: "Acceptance of Market Liberalism"
@@ -157,7 +157,7 @@ carnarianist_acceptance: "Acceptance of Volkism"
 
 ### Ideology Banned
 soviet_socialist_banned: "Banned Soviet Socialists"
-broad_socialism_banned: "Banned Broad Socialists"
+broad_socialist_banned: "Banned Broad Socialists"
 social_democrat_banned: "Banned Social Democrats"
 social_liberal_banned: "Banned Social Liberals"
 classical_liberal_banned: "Banned Market Liberals"

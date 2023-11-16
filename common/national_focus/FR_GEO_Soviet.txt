@@ -165,7 +165,7 @@ focus_tree = {
 			remove_ideas = GEO_separatism
 			add_popularity = { ideology = soviet_socialist popularity = -0.1 }
 			add_stability = 0.1
-			add_popularity = { ideology = broad_socialism popularity = -0.1 }
+			add_popularity = { ideology = broad_socialist popularity = -0.1 }
 			add_popularity = { ideology = social_democrat popularity = -0.1 }
 			add_popularity = { ideology = social_conservative popularity = -0.03 }
 		}

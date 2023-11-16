@@ -240,8 +240,8 @@ has_same_government_as_ROOT = {
 			ROOT = { has_government = soviet_socialist }
 		}
 		AND = {
-			has_government = broad_socialism
-			ROOT = { has_government = broad_socialism }
+			has_government = broad_socialist
+			ROOT = { has_government = broad_socialist }
 		}
 		AND = {
 			has_government = social_democrat
@@ -285,7 +285,7 @@ has_socialist_government = {
 		OR = {
 			has_government = soviet_socialist
 			has_government = soviet_socialist
-			has_government = broad_socialism
+			has_government = broad_socialist
 		}
 	}
 }

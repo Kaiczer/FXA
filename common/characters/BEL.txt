@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 		country_leader = {
@@ -132,7 +132,7 @@ characters = {
 			idea_token = BEL_Joseph_Jacquemotte_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_red_chairmen
 			}
 		}
@@ -343,7 +343,7 @@ characters = {
 			idea_token = BEL_Lucie_Dejardin_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_naive_optimist
 			}
 		}
@@ -521,7 +521,7 @@ characters = {
 			}
 			idea_token = BEL_Louis_Paul_Boon_for_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_foreign_sympathizer
 			}
 		}
@@ -730,7 +730,7 @@ characters = {
 			}
 			idea_token = BEL_Adhemar_Henneaut_eco_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_reformer
 			}
 		}
@@ -998,7 +998,7 @@ characters = {
 			}
 			idea_token = BEL_Felix_Van_den_Bergh_sec_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_silent_lawyer
 			}
 		}

@@ -63,7 +63,7 @@ country_event = { #King Albert dies
         character = BEL_Joseph_Jacquemotte
         promote_leader = yes
         country_leader = {
-          ideology = broad_socialism_subtype
+          ideology = broad_socialist_subtype
           traits = {}
         }
       }
@@ -342,7 +342,7 @@ country_event = { #Communist uprising
 				popularity = 0.4
 			}
 			add_popularity = {
-				ideology = broad_socialism
+				ideology = broad_socialist
 				popularity = 0.1
 			}
 			FRA = {

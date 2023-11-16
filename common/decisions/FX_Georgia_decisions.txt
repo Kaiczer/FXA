@@ -50,10 +50,10 @@ GEO_trans_decisions = {
 				limit = {
 					has_country_flag = GEO_united_menshevik_party
 				}
-				set_party_name = { ideology = broad_socialism long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
+				set_party_name = { ideology = broad_socialist long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
 				set_party_name = { ideology = social_democrat long_name = GEO_CAU_menshevik_party_long name = GEO_CAU_menshevik_party}
 				else = {
-					set_party_name = { ideology = broad_socialism long_name = GEO_CAU_broad_socialism_party_long name = GEO_CAU_broad_socialism_party}
+					set_party_name = { ideology = broad_socialist long_name = GEO_CAU_broad_socialist_party_long name = GEO_CAU_broad_socialist_party}
 					set_party_name = { ideology = social_democrat long_name = GEO_CAU_social_democrat_party_long name = GEO_CAU_social_democrat_party}
 				}
 			}

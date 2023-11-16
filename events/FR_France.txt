@@ -1243,7 +1243,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1285,7 +1285,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1327,7 +1327,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1369,7 +1369,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.02
 		}
 		hidden_effect = {
@@ -1408,7 +1408,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = 0.02
 		}
 		custom_effect_tooltip = fra_bloodbath
@@ -1459,12 +1459,12 @@ country_event = {
 	option = {
 		name = fra.40.a
 		set_party_name = {
-            ideology = broad_socialism
+            ideology = broad_socialist
             long_name = "Parti socialiste ouvrier et paysan"
             name = "PSOP"
         }
         add_popularity = {
-    		ideology = broad_socialism
+    		ideology = broad_socialist
    			popularity = 0.02
 		}
 	}
@@ -2871,7 +2871,7 @@ country_event = {
 			popularity = 0.02
 		}
 		add_popularity = {
-			ideology = broad_socialism
+			ideology = broad_socialist
 			popularity = -0.02
 		}
 		add_popularity = {
@@ -4227,7 +4227,7 @@ country_event = { #start of the First Indochina War
 				transfer_state = 960
 				transfer_state = 959
 				set_politics = {
-					ruling_party = broad_socialism
+					ruling_party = broad_socialist
 				}
 				load_oob = LAO_1936
 				add_to_war = { 
@@ -4827,11 +4827,11 @@ country_event = { #North Korean officials petition Soviet government for self de
 				transfer_state = 830
 				transfer_state = 832
 				set_politics = {
-					ruling_party = broad_socialism
+					ruling_party = broad_socialist
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = broad_socialism
+					ideology = broad_socialist
 					popularity = 0.20
 				}
 				add_popularity = {
@@ -4855,11 +4855,11 @@ country_event = { #North Korean officials petition Soviet government for self de
 				transfer_state = 830
 				transfer_state = 832
 				set_politics = {
-					ruling_party = broad_socialism
+					ruling_party = broad_socialist
 					elections_allowed = no
 				}
 				add_popularity = {
-					ideology = broad_socialism
+					ideology = broad_socialist
 					popularity = 0.20
 				}
 				add_popularity = {

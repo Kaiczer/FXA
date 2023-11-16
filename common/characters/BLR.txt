@@ -218,7 +218,7 @@ characters = {
 			idea_token = BLR_Aliaksandr_Charviakou_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_privileged_socialist
 			}
 		}
@@ -230,7 +230,7 @@ characters = {
 			}
 			idea_token = BLR_Aliaksandr_Charviakou_for_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_general_staffer
 			}
 		}
@@ -248,7 +248,7 @@ characters = {
 			idea_token = BLR_Symon_Rak_Michajlouksi_hog_lib
 			can_be_fired = no
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_red_chairmen
 			}
 		}
@@ -260,7 +260,7 @@ characters = {
 			}
 			idea_token = BLR_Symon_Rak_Michajlouksi_for_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_biased_intellectual
 			}
 		}
@@ -279,7 +279,7 @@ characters = {
 			}
 			idea_token = BLR_Dmitry_Pryshchepau_eco_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_administrative_genius
 			}
 		}
@@ -298,7 +298,7 @@ characters = {
 			}
 			idea_token = BLR_Pavel_Valoshin_sec_lib
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_back_stabber
 			}
 		}
@@ -311,7 +311,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = {}
 		}
 	}

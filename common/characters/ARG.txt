@@ -239,7 +239,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Domingo_Mercante_hog_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				hog_happy_amateur
 			}
 		}
@@ -660,7 +660,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Gregorio_Bermann_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_great_compromiser
 			}
 		}
@@ -687,7 +687,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_John_William_Cooke_for_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				for_great_compromiser
 			}
 		}
@@ -995,7 +995,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Antonio_de_Tomaso_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_industrialiser
 			}
 		}
@@ -1022,7 +1022,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Juana_Rouco_Buella_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_reformer
 			}
 		}
@@ -1049,7 +1049,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Sebastian_Marotta_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_balanced_budget_economy
 			}
 		}
@@ -1076,7 +1076,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Oscar_Alende_eco_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				eco_construction_magnate
 			}
 		}
@@ -1492,7 +1492,7 @@ characters = {
 				ROOT = { clr_country_flag = ARG_Roberto_Noble_sec_lib_hired }
 			}
 			traits = {
-				broad_socialism
+				broad_socialist
 				sec_preserver_of_culture
 			}
 		}
@@ -2112,7 +2112,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = broad_socialism_subtype
+			ideology = broad_socialist_subtype
 			traits = { }
 		}
 	}

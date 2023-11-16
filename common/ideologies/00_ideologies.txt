@@ -43,9 +43,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	broad_socialism = {
+	broad_socialist = {
 		types = {
-			broad_socialism_subtype = {}
+			broad_socialist_subtype = {}
 			socialist_feminist_subtype = { can_be_randomly_selected = no }
 			libsoc_utopian_socialism_subtype = { can_be_randomly_selected = no }
 			anarcho_syndicalism_subtype = { can_be_randomly_selected = no }
@@ -54,12 +54,12 @@ ideologies = {
 			moderate_socialist_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_BROAD_SOCIALISM_1"
-			"FACTION_NAME_BROAD_SOCIALISM_2"
-			"FACTION_NAME_BROAD_SOCIALISM_3"
-			"FACTION_NAME_BROAD_SOCIALISM_4"
-			"FACTION_NAME_BROAD_SOCIALISM_5"
-			"FACTION_NAME_BROAD_SOCIALISM_6"
+			"FACTION_NAME_broad_socialist_1"
+			"FACTION_NAME_broad_socialist_2"
+			"FACTION_NAME_broad_socialist_3"
+			"FACTION_NAME_broad_socialist_4"
+			"FACTION_NAME_broad_socialist_5"
+			"FACTION_NAME_broad_socialist_6"
 		}
 		color = { 233 58 58 } #old one was 255 65 65
 		rules = {

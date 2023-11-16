@@ -1573,10 +1573,10 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_popular_front"
 			add_stability = 0.05
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
-			add_popularity = { ideology = broad_socialism popularity = 0.01 }
+			add_popularity = { ideology = broad_socialist popularity = 0.01 }
 			custom_effect_tooltip  = SWE_popular_front_tooltip
 			hidden_effect = {
-				set_temp_variable = { coalition_partner_var = token:broad_socialism }
+				set_temp_variable = { coalition_partner_var = token:broad_socialist }
 				add_to_coalition = yes
 			}
 		}
@@ -1724,7 +1724,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_social_school"
 			add_political_power = -20
 			add_stability = 0.03
-			add_popularity = { ideology = broad_socialism popularity = 0.02 }
+			add_popularity = { ideology = broad_socialist popularity = 0.02 }
 			add_popularity = { ideology = social_democrat popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = 0.01 }
 			add_popularity = { ideology = classical_liberal popularity = 0.01 }
@@ -2352,7 +2352,7 @@ focus_tree = {
 			add_stability = -0.03
 			add_popularity = { ideology = soviet_socialist popularity = -0.06 }
 			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
-			add_popularity = { ideology = broad_socialism popularity = -0.03 }
+			add_popularity = { ideology = broad_socialist popularity = -0.03 }
 		}
 
 	}
@@ -3069,7 +3069,7 @@ focus_tree = {
 			add_stability = -0.01
 			add_popularity = { ideology = soviet_socialist popularity = -0.04 }
 			add_popularity = { ideology = soviet_socialist popularity = -0.01 }
-			add_popularity = { ideology = broad_socialism popularity = -0.01 }
+			add_popularity = { ideology = broad_socialist popularity = -0.01 }
 		}
 
 	}
@@ -3580,7 +3580,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_bend_reformists"
 			add_political_power = -15
 			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
-			add_popularity = { ideology = broad_socialism popularity = 0.03 }
+			add_popularity = { ideology = broad_socialist popularity = 0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.01 }
 		}
 
@@ -3625,7 +3625,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_mend_agrarians"
 			add_political_power = -15
 			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
-			add_popularity = { ideology = broad_socialism popularity = 0.03 }
+			add_popularity = { ideology = broad_socialist popularity = 0.03 }
 			add_popularity = { ideology = social_liberal popularity = -0.01 }
 		}
 
@@ -3838,7 +3838,7 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus SWE_free_socialist_education"
 			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
-			add_popularity = { ideology = broad_socialism popularity = 0.03 }
+			add_popularity = { ideology = broad_socialist popularity = 0.03 }
 			add_popularity = { ideology = soviet_socialist popularity = 0.01 }
 			add_popularity = { ideology = social_democrat popularity = 0.01 }
 			add_research_slot = 1
@@ -4238,7 +4238,7 @@ focus_tree = {
 			add_stability = 0.10
 			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
 			add_popularity = { ideology = soviet_socialist popularity = 0.03 }
-			add_popularity = { ideology = broad_socialism popularity = 0.03 }
+			add_popularity = { ideology = broad_socialist popularity = 0.03 }
 			add_popularity = { ideology = social_democrat popularity = -0.04 }
 			add_popularity = { ideology = social_conservative popularity = -0.04 }
 		}
@@ -4569,7 +4569,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_popularity = { ideology = soviet_socialist popularity = -0.02 }
 			add_popularity = { ideology = soviet_socialist popularity = -0.05 }
-			add_popularity = { ideology = broad_socialism popularity = -0.02 }
+			add_popularity = { ideology = broad_socialist popularity = -0.02 }
 		}
 
 	}
@@ -4599,7 +4599,7 @@ focus_tree = {
 			add_stability = -0.02
 			add_popularity = { ideology = soviet_socialist popularity = -0.01 }
 			add_popularity = { ideology = soviet_socialist popularity = -0.03 }
-			add_popularity = { ideology = broad_socialism popularity = -0.01 }
+			add_popularity = { ideology = broad_socialist popularity = -0.01 }
 			add_timed_idea = { idea = SWE_crush_sovietist_unions_idea days = 220 }
 		}
 
