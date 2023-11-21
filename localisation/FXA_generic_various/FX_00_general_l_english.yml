@@ -204,7 +204,10 @@ commonwealth: "Commonwealth of Nations"
 
 ### Interface
 government: "Government"
-law: "Laws"
+law_dynamic_government: "Constitutional Model"
+law: "Security Laws"
+law_political_mode: "Political Modes"
+law_socio_economic_custom: "Socio-Economic Customs"
 military_staff: "Military Staff"
 research_production: "Companies"
 
