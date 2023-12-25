@@ -2,13 +2,16 @@
 state={
 	id=479
 	name="STATE_479"
-	provinces={
-		1134 4140 9843 11761 12026 
-	}
-	history = {
+
+	history={
 		add_core_of = FNG
-		owner = FNG 
+		owner = FNG
 		add_claim_by = CHI
+
+	}
+
+	provinces={
+		1134 4140 6828 9843 11761 12026 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
