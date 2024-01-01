@@ -776,8 +776,14 @@ bitmapfonts = {
 		V = { 11 46 29 }    # Valkist Green
 
 	}
-
-
+	### Invisible Font ###
+	bitmapfont = {
+		name = "invisiblefont"
+		path = "gfx/fonts/invisiblefont"
+		color = 0xffffffff
+		textcolors = { }
+	}
+	#######################
 
 	bitmapfont = {
 		name = "ToolTip_Font"
