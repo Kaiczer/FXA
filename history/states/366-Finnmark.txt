@@ -4,7 +4,12 @@ state={
 	provinces={
 		22 64 76 128 2995 3016 3040 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 13630 
 	}
-	manpower=0
+	history = {
+		owner = NOR
+		add_core_of = NOR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -3,9 +3,15 @@ state={
 	id=443
 	name="STATE_443"
 	provinces={
-		1216 1554 1919 4629 7501 7507 7682 7775 7777 10420 10671 11687 13206 
+		7541 12233 12454 12474 
+	}
+	history = {
+		owner = UZB
+		add_core_of = UZB
+		add_claim_by = SOV 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

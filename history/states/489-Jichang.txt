@@ -5,7 +5,13 @@ state={
 	provinces={
 		946 1567 3913 3932 3947 4503 4572 6947 7523 7591 7652 7663 9782 9866 9883 9913 9928 11744 11850 11862 11864 
 	}
-	manpower=0
+	history = {
+		owner = FNG
+		add_core_of = FNG 
+		add_claim_by = CHI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

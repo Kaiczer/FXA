@@ -2,10 +2,18 @@
 state={
 	id=682
 	name="STATE_682"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+
+	}
+
 	provinces={
-		1949 2036 2054 2092 4915 4971 7080 7905 10807 12743 12829 13849 
+		1949 2036 7080 10807 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

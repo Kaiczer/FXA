@@ -4,7 +4,12 @@ state={
 	provinces={
 		3298 3388 9317 9501 10493 11222 11302 
 	}
-	manpower=0
+	history = {
+		owner = LAT
+		add_core_of = LAT
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -4,7 +4,12 @@ state={
 	provinces={
 		732 2877 3684 3703 6708 9665 
 	}
-	manpower=0
+	history = {
+		owner = AUS
+		add_core_of = AUS
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

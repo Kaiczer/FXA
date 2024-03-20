@@ -4,7 +4,13 @@ state={
 	provinces={
 		5036 6039 
 	}
-	manpower=0
+	history={
+		owner = EQA
+		add_core_of = CMR
+		add_claim_by = EQA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -3,9 +3,15 @@ state={
 	id=733
 	name="STATE_733"
 	provinces={
-		886 4124 6888 6956 7026 10056 11746 11810 
+		4124 7026 10056 11746 11810 
 	}
-	manpower=0
+	history = {
+		owner = SYR
+		add_claim_by = SYR
+		add_core_of = TUR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

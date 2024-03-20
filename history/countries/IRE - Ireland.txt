@@ -1,45 +1,38 @@
-capital = 815
-set_research_slots = 3
+set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-  basic_train = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	fuel_silos = 1
+	basic_train = 1
 }
 
-set_convoys = 25
-set_stability = 0.42
-set_war_support = 0.50
-set_politics = {
-  ruling_party = social_conservative
-	last_election = "1935.10.14"
-	election_frequency = 60
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-  soviet_socialist = 5
-  soviet_socialist = 0
-  broad_socialist = 0
-  social_democrat = 0
-  social_liberal = 0
-  classical_liberal = 26
-  social_conservative = 56
-  authoritarian_democrat = 0
-  paternal_autocrat = 5
-  reactionary_ultranationalism = 8
-  valkist = 0
-}
-
-add_ideas = {
-	party_pop_0_50
-	parliamentary_republic
-}
-
-recruit_character = IRE_Eamon_de_Valera
-recruit_character = IRE_Eoin_O_Duffy
-recruit_character = IRE_Gearoid_O_Cuinneagain
-recruit_character = IRE_James_Larkin
-recruit_character = IRE_William_Norton
-recruit_character = IRE_Michael_Costello
-recruit_character = IRE_James_Matthew_Dillon

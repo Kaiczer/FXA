@@ -1,19 +1,14 @@
-﻿capital = 958 #Hanoi
-
-oob = "VIN"
-set_research_slots = 2
-set_stability = 0.70
-set_war_support = 0.20
+﻿set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
-	gw_artillery = 1
-	
-	
-	early_fighter = 1
-	CAS1 = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
 	fuel_silos = 1
 	basic_train = 1
 }
@@ -34,84 +29,10 @@ if = {
 	}
 }
 
-if = {
-  limit = { has_dlc = "No Step Back" }
-  set_technology = {
-    gwtank_chassis = 1
-  }
-	else = {
-		set_technology = {
-			gwtank = 1
-		}
-	}
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_naval_oob = "VIN_naval_mtg"
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		coastal_defense_ships = 1
-		mtg_transport = 1
-	}
-	else = {
-		set_naval_oob = "VIN_naval_legacy"
-		set_technology = {
-			early_light_cruiser = 1
-			early_destroyer = 1
-			transport = 1
-		}
-	}
-}
-
-add_ideas = {
-	presidential_republic
-}
-
-set_popularities = {
-	soviet_socialist = 11
-	soviet_socialist = 21
-	broad_socialist = 5
-	social_democrat = 27
-	social_liberal = 4
-	classical_liberal = 4
-	social_conservative = 15
-	authoritarian_democrat = 9
-	paternal_autocrat = 3
-	reactionary_ultranationalism = 1
-	valkist = 0
-}
-
-set_politics = {
-	ruling_party = soviet_socialist
-	last_election = "1933.2.16"
-	election_frequency = 36
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-recruit_character = VIN_Pham_Van_Dong
-recruit_character = VIN_Ta_Thu_Thau
-recruit_character = VIN_Nguyen_Xien
-recruit_character = VIN_Vu_Hong_Khanh
-recruit_character = VIN_Nguyen_Tuong_Long
-recruit_character = VIN_Pham_Quynh
-recruit_character = VIN_Ngo_Dinh_Diem
-recruit_character = VIN_Bao_Dai
-recruit_character = VIN_Pham_Cong_Tac
-recruit_character = VIN_Truong_Tu_Anh
-recruit_character = VIN_Nguyen_Van_Hinh
-recruit_character = VIN_Duong_Van_Minh
-recruit_character = VIN_Tran_Van_Don
-recruit_character = VIN_Le_Van_Ty
-recruit_character = VIN_Tran_Quang_Vinh
-recruit_character = VIN_Le_Quang_Vinh
-recruit_character = VIN_Le_Van_Vien
-recruit_character = VIN_Tran_Van_Chon
-recruit_character = VIN_Le_Quang_My

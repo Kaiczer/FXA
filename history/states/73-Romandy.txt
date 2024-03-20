@@ -5,7 +5,12 @@ state={
 	provinces={
 		6666 6683 9622 11590 13124 
 	}
-	manpower=0
+	history = {
+		owner = SWI
+		add_core_of = SWI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

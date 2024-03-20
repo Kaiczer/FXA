@@ -3,9 +3,15 @@ state={
 	id=619
 	name="STATE_619"
 	provinces={
-		1082 1197 1934 4087 4318 4425 4588 4996 8063 
+		1082 1197 1934 4087 4318 4425 4588 4996 8063 10920 
+	}
+	history = {
+		owner = RAJ 
+		add_core_of = RAJ
+		add_core_of = BRM 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

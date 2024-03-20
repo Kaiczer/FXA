@@ -5,7 +5,13 @@ state={
 	provinces={
 		1047 1187 1202 4092 7108 7152 11938 11941 12095 
 	}
-	manpower=0
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_claim_by = FNG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

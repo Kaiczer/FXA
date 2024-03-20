@@ -3,9 +3,15 @@ state={
 	id=832
 	name="STATE_832"
 	provinces={
-		1473 1883 1974 1993 2081 3123 3181 4897 4978 7919 8078 9152 13138 13212 13213 13599 13627 
+		1473 1883 1993 2081 3123 3181 4897 4978 7919 8078 9152 13138 13212 13213 13627 
+	}
+	history={
+		owner = EQA
+		add_core_of = CHA
+		add_claim_by = EQA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

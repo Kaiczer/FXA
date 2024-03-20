@@ -2,10 +2,19 @@
 state={
 	id=439
 	name="STATE_439"
+
+	history={
+		owner = KAZ
+		add_core_of = KAZ
+		add_claim_by = SOV
+
+	}
+
 	provinces={
-		1825 4578 4636 4686 7556 7597 7706 10353 10366 10408 10506 10603 12329 12340 12397 12583 12640 12658 
+		1554 4578 4636 4686 7501 7507 7556 7597 7682 7706 7777 10148 10353 10366 10506 10601 10603 10660 12329 12340 12397 12640 12658 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

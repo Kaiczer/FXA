@@ -2,10 +2,19 @@
 state={
 	id=446
 	name="STATE_446"
+
+	history={
+		owner = KYR
+		add_core_of = KYR
+		add_claim_by = SOV
+
+	}
+
 	provinces={
-		1675 4391 4768 5062 12511 
+		1675 1825 4224 4316 4391 4768 10408 12511 12583 13147 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

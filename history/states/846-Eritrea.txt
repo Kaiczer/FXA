@@ -4,7 +4,15 @@ state={
 	provinces={
 		5017 5047 5091 8043 12723 12766 13830 13831 
 	}
-	manpower=0
+	history = {
+		owner = ITA 
+		add_core_of = ERI 
+		add_claim_by = ETH 
+		add_claim_by = AFR
+		add_claim_by = ITA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

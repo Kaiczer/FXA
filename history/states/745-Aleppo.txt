@@ -2,10 +2,17 @@
 state={
 	id=745
 	name="STATE_745"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+	}
+
 	provinces={
-		7140 7671 12473 
+		1088 1606 6883 7140 7671 10087 12473 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

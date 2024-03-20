@@ -1,10 +1,19 @@
+
 state={
 	id=825
 	name="STATE_825"
+
+	history={
+		owner = WEA
+		add_claim_by = WEA
+		add_core_of = MRT
+	}
+
 	provinces={
-		5034 5077 7943 8058 10771 
+		5034 5077 8058 10771 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

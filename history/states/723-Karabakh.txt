@@ -5,7 +5,14 @@ state={
 	provinces={
 		1467 1539 4660 6642 6997 11708 13418 
 	}
-	manpower=0
+	history = {
+		owner = AZR
+		add_core_of = AZR
+		add_core_of = ARM
+		add_claim_by = SOV
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

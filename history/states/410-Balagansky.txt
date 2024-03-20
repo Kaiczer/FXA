@@ -4,7 +4,12 @@ state={
 	provinces={
 		1727 1803 1810 1813 1829 4750 4797 4808 4815 7769 7802 7838 7841 7876 10543 10549 10562 10661 10664 12525 12540 12647 
 	}
-	manpower=0
+	history = {
+		owner = SOV
+		add_core_of = SOV
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

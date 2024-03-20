@@ -5,7 +5,13 @@ state={
 	provinces={
 		666 670 1455 3667 3672 6689 
 	}
-	manpower=0
+	history = {
+		owner = DAG
+		add_core_of = DAG
+		add_claim_by = SOV 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

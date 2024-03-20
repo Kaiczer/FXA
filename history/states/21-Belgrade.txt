@@ -5,7 +5,12 @@ state={
 	provinces={
 		797 937 3609 3922 3939 3956 3984 6953 6970 6998 9599 11583 11586 
 	}
-	manpower=0
+	history = {
+		owner = YUG
+		add_core_of = YUG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

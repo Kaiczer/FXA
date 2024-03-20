@@ -2,10 +2,18 @@
 state={
 	id=829
 	name="STATE_829"
+
+	history={
+		owner = WEA
+		add_claim_by = WEA
+		add_core_of = MLI
+	}
+
 	provinces={
-		2012 4927 5045 8116 10812 10829 10915 12751 12794 
+		2012 4927 5045 8116 10812 10829 10915 12751 12794 12851 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

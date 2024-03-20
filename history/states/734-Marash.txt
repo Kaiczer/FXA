@@ -2,10 +2,18 @@
 state={
 	id=734
 	name="STATE_734"
+
+	history={
+		owner = SYR
+		add_claim_by = SYR
+		add_core_of = TUR
+	}
+
 	provinces={
-		806 3889 9893 9912 12029 13740 
+		806 3889 12029 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

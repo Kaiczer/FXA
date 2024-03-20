@@ -5,7 +5,13 @@ state={
 	provinces={
 		800 861 927 3949 3970 6851 6860 6905 6918 6981 9803 9841 9848 9854 11781 
 	}
-	manpower=0
+	history = {
+		owner = FNG
+		add_core_of = FNG 
+		add_claim_by = CHI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

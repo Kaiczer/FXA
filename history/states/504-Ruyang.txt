@@ -2,10 +2,19 @@
 state={
 	id=504
 	name="STATE_504"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
+
 	provinces={
-		1004 1603 4519 4547 4606 6932 7459 7508 11931 
+		1004 1603 4606 6932 11931 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

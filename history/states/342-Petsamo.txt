@@ -4,7 +4,13 @@ state={
 	provinces={
 		6012 6128 6183 9140 11030 11142 
 	}
-	manpower=0
+	history = {
+		owner = FIN
+		add_core_of = FIN
+	}
+	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

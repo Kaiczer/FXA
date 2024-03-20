@@ -3,9 +3,14 @@ state={
 	id=764
 	name="STATE_764"
 	provinces={
-		1955 4932 10791 12702 
+		1955 4932 10791 10850 12702 
+	}
+	history = {
+		owner = ARB
+		add_core_of = ARB
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

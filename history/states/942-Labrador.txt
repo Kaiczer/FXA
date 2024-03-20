@@ -4,7 +4,13 @@ state={
 	provinces={
 		1785 4720 4787 12503 13165 
 	}
-	manpower=0
+	history = {
+		owner = NFL
+		add_core_of = NFL
+	}
+	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

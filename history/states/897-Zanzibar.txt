@@ -4,7 +4,14 @@ state={
 	provinces={
 		13551 
 	}
-	manpower=0
+	history = {
+		owner = KEN   
+		add_claim_by = KEN
+		add_claim_by = TGN
+		add_core_of = ZAN 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

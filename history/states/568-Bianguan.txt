@@ -2,10 +2,19 @@
 state={
 	id=568
 	name="STATE_568"
+
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_claim_by = CHI
+		add_claim_by = FNG
+	}
+
 	provinces={
-		1630 1778 2028 5057 5076 5100 7511 7971 8102 12327 12596 12732 12776 12820 
+		1778 2028 5076 5100 7971 8102 12327 12596 12776 12820 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

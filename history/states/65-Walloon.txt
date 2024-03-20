@@ -4,7 +4,12 @@ state={
 	provinces={
 		3516 6537 9444 9536 11519 13081 
 	}
-	manpower=0
+	history = {
+		owner = BEL
+		add_core_of = BEL
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

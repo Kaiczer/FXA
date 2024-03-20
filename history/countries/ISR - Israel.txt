@@ -1,63 +1,38 @@
-capital = 454
+set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
-	motorised_infantry = 1
-	gw_artillery = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
 	fuel_silos = 1
-  basic_train = 1
+	basic_train = 1
 }
 
-set_cosmetic_tag = ENG_ISR
-
-set_research_slots = 3
-set_convoys = 30
-set_stability = 0.50
-set_war_support = 0.50
-
-add_coalition_social_liberal = yes 
-add_coalition_paternal_autocrat = yes 
-
-add_ideas = {
-	party_pop_0_50
-	parliamentary_republic
-}
-
-ENG = {
-	if = {
-		limit = { has_dlc = "Together for Victory" }
-		set_autonomy = {
-			target = PREV
-			autonomous_state = autonomy_protectorate
-			freedom_level = 0.5
-		}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
 	}
 	else = {
-		puppet = PREV
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
 	}
 }
 
-set_politics = {
-	ruling_party = classical_liberal
+set_politics = {	
+	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-  soviet_socialist = 2
-  soviet_socialist = 4
-  broad_socialist = 10
-  social_democrat = 16
-  social_liberal = 13
-  classical_liberal = 23
-  social_conservative = 15
-  authoritarian_democrat = 7
-  paternal_autocrat = 5
-  reactionary_ultranationalism = 3
-  valkist = 2
-}
-
-recruit_character = ISR_Chaim_Weizmann
-recruit_character = ISR_Gerald_Isaacs

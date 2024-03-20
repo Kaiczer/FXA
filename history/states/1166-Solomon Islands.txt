@@ -4,7 +4,12 @@ state={
 	provinces={
 		1042 1085 1269 4252 4378 10319 12265 
 	}
-	manpower=0
+	history = {
+		owner = AST
+		add_claim_by = AST 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

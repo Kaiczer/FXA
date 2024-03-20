@@ -4,7 +4,12 @@ state={
 	provinces={
 		3953 6800 6832 6896 9778 9828 9881 11812 11863 12081 13573 
 	}
-	manpower=0
+	history = {
+		owner = SPA
+		add_core_of = SPA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -5,7 +5,12 @@ state={
 	provinces={
 		1600 1938 3795 10106 12372 12413 13743 13746 
 	}
-	manpower=0
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

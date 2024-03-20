@@ -5,7 +5,12 @@ state={
 	provinces={
 		405 495 3355 6535 6622 9443 9509 11233 11346 11431 
 	}
-	manpower=0
+	history = {
+		owner = GER
+		add_core_of = GER 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

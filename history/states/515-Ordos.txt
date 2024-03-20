@@ -5,7 +5,15 @@ state={
 	provinces={
 		1959 3427 4960 4986 10451 10854 12706 
 	}
-	manpower=0
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = MEN
+		add_claim_by = CHI
+		add_claim_by = FNG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

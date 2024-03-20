@@ -4,7 +4,13 @@ state={
 	provinces={
 		829 1922 1956 5005 7953 10774 
 	}
-	manpower=0
+	history = {
+		owner = PER 
+		add_core_of = PER 
+		add_core_of = MHR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

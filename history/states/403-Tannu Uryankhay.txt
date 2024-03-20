@@ -1,10 +1,19 @@
+
 state={
 	id=403
 	name="STATE_403"
 	provinces={
-		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+		1676 1877 4680 4882 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = MON
+		add_claim_by = CHI
+		add_claim_by = FNG
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

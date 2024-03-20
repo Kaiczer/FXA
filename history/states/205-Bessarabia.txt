@@ -5,7 +5,13 @@ state={
 	provinces={
 		414 565 3407 3577 3707 3724 6600 6727 6743 9683 11686 11705 
 	}
-	manpower=0
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		add_claim_by = UKR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

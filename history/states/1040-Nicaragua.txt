@@ -4,7 +4,12 @@ state={
 	provinces={
 		1988 2075 10728 13438 13440 13688 
 	}
-	manpower=0
+	history = {
+		owner = NIC 
+		add_core_of = NIC
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

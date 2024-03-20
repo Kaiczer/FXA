@@ -1,42 +1,38 @@
-capital = 958 #Hanoi
+set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
-oob = "FIC"
-
-set_stability = 0.40
-set_war_support = 0.20
-set_research_slots = 2
-
-add_ideas = {
-	FIC_colonial_exploitation
-	FIC_vietnamese_unrest
-	FIC_the_indochinese_apparatus
-	FIC_salt_opium_alcohol
-	colonial_government
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	fuel_silos = 1
+	basic_train = 1
 }
 
-set_politics = {
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
+		}
+	}
+}
+
+set_politics = {	
 	ruling_party = paternal_autocrat
-	last_election = "1933.2.16"
-	election_frequency = 36
+	last_election = "1933.3.5"
+	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-	soviet_socialist = 9
-	soviet_socialist = 10
-	broad_socialist = 0
-	social_democrat = 28
-	social_liberal = 4
-	classical_liberal = 2
-	social_conservative = 10
-	authoritarian_democrat = 13
-	paternal_autocrat = 24
-	reactionary_ultranationalism = 0
-	valkist = 0
-}
-
-recruit_character = FIC_Eugene_Louis_Rene_Robin
-recruit_character = FIC_Maurice_Graffeuil
-recruit_character = FIC_Edgard_de_Larminat
-recruit_character = FIC_Camille_Gabriel_Sabattier
-recruit_character = FIC_Jean_Decoux

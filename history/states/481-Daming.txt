@@ -2,10 +2,19 @@
 state={
 	id=481
 	name="STATE_481"
+
+	history={
+		owner = ZHI
+		add_core_of = ZHI
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
+
 	provinces={
 		1188 7092 9987 11933 11962 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

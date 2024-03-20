@@ -4,7 +4,13 @@ state={
 	provinces={
 		2100 4948 7972 8015 8030 12710 12834 
 	}
-	manpower=0
+	history={
+		owner = WEA
+		add_core_of = WEA
+		add_core_of = SEN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+	manpower=0
+	state_category = town
 }

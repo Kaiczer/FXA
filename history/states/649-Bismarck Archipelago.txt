@@ -4,7 +4,13 @@ state={
 	provinces={
 		1286 1301 1329 1361 4304 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222 
 	}
-	manpower=0
+	history = {
+		owner = AST
+		add_claim_by = AST 
+		add_core_of = PPG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

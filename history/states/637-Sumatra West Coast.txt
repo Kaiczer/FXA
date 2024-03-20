@@ -4,7 +4,13 @@ state={
 	provinces={
 		1428 1460 1533 4446 7368 10194 10354 10382 10522 12126 12415 
 	}
-	manpower=0
+	history = {
+		owner = BEI
+		add_core_of = DEI
+		add_claim_by = BEI 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

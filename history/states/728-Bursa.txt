@@ -4,7 +4,14 @@ state={
 	provinces={
 		785 947 3786 3851 6864 6912 9799 9887 11778 11811 11829 11867 
 	}
-	manpower=0
+	history = {
+		owner = ISC
+		add_core_of = TUR
+		add_claim_by = ISC
+		add_claim_by = GRE
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

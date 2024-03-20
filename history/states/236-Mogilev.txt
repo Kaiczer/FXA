@@ -3,9 +3,15 @@ state={
 	id=236
 	name="STATE_236"
 	provinces={
-		342 358 3331 3350 3378 6220 6319 6371 6373 9241 9289 9341 11322 
+		342 3331 3350 3378 6220 6319 6371 6373 9241 9289 11322 
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = BLR
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

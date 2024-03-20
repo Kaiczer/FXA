@@ -1,50 +1,39 @@
-capital = 458
-
-set_research_slots = 2
-set_stability = 0.55
-set_war_support = 0.51
+set_cosmetic_tag = TUN_protectorate
+set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
+	infantry_weapons1 = 1
 	tech_recon = 1
-}
-
-add_ideas = {
-	absolute_monarchy
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	fuel_silos = 1
+	basic_train = 1
 }
 
 if = {
-	limit = {
-		TUN = {
-			is_puppet_of = FRA
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			CAS1 = 1
 		}
 	}
-	TUN = {
-		set_cosmetic_tag = TUN_FRA_subject
-	}
 }
 
-set_popularities = {
-	soviet_socialist = 10
-	soviet_socialist = 8
-	broad_socialist = 8
-	social_democrat = 15
-	social_liberal = 15
-	classical_liberal = 0
-	social_conservative = 12
-	authoritarian_democrat = 4
-	paternal_autocrat = 20
-	reactionary_ultranationalism = 8
-	valkist = 0
-}
-
-set_politics = {
+set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-recruit_character = TUN_Ahmad_II
 

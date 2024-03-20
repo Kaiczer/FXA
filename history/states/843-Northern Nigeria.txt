@@ -1,10 +1,20 @@
+
 state={
 	id=843
 	name="STATE_843"
+
+	history={
+		owner = SIE
+		add_core_of = NIG
+		add_claim_by = SIE
+
+	}
+
 	provinces={
-		1932 1992 2025 2177 4889 5138 7978 8021 8206 10820 10955 10979 12817 12900 12906 12936 12992 
+		1932 1992 2025 4889 5138 7978 8021 8206 10820 10955 10979 12900 12906 12936 13605 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

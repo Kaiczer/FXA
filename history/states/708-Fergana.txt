@@ -1,10 +1,17 @@
+
 state={
 	id=708
 	name="STATE_708"
 	provinces={
-		1483 2058 4316 4923 12370 
+		1216 2058 4467 4923 5062 12370 12581 
+	}
+	history = {
+		owner = KYR
+		add_core_of = KYR
+		add_claim_by = SOV 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

@@ -4,7 +4,12 @@ state={
 	provinces={
 		1253 1488 1990 4496 7312 7492 7531 7675 8045 10371 
 	}
-	manpower=0
+	history = {
+		owner = SIA
+		add_core_of = SIA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

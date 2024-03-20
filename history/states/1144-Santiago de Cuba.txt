@@ -4,7 +4,12 @@ state={
 	provinces={
 		1550 4476 7546 7590 12347 13603 13612 13616 13617 
 	}
-	manpower=0
+	history = {
+		owner = CUB  
+		add_core_of = CUB
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

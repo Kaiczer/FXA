@@ -1,10 +1,20 @@
+
 state={
 	id=584
 	name="STATE_584"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = FNG
+	}
+
 	provinces={
-		1791 1834 4882 7676 12579 
+		1791 1834 7676 12579 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

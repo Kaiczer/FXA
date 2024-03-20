@@ -24,7 +24,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/classical_liberal_small.png"
 	}
   	spriteType = {
-		name = "GFX_authoritarian_democrat_small"
+		name = "GFX_authoritarian_small"
 		texturefile = "gfx/interface/ideologies/authoritarian_democrat_small.png"
 	}
 	spriteType = {
@@ -36,11 +36,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternal_autocrat_small.png"
 	}
 	spriteType = {
-		name = "GFX_reactionary_ultranationalism_small"
+		name = "GFX_reactionary_ultranationalist_small"
 		texturefile = "gfx/interface/ideologies/reactionary_ultranationalism_small.png"
   	}
 	spriteType = {
-		name = "GFX_valkist_small"
+		name = "GFX_volkist_small"
 		texturefile = "gfx/interface/ideologies/valkist_small.png"
 	}
 

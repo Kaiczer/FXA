@@ -4,7 +4,12 @@ state={
 	provinces={
 		4191 5184 5918 7915 10849 10975 10985 11013 12600 12942 13062 13429 
 	}
-	manpower=0
+	history = {
+		owner = ARG
+		add_core_of = ARG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

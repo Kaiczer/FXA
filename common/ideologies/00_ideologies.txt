@@ -6,12 +6,41 @@
 #Note: AI changed back to all neutral ai. This is because the other AI doesn't want to be apart of things if the tension is so low (IE at game start)
 
 ideologies = {
-
-	soviet_socialist = {
+	authoritarian_socialist = {
 		types = {
-			authsoc_subtype = {}
+			authsoc_subtype = { }
 			revolutionary_showaist_subtype = { can_be_randomly_selected = no }
 			autocratic_socialist_subtype = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_VANGUARDIST_1"
+			"FACTION_NAME_VANGUARDIST_2"
+			"FACTION_NAME_VANGUARDIST_3"
+			"FACTION_NAME_VANGUARDIST_4"
+			"FACTION_NAME_VANGUARDIST_5"
+			"FACTION_NAME_VANGUARDIST_6"
+		}
+		color = { 127 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+			can_create_factions = no
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes	
+	}
+	vanguard_socialist = {
+		types = {
+			vanguard_socialist_subtype = { }
 			monsoc_subtype = { can_be_randomly_selected = no }
 			leninism_subtype = { can_be_randomly_selected = no }
 		}
@@ -23,7 +52,7 @@ ideologies = {
 			"FACTION_NAME_VANGUARDIST_5"
 			"FACTION_NAME_VANGUARDIST_6"
 		}
-		color = { 107 4 4 }
+		color = { 255 0 0 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -43,9 +72,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 
-	broad_socialist = {
+	revolutionary_socialist = {
 		types = {
-			broad_socialist_subtype = {}
+			revolutionary_socialist_subtype = {}
 			socialist_feminist_subtype = { can_be_randomly_selected = no }
 			libsoc_utopian_socialism_subtype = { can_be_randomly_selected = no }
 			anarcho_syndicalism_subtype = { can_be_randomly_selected = no }
@@ -204,7 +233,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
-		color = { 11 54 172 } #0 0 255 is the original one
+		color = { 51 51 255 } #0 0 255 is the original one
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -224,9 +253,9 @@ ideologies = {
 		#can_be_boosted = no
 	}
 	
-	authoritarian_democrat = {
+	authoritarian = {
 		types = {
-			authoritarian_democrat_subtype = {}
+			authoritarian_subtype = {}
 			authdem_national_conservative_subtype = { can_be_randomly_selected = no }
 			auth_duumvirism_subtype = { can_be_randomly_selected = no }
 			police_state_subtype = { can_be_randomly_selected = no }
@@ -238,14 +267,14 @@ ideologies = {
 			controlled_democracy_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+			"FACTION_NAME_authoritarian_1"
+			"FACTION_NAME_authoritarian_2"
+			"FACTION_NAME_authoritarian_3"
+			"FACTION_NAME_authoritarian_4"
+			"FACTION_NAME_authoritarian_5"
+			"FACTION_NAME_authoritarian_6"
 		}
-		color = { 95 95 95 } #110 110 110 is original
+		color = { 144 147 153 } #110 110 110 is original
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -264,19 +293,22 @@ ideologies = {
 		ai_neutral = yes		
 		#can_be_boosted = no
 	}
-	carnarianist = {
+	revolutionary_nationalist = {
 		types = {
-			carnarianism_subtype = { }
+			revolutionary_nationalist_subtype = { }
+			statist_showaist_subtype = { can_be_randomly_selected = no }
+			legionarism_subtype = { can_be_randomly_selected = no }
+			integralism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_CARNARIANIST_1"
-			"FACTION_NAME_CARNARIANIST_2"
-			"FACTION_NAME_CARNARIANIST_3"
-			"FACTION_NAME_CARNARIANIST_4"
-			"FACTION_NAME_CARNARIANIST_5"
-			"FACTION_NAME_CARNARIANIST_6"
+			"FACTION_NAME_revolutionary_socialist_1"
+			"FACTION_NAME_revolutionary_socialist_2"
+			"FACTION_NAME_revolutionary_socialist_3"
+			"FACTION_NAME_revolutionary_socialist_4"
+			"FACTION_NAME_revolutionary_socialist_5"
+			"FACTION_NAME_revolutionary_socialist_6"
 		}
-		color = { 134 35 35 }
+		color = { 59 40 9 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -295,24 +327,24 @@ ideologies = {
 		ai_neutral = yes
 		#can_be_boosted = no
 	}
-	valkist = {
+	volkist = {
 		types = {
-			valkist_subtype = {}
+			volkist_subtype = {}
 			panasian_nichirenist_subtype = { can_be_randomly_selected = no }
 			occultism_subtype = { can_be_randomly_selected = no }
 			val_legionarism_subtype = { can_be_randomly_selected = no }
-			deutsche_valkism_subtype = { can_be_randomly_selected = no }
+			deutschvolkism_subtype = { can_be_randomly_selected = no }
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_VALKIST_1"
-			"FACTION_NAME_VALKIST_2"
-			"FACTION_NAME_VALKIST_3"
-			"FACTION_NAME_VALKIST_4"
-			"FACTION_NAME_VALKIST_5"
-			"FACTION_NAME_VALKIST_6"
+			"FACTION_NAME_volkist_1"
+			"FACTION_NAME_volkist_2"
+			"FACTION_NAME_volkist_3"
+			"FACTION_NAME_volkist_4"
+			"FACTION_NAME_volkist_5"
+			"FACTION_NAME_volkist_6"
 		}
-		color = { 32 51 17 }
+		color = { 7 33 3 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -333,7 +365,7 @@ ideologies = {
 	}
 	paternal_autocrat = {
 		types = {
-			paternal_autocrat_subtype = {}
+			paternal_autocrat_subtype = { }
 			absolute_mon_subtype = { can_be_randomly_selected = no }
 			pat_duumvirism_subtype = { can_be_randomly_selected = no }
 			samurai_dictatorship_subtype = { can_be_randomly_selected = no }
@@ -352,7 +384,7 @@ ideologies = {
 			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
 			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
 		}
-		color = { 40 40 40 } #45 45 45
+		color = { 45 45 45 } #45 45 45
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -371,23 +403,20 @@ ideologies = {
 		ai_neutral = yes			
 		#can_be_boosted = no
 	}
-	reactionary_ultranationalism = {
+	reactionary_ultranationalist = {
 		types = {
-			reactionary_ultranationalism_subtype = {}
-			statist_showaist_subtype = { can_be_randomly_selected = no }
-			legionarism_subtype = { can_be_randomly_selected = no }
-			integralism_subtype = { can_be_randomly_selected = no }
+			reactionary_ultranationalist_subtype = { }
 			klan_nationalism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_1"
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_2"
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_3"
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_4"
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_5"
-			"FACTION_NAME_REACTIONARY_ULTRANATIONALISM_6"
+			"FACTION_NAME_reactionary_ultranationalist_1"
+			"FACTION_NAME_reactionary_ultranationalist_2"
+			"FACTION_NAME_reactionary_ultranationalist_3"
+			"FACTION_NAME_reactionary_ultranationalist_4"
+			"FACTION_NAME_reactionary_ultranationalist_5"
+			"FACTION_NAME_reactionary_ultranationalist_6"
 		}
-		color = { 137 69 19 } #142 57 0 is original
+		color = { 0 0 0 } #142 57 0 is original
 		rules = {
 			can_force_government = no
 			can_puppet = no

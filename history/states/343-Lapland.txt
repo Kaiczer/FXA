@@ -5,7 +5,13 @@ state={
 	provinces={
 		30 103 162 167 203 2992 3069 3097 3107 3156 3158 6061 6076 6087 6137 6142 6179 9112 9189 9223 11167 11204 13657 
 	}
-	manpower=0
+	history = {
+		owner = FIN
+		add_core_of = FIN
+	}
+	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -4,7 +4,12 @@ state={
 	provinces={
 		1037 1046 4061 4129 4163 7077 7162 7180 9994 10091 11921 11969 
 	}
-	manpower=0
+	history = {
+		owner = TUN 
+		add_core_of = TUN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

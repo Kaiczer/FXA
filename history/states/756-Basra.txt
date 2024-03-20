@@ -3,9 +3,16 @@ state={
 	id=756
 	name="STATE_756"
 	provinces={
-		1088 1108 10087 
+		4440 8101 
 	}
-	manpower=0
+	history = {
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = JOR
+		add_claim_by = ARB
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -3,9 +3,15 @@ state={
 	id=860
 	name="STATE_860"
 	provinces={
-		1964 1966 2020 2063 4909 5065 8000 8164 10818 10891 10928 12840 12991 13544 13555 
+		1964 1966 2020 2063 4909 5065 8164 10818 10891 10928 12840 12991 13544 13555 
+	}
+	history = {
+		owner = ITA 
+		add_core_of = SOM 
+		add_claim_by = ITA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

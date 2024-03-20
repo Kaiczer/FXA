@@ -2,10 +2,18 @@
 state={
 	id=233
 	name="STATE_233"
+
+	history={
+		owner = BLR
+		add_core_of = BLR
+
+	}
+
 	provinces={
-		3309 9236 9304 9359 11341 
+		560 3496 3556 6280 6579 11503 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

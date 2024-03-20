@@ -2,10 +2,20 @@
 state={
 	id=793
 	name="STATE_793"
+
+	history={
+		owner = ENG
+		add_core_of = EGY
+		add_core_of = SUD
+		add_claim_by = ENG
+
+	}
+
 	provinces={
-		1960 2016 4961 5060 5069 7987 8052 8084 10739 10827 10851 
+		1960 2016 4961 5060 5069 8052 8084 10739 10827 10851 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

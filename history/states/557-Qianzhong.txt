@@ -5,7 +5,11 @@ state={
 	provinces={
 		1010 1884 4325 4504 4532 8095 9939 10616 10763 10819 
 	}
-	manpower=0
+	history = {
+		owner = YUN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

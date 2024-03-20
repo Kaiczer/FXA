@@ -1,64 +1,38 @@
-capital = 298
+set_research_slots = 1
+set_stability = 0.23
+set_war_support = 0.88
 
-oob = "LIB"
-
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
-  basic_train = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	fuel_silos = 1
+	basic_train = 1
 }
 
 if = {
-  limit = { has_dlc = "No Step Back" }
-  set_technology = {
-    gwtank_chassis = 1
-  }
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+	}
 	else = {
 		set_technology = {
-			gwtank = 1
+			early_fighter = 1
+			CAS1 = 1
 		}
 	}
 }
 
-set_convoys = 10
-set_stability = 0.49
-set_war_support = 0.33
-
-add_ideas = {
-	party_pop_0_30
-	presidential_republic
-}
-
-set_politics = {
-	ruling_party = social_conservative
-	last_election = "1931.3.5"
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-  soviet_socialist = 0
-  soviet_socialist = 0
-  broad_socialist = 0
-  social_democrat = 2
-  social_liberal = 6
-  classical_liberal = 28
-  social_conservative = 35
-  authoritarian_democrat = 5
-  paternal_autocrat = 22
-  reactionary_ultranationalism = 2
-  valkist = 0
-}
-
-recruit_character = LIB_Edwin_Barclay
-recruit_character = LIB_Anthony_Dashward_Wilson
-recruit_character = LIB_Thomas_J_Faulkner
-recruit_character = LIB_William_Tubman
-recruit_character = LIB_Alford_Russ
-recruit_character = LIB_Harvey_S_Firestone
-recruit_character = LIB_Frank_E_Tolbert
-recruit_character = LIB_Garvey_I
-recruit_character = LIB_Jenkins_Yancey
-recruit_character = LIB_Wilson_Ballard
-recruit_character = LIB_Arthur_Brown
-recruit_character = LIB_Richard_Newton

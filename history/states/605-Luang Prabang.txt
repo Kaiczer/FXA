@@ -5,7 +5,13 @@ state={
 	provinces={
 		4339 4568 4613 7075 7103 7218 7356 9961 10496 12392 12433 
 	}
-	manpower=0
+	history = {
+		owner = FIC 
+		add_core_of = FIC 
+		add_core_of = LAO
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

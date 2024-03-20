@@ -4,7 +4,14 @@ state={
 	provinces={
 		3548 6571 6604 9563 11536 11691 
 	}
-	manpower=0
+	history = {
+		owner = SLO
+		add_core_of = SLO
+		add_claim_by = UKR
+		add_claim_by = CZE
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

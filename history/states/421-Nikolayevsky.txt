@@ -4,7 +4,11 @@ state={
 	provinces={
 		725 739 1267 1325 1343 1397 1504 3756 3963 4404 4841 6774 7249 7266 7309 7868 9589 9604 9733 9749 10466 11575 11719 12136 12189 
 	}
-	manpower=0
+	history = {
+		owner = RUS
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

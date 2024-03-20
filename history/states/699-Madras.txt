@@ -4,7 +4,12 @@ state={
 	provinces={
 		1268 1381 1409 4327 4416 4420 7265 7288 7363 7436 8067 10246 10278 10808 12164 12247 
 	}
-	manpower=0
+	history = {
+		owner = RAJ 
+		add_core_of = RAJ
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -2,10 +2,19 @@
 state={
 	id=503
 	name="STATE_503"
+
+	history={
+		owner = ZHI
+		add_core_of = ZHI
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
+
 	provinces={
-		4010 4066 7085 7126 7129 7540 7656 9958 9995 10098 10364 12012 
+		4010 4066 7085 7126 7129 7508 7540 7656 9958 9995 10098 10364 12012 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

@@ -20,10 +20,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5681;13658;;-1;-1;-1;-1;-1;MESSINA_STRAIT;Stretto di Messina
 8791;7932;;-1;-1;-1;-1;-1;SHIMONOSEKI_STRAIT;Shimonoseki-kaikyō
 
-2230;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Baltic-Bothnia west
-2107;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Baltic-Bothnia east
-2107;990;;-1;-1;-1;-1;-1;ALAND_STRAIT;Baltic-Bothnia east
-1660;990;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia
+2230;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Baltic-Bothnia East
+990;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia East
+990;786;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia West
 
 #### Land Routes
 
@@ -247,4 +246,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13732;10802;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
 13733;13374;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
 4969;10482;impassable;-1;-1;-1;-1;-1;;Darien Gap
+8128;10780;impassable;-1;-1;-1;-1;-1;;Kel Air-Niger
+8128;10805;impassable;-1;-1;-1;-1;-1;;Kel Air-Niger
+8128;8028;impassable;-1;-1;-1;-1;-1;;Kel Air-Niger
+8128;2056;impassable;-1;-1;-1;-1;-1;;Kel Air-Niger
+8128;1975;impassable;-1;-1;-1;-1;-1;;Kel Air-Niger
+761;9740;impassable;-1;-1;-1;-1;-1;;Canada Shield
+761;12701;impassable;-1;-1;-1;-1;-1;;Canada Shield
+761;7794;impassable;-1;-1;-1;-1;-1;;Canada Shield
+3736;7794;impassable;-1;-1;-1;-1;-1;;Canada Shield
+3736;13094;impassable;-1;-1;-1;-1;-1;;Canada Shield
+3736;11571;impassable;-1;-1;-1;-1;-1;;Canada Shield
+763;11571;impassable;-1;-1;-1;-1;-1;;Canada Shield
+763;4875;impassable;-1;-1;-1;-1;-1;;Canada Shield
+763;9615;impassable;-1;-1;-1;-1;-1;;Canada Shield
+763;13182;impassable;-1;-1;-1;-1;-1;;Canada Shield
 -1;-1;-1;-1;-1;-1;-1;-1;-1

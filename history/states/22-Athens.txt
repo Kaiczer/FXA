@@ -4,7 +4,12 @@ state={
 	provinces={
 		976 1109 1205 3401 3988 4109 7127 11895 12001 
 	}
-	manpower=0
+	history = {
+		owner = GRE
+		add_core_of = GRE
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -2,10 +2,19 @@
 state={
 	id=253
 	name="STATE_253"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+
+	}
+
 	provinces={
-		463 501 522 3225 3455 3520 9477 9566 11462 11553 
+		463 501 522 3225 3455 3520 6565 9477 9566 11462 11553 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

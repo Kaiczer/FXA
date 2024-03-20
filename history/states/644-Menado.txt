@@ -1,10 +1,22 @@
+
 state={
 	id=644
 	name="STATE_644"
-	provinces={
-		1098 1289 1351 1484 1505 1518 4262 4307 4493 4537 7311 10153 10169 10197 12358 
+
+	history={
+		owner = AST
+		add_core_of = DEI
+		add_claim_by = BEI
+		add_claim_by = AST
+		add_core_of = PPG
 	}
+
+	provinces={
+		7570 8235 8250 10436 10990 
+	}
+	impassable = yes
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

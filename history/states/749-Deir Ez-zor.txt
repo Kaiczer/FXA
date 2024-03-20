@@ -2,10 +2,18 @@
 state={
 	id=749
 	name="STATE_749"
+
+	history={
+		owner = IRQ 
+		add_core_of = IRQ
+		add_core_of = SYR
+	}
+
 	provinces={
-		901 1606 1634 2013 3942 6883 10882 13741 
+		901 1056 1072 2013 3942 7513 11919 12442 13741 13742 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

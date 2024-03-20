@@ -1,24 +1,12 @@
-FNG = {
-	original_tag = MAN
+USR = {
+	original_tag = SOV 
+	has_country_flag = UKR_is_Soviet_puppet
 }
-BAT = { # LAT, EST, LIT
-	global_event_target = unified_baltic
+BSR = {
+	original_tag = SOV 
+	has_country_flag = BLR_is_Soviet_puppet
 }
-CRP = { # ROM, HUN, SLO
-	global_event_target = unified_carpathia
-}
-CAU = { # GEO, GOR, AZR, ARM
-	global_event_target = unified_caucasia
-}
-SPN = {
-	original_tag = SPA 
-	has_country_flag = SPA_is_nationalists
-}
-SWF = {
-	original_tag = SPA 
-	has_country_flag = SPA_is_socialist
-}
-SPM = {
-	original_tag = SPA 
-	has_country_flag = SPA_is_kingdom
+CNG = {
+	original_tag = COG
+	has_country_flag = COG_independent_country
 }

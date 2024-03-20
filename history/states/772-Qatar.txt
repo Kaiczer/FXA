@@ -4,7 +4,13 @@ state={
 	provinces={
 		8051 
 	}
-	manpower=0
+	history = {
+		owner = ENG 
+		add_claim_by = ENG   
+		add_core_of = QAR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

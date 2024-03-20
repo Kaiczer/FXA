@@ -2,10 +2,18 @@
 state={
 	id=713
 	name="STATE_713"
+
+	history={
+		owner = PER
+		add_core_of = PER
+
+	}
+
 	provinces={
-		1889 1897 2039 2070 4891 10782 12895 13082 
+		2039 2070 4891 10782 12895 13082 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

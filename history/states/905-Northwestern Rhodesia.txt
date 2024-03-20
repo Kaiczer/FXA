@@ -3,9 +3,16 @@ state={
 	id=905
 	name="STATE_905"
 	provinces={
-		1552 4735 8054 
+		13714 13715 
+	}
+	history = {
+		owner = ENG 
+		add_claim_by = ENG 
+		add_core_of = ZAM
+		add_core_of = BSL
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

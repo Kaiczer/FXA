@@ -2,10 +2,18 @@
 state={
 	id=9
 	name="STATE_9"
+
+	history={
+		owner = AUS
+		add_core_of = AUS
+
+	}
+
 	provinces={
 		704 3718 6552 6690 6723 6739 9527 11651 11666 12549 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

@@ -5,7 +5,15 @@ state={
 	provinces={
 		1069 1084 4089 7160 7189 10102 12093 
 	}
-	manpower=0
+	history = {
+		owner = ZHI
+		add_core_of = ZHI
+		add_core_of = SDL
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

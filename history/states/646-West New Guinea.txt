@@ -2,10 +2,21 @@
 state={
 	id=646
 	name="STATE_646"
+
+	history={
+		owner = AST
+		add_core_of = DEI
+		add_claim_by = BEI
+		add_claim_by = AST
+		add_core_of = PPG
+
+	}
+
 	provinces={
-		1546 1602 1617 1629 4468 4509 4524 4552 4579 4593 7269 7487 7512 7529 7542 7570 7585 7627 8235 8250 10369 10396 10436 10505 10990 12315 12371 12386 12457 
+		1546 1602 1617 1629 4468 4509 4524 4552 4579 4593 7269 7487 7512 7529 7542 7585 7627 10369 10396 10505 12315 12371 12386 12457 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

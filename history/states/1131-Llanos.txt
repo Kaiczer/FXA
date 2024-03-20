@@ -4,7 +4,12 @@ state={
 	provinces={
 		4892 5000 5056 8024 13431 
 	}
-	manpower=0
+	history = {
+		owner = VEN 
+		add_core_of = VEN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

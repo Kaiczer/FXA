@@ -4,7 +4,14 @@ state={
 	provinces={
 		3564 12320 12380 12441 13123 13724 
 	}
-	manpower=0
+	history = {
+		owner = ARM
+		add_core_of = ARM 
+		add_claim_by = SOV 
+		add_claim_by = TUR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

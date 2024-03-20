@@ -1,10 +1,17 @@
+
 state={
 	id=473
 	name="STATE_473"
 	provinces={
-		7125 7221 12040 
+		1003 4107 7125 7155 7221 10065 11915 12040 
+	}
+	history = {
+		owner = JAP
+		add_core_of = KOR 
+		add_claim_by = JAP 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

@@ -1,10 +1,18 @@
+
 state={
 	id=870
 	name="STATE_870"
 	provinces={
 		2192 3109 6008 13619 
 	}
+	history = {
+		owner = EQA
+		add_claim_by = EQA
+		add_claim_by = COG 
+		add_core_of = COG
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

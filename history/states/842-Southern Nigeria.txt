@@ -1,10 +1,17 @@
+
 state={
 	id=842
 	name="STATE_842"
 	provinces={
-		1498 4952 5170 5206 7608 8034 10473 10831 12926 
+		1498 5206 7608 8034 10473 10831 12926 
+	}
+	history = {
+		owner = SIE  
+		add_core_of = NIG 
+		add_claim_by = SIE
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

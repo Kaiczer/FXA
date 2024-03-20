@@ -4,7 +4,13 @@ state={
 	provinces={
 		1223 1243 1272 1312 1331 1375 1382 1402 4232 4250 4277 4281 4333 4389 4492 4595 7326 7335 7337 7407 7425 10179 10220 10239 10268 10275 10277 10508 12111 12121 12139 12152 12177 12194 12385 12487 
 	}
-	manpower=0
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		add_claim_by = SOV 
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

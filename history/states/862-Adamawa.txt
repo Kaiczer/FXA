@@ -1,10 +1,17 @@
+
 state={
 	id=862
 	name="STATE_862"
 	provinces={
-		7963 9137 11194 13605 
+		7963 9137 11194 
+	}
+	history={
+		owner = EQA
+		add_core_of = CMR
+		add_claim_by = EQA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

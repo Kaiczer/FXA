@@ -2,10 +2,19 @@
 state={
 	id=445
 	name="STATE_445"
+
+	history={
+		owner = UZB
+		add_core_of = UZB
+		add_claim_by = SOV
+
+	}
+
 	provinces={
-		1459 10148 10187 10488 10530 10601 10660 
+		1459 1483 10187 10348 10488 10530 11687 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

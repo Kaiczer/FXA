@@ -3,9 +3,15 @@ state={
 	id=735
 	name="STATE_735"
 	provinces={
-		876 4512 5004 9823 9860 11739 11759 11871 12416 13744 
+		876 4512 5004 9860 11739 11759 12387 13744 
 	}
-	manpower=0
+	history = {
+		owner = KUR
+		add_core_of = TUR
+		add_core_of = KUR
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

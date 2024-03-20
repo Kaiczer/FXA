@@ -1,10 +1,16 @@
+
 state={
 	id=811
 	name="STATE_811"
 	provinces={
-		989 7116 7958 13861 
+		7194 13572 13584 
+	}
+	history = {
+		owner = LBA
+		add_core_of = LBA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

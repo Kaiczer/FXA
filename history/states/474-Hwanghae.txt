@@ -1,10 +1,19 @@
+
 state={
 	id=474
 	name="STATE_474"
 	provinces={
-		1003 4107 7155 10065 11915 
+		7041 10507 12432 
+	}
+	history = {
+		owner = MEN
+		add_core_of = SHX
+		add_claim_by = MEN
+		add_claim_by = CHI
+		add_claim_by = FNG
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

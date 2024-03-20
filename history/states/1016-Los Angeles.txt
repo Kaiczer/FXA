@@ -3,9 +3,14 @@ state={
 	id=1016
 	name="STATE_1016"
 	provinces={
-		9814 
+		1562 7517 9814 11757 
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

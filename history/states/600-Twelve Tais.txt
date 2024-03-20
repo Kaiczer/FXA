@@ -4,7 +4,13 @@ state={
 	provinces={
 		4529 10075 10103 12075 12319 
 	}
-	manpower=0
+	history = {
+		owner = FIC 
+		add_core_of = FIC 
+		add_core_of = VIN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

@@ -4,7 +4,12 @@ state={
 	provinces={
 		2021 8236 10773 12712 13445 13448 13451 13452 
 	}
-	manpower=0
+	history = {
+		owner = MEX
+		add_core_of = MEX
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

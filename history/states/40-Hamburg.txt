@@ -4,7 +4,13 @@ state={
 	provinces={
 		9347 
 	}
-	manpower=0
+	history = {
+		owner = SHO
+		add_core_of = SHO
+		add_core_of = GER
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

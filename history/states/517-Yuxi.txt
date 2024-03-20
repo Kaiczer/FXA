@@ -5,7 +5,14 @@ state={
 	provinces={
 		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
 	}
-	manpower=0
+	history = {
+		owner = SHX
+		add_core_of = SHX
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

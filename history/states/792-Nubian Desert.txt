@@ -1,10 +1,21 @@
+
 state={
 	id=792
 	name="STATE_792"
-	provinces={
-		4068 
+
+	history={
+		owner = ENG
+		add_core_of = EGY
+		add_core_of = SUD
+		add_claim_by = ENG
+
 	}
+	provinces={
+		4068 7987 
+	}
+	impassable = yes
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

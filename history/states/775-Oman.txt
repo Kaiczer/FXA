@@ -1,10 +1,17 @@
+
 state={
 	id=775
 	name="STATE_775"
 	provinces={
-		2018 5049 13748 13749 
+		2018 5049 13748 
+	}
+	history = {
+		owner = OMA 
+		add_claim_by = MUS 
+		add_core_of = OMA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

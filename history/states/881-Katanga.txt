@@ -4,7 +4,13 @@ state={
 	provinces={
 		191 1516 1817 1929 1968 4515 4902 12795 12907 13173 13495 
 	}
-	manpower=0
+	history = {
+		owner = COG
+		add_core_of = COG
+		add_claim_by = BEL
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

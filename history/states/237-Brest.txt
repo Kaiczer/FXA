@@ -2,10 +2,20 @@
 state={
 	id=237
 	name="STATE_237"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		add_claim_by = UKR
+		add_claim_by = BLR
+
+	}
+
 	provinces={
-		3392 6546 11528 
+		3392 6546 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

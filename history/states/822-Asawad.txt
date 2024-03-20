@@ -2,10 +2,20 @@
 state={
 	id=822
 	name="STATE_822"
+
+	history={
+		owner = WEA
+		add_claim_by = WEA
+		add_core_of = MLI
+		add_core_of = ADA
+	}
+
 	provinces={
 		10725 13580 13598 
 	}
+	impassable = yes
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

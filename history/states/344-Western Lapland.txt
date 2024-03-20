@@ -5,7 +5,12 @@ state={
 	provinces={
 		124 3055 3193 11115 11125 11130 11164 
 	}
-	manpower=0
+	history = {
+		owner = FIN
+		add_core_of = FIN
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

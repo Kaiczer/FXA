@@ -3,9 +3,14 @@ state={
 	id=663
 	name="STATE_663"
 	provinces={
-		1159 4062 4204 4245 4644 7220 7565 7662 10077 
+		1159 1609 4062 4204 4245 4644 7220 7565 7662 10077 12050 
 	}
-	manpower=0
+	history = {
+		owner = RAJ 
+		add_core_of = RAJ
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

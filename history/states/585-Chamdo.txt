@@ -2,10 +2,20 @@
 state={
 	id=585
 	name="STATE_585"
+
+	history={
+		owner = TIB
+		add_core_of	= TIB
+		add_core_of = CHB
+		add_claim_by = FNG
+		add_claim_by = CHI
+	}
+
 	provinces={
 		4407 5018 5080 5102 8041 8059 10741 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

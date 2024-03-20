@@ -4,7 +4,12 @@ state={
 	provinces={
 		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
 	}
-	manpower=0
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

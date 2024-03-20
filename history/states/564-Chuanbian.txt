@@ -2,10 +2,21 @@
 state={
 	id=564
 	name="STATE_564"
+
+	history={
+		owner = SCH
+		add_core_of = SCH 
+		add_claim_by = CHI
+		add_claim_by = FNG
+		add_claim_by = TIB
+		add_core_of = CHB
+	}
+
 	provinces={
 		1918 1999 2165 4999 5094 8068 8104 10755 12724 12801 12837 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

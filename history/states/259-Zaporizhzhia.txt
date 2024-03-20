@@ -3,9 +3,14 @@ state={
 	id=259
 	name="STATE_259"
 	provinces={
-		588 3767 6596 9571 9729 11405 11700 
+		429 588 3399 3767 6596 9571 9729 11405 11700 
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

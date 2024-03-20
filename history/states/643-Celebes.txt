@@ -1,10 +1,20 @@
+
 state={
 	id=643
 	name="STATE_643"
+
+	history={
+		owner = BEI
+		add_core_of = DEI
+		add_claim_by = BEI
+
+	}
+
 	provinces={
-		1561 1589 4308 4349 4564 7336 7598 10222 10263 10450 10464 12330 12444 
+		1098 1289 1351 1484 1505 1518 1561 1589 4262 4307 4308 4349 4493 4537 4564 7311 7336 7598 10153 10169 10197 10222 10263 10450 10464 12330 12358 12444 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

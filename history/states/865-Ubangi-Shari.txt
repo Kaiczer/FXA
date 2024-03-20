@@ -3,9 +3,15 @@ state={
 	id=865
 	name="STATE_865"
 	provinces={
-		3165 5084 11012 11108 12719 12830 
+		1974 3165 5084 11012 11108 12719 12830 13599 
+	}
+	history={
+		owner = EQA
+		add_core_of = OBG
+		add_claim_by = EQA
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

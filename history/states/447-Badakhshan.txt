@@ -5,7 +5,15 @@ state={
 	provinces={
 		8027 10417 12805 
 	}
-	manpower=0
+	history = {
+		owner = UZB
+		add_core_of = UZB
+		add_claim_by = TAJ
+		add_claim_by = SOV 
+		add_claim_by = AFG
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

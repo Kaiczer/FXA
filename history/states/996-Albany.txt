@@ -4,7 +4,12 @@ state={
 	provinces={
 		706 3806 3894 6911 9673 9693 9774 10381 10731 11660 11665 11722 
 	}
-	manpower=0
+	history = {
+		owner = USA
+		add_core_of = USA
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

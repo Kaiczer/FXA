@@ -3,9 +3,16 @@ state={
 	id=448
 	name="STATE_448"
 	provinces={
-		1384 4467 4542 7224 12218 12250 12430 12581 
+		1384 1919 4542 7224 12218 12250 12430 
+	}
+	history = {
+		owner = UZB
+		add_core_of = UZB
+		add_core_of = TAJ
+		add_claim_by = SOV 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

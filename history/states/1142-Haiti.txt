@@ -4,7 +4,12 @@ state={
 	provinces={
 		1594 1635 4641 13709 13710 
 	}
-	manpower=0
+	history = {
+		owner = HAI 
+		add_core_of = HAI
+	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
+        manpower=0
+        state_category = town
 }

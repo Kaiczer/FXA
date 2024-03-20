@@ -5,7 +5,13 @@ state={
 	provinces={
 		5139 8207 10948 13625 13653 
 	}
+	history = {
+		owner = EQA
+		add_claim_by = EQA
+		add_core_of = GAB 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

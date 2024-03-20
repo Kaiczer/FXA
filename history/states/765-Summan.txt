@@ -1,10 +1,19 @@
+
 state={
 	id=765
 	name="STATE_765"
 	provinces={
-		1631 5024 10850 12749 13667 
+		13749 
 	}
+	history = {
+		owner = ARB
+		add_claim_by = ARB
+		add_claim_by = MUS
+		add_claim_by = OMA
+	}
+	impassable = yes
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }
