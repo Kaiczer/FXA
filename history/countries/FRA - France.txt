@@ -28,7 +28,36 @@ if = {
 		}
 	}
 }
-
+every_country = {
+	limit = {
+		OR = {
+			tag = EQA
+			tag = WEA
+			tag = SYR
+			tag = FIC
+		}
+	}
+	FRA = {
+		set_autonomy = {
+			target = PREV 
+			autonomous_state = colonial_government
+		}
+	}
+}
+every_country = {
+	limit = {
+		OR = {
+			tag = TUN 
+			tag = MOR 
+		}
+	}
+	FRA = {
+		set_autonomy = {
+			target = PREV 
+			autonomous_state = autonomous_territory
+		}
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
