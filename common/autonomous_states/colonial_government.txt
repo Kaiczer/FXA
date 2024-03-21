@@ -50,7 +50,7 @@ autonomy_state = {
 	can_take_level = {
 		custom_trigger_tooltip = {
 			tooltip = can_raise_autonomy_level
-			has_country_flag = KR_can_raise_autonomy_level
+			has_country_flag = TFH_can_raise_autonomy_level
 		}
 	}
 
