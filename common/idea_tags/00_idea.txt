@@ -32,42 +32,37 @@ idea_categories = {
 
 		ledger = civilian
 	}
-	# law_dynamic_government = {
-	# 	slot = spi_type
-	# 	slot = political_system
+	law_dynamic_government = {
+		character_slot = spi_type
+		character_slot = political_system
 
-	# 	cost = 0
-	# 	removal_cost = 0
-	# 	ledger = civilian 
-	# }
+		cost = 0
+		removal_cost = 0
+		ledger = civilian 
+	}
+	law_political_mode = {
+		character_slot = executive_mode
+		character_slot = legislative_mode
+		character_slot = judiciary_mode
+		character_slot = administrative_mode
+		
+		cost = 0
+		removal_cost = 0
+		ledger = civilian
+	}
 	law = {
 		slot = mobilization_laws
+		slot = surveillance_laws
 		slot = trade_laws
 		slot = economy
+		slot = business_model
+		slot = citizen_custom
+		slot = cultural_custom
 
 		cost = 150
 		removal_cost = 0
 		ledger = civilian
 	}
-	# law_political_mode = {
-	# 	slot = executive_mode
-	# 	slot = legislative_mode
-	# 	slot = judiciary_mode
-	# 	slot = administrative_mode
-		
-	# 	cost = 0
-	# 	removal_cost = 0
-	# 	ledger = civilian
-	# }
-	# law_socio_economic_custom = {
-	# 	slot = surveillance_policy
-	# 	slot = citizen_custom
-	# 	slot = cultural_custom
-
-	# 	cost = 150
-	# 	removal_cost = 0
-	# 	ledger = civilian
-	# }
 
     military_staff = {
 		character_slot = army_chief 

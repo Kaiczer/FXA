@@ -28,11 +28,15 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	volkist = 50
+	revolutionary_nationalist = 50
+}
+create_faction = stahlpakt
 set_politics = {	
-	ruling_party = paternal_autocrat
-	last_election = "1933.3.5"
+	ruling_party = volkist
+	last_election = "1932.7.20"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes 
 }
 

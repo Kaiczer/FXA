@@ -1,0 +1,154 @@
+defined_text = {
+	name = GetSubIdeologyLoc
+	text = {
+		trigger = { has_government = authoritarian_socialist }
+		localization_key = "[GetSubIdeologyLocAuthSoc]"
+	}
+	text = {
+		trigger = { has_government = vanguard_socialist }
+		localization_key = "[GetSubIdeologyLocVanSoc]"
+	}
+	text = {
+		trigger = { has_government = revolutionary_socialist }
+		localization_key = "[GetSubIdeologyLocRevSoc]"
+	}
+	text = {
+		trigger = { has_government = social_democrat }
+		localization_key = "[GetSubIdeologyLocSocDem]"
+	}
+	text = {
+		trigger = { has_government = social_liberal }
+		localization_key = "[GetSubIdeologyLocSocLib]"
+	}
+	text = {
+		trigger = { has_government = classical_liberal }
+		localization_key = "[GetSubIdeologyLocClsLib]"
+	}
+	text = {
+		trigger = { has_government = social_conservative }
+		localization_key = "[GetSubIdeologyLocSocCon]"
+	}
+	text = {
+		trigger = { has_government = authoritarian }
+		localization_key = "[GetSubIdeologyLocAuthoritarian]"
+	}
+	text = {
+		trigger = { has_government = revolutionary_nationalist }
+		localization_key = "[GetSubIdeologyLocRevNat]"
+	}
+	text = {
+		trigger = { has_government = volkist }
+		localization_key = "[GetSubIdeologyLocVolkist]"
+	}
+	text = {
+		trigger = { has_government = paternal_autocrat }
+		localization_key = "[GetSubIdeologyLocPatAut]"
+	}
+	text = {
+		trigger = { has_government = reactionary_ultranationalist }
+		localization_key = "[GetSubIdeologyLocReaUlt]"
+	}
+}
+
+defined_text = {
+	name = GetSubIdeologyLocAuthSoc
+	text = {
+		trigger = { has_country_leader_ideology = revolutionary_showaist_subtype }
+		localization_key = revolutionary_showaist_subtype
+	}
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = authoritarian_socialist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocVanSoc
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = vanguard_socialist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocRevSoc
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = revolutionary_socialist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocSocDem
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_democrat
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocSocLib
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_liberal
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocClsLib
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = classical_liberal
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocSocCon
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_conservative
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocAuthoritarian
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = authoritarian
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocRevNat
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = revolutionary_nationalist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocVolkist
+	text = {
+		trigger = { has_country_leader_ideology = panasian_nichirenist_subtype }
+		localization_key = panasian_nichirenist_subtype
+	}
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = volkist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocPatAut
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = paternal_autocrat
+	}
+}
+defined_text = {
+	name = GetSubIdeologyLocReaUlt
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = reactionary_ultranationalist
+	}
+}
