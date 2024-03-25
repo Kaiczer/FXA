@@ -29,10 +29,13 @@ if = {
 	}
 }
 set_popularities = {
-	volkist = 50
-	revolutionary_nationalist = 50
+	volkist = 37
+	revolutionary_nationalist = 19
+	reactionary_ultranationalist = 16
+	authoritarian = 15
+	social_conservative = 13
 }
-create_faction = stahlpakt
+create_faction = eurospakt
 set_politics = {	
 	ruling_party = volkist
 	last_election = "1932.7.20"
@@ -40,3 +43,5 @@ set_politics = {
 	elections_allowed = yes 
 }
 
+## Starting Characters ##
+recruit_character = GER_Adam_Dressler

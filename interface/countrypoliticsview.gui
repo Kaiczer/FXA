@@ -1,6 +1,6 @@
-@faction_name_pos_x = 110
+@faction_name_pos_x = 119
 @faction_name_pos_y = -78
-@faction_name_max_width = 150
+@faction_name_max_width = 200
 @faction_name_max_height = 55
 
 guiTypes = {
@@ -86,13 +86,13 @@ guiTypes = {
 			iconType = {
 				name = "chart"
 				spriteType = "GFX_political_chart"
-				position = { x = 50 y = 5 }
+				position = { x = 51 y = 5 }
 			}
 
 			iconType = {
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1 }
+				position = { x= -4 y = 1 }
 			}
 		}
 
@@ -138,7 +138,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "faction_name"
 				position = { x = @faction_name_pos_x y = @faction_name_pos_y }
-				font = "hoi_16mbs"
+				font = "invisiblefont"
 				text = "faction"
 				maxWidth = @faction_name_max_width
 				maxHeight = @faction_name_max_height
@@ -209,7 +209,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "autonomy_progress_view"
-			position = { x = 151 y = 439 }
+			position = { x = 277 y = 407 }
 			size = { width = 245 height = 55 }
 			clipping = no
 
@@ -421,7 +421,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "national_spirit_container"
 				position = { x = -5 y = 20 }
-				size = { width = 290 height = 99 }
+				size = { width = 282 height = 66 }
 				horizontalScrollbar = "bottom_horizontal_slider"
                 smooth_scrolling = yes
 				
@@ -433,18 +433,18 @@ guiTypes = {
 				gridboxtype = {
 					name = "spirit_grid"
                     position = { x = 5 y = 2 }
-                    size = { width = 354 height = 100%% }
-                    slotsize = { width = 59 height = 68 }
-                    max_slots = { x = 1000 y = 1 } #same as defines
+                    size = { width = 275 height = 100%% }
+                    slotsize = { width = 60 height = 68 }
+                    max_slots = { x = 1000 y = 1 } #same as defined
 					format = "UPPER_LEFT"
 					
 				}
 				gridboxtype = {
 					name = "spirit_grid_over_defined"
                     position = { x = 0 y = -5 }
-                    size = { width = 354 height = 100%% }
-                    slotsize = { width = 59 height = 68 }
-					max_slots = { x = 1000 y = 1 } #same as defines
+                    size = { width = 275 height = 100%% }
+                    slotsize = { width = 60 height = 68 }
+					max_slots = { x = 1000 y = 1 } #same as defined
                     format = "UPPER_LEFT"
 				}
 			}
@@ -1005,6 +1005,7 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			font = "hoi_16mbs"
 			text = "[Root.GetRulingParty]"
+			pdx_tooltip = "RulingPartyDesc"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -1018,6 +1019,7 @@ guiTypes = {
 			position = { x = 0 y = 0 }
 			font = "hoi_16mbs"
 			text = "[Root.GetSubIdeologyLoc]"
+			pdx_tooltip = "RulingPartyDesc"
 			fixedsize = yes
 			maxWidth = 175
 			maxHeight = 18
@@ -1794,28 +1796,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 	}
-
-	#Borrowed from KR
-
-	containerWindowType = {
-		name = "puppet_faction_name_container"
-		position = { x = 175 y = 216 }
-		size = { width = 255 height = 60 }
-		clipping = no
-
-		instantTextboxType = {
-			name = "puppet_faction_name"
-			position = { x = @faction_name_pos_x y = @faction_name_pos_y }
-			font = "hoi_16mbs"
-			text = "[ROOT.GetFactionName]"
-			maxWidth = @faction_name_max_width
-			maxHeight = @faction_name_max_height
-			format = centre
-			vertical_alignment = center
-			fixedsize = yes
-		}
-	}
-	
 	containerWindowType = {
 		name = "subideology_container"
 		position = { x = 177 y = 237 }
@@ -1831,10 +1811,31 @@ guiTypes = {
 			alwaystransparent = no
 		}
 	}
+	#Borrowed from KR
 
 	containerWindowType = {
+		name = "puppet_faction_name_container"
+		position = { x = 175 y = 216 }
+		size = { width = 255 height = 60 }
+		clipping = no
+
+		instantTextboxType = {
+			name = "puppet_faction_name"
+			position = { x = @faction_name_pos_x y = @faction_name_pos_y }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetFactionName]"
+			maxWidth = @faction_name_max_width
+			maxHeight = @faction_name_max_height
+			format = centre
+			vertical_alignment = center
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+	
+	containerWindowType = {
 		name = "power_balance_button_disabled_window"
-		position = { x = 23 y = 422 }
+		position = { x = 23 y = 390 }
 		clipping = no
 
 		iconType = {

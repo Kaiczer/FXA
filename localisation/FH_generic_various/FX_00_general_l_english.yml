@@ -216,10 +216,10 @@ new_focus_tree_unlocked: "§GA new focus tree will be unlocked§!"
 computing_tech_research: "Computing Research Speed"
 
 ### Factions
-imperial_protection_alliance: "Imperial Defense Sphere"
-continental_entente: "Continental Entente"
-stahlpakt: "Europa-Solidarspakt" #Europäischer Solidaritätspakt / European Solidarity Pact
-3rd_international: "Third International"
+imperial_sphere: "Imperial Defense Sphere"
+continental_entente: "Second Continental Entente"
+eurospakt: "Europa-Solidarspakt" #Europäischer Solidaritätspakt / European Solidarity Pact
+third_international: "Third International"
 washington_accord: "Washington Accord"
 entente_cordiale: "Entente Cordiale"
 league_of_nations: "League of Nations"
@@ -230,7 +230,6 @@ government: "Government"
 law_dynamic_government: "Constitutional Model"
 law: "Laws"
 law_political_mode: "Political Modes"
-law_socio_economic_custom: "Socio-Economic Customs"
 military_staff: "Military Staff"
 research_production: "Companies"
 

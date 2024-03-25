@@ -49,6 +49,57 @@ defined_text = {
 		localization_key = "[GetSubIdeologyLocReaUlt]"
 	}
 }
+defined_text = {
+	name = GetRulingIdeologySubtypeDesc
+	text = {
+		trigger = { has_government = authoritarian_socialist }
+		localization_key = "[GetSubIdeologyDescAuthSoc]"
+	}
+	text = {
+		trigger = { has_government = vanguard_socialist }
+		localization_key = "[GetSubIdeologyDescVanSoc]"
+	}
+	text = {
+		trigger = { has_government = revolutionary_socialist }
+		localization_key = "[GetSubIdeologyDescRevSoc]"
+	}
+	text = {
+		trigger = { has_government = social_democrat }
+		localization_key = "[GetSubIdeologyDescSocDem]"
+	}
+	text = {
+		trigger = { has_government = social_liberal }
+		localization_key = "[GetSubIdeologyDescSocLib]"
+	}
+	text = {
+		trigger = { has_government = classical_liberal }
+		localization_key = "[GetSubIdeologyDescClsLib]"
+	}
+	text = {
+		trigger = { has_government = social_conservative }
+		localization_key = "[GetSubIdeologyDescSocCon]"
+	}
+	text = {
+		trigger = { has_government = authoritarian }
+		localization_key = "[GetSubIdeologyDescAuthoritarian]"
+	}
+	text = {
+		trigger = { has_government = revolutionary_nationalist }
+		localization_key = "[GetSubIdeologyDescRevNat]"
+	}
+	text = {
+		trigger = { has_government = volkist }
+		localization_key = "[GetSubIdeologyDescVolkist]"
+	}
+	text = {
+		trigger = { has_government = paternal_autocrat }
+		localization_key = "[GetSubIdeologyDescPatAut]"
+	}
+	text = {
+		trigger = { has_government = reactionary_ultranationalist }
+		localization_key = "[GetSubIdeologyDescReaUlt]"
+	}
+}
 
 defined_text = {
 	name = GetSubIdeologyLocAuthSoc
@@ -150,5 +201,107 @@ defined_text = {
 	### Use the following text if you included additional subideology
 	text = {
 		localization_key = reactionary_ultranationalist
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescAuthSoc
+	text = {
+		trigger = { has_country_leader_ideology = revolutionary_showaist_subtype }
+		localization_key = revolutionary_showaist_subtype_subtype_desc
+	}
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = authoritarian_socialist_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescVanSoc
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = vanguard_socialist_subtype_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescRevSoc
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = revolutionary_socialist_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescSocDem
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_democrat_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescSocLib
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_liberal_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescClsLib
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = classical_liberal_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescSocCon
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = social_conservative_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescAuthoritarian
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = authoritarian_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescRevNat
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = revolutionary_nationalist_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescVolkist
+	text = {
+		trigger = { has_country_leader_ideology = panasian_nichirenist_subtype }
+		localization_key = panasian_nichirenist_subtype_desc
+	}
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = volkist_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescPatAut
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = paternal_autocrat_subtype_desc
+	}
+}
+defined_text = {
+	name = GetSubIdeologyDescReaUlt
+
+	### Use the following text if you included additional subideology
+	text = {
+		localization_key = reactionary_ultranationalist_subtype_desc
 	}
 }

@@ -274,7 +274,7 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "ideology_name"
-						position = { x = 500 y = 500 }
+						position = { x = 5 y = 9 }
 						font = "invisiblefont"
 						text = "ideology"
 						maxWidth = 245
@@ -5033,18 +5033,17 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "subideology_container_diplo"
-		position = { x = 263 y = 143 }
+		name = "FH_subideology_diplomatic_window"
+		position = { x = 263 y = 145 }
 		instantTextboxType = {
-			name = "subideology_name_diplo"
-			position = { x = 0 y = 2 }
+			name = "subideology_name"
+			position = { x = 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[GetDiploRulingPartySubtype]"
-			pdx_tooltip = "RulingIdeologySubtype_diplo_tt"
-			maxWidth = 200
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 260
 			maxHeight = 20
 			format = left
-			alwaystransparent = no
+			alwaystransparent = yes
 		}
 	}
 }

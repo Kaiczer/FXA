@@ -42,6 +42,7 @@ every_country = {
 			target = PREV 
 			autonomous_state = colonial_government
 		}
+		add_to_faction = PREV 
 	}
 }
 every_country = {
@@ -56,6 +57,7 @@ every_country = {
 			target = PREV 
 			autonomous_state = autonomous_territory
 		}
+		add_to_faction = PREV 
 	}
 }
 set_politics = {	
@@ -64,4 +66,4 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+create_faction = continental_entente

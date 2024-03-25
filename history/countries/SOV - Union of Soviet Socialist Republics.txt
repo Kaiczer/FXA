@@ -35,6 +35,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+create_faction = third_international
 
 ### Create Rival Government ###
 create_dynamic_country = {
@@ -119,5 +120,24 @@ BSR = {
 			is_core_of = USR 
 		}
 		remove_core_of = USR 
+	}
+}
+every_country = {
+	limit = {
+		OR = {
+			tag = USR  
+			tag = BSR
+			tag = KAZ
+			tag = KYR
+			tag = UZB
+			tag = TMS
+		}
+	}
+	SOV = {
+		set_autonomy = {
+			target = PREV 
+			autonomous_state = autonomous_territory
+		}
+		add_to_faction = PREV 
 	}
 }

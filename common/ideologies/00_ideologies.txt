@@ -233,7 +233,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
-		color = { 51 51 255 } #0 0 255 is the original one
+		color = { 0 0 255 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -274,7 +274,7 @@ ideologies = {
 			"FACTION_NAME_authoritarian_5"
 			"FACTION_NAME_authoritarian_6"
 		}
-		color = { 144 147 153 } #110 110 110 is original
+		color = { 110 110 110 } 
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -308,7 +308,7 @@ ideologies = {
 			"FACTION_NAME_revolutionary_socialist_5"
 			"FACTION_NAME_revolutionary_socialist_6"
 		}
-		color = { 59 40 9 }
+		color = { 110 47 5 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

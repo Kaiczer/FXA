@@ -1,9 +1,6 @@
 ﻿l_english:
 
-NO_SUBIDEOLOGY_ACTIVE: ""
-RulingIdeologySubtype_Text: "§Y([GetRulingIdeologySubtype])§!"
-RulingIdeologySubtype_diplo_tt: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[GetDiploRulingPartySubtype]§!\n--------------------\n§L[GetDiploPopularityTooltipDesc]§!"
-RulingIdeologySubtypeDesc: "Ideology: [GetRulingIdeologyNameNoSubideology]\nIdeological Subtype: §Y[GetRulingIdeologySubtype]§!§L\n--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
+RulingPartyDesc: "§Y[ROOT.GetRulingPartyLong] ([GetSubIdeologyLoc])§!§L\n--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
 
 ### Vanguardist
 revolutionary_showaist_subtype: "Revolutionary Showaism"
