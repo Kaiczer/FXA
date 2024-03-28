@@ -37,6 +37,9 @@ set_politics = {
 }
 create_faction = third_international
 
+### Character ###
+recruit_character = SOV_Vladimir_Lenin #de facto leader / starting leader
+recruit_character = SOV_Mikhail_Kalinin #de jure head of state / acting leader upon the death of Lenin
 ### Create Rival Government ###
 create_dynamic_country = {
 	original_tag = SOV  

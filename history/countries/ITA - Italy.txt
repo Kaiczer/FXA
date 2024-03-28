@@ -29,10 +29,27 @@ if = {
 	}
 }
 
+set_popularities = {
+	social_conservative = 15
+	social_liberal = 15
+	reactionary_ultranationalist = 15
+	revolutionary_nationalist = 15
+	volkist = 40
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = volkist
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_autonomy = {
+	target = LBA
+	autonomous_state = colonial_government
+}
+### Character ###
+# King of Italy #
+recruit_character = ITA_Victor_Emmanuele_III
+# Leadership of Nationalists #
+recruit_character = ITA_Costanzo_Ciano
+recruit_character = ITA_Gabriele_Danunzio
+recruit_character = ITA_Michele_Bianchi

@@ -28,11 +28,21 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	authoritarian = 48
+	social_conservative = 14
+	revolutionary_nationalist = 13
+	social_democrat = 15
+	paternal_autocrat = 10
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+## Starting Characters ##
+recruit_character = RHI_Konrad_Adenauer
+recruit_character = RHI_Paul_Tirard
+recruit_character = RHI_Hans_Adam_Dorten
+recruit_character = RHI_Josef_Friedrich_Matthes

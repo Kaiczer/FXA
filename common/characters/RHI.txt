@@ -1,0 +1,56 @@
+characters = {
+	RHI_Paul_Tirard = {
+		name = "Paul Tirard"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHI/Portrait_RHI_Paul_Tirard.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+    		# desc = ""
+			traits = { }
+		}
+	}
+	RHI_Konrad_Adenauer = {
+		name = "Konrad Adenauer"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHI/Portrait_RHI_Konrad_Adenauer.png"
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy_subtype
+			traits = {
+			}
+		}
+	}
+	RHI_Josef_Friedrich_Matthes = {
+		name = "Josef Friedrich Matthes"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHI/Portrait_RHI_Josef_Friedrich_Matthes.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+    		#desc = ""
+			traits = {
+			}
+		}
+	}
+	RHI_Hans_Adam_Dorten = {
+		name = "Hans Adam Dorten"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RHI/Portrait_RHI_Hans_Adam_Dorten.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalist_subtype
+    		#desc = ""
+			traits = {
+			}
+		}
+	}
+}

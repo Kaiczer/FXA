@@ -1,0 +1,30 @@
+characters = {
+	SOV_Vladimir_Lenin = {
+		name = "Vladimir Lenin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Vladimir_Lenin.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguard_socialist_subtype
+    		desc = ""
+			traits = { }
+		}
+	}
+	SOV_Mikhail_Kalinin = {
+		name = "Mikhail Kalinin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Kalinin.png"
+			}
+		}
+		country_leader = {
+			ideology = vanguard_socialist_subtype
+    		desc = ""
+			traits = {
+				
+			}
+		}
+	}
+}

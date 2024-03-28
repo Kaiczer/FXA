@@ -28,6 +28,7 @@ if = {
 		}
 	}
 }
+create_faction = continental_entente
 every_country = {
 	limit = {
 		OR = {
@@ -60,10 +61,11 @@ every_country = {
 		add_to_faction = PREV 
 	}
 }
+add_to_faction = ITA
+add_to_faction = LBA
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-create_faction = continental_entente

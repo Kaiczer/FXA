@@ -12,4 +12,19 @@ characters = {
 			traits = { }
 		}
 	}
+	GER_Wilhelm_Teudt = {
+		name = "Wilhelm Teudt"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/Portrait_GER_Wilhelm_Teudt.png"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_nationalist_subtype
+    		#desc = ""
+			traits = {
+				#GER_fuehrer_viceroy
+			}
+		}
+	}
 }
