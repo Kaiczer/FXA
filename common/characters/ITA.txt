@@ -56,6 +56,11 @@ characters = {
     		#desc = ""
 			traits = { }
 		}
+		country_leader = {
+			ideology = volkist_subtype
+    		#desc = ""
+			traits = { }
+		}
 	}
 	ITA_Costanzo_Ciano = {
 		name = "Costanzo Ciano"

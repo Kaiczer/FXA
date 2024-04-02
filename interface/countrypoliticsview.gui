@@ -1811,6 +1811,17 @@ guiTypes = {
 			alwaystransparent = no
 		}
 	}
+	containerWindowType = {
+		name = "FH_world_congress_button_container"
+		position = { x = 191 y = 144 }
+		buttonType = {
+			name = "world_congress_button"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_world_factions"
+			pdx_tooltip = "world_congress_button_tooltip"
+			pdx_tooltip_delayed = "world_congress_button_tooltip_delayed"
+		}
+	}
 	#Borrowed from KR
 
 	containerWindowType = {

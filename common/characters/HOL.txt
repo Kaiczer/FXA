@@ -1,0 +1,16 @@
+characters = {
+	HOL_Cornelis_Jacobus_Snijders = {
+		name = "Cornelis Jacobus Snijders"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HOL/Portrait_HOL_Cornelis_Jacobus_Snijders.png"
+			}
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = {
+
+			}
+		}
+	}
+}

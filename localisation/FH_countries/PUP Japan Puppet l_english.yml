@@ -2,8 +2,8 @@
 #### Korean
 KOR_JAP: "Japanese Chosen"
 KOR_JAP_DEF: "Governorate-General of Chosen"
-KOR_JAP_valkist: "Koikuri Jichi-kuni"
-KOR_JAP_valkist_DEF: "Autonomous Country of Goguryeo"
+KOR_JAP_volkist: "Koikuri Jichi-kuni"
+KOR_JAP_volkist_DEF: "Autonomous Country of Goguryeo"
 #### Fengtian
 FNG_JAP_Shogunate: "Manshu Bakufushugo-ryo" #满洲幕府守護領
 FNG_JAP_Shogunate_DEF: "the Shogunal Governorate of Manchuria"
@@ -11,18 +11,18 @@ FNG_JAP_Shogunate_ADJ: "Manchurian"
 FNG_JAP_Viceroyalty: "Viceroyalty of Tohoku" #东北副王領
 FNG_JAP_Viceroyalty_DEF: "the Viceroyalty of Tohoku" #东北副王領
 FNG_JAP_Viceroyalty_ADJ: "Manchurian"
-FNG_JAP_reactionary_ultranationalism: "Manshu Tokubetsu Gyosei-ku" #满洲特別行政区
-FNG_JAP_reactionary_ultranationalism_DEF: "the Special Administrative Region of Manchuria"
+FNG_JAP_reactionary_ultranationalist: "Manshu Tokubetsu Gyosei-ku" #满洲特別行政区
+FNG_JAP_reactionary_ultranationalist_DEF: "the Special Administrative Region of Manchuria"
 FNG_JAP_ADJ: "Manchurian"
 #### China
 CHI_JAP_Shogunate: "Kanchu-Reinan Bakufukanrei-tochiku" #关中岭南幕府管領統治区
 CHI_JAP_Shogunate_DEF: "the Shogunal Commissariat of Guanzhong-Lingnan"
 CHI_JAP_Viceroyalty: "Chuka Kokkabenmukan-ku" #中华国家弁務官区
 CHI_JAP_Viceroyalty_DEF: "the Military Commissariat of China" #中华国家弁務官区
-CHI_JAP_reactionary_ultranationalism: "Chugoku Seiji Gyōsei Hyōgi-kai" #中国政治行政評議会
-CHI_JAP_reactionary_ultranationalism_DEF: "the Political Administrative Council of China"
-CHI_JAP_valkist: "Sina Jōdo Ōhogo-ryo" #支那大浄土护法领
-CHI_JAP_valkist_DEF: "the Grand Purified Protectorate of China"
+CHI_JAP_reactionary_ultranationalist: "Chugoku Seiji Gyōsei Hyōgi-kai" #中国政治行政評議会
+CHI_JAP_reactionary_ultranationalist_DEF: "the Political Administrative Council of China"
+CHI_JAP_volkist: "Sina Jōdo Ōhogo-ryo" #支那大浄土护法领
+CHI_JAP_volkist_DEF: "the Grand Purified Protectorate of China"
 #### Sichuan
 SCH_JAP_Shogunate: "Senkyo Bakufukanrei-tochiku" #川峡幕府管領統治区
 SCH_JAP_Shogunate_DEF: "the Shogunal Commissariat of Chuanxia"
@@ -30,10 +30,10 @@ SCH_JAP_Shogunate_ADJ: "Sichuanese"
 SCH_JAP_Viceroyalty: "Viceroyalty of Hanzhong" #汉中副王领
 SCH_JAP_Viceroyalty_DEF: "the Viceroyalty of Hanzhong"
 SCH_JAP_Viceroyalty_ADJ: "Sichuanese"
-SCH_JAP_reactionary_ultranationalism: "Kanchu Chiho" 
-SCH_JAP_reactionary_ultranationalism_DEF: "the Hanzhong Region of Political Administrative Council"
-SCH_JAP_valkist: "Ekishu Setsudo-shi"
-SCH_JAP_valkist_DEF: "the Military Prefecture of Yizhou"
+SCH_JAP_reactionary_ultranationalist: "Kanchu Chiho" 
+SCH_JAP_reactionary_ultranationalist_DEF: "the Hanzhong Region of Political Administrative Council"
+SCH_JAP_volkist: "Ekishu Setsudo-shi"
+SCH_JAP_volkist_DEF: "the Military Prefecture of Yizhou"
 SCH_JAP_ADJ: "Sichuanese"
 #### Yunnan
 YUN_JAP_Shogunate: "Konmei Bakufukanrei-tochiku"
@@ -42,10 +42,10 @@ YUN_JAP_Shogunate_ADJ: "Yunnanese"
 YUN_JAP_Viceroyalty: "Viceroyalty of Yungui"
 YUN_JAP_Viceroyalty_DEF: "the Viceroyalty of Yungui"
 YUN_JAP_Viceroyalty_ADJ: "Yunnanese"
-YUN_JAP_reactionary_ultranationalism: "Dairi Chiho"
-YUN_JAP_reactionary_ultranationalism_DEF: "the Dali Region of Political Administrative Council"
-YUN_JAP_valkist: "Nancho Setsudo-shi"
-YUN_JAP_valkist_DEF: "the Military Prefecture of Nanzhao"
+YUN_JAP_reactionary_ultranationalist: "Dairi Chiho"
+YUN_JAP_reactionary_ultranationalist_DEF: "the Dali Region of Political Administrative Council"
+YUN_JAP_volkist: "Nancho Setsudo-shi"
+YUN_JAP_volkist_DEF: "the Military Prefecture of Nanzhao"
 YUN_JAP_ADJ: "Yunnanese"
 #### Tibet
 TIB_JAP: "Tibetan Provisional Authority"
@@ -53,8 +53,8 @@ TIB_JAP_DEF: "the Tibetan Provisional Authority"
 TIB_JAP_ADJ: "Tibetan"
 TIB_JAP_Shogunate: "Tibetan State"
 TIB_JAP_Shogunate_DEF: "the Tibetan State of Kan-Rei Shogunal Commissariat"
-TIB_JAP_reactionary_ultranationalism: "Sacred State of Tibet"
-TIB_JAP_reactionary_ultranationalism_DEF: "the Sacred State of Tibet"
+TIB_JAP_reactionary_ultranationalist: "Sacred State of Tibet"
+TIB_JAP_reactionary_ultranationalist_DEF: "the Sacred State of Tibet"
 #### Xinjiang
 SIK_JAP_Shogunate: "Ansei Daitogo-ryo" #安西大都護领
 SIK_JAP_Shogunate_DEF: "the Grand Protectorate of Anxi"
@@ -62,50 +62,50 @@ SIK_JAP_Shogunate_ADJ: "Anxi"
 SIK_JAP_Viceroyalty: "Viceroyalty of Anxi"
 SIK_JAP_Viceroyalty_DEF: "the Viceroyalty of Anxi"
 SIK_JAP_Viceroyalty_ADJ: "Anxi"
-SIK_JAP_reactionary_ultranationalism: "Ansei Gyosei Shokoku Renmei" #安西行政诸国联盟
-SIK_JAP_reactionary_ultranationalism_DEF: "the Collective Administration of Anxi"
-SIK_JAP_reactionary_ultranationalism_ADJ: "Anxi"
-SIK_JAP_valkist: "Ansei Shinsei Daitogo-ryo" #安西神圣大都護领
-SIK_JAP_valkist_DEF: "the Greater Divine Protectorate of Anxi"
+SIK_JAP_reactionary_ultranationalist: "Ansei Gyosei Shokoku Renmei" #安西行政诸国联盟
+SIK_JAP_reactionary_ultranationalist_DEF: "the Collective Administration of Anxi"
+SIK_JAP_reactionary_ultranationalist_ADJ: "Anxi"
+SIK_JAP_volkist: "Ansei Shinsei Daitogo-ryo" #安西神圣大都護领
+SIK_JAP_volkist_DEF: "the Greater Divine Protectorate of Anxi"
 SIK_JAP_ADJ: "Anxi"
 #### Indochina
 ICR_JAP_paternal_autocrat: "Indoshina Bakufudaikan-tochiku" #印度支那幕府代官統治区
 ICR_JAP_paternal_autocrat_DEF: "the Grand Governing Office of Indochina"
-ICR_JAP_reactionary_ultranationalism: "Indoshina Sanryoho" #印度支那三領法
-ICR_JAP_reactionary_ultranationalism_DEF: "the Tri-Domains of Indochina"
-ICR_JAP_valkist: "Indoshina Jichiryo"
-ICR_JAP_valkist_DEF: "the Dominion of Indochina"
+ICR_JAP_reactionary_ultranationalist: "Indoshina Sanryoho" #印度支那三領法
+ICR_JAP_reactionary_ultranationalist_DEF: "the Tri-Domains of Indochina"
+ICR_JAP_volkist: "Indoshina Jichiryo"
+ICR_JAP_volkist_DEF: "the Dominion of Indochina"
 #### Laos
 LAO_JAP_paternal_autocrat: "Shichidan Shirokasa Seisho"
 LAO_JAP_paternal_autocrat_DEF: "the Governing Office of White Umbrella State" #七段白傘政所
-LAO_JAP_reactionary_ultranationalism: "Raosu Jichikuni"
-LAO_JAP_reactionary_ultranationalism_DEF: "the Lao Autonomous State" 
-LAO_JAP_valkist: "Shichidan Shirokasa-shu"
-LAO_JAP_valkist_DEF: "the Realm of Seven-Tiered White Umbrella" #七段白傘州
+LAO_JAP_reactionary_ultranationalist: "Raosu Jichikuni"
+LAO_JAP_reactionary_ultranationalist_DEF: "the Lao Autonomous State" 
+LAO_JAP_volkist: "Shichidan Shirokasa-shu"
+LAO_JAP_volkist_DEF: "the Realm of Seven-Tiered White Umbrella" #七段白傘州
 #### Cambodia
 CAM_JAP_paternal_autocrat: "Kanbojia Seisho"
 CAM_JAP_paternal_autocrat_DEF: "the Governing Office of Kampuchea" #七段白傘政所
-CAM_JAP_reactionary_ultranationalism: "Kanbojia Jichikuni"
-CAM_JAP_reactionary_ultranationalism_DEF: "the Kampuchean Autonomous State" 
-CAM_JAP_valkist: "Sangaku Ōshu Seifu"
-CAM_JAP_valkist_DEF: "the Funan Royal Authority" #山岳王州政府
+CAM_JAP_reactionary_ultranationalist: "Kanbojia Jichikuni"
+CAM_JAP_reactionary_ultranationalist_DEF: "the Kampuchean Autonomous State" 
+CAM_JAP_volkist: "Sangaku Ōshu Seifu"
+CAM_JAP_volkist_DEF: "the Funan Royal Authority" #山岳王州政府
 #### Vietnam
 VIN_JAP_paternal_autocrat: "Shizumi-gun Setsudo-shi"
 VIN_JAP_paternal_autocrat_DEF: "the Military Prefecture of Jinghai Army" #静海军节度使
-VIN_JAP_reactionary_ultranationalism: "Koshi Jichikuni"
-VIN_JAP_reactionary_ultranationalism_DEF: "the Jiaozhi Autonomous State" 
-VIN_JAP_valkist: "O-Raku Shu"
-VIN_JAP_valkist_DEF: "the Realm of Au-Lac"
+VIN_JAP_reactionary_ultranationalist: "Koshi Jichikuni"
+VIN_JAP_reactionary_ultranationalist_DEF: "the Jiaozhi Autonomous State" 
+VIN_JAP_volkist: "O-Raku Shu"
+VIN_JAP_volkist_DEF: "the Realm of Au-Lac"
 #### Mongolia
 MON_JAP: "Mengjiang"
 MON_JAP_DEF: "the Mengjiang United Autonomous Government"
 MON_JAP_paternal_autocrat: "Mongol United Banners"
 MON_JAP_paternal_autocrat_DEF: "the Mongol United Banners"
-MON_JAP_valkist: "Reihoku-jichisho"
-MON_JAP_valkist_DEF: "the Lingbei Autonomous Province" 
+MON_JAP_volkist: "Reihoku-jichisho"
+MON_JAP_volkist_DEF: "the Lingbei Autonomous Province" 
 #### India
 IND_JAP: "Indian National State"
 IND_JAP_DEF: "the Indian National State"
 IND_JAP_ADJ: "Indian"
-IND_JAP_valkist: "Shinsei Minami-Ajia Hogo-ryo" #神聖南アジア保護領
-IND_JAP_valkist_DEF: "the Holy South Asia Protectorate"
+IND_JAP_volkist: "Shinsei Minami-Ajia Hogo-ryo" #神聖南アジア保護領
+IND_JAP_volkist_DEF: "the Holy South Asia Protectorate"

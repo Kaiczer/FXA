@@ -11,6 +11,11 @@ characters = {
     		# desc = ""
 			traits = { }
 		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+    		# desc = ""
+			traits = { }
+		}
 	}
 	RHI_Konrad_Adenauer = {
 		name = "Konrad Adenauer"

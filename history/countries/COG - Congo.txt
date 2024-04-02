@@ -29,14 +29,6 @@ if = {
 		}
 	}
 }
-
-set_politics = {	
-	ruling_party = paternal_autocrat
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-}
-
 create_dynamic_country = {
 	original_tag = COG 
 	set_country_flag = COG_independent_country
@@ -67,3 +59,16 @@ create_dynamic_country = {
 		remove_claim_by = COG
 	}
 }
+BEL = {
+	set_autonomy = {
+		target = COG
+		autonomous_state = colonial_government
+	}
+}
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+

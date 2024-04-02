@@ -28,7 +28,12 @@ if = {
 		}
 	}
 }
-
+ENG = {
+	set_autonomy = {
+		target = PREV 
+		autonomous_state = occupied_puppet
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

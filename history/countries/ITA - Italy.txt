@@ -30,21 +30,21 @@ if = {
 }
 
 set_popularities = {
-	social_conservative = 15
-	social_liberal = 15
-	reactionary_ultranationalist = 15
-	revolutionary_nationalist = 15
-	volkist = 40
+	authoritarian_socialist = 2
+	vanguard_socialist = 3
+	revolutionary_socialist = 7
+	social_democrat = 12
+	social_liberal = 17
+	social_conservative = 34
+	revolutionary_nationalist = 8
+	volkist = 12
+	reactionary_ultranationalist = 5
 }
 set_politics = {	
-	ruling_party = volkist
-	last_election = "1933.3.5"
+	ruling_party = social_conservative
+	last_election = "1934.3.26"
 	election_frequency = 48
 	elections_allowed = no
-}
-set_autonomy = {
-	target = LBA
-	autonomous_state = colonial_government
 }
 ### Character ###
 # King of Italy #

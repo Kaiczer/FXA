@@ -36,3 +36,14 @@ set_politics = {
 	elections_allowed = no
 }
 
+## Truce of Wuhan ##
+diplomatic_relation = { country = FNG relation = non_aggression_pact }
+diplomatic_relation = { country = ZHI relation = non_aggression_pact }
+diplomatic_relation = { country = SHX relation = non_aggression_pact }
+## Recognization of between Ma Family Warlords and Nanjing Government## 
+diplomatic_relation = { country = XSM relation = non_aggression_pact }
+give_guarantee = XSM
+XSM = { give_guarantee = PREV }
+diplomatic_relation = { country = SIK relation = non_aggression_pact }
+give_guarantee = SIK
+SIK = { give_guarantee = PREV }

@@ -29,7 +29,12 @@ if = {
 		}
 	}
 }
-
+ITA = {
+	set_autonomy = {
+		target = LBA
+		autonomous_state = colonial_government
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

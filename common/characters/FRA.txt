@@ -1,0 +1,22 @@
+characters = {
+	FRA_Albert_Lebrun = {
+		name = "Albert François Lebrun"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FRA/Portrait_FRA_Albert_Lebrun.png"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+	}
+}

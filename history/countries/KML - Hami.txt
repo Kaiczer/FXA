@@ -28,7 +28,12 @@ if = {
 		}
 	}
 }
-
+SIK = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = governorate
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

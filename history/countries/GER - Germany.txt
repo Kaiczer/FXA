@@ -28,6 +28,9 @@ if = {
 		}
 	}
 }
+
+create_faction = eurospakt
+
 set_popularities = {
 	volkist = 39
 	revolutionary_nationalist = 11
@@ -36,7 +39,8 @@ set_popularities = {
 	authoritarian = 15
 	social_conservative = 13
 }
-create_faction = eurospakt
+add_coalition_social_conservative = yes 
+add_coalition_revolutionary_nationalist = yes
 set_politics = {	
 	ruling_party = volkist
 	last_election = "1932.7.20"

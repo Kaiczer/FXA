@@ -1,21 +1,55 @@
 ﻿l_english:
 
-RulingPartyDesc: "§Y[ROOT.GetRulingPartyLong] ([GetSubIdeologyLoc])§!§L\n--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
+RulingPartyDesc: "§Y[ROOT.GetRulingPartyLong] ([GetSubIdeologyLoc])§!\n§W--------------------\n§!§L[GetRulingIdeologySubtypeDesc]§!"
+### Party Popularity Tooltips ###
+popularity_ideology_tooltip: "Your current ruling party is §H[?current_party_ideology_group.GetTokenLocalizedKey]§!"
+popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
+party_popularity_delayed_tooltip: "Party popularity represents your current government's control over the nation and their support with the people. Political parties with high popularity are more able to push their political agenda and stabilise the nation."
 
-### Vanguardist
+party_popularity_tooltip: "§HParty Popularity§![GetPopularityPPGain]"
+party_popularity_tooltip_long: "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionAuthoritarianSocialist][GetCoalitionVanguardSocialist][GetCoalitionRevSocialist][GetCoalitionSocialDemocrat][GetCoalitionSocialLiberal][GetCoalitionClassicalLiberal][GetCoalitionSocialConservative][GetCoalitionAuthoritarian][GetCoalitionRevNationalist][GetCoalitionVolkist][GetCoalitionPaternalAutocrat][GetCoalitionReactUltranationalist]"
+
+party_popularity_dynamic_modifier: "Party Popularity"
+party_popularity_dynamic_modifier_ideology_mapped: "Party Popularity"
+party_popularity_dynamic_modifier_coalition: "Coalitions"
+
+party_pop_coalition: "\n\n§HCoalition Partners:§!\n"
+party_pop_coalition_authoritarian_socialist: "- [?token:authoritarian_socialist.GetTokenLocalizedKey]\n"
+party_pop_coalition_vanguard_socialist: "- [?token:vanguard_socialist.GetTokenLocalizedKey]\n"
+party_pop_coalition_revolutionary_socialist: "- [?token:revolutionary_socialist.GetTokenLocalizedKey]\n"
+party_pop_coalition_social_democrat: "- [?token:social_democrat.GetTokenLocalizedKey]\n"
+party_pop_coalition_social_liberal: "- [?token:social_liberal.GetTokenLocalizedKey]\n"
+party_pop_coalition_classical_liberal: "- [?token:classical_liberal.GetTokenLocalizedKey]\n"
+party_pop_coalition_social_conservative: "- [?token:social_conservative.GetTokenLocalizedKey]\n"
+party_pop_coalition_authoritarian: "- [?token:authoritarian.GetTokenLocalizedKey]\n"
+party_pop_coalition_revolutionary_nationalist: "- [?token:revolutionary_nationalist.GetTokenLocalizedKey]\n"
+party_pop_coalition_volkist: "- [?token:volkist.GetTokenLocalizedKey]\n"
+party_pop_coalition_paternal_autocrat: "- [?token:paternal_autocrat.GetTokenLocalizedKey]\n"
+party_pop_coalition_reactionary_ultranationalist: "- [?token:reactionary_ultranationalist.GetTokenLocalizedKey]\n"
+
+add_to_coalition: "The §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! will join the coalition."
+remove_from_coalition: "The §[GetCoalitionTooltipColour][?coalition_partner_var.GetTokenLocalizedKey]s§! will leave the coalition."
+
+has_coalition_with_target: "Is in coalition with the §H[?coalition_target.GetTokenLocalizedKey]s§!."
+has_coalition_with_target_NOT: "Is not in coalition with the §H[?coalition_target.GetTokenLocalizedKey]s§!."
+
+coalition_stability_tooltip: "Coalition partners now provide $RIGHT|G%0$ of their popularity as additional §Hpolitical power gain§!."
+
+### Ideology Subcategory Description ### 
+### 
 revolutionary_showaist_subtype: "Revolutionary Showaism"
 revolutionary_showaist_subtype_desc: "§Y(Revolutionary Showaism)§!\n\nSince the present emperor ascended to the Chrysanthemum throne, the Japanese Empire has experienced a significant decline. The economy has reached a critical point, and the immigration of Koreans, along with the liberal impurity in Japanese politics, has only fueled the inspiration of right-wing extremists. Led by militarist advocates and the generals of the Imperial Armed Forces on Yamato Island, their only goal is to purify the island and secure it from the corrupted Western ideology once and for all.\n\nUnder the banner of Showa restoration, the far-right has embraced nationalistic and other right-wing ideas from Europe, but with a twist of socialism. This has led to the creation of Showaism, an ideology that aims to purify the Japanese Empire. Hashimoto Kingoro, a Japanese officer and one of Showaism's advocates, believes that the combination of revolutionary socialism, stratocracy, and nationalism will cleanse Japanese politics and bureaucracy of the corrupted liberalism. All of this will be done in the name of fairness and equality, based on his interpretation of socialism. The military will serve as the protector of the new reformed Japanese bureaucracy to ensure and safeguard the new Japan from another wave of corruption."
 autocratic_socialist_subtype: "Autocratic Socialism"
 autocratic_socialist_subtype_desc: "§Y(Autocratic Socialism)§!\n\nAutocratic Socialist regimes are highly authoritarian dictatorships that (at least on paper) adhere to socialist principles. They are notably varied, but can usually be seen with some form of command economy, emphasis on militarism, are often nationalist or use patriotism as a tool of the state, and are frequently at odds with more mainline Charter Totalists. While their commitment to Socialist revolutionary principles is usually questionable at best, these regimes still maintain socialism as the official state ideology, and go to lengths to paint their government red - even if the government is nothing short of a total dictatorship."
 
 
-### Collectivist
+### 
 monsoc_subtype: "Monarcho-Socialism"
 monsoc_subtype_desc: "§Y(Monarcho-Socialism)§!\n\nMonarcho-Socialism, along with its various subtypes such as Monarcho-Bolshevism, Monarcho-Communism, and others, seeks to coherently fuse the typically opposed systems of Socialism and Monarchism into one, unified form of government. Though the degree to which each monarch is dedicated to the Socialist system can vary greatly, from mere figureheads painted Red to monarchs fully dedicated to the Socialist cause, each system holds in common an adherence to the noble system of monarchism, and though this monarch is frequently only a facade for a more traditional Socialist government, their presence is key to the wider system. Under these Red monarchies, the journey to true Socialism is shepherded, and though each system is incredibly varied, they usually hold in common a more conservative or traditionalist outlook on social and societal issues."
 leninism_subtype: "Leninism"
 leninism_subtype_desc: "§Y(Leninism)§!\n\nLeninism is a political ideology developed by Vladimir Lenin, which advocates for the establishment of a revolutionary vanguard party to lead the working class in overthrowing capitalism. It emphasizes the need for a centralized and disciplined party structure, guided by Marxist principles, to seize and maintain state power on behalf of the working class. Leninism also promotes the idea of a transitional socialist state, referred to as the \"dictatorship of the proletariat,\" as a means to suppress counter-revolutionary forces and lay the groundwork for a future communist society."
 
-### Libertarian Socialist
+### 
 libsoc_utopian_socialism_subtype: "Utopian Socialism"
 libsoc_utopian_socialism_subtype_desc: "§Y(Utopian Socialism)§!\n\nUtopian socialism is seen as an ideology that is misguided in its attempts to create a perfect society through centralized planning and government control, Libertarians generally believe in the importance of individual liberty and see the government as a potential threat to these values.\n\nOn the other hand, Utopian socialism often involves the idea of a collective ownership of the means of production and a planned economy, which may be seen as incompatible with individual freedom and the principles of a free market. Libertarians would argue that such an approach would restrain innovation, limit consumer choice, and result in inefficiencies and waste."
 anarcho_syndicalism_subtype: "Anarcho-Syndicalism"
@@ -29,7 +63,7 @@ bukharinist_subtype_desc: "§Y(Bukharinism)§!\n\nBukharinism or Semi-Market Soc
 moderate_socialist_subtype: "Moderate Socialism"
 moderate_socialist_subtype_desc: "§Y(Moderate Socialism)§!\n\nModerate Socialism is an ideology that seeks to combine Democracy and Socialism in one syncretic system. Usually pursuing a directly democratic system, though sometimes using representative bodies such as a congress or union councils, these governments seek to give each and every citizen a voice regardless of their standing in society as they pursue true Socialism."
 
-### Social Democrat
+### 
 socdem_longism_subtype: "Longism"
 socdem_longism_subtype_desc: "§Y(Longism)§!\n\nBased on the policies and personality of Huey Pierce Long Jr, Longism is an ideology that is nearly as ambiguous as the man it's named after. Espousing civic nationalism, a deep sense of piety, and Left-leaning populist economics, all while ignoring critical questions such as race. Marked by authoritarian methods of ruling, Longist goverments will do anything and everything for the people, even if the people don't always agree."
 socdem_democratic_socialism_subtype: "Democratic Socialism"
@@ -37,19 +71,19 @@ socdem_democratic_socialism_subtype_desc: "§Y(Democratic Socialism)§!\n\nDemoc
 socdem_left_nationalism_subtype: "Left-wing Nationalism"
 socdem_left_nationalism_subtype_desc: "§Y(Left Nationalism)§!\n\nLeft-Wing Nationalism, commonly known as Social Nationalism or simply Left Nationalism, is a strain of nationalism originating from various national liberation movements influenced by socialist schools of thought. Upholding self-determination as the highest value, Left Nationalists strive to create a state for their people in which popular sovereignty and locally defined equality can be enjoyed. Social Nationalists stand in opposition to their right-wing counterparts by rejecting ethnic or class based distinctions in their struggle."
 
-### Social Liberal
+### 
 centrist_subtype: "Centrism"
 centrist_subtype_desc: "§Y(Centrism)§!\n\nDemocratic Centrism describes the political outlook that revolves around the maintaining of the set status quo. Though this status quo varies from nation to nation, Centrists rally around this middleground just the same, seeking to balance equality and hierarchy in their varied societies. Hated by both conservatives and extremists who see them as fence-sitters, Centrists rally around the proven status quo without faltering, resisting rapid reform and staunch traditionalism just the same as they pursue a happy medium between bickering parties for the greater good of their societies as they seek stability and consistency above all."
 radical_liberalism_subtype: "Radical Liberalism"
 radical_liberalism_subtype_desc: "§Y(Radical Liberalism)§!\n\nRadical Liberalism - also called Classical Radicalism or Radical Republicanism - describes the modern political movements chiefly inspired by the Radicals of the French Revolution and the precursor Liberals of the past century. Associated with Republicanism, modernism, civic nationalism, rationalism, secular humanism, progressivism, and more, Radical Liberal seeks to stretch the meaning of what it means to be ‘Liberal’ in order to build a truly free, fair, and egalitarian society that champions freedom, liberty, and justice for all."
 
-### Market Liberal
+### 
 marlib_centrist_subtype: "Centrism"
 marlib_centrist_subtype_desc: "§Y(Centrism)§!\n\nDemocratic Centrism describes the political outlook that revolves around the maintaining of the set status quo. Though this status quo varies from nation to nation, Centrists rally around this middleground just the same, seeking to balance equality and hierarchy in their varied societies. Hated by both conservatives and extremists who see them as fence-sitters, Centrists rally around the proven status quo without faltering, resisting rapid reform and staunch traditionalism just the same as they pursue a happy medium between bickering parties for the greater good of their societies as they seek stability and consistency above all."
 liberal_conservative_subtype: "Liberal Conservatism"
 liberal_conservative_subtype_desc: "§Y(Liberal Conservatism)§!\n\nA near-paradoxical thoughtform that combines conservative ideas with liberal stances, Liberal Conservatism is a mixed bag that varies greatly depending on the nation that professes it. Split between groups that support deregulation and the free market, and those that instead support economic interventionism, these groups are united in their pursuit of civil liberties and freedoms while championing Conservative social positions. Overall, Liberal Conservatism fuses Liberal Capitalism and Social Justice with Traditionalist views on society and life, and is exceedingly common in the Western World specifically, though it can be seen in practice across the globe."
 
-### Social Conservative
+### 
 christian_democracy_subtype: "Christian Democracy"
 christian_democracy_subtype_desc: "§Y(Christian Democracy)§!\n\nChristian Democratic movements understand that only through allowing people a choice, and not coercion, a religious society might be upheld. Basing its programmes on Catholic social teaching and neo-Calvinism, Christian Democrats strive to create a free society in which traditional family values, social justice and good old fashioned patriotism will be respected. While most Christian Democratic parties don't exclude any denomination, some might choose to keep to a strictly anti-ecumenical position. Surprisingly to some, many advocates for Christian Democracy are rather left leaning in their views on the economy, advocating for models such as Distributism, based on Pope Leo XIII's 'Rerum novarum' encyclical. That position is of course not the only choice, with others preaching the Prosperity Gospel or upholding Christian Capitalism."
 soccon_warlordism_subtype: "Conservative Warlordism"
@@ -59,7 +93,7 @@ toryism_subtype_desc: "§Y(Toryism)§!\n\nToryism is an originally-British versi
 national_conservative_subtype: "National Conservatism"
 national_conservative_subtype_desc: "§Y(National Conservatism)§!\n\nNational Conservatism is a nationalist variant of mainline conservative thought that concentrates on upholding the national and cultural identity of the nation. These states usually promote traditional cultural and societal values, filial piety and the importance of the family structure, and patriotic monoculturalism. Though varied in their economic outlooks, they frequently range from corporatism and mixed-economics to laissez-faire policies, but usually oppose globalization and internationalism."
 
-### Authoritarian Democrat
+###
 authdem_national_conservative_subtype: "National Conservatism"
 authdem_national_conservative_subtype_desc: "§Y(National Conservatism)§!\n\nNational Conservatism is a nationalist variant of mainline conservative thought that concentrates on upholding the national and cultural identity of the nation. These states usually promote traditional cultural and societal values, filial piety and the importance of the family structure, and patriotic monoculturalism. Though varied in their economic outlooks, they frequently range from corporatism and mixed-economics to laissez-faire policies, but usually oppose globalization and internationalism."
 police_state_subtype: "Police State"
@@ -79,7 +113,7 @@ prussian_constitutionalism_subtype_desc: "§Y(Prussian Constitutionalism)§!\n\n
 controlled_democracy_subtype: "Controlled Democracy"
 controlled_democracy_subtype_desc: "§Y(Controlled Democracy)§!\n\nControlled democracy refers to a political system where the appearance of democracy is maintained, but power is effectively concentrated in the hands of a select few individuals or groups. It is characterized by limited political freedoms, restricted opposition parties, and manipulation of electoral processes to ensure the ruling elite retains power. Although elections may take place, they are often tightly controlled and manipulated to ensure predetermined outcomes, effectively limiting genuine democratic participation and decision-making by the general population."
 
-### Paternal Autocrat
+### 
 absolute_mon_subtype: "Absolute Monarchy"
 absolute_mon_subtype_desc: "§Y(Absolute Monarchy)§!\n\nAbsolute Monarchy holds a often despotic and authoritarian regime over the people. It is made of an autocratic king or emperor who rules over the country with an iron fist and with a powerful government under him. The government tends to be conservative with traditional values and focuses. The market, press, and businesses of the country are government controlled and the people live without a lot of their freedoms."
 pat_duumvirism_subtype: "Duumvirism"
@@ -99,7 +133,8 @@ corporatocracy_subtype_desc: "§Y(Corporatocracy)§!\n\nCorporatocracies are reg
 pataut_legionarism_subtype: "Legionarism"
 pataut_legionarism_subtype_desc: "§Y(Legionarism)§!\n\nFirst popularized by the Iron Guard of Romania, the Black Hundreds in Russia, and the ANI in Italy, Legionarism is a form of a highly religious and deeply militarist revolutionary nationalism. Rejecting entrenched political elites though sometimes tied to monarchism, Legionaries or Legionarists advocate for a national revolution that would end the old order and usher in the creation of a new, spiritually reborn society. Members of Legionary parties are often trained to act as militant martyrs in order to become closer to their Nation and God, though less extreme examples exist where Nationalism and Patriotism are expressed far more than martyrdom. In terms of economics, there is no one defined view, although Capitalism and Socialism are usually outright rejected as a corrupting, foreign force, with Corporatism, Right Syndicalism, or other forms of controlled economics largely being dominant. Though the emphasis on religion and zealotry widely differs, most Legionarists are devoutly Catholic or Christian, depending on the nation of origin, and all are deeply devoted to the jingoistic revitalization of their native country."
 
-### National Populist
+carnarianist_subtype_desc: "After the war, which saturated the land with bloodshed and tears, had concluded, the enduring sense of defeat continued to smolder within the hearts of the vengeful and despondent. Struggling to rejuvenate a nation that had fallen from grace became the paramount aspiration for certain individuals. Notably, the Italian romantic futurist poet, Gabriele D’Annunzio, embarked on a mission to Fiume. It was here that the Charter of Carnaro, infused with his poetic mastery and camaraderie with syndicalist sympathizers, was penned. This charter brimmed with the vision of a new harmonious nation founded on class cooperation, granting autonomy to various occupations and fostering class democracy to harmonize the existing social strata within the unity of the state."
+### 
 statist_showaist_subtype: "Statist Showaism"
 statist_showaist_subtype_desc: "§Y(Statist Showaism)§!\n\nSince the ascension of the present emperor to the Chrysanthemum throne, the Japanese Empire has experienced a downfall. The economy has reached a critical point, and the immigration of Koreans, as well as liberal influences in Japanese politics, have only served to inspire right-wing extremists. Led by militarist advocates and the generals of the Imperial Armed Forces on Yamato Island, their only goal is to purify the island and rid it of any corrupted Western ideology once and for all.\n\nUnder the banner of Showa restoration, the far-right has embraced nationalistic and other right-wing ideas from Europe, but with a twist of socialism. This has led to the creation of Showaism, an ideology that seeks to purify the Japanese Empire. Nakano Seigo, a Japanese politician and one of Showaism's advocates, believes that the combination of corporatism and state socialism can help to reform the bureaucracy and rid it of corrupted and unpure liberal ideas. By making nationalism a central principle in policy-making and relying on trusted and fair overseers, the Japanese bureaucracy can be protected and purified.\n\nTo ensure the protection of the purity of the Japanese bureaucracy, a special government district will be created across Yamato Island. Feudalism will be adapted to some aspects of corporatism to ensure a balanced system of governance."
 integralism_subtype: "Integralism"
@@ -109,7 +144,7 @@ legionarism_subtype_desc: "§Y(Legionarism)§!\n\nFirst popularized by the Iron 
 klan_nationalism_subtype: "Klan Nationalism"
 klan_nationalism_subtype_desc: "§Y(Klan Nationalism)§!\n\nKlan Nationalism is a generic name of the White Supremacist ideology esposed by the American Ku Klux Klan. Varied in its approach to how it handles issues concerning race and ethnicity, the varied sects of the Klan all agree on one thing - White is right. From supporting Back to Africa plans to advocating to a total return the slavery, the ideas of the Klan are varied and diverse, but they can all agree that piety, nationalism, white supremacism, American exceptionalism, and militarism are all Godly pursuits."
 
-### Valkist
+### 
 panasian_nichirenist_subtype: "Pan-Asian Nichirenism"
 panasian_nichirenist_subtype_desc: "§Y(Pan-Asian Nichirenism)§!\n\nThe evolution of Nichirenism began with Tanaka Chigaku, the father of Nichirenism, who believed that Nichiren Buddhism is the supreme truth, above all other beliefs in Yamato Island. The logos of Nichirenism must be followed by everyone, from the Emperor to bureaucrats and even common people. In the Japanese interpretation of the Lotus Sutra, it is believed that the Buddha is the only supreme being and even the center of the universe. Buddha's logos represent the supreme truth of the universe, and the Emperor will become the Marshal of the Holy Armed Forces and the viceroy of Buddha. He will guide the unification of Asia on the right and absolute path. After the world has been unified, the Lotus Sutra shall be taught in every corner of the world.\n\nLater, Nichirenism was further developed by Inoue Nissho, a preacher and former army spy who joined the Xinhai Revolution. He believed that he received the truth from Buddha while taking refuge in an abandoned temple and was motivated to study Nichiren Buddhism. He joined Chigaku's association in teaching Nichirenism and developed Pan-Asianism and Nichirenism together. He believed that Japan was the center of the world, specifically the Sino-Indosphere, and the unification of Asia was equal to unification of the world. The Lotus Sutra must be spread from where the sun was risen (Japan) and the sun was set (India), and there is no faith that is above the Lotus Sutra from west to east."
 occultism_subtype: "Esotericism"

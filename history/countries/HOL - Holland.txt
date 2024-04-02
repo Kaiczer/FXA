@@ -28,7 +28,17 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	paternal_autocrat = 58
+	revolutionary_nationalist = 12
+	volkist = 5
+	social_conservative = 4
+	social_liberal = 3
+	classical_liberal = 5
+	authoritarian = 13
+}
+recruit_character = HOL_Cornelis_Jacobus_Snijders
+GER = { add_to_faction = HOL }
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

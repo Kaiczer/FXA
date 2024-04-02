@@ -35,4 +35,20 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+create_faction = "Intermarium"
+every_country = {
+	limit = {
+		OR = {
+			tag = UKR
+			tag = BLR
+			tag = LIT
+		}
+	}
+	POL = {
+		set_autonomy = {
+			target = PREV 
+			autonomous_state = associated_government
+		}
+		add_to_faction = PREV 
+	}
+}
