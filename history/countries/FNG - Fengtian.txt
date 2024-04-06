@@ -28,11 +28,17 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	social_conservative = 7
+	classical_liberal = 7
+	authoritarian = 33
+	paternal_autocrat = 53
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
+recruit_character = FNG_Zhang_Zuolin
 

@@ -1,16 +1,20 @@
+
 state={
 	id=642
 	name="STATE_642"
-	provinces={
-		1252 1404 2047 4236 4323 5226 7231 7299 7415 10181 10237 10325 12196 12243 
-	}
-	history = {
-		owner = BEI  
+
+	history={
+		owner = BEI
 		add_core_of = DEI
-		add_claim_by = BEI 
+		add_claim_by = BEI
+
 	}
+
+	provinces={
+		1252 1404 4236 4323 5176 7231 7299 7355 7415 10181 10237 10325 12196 12225 12243 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

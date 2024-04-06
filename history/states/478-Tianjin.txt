@@ -9,9 +9,11 @@ state={
 		add_core_of = ANH
 		add_core_of = FNG 
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 10068 }
+		victory_points = { 10068 15 }
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
+	manpower=0
+	state_category = major_port
 }

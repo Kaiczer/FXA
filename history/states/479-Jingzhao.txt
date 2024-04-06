@@ -6,12 +6,16 @@ state={
 		owner = FNG
 		add_core_of = FNG 
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 1134 }
+		add_to_array = { state_victory_points = 9843 }
+		victory_points = { 9843 50 }
+		victory_points = { 1134 6 } #Gu'an city
 	}
 	provinces={
 		1134 4140 6828 9843 11761 12026 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
+	manpower=0
+	state_category = urbanised_region
 }
