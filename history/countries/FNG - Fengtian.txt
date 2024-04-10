@@ -29,10 +29,11 @@ if = {
 	}
 }
 set_popularities = {
-	social_conservative = 7
-	classical_liberal = 7
-	authoritarian = 33
-	paternal_autocrat = 53
+	social_conservative = 3
+	classical_liberal = 8
+	social_liberal = 6
+	authoritarian = 32
+	paternal_autocrat = 51
 }
 set_politics = {	
 	ruling_party = paternal_autocrat
@@ -40,5 +41,5 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-recruit_character = FNG_Zhang_Zuolin
+recruit_character = FNG_zhang_zuolin
 

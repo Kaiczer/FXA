@@ -28,11 +28,20 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	authoritarian_socialist = 3
+	vanguard_socialist = 2
+	authoritarian = 42
+	paternal_autocrat = 48
+	classical_liberal = 2
+	social_conservative = 2
+	social_liberal = 1
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
+recruit_character = SHO_kiel_commission
 

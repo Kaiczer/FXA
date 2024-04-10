@@ -28,11 +28,16 @@ if = {
 		}
 	}
 }
-
+set_popularities = {
+	social_democrat = 10
+	social_liberal = 54
+	classical_liberal = 27
+	social_conservative = 9
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = social_liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+recruit_character = SWI_swiss_federal_council

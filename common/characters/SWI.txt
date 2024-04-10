@@ -1,0 +1,30 @@
+characters = {
+	SWI_swiss_federal_council = {
+		name = "Federal Council"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SWI/SWI_swiss_federal_council.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+			traits = { }
+		}
+	}
+}
