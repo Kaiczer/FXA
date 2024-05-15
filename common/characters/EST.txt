@@ -1,0 +1,14 @@
+characters = {
+	EST_konstantin_pats = {
+		name = "Konstantin Päts"
+		portraits = {
+			civilian = "gfx/leaders/EST/EST_konstantin_pats.png"
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}

@@ -8,13 +8,9 @@ characters = {
 		}
 		country_leader = {
 			ideology = authoritarian_subtype
-    		# desc = ""
-			traits = { }
 		}
 		country_leader = {
 			ideology = paternal_autocrat_subtype
-    		# desc = ""
-			traits = { }
 		}
 	}
 	RHI_Konrad_Adenauer = {
@@ -26,8 +22,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = christian_democracy_subtype
-			traits = {
-			}
 		}
 	}
 	RHI_Josef_Friedrich_Matthes = {
@@ -39,9 +33,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = social_democrat_subtype
-    		#desc = ""
-			traits = {
-			}
 		}
 	}
 	RHI_Hans_Adam_Dorten = {
@@ -53,9 +44,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = revolutionary_nationalist_subtype
-    		#desc = ""
-			traits = {
-			}
 		}
 	}
 }

@@ -1,0 +1,11 @@
+characters = {
+	BUL_ivan_dochev = {
+		name = "Ivan Dochev"
+		portraits = {
+			civilian = "gfx/leaders/BUL/BUL_ivan_dochev.png"
+		}
+		country_leader = {
+			ideology = revolutionary_nationalist_subtype
+		}
+	}
+}

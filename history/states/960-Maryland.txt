@@ -2,15 +2,18 @@
 state={
 	id=960
 	name="STATE_960"
-	provinces={
-		3957 6892 6984 9758 11892 13628 
-	}
-	history = {
+
+	history={
 		owner = USA
 		add_core_of = USA
+
 	}
+
+	provinces={
+		3957 6892 6984 11892 13628 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

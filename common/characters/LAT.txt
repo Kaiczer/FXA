@@ -1,0 +1,13 @@
+characters = {
+	LAT_karlis_ulmanis = {
+		name = "Kārlis Ulmanis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LAT/LAT_karlis_ulmanis.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+	}
+}

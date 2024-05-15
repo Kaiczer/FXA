@@ -1,0 +1,18 @@
+characters = {
+	POR_oscar_carmona = {
+		name = "António Óscar de Fragoso Carmona"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/POR_oscar_carmona.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+	}
+}

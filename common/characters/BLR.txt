@@ -1,0 +1,14 @@
+characters = {
+	BLR_vasil_zacharka = {
+		name = "Vasil Zacharka"
+		portraits = {
+			civilian = "gfx/leaders/BRL/BLR_vasil_zacharka.png"
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+	}
+	BLR_jan_sierada = {
+		name = "Ivan Sierada"	
+	}
+}

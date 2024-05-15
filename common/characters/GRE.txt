@@ -1,0 +1,17 @@
+characters = {
+	GRE_nikolaos_plastiras = {
+		name = "Nikolaos Plastiras"
+		portraits = {
+			civilian = "gfx/leaders/GRE/GRE_nikolaos_plastiras.png"
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}

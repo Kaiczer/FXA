@@ -1,0 +1,50 @@
+characters = {
+	ZHI_sun_chuanfang = {
+		name = "Sun Chuanfang"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZHI/ZHI_Sun_Chuanfang.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = ZHI_sun_chuanfang_sic
+			allowed = { FNG = { has_country_leader = { character = FNG_zhang_zuolin } } }
+			traits = {  }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	ZHI_cao_kun = {
+		name = "Cao Kun"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZHI/ZHI_cao_kun.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = ZHI_sun_chuanfang_sic
+			allowed = { has_country_leader = { character = ZHI_sun_chuanfang } }
+			traits = {  }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+}

@@ -1,0 +1,11 @@
+characters = {
+	FIN_pehr_evind_svinhufvud = {
+		name = "Pehr Evind Svinhufvud"
+		portraits = {
+			civilian = "gfx/leaders/FIN/FIN_pehr_evind_svinhufvud.png"
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+	}
+}

@@ -1,0 +1,13 @@
+characters = {
+	SPA_niceto_alcala_zamora = {
+		name = "Niceto Alcalá-Zamora y Torres"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SPA/SPA_niceto_alcala_zamora.png"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+		}
+	}
+}

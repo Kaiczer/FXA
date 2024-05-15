@@ -2,12 +2,15 @@
 state={
 	id=811
 	name="STATE_811"
-	provinces={
-		7194 13572 13584 
+
+	history={
+		owner = MUS
+		add_core_of = MUS
+
 	}
-	history = {
-		owner = LBA
-		add_core_of = LBA
+
+	provinces={
+		2103 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -29,21 +29,29 @@ if = {
 	}
 }
 
-set_politics = {	
-	ruling_party = paternal_autocrat
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-}
+527 = { set_demilitarized_zone = yes }
+533 = { set_demilitarized_zone = yes }
+511 = { set_demilitarized_zone = yes }
 
 ## Truce of Wuhan ##
 diplomatic_relation = { country = FNG relation = non_aggression_pact }
 diplomatic_relation = { country = ZHI relation = non_aggression_pact }
 diplomatic_relation = { country = SHX relation = non_aggression_pact }
-## Recognization of between Ma Family Warlords and Nanjing Government## 
+## Recognization of between Ma Family Warlords and Nanjing Government ## 
 diplomatic_relation = { country = XSM relation = non_aggression_pact }
 give_guarantee = XSM
 XSM = { give_guarantee = PREV }
 diplomatic_relation = { country = SIK relation = non_aggression_pact }
 give_guarantee = SIK
 SIK = { give_guarantee = PREV }
+
+recruit_character = CHI_jiang_jieshi
+set_popularities = {
+	paternal_autocrat = 100
+}
+set_politics = {	
+	ruling_party = paternal_autocrat
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}

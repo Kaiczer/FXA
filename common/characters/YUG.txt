@@ -1,0 +1,14 @@
+characters = {
+	YUG_alexander_i = {
+		name = "Alexander I"
+		portraits = {
+			civilian = "gfx/leaders/YUG/YUG_alexander_i.png"
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+	}
+}

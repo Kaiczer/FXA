@@ -8,8 +8,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = vanguard_socialist_subtype
-    		desc = ""
-			traits = { }
 		}
 	}
 	SOV_Mikhail_Kalinin = {
@@ -21,10 +19,6 @@ characters = {
 		}
 		country_leader = {
 			ideology = vanguard_socialist_subtype
-    		desc = ""
-			traits = {
-				
-			}
 		}
 	}
 }

@@ -32,13 +32,19 @@ if = {
 FNG = {
 	set_autonomy = {
 		target = PREV 
-		autonomous_state = governorate
+		autonomous_state = autonomous_governorate
 	}
 }
+set_popularities = {
+	authoritarian = 85
+	paternal_autocrat = 5
+	classical_liberal = 5
+	social_conservative = 5
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = authoritarian
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+recruit_character = FNG_zhang_jinghui

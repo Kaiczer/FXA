@@ -15,4 +15,15 @@ characters = {
 			traits = { }
 		}
 	}
+	FNG_zhang_jinghui = {
+		name = "Zhang Jinghui"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FNG/FNG_zhang_jinghui.png"
+			}
+		}
+		country_leader = { # For Mengjiang
+			ideology = authoritarian_subtype
+		}
+	}
 }

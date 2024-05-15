@@ -28,9 +28,12 @@ if = {
 		}
 	}
 }
-
+recruit_character = USA_hiram_warren_johnson
+set_popularities = {
+	classical_liberal = 100
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = classical_liberal
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

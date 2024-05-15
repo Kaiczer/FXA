@@ -1,16 +1,19 @@
+
 state={
 	id=797
 	name="STATE_797"
-	provinces={
-		7076 
-	}
-	history = {
+
+	history={
 		owner = LBA
 		add_core_of = LBA
+
 	}
 	impassable = yes
+	provinces={
+		1057 7076 8069 13577 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

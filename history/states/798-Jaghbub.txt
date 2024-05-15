@@ -2,12 +2,15 @@
 state={
 	id=798
 	name="STATE_798"
-	provinces={
-		1057 1060 1140 4133 4200 8069 10785 13577 
+
+	history={
+		owner = WEA
+		add_core_of = WEA
+
 	}
-	history = {
-		owner = LBA
-		add_core_of = LBA
+
+	provinces={
+		1975 2001 2056 7950 12707 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

@@ -32,22 +32,24 @@ if = {
 create_faction = eurospakt
 
 set_popularities = {
-	volkist = 39
+	authoritarian_socialist = 7
+	volkist = 40
 	revolutionary_nationalist = 11
 	reactionary_ultranationalist = 11
-	paternal_autocrat = 11
+	paternal_autocrat = 4
 	authoritarian = 15
-	social_conservative = 13
+	social_conservative = 12
 }
 add_coalition_social_conservative = yes 
 add_coalition_revolutionary_nationalist = yes
+add_coalition_authoritarian_socialist = yes
 set_politics = {	
 	ruling_party = volkist
 	last_election = "1932.4.10" #Last election in 1932 before Prussian Putch
-	election_frequency = 84
+	election_frequency = 84 #why the term is so long af
 	elections_allowed = no 
 }
 
 ## Starting Characters ##
 recruit_character = GER_Adam_Dressler
-recruit_character = GER_Wilhelm_Teudt
+recruit_character = GER_Wilhelm_Teudt #Viceroy of President in DNVP

@@ -28,11 +28,13 @@ if = {
 		}
 	}
 }
-
+recruit_character = NOR_haakon_vii
+set_popularities = {
+	social_conservative = 100
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-

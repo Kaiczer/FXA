@@ -28,14 +28,7 @@ if = {
 		}
 	}
 }
-
-set_politics = {	
-	ruling_party = paternal_autocrat
-	last_election = "1933.3.5"
-	election_frequency = 48
-	elections_allowed = no
-}
-create_faction = "Intermarium"
+create_faction = "Intermarium Commonwealth"
 every_country = {
 	limit = {
 		OR = {
@@ -44,11 +37,11 @@ every_country = {
 			tag = LIT
 		}
 	}
-	POL = {
-		set_autonomy = {
-			target = PREV 
-			autonomous_state = associated_government
-		}
-		add_to_faction = PREV 
-	}
+	add_to_faction = PREV
+}
+set_politics = {	
+	ruling_party = authoritarian
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
 }

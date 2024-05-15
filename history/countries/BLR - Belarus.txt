@@ -28,9 +28,15 @@ if = {
 		}
 	}
 }
-
+POL = {
+	set_autonomy = {
+		target = PREV  
+		autonomous_state = associated_government
+	}
+}
+recruit_character = BLR_vasil_zacharka
 set_politics = {	
-	ruling_party = revolutionary_nationalist
+	ruling_party = social_democrat 
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

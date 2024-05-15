@@ -1,0 +1,42 @@
+characters = {
+	CHI_jiang_jieshi = {
+		name = "Jiang Jieshi"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CHI/CHI_jiang_jieshi_civilian.png"
+			}
+			army = {
+				large = "gfx/leaders/CHI/CHI_jiang_jieshi_military.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = revolutionary_nationalist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = volkist_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = reactionary_ultranationalist_subtype
+			traits = { }
+		}
+		field_marshal = {
+			#desc = placeholder
+			#traits = {  }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 4
+		}
+	}
+}

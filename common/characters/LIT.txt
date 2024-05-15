@@ -1,0 +1,13 @@
+characters = {
+	LIT_lucjan_zeligowski = {
+		name = "Lucjan Żeligowski"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LIT/LIT_lucjan_zeligowski.png"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+	}
+}

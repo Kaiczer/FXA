@@ -1,0 +1,11 @@
+characters = {
+	CZE_ludvik_krejci = {
+		name = "Ludvík Krejčí"
+		portraits = {
+			civilian = "gfx/leaders/CZE/CZE_ludvik_krejci.png"
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}

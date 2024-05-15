@@ -1,4 +1,4 @@
-set_cosmetic_tag = IRQ_protectorate
+set_cosmetic_tag = IRQ_Syria
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
@@ -29,7 +29,12 @@ if = {
 		}
 	}
 }
-
+ENG = {
+	set_autonomy = {
+		autonomous_state = autonomous_puppet
+		target = PREV
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

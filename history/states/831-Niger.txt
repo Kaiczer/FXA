@@ -6,11 +6,13 @@ state={
 	history={
 		owner = WEA
 		add_claim_by = WEA
+		add_claim_by = AIR
 		add_core_of = NGR
+
 	}
 
 	provinces={
-		1975 2001 2056 7950 8028 10758 10780 10805 12707 
+		8028 10758 10780 10805 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

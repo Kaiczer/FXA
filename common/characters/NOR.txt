@@ -1,0 +1,28 @@
+characters = {
+	NOR_haakon_vii = {
+		name = "Haakon VII"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NOR/NOR_haakon_vii.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democrat_subtype
+		}
+		country_leader = {
+			ideology = social_liberal_subtype
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+		}
+		country_leader = {
+			ideology = social_conservative_subtype
+		}
+		country_leader = {
+			ideology = authoritarian_subtype
+		}
+		country_leader = {
+			ideology = paternal_autocrat_subtype
+		}
+	}
+}

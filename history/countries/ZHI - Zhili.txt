@@ -1,4 +1,4 @@
-﻿set_cosmetic_tag = ZHI_akc
+﻿#set_cosmetic_tag = ZHI_akc
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
@@ -29,6 +29,8 @@ if = {
 		}
 	}
 }
+525 = { set_demilitarized_zone = yes }
+510 = { set_demilitarized_zone = yes }
 FNG = {
 	set_autonomy = {
 		target = PREV 
@@ -41,4 +43,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+recruit_character = ZHI_sun_chuanfang #Vice President of China
+recruit_character = ZHI_cao_kun #Vice Chairman of Zhengzhou NPC, acting Zhili leader
 
+ZHI_sun_chuanfang = { retire = yes } #Wait for NPC Reshuffle

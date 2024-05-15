@@ -1,0 +1,13 @@
+characters = {
+	USA_hiram_warren_johnson = {
+		name = "Hiram Warren Johnson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_hiram_johnson.png"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberal_subtype
+		}
+	}
+}

@@ -5,12 +5,12 @@ characters = {
 			civilian = {
 				large = "gfx/leaders/HOL/HOL_Cornelis_Jacobus_Snijders.png"
 			}
+			army = {
+				large = "gfx/leaders/HOL/HOL_Cornelis_Jacobus_Snijders.png"
+			}
 		}
 		country_leader = {
 			ideology = paternal_autocrat_subtype
-			traits = {
-
-			}
 		}
 	}
 }
