@@ -1,15 +1,19 @@
+
 state={
 	id=1052
 	name="STATE_1052"
-	provinces={
-		8149 10942 13347 13360 13371 13540 
-	}
-	history = {
-		owner = PRU 
+
+	history={
+		owner = PRU
 		add_core_of = PRU
+
 	}
+
+	provinces={
+		8149 10942 13347 13360 13540 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }
