@@ -1,8 +1,5 @@
 ﻿l_english:
 
-# Description
-MEX_FUHRERREDUX_DESC: "Suffering immense political turmoil at the turn of the century, Mexico became centralized under Venustiano Carranza. On a wave of anti-American sentiment (especially over the Tampico affair), the country eventually had war declared on it by the United States. After its defeat, the country became an American client state. Now free after the collapse of the American economy, the country has become divided by three nationalistic factions, each with their own vision of a Greater Mexico."
-
 ### Country Names
 MEX_revolutionary_socialist_ADJ: "Mexican"
 MEX_revolutionary_socialist_DEF: "the United Provinces of Mexico"
@@ -36,10 +33,10 @@ MEX_volkist_DEF: "the Federated States of Mexico"
 
 #### Political Parties ####
 
-MEX_soviet_socialist_party: "C"
-MEX_soviet_socialist_party_long: "Comunistas"
-MEX_soviet_socialist_party: "NV"
-MEX_soviet_socialist_party_long: "Neo-Villistas"
+MEX_authoritarian_socialist_party: "C"
+MEX_authoritarian_socialist_party_long: "Comunistas"
+MEX_vanguard_socialist_party: "NV"
+MEX_vanguard_socialist_party_long: "Neo-Villistas"
 MEX_revolutionary_socialist_party: "LMAS"
 MEX_revolutionary_socialist_party_long: "Liga Mexicana de Anarcho-Socialistas"
 MEX_social_democrat_party: "ERI"
