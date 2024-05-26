@@ -1,15 +1,15 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_soviet_socialist_small"
-		texturefile = "gfx/interface/ideologies/auth_socialism_small.png"
+		name = "GFX_authoritarian_socialist_small"
+		texturefile = "gfx/interface/ideologies/authoritarian_socialist_small.png"
 	}
 	spriteType = {
-		name = "GFX_soviet_socialist_small"
-		texturefile = "gfx/interface/ideologies/soviet_socialist_small.png"
+		name = "GFX_vanguard_socialist_small"
+		texturefile = "gfx/interface/ideologies/vanguard_socialist_small.png"
 	}
 	spriteType = {
-		name = "GFX_broad_socialist_small"
-		texturefile = "gfx/interface/ideologies/broad_socialist_small.png"
+		name = "GFX_revolutionary_socialist_small"
+		texturefile = "gfx/interface/ideologies/revolutionary_socialist_small.png"
 	}
 	spriteType = {
 		name = "GFX_social_democrat_small"
@@ -23,13 +23,21 @@ spriteTypes = {
 		name = "GFX_classical_liberal_small"
 		texturefile = "gfx/interface/ideologies/classical_liberal_small.png"
 	}
-  	spriteType = {
-		name = "GFX_authoritarian_small"
-		texturefile = "gfx/interface/ideologies/authoritarian_democrat_small.png"
-	}
 	spriteType = {
 		name = "GFX_social_conservative_small"
 		texturefile = "gfx/interface/ideologies/social_conservative_small.png"
+	}
+	spriteType = {
+		name = "GFX_authoritarian_small"
+		texturefile = "gfx/interface/ideologies/authoritarian_small.png"
+	}
+	spriteType = {
+		name = "GFX_revolutionary_nationalist_small"
+		texturefile = "gfx/interface/ideologies/revolutionary_nationalist_small.png"
+	}
+	spriteType = {
+		name = "GFX_volkist_small"
+		texturefile = "gfx/interface/ideologies/volkist_small.png"
 	}
 	spriteType = {
 		name = "GFX_paternal_autocrat_small"
@@ -39,10 +47,6 @@ spriteTypes = {
 		name = "GFX_reactionary_ultranationalist_small"
 		texturefile = "gfx/interface/ideologies/reactionary_ultranationalism_small.png"
   	}
-	spriteType = {
-		name = "GFX_volkist_small"
-		texturefile = "gfx/interface/ideologies/valkist_small.png"
-	}
 
 }
 
