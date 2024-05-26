@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-HAI_soviet_socialist: "People's Republic of Haiti"
-HAI_soviet_socialist_ADJ: "Haitian"
-HAI_soviet_socialist_DEF: "Haitian"
-HAI_soviet_socialist: "People's Republic of Haiti"
-HAI_soviet_socialist_ADJ: "Haitian"
-HAI_soviet_socialist_DEF: "Haitian"
+HAI_authoritarian_socialist: "People's Republic of Haiti"
+HAI_authoritarian_socialist_ADJ: "Haitian"
+HAI_authoritarian_socialist_DEF: "Haitian"
+HAI_vanguard_socialist: "People's Republic of Haiti"
+HAI_vanguard_socialist_ADJ: "Haitian"
+HAI_vanguard_socialist_DEF: "Haitian"
 HAI_revolutionary_socialist: "People's Republic of Haiti"
 HAI_revolutionary_socialist_ADJ: "Haitian"
 HAI_revolutionary_socialist_DEF: "Haitian"
@@ -37,10 +37,10 @@ HAI_volkist_DEF: "Haitian"
 
 ### Political Parties ###
 
-HAI_soviet_socialist_party: "PcH"
-HAI_soviet_socialist_party_long: "Parti communiste Haïtien"
-HAI_soviet_socialist_party: "PpH"
-HAI_soviet_socialist_party_long: "Parti du peuple Haïtien"
+HAI_authoritarian_socialist_party: "PcH"
+HAI_authoritarian_socialist_party_long: "Parti communiste Haïtien"
+HAI_vanguard_socialist_party: "PpH"
+HAI_vanguard_socialist_party_long: "Parti du peuple Haïtien"
 HAI_revolutionary_socialist_party: "GHL"
 HAI_revolutionary_socialist_party_long: "Gratuit Haiti League"
 HAI_social_democrat_party: "S"
@@ -59,8 +59,3 @@ HAI_reactionary_ultranationalist_party: "Nationaux"
 HAI_reactionary_ultranationalist_party_long: "Nationaux"
 HAI_volkist_party: "PANH"
 HAI_volkist_party_long: "Parti Agraire National Haïtien"
-
-### Events
-haiti.1.t: "Haitian Independence"
-haiti.1.d: "President Calixte and the elite of the Garde d'Haiti paraded through Port-au-Prince to declare Haitian Independence Day, a day which seems ironic to many considering Haiti's political situation. Haiti gained its independence when the United States has collapsed due to internal divisions following the catastrophic defeat against Mexico; which in turn provided an opportunity for the newly installed President to coup the former American lapdog, Louis Borno."
-haiti.1.a: "Libète, Egalite, Fratènite"

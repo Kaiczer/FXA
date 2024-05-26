@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-HON_soviet_socialist: "Workers' State of Honduras"
-HON_soviet_socialist_ADJ: "Honduran"
-HON_soviet_socialist_DEF: "Workers' State of Honduras"
-HON_soviet_socialist: "Honduran Socialist State"
-HON_soviet_socialist_ADJ: "Honduran"
-HON_soviet_socialist_DEF: "Honduran Socialist State"
+HON_authoritarian_socialist: "Workers' State of Honduras"
+HON_authoritarian_socialist_ADJ: "Honduran"
+HON_authoritarian_socialist_DEF: "Workers' State of Honduras"
+HON_vanguard_socialist: "Honduran Socialist State"
+HON_vanguard_socialist_ADJ: "Honduran"
+HON_vanguard_socialist_DEF: "Honduran Socialist State"
 HON_revolutionary_socialist: "Honduran Communal Republic"
 HON_revolutionary_socialist_ADJ: "Honduran"
 HON_revolutionary_socialist_DEF: "Honduran Communal Republic"
@@ -37,10 +37,10 @@ HON_volkist_DEF: "Blessed Honduran Republic"
 
 #### Political Parties ####
 
-HON_soviet_socialist_party: "PTR"
-HON_soviet_socialist_party_long: "Revolutionary Labor Party"
-HON_soviet_socialist_party: "PTR"
-HON_soviet_socialist_party_long: "Revolutionary Labor Party"
+HON_authoritarian_socialist_party: "PTR"
+HON_authoritarian_socialist_party_long: "Revolutionary Labor Party"
+HON_vanguard_socialist_party: "PTR"
+HON_vanguard_socialist_party_long: "Revolutionary Labor Party"
 HON_revolutionary_socialist_party: "PTR"
 HON_revolutionary_socialist_party_long: "Revolutionary Labor Party"
 HON_social_democrat_party: "PDR"
@@ -59,15 +59,3 @@ HON_reactionary_ultranationalist_party: "PRN"
 HON_reactionary_ultranationalist_party_long: "National Renewal Party"
 HON_volkist_party: "FSNH"
 HON_volkist_party_long: "National Salvationist Front of Honduras"
-
-#### Events ####
-
-#Honduras
-
-honduras.1.t: "The Madruga Coup"
-honduras.1.d: "In the early hours of the morning, before the sun had even broken fully above the horizon, a group of men marched into the home of the President Vicente Mejía Colindres. Weapons at the ready, the men spoke plainly: the president had led well, but with as recent elections had shown, the people wanted greater change. To enact that change, and answer the call of the vox populi, the Socialist Alliance, its leadership composed of many Nicaraguan expats, would be seizing power. \n Colindres agreed to formally step down before he was arrested, to be kept under lock and key, along with the rest of the Liberal Party leadership, until the control of the socialists has solidified. Today a new dawn has come for the nation of Honduras, in more ways than one."
-honduras.1.a: "The People have spoken their will."
-honduras.2.t: "Joining the Grand Republic"
-honduras.2.d: "It has been over a month since the coup against President Colindres. Mostly bloodless, there was thankfully little chaos amongst the populace. Liberal Party supporters have either kept quiet, abandoned their cause, or were arrested in the early protests. Those protestors have now either gone to trial if they were violent, or released, anger vented. \n Now with the situation noticeably calmer and the new socialist government properly structured, a discussion has arisen; our new state is modeled off of the Grand Republic of Centroamerica, who certainly helped supply us. With a joint belief in a Socialist, Pan-Hispanic state, some propose we immediately join the Grand Republic, while others believe we ought to pursue a more autonomous path. Most of the latter are those who believe in a more radical state than Grand Republic has become."
-honduras.2.a: "¡El pueblo unido, jamás será vencido!"
-honduras.2.b: "We will join... once they follow the right path."
