@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-JAP_soviet_socialist: "Federated Communal Republic of Japan" #日本公社連合共和国
-JAP_soviet_socialist_ADJ: "Japanese"
-JAP_soviet_socialist_DEF: "the Federated Communal Republic of Japan" 
-JAP_soviet_socialist: "United Provinces of Revolutionary Japan" #日本革命連邦共和国
-JAP_soviet_socialist_ADJ: "Japanese"
-JAP_soviet_socialist_DEF: "the United Provinces of Revolutionary Japan"
+JAP_authoritarian_socialist: "Federated Communal Republic of Japan" #日本公社連合共和国
+JAP_authoritarian_socialist_ADJ: "Japanese"
+JAP_authoritarian_socialist_DEF: "the Federated Communal Republic of Japan" 
+JAP_vanguard_socialist: "United Provinces of Revolutionary Japan" #日本革命連邦共和国
+JAP_vanguard_socialist_ADJ: "Japanese"
+JAP_vanguard_socialist_DEF: "the United Provinces of Revolutionary Japan"
 JAP_revolutionary_socialist: "Japanese Democratic People's Republic"
 JAP_revolutionary_socialist_ADJ: "Japan"
 JAP_revolutionary_socialist_DEF: "the Japanese Democratic People's Republic"
@@ -50,10 +50,10 @@ JAP_Suiheisha_revolutionary_socialist: "Democratic Confederation of Japan"
 JAP_Suiheisha_revolutionary_socialist_DEF: "the Democratic Confederation of Japan"
 JAP_Republican_revolutionary_socialist: "Socialist Republic of Japan"
 JAP_Republican_revolutionary_socialist_DEF: "the Socialist Republic of Japan"
-JAP_Republican_soviet_socialist: "Japanese Socialist Council Republic"
-JAP_Republican_soviet_socialist_DEF: "the Japanese Socialist Council Republic"
-JAP_Republican_soviet_socialist: "Japanese Revolutionary Communes"
-JAP_Republican_soviet_socialist_DEF: "the Federation of Japanese Revolutionary Communes"
+JAP_Republican_authoritarian_socialist: "Japanese Socialist Council Republic"
+JAP_Republican_authoritarian_socialist_DEF: "the Japanese Socialist Council Republic"
+JAP_Republican_vanguard_socialist: "Japanese Revolutionary Communes"
+JAP_Republican_vanguard_socialist_DEF: "the Federation of Japanese Revolutionary Communes"
 JAP_Red_Empire: "Dai Nihon Teikoku Renmei"
 JAP_Red_Empire_DEF: "the Greater Union of Imperial Japan"
 JAP_Social_Fem: "Federal Democratic Republic of Japan"
@@ -61,10 +61,10 @@ JAP_Social_Fem_DEF: "the Federal Democratic Republic of Japan"
 
 
 #### Political Parties ####
-JAP_soviet_socialist_party: "Shakai Zen'ei-ha" #社会前衛派
-JAP_soviet_socialist_party_long: "Nippon Shakaishugi Domei - Shakai Zen'ei-ha (Japan Socialist League - Vanguardist)"
-JAP_soviet_socialist_party: "Kyōsan-ha"
-JAP_soviet_socialist_party_long: "Nippon Shakaishugi Domei - Kyōsan-ha (Japan Socialist League - Communist)"
+JAP_authoritarian_socialist_party: "Shakai Zen'ei-ha" #社会前衛派
+JAP_authoritarian_socialist_party_long: "Nippon Shakaishugi Domei - Shakai Zen'ei-ha (Japan Socialist League - Vanguardist)"
+JAP_vanguard_socialist_party: "Kyōsan-ha"
+JAP_vanguard_socialist_party_long: "Nippon Shakaishugi Domei - Kyōsan-ha (Japan Socialist League - Communist)"
 JAP_revolutionary_socialist_party: "Kakumei-ha"
 JAP_revolutionary_socialist_party_long: "Nippon Shakaishugi Domei - Kakumei-ha (Japan Socialist League - Revolutionist)"
 JAP_social_democrat_party: "Shakai Taishūtō"
@@ -105,17 +105,14 @@ JAP_Suiheisha_revolutionary_socialist_party: "Kyokutō Suiheisha"
 JAP_Suiheisha_revolutionary_socialist_party_long: "Kyokutō Suiheisha (Far Eastern Society of Levellers)"
 JAP_Republican_revolutionary_socialist_party: "Jinmin-kai"
 JAP_Republican_revolutionary_socialist_party_long: "Saikō Jinmin Kumiai Hyōgi-kai (Supreme People's Union Council)"
-JAP_Republican_soviet_socialist_party: "Seito-ha"
-JAP_Republican_soviet_socialist_party_long: "Kyōsan-tō - Seito-ha (Japanese Communist Party - Orthodoxy)"
-JAP_Republican_soviet_socialist_party: "Zen'ei-sha"
-JAP_Republican_soviet_socialist_party_long: "Kyōsan-tō - Zen'ei-sha (Japanese Communist Party - Vanguardist)"
-JAP_Red_Empire_soviet_socialist_party: "Shin Sakurakai"
-JAP_Red_Empire_soviet_socialist_party_long: "Shin Sakurakai (New Sakura Society)"
+JAP_Republican_authoritarian_socialist_party: "Seito-ha"
+JAP_Republican_authoritarian_socialist_party_long: "Kyōsan-tō - Seito-ha (Japanese Communist Party - Orthodoxy)"
+JAP_Republican_vanguard_socialist_party: "Zen'ei-sha"
+JAP_Republican_vanguard_socialist_party_long: "Kyōsan-tō - Zen'ei-sha (Japanese Communist Party - Vanguardist)"
+JAP_Red_Empire_authoritarian_socialist_party: "Shin Sakurakai"
+JAP_Red_Empire_authoritarian_socialist_party_long: "Shin Sakurakai (New Sakura Society)"
 JAP_Social_Fem_revolutionary_socialist_party: "Jiritsu-ha"
 JAP_Social_Fem_revolutionary_socialist_party_long: "Kyōsan-tō - Jiritsu-ha (Japanese Communist Party - Autonomist)"
-
-#Fleet Name
-FLEET_NAME_JAP: "Kaigun Kantai $NUMBER$"
 
 # Character Test
 # Prime Ministers
@@ -125,7 +122,3 @@ JAP_Inukai_Tsuyoshi_hog_sco_desc: "§YPrime Minister\nSocial Conservative§!\n--
 JAP_Nakano_Seigo_hog_npo_desc: "§YDaijo-daijin\nNational Populist§!\n---------------\n"
 JAP_Tokugawa_Kuniyuki_hog_pau_desc: "§YWakadoshiyori\nPaternal Autocrat§!\n---------------\n"
 JAP_Tokugawa_Iemasa_hog_ade_desc: "§YWakadoshiyori\nAuthoritarian Democract§!\n---------------\n"
-JAP_Abe_Iso_hog_sde_desc: "§YPrime Minister\nSocial Democrat§!\n---------------\n"
-JAP_Katayama_Tetsu_hog_sde: "§YPrime Minister\nSocial Democrat§!\n---------------\n"
-JAP_Oyama_Ikuo_hog_col_desc: "§YGeneral Secretary of Supreme People's Congress\nVanguard Socialist§!\n---------------\n"
-JAP_Kuhara_Fusanosuke_hog_npo_desc: "§YPrime Minister\nNational Populist§!\n---------------\n"
