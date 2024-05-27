@@ -2,16 +2,19 @@
 state={
 	id=748
 	name="STATE_748"
-	provinces={
-		1549 1578 1634 5099 9823 10882 11871 12416 
-	}
-	history = {
+
+	history={
 		owner = SYR
 		add_claim_by = SYR
 		add_core_of = KUR
+
 	}
+
+	provinces={
+		1549 1578 1634 5099 9823 10882 11871 12416 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

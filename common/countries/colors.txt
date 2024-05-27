@@ -112,15 +112,15 @@ SWE = {
 }
 TMS = {
 	color = rgb { 130 70 135 }
-	color_ui = rgb { 100 150 105 }
+	color_ui = rgb { 130 70 135 }
 }
 DEI = {	
     color = rgb { 174 121 48 }
-	color_ui = rgb { 154 101 48 }
+	color_ui = rgb { 174 121 48 }
 }
 CZE = {
     color = rgb { 53 137 155 }
-    color_ui = rgb { 96 83 153 }
+    color_ui = rgb { 53 137 155 }
 }
 POL = {
 	color = rgb { 201 101 146 }
@@ -144,7 +144,7 @@ EST = {
 }
 LAT = {
 	color = rgb { 130 72 71 }
-	color_ui = rgb { 10 40 170 }
+	color_ui = rgb { 130 72 71 }
 }
 ITA = {
 	color = rgb { 72 125 78 }
@@ -499,8 +499,8 @@ GEO = {
 	color_ui = rgb { 114 47 55 }
 }
 ARM = {
-	color = rgb { 0 51 160 }
-	color_ui = rgb { 0 51 160 }
+	color = rgb { 14 49 247 }
+	color_ui = rgb { 14 49 247 }
 }
 LAO = {
 	color = rgb { 176  102  136 }

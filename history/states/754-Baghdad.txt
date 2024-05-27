@@ -2,15 +2,18 @@
 state={
 	id=754
 	name="STATE_754"
-	provinces={
-		78 1901 2004 2089 2097 5095 7977 7994 8001 10876 12046 12726 12839 12855 13747 
-	}
-	history = {
+
+	history={
 		owner = IRQ
 		add_core_of = IRQ
+
 	}
+
+	provinces={
+		78 1901 2004 2089 2097 5095 7977 7994 8001 10876 12726 12855 13747 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

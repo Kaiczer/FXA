@@ -2,16 +2,17 @@
 state={
 	id=752
 	name="STATE_752"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+	}
+
 	provinces={
-		3916 8123 10793 
+		1088 10087 
 	}
-	history = {
-		owner = IRQ
-		add_core_of = IRQ
-		add_core_of = KUR
-	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }
