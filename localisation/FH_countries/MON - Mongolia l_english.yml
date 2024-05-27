@@ -1,12 +1,12 @@
 ﻿l_english:
 
 ### Country Names
-MON_soviet_socialist: "Mongolian National Socialist Republic"
-MON_soviet_socialist_ADJ: "Mongolian"
-MON_soviet_socialist_DEF: "the Mongolian National Socialist Republic"
-MON_soviet_socialist: "Mongolian Soviet Republic"
-MON_soviet_socialist_ADJ: "Mongolian"
-MON_soviet_socialist_DEF: "the Mongolian Soviet Republic"
+MON_authoritarian_socialist: "Mongolian National Socialist Republic"
+MON_authoritarian_socialist_ADJ: "Mongolian"
+MON_authoritarian_socialist_DEF: "the Mongolian National Socialist Republic"
+MON_vanguard_socialist: "Mongolian Soviet Republic"
+MON_vanguard_socialist_ADJ: "Mongolian"
+MON_vanguard_socialist_DEF: "the Mongolian Soviet Republic"
 MON_revolutionary_socialist: "Mongolian People's Republic"
 MON_revolutionary_socialist_ADJ: "Mongolian"
 MON_revolutionary_socialist_DEF: "the Mongolian People's Republic"
@@ -38,11 +38,11 @@ MON_volkist_DEF: "the Great Oirat Mongol Nation"
 #Parties
 
 #Mongolian Revolutionary Party
-MON_soviet_socialist_party: "MKN"
-MON_soviet_socialist_party_long: "Mongolian Revolutionary Party" 
+MON_authoritarian_socialist_party: "MKN"
+MON_authoritarian_socialist_party_long: "Mongolian Revolutionary Party" 
 #Communist party of Mongolia
-MON_soviet_socialist_party: "PPM"
-MON_soviet_socialist_party_long: "People's Party of Mongolia"
+MON_vanguard_socialist_party: "PPM"
+MON_vanguard_socialist_party_long: "People's Party of Mongolia"
 #Socialist Party
 MON_revolutionary_socialist_party: "Socialist Party"
 MON_revolutionary_socialist_party_long: "Mongolian Socialist Party"
@@ -69,36 +69,3 @@ MON_reactionary_ultranationalist_party_long: "Buddhists League"
 #Mongolian Valkist Party
 MON_volkist_party: "Oirat Resurrectionist"
 MON_volkist_party_long: "Oirat Resurrectionist"
-
-#Events
-mon.1.t: "The Steppes of Mongolia"
-mon.1.d: "Mongolia has since its revolution struggled to stay independent, but in spite of numerous attempts to tame the Mongolian nation and its people, it has endured. As the proud descendants of Genghis Khan, Bogd Khan’s armies have sought to bring all Mongols within their reach into the new “Great Mongolian State” or “Bogd Khanate” as it is otherwise known. Largely successful in conquering most of Outer Mongolia, some of Eastern Inner Mongolia, and the small nation of Tuva, during the time of its revolution, it has since struggled to keep these tremendously large areas under its control./n/nAlthough Yuan Shikai had allowed Mongolia to stay independent, through an agreement made between him and Bogd Khan, others did not see the light restrictions that had been put upon Mongolia as enough (or simply because of personal greed). One such man was the Anhui Warlord Xu Shuzheng who decided to march on, the recently renamed capital, Niislei Khüree seeking his own personal fief. Resistance was sparse and unorganised as the attack was not expected and the Mongol armies were few and divided. The occupation of Niislei Khüree (and by proxy, Mongolia) went on for almost 2 years, before a plan was hatched to annihilate the occupying force, through a joint attack on the capital by Khatanbaatar and Sükhbaatar./n/nThe following years saw the slow development of Mongol industry through Bogd Khan’s “Delkhii Industrial Combine” and the beginnings of Mongol mobile warfare, thought up by the various generals of the Mongol nation, among them: Sükhbaatar and Khatanbaatar. Bogd Khan intended to use this new doctrine to win swift victories against the Chinese “nations” to the south, as Mongolia would never be able to win in any prolonged fighting./n/nIn 1924 the Bogd Khan suddenly dies. A nation in middle of reform and without a designated heir, the council, called the “Great Khural”, has been debating who to elect. But being a council divided between army officers, monks, politicians, and princes they’ve been unable to come to a conclusion for almost 12 years now."
-mon.1.a: "The debate must be settled once and for all!"
-mon.alliance.1.t: "Mongolia proposes an alliance"
-mon.alliance.1.d: ""
-mon.alliance.1.a: "We shall fight together!"
-mon.alliance.1.b: "We are not their lapdogs!"
-mon.alliance.2.t: "Tibet refuses our offer"
-mon.alliance.2.d: ""
-mon.alliance.2.a: "Then we will achieve victory alone!"
-
-
-#Ideas
-MON_without_khan: "A Khanate Without a Khan"
-MON_without_khan_desc: "Since the death of Bogd Khan, our great nation has been without a leader. This has caused our nation to freeze in its tracks, as the reforms of Bogd Khan were never finished. Still, the spirit of our great leader can be felt throughout the land, giving strength to our population in these harsh times."
-MON_tuva_nationalism: "Tuvan Nationalism"
-MON_tuva_nationalism_desc: "Tuvan Nationalism"
-MON_industrial_combine: "Delkhii Industrial Combine"
-MON_industrial_combine_desc: "Created to help aid in the industrialisation of Mongolia, the Delkhii Industrial Combine now uses its sizable funding, not on the industrial growth of our country, but on personal items of luxury and pleasure.\nWe should seek to either correct the DIC's path or abolish it completely."
-MON_nomad: "Nomad Society"
-MON_nomad_desc: "Mongolia is, by no means, up to western standars when it comes to industrialisation. We've come a long way since the establishment of the DIC, but our society is still largely nomadic. While this means that more warriors stand ready to fight for their country, it also means that the industry that we do have is much less effective than it should be."
-MON_doctrine: "Zahilgaant Dovtlolt"
-MON_doctrine_desc: "The 'Lightning Offensive' as it has come to be known. This will be our greatest weapon in the coming wars against the pitiful warlords to the south. The doctrine focuses on the use of mobile divisions in order to encircle large amounts of enemies and crush them when their supplies have been completely cut off.\nThe effects of this spirit will change as you progress as you go through the Mobile Warfare doctrine and complete various focuses."
-
-### DECISIONS ###
-TIB_war_decisions: "War decisions"
-TIB_invade_fengtian: "Invade Fengtian Governancy"
-TIB_invade_ma: "Invade Ma Clique"
-TIB_core_decisions: "Integration decisions"
-TIB_south_integration: "Southern Integration"
-TIB_east_integration: "Eastern Integration"
