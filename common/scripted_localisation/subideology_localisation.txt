@@ -182,8 +182,12 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocVolkist
 	text = {
-		trigger = { has_country_leader_ideology = panasian_nichirenist_subtype }
-		localization_key = panasian_nichirenist_subtype
+		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
+		localization_key = orthodox_nichirenism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = deutschevolkism_subtype }
+		localization_key = deutschevolkism_subtype
 	}
 	### Use the following text if you included additional subideology
 	text = {
@@ -287,8 +291,12 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyDescVolkist
 	text = {
-		trigger = { has_country_leader_ideology = panasian_nichirenist_subtype }
-		localization_key = panasian_nichirenist_subtype_desc
+		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
+		localization_key = orthodox_nichirenism_subtype_desc
+	}
+	text = {
+		trigger = { has_country_leader_ideology = deutschevolkism_subtype }
+		localization_key = deutschevolkism_subtype_desc
 	}
 	### Use the following text if you included additional subideology
 	text = {

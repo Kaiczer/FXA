@@ -29,7 +29,7 @@ ideologies = {
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
 		}
-		ai_neutral = yes	
+		ai_neutral = yes #ai_communist
 	}
 	vanguard_socialist = {
 		types = {
@@ -62,7 +62,7 @@ ideologies = {
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
 		}
-		ai_neutral = yes			
+		ai_neutral = yes #ai_communist	
 	}
 
 	revolutionary_socialist = {
@@ -99,7 +99,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes		
+		ai_neutral = yes #ai_communist	
 	}
 	
 	social_democrat = {
@@ -132,7 +132,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes	
+		ai_neutral = yes #ai_fascist
 	}
 	
 	social_liberal = {
@@ -165,7 +165,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes		
+		ai_neutral = yes #ai_fascist	
 	}
 
 	classical_liberal = {
@@ -199,7 +199,7 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes	
+		ai_neutral = yes #ai_fascist
 	}
 	
 	social_conservative = {
@@ -232,14 +232,14 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-		ai_neutral = yes		
+		ai_neutral = yes #ai_fascist	
 	}
 	
 	authoritarian = {
 		types = {
 			authoritarian_subtype = {}
 			national_conservatism_subtype = { can_be_randomly_selected = no }
-			auth_duumvirism_subtype = { can_be_randomly_selected = no }
+			shogunal_democracy = { can_be_randomly_selected = no }
 			controlled_democracy_subtype = { can_be_randomly_selected = no }
 			carlism_subtype = { can_be_randomly_selected = no }
 		}
@@ -267,7 +267,7 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
-		ai_neutral = yes		
+		ai_neutral = yes #ai_fascist		
 	}
 	revolutionary_nationalist = {
 		types = {
@@ -301,7 +301,7 @@ ideologies = {
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
 		}
-		ai_neutral = yes
+		ai_neutral = yes #ai_fascist
 	}
 	volkist = {
 		types = {
@@ -333,14 +333,13 @@ ideologies = {
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
 		}
-		ai_neutral = yes	
+		ai_neutral = yes #ai_fascist 	
 
 	}
 	paternal_autocrat = {
 		types = {
 			paternal_autocrat_subtype = { }
 			absolute_monarchism_subtype = { can_be_randomly_selected = no }
-			pat_duumvirism_subtype = { can_be_randomly_selected = no }
 			samurai_dictatorship_subtype = { can_be_randomly_selected = no }
 			caudillo_populism_subtype = { can_be_randomly_selected = no }
 			corporatocracy_subtype = { can_be_randomly_selected = no }
@@ -370,7 +369,7 @@ ideologies = {
 			navy_intel_to_others = 10.0
 			airforce_intel_to_others = 10.0
 		}
-		ai_neutral = yes			
+		ai_neutral = yes #ai_fascist 
 	}
 	reactionary_ultranationalist = {
 		types = {
@@ -402,6 +401,6 @@ ideologies = {
 			navy_intel_to_others = 12.5
 			airforce_intel_to_others = 7.5
 		}
-		ai_neutral = yes	
+		ai_neutral = yes #ai_fascist 
 	}
 }

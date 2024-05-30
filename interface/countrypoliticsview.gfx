@@ -597,8 +597,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/subideologies/national_conservatism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_auth_duumvirism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/duumvirism_group.png"
+		name = "GFX_ideology_shogunal_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/subideologies/shogunal_democracy_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_controlled_democracy_subtype"
@@ -643,10 +643,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_absolute_monarchism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/absolute_monarchism_group.png"
-	}
-	spriteType = {
-		name = "GFX_ideology_pat_duumvirism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/duumvirism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_samurai_dictatorship_subtype"
