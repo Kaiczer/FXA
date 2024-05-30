@@ -1,0 +1,88 @@
+########################################
+# Ideology Plurality effects
+# by ~mw~
+########################################
+
+authoritarian_socialist_plurality = {
+	check_variable = {
+		tooltip = authoritarian_socialist_plurality
+		highest_party_ideology = token:authoritarian_socialist
+	}
+}
+
+vanguard_socialist_plurality = {
+	check_variable = {
+		tooltip = vanguard_socialist_plurality
+		highest_party_ideology = token:vanguard_socialist
+	}
+}
+
+revolutionary_socialist_plurality = {
+	check_variable = {
+		tooltip = revolutionary_socialist_plurality
+		highest_party_ideology = token:revolutionary_socialist
+	}
+}
+
+social_democrat_plurality = {
+	check_variable = {
+		tooltip = social_democrat_plurality
+		highest_party_ideology = token:social_democrat
+	}
+}
+
+social_liberal_plurality = {
+	check_variable = {
+		tooltip = social_liberal_plurality
+		highest_party_ideology = token:social_liberal
+	}
+}
+
+classical_liberal_plurality = {
+	check_variable = {
+		tooltip = classical_liberal_plurality
+		highest_party_ideology = token:classical_liberal
+	}
+}
+
+social_conservative_plurality = {
+	check_variable = {
+		tooltip = social_conservative_plurality
+		highest_party_ideology = token:social_conservative
+	}
+}
+
+authoritarian_plurality = {
+	check_variable = {
+		tooltip = authoritarian_plurality
+		highest_party_ideology = token:authoritarian
+	}
+}
+
+revolutionary_nationalist_plurality = {
+	check_variable = {
+		tooltip = revolutionary_nationalist_plurality
+		highest_party_ideology = token:revolutionary_nationalist
+	}
+}
+
+volkist_plurality = {
+	check_variable = {
+		tooltip = volkist_plurality
+		highest_party_ideology = token:volkist
+	}
+}
+
+paternal_autocrat_plurality = {
+	check_variable = {
+		tooltip = paternal_autocrat_plurality
+		highest_party_ideology = token:paternal_autocrat
+	}
+}
+
+reactionary_ultranationalist_plurality = {
+	check_variable = {
+		tooltip = reactionary_ultranationalist_plurality
+		highest_party_ideology = token:reactionary_ultranationalist
+	}
+}

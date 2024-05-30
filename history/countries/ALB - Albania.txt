@@ -28,7 +28,12 @@ if = {
 		}
 	}
 }
-
+ITA = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = autonomous_territory
+	}
+}
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

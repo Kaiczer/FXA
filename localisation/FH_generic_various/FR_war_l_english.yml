@@ -1,7 +1,7 @@
 ﻿l_english:
 
 #UK Related stuff
-WAR_NAME_IND_ENG: "Indian Rebellion of 1936"
+WAR_NAME_IND_ENG: "Indian Rebellion of [ROOT.GetYear]"
 WAR_NAME_ENG_IND: "Imperial Reconquest of India"
 WAR_NAME_ENG_IRE: "The Second IRB Rising"
 WAR_NAME_ENG_CAN: "Imperial Restoration of Order to Canada"
@@ -23,15 +23,6 @@ CIVIL_WAR_NAME_SWF_SPA: "Spanish Civil War"
 CIVIL_WAR_NAME_SPN_SWF: "Spanish Civil War"
 CIVIL_WAR_NAME_SWF_SPN: "Spanish Civil War"
 
-
-#Portuguese Civil War
-WAR_NAME_POR_PRR: "Portuguese Civil War"
-WAR_NAME_PRR_POR: "Portuguese Civil War"
-
-# #Turkish Civil War
-# WAR_NAME_TUR_TRT: "Turkish Civil War"
-# WAR_NAME_TRT_TUR: "Turkish Civil War"
-
 #Bulgarian Civil War
 WAR_NAME_BUL_BSR: "Bulgarian Civil War"
 WAR_NAME_BSR_BUL: "Bulgarian Civil War"
@@ -41,25 +32,13 @@ WAR_NAME_SOV_RUS: "Second Russian Civil War"
 WAR_NAME_RUS_SOV: "Second Russian Civil War"
 
 #Second Great War
-WAR_NAME_GER_FRA: "The Second Great War"
-WAR_NAME_FRA_GER: "The Second Great War"
+WAR_NAME_GER_ENT: "The Second Weltkrieg"
+WAR_NAME_ENT_GER: "The Second Great War"
 
 #Third Mexican-American WAR
 WAR_NAME_MEX_USA: "Third Mexican-American War"
 WAR_NAME_USA_MEX: "Third Mexican-American War"
 
-#Franco-Swiss war
-WAR_NAME_FRA_SWI: "The Romandie War"
-WAR_NAME_SWI_FRA: "The Romandie War"
-
-#Italo-Swiss war
-WAR_NAME_ITA_SWI: "The Tessin War"
-WAR_NAME_SWI_ITA: "The Tessin War"
-
 #Franco-Italian war
 WAR_NAME_ITA_FRA: "The War of the Mediterranean"
 WAR_NAME_SWI_FRA: "The War of the Mediterranean"
-
-#Dahomey-Togoland war
-WAR_NAME_DAH_TOG: "War of Togolese independence"
-WAR_NAME_TOG_DAH: "War of Togolese independence"

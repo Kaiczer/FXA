@@ -1,0 +1,217 @@
+
+# checks whether the country in scope has the same government as ROOT (the country running the event/focus)
+has_same_government_as_ROOT = {
+	has_government = var:ROOT.current_party_ideology_group
+}
+
+# checks for country in scope: authoritarian_socialist, vanguard_socialist, or radical socialist
+has_socialist_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_socialist #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_socialist
+	}
+}
+
+# checks for country in scope: from social democrat to social conservative
+has_elected_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_elected #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_elected
+	}
+}
+
+# checks for country in scope: from social democrat to authoritarian democrat
+has_democratic_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_democratic #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_democratic
+	}
+}
+
+# checks for country in scope: authoritarian democrat, paternal autocrat, or national populist
+has_authoritarian_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_authoritarian
+	}
+}
+
+# checks for country in scope: paternal autocrat or national populist
+has_dictatorship_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_dictatorship #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_dictatorship
+	}
+}
+
+# checks for country in scope: market liberal or social conservative
+has_right_democratic_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_right_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_right_wing_democracy
+	}
+}
+
+# checks for country in scope: social democrat or social liberal
+has_left_democratic_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_left_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_left_wing_democracy
+	}
+}
+
+# checks for country in scope: authoritarian_socialist, authoritarian democrat, paternal autocrat or national populist
+has_any_authoritarian_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_any_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_any_authoritarian
+	}
+}
+
+# checks for country in scope: social democrat, social liberal or market liberal
+has_liberal_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_liberal #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_liberal
+	}
+}
+
+# checks for country in scope: social conservative or authoritarian democrat
+has_conservative_government = {
+	custom_trigger_tooltip = {
+		tooltip = FH_is_conservative #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = FH_is_conservative
+	}
+}
+
+has_coalition = {
+	has_variable = coalition_partners^num
+}
+
+# requires a temp variable coalition_target
+has_coalition_with_target = {
+	custom_trigger_tooltip = {
+		tooltip = has_coalition_with_target
+		has_variable = is_in_coalition_with_@var:coalition_target
+	}
+}
+
+is_in_coalition_with_authoritarian_socialist = {
+	set_temp_variable = { coalition_target = token:authoritarian_socialist }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_vanguard_socialist = {
+	set_temp_variable = { coalition_target = token:vanguard_socialist }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_revolutionary_socialist = {
+	set_temp_variable = { coalition_target = token:revolutionary_socialist }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_social_democrat = {
+	set_temp_variable = { coalition_target = token:social_democrat }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_social_liberal = {
+	set_temp_variable = { coalition_target = token:social_liberal }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_classical_liberal = {
+	set_temp_variable = { coalition_target = token:classical_liberal }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_social_conservative = {
+	set_temp_variable = { coalition_target = token:social_conservative }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_authoritarian = {
+	set_temp_variable = { coalition_target = token:authoritarian }
+	has_coalition_with_target = yes
+}
+is_in_coalition_with_revolutionary_nationalist = {
+	set_temp_variable = { coalition_target = token:revolutionary_nationalist }
+	has_coalition_with_target = yes
+}
+is_in_coalition_with_volkist = {
+	set_temp_variable = { coalition_target = token:volkist }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_paternal_autocrat = {
+	set_temp_variable = { coalition_target = token:paternal_autocrat }
+	has_coalition_with_target = yes
+}
+
+is_in_coalition_with_reactionary_ultranationalist = {
+	set_temp_variable = { coalition_target = token:reactionary_ultranationalist }
+	has_coalition_with_target = yes
+}
+
+# checks whether the country in scope has the same government type as ROOT (the country running the event/focus)
+# note that it's not the exact same government - just the general type, as above
+same_government_type_as_ROOT = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_democratic_government = yes
+			ROOT = { has_democratic_government = yes }
+		}
+		AND = {
+			has_dictatorship_government = yes
+			ROOT = { has_dictatorship_government = yes }
+		}
+	}
+}
+
+same_government_type_as_ROOT_authoritarian = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_elected_government = yes
+			ROOT = { has_elected_government = yes }
+		}
+		AND = {
+			has_authoritarian_government = yes
+			ROOT = { has_authoritarian_government = yes }
+		}
+	}
+}
+
+both_socialist_or_both_not_socialist = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			PREV = { has_socialist_government = yes }
+		}
+		AND = {
+			has_socialist_government = no
+			PREV = { has_socialist_government = no }
+		}
+	}
+}
+
+is_monarchy = {
+	custom_trigger_tooltip = {
+		tooltip = is_monarchy
+		has_socialist_government = no #nope, don't even bother
+		var:country_leader = {
+			OR = {
+				has_character_flag = is_monarch
+				has_character_flag = is_regent
+			}
+		}
+	}
+}
