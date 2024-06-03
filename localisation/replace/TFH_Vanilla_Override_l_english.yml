@@ -1,6 +1,9 @@
 ﻿l_english:
 
-### Borrowed from Kaiserreich, perhaps this will be reworked in future, I presume
+MENU_BAR_GAME_WIKI: "£GFX_flame_texticon  Report an Issue"
+MENU_DISCORD: "The Finest Hour Discord"
+MENU_TWITTER: "The Finest Hour Twitter"
+MENU_WIKIA: "The Finest Hour Wiki"
 
 ### Loading Messages
 LOADING_GUI: "Looking into the Museum"
@@ -571,10 +574,11 @@ upgrade_suicide_pills: "Suicide Pills"
 upgrade_training_centers: "Localised Training Centres"
 upgrade_commando_training: "Commando Training"
 
-### politics_l_english
+### Politics
 POLITICS_LEADER: "§TLeader: $LEADER|H$§!"
 POLITICS_NEXT_ELECTION: "Next Election: $DATE|H$"
 POLITICS_IDEA_CANCEL_DESC: "Will be cancelled if:"
+POLITICS_NOELECTIONS: "No Elections"
 
 ### production_l_english
 PRODUCTION_MATERIALS_ALUMINIUM: "Aluminium"

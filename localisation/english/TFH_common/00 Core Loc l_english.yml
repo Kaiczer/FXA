@@ -1,0 +1,38 @@
+﻿l_english:
+FINESTHOUR_CAREER_PROFILE: "The Finest Hour"
+
+### Intro Screen
+FH_SPLASH_TITLE: "§YLovingly Crafted by the The Finest Hour team:§!"
+FH_SPLASH_CREDITS: "dax · Todd Howard · Captain Kaiczer · Dej · AmCath · Lextzo · BobRossHD · AngryCatholic · JoeBidenWhatAreYouHiding · David Lu · RAus · ainsley · the feets guy · Smigly · ATonyAtLaw2021 · thanasislanaras · terroristguy · miklos · Log · Ahmed Pasha Al Said · 9504 · Pascal · Crazy Green Hair Guy · Mitchell · Fokel · Formula · The dëtæīłêd brëæd · Mapper History · Mr. Saltine · The Man who sold the World · Thought_West · karimlebg · Fire · Maisel · Denis_MD · Wickedonezz · bookthecook · KillerKemzstar · guerrillero · scipion34 \n\n§CThank you to the FR Team for letting us fork their mod:§!\nDarknight1342 · Jespertjee · Trimeon · Drowse · Spocklan116 · Steffplays123 · Arser · Kalmoire · Kaiserman · LuxLoser · Milekhippy · Terran117 · Teutonician Germanicus Danziger · Freidrich von Omansich · Kano901 · Raptor Jesus · Hellbat\n§RThank you to the KX Team:§!\n00matthew2000 · 404NameNotFound · about10balloons · Alpha Simp · AmCath · AngryCatholic · Avalon · Alonch · Arvidus · Big Agnar · Bomber · bchevy · Brapiš · cemeh · Chaseair · Chiang Kai-SWAG · C. Kyle · ClothCoat · Eanred · EmilianoZapata · Eric_Crazy · Fins_of_Finland · Flameshot19 · Frelious · Galaxi · GamerDalaiLama66 · GamerShah · gelurom · General Doge · Ghost Willy · GoldenHat · guneric · HAKOPMNTE_DEDA · Hain_Z · Idlemancer · Indyclone77 · Iranian Voodoo Doctor · JewishBastard · jocn · JoeBidenWhatAreYouHiding · Justyouraverage · kaan · Kakoopa · KaiserCharles · LCPL Owen · Lenin · leol · Log from Blammo! · Logandp7 · Malidus · Mladenov · Mister R.K. Moskowien · MrCuba · MrTomCruise · Murphy · Nickay · New England · O-K-I · Oneven · One Eyed Dragon · Ozmandiaz · Pogge · Providence · Shimilu · soclibdictator · Todd Howard · Tonitruant · Umerzaidi · Vozhd · Vlastelinum · Waghlon · Yaaaay · Yaroslav007 · and Zapinus.\n§GThank you to the KR4 Team:§!\nAdrianator2 · Alpinia · Arvidus · Asratius · Augenis · Blackfalcon501 · Carmain · Chazem · Conor · DSFDarker · El Daddy · Flamefang · Gaboemi · Gideones · Hamfast · hildagrim · Ido · Igor050301 · JazzyHugh · Jeankedezeehond · Jonny BL · KFateweaver · Kennedy · kergely · Krčo · Luwofe · Matoro · McOmghall · ~mw~ // miwaco · NukeGaming · OMD · Owenomaly · PPsyrius · Pelmen · RagnoStrangeros · Rei VL · Retrocognition · Rnk · Shiroe · Starguard · Story · suzuha · The Alpha Dog · The Irredentista · The Italian Jojo · Vidyaország · Zaddy-Chan and Zimbabwe Salt Co.\n\nThank you to, §OMnCnNn§! whom created the unit models that is integrated in this mod.\n\n§CAnd Thank you, the player, for playing our mod!§!"
+
+### Intro Event
+intro.1.t: "The Finest Hour Build 0.0.1 (Toward the Another Story)"
+intro.1.d: "After nearly quite sometime of waiting, we are overjoyed to annouce that version 0.1.11 has finally been released to the public! In this version you will find many changes throughout the globe; Ukraine and Japan have both been reworked, new focus icons have been added, tweaked trees and new fresh portraits have been inserted, Alexander's path has been fixed, Finland received some small love, the UK has received some minor content, and various improvements to the map in preparation for future updates have all been done.\nUnfortunately, we had to remove Turkish content temporarily, to resolve compatibility issues, but rest assured that Turkey is being worked on by the team, and it's rework will be ready soon! \n\nThis mod is continually worked on by a dedicated team of volunteers from around the globe, and we all greatly appreciate your kind words and time spent enjoying the content that we have created. From the bottom of our hearts, you all have our most sincere thanks!"
+intro.1.a: "Thanks!"
+
+### Autonomy ###
+integrated_puppet: "Integrated Puppet"
+occupied_puppet: "Occupied Puppet"
+default_puppet: "Puppet"
+autonomous_puppet: "Autonomous Puppet"
+nominal_puppet: "Nominal Puppet"
+associated_government: "Associated Government"
+colonial_government: "Colonial Government"
+federated_state: "Federated State"
+autonomous_territory: "Autonomous Territory"
+associated_governorate: "Associated Governorate"
+autonomous_governorate: "Autonomous Governorate"
+governorate: "Governorate"
+integrated_governorate: "Integrated Governorate"
+special_autonomous_dependency: "Autonomous Dependency"
+
+### Tooltips
+can_lower_autonomy_level: "Can lower autonomy level\n"
+can_raise_autonomy_level: "Can raise autonomy level\n"
+puppet_can_become_free: "May become independent"
+puppet_can_be_annexed: "May be annexed by the overlord"
+may_raise_autonomy: "§Y[Root.GetNameDefCap]§! may raise autonomy level once autonomy has risen sufficiently"
+may_become_free: "§Y[Root.GetNameDefCap]§! may now work towards independence"
+cannot_change_autonomy_manually: "§RCannot change autonomy levels manually§!"
+clamour_for_independence: "Clamour for independence"
+clamour_for_autonomy: "Clamour for autonomy"

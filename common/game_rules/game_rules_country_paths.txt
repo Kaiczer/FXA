@@ -1,0 +1,36 @@
+
+### North America ###
+# CAN_path = {
+# 	name = CAN_PATH
+# 	group = RULE_GROUP_TFH_RULES_NORTH_AMERICA
+# 	default = {
+# 		name = DEFAULT
+# 		text = RULE_OPTION_CAN_PATH_RANDOM
+# 		desc = RULE_OPTION_CAN_PATH_RANDOM_DESC
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = CAN_PATH_MARLIB
+# 		text = RULE_OPTION_CAN_PATH_MARLIB
+# 		desc = RULE_OPTION_CAN_PATH_MARLIB_DESC
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = CAN_PATH_MARLIB_SOCDEM
+# 		text = RULE_OPTION_CAN_PATH_MARLIB_SOCDEM
+# 		desc = RULE_OPTION_CAN_PATH_MARLIB_SOCDEM_DESC
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = CAN_PATH_SOCCON
+# 		text = RULE_OPTION_CAN_PATH_SOCCON
+# 		desc = RULE_OPTION_CAN_PATH_SOCCON_DESC
+# 		allow_achievements = yes
+# 	}
+# 	option = {
+# 		name = CAN_PATH_AUTDEM
+# 		text = RULE_OPTION_CAN_PATH_AUTDEM
+# 		desc = RULE_OPTION_CAN_PATH_AUTDEM_DESC
+# 		allow_achievements = yes
+# 	}
+# }

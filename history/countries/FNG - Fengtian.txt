@@ -45,10 +45,7 @@ set_politics = {
 	elections_allowed = no
 }
 recruit_character = FNG_zhang_zuolin
-recruit_character = ZHI_sun_chuanfang #First Vice President of China
-recruit_character = FNG_zhang_jinghui
+recruit_character = ZHI_sun_chuanfang #Vice President of China
 
-activate_advisor = ZHI_sun_chuanfang_sic
-
-FNG_zhang_jinghui = { retire = yes } #Wait for Recall
+activate_advisor = ZHI_sun_chuanfang_sic 
 

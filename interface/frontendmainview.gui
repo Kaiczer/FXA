@@ -537,7 +537,7 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "twitter_button"
-			position = { x = 10000 y = 10000 }					#TFH: changed position (originally 84,0)
+			position = { x = 140 y = 0 }					#TFH: changed position (originally 84,0)
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_TWITTER"
@@ -546,11 +546,11 @@ guiTypes = {
 		}
 		ButtonType = {
 			name = "instagram_button"
-			position = { x = 10000 y = 10000 }					#TFH: changed position (originally 120,0)
+			position = { x = 100 y = 0 }					#TFH: changed position (originally 120,0)
 			quadTextureSprite ="instagram"
 			#clicksound = click_default
 			pdx_tooltip = "MENU_WIKIA"						#TFH: changed tooltip
-			web_link = "https://kaiserreich.wikia.com"		#TFH: changed link
+			web_link = "https://the-finest-hour.fandom.com"		#TFH: changed link
 			#scale = 0.9									#TFH: kept at full size
 		}
 		ButtonType = {

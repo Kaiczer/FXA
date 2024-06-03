@@ -117,7 +117,7 @@ guiTypes = {
 			position = { x = 79 y = 375 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "FX_MENU_HOMEPAGE"
+			pdx_tooltip = "MENU_HOMEPAGE"
 			web_link = "https://discord.gg/dVT7bHNVgY"
 		}
 		ButtonType = {
@@ -125,7 +125,7 @@ guiTypes = {
 			position = { x = 119 y = 375 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
-			pdx_tooltip = "FX_MENU_FORUM"
+			pdx_tooltip = "MENU_FORUM"
 			web_link = "https://www.reddit.com/r/Fuhrerredux/"
 		}
 		ButtonType = {
@@ -133,7 +133,7 @@ guiTypes = {
 			position = { x = 159 y = 375 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
-			pdx_tooltip = "FX_MENU_FACEBOOK"
+			pdx_tooltip = "MENU_FACEBOOK"
 			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2419457479"
 		}			
 		ButtonType = {
@@ -141,7 +141,7 @@ guiTypes = {
 			position = { x = 199 y = 375 }
 			quadTextureSprite ="twitter"
 			#clicksound = click_default
-			pdx_tooltip = "FR_MENU_TWITTER"
+			pdx_tooltip = "MENU_TWITTER"
 			web_link = "https://twitter.com/FuhrerreichHoI4"
 		}
 		
@@ -150,7 +150,7 @@ guiTypes = {
 			position = { x = 9999 y = 9999 }
 			quadTextureSprite ="privacy"
 			#clicksound = click_default
-			pdx_tooltip = "FR_MENU_PRIVACY_POLICY"
+			pdx_tooltip = "MENU_PRIVACY_POLICY"
 		}
 
 		ButtonType = {

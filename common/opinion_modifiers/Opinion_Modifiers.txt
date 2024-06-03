@@ -1,0 +1,21 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+opinion_modifiers = {
+
+	###Gamestart###
+	different_ideology_close = { value = -10 }
+	different_ideology = { value = -30 }
+	similar_ideology_close = { value = 30 }
+	similar_ideology = { value = 20 }
+	similar_ideology_distant = { value = 10 }
+	same_ideology = { value = 40 }
+	factional_rivalry = { value = -30 }
+
+}

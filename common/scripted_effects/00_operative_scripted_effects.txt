@@ -1,0 +1,18 @@
+add_operative_nationalities = {
+	if = {
+		limit = {
+			OR = {
+				has_nationality = USA
+				has_nationality = SCA
+			}
+		}
+		if = {
+			limit = {
+				country_exists = USA
+				NOT = { has_nationality = USA }
+			}
+			add_nationality = USA
+		}
+	}
+}
+

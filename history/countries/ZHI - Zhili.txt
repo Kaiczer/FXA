@@ -43,7 +43,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-recruit_character = ZHI_sun_chuanfang #Vice President of China
-recruit_character = ZHI_cao_kun #Vice Chairman of Zhengzhou NPC, acting Zhili leader
+#recruit_character = ZHI_sun_chuanfang #Vice President of China
+recruit_character = ZHI_cao_kun #Chief of Staff of Zhili High Command 
 
-ZHI_sun_chuanfang = { retire = yes } #Wait for NPC Reshuffle
+#ZHI_sun_chuanfang = { retire = yes } #Wait for NPC Reshuffle

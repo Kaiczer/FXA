@@ -1,0 +1,21 @@
+opinion_modifiers = {
+	### Permanent ###
+	friendly = { value = 200 }
+	hostile = { value = -1000 }
+	liberated_us = { value = 100 }
+
+	### Temporary ###
+	close_allies = { value = 100 years = 5 }
+	deal_with_devil = { value = 100 years = 1 }
+	returned_land = { value = 100 years = 5 }
+	approves_of_govt = { value = 50 years = 3 }
+	pleased = { value = 30 years = 3 }
+	disapproves_of_govt = { value = -30 years = 3 }
+	displeased = { value = -50 years = 3 }
+	hates_govt = { value = -50 years = 3 }
+	outraged = { value = -100 years = 5 }
+
+	### Trade ###
+	trade_agreement = { value = 50 trade = yes }
+	trade_sanctions = { value = -50 trade = yes }
+}

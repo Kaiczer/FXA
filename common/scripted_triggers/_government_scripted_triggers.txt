@@ -7,80 +7,80 @@ has_same_government_as_ROOT = {
 # checks for country in scope: authoritarian_socialist, vanguard_socialist, or radical socialist
 has_socialist_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_socialist #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_socialist
+		tooltip = TFH_is_socialist #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_socialist
 	}
 }
 
 # checks for country in scope: from social democrat to social conservative
 has_elected_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_elected #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_elected
+		tooltip = TFH_is_elected #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_elected
 	}
 }
 
 # checks for country in scope: from social democrat to authoritarian democrat
 has_democratic_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_democratic #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_democratic
+		tooltip = TFH_is_democratic #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_democratic
 	}
 }
 
 # checks for country in scope: authoritarian democrat, paternal autocrat, or national populist
 has_authoritarian_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_authoritarian
+		tooltip = TFH_is_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_authoritarian
 	}
 }
 
 # checks for country in scope: paternal autocrat or national populist
 has_dictatorship_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_dictatorship #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_dictatorship
+		tooltip = TFH_is_dictatorship #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_dictatorship
 	}
 }
 
 # checks for country in scope: market liberal or social conservative
 has_right_democratic_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_right_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_right_wing_democracy
+		tooltip = TFH_right_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_right_wing_democracy
 	}
 }
 
 # checks for country in scope: social democrat or social liberal
 has_left_democratic_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_left_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_left_wing_democracy
+		tooltip = TFH_left_wing_democracy #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_left_wing_democracy
 	}
 }
 
 # checks for country in scope: authoritarian_socialist, authoritarian democrat, paternal autocrat or national populist
 has_any_authoritarian_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_any_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_any_authoritarian
+		tooltip = TFH_is_any_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_any_authoritarian
 	}
 }
 
 # checks for country in scope: social democrat, social liberal or market liberal
 has_liberal_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_liberal #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_liberal
+		tooltip = TFH_is_liberal #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_liberal
 	}
 }
 
 # checks for country in scope: social conservative or authoritarian democrat
 has_conservative_government = {
 	custom_trigger_tooltip = {
-		tooltip = FH_is_conservative #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = FH_is_conservative
+		tooltip = TFH_is_conservative #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+		has_country_flag = TFH_is_conservative
 	}
 }
 

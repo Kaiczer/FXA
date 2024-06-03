@@ -104,8 +104,8 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyLocAuthSoc
 	text = {
-		trigger = { has_country_leader_ideology = revolutionary_showaist_subtype }
-		localization_key = revolutionary_showaist_subtype
+		trigger = { has_country_leader_ideology = revolutionary_showaism_subtype }
+		localization_key = revolutionary_showaism_subtype
 	}
 	### Use the following text if you included additional subideology
 	text = {
@@ -213,8 +213,8 @@ defined_text = {
 defined_text = {
 	name = GetSubIdeologyDescAuthSoc
 	text = {
-		trigger = { has_country_leader_ideology = revolutionary_showaist_subtype }
-		localization_key = revolutionary_showaist_subtype_subtype_desc
+		trigger = { has_country_leader_ideology = revolutionary_showaism_subtype }
+		localization_key = revolutionary_showaism_subtype_desc
 	}
 	### Use the following text if you included additional subideology
 	text = {

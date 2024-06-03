@@ -1,41 +1,4 @@
-﻿MEX_INF_01 = {
-	name = "Cristero Guard"
-
-	for_countries = { MEX }
-
-	can_use = {
-		has_completed_focus = MEX_focus_antidisestablishmentarianism
-	}
-
-	division_types = { "infantry" }
-
-	fallback_name = "%da Guardia Cristera"
-
-	ordered = {
-		1 = { "%da Guardia Cristera" }
-		2 = { "%da Guardia Cristera" }
-		3 = { "%da Guardia Cristera" }
-		4 = { "%da Guardia Cristera" }
-		5 = { "%da Guardia Cristera" }
-		6 = { "%da Guardia Cristera" }
-		7 = { "%da Guardia Cristera" }
-		8 = { "%da Guardia Cristera" }
-		9 = { "%da Guardia Cristera" }
-		10 = { "%da Guardia Cristera" }
-		11 = { "%da Guardia Cristera" }
-		12 = { "%da Guardia Cristera" }
-		13 = { "%da Guardia Cristera" }
-		14 = { "%da Guardia Cristera" }
-		15 = { "%da Guardia Cristera" }
-		16 = { "%da Guardia Cristera" }
-		17 = { "%da Guardia Cristera" }
-		18 = { "%da Guardia Cristera" }
-		19 = { "%da Guardia Cristera" }
-		20 = { "%da Guardia Cristera" }		
-	}
-}
-
-MEX_INF_02 = {
+﻿MEX_INF_02 = {
 	name = "Agrarian Militia"
 
 	for_countries = { MEX }
@@ -89,8 +52,7 @@ MEX_INF_03 = {
 
 	can_use = {
 		OR = {
-			has_completed_focus = MEX_focus_ejido_worker_militias
-			has_government = vanguard_socialist
+			has_socialist_government = yes 
 		}
 	}
 

@@ -1,0 +1,940 @@
+### African tags that use the Middle East portrait set
+
+ALG = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+EGY = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+LBA = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+TRP = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+MOR = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+SUD = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+
+TUN = {
+	army = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_land_1"
+			"GFX_Portrait_Middle_East_Generic_land_2"
+			"GFX_Portrait_South_America_Generic_land_new_4"
+			"GFX_Portrait_South_America_Generic_land_new_5"
+			"GFX_Portrait_South_America_Generic_land_new_8"
+			"GFX_Portrait_Middle_East_Generic_land_3"
+			"GFX_Portrait_Middle_East_Generic_land_4"
+		}
+	}
+
+	navy = {
+		male = {
+			"GFX_Portrait_Middle_East_Generic_navy_1"
+			"GFX_Portrait_Middle_East_Generic_navy_2"
+			"GFX_Portrait_South_America_Generic_navy_new_2"
+			"GFX_Portrait_South_America_Generic_navy_new_3"
+		}
+	}
+	political = {
+		authoritarian_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		vanguard_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		revolutionary_socialist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_democrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		classical_liberal = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		social_conservative = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		authoritarian = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		paternal_autocrat = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		reactionary_ultranationalist = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+	}
+	operative = {
+		female = {
+			"GFX_Portrait_Operative_ArabicFemale1"
+			"GFX_Portrait_Operative_ArabicFemale2"
+			"GFX_Portrait_Operative_ArabicFemale3"
+			"GFX_Portrait_Operative_ArabicFemale4"
+			"GFX_Portrait_Operative_ArabicFemale5"
+			"GFX_Portrait_Operative_ArabicFemale6"
+		}
+		male = {
+			"GFX_Portrait_Operative_ArabicMale1"
+			"GFX_Portrait_Operative_ArabicMale2"
+			"GFX_Portrait_Operative_ArabicMale3"
+			"GFX_Portrait_Operative_ArabicMale4"
+			"GFX_Portrait_Operative_ArabicMale5"
+			"GFX_Portrait_Operative_ArabicMale6"
+		}
+	}
+}
+

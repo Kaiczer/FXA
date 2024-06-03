@@ -30,20 +30,20 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-SPR_INF_01 = 
+SPA_INF_01 = 
 {
 	name = "Republican Infantry"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { 
-		NOT = { has_government = fascism } 
+		NOT = { has_government = revolutionary_nationalist } 
 	}
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División de Infantería"
 
@@ -74,18 +74,18 @@ SPR_INF_01 =
 	}
 }
 
-SPR_CAV_01 = 
+SPA_CAV_01 = 
 {
 	name = "Cavalry Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División de Caballería"
 
@@ -106,18 +106,18 @@ SPR_CAV_01 =
 	}
 }
 
-SPR_MOT_01 = 
+SPA_MOT_01 = 
 {
 	name = "Motorized Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División Motorizada"
 
@@ -138,18 +138,18 @@ SPR_MOT_01 =
 	}
 }
 
-SPR_MEC_01 = 
+SPA_MEC_01 = 
 {
 	name = "Mechanized Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División Mecanizada"
 
@@ -170,18 +170,18 @@ SPR_MEC_01 =
 	}
 }
 
-SPR_ARM_01 = 
+SPA_ARM_01 = 
 {
 	name = "Armored Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División Blindada"
 
@@ -202,18 +202,18 @@ SPR_ARM_01 =
 	}
 }
 
-SPR_PAR_01 = 
+SPA_PAR_01 = 
 {
 	name = "Airborne Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División Aerotransportada"
 
@@ -234,18 +234,18 @@ SPR_PAR_01 =
 	}
 }
 
-SPR_MAR_01 = 
+SPA_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da Div. de Infantería de Marina"
 
@@ -266,18 +266,18 @@ SPR_MAR_01 =
 	}
 }
 
-SPR_MNT_01 = 
+SPA_MNT_01 = 
 {
 	name = "Mountain Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División de Montaña"
 
@@ -298,18 +298,18 @@ SPR_MNT_01 =
 	}
 }
 
-SPR_GAR_01 = 
+SPA_GAR_01 = 
 {
 	name = "Garrison Division"
 
-	for_countries = { SPR }
+	for_countries = { SPA }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
+	#link_numbering_with = { SPA_INF_01 }
 
 	fallback_name = "%da División de Guarnición"
 
@@ -335,362 +335,5 @@ SPR_GAR_01 =
 		16 = { "Comandancia de Ceuta" }
 		17 = { "Comandancia de Bilbao" }
 		18 = { "Comandancia de Valladolid" }
-	}
-}
-
-SPA_INF_01 = 
-{
-	name = "Nationalist Infantry"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		OR = {
-			has_government = fascism 
-			has_completed_focus = SPA_unify_the_nationalist_front
-		}
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da División de Infantería"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		11 = { "%da División de Infantería" }			# Re-ordered to be consistent with Nationalist Spain division naming 
-		12 = { "%da División de Infantería" }
-		21 = { "%da División de Infantería" }
-		22 = { "%da División de Infantería" }
-		31 = { "%da División de Infantería" }
-		32 = { "%da División de Infantería" }
-		41 = { "%da División de Infantería" }
-		42 = { "%da División de Infantería" }
-		51 = { "%da División de Infantería" }
-		52 = { "%da División de Infantería" }
-		61 = { "%da División de Infantería" }
-		62 = { "%da División de Infantería" }
-		71 = { "%da División de Infantería" }
-		72 = { "%da División de Infantería" }
-		81 = { "%da División de Infantería" }
-		82 = { "%da División de Infantería" }
-		91 = { "%da División de Infantería" }
-		92 = { "%da División de Infantería" }
-		101 = { "%da División de Infantería" }
-		102 = { "%da División de Infantería" }		
-		13 = { "%da División de Infantería" }
-		23 = { "%da División de Infantería" }
-		43 = { "%da División de Infantería" }
-		33 = { "%da División de Infantería" }
-		53 = { "%da División de Infantería" }
-		63 = { "%da División de Infantería" }
-		73 = { "%da División de Infantería" }
-		83 = { "%da División de Infantería" }
-		93 = { "%da División de Infantería" }
-		103 = { "%da División de Infantería" }
-		14 = { "%da División de Infantería" }
-		24 = { "%da División de Infantería" }
-		44 = { "%da División de Infantería" }
-		34 = { "%da División de Infantería" }
-		54 = { "%da División de Infantería" }
-		64 = { "%da División de Infantería" }
-		74 = { "%da División de Infantería" }
-		84 = { "%da División de Infantería" }
-		15 = { "%da División de Infantería" }
-		25 = { "%da División de Infantería" }
-		45 = { "%da División de Infantería" }
-		35 = { "%da División de Infantería" }
-		55 = { "%da División de Infantería" }
-		65 = { "%da División de Infantería" }
-		75 = { "%da División de Infantería" }
-		85 = { "%da División de Infantería" }
-		94 = { "%da División de Infantería" }
-		104 = { "%da División de Infantería" }
-		16 = { "%da División de Infantería" }
-		26 = { "%da División de Infantería" }
-		46 = { "%da División de Infantería" }
-		36 = { "%da División de Infantería" }
-		56 = { "%da División de Infantería" }
-		66 = { "%da División de Infantería" }
-		76 = { "%da División de Infantería" }
-	}
-}
-
-SPR_INF_02 = 
-{
-	name = "Nationalist Garrisons"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Guarnición Nacionalista"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPR_INF_03 = 
-{
-	name = "Carlist Requetés"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%d° Requeté"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPR_INF_04 = 
-{
-	name = "Guardia Civil"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Brigada de la Guardia Civil"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPR_INF_05 = 
-{
-	name = "Guardia de Asalto"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da División de la Guardia de Asalto"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPR_INF_06 = 
-{
-	name = "Army of Africa"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da División del Ejército de África"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_01 = 
-{
-	name = "Republican Garrisons"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Guarnición Republicana"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_02 = 
-{
-	name = "Union Youth Brigade"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Brigada de Juventudes Sindicales"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_03 = 
-{
-	name = "Popular Brigade"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Brigada Popular"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_04 = 
-{
-	name = "Euzko Gudarosteko Eskuadroia"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "Euzko Gudarosteko %da Eskuadroia"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_05 = 
-{
-	name = "Anarchist Brigade"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Brigada Anarquista"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
-	}
-}
-
-SPD_INF_06 = 
-{
-	name = "Anarchist Militia"
-
-	for_countries = { SPR }
-
-	can_use = { 
-		always = yes
-	}
-
-	division_types = { "infantry" }
-
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPR_INF_01 }
-
-	fallback_name = "%da Milicia Anarquista"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
-	ordered =
-	{
-
 	}
 }

@@ -6,10 +6,7 @@ SOV_DD_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -44,10 +41,7 @@ SOV_CL_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -72,10 +66,7 @@ SOV_CA_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -98,10 +89,7 @@ SOV_MINELAYERS_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -124,10 +112,7 @@ SOV_BB_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -149,10 +134,7 @@ SOV_BC_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -175,10 +157,7 @@ SOV_CV_HISTORICAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -305,10 +284,7 @@ SOV_SS_STALINETS = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -346,10 +322,7 @@ SOV_SS_LENINETS = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -431,10 +404,7 @@ SOV_STATES = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -456,10 +426,7 @@ SOV_CITIES = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -480,10 +447,7 @@ SOV_LEADERS = {
 	for_countries = { SOV }
 
 	can_use = {
-		NOT = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -526,10 +490,7 @@ SOV_DD_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = {
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -566,10 +527,7 @@ SOV_DE_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -595,10 +553,7 @@ SOV_CL_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -622,10 +577,7 @@ SOV_CA_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -649,10 +601,7 @@ SOV_MINELAYERS_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -674,10 +623,7 @@ SOV_MINESWEEPERS_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -700,10 +646,7 @@ SOV_BBBC_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -726,10 +669,7 @@ SOV_CV_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -750,10 +690,7 @@ SOV_SS_IMPERIAL = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -777,10 +714,7 @@ SOV_IMPERIAL_CITIES = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -799,10 +733,7 @@ SOV_IMPERIAL_GOVERNORATES = {
 	for_countries = { SOV }
 
 	can_use = { 
-		OR = { 
-			has_government = fascism
-			has_government = neutrality
-		}
+		always = yes
 	}
 
 	type = ship
@@ -822,7 +753,7 @@ SOV_SAINTS = {
 	for_countries = { SOV }
 
 	can_use = {
-		has_completed_focus = SOV_the_third_rome
+		has_country_flag = SOV_the_third_rome
 	}
 
 	type = ship

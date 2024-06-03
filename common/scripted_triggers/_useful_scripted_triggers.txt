@@ -252,9 +252,9 @@ is_claim_or_core_of_owner = {
 
 is_metropolis_state = {
 	OR = {
-		has_state_category = twelve
-		has_state_category = eleven
-		has_state_category = ten
+		has_state_category = industrial_heartland
+		has_state_category = major_industrial_region
+		has_state_category = minor_industrial_region
 	}
 }
 
