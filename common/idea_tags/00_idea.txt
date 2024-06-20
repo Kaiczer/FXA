@@ -22,10 +22,13 @@ idea_categories = {
 		ledger = hidden
 	}
 
-	laws = {
-		slot = mobilization_laws
-		slot = trade_laws
-		slot = economy
+	government = {
+		slot = constitution_form
+		character_slot = second_in_command
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
+		character_slot = political_advisor
 
 		ledger = civilian
 
@@ -33,12 +36,27 @@ idea_categories = {
 		removal_cost = 0
 	}
 
-	government = {
-		character_slot = second_in_command
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+	laws_1 = { # Political
+		slot = government_type
+		slot = executive_mode
+		slot = legislative_mode
+		slot = judicial_mode
+		slot = administrative_mode
+
+		ledger = civilian
+
+		cost = 150
+		removal_cost = 0
+	}
+
+	laws_2 = { # Security/Economy/People
+		slot = mobilization_laws
+		slot = surveillance_laws
+		slot = people_concerns
+		slot = culture_type
+		slot = trade_laws
+		slot = economy
+		slot = business_laws
 
 		ledger = civilian
 

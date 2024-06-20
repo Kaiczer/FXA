@@ -1,16 +1,20 @@
+
 state={
 	id=730
 	name="STATE_730"
-	provinces={
-		1005 1119 1122 4008 4127 9941 10122 11917 12013 12096 
-	}
-	history = {
+
+	history={
 		owner = ITA
 		add_claim_by = ITA
 		add_core_of = TUR
+
 	}
+
+	provinces={
+		1005 1119 1122 4008 4127 12013 12096 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

@@ -6,29 +6,29 @@
 ### Game Rules ###
 ##################
 
-# wk2_begin_options = {
-# 	name = RULE_WK2_BEGIN_OPTIONS
-# 	group = RULE_GROUP_KAISERREICH_RULES
-# 	icon = GFX_wargoals
-# 	default = {
-# 		name = RESTRICTED
-# 		text = RULE_OPTION_RESTRICTED
-# 		desc = RULE_WK2_BEGIN_OPTIONS_RESTRICTED_DESC
-# 		allow_achievements = yes
-# 	}
-# 	option = {
-# 		name = RARE
-# 		text = RULE_OPTION_RARE
-# 		desc = RULE_WK2_BEGIN_OPTIONS_RARE_DESC
-# 		allow_achievements = yes
-# 	}
-# 	option = {
-# 		name = UNRESTRICTED
-# 		text = RULE_OPTION_UNRESTRICTED
-# 		desc = RULE_WK2_BEGIN_OPTIONS_UNRESTRICTED_DESC
-# 		allow_achievements = yes
-# 	}
-# }
+ww2_begin_options = {
+	name = RULE_WW2_BEGIN_OPTIONS
+	group = RULE_GROUPTFH_RULES
+	icon = GFX_wargoals
+	default = {
+		name = RESTRICTED
+		text = RULE_OPTION_RESTRICTED
+		desc = RULE_WW2_BEGIN_OPTIONS_RESTRICTED_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = RARE
+		text = RULE_OPTION_RARE
+		desc = RULE_WW2_BEGIN_OPTIONS_RARE_DESC
+		allow_achievements = yes
+	}
+	option = {
+		name = UNRESTRICTED
+		text = RULE_OPTION_UNRESTRICTED
+		desc = RULE_WW2_BEGIN_OPTIONS_UNRESTRICTED_DESC
+		allow_achievements = yes
+	}
+}
 
 unit_limit_options = {
 	name = RULE_UNIT_LIMIT_OPTIONS
@@ -97,7 +97,7 @@ peace_conference_options = {
 }
 
 state_transfer_tool_options = {
-	name = KR_STATE_TRANSFER_TOOL_OPTIONS
+	name = TFH_STATE_TRANSFER_TOOL_OPTIONS
 	group = RULE_GROUP_TFH_RULES
 	icon = GFX_game_rule_state_transfer_tool
 	default = {

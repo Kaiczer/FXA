@@ -2,16 +2,19 @@
 state={
 	id=521
 	name="STATE_521"
-	provinces={
-		1096 1168 1195 7058 7146 10058 11991 12059 
-	}
-	history = {
+
+	history={
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+
 	}
+
+	provinces={
+		1096 1168 1195 7058 7146 9974 10058 11991 12059 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

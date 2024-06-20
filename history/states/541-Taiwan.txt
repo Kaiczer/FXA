@@ -6,12 +6,35 @@ state={
 	}
 	history = {
 		owner = JAP 
+		add_core_of = TAI
 		add_claim_by = CHI
 		add_claim_by = FNG
 		add_claim_by = JAP
+
+		victory_points = { 7186 15 }
+		victory_points = { 12068 10 } 
+		add_to_array = { state_victory_points = 7186 } #Taipei
+		add_to_array = { state_victory_points = 12068 } #Takow
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+			7186 = { #Taipei
+				naval_base = 6
+			}
+			9955 = { #Karenkou
+				naval_base = 2
+			}
+			12068 = { #Takao
+				naval_base = 10
+			}
+		}
 	}
+	
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
+    manpower=5212000
+	state_category = megalopolis
 }

@@ -1,13 +1,9 @@
 ﻿l_english:
 FINESTHOUR_CAREER_PROFILE: "The Finest Hour"
 
-### Intro Screen
-FH_SPLASH_TITLE: "§YLovingly Crafted by the The Finest Hour team:§!"
-FH_SPLASH_CREDITS: "dax · Todd Howard · Captain Kaiczer · Dej · AmCath · Lextzo · BobRossHD · AngryCatholic · JoeBidenWhatAreYouHiding · David Lu · RAus · ainsley · the feets guy · Smigly · ATonyAtLaw2021 · thanasislanaras · terroristguy · miklos · Log · Ahmed Pasha Al Said · 9504 · Pascal · Crazy Green Hair Guy · Mitchell · Fokel · Formula · The dëtæīłêd brëæd · Mapper History · Mr. Saltine · The Man who sold the World · Thought_West · karimlebg · Fire · Maisel · Denis_MD · Wickedonezz · bookthecook · KillerKemzstar · guerrillero · scipion34 \n\n§CThank you to the FR Team for letting us fork their mod:§!\nDarknight1342 · Jespertjee · Trimeon · Drowse · Spocklan116 · Steffplays123 · Arser · Kalmoire · Kaiserman · LuxLoser · Milekhippy · Terran117 · Teutonician Germanicus Danziger · Freidrich von Omansich · Kano901 · Raptor Jesus · Hellbat\n§RThank you to the KX Team:§!\n00matthew2000 · 404NameNotFound · about10balloons · Alpha Simp · AmCath · AngryCatholic · Avalon · Alonch · Arvidus · Big Agnar · Bomber · bchevy · Brapiš · cemeh · Chaseair · Chiang Kai-SWAG · C. Kyle · ClothCoat · Eanred · EmilianoZapata · Eric_Crazy · Fins_of_Finland · Flameshot19 · Frelious · Galaxi · GamerDalaiLama66 · GamerShah · gelurom · General Doge · Ghost Willy · GoldenHat · guneric · HAKOPMNTE_DEDA · Hain_Z · Idlemancer · Indyclone77 · Iranian Voodoo Doctor · JewishBastard · jocn · JoeBidenWhatAreYouHiding · Justyouraverage · kaan · Kakoopa · KaiserCharles · LCPL Owen · Lenin · leol · Log from Blammo! · Logandp7 · Malidus · Mladenov · Mister R.K. Moskowien · MrCuba · MrTomCruise · Murphy · Nickay · New England · O-K-I · Oneven · One Eyed Dragon · Ozmandiaz · Pogge · Providence · Shimilu · soclibdictator · Todd Howard · Tonitruant · Umerzaidi · Vozhd · Vlastelinum · Waghlon · Yaaaay · Yaroslav007 · and Zapinus.\n§GThank you to the KR4 Team:§!\nAdrianator2 · Alpinia · Arvidus · Asratius · Augenis · Blackfalcon501 · Carmain · Chazem · Conor · DSFDarker · El Daddy · Flamefang · Gaboemi · Gideones · Hamfast · hildagrim · Ido · Igor050301 · JazzyHugh · Jeankedezeehond · Jonny BL · KFateweaver · Kennedy · kergely · Krčo · Luwofe · Matoro · McOmghall · ~mw~ // miwaco · NukeGaming · OMD · Owenomaly · PPsyrius · Pelmen · RagnoStrangeros · Rei VL · Retrocognition · Rnk · Shiroe · Starguard · Story · suzuha · The Alpha Dog · The Irredentista · The Italian Jojo · Vidyaország · Zaddy-Chan and Zimbabwe Salt Co.\n\nThank you to, §OMnCnNn§! whom created the unit models that is integrated in this mod.\n\n§CAnd Thank you, the player, for playing our mod!§!"
-
 ### Intro Event
 intro.1.t: "The Finest Hour Build 0.0.1 (Toward the Another Story)"
-intro.1.d: "After nearly quite sometime of waiting, we are overjoyed to annouce that version 0.1.11 has finally been released to the public! In this version you will find many changes throughout the globe; Ukraine and Japan have both been reworked, new focus icons have been added, tweaked trees and new fresh portraits have been inserted, Alexander's path has been fixed, Finland received some small love, the UK has received some minor content, and various improvements to the map in preparation for future updates have all been done.\nUnfortunately, we had to remove Turkish content temporarily, to resolve compatibility issues, but rest assured that Turkey is being worked on by the team, and it's rework will be ready soon! \n\nThis mod is continually worked on by a dedicated team of volunteers from around the globe, and we all greatly appreciate your kind words and time spent enjoying the content that we have created. From the bottom of our hearts, you all have our most sincere thanks!"
+intro.1.d: ""
 intro.1.a: "Thanks!"
 
 ### Autonomy ###
@@ -17,6 +13,7 @@ default_puppet: "Puppet"
 autonomous_puppet: "Autonomous Puppet"
 nominal_puppet: "Nominal Puppet"
 associated_government: "Associated Government"
+autonomy_dominion: "Dominion"
 colonial_government: "Colonial Government"
 federated_state: "Federated State"
 autonomous_territory: "Autonomous Territory"
@@ -36,3 +33,206 @@ may_become_free: "§Y[Root.GetNameDefCap]§! may now work towards independence"
 cannot_change_autonomy_manually: "§RCannot change autonomy levels manually§!"
 clamour_for_independence: "Clamour for independence"
 clamour_for_autonomy: "Clamour for autonomy"
+
+### Second in Command ###
+second_in_command_slot: "Second-in-Command"
+second_in_command_cost_factor: "Second-in-Command Cost"
+second_in_command_cost_factor_tooltip: "$second_in_command_cost_factor$: $RIGHT|-=%0$"
+
+### Character Tooltips ###
+is_dead: "Is deceased"
+is_dead_NOT: "Is not deceased"
+
+is_second_in_command: "Is the Second in Command"
+is_second_in_command_NOT: "Is not the Second in Command"
+
+character_event_only: "Added by event"
+
+is_monarch: "Is a monarch"
+is_monarch_NOT: "Is not a monarch"
+
+is_regent: "Is acting as regent"
+is_regent_NOT: "Is not acting as regent"
+
+is_monarchy: "§Y[THIS.GetNameWithFlag]§! is a §Ymonarchy§!"
+is_monarchy_NOT: "§Y[THIS.GetNameWithFlag]§! is §Rnot§! a §Ymonarchy§!"
+
+government_is_collapsed: "§RThe central authority of§! §Y[THIS.GetNameWithFlag]§! §Rhas been collapsed into a vacuum of power.§!"
+nation_failed_to_survive: "§RThe political turmoil of§! §Y[THIS.GetNameWithFlag]§! §Rhas reached its peak and fell into the situation of failed state.§!"
+
+### Autonomy Events ###
+FROM_becomes_puppet: "§H[From.GetNameDefCap]§! is no longer an §HOccupied Puppet§!."
+FROM_becomes_autonomous_puppet: "§H[From.GetNameDefCap]§! becomes an §HAutonomous Puppet§!."
+FROM_becomes_nominal_puppet: "§H[From.GetNameDefCap]§! becomes a §HNominal Puppet§!."
+
+### Compliance ###
+compliance_integration_50: "Integration"
+compliance_integration_80: "Integration"
+territorial_integration: "Integration"
+territorial_integration_tt: "Gives a core on the state upon reaching §H50% or 80% compliance§! (value based on state)."
+
+### Map Mode Claims-Cores ###
+MAPMODE_CORES_CLAIMS_MAP_MODE: "§Y$MAPMODE_CORES_CLAIMS_MAP_MODE_NAME$§! map mode"
+MAPMODE_CORES_CLAIMS_MAP_MODE_NAME: "Cores/Claims"
+MAPMODE_CORES_CLAIMS_MAP_MODE_DESCRIPTION: "Shows the current cores and claims."
+
+cores_claims_map_mode_tooltip: "§Y[FROM.GetName]§! ([FROM.Owner.GetFlag] [FROM.Owner.GetName])"
+cores_claims_map_mode_tooltip_delayed: "[FROM.GetCoreClaimMapModeTooltip]"
+
+cores_claims_map_mode_tooltip_core: "§Y[FROM.GetName]§! is a §Ycore state§! of §Y[ROOT.GetNameWithFlag]§!."
+cores_claims_map_mode_tooltip_potential_core: "§Y[FROM.GetName]§! is a §Ypotential core§! of §Y[ROOT.GetNameWithFlag]§!.\n§GPotential cores will become cores upon reaching a compliance threshold while under the §Y$territorial_integration$§! occupation law.§!"
+cores_claims_map_mode_tooltip_claim: "§Y[FROM.GetName]§! is §Yclaimed§! by §Y[ROOT.GetNameWithFlag]§!."
+cores_claims_map_mode_tooltip_owned: "§Y[FROM.GetName]§! is §Yoccupied§! by §Y[ROOT.GetNameWithFlag]§!."
+
+### Diplomacy Tooltips ###
+REQUEST_EXP_FORCE_BLOCKED_TT: "§RThis country doesn't allow you to request their forces.§!"
+
+EMBARGO_THREAT_TT: "§RWorld Tension needs to be above §Y50%§!.§!"
+EMBARGO_OPINION_TT: "§R- §Y[FROM.GetNameWithFlag]'s§! opinion of §Y[ROOT.GetNameWithFlag]§! must be lower than -50.§!"
+
+REVOKE_EMBARGO_SCRIPTED_TT: "§RThis embargo cannot be revoked.§!"
+
+RECALL_VOLUNTEERS_TITLE: "Recall Volunteers"
+RECALL_VOLUNTEERS_ACTION_DESC: "Recall all volunteers sent to this country."
+RECALL_VOLUNTEERS_ACTION_SEND_DESC: "Recall all volunteers sent to §Y[FROM.GetNameDef]§!?"
+
+### Regular Tooltips ###
+puppet_but_keep_government_tt: "([to_be_overlord.GetFlag]§H[to_be_overlord.GetName]§!) §H[marked_country.GetName]§! becomes puppet of §H[to_be_overlord.GetName]§!, but keeps its current government and party popularities."
+
+RULE_GUARANTEES_AFTER_WW2_TT: "§RBefore the Second Great War starts, guarantees can only be made through national focuses, events and decisions.§!"
+RULE_WARGOALS_AFTER_WW2_TT: "§RBefore the Second Great War starts, wargoals can only be gained from national focuses, events and decisions.§!"
+RULE_NO_WARGOALS_ON_ALLIED_PUPPETS_TT: "§R$DIPLOMACY_DEM_NO_THREAT_ON_DEPENDENDY$§!"
+RULE_DISABLED_IN_MOD_TT: "§RDisabled in The Finest Hour!"
+
+### Plurality Triggers ###
+authoritarian_socialist_plurality: "§o[?token:authoritarian_socialist.GetTokenLocalizedKey]§! have the highest popularity"
+vanguard_socialist_plurality: "§r[?token:vanguard_socialist.GetTokenLocalizedKey]§! have the highest popularity"
+revolutionary_socialist_plurality: "§R[?token:revolutionary_socialist.GetTokenLocalizedKey]§! have the highest popularity"
+social_democrat_plurality: "§S[?token:social_democrat.GetTokenLocalizedKey]§! have the highest popularity"
+social_liberal_plurality: "§l[?token:social_liberal.GetTokenLocalizedKey]§! have the highest popularity"
+classical_liberal_plurality: "§m[?token:classical_liberal.GetTokenLocalizedKey]§! have the highest popularity"
+social_conservative_plurality: "§c[?token:social_conservative.GetTokenLocalizedKey]§! have the highest popularity"
+authoritarian_plurality: "§g[?token:authoritarian.GetTokenLocalizedKey]§! have the highest popularity"
+revolutionary_nationalist_plurality: "§g[?token:revolutionary_nationalist.GetTokenLocalizedKey]§! have the highest popularity"
+volkist_plurality: "§g[?token:volkist.GetTokenLocalizedKey]§! have the highest popularity"
+paternal_autocrat_plurality: "§P[?token:paternal_autocrat.GetTokenLocalizedKey]§! have the highest popularity"
+reactionary_ultranationalist_plurality: "§N[?token:reactionary_ultranationalist.GetTokenLocalizedKey]§! have the highest popularity"
+
+### Diplomacy Triggers ###
+cannot_call_allies_or_join_wars: "Cannot Call Allies or Join Wars"
+cannot_call_allies_or_join_wars_except_subjects: "Cannot Call Allies or Join Wars (Except Subjects)"
+cannot_call_allies_or_join_wars_warning: "§Y[ROOT.GetNameWithFlag]§! §Rcannot call allies or join wars.§!"
+cannot_call_allies_or_join_wars_warning_FROM: "§Y[FROM.GetNameWithFlag]§! §Rcannot call allies or join wars.§!"
+
+cannot_receive_volunteers: "Cannot Receive Volunteers"
+cannot_receive_volunteers_warning: "§Y[FROM.GetNameWithFlag]§! §Rcannot receive volunteers.§!"
+
+### Regional Triggers ###
+is_in_asia: "Is an §HAsian§! country"
+is_in_india: "Is an §HIndian§! country"
+is_in_europe: "Is an §HEuropean§! country"
+is_in_africa: "Is an §HAfrican§! country"
+is_in_north_america: "Is a §HNorth American§! country"
+is_in_central_america: "Is a §HCentral American§! country"
+is_in_caribbean: "Is a §HCaribbean§! country"
+is_in_south_america: "Is a §HSouth American§! country"
+is_in_americas: "Is an §HAmerican§! country"
+is_in_middle_east: "Is a §HMiddle Eastern§! country"
+is_in_oceania: "Is an §HOceanian§! country"
+
+is_american_tag: "Is an American country"
+is_arab_tag: "Is an Arab-speaking country"
+is_arabian_tag: "Is an Arabian country"
+is_libya_tag: "Is a Libyan country"
+is_portuguese_tag: "Is a Portuguese-speaking country"
+is_brazilian_tag: "Is a Brazilian country"
+is_chinese_tag: "Is a Chinese country"
+is_dutch_tag: "Is a Dutch-speaking country"
+is_english_tag: "Is an English-speaking country"
+is_commonwealth_tag: "Is a Commonwealth country"
+is_british_tag: "Is a British country"
+is_catholic_tag: "Is a Catholic country"
+is_french_tag: "Is a French country"
+is_french_africa_tag: "Is a French African country"
+is_french_speaking_tag: "Is a French-speaking country"
+is_german_tag: "Is a German-speaking country"
+is_germany_or_splinter_tag: "Is a German country"
+is_italian_tag: "Is an Italian country"
+is_polish_tag: "Is a Polish country"
+is_russian_tag: "Is a Russian country"
+is_south_slav_tag: "Is a South Slavic country"
+is_central_asian_tag: "Is a Central Asian country"
+is_spanish_speaking_tag: "Is a Spanish-speaking country"
+is_central_american_tag: "Is a Central American country"
+is_spanish_south_american_tag: "Is an Hispanoamerican country"
+is_quechua_speaking_tag: "Is a Quechua-speaking country"
+is_indian_tag: "Is an Indian country"
+is_farsi_speaking_tag: "Is a Farsi-speaking country"
+is_malay_speaking_tag: "Is a Malay-speaking country"
+is_danubian_tag: "Is a Danubian country"
+is_balkan_tag: "Is a Balkan country"
+is_belgian_tag: "Is a Belgian country"
+is_uighur_tag: "Is a Uyghur country"
+is_scandinavian_tag: "Is a Scandinavian country"
+is_czechoslovak_tag: "Is a Czechoslovak country"
+is_turkish_tag: "Is a Turkish-speaking country"
+is_romanian_tag: "Is a Romanian-speaking country"
+is_greek_tag: "Is a Greek-speaking country"
+is_baltic_tag: "Is a Baltic country"
+
+### Actual Major Power Tooltip ###
+is_actual_major_tooltip_base: " Is a major world power:"
+is_actual_major_tooltip_major: "\n     [THIS.MajorWorldPower_MajorCheck] $TRIGGER_IS_MAJOR$"
+is_actual_major_tooltip_OR: "\n     $TRIGGER_OR_STARTS$"
+is_actual_major_tooltip_seven_largest: "\n          [THIS.MajorWorldPower_AmongSevenLargestIndustries] Has one of the world's seventh largest economies"
+is_actual_major_tooltip_average: "\n          [THIS.MajorWorldPower_MoreThanSeventyPercentAverage] Has more than §H70%§! of the average industrial capacity of the seven largest economies"
+is_actual_major_tooltip_TIN: "\n          [THIS.MajorWorldPower_IsTIN] Is the leader of the §YThird International§!"
+is_actual_major_tooltip_ENT: "\n          [THIS.MajorWorldPower_IsENT] Is the leader of the §YContinental Entente§!"
+is_actual_major_tooltip_IMP: "\n          [THIS.MajorWorldPower_IsENT] Is the leader of the §YImperial Defense Sphere§!"
+is_actual_major: "$is_actual_major_without_exceptions$$is_actual_major_tooltip_TIN$$is_actual_major_tooltip_ENT$$is_actual_major_tooltip_IMP$"
+is_actual_major_without_exceptions: "$is_actual_major_tooltip_base$$is_actual_major_tooltip_major$$is_actual_major_tooltip_OR$$is_actual_major_tooltip_seven_largest$$is_actual_major_tooltip_average$"
+
+### Political Tab UI ###
+power_balance_button_disabled: "Your country has no active §YBalance of Power§!."
+
+### Static Modifiers ###
+volunteer_limit_plus_three: "Increased Volunteer Limit"
+volunteer_limit_plus_two: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_one: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_fifty_percent: "$volunteer_limit_plus_three$"
+volunteer_limit_plus_hundred_percent: "$volunteer_limit_plus_three$"
+
+### Continents ###
+is_actually_an_island: "is an island state"
+
+### Intelligence Agency Blocker ###
+INTELLIGENCE_AGENCY_BLOCK_TOOLTIP: "[!intelligence_agency_blocker_button_click_enabled]"
+
+### Opinion Modifiers ###
+friendly: "Friendly"
+close_allies: "Close Allies"
+deal_with_devil: "Deal with the Devil"
+returned_land: "Returned Our Land"
+liberated_us: "Liberated Us"
+approves_of_govt: "Approves of Government"
+pleased: "Pleased by Us"
+displeased: "Displeased with our Actions"
+disapproves_of_govt: "Disapproves of Government"
+hates_govt: "Angry With Government"
+outraged: "Outraged"
+hostile: "Hostile"
+trade_agreement: "Trade Agreement"
+trade_sanctions: "Trade Sanctions"
+
+### World Tension ##
+AL_rally_for_war: "§Y[THIS.GetNonIdeologyNameDefCap]§! Rallies for War"
+country_joins_alliance_threat: "§Y[THIS.GetNonIdeologyNameDefCap]§! Joins the §Y[PREV.GetFactionName]§!"
+
+second_great_war_threat: "Second Great War"
+second_great_war_has_started: "The Second Great War has begun"
+second_great_war_has_ended: "The Second Great War has ended"
+
+### Debug Tag ###
+XXB: "Integrable Territories"
+XXB_ADJ: "Integrable"
+XXB_DEF: "the Integrable Territories"

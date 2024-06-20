@@ -720,27 +720,19 @@ guiTypes = {
 					name = "box_grid"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 95 }
+					slotsize = { width = 231 height = 74 }
 					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
-					padding = {
-						top = 10
-						bottom = 15
-					}
 				}
 
 				gridBoxType = {
 					name = "box_list"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 462 height = 95 }
+					slotsize = { width = 462 height = 74 }
 					add_horizontal = no
 					format = "UPPER_LEFT"
-					padding = {
-						top = 10
-						bottom = 15
-					}
 				}
 			}
 		}
@@ -875,9 +867,10 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "traits_container"
-			position = { x = 76 y = 0 }
+			position = { x = 72 y = 0 } ###KR fix for overlapping trait names
 			show_position = { x = 0 y = 0 }
-			size = { width=170 height=100%% }
+			size = { width = 156 height = 100%% } ###KR fix for overlapping trait names
+			clipping = yes ###KR fix for overlapping trait names
 
 			instantTextboxType = {
 				name = "name"
@@ -885,7 +878,7 @@ guiTypes = {
 				font = "hoi_18mbs"
 				fixedsize = yes
 				text = ""
-				maxWidth = 150
+			#	maxWidth = 150 ###KR fix for overlapping trait names
 				maxHeight = 13
 				format = left
 				alwaystransparent = yes
@@ -906,7 +899,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 70 }
+			position = { x = 80 y = 47 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
@@ -917,7 +910,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "stats"
-			position = { x = -10 y = 69 }
+			position = { x = 300 y = 32 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

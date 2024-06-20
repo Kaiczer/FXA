@@ -1,0 +1,2473 @@
+###
+### Ambition Areas
+###
+### Each country has a list of states/regions which it will take in a peace conference even if it
+### doesn't have claims/cores. Other countries in their faction will let them take these areas unless there's a conflict.
+### If they're a minor, or they're in a faction but not the leader, they won't expand outside of this ambition area unless
+### there's no-one involved in the peace conference who can take the land.
+###
+### If a country is NOT in this list, then it only takes cores/claims.
+###
+
+create_ambition_areas = {
+	# ADA = Kel Adagh
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ADA
+				is_claimed_by = ADA
+				state = 822 
+				state = 830
+			}
+		}
+		set_variable = { ambition_area_@ADA = 1 }
+	}
+	# AFG = Afghanistan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = AFG
+				is_claimed_by = AFG
+				region = 162 #Afghanistan
+				state = 676 #Peshawar
+				state = 677
+				state = 678
+			}
+		}
+		set_variable = { ambition_area_@AFG = 1 }
+	}
+	# AFR = Afra / Aussa Sultanate
+	if = {
+		limit = {
+			OR = {
+				is_core_of = AFR 
+				is_claimed_by = AFR 
+				state = 846
+				state = 847
+				state = 848
+				state = 849
+			}
+		}
+		set_variable = { ambition_area_@AFR = 1 }
+	}
+	# ALB = Albania
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ALB
+				is_claimed_by = ALB
+				state = 178
+				state = 164
+				state = 165
+			}
+		}
+		set_variable = { ambition_area_@ALB = 1 }
+	}
+	# AIR = Kel Air 
+	if = {
+		limit = {
+			or = {
+				is_core_of = AIR
+				is_claimed_by = AIR
+				state = 823
+				state = 831
+			}
+		}
+	}
+	# ALG = Algeria
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ALG
+				is_claimed_by = ALG
+				state = 804
+				state = 805
+				state = 806
+				state = 807
+				state = 808
+			}
+		}
+		set_variable = { ambition_area_@ALG = 1 }
+	}
+	# ANG = Angola
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ANG
+				is_claimed_by = ANG
+				state = 884
+				state = 899
+				state = 900
+				state = 901
+				state = 902
+			}
+		}
+		set_variable = { ambition_area_@ANG = 1 }
+	}
+	# ANH = Anhui Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ANH
+				is_claimed_by = ANH 
+				is_core_of = SDL 
+				is_claimed_by = SDL 
+				is_core_of = ZHI 
+				is_claimed_by = ZHI 
+				state = 477
+				state = 479
+				state = 480
+				state = 496
+			}
+		}
+		set_variable = { ambition_area_@ANH = 1 }
+	}
+	# ARB = Hashemite Arabia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ARB
+				is_claimed_by = ARB
+				state = 756
+				state = 757
+				state = 760
+				state = 761
+				state = 762
+				state = 763
+				state = 764
+				state = 767
+				state = 768
+				state = 769
+			}
+		}
+		set_variable = { ambition_area_@ARB = 1 }
+	}
+	# ARG = Argentina
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ARG
+				is_claimed_by = ARG
+				region = 204 #Gran Chaco
+				region = 208 #Central Argentina
+				region = 64 #Scotia Sea
+				state = 1064
+				state = 1073 #Uruguay
+				state = 1074 
+				state = 1075
+				state = 1076
+				state = 1077
+				state = 1078
+				state = 1079
+				state = 1080
+				state = 1081
+				state = 1082
+				state = 1083
+				state = 1084
+				state = 1085
+				state = 1086
+				state = 1087
+				state = 1088
+				state = 1089
+				state = 1090
+				state = 1091
+				state = 1092
+				state = 1093
+				state = 1094
+				state = 1095
+				state = 1096
+			}
+		}
+		set_variable = { ambition_area_@ARG = 1 }
+	}
+	# ARM = Armenia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ARM
+				is_claimed_by = ARM
+				state = 723
+				state = 727
+				state = 743
+				state = 741
+				state = 742
+			}
+		}
+		set_variable = { ambition_area_@ARM = 1 }
+	}
+	# AST = Australia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = AST
+				is_claimed_by = AST
+				is_australia = yes
+				region = 157 #New Zealand
+				region = 81 #Coral Sea
+				region = 83 #Soloman Sea
+				region = 167 #New Guinea
+				region = 91 #Arafura & Banda Seas
+				region = 93 #Java & Flores Seas
+				region = 99 #Far Eastern Indian Ocean
+				region = 71 #East Indian Ocean
+				region = 84 #Bismarck Sea
+				region = 178 #West Polynesia
+				region = 158 #Sunda Islands
+				region = 192 #Sumatra
+				region = 159 #Borneo
+			}
+		}
+		set_variable = { ambition_area_@AST = 1 }
+	}
+	# AUS = Austria
+	if = {
+		limit = {
+			OR = { 
+				is_core_of = AUS
+				is_claimed_by = AUS
+				region = 21 #Austria
+				# Use the claims/cores of German-Austrian Republic
+				state = 43
+				state = 207
+				state = 206
+				state = 153
+				state = 139
+				state = 138
+			}
+		}
+		set_variable = { ambition_area_@AUS = 1 }
+	}
+	# AZR = Azerbaijan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = AZR
+				is_claimed_by = AZR
+				state = 722 
+				state = 723 
+				state = 724
+			}
+		}
+		set_variable = { ambition_area_@AZR = 1 }
+	}
+	# BAH = Bahrain
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BAH
+				is_claimed_by = BAH
+				state = 771
+			}
+		}
+		set_variable = { ambition_area_@BAH = 1 }
+	}
+	# BSQ = Basque
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BSQ
+				is_claimed_by = BSQ
+				state = 104 #Navarre
+				state = 105 #Basque Country
+			}
+		}
+		set_variable = { ambition_area_@BSQ = 1 }
+	}
+	# BEL = Belgium
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BEL
+				is_claimed_by = BEL
+				state = 12
+				state = 62
+				state = 63
+				state = 64
+				state = 65
+				state = 66
+				state = 67
+			}
+		}
+		set_variable = { ambition_area_@BEL = 1 }
+		set_variable = { ambition_area_@WLL = 1 }
+		set_variable = { ambition_area_@FLA = 1 }
+	}
+	# BGA = Buganda
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BGA
+				is_claimed_by = BGA
+				state = 883
+			}
+		}
+		set_variable = { ambition_area_@BGA = 1 }
+	}
+	# BLR = Belarus
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BLR
+				is_claimed_by = BLR
+				state = 27
+				state = 218
+				state = 231
+				state = 232
+				state = 233
+				state = 234
+				state = 235
+				state = 236
+				state = 237
+				state = 238
+				state = 239
+				state = 249
+				state = 262
+				state = 263
+				state = 264
+				state = 265
+			}
+		}
+		set_variable = { ambition_area_@BLR = 1 }
+	}
+	# BOL = Bolivia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BOL
+				is_claimed_by = BOL
+				region = 205 #Altiplano
+				state = 1060 
+				state = 1061 
+				state = 1062 
+				state = 1063 
+				state = 1064
+				state = 1065 #Arica
+				state = 1071 #Bolivian Chaco
+				state = 1074 #Jujuy
+				state = 1116 #Acre Jungle
+			}
+		}
+		set_variable = { ambition_area_@BOL = 1 }
+	}
+	# BOS = Bosnia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BOS
+				is_claimed_by = BOS
+				state = 160
+				state = 161
+			}
+		}
+		set_variable = { ambition_area_@BOS = 1 }
+	}
+	# BOT = Botswana
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BOT
+				is_claimed_by = BOT
+				state = 921
+			}
+		}
+		set_variable = { ambition_area_@BOT = 1 }
+	}
+	# BRA = Brazil
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BRA
+				is_claimed_by = BRA
+				region = 125 #SE Brazil
+				region = 202 #NE Brazil
+				region = 201 #Central Brazil
+				region = 163 #Amazonas
+				state = 1073 #Uruguay
+				state = 1102 
+				state = 1099 
+				state = 1103
+				state = 1100 
+				state = 1120
+				state = 1121 
+				state = 1101 
+			}
+		}
+		set_variable = { ambition_area_@BRA = 1 }
+	}
+	# BRD = Urundi
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BRD
+				is_claimed_by = BRD
+				state = 892 #Urundi
+			}
+		}
+		set_variable = { ambition_area_@BRD = 1 }
+	}
+	# BRI = Brittany
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BRI
+				is_claimed_by = BRI
+				state = 77
+			}
+		}
+		set_variable = { ambition_area_@BRI = 1 }
+	}
+	# BSL = Barotseland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BSL
+				is_claimed_by = BSL
+				state = 904
+				state = 905
+				state = 906
+			}
+		}
+		set_variable = { ambition_area_@BSL = 1 }
+	}
+	# BRM = Burma
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BRM
+				is_claimed_by = BRM
+				region = 195 # Burma
+				state = 598 # Tenasserim
+				state = 586 # Manipur
+			}
+		}
+		set_variable = { ambition_area_@BRM = 1 }
+	}
+	# BUL = Bulgaria
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BUL
+				is_claimed_by = BUL
+				region = 26 #Bulgaria
+				# Greater Bulgaria
+				state = 32
+				state = 173
+				state = 174
+				state = 175
+				state = 176
+				state = 177
+				state = 179
+				state = 180
+				state = 181
+				state = 182
+				state = 183
+				state = 184
+				state = 185
+				state = 186
+				state = 187
+				state = 188
+			}
+		}
+		set_variable = { ambition_area_@BUL = 1 }
+	}
+	# CAM = Cambodia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CAM
+				is_claimed_by = CAM
+				### Cambodian Proper ###
+				state = 610 # Pnom Penh
+				state = 611 # Battambang
+				state = 612 # Stung Treng
+				### Khmer Krom and other further claims ###
+				state = 603 # Cochinchina
+				state = 604 # Mekong Delta
+				state = 591 # Rayong
+			}
+		}
+		set_variable = { ambition_area_@CAM = 1 }
+	}
+	# CAN = Canada
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CAN
+				is_claimed_by = CAN
+				is_canada = yes
+				state = 463 #Alaska
+			}
+		}
+		set_variable = { ambition_area_@CAN = 1 }
+	}
+	# CHA = Chad
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CHA
+				is_claimed_by = CHA
+				state = 824 
+				state = 832 
+				state = 792 
+				state = 793 
+			}
+		}
+		set_variable = { ambition_area_@CHA = 1 }
+	}
+	# CHL = Chile
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CHL
+				is_claimed_by = CHL
+				state = 1095 #Tierra del Fuego
+			}
+		}
+		set_variable = { ambition_area_@CHL = 1 }
+	}
+	# CMR = Cameroon
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CMR
+				is_claimed_by = CMR
+				state = 862
+				state = 863
+				state = 864
+			}
+		}
+		set_variable = { ambition_area_@CMR = 1 }
+	}
+	# CRO = Croatia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CRO
+				is_claimed_by = CRO
+				region = 24 #Southern Balkans
+				region = 143 #Northern Balkans
+				state = 149 #Gorizia
+				state = 150 #Istria
+				state = 151 #Carinthia
+			}
+		}
+		set_variable = { ambition_area_@CRO = 1 }
+	}
+	# COG = Congo
+	if = {
+		limit = {
+			OR = {
+				is_core_of = COG
+				is_claimed_by = COG
+				region = 145 #Congo Basin
+				state = 891 #Rwanda
+				state = 892 #Urundi
+				state = 870
+				state = 871
+				state = 872
+				state = 899
+				state = 884
+			}
+		}
+		set_variable = { ambition_area_@COG = 1 }
+		set_variable = { ambition_area_@CNG = 1 }
+	}
+	# COL = Colombia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = COL
+				is_claimed_by = COL
+				region = 198 #Colombia
+				region = 124 #Venezuela
+				region = 200 #Guyana Plateau
+				state = 1042
+				state = 1043
+				state = 1044
+				state = 1050
+				state = 1051
+				state = 1052
+				state = 1053
+				state = 1126
+				state = 1127
+			}
+		}
+		set_variable = { ambition_area_@COL = 1 }
+	}
+	# COS = Costa Rica
+	if = {
+		limit = {
+			OR = {
+				is_core_of = COS
+				is_claimed_by = COS
+				state = 1041 #Costa Rica
+			}
+		}
+		set_variable = { ambition_area_@COS = 1 }
+	}
+	# CRU = Cruzoob
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CRU 
+				is_claimed_by = CRU
+				state = 1033
+				state = 1034	
+				state = 1035
+				state = 1036			
+			}
+		}
+		set_variable = { ambition_area_@CRU = 1 }
+	}
+	# CTL = Catalonia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CTL
+				is_claimed_by = CTL
+				state = 96 #Catalonia
+				state = 97 #Valencia
+				state = 98 #Balearic Islands
+			}
+		}
+		set_variable = { ambition_area_@CTL = 1 }
+	}
+	# CUB = Cuba
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CUB
+				is_claimed_by = CUB
+				region = 53 #Carribbean Sea
+				region = 170 #Florida Coast
+				region = 57 #Sargasso Sea
+			}
+		}
+		set_variable = { ambition_area_@CUB = 1 }
+	}
+	# CZE = Czechia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = CZE
+				is_claimed_by = CZE
+				region = 22 #Bohemia
+				state = 26 #Slovakia
+				state = 196 #Danubian Plain
+				state = 197 #Transcarpathia
+				state = 198 #Pressburg
+			}
+		}
+		set_variable = { ambition_area_@CZE = 1 }
+	}
+	# DAH = Dahomey
+	if = {
+		limit = {
+			OR = {
+				is_core_of = DAH
+				is_claimed_by = DAH
+				state = 840 #Dahomey
+			}
+		}
+		set_variable = { ambition_area_@DAH = 1 }
+	}
+	# PRS = Prussia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PRS
+				is_claimed_by = PRS
+				state = 5
+				state = 34
+				state = 35
+				state = 36
+				state = 37
+				state = 44
+				state = 45
+				state = 210
+				state = 211
+				state = 212
+				state = 213
+				state = 229
+			}
+		}
+		set_variable = { ambition_area_@PRS = 1 }
+	}
+	# DEI = Dutch East Indies
+	if = {
+		limit = {
+			OR = {
+				is_core_of = DEI
+				is_claimed_by = DEI
+				region = 159
+				region = 192
+				region = 158
+				region = 93
+				region = 91
+				region = 167
+			}
+		}
+		set_variable = { ambition_area_@DEI = 1 }
+		set_variable = { ambition_area_@BEI = 1 }
+	}
+	# DEN = Denmark
+	if = {
+		limit = {
+			OR = {
+				is_core_of = DEN
+				is_claimed_by = DEN
+				region = 33 #Denmark
+				state = 370 #Faroe Islands
+			}
+		}
+		set_variable = { ambition_area_@DEN = 1 }
+	}
+	# DOM = Dominican Rep
+	if = {
+		limit = {
+			OR = {
+				is_core_of = DOM
+				is_claimed_by = DOM
+				region = 53 #Caribbean Sea
+				region = 170 #Florida Coast
+				region = 57 #Sargasso Sea
+			}
+		}
+		set_variable = { ambition_area_@DOM = 1 }
+	}
+	# ECU = Ecuador
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ECU
+				is_claimed_by = ECU
+				state = 1050 #Ecuador
+				state = 1051 #Pastaza
+				state = 1052 
+				state = 1058 #Galapagos Islands
+			}
+		}
+		set_variable = { ambition_area_@ECU = 1 }
+	}
+	# EGY = Egypt
+	if = {
+		limit = {
+			OR = {
+				is_core_of = EGY
+				is_claimed_by = EGY
+				region = 28 #Syria
+				region = 126 #Egypt
+				region = 128 #Upper Nile
+				region = 238 #Tripolitania
+				region = 268 #Southern Sudan
+				state = 746
+				state = 758
+				state = 759
+				state = 763
+				state = 767
+				state = 783
+				state = 784
+				state = 791
+				state = 792
+				state = 793
+				state = 794
+				state = 795
+				state = 796
+				state = 797 
+				state = 799
+				state = 800
+				state = 801
+			}
+		}
+		set_variable = { ambition_area_@EGY = 1 }
+	}
+	# ELS = El Salvador
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ELS
+				is_claimed_by = ELS
+				state = 1038 #El Salvador
+			}
+		}
+		set_variable = { ambition_area_@ELS = 1 }
+	}
+	# ENG = Great Britain
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ENG
+				is_claimed_by = ENG
+				is_great_britain = yes
+				region = 4 #Ireland
+			}
+		}
+		set_variable = { ambition_area_@ENG = 1 }
+	}
+	# ERI = Eritrea
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ERI
+				is_claimed_by = ERI
+				state = 846 #Eritrea
+			}
+		}
+		set_variable = { ambition_area_@ERI = 1 }
+	}
+	# EST = Estonia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = EST
+				is_claimed_by = EST
+				is_core_of = FIN
+				is_claimed_by = FIN
+				region = 12 #Karelia
+				region = 13 #Finland
+				state = 29
+				state = 30
+				state = 222
+				state = 223
+				state = 308
+				state = 341
+				state = 342
+				state = 343
+				state = 344
+				state = 345
+				state = 346
+				state = 347
+				state = 348
+				state = 349
+				state = 350
+				state = 351
+				state = 352
+				state = 366
+			}
+		}
+		set_variable = { ambition_area_@EST = 1 }
+	}
+	# ETH = Ethiopia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ETH
+				is_claimed_by = ETH
+				region = 17 #Ethiopia
+				region = 267 #Horn of Africa
+			}
+		}
+		set_variable = { ambition_area_@ETH = 1 }
+	}
+	# FIN = Finland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = FIN
+				is_claimed_by = FIN
+				is_core_of = EST
+				is_claimed_by = EST
+				region = 12 #Karelia
+				region = 13 #Finland
+				state = 29
+				state = 30
+				state = 222
+				state = 223
+				state = 308
+				state = 341
+				state = 342
+				state = 343
+				state = 344
+				state = 345
+				state = 346
+				state = 347
+				state = 348
+				state = 349
+				state = 350
+				state = 351
+				state = 352
+				state = 366
+			}
+		}
+		set_variable = { ambition_area_@FIN = 1 }
+	}
+	# FNG = Fengtian Government
+	if = {
+		limit = {
+			OR = {
+				is_core_of = FNG
+				is_claimed_by = FNG
+				is_manchuria = yes
+			}
+		}
+		set_variable = { ambition_area_@FNG = 1 }
+	}
+	# FRA = France
+	if = {
+		limit = {
+			OR = {
+				is_core_of = FRA
+				is_claimed_by = FRA
+				is_mainland_france_state = yes
+				state = 1 #Corsica
+				## French Metropolis Algeria
+				state = 804
+				state = 805
+				state = 806
+				state = 807
+				state = 808
+			}
+		}
+		set_variable = { ambition_area_@FRA = 1 }
+	}
+	# GAB = Gabon
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GAB
+				is_claimed_by = GAB
+				state = 866 #Equatorial Guinea
+				state = 867
+				state = 869 #Gabon
+			}
+		}
+		set_variable = { ambition_area_@GAB = 1 }
+	}
+	# GEO = Georgia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GEO
+				is_claimed_by = GEO
+				state = 725 #Sakartvelo
+				state = 726 
+				state = 724 
+				state = 740
+				state = 744
+			}
+		}
+		set_variable = { ambition_area_@GEO = 1 }
+	}
+	# GER = Germany
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GER
+				is_claimed_by = GER
+				is_full_germany = yes
+				is_core_austria = yes
+				region = 22 #Bohemia
+				region = 37 #Baltic States
+				state = 66 #Verviers
+				state = 67 #Limburg
+			}
+		}
+		set_variable = { ambition_area_@GER = 1 }
+	}
+	# GHA = Ghana
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GHA
+				is_claimed_by = GHA
+				state = 838 #Gold Coast
+				state = 839 #Togo
+			}
+		}
+		set_variable = { ambition_area_@GHA = 1 }
+	}
+	# GNA = Guinea
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GNA
+				is_claimed_by = GNA
+				state = 828 #Portuguese Guinea
+				state = 833 #Guinea
+			}
+		}
+		set_variable = { ambition_area_@GNA = 1 }
+	}
+	# GRE = Greece
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GRE
+				is_claimed_by = GRE
+				region = 25 #Greece
+				region = 223 #Aegean Sea
+				state = 781 #Cyprus
+				state = 728 #Bursa
+				state = 165 #Northern Epirus
+				state = 729 #Smyrna
+			}
+		}
+		set_variable = { ambition_area_@GRE = 1 }
+	}
+	# GRU = Puppet Germany
+	if = {
+		limit = {
+			is_full_germany = yes
+		}
+		set_variable = { ambition_area_@GRU = 1 }
+	}
+	# GUA - Guatemala
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GUA
+				is_claimed_by = GUA
+				state = 1035 
+				state = 1036 
+			}
+		}
+		set_variable = { ambition_area_@GUA = 1 }
+	}
+	# GXC = Guangxi Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = GXC
+				is_claimed_by = GXC
+			}
+		}
+		set_variable = { ambition_area_@GXC = 1 }
+	}
+	# HAI = Haiti
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HAI
+				is_claimed_by = HAI
+				region = 53 #Carribbean Sea
+				region = 170 #Florida Coast
+				region = 57 #Sargasso Sea
+			}
+		}
+		set_variable = { ambition_area_@HAI = 1 }
+	}
+	# HAU = Hausaland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HAU
+				is_claimed_by = HAU
+				state = 844 #Hausaland
+				state = 831 #Niger
+				state = 845 #Bornu
+			}
+		}
+		set_variable = { ambition_area_@HAU = 1 }
+	}
+	# HAW = Hawaii
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HAW
+				is_claimed_by = HAW
+				is_american_pacific_islands = yes
+			}
+		}
+		set_variable = { ambition_area_@HAW = 1 }
+	}
+	# HOL = Netherlands
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HOL
+				is_claimed_by = HOL
+				is_indonesia = yes
+				state = 7 #Holland
+				state = 12
+				state = 59
+				state = 60
+				state = 61
+				state = 62
+				state = 63
+				state = 64
+			}
+		}
+		set_variable = { ambition_area_@HOL = 1 }
+	}
+	# HON = Honduras
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HON
+				is_claimed_by = HON
+				state = 1037 #Honduras
+			}
+		}
+		set_variable = { ambition_area_@HON = 1 }
+	}
+	# HUN = Hungary 
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HUN
+				is_claimed_by = HUN
+				region = 27 #Hungary
+				# Pre-War Kingdom of Hungary claims
+				region = 144 #Transylvania
+				state = 154 #Rijeka
+				state = 156 #Syrmia
+				state = 159 #Central Croatia
+				state = 192
+			}
+		}
+		set_variable = { ambition_area_@HUN = 1 }
+	}
+	# IND = Hindustan/India
+	if = {
+		limit = {
+			OR = {
+				is_core_of = IND
+				is_claimed_by = IND
+				is_india = yes
+				state = 578
+				state = 579
+				state = 659
+				state = 660
+				state = 664				
+			}
+		}
+		set_variable = { ambition_area_@IND = 1 }
+	}
+	# HNN = Hunan Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = HNN
+				is_claimed_by = HNN
+				state = 528
+				state = 527
+				state = 529
+				state = 530
+				state = 531
+				state = 532
+				state = 556
+			}
+		}
+		set_variable = { ambition_area_@HNN = 1 }
+	}
+	# IVO = Ivory Coast
+	if = {
+		limit = {
+			OR = {
+				is_core_of = IVO
+				is_claimed_by = IVO
+				state = 836 #Ivory Coast
+				state = 837 #Upper Volta
+			}
+		}
+		set_variable = { ambition_area_@IVO = 1 }
+	}
+	# INC = Indochina
+	if = {
+		limit = {
+			OR = {
+				is_core_of = INC
+				is_claimed_by = INC
+				### Truly the 'Indochinese Union' if Burma isn't Syndie ###
+				region = 196 # Indochina Proper
+				region = 142 # Siam
+				region = 194 # Malay Peninsular
+				region = 195 # Burma
+			}
+		}
+		set_variable = { ambition_area_@INC = 1 }
+	}
+	# INS = Insulindia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = INS
+				is_claimed_by = INS
+				region = 158 # Sunda Isles
+				region = 192 # Sumatra
+				region = 159 # Kalimantan
+				region = 93 # Java & Flores Seas (Celebes)
+				region = 91 # Arafura & Banda Seas
+				region = 167 # New Guinea
+			}
+		}
+		set_variable = { ambition_area_@INS = 1 }
+	}
+	# IRQ = Iraq
+	if = {
+		limit = {
+			OR = {
+				is_core_of = IRQ
+				is_claimed_by = IRQ
+				region = 239 #Mesopotamia
+				state = 718
+				state = 751
+				state = 757
+				state = 760
+			}
+		}
+		set_variable = { ambition_area_@IRQ = 1 }
+	}
+	# ITA = Italy
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ITA
+				is_claimed_by = ITA
+				is_core_of = LOM
+				is_claimed_by = LOM
+				is_core_of = STE
+				is_claimed_by = STE
+				is_core_of = VNE 
+				is_claimed_by = VNE
+			}
+		}
+		set_variable = { ambition_area_@ITA = 1 }
+		set_variable = { ambition_area_@LOM = 1 }
+		set_variable = { ambition_area_@STE = 1 }
+		set_variable = { ambition_area_@VNE = 1 }
+	}
+	# JAP = Japan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = JAP
+				is_claimed_by = JAP
+				region = 154 #Home Islands
+				region = 191 #Korea
+				region = 76 #East China Sea
+				region = 87 #Sea of Okhotsk
+				is_pacific_islands = yes
+				is_indonesia = yes
+				#SE Asia
+				region = 196 #Indochina
+				region = 160 #Philippines
+				is_core_of = MAL
+				#China
+				is_chinese_port_city = yes
+			}
+		}
+		set_variable = { ambition_area_@JAP = 1 }
+	}
+	# ARB/RAS/SAU = Arabian tags
+	if = {
+		limit = {
+			region = 187 #Arabia
+		}
+		set_variable = { ambition_area_@ARB = 1 }
+		set_variable = { ambition_area_@RAS = 1 }
+		set_variable = { ambition_area_@SAU = 1 }
+	}
+	# KCH = Kachin
+	if = {
+		limit = {
+			OR = {
+				is_core_of = KCH
+				is_claimed_by = KCH
+				state = 559 #Tengyue
+				state = 619 #Kachin
+			}
+		}
+		set_variable = { ambition_area_@KCH = 1 }
+	}
+	# BOR = Bornu
+	if = {
+		limit = {
+			OR = {
+				is_core_of = BOR
+				is_claimed_by = BOR
+				state = 845
+			}
+		}
+		set_variable = { ambition_area_@BOR = 1 }
+	}
+	# KEN = Kenya
+	if = {
+		limit = {
+			OR = {
+				is_core_of = KEN
+				is_claimed_by = KEN
+				state = 885
+				state = 886
+				state = 887
+				state = 888
+				state = 889
+				state = 890
+			}
+		}
+		set_variable = { ambition_area_@KEN = 1 }
+	}
+	# KUR = Kurdistan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = KUR
+				is_claimed_by = KUR
+				region = 252 #Kurdistan
+			}
+		}
+		set_variable = { ambition_area_@KUR = 1 }
+	}
+	# LAO = Laos
+	if = {
+		limit = {
+			OR = {
+				is_core_of = LAO
+				is_claimed_by = LAO
+				state = 670 #Laos
+				state = 592 #Maekong Right Bank
+				state = 606 #Samabuli
+			}
+		}
+		set_variable = { ambition_area_@LAO = 1 }
+	}
+	# LAT = Latvia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = LAT
+				is_claimed_by = LAT
+				state = 24 
+				state = 224 
+				state = 225 
+				state = 226 
+				state = 227
+			}
+		}
+		set_variable = { ambition_area_@LAT = 1 }
+	}
+	# LIB = Liberia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = LIB
+				is_claimed_by = LIB
+			}
+		}
+		set_variable = { ambition_area_@LIB = 1 }
+	}
+	# LIT = Lithuania
+	if = {
+		limit = {
+			OR = {
+				is_core_of = LIT
+				is_claimed_by = LIT
+				state = 229 #Memel
+				state = 530
+				state = 231
+				state = 232
+			}
+		}
+		set_variable = { ambition_area_@LIT = 1 }
+	}
+	# MAL = Malaysia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MAL
+				is_claimed_by = MAL
+				### Malay-inhabited region ### - didn't use the Malay peninsular region here as further north is Buddhist majority area
+				AND = {
+					region = 194 #Malay Peninsula
+					NOT = { state = 596 } #Kra Isthmus
+				}
+				state = 597 # Patani
+				state = 620
+				state = 626
+				state = 627
+				state = 628
+				### Push it further to cover all of Borneo and Sumatra ###
+				state = 635 # Aceh
+				state = 636 # Middle Sumatra
+				state = 637 # Palembang
+				state = 638 # East Kalimantan
+				state = 639
+			}
+		}
+		set_variable = { ambition_area_@MAL = 1 }
+	}
+	# MDR = Madras
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MDR
+				is_claimed_by = MDR
+				state = 696
+				state = 697
+				state = 698
+				state = 699
+				state = 701
+				state = 702
+			}
+		}
+		set_variable = { ambition_area_@MDR = 1 }
+	}
+	# MEX = Mexico
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MEX
+				is_claimed_by = MEX
+				region = 123 #Transvolcanic Belt
+				region = 224 #Yucatan Peninsula
+				region = 225 #Sierra Madre
+			}
+		}
+		set_variable = { ambition_area_@MEX = 1 }
+	}
+	# MLI = Mali
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MLI
+				is_claimed_by = MLI
+				state = 822
+				state = 829
+				state = 830
+			}
+		}
+		set_variable = { ambition_area_@MLI = 1 }
+	}
+	# MLW = Malawi
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MLW
+				is_claimed_by = MLW
+				state = 909
+			}
+		}
+		set_variable = { ambition_area_@MLW = 1 }
+	}
+	# MRT = Mauritania
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MRT
+				is_claimed_by = MRT
+				state = 817
+				state = 821
+				state = 825
+			}
+		}
+		set_variable = { ambition_area_@MRT = 1 }
+	}
+	# MNE = Montenegro
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MNE
+				is_claimed_by = MNE
+				state = 162
+			}
+		}
+		set_variable = { ambition_area_@MNE = 1 }
+	}
+	# MON = Mongolia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MON
+				is_claimed_by = MON
+				region = 220 #Xibei
+				region = 222 #Inner Mongolia
+			}
+		}
+		set_variable = { ambition_area_@MON = 1 }
+	}
+	# MOR = Morocco
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MOR
+				is_claimed_by = MOR
+				state = 809
+				state = 810
+				state = 812
+				state = 813
+				state = 814
+				state = 815
+				state = 816
+				state = 817
+			}
+		}
+		set_variable = { ambition_area_@MOR = 1 }
+	}
+	# MYS = Mysore
+	if = {
+		limit = {
+			OR = {
+				is_core_of = MYS
+				is_claimed_by = MYS
+				region = 264 #Cape Comorin
+				state = 694
+				state = 695
+				state = 697
+			}
+		}
+		set_variable = { ambition_area_@MYS = 1 }
+	}
+	# NGR = Niger
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NGR
+				is_claimed_by = NGR
+				state = 798
+				state = 823
+				state = 831
+			}
+		}
+		set_variable = { ambition_area_@NGR = 1 }
+	}
+	# NGM = North Germany
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NGM
+				is_claimed_by = NGM
+				region = 6 #Rhineland
+				region = 8 #Lower Germany
+				state = 5 
+				state = 10
+				state = 33
+				state = 37
+				state = 38
+				state = 39
+				state = 40
+				state = 41
+				state = 42
+				state = 43
+				state = 47
+				state = 55
+			}
+		}
+		set_variable = { ambition_area_@NGM = 1 }
+	}
+	# NGA = Nigeria
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NGA
+				is_claimed_by = NGA
+				state = 841
+				state = 842
+				state = 843
+				state = 844
+				state = 845
+			}
+		}
+		set_variable = { ambition_area_@NGA = 1 }
+	}
+	# NIC = Nicaragua
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NIC
+				is_claimed_by = NIC
+				state = 1039 #Managua
+				state = 1040
+				 #Matagalpa
+			}
+		}
+		set_variable = { ambition_area_@NIC = 1 }
+	}
+	# NOR = Norway
+	if = {
+		limit = {
+			OR = {
+				is_core_of = NOR
+				is_claimed_by = NOR
+				region = 36 #Greenland
+				region = 161 #Iceland
+				state = 337 #Faroe Islands
+				state = 356 #Jämtland
+				#state = 908 #Bohuslän
+			}
+		}
+		set_variable = { ambition_area_@NOR = 1 }
+	}
+	# TUR = Ottoman Empire
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TUR
+				is_claimed_by = TUR
+				region = 28 #Syria
+				region = 126 #Egypt
+				region = 128 #Upper Nile
+				region = 129 #Anatolia
+				region = 187 #Arabia
+				region = 238 #Tripolitania
+				region = 239 #Mesopotamia
+				region = 252 #Kurdistan
+				region = 268 #Southern Sudan
+				state = 32
+				state = 169
+				state = 170
+				state = 175
+				state = 176
+				state = 184
+				state = 721
+				state = 727
+				state = 734
+				state = 735
+				state = 740
+				state = 741
+				state = 742
+				state = 743
+				state = 744
+				state = 745
+				state = 747
+				state = 748
+				state = 751
+				state = 781
+			}
+		}
+		set_variable = { ambition_area_@TUR = 1 }
+	}
+	# PAN = Panama
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PAN
+				is_claimed_by = PAN
+				state = 1043 #Panama Canal
+			}
+		}
+		set_variable = { ambition_area_@PAN = 1 }
+	}
+	# PAR = Paraguay
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PAR
+				is_claimed_by = PAR
+				state = 1063
+				state = 1071
+				state = 1072
+				state = 1076
+				state = 1079
+				state = 1101
+				state = 1104
+			}
+		}
+		set_variable = { ambition_area_@PAR = 1 }
+	}
+	# PER = Iran
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PER
+				is_claimed_by = PER
+				is_persia = yes
+				region = 134 #Transcaucasia
+				region = 239 #Mesopotamia
+				region = 252 #Kurdistan
+			}
+		}
+		set_variable = { ambition_area_@PER = 1 }
+	}
+	# PHI = Philippines
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PHI
+				is_claimed_by = PHI
+				region = 160 # Philippines
+			}
+		}
+		set_variable = { ambition_area_@PHI = 1 }
+	}
+	# POL = Poland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = POL
+				is_claimed_by = POL
+				region = 38 #Poland
+				state = 204
+				state = 209
+				state = 231
+				state = 233
+				state = 234
+				state = 235
+				state = 240
+				state = 241
+			}
+		}
+		set_variable = { ambition_area_@POL = 1 }
+	}
+	# POR = Portugal
+	if = {
+		limit = {
+			OR = {
+				is_core_of = POR
+				is_claimed_by = POR
+				state = 15
+				state = 115
+				state = 116
+				state = 117
+				state = 118
+				state = 119
+				state = 120
+
+				#further colonial claims
+				region = 145 #Congo Basin
+				region = 199 #Zambesi Basin
+			}
+		}
+		set_variable = { ambition_area_@POR = 1 }
+	}
+	# PRU = Peru
+	if = {
+		limit = {
+			OR = {
+				is_core_of = PRU
+				is_claimed_by = PRU
+				region = 197 #Northern Andes
+				region = 205 #Altiplano
+				region = 206 #Peru
+				state = 1063 #Santa Cruz
+				state = 1058 #Galapagos Islands
+				state = 1116
+			}
+		}
+		set_variable = { ambition_area_@PRU = 1 }
+	}
+	# QUE = Quebec
+	if = {
+		limit = {
+			OR = {
+				is_core_of = QUE
+				is_claimed_by = QUE
+				region = 232 #Eastern Canada
+			}
+		}
+		set_variable = { ambition_area_@QUE = 1 }
+	}
+	# RAJ = Dominion of India
+	if = {
+		limit = {
+			OR = {
+				is_core_of = RAJ
+				is_claimed_by = RAJ
+				is_india = yes
+				state = 704
+				state = 415
+				state = 660 #Nepal
+				state = 664 
+				state = 659
+				state = 578
+				state = 579
+				state = 587
+			}
+		}
+		set_variable = { ambition_area_@RAJ = 1 }
+	}
+	# ROM = Romania
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ROM
+				is_claimed_by = ROM
+				region = 15 #Romania
+				region = 144 #Transylvania
+				state = 188 #Silistria
+			}
+		}
+		set_variable = { ambition_area_@ROM = 1 }
+	}
+	# RWA = Rwanda
+	if = {
+		limit = {
+			OR = {
+				is_core_of = RWA
+				is_claimed_by = RWA
+				state = 891 #Rwanda
+			}
+		}
+		set_variable = { ambition_area_@RWA = 1 }
+	}
+	# SAF = South Africa
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SAF
+				is_claimed_by = SAF
+				region = 139 #South Africa
+				region = 242 #Kalahari
+				state = 912
+				state = 913 #Rhodesia
+				state = 914
+				state = 915
+				state = 950 #Inhambane & Gaza
+			}
+		}
+		set_variable = { ambition_area_@SAF = 1 }
+	}
+	# SRW = Sarawak
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SRW
+				is_claimed_by = SRW
+				region = 159 # Borneo
+			}
+		}
+		set_variable = { ambition_area_@SRW = 1 }
+	}
+	# SCO = Scotland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SCO
+				is_claimed_by = SCO
+				region = 3 #Scotland
+			}
+		}
+		set_variable = { ambition_area_@SCO = 1 }
+	}
+	# SEN = Senegal
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SEN
+				is_claimed_by = SEN
+				state = 826 #Senegal
+				state = 827 #Gambia
+			}
+		}
+		set_variable = { ambition_area_@SEN = 1 }
+	}
+	# SER = Serbia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SER
+				is_claimed_by = SER
+				region = 24 #Southern Balkans
+				region = 26 #Bulgaria
+				region = 143 #Northern Balkans
+				state = 149 #Istria				
+				state = 150 #Gorizia
+				state = 179 #West Banat
+				state = 191 #Vojvodina
+			}
+		}
+		set_variable = { ambition_area_@SER = 1 }
+	}
+	# SHN = Shan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SHN
+				is_claimed_by = SHN
+				### Shan Proper ###
+				state = 615 # Kengtung
+				state = 616 #Upper Shan
+				### Extended Claim ###
+				state = 595 # Lan Na
+				state = 619 # Kachin
+			}
+		}
+		set_variable = { ambition_area_@SHN = 1 }
+	}
+	# SHX = Shanxi Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SHX
+				is_claimed_by = SHX
+				region = 211 #Huangtu Plateau
+				state = 515 
+			}
+		}
+		set_variable = { ambition_area_@SHX = 1 }
+	}
+	# SIA = Siam
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SIA
+				is_claimed_by = SIA
+				### Siamese Proper ###
+				region = 142 #Siam - the Chao Phraya river plateau
+				state = 596 # Kra Isthmus
+				state = 597 # Pattani
+				state = 598 # Moulmein
+				state = 620 # Upper Malay/Sirat Malai
+				state = 621
+				state = 615 # Kengtung
+				state = 606 # Syburi
+				### Historical Claim + Phibun era map ### - Keep Vietnam and Burma heartland out
+				state = 616 # Upper Shan
+				state = 614 # Moulmein/Thaton
+				state = 605
+				state = 607 # Laos
+				state = 608
+				state = 609
+				state = 610 # Pnom Penh
+				state = 611 # Stung Treng
+				state = 612
+				state = 603 # Mekong Delta - "Putthaimart" claim
+				state = 604 # Cochinchina (more like using Cambodian claim here based from those nationalist map, but whatever)
+				### Extended Claim ###
+				state = 622 
+				state = 623 
+				state = 624 
+				state = 625 
+				state = 626
+			}
+		}
+		set_variable = { ambition_area_@SIA = 1 }
+	}
+	# SIK = Xinjiang Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SIK
+				is_core_of = KUM
+				is_core_of = ETS
+				is_claimed_by = SIK
+				is_claimed_by = KUM
+				is_claimed_by = ETS
+				is_xinjiang = yes
+			}
+		}
+		set_variable = { ambition_area_@SIK = 1 }
+		set_variable = { ambition_area_@KML = 1 }
+		set_variable = { ambition_area_@ETK = 1 }
+	}
+	# SLO = Slovakia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SLO
+				is_claimed_by = SLO
+				state = 26 #Pressburg
+				state = 196 
+				state = 197 
+				state = 198 
+			}
+		}
+		set_variable = { ambition_area_@SLO = 1 }
+	}
+	# SLV = Slovenia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SLV
+				is_claimed_by = SLV
+				state = 149
+				state = 150
+				state = 152
+				state = 153
+				state = 154
+			}
+		}
+		set_variable = { ambition_area_@SLV = 1 }
+	}
+	# SNE = Shoshone / Native American Confederacy
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SNE
+				is_claimed_by = SNE
+				state = 1005
+				state = 1006
+				## Required conjunction land 
+				state = 986
+				state = 987
+				state = 988
+				state = 997
+				state = 998
+				state = 999
+				## Further claim in Iroquois territory
+				state = 961
+				state = 962
+				state = 964
+				state = 966
+				state = 967
+				state = 970
+				state = 983
+				state = 984
+				state = 985
+				state = 989
+			}
+		}
+		set_variable = { ambition_area_@SNE = 1 }
+	}
+	# SOM = Somalia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SOM
+				is_claimed_by = SOM
+				state = 847
+				state = 859
+				state = 861
+				state = 886
+				state = 889 #Jubaland
+			}
+		}
+		set_variable = { ambition_area_@SOM = 1 }
+	}
+	# SOV/RUS = Russia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SOV
+				is_claimed_by = SOV
+				is_core_of = RUS 
+				is_claimed_by = RUS 
+				#Core Territories
+				is_russia = yes
+				#Claims
+				is_central_asia = yes
+				region = 13 #Finland
+				region = 37 #Baltic States
+				region = 39 #Belarus
+				region = 130 #Ukraine
+				region = 134 #Transcaucasia
+				region = 135 #North Caucasus
+				state = 198 #Transcarpathia
+				state = 203 #Bessarabia
+				state = 204 #Cernauti
+				state = 205
+				state = 218
+				state = 229
+				state = 232
+				state = 220
+				state = 221
+				state = 422
+				state = 426
+				state = 427
+				state = 722
+				state = 723
+				state = 724
+				state = 725
+				state = 726
+				state = 740
+				state = 743
+				state = 744
+			}
+		}
+		set_variable = { ambition_area_@SOV = 1 }
+		set_variable = { ambition_area_@RUS = 1 }
+	}
+	# SPA = Spain
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SPA
+				is_claimed_by = SPA
+				region = 41 #Eastern Iberia
+				region = 236 #Southern Iberia
+				region = 237 #Western Iberia
+				state = 84 #Roussillon
+			}
+		}
+		set_variable = { ambition_area_@SPA = 1 }
+	}
+	# SDL = Shandong Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SDL
+				is_claimed_by = SDL
+				is_core_of = ZHI 
+				is_claimed_by = ZHI 
+				state = 506
+				state = 507
+			}
+		}
+		set_variable = { ambition_area_@SDL = 1 }
+	}
+	# SWE = Sweden
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SWE
+				is_claimed_by = SWE
+				region = 10 #Southern Sweden
+				state = 38 #Norrland
+				state = 354 #West Bothnia
+				state = 356 #Jämtland
+				state = 352 #Haparanda
+				state = 353 #Lappland
+			}
+		}
+		set_variable = { ambition_area_@SWE = 1 }
+	}
+	# SWI = Switzerland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SWI
+				is_claimed_by = SWI
+				region = 131 # Switzerland
+				state = 94 # Savoy
+				state = 135 # Aosta Valley
+				state = 141 # Ticino
+				state = 142 # Vorarlberg
+			}
+		}
+		set_variable = { ambition_area_@SWI = 1 }
+	}
+	# SYR = Syria
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SYR
+				is_claimed_by = SYR
+				region = 28 #Syria
+				state = 784 #Sinai
+			}
+		}
+		set_variable = { ambition_area_@SYR = 1 }
+	}
+	# SUD = Sudan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SUD
+				is_claimed_by = SUD
+				region = 128 #Upper Nile
+				region = 268 #Southern Sudan
+				state = 791 #Nubian Desert
+				state = 792 #Darfur Desert
+			}
+		}
+		set_variable = { ambition_area_@SUD = 1 }
+	}
+	# SCH = Sichuan Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = SCH
+				is_claimed_by = SCH
+				region = 214 #Upper Yangtze
+			}
+		}
+		set_variable = { ambition_area_@SCH = 1 }
+	}
+	# TIB = Tibet
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TIB
+				is_claimed_by = TIB
+				state = 564
+				state = 565
+				state = 569
+				state = 585
+				state = 587
+				state = 570
+				state = 579
+				## Extended Claim
+				state = 659
+				state = 664
+			}
+		}
+		set_variable = { ambition_area_@TIB = 1 }
+	}
+	# TOG = Togo
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TOG
+				is_claimed_by = TOG
+				state = 839 #Togoland
+			}
+		}
+		set_variable = { ambition_area_@TOG = 1 }
+	}
+	# TRA = Transylvania
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TRA
+				is_claimed_by = TRA
+				region = 144 #Transylvania
+			}
+		}
+		set_variable = { ambition_area_@TRA = 1 }
+	}
+	# TRV = Travancore
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TRV
+				is_claimed_by = TRV
+				region = 264 #Cape Comorin
+			}
+		}
+		set_variable = { ambition_area_@TRV = 1 }
+	}
+	# TUN = Tunisia
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TUN
+				is_claimed_by = TUN
+				state = 802 #Tunisia
+				state = 803 #Gabes
+			}
+		}
+		set_variable = { ambition_area_@TUN = 1 }
+	}
+	# TGN = Tanganyika
+	if = {
+		limit = {
+			OR = {
+				is_core_of = TGN
+				is_claimed_by = TGN
+				state = 891
+				state = 592
+				state = 893
+				state = 894
+				state = 895
+				state = 896 # Zanzibar Sultanate
+				state = 897 # Zanzibar Sultanate
+				state = 898
+			}
+		}
+		set_variable = { ambition_area_@TGN = 1 }
+	}
+	# UKR = Ukraine
+	if = {
+		limit = {
+			OR = {
+				is_core_of = UKR
+				is_claimed_by = UKR
+				state = 198
+				state = 203
+				state = 204
+				state = 205
+				state = 220
+				state = 221
+				state = 232
+				state = 237
+				state = 238
+				state = 239
+				state = 249
+				state = 250
+				state = 251
+				state = 252
+				state = 253
+				state = 254
+				state = 255
+				state = 256
+				state = 257
+				state = 261
+				state = 266
+				state = 267
+				state = 268
+				state = 269
+				state = 270
+				state = 284
+				state = 285
+			}
+		}
+		set_variable = { ambition_area_@UKR = 1 }
+		set_variable = { ambition_area_@USR = 1 }
+	}
+	# URG = Uruguay
+	if = {
+		limit = {
+			OR = {
+				is_core_of = URG
+				is_claimed_by = URG
+				state = 1073 #Uruguay
+			}
+		}
+		set_variable = { ambition_area_@URG = 1 }
+	}
+	# USA = United States
+	if = {
+		limit = {
+			OR = {
+				is_core_of = USA
+				is_claimed_by = USA
+				is_american_pacific_islands = yes
+			}
+		}
+		set_variable = { ambition_area_@CLF = 1 }
+		set_variable = { ambition_area_@USA = 1 }
+		set_variable = { ambition_area_@TEX = 1 }
+		set_variable = { ambition_area_@CLB = 1 }
+		set_variable = { ambition_area_@NEE = 1 }
+	}
+	# VIN = Vietnam
+	if = {
+		limit = {
+			OR = {
+				is_core_of = VIN
+				is_claimed_by = VIN
+				### Historical goal ###
+				region = 196 # Indochina Proper - Vietnam tried to pursue this historically
+				state = 610 # Battambang
+				state = 606 # Samabuli
+				### Further claim (a.k.a. pushing Laotian and Cambodian claim) ###
+				state = 592 # Isan
+				state = 591 # Rayong
+			}
+		}
+		set_variable = { ambition_area_@VIN = 1 }
+	}
+	# VEN = Venezuela
+	if = {
+		limit = {
+			OR = {
+				is_core_of = VEN
+				is_claimed_by = VEN
+				region = 124 #Venezuela
+				state = 1126 #Mabaruma
+				state = 1127 #Mabaruma Jungle
+			}
+		}
+		set_variable = { ambition_area_@VEN = 1 }
+	}
+	# OBG = Ubangi-Shari
+	if = {
+		limit = {
+			OR = {
+				is_core_of = OBG
+				is_claimed_by = OBG
+				state = 865 #Ubangi-Shari
+				state = 875 
+				state = 876
+			}
+		}
+		set_variable = { ambition_area_@OBG = 1 }
+	}
+	# OMA/MUS = Oman/Muscat
+	if = {
+		limit = {
+			OR = {
+				is_core_of = OMA
+				is_claimed_by = OMA
+				is_core_of = MUS
+				is_claimed_by = MUS
+				state = 776
+				state = 765
+				state = 774
+				state = 775
+				state = 780
+				state = 811
+			}
+		}
+		set_variable = { ambition_area_@OMA = 1 }
+		set_variable = { ambition_area_@MUS = 1 }
+	}
+	# RHI = Rhineland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = RHI
+				is_claimed_by = RHI
+				state = 51 #Eastern Rhineland
+				state = 52
+				state = 53 #Palatinate
+				state = 54 #Western Rhineland
+			}
+		}
+		set_variable = { ambition_area_@RHI = 1 }
+	}
+	# YUN = Yunnan
+	if = {
+		limit = {
+			OR = {
+				is_core_of = YUN
+				is_claimed_by = YUN
+				region = 214 #Upper Yangtze
+				region = 215 #Yungui Plateau
+			}
+		}
+		set_variable = { ambition_area_@YUN = 1 }
+	}
+	# XSM = Ma Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = XSM
+				is_claimed_by = XSM
+				region = 220 #Xibei
+				region = 222 #Inner Mongolia
+				state = 514 #Suiyuan
+				state = 515
+			}
+		}
+		set_variable = { ambition_area_@XSM = 1 }
+	}
+	# YOR = Yorubaland
+	if = {
+		limit = {
+			OR = {
+				is_core_of = YOR
+				is_claimed_by = YOR
+				state = 840
+				state = 841
+			}
+		}
+		set_variable = { ambition_area_@XSM = 1 }
+	}
+	# ZIM = Zimbabwe
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ZIM
+				is_claimed_by = ZIM
+				is_core_of = ZAM
+				is_claimed_by = ZAM
+			}
+		}
+		set_variable = { ambition_area_@ZIM = 1 }
+	}
+	# ZAN = Zanzibar
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ZAN
+				is_claimed_by = ZAN
+				state = 890 #Zanzibar
+				state = 896
+				state = 897
+			}
+		}
+		set_variable = { ambition_area_@ZAN = 1 }
+	}
+	# ZHI = League of Five Provinces / Zhili Clique
+	if = {
+		limit = {
+			OR = {
+				is_core_of = ZHI 
+				is_claimed_by = ZHI 
+				is_core_of = ANH 
+				is_claimed_by = ANH 
+				is_core_of = SDL 
+				is_claimed_by = SDL 
+				# Formerly owned by League of Five Provinces
+				state = 506
+				state = 507
+				state = 508
+				state = 511
+				state = 518
+				state = 519
+				state = 520
+				state = 521
+				state = 522
+				state = 533
+				state = 534 
+				state = 535
+				state = 536
+				state = 537
+				state = 538
+				state = 539 
+			}
+		}
+		set_variable = { ambition_area_@ZHI = 1 }
+	}
+}
+

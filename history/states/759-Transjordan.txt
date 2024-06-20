@@ -2,16 +2,19 @@
 state={
 	id=759
 	name="STATE_759"
-	provinces={
-		1544 4017 4574 4591 7001 7151 7170 10089 
-	}
-	history = {
+
+	history={
 		owner = PAL
 		add_core_of = PAL
 		add_core_of = JOR
+
 	}
+
+	provinces={
+		1 1544 4017 4574 4591 7001 7151 7170 10089 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

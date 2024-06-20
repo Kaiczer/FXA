@@ -31,7 +31,7 @@ if = {
 }
 ENG = {
 	set_autonomy = {
-		autonomous_state = autonomous_puppet
+		autonomous_state = associated_government
 		target = PREV
 	}
 }

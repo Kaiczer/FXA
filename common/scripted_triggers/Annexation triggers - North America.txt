@@ -1,0 +1,79 @@
+# Canada - annexation_CAN_CONQ
+can_release_canada = {
+    state = 951
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = CAN
+            has_country_flag = CAN_CONQ
+        }
+    }
+}
+# Newfoundland - annexation_NFL_CONQ
+can_release_newfoundland = {
+    state = 943
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = NFL
+            has_country_flag = NFL_CONQ
+        }
+    }
+}
+# Quebec - annexation_QUE_CONQ
+can_release_quebec = {
+    state = 947
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = QUE
+            has_country_flag = QUE_CONQ
+        }
+    }
+}
+# United States - annexation_USA_CONQ
+can_release_united_states = {
+    state = 960
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = USA
+            has_country_flag = USA_CONQ
+        }
+    }
+}
+# Pierre Miquelon - annexation_PIERRE_MIQUELON_CONQ
+can_release_pierre_miquelon = {
+    state = 944
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = PIERRE_MIQUELON_CONQ
+        }
+    }
+}
+# Alaska - annexation_ALASKA_CONQ
+can_release_alaska = {
+    state = 1018
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = ALASKA_CONQ
+        }
+    }
+}
+
+### SPECIAL TRIGGERS ###
+should_release_america_first = {
+	OR = {
+		has_country_flag = USA_CONQ
+		country_exists = USA
+		country_exists = CSA
+		country_exists = TEX
+		country_exists = PSA
+		371 = { is_valid_annexation_state = no }
+		395 = { is_valid_annexation_state = no }
+		361 = { is_valid_annexation_state = no }
+	}
+}
+

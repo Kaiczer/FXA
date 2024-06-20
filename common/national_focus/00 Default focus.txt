@@ -1,6 +1,6 @@
 ###########################
 # Generic Focus Tree
-# Minor changes by Zankoas
+# Credit to KR
 ###########################
 
 focus_tree = {
@@ -834,7 +834,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_construction_effort"
-			#add_one_random_civilian_factory = yes
+			add_one_random_civilian_factory = yes
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -867,7 +867,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_production_effort"
-			#add_one_random_military_factory = yes
+			add_one_random_military_factory = yes
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -900,7 +900,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_construction_effort_2"
-			#add_one_random_civilian_factory = yes
+			add_one_random_civilian_factory = yes
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -933,7 +933,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_production_effort_2"
-			#add_one_random_military_factory = yes
+			add_one_random_military_factory = yes
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -1020,7 +1020,7 @@ focus_tree = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_production_effort_3"
-			#add_one_random_military_factory = yes
+			add_one_random_military_factory = yes
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -1137,7 +1137,7 @@ focus_tree = {
 		prerequisite = { focus = generic_infrastructure_effort_2 }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_extra_tech_slot"
-			#add_research_slot_until_five = yes
+			add_research_slot_until_five = yes
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1158,7 +1158,7 @@ focus_tree = {
 		cancel_if_invalid = no
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_extra_tech_slot_2"
-			#add_research_slot_until_five = yes
+			add_research_slot_until_five = yes
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -1418,7 +1418,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus generic_technology_sharing"
 			if = {
 				limit = { original_research_slots < 3 }
-				#add_research_slot_until_five = yes
+				add_research_slot_until_five = yes
 			}
 			else = {
 				add_tech_bonus = {

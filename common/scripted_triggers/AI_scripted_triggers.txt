@@ -1,0 +1,610 @@
+# AI triggers
+# By Rylock and Alpinia
+
+#############################
+### VOLUNTEER AI TRIGGERS ###
+#############################
+
+### To have tags send volunteers whenever a war starts, add a new rule below
+### THIS is the tag sending the volunteers, PREV is the tag that receives them
+### If the conditions are fulfilled, THIS will automatically send volunteers to PREV whenever the latter is at war
+### When adding new rules, please try to follow the following order of triggers if performance allows - first global (when the rule should apply), then PREV triggers (who should receive the volunteers), then THIS triggers (who should send them)
+
+willing_to_send_volunteers_to_PREV = {
+	NOT = { check_variable = { PREV.modifier@cannot_receive_volunteers > 0 } }
+	NOT = { has_war_with = PREV }
+	OR = {
+		is_neighbor_of = PREV
+		naval_base > 0
+	}
+	# OR = {
+		
+	# }
+}
+
+##############################
+### TECHNOLOGY AI TRIGGERS ###
+##############################
+anti_submarine_strategy_required_trigger = {
+	OR = {
+		convoy_threat > 0.3
+		AND = {
+			has_war = yes
+			any_enemy_country = {
+				has_navy_size = {
+					type = submarine
+					size > 30
+				}
+			}
+		}
+	}
+}
+
+ai_is_naval_invader_trigger = {
+	OR = {
+		tag = ENG
+		tag = FRA
+		tag = JAP
+		tag = ITA 
+	}
+}
+
+###############################
+### WAR-RELATED AI TRIGGERS ###
+###############################
+
+#combine with check_variable = { fielded_manpower_compare > x } afterwards
+compare_fielded_manpower = {
+	check_variable = { ROOT.deployed_total_manpower_k > 0 }
+	set_temp_variable = { fielded_manpower_compare = deployed_total_manpower_k }
+	divide_temp_variable = { fielded_manpower_compare = ROOT.deployed_total_manpower_k }
+}
+
+country_has_any_active_threat = {
+	OR = {
+		has_war = yes
+		any_claim = yes
+		has_country_flag = imminent_war
+	}
+}
+
+country_is_in_dangerous_war = {
+	OR = {
+		has_civil_war = yes
+		any_claim = yes
+		alliance_strength_ratio < 1.25
+		surrender_progress > 0.05
+		has_country_flag = imminent_war
+	}
+}
+
+#on the target's scope
+dont_start_major_faction_wars = {
+	ROOT = {
+		is_in_faction = yes
+		is_faction_leader = no
+		is_major = no
+	}
+	OR = {
+		is_in_faction = yes
+		AND = {
+			is_subject = yes
+			overlord = {
+				OR = {
+					is_major = yes
+					is_in_faction = yes
+				}
+			}
+		}
+		AND = {
+			has_guarantor = yes
+			any_of_scopes = {
+				array = guarantor_array
+				has_guaranteed = PREV
+				OR = {
+					is_major = yes
+					is_in_faction = yes
+				}
+			}
+		}
+	}
+}
+
+#on the target's scope
+is_stronger_than_ROOT_and_not_vulnerable = {
+	#compare fielded manpower
+	compare_fielded_manpower = yes
+	if = {
+		limit = {
+			is_in_faction = yes
+			num_faction_members > 1
+		}
+		check_variable = { fielded_manpower_compare > 1.15 }
+	}
+	else = {
+		check_variable = { fielded_manpower_compare > 1 }
+	}
+	enemies_strength_ratio < 1
+	surrender_progress < 0.1
+}
+
+#on the target's scope
+is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = {
+	OR = {
+		#compare fielded manpower
+		AND = {
+			compare_fielded_manpower = yes
+			if = {
+				limit = {
+					is_in_faction = yes
+					num_faction_members > 1
+				}
+				check_variable = { fielded_manpower_compare > 1.15 }
+			}
+			else = {
+				check_variable = { fielded_manpower_compare > 1 }
+			}
+		}
+		AND = {
+			naval_strength_comparison = {
+				other = ROOT
+				ratio > 1
+				sub_unit_def_weights = {
+					submarine = 0.75
+					destroyer = 0.75
+					light_cruiser = 0.75
+					heavy_cruiser = 1
+					battle_cruiser = 1
+					battleship = 1
+					carrier = 1
+				}
+			}
+			enemies_naval_strength_ratio < 0.8
+		}
+	}
+	enemies_strength_ratio < 1
+	surrender_progress < 0.1
+}
+
+#on the target's scope
+faction_leader_is_stronger_than_ROOT_and_not_vulnerable = {
+	if = {
+		limit = { ROOT = { has_war = yes } }
+		is_in_faction = yes
+		is_faction_leader = no
+		faction_leader = {
+			OR = {
+				#compare fielded manpower
+				AND = {
+					compare_fielded_manpower = yes
+					check_variable = { fielded_manpower_compare > 0.7 }
+				}
+				is_actual_major = yes
+			}
+			enemies_strength_ratio < 1.5
+			surrender_progress < 0.2
+		}
+	}
+	else = {
+		is_in_faction = yes
+		is_faction_leader = no
+		faction_leader = {
+			#compare fielded manpower
+			AND = {
+				compare_fielded_manpower = yes
+				check_variable = { fielded_manpower_compare > 0.7 }
+			}
+			enemies_strength_ratio < 1
+			surrender_progress < 0.2
+		}
+	}
+}
+
+#on the target's scope
+faction_leader_is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = {
+	if = {
+		limit = { ROOT = { has_war = yes } }
+		is_in_faction = yes
+		is_faction_leader = no
+		faction_leader = {
+			OR = {
+				#compare fielded manpower
+				AND = {
+					compare_fielded_manpower = yes
+					check_variable = { fielded_manpower_compare > 0.7 }
+				}
+				naval_strength_comparison = {
+					other = ROOT
+					ratio > 0.8
+					sub_unit_def_weights = {
+						submarine = 0.75
+						destroyer = 0.75
+						light_cruiser = 0.75
+						heavy_cruiser = 1
+						battle_cruiser = 1
+						battleship = 1
+						carrier = 1
+					}
+				}
+				is_actual_major = yes
+			}
+			enemies_strength_ratio < 1.5
+			surrender_progress < 0.2
+		}
+	}
+	else = {
+		is_in_faction = yes
+		is_faction_leader = no
+		faction_leader = {
+			OR = {
+				#compare fielded manpower
+				AND = {
+					compare_fielded_manpower = yes
+					check_variable = { fielded_manpower_compare > 0.8 }
+				}
+				AND = {
+					naval_strength_comparison = {
+						other = ROOT
+						ratio > 1
+						sub_unit_def_weights = {
+							submarine = 0.75
+							destroyer = 0.75
+							light_cruiser = 0.75
+							heavy_cruiser = 1
+							battle_cruiser = 1
+							battleship = 1
+							carrier = 1
+						}
+					}
+					enemies_naval_strength_ratio < 0.8
+				}
+			}
+			enemies_strength_ratio < 1
+			surrender_progress < 0.1
+		}
+	}
+}
+
+#on the target's scope
+overlord_is_stronger_than_ROOT_and_not_vulnerable = {
+	is_subject = yes
+	overlord = {
+		#compare fielded manpower
+		AND = {
+			compare_fielded_manpower = yes
+			check_variable = { fielded_manpower_compare > 0.8 }
+		}
+		enemies_strength_ratio < 1
+		surrender_progress < 0.1
+	}
+}
+
+#on the target's scope
+overlord_is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = {
+	is_subject = yes
+	overlord = {
+		OR = {
+			#compare fielded manpower
+			AND = {
+				compare_fielded_manpower = yes
+				check_variable = { fielded_manpower_compare > 0.8 }
+			}
+			AND = {
+				naval_strength_comparison = {
+					other = ROOT
+					ratio > 1
+					sub_unit_def_weights = {
+						submarine = 0.75
+						destroyer = 0.75
+						light_cruiser = 0.75
+						heavy_cruiser = 1
+						battle_cruiser = 1
+						battleship = 1
+						carrier = 1
+					}
+				}
+				enemies_naval_strength_ratio < 0.8
+			}
+		}
+		enemies_strength_ratio < 1
+		surrender_progress < 0.1
+	}
+}
+
+#on the target's scope
+guarantor_is_stronger_than_ROOT_and_not_vulnerable = {
+	has_guarantor = yes
+	any_of_scopes = {
+		array = guarantor_array
+		has_guaranteed = PREV
+		NOT = { tag = ROOT }
+		OR = {
+			AND = {
+				#compare fielded manpower
+				compare_fielded_manpower = yes
+				check_variable = { fielded_manpower_compare > 0.7 }
+
+				enemies_strength_ratio < 1
+			}
+			AND = {
+				is_in_faction = yes
+				is_faction_leader = no
+				faction_leader = { enemies_strength_ratio < 1 }
+			}
+		}
+		surrender_progress < 0.1
+	}
+}
+
+default_attack_AI_trigger = {
+	OR = {
+		is_stronger_than_ROOT_and_not_vulnerable = yes
+		overlord_is_stronger_than_ROOT_and_not_vulnerable = yes
+		faction_leader_is_stronger_than_ROOT_and_not_vulnerable = yes
+		guarantor_is_stronger_than_ROOT_and_not_vulnerable = yes
+	}
+}
+
+default_attack_AI_trigger_consider_naval_strength = {
+	OR = {
+		is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = yes
+		overlord_is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = yes
+		faction_leader_is_stronger_than_ROOT_and_not_vulnerable_consider_naval_strength = yes
+		guarantor_is_stronger_than_ROOT_and_not_vulnerable = yes
+	}
+}
+
+#################################
+### AI AREA PRIORITY TRIGGERS ###
+#################################
+
+is_standard_european_focused_tag = {
+	OR = {
+		#Spain
+		original_tag = SPA
+		original_tag = GLC
+		original_tag = BSQ
+		original_tag = CTL
+		original_tag = POR
+
+		#France
+		is_french_tag = yes
+		original_tag = BRI
+
+		#Britain/Ireland
+		is_british_tag = yes
+		original_tag = SCO
+		original_tag = WLS
+		original_tag = IRE
+
+		#Benelux
+		original_tag = HOL
+		original_tag = BEL
+		original_tag = FLA
+		original_tag = WAL
+		original_tag = LUX
+
+		#Germany
+		original_tag = GER
+		original_tag = GRU
+		original_tag = RHI
+		original_tag = SGM
+		original_tag = NGM
+		original_tag = PRS
+		original_tag = SHO
+
+		#Poland
+		is_polish_tag = yes
+
+		#Eastern Europe has its own logic
+
+		#Scandinavia has its own logic
+
+		#Switzerland
+		original_tag = SWI
+
+		#Italy
+		is_italian_tag = yes
+		original_tag = MLT
+
+		#Danubia/Balkans
+		is_former_austria_hungary_tag = yes
+		is_romanian_tag = yes
+		is_balkan_tag = yes
+		original_tag = CYP
+
+		#Turkey has its own logic
+
+		#Russia has its own logic
+	}
+}
+
+is_eastern_europe_focused_tag = {
+	OR = {
+		#Eastern Europe
+		original_tag = EST
+		original_tag = LAT
+		original_tag = LIT
+		original_tag = BLR
+		original_tag = UKR
+	}
+}
+
+is_scandinavian_focused_tag = {
+	OR = {
+		original_tag = SWE
+		original_tag = NOR
+		original_tag = FIN
+		original_tag = DEN
+		original_tag = ICE
+	}
+}
+
+is_asian_focused_tag = {
+	OR = {
+		#India
+		is_indian_tag = yes
+		original_tag = BRM
+		original_tag = SHN
+		original_tag = KCH
+		original_tag = BHU
+		original_tag = NEP
+
+		#SEA
+		original_tag = SIA
+		original_tag = INC
+		original_tag = VIN
+		original_tag = LAO
+		original_tag = CAM
+		original_tag = MAL
+		original_tag = SRW
+		original_tag = INS
+		original_tag = PHI
+		original_tag = FIC
+		original_tag = BEI
+		original_tag = DEI
+
+		#China
+		is_tag_in_china_area = yes
+		original_tag = TAI
+
+		#Japan has its own logic
+
+		#Korea
+		original_tag = KOR
+
+		#Central Asia
+		is_central_asian_tag = yes
+
+		#Russia has its own logic
+	}
+}
+
+is_african_focused_tag = {
+	OR = {
+		#Maghreb + Egypt
+		original_tag = MOR
+		original_tag = ALG
+		original_tag = LBA
+		original_tag = SUD
+		# Egypt has its own logic
+
+		#Horn of Africa
+		original_tag = ETH
+		original_tag = ERI
+		original_tag = SOM
+
+		#French Africa
+		# NFA uses European logic
+		original_tag = OBG
+		original_tag = CMR
+		original_tag = GAB
+		original_tag = MRT
+		original_tag = MLI
+		original_tag = SEN
+		original_tag = GNA
+		original_tag = IVO
+		original_tag = MSL
+		original_tag = NGR
+		original_tag = CHA
+		original_tag = LIB
+		original_tag = TOG
+		original_tag = DAH
+
+		#Portuguese Africa
+		# POR uses European logic
+		original_tag = ANG
+		original_tag = MZB
+
+		#Belgian Africa
+		original_tag = COG
+		tag = CNG
+		
+		#British Africa
+		original_tag = TGN
+		original_tag = MLW
+		original_tag = SIE
+		original_tag = ZAN
+		original_tag = UGA
+		original_tag = KEN
+		original_tag = RWA
+		original_tag = BRD
+		original_tag = MAD
+		original_tag = BSL
+		original_tag = GHA
+		original_tag = NGA
+		original_tag = HAU
+		original_tag = BOR
+		original_tag = NMB
+		original_tag = ZAM
+		original_tag = BOT
+		original_tag = SAF
+		original_tag = ZIM
+	}
+}
+
+is_north_america_focused_tag = {
+	OR = {
+		#USA
+		is_american_tag = yes
+
+		#Canada
+		tag = CAN
+		original_tag = QUE
+
+		#Central America
+		original_tag = MEX
+		original_tag = YUC
+		is_central_american_tag = yes
+		original_tag = PAN
+
+		#Caribbean
+		original_tag = CUB
+		original_tag = DOM
+		original_tag = HAI
+		original_tag = JAM
+		original_tag = TRI
+	}
+}
+
+is_south_america_focused_tag = {
+	OR = {
+		is_brazilian_tag = yes
+		is_spanish_south_american_tag = yes
+		original_tag = GYA
+		original_tag = SUR
+	}
+}
+
+is_pacific_focused_tag = {
+	OR = {
+		original_tag = AST
+		original_tag = NZL
+		original_tag = HAW
+		original_tag = PNG
+	}
+}
+
+##############################
+### ANNEXATION AI TRIGGERS ###
+##############################
+
+AI_trigger_country_wants_to_dismantle_germany = {
+	OR = {
+		original_tag = IMP
+		original_tag = ENG
+		original_tag = AUS
+		original_tag = POL
+		is_french_tag = yes
+		is_russian_tag = yes
+	}
+}
+
+#############################
+### CHARACTER AI TRIGGERS ###
+#############################
+
+AI_trigger_dont_hire_high_command_too_early = {
+	has_war = no
+	has_political_power < 200
+}

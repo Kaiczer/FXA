@@ -220,7 +220,7 @@ coalition_stability_tooltip: "Coalition partners now provide $RIGHT|G%0$ of thei
  unit_limit_breakdown_desc_disabled: "§HMaximum Supported Divisions§! has been disabled by game rules."
 
 ### Tooltips ###
- KR_party_pop_less_than_100: "Less than §Y100%§! support for [Root.GetRulingParty]"
+ party_pop_less_than_100: "Less than §Y100%§! support for [Root.GetRulingParty]"
  is_ally_of_ROOT: "Is an ally of [ROOT.GetNameDef]"
  has_coalition_with: "Is in coalition with the §H[?coalition_partner_to_check.GetTokenLocalizedKey]§!"
 
@@ -263,7 +263,7 @@ coalition_stability_tooltip: "Coalition partners now provide $RIGHT|G%0$ of thei
  KR_player_leads_conferences: "§YPlayer Primacy§! game rule for Peace Conferences is active and §Genabled§!\n"
  KR_plpc_disable_tt: "§YPlayer Primacy§! game rule will be temporarily §Rdisabled§!\n"
  KR_plpc_enable_tt: "§YPlayer Primacy§! game rule will be once again §Genabled§!\n"
- KR_plpc_turned_off: "§YPlayer Primacy§! game rule for Peace Conferences is active but is currently §Rdisabled§!\n"
+ plpc_turned_off: "§YPlayer Primacy§! game rule for Peace Conferences is active but is currently §Rdisabled§!\n"
  stt_highlight_states: "Marked States"
 
 ##################

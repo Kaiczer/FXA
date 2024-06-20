@@ -1,3 +1,6 @@
+has_unattained_important_goals = {
+	
+}
 has_reached_maximum_divisions = {
 	has_variable = max_divisions #make sure the values have been initialised first
 	if = {

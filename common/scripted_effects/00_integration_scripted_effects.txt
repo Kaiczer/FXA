@@ -216,7 +216,7 @@ add_state_core_upon_reaching_compliance_threshold = {
 			}
 			add_to_array = { FROM.state_integration_alerts = THIS }
 			FROM = { scoped_sound_effect = coring_sfx }
-			set_variable_to_random = global.kaiserreich_alerts_dirty
+			#set_variable_to_random = global.kaiserreich_alerts_dirty
 		}
 
 		#update mapmode
@@ -285,58 +285,51 @@ clear_cores_of_tag_if_possible = {
 	every_core_state = {
 		limit = {
 			check_variable = { core_countries^num > 1 } #is not the state's last core
-			# if = {
-			# 	limit = { PREV = { is_american_tag = yes } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		#is_american_tag = yes
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { is_italian_tag = yes } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		is_italian_tag = yes
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { is_indian_tag = yes } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		is_indian_tag = yes
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { is_chinese_tag = yes } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		is_chinese_tag = yes
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { is_arabian_tag = yes } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		is_arabian_tag = yes
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { original_tag = KUM } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		OR = {
-			# 			original_tag = ETS
-			# 			original_tag = SIK
-			# 		}
-			# 	}
-			# }
-			# else_if = {
-			# 	limit = { PREV = { original_tag = LEC } }
-			# 	any_country_with_core = {
-			# 		NOT = { tag = PREV.PREV }
-			# 		is_chinese_tag = yes
-			# 	}
-			# }
+			if = {
+				limit = { PREV = { is_american_tag = yes } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					is_american_tag = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { is_italian_tag = yes } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					is_italian_tag = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { is_indian_tag = yes } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					is_indian_tag = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { is_chinese_tag = yes } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					is_chinese_tag = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { is_arabian_tag = yes } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					is_arabian_tag = yes
+				}
+			}
+			else_if = {
+				limit = { PREV = { original_tag = KML } }
+				any_country_with_core = {
+					NOT = { tag = PREV.PREV }
+					OR = {
+						original_tag = ETK
+						original_tag = SIK
+					}
+				}
+			}
 			NOT = {
 				AND = {
 					has_resistance = yes

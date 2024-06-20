@@ -9,7 +9,7 @@ peace_action_modifiers = {
 		peace_action_type = { take_states liberate puppet force_government }
 		enable = {
 			has_game_rule = { rule = peace_conference_options option = PLAYER_PRIMACY }
-			NOT = { has_global_flag = KR_plpc_turned_off }
+			NOT = { has_global_flag = plpc_turned_off }
 			pc_is_on_winning_side = yes
 			is_ai = no
 		}

@@ -1,12 +1,73 @@
+### Soviet Republics
 USR = {
 	original_tag = SOV 
-	has_country_flag = UKR_is_Soviet_puppet
+	has_country_flag = UKR_is_soviet_puppet
 }
 BSR = {
 	original_tag = SOV 
-	has_country_flag = BLR_is_Soviet_puppet
+	has_country_flag = BLR_is_soviet_puppet
 }
+
+### China
+CHN = { #Unified China tag
+	variable = global.china_target_tag
+}
+ZGZ = { #Zhongguo Guojia Zhanxian / Chinese United Front
+	global_event_target = china_united_front_leader
+}
+
+### South Africa
+ZAR = {
+	original_tag = SAF
+	NOT = { has_country_flag = SAF_british_loyalist }
+}
+NAT = {
+	original_tag = SAF
+	has_country_flag = SAF_british_loyalist
+}
+
+### Congo
 CNG = {
 	original_tag = COG
 	has_country_flag = COG_independent_country
+}
+
+### Entente Leader
+ENT = {
+	global_event_target = faction_leader_entente
+
+	fallback = FRA
+}
+
+### Third International Leader
+TIN = {
+	global_event_target = faction_leader_communist_international
+
+	fallback = SOV
+}
+
+### Imperial Sphere Leader
+IMP = {
+	global_event_target = faction_leader_imperial_defense_sphere
+
+	fallback = ENG 
+}
+
+### Ottomans
+OTT = {
+	original_tag = TUR
+	has_country_flag = TUR_is_ottomans
+}
+
+### Puppet Germany
+GRU = {
+	original_tag = GER
+	has_country_flag = GER_is_puppet
+}
+
+# operative operation target
+# only set for majors who has agency
+# set on on_weekly
+MOT = {
+	variable = generic_operation_target
 }

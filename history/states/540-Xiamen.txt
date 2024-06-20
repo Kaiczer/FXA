@@ -1,16 +1,21 @@
+
 state={
 	id=540
 	name="STATE_540"
-	provinces={
-		7071 
-	}
-	history = {
-		owner = CHI
-		add_core_of = CHI
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_claim_by = CHI
 		add_claim_by = FNG
+
 	}
+
+	provinces={
+		1723 1796 4873 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

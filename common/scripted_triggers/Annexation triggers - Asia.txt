@@ -1,0 +1,988 @@
+# Burma - annexation_BRM_CONQ
+can_release_burma = {
+    state = 613
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = BRM
+            has_country_flag = BRM_CONQ
+        }
+    }
+}
+# Cambodia - annexation_CAM_CONQ
+can_release_cambodia = {
+    state = 610
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_indochina_first = yes
+        NOT = {
+            country_exists = CAM
+            has_country_flag = CAM_CONQ
+        }
+    }
+}
+# China - annexation_CHI_CONQ
+can_release_china = {
+    OR = {
+        state = 479 #Jingzhao
+        state = 484 #Fengtian
+        state = 498 #Jinan
+        state = 518 #Nanjing
+        state = 525 #Wuhan
+        state = 529 #Xiangjiang
+        state = 540 #Dariganga
+        state = 541 #Taiwan
+        state = 544 #Guangzhou
+        state = 558 #Yunnan
+        state = 561 #Chongqing
+        state = 562 #Chengdu
+        state = 566 #Jingyuan
+        state = 570 #Yulin
+        state = 571 #Kumul
+    }
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        is_chinese_tag = no
+		NOT = { 
+            has_country_flag = KML_is_chinese_tag
+            has_country_flag = TIB_is_chinese_tag
+            has_country_flag = MON_is_chinese_tag
+        }
+		#has_valid_chinese_ally = yes
+		NOT = {
+			any_enemy_country = { is_chinese_tag = yes }
+			has_country_flag = CHI_CONQ
+		}
+    }
+}
+# Central Asia - annexation_CTA_CONQ
+can_release_central_asia = {
+    OR = {
+		state = 435 
+		state = 441 
+		state = 442 
+		state = 448 
+	}
+	435 = { is_valid_annexation_state = yes } 
+	441 = { is_valid_annexation_state = yes } 
+	442 = { is_valid_annexation_state = yes } 
+	448 = { is_valid_annexation_state = yes } 
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+		is_central_asian_tag = no
+		should_release_russia_first = yes
+		NOT = {
+			has_country_flag = CTA_CONQ
+			country_exists = TRK
+		}
+	}
+}
+#Indochina - annexation_INC_CONQ
+can_release_indochina = {
+	OR = {
+        state = 599 #Annam
+		state = 607 #Laos
+		state = 611 #Pnom Penh		
+	}
+	if = {
+		limit = { ROOT = { tag = JAP } }
+        599 = { is_owned_and_controlled_by = ROOT } #Annam
+		607 = { is_owned_and_controlled_by = ROOT } #Laos
+		OR = {
+			611 = { is_owned_and_controlled_by = ROOT } #Phnom Penh
+		}
+	}
+	else = {
+		607 = { is_valid_annexation_state = yes } #Laos
+		599 = { is_valid_annexation_state = yes } #Annam
+		OR = {
+			611 = { is_valid_annexation_state = yes } #Phnom Penh
+		}
+	}
+	ROOT = {
+		NOT = {
+			has_country_flag = INC_CONQ
+			country_exists = INC
+		}
+	}
+}
+# Insulindia - annexation_INS_CONQ
+can_release_insulindia = {
+    state = 629
+    OR = {
+		NOT = { is_claimed_by = ROOT }
+		ROOT = { tag = JAP }
+	}
+    ROOT = {
+        NOT = {
+            country_exists = INS
+            has_country_flag = INS_CONQ
+        }
+    }
+}
+# Japan - annexation_JAP_CONQ
+can_release_japan = {
+    state = 449
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = JAP
+            has_country_flag = JAP_CONQ
+        }
+    }
+}
+# Kazakhstan - annexation_KAZ_CONQ
+can_release_kazakhstan = {
+    state = 435
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_central_asia_first = yes
+        NOT = {
+            country_exists = KAZ
+            has_country_flag = KAZ_CONQ
+        }
+    }
+}
+# Kachin - annexation_KCH_CONQ
+can_release_kachin = {
+    state = 619
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_china_first = yes 
+        should_release_burma_first = yes 
+        NOT = {
+            country_exists = KCH
+            has_country_flag = KCH_CONQ
+        }
+    }
+}
+# Korea - annexation_KOR_CONQ
+can_release_korea = {
+    state = 473
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = KOR
+            has_country_flag = KOR_CONQ
+        }
+    }
+}
+# Kirghizia - annexation_KYR_CONQ
+can_release_kirghizia = {
+    state = 446
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_central_asia_first = yes
+        NOT = {
+            country_exists = KYR
+            has_country_flag = KYR_CONQ
+        }
+    }
+}
+# Laos - annexation_LAO_CONQ
+can_release_laos = {
+    state = 607
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_indochina_first = yes 
+        NOT = {
+            country_exists = LAO
+            has_country_flag = LAO_CONQ
+        }
+    }
+}
+# Malaya - annexation_MAL_CONQ
+can_release_malaya = {
+    state = 624
+    OR = {
+		NOT = { is_claimed_by = ROOT }
+		ROOT = { tag = JAP }
+	}
+    ROOT = {
+        NOT = {
+            country_exists = MAL
+            has_country_flag = MAL_CONQ
+        }
+    }
+}
+# Manchuria - annexation_MAN_CONQ
+can_release_manchuria = {
+    NOT = { is_claimed_by = ROOT }
+	if = {
+		limit = { ROOT = { tag = JAP } }
+		ROOT = {
+			any_owned_state = {
+				is_manchuria = yes
+				NOT = { has_variable = ambition_area_@ROOT }
+			}
+		}
+	}
+	else = {
+		state = 484 #Shenyang
+	}
+	ROOT = {
+		is_chinese_tag = no
+		should_release_china_first = yes
+		NOT = {
+			has_country_flag = MAN_CONQ
+			country_exists = MAN
+		}
+	}
+}
+# Inner Mongolia - annexation_MEN_CONQ
+can_release_inner_mongolia = {
+    state = 497
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        OR = {
+            should_release_mongolia_first = yes
+            original_tag = MON 
+        }
+        NOT = {
+            country_exists = MEN
+            has_country_flag = MEN_CONQ
+        }
+    }
+}
+# Mongolia - annexation_MON_CONQ
+can_release_mongolia = {
+    state = 581
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_china_first = yes
+        NOT = {
+            country_exists = MON
+            has_country_flag = MON_CONQ
+        }
+    }
+}
+# Philippines - annexation_PHI_CONQ
+can_release_philippines = {
+    state = 651
+    OR = {
+		NOT = { is_claimed_by = ROOT }
+		ROOT = { tag = JAP }
+	}
+    ROOT = {
+        NOT = {
+            country_exists = PHI
+            has_country_flag = PHI_CONQ
+        }
+    }
+}
+# Shan - annexation_SHN_CONQ
+can_release_shan = {
+    state = 616
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_burma_first = yes 
+        should_release_siam_first = yes 
+        NOT = {
+            country_exists = SHN
+            has_country_flag = SHN_CONQ
+        }
+    }
+}
+# Siam - annexation_SIA_CONQ
+can_release_siam = {
+    state = 590
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            country_exists = SIA
+            has_country_flag = SIA_CONQ
+        }
+    }
+}
+# Siberia - annexation_SIB_CONQ
+can_release_siberia = {
+    OR = {
+        state = 395 #Omsk/West Siberia
+        state = 400 #Novosibirsk/Central Siberia
+    } 
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        is_russian_tag = no 
+        should_release_russia_first = yes 
+        NOT = {
+            country_exists = SIB
+            has_country_flag = SIB_CONQ
+        }
+    }
+}
+# Xinjiang - annexation_SIK_CONQ
+can_release_xinjiang = {
+    state = 573
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        is_chinese_tag = no 
+        should_release_china_first = yes
+        any_country = {
+            is_central_asian_tag = yes 
+            has_cosmetic_tag = TRK
+        }
+        NOT = {
+            country_exists = SIK
+            country_exists = ETK
+            has_country_flag = SIK_CONQ
+        }
+    }
+}
+# Sarawak - annexation_SRW_CONQ
+can_release_sarawak = {
+    state = 627
+    OR = {
+		NOT = { is_claimed_by = ROOT }
+		ROOT = { tag = JAP }
+	}
+    ROOT = {
+        should_release_malaya_first = yes 
+        NOT = {
+            country_exists = SRW
+            has_country_flag = SRW_CONQ
+        }
+    }
+}
+# Taiwan - annexation_TAI_CONQ
+can_release_taiwan = {
+    state = 541
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_china_first = yes
+		should_release_japan_first = yes
+        NOT = {
+            country_exists = TAI
+            has_country_flag = TAI_CONQ
+        }
+    }
+}
+# Tajikistan - annexation_TAJ_CONQ
+can_release_tajikistan = {
+    state = 448
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_central_asia_first = yes 
+        NOT = {
+            country_exists = TAJ
+            has_country_flag = TAJ_CONQ
+        }
+    }
+}
+# Tibet - annexation_TIB_CONQ
+can_release_tibet = {
+    state = 589
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+
+        should_release_china_first = yes 
+        NOT = {
+            country_exists = TIB
+            has_country_flag = TIB_CONQ
+        }
+    }
+}
+# Turkmenistan - annexation_TMS_CONQ
+can_release_turkmenistan = {
+    state = 441
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_central_asia_first = yes
+        NOT = {
+            country_exists = TMS
+            has_country_flag = TMS_CONQ
+        }
+    }
+}
+# Uzbekistan - annexation_UZB_CONQ
+can_release_uzbekistan = {
+    state = 442
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_central_asia_first = yes
+        NOT = {
+            country_exists = UZB
+            has_country_flag = UZB_CONQ
+        }
+    }
+}
+# Vietnam - annexation_VIN_CONQ
+can_release_vietnam = {
+    state = 599
+    OR = {
+		NOT = { is_claimed_by = ROOT }
+		ROOT = { tag = JAP }
+	}
+    ROOT = {
+        should_release_indochina_first = yes
+        NOT = {
+            country_exists = VIN
+            has_country_flag = VIN_CONQ
+        }
+    }
+}
+
+# Tuva - annexation_TUVA_CONQ
+can_release_tuva = {
+    state = 403
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_mongolia_first = yes 
+        should_release_russia_first = yes 
+        OR = {
+			original_tag = MON
+			original_tag = SIB
+			is_russian_tag = yes
+			AND = {
+				is_chinese_tag = yes
+				owns_state = 581 #Urga
+			}
+			MON = { ROOT_can_grant_land = yes }
+			var:400.owner = {
+				OR = {
+					is_russian_tag = yes
+					original_tag = SIB
+				}
+				ROOT_can_grant_land = yes
+			}
+		}
+		NOT = { has_country_flag = TUVA_CONQ }
+        NOT = {
+            has_country_flag = TUVA_CONQ
+        }
+    }
+}
+# Qongirot - annexation_QONGIROT_CONQ
+can_release_qongirot = {
+    state = 443
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_russia_first = yes 
+        should_release_central_asia_first = yes 
+        OR = { #Kazakhstan
+			country_exists = KAZ
+			has_country_flag = KAZ_CONQ
+			435 = { is_valid_annexation_state = no } #Alma-Ata
+		}
+        OR = { #Uzbekistan
+			country_exists = UZB
+			has_country_flag = UZB_CONQ
+			442 = { is_valid_annexation_state = no } #Khiva
+		}
+        OR = {
+            original_tag = KAZ
+            original_tag = UZB
+            is_russian_tag = yes
+            KAZ = { ROOT_can_grant_land = yes }
+            UZB = { ROOT_can_grant_land = yes }
+            var:438.owner = {
+                is_russian_tag = yes 
+                ROOT_can_grant_land = yes 
+            }
+        }
+        NOT = {
+            has_country_flag = QONGIROT_CONQ
+        }
+    }
+}
+# Tashkent - annexation_TASHKENT_CONQ
+can_release_tashkent = {
+    state = 445
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_russia_first = yes 
+        should_release_central_asia_first = yes 
+        OR = { #Kirghizia
+			country_exists = KYR
+			has_country_flag = KYR_CONQ
+			446 = { is_valid_annexation_state = no } #Frunze
+		}
+        OR = { #Uzbekistan
+			country_exists = UZB
+			has_country_flag = UZB_CONQ
+			442 = { is_valid_annexation_state = no } #Khiva
+		}
+        OR = {
+            original_tag = KYR
+            original_tag = UZB
+            is_russian_tag = yes
+            KAZ = { ROOT_can_grant_land = yes }
+            UZB = { ROOT_can_grant_land = yes }
+            var:439.owner = {
+                is_russian_tag = yes 
+                ROOT_can_grant_land = yes 
+            }
+        }
+        NOT = {
+            has_country_flag = TASHKENT_CONQ
+        }
+    }
+}
+# Badakhshan - annexation_BADAKHSHAN_CONQ
+can_release_badakhshan = {
+    state = 447
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_russia_first = yes 
+        should_release_central_asia_first = yes 
+        OR = {
+            country_exists = AFG
+            has_country_flag = AFG_CONQ
+            705 = { is_valid_annexation_state = no } #Kabul
+        }
+        OR = {
+            original_tag = TAJ
+            original_tag = UZB
+            is_russian_tag = yes 
+            original_tag = AFG 
+            AFG = { ROOT_can_grant_land = yes }
+            var:448.owner = {
+                OR = {
+                    is_central_asian_tag = yes 
+                    is_russian_tag = yes 
+                }
+                ROOT_can_grant_land = yes 
+            }
+        }
+        NOT = {
+            has_country_flag = BADAKHSHAN_CONQ
+        }
+    }
+}
+# Iwo Jima - annexation_IWO_JIMA_CONQ
+can_release_iwo_jima = {
+    state = 468
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_japan_first = yes 
+        NOT = {
+            has_country_flag = IWO_JIMA_CONQ
+        }
+    }
+}
+# Sakhalin - annexation_SAKHALIN_CONQ
+can_release_sakhalin = {
+    state = 422
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_russia_first = yes 
+        should_release_siberia_first = yes
+        should_release_japan_first = yes 
+        OR = {
+			original_tag = JAP
+			original_tag = SIB
+			is_russian_tag = yes
+			JAP = { ROOT_can_grant_land = yes }
+			var:420.owner = { #Vladivostok
+				OR = {
+					is_russian_tag = yes
+					original_tag = SIB
+				}
+				ROOT_can_grant_land = yes
+			}
+			var:421.owner = { #Nikolayevsk
+				OR = {
+					is_russian_tag = yes
+					original_tag = SIB
+				}
+				ROOT_can_grant_land = yes
+			}
+		}
+        NOT = {
+            has_country_flag = SAKHALIN_CONQ
+        }
+    }
+}
+# Kuril - annexation_KURIL_ISLANDS_CONQ
+can_release_kuril = {
+    state = 426
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_russia_first = yes 
+        should_release_siberia_first = yes
+        should_release_japan_first = yes
+        OR = {
+			original_tag = JAP
+			original_tag = SIB
+			is_russian_tag = yes
+			JAP = { ROOT_can_grant_land = yes }
+			var:422.owner = { #Sakhalin
+				OR = {
+					is_russian_tag = yes
+					original_tag = SIB
+				}
+				ROOT_can_grant_land = yes
+			}
+			var:425.owner = { #Kamchatka
+				OR = {
+					is_russian_tag = yes
+					original_tag = SIB
+				}
+				ROOT_can_grant_land = yes
+			}
+		}
+        NOT = {
+            has_country_flag = KURIL_ISLANDS_CONQ
+        }
+    }
+}
+# Dariganga - annexation_DARIGANGA_CONQ
+can_release_dariganga = {
+    state = 540
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_china_first = yes
+        should_release_mongolia_first = yes 
+        OR = {
+            original_tag = MON 
+            MON = { ROOT_can_grant_land = yes }
+            var:497.owner = {
+                is_chinese_tag = yes 
+                ROOT_can_grant_land = yes 
+            }
+        }
+        NOT = {
+            has_country_flag = DARIGANGA_CONQ
+        }
+    }
+}
+# Khovd - annexation_KHOVD_CONQ
+can_release_khovd = {
+    state = 572
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_china_first = yes
+        should_release_mongolia_first = yes 
+        OR = {
+            original_tag = MON 
+            MON = { ROOT_can_grant_land = yes }
+            var:573.owner = {
+                is_chinese_tag = yes 
+                ROOT_can_grant_land = yes 
+            }
+            var:574.owner = {
+                is_chinese_tag = yes 
+                ROOT_can_grant_land = yes 
+            }
+        }
+        NOT = {
+            has_country_flag = KHOVD_CONQ
+        }
+    }
+}
+# Chiragsaldi - annexation_CHIRAGSALDI_CONQ
+can_release_chiragsaldi = {
+    state = 578
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_india_first = yes 
+        should_release_china_first = yes 
+        OR = {
+            OR = {
+                is_chinese_tag = yes 
+                var:576.owner = {
+                    is_chinese_tag = yes
+                    ROOT_can_grant_land = yes 
+                }
+                original_tag = ETK
+                ETK = { ROOT_can_grant_land = yes }
+            }
+            OR = {
+                is_indian_tag = yes
+                original_tag = IND 
+                original_tag = PAK
+                original_tag = KAS 
+                var:674.owner = {
+                    OR = {
+                        original_tag = IND 
+                        original_tag = PAK
+                        original_tag = KAS
+                    }
+                    ROOT_can_grant_land = yes 
+                }
+            }
+        }
+        NOT = {
+            has_country_flag = CHIRAGSALDI_CONQ
+        }
+    }
+}
+# Aksai Chin - annexation_AKSAI_CHIN_CONQ
+can_release_aksai_chin = {
+    state = 579
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_india_first = yes 
+        should_release_china_first = yes 
+        578 = { is_valid_annexation_state = no }
+        OR = {
+            OR = {
+                is_chinese_tag = yes 
+                var:576.owner = {
+                    is_chinese_tag = yes
+                    ROOT_can_grant_land = yes 
+                }
+                original_tag = ETK
+                ETK = { ROOT_can_grant_land = yes }
+            }
+            OR = {
+                is_indian_tag = yes
+                original_tag = IND 
+                original_tag = PAK
+                original_tag = KAS 
+                var:674.owner = {
+                    OR = {
+                        original_tag = IND 
+                        original_tag = PAK
+                        original_tag = KAS
+                    }
+                    ROOT_can_grant_land = yes 
+                }
+            }
+        }
+        NOT = {
+            has_country_flag = AKSAI_CHIN_CONQ
+        }
+    }
+}
+# Maekong Rightbank - annexation_MAEKONG_RIGHTBANK_CONQ
+can_release_maekong_rightbank = {
+    state = 592
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = MAEKONG_RIGHTBANK_CONQ
+        }
+    }
+}
+# Patani - annexation_PATANI_CONQ
+can_release_patani = {
+    state = 597
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = PATANI_CONQ
+        }
+    }
+}
+# Tenasserim - annexation_TENASSERIM_CONQ
+can_release_tenasserim = {
+    state = 598
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = TENASSERIM_CONQ
+        }
+    }
+}
+# Cochinchina - annexation_COCHINCHINA_CONQ
+can_release_cochinchina = {
+    state = 603
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = COCHINCHINA_CONQ
+        }
+    }
+}
+# Maekong Delta - annexation_MAEKONG_DELTA_CONQ
+can_release_maekong_delta = {
+    state = 604
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = MAEKONG_DELTA_CONQ
+        }
+    }
+}
+# Xayabouli - annexation_XAYABOULI_CONQ
+can_release_xayabouli = {
+    state = 606
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = XAYABOULI_CONQ
+        }
+    }
+}
+# Battambang - annexation_BATTAMBANG_CONQ
+can_release_battambang = {
+    state = 612
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = BATTAMBANG_CONQ
+        }
+    }
+}
+# Thaton - annexation_THATON_CONQ
+can_release_thaton = {
+    state = 614
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = THATON_CONQ
+        }
+    }
+}
+# Kengtung - annexation_KENGTUNG_CONQ
+can_release_kengtung = {
+    state = 616
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = KENGTUNG_CONQ
+        }
+    }
+}
+# Perak - annexation_PERAK_CONQ
+can_release_perak = {
+    state = 620
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = PERAK_CONQ
+        }
+    }
+}
+# Terengganu - annexation_TERENGGANU_CONQ
+can_release_terengganu = {
+    state = 621
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = TERENGGANU_CONQ
+        }
+    }
+}
+# Singapore - annexation_SINGAPORE_CONQ
+can_release_singapore = {
+    state = 626
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = SINGAPORE_CONQ
+        }
+    }
+}
+# North Borneo - annexation_NORTH_BORNEO_CONQ
+can_release_north_borneo = {
+    state = 628
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = NORTH_BORNEO_CONQ
+        }
+    }
+}
+# Aceh - annexation_ACEH_CONQ
+can_release_aceh = {
+    state = 635
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = ACEH_CONQ
+        }
+    }
+}
+# West Timor - annexation_WEST_TIMOR_CONQ
+can_release_west_timor = {
+    state = 633
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = WEST_TIMOR_CONQ
+        }
+    }
+}
+# East Timor - annexation_EAST_TIMOR_CONQ
+can_release_east_timor = {
+    state = 634
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        NOT = {
+            has_country_flag = EAST_TIMOR_CONQ
+        }
+    }
+}
+# China Port Cities - annexation_CHINA_PORT_CITIES_CONQ
+can_release_china_port_cities = {
+    OR = {
+        state = 478 #Tianjin
+        state = 500 #Qingdao
+        state = 508 #Shanghai
+        state = 523 #Weihaiwei
+        state = 538 #Fuzhou
+        state = 543 #Hong Kong
+        state = 545 #Macau
+        state = 548 #Guangzhouwan
+    }
+    OR = {
+        NOT = { is_claimed_by = ROOT }
+        ROOT = { tag = JAP }
+    }
+    ROOT = {
+        NOT = {
+            has_country_flag = CHINA_PORT_CITIES_CONQ
+        }
+    }
+}
+
+## Should Release First Triggers ##
+should_release_afghanistan_first = {
+	OR = {
+		country_exists = AFG
+		has_country_flag = AFG_CONQ
+		267 = { is_valid_annexation_state = no } #Afghanistan
+	}
+}
+should_release_burma_first = {
+
+}
+should_release_central_asia_first = {
+
+}
+should_release_china_first = {
+    OR = {
+        country_exists = CHI
+        country_exists = FNG 
+        has_country_flag = CHI_CONQ
+        479 = { is_valid_annexation_state = no }
+    }
+}
+should_release_indochina_first = {
+
+}
+should_release_insulindia_first = {
+	OR = {
+		tag = DEI
+        tag = BEI 
+		country_exists = INS
+		has_country_flag = INS_CONQ
+		629 = { is_valid_annexation_state = no } #Central Java
+	}
+}
+should_release_japan_first = {
+
+}
+should_release_malaya_first = {
+
+}
+should_release_laos_first = {
+
+}
+should_release_mongolia_first = {
+    OR = {
+		country_exists = MON
+		has_country_flag = MON_CONQ
+		581 = { is_valid_annexation_state = no } #Urga
+	}
+}
+should_release_siam_first = {
+
+}
+should_release_siberia_first = {
+
+}
+should_release_vietnam_first = {
+
+}

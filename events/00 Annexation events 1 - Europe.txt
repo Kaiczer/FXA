@@ -1,0 +1,785 @@
+﻿###########################
+# Annexation Events concerning Europe
+###########################
+# Originated from KR
+# Converted from on_actions to decisions by Rylock and Dr_Njitram
+# Any new post-annexation events need to have their triggers in the on_actions file
+###########################
+
+add_namespace = annex
+
+country_event = { #Check for possible annexations (donotlog)
+	id = annex.1
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		is_subject = no
+		NOT = {
+			# Special tags - these shouldn't exist outside of very specific circumstances
+			tag = XXB #debug tag
+			AND = {
+				has_civil_war = yes
+				any_enemy_country = {
+					is_dynamic_country = yes
+					civilwar_target = ROOT #== start_civil_war
+				}
+			}
+		}
+	}
+
+	option = {
+		every_owned_state = {
+			limit = {
+				has_state_flag = annexation_trigger_state
+				is_controlled_by = ROOT
+				NOT = { is_core_of = ROOT }
+				NOT = { has_state_flag = occupied_by_@ROOT }
+				NOT = { has_state_flag = temporarily_disabled_annexation_@ROOT }
+			}
+			check_potential_annexations = yes
+		}
+		clr_country_flag = checking_for_possible_annexations
+	}
+}
+
+state_event = { #Generic "Land Granted" event
+	id = annex.2
+	title = annex.2.t
+	desc = annex.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.2 option annex.2.a"
+		name = annex.2.a
+		effect_tooltip = { THIS = { transfer_state_to = ROOT } }
+	}
+}
+
+##############################################
+### LAND EXCHANGE FOR ALLIANCE EVENT CHAIN ###
+##############################################
+
+country_event = { #Offering land in exchange for faction membership
+	id = annex.5
+	title = "[GetLandExchangeOfferEventTitle]"
+	desc = "[GetLandExchangeOfferEventDesc]"
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.5 option 1"
+		name = "[GetLandExchangeOfferEventOptionAccept]"
+		effect_tooltip = {
+			if = {
+				limit = { is_in_faction = yes }
+				every_other_country = {
+					limit = {
+						is_in_faction_with = ROOT
+						is_subject = no
+					}
+					country_event = annex.8
+				}
+				leave_faction = yes
+				peace_out_non_neighbours_after_leaving_faction = yes
+			}
+		}
+		FROM = {
+			effect_tooltip = {
+				every_owned_state = {
+					limit = {
+						is_in_array = { ROOT.offered_states_array = THIS }
+						is_claim_or_core_of_PREV = no
+					}
+					transfer_state_to = ROOT
+				}
+				faction_leader = { add_to_faction = ROOT }
+			}
+			country_event = { id = annex.6 days = 1 }
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.5 option 2"
+		name = "[GetLandExchangeOfferEventOptionRefuse]"
+		ai_chance = { base = 0 }
+		FROM = { country_event = { id = annex.7 days = 1 } }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Land exchange deal has been struck
+	id = annex.6
+	title = "[GetLandExchangeAcceptedEventTitle]"
+	desc = "[GetLandExchangeAcceptedEventDesc]"
+
+	trigger = {
+		is_in_faction = yes
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.6 option 1"
+		name = "[GetLandExchangeAcceptedEventOption]"
+		FROM = {
+			if = {
+				limit = { is_in_faction = yes }
+				every_other_country = {
+					limit = {
+						is_in_faction_with = PREV
+						is_subject = no
+					}
+					country_event = annex.8
+				}
+				leave_faction = yes
+				peace_out_non_neighbours_after_leaving_faction = yes
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_in_array = { FROM.offered_states_array = THIS }
+				is_claim_or_core_of_ROOT = no
+			}
+			transfer_state_to = FROM
+		}
+		faction_leader = { add_to_faction = FROM }
+		reverse_add_opinion_modifier = { target = FROM modifier = returned_land }
+		hidden_effect = {
+			for_each_scope_loop = {
+				array = FROM.offered_states_array
+				clr_state_flag = temporarily_disabled_annexation_@ROOT
+			}
+			clear_array = FROM.offered_states_array
+			recheck_annexations_immediate = yes
+		}
+	}
+}
+
+country_event = { #Land exchange deal has been refused
+	id = annex.7
+	title = "[GetLandExchangeRefusedEventTitle]"
+	desc = "[GetLandExchangeRefusedEventDesc]"
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.7 option 1"
+		name = "[GetLandExchangeRefusedEventOption]"
+		for_each_scope_loop = {
+			array = FROM.offered_states_array
+			clr_state_flag = temporarily_disabled_annexation_@ROOT
+		}
+		clear_array = FROM.offered_states_array
+		recheck_annexations_immediate = yes
+	}
+}
+
+country_event = { #Land exchange notification to allies
+	id = annex.8
+	title = "[GetLandExchangeNotificationEventTitle]"
+	desc = "[GetLandExchangeNotificationEventDesc]"
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.8 option 1"
+		name = "[GetLandExchangeNotificationEventOption]"
+		add_opinion_modifier = { target = FROM modifier = hates_govt }
+		recheck_annexations = yes
+	}
+}
+
+####################
+##  E U R O P E   ##
+####################
+
+country_event = { #Fate of Germany
+	id = annex.1019
+	title = annexation_GER_CONQ
+	desc = annexation_GER_CONQ_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { NOT = { country_exists = GRU } }
+				add_to_temp_array = { core_removal_array = GRU }
+				remove_all_cores_and_claims_of_tags = yes
+			}
+			if = {
+				limit = {
+					original_tag = FRA
+				}
+				every_state = {
+					limit = { is_rhineland = yes }
+					retain_state = yes
+				}
+			}
+			if = {
+				limit = { original_tag = AUS }
+				every_state = {
+					limit = { is_south_germany = yes }
+					retain_state = yes
+				}
+			}
+		}
+	}
+
+	option = { #release republican Germany
+		log = "[GetLogInfo]: event annex.1019 option annex.1019.a"
+		name = annex.1019.a
+		trigger = {
+			has_socialist_government = no
+			NOT = {
+				any_country_with_original_tag = {
+					original_tag_to_check = GRU
+					exists = yes
+					is_monarchy = no
+					has_socialist_government = no
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+			}
+		}
+		generate_new_german_puppet = yes
+		hidden_effect = {
+			# GER = {
+			# 	GER_name_surname = {
+			# 		set_nationality = var:tag_to_release
+			# 		promote_character = yes
+			# 	}
+			# }
+			# var:tag_to_release = {
+			# 	set_cosmetic_tag = GRU_republic
+			# 	german_puppet_set_best_capital = yes
+			# 	create_non_socialist_german_government = yes
+			# }
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #split Germany
+		log = "[GetLogInfo]: event annex.1019 option annex.1019.e"
+		name = annex.1019.e
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 100
+				AI_trigger_country_wants_to_dismantle_germany = yes
+			}
+			modifier = { #only consider this if you own at least three releasable German areas
+				factor = 0
+				count_triggers = {
+					amount = 3
+					AND = {
+						NOT = { country_exists = NGM }
+						has_valid_north_germany_annexation_state = yes
+					}
+					AND = {
+						NOT = { country_exists = RHI }
+						has_valid_rhineland_annexation_state = yes
+					}
+					AND = {
+						NOT = { country_exists = SGM }
+						has_valid_south_germany_annexation_state = yes
+					}
+					AND = {
+						NOT = { country_exists = PRS }
+						OR = {
+							has_valid_brandenburg_annexation_state = yes
+							has_valid_east_oder_annexation_state = yes
+						}
+					}
+				}
+			}
+		}
+		custom_effect_tooltip = new_annexation_decisions_tt
+		set_country_flag = { flag = GER_CONQ days = 100 value = 1 }
+		recheck_annexations_immediate = yes
+	}
+
+	option = { #Greater Germany
+		log = "[GetLogInfo]: event annex.1019 option annex.1019.f"
+		name = annex.1019.f
+		trigger = {
+			original_tag = AUS
+		}
+		ai_chance = { base = 60 }
+		effect_tooltip = {
+			every_state = {
+				limit = {
+					is_germany = yes
+					is_south_germany = no
+				}
+				add_claim_of_ROOT = yes
+				enable_state_integration_80_compliance = yes
+			}
+			every_state = {
+				limit = { is_south_germany = yes }
+				add_claim_of_ROOT = yes
+				enable_state_integration_50_compliance = yes
+			}
+		}
+		hidden_effect = {
+			every_state = {
+				limit = { is_full_germany = yes }
+				if = {
+					limit = { is_south_germany = yes }
+					add_claim_of_ROOT = yes
+					enable_state_integration_50_compliance = yes
+				}
+				else_if = {
+					limit = { is_germany = yes }
+					add_claim_of_ROOT = yes
+					enable_state_integration_80_compliance = yes
+				}
+				else = { #border regions
+					enable_state_integration_80_compliance = yes
+				}
+			}
+		}
+		every_subject_country = {
+			limit = { is_germany_or_splinter_tag = yes }
+			ROOT = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
+				}
+			}
+		}
+		set_cosmetic_tag = AUS_germany
+		occupy_large_country = yes
+	}
+
+	option = { #occupy all
+		log = "[GetLogInfo]: event annex.1019 option annex.occupation"
+		name = annex.occupation
+		ai_chance = { base = 0 }
+		set_country_flag = GER_CONQ
+		set_country_flag = PRS_CONQ
+		set_country_flag = RHI_CONQ
+		set_country_flag = SGM_CONQ
+		set_country_flag = NGM_CONQ
+		set_country_flag = SHO_CONQ
+		occupy_massive_country = yes
+	}
+}
+
+country_event = { #Fate of Russia
+	id = annex.1162
+	title = annexation_RUS_CONQ
+	desc = annexation_RUS_CONQ_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { 
+					NOT = { 
+						country_exists = RUS
+						country_exists = SOV
+						country_exists = SIB 
+					}
+				}
+				every_state = {
+					remove_core_of = RUS
+					remove_core_of = SOV
+					remove_core_of = SIB 
+					remove_claim_by = RUS
+					remove_claim_by = SOV
+					remove_claim_by = SIB
+				}
+			}
+			else_if = {
+				limit = { NOT = { country_exists = SIB } }
+				every_state = {
+					remove_core_of = RUS
+					remove_core_of = SIB
+					remove_claim_by = RUS
+					remove_claim_by = SIB
+				}
+			}
+			else_if = {
+				limit = { NOT = { country_exists = SOV } }
+				every_state = {
+					remove_core_of = RUS
+					remove_core_of = SOV
+					remove_claim_by = RUS
+					remove_claim_by = SOV
+				}
+			}
+			else = {
+				every_state = {
+					remove_core_of = RUS
+					remove_claim_by = RUS
+				}
+			}
+			every_country = {
+				limit = { is_russian_tag = yes }
+				drop_cosmetic_tag = yes 
+			}
+			DAG = { every_core_state = { retain_state = yes } }
+			every_owned_state = {
+				limit = { 
+					OR = { 
+						is_siberia = yes
+						is_russian_far_east = yes 
+					}
+				}
+				retain_state = yes 
+			}
+			every_owned_state = {
+				limit = { is_kazakh = yes }
+				retain_state = yes
+			}
+		}
+	}
+
+	option = { #release Soviet
+		log = "[GetLogInfo]: event annex.1162 option annex.1162.a"
+		name = annex.1162.a
+		trigger = {
+			OR = {
+				NOT = {
+					country_exists = SOV
+					RUS = { is_ally_of_ROOT = yes }
+				}
+			}
+		}
+		ai_chance = {
+			base = 85
+		}
+		for_each_scope_loop = {
+			array = global.Russian_starting_states_array
+			add_core_of = SOV 
+		}
+		set_temp_variable = { tag_to_release = SOV }
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #release Russia
+		log = "[GetLogInfo]: event annex.1162 option annex.1162.b"
+		name = annex.1162.b
+		trigger = {
+			OR = {
+				NOT = {
+					country_exists = RUS
+					SOV = { is_ally_of_ROOT = yes }
+				}
+			}
+		}
+		ai_chance = {
+			base = 85
+		}
+		for_each_scope_loop = {
+			array = global.Russian_starting_states_array
+			add_core_of = RUS 
+		}
+		set_temp_variable = { tag_to_release = RUS }
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Give to Soviet
+		log = "[GetLogInfo]: event annex.1162 option annex.1162.c"
+		name = annex.1162.c
+		trigger = {
+			SOV = { is_ally_of_ROOT = yes }
+			NOT = { country_exists = RUS } 
+		}
+		ai_chance = {
+			base = 10
+		}
+		if = {
+			limit = {
+				var:412.owner = { tag = SIB }
+			}
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_russian_far_east = yes 
+						is_siberia = yes
+					}
+				}
+				transfer_state_to = SIB
+				add_core_of = SIB 
+			}
+		}
+		if = {
+			limit = {
+				var:412.owner = { is_russian_tag = yes }
+			}
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_russian_far_east = yes 
+						is_siberia = yes
+					} 
+				}
+				transfer_state_to = SOV
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					is_russia = yes 
+				}
+				transfer_state_to = SOV 
+			}
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Give to Russia
+		log = "[GetLogInfo]: event annex.1162 option annex.1162.d"
+		name = annex.1162.d
+		trigger = {
+			RUS = { is_ally_of_ROOT = yes }
+			NOT = { country_exists = SOV } 
+		}
+		ai_chance = {
+			base = 10
+		}
+		if = {
+			limit = {
+				limit = {
+					var:412.owner = { tag = SIB }
+				}
+				every_owned_state = {
+					limit = {
+						OR = {
+							is_russian_far_east = yes 
+							is_siberia = yes
+						} 
+					}
+					transfer_state_to = SIB
+					add_core_of = SIB 
+				}
+			}
+		}
+		if = {
+			limit = {
+				var:412.owner = { is_russian_tag = yes }
+			}
+			every_owned_state = {
+				limit = {
+					OR = {
+						is_russian_far_east = yes 
+						is_siberia = yes
+					} 
+				}
+				transfer_state_to = RUS 
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					is_russia = yes 
+				}
+				transfer_state_to = RUS 
+			}
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #occupy
+		log = "[GetLogInfo]: event annex.1162 option annex.occupation"
+		name = annex.occupation
+		ai_chance = { base = 0 }
+		occupy_massive_country = yes
+		set_country_flag = RUS_CONQ
+		set_country_flag = SOV_CONQ
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of Siberia
+	id = annex.1165
+	title = annexation_SIBERIA_REGION_CONQ
+	desc = annexation_SIBERIA_REGION_CONQ_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { NOT = { country_exists = SIB } }
+				add_to_temp_array = { core_removal_array = SIB }
+				remove_all_cores_and_claims_of_tags = yes
+				every_owned_state = {
+					limit = { is_russian_far_east = yes }
+					add_core_of = SIB 
+				}
+			}
+		}
+	}
+
+	option = { #release Far East Siberia
+		log = "[GetLogInfo]: event annex.1165 option annex.1165.a"
+		name = annex.1165.a
+		ai_chance = {
+			base = 50
+			modifier = {
+				add = -100
+				var:289.owner = {
+					is_russian_tag = yes
+					is_ally_of_ROOT = yes
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = SIB }
+		release_targeted_tag = yes
+		hidden_effect = {
+			every_owned_state = {
+				limit = { 
+					is_siberia = yes
+					NOT = { is_fully_controlled_by = SIB }
+				}
+				random_country = {
+					limit = {
+						is_russian_tag = yes
+						is_subject_of = ROOT 
+						owns_state = 289
+					} 
+					transfer_state = PREV 
+					add_state_core = PREV 
+				}
+			}
+		}
+		recheck_annexations = yes
+	}
+	option = { #Whole Siberia
+		log = "[GetLogInfo]: event annex.1165 option annex.1165.b"
+		name = annex.1165.b
+		ai_chance = {
+			base = 45
+			modifier = {
+				add = -100
+				var:289.owner = {
+					is_russian_tag = yes
+					is_ally_of_ROOT = yes
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = SIB }
+		release_targeted_tag = yes
+		effect_tooltip = {
+			every_owned_state = {
+				limit = { 
+					is_siberia = yes
+				}
+				SIB = { 
+					transfer_state = PREV 
+					add_state_core = PREV 
+				}
+			}
+		}
+		hidden_effect = {
+			every_owned_state = {
+				limit = { 
+					is_siberia = yes
+				}
+				SIB = { 
+					transfer_state = PREV 
+					add_state_core = PREV 
+				}
+			}
+		}
+		recheck_annexations = yes
+	}
+	option = { #Integrate back to Motherland
+		log = "[GetLogInfo]: event annex.1165 option annex.1165.c"
+		name = annex.1165.c
+		ai_chance = {
+			base = 5
+			modifier = {
+				add = 100
+				var:289.owner = {
+					is_russian_tag = yes
+					is_ally_of_ROOT = yes
+				}
+			}
+		}
+		SIB = {
+			every_core_state = {
+				remove_core_of = SIB 
+				remove_claim_by = SIB 
+			}
+		}
+		if = {
+			limit = {
+				var:289.owner = {
+					tag = SOV 
+					is_subject = no 
+				}
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_siberia = yes 
+						is_russian_far_east = yes 
+					}
+					is_core_of = RUS
+				}
+				transfer_state_to = ROOT 
+				add_core_of = ROOT
+			}
+			hidden_effect = {
+				add_to_temp_array = { core_removal_array = RUS }
+				remove_all_cores_and_claims_of_tags = yes 
+			}
+		}
+		else_if = {
+			limit = {
+				var:289.owner = {
+					is_russian_tag = yes
+					is_faction_leader = no 
+					is_ally_of_ROOT = yes
+				}
+			}
+			random_country = {
+				limit = {
+					is_russian_tag = yes 
+					is_ally_of_ROOT = yes
+					owns_state = 289
+				}
+				ROOT = {
+					every_owned_state = {
+						limit = {
+							OR = {
+								is_siberia = yes
+								is_russian_far_east = yes 
+							}
+						}
+						transfer_state_to = PREV.PREV 
+						add_core_of = PREV.PREV 
+					}
+				}
+			}
+		}
+		
+		recheck_annexations = yes
+	}
+
+	option = { #occupy
+		log = "[GetLogInfo]: event annex.1165 option annex.occupation"
+		name = annex.occupation
+		ai_chance = { base = 0 }
+		occupy_massive_country = yes
+		set_country_flag = SIB_CONQ
+		recheck_annexations = yes
+	}
+}

@@ -343,10 +343,6 @@ FRA_PRESIDENTS = {
 
 	for_countries = { FRA }
 
-	can_use = { 
-		is_monarchy = no
-	}
-
 	type = ship
 
 	unique = {
@@ -361,10 +357,6 @@ FRA_KINGS = {
 	name = NAME_THEME_KINGS # 751 - 1789
 
 	for_countries = { FRA }
-
-	can_use = { 
-		is_monarchy = yes
-	}
 
 	type = ship
 

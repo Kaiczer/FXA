@@ -52,4 +52,17 @@ set_politics = {
 
 ## Starting Characters ##
 recruit_character = GER_Adam_Dressler
-recruit_character = GER_Wilhelm_Teudt #Viceroy of President in DNVP
+recruit_character = GER_Wilhelm_Teudt #Viceroy of Reich President in DNVP
+
+# German Puppet Tag #
+create_dynamic_country = {
+	original_tag = GER
+	set_country_flag = GER_is_puppet
+	set_cosmetic_tag = GRU
+	reserve_dynamic_country = yes 
+	set_country_flag = reserved_dynamic_country 
+}
+for_each_scope_loop = {
+	array = core_states
+	remove_core_of = GRU
+}

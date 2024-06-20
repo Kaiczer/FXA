@@ -21,9 +21,8 @@ is_actual_major = {
 			is_in_array = { actual_majors = THIS }
 
 			#is an exception
-			tag = INT
+			tag = TIN 
 			tag = ENT
-			tag = GEX
 
 			# has more than 70% of the average of the top 7
 			set_temp_variable = { factory_average = 0 }

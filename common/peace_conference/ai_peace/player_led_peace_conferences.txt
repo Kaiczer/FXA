@@ -6,7 +6,7 @@ peace_ai_desires = {
 		peace_action_type = { take_states liberate puppet force_government }
 		enable = {
 			has_game_rule = { rule = peace_conference_options option = PLAYER_PRIMACY }
-			NOT = { has_global_flag = KR_plpc_turned_off }
+			NOT = { has_global_flag = plpc_turned_off }
 			any_of_scopes = {
 				array = global.pc_winners_array
 				is_ai = no
@@ -19,7 +19,7 @@ peace_ai_desires = {
 		peace_action_type = take_states
 		enable = {
 			has_game_rule = { rule = peace_conference_options option = PLAYER_PRIMACY }
-			NOT = { has_global_flag = KR_plpc_turned_off }
+			NOT = { has_global_flag = plpc_turned_off }
 			pc_turn > 9
 			ROOT.FROM = {
 				is_ai = no

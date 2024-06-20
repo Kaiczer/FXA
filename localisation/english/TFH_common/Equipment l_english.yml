@@ -1172,16 +1172,16 @@
 ###
 
 ### Land ###
- KBR_infantry_equipment_0: "Short Model Lee-Enfield Mk I"
- KBR_infantry_equipment_0_short: "SMLE Mk 1"
- KBR_infantry_equipment_1: "$MAF_infantry_equipment_1$"
- KBR_infantry_equipment_1_short: "$MAF_infantry_equipment_1_short$"
- KBR_infantry_equipment_1_desc: "$MAF_infantry_equipment_1_desc$"
+ BOR_infantry_equipment_0: "Short Model Lee-Enfield Mk I"
+ BOR_infantry_equipment_0_short: "SMLE Mk 1"
+ BOR_infantry_equipment_1: "$MAF_infantry_equipment_1$"
+ BOR_infantry_equipment_1_short: "$MAF_infantry_equipment_1_short$"
+ BOR_infantry_equipment_1_desc: "$MAF_infantry_equipment_1_desc$"
 
- KBR_support_weapons: "$GER_support_weapons$"
- KBR_support_weapons_short: "$GER_support_weapons_short$"
- KBR_support_weapons2: "$GER_support_weapons2$"
- KBR_support_weapons2_short: "$GER_support_weapons2_short$"
+ BOR_support_weapons: "$GER_support_weapons$"
+ BOR_support_weapons_short: "$GER_support_weapons_short$"
+ BOR_support_weapons2: "$GER_support_weapons2$"
+ BOR_support_weapons2_short: "$GER_support_weapons2_short$"
 
 ###
 ### Bolivia ###
@@ -1422,16 +1422,16 @@
 ###
 
 ### Land ###
- BRT_infantry_equipment_0: "Short Model Lee-Enfield Mk I"
- BRT_infantry_equipment_0_short: "SMLE Mk 1"
- BRT_infantry_equipment_1: "$MAF_infantry_equipment_1$"
- BRT_infantry_equipment_1_short: "$MAF_infantry_equipment_1_short$"
- BRT_infantry_equipment_1_desc: "$MAF_infantry_equipment_1_desc$"
+ BSL_infantry_equipment_0: "Short Model Lee-Enfield Mk I"
+ BSL_infantry_equipment_0_short: "SMLE Mk 1"
+ BSL_infantry_equipment_1: "$MAF_infantry_equipment_1$"
+ BSL_infantry_equipment_1_short: "$MAF_infantry_equipment_1_short$"
+ BSL_infantry_equipment_1_desc: "$MAF_infantry_equipment_1_desc$"
 
- BRT_support_weapons: "$GER_support_weapons$"
- BRT_support_weapons_short: "$GER_support_weapons_short$"
- BRT_support_weapons2: "$GER_support_weapons2$"
- BRT_support_weapons2_short: "$GER_support_weapons2_short$"
+ BSL_support_weapons: "$GER_support_weapons$"
+ BSL_support_weapons_short: "$GER_support_weapons_short$"
+ BSL_support_weapons2: "$GER_support_weapons2$"
+ BSL_support_weapons2_short: "$GER_support_weapons2_short$"
 
 ###
 ### Bulgaria ###

@@ -2,16 +2,18 @@
 state={
 	id=776
 	name="STATE_776"
-	provinces={
-		2059 
-	}
-	history = {
+
+	history={
 		owner = ARB
 		add_claim_by = ARB
 		add_claim_by = MUS
 		add_claim_by = OMA
+
 	}
 	impassable = yes
+	provinces={
+		2059 13867 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region

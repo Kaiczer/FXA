@@ -103,6 +103,7 @@ JAM = "countries/SouthAmerican.txt" # Jamaica
 PUE = "countries/SouthAmerican.txt" # Puerto Rico
 SUR = "countries/SouthAmerican.txt" # Suriname
 TRI = "countries/SouthAmerican.txt" # Trinidad and Tobago
+GYA = "countries/SouthAmerican.txt" # Guyana
 
 # ### Central Asia
 KAZ = "countries/MiddleEastern.txt" # Kazakhstan /
@@ -181,10 +182,11 @@ INS = "countries/Asian.txt" # Insulindia /
 KCH = "countries/Asian.txt" # Kachin /
 KOR = "countries/Asian.txt" # Korea / 
 LAO = "countries/Asian.txt" # Laos /
+SIB = "countries/EastEuropean.txt" # Siberia/
 SRW = "countries/Asian.txt" # Sarawak /
 MAL = "countries/Asian.txt" # Malaysia /
 SHN = "countries/Asian.txt" # Shan /
-TAN = "countries/Asian.txt" # Tannu Tuva /
+TAI = "countries/Asian.txt" # Taiwan /
 VIN = "countries/Asian.txt" # Vietnam / 
 
 # ### South Asia
@@ -245,7 +247,7 @@ MAD = "countries/African.txt" # Madagascar /
 MLI = "countries/African.txt" # Mali / 
 MLW = "countries/African.txt" # Nyasaland /
 MRT = "countries/African.txt" # Mauritania / 
-MSL = "countries/African.txt" # Mossiland / 
+MSL = "countries/African.txt" # Mossiland / Only for French West Africa Collapse
 MZB = "countries/African.txt" # Mozambique /
 NGR = "countries/African.txt" # Niger /
 NMB = "countries/African.txt" # Namibia /
@@ -260,7 +262,6 @@ TGN = "countries/African.txt" # Tanganyika /
 TOG = "countries/African.txt" # Togo /
 UGA = "countries/African.txt" # Uganda /
 YOR = "countries/African.txt" # Yoruba /
-ZAF = "countries/Commonwealth.txt" # Boer African Regime /
 ZAM = "countries/African.txt" # Zambia / 
 ZAN = "countries/African.txt" # Zanzibar / 
 ZIM = "countries/African.txt" # Zimbabwe / 
@@ -270,7 +271,6 @@ AST = "countries/Commonwealth.txt" # Australia
 NZL = "countries/Commonwealth.txt" # New Zealand
 # ### Splitter Tag / Oceania
 FIJ = "countries/Indian.txt" # Fiji
-GYA = "countries/Indian.txt" # Guyana
 SSF = "countries/Indian.txt" # South Seas Federation
 HAW = "countries/WestEuropean.txt" # Hawaii
 PNG = "countries/Commonwealth.txt" # Papua New Guinea

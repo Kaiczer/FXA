@@ -1,0 +1,56 @@
+@soi_icon_x_pos = 360
+@soi_icon_y_pos = -25
+@soi_text_x_pos = 80
+@soi_text_y_pos = -25
+
+guiTypes = {
+	containerWindowType = {
+		name = "TFH_subdivision"
+
+		iconType = {
+			name = "GFX_subdivision_vp_hugger"
+			spriteType = GFX_subdivision_vp_hugger
+			position = { x = 52 y = 6 }
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "TFH_subdivision_header"
+			spriteType = GFX_subdivision_header
+			position = { x = 54 y = -12 }
+			alwaystransparent = yes
+		}
+	}
+
+	########################
+	###       ASIA       ###
+	########################
+
+	### CHINESE PROVINCE ###
+	containerWindowType = {
+		name = "TFH_subdivision_chinese_province"
+
+		instantTextBoxType = {
+			name = "chinese_state_title"
+			text = "[THIS.GetName]"
+			font = hoi_36header
+			format = center
+
+			position = { x = @soi_text_x_pos  y = -4 }
+			maxWidth = 330
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name = "chinese_province_title"
+			text = "chinese_province_title"
+			font = hoi_24header
+			format = center
+
+			position = { x = @soi_text_x_pos  y = 20 }
+			maxWidth = 330
+			maxHeight = 30
+		}
+	}
+}
+

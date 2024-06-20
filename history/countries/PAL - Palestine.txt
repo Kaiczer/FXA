@@ -31,7 +31,7 @@ if = {
 ENG = {
 	set_autonomy = {
 		target = PREV 
-		autonomous_state = colonial_government
+		autonomous_state = autonomous_territory
 	}
 }
 set_politics = {	

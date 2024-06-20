@@ -76,9 +76,6 @@ ideas = {
 		civilian_economy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea civilian_economy" }
 			on_remove = { set_variable = { previous_economic_law = token:civilian_economy } }
-			on_add = {
-				#GER_second_weltkrieg_legacy_effect = yes
-			}
 			level = 5
 			removal_cost = -1
 
@@ -102,15 +99,12 @@ ideas = {
 		low_economic_mobilisation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea low_economic_mobilisation" }
 			on_remove = { set_variable = { previous_economic_law = token:low_economic_mobilisation } }
-			on_add = {
-				#GER_second_weltkrieg_legacy_effect = yes
-			}
 			level = 4
 			removal_cost = -1
 			cancel_if_invalid = no
 
 			available = {
-				#low_economic_mobilisation_available = yes
+				low_economic_mobilisation_available = yes
 			}
 
 			modifier = {
@@ -127,15 +121,12 @@ ideas = {
 		partial_economic_mobilisation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea partial_economic_mobilisation" }
 			on_remove = { set_variable = { previous_economic_law = token:partial_economic_mobilisation } }
-			on_add = {
-				#GER_second_weltkrieg_legacy_effect = yes
-			}
 			level = 3
 			removal_cost = -1
 			cancel_if_invalid = no
 
 			available = {
-				#partial_economic_mobilisation_available = yes
+				partial_economic_mobilisation_available = yes
 			}
 
 			modifier = {
@@ -159,15 +150,12 @@ ideas = {
 		war_economy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea war_economy" }
 			on_remove = { set_variable = { previous_economic_law = token:war_economy } }
-			on_add = {
-				#GER_second_weltkrieg_legacy_effect = yes
-			}
 			level = 2
 			removal_cost = -1
 			cancel_if_invalid = no
 
 			available = {
-				#war_economy_available = yes
+				war_economy_available = yes
 			}
 
 			modifier = {
@@ -198,7 +186,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#tot_economic_mobilisation_available = yes
+				tot_economic_mobilisation_available = yes
 			}
 
 			modifier = {
@@ -566,7 +554,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#limited_conscription_available = yes
+				limited_conscription_available = yes
 			}
 
 			modifier = {
@@ -601,7 +589,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#extensive_conscription_available = yes
+				extensive_conscription_available = yes
 			}
 
 			modifier = {
@@ -635,7 +623,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#service_by_requirement_available = yes
+				service_by_requirement_available = yes
 			}
 
 			modifier = {
@@ -679,7 +667,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#all_adults_serve_available = yes
+				all_adults_serve_available = yes
 			}
 
 			modifier = {
@@ -724,7 +712,7 @@ ideas = {
 			cancel_if_invalid = no
 
 			available = {
-				#scraping_the_barrel_available = yes
+				scraping_the_barrel_available = yes
 			}
 
 			modifier = {
@@ -758,6 +746,597 @@ ideas = {
 					manpower_per_military_factory < 500
 				}
 			}
+		}
+	}
+	constitution_form = {
+		law = yes 
+		use_list_view = yes 
+		absolute_monarchy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea absolute_monarchy" }
+			on_remove = { set_variable = { previous_constitution_form = token:absolute_monarchy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no 
+			}
+			visible = {
+				is_country_monarchy = yes
+			}
+		}
+		semi_constitutional_monarchy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea semi_constitutional_monarchy" }
+			on_remove = { set_variable = { previous_constitution_form = token:semi_constitutional_monarchy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = yes
+			}
+		}
+		prussian_constitutionalism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea prussian_constitutionalism" }
+			on_remove = { set_variable = { previous_constitution_form = token:prussian_constitutionalism } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = yes
+			}
+		}
+		british_constitutionalism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea british_constitutionalism" }
+			on_remove = { set_variable = { previous_constitution_form = token:british_constitutionalism } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = yes
+			}
+		}
+		constitutional_monarchy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea constitutional_monarchy" }
+			on_remove = { set_variable = { previous_constitution_form = token:constitutional_monarchy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = yes
+			}
+		}
+		single_institution_supremacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea single_institution_supremacy" }
+			on_remove = { set_variable = { previous_constitution_form = token:single_institution_supremacy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = no
+			}
+		}
+		presidential_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea presidential_republic" }
+			on_remove = { set_variable = { previous_constitution_form = token:presidential_republic } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = no
+			}
+		}
+		semi_presidential_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea semi_presidential_republic" }
+			on_remove = { set_variable = { previous_constitution_form = token:semi_presidential_republic } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = no
+			}
+		}
+		parliamentary_republic = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parliamentary_republic" }
+			on_remove = { set_variable = { previous_constitution_form = token:parliamentary_republic } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = no
+			}
+		}
+		revolutionary_republic = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_republic" }
+			on_remove = { set_variable = { previous_constitution_form = token:revolutionary_republic } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_country_monarchy = no
+			}
+		}
+		colonial_administration = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea colonial_administration" }
+			on_remove = { set_variable = { previous_constitution_form = token:colonial_administration } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				is_puppet = yes
+			}
+		}
+		power_vacuum = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea power_vacuum" }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = government_is_collapsed
+					has_country_flag = TFH_power_vacuum
+				}
+			}
+
+			modifier = {
+				political_power_factor = -0.3
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				consumer_goods_factor = 0.3
+			}
+		}
+	}
+	government_type = {
+		law = yes 
+		use_list_view = yes
+		centralized_unitary_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea centralized_unitary_state" }
+			on_remove = { set_variable = { previous_government_type = token:centralized_unitary_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		municipality_devolution_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea municipality_devolution_state" }
+			on_remove = { set_variable = { previous_government_type = token:municipality_devolution_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		reichsgaue_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea reichsgaue_system" }
+			on_remove = { set_variable = { previous_government_type = token:reichsgaue_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		aristocratic_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea aristocratic_state" }
+			on_remove = { set_variable = { previous_government_type = token:aristocratic_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		feudalized_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea feudalized_state" }
+			on_remove = { set_variable = { previous_government_type = token:feudalized_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		byzantine_feudal_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea byzantine_feudal_system" }
+			on_remove = { set_variable = { previous_government_type = token:byzantine_feudal_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		triune_sovereignty_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea triune_sovereignty_system" }
+			on_remove = { set_variable = { previous_government_type = token:triune_sovereignty_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		unitary_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea unitary_state" }
+			on_remove = { set_variable = { previous_government_type = token:unitary_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		composite_union = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea composite_union" }
+			on_remove = { set_variable = { previous_government_type = token:composite_union } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		union_of_soviet_republics = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea union_of_soviet_republics" }
+			on_remove = { set_variable = { previous_government_type = token:union_of_soviet_republics } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		austro_hungarian_dualism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea austro_hungarian_dualism" }
+			on_remove = { set_variable = { previous_government_type = token:austro_hungarian_dualism } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		centralized_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea centralized_state" }
+			on_remove = { set_variable = { previous_government_type = token:centralized_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		states_federalism_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea states_federalism_system" }
+			on_remove = { set_variable = { previous_government_type = token:states_federalism_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		european_federalism_system = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea european_federalism_system" }
+			on_remove = { set_variable = { previous_government_type = token:european_federalism_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		centralized_federal_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea centralized_federal_state" }
+			on_remove = { set_variable = { previous_government_type = token:centralized_federal_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		federal_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea federal_state" }
+			on_remove = { set_variable = { previous_government_type = token:federal_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		eidgenossenschaft = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea eidgenossenschaft" }
+			on_remove = { set_variable = { previous_government_type = token:eidgenossenschaft } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		latin_american_confederalism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea latin_american_confederalism" }
+			on_remove = { set_variable = { previous_government_type = token:latin_american_confederalism } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		union_of_imperiums = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea union_of_imperiums" }
+			on_remove = { set_variable = { previous_government_type = token:union_of_imperiums } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		confederation_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea confederation_system" }
+			on_remove = { set_variable = { previous_government_type = token:confederation_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		anarchism_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea anarchism_system" }
+			on_remove = { set_variable = { previous_government_type = token:anarchism_system } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+		}
+		absolute_failed_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea absolute_failed_state" }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = nation_failed_to_survive
+					has_country_flag = TFH_failed_state
+				}
+			}
+
+			modifier = {
+				political_power_factor = -0.5
+				stability_factor = -0.5
+				war_support_factor = -0.5
+				consumer_goods_factor = 0.5
+			}
+		}
+	}
+	executive_mode = {
+		law = yes
+		use_list_view = yes
+		executive_directory = {
+
+		}
+		partylaw = {
+
+		}
+		executive_hos = {
+
+		}
+		joint_executive = {
+
+		}
+		executive_premiership = {
+
+		}
+		parliamentary_cabinet = {
+
+		}
+		collapsed_executive = { 
+
+		}
+	}
+	legislative_mode = {
+		law = yes
+		use_list_view = yes
+		parliamentary_sovereignty = {
+			
+		}
+		golden_freedoms_sejm = {
+
+		}
+		well_functioned_parliament = {
+
+		}
+		rubberstamp_parliament = {
+
+		}
+		no_parliament = {
+
+		}
+	}
+	judicial_mode = {
+		law = yes
+		use_list_view = yes
+		judicatory_supremacy = {
+
+		}
+		well_functioned_courts = {
+
+		}
+		executive_dominated_judiciary = {
+
+		}
+		vigilante_judiciary = {
+
+		}
+		night_of_hell = {
+
+		}
+	}
+	administrative_mode = {
+		law = yes
+		use_list_view = yes
+		centralized_bureaucracy = {
+
+		}
+		parallel_bureaucracy = {
+
+		}
+		decentralized_bureaucracy = {
+
+		}
+		procrastinated_bureaucracy = {
+
+		}
+		no_bureaucracy = {
+
+		}
+	}
+	surveillance_laws = {
+		law = yes
+		use_list_view = yes
+		all_eye_on_people = {
+
+		}
+		public_wire_tapping = {
+
+		}
+		police_weekly_patrol = {
+
+		}
+		eyes_on_street = {
+
+		}
+		free_from_surveillance = {
+
+		}
+	}
+	people_concerns = {
+		law = yes
+		use_list_view = yes 
+		all_bow_to_leader = {
+
+		}
+		all_bow_to_law = {
+
+		}
+		all_and_law_equilibrium = {
+
+		}
+		laws_bow_to_all = {
+
+		}
+		equals_before_laws = {
+
+		}
+	}
+	culture_type = {
+		law = yes
+		use_list_view = yes
+		single_culture_nation = {
+
+		}
+		cultural_hegemony = {
+
+		}
+		school_of_conservative = {
+
+		}
+		cultural_autonomy = {
+
+		}
+		multicultural_nation = {
+
+		}
+	}
+	business_laws = {
+		law = yes
+		use_list_view = yes
+		domain_of_conglomerates = {
+
+		}
+		one_third_rule = {
+
+		}
+		half_owned_portion = {
+
+		}
+		government_rules_the_game = {
+
+		}
+		business_of_the_state = {
+
 		}
 	}
 }

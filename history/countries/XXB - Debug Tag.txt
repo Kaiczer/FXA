@@ -6,13 +6,174 @@
 
 capital = 1
 
-set_technology = {
-	### Tanks ###
-	
-	### Infantry ###
-	infantry_weapons = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
-	### Air ###
-	early_fighter = 1
+### Government Flag Setup - needs to be here to avoid ideas being removed in the gap between the game starting and on_startup
+every_possible_country = {
+	limit = {
+		OR = {
+			is_dynamic_country = no
+			has_country_flag = reserved_dynamic_tag
+		}
+	}
+	set_variable = { can_integrate_XXB = 50 }
+
+	set_temp_variable = { new_government = current_party_ideology_group }
+	set_government_flags = yes
+}
+
+# # set up ideology array
+# add_to_array = { global.ideologies = token:totalist_subtype }
+# add_to_array = { global.ideologies = token:syndicalist_subtype }
+# add_to_array = { global.ideologies = token:radical_socialist_subtype }
+# add_to_array = { global.ideologies = token:social_democrat_subtype }
+# add_to_array = { global.ideologies = token:social_liberal_subtype }
+# add_to_array = { global.ideologies = token:market_liberal_subtype }
+# add_to_array = { global.ideologies = token:social_conservative_subtype }
+# add_to_array = { global.ideologies = token:authoritarian_democrat_subtype }
+# add_to_array = { global.ideologies = token:paternal_autocrat_subtype }
+# add_to_array = { global.ideologies = token:national_populist_subtype }
+
+# # set up non-socialist ideology array
+# add_to_array = { global.ideologies_non_socialist = token:social_democrat_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:social_liberal_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:market_liberal_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:social_conservative_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:authoritarian_democrat_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:paternal_autocrat_subtype }
+# add_to_array = { global.ideologies_non_socialist = token:national_populist_subtype }
+
+set_variable = { global.base_unit_limit_bonus = 8 }
+
+### For Government Form allowed triggers "is_country_monarchy"###
+for_each_scope_loop = {
+	array = global.countries
+	if = { #Ignore the error _government_scripted_triggers.txt:213: has_character_flag: Invalid Scope, supported: Character, provided: Country
+		limit = { is_monarchy = yes }
+		set_country_flag = country_is_monarchy
+	}
+	if = {
+		limit = { exists = yes }
+		set_government_flags = yes 
+	}
+	if = { 
+		limit = { has_autonomy_state = colonial_government }
+		add_ideas = colonial_administration
+	}
+}
+### Chinese Subdivision Status Setup ###
+every_state = {
+	limit = {
+		is_china_claim_area = yes
+		NOT = { 
+			region = 222
+			is_core_of = TIB
+			is_core_of = MON
+			state = 587
+			state = 496
+		}
+	}
+	set_state_flag = CHN_province_rank
+}
+every_state = {
+	limit = { is_core_of = CHB }
+	set_state_flag = CHN_province_rank 
+	set_state_flag = chuanbian_province_state 
+}
+SCH = {
+	every_owned_state = {
+		limit = { NOT = { is_core_of = CHB } }
+		set_state_flag = sichuan_province_state
+	}
+}
+YUN = {
+	every_core_state = {
+		limit = {
+			NOT = { 
+				OR = {
+					state = 556
+					state = 557
+				}
+			}
+		}
+		set_state_flag = yunnan_province_state
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				state = 556
+				state = 557
+			}
+		}
+		set_state_flag = guizhou_province_state
+	}
+}
+SIK = { every_core_state = { set_state_flag = xinjiang_province_state } }
+KML = { every_core_state = { set_state_flag = xinjiang_province_state } }
+MEN = {
+	every_core_state = {
+		limit = { NOT = { is_core_of = SHX } }
+		set_state_flag = CHN_special_region
+		set_state_flag = neimenggu_special_state
+	}
+}
+SDL = { every_core_state = { set_state_flag = shandong_province_state } }
+every_state = {
+	limit = {
+		OR = {
+			is_core_of = TIB
+			is_core_of = MON
+			state = 403
+			NOT = { 
+				is_core_of = CHB
+				state = 579
+			} 
+		}
+	}
+	set_state_flag = CHN_area_rank
+	TIB = {
+		every_core_state = {
+			limit = {
+				NOT = {
+					is_core_of = CHB
+					state = 579
+				}
+			}
+			set_state_flag = tibet_area
+		}
+	}
+	MON = { every_core_state = { set_state_flag = outer_mongolia_area } }
+	403 = { set_state_flag = outer_mongolia_area }
+	579 = { set_state_flag = xinjiang_province_state }
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 525
+			state = 526
+			state = 527
+			state = 528
+		}
+	}
+	set_state_flag = hubei_province_state
+}
+SHX = {
+	every_core_state = {
+		limit = {
+			NOT = {
+				state = 504
+				state = 516
+				state = 517
+				state = 526
+			}
+		}
+		set_state_flag = shanxi_province_state
+	}
+	every_owned_state = {
+		limit = {
+			OR = {
+				state = 516
+				state = 517
+			}
+		}
+		set_state_flag = shaanxi_province_state
+	}
 }

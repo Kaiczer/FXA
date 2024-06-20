@@ -586,10 +586,6 @@ SPA = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
 }
-ZAF = {
-	color = rgb { 255 89 0 }
-	color_ui = rgb { 255 89 0 }
-}
 SHO = {
 	color = rgb { 219 130 105 }
 	color_ui = rgb { 219 130 105 }
@@ -866,7 +862,15 @@ MDR = {
 	color = rgb { 43 43 186 }
 	color_ui = rgb { 43 43 186 }
 }
-TAN = {
+TAI = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
+}
+SSF = {
+	color = rgb { 40 53 172 }
+	color_ui = rgb { 40 53 172 }
+}
+SIB = {
+	color = rgb { 94 125 136 }
+	color_ui = rgb { 94 125 136 }
 }

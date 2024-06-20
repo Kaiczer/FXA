@@ -1,0 +1,12 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_subdivision_header"
+		texturefile = "gfx/interface/stateview/subdivision_header.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_subdivision_vp_hugger"
+		texturefile = "gfx/interface/stateview/vp_hugger.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}

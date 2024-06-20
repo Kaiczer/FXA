@@ -60,3 +60,6 @@ every_country = {
 		add_to_faction = PREV 
 	}
 }
+
+
+ENG_George_V = { set_character_flag = is_monarch }

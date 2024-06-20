@@ -32,7 +32,7 @@ if = {
 ENG = {
 	set_autonomy = {
 		target = PREV 
-		autonomous_state = nominal_puppet
+		autonomous_state = special_autonomous_dependency
 	}
 }
 set_politics = {	

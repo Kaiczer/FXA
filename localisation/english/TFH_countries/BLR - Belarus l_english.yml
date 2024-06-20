@@ -1,8 +1,5 @@
 ﻿l_english:
 
-BLR_FUHRERREDUX_DESC: "The belarusian war for independence was led by the bold man, the Ataman, Stanislav Bulak-Balakhovich. Alongside Poles and Ukrainians he fought against Bolsheviks and signed a peace treaty of Riga in 1922. He's the man who brought peace and independence to Belarus, but is there freedom in Belarus? The army keeps its loyalty to the Ataman, but his desire to control politics too resulted in alliance with belarusian national-socialist party and the isolation from neighboring countries. With growing dissatisfaction within his government, the nation was thrown into unrest, with conflicts erupting between his loyalists from the Home Guard and the BNSP" 
-belarusian_focus: "Belarrusian Natinonal Focus Tree"
-
 ### Country Names
 BLR_authoritarian_socialist: "Belarusian Socialist Republic"
 BLR_authoritarian_socialist_ADJ: "Belarusian"
@@ -16,6 +13,13 @@ BLR_revolutionary_socialist_DEF: "the Belarusian Socialist Republic"
 BLR: "Belarus"
 BLR_ADJ: "Belarusian"
 BLR_DEF: "the National Republic of Belarus"
+
+### Soviet Puppet Name
+BSR: "Byelorussian Soviet Socialist Republic"
+BSR_ADJ: "Byelorussian"
+BSR_DEF: "the Byelorussian Soviet Socialist Republic"
+
+### Cosmetic
 
 BLR_LITVINISM_authoritarian_socialist: "Belarussian-Lithuanian Worker's Commonwealth"
 BLR_LITVINISM_authoritarian_socialist_ADJ: "Belarussian-Lithuanian"

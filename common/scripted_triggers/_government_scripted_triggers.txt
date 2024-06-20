@@ -4,7 +4,7 @@ has_same_government_as_ROOT = {
 	has_government = var:ROOT.current_party_ideology_group
 }
 
-# checks for country in scope: authoritarian_socialist, vanguard_socialist, or radical socialist
+# checks for country in scope: authoritarian_socialist, vanguard_socialist, or rev.socialist
 has_socialist_government = {
 	custom_trigger_tooltip = {
 		tooltip = TFH_is_socialist #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
@@ -20,7 +20,7 @@ has_elected_government = {
 	}
 }
 
-# checks for country in scope: from social democrat to authoritarian democrat
+# checks for country in scope: from social democrat to authoritarian
 has_democratic_government = {
 	custom_trigger_tooltip = {
 		tooltip = TFH_is_democratic #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
@@ -28,7 +28,7 @@ has_democratic_government = {
 	}
 }
 
-# checks for country in scope: authoritarian democrat, paternal autocrat, or national populist
+# checks for country in scope: authoritarian, paternal autocrat, or national populist
 has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = TFH_is_authoritarian #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
@@ -213,5 +213,12 @@ is_monarchy = {
 				has_character_flag = is_regent
 			}
 		}
+	}
+}
+is_country_monarchy = {
+	custom_trigger_tooltip = {
+		tooltip = is_monarchy
+		has_socialist_government = no 
+		has_country_flag = country_is_monarchy
 	}
 }

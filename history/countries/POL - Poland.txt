@@ -28,7 +28,7 @@ if = {
 		}
 	}
 }
-create_faction = "Intermarium Commonwealth"
+create_faction = intermarium
 every_country = {
 	limit = {
 		OR = {

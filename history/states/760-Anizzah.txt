@@ -2,16 +2,19 @@
 state={
 	id=760
 	name="STATE_760"
-	provinces={
-		4951 5058 10744 12316 12879 
-	}
-	history = {
+
+	history={
 		owner = IRQ
 		add_core_of = IRQ
 		add_claim_by = ARB
+
 	}
+
+	provinces={
+		2089 4951 5058 10744 12316 12879 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }
