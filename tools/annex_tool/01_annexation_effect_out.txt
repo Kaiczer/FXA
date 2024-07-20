@@ -1,0 +1,4475 @@
+# Albania
+annexation_ALB_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        163 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1000
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1000
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Austria
+annexation_AUS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        9 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1001
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1001
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Belgium
+annexation_BEL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        12 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1002
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1002
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Belarus
+annexation_BLR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        27 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BLR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1003
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BLR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1003
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bosnia
+annexation_BOS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        160 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BOS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1004
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1004
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Brittany
+annexation_BRI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        77 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BRI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1005
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1005
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Euskadi
+annexation_BSQ_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        105 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BSQ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1006
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BSQ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1006
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bulgaria
+annexation_BUL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        182 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BUL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1007
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BUL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1007
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Croatia
+annexation_CRO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        156 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CRO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1008
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CRO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1008
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Catalonia
+annexation_CTL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        96 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CTL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1009
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CTL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1009
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Cyprus
+annexation_CYP_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        781 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CYP_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1010
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CYP_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1010
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Czechia
+annexation_CZE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        8 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CZE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1011
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CZE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1011
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Dagestan
+annexation_DAG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        295 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DAG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1012
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DAG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1012
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Denmark
+annexation_DEN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        17 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1013
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1013
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# England
+annexation_EGL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        6 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EGL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1014
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EGL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1014
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Great Britain
+annexation_ENG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        6 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ENG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1015
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ENG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1015
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Estonia
+annexation_EST_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        29 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EST_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1016
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EST_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1016
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Finland
+annexation_FIN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        30 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1017
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1017
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Flanders
+annexation_FLA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        12 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FLA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1018
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FLA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1018
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# France
+annexation_FRA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        31 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1019
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1019
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Galicia
+annexation_GAL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        115 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GAL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1020
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GAL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1020
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Germany
+annexation_GER_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        5 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1021
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1021
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Greece
+annexation_GRE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        22 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1022
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1022
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Holland
+annexation_HOL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        7 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HOL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1023
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HOL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1023
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Hungary
+annexation_HUN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        20 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HUN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1024
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HUN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1024
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Iceland
+annexation_ICE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        367 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ICE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1025
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ICE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1025
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Ireland
+annexation_IRE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        16 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1026
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1026
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Italy
+annexation_ITA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        4 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ITA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1027
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ITA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1027
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Latvia
+annexation_LAT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        24 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1028
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1028
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Lithuania
+annexation_LIT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        25 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LIT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1029
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LIT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1029
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Lombardy
+annexation_LOM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        136 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LOM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1030
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LOM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1030
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Luxembourg
+annexation_LUX_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        10 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LUX_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1031
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LUX_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1031
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Macedonia
+annexation_MAC_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        177 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAC_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1032
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAC_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1032
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Malta
+annexation_MLT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        122 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MLT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1033
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MLT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1033
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Montenegro
+annexation_MNE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        162 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1034
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1034
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Moldova
+annexation_MOL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        202 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1035
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1035
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# North Germany
+annexation_NGM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_north_germany = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NGM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1036
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NGM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1036
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Norway
+annexation_NOR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        18 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NOR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1037
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NOR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1037
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Piedmont
+annexation_PIE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        134 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PIE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1038
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PIE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1038
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Poland
+annexation_POL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        11 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_POL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1039
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_POL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1039
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Portugal
+annexation_POR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        15 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_POR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1040
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_POR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1040
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Prussia
+annexation_PRS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        5 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PRS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1041
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PRS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1041
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Rhineland
+annexation_RHI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_rhineland = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RHI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1042
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RHI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1042
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Romania
+annexation_ROM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        23 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ROM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1043
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ROM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1043
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Russia
+annexation_RUSSIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        289 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1044
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1044
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Sardinia
+annexation_SAR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        2 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1045
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1045
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Scotland
+annexation_SCO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        381 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SCO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1046
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SCO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1046
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Serbia
+annexation_SER_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        21 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1047
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1047
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# South Germany
+annexation_SGM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_south_germany = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SGM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1048
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SGM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1048
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Schleswig
+annexation_SHO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        39 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SHO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1049
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1049
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Slovakia
+annexation_SLO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        26 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SLO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1050
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SLO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1050
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Slovenia
+annexation_SLV_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        152 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SLV_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1051
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SLV_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1051
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Spain
+annexation_SPA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        14 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SPA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1052
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SPA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1052
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Papal State
+annexation_STE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        4 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_STE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1053
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_STE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1053
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Sweden
+annexation_SWE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        19 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SWE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1054
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SWE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1054
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Switzerland
+annexation_SWI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        13 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SWI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1055
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SWI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1055
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Transylvania
+annexation_TRA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        200 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1056
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1056
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Ukraine
+annexation_UKR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        28 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UKR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1057
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UKR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1057
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Venice
+annexation_VNE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        137 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1058
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1058
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Wallonia
+annexation_WLL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        65 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WLL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1059
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WLL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1059
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Wales
+annexation_WLS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        374 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WLS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1060
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WLS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1060
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Yugoslavia
+annexation_YUG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        21 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_YUG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1061
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_YUG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1061
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Corsica
+annexation_CORSICA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        1 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CORSICA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1062
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CORSICA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1062
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Constantinople
+annexation_CONSTANTINOPLE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        32 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CONSTANTINOPLE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1063
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CONSTANTINOPLE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1063
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Upper Silesia
+annexation_UPPER_SILESIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        44 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UPPER_SILESIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1064
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UPPER_SILESIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1064
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Saxony
+annexation_SAXONY_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_saxony = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAXONY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1065
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAXONY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1065
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# East Oder
+annexation_EAST_ODER_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_east_oders = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_ODER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1066
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_ODER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1066
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# North Brabant
+annexation_NORTH_BRABANT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        61 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NORTH_BRABANT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1067
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NORTH_BRABANT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1067
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Westerschelde
+annexation_WESTERSCHELDE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        62 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WESTERSCHELDE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1068
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WESTERSCHELDE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1068
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Limburg
+annexation_LIMBURG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        63 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LIMBURG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1069
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LIMBURG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1069
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bastogne
+annexation_BASTOGNE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        67 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BASTOGNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1070
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BASTOGNE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1070
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Alsace Lorraine
+annexation_ALSACE_LORRAINE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        71 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALSACE_LORRAINE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1071
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALSACE_LORRAINE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1071
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Basses Pyrenees
+annexation_BASSES_PYRENEES_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        83 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BASSES_PYRENEES_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1072
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BASSES_PYRENEES_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1072
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Rousillon
+annexation_ROUSSILLON_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        84 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ROUSSILLON_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1073
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ROUSSILLON_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1073
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Pyrenees
+annexation_PYRENEES_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        85 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PYRENEES_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1074
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PYRENEES_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1074
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Savoy
+annexation_SAVOY_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        94 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAVOY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1075
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAVOY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1075
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Nice
+annexation_NICE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        95 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NICE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1076
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NICE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1076
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Balearic Island
+annexation_BALEARIC_ISLAND_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        97 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BALEARIC_ISLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1077
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BALEARIC_ISLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1077
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Valencia
+annexation_VALENCIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        98 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VALENCIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1078
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VALENCIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1078
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Navarre
+annexation_NAVARRE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        104 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NAVARRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1079
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NAVARRE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1079
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Gibraltar
+annexation_GIBRALTAR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        121 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GIBRALTAR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1080
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GIBRALTAR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1080
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Sicilia
+annexation_SICILIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        123 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SICILIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1081
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SICILIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1081
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Umbria
+annexation_UMBRIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        128 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UMBRIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1082
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UMBRIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1082
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Marche
+annexation_MARCHE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        129 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MARCHE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1083
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MARCHE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1083
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Tuscany
+annexation_TUSCANY_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        130 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TUSCANY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1084
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TUSCANY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1084
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Romagna
+annexation_ROMAGNA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        131 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ROMAGNA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1085
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ROMAGNA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1085
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Emilia
+annexation_EMILIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        132 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EMILIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1086
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EMILIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1086
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Liguria
+annexation_LIGURIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        133 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LIGURIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1087
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LIGURIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1087
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Aosta Valley
+annexation_AOSTA_VALLEY_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        135 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AOSTA_VALLEY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1088
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AOSTA_VALLEY_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1088
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Trento
+annexation_TRENTO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        138 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRENTO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1089
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRENTO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1089
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# South Tyrol
+annexation_SOUTH_TYROL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        139 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOUTH_TYROL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1090
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOUTH_TYROL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1090
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Ticino
+annexation_TICINO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        141 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TICINO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1091
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TICINO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1091
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Vorarlburg
+annexation_VORARLBURG_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        142 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VORARLBURG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1092
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VORARLBURG_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1092
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Burgenland
+annexation_BURGENLAND_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        147 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BURGENLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1093
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BURGENLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1093
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Trieste
+annexation_TRIESTE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        149 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRIESTE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1094
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRIESTE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1094
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Gorizia
+annexation_GORIZIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        150 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GORIZIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1095
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GORIZIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1095
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Fiume
+annexation_FIUME_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        151 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FIUME_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1096
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FIUME_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1096
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Prekmurje
+annexation_PREKMURJE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        154 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PREKMURJE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1097
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PREKMURJE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1097
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Dubrovnik
+annexation_DUBROVNIK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        158 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DUBROVNIK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1098
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DUBROVNIK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1098
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Slavonia
+annexation_SLAVONIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        159 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SLAVONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1099
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SLAVONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1099
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Northern Epirus
+annexation_NORTHERN_EPIRUS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        165 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NORTHERN_EPIRUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1100
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NORTHERN_EPIRUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1100
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Dodecanese
+annexation_DODECANESE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        169 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DODECANESE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1101
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DODECANESE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1101
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Aegeans
+annexation_AEGEANS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        170 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AEGEANS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1102
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AEGEANS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1102
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# West Macedonia
+annexation_WEST_MACEDONIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        173 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_MACEDONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1103
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_MACEDONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1103
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# East Macedonia
+annexation_EAST_MACEDONIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        174 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_MACEDONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1104
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_MACEDONIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1104
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Thrace
+annexation_THRACE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        175 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_THRACE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1105
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_THRACE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1105
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Adrianople
+annexation_ADRIANOPLE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        176 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ADRIANOPLE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1106
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ADRIANOPLE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1106
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kosovo
+annexation_KOSOVO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        178 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOSOVO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1107
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOSOVO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1107
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kardzhali
+annexation_KARDZHALI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        184 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KARDZHALI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1108
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KARDZHALI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1108
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Silistra
+annexation_SILISTRA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        187 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SILISTRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1109
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SILISTRA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1109
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Dobruja
+annexation_DOBRUJA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        188 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DOBRUJA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1110
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DOBRUJA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1110
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Banat
+annexation_BANAT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        190 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BANAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1111
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BANAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1111
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# West Banat
+annexation_WEST_BANAT_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        191 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_BANAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1112
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_BANAT_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1112
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Syrmia
+annexation_SYRMIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        192 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SYRMIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1113
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SYRMIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1113
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bachka
+annexation_BACHKA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        193 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BACHKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1114
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BACHKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1114
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# South Slovakia
+annexation_SOUTH_SLOVAKIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        196 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOUTH_SLOVAKIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1115
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOUTH_SLOVAKIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1115
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Transcapathia
+annexation_TRANSCAPATHIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        198 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRANSCAPATHIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1116
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRANSCAPATHIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1116
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Suceava
+annexation_SUCEAVA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        203 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUCEAVA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1117
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUCEAVA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1117
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bukovina
+annexation_BUKOVINA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        204 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BUKOVINA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1118
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BUKOVINA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1118
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bessarabia
+annexation_BESSARABIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        205 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BESSARABIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1119
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BESSARABIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1119
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Tesin
+annexation_TESIN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        209 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TESIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1120
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TESIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1120
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# West Prussia
+annexation_WEST_PRUSSIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        210 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_PRUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1121
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_PRUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1121
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Posen
+annexation_POSEN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        211 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_POSEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1122
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_POSEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1122
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# East Prussia
+annexation_EAST_PRUSSIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        212 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_PRUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1123
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_PRUSSIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1123
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Masuria
+annexation_MASURIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        213 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MASURIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1124
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MASURIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1124
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Bialystok
+annexation_BIALYSTOK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        218 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BIALYSTOK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1125
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BIALYSTOK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1125
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Chelm
+annexation_CHELM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        220 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHELM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1126
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHELM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1126
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Lwow
+annexation_LWOW_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        221 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LWOW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1127
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LWOW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1127
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Latgale
+annexation_LATGALE_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        225 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LATGALE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1128
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LATGALE_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1128
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Memel
+annexation_MEMEL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        229 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MEMEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1129
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MEMEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1129
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Sudovia
+annexation_SUDOVIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        230 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUDOVIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1130
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUDOVIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1130
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Vilnius
+annexation_VILNIUS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        231 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VILNIUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1131
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VILNIUS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1131
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Suwalki
+annexation_SUWALKI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        232 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUWALKI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1132
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUWALKI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1132
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Pinsk
+annexation_PINSK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        233 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PINSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1133
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PINSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1133
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Novogrudok
+annexation_NOVOGRUDOK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        234 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NOVOGRUDOK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1134
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NOVOGRUDOK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1134
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Vileyka
+annexation_VILEYKA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        235 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VILEYKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1135
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VILEYKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1135
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Brest
+annexation_BREST_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        237 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BREST_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1136
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BREST_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1136
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kobryn
+annexation_KOBRYN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        238 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOBRYN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1137
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOBRYN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1137
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Mozyr
+annexation_MOZYR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        239 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOZYR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1138
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOZYR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1138
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Gomel
+annexation_GOMEL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        249 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GOMEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1139
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GOMEL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1139
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Siveria
+annexation_SIVERIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        250 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIVERIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1140
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIVERIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1140
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Crimea
+annexation_CRIMEA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        261 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CRIMEA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1141
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CRIMEA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1141
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Stanislawow
+annexation_STANISLAWOW_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        270 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_STANISLAWOW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1142
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_STANISLAWOW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1142
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# White Karelia
+annexation_WHITE_KARELIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        308 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WHITE_KARELIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1143
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WHITE_KARELIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1143
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Soroka
+annexation_SOROKA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        309 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOROKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1144
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOROKA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1144
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Murmansk
+annexation_MURMANSK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        310 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MURMANSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1145
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MURMANSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1145
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Alexandrosk
+annexation_ALEXANDROSK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        311 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALEXANDROSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1146
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALEXANDROSK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1146
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Aland
+annexation_ALAND_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        359 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1147
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1147
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Greenland
+annexation_GREENLAND_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        368 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GREENLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1148
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GREENLAND_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1148
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Faroe Islands
+annexation_FAROE_ISLANDS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        370 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FAROE_ISLANDS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1149
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FAROE_ISLANDS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1149
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Ulster
+annexation_ULSTER_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        388 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ULSTER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1150
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ULSTER_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.1150
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Burma
+annexation_BRM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        613 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BRM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2000
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2000
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Cambodia
+annexation_CAM_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        611 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CAM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2001
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAM_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2001
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# China
+annexation_CHINA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        is_mainland_china_state = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHINA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2002
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHINA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2002
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Dutch East Indies
+annexation_DEI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        629 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DEI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2003
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DEI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2003
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Indochina
+annexation_INC_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        599 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_INC_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2004
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INC_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2004
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Insulindia
+annexation_INS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        629 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_INS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2005
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2005
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Japan
+annexation_JAP_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        449 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_JAP_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2006
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JAP_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2006
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kazakhstan
+annexation_KAZ_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        435 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KAZ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2007
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KAZ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2007
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kachin
+annexation_KCH_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        619 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KCH_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2008
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KCH_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2008
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Korea
+annexation_KOR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        473 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2009
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2009
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Kyrgyzstan
+annexation_KYR_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        446 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KYR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2010
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KYR_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2010
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Laos
+annexation_LAO_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        607 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LAO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2011
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LAO_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2011
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Malaya
+annexation_MAL_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        624 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2012
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAL_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2012
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Manchuria
+annexation_MAN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        484 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2013
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2013
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Inner Mongolia
+annexation_MEN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        497 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2014
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MEN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2014
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Mongolia
+annexation_MON_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        581 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MON_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2015
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MON_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2015
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Philippines
+annexation_PHI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        651 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PHI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2016
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PHI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2016
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Shan
+annexation_SHN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        616 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SHN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2017
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2017
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Siam
+annexation_SIA_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        590 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2018
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIA_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2018
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Siberia
+annexation_SIB_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        395 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2019
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2019
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Xinjiang
+annexation_SIK_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        573 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2020
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIK_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2020
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Sarawak
+annexation_SRW_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        627 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SRW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2021
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SRW_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2021
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Taiwan
+annexation_TAI_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        541 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TAI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2022
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TAI_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2022
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Tajikistan
+annexation_TAJ_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        448 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TAJ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2023
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TAJ_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2023
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Tibet
+annexation_TIB_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        589 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TIB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2024
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TIB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2024
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Turkmenistan
+annexation_TMS_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        440 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TMS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2025
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TMS_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2025
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Uzbekistan
+annexation_UZB_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        442 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UZB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2026
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UZB_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2026
+    }
+    ai_will_do = { factor = 100 }
+}
+
+# Vietnam
+annexation_VIN_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        599 = { is_valid_annexation_state = no }
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2027
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VIN_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.2027
+    }
+    ai_will_do = { factor = 100 }
+}
+

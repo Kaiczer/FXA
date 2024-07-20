@@ -1,0 +1,129 @@
+XXB(has only three capital letter),[state trigger(number only)],[landsize(tiny,small,medium,large,huge,massive)],[common_name],[landtype(nation,state)],[continent(1-9)]
+XXC,[state custom trigger(str only)],[landsize(tiny,small,medium,large,huge,massive)],[common_name],[landtype(nation,state)],[continent(1-9)]
+ABCDEF(unlimited string),[state trigger(number only)],[landsize(tiny,small,medium,large,huge,massive)],[common_name],[landtype(nation,state)],[continent(1-9)]
+
+1. Scan TXT file
+2. Clear the content of the output files before starting if the files are existed
+clearFile(outputDir + "/01_annexation_trigger_out.txt");
+clearFile(outputDir + "/01_annexation_gui_out.txt");
+clearFile(outputDir + "/01_annexation_effect_out.txt");
+clearFile(outputDir + "/01_annexation_event_out.txt");
+
+3. Context of TXT file to be scan
+Columns are separated by comma
+First column: [country tag] (three letter string) or [state name] (unlimited string)
+Second column: [state trigger] (numeric), custom_trigger (string)
+Third column: [landsize] (tiny,small,medium,large,huge,massive)
+Fourth column: [common name] (unlimited string)
+Fifth column: [landtype] (nation,state)
+Sixth column: [continent] (1-9)
+"Nine continent"
+1.europe
+2.asia
+3.india
+4.middle_east
+5.africa
+6.north_america
+7.central_america
+8.south_america
+9.australia
+
+4. Generate annexation trigger file 
+#[common_name] (only on this common name must use formal writing form, first character must be capital letter) - annexation_[country tag or state name]_CONQ
+can_release_[common_name] = {
+ 	if user put numeric state trigger, generate [state = [number]] 
+    if user put string custom_trigger, generate [custom_trigger = yes]
+ 	NOT = { is_claimed_by = ROOT }
+ 	ROOT = {
+        if the 5th column is [landtype] = nation, print [should_release_(common name)_first = yes]
+ 		NOT = {
+ 			if the 5th column is [landtype] = nation, generate [country_exists = [country tag]]
+ 			has_country_flag = [country tag or state name]_CONQ
+ 		}
+ 	}
+}
+
+5. Generate annexation GUI effect file
+if = {
+	limit = { can_release_[common_name] = yes }
+	ROOT = { activate_mission = annexation_[Country Tag or Region]_CONQ }
+}
+else_if = {
+	limit = { can_release_[short name, all small letters] = yes }
+	ROOT = { activate_mission = annexation_[Country Tag or Region]_CONQ }
+}
+
+6. Generate annexation decision file
+#[common_name] (only on this common name must use formal writing form, first character must be capital letter)
+annexation_[Country Tag or Region]_CONQ = {
+    icon = generic_form_nation
+    selectable_mission = yes
+    days_mission_timeout = @annexation_days_mission_timeout
+    is_good = no
+    available = {
+        can_select_annexation_mission = yes
+    }
+    cancel_trigger = {
+        if user put numeric state trigger, generate [number] = { is_valid_annexation_state = no }
+        if user put string custom_trigger, generate [custom_trigger] = no
+    }
+    complete_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision complete annexation_[Country Tag or Region]_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.XXXX 
+    }
+    timeout_effect = {
+        log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_[Country Tag or Region]_CONQ"
+        block_annexation_mission_selection = yes
+        country_event = annex.XXXX 
+    }
+    ai_will_do = { factor = 100 }
+}
+Note #1: The event number must be start with four digit number, first digit is continent number (1-9) and the rest is event number starting from X001.
+
+7. Generate annexation event file
+country_event = { #Fate of [common_name] (only on this common name must use formal writing form, first character must be capital letter)
+	id = annex.[event_number]
+	title = annexation_[Country_tag or Region]_CONQ
+	desc = annexation_[Country_tag or Region]_CONQ_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	if 5th column is [landtype] = nation
+	then generate
+	immediate = {
+		hidden_effect = { 
+			
+		}
+	}
+	end generate 
+
+	option = { #Liberate [Country_tag or Region]
+		log = "[GetLogInfo]: event annex.[event_number] option annex.[event_number].a"
+		name = annex.[event_number].a
+		ai_chance = { base = 100 }
+		if 5th column is [landtype] = nation
+		then generate 
+		set_temp_variable = { tag_to_release = [country_tag] }
+		release_targeted_tag = yes
+		end generate
+		recheck_annexations = yes
+	}
+
+	option = { #Occupy [country_tag or Region]
+		log = "[GetLogInfo]: event annex.2000 option annex.occupation"
+		name = annex.occupation
+		ai_chance = { base = 0 }
+		occupy_[landsize]_country = yes
+		set_country_flag = [Country_tag or Region]_CONQ
+		recheck_annexations = yes
+	}
+}
+do loop until the end of last line
+
+6.Write the content to files
+appendToFile(outputDir + "/01_annexation_trigger_out.txt", annexationTriggerContent.toString());
+appendToFile(outputDir + "/01_annexation_gui_out.txt", annexationGuiEffectContent.toString());
+appendToFile(outputDir + "/01_annexation_effect_out.txt", annexationDecisionContent.toString());
+appendToFile(outputDir + "/01_annexation_event_out.txt", annexationEventContent.toString());
