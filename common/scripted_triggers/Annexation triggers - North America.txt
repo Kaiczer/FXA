@@ -14,6 +14,7 @@ can_release_newfoundland = {
     state = 943
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_canada_first = yes
         NOT = {
             country_exists = NFL
             has_country_flag = NFL_CONQ
@@ -25,6 +26,7 @@ can_release_quebec = {
     state = 947
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_canada_first = yes 
         NOT = {
             country_exists = QUE
             has_country_flag = QUE_CONQ
@@ -33,11 +35,37 @@ can_release_quebec = {
 }
 # United States - annexation_USA_CONQ
 can_release_united_states = {
-    state = 960
+    OR = {
+        state = 960
+        state = 973
+        state = 984
+        state = 993
+        state = 1002
+        state = 1005
+        state = 1012
+        state = 1015
+        state = 1016
+    }
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        is_american_tag = no
+		if = {
+			limit = {
+				NOT = { tag = CAN }
+			}
+			NOT = {
+				country_exists = USA
+				country_exists = SCA
+				country_exists = NAR
+                country_exists = CLF
+                country_exists = CLB
+                country_exists = NEE
+                country_exists = TEX
+                country_exists = SNE
+			}
+		}
         NOT = {
-            country_exists = USA
+            any_enemy_country = { is_american_tag = yes }
             has_country_flag = USA_CONQ
         }
     }
@@ -47,6 +75,8 @@ can_release_pierre_miquelon = {
     state = 944
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_america_first = yes
+        should_release_quebec_first = yes
         NOT = {
             has_country_flag = PIERRE_MIQUELON_CONQ
         }
@@ -57,7 +87,19 @@ can_release_alaska = {
     state = 1018
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_america_first = yes
+        should_release_canada_first = yes 
+        OR = {
+			var:960.owner = { #Maryland
+				is_american_tag = yes
+				ROOT_can_grant_land = yes
+			}
+			CAN = { is_ally_with = ROOT }
+		}
         NOT = {
+            tag = CAN
+			tag = QUE
+			is_american_tag = yes
             has_country_flag = ALASKA_CONQ
         }
     }
@@ -67,13 +109,41 @@ can_release_alaska = {
 should_release_america_first = {
 	OR = {
 		has_country_flag = USA_CONQ
-		country_exists = USA
-		country_exists = CSA
-		country_exists = TEX
-		country_exists = PSA
-		371 = { is_valid_annexation_state = no }
-		395 = { is_valid_annexation_state = no }
-		361 = { is_valid_annexation_state = no }
+        count_triggers = {
+            amount = 3
+            country_exists = USA
+            country_exists = SCA
+            country_exists = NAR
+            country_exists = CLF
+            country_exists = CLB
+            country_exists = NEE
+            country_exists = TEX
+            country_exists = SNE
+        }
+		960 = { is_valid_annexation_state = no }
+        973 = { is_valid_annexation_state = no }
+        984 = { is_valid_annexation_state = no }
+        993 = { is_valid_annexation_state = no }
+        1002 = { is_valid_annexation_state = no }
+        1005 = { is_valid_annexation_state = no }
+        1012 = { is_valid_annexation_state = no }
+        1015 = { is_valid_annexation_state = no }
+        1016 = { is_valid_annexation_state = no }
 	}
 }
 
+should_release_canada_first = {
+    OR = {
+        country_exists = CAN
+        has_country_flag = CAN_CONQ
+        951 = { is_valid_annexation_state = no }
+    }
+}
+
+should_release_quebec_first = {
+    OR = {
+        country_exists = QUE
+        has_country_flag = QUE_CONQ
+        947 = { is_valid_annexation_state = no }
+    }
+}

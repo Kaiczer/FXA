@@ -70,7 +70,7 @@ POR = {
 	color = rgb { 29 136 110 } #39 116 70
 	color_ui = rgb { 39 116 70 }
 }
-ARB = {
+HEJ = {
 	color = rgb { 109 107 96 }
 	color_ui = rgb { 109 107 96 }
 }
@@ -198,7 +198,7 @@ GXC = {
 	color = rgb { 97 125 147 }
 	color_ui = rgb { 97 125 147 }
 }
-ANH = {
+TNJ = {
 	color = rgb { 223 27 18 }
 	color_ui = rgb { 223 27 18 }
 }
@@ -813,6 +813,10 @@ VNE = {
 WLL = {
 	color = rgb { 144 0 32 }
 	color_ui = rgb { 144 0 32 }
+}
+FLA = {
+	color = rgb { 233 199 26 }
+	color_ui = rgb { 233 199 26 }
 }
 INC = {
 	color = rgb { 215 24 14 }

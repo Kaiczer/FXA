@@ -1,7 +1,10 @@
-﻿#Special thanks to LiO and Bagrationi from the Caucasian Server on Discord for their help in Georgian
-l_english:
+﻿l_english:
 
 ### Country Names
+GEO: "Georgia"
+GEO_DEF: "Georgia"
+GEO_ADJ: "Georgian"
+
 GEO_authoritarian_socialist: "Democratic Georgia"
 GEO_authoritarian_socialist_ADJ: "Georgian"
 GEO_authoritarian_socialist_DEF: "the Georgian People's Republic"
@@ -37,14 +40,14 @@ GEO_volkist_ADJ: "Kartuli"
 GEO_volkist_DEF: "Sakartvelos Respublika"
 
 #### PARTIES
-GEO_authoritarian_socialist_party: "RKP(nc)"
-GEO_authoritarian_socialist_party_long: "Rossiyskaya Kommunisticheskaya Partiya (national-vanguard_socialists)"
+GEO_authoritarian_socialist_party: "RKP(NV)"
+GEO_authoritarian_socialist_party_long: "Rossiyskaya Kommunisticheskaya Partiya (National Vanguard)"
 GEO_vanguard_socialist_party: "SKP"
 GEO_vanguard_socialist_party_long: "Sakartvelos Komunisturi Partia"
-GEO_revolutionary_socialist_party: "SSDP(r)"
-GEO_revolutionary_socialist_party_long: "Sakartvelos Social-Demokratiuli Partia (radicals)"
-GEO_social_democrat_party: "SSDP(m)"
-GEO_social_democrat_party_long: "Sakartvelos Social-Demokratiuli Partia (moderates)"
+GEO_revolutionary_socialist_party: "SSDP(R)"
+GEO_revolutionary_socialist_party_long: "Sakartvelos Social-Demokratiuli Partia (Radicals)"
+GEO_social_democrat_party: "SSDP(M)"
+GEO_social_democrat_party_long: "Sakartvelos Social-Demokratiuli Partia (Moderates)"
 GEO_social_liberal_party: "SF"
 GEO_social_liberal_party_long: "Socialist-Federalistebi"
 GEO_classical_liberal_party: "EDP"
@@ -52,9 +55,9 @@ GEO_classical_liberal_party_long: "Erovnul-Demokratiuli Partia"
 GEO_social_conservative_party: "EDP"
 GEO_social_conservative_party_long: "Erovnul-Demokratiuli Partia"
 GEO_authoritarian_party: "Bagrationi"
-GEO_authoritarian_party_long: "Bagrationi Restorationists (constitutionalists)"
+GEO_authoritarian_party_long: "Bagrationi Restorationists (Constitutionalists)"
 GEO_paternal_autocrat_party: "Bagrationi"
-GEO_paternal_autocrat_party_long: "Bagrationi Restorationists (absolutists)"
+GEO_paternal_autocrat_party_long: "Bagrationi Restorationists (Absolutists)"
 GEO_reactionary_ultranationalist_party: "SEP"
 GEO_reactionary_ultranationalist_party_long: "Sakartvelos Erovnuli Partia"
 GEO_volkist_party: "SVP"

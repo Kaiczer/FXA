@@ -1,10 +1,10 @@
 ### Soviet Republics
-USR = {
-	original_tag = SOV 
+USR = { 
+	original_tag = UKR
 	has_country_flag = UKR_is_soviet_puppet
 }
 BSR = {
-	original_tag = SOV 
+	original_tag = BLR
 	has_country_flag = BLR_is_soviet_puppet
 }
 
@@ -14,6 +14,10 @@ CHN = { #Unified China tag
 }
 ZGZ = { #Zhongguo Guojia Zhanxian / Chinese United Front
 	global_event_target = china_united_front_leader
+}
+NXJ = { #Nan Xinjiang / South Xinjiang
+	original_tag = SIK
+	has_country_flag = SIK_hushan_army
 }
 
 ### South Africa
@@ -29,7 +33,7 @@ NAT = {
 ### Congo
 CNG = {
 	original_tag = COG
-	has_country_flag = COG_independent_country
+	has_country_flag = COG_is_rebel
 }
 
 ### Entente Leader

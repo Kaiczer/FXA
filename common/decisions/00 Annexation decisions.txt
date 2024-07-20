@@ -253,7 +253,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            9 = { is_valid_annexation_state = no }
+            8 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CZE_CONQ"
@@ -470,7 +470,7 @@ annexation_decisions = {
         }
         cancel_trigger = {
             owns_at_least_six_german_states = no
-			owns_states_in_two_major_german_regions = no
+            owns_states_in_two_major_german_regions = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GER_CONQ"
@@ -483,29 +483,29 @@ annexation_decisions = {
             country_event = annex.1019
         }
         ai_will_do = {
-			factor = 100
-			modifier = {
-				factor = 0
-				is_in_faction = yes
-				is_faction_leader = no
-				faction_leader = {
-					OR = {
-						has_active_mission = annexation_GER_CONQ
-						has_country_flag = open_annexation_event
-					}
-				}
-			}
-			modifier = {
-				factor = 0
-				any_of_scopes = {
-					array = global.players
-					OR = {
-						has_active_mission = annexation_GER_CONQ
-						has_country_flag = open_annexation_event
-					}
-				}
-			}
-		}
+            factor = 100
+            modifier = {
+                factor = 0
+                is_in_faction = yes
+                is_faction_leader = no
+                faction_leader = {
+                    OR = {
+                        has_active_mission = annexation_GER_CONQ
+                        has_country_flag = open_annexation_event
+                    }
+                }
+            }
+            modifier = {
+                factor = 0
+                any_of_scopes = {
+                    array = global.players
+                    OR = {
+                        has_active_mission = annexation_GER_CONQ
+                        has_country_flag = open_annexation_event
+                    }
+                }
+            }
+        }
     }
     # Greece
     annexation_GRE_CONQ = {
@@ -541,7 +541,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            8 = { is_valid_annexation_state = no }
+            7 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HOL_CONQ"
@@ -853,7 +853,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            has_valid_north_germany_annexation_state = no
+            is_north_germany = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NGM_CONQ"
@@ -973,7 +973,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            has_valid_brandenburg_annexation_state = no
+            5 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PRS_CONQ"
@@ -1035,6 +1035,31 @@ annexation_decisions = {
         }
         ai_will_do = { factor = 100 }
     }
+    # Russia
+    annexation_RUSSIA_CONQ = {
+        icon = generic_form_nation
+        selectable_mission = yes
+        days_mission_timeout = @annexation_days_mission_timeout
+        is_good = no
+        available = {
+            can_select_annexation_mission = yes
+        }
+        cancel_trigger = {
+            289 = { is_valid_annexation_state = no }
+            420 = {is_valid_annexation_state = no }
+        }
+        complete_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RUSSIA_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1042
+        }
+        timeout_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RUSSIA_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1042
+        }
+        ai_will_do = { factor = 100 }
+    }
     # Sardinia
     annexation_SAR_CONQ = {
         icon = generic_form_nation
@@ -1050,12 +1075,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1042
+            country_event = annex.1043
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1042
+            country_event = annex.1043
         }
         ai_will_do = { factor = 100 }
     }
@@ -1074,12 +1099,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SCO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1043
+            country_event = annex.1044
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SCO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1043
+            country_event = annex.1044
         }
         ai_will_do = { factor = 100 }
     }
@@ -1098,12 +1123,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SER_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1044
+            country_event = annex.1045
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SER_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1044
+            country_event = annex.1045
         }
         ai_will_do = { factor = 100 }
     }
@@ -1117,17 +1142,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            has_valid_south_germany_annexation_state = no 
+            is_south_germany = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SGM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1045
+            country_event = annex.1046
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SGM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1045
+            country_event = annex.1046
         }
         ai_will_do = { factor = 100 }
     }
@@ -1146,12 +1171,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SHO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1046
+            country_event = annex.1047
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1046
+            country_event = annex.1047
         }
         ai_will_do = { factor = 100 }
     }
@@ -1170,12 +1195,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SLO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1047
+            country_event = annex.1048
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SLO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1047
+            country_event = annex.1048
         }
         ai_will_do = { factor = 100 }
     }
@@ -1194,12 +1219,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SLV_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1048
+            country_event = annex.1049
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SLV_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1048
+            country_event = annex.1049
         }
         ai_will_do = { factor = 100 }
     }
@@ -1501,7 +1526,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            has_valid_saxony_annexation_state = no
+            is_saxony = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAXONY_CONQ"
@@ -1861,7 +1886,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            232 = { is_valid_annexation_state = no }
+            121 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GIBRALTAR_CONQ"
@@ -3075,6 +3100,30 @@ annexation_decisions = {
         }
         ai_will_do = { factor = 100 }
     }
+    # Pinsk
+    annexation_PINSK_CONQ = {
+        icon = generic_form_nation
+        selectable_mission = yes
+        days_mission_timeout = @annexation_days_mission_timeout
+        is_good = no
+        available = {
+            can_select_annexation_mission = yes
+        }
+        cancel_trigger = {
+            233 = { is_valid_annexation_state = no }
+        }
+        complete_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PINSK_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1128
+        }
+        timeout_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PINSK_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1128
+        }
+        ai_will_do = { factor = 100 }
+    }
     # Novogrudok
     annexation_NOVOGRUDOK_CONQ = {
         icon = generic_form_nation
@@ -3090,12 +3139,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NOVOGRUDOK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1128
+            country_event = annex.1129
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NOVOGRUDOK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1128
+            country_event = annex.1129
         }
         ai_will_do = { factor = 100 }
     }
@@ -3114,12 +3163,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VILEYKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1129
+            country_event = annex.1130
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VILEYKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1129
+            country_event = annex.1130
         }
         ai_will_do = { factor = 100 }
     }
@@ -3138,12 +3187,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BREST_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1130
+            country_event = annex.1131
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BREST_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1130
+            country_event = annex.1131
         }
         ai_will_do = { factor = 100 }
     }
@@ -3162,12 +3211,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOBRYN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1131
+            country_event = annex.1132
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOBRYN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1131
+            country_event = annex.1132
         }
         ai_will_do = { factor = 100 }
     }
@@ -3186,12 +3235,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOZYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1132
+            country_event = annex.1133
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOZYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1132
+            country_event = annex.1133
         }
         ai_will_do = { factor = 100 }
     }
@@ -3205,17 +3254,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            240 = { is_valid_annexation_state = no }
+            249 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GOMEL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1133
+            country_event = annex.1134
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GOMEL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1133
+            country_event = annex.1134
         }
         ai_will_do = { factor = 100 }
     }
@@ -3234,12 +3283,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIVERIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1134
+            country_event = annex.1135
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIVERIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1134
+            country_event = annex.1135
         }
         ai_will_do = { factor = 100 }
     }
@@ -3258,12 +3307,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CRIMEA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1135
+            country_event = annex.1136
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CRIMEA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1135
+            country_event = annex.1136
         }
         ai_will_do = { factor = 100 }
     }
@@ -3282,12 +3331,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_STANISLAWOW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1136
+            country_event = annex.1137
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_STANISLAWOW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1136
+            country_event = annex.1137
         }
         ai_will_do = { factor = 100 }
     }
@@ -3306,12 +3355,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WHITE_KARELIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1137
+            country_event = annex.1138
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WHITE_KARELIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1137
+            country_event = annex.1138
         }
         ai_will_do = { factor = 100 }
     }
@@ -3330,12 +3379,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOROKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1138
+            country_event = annex.1139
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOROKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1138
+            country_event = annex.1139
         }
         ai_will_do = { factor = 100 }
     }
@@ -3354,12 +3403,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MURMANSK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1139
+            country_event = annex.1140
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MURMANSK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1139
+            country_event = annex.1140
         }
         ai_will_do = { factor = 100 }
     }
@@ -3378,12 +3427,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALEXANDROVSK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1140
+            country_event = annex.1141
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALEXANDROVSK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1140
+            country_event = annex.1141
         }
         ai_will_do = { factor = 100 }
     }
@@ -3402,12 +3451,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1141
+            country_event = annex.1142
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1141
+            country_event = annex.1142
         }
         ai_will_do = { factor = 100 }
     }
@@ -3426,12 +3475,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GREENLAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1142
+            country_event = annex.1143
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GREENLAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1142
+            country_event = annex.1143
         }
         ai_will_do = { factor = 100 }
     }
@@ -3450,12 +3499,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FAROE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1143
+            country_event = annex.1144
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FAROE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1143
+            country_event = annex.1144
         }
         ai_will_do = { factor = 100 }
     }
@@ -3474,12 +3523,36 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NORTHERN_IRELAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1144
+            country_event = annex.1145
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NORTHERN_IRELAND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1144
+            country_event = annex.1145
+        }
+        ai_will_do = { factor = 100 }
+    }
+    # Adrianople
+    annexation_ADRIANOPLE_CONQ = {
+        icon = generic_form_nation
+        selectable_mission = yes
+        days_mission_timeout = @annexation_days_mission_timeout
+        is_good = no
+        available = {
+            can_select_annexation_mission = yes
+        }
+        cancel_trigger = {
+            176 = { is_valid_annexation_state = no }
+        }
+        complete_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ADRIANOPLE_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1146
+        }
+        timeout_effect = {
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ADRIANOPLE_CONQ"
+            block_annexation_mission_selection = yes
+            country_event = annex.1146
         }
         ai_will_do = { factor = 100 }
     }
@@ -3498,12 +3571,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BRM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1145
+            country_event = annex.1147
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1145
+            country_event = annex.1147
         }
         ai_will_do = { factor = 100 }
     }
@@ -3522,12 +3595,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1146
+            country_event = annex.1148
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1146
+            country_event = annex.1148
         }
         ai_will_do = { factor = 100 }
     }
@@ -3541,31 +3614,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            479 = { is_valid_annexation_state = no } #Jingzhao
-            484 = { is_valid_annexation_state = no } #Fengtian
-            498 = { is_valid_annexation_state = no } #Jinan
-            518 = { is_valid_annexation_state = no } #Nanjing
-            525 = { is_valid_annexation_state = no } #Wuhan
-            529 = { is_valid_annexation_state = no } #Xiangjiang
-            540 = { is_valid_annexation_state = no } #Dariganga
-            541 = { is_valid_annexation_state = no } #Taiwan
-            544 = { is_valid_annexation_state = no } #Guangzhou
-            558 = { is_valid_annexation_state = no } #Yunnan
-            561 = { is_valid_annexation_state = no } #Chongqing
-            562 = { is_valid_annexation_state = no } #Chengdu
-            566 = { is_valid_annexation_state = no } #Jingyuan
-            570 = { is_valid_annexation_state = no } #Yulin
-            571 = { is_valid_annexation_state = no } #Kumul
+            decision_has_valid_china_annexation_state = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1147
+            country_event = annex.1149
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1147
+            country_event = annex.1149
         }
         ai_will_do = { factor = 100 }
     }
@@ -3579,17 +3638,21 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            is_central_asia = no
+            435 = { is_valid_annexation_state = no }
+            441 = { is_valid_annexation_state = no }
+            442 = { is_valid_annexation_state = no }
+            446 = { is_valid_annexation_state = no }
+            447 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CTA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1148
+            country_event = annex.1150
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CTA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1148
+            country_event = annex.1150
         }
         ai_will_do = { factor = 100 }
     }
@@ -3608,12 +3671,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_INC_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1149
+            country_event = annex.1151
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INC_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1149
+            country_event = annex.1151
         }
         ai_will_do = { factor = 100 }
     }
@@ -3632,12 +3695,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_INS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1150
+            country_event = annex.1152
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_INS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1150
+            country_event = annex.1152
         }
         ai_will_do = { factor = 100 }
     }
@@ -3656,12 +3719,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_JAP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1151
+            country_event = annex.1153
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JAP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1151
+            country_event = annex.1153
         }
         ai_will_do = { factor = 100 }
     }
@@ -3680,12 +3743,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KAZ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1152
+            country_event = annex.1154
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KAZ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1152
+            country_event = annex.1154
         }
         ai_will_do = { factor = 100 }
     }
@@ -3704,12 +3767,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KCH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1153
+            country_event = annex.1155
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KCH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1153
+            country_event = annex.1155
         }
         ai_will_do = { factor = 100 }
     }
@@ -3728,12 +3791,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1154
+            country_event = annex.1156
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1154
+            country_event = annex.1156
         }
         ai_will_do = { factor = 100 }
     }
@@ -3752,12 +3815,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1155
+            country_event = annex.1157
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1155
+            country_event = annex.1157
         }
         ai_will_do = { factor = 100 }
     }
@@ -3776,12 +3839,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LAO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1156
+            country_event = annex.1158
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LAO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1156
+            country_event = annex.1158
         }
         ai_will_do = { factor = 100 }
     }
@@ -3800,12 +3863,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1157
+            country_event = annex.1159
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1157
+            country_event = annex.1159
         }
         ai_will_do = { factor = 100 }
     }
@@ -3824,12 +3887,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1158
+            country_event = annex.1160
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1158
+            country_event = annex.1160
         }
         ai_will_do = { factor = 100 }
     }
@@ -3848,12 +3911,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1159
+            country_event = annex.1161
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1159
+            country_event = annex.1161
         }
         ai_will_do = { factor = 100 }
     }
@@ -3872,12 +3935,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1160
+            country_event = annex.1162
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1160
+            country_event = annex.1162
         }
         ai_will_do = { factor = 100 }
     }
@@ -3896,37 +3959,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PHI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1161
+            country_event = annex.1163
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PHI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1161
-        }
-        ai_will_do = { factor = 100 }
-    }
-    # Russia
-    annexation_RUSSIA_CONQ = {
-        icon = generic_form_nation
-        selectable_mission = yes
-        days_mission_timeout = @annexation_days_mission_timeout
-        is_good = no
-        available = {
-            can_select_annexation_mission = yes
-        }
-        cancel_trigger = {
-            289 = { is_valid_annexation_state = no }
-            420 = { is_valid_annexation_state = no }
-        }
-        complete_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RUSSIA_CONQ"
-            block_annexation_mission_selection = yes
-            country_event = annex.1162
-        }
-        timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RUSSIA_CONQ"
-            block_annexation_mission_selection = yes
-            country_event = annex.1162
+            country_event = annex.1163
         }
         ai_will_do = { factor = 100 }
     }
@@ -3945,12 +3983,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SHN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1163
+            country_event = annex.1164
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SHN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1163
+            country_event = annex.1164
         }
         ai_will_do = { factor = 100 }
     }
@@ -3969,12 +4007,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1164
+            country_event = annex.1165
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1164
+            country_event = annex.1165
         }
         ai_will_do = { factor = 100 }
     }
@@ -3988,18 +4026,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            395 = { is_valid_annexation_state = no }
             400 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1165
+            country_event = annex.1166
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1165
+            country_event = annex.1166
         }
         ai_will_do = { factor = 100 }
     }
@@ -4018,12 +4055,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1166
+            country_event = annex.1167
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1166
+            country_event = annex.1167
         }
         ai_will_do = { factor = 100 }
     }
@@ -4042,12 +4079,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SRW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1167
+            country_event = annex.1168
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SRW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1167
+            country_event = annex.1168
         }
         ai_will_do = { factor = 100 }
     }
@@ -4066,12 +4103,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1168
+            country_event = annex.1169
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1168
+            country_event = annex.1169
         }
         ai_will_do = { factor = 100 }
     }
@@ -4090,12 +4127,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TAJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1169
+            country_event = annex.1170
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TAJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1169
+            country_event = annex.1170
         }
         ai_will_do = { factor = 100 }
     }
@@ -4114,12 +4151,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1170
+            country_event = annex.1171
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1170
+            country_event = annex.1171
         }
         ai_will_do = { factor = 100 }
     }
@@ -4138,12 +4175,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TMS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1171
+            country_event = annex.1172
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TMS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1171
+            country_event = annex.1172
         }
         ai_will_do = { factor = 100 }
     }
@@ -4162,12 +4199,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UZB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1172
+            country_event = annex.1173
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UZB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1172
+            country_event = annex.1173
         }
         ai_will_do = { factor = 100 }
     }
@@ -4186,12 +4223,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1173
+            country_event = annex.1174
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1173
+            country_event = annex.1174
         }
         ai_will_do = { factor = 100 }
     }
@@ -4210,12 +4247,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TUVA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1174
+            country_event = annex.1175
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TUVA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1174
+            country_event = annex.1175
         }
         ai_will_do = { factor = 100 }
     }
@@ -4234,12 +4271,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_QONGIROT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1175
+            country_event = annex.1176
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_QONGIROT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1175
+            country_event = annex.1176
         }
         ai_will_do = { factor = 100 }
     }
@@ -4258,12 +4295,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TASHKENT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1176
+            country_event = annex.1177
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TASHKENT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1176
+            country_event = annex.1177
         }
         ai_will_do = { factor = 100 }
     }
@@ -4282,12 +4319,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BADAKHSHAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1177
+            country_event = annex.1178
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BADAKHSHAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1177
+            country_event = annex.1178
         }
         ai_will_do = { factor = 100 }
     }
@@ -4306,12 +4343,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IWO_JIMA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1178
+            country_event = annex.1179
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IWO_JIMA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1178
+            country_event = annex.1179
         }
         ai_will_do = { factor = 100 }
     }
@@ -4330,12 +4367,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAKHALIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1179
+            country_event = annex.1180
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAKHALIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1179
+            country_event = annex.1180
         }
         ai_will_do = { factor = 100 }
     }
@@ -4354,12 +4391,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KURIL_ISLANDS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1180
+            country_event = annex.1181
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KURIL_ISLANDS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1180
+            country_event = annex.1181
         }
         ai_will_do = { factor = 100 }
     }
@@ -4378,12 +4415,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DARIGANGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1181
+            country_event = annex.1182
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DARIGANGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1181
+            country_event = annex.1182
         }
         ai_will_do = { factor = 100 }
     }
@@ -4402,12 +4439,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KHOVD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1182
+            country_event = annex.1183
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KHOVD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1182
+            country_event = annex.1183
         }
         ai_will_do = { factor = 100 }
     }
@@ -4426,12 +4463,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHIRAGSALDI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1183
+            country_event = annex.1184
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHIRAGSALDI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1183
+            country_event = annex.1184
         }
         ai_will_do = { factor = 100 }
     }
@@ -4450,12 +4487,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AKSAI_CHIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1184
+            country_event = annex.1185
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AKSAI_CHIN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1184
+            country_event = annex.1185
         }
         ai_will_do = { factor = 100 }
     }
@@ -4474,12 +4511,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAEKONG_RIGHTBANK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1185
+            country_event = annex.1186
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAEKONG_RIGHTBANK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1185
+            country_event = annex.1186
         }
         ai_will_do = { factor = 100 }
     }
@@ -4498,12 +4535,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PATANI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1186
+            country_event = annex.1187
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PATANI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1186
+            country_event = annex.1187
         }
         ai_will_do = { factor = 100 }
     }
@@ -4522,12 +4559,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TENASSERIM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1187
+            country_event = annex.1188
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TENASSERIM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1187
+            country_event = annex.1188
         }
         ai_will_do = { factor = 100 }
     }
@@ -4546,12 +4583,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_COCHINCHINA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1188
+            country_event = annex.1189
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COCHINCHINA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1188
+            country_event = annex.1189
         }
         ai_will_do = { factor = 100 }
     }
@@ -4570,12 +4607,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAEKONG_DELTA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1189
+            country_event = annex.1190
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAEKONG_DELTA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1189
+            country_event = annex.1190
         }
         ai_will_do = { factor = 100 }
     }
@@ -4594,12 +4631,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_XAYABOULI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1190
+            country_event = annex.1191
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_XAYABOULI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1190
+            country_event = annex.1191
         }
         ai_will_do = { factor = 100 }
     }
@@ -4618,12 +4655,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BATTAMBANG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1191
+            country_event = annex.1192
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BATTAMBANG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1191
+            country_event = annex.1192
         }
         ai_will_do = { factor = 100 }
     }
@@ -4642,12 +4679,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_THATON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1192
+            country_event = annex.1193
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_THATON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1192
+            country_event = annex.1193
         }
         ai_will_do = { factor = 100 }
     }
@@ -4661,17 +4698,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            616 = { is_valid_annexation_state = no }
+            615 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KENGTUNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1193
+            country_event = annex.1194
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KENGTUNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1193
+            country_event = annex.1194
         }
         ai_will_do = { factor = 100 }
     }
@@ -4690,12 +4727,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PERAK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1194
+            country_event = annex.1195
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PERAK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1194
+            country_event = annex.1195
         }
         ai_will_do = { factor = 100 }
     }
@@ -4714,12 +4751,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TERENGGANU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1195
+            country_event = annex.1196
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TERENGGANU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1195
+            country_event = annex.1196
         }
         ai_will_do = { factor = 100 }
     }
@@ -4738,12 +4775,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SINGAPORE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1196
+            country_event = annex.1197
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SINGAPORE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1196
+            country_event = annex.1197
         }
         ai_will_do = { factor = 100 }
     }
@@ -4762,12 +4799,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NORTH_BORNEO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1197
+            country_event = annex.1198
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NORTH_BORNEO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1197
+            country_event = annex.1198
         }
         ai_will_do = { factor = 100 }
     }
@@ -4786,12 +4823,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ACEH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1198
+            country_event = annex.1199
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ACEH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1198
+            country_event = annex.1199
         }
         ai_will_do = { factor = 100 }
     }
@@ -4810,12 +4847,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_TIMOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1199
+            country_event = annex.1200
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_TIMOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1199
+            country_event = annex.1200
         }
         ai_will_do = { factor = 100 }
     }
@@ -4834,12 +4871,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_TIMOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1200
+            country_event = annex.1201
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_TIMOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1200
+            country_event = annex.1201
         }
         ai_will_do = { factor = 100 }
     }
@@ -4853,17 +4890,24 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
+            478 = { is_valid_annexation_state = no }
             500 = { is_valid_annexation_state = no }
+            508 = { is_valid_annexation_state = no }
+            523 = { is_valid_annexation_state = no }
+            538 = { is_valid_annexation_state = no }
+            543 = { is_valid_annexation_state = no }
+            545 = { is_valid_annexation_state = no }
+            548 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHINA_PORT_CITIES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1201
+            country_event = annex.1202
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHINA_PORT_CITIES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1201
+            country_event = annex.1202
         }
         ai_will_do = { factor = 100 }
     }
@@ -4882,12 +4926,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ASM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1202
+            country_event = annex.1203
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ASM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1202
+            country_event = annex.1203
         }
         ai_will_do = { factor = 100 }
     }
@@ -4906,12 +4950,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1203
+            country_event = annex.1204
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1203
+            country_event = annex.1204
         }
         ai_will_do = { factor = 100 }
     }
@@ -4930,12 +4974,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BHU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1204
+            country_event = annex.1205
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BHU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1204
+            country_event = annex.1205
         }
         ai_will_do = { factor = 100 }
     }
@@ -4954,12 +4998,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1205
+            country_event = annex.1206
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1205
+            country_event = annex.1206
         }
         ai_will_do = { factor = 100 }
     }
@@ -4978,12 +5022,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DRS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1206
+            country_event = annex.1207
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DRS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1206
+            country_event = annex.1207
         }
         ai_will_do = { factor = 100 }
     }
@@ -5002,12 +5046,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CEY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1207
+            country_event = annex.1208
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CEY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1207
+            country_event = annex.1208
         }
         ai_will_do = { factor = 100 }
     }
@@ -5026,12 +5070,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GUJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1208
+            country_event = annex.1209
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GUJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1208
+            country_event = annex.1209
         }
         ai_will_do = { factor = 100 }
     }
@@ -5050,12 +5094,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HYD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1209
+            country_event = annex.1210
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HYD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1209
+            country_event = annex.1210
         }
         ai_will_do = { factor = 100 }
     }
@@ -5074,12 +5118,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1210
+            country_event = annex.1211
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IND_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1210
+            country_event = annex.1211
         }
         ai_will_do = { factor = 100 }
     }
@@ -5098,12 +5142,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KAS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1211
+            country_event = annex.1212
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KAS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1211
+            country_event = annex.1212
         }
         ai_will_do = { factor = 100 }
     }
@@ -5122,12 +5166,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MDR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1212
+            country_event = annex.1213
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MDR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1212
+            country_event = annex.1213
         }
         ai_will_do = { factor = 100 }
     }
@@ -5146,12 +5190,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MLD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1213
+            country_event = annex.1214
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MLD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1213
+            country_event = annex.1214
         }
         ai_will_do = { factor = 100 }
     }
@@ -5170,12 +5214,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MYS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1214
+            country_event = annex.1215
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MYS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1214
+            country_event = annex.1215
         }
         ai_will_do = { factor = 100 }
     }
@@ -5194,12 +5238,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NEP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1215
+            country_event = annex.1216
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NEP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1215
+            country_event = annex.1216
         }
         ai_will_do = { factor = 100 }
     }
@@ -5218,12 +5262,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ORI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1216
+            country_event = annex.1217
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ORI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1216
+            country_event = annex.1217
         }
         ai_will_do = { factor = 100 }
     }
@@ -5242,12 +5286,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PAK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1217
+            country_event = annex.1218
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PAK_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1217
+            country_event = annex.1218
         }
         ai_will_do = { factor = 100 }
     }
@@ -5266,12 +5310,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PUN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1218
+            country_event = annex.1219
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PUN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1218
+            country_event = annex.1219
         }
         ai_will_do = { factor = 100 }
     }
@@ -5290,12 +5334,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RAJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1219
+            country_event = annex.1220
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RAJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1219
+            country_event = annex.1220
         }
         ai_will_do = { factor = 100 }
     }
@@ -5314,12 +5358,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RJH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1220
+            country_event = annex.1221
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RJH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1220
+            country_event = annex.1221
         }
         ai_will_do = { factor = 100 }
     }
@@ -5338,12 +5382,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRV_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1221
+            country_event = annex.1222
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRV_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1221
+            country_event = annex.1222
         }
         ai_will_do = { factor = 100 }
     }
@@ -5362,12 +5406,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_BENGAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1222
+            country_event = annex.1223
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_BENGAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1222
+            country_event = annex.1223
         }
         ai_will_do = { factor = 100 }
     }
@@ -5386,12 +5430,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DARJEELING_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1223
+            country_event = annex.1224
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DARJEELING_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1223
+            country_event = annex.1224
         }
         ai_will_do = { factor = 100 }
     }
@@ -5410,12 +5454,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KUMAON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1224
+            country_event = annex.1225
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KUMAON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1224
+            country_event = annex.1225
         }
         ai_will_do = { factor = 100 }
     }
@@ -5434,12 +5478,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_PUBJAB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1225
+            country_event = annex.1226
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_PUBJAB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1225
+            country_event = annex.1226
         }
         ai_will_do = { factor = 100 }
     }
@@ -5458,12 +5502,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PESHAWAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1226
+            country_event = annex.1227
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PESHAWAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1226
+            country_event = annex.1227
         }
         ai_will_do = { factor = 100 }
     }
@@ -5482,12 +5526,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KALAT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1227
+            country_event = annex.1228
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KALAT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1227
+            country_event = annex.1228
         }
         ai_will_do = { factor = 100 }
     }
@@ -5506,12 +5550,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SINDH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1228
+            country_event = annex.1229
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SINDH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1228
+            country_event = annex.1229
         }
         ai_will_do = { factor = 100 }
     }
@@ -5530,12 +5574,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GWALIOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1229
+            country_event = annex.1230
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GWALIOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1229
+            country_event = annex.1230
         }
         ai_will_do = { factor = 100 }
     }
@@ -5554,12 +5598,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_JAIPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1230
+            country_event = annex.1231
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JAIPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1230
+            country_event = annex.1231
         }
         ai_will_do = { factor = 100 }
     }
@@ -5578,12 +5622,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAGAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1231
+            country_event = annex.1232
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAGAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1231
+            country_event = annex.1232
         }
         ai_will_do = { factor = 100 }
     }
@@ -5602,12 +5646,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CENTRAL_PROVINCES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1232
+            country_event = annex.1233
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CENTRAL_PROVINCES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1232
+            country_event = annex.1233
         }
         ai_will_do = { factor = 100 }
     }
@@ -5626,12 +5670,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RAIPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1233
+            country_event = annex.1234
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RAIPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1233
+            country_event = annex.1234
         }
         ai_will_do = { factor = 100 }
     }
@@ -5650,12 +5694,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_COASTAL_ANDHRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1234
+            country_event = annex.1235
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COASTAL_ANDHRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1234
+            country_event = annex.1235
         }
         ai_will_do = { factor = 100 }
     }
@@ -5674,12 +5718,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BOMBAY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1235
+            country_event = annex.1236
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOMBAY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1235
+            country_event = annex.1236
         }
         ai_will_do = { factor = 100 }
     }
@@ -5698,12 +5742,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KOLHAPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1236
+            country_event = annex.1237
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KOLHAPUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1236
+            country_event = annex.1237
         }
         ai_will_do = { factor = 100 }
     }
@@ -5722,12 +5766,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GOA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1237
+            country_event = annex.1238
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GOA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1237
+            country_event = annex.1238
         }
         ai_will_do = { factor = 100 }
     }
@@ -5746,12 +5790,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ANDHRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1238
+            country_event = annex.1239
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ANDHRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1238
+            country_event = annex.1239
         }
         ai_will_do = { factor = 100 }
     }
@@ -5770,12 +5814,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PONDICHERRY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1239
+            country_event = annex.1240
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PONDICHERRY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1239
+            country_event = annex.1240
         }
         ai_will_do = { factor = 100 }
     }
@@ -5794,12 +5838,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ANDAMAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1240
+            country_event = annex.1241
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ANDAMAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1240
+            country_event = annex.1241
         }
         ai_will_do = { factor = 100 }
     }
@@ -5818,17 +5862,17 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AFG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1241
+            country_event = annex.1242
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AFG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1241
+            country_event = annex.1242
         }
         ai_will_do = { factor = 100 }
     }
     # Hejaz
-    annexation_ARB_CONQ = {
+    annexation_HEJ_CONQ = {
         icon = generic_form_nation
         selectable_mission = yes
         days_mission_timeout = @annexation_days_mission_timeout
@@ -5840,14 +5884,14 @@ annexation_decisions = {
             763 = { is_valid_annexation_state = no }
         }
         complete_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ARB_CONQ"
+            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HEJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1242
+            country_event = annex.1243
         }
         timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARB_CONQ"
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HEJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1242
+            country_event = annex.1243
         }
         ai_will_do = { factor = 100 }
     }
@@ -5866,12 +5910,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ARM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1243
+            country_event = annex.1244
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1243
+            country_event = annex.1244
         }
         ai_will_do = { factor = 100 }
     }
@@ -5890,12 +5934,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AZR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1244
+            country_event = annex.1245
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AZR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1244
+            country_event = annex.1245
         }
         ai_will_do = { factor = 100 }
     }
@@ -5914,12 +5958,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1245
+            country_event = annex.1246
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1245
+            country_event = annex.1246
         }
         ai_will_do = { factor = 100 }
     }
@@ -5938,12 +5982,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CYP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1246
+            country_event = annex.1247
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CYP_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1246
+            country_event = annex.1247
         }
         ai_will_do = { factor = 100 }
     }
@@ -5962,12 +6006,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DAG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1247
+            country_event = annex.1248
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DAG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1247
+            country_event = annex.1248
         }
         ai_will_do = { factor = 100 }
     }
@@ -5986,12 +6030,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GEO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1248
+            country_event = annex.1249
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GEO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1248
+            country_event = annex.1249
         }
         ai_will_do = { factor = 100 }
     }
@@ -6010,12 +6054,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IRQ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1249
+            country_event = annex.1250
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRQ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1249
+            country_event = annex.1250
         }
         ai_will_do = { factor = 100 }
     }
@@ -6034,12 +6078,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_JOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1250
+            country_event = annex.1251
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1250
+            country_event = annex.1251
         }
         ai_will_do = { factor = 100 }
     }
@@ -6058,12 +6102,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1251
+            country_event = annex.1252
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1251
+            country_event = annex.1252
         }
         ai_will_do = { factor = 100 }
     }
@@ -6082,12 +6126,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KUW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1252
+            country_event = annex.1253
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KUW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1252
+            country_event = annex.1253
         }
         ai_will_do = { factor = 100 }
     }
@@ -6106,12 +6150,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LEB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1253
+            country_event = annex.1254
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LEB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1253
+            country_event = annex.1254
         }
         ai_will_do = { factor = 100 }
     }
@@ -6130,12 +6174,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MHR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1254
+            country_event = annex.1255
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MHR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1254
+            country_event = annex.1255
         }
         ai_will_do = { factor = 100 }
     }
@@ -6154,12 +6198,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MUS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1255
+            country_event = annex.1256
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MUS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1255
+            country_event = annex.1256
         }
         ai_will_do = { factor = 100 }
     }
@@ -6178,12 +6222,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_OMA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1256
+            country_event = annex.1257
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_OMA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1256
+            country_event = annex.1257
         }
         ai_will_do = { factor = 100 }
     }
@@ -6202,12 +6246,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PER_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1257
+            country_event = annex.1258
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PER_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1257
+            country_event = annex.1258
         }
         ai_will_do = { factor = 100 }
     }
@@ -6226,12 +6270,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_QAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1258
+            country_event = annex.1259
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_QAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1258
+            country_event = annex.1259
         }
         ai_will_do = { factor = 100 }
     }
@@ -6250,12 +6294,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1259
+            country_event = annex.1260
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SYR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1259
+            country_event = annex.1260
         }
         ai_will_do = { factor = 100 }
     }
@@ -6274,12 +6318,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1260
+            country_event = annex.1261
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1260
+            country_event = annex.1261
         }
         ai_will_do = { factor = 100 }
     }
@@ -6298,12 +6342,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1261
+            country_event = annex.1262
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1261
+            country_event = annex.1262
         }
         ai_will_do = { factor = 100 }
     }
@@ -6322,12 +6366,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_YEM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1262
+            country_event = annex.1263
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_YEM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1262
+            country_event = annex.1263
         }
         ai_will_do = { factor = 100 }
     }
@@ -6346,12 +6390,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MUGLA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1263
+            country_event = annex.1264
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MUGLA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1263
+            country_event = annex.1264
         }
         ai_will_do = { factor = 100 }
     }
@@ -6370,12 +6414,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ARABIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1264
+            country_event = annex.1265
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARABIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1264
+            country_event = annex.1265
         }
         ai_will_do = { factor = 100 }
     }
@@ -6394,12 +6438,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KANDAHAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1265
+            country_event = annex.1266
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KANDAHAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1265
+            country_event = annex.1266
         }
         ai_will_do = { factor = 100 }
     }
@@ -6418,12 +6462,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IRANIAN_AZERBAIJAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1266
+            country_event = annex.1267
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IRANIAN_AZERBAIJAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1266
+            country_event = annex.1267
         }
         ai_will_do = { factor = 100 }
     }
@@ -6442,12 +6486,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_WEST_AZERBAIJAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1267
+            country_event = annex.1268
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_WEST_AZERBAIJAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1267
+            country_event = annex.1268
         }
         ai_will_do = { factor = 100 }
     }
@@ -6466,12 +6510,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KARABAKH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1268
+            country_event = annex.1269
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KARABAKH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1268
+            country_event = annex.1269
         }
         ai_will_do = { factor = 100 }
     }
@@ -6490,12 +6534,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ZAGATALA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1269
+            country_event = annex.1270
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ZAGATALA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1269
+            country_event = annex.1270
         }
         ai_will_do = { factor = 100 }
     }
@@ -6514,12 +6558,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ABKHAZIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1270
+            country_event = annex.1271
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ABKHAZIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1270
+            country_event = annex.1271
         }
         ai_will_do = { factor = 100 }
     }
@@ -6538,12 +6582,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BURSA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1271
+            country_event = annex.1272
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BURSA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1271
+            country_event = annex.1272
         }
         ai_will_do = { factor = 100 }
     }
@@ -6562,12 +6606,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SMYRNA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1272
+            country_event = annex.1273
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SMYRNA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1272
+            country_event = annex.1273
         }
         ai_will_do = { factor = 100 }
     }
@@ -6586,12 +6630,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MARASH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1273
+            country_event = annex.1274
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MARASH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1273
+            country_event = annex.1274
         }
         ai_will_do = { factor = 100 }
     }
@@ -6610,12 +6654,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LAZISTAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1274
+            country_event = annex.1275
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LAZISTAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1274
+            country_event = annex.1275
         }
         ai_will_do = { factor = 100 }
     }
@@ -6634,12 +6678,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ERZINCAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1275
+            country_event = annex.1276
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ERZINCAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1275
+            country_event = annex.1276
         }
         ai_will_do = { factor = 100 }
     }
@@ -6658,12 +6702,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1276
+            country_event = annex.1277
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1276
+            country_event = annex.1277
         }
         ai_will_do = { factor = 100 }
     }
@@ -6682,12 +6726,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KARS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1277
+            country_event = annex.1278
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KARS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1277
+            country_event = annex.1278
         }
         ai_will_do = { factor = 100 }
     }
@@ -6706,12 +6750,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AL_HASAKEH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1278
+            country_event = annex.1279
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AL_HASAKEH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1278
+            country_event = annex.1279
         }
         ai_will_do = { factor = 100 }
     }
@@ -6730,12 +6774,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOSUL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1279
+            country_event = annex.1280
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOSUL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1279
+            country_event = annex.1280
         }
         ai_will_do = { factor = 100 }
     }
@@ -6754,12 +6798,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KERMANSHAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1280
+            country_event = annex.1281
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KERMANSHAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1280
+            country_event = annex.1281
         }
         ai_will_do = { factor = 100 }
     }
@@ -6778,12 +6822,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PALESTINE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1281
+            country_event = annex.1282
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PALESTINE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1281
+            country_event = annex.1282
         }
         ai_will_do = { factor = 100 }
     }
@@ -6802,12 +6846,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ASIR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1282
+            country_event = annex.1283
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ASIR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1282
+            country_event = annex.1283
         }
         ai_will_do = { factor = 100 }
     }
@@ -6826,12 +6870,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOUTH_YEMEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1283
+            country_event = annex.1284
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOUTH_YEMEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1283
+            country_event = annex.1284
         }
         ai_will_do = { factor = 100 }
     }
@@ -6850,12 +6894,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUEZ_CANAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1284
+            country_event = annex.1285
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUEZ_CANAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1284
+            country_event = annex.1285
         }
         ai_will_do = { factor = 100 }
     }
@@ -6874,12 +6918,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SINAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1285
+            country_event = annex.1286
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SINAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1285
+            country_event = annex.1286
         }
         ai_will_do = { factor = 100 }
     }
@@ -6898,12 +6942,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1286
+            country_event = annex.1287
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1286
+            country_event = annex.1287
         }
         ai_will_do = { factor = 100 }
     }
@@ -6922,12 +6966,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EGY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1287
+            country_event = annex.1288
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EGY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1287
+            country_event = annex.1288
         }
         ai_will_do = { factor = 100 }
     }
@@ -6946,12 +6990,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LBA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1288
+            country_event = annex.1289
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LBA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1288
+            country_event = annex.1289
         }
         ai_will_do = { factor = 100 }
     }
@@ -6965,17 +7009,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            8112 = { is_valid_annexation_state = no }
+            812 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1289
+            country_event = annex.1290
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1289
+            country_event = annex.1290
         }
         ai_will_do = { factor = 100 }
     }
@@ -6994,12 +7038,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MRT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1290
+            country_event = annex.1291
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MRT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1290
+            country_event = annex.1291
         }
         ai_will_do = { factor = 100 }
     }
@@ -7018,12 +7062,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1291
+            country_event = annex.1292
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1291
+            country_event = annex.1292
         }
         ai_will_do = { factor = 100 }
     }
@@ -7042,12 +7086,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TUN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1292
+            country_event = annex.1293
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TUN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1292
+            country_event = annex.1293
         }
         ai_will_do = { factor = 100 }
     }
@@ -7066,12 +7110,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ADA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1293
+            country_event = annex.1294
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ADA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1293
+            country_event = annex.1294
         }
         ai_will_do = { factor = 100 }
     }
@@ -7090,12 +7134,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AFR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1294
+            country_event = annex.1295
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AFR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1294
+            country_event = annex.1295
         }
         ai_will_do = { factor = 100 }
     }
@@ -7114,12 +7158,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AIR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1295
+            country_event = annex.1296
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AIR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1295
+            country_event = annex.1296
         }
         ai_will_do = { factor = 100 }
     }
@@ -7138,12 +7182,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ANG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1296
+            country_event = annex.1297
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ANG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1296
+            country_event = annex.1297
         }
         ai_will_do = { factor = 100 }
     }
@@ -7162,12 +7206,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1297
+            country_event = annex.1298
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1297
+            country_event = annex.1298
         }
         ai_will_do = { factor = 100 }
     }
@@ -7186,12 +7230,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1298
+            country_event = annex.1299
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1298
+            country_event = annex.1299
         }
         ai_will_do = { factor = 100 }
     }
@@ -7210,12 +7254,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BOT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1299
+            country_event = annex.1300
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOT_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1299
+            country_event = annex.1300
         }
         ai_will_do = { factor = 100 }
     }
@@ -7234,12 +7278,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BRD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1300
+            country_event = annex.1301
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1300
+            country_event = annex.1301
         }
         ai_will_do = { factor = 100 }
     }
@@ -7258,12 +7302,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BSL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1301
+            country_event = annex.1302
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BSL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1301
+            country_event = annex.1302
         }
         ai_will_do = { factor = 100 }
     }
@@ -7277,17 +7321,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            865 = { is_valid_annexation_state = no }
+            832 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1302
+            country_event = annex.1303
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1302
+            country_event = annex.1303
         }
         ai_will_do = { factor = 100 }
     }
@@ -7301,17 +7345,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            832 = { is_valid_annexation_state = no }
+            862 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CMR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1303
+            country_event = annex.1304
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CMR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1303
+            country_event = annex.1304
         }
         ai_will_do = { factor = 100 }
     }
@@ -7330,12 +7374,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_COG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1304
+            country_event = annex.1305
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1304
+            country_event = annex.1305
         }
         ai_will_do = { factor = 100 }
     }
@@ -7349,17 +7393,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            841 = { is_valid_annexation_state = no }
+            840 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1305
+            country_event = annex.1306
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DAH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1305
+            country_event = annex.1306
         }
         ai_will_do = { factor = 100 }
     }
@@ -7378,12 +7422,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ERI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1306
+            country_event = annex.1307
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ERI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1306
+            country_event = annex.1307
         }
         ai_will_do = { factor = 100 }
     }
@@ -7402,12 +7446,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ETH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1307
+            country_event = annex.1308
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ETH_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1307
+            country_event = annex.1308
         }
         ai_will_do = { factor = 100 }
     }
@@ -7426,12 +7470,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GAB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1308
+            country_event = annex.1309
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GAB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1308
+            country_event = annex.1309
         }
         ai_will_do = { factor = 100 }
     }
@@ -7450,12 +7494,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1309
+            country_event = annex.1310
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1309
+            country_event = annex.1310
         }
         ai_will_do = { factor = 100 }
     }
@@ -7474,12 +7518,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GHA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1310
+            country_event = annex.1311
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GHA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1310
+            country_event = annex.1311
         }
         ai_will_do = { factor = 100 }
     }
@@ -7498,12 +7542,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GNA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1311
+            country_event = annex.1312
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GNA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1311
+            country_event = annex.1312
         }
         ai_will_do = { factor = 100 }
     }
@@ -7522,12 +7566,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HAU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1312
+            country_event = annex.1313
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HAU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1312
+            country_event = annex.1313
         }
         ai_will_do = { factor = 100 }
     }
@@ -7546,12 +7590,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_IVO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1313
+            country_event = annex.1314
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_IVO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1313
+            country_event = annex.1314
         }
         ai_will_do = { factor = 100 }
     }
@@ -7570,12 +7614,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_KEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1314
+            country_event = annex.1315
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_KEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1314
+            country_event = annex.1315
         }
         ai_will_do = { factor = 100 }
     }
@@ -7594,12 +7638,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1315
+            country_event = annex.1316
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1315
+            country_event = annex.1316
         }
         ai_will_do = { factor = 100 }
     }
@@ -7618,12 +7662,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_LIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1316
+            country_event = annex.1317
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_LIB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1316
+            country_event = annex.1317
         }
         ai_will_do = { factor = 100 }
     }
@@ -7642,12 +7686,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MAD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1317
+            country_event = annex.1318
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MAD_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1317
+            country_event = annex.1318
         }
         ai_will_do = { factor = 100 }
     }
@@ -7666,12 +7710,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MLI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1318
+            country_event = annex.1319
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MLI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1318
+            country_event = annex.1319
         }
         ai_will_do = { factor = 100 }
     }
@@ -7690,12 +7734,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MLW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1319
+            country_event = annex.1320
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MLW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1319
+            country_event = annex.1320
         }
         ai_will_do = { factor = 100 }
     }
@@ -7714,12 +7758,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MZB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1320
+            country_event = annex.1321
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MZB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1320
+            country_event = annex.1321
         }
         ai_will_do = { factor = 100 }
     }
@@ -7738,12 +7782,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1321
+            country_event = annex.1322
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1321
+            country_event = annex.1322
         }
         ai_will_do = { factor = 100 }
     }
@@ -7762,12 +7806,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NGR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1322
+            country_event = annex.1323
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NGR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1322
+            country_event = annex.1323
         }
         ai_will_do = { factor = 100 }
     }
@@ -7786,12 +7830,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NMB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1323
+            country_event = annex.1324
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NMB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1323
+            country_event = annex.1324
         }
         ai_will_do = { factor = 100 }
     }
@@ -7810,12 +7854,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_OBG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1324
+            country_event = annex.1325
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_OBG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1324
+            country_event = annex.1325
         }
         ai_will_do = { factor = 100 }
     }
@@ -7834,12 +7878,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RHO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1325
+            country_event = annex.1326
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RHO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1325
+            country_event = annex.1326
         }
         ai_will_do = { factor = 100 }
     }
@@ -7858,12 +7902,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_RWA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1326
+            country_event = annex.1327
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_RWA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1326
+            country_event = annex.1327
         }
         ai_will_do = { factor = 100 }
     }
@@ -7882,12 +7926,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SAF_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1327
+            country_event = annex.1328
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SAF_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1327
+            country_event = annex.1328
         }
         ai_will_do = { factor = 100 }
     }
@@ -7906,12 +7950,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1328
+            country_event = annex.1329
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1328
+            country_event = annex.1329
         }
         ai_will_do = { factor = 100 }
     }
@@ -7930,12 +7974,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SIE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1329
+            country_event = annex.1330
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SIE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1329
+            country_event = annex.1330
         }
         ai_will_do = { factor = 100 }
     }
@@ -7954,12 +7998,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1330
+            country_event = annex.1331
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1330
+            country_event = annex.1331
         }
         ai_will_do = { factor = 100 }
     }
@@ -7978,12 +8022,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SWA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1331
+            country_event = annex.1332
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SWA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1331
+            country_event = annex.1332
         }
         ai_will_do = { factor = 100 }
     }
@@ -8002,12 +8046,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TGN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1332
+            country_event = annex.1333
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TGN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1332
+            country_event = annex.1333
         }
         ai_will_do = { factor = 100 }
     }
@@ -8026,12 +8070,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TOG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1333
+            country_event = annex.1334
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TOG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1333
+            country_event = annex.1334
         }
         ai_will_do = { factor = 100 }
     }
@@ -8050,12 +8094,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1334
+            country_event = annex.1335
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UGA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1334
+            country_event = annex.1335
         }
         ai_will_do = { factor = 100 }
     }
@@ -8074,12 +8118,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_YOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1335
+            country_event = annex.1336
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_YOR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1335
+            country_event = annex.1336
         }
         ai_will_do = { factor = 100 }
     }
@@ -8093,17 +8137,17 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            841 = { is_valid_annexation_state = no }
+            906 = { is_valid_annexation_state = no }
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ZAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1336
+            country_event = annex.1337
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ZAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1336
+            country_event = annex.1337
         }
         ai_will_do = { factor = 100 }
     }
@@ -8122,12 +8166,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ZAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1337
+            country_event = annex.1338
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ZAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1337
+            country_event = annex.1338
         }
         ai_will_do = { factor = 100 }
     }
@@ -8146,12 +8190,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ZIM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1338
+            country_event = annex.1339
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ZIM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1338
+            country_event = annex.1339
         }
         ai_will_do = { factor = 100 }
     }
@@ -8170,12 +8214,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DJIBOUTI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1339
+            country_event = annex.1340
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DJIBOUTI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1339
+            country_event = annex.1340
         }
         ai_will_do = { factor = 100 }
     }
@@ -8194,12 +8238,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TIGRAY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1340
+            country_event = annex.1341
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TIGRAY_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1340
+            country_event = annex.1341
         }
         ai_will_do = { factor = 100 }
     }
@@ -8218,12 +8262,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_OGADEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1341
+            country_event = annex.1342
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_OGADEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1341
+            country_event = annex.1342
         }
         ai_will_do = { factor = 100 }
     }
@@ -8242,12 +8286,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SPANISH_GUINEA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1342
+            country_event = annex.1343
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SPANISH_GUINEA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1342
+            country_event = annex.1343
         }
         ai_will_do = { factor = 100 }
     }
@@ -8266,12 +8310,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GABON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1343
+            country_event = annex.1344
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GABON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1343
+            country_event = annex.1344
         }
         ai_will_do = { factor = 100 }
     }
@@ -8290,12 +8334,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FRENCH_CONGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1344
+            country_event = annex.1345
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FRENCH_CONGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1344
+            country_event = annex.1345
         }
         ai_will_do = { factor = 100 }
     }
@@ -8314,12 +8358,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_UBANGI_CONGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1345
+            country_event = annex.1346
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_UBANGI_CONGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1345
+            country_event = annex.1346
         }
         ai_will_do = { factor = 100 }
     }
@@ -8338,12 +8382,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MOMBASA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1346
+            country_event = annex.1347
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MOMBASA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1346
+            country_event = annex.1347
         }
         ai_will_do = { factor = 100 }
     }
@@ -8362,12 +8406,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DAR_ES_SALAAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1347
+            country_event = annex.1348
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DAR_ES_SALAAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1347
+            country_event = annex.1348
         }
         ai_will_do = { factor = 100 }
     }
@@ -8386,12 +8430,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOLWEZI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1348
+            country_event = annex.1349
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOLWEZI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1348
+            country_event = annex.1349
         }
         ai_will_do = { factor = 100 }
     }
@@ -8410,12 +8454,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NORTHERN_ZAMBEZIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1349
+            country_event = annex.1350
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NORTHERN_ZAMBEZIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1349
+            country_event = annex.1350
         }
         ai_will_do = { factor = 100 }
     }
@@ -8434,12 +8478,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CAPRIVI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1350
+            country_event = annex.1351
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAPRIVI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1350
+            country_event = annex.1351
         }
         ai_will_do = { factor = 100 }
     }
@@ -8458,12 +8502,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CAPE_VERDE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1351
+            country_event = annex.1352
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAPE_VERDE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1351
+            country_event = annex.1352
         }
         ai_will_do = { factor = 100 }
     }
@@ -8482,12 +8526,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DIEGO_GARCIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1352
+            country_event = annex.1353
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DIEGO_GARCIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1352
+            country_event = annex.1353
         }
         ai_will_do = { factor = 100 }
     }
@@ -8506,12 +8550,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1353
+            country_event = annex.1354
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1353
+            country_event = annex.1354
         }
         ai_will_do = { factor = 100 }
     }
@@ -8530,12 +8574,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NFL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1354
+            country_event = annex.1355
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NFL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1354
+            country_event = annex.1355
         }
         ai_will_do = { factor = 100 }
     }
@@ -8554,12 +8598,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_QUE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1355
+            country_event = annex.1356
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_QUE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1355
+            country_event = annex.1356
         }
         ai_will_do = { factor = 100 }
     }
@@ -8578,12 +8622,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_USA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1356
+            country_event = annex.1357
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_USA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1356
+            country_event = annex.1357
         }
         ai_will_do = { factor = 100 }
     }
@@ -8602,12 +8646,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PIERRE_MIQUELON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1357
+            country_event = annex.1358
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PIERRE_MIQUELON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1357
+            country_event = annex.1358
         }
         ai_will_do = { factor = 100 }
     }
@@ -8626,12 +8670,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ALASKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1358
+            country_event = annex.1359
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ALASKA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1358
+            country_event = annex.1359
         }
         ai_will_do = { factor = 100 }
     }
@@ -8650,12 +8694,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_COS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1359
+            country_event = annex.1360
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1359
+            country_event = annex.1360
         }
         ai_will_do = { factor = 100 }
     }
@@ -8674,12 +8718,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1360
+            country_event = annex.1361
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1360
+            country_event = annex.1361
         }
         ai_will_do = { factor = 100 }
     }
@@ -8698,12 +8742,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ELS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1361
+            country_event = annex.1362
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ELS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1361
+            country_event = annex.1362
         }
         ai_will_do = { factor = 100 }
     }
@@ -8722,12 +8766,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GUA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1362
+            country_event = annex.1363
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GUA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1362
+            country_event = annex.1363
         }
         ai_will_do = { factor = 100 }
     }
@@ -8746,12 +8790,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1363
+            country_event = annex.1364
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HON_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1363
+            country_event = annex.1364
         }
         ai_will_do = { factor = 100 }
     }
@@ -8770,12 +8814,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MEX_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1364
+            country_event = annex.1365
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MEX_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1364
+            country_event = annex.1365
         }
         ai_will_do = { factor = 100 }
     }
@@ -8794,12 +8838,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NIC_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1365
+            country_event = annex.1366
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NIC_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1365
+            country_event = annex.1366
         }
         ai_will_do = { factor = 100 }
     }
@@ -8818,12 +8862,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1366
+            country_event = annex.1367
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PAN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1366
+            country_event = annex.1367
         }
         ai_will_do = { factor = 100 }
     }
@@ -8842,12 +8886,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PANAMA_CANAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1367
+            country_event = annex.1368
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PANAMA_CANAL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1367
+            country_event = annex.1368
         }
         ai_will_do = { factor = 100 }
     }
@@ -8866,12 +8910,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ARG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1368
+            country_event = annex.1369
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1368
+            country_event = annex.1369
         }
         ai_will_do = { factor = 100 }
     }
@@ -8890,12 +8934,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BOL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1369
+            country_event = annex.1370
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BOL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1369
+            country_event = annex.1370
         }
         ai_will_do = { factor = 100 }
     }
@@ -8914,12 +8958,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_BRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1370
+            country_event = annex.1371
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_BRA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1370
+            country_event = annex.1371
         }
         ai_will_do = { factor = 100 }
     }
@@ -8938,12 +8982,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1371
+            country_event = annex.1372
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CHL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1371
+            country_event = annex.1372
         }
         ai_will_do = { factor = 100 }
     }
@@ -8962,12 +9006,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_COL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1372
+            country_event = annex.1373
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_COL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1372
+            country_event = annex.1373
         }
         ai_will_do = { factor = 100 }
     }
@@ -8986,12 +9030,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ECU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1373
+            country_event = annex.1374
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ECU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1373
+            country_event = annex.1374
         }
         ai_will_do = { factor = 100 }
     }
@@ -9010,12 +9054,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1374
+            country_event = annex.1375
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PAR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1374
+            country_event = annex.1375
         }
         ai_will_do = { factor = 100 }
     }
@@ -9034,12 +9078,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1375
+            country_event = annex.1376
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PRU_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1375
+            country_event = annex.1376
         }
         ai_will_do = { factor = 100 }
     }
@@ -9058,12 +9102,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_URG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1376
+            country_event = annex.1377
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_URG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1376
+            country_event = annex.1377
         }
         ai_will_do = { factor = 100 }
     }
@@ -9082,12 +9126,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_VEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1377
+            country_event = annex.1378
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_VEN_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1377
+            country_event = annex.1378
         }
         ai_will_do = { factor = 100 }
     }
@@ -9106,12 +9150,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PASTAZA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1378
+            country_event = annex.1379
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PASTAZA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1378
+            country_event = annex.1379
         }
         ai_will_do = { factor = 100 }
     }
@@ -9130,12 +9174,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GALAPAGOS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1379
+            country_event = annex.1380
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GALAPAGOS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1379
+            country_event = annex.1380
         }
         ai_will_do = { factor = 100 }
     }
@@ -9154,12 +9198,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SANTA_CRUZ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1380
+            country_event = annex.1381
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SANTA_CRUZ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1380
+            country_event = annex.1381
         }
         ai_will_do = { factor = 100 }
     }
@@ -9178,12 +9222,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TARIJA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1381
+            country_event = annex.1382
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TARIJA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1381
+            country_event = annex.1382
         }
         ai_will_do = { factor = 100 }
     }
@@ -9202,12 +9246,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ARICA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1382
+            country_event = annex.1383
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ARICA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1382
+            country_event = annex.1383
         }
         ai_will_do = { factor = 100 }
     }
@@ -9226,12 +9270,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TARAPACA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1383
+            country_event = annex.1384
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TARAPACA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1383
+            country_event = annex.1384
         }
         ai_will_do = { factor = 100 }
     }
@@ -9250,12 +9294,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FORMOSA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1384
+            country_event = annex.1385
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FORMOSA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1384
+            country_event = annex.1385
         }
         ai_will_do = { factor = 100 }
     }
@@ -9274,12 +9318,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MISIONES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1385
+            country_event = annex.1386
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MISIONES_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1385
+            country_event = annex.1386
         }
         ai_will_do = { factor = 100 }
     }
@@ -9298,12 +9342,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TIERRA_DEL_FUEGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1386
+            country_event = annex.1387
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TIERRA_DEL_FUEGO_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1386
+            country_event = annex.1387
         }
         ai_will_do = { factor = 100 }
     }
@@ -9322,12 +9366,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FALKLANDS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1387
+            country_event = annex.1388
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FALKLANDS_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1387
+            country_event = annex.1388
         }
         ai_will_do = { factor = 100 }
     }
@@ -9346,12 +9390,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SOUTH_GEORGIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1388
+            country_event = annex.1389
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SOUTH_GEORGIA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1388
+            country_event = annex.1389
         }
         ai_will_do = { factor = 100 }
     }
@@ -9370,12 +9414,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PONTA_PORA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1389
+            country_event = annex.1390
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PONTA_PORA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1389
+            country_event = annex.1390
         }
         ai_will_do = { factor = 100 }
     }
@@ -9394,12 +9438,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_ACRE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1390
+            country_event = annex.1391
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_ACRE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1390
+            country_event = annex.1391
         }
         ai_will_do = { factor = 100 }
     }
@@ -9418,12 +9462,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CUB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1391
+            country_event = annex.1392
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CUB_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1391
+            country_event = annex.1392
         }
         ai_will_do = { factor = 100 }
     }
@@ -9442,12 +9486,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_DOM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1392
+            country_event = annex.1393
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_DOM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1392
+            country_event = annex.1393
         }
         ai_will_do = { factor = 100 }
     }
@@ -9466,12 +9510,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_GYA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1393
+            country_event = annex.1394
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_GYA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1393
+            country_event = annex.1394
         }
         ai_will_do = { factor = 100 }
     }
@@ -9490,12 +9534,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_JAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1394
+            country_event = annex.1395
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_JAM_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1394
+            country_event = annex.1395
         }
         ai_will_do = { factor = 100 }
     }
@@ -9514,12 +9558,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1395
+            country_event = annex.1396
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HAI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1395
+            country_event = annex.1396
         }
         ai_will_do = { factor = 100 }
     }
@@ -9538,12 +9582,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PUE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1396
+            country_event = annex.1397
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PUE_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1396
+            country_event = annex.1397
         }
         ai_will_do = { factor = 100 }
     }
@@ -9562,12 +9606,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1397
+            country_event = annex.1398
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SUR_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1397
+            country_event = annex.1398
         }
         ai_will_do = { factor = 100 }
     }
@@ -9586,12 +9630,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_TRI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1398
+            country_event = annex.1399
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_TRI_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1398
+            country_event = annex.1399
         }
         ai_will_do = { factor = 100 }
     }
@@ -9610,12 +9654,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_EAST_GUYANA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1399
+            country_event = annex.1400
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_EAST_GUYANA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1399
+            country_event = annex.1400
         }
         ai_will_do = { factor = 100 }
     }
@@ -9634,34 +9678,10 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MABARUMA_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1400
-        }
-        timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MABARUMA_CONQ"
-            block_annexation_mission_selection = yes
-            country_event = annex.1400
-        }
-        ai_will_do = { factor = 100 }
-    }
-    # Caracas
-    annexation_CARACAS_CONQ = {
-        icon = generic_form_nation
-        selectable_mission = yes
-        days_mission_timeout = @annexation_days_mission_timeout
-        is_good = no
-        available = {
-            can_select_annexation_mission = yes
-        }
-        cancel_trigger = {
-            1132 = { is_valid_annexation_state = no }
-        }
-        complete_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CARACAS_CONQ"
-            block_annexation_mission_selection = yes
             country_event = annex.1401
         }
         timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_CARACAS_CONQ"
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MABARUMA_CONQ"
             block_annexation_mission_selection = yes
             country_event = annex.1401
         }
@@ -9682,12 +9702,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AST_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1402
+            country_event = annex.1403
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AST_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1402
+            country_event = annex.1403
         }
         ai_will_do = { factor = 100 }
     }
@@ -9706,12 +9726,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_NZL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1403
+            country_event = annex.1404
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_NZL_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1403
+            country_event = annex.1404
         }
         ai_will_do = { factor = 100 }
     }
@@ -9730,12 +9750,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_FIJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1404
+            country_event = annex.1405
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_FIJ_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1404
+            country_event = annex.1405
         }
         ai_will_do = { factor = 100 }
     }
@@ -9754,12 +9774,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_SSF_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1405
+            country_event = annex.1406
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_SSF_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1405
+            country_event = annex.1406
         }
         ai_will_do = { factor = 100 }
     }
@@ -9778,12 +9798,12 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_HAW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1406
+            country_event = annex.1407
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_HAW_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1406
+            country_event = annex.1407
         }
         ai_will_do = { factor = 100 }
     }
@@ -9802,15 +9822,14 @@ annexation_decisions = {
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_PNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1407
+            country_event = annex.1408
         }
         timeout_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_PNG_CONQ"
             block_annexation_mission_selection = yes
-            country_event = annex.1407
+            country_event = annex.1408
         }
         ai_will_do = { factor = 100 }
     }
-
 }
 

@@ -30,6 +30,7 @@ if = {
 }
 
 create_faction = eurospakt
+add_to_faction = HOL
 
 set_popularities = {
 	authoritarian_socialist = 7
@@ -43,6 +44,7 @@ set_popularities = {
 add_coalition_social_conservative = yes 
 add_coalition_revolutionary_nationalist = yes
 add_coalition_authoritarian_socialist = yes
+
 set_politics = {	
 	ruling_party = volkist
 	last_election = "1932.4.10" #Last election in 1932 before Prussian Putch

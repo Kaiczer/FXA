@@ -45,70 +45,9 @@ create_faction = third_international
 recruit_character = SOV_Vladimir_Lenin #Premier / starting leader
 recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman / acting leader upon the death of Lenin
 
-### Create Eastern European Rival Government ###
-create_dynamic_country = {
-	original_tag = SOV  
-	set_country_flag = UKR_is_soviet_puppet
-
-	set_cosmetic_tag = USR
-
-	reserve_dynamic_country = yes 
-	set_country_flag = reserved_dynamic_country 
-
-	set_politics = {	
-		ruling_party = vanguard_socialist 
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-create_dynamic_country = {
-	original_tag = SOV  
-	set_country_flag = BLR_is_soviet_puppet
-
-	set_cosmetic_tag = BSR 
-
-	reserve_dynamic_country = yes 
-	set_country_flag = reserved_dynamic_country 
-
-	set_politics = {	
-		ruling_party = vanguard_socialist 
-		last_election = "1933.3.5"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
-every_owned_state = {
-	limit = {
-		is_core_of = BLR 
-	}
-	transfer_state_to = BSR
-	remove_core_of = SOV 
-	remove_core_of = USR 
-}
-every_owned_state = {
-	limit = {
-		is_core_of = UKR 
-	}
-	transfer_state_to = USR
-	remove_core_of = SOV
-	remove_core_of = BSR
-}
-every_owned_state = {
-	limit = {
-		OR = {
-			is_core_of = BSR 
-			is_core_of = USR 
-		}
-	}
-	remove_core_of = BSR
-	remove_core_of = USR 
-}
 every_country = {
 	limit = {
 		OR = {
-			tag = USR  
-			tag = BSR
 			tag = KAZ
 			tag = KYR
 			tag = UZB

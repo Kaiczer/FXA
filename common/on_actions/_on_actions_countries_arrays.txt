@@ -13,7 +13,9 @@ on_actions = {
 
 			#Set up European tags array
 			add_to_array = { global.european_tags_array = ALB }
+			add_to_array = { global.european_tags_array = ARM }
 			add_to_array = { global.european_tags_array = AUS }
+			add_to_array = { global.european_tags_array = AZR }
 			add_to_array = { global.european_tags_array = BEL }
 			add_to_array = { global.european_tags_array = BLR }
 			add_to_array = { global.european_tags_array = BOS }
@@ -22,7 +24,9 @@ on_actions = {
 			add_to_array = { global.european_tags_array = BUL }
 			add_to_array = { global.european_tags_array = CRO }
 			add_to_array = { global.european_tags_array = CTL }
+			add_to_array = { global.european_tags_array = CYP }
 			add_to_array = { global.european_tags_array = CZE }
+			add_to_array = { global.european_tags_array = DAG }
 			add_to_array = { global.european_tags_array = DEN }
 			add_to_array = { global.european_tags_array = EGL }
 			add_to_array = { global.european_tags_array = ENG }
@@ -32,6 +36,7 @@ on_actions = {
 			add_to_array = { global.european_tags_array = FRA }
 			add_to_array = { global.european_tags_array = GAL }
 			add_to_array = { global.european_tags_array = GER }
+			add_to_array = { global.european_tags_array = GEO }
 			add_to_array = { global.european_tags_array = GRE }
 			add_to_array = { global.european_tags_array = HOL }
 			add_to_array = { global.european_tags_array = HUN }
@@ -88,7 +93,7 @@ on_actions = {
 			add_to_array = { global.balkans_tags_array = YUG }
 			
 			#Set up China tags array
-			add_to_array = { global.china_tags_array = ANH }
+			add_to_array = { global.china_tags_array = TNJ }
 			add_to_array = { global.china_tags_array = CHB }
 			add_to_array = { global.china_tags_array = CHI }
 			add_to_array = { global.china_tags_array = FNG }
@@ -106,22 +111,18 @@ on_actions = {
 
 			#Set up Asian tags array
 			add_to_array = { global.asian_tags_array = AFG }
-			add_to_array = { global.asian_tags_array = ANH }
-			add_to_array = { global.asian_tags_array = ARM }
-			add_to_array = { global.asian_tags_array = AZR }
+			add_to_array = { global.asian_tags_array = TNJ }
 			add_to_array = { global.asian_tags_array = BEI }
 			add_to_array = { global.asian_tags_array = BHU }
 			add_to_array = { global.asian_tags_array = BRM }
 			add_to_array = { global.asian_tags_array = CAM }
 			add_to_array = { global.asian_tags_array = CHB }
 			add_to_array = { global.asian_tags_array = CHI }
-			add_to_array = { global.asian_tags_array = DAG }
 			add_to_array = { global.asian_tags_array = DEI }
 			add_to_array = { global.asian_tags_array = DRS }
 			add_to_array = { global.asian_tags_array = ETK }
 			add_to_array = { global.asian_tags_array = FIC }
 			add_to_array = { global.asian_tags_array = FNG }
-			add_to_array = { global.asian_tags_array = GEO }
 			add_to_array = { global.asian_tags_array = GXC }
 			add_to_array = { global.asian_tags_array = HNN }
 			add_to_array = { global.asian_tags_array = INC }
@@ -174,12 +175,10 @@ on_actions = {
 
 			#Set up Middle Eastern tags array
 			add_to_array = { global.middle_eastern_tags_array = AFG }
-			add_to_array = { global.middle_eastern_tags_array = ARB }
+			add_to_array = { global.middle_eastern_tags_array = HEJ }
 			add_to_array = { global.middle_eastern_tags_array = ARM }
 			add_to_array = { global.middle_eastern_tags_array = AZR }
 			add_to_array = { global.middle_eastern_tags_array = BAH }
-			add_to_array = { global.middle_eastern_tags_array = CYP }
-			add_to_array = { global.middle_eastern_tags_array = DAG }
 			add_to_array = { global.middle_eastern_tags_array = EGY }
 			add_to_array = { global.middle_eastern_tags_array = GEO }
 			add_to_array = { global.middle_eastern_tags_array = IRQ }
@@ -269,8 +268,11 @@ on_actions = {
 			add_to_array = { global.south_american_tags_array = BRA }
 			add_to_array = { global.south_american_tags_array = CHL }
 			add_to_array = { global.south_american_tags_array = COL }
+			add_to_array = { global.south_american_tags_array = ECU }
+			add_to_array = { global.south_american_tags_array = GYA }
 			add_to_array = { global.south_american_tags_array = PAR }
 			add_to_array = { global.south_american_tags_array = PRU }
+			add_to_array = { global.south_american_tags_array = SUR }
 			add_to_array = { global.south_american_tags_array = URG }
 			add_to_array = { global.south_american_tags_array = VEN }
 
@@ -279,7 +281,6 @@ on_actions = {
 			add_to_array = { global.central_american_tags_array = CRU }
 			add_to_array = { global.central_american_tags_array = CUB }
 			add_to_array = { global.central_american_tags_array = DOM }
-			add_to_array = { global.central_american_tags_array = ECU }
 			add_to_array = { global.central_american_tags_array = ELS }
 			add_to_array = { global.central_american_tags_array = GUA }
 			add_to_array = { global.central_american_tags_array = GYA }
@@ -290,13 +291,11 @@ on_actions = {
 			add_to_array = { global.central_american_tags_array = NIC }
 			add_to_array = { global.central_american_tags_array = PAN }
 			add_to_array = { global.central_american_tags_array = PUE }
-			add_to_array = { global.central_american_tags_array = SUR }
 			add_to_array = { global.central_american_tags_array = TRI }
 
 			#Set Up Caribbean tags array
 			add_to_array = { global.caribbean_tags_array = CUB }
 			add_to_array = { global.caribbean_tags_array = DOM }
-			add_to_array = { global.caribbean_tags_array = GYA }
 			add_to_array = { global.caribbean_tags_array = HAI }
 			add_to_array = { global.caribbean_tags_array = JAM }
 			add_to_array = { global.caribbean_tags_array = PUE }

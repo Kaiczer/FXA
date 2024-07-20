@@ -377,6 +377,51 @@ is_china_claim_area = {
 	}
 }
 
+has_valid_china_annexation_state = {
+	479 = { is_valid_annexation_state = yes }
+	498 = { is_valid_annexation_state = yes }
+	513 = { is_valid_annexation_state = yes }
+	518 = { is_valid_annexation_state = yes }
+	525 = { is_valid_annexation_state = yes }
+	529 = { is_valid_annexation_state = yes }
+	544 = { is_valid_annexation_state = yes }
+	558 = { is_valid_annexation_state = yes }
+	561 = { is_valid_annexation_state = yes }
+	566 = { is_valid_annexation_state = yes }
+	570 = { is_valid_annexation_state = yes }
+	571 = { is_valid_annexation_state = yes }
+}
+
+is_mainland_china_state = {
+	OR = {
+        state = 479 #Jingzhao
+        state = 498 #Jinan
+        state = 513 #Taiyuan
+        state = 518 #Nanjing
+        state = 525 #Wuhan
+        state = 529 #Xiangjiang
+        state = 544 #Guangzhou
+        state = 558 #Yunnan
+        state = 561 #Chongqing
+        state = 566 #Jingyuan
+        state = 570 #Yulin
+        state = 571 #Kumul
+    }
+}
+
+is_chinese_port_city = {
+	OR = {
+		state = 478 #Tianjin
+        state = 500 #Qingdao
+        state = 508 #Shanghai
+        state = 523 #Weihaiwei
+        state = 538 #Fuzhou
+        state = 543 #Hong Kong
+        state = 545 #Macau
+        state = 548 #Guangzhouwan
+	}
+}
+
 is_indonesia = {
 	OR = {
 		region = 91 #Arafura & Banda Seas

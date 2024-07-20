@@ -38,6 +38,7 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 create_faction = imperial_sphere
 
 every_country = {
@@ -54,6 +55,7 @@ every_country = {
 			tag = NFL
 			tag = BEI
 			tag = IRQ
+			tag = RHO
 		}
 	}
 	ENG = {

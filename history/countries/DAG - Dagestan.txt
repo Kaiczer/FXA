@@ -36,3 +36,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+SOV = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = autonomous_territory
+	}
+	add_to_faction = PREV	
+}
+

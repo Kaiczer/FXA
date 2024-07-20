@@ -1,14 +1,20 @@
 ﻿l_english:
 
-FR_Germany: "Germany Focus Tree"
-
-### History
-GER_FUHRERREDUX_DESC: "The new Reich has arisen. It has been four years since Dressler's Valkists secured power after winning the snap elections. The economy is thriving once again with the Valkists funneling ungodly amounts of money into the arms industry to ensure that in the upcoming wars nobody will stand up to Germany's greatness. \n\nOnly the upcoming years will decide whether Dressler's dreams remain dreams or if the Führerreich will become more than the sum of its parts, with Germany being the superpower it always aspired to be."
+Germany_Focus: "Germany Focus Tree"
 
 ### Country Names
 GER: "Germany"
 GER_ADJ: "German"
-GER_DEF: "German Republic"
+GER_DEF: "Germany"
+GER_authoritarian_socialist: "German National People's Republic"
+GER_authoritarian_socialist_DEF: "the German National People's Republic"
+GER_authoritarian_socialist_ADJ: "German"
+GER_vanguard_socialist: "German Socialist Republic"
+GER_vanguard_socialist_DEF: "the German Socialist Republic"
+GER_vanguard_socialist_ADJ: "German"
+GER_revolutionary_socialist: "German Democratic Republic"
+GER_revolutionary_socialist_DEF: "the German Democratic Republic"
+GER_revolutionary_socialist_ADJ: "German"
 GER_volkist: "Deutsches Reich"
 GER_volkist_ADJ: "German"
 GER_volkist_DEF: "Das Deutsches Reich"
@@ -42,12 +48,17 @@ GER_reactionary_ultranationalist_party: "AV/DNVP"
 GER_reactionary_ultranationalist_party_long: "Alldeutsche Verband/Deutschnationale Volkspartei (Pan-German League/German National People's Party)"
 
 GER_restoration_authoritarian_party: "Reichsbanner"
-GER_restoration_authoritarian_party_long: "Reichsbanner Schwarz-Rot-Gold (Reich's Banner Black-Red-Gold")"
-GER_ADVKP_Jung_revolutionary_nationalist_party: "DNSB"
-GER_ADVKP_Jung_revolutionary_nationalist_party_long: "Deutscher Nationalsozialistischer Bund (German National Socialist League)"
+GER_restoration_authoritarian_party_long: "Reichsbanner Schwarz-Rot-Gold (Reich's Banner Black-Red-Gold)"
+GER_Nazi_revolutionary_nationalist_party: "DNSB"
+GER_Nazi_revolutionary_nationalist_party_long: "Deutscher Nationalsozialistischer Bund (German National Socialist League)"
 GER_socialist: "German Socialist Republic"
 GER_socialist_DEF: "the German Socialist Republic"
 
+### Characters Name and Desc ###
+GER_Adam_Dressler: "Adam F.E. Dressler"
+
+
+### Custom Puppet Name ###
 # England
 ENG_GER_volkist_subject: "Reichskommission England"
 ENG_GER_volkist_subject_DEF: "Reichskommission England"
@@ -106,15 +117,11 @@ COG_GER_volkist_subject_DEF: "Reichskommissariat Mittelafrika"
 NFA_GER_volkist_subject: "Reichskommissariat Westafrika"
 NFA_GER_volkist_subject_DEF: "Reichskommissariat Westafrika"
 # Tanzania - Ostafrika
-TZN_GER_volkist_subject: "Reichskommissariat Ostafrika"
-TZN_GER_volkist_subject_DEF: "Reichskommissariat Ostafrika"
+TGN_GER_volkist_subject: "Reichskommissariat Ostafrika"
+TGN_GER_volkist_subject_DEF: "Reichskommissariat Ostafrika"
 #RK Poland
 POL_GER_volkist_subject: "Generalgouvernement Oberweichselpolen"
 POL_GER_volkist_subject_DEF: "Generalgouvernement Oberweichselpolen"
-#RK Bohemia
-BOH_GER_volkist_subject: "Reichskreis Böhmen-Mähren"
-BOH_GER_volkist_subject_DEF: "Reichskreis Böhmen-Mähren"
-BOH_GER_volkist_subject_ADJ: "Bohemian"
 # Czech
 CZE_GER_volkist_subject: "Reichskreis Böhmen-Mähren"
 CZE_GER_volkist_subject_DEF: "Reichskreis Böhmen-Mähren"

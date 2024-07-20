@@ -104,12 +104,12 @@ create_ambition_areas = {
 		}
 		set_variable = { ambition_area_@ANG = 1 }
 	}
-	# ANH = Anhui Clique
+	# TNJ = Anhui Clique
 	if = {
 		limit = {
 			OR = {
-				is_core_of = ANH
-				is_claimed_by = ANH 
+				is_core_of = TNJ
+				is_claimed_by = TNJ 
 				is_core_of = SDL 
 				is_claimed_by = SDL 
 				is_core_of = ZHI 
@@ -120,14 +120,14 @@ create_ambition_areas = {
 				state = 496
 			}
 		}
-		set_variable = { ambition_area_@ANH = 1 }
+		set_variable = { ambition_area_@TNJ = 1 }
 	}
-	# ARB = Hashemite Arabia
+	# HEJ = Hashemite Arabia
 	if = {
 		limit = {
 			OR = {
-				is_core_of = ARB
-				is_claimed_by = ARB
+				is_core_of = HEJ
+				is_claimed_by = HEJ
 				state = 756
 				state = 757
 				state = 760
@@ -140,7 +140,7 @@ create_ambition_areas = {
 				state = 769
 			}
 		}
-		set_variable = { ambition_area_@ARB = 1 }
+		set_variable = { ambition_area_@HEJ = 1 }
 	}
 	# ARG = Argentina
 	if = {
@@ -1249,12 +1249,12 @@ create_ambition_areas = {
 		}
 		set_variable = { ambition_area_@JAP = 1 }
 	}
-	# ARB/RAS/SAU = Arabian tags
+	# HEJ/RAS/SAU = Arabian tags
 	if = {
 		limit = {
 			region = 187 #Arabia
 		}
-		set_variable = { ambition_area_@ARB = 1 }
+		set_variable = { ambition_area_@HEJ = 1 }
 		set_variable = { ambition_area_@RAS = 1 }
 		set_variable = { ambition_area_@SAU = 1 }
 	}
@@ -2444,8 +2444,8 @@ create_ambition_areas = {
 			OR = {
 				is_core_of = ZHI 
 				is_claimed_by = ZHI 
-				is_core_of = ANH 
-				is_claimed_by = ANH 
+				is_core_of = TNJ 
+				is_claimed_by = TNJ 
 				is_core_of = SDL 
 				is_claimed_by = SDL 
 				# Formerly owned by League of Five Provinces

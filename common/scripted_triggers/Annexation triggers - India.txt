@@ -3,6 +3,9 @@ can_release_assam = {
     state = 662
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+		should_release_bengal_first = yes
         NOT = {
             country_exists = ASM
             has_country_flag = ASM_CONQ
@@ -11,9 +14,33 @@ can_release_assam = {
 }
 # Baluchistan - annexation_BAL_CONQ
 can_release_baluchistan = {
-    state = 677
+    OR = {
+        state = 677
+        state = 678
+    }
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+		should_release_pakistan_first = yes
+		should_release_afghanistan_first = yes
+        OR = {
+			RAJ = { is_ally_of_ROOT = yes }
+			HYD = { is_ally_of_ROOT = yes }
+			IND = { is_ally_of_ROOT = yes }
+			AFG = { owns_state = 678 }
+            var:677.owner = {
+                OR = {
+                    original_tag = PAK
+                    original_tag = PUN
+                }
+                is_ally_of_ROOT = yes
+            }
+			RJH = {
+				is_ally_of_ROOT = yes
+				owns_state = 680
+			}
+		}
         NOT = {
             country_exists = BAL
             has_country_flag = BAL_CONQ
@@ -36,6 +63,8 @@ can_release_bengal = {
     state = 661
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
         NOT = {
             country_exists = BNG
             has_country_flag = BNG_CONQ
@@ -47,6 +76,30 @@ can_release_sikkim = {
     state = 664
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_nepal_first = yes
+        should_release_bhutan_first = yes
+        OR = {
+            var:665.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+            }
+            original_tag = NEP
+            original_tag = BHU
+            var:665.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                ROOT_can_grant_land = yes 
+            }
+            NEP = { ROOT_can_grant_land = yes }
+            BHU = { ROOT_can_grant_land = yes }should_release_india_first = yes
+            should_release_hindustan_first = yes
+        }
         NOT = {
             country_exists = DRS
             has_country_flag = DRS_CONQ
@@ -58,6 +111,8 @@ can_release_ceylon = {
     state = 702
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
         NOT = {
             country_exists = CEY
             has_country_flag = CEY_CONQ
@@ -69,6 +124,9 @@ can_release_gujarat = {
     state = 683
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+		should_release_pakistan_first = yes
         NOT = {
             country_exists = GUJ
             has_country_flag = GUJ_CONQ
@@ -80,6 +138,11 @@ can_release_hyderabad = {
     state = 691
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_orissa_first = yes
+        should_release_rajasthan_first = yes 
+        should_release_gujarat_first = yes 
         NOT = {
             country_exists = HYD
             has_country_flag = HYD_CONQ
@@ -89,8 +152,15 @@ can_release_hyderabad = {
 # India - annexation_IND_CONQ
 can_release_india = {
     state = 670
-    NOT = { is_claimed_by = ROOT }
+    670 = {
+        is_owned_and_controlled_by = ROOT
+        is_claim_or_core_of_ROOT = no
+    }
     ROOT = {
+        NOT = {
+            original_tag = IMP 
+            is_ally_with = IMP
+        }
         NOT = {
             country_exists = IND
             has_country_flag = IND_CONQ
@@ -102,6 +172,9 @@ can_release_kashmir = {
     state = 674
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_pakistan_first = yes
         NOT = {
             country_exists = KAS
             has_country_flag = KAS_CONQ
@@ -113,6 +186,9 @@ can_release_madras = {
     state = 699
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_hyderabad_first = yes 
         NOT = {
             country_exists = MDR
             has_country_flag = MDR_CONQ
@@ -124,6 +200,8 @@ can_release_maldives = {
     state = 938
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
         NOT = {
             country_exists = MLD
             has_country_flag = MLD_CONQ
@@ -135,6 +213,9 @@ can_release_mysore = {
     state = 697
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_hyderabad_first = yes 
         NOT = {
             country_exists = MYS
             has_country_flag = MYS_CONQ
@@ -157,6 +238,9 @@ can_release_orissa = {
     state = 688
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_bengal_first = yes
         NOT = {
             country_exists = ORI
             has_country_flag = ORI_CONQ
@@ -168,6 +252,8 @@ can_release_pakistan = {
     state = 675
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
         NOT = {
             country_exists = PAK
             has_country_flag = PAK_CONQ
@@ -176,9 +262,15 @@ can_release_pakistan = {
 }
 # Pubjab - annexation_PUN_CONQ
 can_release_pubjab = {
-    state = 675
+    OR = {
+        state = 673
+        state = 675
+    }
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_pakistan_first = yes
         NOT = {
             country_exists = PUN
             has_country_flag = PUN_CONQ
@@ -188,8 +280,16 @@ can_release_pubjab = {
 # Colonial India - annexation_RAJ_CONQ
 can_release_colonial_india = {
     state = 670
-    NOT = { is_claimed_by = ROOT }
+    670 = {
+        is_owned_and_controlled_by = ROOT
+        is_claim_or_core_of_ROOT = no
+    }
     ROOT = {
+        OR = {
+            original_tag = IMP 
+            is_ally_with = IMP
+        }
+        IND = { is_ally_of_ROOT = no }
         NOT = {
             country_exists = RAJ
             has_country_flag = RAJ_CONQ
@@ -201,6 +301,9 @@ can_release_rajahstan = {
     state = 681
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+		should_release_pakistan_first = yes
         NOT = {
             country_exists = RJH
             has_country_flag = RJH_CONQ
@@ -212,6 +315,9 @@ can_release_travancore = {
     state = 701
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_hyderabad_first = yes 
         NOT = {
             country_exists = TRV
             has_country_flag = TRV_CONQ
@@ -223,6 +329,27 @@ can_release_west_bengal = {
     state = 663
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_bengal_first = yes
+        OR = {
+            AND = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                owns_state = 666
+            }
+            original_tag = BNG
+            BNG = { ROOT_can_grant_land = yes } 
+            var:666.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                ROOT_can_grant_land = yes 
+            }
+        }
         NOT = {
             has_country_flag = WEST_BENGAL_CONQ
         }
@@ -233,6 +360,34 @@ can_release_darjeeling = {
     state = 665
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_bengal_first = yes
+        should_release_nepal_first = yes 
+        should_release_sikkim_first = yes
+        OR = {
+            AND = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                owns_state = 666
+            }
+            NEP = { owns_state = 664 }
+            NEP = { 
+                owns_state = 664
+                ROOT_can_grant_land = yes
+            }
+            original_tag = BNG
+            BNG = { ROOT_can_grant_land = yes } 
+            var:666.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                ROOT_can_grant_land = yes 
+            }
+        }
         NOT = {
             has_country_flag = DARJEELING_CONQ
         }
@@ -243,6 +398,23 @@ can_release_kumaon = {
     state = 671
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_nepal_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = NEP
+            NEP = { ROOT_can_grant_land = yes }
+            BNG = { ROOT_can_grant_land = yes } 
+            var:670.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                ROOT_can_grant_land = yes 
+            }
+        }
         NOT = {
             has_country_flag = KUMAON_CONQ
         }
@@ -253,6 +425,19 @@ can_release_east_pubjab = {
     state = 672
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_pakistan_first = yes
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = PAK
+            original_tag = PUN
+            IND = { ROOT_can_grant_land = yes }
+            RAJ = { ROOT_can_grant_land = yes } 
+            PAK = { ROOT_can_grant_land = yes }
+            PUN = { ROOT_can_grant_land = yes }
+        }
         NOT = {
             has_country_flag = EAST_PUBJAB_CONQ
         }
@@ -263,6 +448,29 @@ can_release_peshawar = {
     state = 676
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+		should_release_hindustan_first = yes
+        should_release_pakistan_first = yes
+        should_release_afghanistan_first = yes 
+        OR = {
+            var:675.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+            }
+            original_tag = PAK
+            original_tag = PUN
+            var:675.owner = {
+                OR = {
+                    original_tag = IND
+                    original_tag = RAJ
+                }
+                ROOT_can_grant_land = yes 
+            }
+            PAK = { ROOT_can_grant_land = yes }
+            PUN = { ROOT_can_grant_land = yes }
+        }
         NOT = {
             has_country_flag = PESHAWAR_CONQ
         }
@@ -273,6 +481,47 @@ can_release_kalat = {
     state = 679
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_rajasthan_first = yes
+        should_release_pakistan_first = yes 
+        OR = {
+            677 = { is_valid_annexation_state = no } #Quett
+            has_country_flag = BAL_CONQ
+            country_exists = BAL
+        }
+        OR = {
+            AND = {
+                OR = {
+                    original_tag = RAJ
+                    original_tag = IND
+                    original_tag = RJH
+                }
+                owns_state = 680
+            }
+            AND = {
+                OR = {
+                    original_tag = PAK
+                    original_tag = PUN
+                }
+                owns_state = 677
+            }
+            var:680.owner = {
+                OR = {
+                    original_tag = RAJ
+                    original_tag = IND
+                    original_tag = RJH
+                }
+                ROOT_can_grant_land = yes 
+            }
+            var:677.owner = {
+                OR = {
+                    original_tag = PAK
+                    original_tag = PUN
+                }
+                ROOT_can_grant_land = yes 
+            }
+        }
         NOT = {
             has_country_flag = KALAT_CONQ
         }
@@ -283,6 +532,41 @@ can_release_sindh = {
     state = 680
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_hindustan_first = yes
+        should_release_rajasthan_first = yes
+        should_release_pakistan_first = yes 
+        OR = {
+            AND = {
+                OR = {
+                    original_tag = RAJ
+                    original_tag = IND
+                    original_tag = RJH
+                }
+                owns_state = 681
+            }
+            AND = {
+                OR = {
+                    original_tag = PAK
+                    original_tag = PUN
+                }
+                owns_state = 677
+            }
+            var:681.owner = {
+                OR = {
+                    original_tag = RAJ
+                    original_tag = IND
+                    original_tag = RJH
+                }
+                ROOT_can_grant_land = yes
+            }
+            var:677.owner = {
+                OR = {
+                    original_tag = PAK
+                    original_tag = PUN
+                }
+                ROOT_can_grant_land = yes
+            }
+        }
         NOT = {
             has_country_flag = SINDH_CONQ
         }
@@ -293,6 +577,14 @@ can_release_gwalior = {
     state = 682
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = GWALIOR_CONQ
         }
@@ -303,6 +595,17 @@ can_release_jaipur = {
     state = 684
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_rajasthan_first = yes
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = RJH
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            RJH = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = JAIPUR_CONQ
         }
@@ -313,6 +616,15 @@ can_release_sagar = {
     state = 685
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_orissa_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = SAGAR_CONQ
         }
@@ -323,6 +635,17 @@ can_release_central_provinces = {
     state = 686
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes
+        should_release_hyderabad_first = yes
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = CENTRAL_PROVINCES_CONQ
         }
@@ -330,9 +653,23 @@ can_release_central_provinces = {
 }
 # Raipur - annexation_RAIPUR_CONQ
 can_release_raipur = {
-    state = 687
+    OR = {
+        state = 687
+        state = 689
+    }
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_orissa_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = ORI
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            ORI = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = RAIPUR_CONQ
         }
@@ -343,6 +680,17 @@ can_release_coastal_andhra = {
     state = 690
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = COASTAL_ANDHRA_CONQ
         }
@@ -353,6 +701,20 @@ can_release_bombay = {
     state = 693
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes
+        should_release_gujarat_first = yes  
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            original_tag = GUJ
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+            GUJ = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = BOMBAY_CONQ
         }
@@ -363,6 +725,20 @@ can_release_kolhapur = {
     state = 694
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes 
+        should_release_madras_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            original_tag = MDR
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+            MDR = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = KOLHAPUR_CONQ
         }
@@ -373,6 +749,21 @@ can_release_goa = {
     state = 695
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes 
+        OR = {
+            694 = { is_valid_annexation_state = no }
+            has_country_flag = KOLHAPUR_CONQ
+        }
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             country_exists = GOA
             has_country_flag = GOA_CONQ
@@ -384,6 +775,21 @@ can_release_andhra = {
     state = 696
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes 
+        OR = {
+            690 = { is_valid_annexation_state = no }
+            has_country_flag = COASTAL_ANDHRA_CONQ
+        }
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = HYD
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = ANDHRA_CONQ
         }
@@ -394,6 +800,17 @@ can_release_pondicherry = {
     state = 700
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_madras_first = yes 
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            original_tag = MDR
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            MDR = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = PONDICHERRY_CONQ
         }
@@ -404,25 +821,67 @@ can_release_andaman = {
     state = 703
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_india_first = yes
+        should_release_hindustan_first = yes 
+        should_release_hyderabad_first = yes 
+        should_release_bengal_first = yes
+        OR = {
+            690 = { is_valid_annexation_state = no }
+            has_country_flag = COASTAL_ANDHRA_CONQ
+        }
+        OR = {
+            original_tag = IND
+            original_tag = RAJ
+            AND = {
+                original_tag = HYD
+                owns_state = 690
+            }
+            original_tag = BNG
+            IND = { is_ally_of_ROOT = yes }
+            RAJ = { is_ally_of_ROOT = yes }
+            HYD = { is_ally_of_ROOT = yes }
+            BNG = { is_ally_of_ROOT = yes }
+        }
         NOT = {
             has_country_flag = ANDAMAN_CONQ
         }
     }
 }
 
-# ### SPECIAL TRIGGERS ###
-# can_hand_territory_to_ENT = {
-# 	ENT = {
-# 		OR = {
-# 			tag = CAN
-# 			tag = GBR
-# 		}
-# 		is_faction_leader = yes
-# 		is_ally_of_ROOT = yes
-# 		NOT = { tag = ROOT }
-# 	}
-# }
+# Diego Garcia - annexation_DIEGO_GARCIA_CONQ
+can_release_diego_garcia = {
+    state = 939
+    NOT = { is_claimed_by = ROOT }
+    ROOT = {
+        should_release_india_first = yes
+        OR = {
+            country_exists = MLD
+            has_country_flag = MLD_CONQ
+            938 = { is_valid_annexation_state = no }
+        }
+        OR = {
+            country_exists = MAD
+            has_country_flag = MAD_CONQ
+            933 = { is_valid_annexation_state = no }
+        }
+        OR = {
+            original_tag = MAD
+            original_tag = MLD
+            var:938.owner = { is_indian_tag = yes }
+            MAD = { ROOT_can_grant_land = yes }
+            MLD = { ROOT_can_grant_land = yes }
+            var:938.owner = {
+                is_indian_tag = yes
+                ROOT_can_grant_land = yes
+            }
+        }
+        NOT = {
+            has_country_flag = DIEGO_GARCIA_CONQ
+        }
+    }
+}
 
+### SPECIAL TRIGGERS ###
 should_release_india_first = {
 	OR = {
 		has_country_flag = IND_CONQ
@@ -430,27 +889,50 @@ should_release_india_first = {
 		NOT = {
 			count_triggers = {
 				amount = 2
-				439 = { is_valid_annexation_state = yes } #Delhi
-				431 = { is_valid_annexation_state = yes } #West Bengal
-				429 = { is_valid_annexation_state = yes } #Bombay
+				670 = { is_valid_annexation_state = yes } #Delhi
+				666 = { is_valid_annexation_state = yes } #Bihar
+				693 = { is_valid_annexation_state = yes } #Bombay
 			}
 		}
 	}
 }
 
-should_release_bombay_first = {
-	OR = {
-		has_country_flag = BOM_CONQ
-		country_exists = BOM
-		429 = { is_valid_annexation_state = no } #Bombay
+should_release_bhutan_first = {
+    OR = {
+		has_country_flag = BHU_CONQ
+		country_exists = BHU
+		659 = { is_valid_annexation_state = no } 
 	}
+}
+
+should_release_bombay_first = {
+    OR = {
+		has_country_flag = BOMBAY_CONQ
+		693 = { is_valid_annexation_state = no } 
+	}
+}
+
+should_release_sikkim_first = {
+    OR = {
+		has_country_flag = DRS_CONQ
+		country_exists = DRS
+		664 = { is_valid_annexation_state = no } #Sikkim
+	}
+}
+
+should_release_hindustan_first = {
+    OR = {
+        country_exists  = IND
+        has_country_flag = IND_CONQ
+        670 = { is_valid_annexation_state = no } #Delhi
+    }
 }
 
 should_release_bengal_first = {
 	OR = {
 		has_country_flag = BNG_CONQ
 		country_exists = BNG
-		430 = { is_valid_annexation_state = no } #East Bengal
+		661 = { is_valid_annexation_state = no } #East Bengal
 	}
 }
 
@@ -458,7 +940,7 @@ should_release_gujarat_first = {
 	OR = {
 		has_country_flag = GUJ_CONQ
 		country_exists = GUJ
-		428 = { is_valid_annexation_state = no } #Gujarat
+		683 = { is_valid_annexation_state = no } #Gujarat
 	}
 }
 
@@ -466,7 +948,7 @@ should_release_hyderabad_first = {
 	OR = {
 		has_country_flag = HYD_CONQ
 		country_exists = HYD
-		427 = { is_valid_annexation_state = no } #Hyderabad
+		691 = { is_valid_annexation_state = no } #Hyderabad
 	}
 }
 
@@ -474,7 +956,7 @@ should_release_madras_first = {
 	OR = {
 		has_country_flag = MDR_CONQ
 		country_exists = MDR
-		320 = { is_valid_annexation_state = no } #Madras
+		699 = { is_valid_annexation_state = no } #Madras
 	}
 }
 
@@ -482,7 +964,7 @@ should_release_mysore_first = {
 	OR = {
 		has_country_flag = MYS_CONQ
 		country_exists = MYS
-		425 = { is_valid_annexation_state = no } #Mysore
+		697 = { is_valid_annexation_state = no } #Mysore
 	}
 }
 
@@ -490,7 +972,7 @@ should_release_nepal_first = {
 	OR = {
 		has_country_flag = NEP_CONQ
 		country_exists = NEP
-		323 = { is_valid_annexation_state = no } #Nepal
+		660 = { is_valid_annexation_state = no } #Nepal
 	}
 }
 
@@ -498,23 +980,28 @@ should_release_orissa_first = {
 	OR = {
 		has_country_flag = ORI_CONQ
 		country_exists = ORI
-		426 = { is_valid_annexation_state = no } #Orissa
+		688 = { is_valid_annexation_state = no } #Orissa
 	}
 }
 
 should_release_pakistan_first = {
 	OR = {
-		has_country_flag = PAK_CONQ
-		country_exists = PAK
-		891 = { is_valid_annexation_state = no } #West Punjab
+        count_triggers = {
+            amount = 3 
+            has_country_flag = PAK_CONQ
+            country_exists = PAK
+            has_country_flag = PUN_CONQ
+            country_exists = PUN
+        }
+		675 = { is_valid_annexation_state = no } #West Punjab
 	}
 }
 
 should_release_rajasthan_first = {
 	OR = {
-		has_country_flag = RJS_CONQ
-		country_exists = RJS
-		433 = { is_valid_annexation_state = no } #Rajputana
+		has_country_flag = RJH_CONQ
+		country_exists = RJH
+		681 = { is_valid_annexation_state = no } #Rajputana
 	}
 }
 

@@ -36,3 +36,9 @@ set_politics = {
 	elections_allowed = no
 }
 
+ENG = {
+	set_autonomy = {
+		autonomous_state = colonial_government
+		target = PREV
+	}
+}

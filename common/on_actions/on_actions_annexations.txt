@@ -62,7 +62,7 @@ on_actions = {
 			63 = { set_state_flag = annexation_trigger_state } #South Limburg
 			64 = { set_state_flag = annexation_trigger_state } #North Limburg
 			65 = { set_state_flag = annexation_trigger_state } #Wallonia
-			67 = { set_state_flag = annexation_trigger_state } #Belgian Luxembourg
+			67 = { set_state_flag = annexation_trigger_state } #Bastogne
 			71 = { set_state_flag = annexation_trigger_state } #Alsace
 			77 = { set_state_flag = annexation_trigger_state } #Brittany
 			83 = { set_state_flag = annexation_trigger_state } #Basses-Pyrenees
@@ -99,8 +99,9 @@ on_actions = {
 			151 = { set_state_flag = annexation_trigger_state } #Fiume
 			152 = { set_state_flag = annexation_trigger_state } #Carniola
 			154 = { set_state_flag = annexation_trigger_state } #Prekmurje
+			156	= { set_state_flag = annexation_trigger_state } #Karlovac
 			158 = { set_state_flag = annexation_trigger_state } #Dubrovnik
-			159 = { set_state_flag = annexation_trigger_state } #Split/Zagreb
+			159 = { set_state_flag = annexation_trigger_state } #Slavonia/Osijek
 			160 = { set_state_flag = annexation_trigger_state } #Bosnia
 			162 = { set_state_flag = annexation_trigger_state } #Montenegro
 			163 = { set_state_flag = annexation_trigger_state } #Albania
@@ -110,12 +111,13 @@ on_actions = {
 			173 = { set_state_flag = annexation_trigger_state } #Western Macedonia
 			174 = { set_state_flag = annexation_trigger_state } #East Macedonia
 			175 = { set_state_flag = annexation_trigger_state } #Thrace
+			176 = { set_state_flag = annexation_trigger_state } #Adrianople
 			177 = { set_state_flag = annexation_trigger_state } #Macedonia
 			178 = { set_state_flag = annexation_trigger_state } #Kosovo
 			182 = { set_state_flag = annexation_trigger_state } #Sofia
 			184 = { set_state_flag = annexation_trigger_state } #Kardzhali
-			187 = { set_state_flag = annexation_trigger_state } #Southern Dobruja
-			188 = { set_state_flag = annexation_trigger_state } #Northern Dobruja
+			187 = { set_state_flag = annexation_trigger_state } #Silistra
+			188 = { set_state_flag = annexation_trigger_state } #Dobruja
 			190 = { set_state_flag = annexation_trigger_state } #Banat
 			191 = { set_state_flag = annexation_trigger_state } #West Banat
 			192	= { set_state_flag = annexation_trigger_state } #Syrmia
@@ -127,6 +129,7 @@ on_actions = {
 			203 = { set_state_flag = annexation_trigger_state } #Suceava
 			204 = { set_state_flag = annexation_trigger_state } #Bukovina
 			205 = { set_state_flag = annexation_trigger_state } #Bessarabia
+			209 = { set_state_flag = annexation_trigger_state } #Tesin
 			210 = { set_state_flag = annexation_trigger_state } #West Prussia
 			211 = { set_state_flag = annexation_trigger_state } #Posen
 			212 = { set_state_flag = annexation_trigger_state } #East Prussia
@@ -139,6 +142,7 @@ on_actions = {
 			230 = { set_state_flag = annexation_trigger_state } #Sudovia
 			231 = { set_state_flag = annexation_trigger_state } #Vilnius
 			232	= { set_state_flag = annexation_trigger_state } #Suwalki
+			233 = { set_state_flag = annexation_trigger_state } #Pinsk
 			234	= { set_state_flag = annexation_trigger_state } #Novogrudok
 			235 = { set_state_flag = annexation_trigger_state } #Vileyka
 			237 = { set_state_flag = annexation_trigger_state } #Brest
@@ -147,6 +151,8 @@ on_actions = {
 			249 = { set_state_flag = annexation_trigger_state } #Gomel
 			250 = { set_state_flag = annexation_trigger_state } #Siveria
 			261	= { set_state_flag = annexation_trigger_state } #Crimea 
+			262 = { set_state_flag = annexation_trigger_state } #Vitebsk
+			263 = { set_state_flag = annexation_trigger_state } #Krichev
 			270 = { set_state_flag = annexation_trigger_state } #Stanislawow
 			289 = { set_state_flag = annexation_trigger_state } #Moscow
 			295 = { set_state_flag = annexation_trigger_state } #Dagestan
@@ -168,15 +174,15 @@ on_actions = {
 			422 = { set_state_flag = annexation_trigger_state } #Sakhalin
 			426 = { set_state_flag = annexation_trigger_state } #Kuril
 			435 = { set_state_flag = annexation_trigger_state } #Alma-Ata
+			440 = { set_state_flag = annexation_trigger_state } #Merv
 			441 = { set_state_flag = annexation_trigger_state } #Ashgabat
-			442 = { set_state_flag = annexation_trigger_state } #Merv
+			442 = { set_state_flag = annexation_trigger_state } #Khiva
 			443 = { set_state_flag = annexation_trigger_state } #Zheleznodorozhny/Qongirot
 			445 = { set_state_flag = annexation_trigger_state } #Tashkent
 			446 = { set_state_flag = annexation_trigger_state } #Frunze
 			447 = { set_state_flag = annexation_trigger_state } #Badakhshan
 			448 = { set_state_flag = annexation_trigger_state } #Dushanbe
 			449 = { set_state_flag = annexation_trigger_state } #Kanto
-			468 = { set_state_flag = annexation_trigger_state } #Iwo Jima
 			473 = { set_state_flag = annexation_trigger_state } #Gyeonggi
 			478 = { set_state_flag = annexation_trigger_state } #Tianjin
 			479 = { set_state_flag = annexation_trigger_state } #Beiping
@@ -207,7 +213,6 @@ on_actions = {
 			579 = { set_state_flag = annexation_trigger_state } #Aksai Chin
 			581	= { set_state_flag = annexation_trigger_state } #Mongolia
 			585	= { set_state_flag = annexation_trigger_state } #Chuanbian
-			586 = { set_state_flag = annexation_trigger_state } #Assam
 			587	= { set_state_flag = annexation_trigger_state } #Tawang
 			589	= { set_state_flag = annexation_trigger_state } #Tibet		
 			590	= { set_state_flag = annexation_trigger_state } #Bangkok
@@ -219,7 +224,8 @@ on_actions = {
 			604	= { set_state_flag = annexation_trigger_state } #Maekong Delta
 			606 = { set_state_flag = annexation_trigger_state } #Xayabouli
 			607	= { set_state_flag = annexation_trigger_state } #Vientiane
-			610	= { set_state_flag = annexation_trigger_state } #Phnom Penh
+			610	= { set_state_flag = annexation_trigger_state } #Stung Treng
+			611 = { set_state_flag = annexation_trigger_state } #Phnom Penh
 			612 = { set_state_flag = annexation_trigger_state } #Battambang
 			613	= { set_state_flag = annexation_trigger_state } #Yangon
 			614 = { set_state_flag = annexation_trigger_state } #Thaton
@@ -233,9 +239,9 @@ on_actions = {
 			627	= { set_state_flag = annexation_trigger_state } #Sarawak
 			628 = { set_state_flag = annexation_trigger_state } #North Borneo
 			629	= { set_state_flag = annexation_trigger_state } #Jakarta
-			635	= { set_state_flag = annexation_trigger_state } #Aceh
 			633	= { set_state_flag = annexation_trigger_state } #West Timor
 			634	= { set_state_flag = annexation_trigger_state } #East Timor
+			635	= { set_state_flag = annexation_trigger_state } #Aceh
 			646	= { set_state_flag = annexation_trigger_state } #West Papua
 			647	= { set_state_flag = annexation_trigger_state } #East Papua
 			649	= { set_state_flag = annexation_trigger_state } #Bismarck Archipelago
@@ -243,25 +249,27 @@ on_actions = {
 			659 = { set_state_flag = annexation_trigger_state } #Bhutan
 			660 = { set_state_flag = annexation_trigger_state } #Nepal
 			661 = { set_state_flag = annexation_trigger_state } #Bengal
+			662 = { set_state_flag = annexation_trigger_state } #Assam
 			663 = { set_state_flag = annexation_trigger_state } #West Bengal
 			664 = { set_state_flag = annexation_trigger_state } #Sikkim
 			665 = { set_state_flag = annexation_trigger_state } #Darjeeling
-			670 = { set_state_flag = annexation_trigger_state } #Meerut
+			670 = { set_state_flag = annexation_trigger_state } #Delhi
 			671 = { set_state_flag = annexation_trigger_state } #Kumaon
-			672 = { set_state_flag = annexation_trigger_state } #Delhi
+			672 = { set_state_flag = annexation_trigger_state } #East Pubjab
+			673 = { set_state_flag = annexation_trigger_state } #Kangra
 			674 = { set_state_flag = annexation_trigger_state } #Jammu
-			675 = { set_state_flag = annexation_trigger_state } #East Pubjab
+			675 = { set_state_flag = annexation_trigger_state } #West Pubjab
 			676 = { set_state_flag = annexation_trigger_state } #Peshawar
+			677 = { set_state_flag = annexation_trigger_state } #Baluchistan/Quett
 			679 = { set_state_flag = annexation_trigger_state } #Kalat
 			680 = { set_state_flag = annexation_trigger_state } #Sindh
 			681 = { set_state_flag = annexation_trigger_state } #Rajastan
-			682 = { set_state_flag = annexation_trigger_state } #Gwalior
 			683 = { set_state_flag = annexation_trigger_state } #Gujarat
 			684 = { set_state_flag = annexation_trigger_state } #Jaipur
-			685 = { set_state_flag = annexation_trigger_state } #Sagar
 			686 = { set_state_flag = annexation_trigger_state } #Central Provinces
-			687 = { set_state_flag = annexation_trigger_state } #Raipur/689
+			687 = { set_state_flag = annexation_trigger_state } #Raipur
 			688 = { set_state_flag = annexation_trigger_state } #Orissa
+			689 = { set_state_flag = annexation_trigger_state } #Chhatisgarh
 			690 = { set_state_flag = annexation_trigger_state } #Coastal Andhra
 			691 = { set_state_flag = annexation_trigger_state } #Hyderabad/692
 			693 = { set_state_flag = annexation_trigger_state } #Bombay
@@ -274,8 +282,8 @@ on_actions = {
 			701 = { set_state_flag = annexation_trigger_state } #Travancore
 			702 = { set_state_flag = annexation_trigger_state } #Ceylon
 			703 = { set_state_flag = annexation_trigger_state } #Andaman
-			704 = { set_state_flag = annexation_trigger_state } #Kandahar
-			705 = { set_state_flag = annexation_trigger_state } #Herat
+			704 = { set_state_flag = annexation_trigger_state } #Zaranj
+			706 = { set_state_flag = annexation_trigger_state } #Herat
 			709 = { set_state_flag = annexation_trigger_state } #Tehran
 			718 = { set_state_flag = annexation_trigger_state } #Muhammara
 			720 = { set_state_flag = annexation_trigger_state } #Iranian Azerbaijan
@@ -298,7 +306,9 @@ on_actions = {
 			745 = { set_state_flag = annexation_trigger_state } #Aleppo
 			746 = { set_state_flag = annexation_trigger_state } #Lebanon
 			748 = { set_state_flag = annexation_trigger_state } #Al Hasakeh
+			750 = { set_state_flag = annexation_trigger_state } #Damascus
 			751 = { set_state_flag = annexation_trigger_state } #Mosul
+			752 = { set_state_flag = annexation_trigger_state } #Latakia
 			754 = { set_state_flag = annexation_trigger_state } #Baghdad
 			755 = { set_state_flag = annexation_trigger_state } #Kermanshah
 			757 = { set_state_flag = annexation_trigger_state } #Kuwait
@@ -309,19 +319,23 @@ on_actions = {
 			768 = { set_state_flag = annexation_trigger_state } #Asir
 			771 = { set_state_flag = annexation_trigger_state } #Bahrain
 			772 = { set_state_flag = annexation_trigger_state } #Qatar
-			774 = { set_state_flag = annexation_trigger_state } #Oman
+			773 = { set_state_flag = annexation_trigger_state } #Abu Dhabi
+			774 = { set_state_flag = annexation_trigger_state } #Muscat
+			775 = { set_state_flag = annexation_trigger_state } #Oman
 			777	= { set_state_flag = annexation_trigger_state } #Yemen
 			778 = { set_state_flag = annexation_trigger_state } #South Yemen
+			779 = { set_state_flag = annexation_trigger_state } #South Yemen
 			781 = { set_state_flag = annexation_trigger_state } #Cyprus
 			783 = { set_state_flag = annexation_trigger_state } #Suez Canal
 			784 = { set_state_flag = annexation_trigger_state } #Sinai
 			787 = { set_state_flag = annexation_trigger_state } #Cairo
 			794 = { set_state_flag = annexation_trigger_state } #Khartoum
 			798 = { set_state_flag = annexation_trigger_state } #Niamey
-			799 = { set_state_flag = annexation_trigger_state } #Cyrenica
-			#800 = { set_state_flag = annexation_trigger_state } #Tripolitania
+			800 = { set_state_flag = annexation_trigger_state } #Tripoli
 			803 = { set_state_flag = annexation_trigger_state } #Tunis
 			805 = { set_state_flag = annexation_trigger_state } #Algier
+			809 = { set_state_flag = annexation_trigger_state } #Tangier
+			810 = { set_state_flag = annexation_trigger_state } #The Rif
 			812 = { set_state_flag = annexation_trigger_state } #Rabat
 			825 = { set_state_flag = annexation_trigger_state } #Trarza
 			826	= { set_state_flag = annexation_trigger_state } #Senegal
@@ -337,7 +351,7 @@ on_actions = {
 			838 = { set_state_flag = annexation_trigger_state } #Gold Coast
 			839 = { set_state_flag = annexation_trigger_state } #Togo
 			840 = { set_state_flag = annexation_trigger_state } #Benin
-			841 = { set_state_flag = annexation_trigger_state } #Lagos/Dahomey
+			841 = { set_state_flag = annexation_trigger_state } #Lagos
 			843 = { set_state_flag = annexation_trigger_state } #Nigeria
 			844 = { set_state_flag = annexation_trigger_state } #Hausaland
 			845 = { set_state_flag = annexation_trigger_state } #Bornu
@@ -367,7 +381,7 @@ on_actions = {
 			897 = { set_state_flag = annexation_trigger_state } #Zanzibar/Stone Town
 			900 = { set_state_flag = annexation_trigger_state } #Angola
 			904 = { set_state_flag = annexation_trigger_state } #Barotseland
-			905 = { set_state_flag = annexation_trigger_state } #Northwestern Rhodesia
+			905 = { set_state_flag = annexation_trigger_state } #Solwesi
 			906 = { set_state_flag = annexation_trigger_state } #Lusaka
 			909 = { set_state_flag = annexation_trigger_state } #Nyasaland
 			910 = { set_state_flag = annexation_trigger_state } #Northern Zambezia
@@ -383,8 +397,9 @@ on_actions = {
 			933 = { set_state_flag = annexation_trigger_state } #Madagascar
 			938 = { set_state_flag = annexation_trigger_state } #Maldives
 			939 = { set_state_flag = annexation_trigger_state } #Diego Garcia
+			943 = { set_state_flag = annexation_trigger_state } #Newfoundland
 			944 = { set_state_flag = annexation_trigger_state } #St.Pierre & Miquelon
-			946 = { set_state_flag = annexation_trigger_state } #Quebec
+			947 = { set_state_flag = annexation_trigger_state } #Quebec
 			951 = { set_state_flag = annexation_trigger_state } #Ontario
 			960 = { set_state_flag = annexation_trigger_state } #Washington
 			1002 = { set_state_flag = annexation_trigger_state } #Austin
@@ -393,11 +408,11 @@ on_actions = {
 			1031 = { set_state_flag = annexation_trigger_state } #Mexico City
 			1034 = { set_state_flag = annexation_trigger_state } #Yucatan
 			1035 = { set_state_flag = annexation_trigger_state } #Guatemala
+			1036 = { set_state_flag = annexation_trigger_state } #Belize
 			1037 = { set_state_flag = annexation_trigger_state } #Honduras
 			1038 = { set_state_flag = annexation_trigger_state } #El Salvador
 			1039 = { set_state_flag = annexation_trigger_state } #Nicaragua
 			1041 = { set_state_flag = annexation_trigger_state } #Costa Rica
-			1043 = { set_state_flag = annexation_trigger_state } #Panama Canal
 			1044 = { set_state_flag = annexation_trigger_state } #Panama
 			1046 = { set_state_flag = annexation_trigger_state } #Bogotá
 			1050 = { set_state_flag = annexation_trigger_state } #Manabi

@@ -1,7 +1,7 @@
 ideologies = {
 	authoritarian_socialist = {
 		types = {
-			authsoc_subtype = { }
+			authoritarian_socialist_subtype = { }
 			revolutionary_showaism_subtype = { can_be_randomly_selected = no }
 			national_bolshevism_subtype = { can_be_randomly_selected = no color = { 64 4 4 } }
 		}

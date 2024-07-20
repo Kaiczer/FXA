@@ -41,7 +41,7 @@ is_arabian_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_arabian_tag
 		OR = {
-			original_tag = ARB 
+			original_tag = HEJ 
 			original_tag = RAS 
 			original_tag = SAU 
 		}
@@ -69,7 +69,7 @@ is_chinese_tag = {
 	#custom_trigger_tooltip = {
 	#	tooltip = is_chinese_tag
 	OR = {
-		original_tag = ANH 
+		original_tag = TNJ 
 		original_tag = MEN
 		original_tag = CHI
 		original_tag = FNG
@@ -301,10 +301,11 @@ is_russian_tag = {
 		original_tag = SOV
 	}
 }
-is_south_slav_tag = {
+is_yugoslavian_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_south_slav_tag
 		OR = {
+			original_tag = YUG
 			original_tag = SER
 			original_tag = CRO
 			original_tag = BOS
@@ -514,7 +515,7 @@ is_romanian_tag = {
 		tooltip = is_romanian_tag
 		OR = {
 			original_tag = ROM
-			original_tag = TRS
+			original_tag = TRA
 			original_tag = MOL
 		}
 	}

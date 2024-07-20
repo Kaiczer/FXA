@@ -206,19 +206,13 @@ both_socialist_or_both_not_socialist = {
 is_monarchy = {
 	custom_trigger_tooltip = {
 		tooltip = is_monarchy
-		has_socialist_government = no #nope, don't even bother
-		var:country_leader = {
+		has_socialist_government = no 
+		any_character = {
+			is_country_leader = yes
 			OR = {
 				has_character_flag = is_monarch
 				has_character_flag = is_regent
 			}
 		}
-	}
-}
-is_country_monarchy = {
-	custom_trigger_tooltip = {
-		tooltip = is_monarchy
-		has_socialist_government = no 
-		has_country_flag = country_is_monarchy
 	}
 }

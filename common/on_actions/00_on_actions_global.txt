@@ -2134,13 +2134,13 @@ on_actions = {
 							OR = {
 								tag = SAU
 								tag = RAS 
-								original_tag = ARB
+								original_tag = HEJ
 							}
 							FROM = {
 								OR = {
 									tag = SAU
 									tag = RAS 
-									original_tag = ARB
+									original_tag = HEJ
 								}
 							}
 						}

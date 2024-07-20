@@ -14,6 +14,7 @@ can_release_yucatan = {
     state = 1034
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_mexico_first = yes 
         NOT = {
             country_exists = CRU
             has_country_flag = CRU_CONQ
@@ -91,6 +92,7 @@ can_release_panama_canal = {
     state = 1043
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_panama_first = yes
         NOT = {
             has_country_flag = PANAMA_CANAL_CONQ
         }
@@ -156,6 +158,7 @@ can_release_puerto_rico = {
     state = 1140
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_america_first = yes
         NOT = {
             country_exists = PUE
             has_country_flag = PUE_CONQ
@@ -167,6 +170,11 @@ can_release_suriname = {
     state = 1122
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        OR = {
+            1124 = { is_valid_annexation_state = no }
+            country_exists = GYA
+            has_country_flag = GYA_CONQ
+        }
         NOT = {
             country_exists = SUR
             has_country_flag = SUR_CONQ
@@ -189,6 +197,16 @@ can_release_east_guyana = {
     state = 1121
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        OR = {
+            1124 = { is_valid_annexation_state = no }
+            country_exists = GYA
+            has_country_flag = GYA_CONQ
+        }
+        OR = {
+            1122 = { is_valid_annexation_state = no }
+            country_exists = SUR
+            has_country_flag = SUR_CONQ
+        }
         NOT = {
             has_country_flag = EAST_GUYANA_CONQ
         }
@@ -199,46 +217,31 @@ can_release_mabaruma = {
     state = 1126
     NOT = { is_claimed_by = ROOT }
     ROOT = {
+        should_release_venezuela_first = yes
+        OR = {
+            1124 = { is_valid_annexation_state = no }
+            country_exists = GYA
+            has_country_flag = GYA_CONQ
+        }
         NOT = {
             has_country_flag = MABARUMA_CONQ
         }
     }
 }
-# Caracas - annexation_CARACAS_CONQ
-can_release_caracas = {
-    state = 1132
-    NOT = { is_claimed_by = ROOT }
-    ROOT = {
-        NOT = {
-            has_country_flag = CARACAS_CONQ
-        }
+
+### Should Release First Triggers ###
+should_release_mexico_first = {
+    OR = {
+        1031 = { is_valid_annexation_state = no }
+        country_exists = MEX
+        has_country_flag = MEX_CONQ
     }
 }
-# ### SPECIAL TRIGGERS ###
-# should_release_central_america_first = {
-# 	OR = {
-# 		is_central_american_tag = yes
-# 		country_exists = CEN
-# 		has_country_flag = CEN_CONQ
-# 		has_country_flag = GUA_CONQ
-# 		AND = {
-# 			313 = { is_valid_annexation_state = no } #Guatemala
-# 			NOT = { has_subject = GUA }
-# 		}
-# 		has_country_flag = ELS_CONQ
-# 		AND = {
-# 			314 = { is_valid_annexation_state = no } #El Salvador
-# 			NOT = { has_subject = ELS }
-# 		}
-# 		has_country_flag = HON_CONQ
-# 		AND = {
-# 			312 = { is_valid_annexation_state = no } #Honduras
-# 			NOT = { has_subject = HON }
-# 		}
-# 		has_country_flag = NIC_CONQ
-# 		AND = {
-# 			317 = { is_valid_annexation_state = no } #Managua
-# 			NOT = { has_subject = NIC }
-# 		}
-# 	}
-# }
+should_release_panama_first = {
+    OR = {
+        1044 = { is_valid_annexation_state = no }
+        country_exists = PAN
+        has_country_flag = PAN_CONQ
+    }
+}
+

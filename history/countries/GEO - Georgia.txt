@@ -29,6 +29,14 @@ if = {
 	}
 }
 
+SOV = {
+	set_autonomy = {
+		target = PREV
+		autonomous_state = associated_government
+	}
+	remove_from_faction = PREV
+}
+
 set_politics = {	
 	ruling_party = paternal_autocrat
 	last_election = "1933.3.5"

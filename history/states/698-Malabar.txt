@@ -2,16 +2,18 @@
 state={
 	id=698
 	name="STATE_698"
-	provinces={
-		7391 7447 10190 10274 12275 
-	}
-	history = {
-		owner = RAJ 
+
+	history={
+		owner = RAJ
 		add_core_of = RAJ
-		 
+
 	}
+
+	provinces={
+		7391 7447 10190 12275 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

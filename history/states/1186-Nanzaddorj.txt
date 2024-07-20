@@ -1,0 +1,18 @@
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		1811 1871 4555 
+	}
+	history = {
+		owner = MON 
+		add_core_of = MON
+		add_core_of = MEN 
+		add_claim_by = CHI
+		add_claim_by = FNG
+	}
+	manpower=0
+    state_category = undeveloped_rural_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

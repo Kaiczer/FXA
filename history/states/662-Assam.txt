@@ -2,12 +2,15 @@
 state={
 	id=662
 	name="STATE_662"
-	provinces={
-		1497 1525 7455 10349 12322 12366 12395 
-	}
-	history = {
-		owner = RAJ 
+
+	history={
+		owner = RAJ
 		add_core_of = RAJ
+
+	}
+
+	provinces={
+		1497 1525 7455 10349 12322 12366 12395 13874 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

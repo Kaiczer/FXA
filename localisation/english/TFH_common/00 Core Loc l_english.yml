@@ -57,8 +57,8 @@ is_regent_NOT: "Is not acting as regent"
 is_monarchy: "§Y[THIS.GetNameWithFlag]§! is a §Ymonarchy§!"
 is_monarchy_NOT: "§Y[THIS.GetNameWithFlag]§! is §Rnot§! a §Ymonarchy§!"
 
-government_is_collapsed: "§RThe central authority of§! §Y[THIS.GetNameWithFlag]§! §Rhas been collapsed into a vacuum of power.§!"
-nation_failed_to_survive: "§RThe political turmoil of§! §Y[THIS.GetNameWithFlag]§! §Rhas reached its peak and fell into the situation of failed state.§!"
+government_is_collapsed: "§RThe government of§! §Y[THIS.GetNameWithFlag]§! §Rhas collapsed or unstabilized.§!"
+nation_failed_to_survive: "§RThe national survive rate§! §Y[THIS.GetNameWithFlag]§! §Rhas dropped into the point of the failed state.§!"
 
 ### Autonomy Events ###
 FROM_becomes_puppet: "§H[From.GetNameDefCap]§! is no longer an §HOccupied Puppet§!."

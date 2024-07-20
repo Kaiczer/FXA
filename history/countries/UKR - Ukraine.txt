@@ -28,6 +28,10 @@ if = {
 		}
 	}
 }
+
+259 = { set_demilitarized_zone = yes }
+260 = { set_demilitarized_zone = yes }
+
 POL = {
 	set_autonomy = {
 		target = PREV  
@@ -41,6 +45,35 @@ set_politics = {
 	elections_allowed = no
 }
 
+### Create Eastern European Rival Government ###
+create_dynamic_country = {
+	original_tag = UKR  
+	set_country_flag = UKR_is_soviet_puppet
+
+	set_cosmetic_tag = USR
+
+	reserve_dynamic_country = yes 
+	set_country_flag = reserved_dynamic_country 
+
+	set_politics = {	
+		ruling_party = vanguard_socialist 
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	SOV = {
+		every_owned_state = { 
+			limit = { is_core_of = UKR }
+			transfer_state_to = USR
+		}
+		set_autonomy = {
+			target = USR
+			autonomous_state = autonomous_territory
+		}
+		add_to_faction = USR
+	}
+}
 
 
 

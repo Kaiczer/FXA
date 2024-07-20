@@ -10,7 +10,7 @@
 # division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
 #                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
 #                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at leARB 1 of the following types for it to be chosen.
+#                  In automated choice, the division template must have at leHEJ 1 of the following types for it to be chosen.
 #
 # fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
 #                 mechanics to be used for fallbacks, then just skip this option.
@@ -31,11 +31,11 @@
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
 
-ARB_INF_01 = 
+HEJ_INF_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
@@ -70,15 +70,15 @@ ARB_INF_01 =
 		19 = { "Alfurqat al-%dr" }
 		20 = { "Alfurqat al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists.
 	}
 }
 
-ARB_CAV_01 = 
+HEJ_CAV_01 = 
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
@@ -114,22 +114,22 @@ ARB_CAV_01 =
 		19 = { "Alfursan Almalika al-%dr" }
 		20 = { "Alfursan Almalika al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists. As they were the same as the Cav division names, have had the numbers linked.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists. As they were the same as the Cav division names, have had the numbers linked.
 	}
 }
 
-ARB_MOT_01 = 
+HEJ_MOT_01 = 
 {
 	name = "Motorised Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_INF_01 }
+	link_numbering_with = { HEJ_INF_01 }
 
 	fallback_name = "Alfurqat al-%di"
 
@@ -157,22 +157,22 @@ ARB_MOT_01 =
 		19 = { "Alfurqat al-%dr" }
 		20 = { "Alfurqat al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists. As they were the same as the inf division names, have had the numbers linked.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
 
-ARB_ARM_01 = 
+HEJ_ARM_01 = 
 {
 	name = "Armoured Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_CAV_01 }
+	link_numbering_with = { HEJ_CAV_01 }
 
 	fallback_name = "Alfursan Almalika al-%dr"
 
@@ -201,22 +201,22 @@ ARB_ARM_01 =
 		19 = { "Alfursan Almalika al-%dr" }
 		20 = { "Alfursan Almalika al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists. As they were the same as the Cav division names, have had the numbers linked.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists. As they were the same as the Cav division names, have had the numbers linked.
 	}
 }
 
-ARB_MEC_01 = 
+HEJ_MEC_01 = 
 {
 	name = "Mechanised Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "mechanized"  }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_INF_01 }
+	link_numbering_with = { HEJ_INF_01 }
 
 	fallback_name = "Alfurqat al-%dr"
 
@@ -244,22 +244,22 @@ ARB_MEC_01 =
 		19 = { "Alfurqat al-%dr" }
 		20 = { "Alfurqat al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists. As they were the same as the inf division names, have had the numbers linked.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
 
-ARB_GAR_01 = 
+HEJ_GAR_01 = 
 {
 	name = "Garrison Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_INF_01 }
+	link_numbering_with = { HEJ_INF_01 }
 
 	fallback_name = "Alfurqat al-%dr"
 
@@ -287,22 +287,22 @@ ARB_GAR_01 =
 		19 = { "Alfurqat al-%dr" }
 		20 = { "Alfurqat al-%dr" }
 
-		# Adapted from combining the names of the HoI4 division template name and the HoI3 ARB division lists. As they were the same as the inf division names, have had the numbers linked.
+		# Adapted from combining the names of the HoI4 division template name and the HoI3 HEJ division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
 
-ARB_MAR_01 = 
+HEJ_MAR_01 = 
 {
 	name = "Marine Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ARB_MAR_01 }
+	#link_numbering_with = { HEJ_MAR_01 }
 
 	fallback_name = "al-Mushati al-%dr"
 
@@ -326,18 +326,18 @@ ARB_MAR_01 =
 	}
 }
 
-ARB_MTN_01 = 
+HEJ_MTN_01 = 
 {
 	name = "Mountain Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_MAR_01 }
+	link_numbering_with = { HEJ_MAR_01 }
 
 	fallback_name = "al-Mushati al-%dr"
 
@@ -361,18 +361,18 @@ ARB_MTN_01 =
 	}
 }
 
-ARB_PAR_01 = 
+HEJ_PAR_01 = 
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { ARB }
+	for_countries = { HEJ }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { ARB_MAR_01 }
+	link_numbering_with = { HEJ_MAR_01 }
 
 	fallback_name = "al-Mushati al-%dr"
 

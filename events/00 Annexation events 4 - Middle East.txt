@@ -6,37 +6,1369 @@
 # Any new post-annexation events need to have their triggers in the KR_on_actions file
 ###########################
 
-# Table of Contents
-#	This might sound arcane to you, but we are folliwng a center-west-north-east-south route. You'll get the hang of it
-#
-# The Levant
-#	Lebanon
-#	Anatolia
-#		Aegean Coast
-#	Egypt
-#		Suez Canal
-#		Sinai
-#	Cyrenaica
-#	Tripolitania
-#
-# Transcaucasia
-#	Georgia
-#		Batumi
-#	Azerbaijan
-#		Karabakh
-#	Armenia
-#		Kars
-#		Lazistan
-#
-# Gulf States
-#	Arabia
-#	Hejaz
-#	Iraq
-#	Kurdistan
-#	Persia
-#	Trucial States
-#	Oman
-#	Yemen
-#		Azir
-
 add_namespace = annex
+
+country_event = { # Fate of Afghanistan
+    id = annex.1242
+    title = annexation_AFG_CONQ
+    desc = annexation_AFG_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = AFG }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 706
+                }
+                add_core_of = AFG
+            }
+        }
+    }
+    option = { # Liberate AFG
+        log = "[GetLogInfo]: event annex.1242 option annex.1242.a"
+        name = annex.1242.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = AFG }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy AFG
+        log = "[GetLogInfo]: event annex.1242 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = AFG_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Hejaz
+    id = annex.1243
+    title = annexation_HEJ_CONQ
+    desc = annexation_HEJ_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = HEJ }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 763
+                }
+                add_core_of = HEJ
+            }
+        }
+    }
+    option = { # Liberate HEJ
+        log = "[GetLogInfo]: event annex.1243 option annex.1243.a"
+        name = annex.1243.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = HEJ }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy HEJ
+        log = "[GetLogInfo]: event annex.1243 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = HEJ_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Armenia
+    id = annex.1244
+    title = annexation_ARM_CONQ
+    desc = annexation_ARM_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = ARM }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 727
+                }
+                add_core_of = ARM
+            }
+        }
+    }
+    option = { # Liberate ARM
+        log = "[GetLogInfo]: event annex.1244 option annex.1244.a"
+        name = annex.1244.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = ARM }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ARM
+        log = "[GetLogInfo]: event annex.1244 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ARM_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Azerbaijan
+    id = annex.1245
+    title = annexation_AZR_CONQ
+    desc = annexation_AZR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = AZR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 722
+                }
+                add_core_of = AZR
+            }
+        }
+    }
+    option = { # Liberate AZR
+        log = "[GetLogInfo]: event annex.1245 option annex.1245.a"
+        name = annex.1245.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = AZR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy AZR
+        log = "[GetLogInfo]: event annex.1245 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = AZR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Bahrain
+    id = annex.1246
+    title = annexation_BAH_CONQ
+    desc = annexation_BAH_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = BAH }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 771
+                }
+                add_core_of = BAH
+            }
+        }
+    }
+    option = { # Liberate BAH
+        log = "[GetLogInfo]: event annex.1246 option annex.1246.a"
+        name = annex.1246.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = BAH }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy BAH
+        log = "[GetLogInfo]: event annex.1246 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = BAH_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Cyprus
+    id = annex.1247
+    title = annexation_CYP_CONQ
+    desc = annexation_CYP_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = CYP }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 781
+                }
+                add_core_of = CYP
+            }
+        }
+    }
+    option = { # Liberate CYP
+        log = "[GetLogInfo]: event annex.1247 option annex.1247.a"
+        name = annex.1247.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = CYP }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy CYP
+        log = "[GetLogInfo]: event annex.1247 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = CYP_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Dagestan
+    id = annex.1248
+    title = annexation_DAG_CONQ
+    desc = annexation_DAG_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = DAG }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 295
+                }
+                add_core_of = DAG
+            }
+        }
+    }
+    option = { # Liberate DAG
+        log = "[GetLogInfo]: event annex.1248 option annex.1248.a"
+        name = annex.1248.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = DAG }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy DAG
+        log = "[GetLogInfo]: event annex.1248 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = DAG_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Georgia
+    id = annex.1249
+    title = annexation_GEO_CONQ
+    desc = annexation_GEO_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = GEO }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 725
+                }
+                add_core_of = GEO
+            }
+        }
+    }
+    option = { # Liberate GEO
+        log = "[GetLogInfo]: event annex.1249 option annex.1249.a"
+        name = annex.1249.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = GEO }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy GEO
+        log = "[GetLogInfo]: event annex.1249 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = GEO_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Iraq
+    id = annex.1250
+    title = annexation_IRQ_CONQ
+    desc = annexation_IRQ_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = IRQ }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 754
+                }
+                add_core_of = IRQ
+            }
+        }
+    }
+    option = { # Liberate IRQ
+        log = "[GetLogInfo]: event annex.1250 option annex.1250.a"
+        name = annex.1250.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = IRQ }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy IRQ
+        log = "[GetLogInfo]: event annex.1250 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = IRQ_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Jordan
+    id = annex.1251
+    title = annexation_JOR_CONQ
+    desc = annexation_JOR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = JOR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 759
+                }
+                add_core_of = JOR
+            }
+        }
+    }
+    option = { # Liberate JOR
+        log = "[GetLogInfo]: event annex.1251 option annex.1251.a"
+        name = annex.1251.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = JOR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy JOR
+        log = "[GetLogInfo]: event annex.1251 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = JOR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Kurdistan
+    id = annex.1252
+    title = annexation_KUR_CONQ
+    desc = annexation_KUR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = KUR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 735
+                }
+                add_core_of = KUR
+            }
+        }
+    }
+    option = { # Liberate KUR
+        log = "[GetLogInfo]: event annex.1252 option annex.1252.a"
+        name = annex.1252.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KUR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KUR
+        log = "[GetLogInfo]: event annex.1252 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KUR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Kuwait
+    id = annex.1253
+    title = annexation_KUW_CONQ
+    desc = annexation_KUW_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = KUW }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 757
+                }
+                add_core_of = KUW
+            }
+        }
+    }
+    option = { # Liberate KUW
+        log = "[GetLogInfo]: event annex.1253 option annex.1253.a"
+        name = annex.1253.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KUW }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KUW
+        log = "[GetLogInfo]: event annex.1253 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KUW_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Lebanon
+    id = annex.1254
+    title = annexation_LEB_CONQ
+    desc = annexation_LEB_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = LEB }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 746
+                }
+                add_core_of = LEB
+            }
+        }
+    }
+    option = { # Liberate LEB
+        log = "[GetLogInfo]: event annex.1254 option annex.1254.a"
+        name = annex.1254.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = LEB }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy LEB
+        log = "[GetLogInfo]: event annex.1254 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = LEB_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Mohammerah
+    id = annex.1255
+    title = annexation_MHR_CONQ
+    desc = annexation_MHR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = MHR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 718
+                }
+                add_core_of = MHR
+            }
+        }
+    }
+    option = { # Liberate MHR
+        log = "[GetLogInfo]: event annex.1255 option annex.1255.a"
+        name = annex.1255.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = MHR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy MHR
+        log = "[GetLogInfo]: event annex.1255 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = MHR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Muscat
+    id = annex.1256
+    title = annexation_MUS_CONQ
+    desc = annexation_MUS_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = MUS }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 774
+                }
+                add_core_of = MUS
+            }
+        }
+    }
+    option = { # Liberate MUS
+        log = "[GetLogInfo]: event annex.1256 option annex.1256.a"
+        name = annex.1256.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = MUS }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy MUS
+        log = "[GetLogInfo]: event annex.1256 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = MUS_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Oman
+    id = annex.1257
+    title = annexation_OMA_CONQ
+    desc = annexation_OMA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = OMA }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 775
+                }
+                add_core_of = OMA
+            }
+        }
+    }
+    option = { # Liberate OMA
+        log = "[GetLogInfo]: event annex.1257 option annex.1257.a"
+        name = annex.1257.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = OMA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy OMA
+        log = "[GetLogInfo]: event annex.1257 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = OMA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Persia
+    id = annex.1258
+    title = annexation_PER_CONQ
+    desc = annexation_PER_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = PER }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 718
+                        state = 720
+                        state = 721
+                        state = 755
+                    }
+                }
+                retain_state = yes 
+                add_claim_by = PER
+            }
+            every_state = {
+                limit = {
+                    OR = {
+                        region = 116
+                        region = 155
+                        region = 269
+                    }
+                    NOT = { state = 720 }
+                }
+                add_core_of = PER
+            }
+        }
+    }
+    option = { # Liberate PER
+        log = "[GetLogInfo]: event annex.1258 option annex.1258.a"
+        name = annex.1258.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = PER }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy PER
+        log = "[GetLogInfo]: event annex.1258 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = PER_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Qatar
+    id = annex.1259
+    title = annexation_QAR_CONQ
+    desc = annexation_QAR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = QAR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 772
+                }
+                add_core_of = QAR
+            }
+        }
+    }
+    option = { # Liberate QAR
+        log = "[GetLogInfo]: event annex.1259 option annex.1259.a"
+        name = annex.1259.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = QAR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy QAR
+        log = "[GetLogInfo]: event annex.1259 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = QAR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Syria
+    id = annex.1260
+    title = annexation_SYR_CONQ
+    desc = annexation_SYR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = SYR }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 745
+                }
+                add_core_of = SYR
+            }
+        }
+    }
+    option = { # Liberate SYR
+        log = "[GetLogInfo]: event annex.1260 option annex.1260.a"
+        name = annex.1260.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = SYR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy SYR
+        log = "[GetLogInfo]: event annex.1260 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = SYR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Trucial States
+    id = annex.1261
+    title = annexation_TRU_CONQ
+    desc = annexation_TRU_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = TRU }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 773
+                }
+                add_core_of = TRU
+            }
+        }
+    }
+    option = { # Liberate TRU
+        log = "[GetLogInfo]: event annex.1261 option annex.1261.a"
+        name = annex.1261.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = TRU }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy TRU
+        log = "[GetLogInfo]: event annex.1261 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = TRU_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Turkey
+    id = annex.1262
+    title = annexation_TUR_CONQ
+    desc = annexation_TUR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 169
+                        state = 728
+                        state = 729
+                        state = 734
+                        state = 735
+                        state = 740
+                        state = 741
+                        state = 742
+                        state = 743
+                        state = 744
+                        state = 747
+                        state = 748
+                        state = 751
+                    }
+                }
+                retain_state = yes 
+            }
+            every_state = {
+                limit = {
+                    OR = {
+                        state = 730
+                        state = 733
+                    }
+                }
+                add_core_of = TUR
+            }
+        }
+    }
+    option = { # Liberate TUR
+        log = "[GetLogInfo]: event annex.1262 option annex.1262.a"
+        name = annex.1262.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = TUR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy TUR
+        log = "[GetLogInfo]: event annex.1262 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = TUR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Yemen
+    id = annex.1263
+    title = annexation_YEM_CONQ
+    desc = annexation_YEM_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = YEM }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 777
+                }
+                add_core_of = YEM
+            }
+        }
+    }
+    option = { # Liberate YEM
+        log = "[GetLogInfo]: event annex.1263 option annex.1263.a"
+        name = annex.1263.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = YEM }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy YEM
+        log = "[GetLogInfo]: event annex.1263 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = YEM_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Mugla
+    id = annex.1264
+    title = annexation_MUGLA_CONQ
+    desc = annexation_MUGLA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate MUGLA
+        log = "[GetLogInfo]: event annex.1264 option annex.1264.a"
+        name = annex.1264.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = MUGLA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy MUGLA
+        log = "[GetLogInfo]: event annex.1264 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = MUGLA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Arabia
+    id = annex.1265
+    title = annexation_ARABIA_CONQ
+    desc = annexation_ARABIA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            every_state = {
+                limit = { is_core_of = HEJ }
+                add_core_of = RAS
+            }
+            763 = { retain_state = yes }
+            767 = { retain_state = yes }
+            768 = { retain_state = yes }
+            769 = { retain_state = yes }
+        }
+    }
+
+    option = { # Liberate ARABIA
+        log = "[GetLogInfo]: event annex.1265 option annex.1265.a"
+        name = annex.1265.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = RAS }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ARABIA
+        log = "[GetLogInfo]: event annex.1265 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ARABIA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Kandahar
+    id = annex.1266
+    title = annexation_KANDAHAR_CONQ
+    desc = annexation_KANDAHAR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate KANDAHAR
+        log = "[GetLogInfo]: event annex.1266 option annex.1266.a"
+        name = annex.1266.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KANDAHAR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KANDAHAR
+        log = "[GetLogInfo]: event annex.1266 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KANDAHAR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Iranian Azerbaijan
+    id = annex.1267
+    title = annexation_IRANIAN_AZERBAIJAN_CONQ
+    desc = annexation_IRANIAN_AZERBAIJAN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate IRANIAN_AZERBAIJAN
+        log = "[GetLogInfo]: event annex.1267 option annex.1267.a"
+        name = annex.1267.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = IRANIAN_AZERBAIJAN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy IRANIAN_AZERBAIJAN
+        log = "[GetLogInfo]: event annex.1267 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = IRANIAN_AZERBAIJAN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of West Azerbaijan
+    id = annex.1268
+    title = annexation_WEST_AZERBAIJAN_CONQ
+    desc = annexation_WEST_AZERBAIJAN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate WEST_AZERBAIJAN
+        log = "[GetLogInfo]: event annex.1268 option annex.1268.a"
+        name = annex.1268.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = WEST_AZERBAIJAN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy WEST_AZERBAIJAN
+        log = "[GetLogInfo]: event annex.1268 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = WEST_AZERBAIJAN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Karabakh
+    id = annex.1269
+    title = annexation_KARABAKH_CONQ
+    desc = annexation_KARABAKH_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate KARABAKH
+        log = "[GetLogInfo]: event annex.1269 option annex.1269.a"
+        name = annex.1269.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KARABAKH }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KARABAKH
+        log = "[GetLogInfo]: event annex.1269 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KARABAKH_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Zagatala
+    id = annex.1270
+    title = annexation_ZAGATALA_CONQ
+    desc = annexation_ZAGATALA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate ZAGATALA
+        log = "[GetLogInfo]: event annex.1270 option annex.1270.a"
+        name = annex.1270.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = ZAGATALA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ZAGATALA
+        log = "[GetLogInfo]: event annex.1270 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ZAGATALA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Abkhazia
+    id = annex.1271
+    title = annexation_ABKHAZIA_CONQ
+    desc = annexation_ABKHAZIA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate ABKHAZIA
+        log = "[GetLogInfo]: event annex.1271 option annex.1271.a"
+        name = annex.1271.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = ABKHAZIA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ABKHAZIA
+        log = "[GetLogInfo]: event annex.1271 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ABKHAZIA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Bursa
+    id = annex.1272
+    title = annexation_BURSA_CONQ
+    desc = annexation_BURSA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate BURSA
+        log = "[GetLogInfo]: event annex.1272 option annex.1272.a"
+        name = annex.1272.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = BURSA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy BURSA
+        log = "[GetLogInfo]: event annex.1272 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = BURSA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Smyrna
+    id = annex.1273
+    title = annexation_SMYRNA_CONQ
+    desc = annexation_SMYRNA_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate SMYRNA
+        log = "[GetLogInfo]: event annex.1273 option annex.1273.a"
+        name = annex.1273.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = SMYRNA }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy SMYRNA
+        log = "[GetLogInfo]: event annex.1273 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = SMYRNA_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Marash
+    id = annex.1274
+    title = annexation_MARASH_CONQ
+    desc = annexation_MARASH_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate MARASH
+        log = "[GetLogInfo]: event annex.1274 option annex.1274.a"
+        name = annex.1274.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = MARASH }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy MARASH
+        log = "[GetLogInfo]: event annex.1274 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = MARASH_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Lazistan
+    id = annex.1275
+    title = annexation_LAZISTAN_CONQ
+    desc = annexation_LAZISTAN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate LAZISTAN
+        log = "[GetLogInfo]: event annex.1275 option annex.1275.a"
+        name = annex.1275.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = LAZISTAN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy LAZISTAN
+        log = "[GetLogInfo]: event annex.1275 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = LAZISTAN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Erzincan
+    id = annex.1276
+    title = annexation_ERZINCAN_CONQ
+    desc = annexation_ERZINCAN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate ERZINCAN
+        log = "[GetLogInfo]: event annex.1276 option annex.1276.a"
+        name = annex.1276.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = ERZINCAN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ERZINCAN
+        log = "[GetLogInfo]: event annex.1276 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ERZINCAN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Van
+    id = annex.1277
+    title = annexation_VAN_CONQ
+    desc = annexation_VAN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    immediate = {
+        hidden_effect = {
+            add_to_temp_array = { core_removal_array = VAN }
+            remove_all_cores_and_claims_of_tags = yes
+            every_state = {
+                limit = {
+                    state = 742
+                }
+                add_core_of = VAN
+            }
+        }
+    }
+    option = { # Liberate VAN
+        log = "[GetLogInfo]: event annex.1277 option annex.1277.a"
+        name = annex.1277.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = VAN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy VAN
+        log = "[GetLogInfo]: event annex.1277 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = VAN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Kars
+    id = annex.1278
+    title = annexation_KARS_CONQ
+    desc = annexation_KARS_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate KARS
+        log = "[GetLogInfo]: event annex.1278 option annex.1278.a"
+        name = annex.1278.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KARS }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KARS
+        log = "[GetLogInfo]: event annex.1278 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KARS_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Al Hasakeh
+    id = annex.1279
+    title = annexation_AL_HASAKEH_CONQ
+    desc = annexation_AL_HASAKEH_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate AL_HASAKEH
+        log = "[GetLogInfo]: event annex.1279 option annex.1279.a"
+        name = annex.1279.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = AL_HASAKEH }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy AL_HASAKEH
+        log = "[GetLogInfo]: event annex.1279 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = AL_HASAKEH_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Mosul
+    id = annex.1280
+    title = annexation_MOSUL_CONQ
+    desc = annexation_MOSUL_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate MOSUL
+        log = "[GetLogInfo]: event annex.1280 option annex.1280.a"
+        name = annex.1280.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = MOSUL }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy MOSUL
+        log = "[GetLogInfo]: event annex.1280 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = MOSUL_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Kermanshah
+    id = annex.1281
+    title = annexation_KERMANSHAH_CONQ
+    desc = annexation_KERMANSHAH_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate KERMANSHAH
+        log = "[GetLogInfo]: event annex.1281 option annex.1281.a"
+        name = annex.1281.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = KERMANSHAH }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy KERMANSHAH
+        log = "[GetLogInfo]: event annex.1281 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = KERMANSHAH_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Palestine
+    id = annex.1282
+    title = annexation_PALESTINE_CONQ
+    desc = annexation_PALESTINE_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate PALESTINE
+        log = "[GetLogInfo]: event annex.1282 option annex.1282.a"
+        name = annex.1282.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = PALESTINE }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy PALESTINE
+        log = "[GetLogInfo]: event annex.1282 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = PALESTINE_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Asir
+    id = annex.1283
+    title = annexation_ASIR_CONQ
+    desc = annexation_ASIR_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate ASIR
+        log = "[GetLogInfo]: event annex.1283 option annex.1283.a"
+        name = annex.1283.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = ASIR }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy ASIR
+        log = "[GetLogInfo]: event annex.1283 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = ASIR_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of South Yemen
+    id = annex.1284
+    title = annexation_SOUTH_YEMEN_CONQ
+    desc = annexation_SOUTH_YEMEN_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate SOUTH_YEMEN
+        log = "[GetLogInfo]: event annex.1284 option annex.1284.a"
+        name = annex.1284.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = SOUTH_YEMEN }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy SOUTH_YEMEN
+        log = "[GetLogInfo]: event annex.1284 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = SOUTH_YEMEN_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Suez Canal
+    id = annex.1285
+    title = annexation_SUEZ_CANAL_CONQ
+    desc = annexation_SUEZ_CANAL_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate SUEZ_CANAL
+        log = "[GetLogInfo]: event annex.1285 option annex.1285.a"
+        name = annex.1285.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = SUEZ_CANAL }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy SUEZ_CANAL
+        log = "[GetLogInfo]: event annex.1285 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = SUEZ_CANAL_CONQ
+        recheck_annexations = yes
+    }
+}
+country_event = { # Fate of Sinai
+    id = annex.1286
+    title = annexation_SINAI_CONQ
+    desc = annexation_SINAI_CONQ_desc
+    picture = GFX_report_event_generic_conference2
+    is_triggered_only = yes
+    option = { # Liberate SINAI
+        log = "[GetLogInfo]: event annex.1286 option annex.1286.a"
+        name = annex.1286.a
+        ai_chance = { base = 100 }
+        set_temp_variable = { tag_to_release = SINAI }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+    }
+    option = { # Occupy SINAI
+        log = "[GetLogInfo]: event annex.1286 option annex.occupation"
+        name = annex.occupation
+        ai_chance = { base = 0 }
+        occupy_replace_country = yes
+        set_country_flag = SINAI_CONQ
+        recheck_annexations = yes
+    }
+}

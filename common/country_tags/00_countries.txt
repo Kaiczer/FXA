@@ -1,72 +1,101 @@
-# ### Europe
-ALB = "countries/EastEuropean.txt" # Albania /
+#######################################
+#### West European Cultural Setting ###
+#######################################
+
+### Germanic ###
 AUS = "countries/WestEuropean.txt" # Austria /
-BEL = "countries/WestEuropean.txt" # Belgium /
-BLR = "countries/EastEuropean.txt" # Belarus / 
-BUL = "countries/EastEuropean.txt" # Bulgaria /
-CZE = "countries/EastEuropean.txt" # Czechoslovakia / 
-DEN = "countries/WestEuropean.txt" # Denmark / 
-ENG = "countries/Commonwealth.txt" # United Kingdom / 
-EST = "countries/EastEuropean.txt" # Estonia / 
-FIN = "countries/WestEuropean.txt" # Finland / 
-FRA = "countries/WestEuropean.txt" # France / 
-GER = "countries/WestEuropean.txt" # Germany / 
-GRE = "countries/EastEuropean.txt" # Greece / 
 HOL = "countries/WestEuropean.txt" # Netherlands / 
-HUN = "countries/WestEuropean.txt" # Hungary / 
-IRE = "countries/WestEuropean.txt" # Ireland / 
-ITA = "countries/WestEuropean.txt" # Italy/ 
-LAT = "countries/EastEuropean.txt" # Latvia/ 
-LIT = "countries/EastEuropean.txt" # Lithuania / 
-LUX = "countries/WestEuropean.txt" # Luxembourg / 
-NOR = "countries/WestEuropean.txt" # Norway / 
-POL = "countries/EastEuropean.txt" # Poland / 
-POR = "countries/WestEuropean.txt" # Portugal / 
+GER = "countries/WestEuropean.txt" # Germany / 
 RHI = "countries/WestEuropean.txt" # Rhineland / 
-ROM = "countries/EastEuropean.txt" # Romania / 
-RUS = "countries/EastEuropean.txt" # Russian Republic / 
+LUX = "countries/WestEuropean.txt" # Luxembourg / 
 SHO = "countries/WestEuropean.txt" # Schleswig-Holstein /
-SLO = "countries/EastEuropean.txt" # Slovakia / 
-SOV = "countries/EastEuropean.txt" # Soviet Union /
-SPA = "countries/WestEuropean.txt" # Spain  / 
-SWE = "countries/WestEuropean.txt" # Sweden / 
-SWI = "countries/WestEuropean.txt" # Switzerland / 
-UKR = "countries/EastEuropean.txt" # Ukraine / 
-YUG = "countries/EastEuropean.txt" # Yugoslavia / 
-# ## Splitter Tag / Europe
-BRI = "countries/WestEuropean.txt" # Brittany /
-BOS = "countries/WestEuropean.txt" # Bosnia-Herzegovina / 
-BSQ = "countries/WestEuropean.txt" # Basque /
-CRO = "countries/WestEuropean.txt" # Croatia /
-CTL = "countries/WestEuropean.txt" # Catalonia /
 FLA = "countries/WestEuropean.txt" # Flanders / 
 EGL = "countries/WestEuropean.txt" # England /
-GAL = "countries/WestEuropean.txt" # Galicia / 
-ICE = "countries/WestEuropean.txt" # Iceland / 
-MAC = "countries/WestEuropean.txt" # Macedonia / 
-MLT = "countries/WestEuropean.txt" # Malta / 
-MNE = "countries/WestEuropean.txt" # Montenegro / 
-MOL = "countries/WestEuropean.txt" # Moldova /
 NGM = "countries/WestEuropean.txt" # North Germany /
+PRS = "countries/WestEuropean.txt" # Prussia / 
+SGM = "countries/WestEuropean.txt" # South Germany /
+
+### Latin ###
+FRA = "countries/WestEuropean.txt" # France / 
+POR = "countries/WestEuropean.txt" # Portugal / 
+ROM = "countries/EastEuropean.txt" # Romania / 
+SPA = "countries/WestEuropean.txt" # Spain / 
+ITA = "countries/WestEuropean.txt" # Italy / 
+GAL = "countries/WestEuropean.txt" # Galicia / 
+MOL = "countries/WestEuropean.txt" # Moldova /
 LOM = "countries/WestEuropean.txt" # Lombardy /
 PIE = "countries/WestEuropean.txt" # Piedmont / 
-PRS = "countries/WestEuropean.txt" # Prussia / 
 SAR = "countries/WestEuropean.txt" # Sardinia / 
-SCO = "countries/WestEuropean.txt" # Scotland/ 
-SER = "countries/WestEuropean.txt" # Serbia /
-SGM = "countries/WestEuropean.txt" # South Germany /
-SLV = "countries/WestEuropean.txt" # Slovenia /
 STE = "countries/WestEuropean.txt" # Papal State
 TRA = "countries/WestEuropean.txt" # Transylvania /
 VNE = "countries/WestEuropean.txt" # Venice / 
 WLL = "countries/WestEuropean.txt" # Wallonia / 
-WLS = "countries/WestEuropean.txt" # Wales / 
 
-### North America
+### Scandinavian ###
+DEN = "countries/WestEuropean.txt" # Denmark / 
+NOR = "countries/WestEuropean.txt" # Norway / 
+SWE = "countries/WestEuropean.txt" # Sweden / 
+ICE = "countries/WestEuropean.txt" # Iceland / 
+
+### Various ###
+BEL = "countries/WestEuropean.txt" # Belgium /
+BRI = "countries/WestEuropean.txt" # Brittany /
+ENG = "countries/WestEuropean.txt" # United Kingdom / 
+HUN = "countries/WestEuropean.txt" # Hungary / 
+IRE = "countries/WestEuropean.txt" # Ireland / 
+SWI = "countries/WestEuropean.txt" # Switzerland /
+FIN = "countries/WestEuropean.txt" # Finland /  
+BSQ = "countries/WestEuropean.txt" # Basque /
+CTL = "countries/WestEuropean.txt" # Catalonia /
+MLT = "countries/WestEuropean.txt" # Malta / 
+SCO = "countries/WestEuropean.txt" # Scotland/ 
+WLS = "countries/WestEuropean.txt" # Wales /
+
+########################################
+#### East European Cultural Setting ####
+########################################
+
+### Baltic ###
+LAT = "countries/EastEuropean.txt" # Latvia / 
+LIT = "countries/EastEuropean.txt" # Lithuania /
+EST = "countries/EastEuropean.txt" # Estonia / 
+
+### Slavic ###
+BLR = "countries/EastEuropean.txt" # Belarus / 
+BUL = "countries/EastEuropean.txt" # Bulgaria /
+CZE = "countries/EastEuropean.txt" # Czechoslovakia / 
+POL = "countries/EastEuropean.txt" # Poland / 
+RUS = "countries/EastEuropean.txt" # Russian Republic / 
+SLO = "countries/EastEuropean.txt" # Slovakia / 
+SOV = "countries/EastEuropean.txt" # Soviet Union /
+UKR = "countries/EastEuropean.txt" # Ukraine / 
+YUG = "countries/EastEuropean.txt" # Yugoslavia / 
+BOS = "countries/EastEuropean.txt" # Bosnia-Herzegovina / 
+CRO = "countries/EastEuropean.txt" # Croatia /
+MAC = "countries/EastEuropean.txt" # Macedonia / 
+MNE = "countries/EastEuropean.txt" # Montenegro / 
+SER = "countries/EastEuropean.txt" # Serbia /
+SLV = "countries/EastEuropean.txt" # Slovenia /
+
+### Various ###
+ALB = "countries/EastEuropean.txt" # Albania /
+GRE = "countries/EastEuropean.txt" # Greece / 
+DAG = "countries/EastEuropean.txt" # Dagestan /
+GEO = "countries/EastEuropean.txt" # Georgia /
+CYP = "countries/MiddleEastern.txt" # Cyprus / 
+ARM = "countries/MiddleEastern.txt" # Armenia / 
+AZR = "countries/MiddleEastern.txt" # Azerbaijan /
+
+#########################################
+#### North American Cultural Setting ####
+#########################################
+
+### British Commonwealth ###
 CAN = "countries/Commonwealth.txt" # Canada / 
 NFL = "countries/Commonwealth.txt" # Newfoundland / 
+
+### the States ###
 USA = "countries/WestEuropean.txt" # United States /
-### Splitter Tag / North America
 CLB = "countries/WestEuropean.txt" # Columbia /
 CLF = "countries/WestEuropean.txt" # California / 
 NAR = "countries/WestEuropean.txt" # New America /
@@ -76,7 +105,11 @@ SCA = "countries/WestEuropean.txt" # Socialist America /
 SNE = "countries/WestEuropean.txt" # Shoshone / 
 TEX = "countries/WestEuropean.txt" # Texas / 
 
-# ### South America
+#########################################
+#### South American Cultural Setting ####
+#########################################
+
+### South America ###
 ARG = "countries/SouthAmerican.txt" # Argentina
 BOL = "countries/SouthAmerican.txt" # Bolivia
 BRA = "countries/SouthAmerican.txt" # Brazil
@@ -97,7 +130,6 @@ PAR = "countries/SouthAmerican.txt" # Paraguay
 PRU = "countries/SouthAmerican.txt" # Peru
 URG = "countries/SouthAmerican.txt" # Uruguay
 VEN = "countries/SouthAmerican.txt" # Venezuela
-# ### Splitter Tag / South America
 CRU = "countries/SouthAmerican.txt" # Cruzoob
 JAM = "countries/SouthAmerican.txt" # Jamaica
 PUE = "countries/SouthAmerican.txt" # Puerto Rico
@@ -105,21 +137,23 @@ SUR = "countries/SouthAmerican.txt" # Suriname
 TRI = "countries/SouthAmerican.txt" # Trinidad and Tobago
 GYA = "countries/SouthAmerican.txt" # Guyana
 
-# ### Central Asia
+###############################
+#### Asian Cultural Setting ###
+###############################
+
+### Middle East - Central Asia ###
 KAZ = "countries/MiddleEastern.txt" # Kazakhstan /
 KYR = "countries/MiddleEastern.txt" # Kyrgyzstan / 
 TMS = "countries/MiddleEastern.txt" # Turkmenistan / 
 UZB = "countries/MiddleEastern.txt" # Uzbekistan /
-# ### Splitter Tag / Central Asia
 TAJ = "countries/MiddleEastern.txt" # Tajikistan / 
 
-# ### Middle East
-ARB = "countries/MiddleEastern.txt" # Hashemite Arabia /
-EGY = "countries/MiddleEastern.txt" # Egypt / 
+### Middle East - Arab Sphere ###
+AFG = "countries/MiddleEastern.txt" # Afghanistan /
+HEJ = "countries/MiddleEastern.txt" # Hashemite Arabia /
 IRQ = "countries/MiddleEastern.txt" # Iraq / 
 ISC = "countries/MiddleEastern.txt" # Straits Commission /
 KUR = "countries/MiddleEastern.txt" # Kurdistan / 
-MOR = "countries/MiddleEastern.txt" # Morocco / 
 OMA = "countries/MiddleEastern.txt" # Oman / 
 MUS = "countries/MiddleEastern.txt" # Muscat / 
 PAL = "countries/MiddleEastern.txt" # Palestine /
@@ -127,10 +161,8 @@ PER = "countries/MiddleEastern.txt" # Persia /
 SYR = "countries/MiddleEastern.txt" # Syria / 
 TUR = "countries/MiddleEastern.txt" # Turkey / 
 YEM = "countries/MiddleEastern.txt" # Yemen / 
-# ### Splitter Tag / Middle East 
 BAH = "countries/MiddleEastern.txt" # Bahrain /
 RAS = "countries/MiddleEastern.txt" # Rashidi Arabia / 
-CYP = "countries/MiddleEastern.txt" # Cyprus / 
 LEB = "countries/MiddleEastern.txt" # Lebanon / 
 ISR = "countries/MiddleEastern.txt" # Israel / 
 JOR = "countries/MiddleEastern.txt" # Jordan / 
@@ -140,24 +172,14 @@ SAU = "countries/MiddleEastern.txt" # Saudi Arabia /
 TRU = "countries/MiddleEastern.txt" # Trucial States / 
 MHR = "countries/MiddleEastern.txt" # Mohammerah /
 
-# ### Asia
-AFG = "countries/MiddleEastern.txt" # Afghanistan /
-ANH = "countries/Asian.txt" # Anhui /
-ARM = "countries/MiddleEastern.txt" # Armenia / 
-AZR = "countries/MiddleEastern.txt" # Azerbaijan /
-BEI = "countries/Commonwealth.txt" # British East Indies / 
-BHU = "countries/Asian.txt" # Bhutan / 
+### Far East ###
+TNJ = "countries/Asian.txt" # Tianjin /
 CHI = "countries/Asian.txt" # Kuomintang/Nanjing Regime /
-DAG = "countries/EastEuropean.txt" # Dagestan /
-DRS = "countries/EastEuropean.txt" # Sikkim /
-FIC = "countries/WestEuropean.txt" # French Indochina /
 FNG = "countries/Asian.txt" # Fengtian/Beijing Regime /
-GEO = "countries/EastEuropean.txt" # Georgia /
 JAP = "countries/Asian.txt" # Japan /
 KML = "countries/Asian.txt" # Kumul Khanate / 
 MEN = "countries/Asian.txt" # Inner Mongolia /
 MON = "countries/Asian.txt" # Mongolia /
-NEP = "countries/Asian.txt" # Nepal / 
 PHI = "countries/Asian.txt" # Philippines /
 SCH = "countries/Asian.txt" # Sichuan /
 SDL = "countries/Asian.txt" # Shandong /
@@ -168,11 +190,9 @@ TIB = "countries/Asian.txt" # Tibet /
 XSM = "countries/Asian.txt" # Ma Clique /
 YUN = "countries/Asian.txt" # Yunnan /
 ZHI = "countries/Asian.txt" # Zhili /
-# ### Splitter Tag / Asia
 BRM = "countries/Asian.txt" # Burma /
 CAM = "countries/Asian.txt" # Cambodia /
 CHB = "countries/Asian.txt" # Chuanbian/Xikang Clique /
-DEI = "countries/WestEuropean.txt" # Dutch East Indies / 
 ETK = "countries/Asian.txt" # East Turkestan / 
 HNN = "countries/Asian.txt" # Hunan /
 GXC = "countries/Asian.txt" # Guangxi / 
@@ -182,16 +202,14 @@ INS = "countries/Asian.txt" # Insulindia /
 KCH = "countries/Asian.txt" # Kachin /
 KOR = "countries/Asian.txt" # Korea / 
 LAO = "countries/Asian.txt" # Laos /
-SIB = "countries/EastEuropean.txt" # Siberia/
 SRW = "countries/Asian.txt" # Sarawak /
 MAL = "countries/Asian.txt" # Malaysia /
 SHN = "countries/Asian.txt" # Shan /
 TAI = "countries/Asian.txt" # Taiwan /
 VIN = "countries/Asian.txt" # Vietnam / 
 
-# ### South Asia
+### India ###
 RAJ = "countries/Commonwealth.txt" # British Raj
-# ### Splitter Tag / South Asia
 ASM = "countries/Indian.txt" # Assam / 
 BAL = "countries/Indian.txt" # Baluchistan / 
 BNG = "countries/Indian.txt" # Bengal / 
@@ -207,73 +225,96 @@ ORI = "countries/Indian.txt" # Orissa /
 PAK = "countries/Indian.txt" # Pakistan / 
 PUN = "countries/Indian.txt" # Punjab / 
 RJH = "countries/Indian.txt" # Rajahstan / 
-TRV = "countries/Indian.txt" # Travancore / 
+TRV = "countries/Indian.txt" # Travancore /
 
-# ### Africa
-AFR = "countries/African.txt" # Afra, Aussa /
-COG = "countries/African.txt" # Congo / Belgian Congo 
-EQA = "countries/African.txt" # French Equatorial Africa / 
-ETH = "countries/African.txt" # Ethiopia / 
-KEN = "countries/African.txt" # Kenya, British East Africa / 
-LIB = "countries/African.txt" # Liberia / 
+### Various ###
+BHU = "countries/Asian.txt" # Bhutan / 
+NEP = "countries/Asian.txt" # Nepal / 
+DRS = "countries/Asian.txt" # Sikkim/Dremoshong /
+DEI = "countries/WestEuropean.txt" # Dutch East Indies / 
+SIB = "countries/EastEuropean.txt" # Siberia /
+BEI = "countries/Commonwealth.txt" # British East Indies / 
+FIC = "countries/FrenchColony.txt" # French Indochina /
+
+##################################
+#### African Cultural Setting ####
+##################################
+
+### North Africa ###
 LBA = "countries/MiddleEastern.txt" # Libya /
-NGA = "countries/African.txt" # Nigeria / 
-RHO = "countries/African.txt" # Rhodesia / 
-SAF = "countries/Commonwealth.txt" # South Africa / 
 TUN = "countries/MiddleEastern.txt" # Tunisia / 
-WEA = "countries/African.txt" # French West Africa / 
-### Splitter Tag / Africa
+ALG = "countries/MiddleEastern.txt" # Algeria /
+EGY = "countries/MiddleEastern.txt" # Egypt / 
+MOR = "countries/MiddleEastern.txt" # Morocco / 
+
+### West Africa ###
+NGA = "countries/African.txt" # Nigeria / 
 ADA = "countries/African.txt" # Kel Adagh /
 AIR = "countries/African.txt" # Kel Air  / 
-ALG = "countries/MiddleEastern.txt" # Algeria /
-ANG = "countries/African.txt" # Angola / 
-BGA = "countries/African.txt" # Buganda / 
-BOR = "countries/African.txt" # Bornu / 
-BOT = "countries/African.txt" # Botswana / 
-BRD = "countries/African.txt" # Burundi / 
-BSL = "countries/African.txt" # Barotseland / 
+HAU = "countries/African.txt" # Hausaland /
+MRT = "countries/African.txt" # Mauritania / 
+MSL = "countries/African.txt" # Mossiland / 
+MLI = "countries/African.txt" # Mali / 
+LIB = "countries/African.txt" # Liberia /
+BOR = "countries/African.txt" # Bornu /  
 CHA = "countries/African.txt" # Chad / 
-CMR = "countries/African.txt" # Cameroon / 
 DAH = "countries/African.txt" # Dahomey /
-ERI = "countries/African.txt" # Eritrea / 
-GAB = "countries/African.txt" # Gabon / 
 GAM = "countries/African.txt" # Gambia / 
 GHA = "countries/African.txt" # Ghana / 
 GNA = "countries/African.txt" # Guinea /
-HAU = "countries/African.txt" # Hausaland /
+SIE = "countries/African.txt" # Sierra Leone / 
 IVO = "countries/African.txt" # Ivory Coast / 
+TOG = "countries/African.txt" # Togo /
+YOR = "countries/African.txt" # Yoruba /
+NGR = "countries/African.txt" # Niger /
+SEN = "countries/African.txt" # Senegal / 
+
+### Central Africa ###
+COG = "countries/African.txt" # Congo / Belgian Congo 
+CMR = "countries/African.txt" # Cameroon / 
+ANG = "countries/African.txt" # Angola / 
+GAB = "countries/African.txt" # Gabon / 
+OBG = "countries/African.txt" # Oubangui-Chari /
+
+### East Africa ###
+AFR = "countries/African.txt" # Afra, Aussa /
+ETH = "countries/African.txt" # Ethiopia / 
+ERI = "countries/African.txt" # Eritrea / 
+SOM = "countries/African.txt" # Somalia / 
+SUD = "countries/African.txt" # Sudan / 
+KEN = "countries/African.txt" # Kenya / 
+BGA = "countries/African.txt" # Buganda / 
+BRD = "countries/African.txt" # Burundi / 
+RWA = "countries/African.txt" # Rwanda / 
+TGN = "countries/African.txt" # Tanganyika / 
+UGA = "countries/African.txt" # Uganda /
+ZAN = "countries/African.txt" # Zanzibar / 
+
+### South Africa ###
+BOT = "countries/African.txt" # Botswana / 
+BSL = "countries/African.txt" # Barotseland / 
 LES = "countries/African.txt" # Lesotho /
 MAD = "countries/African.txt" # Madagascar /
-MLI = "countries/African.txt" # Mali / 
 MLW = "countries/African.txt" # Nyasaland /
-MRT = "countries/African.txt" # Mauritania / 
-MSL = "countries/African.txt" # Mossiland / Only for French West Africa Collapse
 MZB = "countries/African.txt" # Mozambique /
-NGR = "countries/African.txt" # Niger /
 NMB = "countries/African.txt" # Namibia /
-OBG = "countries/African.txt" # Oubangui-Chari /
-RWA = "countries/African.txt" # Rwanda / 
-SEN = "countries/African.txt" # Senegal / 
-SIE = "countries/African.txt" # Sierra Leone / 
-SOM = "countries/African.txt" # Somalia / 
 SWA = "countries/African.txt" # Swaziland /
-SUD = "countries/African.txt" # Sudan / 
-TGN = "countries/African.txt" # Tanganyika / 
-TOG = "countries/African.txt" # Togo /
-UGA = "countries/African.txt" # Uganda /
-YOR = "countries/African.txt" # Yoruba /
 ZAM = "countries/African.txt" # Zambia / 
-ZAN = "countries/African.txt" # Zanzibar / 
 ZIM = "countries/African.txt" # Zimbabwe / 
 
-# ### Oceania
+### Various ###
+EQA = "countries/FrenchColony.txt" # French Equatorial Africa / 
+WEA = "countries/FrenchColony.txt" # French West Africa / 
+RHO = "countries/Commonwealth.txt" # United Rhodesia / 
+SAF = "countries/Commonwealth.txt" # South Africa / 
+
+### Oceania ###
 AST = "countries/Commonwealth.txt" # Australia
 NZL = "countries/Commonwealth.txt" # New Zealand
-# ### Splitter Tag / Oceania
-FIJ = "countries/Indian.txt" # Fiji
-SSF = "countries/Indian.txt" # South Seas Federation
-HAW = "countries/WestEuropean.txt" # Hawaii
 PNG = "countries/Commonwealth.txt" # Papua New Guinea
+FIJ = "countries/Commonwealth.txt" # Fiji
+SSF = "countries/Commonwealth.txt" # South Seas Federation
+HAW = "countries/WestEuropean.txt" # Hawaii
 
-# ### Others
-XXB = "countries/WestEuropean.txt" # GFX TWO?
+### Others
+XXB = "countries/WestEuropean.txt" # Archive of the World

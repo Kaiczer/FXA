@@ -895,21 +895,6 @@ determine_chinese_ally = {
 			}
 		}
 		else_if = {
-			limit = {
-				original_tag = JAP
-				has_global_flag = JAP_defeated_by_china
-				any_of_scopes = {
-					array = global.china_tags_array
-					china_is_potential_government = yes
-					exists = yes
-					is_subject = no
-					NOT = { has_war_with = JAP }
-				}
-			}
-			#get_highest_scored_country_temp = { scorer = strongest_chinese_government }
-			var:highest_scored_country = { save_event_target_as = japan_forced_return }
-		}
-		else_if = {
 			limit = { has_socialist_government = yes }
 			if = {
 				limit = {
