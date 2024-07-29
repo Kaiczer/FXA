@@ -1,0 +1,16 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_GER_ferdinand_werner_civ_small"
+		texturefile = "gfx/interface/advisors/GER/GER_ferdinand_werner.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_erich_ludendorff_civ_small"
+		texturefile = "gfx/interface/advisors/GER/GER_erich_ludendorff.png"
+	}
+	spriteType = {
+		name = "GFX_portrait_GER_otto_strasser_civ_small"
+		texturefile = "gfx/interface/advisors/GER/GER_otto_strasser.png"
+	}
+
+}

@@ -2,18 +2,21 @@
 state={
 	id=565
 	name="STATE_565"
-	provinces={
-		4313 4403 5193 7397 10787 10918 
-	}
-	history = {
+
+	history={
 		owner = XSM
 		add_core_of = XSM
 		add_claim_by = CHI
 		add_claim_by = FNG
 		add_claim_by = TIB
+
 	}
+
+	provinces={
+		4313 5193 7397 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

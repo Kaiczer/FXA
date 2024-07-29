@@ -1,14 +1,14 @@
--- Kaiserreich defines
--- Added in FXA by Kaiczer
+-- Originated from Kaiserreich
+-- Added in TFH by Kaiczer
 -- Commented out items are under re-evaluation
 
 -- Links
-NDefines.NWiki.BASE_URL = "https://kaiserreich.fandom.com/wiki/The_Kaiserreich_Wiki"
+NDefines.NWiki.BASE_URL = "https://the-finest-hour.fandom.com/wiki/The_Finest_Hour:_Another_Story_Wiki"
 -- Vanilla is "http://www.hoi4wiki.com/"
 
 -- Career Profile
-NDefines.NCareerProfile.MOD_STATISTICS_GROUP = "kaiserreich_career_profile"
-NDefines.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "KAISERREICH_CAREER_PROFILE"
+NDefines.NCareerProfile.MOD_STATISTICS_GROUP = "finest_hour_career_profile"
+NDefines.NCareerProfile.MOD_STATISTICS_GROUP_NAME = "FINEST_HOUR_CAREER_PROFILE"
 
 -- Game
 NDefines.NGame.END_DATE = "1959.1.1.1"										-- Vanilla is 1949.1.1.1
@@ -17,7 +17,7 @@ NDefines.NGame.DECISION_ALERT_TIMEOUT_DAYS = 60								-- Vanilla is 30
 NDefines.NCountry.BASE_STABILITY_PARTY_POPULARITY_FACTOR = 0.0				-- Vanilla is 0.15
 NDefines.NCountry.MIN_STABILITY = -1.0										-- Vanilla is 0.0
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 5									-- Vanilla is 20
-NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.5						-- Vanilla is 2
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.25						-- Vanilla is 2 
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1						-- Vanilla is 0.2
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1              -- Vanilla is 0.5
 NDefines.NCountry.SPECIAL_FORCES_CAP_BASE = 0.1								-- Vanilla is 0.05

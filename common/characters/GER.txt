@@ -1,29 +1,106 @@
 characters = {
-	GER_Adam_Dressler = {
-		name = GER_Adam_Dressler
+	# Head of State / Party or Faction Leader
+	GER_adam_dressler = {
+		name = GER_adam_dressler
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/GER_Adam_Dressler.png"
+				large = "gfx/leaders/GER/GER_adam_dressler.png"
 			}
 		}
 		country_leader = {
 			ideology = deutschevolkism_subtype
     		desc = "POLITICS_ADAM_DRESSLER_DESC"
-			traits = { }
+			traits = { 
+				GER_leader_of_people
+			}
 		}
 	}
-	GER_Wilhelm_Teudt = {
-		name = "Wilhelm Teudt"
+	GER_wilhelm_teudt = {
+		name = GER_wilhelm_teudt
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/GER/GER_Wilhelm_Teudt.png"
+				large = "gfx/leaders/GER/GER_wilhelm_teudt.png"
 			}
 		}
 		country_leader = {
 			ideology = revolutionary_nationalist_subtype
 			traits = {
-				#GER_fuehrer_viceroy
+				#GER_fuehrer_puppet
 			}
+		}
+	}
+	# Ministers 
+	GER_ferdinand_werner = {
+		name = GER_ferdinand_werner
+		portraits = {
+			civilian = {
+				small = GFX_portrait_GER_ferdinand_werner_civ_small
+			}
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = GER_ferdinand_werner_sic
+			desc = GER_ferdinand_werner_desc
+			traits = { 
+				reich_chancellor
+				TFH_volkism_preacher
+			}
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	GER_erich_ludendorff = {
+		name = GER_erich_ludendorff
+		portraits = {
+			civilian = {
+				small = GFX_portrait_GER_erich_ludendorff_civ_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_erich_ludendorff_adv
+			desc = GER_erich_ludendorff_desc
+			on_add = {
+				GER_erich_ludendorff = { set_character_flag = GER_event_only }
+			}
+			on_remove = {
+				GER_erich_ludendorff = { clr_character_flag = GER_event_only }
+			}
+			available = {
+				has_character_flag = GER_event_only
+			}
+			traits = {
+				TFH_powerless_vice_chancellor
+				TFH_general_from_altesreich
+			}
+			can_be_fired = no
+		}
+	}
+	GER_otto_strasser = {
+		name = GER_otto_strasser
+		portraits = {
+			civilian = {
+				small = GFX_portrait_GER_otto_strasser_civ_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_otto_strasser_adv
+			desc = GER_otto_strasser_desc
+			on_add = {
+				GER_otto_strasser = { set_character_flag = GER_event_only }
+			}
+			on_remove = {
+				GER_otto_strasser = { clr_character_flag = GER_event_only }
+			}
+			available = {
+				has_character_flag = GER_event_only
+			}
+			traits = {
+				TFH_aufsichtsrat_president
+				TFH_staunch_left_volkist
+			}
+			can_be_fired = no
 		}
 	}
 }

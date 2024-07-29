@@ -80,7 +80,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_gain = 0.15
+				political_power_factor = 0.08
 				consumer_goods_expected_value = 0.35
 				production_speed_industrial_complex_factor = -0.3
 				production_speed_arms_factory_factor = -0.3
@@ -108,7 +108,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.1
+				political_power_factor = 0.05
 				consumer_goods_expected_value = 0.3
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
@@ -130,7 +130,7 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_gain = 0.05
+				political_power_factor = 0.03
 				consumer_goods_expected_value = 0.25
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor = -0.1
@@ -1050,9 +1050,9 @@ ideas = {
 				always = no
 			}
 		}
-		centralized_state = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea centralized_state" }
-			on_remove = { set_variable = { previous_government_type = token:centralized_state } }
+		states_federal_system = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea states_federal_system" }
+			on_remove = { set_variable = { previous_government_type = token:states_federal_system } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1061,20 +1061,9 @@ ideas = {
 				always = no
 			}
 		}
-		states_federalism_system = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea states_federalism_system" }
-			on_remove = { set_variable = { previous_government_type = token:states_federalism_system } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-		}
-		european_federalism_system = { 
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea european_federalism_system" }
-			on_remove = { set_variable = { previous_government_type = token:european_federalism_system } }
+		european_federal_system = { 
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea european_federal_system" }
+			on_remove = { set_variable = { previous_government_type = token:european_federal_system } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1119,17 +1108,6 @@ ideas = {
 		latin_american_confederalism = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea latin_american_confederalism" }
 			on_remove = { set_variable = { previous_government_type = token:latin_american_confederalism } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-		}
-		union_of_imperiums = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea union_of_imperiums" }
-			on_remove = { set_variable = { previous_government_type = token:union_of_imperiums } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no

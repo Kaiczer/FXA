@@ -23,7 +23,7 @@ else_if = {
     ROOT = { activate_mission = annexation_BRI_CONQ }
 }
 else_if = {
-    limit = { can_release_euskadi = yes }
+    limit = { can_release_basque_country = yes }
     ROOT = { activate_mission = annexation_BSQ_CONQ }
 }
 else_if = {
@@ -59,7 +59,7 @@ else_if = {
     ROOT = { activate_mission = annexation_EGL_CONQ }
 }
 else_if = {
-    limit = { can_release_great britain = yes }
+    limit = { can_release_great_britain = yes }
     ROOT = { activate_mission = annexation_ENG_CONQ }
 }
 else_if = {
@@ -143,7 +143,7 @@ else_if = {
     ROOT = { activate_mission = annexation_MOL_CONQ }
 }
 else_if = {
-    limit = { can_release_north germany = yes }
+    limit = { can_release_north_germany = yes }
     ROOT = { activate_mission = annexation_NGM_CONQ }
 }
 else_if = {
@@ -191,11 +191,11 @@ else_if = {
     ROOT = { activate_mission = annexation_SER_CONQ }
 }
 else_if = {
-    limit = { can_release_south germany = yes }
+    limit = { can_release_south_germany = yes }
     ROOT = { activate_mission = annexation_SGM_CONQ }
 }
 else_if = {
-    limit = { can_release_schleswig = yes }
+    limit = { can_release_schleswig_holstein = yes }
     ROOT = { activate_mission = annexation_SHO_CONQ }
 }
 else_if = {
@@ -211,7 +211,7 @@ else_if = {
     ROOT = { activate_mission = annexation_SPA_CONQ }
 }
 else_if = {
-    limit = { can_release_papal state = yes }
+    limit = { can_release_papal_state = yes }
     ROOT = { activate_mission = annexation_STE_CONQ }
 }
 else_if = {
@@ -255,7 +255,7 @@ else_if = {
     ROOT = { activate_mission = annexation_CONSTANTINOPLE_CONQ }
 }
 else_if = {
-    limit = { can_release_upper silesia = yes }
+    limit = { can_release_upper_silesia = yes }
     ROOT = { activate_mission = annexation_UPPER_SILESIA_CONQ }
 }
 else_if = {
@@ -263,11 +263,11 @@ else_if = {
     ROOT = { activate_mission = annexation_SAXONY_CONQ }
 }
 else_if = {
-    limit = { can_release_east oder = yes }
+    limit = { can_release_east_oder = yes }
     ROOT = { activate_mission = annexation_EAST_ODER_CONQ }
 }
 else_if = {
-    limit = { can_release_north brabant = yes }
+    limit = { can_release_north_brabant = yes }
     ROOT = { activate_mission = annexation_NORTH_BRABANT_CONQ }
 }
 else_if = {
@@ -283,20 +283,16 @@ else_if = {
     ROOT = { activate_mission = annexation_BASTOGNE_CONQ }
 }
 else_if = {
-    limit = { can_release_alsace lorraine = yes }
+    limit = { can_release_alsace_lorraine = yes }
     ROOT = { activate_mission = annexation_ALSACE_LORRAINE_CONQ }
 }
 else_if = {
-    limit = { can_release_basses pyrenees = yes }
+    limit = { can_release_basses_pyrenees = yes }
     ROOT = { activate_mission = annexation_BASSES_PYRENEES_CONQ }
 }
 else_if = {
-    limit = { can_release_rousillon = yes }
+    limit = { can_release_roussillon = yes }
     ROOT = { activate_mission = annexation_ROUSSILLON_CONQ }
-}
-else_if = {
-    limit = { can_release_pyrenees = yes }
-    ROOT = { activate_mission = annexation_PYRENEES_CONQ }
 }
 else_if = {
     limit = { can_release_savoy = yes }
@@ -307,8 +303,8 @@ else_if = {
     ROOT = { activate_mission = annexation_NICE_CONQ }
 }
 else_if = {
-    limit = { can_release_balearic island = yes }
-    ROOT = { activate_mission = annexation_BALEARIC_ISLAND_CONQ }
+    limit = { can_release_balearic_islands = yes }
+    ROOT = { activate_mission = annexation_BALEARIC_ISLANDS_CONQ }
 }
 else_if = {
     limit = { can_release_valencia = yes }
@@ -351,7 +347,7 @@ else_if = {
     ROOT = { activate_mission = annexation_LIGURIA_CONQ }
 }
 else_if = {
-    limit = { can_release_aosta valley = yes }
+    limit = { can_release_aosta_valley = yes }
     ROOT = { activate_mission = annexation_AOSTA_VALLEY_CONQ }
 }
 else_if = {
@@ -359,7 +355,7 @@ else_if = {
     ROOT = { activate_mission = annexation_TRENTO_CONQ }
 }
 else_if = {
-    limit = { can_release_south tyrol = yes }
+    limit = { can_release_south_tyrol = yes }
     ROOT = { activate_mission = annexation_SOUTH_TYROL_CONQ }
 }
 else_if = {
@@ -395,27 +391,23 @@ else_if = {
     ROOT = { activate_mission = annexation_DUBROVNIK_CONQ }
 }
 else_if = {
-    limit = { can_release_slavonia = yes }
-    ROOT = { activate_mission = annexation_SLAVONIA_CONQ }
+    limit = { can_release_north_epirus = yes }
+    ROOT = { activate_mission = annexation_NORTH_EPIRUS_CONQ }
 }
 else_if = {
-    limit = { can_release_northern epirus = yes }
-    ROOT = { activate_mission = annexation_NORTHERN_EPIRUS_CONQ }
-}
-else_if = {
-    limit = { can_release_dodecanese = yes }
-    ROOT = { activate_mission = annexation_DODECANESE_CONQ }
+    limit = { can_release_mugla = yes }
+    ROOT = { activate_mission = annexation_MUGLA_CONQ }
 }
 else_if = {
     limit = { can_release_aegeans = yes }
     ROOT = { activate_mission = annexation_AEGEANS_CONQ }
 }
 else_if = {
-    limit = { can_release_west macedonia = yes }
+    limit = { can_release_west_macedonia = yes }
     ROOT = { activate_mission = annexation_WEST_MACEDONIA_CONQ }
 }
 else_if = {
-    limit = { can_release_east macedonia = yes }
+    limit = { can_release_east_macedonia = yes }
     ROOT = { activate_mission = annexation_EAST_MACEDONIA_CONQ }
 }
 else_if = {
@@ -447,7 +439,7 @@ else_if = {
     ROOT = { activate_mission = annexation_BANAT_CONQ }
 }
 else_if = {
-    limit = { can_release_west banat = yes }
+    limit = { can_release_west_banat = yes }
     ROOT = { activate_mission = annexation_WEST_BANAT_CONQ }
 }
 else_if = {
@@ -459,8 +451,8 @@ else_if = {
     ROOT = { activate_mission = annexation_BACHKA_CONQ }
 }
 else_if = {
-    limit = { can_release_south slovakia = yes }
-    ROOT = { activate_mission = annexation_SOUTH_SLOVAKIA_CONQ }
+    limit = { can_release_southern_slovakia = yes }
+    ROOT = { activate_mission = annexation_SOUTHERN_SLOVAKIA_CONQ }
 }
 else_if = {
     limit = { can_release_transcapathia = yes }
@@ -483,7 +475,7 @@ else_if = {
     ROOT = { activate_mission = annexation_TESIN_CONQ }
 }
 else_if = {
-    limit = { can_release_west prussia = yes }
+    limit = { can_release_west_prussia = yes }
     ROOT = { activate_mission = annexation_WEST_PRUSSIA_CONQ }
 }
 else_if = {
@@ -491,7 +483,7 @@ else_if = {
     ROOT = { activate_mission = annexation_POSEN_CONQ }
 }
 else_if = {
-    limit = { can_release_east prussia = yes }
+    limit = { can_release_east_prussia = yes }
     ROOT = { activate_mission = annexation_EAST_PRUSSIA_CONQ }
 }
 else_if = {
@@ -567,11 +559,15 @@ else_if = {
     ROOT = { activate_mission = annexation_CRIMEA_CONQ }
 }
 else_if = {
+    limit = { can_release_east_belarus = yes }
+    ROOT = { activate_mission = annexation_EAST_BELARUS_CONQ }
+}
+else_if = {
     limit = { can_release_stanislawow = yes }
     ROOT = { activate_mission = annexation_STANISLAWOW_CONQ }
 }
 else_if = {
-    limit = { can_release_white karelia = yes }
+    limit = { can_release_white_karelia = yes }
     ROOT = { activate_mission = annexation_WHITE_KARELIA_CONQ }
 }
 else_if = {
@@ -583,8 +579,8 @@ else_if = {
     ROOT = { activate_mission = annexation_MURMANSK_CONQ }
 }
 else_if = {
-    limit = { can_release_alexandrosk = yes }
-    ROOT = { activate_mission = annexation_ALEXANDROSK_CONQ }
+    limit = { can_release_alexandrovsk = yes }
+    ROOT = { activate_mission = annexation_ALEXANDROVSK_CONQ }
 }
 else_if = {
     limit = { can_release_aland = yes }
@@ -595,12 +591,12 @@ else_if = {
     ROOT = { activate_mission = annexation_GREENLAND_CONQ }
 }
 else_if = {
-    limit = { can_release_faroe islands = yes }
-    ROOT = { activate_mission = annexation_FAROE_ISLANDS_CONQ }
+    limit = { can_release_faroe = yes }
+    ROOT = { activate_mission = annexation_FAROE_CONQ }
 }
 else_if = {
-    limit = { can_release_ulster = yes }
-    ROOT = { activate_mission = annexation_ULSTER_CONQ }
+    limit = { can_release_northern_ireland = yes }
+    ROOT = { activate_mission = annexation_NORTHERN_IRELAND_CONQ }
 }
 else_if = {
     limit = { can_release_burma = yes }
@@ -615,8 +611,8 @@ else_if = {
     ROOT = { activate_mission = annexation_CHINA_CONQ }
 }
 else_if = {
-    limit = { can_release_dutch east indies = yes }
-    ROOT = { activate_mission = annexation_DEI_CONQ }
+    limit = { can_release_central_asia = yes }
+    ROOT = { activate_mission = annexation_CENTRAL_ASIA_CONQ }
 }
 else_if = {
     limit = { can_release_indochina = yes }
@@ -643,7 +639,7 @@ else_if = {
     ROOT = { activate_mission = annexation_KOR_CONQ }
 }
 else_if = {
-    limit = { can_release_kyrgyzstan = yes }
+    limit = { can_release_kirghizia = yes }
     ROOT = { activate_mission = annexation_KYR_CONQ }
 }
 else_if = {
@@ -659,7 +655,7 @@ else_if = {
     ROOT = { activate_mission = annexation_MAN_CONQ }
 }
 else_if = {
-    limit = { can_release_inner mongolia = yes }
+    limit = { can_release_inner_mongolia = yes }
     ROOT = { activate_mission = annexation_MEN_CONQ }
 }
 else_if = {
@@ -713,4 +709,928 @@ else_if = {
 else_if = {
     limit = { can_release_vietnam = yes }
     ROOT = { activate_mission = annexation_VIN_CONQ }
+}
+else_if = {
+    limit = { can_release_tuva = yes }
+    ROOT = { activate_mission = annexation_TUVA_CONQ }
+}
+else_if = {
+    limit = { can_release_sakhalin = yes }
+    ROOT = { activate_mission = annexation_SAKHALIN_CONQ }
+}
+else_if = {
+    limit = { can_release_kuril = yes }
+    ROOT = { activate_mission = annexation_KURIL_CONQ }
+}
+else_if = {
+    limit = { can_release_qongirot = yes }
+    ROOT = { activate_mission = annexation_QONGIROT_CONQ }
+}
+else_if = {
+    limit = { can_release_tashkent = yes }
+    ROOT = { activate_mission = annexation_TASHKENT_CONQ }
+}
+else_if = {
+    limit = { can_release_badakhshan = yes }
+    ROOT = { activate_mission = annexation_BADAKHSHAN_CONQ }
+}
+else_if = {
+    limit = { can_release_dariganga = yes }
+    ROOT = { activate_mission = annexation_DARIGANGA_CONQ }
+}
+else_if = {
+    limit = { can_release_china_port_cities = yes }
+    ROOT = { activate_mission = annexation_CHINA_PORT_CITIES_CONQ }
+}
+else_if = {
+    limit = { can_release_khovd = yes }
+    ROOT = { activate_mission = annexation_KHOVD_CONQ }
+}
+else_if = {
+    limit = { can_release_chiragsaldi = yes }
+    ROOT = { activate_mission = annexation_CHIRAGSALDI_CONQ }
+}
+else_if = {
+    limit = { can_release_aksai_chin = yes }
+    ROOT = { activate_mission = annexation_AKSAI_CHIN_CONQ }
+}
+else_if = {
+    limit = { can_release_maekong_rightbank = yes }
+    ROOT = { activate_mission = annexation_MAEKONG_RIGHT_BANK_CONQ }
+}
+else_if = {
+    limit = { can_release_patani = yes }
+    ROOT = { activate_mission = annexation_PATANI_CONQ }
+}
+else_if = {
+    limit = { can_release_tenasserim = yes }
+    ROOT = { activate_mission = annexation_TENASSERIM_CONQ }
+}
+else_if = {
+    limit = { can_release_cochinchina = yes }
+    ROOT = { activate_mission = annexation_COCHINCHINA_CONQ }
+}
+else_if = {
+    limit = { can_release_maekong_delta = yes }
+    ROOT = { activate_mission = annexation_MAEKONG_DELTA_CONQ }
+}
+else_if = {
+    limit = { can_release_xayabouli = yes }
+    ROOT = { activate_mission = annexation_XAYABOULI_CONQ }
+}
+else_if = {
+    limit = { can_release_stung_treng = yes }
+    ROOT = { activate_mission = annexation_STUNG_TRENG_CONQ }
+}
+else_if = {
+    limit = { can_release_battambang = yes }
+    ROOT = { activate_mission = annexation_BATTAMBANG_CONQ }
+}
+else_if = {
+    limit = { can_release_thaton = yes }
+    ROOT = { activate_mission = annexation_THATON_CONQ }
+}
+else_if = {
+    limit = { can_release_kengtung = yes }
+    ROOT = { activate_mission = annexation_KENGTUNG_CONQ }
+}
+else_if = {
+    limit = { can_release_perak = yes }
+    ROOT = { activate_mission = annexation_PERAK_CONQ }
+}
+else_if = {
+    limit = { can_release_terengganu = yes }
+    ROOT = { activate_mission = annexation_TERENGGANU_CONQ }
+}
+else_if = {
+    limit = { can_release_singapore = yes }
+    ROOT = { activate_mission = annexation_SINGAPORE_CONQ }
+}
+else_if = {
+    limit = { can_release_north_borneo = yes }
+    ROOT = { activate_mission = annexation_NORTH_BORNEO_CONQ }
+}
+else_if = {
+    limit = { can_release_west_timor = yes }
+    ROOT = { activate_mission = annexation_WEST_TIMOR_CONQ }
+}
+else_if = {
+    limit = { can_release_east_timor = yes }
+    ROOT = { activate_mission = annexation_EAST_TIMOR_CONQ }
+}
+else_if = {
+    limit = { can_release_aceh = yes }
+    ROOT = { activate_mission = annexation_ACEH_CONQ }
+}
+else_if = {
+    limit = { can_release_assam = yes }
+    ROOT = { activate_mission = annexation_ASM_CONQ }
+}
+else_if = {
+    limit = { can_release_baluchistan = yes }
+    ROOT = { activate_mission = annexation_BAL_CONQ }
+}
+else_if = {
+    limit = { can_release_bhutan = yes }
+    ROOT = { activate_mission = annexation_BHU_CONQ }
+}
+else_if = {
+    limit = { can_release_bengal = yes }
+    ROOT = { activate_mission = annexation_BNG_CONQ }
+}
+else_if = {
+    limit = { can_release_ceylon = yes }
+    ROOT = { activate_mission = annexation_CEY_CONQ }
+}
+else_if = {
+    limit = { can_release_sikkim = yes }
+    ROOT = { activate_mission = annexation_DRS_CONQ }
+}
+else_if = {
+    limit = { can_release_gujarat = yes }
+    ROOT = { activate_mission = annexation_GUJ_CONQ }
+}
+else_if = {
+    limit = { can_release_hyderabad = yes }
+    ROOT = { activate_mission = annexation_HYD_CONQ }
+}
+else_if = {
+    limit = { can_release_india = yes }
+    ROOT = { activate_mission = annexation_IND_CONQ }
+}
+else_if = {
+    limit = { can_release_kashmir = yes }
+    ROOT = { activate_mission = annexation_KAS_CONQ }
+}
+else_if = {
+    limit = { can_release_madras = yes }
+    ROOT = { activate_mission = annexation_MDR_CONQ }
+}
+else_if = {
+    limit = { can_release_maldives = yes }
+    ROOT = { activate_mission = annexation_MLD_CONQ }
+}
+else_if = {
+    limit = { can_release_mysore = yes }
+    ROOT = { activate_mission = annexation_MYS_CONQ }
+}
+else_if = {
+    limit = { can_release_nepal = yes }
+    ROOT = { activate_mission = annexation_NEP_CONQ }
+}
+else_if = {
+    limit = { can_release_orissa = yes }
+    ROOT = { activate_mission = annexation_ORI_CONQ }
+}
+else_if = {
+    limit = { can_release_pakistan = yes }
+    ROOT = { activate_mission = annexation_PAK_CONQ }
+}
+else_if = {
+    limit = { can_release_punjab = yes }
+    ROOT = { activate_mission = annexation_PUN_CONQ }
+}
+else_if = {
+    limit = { can_release_colonial_india = yes }
+    ROOT = { activate_mission = annexation_RAJ_CONQ }
+}
+else_if = {
+    limit = { can_release_rajahstan = yes }
+    ROOT = { activate_mission = annexation_RJH_CONQ }
+}
+else_if = {
+    limit = { can_release_travancore = yes }
+    ROOT = { activate_mission = annexation_TRV_CONQ }
+}
+else_if = {
+    limit = { can_release_west_bengal = yes }
+    ROOT = { activate_mission = annexation_WEST_BENGAL_CONQ }
+}
+else_if = {
+    limit = { can_release_darjeeling = yes }
+    ROOT = { activate_mission = annexation_DARJEELING_CONQ }
+}
+else_if = {
+    limit = { can_release_kumaon = yes }
+    ROOT = { activate_mission = annexation_KUMAON_CONQ }
+}
+else_if = {
+    limit = { can_release_east_punjab = yes }
+    ROOT = { activate_mission = annexation_EAST_PUNJAB_CONQ }
+}
+else_if = {
+    limit = { can_release_kangra = yes }
+    ROOT = { activate_mission = annexation_KANGRA_CONQ }
+}
+else_if = {
+    limit = { can_release_peshawar = yes }
+    ROOT = { activate_mission = annexation_PESHAWAR_CONQ }
+}
+else_if = {
+    limit = { can_release_kalat = yes }
+    ROOT = { activate_mission = annexation_KALAT_CONQ }
+}
+else_if = {
+    limit = { can_release_sindh = yes }
+    ROOT = { activate_mission = annexation_SINDH_CONQ }
+}
+else_if = {
+    limit = { can_release_jaipur = yes }
+    ROOT = { activate_mission = annexation_JAIPUR_CONQ }
+}
+else_if = {
+    limit = { can_release_central_provinces = yes }
+    ROOT = { activate_mission = annexation_CENTRAL_PROVINCES_CONQ }
+}
+else_if = {
+    limit = { can_release_raipur = yes }
+    ROOT = { activate_mission = annexation_RAIPUR_CONQ }
+}
+else_if = {
+    limit = { can_release_chhatisgarh = yes }
+    ROOT = { activate_mission = annexation_CHHATISGARH_CONQ }
+}
+else_if = {
+    limit = { can_release_coastal_andhra = yes }
+    ROOT = { activate_mission = annexation_COASTAL_ANDHRA_CONQ }
+}
+else_if = {
+    limit = { can_release_bombay = yes }
+    ROOT = { activate_mission = annexation_BOMBAY_CONQ }
+}
+else_if = {
+    limit = { can_release_kolhapur = yes }
+    ROOT = { activate_mission = annexation_KOLHAPUR_CONQ }
+}
+else_if = {
+    limit = { can_release_goa = yes }
+    ROOT = { activate_mission = annexation_GOA_CONQ }
+}
+else_if = {
+    limit = { can_release_andhra = yes }
+    ROOT = { activate_mission = annexation_ANDHRA_CONQ }
+}
+else_if = {
+    limit = { can_release_pondicherry = yes }
+    ROOT = { activate_mission = annexation_PONDICHERRY_CONQ }
+}
+else_if = {
+    limit = { can_release_andaman = yes }
+    ROOT = { activate_mission = annexation_ANDAMAN_CONQ }
+}
+else_if = {
+    limit = { can_release_diego_garcia = yes }
+    ROOT = { activate_mission = annexation_DIEGO_GARCIA_CONQ }
+}
+else_if = {
+    limit = { can_release_afghanistan = yes }
+    ROOT = { activate_mission = annexation_AFG_CONQ }
+}
+else_if = {
+    limit = { can_release_armenia = yes }
+    ROOT = { activate_mission = annexation_ARM_CONQ }
+}
+else_if = {
+    limit = { can_release_azerbaijan = yes }
+    ROOT = { activate_mission = annexation_AZR_CONQ }
+}
+else_if = {
+    limit = { can_release_arabia = yes }
+    ROOT = { activate_mission = annexation_ARABIA_CONQ }
+}
+else_if = {
+    limit = { can_release_bahrain = yes }
+    ROOT = { activate_mission = annexation_BAH_CONQ }
+}
+else_if = {
+    limit = { can_release_georgia = yes }
+    ROOT = { activate_mission = annexation_GEO_CONQ }
+}
+else_if = {
+    limit = { can_release_hejaz = yes }
+    ROOT = { activate_mission = annexation_HEJ_CONQ }
+}
+else_if = {
+    limit = { can_release_iraq = yes }
+    ROOT = { activate_mission = annexation_IRQ_CONQ }
+}
+else_if = {
+    limit = { can_release_jordan = yes }
+    ROOT = { activate_mission = annexation_JOR_CONQ }
+}
+else_if = {
+    limit = { can_release_kurdistan = yes }
+    ROOT = { activate_mission = annexation_KUR_CONQ }
+}
+else_if = {
+    limit = { can_release_kuwait = yes }
+    ROOT = { activate_mission = annexation_KUW_CONQ }
+}
+else_if = {
+    limit = { can_release_lebanon = yes }
+    ROOT = { activate_mission = annexation_LEB_CONQ }
+}
+else_if = {
+    limit = { can_release_mohammerah = yes }
+    ROOT = { activate_mission = annexation_MHR_CONQ }
+}
+else_if = {
+    limit = { can_release_muscat = yes }
+    ROOT = { activate_mission = annexation_MUS_CONQ }
+}
+else_if = {
+    limit = { can_release_oman = yes }
+    ROOT = { activate_mission = annexation_OMA_CONQ }
+}
+else_if = {
+    limit = { can_release_palestine = yes }
+    ROOT = { activate_mission = annexation_PALESTINE_CONQ }
+}
+else_if = {
+    limit = { can_release_persia = yes }
+    ROOT = { activate_mission = annexation_PER_CONQ }
+}
+else_if = {
+    limit = { can_release_qatar = yes }
+    ROOT = { activate_mission = annexation_QAR_CONQ }
+}
+else_if = {
+    limit = { can_release_syria = yes }
+    ROOT = { activate_mission = annexation_SYR_CONQ }
+}
+else_if = {
+    limit = { can_release_trucial_states = yes }
+    ROOT = { activate_mission = annexation_TRU_CONQ }
+}
+else_if = {
+    limit = { can_release_turkey = yes }
+    ROOT = { activate_mission = annexation_TUR_CONQ }
+}
+else_if = {
+    limit = { can_release_yemen = yes }
+    ROOT = { activate_mission = annexation_YEM_CONQ }
+}
+else_if = {
+    limit = { can_release_zaranj = yes }
+    ROOT = { activate_mission = annexation_ZARANJ_CONQ }
+}
+else_if = {
+    limit = { can_release_iranian_azerbaijan = yes }
+    ROOT = { activate_mission = annexation_IRANIAN_AZERBAIJAN_CONQ }
+}
+else_if = {
+    limit = { can_release_west_azerbaijan = yes }
+    ROOT = { activate_mission = annexation_WEST_AZERBAIJAN_CONQ }
+}
+else_if = {
+    limit = { can_release_karabakh = yes }
+    ROOT = { activate_mission = annexation_KARABAKH_CONQ }
+}
+else_if = {
+    limit = { can_release_zagatala = yes }
+    ROOT = { activate_mission = annexation_ZAGATALA_CONQ }
+}
+else_if = {
+    limit = { can_release_abkhazia = yes }
+    ROOT = { activate_mission = annexation_ABKHAZIA_CONQ }
+}
+else_if = {
+    limit = { can_release_bursa = yes }
+    ROOT = { activate_mission = annexation_BURSA_CONQ }
+}
+else_if = {
+    limit = { can_release_smyrna = yes }
+    ROOT = { activate_mission = annexation_SMYRNA_CONQ }
+}
+else_if = {
+    limit = { can_release_marash = yes }
+    ROOT = { activate_mission = annexation_MARASH_CONQ }
+}
+else_if = {
+    limit = { can_release_lazistan = yes }
+    ROOT = { activate_mission = annexation_LAZISTAN_CONQ }
+}
+else_if = {
+    limit = { can_release_erzincan = yes }
+    ROOT = { activate_mission = annexation_ERZINCAN_CONQ }
+}
+else_if = {
+    limit = { can_release_van = yes }
+    ROOT = { activate_mission = annexation_VAN_CONQ }
+}
+else_if = {
+    limit = { can_release_kars = yes }
+    ROOT = { activate_mission = annexation_KARS_CONQ }
+}
+else_if = {
+    limit = { can_release_al_hasakeh = yes }
+    ROOT = { activate_mission = annexation_AL_HASAKEH_CONQ }
+}
+else_if = {
+    limit = { can_release_damascus = yes }
+    ROOT = { activate_mission = annexation_DAMASCUS_CONQ }
+}
+else_if = {
+    limit = { can_release_mosul = yes }
+    ROOT = { activate_mission = annexation_MOSUL_CONQ }
+}
+else_if = {
+    limit = { can_release_latakia = yes }
+    ROOT = { activate_mission = annexation_LATAKIA_CONQ }
+}
+else_if = {
+    limit = { can_release_kermanshah = yes }
+    ROOT = { activate_mission = annexation_KERMANSHAH_CONQ }
+}
+else_if = {
+    limit = { can_release_asir = yes }
+    ROOT = { activate_mission = annexation_ASIR_CONQ }
+}
+else_if = {
+    limit = { can_release_south_yemen = yes }
+    ROOT = { activate_mission = annexation_SOUTH_YEMEN_CONQ }
+}
+else_if = {
+    limit = { can_release_suez_canal = yes }
+    ROOT = { activate_mission = annexation_SUEZ_CANAL_CONQ }
+}
+else_if = {
+    limit = { can_release_sinai = yes }
+    ROOT = { activate_mission = annexation_SINAI_CONQ }
+}
+else_if = {
+    limit = { can_release_kel_adagh = yes }
+    ROOT = { activate_mission = annexation_ADA_CONQ }
+}
+else_if = {
+    limit = { can_release_afra = yes }
+    ROOT = { activate_mission = annexation_AFR_CONQ }
+}
+else_if = {
+    limit = { can_release_kel_air = yes }
+    ROOT = { activate_mission = annexation_AIR_CONQ }
+}
+else_if = {
+    limit = { can_release_algeria = yes }
+    ROOT = { activate_mission = annexation_ALG_CONQ }
+}
+else_if = {
+    limit = { can_release_angola = yes }
+    ROOT = { activate_mission = annexation_ANG_CONQ }
+}
+else_if = {
+    limit = { can_release_buganda = yes }
+    ROOT = { activate_mission = annexation_BGA_CONQ }
+}
+else_if = {
+    limit = { can_release_bornu = yes }
+    ROOT = { activate_mission = annexation_BOR_CONQ }
+}
+else_if = {
+    limit = { can_release_botswana = yes }
+    ROOT = { activate_mission = annexation_BOT_CONQ }
+}
+else_if = {
+    limit = { can_release_burundi = yes }
+    ROOT = { activate_mission = annexation_BRD_CONQ }
+}
+else_if = {
+    limit = { can_release_barotseland = yes }
+    ROOT = { activate_mission = annexation_BSL_CONQ }
+}
+else_if = {
+    limit = { can_release_chad = yes }
+    ROOT = { activate_mission = annexation_CHA_CONQ }
+}
+else_if = {
+    limit = { can_release_cameroon = yes }
+    ROOT = { activate_mission = annexation_CMR_CONQ }
+}
+else_if = {
+    limit = { can_release_congo = yes }
+    ROOT = { activate_mission = annexation_COG_CONQ }
+}
+else_if = {
+    limit = { can_release_dahomey = yes }
+    ROOT = { activate_mission = annexation_DAH_CONQ }
+}
+else_if = {
+    limit = { can_release_egypt = yes }
+    ROOT = { activate_mission = annexation_EGY_CONQ }
+}
+else_if = {
+    limit = { can_release_eritrea = yes }
+    ROOT = { activate_mission = annexation_ERI_CONQ }
+}
+else_if = {
+    limit = { can_release_ethiopia = yes }
+    ROOT = { activate_mission = annexation_ETH_CONQ }
+}
+else_if = {
+    limit = { can_release_gabon = yes }
+    ROOT = { activate_mission = annexation_GAB_CONQ }
+}
+else_if = {
+    limit = { can_release_gambia = yes }
+    ROOT = { activate_mission = annexation_GAM_CONQ }
+}
+else_if = {
+    limit = { can_release_ghana = yes }
+    ROOT = { activate_mission = annexation_GHA_CONQ }
+}
+else_if = {
+    limit = { can_release_guinea = yes }
+    ROOT = { activate_mission = annexation_GNA_CONQ }
+}
+else_if = {
+    limit = { can_release_hausaland = yes }
+    ROOT = { activate_mission = annexation_HAU_CONQ }
+}
+else_if = {
+    limit = { can_release_ivory_coast = yes }
+    ROOT = { activate_mission = annexation_IVO_CONQ }
+}
+else_if = {
+    limit = { can_release_kenya = yes }
+    ROOT = { activate_mission = annexation_KEN_CONQ }
+}
+else_if = {
+    limit = { can_release_libya = yes }
+    ROOT = { activate_mission = annexation_LBA_CONQ }
+}
+else_if = {
+    limit = { can_release_lesotho = yes }
+    ROOT = { activate_mission = annexation_LES_CONQ }
+}
+else_if = {
+    limit = { can_release_liberia = yes }
+    ROOT = { activate_mission = annexation_LIB_CONQ }
+}
+else_if = {
+    limit = { can_release_madagascar = yes }
+    ROOT = { activate_mission = annexation_MAD_CONQ }
+}
+else_if = {
+    limit = { can_release_mali = yes }
+    ROOT = { activate_mission = annexation_MLI_CONQ }
+}
+else_if = {
+    limit = { can_release_nyasaland = yes }
+    ROOT = { activate_mission = annexation_MLW_CONQ }
+}
+else_if = {
+    limit = { can_release_morocco = yes }
+    ROOT = { activate_mission = annexation_MOR_CONQ }
+}
+else_if = {
+    limit = { can_release_mauritania = yes }
+    ROOT = { activate_mission = annexation_MRT_CONQ }
+}
+else_if = {
+    limit = { can_release_mozambique = yes }
+    ROOT = { activate_mission = annexation_MZB_CONQ }
+}
+else_if = {
+    limit = { can_release_nigeria = yes }
+    ROOT = { activate_mission = annexation_NGA_CONQ }
+}
+else_if = {
+    limit = { can_release_niger = yes }
+    ROOT = { activate_mission = annexation_NGR_CONQ }
+}
+else_if = {
+    limit = { can_release_namibia = yes }
+    ROOT = { activate_mission = annexation_NMB_CONQ }
+}
+else_if = {
+    limit = { can_release_ubangi_shari = yes }
+    ROOT = { activate_mission = annexation_OBG_CONQ }
+}
+else_if = {
+    limit = { can_release_rwanda = yes }
+    ROOT = { activate_mission = annexation_RWA_CONQ }
+}
+else_if = {
+    limit = { can_release_south_africa = yes }
+    ROOT = { activate_mission = annexation_SAF_CONQ }
+}
+else_if = {
+    limit = { can_release_senegal = yes }
+    ROOT = { activate_mission = annexation_SEN_CONQ }
+}
+else_if = {
+    limit = { can_release_sierra_leone = yes }
+    ROOT = { activate_mission = annexation_SIE_CONQ }
+}
+else_if = {
+    limit = { can_release_somalia = yes }
+    ROOT = { activate_mission = annexation_SOM_CONQ }
+}
+else_if = {
+    limit = { can_release_sudan = yes }
+    ROOT = { activate_mission = annexation_SUD_CONQ }
+}
+else_if = {
+    limit = { can_release_swaziland = yes }
+    ROOT = { activate_mission = annexation_SWA_CONQ }
+}
+else_if = {
+    limit = { can_release_tanganyika = yes }
+    ROOT = { activate_mission = annexation_TGN_CONQ }
+}
+else_if = {
+    limit = { can_release_togo = yes }
+    ROOT = { activate_mission = annexation_TOG_CONQ }
+}
+else_if = {
+    limit = { can_release_tunisia = yes }
+    ROOT = { activate_mission = annexation_TUN_CONQ }
+}
+else_if = {
+    limit = { can_release_uganda = yes }
+    ROOT = { activate_mission = annexation_UGA_CONQ }
+}
+else_if = {
+    limit = { can_release_yorubaland = yes }
+    ROOT = { activate_mission = annexation_YOR_CONQ }
+}
+else_if = {
+    limit = { can_release_zambia = yes }
+    ROOT = { activate_mission = annexation_ZAM_CONQ }
+}
+else_if = {
+    limit = { can_release_zanzibar = yes }
+    ROOT = { activate_mission = annexation_ZAN_CONQ }
+}
+else_if = {
+    limit = { can_release_zimbabwe = yes }
+    ROOT = { activate_mission = annexation_ZIM_CONQ }
+}
+else_if = {
+    limit = { can_release_the_rif = yes }
+    ROOT = { activate_mission = annexation_THE_RIF_CONQ }
+}
+else_if = {
+    limit = { can_release_djibouti = yes }
+    ROOT = { activate_mission = annexation_DJIBOUTI_CONQ }
+}
+else_if = {
+    limit = { can_release_tigray = yes }
+    ROOT = { activate_mission = annexation_TIGRAY_CONQ }
+}
+else_if = {
+    limit = { can_release_ogaden = yes }
+    ROOT = { activate_mission = annexation_OGADEN_CONQ }
+}
+else_if = {
+    limit = { can_release_spanish_guinea = yes }
+    ROOT = { activate_mission = annexation_SPANISH_GUINEA_CONQ }
+}
+else_if = {
+    limit = { can_release_french_congo = yes }
+    ROOT = { activate_mission = annexation_FRENCH_CONGO_CONQ }
+}
+else_if = {
+    limit = { can_release_ubangi_congo = yes }
+    ROOT = { activate_mission = annexation_UBANGI_CONGO_CONQ }
+}
+else_if = {
+    limit = { can_release_ukambani = yes }
+    ROOT = { activate_mission = annexation_UKAMBANI_CONQ }
+}
+else_if = {
+    limit = { can_release_mombasa = yes }
+    ROOT = { activate_mission = annexation_MOMBASA_CONQ }
+}
+else_if = {
+    limit = { can_release_dar_es_salaam = yes }
+    ROOT = { activate_mission = annexation_DAR_ES_SALAAM_CONQ }
+}
+else_if = {
+    limit = { can_release_solwezi = yes }
+    ROOT = { activate_mission = annexation_SOLWEZI_CONQ }
+}
+else_if = {
+    limit = { can_release_northern_zambezia = yes }
+    ROOT = { activate_mission = annexation_NORTHERN_ZAMBEZIA_CONQ }
+}
+else_if = {
+    limit = { can_release_caprivi = yes }
+    ROOT = { activate_mission = annexation_CAPRIVI_CONQ }
+}
+else_if = {
+    limit = { can_release_cape_verde = yes }
+    ROOT = { activate_mission = annexation_CAPE_VERDE_CONQ }
+}
+else_if = {
+    limit = { can_release_canada = yes }
+    ROOT = { activate_mission = annexation_CAN_CONQ }
+}
+else_if = {
+    limit = { can_release_costa_rica = yes }
+    ROOT = { activate_mission = annexation_COS_CONQ }
+}
+else_if = {
+    limit = { can_release_yucatan = yes }
+    ROOT = { activate_mission = annexation_CRU_CONQ }
+}
+else_if = {
+    limit = { can_release_cuba = yes }
+    ROOT = { activate_mission = annexation_CUB_CONQ }
+}
+else_if = {
+    limit = { can_release_dominican_republic = yes }
+    ROOT = { activate_mission = annexation_DOM_CONQ }
+}
+else_if = {
+    limit = { can_release_el_salvador = yes }
+    ROOT = { activate_mission = annexation_ELS_CONQ }
+}
+else_if = {
+    limit = { can_release_guatemala = yes }
+    ROOT = { activate_mission = annexation_GUA_CONQ }
+}
+else_if = {
+    limit = { can_release_haiti = yes }
+    ROOT = { activate_mission = annexation_HAI_CONQ }
+}
+else_if = {
+    limit = { can_release_honduras = yes }
+    ROOT = { activate_mission = annexation_HON_CONQ }
+}
+else_if = {
+    limit = { can_release_jamaica = yes }
+    ROOT = { activate_mission = annexation_JAM_CONQ }
+}
+else_if = {
+    limit = { can_release_mexico = yes }
+    ROOT = { activate_mission = annexation_MEX_CONQ }
+}
+else_if = {
+    limit = { can_release_newfoundland = yes }
+    ROOT = { activate_mission = annexation_NFL_CONQ }
+}
+else_if = {
+    limit = { can_release_nicaragua = yes }
+    ROOT = { activate_mission = annexation_NIC_CONQ }
+}
+else_if = {
+    limit = { can_release_panama = yes }
+    ROOT = { activate_mission = annexation_PAN_CONQ }
+}
+else_if = {
+    limit = { can_release_puerto_rico = yes }
+    ROOT = { activate_mission = annexation_PUE_CONQ }
+}
+else_if = {
+    limit = { can_release_quebec = yes }
+    ROOT = { activate_mission = annexation_QUE_CONQ }
+}
+else_if = {
+    limit = { can_release_trinidad_tobago = yes }
+    ROOT = { activate_mission = annexation_TRI_CONQ }
+}
+else_if = {
+    limit = { can_release_united_states = yes }
+    ROOT = { activate_mission = annexation_USA_CONQ }
+}
+else_if = {
+    limit = { can_release_pierre_miquelon = yes }
+    ROOT = { activate_mission = annexation_ST_PIERRE_CONQ }
+}
+else_if = {
+    limit = { can_release_alaska = yes }
+    ROOT = { activate_mission = annexation_ALASKA_CONQ }
+}
+else_if = {
+    limit = { can_release_belize = yes }
+    ROOT = { activate_mission = annexation_BELIZE_CONQ }
+}
+else_if = {
+    limit = { can_release_argentina = yes }
+    ROOT = { activate_mission = annexation_ARG_CONQ }
+}
+else_if = {
+    limit = { can_release_bolivia = yes }
+    ROOT = { activate_mission = annexation_BOL_CONQ }
+}
+else_if = {
+    limit = { can_release_brazil = yes }
+    ROOT = { activate_mission = annexation_BRA_CONQ }
+}
+else_if = {
+    limit = { can_release_chile = yes }
+    ROOT = { activate_mission = annexation_CHL_CONQ }
+}
+else_if = {
+    limit = { can_release_colombia = yes }
+    ROOT = { activate_mission = annexation_COL_CONQ }
+}
+else_if = {
+    limit = { can_release_ecuador = yes }
+    ROOT = { activate_mission = annexation_ECU_CONQ }
+}
+else_if = {
+    limit = { can_release_guyana = yes }
+    ROOT = { activate_mission = annexation_GYA_CONQ }
+}
+else_if = {
+    limit = { can_release_paraguay = yes }
+    ROOT = { activate_mission = annexation_PAR_CONQ }
+}
+else_if = {
+    limit = { can_release_peru = yes }
+    ROOT = { activate_mission = annexation_PRU_CONQ }
+}
+else_if = {
+    limit = { can_release_suriname = yes }
+    ROOT = { activate_mission = annexation_SUR_CONQ }
+}
+else_if = {
+    limit = { can_release_uruguay = yes }
+    ROOT = { activate_mission = annexation_URG_CONQ }
+}
+else_if = {
+    limit = { can_release_venezuela = yes }
+    ROOT = { activate_mission = annexation_VEN_CONQ }
+}
+else_if = {
+    limit = { can_release_pastaza = yes }
+    ROOT = { activate_mission = annexation_PASTAZA_CONQ }
+}
+else_if = {
+    limit = { can_release_santa_cruz = yes }
+    ROOT = { activate_mission = annexation_SANTA_CRUZ_CONQ }
+}
+else_if = {
+    limit = { can_release_tarija = yes }
+    ROOT = { activate_mission = annexation_TARIJA_CONQ }
+}
+else_if = {
+    limit = { can_release_arica = yes }
+    ROOT = { activate_mission = annexation_ARICA_CONQ }
+}
+else_if = {
+    limit = { can_release_tarapaca = yes }
+    ROOT = { activate_mission = annexation_TARAPACA_CONQ }
+}
+else_if = {
+    limit = { can_release_formosa = yes }
+    ROOT = { activate_mission = annexation_FORMOSA_CONQ }
+}
+else_if = {
+    limit = { can_release_misiones = yes }
+    ROOT = { activate_mission = annexation_MISIONES_CONQ }
+}
+else_if = {
+    limit = { can_release_tierra_del_fuego = yes }
+    ROOT = { activate_mission = annexation_TIERRA_DEL_FUEGO_CONQ }
+}
+else_if = {
+    limit = { can_release_falklands = yes }
+    ROOT = { activate_mission = annexation_FALKLANDS_CONQ }
+}
+else_if = {
+    limit = { can_release_georgia = yes }
+    ROOT = { activate_mission = annexation_GEORGIA_CONQ }
+}
+else_if = {
+    limit = { can_release_ponta_pora = yes }
+    ROOT = { activate_mission = annexation_PONTA_PORA_CONQ }
+}
+else_if = {
+    limit = { can_release_acre = yes }
+    ROOT = { activate_mission = annexation_ACRE_CONQ }
+}
+else_if = {
+    limit = { can_release_east_guyana = yes }
+    ROOT = { activate_mission = annexation_EAST_GUYANA_CONQ }
+}
+else_if = {
+    limit = { can_release_mabaruma = yes }
+    ROOT = { activate_mission = annexation_MABARUMA_CONQ }
+}
+else_if = {
+    limit = { can_release_australia = yes }
+    ROOT = { activate_mission = annexation_AST_CONQ }
+}
+else_if = {
+    limit = { can_release_fiji = yes }
+    ROOT = { activate_mission = annexation_FIJ_CONQ }
+}
+else_if = {
+    limit = { can_release_hawaii = yes }
+    ROOT = { activate_mission = annexation_HAW_CONQ }
+}
+else_if = {
+    limit = { can_release_new_zealand = yes }
+    ROOT = { activate_mission = annexation_NZL_CONQ }
+}
+else_if = {
+    limit = { can_release_papua_new_guinea = yes }
+    ROOT = { activate_mission = annexation_PNG_CONQ }
+}
+else_if = {
+    limit = { can_release_south_seas_federation = yes }
+    ROOT = { activate_mission = annexation_SSF_CONQ }
 }

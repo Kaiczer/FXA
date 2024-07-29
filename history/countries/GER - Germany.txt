@@ -53,8 +53,16 @@ set_politics = {
 }
 
 ## Starting Characters ##
-recruit_character = GER_Adam_Dressler
-recruit_character = GER_Wilhelm_Teudt #Viceroy of Reich President in DNVP
+recruit_character = GER_adam_dressler
+recruit_character = GER_wilhelm_teudt #ADVKP's puppet leader in DNVP volkisch faction
+recruit_character = GER_ferdinand_werner
+recruit_character = GER_erich_ludendorff
+recruit_character = GER_otto_strasser
+
+## Advisor Activations ##
+activate_advisor = GER_ferdinand_werner_sic
+activate_advisor = GER_erich_ludendorff_adv
+activate_advisor = GER_otto_strasser_adv
 
 # German Puppet Tag #
 create_dynamic_country = {

@@ -6,10 +6,6 @@ party_popularity_dynamic_modifier_ideology_mapped = {
 	political_power_gain = party_popularity@var:political_power_ideology
 }
 
-party_popularity_dynamic_modifier_coalition = {
-	political_power_gain = coalition_pp_gain
-}
-
 mobilisation_penalty_modifier = {
 	#negative values
 	army_org_factor = mobilisation_penalty_var

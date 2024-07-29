@@ -1282,7 +1282,7 @@ check_possible_annexations_india = {
 		ROOT = { activate_mission = annexation_PAK_CONQ }
 	}
 	else_if = {
-		limit = { can_release_pubjab = yes }
+		limit = { can_release_punjab = yes }
 		ROOT = { activate_mission = annexation_PUN_CONQ }
 	}
 	else_if = {
@@ -1310,7 +1310,7 @@ check_possible_annexations_india = {
 		ROOT = { activate_mission = annexation_KUMAON_CONQ }
 	}
 	else_if = {
-		limit = { can_release_east_pubjab = yes }
+		limit = { can_release_east_punjab = yes }
 		ROOT = { activate_mission = annexation_EAST_PUBJAB_CONQ }
 	}
 	else_if = {
@@ -1882,7 +1882,7 @@ check_possible_annexations_central_america = {
 		ROOT = { activate_mission = annexation_CUB_CONQ }
 	}
 	else_if = {
-		limit = { can_release_dominica = yes }
+		limit = { can_release_dominican_republic = yes }
 		ROOT = { activate_mission = annexation_DOM_CONQ }
 	}
 	else_if = {

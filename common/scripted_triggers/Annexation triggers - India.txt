@@ -261,7 +261,7 @@ can_release_pakistan = {
     }
 }
 # Pubjab - annexation_PUN_CONQ
-can_release_pubjab = {
+can_release_punjab = {
     OR = {
         state = 673
         state = 675
@@ -421,7 +421,7 @@ can_release_kumaon = {
     }
 }
 # East Pubjab - annexation_EAST_PUBJAB_CONQ
-can_release_east_pubjab = {
+can_release_east_punjab = {
     state = 672
     NOT = { is_claimed_by = ROOT }
     ROOT = {
