@@ -234,8 +234,6 @@ on_actions = {
 			#annexation failsafe
 			recheck_annexations = yes
 
-			#weekly update of political power gain from coalition (1/2 of total coalition popularity)
-			coalition_power_calculation = yes
 		}
 	}
 
@@ -2275,11 +2273,6 @@ on_actions = {
 	on_daily = {
 		effect = {
 			unit_limit_calculation_effect = yes
-
-			if = {
-				limit = { has_variable = coalition_partners^num }
-				coalition_power_calculation = yes 
-			}
 		}
 	}
 

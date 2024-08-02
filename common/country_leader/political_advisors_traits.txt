@@ -1254,14 +1254,7 @@ leader_traits = {
 
 		ai_will_do = { factor = 2 }
 	}
-	TFH_mitteleuropa_advocate = {
-		#sprite = 13
-		random = no
-		mitteleuropa_industry_score = 0.25
-		custom_modifier_tooltip = TFH_mitteleuropa_advocate_tt
 
-		ai_will_do = { factor = 1 }
-	}
 	TFH_heer_advocate = {
 		#sprite = 10
 		random = no
@@ -1397,7 +1390,7 @@ leader_traits = {
 	TFH_nationalist_coalition = {
 		#sprite = 12
 		random = no
-		national_populist_drift = 0.01
+		revolutionary_nationalist_drift = 0.01
 		war_support_weekly = 0.002
 		political_power_factor = 0.05
 
@@ -1479,7 +1472,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.025
 		stability_factor = 0.05
-		authoritarian_democrat_drift = 0.02
+		authoritarian_drift = 0.02
 
 		ai_will_do = { factor = 1 }
 	}
@@ -1488,7 +1481,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.025
 		stability_factor = 0.05
-		authoritarian_democrat_drift = 0.01
+		authoritarian_drift = 0.01
 
 		ai_will_do = { factor = 1 }
 	}
@@ -1504,7 +1497,7 @@ leader_traits = {
 		#sprite = 12
 		random = no
 		war_support_factor = 0.075
-		national_populist_drift = 0.01
+		revolutionary_nationalist_drift = 0.01
 
 		ai_will_do = { factor = 1 }
 	}
@@ -1512,7 +1505,7 @@ leader_traits = {
 		#sprite = 12
 		random = no
 		war_support_factor = 0.075
-		national_populist_drift = 0.02
+		revolutionary_nationalist_drift = 0.02
 
 		ai_will_do = { factor = 1 }
 	}
@@ -1821,7 +1814,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.1
 		army_morale_factor = 0.05
-		national_populist_drift = 0.02
+		revolutionary_nationalist_drift = 0.02
 
 		ai_will_do = { factor = 1 }
 	}
@@ -2321,8 +2314,8 @@ leader_traits = {
 		random = no
 		production_speed_buildings_factor = 0.05
 		army_core_defence_factor = 0.10
-		radical_socialist_drift = 0.02
-		syndicalist_drift = 0.02
+		revolutionary_socialist_drift = 0.02
+		vanguard_socialist_drift = 0.02
 
 		ai_will_do = { factor = 1 }
 	}
@@ -2547,7 +2540,7 @@ leader_traits = {
 		#sprite = 13
 		stability_factor = 0.1
 		compliance_growth = 0.1
-		national_populist_drift = 0.2
+		revolutionary_nationalist_drift = 0.2
 
 		ai_will_do = { factor = 1 }
 	}
@@ -2717,9 +2710,9 @@ leader_traits = {
 		#sprite = 12
 		random = no
 		production_speed_buildings_factor = 0.1
-		radical_socialist_drift = 0.02
-		syndicalist_drift = 0.02
-		totalist_drift = 0.02
+		revolutionary_socialist_drift = 0.02
+		vanguard_socialist_drift = 0.02
+		authoritarian_socialist_drift = 0.02
 
 		ai_will_do = { factor = 1 }
 	}
@@ -2734,7 +2727,7 @@ leader_traits = {
 	TFH_conspiracy_puppet = {
 		#sprite = 13
 		random = no
-		national_populist_drift = 0.02
+		revolutionary_nationalist_drift = 0.02
 		conscription_factor = 0.05
 		equipment_bonus = {
 			infantry_equipment = {

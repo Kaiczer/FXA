@@ -1,0 +1,21 @@
+
+state={
+	id=572
+	name="STATE_572"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = FNG
+
+	}
+
+	provinces={
+		1774 1855 4751 7808 7870 10539 13868 
+	}
+	manpower=32407 #4.39% of total population in 1935
+	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
+	local_supplies=0.000
+}
