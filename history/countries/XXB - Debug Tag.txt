@@ -292,6 +292,66 @@ every_state = {
 every_state = {
 	limit = {
 		OR = {
+			state = 519
+			state = 520
+			state = 521
+			state = 522
+		}
+	}
+	set_state_flag = zhejiang_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 537
+			state = 538
+			state = 539
+		}
+	}
+	set_state_flag = fujian_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 533
+			state = 534
+			state = 535
+			state = 536
+		}
+	}
+	set_state_flag = jiangxi_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 542
+			state = 543
+			state = 544
+			state = 545
+			state = 546
+			state = 547
+			state = 548
+			state = 549
+			state = 550
+		}
+	}
+	set_state_flag = guangdong_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 551
+			state = 552
+			state = 553
+			state = 554
+			state = 555
+		}
+	}
+	set_state_flag = guangdong_region
+}
+every_state = {
+	limit = {
+		OR = {
 			state = 585
 			state = 587
 			state = 588

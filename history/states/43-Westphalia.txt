@@ -2,15 +2,18 @@
 state={
 	id=43
 	name="STATE_43"
-	provinces={
-		405 495 3355 6535 6622 9443 9509 11233 11346 11431 
-	}
-	history = {
+
+	history={
 		owner = GER
-		add_core_of = GER 
+		add_core_of = GER
+
 	}
+
+	provinces={
+		405 495 3355 3398 6535 6622 9443 9509 9547 11233 11346 11431 
+	}
+	manpower=5039693
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=5039693
-        state_category = undeveloped_rural_region
 }
