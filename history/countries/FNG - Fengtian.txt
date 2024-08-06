@@ -38,12 +38,12 @@ set_popularities = {
 	social_conservative = 3
 	classical_liberal = 8
 	social_liberal = 6
-	authoritarian = 32
-	paternal_autocrat = 51
+	authoritarian = 43
+	paternal_autocrat = 40
 }
 set_politics = {	
-	ruling_party = paternal_autocrat
-	last_election = "1933.3.5"
+	ruling_party = authoritarian
+	last_election = "1931.6.5"
 	election_frequency = 48
 	elections_allowed = no
 }

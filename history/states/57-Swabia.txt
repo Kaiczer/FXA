@@ -1,0 +1,16 @@
+
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		692 707 708 3688 3705 6540 6693 9652 9666 11620 11638 11653 
+	}
+	history = {
+		owner = GER
+		add_core_of = GER 
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=2986408
+        state_category = undeveloped_rural_region
+}

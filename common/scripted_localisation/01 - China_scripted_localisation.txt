@@ -9,7 +9,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_state_flag = CHN_special_region }
-		localization_key = CHN_Special_Reg
+		localization_key = CHN_Special_Region
 	}
 	text = {
 		trigger = { has_state_flag = CHN_area_rank }
@@ -23,132 +23,132 @@ defined_text = {
 defined_text = {
 	name = ChinaGetStateProvinceTitle
 	text = {
-		trigger = { has_state_flag = guangdong_province_state }
-		localization_key = guangdong_province_state
+		trigger = { has_state_flag = fengtian_region }
+		localization_key = fengtian_region
 	}
 	text = {
-		trigger = { has_state_flag = guangxi_province_state }
-		localization_key = guangxi_province_state
+		trigger = { has_state_flag = jilin_region }
+		localization_key = jilin_region
 	}
 	text = {
-		trigger = { has_state_flag = zhili_province_state }
-		localization_key = zhili_province_state
+		trigger = { has_state_flag = heilongjiang_region }
+		localization_key = heilongjiang_region
 	}
 	text = {
-		trigger = { has_state_flag = henan_province_state }
-		localization_key = henan_province_state
+		trigger = { has_state_flag = rehe_region }
+		localization_key = rehe_region
 	}
 	text = {
-		trigger = { has_state_flag = hubei_province_state }
-		localization_key = hubei_province_state
+		trigger = { has_state_flag = zhili_region }
+		localization_key = zhili_region
 	}
 	text = {
-		trigger = { has_state_flag = hunan_province_state }
-		localization_key = hunan_province_state
+		trigger = { has_state_flag = henan_region }
+		localization_key = henan_region
 	}
 	text = {
-		trigger = { has_state_flag = jiangsu_province_state }
-		localization_key = jiangsu_province_state
+		trigger = { has_state_flag = guangdong_region }
+		localization_key = guangdong_region
 	}
 	text = {
-		trigger = { has_state_flag = jiangxi_province_state }
-		localization_key = jiangxi_province_state
+		trigger = { has_state_flag = guangxi_region }
+		localization_key = guangxi_region
 	}
 	text = {
-		trigger = { has_state_flag = shaanxi_province_state }
-		localization_key = shaanxi_province_state
+		trigger = { has_state_flag = hubei_region }
+		localization_key = hubei_region
 	}
 	text = {
-		trigger = { has_state_flag = shanxi_province_state }
-		localization_key = shanxi_province_state
+		trigger = { has_state_flag = hunan_region }
+		localization_key = hunan_region
 	}
 	text = {
-		trigger = { has_state_flag = shandong_province_state }
-		localization_key = shandong_province_state
+		trigger = { has_state_flag = jiangsu_region }
+		localization_key = jiangsu_region
 	}
 	text = {
-		trigger = { has_state_flag = anhui_province_state }
-		localization_key = anhui_province_state
+		trigger = { has_state_flag = jiangxi_region }
+		localization_key = jiangxi_region
 	}
 	text = {
-		trigger = { has_state_flag = zhejiang_province_state }
-		localization_key = zhejiang_province_state
+		trigger = { has_state_flag = shaanxi_region }
+		localization_key = shaanxi_region
 	}
 	text = {
-		trigger = { has_state_flag = fujian_province_state }
-		localization_key = fujian_province_state
+		trigger = { has_state_flag = shanxi_region }
+		localization_key = shanxi_region
 	}
 	text = {
-		trigger = { has_state_flag = sichuan_province_state }
-		localization_key = sichuan_province_state
+		trigger = { has_state_flag = shandong_region }
+		localization_key = shandong_region
 	}
 	text = {
-		trigger = { has_state_flag = chuanbian_province_state }
-		localization_key = chuanbian_province_state
+		trigger = { has_state_flag = anhui_region }
+		localization_key = anhui_region
 	}
 	text = {
-		trigger = { has_state_flag = guizhou_province_state }
-		localization_key = guizhou_province_state
+		trigger = { has_state_flag = zhejiang_region }
+		localization_key = zhejiang_region
 	}
 	text = {
-		trigger = { has_state_flag = yunnan_province_state }
-		localization_key = yunnan_province_state
+		trigger = { has_state_flag = fujian_region }
+		localization_key = fujian_region
 	}
 	text = {
-		trigger = { has_state_flag = qinghai_province_state }
-		localization_key = qinghai_province_state
+		trigger = { has_state_flag = sichuan_region }
+		localization_key = sichuan_region
 	}
 	text = {
-		trigger = { has_state_flag = gansu_province_state }
-		localization_key = gansu_province_state
+		trigger = { has_state_flag = chuanbian_region }
+		localization_key = chuanbian_region
 	}
 	text = {
-		trigger = { has_state_flag = ningxia_province_state }
-		localization_key = ningxia_province_state
+		trigger = { has_state_flag = guizhou_region }
+		localization_key = guizhou_region
 	}
 	text = {
-		trigger = { has_state_flag = fengtian_province_state }
-		localization_key = fengtian_province_state
+		trigger = { has_state_flag = yunnan_region }
+		localization_key = yunnan_region
 	}
 	text = {
-		trigger = { has_state_flag = jilin_province_state }
-		localization_key = jilin_province_state
+		trigger = { has_state_flag = qinghai_region }
+		localization_key = qinghai_region
 	}
 	text = {
-		trigger = { has_state_flag = heilongjiang_province_state }
-		localization_key = heilongjiang_province_state
+		trigger = { has_state_flag = gansu_region }
+		localization_key = gansu_region
 	}
 	text = {
-		trigger = { has_state_flag = suiyuan_province_state }
-		localization_key = suiyuan_province_state
+		trigger = { has_state_flag = ningxia_region }
+		localization_key = ningxia_region
 	}
 	text = {
-		trigger = { has_state_flag = jehol_province_state }
-		localization_key = jehol_province_state
+		trigger = { has_state_flag = suiyuan_region }
+		localization_key = suiyuan_region
 	}
 	text = {
-		trigger = { has_state_flag = neimenggu_special_state }
-		localization_key = neimenggu_special_state
+		trigger = { has_state_flag = neimenggu_region }
+		localization_key = neimenggu_region
 	}
 	text = {
-		trigger = { has_state_flag = chahar_province_state }
-		localization_key = chahar_province_state
+		trigger = { has_state_flag = chahar_region }
+		localization_key = chahar_region
 	}
 	text = {
-		trigger = { has_state_flag = xinjiang_province_state }
-		localization_key = xinjiang_province_state
+		trigger = { has_state_flag = xinjiang_region }
+		localization_key = xinjiang_region
 	}
 	text = {
-		trigger = { has_state_flag = taiwan_province_state }
-		localization_key = taiwan_province_state
+		trigger = { has_state_flag = taiwan_region }
+		localization_key = taiwan_region
 	}
 	text = {
-		trigger = { has_state_flag = outer_mongolia_area }
-		localization_key = outer_mongolia_area
+		trigger = { has_state_flag = outer_mongolia_region }
+		localization_key = outer_mongolia_region
 	}
 	text = {
-		trigger = { has_state_flag = tibet_area }
-		localization_key = tibet_area
+		trigger = { has_state_flag = tibet_region }
+		localization_key = tibet_region
 	}
 	text = {
 		localization_key = "BUG - STATE TARGETED IS NOT PART OF CHINA"

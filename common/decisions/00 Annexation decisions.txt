@@ -3614,7 +3614,7 @@ annexation_decisions = {
             can_select_annexation_mission = yes
         }
         cancel_trigger = {
-            decision_has_valid_china_annexation_state = no
+            has_valid_china_annexation_state = no
         }
         complete_effect = {
             log = "[GetDateText]: [Root.GetName]: Decision complete annexation_CHI_CONQ"

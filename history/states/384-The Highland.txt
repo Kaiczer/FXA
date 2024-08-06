@@ -1,15 +1,19 @@
+
 state={
 	id=384
 	name="STATE_384"
-	provinces={
-		131 3159 3178 6046 6062 6104 6205 9075 9090 9161 11064 
-	}
-	history = {
+
+	history={
 		owner = ENG
 		add_core_of = ENG
+
 	}
+
+	provinces={
+		131 284 3159 3178 3373 6046 6062 6104 6205 9075 9090 9161 11064 11161 11266 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

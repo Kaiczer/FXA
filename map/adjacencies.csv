@@ -26,7 +26,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 #### Land Routes
 
-8108;13749;land;5081;3645;1029;3676;1019;;Rub al Khali
+8108;13748;land;5081;3645;1029;3676;1019;;Rub al Khali
 
 2049;10788;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
 4903;5101;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
@@ -184,8 +184,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 #### Impassables
 
 1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
-1811;7812;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
-1811;10429;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
+7812;13883;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
+13883;10429;impassable;-1;-1;-1;-1;-1;;Fengtian-Mongolia
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1978;5082;impassable;-1;-1;-1;-1;-1;;Peshawar Mountains

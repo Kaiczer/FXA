@@ -73,12 +73,12 @@ every_state = {
 every_state = {
 	limit = { is_core_of = CHB }
 	set_state_flag = CHN_province_rank 
-	set_state_flag = chuanbian_province_state 
+	set_state_flag = chuanbian_region 
 }
 SCH = {
 	every_owned_state = {
 		limit = { NOT = { is_core_of = CHB } }
-		set_state_flag = sichuan_province_state
+		set_state_flag = sichuan_region
 	}
 }
 YUN = {
@@ -91,7 +91,7 @@ YUN = {
 				}
 			}
 		}
-		set_state_flag = yunnan_province_state
+		set_state_flag = yunnan_region
 	}
 	every_state = {
 		limit = {
@@ -100,20 +100,32 @@ YUN = {
 				state = 557
 			}
 		}
-		set_state_flag = guizhou_province_state
+		set_state_flag = guizhou_region
 	}
 }
 every_state = { 
 	limit = { is_xinjiang = yes }
-	set_state_flag = xinjiang_province_state
+	set_state_flag = xinjiang_region
 }
-SDL = { every_core_state = { set_state_flag = shandong_province_state } }
-MEN = {
-	every_core_state = {
-		limit = { NOT = { is_core_of = SHX } }
-		set_state_flag = CHN_special_region
-		set_state_flag = neimenggu_special_state
+SDL = { every_core_state = { set_state_flag = shandong_region } }
+MEN = { every_core_state = { set_state_flag = CHN_Special_Region } }
+every_state = {
+	limit = {
+		OR = {
+			state = 496
+			state = 497
+		}
 	}
+	set_state_flag = chahar_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 514
+			state = 515
+		}
+	}
+	set_state_flag = suiyuan_region
 }
 every_state = {
 	limit = {
@@ -124,7 +136,7 @@ every_state = {
 			state = 528
 		}
 	}
-	set_state_flag = hubei_province_state
+	set_state_flag = hubei_region
 }
 SHX = {
 	every_core_state = {
@@ -136,7 +148,7 @@ SHX = {
 				state = 526
 			}
 		}
-		set_state_flag = shanxi_province_state
+		set_state_flag = shanxi_region
 	}
 	every_owned_state = {
 		limit = {
@@ -145,7 +157,7 @@ SHX = {
 				state = 517
 			}
 		}
-		set_state_flag = shaanxi_province_state
+		set_state_flag = shaanxi_region
 	}
 }
 every_state = {
@@ -157,7 +169,7 @@ every_state = {
 			state = 505
 		}
 	}
-	set_state_flag = hubei_province_state
+	set_state_flag = henan_region
 }
 every_state = {
 	limit = {
@@ -169,7 +181,7 @@ every_state = {
 			state = 481
 		}
 	}
-	set_state_flag = zhili_province_state
+	set_state_flag = zhili_region
 }
 every_state = {
 	limit = {
@@ -180,7 +192,162 @@ every_state = {
 			state = 518
 		}
 	}
-	set_state_flag = jiangsu_province_state
+	set_state_flag = jiangsu_region
+}
+483 = { set_state_flag = rehe_region }
+every_state = {
+	limit = {
+		OR = {
+			state = 493
+			state = 494
+			state = 495
+		}
+	}
+	set_state_flag = heilongjiang_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 489
+			state = 490
+			state = 491
+			state = 492
+		}
+	}
+	set_state_flag = jilin_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 484
+			state = 485
+			state = 486
+			state = 487
+			state = 488
+		}
+	}
+	set_state_flag = fengtian_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 482
+			state = 567
+		}
+	}
+	set_state_flag = ningxia_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 565
+			state = 566
+			state = 568
+		}
+	}
+	set_state_flag = gansu_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 569
+			state = 570
+			state = 868
+		}
+	}
+	set_state_flag = qinghai_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 509
+			state = 510
+			state = 511
+		}
+	}
+	set_state_flag = anhui_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 506
+			state = 507
+			state = 508
+			state = 518
+		}
+	}
+	set_state_flag = jiangsu_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 529
+			state = 530
+			state = 531
+			state = 532
+		}
+	}
+	set_state_flag = hunan_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 519
+			state = 520
+			state = 521
+			state = 522
+		}
+	}
+	set_state_flag = zhejiang_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 537
+			state = 538
+			state = 539
+		}
+	}
+	set_state_flag = fujian_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 533
+			state = 534
+			state = 535
+			state = 536
+		}
+	}
+	set_state_flag = jiangxi_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 542
+			state = 543
+			state = 544
+			state = 545
+			state = 546
+			state = 547
+			state = 548
+			state = 549
+			state = 550
+		}
+	}
+	set_state_flag = guangdong_region
+}
+every_state = {
+	limit = {
+		OR = {
+			state = 551
+			state = 552
+			state = 553
+			state = 554
+			state = 555
+		}
+	}
+	set_state_flag = guangdong_region
 }
 every_state = {
 	limit = {
@@ -204,8 +371,8 @@ TIB = {
 				state = 579
 			}
 		}
-		set_state_flag = tibet_area
+		set_state_flag = tibet_region
 	}
 }
-MON = { every_core_state = { set_state_flag = outer_mongolia_area } }
-403 = { set_state_flag = outer_mongolia_area }
+MON = { every_core_state = { set_state_flag = outer_mongolia_region } }
+403 = { set_state_flag = outer_mongolia_region }

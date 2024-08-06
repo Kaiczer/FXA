@@ -1,0 +1,19 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	history={
+		owner = SIA
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1253 1488 1990 4496 7492 7675 8045 10371 
+	}
+	manpower=2068804
+	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
+	local_supplies=0.000
+}
