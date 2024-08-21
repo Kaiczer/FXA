@@ -1,7 +1,6 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			1 = { set_state_flag = annexation_trigger_state } #Corsica
 			2 = { set_state_flag = annexation_trigger_state } #Sardinia
 			3 = { set_state_flag = annexation_trigger_state } #Paris
 			4 = { set_state_flag = annexation_trigger_state } #Latium
@@ -56,7 +55,7 @@ on_actions = {
 			55 = { set_state_flag = annexation_trigger_state } #Hesse 
 			56 = { set_state_flag = annexation_trigger_state } #Franconia
 			57 = { set_state_flag = annexation_trigger_state } #Swabia
-			58 = { set_state_flag = annexation_trigger_state } #Upper Palatinate
+			58 = { set_state_flag = annexation_trigger_state } #Lower Bavaria
 			61 = { set_state_flag = annexation_trigger_state } #North Brabant
 			62 = { set_state_flag = annexation_trigger_state } #Westerschelde
 			63 = { set_state_flag = annexation_trigger_state } #South Limburg
@@ -77,7 +76,7 @@ on_actions = {
 			115 = { set_state_flag = annexation_trigger_state } #Galicia
 			121 = { set_state_flag = annexation_trigger_state } #Gibraltar
 			122 = { set_state_flag = annexation_trigger_state } #Malta
-			123 = { set_state_flag = annexation_trigger_state } #Sicilia
+			123 = { set_state_flag = annexation_trigger_state } #Sicily
 			128 = { set_state_flag = annexation_trigger_state } #Umbria
 			129	= { set_state_flag = annexation_trigger_state } #Marche
 			130 = { set_state_flag = annexation_trigger_state } #Tuscany
@@ -98,15 +97,14 @@ on_actions = {
 			151 = { set_state_flag = annexation_trigger_state } #Fiume
 			152 = { set_state_flag = annexation_trigger_state } #Carniola
 			154 = { set_state_flag = annexation_trigger_state } #Prekmurje
-			156	= { set_state_flag = annexation_trigger_state } #Karlovac
 			158 = { set_state_flag = annexation_trigger_state } #Dubrovnik
-			159 = { set_state_flag = annexation_trigger_state } #Slavonia/Osijek
+			159 = { set_state_flag = annexation_trigger_state } #Croatia
 			160 = { set_state_flag = annexation_trigger_state } #Bosnia
 			162 = { set_state_flag = annexation_trigger_state } #Montenegro
 			163 = { set_state_flag = annexation_trigger_state } #Albania
 			165 = { set_state_flag = annexation_trigger_state } #Northern Epirus
 			169 = { set_state_flag = annexation_trigger_state } #Dodecanese
-			170 = { set_state_flag = annexation_trigger_state } #North Aegean Islands
+			170 = { set_state_flag = annexation_trigger_state } #Aegean Islands
 			173 = { set_state_flag = annexation_trigger_state } #Western Macedonia
 			174 = { set_state_flag = annexation_trigger_state } #East Macedonia
 			175 = { set_state_flag = annexation_trigger_state } #Thrace
@@ -136,7 +134,6 @@ on_actions = {
 			218	= { set_state_flag = annexation_trigger_state } #Bialystok
 			220 = { set_state_flag = annexation_trigger_state } #Chelm
 			221 = { set_state_flag = annexation_trigger_state } #Lwow
-			225 = { set_state_flag = annexation_trigger_state } #Latgale
 			229	= { set_state_flag = annexation_trigger_state } #Memel
 			230 = { set_state_flag = annexation_trigger_state } #Sudovia
 			231 = { set_state_flag = annexation_trigger_state } #Vilnius
@@ -176,7 +173,7 @@ on_actions = {
 			440 = { set_state_flag = annexation_trigger_state } #Merv
 			441 = { set_state_flag = annexation_trigger_state } #Ashgabat
 			442 = { set_state_flag = annexation_trigger_state } #Khiva
-			443 = { set_state_flag = annexation_trigger_state } #Zheleznodorozhny/Qongirot
+			443 = { set_state_flag = annexation_trigger_state } #Karakalpakstan
 			445 = { set_state_flag = annexation_trigger_state } #Tashkent
 			446 = { set_state_flag = annexation_trigger_state } #Frunze
 			447 = { set_state_flag = annexation_trigger_state } #Badakhshan
@@ -240,7 +237,6 @@ on_actions = {
 			629	= { set_state_flag = annexation_trigger_state } #Jakarta
 			633	= { set_state_flag = annexation_trigger_state } #West Timor
 			634	= { set_state_flag = annexation_trigger_state } #East Timor
-			635	= { set_state_flag = annexation_trigger_state } #Aceh
 			646	= { set_state_flag = annexation_trigger_state } #West Papua
 			647	= { set_state_flag = annexation_trigger_state } #East Papua
 			649	= { set_state_flag = annexation_trigger_state } #Bismarck Archipelago
@@ -387,7 +383,6 @@ on_actions = {
 			912 = { set_state_flag = annexation_trigger_state } #Mozambique
 			913 = { set_state_flag = annexation_trigger_state } #Salisbury
 			916 = { set_state_flag = annexation_trigger_state } #Namibia
-			920 = { set_state_flag = annexation_trigger_state } #Caprivi
 			921 = { set_state_flag = annexation_trigger_state } #Botswana
 			922 = { set_state_flag = annexation_trigger_state } #Swaziland
 			923 = { set_state_flag = annexation_trigger_state } #Pretoria
@@ -397,7 +392,6 @@ on_actions = {
 			938 = { set_state_flag = annexation_trigger_state } #Maldives
 			939 = { set_state_flag = annexation_trigger_state } #Diego Garcia
 			943 = { set_state_flag = annexation_trigger_state } #Newfoundland
-			944 = { set_state_flag = annexation_trigger_state } #St.Pierre & Miquelon
 			947 = { set_state_flag = annexation_trigger_state } #Quebec
 			951 = { set_state_flag = annexation_trigger_state } #Ontario
 			960 = { set_state_flag = annexation_trigger_state } #Washington

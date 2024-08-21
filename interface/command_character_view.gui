@@ -166,7 +166,7 @@ guiTypes = {
 
 		iconType = {
 			name = "icon"
-			position = { x = 38 y = 38 }			## following lines adjusted for broken name truncation
+			position = { x = 38 y = 43 }			## following lines adjusted for broken name truncation
 			spriteType = "GFX_placeholder_bordered"
 			centerposition = yes
 			alwaystransparent = yes

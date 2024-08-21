@@ -5,188 +5,188 @@ is_fully_controlled_by_ROOT_and_is_not_core_of_ROOT = {
 }
 ### new triggers ###
 
-# china_is_aligned_with_zhili = {
-# 	check_variable = {
-# 		tooltip = china_is_aligned_with_zhili
-# 		country_leader:china_alignment = token:zhili
-# 	}
-# }
+china_is_aligned_with_zhili = {
+	check_variable = {
+		tooltip = china_is_aligned_with_zhili
+		country_leader:china_alignment = token:zhili
+	}
+}
 
-# china_is_aligned_with_manchu = {
-# 	check_variable = {
-# 		tooltip = china_is_aligned_with_manchu
-# 		country_leader:china_alignment = token:manchu_qing
-# 	}
-# }
+china_is_aligned_with_monarchists = {
+	check_variable = {
+		tooltip = china_is_aligned_with_monarchists
+		country_leader:china_alignment = token:chinese_monarchists
+	}
+}
 
-# china_is_aligned_with_fengtian = {
-# 	check_variable = {
-# 		tooltip = china_is_aligned_with_fengtian
-# 		country_leader:china_alignment = token:fengtian
-# 	}
-# }
+china_is_aligned_with_fengtian = {
+	check_variable = {
+		tooltip = china_is_aligned_with_fengtian
+		country_leader:china_alignment = token:fengtian
+	}
+}
 
-# china_is_aligned_with_federalists = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_aligned_with_federalists
-# 		OR = {
-# 			check_variable = { country_leader:china_alignment = token:chinese_republican }
-# 			check_variable = { country_leader:china_alignment = token:federalists }
-# 		}
-# 	}
-# }
+china_is_aligned_with_left_kmt = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_aligned_with_left_kmt
+		OR = {
+			check_variable = { country_leader:china_alignment = token:chinese_republican }
+			check_variable = { country_leader:china_alignment = token:left_kuomintang }
+		}
+	}
+}
 
-# china_is_aligned_with_left_kmt = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_aligned_with_left_kmt
-# 		OR = {
-# 			check_variable = { country_leader:china_alignment = token:chinese_republican }
-# 			check_variable = { country_leader:china_alignment = token:left_kuomintang }
-# 		}
-# 	}
-# }
+china_is_aligned_with_right_kmt = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_aligned_with_right_kmt
+		OR = {
+			check_variable = { country_leader:china_alignment = token:chinese_republican }
+			check_variable = { country_leader:china_alignment = token:right_kuomintang }
+		}
+	}
+}
 
-# china_is_aligned_with_right_kmt = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_aligned_with_right_kmt
-# 		OR = {
-# 			check_variable = { country_leader:china_alignment = token:chinese_republican }
-# 			check_variable = { country_leader:china_alignment = token:right_kuomintang }
-# 		}
-# 	}
-# }
+china_is_aligned_with_communists = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_aligned_with_right_kmt
+		OR = {
+			check_variable = { country_leader:china_alignment = token:chinese_republican }
+			check_variable = { country_leader:china_alignment = token:chinese_communists }
+		}
+	}
+}
 
-# china_is_aligned_with_kmt = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_aligned_with_kmt
-# 		OR = {
-# 			china_is_aligned_with_left_kmt = yes
-# 			china_is_aligned_with_right_kmt = yes
-# 		}
-# 	}
-# }
+china_is_aligned_with_kmt = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_aligned_with_kmt
+		OR = {
+			china_is_aligned_with_left_kmt = yes
+			china_is_aligned_with_right_kmt = yes
+		}
+	}
+}
 
-# china_is_aligned_with_republicans = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_aligned_with_republicans
-# 		OR = {
-# 			china_is_aligned_with_left_kmt = yes
-# 			china_is_aligned_with_right_kmt = yes
-# 			china_is_aligned_with_federalists = yes
-# 		}
-# 	}
-# }
+china_is_aligned_with_republicans = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_aligned_with_republicans
+		OR = {
+			china_is_aligned_with_left_kmt = yes
+			china_is_aligned_with_right_kmt = yes
+			china_is_aligned_with_communists = yes
+		}
+	}
+}
 
-# china_is_unaligned = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_is_unaligned
-# 		NOT = { has_variable = country_leader:china_alignment }
-# 	}
-# }
+china_is_unaligned = {
+	custom_trigger_tooltip = {
+		tooltip = china_is_unaligned
+		NOT = { has_variable = country_leader:china_alignment }
+	}
+}
 
-# china_same_alignment_as_PREV = {
-# 	check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment }
-# }
+china_same_alignment_as_PREV = {
+	check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment }
+}
 
-# china_compatible_alignment_to_PREV = {
-# 	hidden_trigger = {
-# 		china_is_unaligned = no
-# 		PREV = { china_is_unaligned = no }
-# 	}
-# 	OR = {
-# 		china_same_alignment_as_PREV = yes
-# 		AND = {
-# 			china_is_aligned_with_zhili = yes
-# 			PREV = { china_is_aligned_with_zhili = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_fengtian = yes
-# 			PREV = { china_is_aligned_with_fengtian = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_federalists = yes
-# 			PREV = { china_is_aligned_with_federalists = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_kmt = yes
-# 			PREV = { china_is_aligned_with_kmt = yes }
-# 		}
-# 	}
-# }
+china_compatible_alignment_to_PREV = {
+	hidden_trigger = {
+		china_is_unaligned = no
+		PREV = { china_is_unaligned = no }
+	}
+	OR = {
+		china_same_alignment_as_PREV = yes
+		AND = {
+			china_is_aligned_with_zhili = yes
+			PREV = { china_is_aligned_with_zhili = yes }
+		}
+		AND = {
+			china_is_aligned_with_fengtian = yes
+			PREV = { china_is_aligned_with_fengtian = yes }
+		}
+		AND = {
+			china_is_aligned_with_communists = yes
+			PREV = { china_is_aligned_with_communists = yes }
+		}
+		AND = {
+			china_is_aligned_with_kmt = yes
+			PREV = { china_is_aligned_with_kmt = yes }
+		}
+	}
+}
 
-# china_same_alignment_as_FROM = {
-# 	check_variable = { country_leader:china_alignment = FROM.country_leader:china_alignment }
-# }
+china_same_alignment_as_FROM = {
+	check_variable = { country_leader:china_alignment = FROM.country_leader:china_alignment }
+}
 
-# china_compatible_alignment_to_FROM = {
-# 	hidden_trigger = {
-# 		china_is_unaligned = no
-# 		FROM = { china_is_unaligned = no }
-# 	}
-# 	OR = {
-# 		FROM = { check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment } }
-# 		AND = {
-# 			china_is_aligned_with_zhili = yes
-# 			FROM = { china_is_aligned_with_zhili = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_fengtian = yes
-# 			FROM = { china_is_aligned_with_fengtian = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_federalists = yes
-# 			FROM = { china_is_aligned_with_federalists = yes }
-# 		}
-# 		AND = {
-# 			china_is_aligned_with_kmt = yes
-# 			FROM = { china_is_aligned_with_kmt = yes }
-# 		}
-# 	}
-# }
+china_compatible_alignment_to_FROM = {
+	hidden_trigger = {
+		china_is_unaligned = no
+		FROM = { china_is_unaligned = no }
+	}
+	OR = {
+		FROM = { check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment } }
+		AND = {
+			china_is_aligned_with_zhili = yes
+			FROM = { china_is_aligned_with_zhili = yes }
+		}
+		AND = {
+			china_is_aligned_with_fengtian = yes
+			FROM = { china_is_aligned_with_fengtian = yes }
+		}
+		AND = {
+			china_is_aligned_with_communists = yes
+			FROM = { china_is_aligned_with_communists = yes }
+		}
+		AND = {
+			china_is_aligned_with_kmt = yes
+			FROM = { china_is_aligned_with_kmt = yes }
+		}
+	}
+}
 
-# is_controlled_by_ROOT_owner_or_defeated_japan = {
-# 	OR = {
-# 		is_controlled_by = ROOT
-# 		is_controlled_by = owner
-# 		is_controlled_by = JAP
-# 	}
-# }
+is_controlled_by_ROOT_owner_or_defeated_japan = {
+	OR = {
+		is_controlled_by = ROOT
+		is_controlled_by = owner
+		is_controlled_by = JAP
+	}
+}
 
-# is_controlled_by_ROOT_owner_defeated_japan_or_mutual_enemy = {
-# 	OR = {
-# 		is_controlled_by = ROOT
-# 		is_controlled_by = owner
-# 		is_controlled_by = JAP
-# 		controller = {
-# 			has_war_with = ROOT
-# 			has_war_with = PREV.owner
-# 		}
-# 	}
-# }
+is_controlled_by_ROOT_owner_defeated_japan_or_mutual_enemy = {
+	OR = {
+		is_controlled_by = ROOT
+		is_controlled_by = owner
+		is_controlled_by = JAP
+		controller = {
+			has_war_with = ROOT
+			has_war_with = PREV.owner
+		}
+	}
+}
 
 china_is_potential_government = {
 	has_country_flag = china_is_potential_government
 }
 
-# china_refused_alliance = {
-# 	custom_trigger_tooltip = {
-# 		tooltip = china_refused_alliance
-# 		has_country_flag = china_refused_alliance_@PREV
-# 	}
-# }
+china_refused_alliance = {
+	custom_trigger_tooltip = {
+		tooltip = china_refused_alliance
+		has_country_flag = china_refused_alliance_@PREV
+	}
+}
 
-# china_is_valid_government_to_join = {
-# 	china_is_potential_government = yes
-# 	exists = yes
-# 	is_subject = no
-# 	NOT = {
-# 		has_war_with = ROOT
-# 		custom_trigger_tooltip = {
-# 			tooltip = china_refused_alliance
-# 			has_country_flag = china_refused_alliance_@ROOT
-# 		}
-# 	}
-# }
+china_is_valid_government_to_join = {
+	china_is_potential_government = yes
+	exists = yes
+	is_subject = no
+	NOT = {
+		has_war_with = ROOT
+		custom_trigger_tooltip = {
+			tooltip = china_refused_alliance
+			has_country_flag = china_refused_alliance_@ROOT
+		}
+	}
+}
 
 # china_no_rival_governments_left = {
 # 	if = {
@@ -425,37 +425,37 @@ china_is_potential_government = {
 # 	}
 # }
 
-# china_is_governorate = {
-# 	OR = {
-# 		has_autonomy_state = associated_governorate
-# 		has_autonomy_state = autonomous_governorate
-# 		has_autonomy_state = governorate
-# 		has_autonomy_state = integrated_governorate
-# 	}
-# }
+china_is_governorate = {
+	OR = {
+		has_autonomy_state = associated_governorate
+		has_autonomy_state = autonomous_governorate
+		has_autonomy_state = governorate
+		has_autonomy_state = integrated_governorate
+	}
+}
 
-# china_is_independent_or_allied_to_chinese_tag = {
-# 	OR = {
-# 		is_subject = no
-# 		has_autonomy_state = associated_governorate
-# 		has_autonomy_state = autonomous_governorate
-# 		has_autonomy_state = governorate
-# 		has_autonomy_state = integrated_governorate
-# 	}
-# 	OR = {
-# 		is_in_faction = no
-# 		is_faction_leader = yes
-# 		faction_leader = { is_chinese_tag = yes }
-# 	}
-# }
+china_is_independent_or_allied_to_chinese_tag = {
+	OR = {
+		is_subject = no
+		has_autonomy_state = associated_governorate
+		has_autonomy_state = autonomous_governorate
+		has_autonomy_state = governorate
+		has_autonomy_state = integrated_governorate
+	}
+	OR = {
+		is_in_faction = no
+		is_faction_leader = yes
+		faction_leader = { is_chinese_tag = yes }
+	}
+}
 
-# china_is_valid_tag_to_ask_protection = {
-# 	exists = yes
-# 	is_subject = no
-# 	has_civil_war = no
-# 	has_capitulated = no
-# 	at_war_with_or_justifying_wargoal_against_PREV = no
-# }
+china_is_valid_tag_to_ask_protection = {
+	exists = yes
+	is_subject = no
+	has_civil_war = no
+	has_capitulated = no
+	at_war_with_or_justifying_wargoal_against_PREV = no
+}
 
 # china_russia_can_protect_country = {
 # 	has_event_target = russia
@@ -485,24 +485,24 @@ china_is_potential_government = {
 # 	}
 # }
 
-# china_generic_unification_tree_allow_branch = {
-# 	has_global_flag = china_united
-# 	china_is_potential_government = yes
-# 	china_is_aligned_with_manchu = no
-# }
+china_generic_unification_tree_allow_branch = {
+	has_global_flag = china_united
+	china_is_potential_government = yes
+	china_is_aligned_with_monarchists = no
+}
 
-# china_can_ROOT_offer_alliance = {
-# 	exists = yes
-# 	is_subject = no
-# 	china_is_potential_government = no
-# 	china_compatible_alignment_to_PREV = yes
-# 	at_war_with_or_justifying_wargoal_against_PREV = no
-# }
+china_can_ROOT_offer_alliance = {
+	exists = yes
+	is_subject = no
+	china_is_potential_government = no
+	china_compatible_alignment_to_PREV = yes
+	at_war_with_or_justifying_wargoal_against_PREV = no
+}
 
-# china_basic_mio_available_trigger = {
-# 	has_global_flag = china_united
-# 	FROM = { owns_state = 608 } #Beijing
-# }
+china_basic_mio_available_trigger = {
+	has_global_flag = china_united
+	FROM = { owns_state = 608 } #Beijing
+}
 
 # china_is_chinese_core_trigger = {
 # 	#Should be state scope

@@ -20,19 +20,5 @@ bookmarks = {
 			#123 = { rain_light = yes }
 		}
 	}
-	# Help to open the bookmark interface / Must not delete
-	bookmark = {
-		name = ""
-		desc = ""
-		date = 1936.1.2.12
-		picture = "GFX_select_date_1936"
-		default_country = "GER"
-		"GER"={
-			history = ""
-			ideology = volkist
-			ideas = {}
-			focuses = {}
-		}
-	}
 }
 

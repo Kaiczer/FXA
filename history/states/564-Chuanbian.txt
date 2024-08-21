@@ -4,12 +4,12 @@ state={
 	name="STATE_564"
 
 	history={
-		owner = SCH
-		add_core_of = SCH 
+		owner = CHB 
+		add_core_of = CHB
+		add_claim_by = SCH
 		add_claim_by = CHI
 		add_claim_by = FNG
 		add_claim_by = TIB
-		add_core_of = CHB
 	}
 
 	provinces={

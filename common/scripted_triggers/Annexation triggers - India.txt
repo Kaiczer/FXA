@@ -30,10 +30,7 @@ can_release_baluchistan = {
 			IND = { is_ally_of_ROOT = yes }
 			AFG = { owns_state = 678 }
             var:677.owner = {
-                OR = {
-                    original_tag = PAK
-                    original_tag = PUN
-                }
+                original_tag = PAK
                 is_ally_of_ROOT = yes
             }
 			RJH = {
@@ -260,23 +257,6 @@ can_release_pakistan = {
         }
     }
 }
-# Pubjab - annexation_PUN_CONQ
-can_release_punjab = {
-    OR = {
-        state = 673
-        state = 675
-    }
-    NOT = { is_claimed_by = ROOT }
-    ROOT = {
-        should_release_india_first = yes
-        should_release_hindustan_first = yes
-        should_release_pakistan_first = yes
-        NOT = {
-            country_exists = PUN
-            has_country_flag = PUN_CONQ
-        }
-    }
-}
 # Colonial India - annexation_RAJ_CONQ
 can_release_colonial_india = {
     state = 670
@@ -432,11 +412,9 @@ can_release_east_punjab = {
             original_tag = IND
             original_tag = RAJ
             original_tag = PAK
-            original_tag = PUN
             IND = { ROOT_can_grant_land = yes }
             RAJ = { ROOT_can_grant_land = yes } 
             PAK = { ROOT_can_grant_land = yes }
-            PUN = { ROOT_can_grant_land = yes }
         }
         NOT = {
             has_country_flag = EAST_PUBJAB_CONQ
@@ -460,7 +438,6 @@ can_release_peshawar = {
                 }
             }
             original_tag = PAK
-            original_tag = PUN
             var:675.owner = {
                 OR = {
                     original_tag = IND
@@ -469,7 +446,6 @@ can_release_peshawar = {
                 ROOT_can_grant_land = yes 
             }
             PAK = { ROOT_can_grant_land = yes }
-            PUN = { ROOT_can_grant_land = yes }
         }
         NOT = {
             has_country_flag = PESHAWAR_CONQ
@@ -499,13 +475,6 @@ can_release_kalat = {
                 }
                 owns_state = 680
             }
-            AND = {
-                OR = {
-                    original_tag = PAK
-                    original_tag = PUN
-                }
-                owns_state = 677
-            }
             var:680.owner = {
                 OR = {
                     original_tag = RAJ
@@ -515,10 +484,7 @@ can_release_kalat = {
                 ROOT_can_grant_land = yes 
             }
             var:677.owner = {
-                OR = {
-                    original_tag = PAK
-                    original_tag = PUN
-                }
+                original_tag = PAK
                 ROOT_can_grant_land = yes 
             }
         }
@@ -545,10 +511,7 @@ can_release_sindh = {
                 owns_state = 681
             }
             AND = {
-                OR = {
-                    original_tag = PAK
-                    original_tag = PUN
-                }
+                original_tag = PAK
                 owns_state = 677
             }
             var:681.owner = {
@@ -560,10 +523,7 @@ can_release_sindh = {
                 ROOT_can_grant_land = yes
             }
             var:677.owner = {
-                OR = {
-                    original_tag = PAK
-                    original_tag = PUN
-                }
+                original_tag = PAK
                 ROOT_can_grant_land = yes
             }
         }
@@ -986,13 +946,8 @@ should_release_orissa_first = {
 
 should_release_pakistan_first = {
 	OR = {
-        count_triggers = {
-            amount = 3 
-            has_country_flag = PAK_CONQ
-            country_exists = PAK
-            has_country_flag = PUN_CONQ
-            country_exists = PUN
-        }
+        has_country_flag = PAK_CONQ
+        country_exists = PAK
 		675 = { is_valid_annexation_state = no } #West Punjab
 	}
 }

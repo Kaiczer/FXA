@@ -1282,10 +1282,6 @@ check_possible_annexations_india = {
 		ROOT = { activate_mission = annexation_PAK_CONQ }
 	}
 	else_if = {
-		limit = { can_release_punjab = yes }
-		ROOT = { activate_mission = annexation_PUN_CONQ }
-	}
-	else_if = {
 		limit = { can_release_colonial_india = yes }
 		ROOT = { activate_mission = annexation_RAJ_CONQ }
 	}

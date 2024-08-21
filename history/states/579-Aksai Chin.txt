@@ -5,13 +5,14 @@ state={
 		13732 
 	}
 	history = {
-		owner = SIK
-		add_core_of = SIK
+		owner = TIB
+		add_core_of = TIB
+		add_claim_by = SIK
 		add_claim_by = CHI
 		add_claim_by = FNG
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
+	manpower=0
+	state_category = undeveloped_rural_region
 }

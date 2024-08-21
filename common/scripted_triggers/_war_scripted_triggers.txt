@@ -137,7 +137,7 @@ at_war_with_or_justifying_wargoal_against_PREV = {
 	}
 }
 
-minor_faction_member_cannot_start_inter_faction_war_before_wk = {
+minor_faction_member_cannot_start_inter_faction_war_before_gw = {
 	if = {
 		limit = {
 			is_in_faction = yes

@@ -174,6 +174,10 @@ CHI = {
 	color = rgb { 0 42 177 }
 	color_ui = rgb { 0 42 177 }
 }
+CPC = {
+	color = rgb { 179 18 0 }
+	color_ui = rgb { 179 18 0 }
+}
 FNG = {
 	color = rgb { 189 113 33 }
 	color_ui = rgb { 189 113 33 }
@@ -850,7 +854,7 @@ BAL = {
 	color = rgb { 195 199 69 }
 	color_ui = rgb { 226 219 83 }
 }
-PUN = {
+PAK_PUNJAB = {
 	color = rgb { 103 150 122 }
 	color_ui = rgb { 93 140 92 }
 }

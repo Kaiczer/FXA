@@ -52,29 +52,14 @@ create_dynamic_country = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-	every_state = {
-		limit = {
-			OR = {
-				state = 575
-				state = 576
-				state = 577
-				state = 578
-				state = 579
-			}
-		}
+	577 = {
 		transfer_state_to = NXJ
 		remove_core_of = SIK 
 		add_claim_by = SIK 
 	}
 	every_state = {
 		limit = {
-			NOT = {
-				state = 575
-				state = 576
-				state = 577
-				state = 578
-				state = 579
-			}
+			NOT = { state = 577 }
 			is_owned_by = SIK 
 		}
 		remove_core_of = NXJ 

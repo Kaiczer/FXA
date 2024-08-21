@@ -599,3 +599,12 @@ script_enum_equipment_bonus_type = {
 	mio_cat_eq_only_cv_fighter
 	mio_cat_eq_all_aircraft
 }
+script_enum_china_alignment_type = {
+	right_kuomintang
+	left_kuomintang
+	chinese_republican
+	chinese_communists
+	chinese_monarchists #Qing Restoration
+	fengtian
+	zhili
+}

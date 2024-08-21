@@ -2194,41 +2194,6 @@ country_event = { # Fate of Pakistan
         recheck_annexations = yes
     }
 }
-country_event = { # Fate of Pubjab
-    id = annex.1219
-    title = annexation_PUN_CONQ
-    desc = annexation_PUN_CONQ_desc
-    picture = GFX_report_event_generic_conference2
-    is_triggered_only = yes
-    immediate = {
-        hidden_effect = {
-            add_to_temp_array = { core_removal_array = PUN }
-            remove_all_cores_and_claims_of_tags = yes
-            every_state = {
-                limit = {
-                    state = 675
-                }
-                add_core_of = PUN
-            }
-        }
-    }
-    option = { # Liberate PUN
-        log = "[GetLogInfo]: event annex.1219 option annex.1219.a"
-        name = annex.1219.a
-        ai_chance = { base = 100 }
-        set_temp_variable = { tag_to_release = PUN }
-        release_targeted_tag = yes
-        recheck_annexations = yes
-    }
-    option = { # Occupy PUN
-        log = "[GetLogInfo]: event annex.1219 option annex.occupation"
-        name = annex.occupation
-        ai_chance = { base = 0 }
-        occupy_replace_country = yes
-        set_country_flag = PUN_CONQ
-        recheck_annexations = yes
-    }
-}
 country_event = { # Fate of Colonial India
     id = annex.1220
     title = annexation_RAJ_CONQ
