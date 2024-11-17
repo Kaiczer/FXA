@@ -463,41 +463,6 @@ country_event = { # Fate of Lebanon
         recheck_annexations = yes
     }
 }
-country_event = { # Fate of Mohammerah
-    id = annex.1255
-    title = annexation_MHR_CONQ
-    desc = annexation_MHR_CONQ_desc
-    picture = GFX_report_event_generic_conference2
-    is_triggered_only = yes
-    immediate = {
-        hidden_effect = {
-            add_to_temp_array = { core_removal_array = MHR }
-            remove_all_cores_and_claims_of_tags = yes
-            every_state = {
-                limit = {
-                    state = 718
-                }
-                add_core_of = MHR
-            }
-        }
-    }
-    option = { # Liberate MHR
-        log = "[GetLogInfo]: event annex.1255 option annex.1255.a"
-        name = annex.1255.a
-        ai_chance = { base = 100 }
-        set_temp_variable = { tag_to_release = MHR }
-        release_targeted_tag = yes
-        recheck_annexations = yes
-    }
-    option = { # Occupy MHR
-        log = "[GetLogInfo]: event annex.1255 option annex.occupation"
-        name = annex.occupation
-        ai_chance = { base = 0 }
-        occupy_replace_country = yes
-        set_country_flag = MHR_CONQ
-        recheck_annexations = yes
-    }
-}
 country_event = { # Fate of Muscat
     id = annex.1256
     title = annexation_MUS_CONQ

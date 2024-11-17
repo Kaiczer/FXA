@@ -1818,14 +1818,13 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "FH_world_congress_button_container"
+		name = "FH_governance_capability_button_container"
 		position = { x = 191 y = 144 }
 		buttonType = {
-			name = "world_congress_button"
+			name = "governance_capability_button"
 			position = { x = 0 y = 0 }
-			spriteType = "GFX_world_factions"
-			pdx_tooltip = "world_congress_button_tooltip"
-			pdx_tooltip_delayed = "world_congress_button_tooltip_delayed"
+			spriteType = "GFX_governance_capability"
+			pdx_tooltip = "governance_capability_button_tooltip"
 		}
 	}
 	#Borrowed from KR

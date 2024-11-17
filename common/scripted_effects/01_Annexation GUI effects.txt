@@ -1417,10 +1417,6 @@ check_possible_annexations_middle_east = {
 		ROOT = { activate_mission = annexation_LEB_CONQ }
 	}
 	else_if = {
-		limit = { can_release_mohammerah = yes }
-		ROOT = { activate_mission = annexation_MHR_CONQ }
-	}
-	else_if = {
 		limit = { can_release_muscat = yes }
 		ROOT = { activate_mission = annexation_MUS_CONQ }
 	}
@@ -1578,10 +1574,6 @@ check_possible_annexations_africa = {
 	else_if = {
 		limit = { can_release_kel_adagh = yes }
 		ROOT = { activate_mission = annexation_ADA_CONQ }
-	}
-	else_if = {
-		limit = { can_release_afra = yes }
-		ROOT = { activate_mission = annexation_AFR_CONQ }
 	}
 	else_if = {
 		limit = { can_release_kel_air = yes }

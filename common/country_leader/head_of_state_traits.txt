@@ -1314,6 +1314,14 @@ leader_traits = {
 		mobilization_laws_cost_factor = 0.33
 	}
 
+	### United States
+	USA_people_president = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = 0.15
+		social_liberal_drift = 0.07
+	}
+
 	### Ma Clique
 	XSM_hero_of_the_northwest = { #Ma Fuxiang
 		random = no

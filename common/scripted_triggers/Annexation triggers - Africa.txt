@@ -96,18 +96,6 @@ can_release_kel_adagh = {
         }
     }
 }
-# Afra - annexation_AFR_CONQ
-can_release_afra = {
-    state = 849
-    NOT = { is_claimed_by = ROOT }
-    ROOT = {
-        should_release_ethiopia_first = yes
-        NOT = {
-            country_exists = AFR
-            has_country_flag = AFR_CONQ
-        }
-    }
-}
 # Kel Air - annexation_AIR_CONQ
 can_release_kel_air = {
     state = 831
@@ -263,7 +251,6 @@ can_release_eritrea = {
     state = 846
     NOT = { is_claimed_by = ROOT }
     ROOT = {
-        should_release_aussa_first = yes
         NOT = {
             country_exists = ERI
             has_country_flag = ERI_CONQ
@@ -674,7 +661,6 @@ can_release_djibouti = {
     NOT = { is_claimed_by = ROOT }
     ROOT = {
         should_release_somalia_first = yes
-        should_release_aussa_first = yes
         NOT = {
             has_country_flag = DJIBOUTI_CONQ
         }
@@ -685,7 +671,6 @@ can_release_tigray = {
     state = 848
     NOT = { is_claimed_by = ROOT }
     ROOT = {
-        should_release_aussa_first = yes 
         OR = {
             country_exists = ERI
             has_country_flag = ERI_CONQ
@@ -917,14 +902,6 @@ can_release_cape_verde = {
     }
 }
 
-### Should Release First Triggers ###
-should_release_aussa_first = {
-    OR = {
-		country_exists = AFR
-		has_country_flag = AFR_CONQ
-		849 = { is_valid_annexation_state = no } 
-	}
-}
 
 should_release_congo_first = {
     OR = {

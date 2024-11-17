@@ -41,4 +41,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_party_name = {
+	ideology = paternal_autocrat
+	name = YUN_paternal_autocrat_party_kmt
+	long_name = YUN_paternal_autocrat_party_kmt_long
+}

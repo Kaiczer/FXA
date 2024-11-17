@@ -4,9 +4,9 @@ USA: "America"
 USA_ADJ: "American"
 USA_DEF: "America"
 
-USA_federal: "United States of America"
-USA_federal_ADJ: "Federal"
-USA_federal_DEF: "the United States of America"
+USA_federal_48: "United States of America"
+USA_federal_48_ADJ: "Federal"
+USA_federal_48_DEF: "the United States of America"
 
 ### Parties
 USA_authoritarian_socialist_party: "CPUSA"
@@ -17,10 +17,10 @@ USA_revolutionary_socialist_party: "Socialists"
 USA_revolutionary_socialist_party_long: "Socialist Party"
 USA_social_democrat_party: "Progressive Democrats"
 USA_social_democrat_party_long: "Democratic Party - Progressive"
-USA_social_liberal_party: "Liberal Republicans"
-USA_social_liberal_party_long: "Republican Party - Liberal"
-USA_classical_liberal_party: "Conservative Republicans"
-USA_classical_liberal_party_long: "Republican Party - Conservative"
+USA_social_liberal_party: "Progressive Republicans"
+USA_social_liberal_party_long: "Republican Party - Progressive"
+USA_classical_liberal_party: "Old Right Republicans"
+USA_classical_liberal_party_long: "Republican Party - Old Right"
 USA_social_conservative_party: "Conservative Democrats"
 USA_social_conservative_party_long: "Democratic Party - Conservative"
 USA_authoritarian_party: "SOWS/NUSJ"
@@ -36,4 +36,11 @@ USA_reactionary_ultranationalist_party_long: "Silver Legion of America/Christian
 
 USA_emergency_government_party: "Emergency Government"
 USA_emergency_government_party_long: "United States Emergency Government"
+
+### Characters Name and Desc ###
+USA_fiorello_la_guardia: "Fiorello Henry La Guardia"
+USA_hiram_warren_johnson: "Hiram Warren Johnson"
+
+### Traits ###
+USA_people_president: "People's President"
 

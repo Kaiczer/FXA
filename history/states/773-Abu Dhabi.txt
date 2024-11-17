@@ -2,16 +2,19 @@
 state={
 	id=773
 	name="STATE_773"
-	provinces={
-		2048 8108 10904 
-	}
-	history = {
-		owner = ENG 
-		add_claim_by = ENG   
+
+	history={
+		owner = ENG
+		add_claim_by = ENG
 		add_core_of = TRU
+
 	}
+
+	provinces={
+		2048 4932 8108 10904 
+	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

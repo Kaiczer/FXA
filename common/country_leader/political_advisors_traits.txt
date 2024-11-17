@@ -3452,7 +3452,7 @@ leader_traits = {
 
 	### YUN ###
 
-	YUN_defence_comissioner_of_kunming = {
+	YUN_defence_commissioner_of_kunming = {
 		random = no
 		#sprite = 13
 		consumer_goods_factor = -0.06
@@ -3460,7 +3460,7 @@ leader_traits = {
 
 		ai_will_do = { factor = 1 }
 	}
-	YUN_defence_comissioner_of_mengzi = {
+	YUN_defence_commissioner_of_mengzi = {
 		random = no
 		#sprite = 13
 		attrition = -0.08
@@ -3468,7 +3468,7 @@ leader_traits = {
 
 		ai_will_do = { factor = 1 }
 	}
-	YUN_defence_comissioner_of_zhaotong = {
+	YUN_defence_commissioner_of_zhaotong = {
 		random = no
 		#sprite = 13
 		army_core_defence_factor = 0.10

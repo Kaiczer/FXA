@@ -16,7 +16,7 @@ leader_traits = {
 		experience_gain_air = @chief_experience_gain_low
 		experience_gain_air_factor = 0.05
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.25
@@ -36,7 +36,7 @@ leader_traits = {
 		experience_gain_air = @chief_experience_gain_medium
 		experience_gain_air_factor = 0.10
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 0.5
@@ -56,7 +56,7 @@ leader_traits = {
 		experience_gain_air = @chief_experience_gain_high
 		experience_gain_air_factor = 0.15
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 0.75
@@ -76,7 +76,7 @@ leader_traits = {
 		air_accidents_factor = -0.05
 		experience_gain_air = @chief_experience_gain_low
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.5
@@ -96,7 +96,7 @@ leader_traits = {
 		air_accidents_factor = -0.1
 		experience_gain_air = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 0.75
@@ -116,7 +116,7 @@ leader_traits = {
 		air_accidents_factor = -0.15
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 1
@@ -154,7 +154,7 @@ leader_traits = {
 		air_night_penalty = -0.1
 		experience_gain_air = @chief_experience_gain_low
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.5
@@ -174,7 +174,7 @@ leader_traits = {
 		air_night_penalty = -0.2
 		experience_gain_air = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 0.75
@@ -194,7 +194,7 @@ leader_traits = {
 		air_night_penalty = -0.3
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 1
@@ -214,7 +214,7 @@ leader_traits = {
 		army_bonus_air_superiority_factor = 0.05
 		experience_gain_air = @chief_experience_gain_low
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.75
@@ -234,7 +234,7 @@ leader_traits = {
 		army_bonus_air_superiority_factor = 0.1
 		experience_gain_air = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 1
@@ -254,7 +254,7 @@ leader_traits = {
 		army_bonus_air_superiority_factor = 0.15
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 1.25
@@ -275,7 +275,7 @@ leader_traits = {
 		air_weather_penalty = -0.1
 		experience_gain_air = @chief_experience_gain_low
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.25
@@ -295,7 +295,7 @@ leader_traits = {
 		air_weather_penalty = -0.2
 		experience_gain_air = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 0.5
@@ -315,7 +315,7 @@ leader_traits = {
 		air_weather_penalty = -0.3
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 0.75
@@ -335,7 +335,7 @@ leader_traits = {
 		air_superiority_efficiency = 0.05
 		experience_gain_air = @chief_experience_gain_low
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.75
@@ -355,7 +355,7 @@ leader_traits = {
 		air_superiority_efficiency = 0.1
 		experience_gain_air = @chief_experience_gain_medium
 
-		command_cap = @tier2
+		command_power = @tier2
 
 		ai_will_do = {
 			factor = 1
@@ -375,7 +375,7 @@ leader_traits = {
 		air_superiority_efficiency = 0.15
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 1.25
@@ -397,7 +397,7 @@ leader_traits = {
 		experience_gain_air = @chief_experience_gain_low
 		experience_gain_air_factor = 0.05
 
-		command_cap = @tier1
+		command_power = @tier1
 
 		ai_will_do = {
 			factor = 0.25
@@ -417,7 +417,7 @@ leader_traits = {
 		army_bonus_air_superiority_factor = 0.1
 		experience_gain_air = @chief_experience_gain_high
 
-		command_cap = @tier3
+		command_power = @tier3
 
 		ai_will_do = {
 			factor = 1.25

@@ -99,10 +99,10 @@ defined_text = {
 		trigger = {
 			has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ideology_mapped }
 		}
-		localization_key = "[?party_popularity@var:political_power_ideology|%0]"
+		localization_key = party_popularity_value_mapped
 	}
 	text = {
-		localization_key = "[?party_popularity@ruling_party|%0]"
+		localization_key = party_popularity_value_default
 	}
 }
 defined_text = {
@@ -126,16 +126,16 @@ defined_text = {
 		trigger = {
 			has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier_ideology_mapped }
 		}
-		localization_key = "[?party_popularity@var:political_power_ideology|2=+]"
+		localization_key = party_popularity_gain_value_mapped
 	}
 	text = {
 		trigger = {
-			has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier }
+			NOT = { has_dynamic_modifier = { modifier = party_popularity_dynamic_modifier } }
 		}
-		localization_key = "[?party_popularity@ruling_party|2=+]"
+		localization_key = party_popularity_gain_value_disabled
 	}
 	text = {
-		localization_key = empty
+		localization_key = party_popularity_gain_value_default
 	}
 }
 defined_text = {

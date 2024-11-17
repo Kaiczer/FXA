@@ -195,6 +195,8 @@ is_actual_major_without_exceptions: "$is_actual_major_tooltip_base$$is_actual_ma
 ### Political Tab UI ###
 power_balance_button_disabled: "Your country has no active §YBalance of Power§!."
 
+governance_capability_button_tooltip: "Your country has no active §YSpecial Mechanics§!."
+
 ### Static Modifiers ###
 volunteer_limit_plus_three: "Increased Volunteer Limit"
 volunteer_limit_plus_two: "$volunteer_limit_plus_three$"

@@ -44,6 +44,10 @@ has_subject_autonomy_feature = {
 	has_dlc_tfv = yes
 }
 
+has_dlc_got = {
+	has_dlc = "Gotterdammerung"
+}
+
 has_tech_sharing_feature = {
 	OR = {
 		has_dlc_tfv = yes

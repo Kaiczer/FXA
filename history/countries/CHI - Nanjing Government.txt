@@ -1,7 +1,9 @@
+capital = 518
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
 
+#oob = "CHI"
 set_country_flag = china_is_potential_government
 
 set_technology = {
@@ -31,21 +33,34 @@ if = {
 	}
 }
 
+## Truce of Wuhan ##
 527 = { set_demilitarized_zone = yes }
 533 = { set_demilitarized_zone = yes }
 511 = { set_demilitarized_zone = yes }
+every_country = {
+	limit = {
+		OR = {
+			tag = FNG
+			tag = ZHI
+			tag = SHX
+		}
+	}
+	ROOT = { diplomatic_relation = { country = PREV relation = non_aggression_pact } }
+}
 
-## Truce of Wuhan ##
-diplomatic_relation = { country = FNG relation = non_aggression_pact }
-diplomatic_relation = { country = ZHI relation = non_aggression_pact }
-diplomatic_relation = { country = SHX relation = non_aggression_pact }
 ## Recognization of between Ma Family Warlords and Nanjing Government ## 
-diplomatic_relation = { country = XSM relation = non_aggression_pact }
-give_guarantee = XSM
-XSM = { give_guarantee = PREV }
-diplomatic_relation = { country = SIK relation = non_aggression_pact }
-give_guarantee = SIK
-SIK = { give_guarantee = PREV }
+every_country = {
+	limit = {
+		OR = {
+			tag = XSM
+			tag = SIK
+		}
+	}
+	ROOT = { 
+		give_guarantee = PREV
+		diplomatic_relation = { country = PREV relation = non_aggression_pact }
+	}
+}
 
 recruit_character = CHI_jiang_jieshi
 set_popularities = {

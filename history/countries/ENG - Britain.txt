@@ -2,6 +2,8 @@ set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
 
+set_cosmetic_tag = ENG_monarchy
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -28,12 +30,13 @@ if = {
 		}
 	}
 }
-recruit_character = ENG_George_V
+recruit_character = ENG_george_frederick_windsor
 set_popularities = {
-	social_democrat = 100
+	social_democrat = 51
+	social_conservative = 49
 }
 set_politics = {	
-	ruling_party = social_democrat
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,4 +67,4 @@ every_country = {
 }
 
 
-ENG_George_V = { set_character_flag = is_monarch }
+ENG_george_frederick_windsor = { set_character_flag = is_monarch }

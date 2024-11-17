@@ -288,41 +288,6 @@ country_event = { # Fate of Kel Adagh
         recheck_annexations = yes
     }
 }
-country_event = { # Fate of Afra
-    id = annex.1295
-    title = annexation_AFR_CONQ
-    desc = annexation_AFR_CONQ_desc
-    picture = GFX_report_event_generic_conference2
-    is_triggered_only = yes
-    immediate = {
-        hidden_effect = {
-            add_to_temp_array = { core_removal_array = AFR }
-            remove_all_cores_and_claims_of_tags = yes
-            every_state = {
-                limit = {
-                    state = 849
-                }
-                add_core_of = AFR
-            }
-        }
-    }
-    option = { # Liberate AFR
-        log = "[GetLogInfo]: event annex.1295 option annex.1295.a"
-        name = annex.1295.a
-        ai_chance = { base = 100 }
-        set_temp_variable = { tag_to_release = AFR }
-        release_targeted_tag = yes
-        recheck_annexations = yes
-    }
-    option = { # Occupy AFR
-        log = "[GetLogInfo]: event annex.1295 option annex.occupation"
-        name = annex.occupation
-        ai_chance = { base = 0 }
-        occupy_replace_country = yes
-        set_country_flag = AFR_CONQ
-        recheck_annexations = yes
-    }
-}
 country_event = { # Fate of Kel Air
     id = annex.1296
     title = annexation_AIR_CONQ

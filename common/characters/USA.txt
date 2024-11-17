@@ -1,6 +1,19 @@
 characters = {
+	USA_fiorello_la_guardia = {
+		name = USA_fiorello_la_guardia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_fiorello_la_guardia.png"
+			}
+		}
+		country_leader = {
+			desc = USA_fiorello_la_guardia_leader_desc
+			ideology = social_liberal_subtype
+			traits = { USA_people_president }
+		}
+	}
 	USA_hiram_warren_johnson = {
-		name = "Hiram Warren Johnson"
+		name = USA_hiram_warren_johnson
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/USA/USA_hiram_johnson.png"

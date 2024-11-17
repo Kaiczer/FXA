@@ -310,7 +310,7 @@ prefer_core_states_unless_filled_infrastructure = {
 			NOT = {
 				owner = {
 					any_core_state = {
-						free_building_slots = { building = infrastructure size > 0 include_locked = yes }
+						free_building_slots = { building = infrastructure size > 0 }
 						is_owned_and_controlled_by = PREV
 						is_valid_state_for_development = yes
 					}

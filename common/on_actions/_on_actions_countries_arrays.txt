@@ -187,7 +187,6 @@ on_actions = {
 			add_to_array = { global.middle_eastern_tags_array = KUR }
 			add_to_array = { global.middle_eastern_tags_array = KUW }
 			add_to_array = { global.middle_eastern_tags_array = LEB }
-			add_to_array = { global.middle_eastern_tags_array = MHR }
 			add_to_array = { global.middle_eastern_tags_array = MOR }
 			add_to_array = { global.middle_eastern_tags_array = MUS }
 			add_to_array = { global.middle_eastern_tags_array = OMA }
@@ -212,7 +211,6 @@ on_actions = {
 
 			#Set up African tags array
 			add_to_array = { global.african_tags_array = ADA }
-			add_to_array = { global.african_tags_array = AFR }
 			add_to_array = { global.african_tags_array = AIR }
 			add_to_array = { global.african_tags_array = ANG }
 			add_to_array = { global.african_tags_array = BGA }

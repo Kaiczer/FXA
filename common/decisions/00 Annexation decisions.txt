@@ -6135,30 +6135,6 @@ annexation_decisions = {
         }
         ai_will_do = { factor = 100 }
     }
-    # Mohammerah
-    annexation_MHR_CONQ = {
-        icon = generic_form_nation
-        selectable_mission = yes
-        days_mission_timeout = @annexation_days_mission_timeout
-        is_good = no
-        available = {
-            can_select_annexation_mission = yes
-        }
-        cancel_trigger = {
-            718 = { is_valid_annexation_state = no }
-        }
-        complete_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_MHR_CONQ"
-            block_annexation_mission_selection = yes
-            country_event = annex.1255
-        }
-        timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_MHR_CONQ"
-            block_annexation_mission_selection = yes
-            country_event = annex.1255
-        }
-        ai_will_do = { factor = 100 }
-    }
     # Muscat
     annexation_MUS_CONQ = {
         icon = generic_form_nation

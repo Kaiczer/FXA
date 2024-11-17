@@ -1,18 +1,105 @@
 bookmarks = {
 	bookmark = {
-		name = "FH_scenario_name"
-		desc = "FH_scenario_desc"
+		name = FH_scenario_name
+		desc = FH_scenario_desc
 		date = 1936.1.1.1
 		picture = GFX_select_date_1936
-		default_country = "XXB"
+		default_country = "USA"
 		default = yes
 
-		"---" = {
+		USA = {
+			history = USA_TFH_gathering_storm_desc
+			ideology = social_liberal	
+
+			ideas={
+
+			}
+
+			focuses = {
 			
+			}
 		}
 
-		"XXB" = {
-			ideology = reactionary_ultranationalist
+		ENG = {
+			history = ENG_TFH_gathering_storm_desch
+			ideology = social_conservative
+
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		FRA = {
+			history = FRA_TFH_gathering_storm_desc
+			ideology = classical_liberal
+
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+		
+		GER = {
+			history = GER_TFH_gathering_storm_desc
+			ideology = volkist
+
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		POL = {
+			history = POL_TFH_gathering_storm_desc
+			ideology = authoritarian
+
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		SOV = {
+			history = SOV_TFH_gathering_storm_desc
+			ideology = vanguard_socialist
+
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		JAP = {
+			history = JAP_TFH_gathering_storm_desc
+			ideology = social_conservative
+			
+			ideas={
+
+			}
+
+			focuses = {
+			
+			}
+		}
+
+		"---" = {
+
 		}
 
 		effect = {

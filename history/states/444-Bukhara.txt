@@ -2,13 +2,16 @@
 state={
 	id=444
 	name="STATE_444"
-	provinces={
-		756 1573 1623 1632 4629 7639 7775 9605 10205 10470 10671 12161 12239 12722 
-	}
-	history = {
+
+	history={
 		owner = UZB
 		add_core_of = UZB
-		add_claim_by = SOV 
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		756 1573 1623 1632 7639 7775 9605 10205 10470 10671 12161 12239 12722 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
