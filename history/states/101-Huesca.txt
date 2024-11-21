@@ -2,7 +2,7 @@ state={
 	id=101
 	name="STATE_101"
 	provinces={
-		899 915 9840 9842 11793 11819 11821 11838 13590 
+		899 915 9840 11793 11819 11821 11838 13590 
 	}
 	history = {
 		owner = SPA
@@ -10,6 +10,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=242958
         state_category = undeveloped_rural_region
 }
