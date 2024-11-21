@@ -2,7 +2,7 @@ state={
 	id=95
 	name="STATE_95"
 	provinces={
-		3959 9909 
+		3959 9909 13497
 	}
 	history = {
 		owner = FRA
@@ -11,6 +11,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=493376
         state_category = undeveloped_rural_region
 }

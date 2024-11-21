@@ -2,7 +2,7 @@ state={
 	id=71
 	name="STATE_71"
 	provinces={
-		549 678 1346 3629 6529 9503 9559 10779 11502 
+		549 678 1346 3629 6529 9503 9559 11502 
 	}
 	history = {
 		owner = FRA
@@ -11,6 +11,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=1898376
         state_category = undeveloped_rural_region
 }

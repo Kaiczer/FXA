@@ -559,16 +559,16 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "resources_info_entry"
-		position = { x = 0 y = 0 }	
+		position = { x = 0 y = 0 }
 		size = { width = 150 height = 100 }
 		clipping = no
-		
+
 		buttonType ={
 			name ="resources_icon"
 			spriteType = "GFX_resources_strip"
 			position = { x= 14 y = 5 }
-		}		
-		
+		}
+
 		instantTextboxType = {
 			name = "balance"
 			position = { x=13 y=8 }
@@ -580,13 +580,13 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "produced"
-			position = { x=20 y=36 }
+			position = { x=20 y=37 }
 			font = "hoi_16mbs"
 			maxWidth = 50
 			maxHeight = 18
 			format = right
 		}
-		
+
 		instantTextboxType = {
 			name = "imported"
 			position = { x=20 y=56 }
@@ -599,34 +599,51 @@ guiTypes = {
 		instantTextboxType = {
 			name = "exported"
 			font = "hoi_16mbs"
-			position = { x=20 y=76 }
+			position = { x=20 y=75 }
 			maxWidth = 50
 			maxHeight = 18
 			format = right
 		}
-		
+
+		instantTextboxType = {
+			name = "special_project"
+			font = "hoi_16mbs"
+			position = { x=20 y=94 }
+			maxWidth = 50
+			maxHeight = 18
+			format = right
+		}
+
+		instantTextboxType = {
+			name = "production_line"
+			font = "hoi_16mbs"
+			position = { x=20 y=113 }
+			maxWidth = 50
+			maxHeight = 18
+			format = right
+		}
+
 		instantTextboxType = {
 			name = "needed"
-			position = { x=20 y=94 }
+			position = { x=20 y=130 }
 			font = "hoi_16mbs"
 			maxWidth = 50
 			maxHeight = 28
 			format = right
 		}
-		
+
 		instantTextboxType = {
 			name = "neededType"
-			position = { x=10 y=94 }
+			position = { x=10 y=130 }
 			font = "hoi_16mbs"
 			maxWidth = 50
 			maxHeight = 28
 			format = left
 		}
-		
+
 		buttonType = {
 			name = "cancel_imports"
-			position = { x= 46 y= 125 }
-			pdx_tooltip = "CANCEL_RESOURCE_IMPORT"
+			position = { x= 46 y= 163 }
 			quadTextureSprite ="GFX_cancel_import_button"
 			clicksound = click_default
 		}

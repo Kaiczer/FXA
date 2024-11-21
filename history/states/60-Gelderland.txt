@@ -2,7 +2,7 @@ state={
 	id=60
 	name="STATE_60"
 	provinces={
-		6241 6286 9363 9403 
+		6241 6286 9363 9403 11456
 	}
 	history = {
 		owner = HOL
@@ -10,6 +10,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=2586334
         state_category = undeveloped_rural_region
 }
