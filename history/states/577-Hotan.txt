@@ -1,0 +1,17 @@
+state={
+	id=577
+	name="STATE_577"
+	provinces={
+		1095 1698 1943 2064 2068 2074 2198 2947 4947 4973 5083 5736 7696 7830 7858 8103 8118 10315 10900 10911 10917 12740 13374 13386 13390 13408 13531 13581 
+	}
+	history = {
+		owner = SIK
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = FNG
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+        manpower=623955
+        state_category = undeveloped_rural_region
+}

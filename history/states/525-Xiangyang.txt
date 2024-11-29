@@ -3,7 +3,7 @@ state={
 	id=525
 	name="STATE_525"
 	provinces={
-		4009 7167 7625 7637 7939 9934 9959 10462 10868 
+		4009 7167 7580 7625 7637 7939 9934 9959 10462 10868 
 	}
 	history = {
 		owner = ZHI
@@ -13,6 +13,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=8164800
         state_category = undeveloped_rural_region
 }

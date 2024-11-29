@@ -361,8 +361,7 @@ is_core_china = {
 
 is_mainland_china_claim_area = {
 	OR = {
-		is_china_proper = yes
-		is_manchuria = yes
+		is_core_china = yes
 		is_xinjiang = yes
 		is_core_of = TIB
 		is_core_of = MON

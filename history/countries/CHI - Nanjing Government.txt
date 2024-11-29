@@ -62,6 +62,12 @@ every_country = {
 	}
 }
 
+declare_war_on = {
+	target = CPC
+	type = civil_war
+}
+add_civil_war_target = CPC
+
 recruit_character = CHI_jiang_jieshi
 set_popularities = {
 	paternal_autocrat = 100

@@ -33,7 +33,7 @@ if = {
 CHI = {
 	set_autonomy = {
 		target = PREV 
-		autonomous_state = autonomous_governorate
+		autonomous_state = associated_governorate
 	}
 }
 set_politics = {	

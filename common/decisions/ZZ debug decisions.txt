@@ -213,6 +213,24 @@ debug_decisions = {
 			recheck_annexations = yes
 		}
 	}
+	annexation_CHN = {
+		icon = generic_flags
+
+		fire_only_once = no
+		cost = no
+
+		complete_effect = {
+			every_state = {
+				limit = { is_china_claim_area = yes }
+				transfer_state_to = ROOT 
+				if = {
+					limit = { ROOT = { is_chinese_tag = yes } }
+					THIS = { add_core_of = PREV.PREV }
+				}
+			}
+		}
+	}
+
 	turn_off_plpc_debug = {
 		icon = generic_flags
 
