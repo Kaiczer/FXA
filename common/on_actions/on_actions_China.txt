@@ -1,12 +1,75 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			# Set Up the Soviet China's HQ in Shanxi's territory
-			CPC = { 
-				become_exiled_in = { target = SHX legitimacy = 19 }
-				white_peace = SCH
-				white_peace = YUN
+			# CPC-KMT Civil War / Add AI strategies (crashes in history file)
+			CHI = {
+				add_ai_strategy = {
+					type = diplo_action_desire
+					id = YUN
+					target = call_allies
+					value = -99999
+				}
+				add_ai_strategy = {
+					type = diplo_action_acceptance
+					id = YUN
+					target = join_allies
+					value = -99999
+				}
+				add_ai_strategy = {
+					type = diplo_action_desire
+					id = SCH
+					target = call_allies
+					value = -99999
+				}
+				add_ai_strategy = {
+					type = diplo_action_acceptance
+					id = SCH
+					target = join_allies
+					value = -99999
+				}
 			}
+			YUN = {
+				add_ai_strategy = {
+					type = diplo_action_desire
+					id = CHI
+					target = join_allies
+					value = -99999
+				}
+				add_ai_strategy = {
+					type = diplo_action_acceptance
+					id = CHI
+					target = call_allies
+					value = -99999
+				}
+			}
+			SCH = {
+				add_ai_strategy = {
+					type = diplo_action_desire
+					id = CHI
+					target = join_allies
+					value = -99999
+				}
+				add_ai_strategy = {
+					type = diplo_action_acceptance
+					id = CHI
+					target = call_allies
+					value = -99999
+				}
+			}
+			CHI = {
+				declare_war_on = {
+					target = CPC
+					type = civil_war
+				}
+				add_civil_war_target = CPC
+				set_state_controller = 528
+				set_state_controller = 530
+				set_state_controller = 532
+				set_state_controller = 536
+			}
+
+			# Set Up the Soviet China's HQ in Shanxi's territory
+			CPC = { become_exiled_in = { target = SHX legitimacy = 19 } }
 
 			# Chinese Subdivision Status Setup 
 			every_state = {
@@ -350,62 +413,6 @@ on_actions = {
 				}
 			}
 			403 = { set_state_flag = outer_mongolia_region }
-			
-			# Add AI strategies (crashes in history file)
-			CHI = {
-				add_ai_strategy = {
-					type = diplo_action_desire
-					id = YUN
-					target = call_allies
-					value = -99999
-				}
-				add_ai_strategy = {
-					type = diplo_action_acceptance
-					id = YUN
-					target = join_allies
-					value = -99999
-				}
-				add_ai_strategy = {
-					type = diplo_action_desire
-					id = SCH
-					target = call_allies
-					value = -99999
-				}
-				add_ai_strategy = {
-					type = diplo_action_acceptance
-					id = SCH
-					target = join_allies
-					value = -99999
-				}
-			}
-			YUN = {
-				add_ai_strategy = {
-					type = diplo_action_desire
-					id = CHI
-					target = join_allies
-					value = -99999
-				}
-				add_ai_strategy = {
-					type = diplo_action_acceptance
-					id = CHI
-					target = call_allies
-					value = -99999
-				}
-			}
-			SCH = {
-				add_ai_strategy = {
-					type = diplo_action_desire
-					id = CHI
-					target = join_allies
-					value = -99999
-				}
-				add_ai_strategy = {
-					type = diplo_action_acceptance
-					id = CHI
-					target = call_allies
-					value = -99999
-				}
-			}
 		}
 	}
 }
