@@ -1,16 +1,15 @@
-
 state={
 	id=308
 	name="STATE_308"
 	provinces={
-		36 134 157 170 176 197 3067 3071 6021 6096 6175 9074 9119 9123 9158 9198 11045 11054 11085 11096 11146 11175 11181 13108 13115 
+		36 80 134 157 170 176 2998 3067 3071 6021 6096 6098 6175 9074 9119 9123 9198 11045 11054 11096 11146 11175 11181 13108 13115 
 	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
 	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

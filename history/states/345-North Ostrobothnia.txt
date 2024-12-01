@@ -1,16 +1,15 @@
-
 state={
 	id=345
 	name="STATE_345"
 	provinces={
-		82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6212 9106 9233 11041 11081 11121 11132 
+		7 82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6212 9106 9233 11024 11041 11079 11081 11121 11132 13118 
 	}
 	history = {
 		owner = FIN
 		add_core_of = FIN
 	}
+	manpower=156929
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

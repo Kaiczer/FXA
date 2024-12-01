@@ -2,14 +2,14 @@ state={
 	id=30
 	name="STATE_30"
 	provinces={
-		67 204 3061 3161 6009 6108 6144 6186 9073 9129 9183 11066 11105 11211 13100 
+		52 139 204 3061 3161 6009 6082 6108 6144 6186 9073 9129 9183 11056 11105 11211 13105 
 	}
 	history = {
 		owner = FIN
 		add_core_of = FIN
 	}
+	manpower=678006
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

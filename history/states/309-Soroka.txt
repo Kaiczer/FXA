@@ -1,16 +1,15 @@
-
 state={
 	id=309
 	name="STATE_309"
 	provinces={
-		86 94 3008 3121 3189 6029 6181 9162 9195 
+		86 94 3008 3121 3189 6029 9162 9195 
 	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
 	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }
