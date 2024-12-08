@@ -219,6 +219,10 @@ debug_decisions = {
 		fire_only_once = no
 		cost = no
 
+		visible = {
+			ROOT = { is_chinese_tag = yes }
+		}
+
 		complete_effect = {
 			every_state = {
 				limit = { is_china_claim_area = yes }
@@ -227,6 +231,85 @@ debug_decisions = {
 					limit = { ROOT = { is_chinese_tag = yes } }
 					THIS = { add_core_of = PREV.PREV }
 				}
+			}
+		}
+	}
+	balkanize_USA = {
+		icon = generic_flags
+
+		fire_only_once = no
+		cost = no 
+
+		complete_effect = {
+			CLF = {
+				every_state = {
+					limit = {
+						OR = {
+							region = 118
+							state = 1010
+							state = 1011
+						}
+					}
+					transfer_state_to = PREV
+				}
+			}
+			CLB = {
+				transfer_state = 965
+				transfer_state = 966
+				transfer_state = 977
+				transfer_state = 978
+				transfer_state = 979
+				transfer_state = 990
+				transfer_state = 991
+				transfer_state = 992
+				transfer_state = 993
+			}
+			SNE = {
+				transfer_state = 1009
+			}
+			NEE = {
+				every_state = {
+					limit = { is_new_england = yes }
+					transfer_state_to = PREV
+				}
+			}
+			NAR = {
+				every_state = {
+					limit = { 
+						OR = {
+							region = 120
+							state = 1005
+							state = 1006
+							state = 1007
+						}	
+					}
+					transfer_state_to = PREV
+				}
+			}
+			TEX = {
+				every_state = {
+					limit = { 
+						OR = {
+							state = 1008
+							region = 229
+						}
+					}
+					transfer_state_to = PREV
+				}
+			}
+			HAW = {
+				transfer_state = 1019
+			}
+			CAN = {
+				transfer_state = 1018
+				every_state = {
+					limit = { region = 185 }
+					transfer_state_to = PREV
+				}
+			}
+			SCA = {
+				transfer_state = 981
+				transfer_state = 985
 			}
 		}
 	}

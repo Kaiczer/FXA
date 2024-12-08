@@ -34,9 +34,6 @@ if = {
 }
 
 ## Truce of Wuhan ##
-527 = { set_demilitarized_zone = yes }
-533 = { set_demilitarized_zone = yes }
-511 = { set_demilitarized_zone = yes }
 every_country = {
 	limit = {
 		OR = {

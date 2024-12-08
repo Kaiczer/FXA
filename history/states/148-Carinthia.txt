@@ -2,7 +2,7 @@ state={
 	id=148
 	name="STATE_148"
 	provinces={
-		668 671 3673 6673 11612 
+		668 3673 6673 11612 
 	}
 	history = {
 		owner = AUS
@@ -10,6 +10,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=405129
         state_category = undeveloped_rural_region
 }

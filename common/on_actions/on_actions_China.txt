@@ -67,6 +67,11 @@ on_actions = {
 				set_state_controller = 532
 				set_state_controller = 536
 			}
+			
+			# Truce of Wuhan 
+			527 = { set_demilitarized_zone = yes }
+			533 = { set_demilitarized_zone = yes }
+			511 = { set_demilitarized_zone = yes }
 
 			# Set Up the Soviet China's HQ in Shanxi's territory
 			CPC = { become_exiled_in = { target = SHX legitimacy = 19 } }
