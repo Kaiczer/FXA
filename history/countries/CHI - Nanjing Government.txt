@@ -59,6 +59,20 @@ every_country = {
 	}
 }
 
+## Chinese Civil War
+CHI = {
+	declare_war_on = {
+		target = CPC
+		type = civil_war
+	}
+	add_civil_war_target = CPC
+	set_state_controller = 528
+	set_state_controller = 530
+	set_state_controller = 535
+	set_state_controller = 536
+	set_state_controller = 539
+}
+
 recruit_character = CHI_jiang_jieshi
 set_popularities = {
 	paternal_autocrat = 100

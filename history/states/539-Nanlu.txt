@@ -4,10 +4,12 @@ state={
 	name="STATE_539"
 
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner = CPC
+		controller = CHI
+		add_core_of = CPC
+		add_claim_by = CHI
 		add_claim_by = FNG
-
+		add_contested_owner = CHI
 	}
 
 	provinces={

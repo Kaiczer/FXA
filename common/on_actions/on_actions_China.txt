@@ -2,6 +2,10 @@ on_actions = {
 	on_startup = {
 		effect = {
 			# CPC-KMT Civil War / Add AI strategies (crashes in history file)
+			CPC = {
+				white_peace = YUN
+				white_peace = SCH
+			}
 			CHI = {
 				add_ai_strategy = {
 					type = diplo_action_desire
@@ -56,22 +60,6 @@ on_actions = {
 					value = -99999
 				}
 			}
-			CHI = {
-				declare_war_on = {
-					target = CPC
-					type = civil_war
-				}
-				add_civil_war_target = CPC
-				set_state_controller = 528
-				set_state_controller = 530
-				set_state_controller = 532
-				set_state_controller = 536
-			}
-			
-			# Truce of Wuhan 
-			527 = { set_demilitarized_zone = yes }
-			533 = { set_demilitarized_zone = yes }
-			511 = { set_demilitarized_zone = yes }
 
 			# Set Up the Soviet China's HQ in Shanxi's territory
 			CPC = { become_exiled_in = { target = SHX legitimacy = 19 } }
@@ -418,6 +406,11 @@ on_actions = {
 				}
 			}
 			403 = { set_state_flag = outer_mongolia_region }
+			
+			# Truce of Wuhan 
+			527 = { set_demilitarized_zone = yes }
+			533 = { set_demilitarized_zone = yes }
+			511 = { set_demilitarized_zone = yes }
 		}
 	}
 }
