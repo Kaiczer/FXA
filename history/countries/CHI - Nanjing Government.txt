@@ -5,6 +5,7 @@ set_war_support = 0.88
 
 #oob = "CHI"
 set_country_flag = china_is_potential_government
+set_global_flag = CHN_WUHAN_TRUCE
 
 set_technology = {
 	infantry_weapons = 1
@@ -59,7 +60,7 @@ every_country = {
 	}
 }
 
-## Chinese Civil War
+## Chinese Civil War (KMT-CPC) ##
 CHI = {
 	declare_war_on = {
 		target = CPC
@@ -71,6 +72,30 @@ CHI = {
 	set_state_controller = 535
 	set_state_controller = 536
 	set_state_controller = 539
+}
+
+## Truce of Wuhan 
+every_core_state = { # Set Truce Area #
+	limit = {
+		OR = {
+			state = 511
+			state = 527
+			state = 533
+		}
+	}
+	set_state_flag = CHN_truce_area
+}
+every_core_state = { # Set Area for Armies to be Teleported #
+	limit = {
+		OR = {
+			state = 529
+			state = 534
+			state = 520
+			state = 519
+			state = 518
+		}
+	}
+	set_state_flag = CHN_accessible_area
 }
 
 recruit_character = CHI_jiang_jieshi

@@ -60,7 +60,7 @@ country_event = {
 	option = {
 		log = "[GetLogInfo]: event ai_events.200 option 1"
 		set_global_flag = second_great_war_has_started
-		log = "KR_Event_Logging;THE SECOND GREAT WAR;[GetDateText]"
+		log = "TFH_Event_Logging;THE SECOND GREAT WAR;[GetDateText]"
 		add_named_threat = {
 			threat = 20
 			name = second_great_war_threat
@@ -438,5 +438,39 @@ country_event = {
 	option = {
 		log = "[GetLogInfo]: event ai_events.211 option 1"
 		set_global_flag = second_great_war_has_ended
+	}
+}
+
+#Preventing the Wuhan Truce's Violation
+country_event = {
+	id = ai_events.300
+	hidden = yes
+
+	trigger = {
+		AND = {
+			has_global_flag = CHN_WUHAN_TRUCE
+			CHI = {
+				any_enemy_country = {
+					original_tag = CPC
+					is_subject = no
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		log = "[GetLogInfo]: event ai_events.300 option 1"
+		random_state = {
+			limit = { has_state_flag = CHN_accessible_area }
+			every_state = {
+				limit = { has_state_flag = CHN_truce_area }
+				teleport_armies = {
+					limit = { tag = CHI }
+					to_state = PREV
+				}
+			}
+		}
 	}
 }

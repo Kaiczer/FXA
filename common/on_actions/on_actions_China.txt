@@ -406,11 +406,6 @@ on_actions = {
 				}
 			}
 			403 = { set_state_flag = outer_mongolia_region }
-			
-			# Truce of Wuhan 
-			527 = { set_demilitarized_zone = yes }
-			533 = { set_demilitarized_zone = yes }
-			511 = { set_demilitarized_zone = yes }
 		}
 	}
 }
