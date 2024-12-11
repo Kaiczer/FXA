@@ -1,7 +1,7 @@
 
 state={
-	id=234
-	name="STATE_234"
+	id=233
+	name="STATE_233"
 
 	history={
 		owner = BLR
@@ -10,9 +10,9 @@ state={
 	}
 
 	provinces={
-		3309 6306 6359 9304 9359 11341 13735 13736 13737 
+		560 3496 3556 6280 6579 11503 
 	}
-	manpower=0
+	manpower=679163
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
 	local_supplies=0.000

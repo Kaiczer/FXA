@@ -1,19 +1,18 @@
 
 state={
-	id=232
-	name="STATE_232"
+	id=234
+	name="STATE_234"
 
 	history={
-		owner = POL
-		add_core_of = POL
-		add_claim_by = LIT
-		add_claim_by = BLR
+		owner = BLR
+		add_core_of = BLR
+
 	}
 
 	provinces={
-		3254 
+		3309 6306 6359 9304 9359 11341 13735 13736 13737 
 	}
-	manpower=0
+	manpower=1057147
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
 	local_supplies=0.000
