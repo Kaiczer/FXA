@@ -3,15 +3,19 @@ SIA: "Siam"
 SIA_DEF: "Siam"
 SIA_ADJ: "Siamese"
 
-SIA_authoritarian_socialist: "Siamese Revolutionary People's Republic"
+THI: "Thailand"
+THI_DEF: "Thailand"
+THI_ADJ: "Thai"
+
+SIA_authoritarian_socialist: "Siamese People's Republic"
 SIA_authoritarian_socialist_ADJ: "Siamese"
-SIA_authoritarian_socialist_DEF: "the Siamese Revolutionary People's Republic"
+SIA_authoritarian_socialist_DEF: "the Siamese People's Republic"
 SIA_vanguard_socialist: "United Workers' Provinces of Siam"
 SIA_vanguard_socialist_ADJ: "Siamese"
 SIA_vanguard_socialist_DEF: "the United Workers' Provinces of Siam"
-SIA_revolutionary_socialist: "People's Republic of Siam"
+SIA_revolutionary_socialist: "United Workers' Provinces of Siam"
 SIA_revolutionary_socialist_ADJ: "Siamese"
-SIA_revolutionary_socialist_DEF: "the People's Republic of Siam"
+SIA_revolutionary_socialist_DEF: "the United Workers' Provinces of Siam"
 SIA_social_democrat: "Kingdom of Siam"
 SIA_social_democrat_ADJ: "Siamese"
 SIA_social_democrat_DEF: "the Kingdom of Siam"
@@ -36,18 +40,18 @@ SIA_volkist_DEF: "the Greater Divine Realm of Siam"
 SIA_paternal_autocrat: "Kingdom of Siam"
 SIA_paternal_autocrat_ADJ: "Siamese"
 SIA_paternal_autocrat_DEF: "the Kingdom of Siam"
-SIA_reactionary_ultranationalist: "Chakkaphop Chonchart Tai"
+SIA_reactionary_ultranationalist: "Chakkaphop Prachachart Tai"
 SIA_reactionary_ultranationalist_ADJ: "Tai"
 SIA_reactionary_ultranationalist_DEF: "the All-Tai National Commonwealth"
 
 ## Cosmetic
-SIA_provisional_government_volkist: "Kingdom of Siam"
-SIA_provisional_government_volkist_ADJ: "Siam"
-SIA_provisional_government_volkist_DEF: "the Kingdom of Siam"
+SIA_provisional_government: "Kingdom of Siam"
+SIA_provisional_government_ADJ: "Siam"
+SIA_provisional_government_DEF: "the Kingdom of Siam"
 
 ### Party Name ###
-SIA_authoritarian_socialist_party: "CPS"
-SIA_authoritarian_socialist_party_long: "Pak Kommunist Sayam (Communist Party of Siam)"
+SIA_authoritarian_socialist_party: "SSCP - Special Committee"
+SIA_authoritarian_socialist_party_long: "South Seas Communist Party - Siam Special Committee"
 SIA_vanguard_socialist_party: "SWAA (Railway Association)"
 SIA_vanguard_socialist_party_long: "Samakhom Anukul Kammakorn Sayam - Krue Thang Rotfai (Siamese Workers' Assistance Association - Railway Association)"
 SIA_revolutionary_socialist_party: "SWAA (Central Committee)"
@@ -66,8 +70,202 @@ SIA_revolutionary_nationalist_party: "SNA"
 SIA_revolutionary_nationalist_party_long: "Khana Chart Sayam (Siamese National Alliance)"
 SIA_volkist_party: "SRO"
 SIA_volkist_party_long: "Samakhom Fuen-fu Raakderm (Society for Restoration of Our Origin)"
-SIA_paternal_autocrat_party: "IC (Crown Guard)"
-SIA_paternal_autocrat_party_long: "Samosorn Pan-yachon - Thaharn Wang Luang Gao (Intellectuals' Club - Crown Guard)"
+SIA_paternal_autocrat_party: "IC (Old Royal Guard)"
+SIA_paternal_autocrat_party_long: "Samosorn Pan-yachon - Thaharn Wang Luang Gao (Intellectuals' Club - Old Royal Guard)"
 SIA_reactionary_ultranationalist_party: "SRO (Wathakarnists)"
 SIA_reactionary_ultranationalist_party_long: "Samakhom Fuen-fu Raakderm - Faii Luang Wichitwathakarn (Society for Restoration of Our Origin - Wathakarnists)"
 
+## Other Factions ## 
+SIA_social_conservative_party_vongsanupraphat: "PS/IC/AL (Vongsanupraphat Cabinet)"
+SIA_social_conservative_party_vongsanupraphat_long: "Vongsanupraphat Cabinet (Coalition of People's Society (Moderate), Intellectuals' Club, and Agrarians' League)"
+SIA_national_populist_party_wathakarnist: "SRO (Wathakarnists)"
+SIA_national_populist_party_wathakarnist_long: "Samakhom Fuen-fu Raakderm - Faii Luang Wichitwathakarn (Society for Restoration of Our Origin - Wathakarnists)"
+
+## Traits ##
+SIA_council_of_obsoleted: "Council of Obsoleted"
+
+## Characters ##
+SIA_Regency_Council_desc: "Four years ago, following the king’s departure to the United Kingdom during April Plot for medical treatment due to partial blindness, a Regency Council was formed to manage the kingdom in his absence. Composed of two influential princes—the Artist Prince Narissara Nuwathiwong and the Traditionalist Prince Boripatr of Nakorn Sawan—this council became the cornerstone of the monarchy’s governance. However, in the aftermath of 1932 April Plot, the nation remains gripped by political unrest.\n\nFactionalism within the military, with growing tensions between democratic, nationalist and centralist elements, threatens to destabilize the fragile balance. While the Regency Council strives to maintain order, extremists from both nationalist and centralist factions loom large, seeking to shift power in their favor.\n\nUntil the king's return, the Regency Council serves as the last bastion of royal authority, standing firm against the rising tide of militarism and political extremism."
+
+SIA_Regency_Council_King_Death_desc: "The king's death has plunged the nation into a state of shock and mourning. The Regency Council, now in charge of the kingdom, must navigate the complex political landscape and ensure the stability of the monarchy. The king's passing marks a significant turning point in the kingdom's history, and the Regency Council must rise to the challenge of maintaining order and unity in the face of this profound loss."
+
+SIA_Prajadhipok: "Prajadhipok"
+
+SIA_Ananda_Mahidol: "Ananda Mahidol"
+SIA_Ananda_Mahidol_royal: "Prince Ananda Mahidol"
+
+SIA_Bhumibol_Mahidol: "Bhumibol Adulyadej"
+SIA_Bhumibol_Mahidol_royal: "Prince Bhumibol Mahidol"
+
+SIA_Boripatr_Sukhumbandhu: "Boripatr Sukhumbandhu"
+SIA_Boripatr_Sukhumbandhu_royal: "Prince Boripatr Sukhumbandhu"
+
+SIA_Chumbhotbongs_Boripatr: "Chumbhotbongs Boripatr"
+SIA_Chumbhotbongs_Boripatr_royal: "Prince Chumbhotbongs"
+
+SIA_Sukhumbhinanda: "Sukhumbhinanda"
+SIA_Sukhumbhinanda_royal: "Prince Sukhumbhinanda"
+
+SIA_Chula_Chakrabongse: "Chula Chakrabongse"
+SIA_Chula_Chakrabongse: "Prince Chula Chakrabongse"
+
+SIA_Plaek_Khittasangkha: "Plaek Phibunsongkram"
+SIA_Plaek_Khittasangkha_royal: "Luang Phibunsongkram"
+
+SIA_Phattarapon_Jongwiwattana: "Phattarapon Jongwiwattana"
+SIA_Phattarapon_Jongwiwattana_royal: "Luang Wattanarathwichit"
+
+SIA_Waat_Suthonjamorn: "Waat Suthonjamorn"
+
+SIA_Supha_Sirimanon:  "Supha Sirimanon"
+
+SIA_Stan_Sanidvongse: "Stan Sanidvongse"
+SIA_Stan_Sanidvongse_royal: "Chao Phraya Vongsanupraphat"
+
+SIA_Serm_Krisanamara: "Serm Krisanamara"
+SIA_Serm_Krisanamara_royal: "Phraya Chaiyotsombat"
+
+SIA_Kon_Hutasingha: "Kon Hutasingha"
+SIA_Kon_Hutasingha_royal: "Phraya Manopakorn Nitithada"
+
+SIA_Pridi_Banomyong: "Pridi Banomyong"
+SIA_Pridi_Banomyong_royal: "Luang Praditmanutham"
+
+SIA_Phao_Sriyanond: "Phao Sriyanond"
+
+SIA_Wan_Waithayakon: "Wan Waithayakon"
+SIA_Wan_Waithayakon_royal: "Prince Wan Waithayakon"
+
+SIA_Sanga_Karnjanarkphan: "Sa-nga Karnjanarkphan"
+SIA_Sanga_Karnjanarkphan_royal: "Khun Wichitmatra"
+
+SIA_Wisuth_Tonawanik: "Wisuth Tonawanik"
+SIA_Wisuth_Tonawanik_royal: "Phraya Tonwanikmontri"
+
+SIA_Bhat_Phungphrakhun: "Adul Adulyadejarath"
+SIA_Bhat_Phungphrakhun_royal: "Luang Adulyadejarath"
+
+SIA_Khuang_Abhaiyavongse: "Khuang Abhaiyavongse"
+SIA_Khuang_Abhaiyavongse_royal: "Luang Kowith-abhaiyavongse"
+
+SIA_Sanguan_Juthatemi: "Sa-nguan Juthatemi"
+SIA_Sanguan_Juthatemi_royal: "Luang Naruebetmanit"
+
+SIA_Tua_Laphanukrom: "Tua Laphanukrom"
+
+SIA_Prayool_Paramantri: "Prayool Paramantri"
+
+SIA_Tawee_Bunyaket: "Tawee Bunyaket"
+
+SIA_Wilas_Osathanont: "Wilas Osathanont"
+
+SIA_Sanguan_Tularak: "Sa-nguan Tularak"
+
+SIA_Kimliang_Watthanaparueda: "Kimliang Watthanaparueda"
+SIA_Kimliang_Watthanaparueda_royal: "Luang Wichitwathakan"
+
+SIA_Tianliang_Huntrakul: "Tianliang Huntrakul"
+SIA_Tianliang_Huntrakul_royal: "Phraya Sriwisanwaja"
+
+SIA_Ha_Sombatsiri: "Ha Sombatsiri"
+SIA_Ha_Sombatsiri_royal: "Phraya Srisena"
+
+SIA_Direk_Jayanama: "Direk Jayanama"
+
+SIA_Buntaeng_Thongsawat: "Buntaeng Thongsawat"
+
+SIA_Kulap_Saipradit: "Kulap Saipradit"
+
+SIA_Pote_Sarasin: "Pote Sarasin"
+
+SIA_Pin_Malakul: "Pin Malakul"
+
+SIA_Sawaet_Piampongsarn: "Sawaet Piampongsarn"
+
+SIA_Seni_Pramoj: "Seni Pramoj"
+
+SIA_Sun_Kijjumnong: "Sun Kijjumnong"
+
+SIA_Tiang_Sirikanth: "Tiang Sirikanth"
+
+SIA_Tianthai_Aphichartbhut: "Tianthai Aphichartbhut"
+
+SIA_Wichit_Lulitanont: "Wichit Lulitanont"
+
+SIA_Sang_Phattanothai: "Sang Pattanothai"
+
+SIA_Puey_Ungpakorn: "Puey Ungpakorn"
+
+SIA_Jerm_Arwuth: "Jerm Arwuth"
+SIA_Jerm_Arwuth_royal: "Phraya Jindachakkarath"
+
+SIA_Long_Sinsuk: "Long Sinsuk"
+SIA_Long_Sinsuk_royal: "Phraya Vehasayansilpasith"
+
+SIA_Sunee_Suwanprateep: "Sunee Suwanprateep"
+SIA_Sunee_Suwanprateep_royal: "Phraya Chaloem-akart"
+
+SIA_Thip_Ketuthat: "Thip Ketuthat"
+SIA_Thip_Ketuthat_royal: "Phraya Tayanphikart"
+
+SIA_Munee_Mahasanthana: "Munee Mahasanthana"
+SIA_Munee_Mahasanthana_royal: "Luang Vejjayanrangsarit"
+
+SIA_Boonjiam_Komolmit: "Boonjiam Komolmit"
+SIA_Boonjiam_Komolmit_royal: "Luang Atuekdevadej"
+
+SIA_Boworadet_Kritdakorn: "Boworadet Kritdakorn"
+SIA_Boworadet_Kritdakorn_royal: "Prince Boworadet"
+
+SIA_Phin_Choonhavan: "Phin Choonhavan"
+SIA_Phin_Choonhavan_royal: "Luang Chamnan-yuttasart"
+
+SIA_Jaroon_Rattanakul: "Jaroon Rattanakul Seriroengrit"
+SIA_Jaroon_Rattanakul_royal: "Luang Seriroengrit"
+
+SIA_Phot_Phahonyothin: "Phot Phahonyothin"
+SIA_Phot_Phahonyothin_royal: "Phraya Phahon Phonpayuhasena"
+
+SIA_Thep_Phantumasen: "Thep Phantumasen"
+SIA_Thep_Phantumasen_royal: "Phraya Songsuradet"
+
+SIA_Sala_Emasiri: "Sala E-masiri"
+SIA_Sala_Emasiri_royal: "Phraya Rithhi-arkaney"
+
+SIA_Din_Tharab: "Din Tharab"
+SIA_Din_Tharab_royal: "Phraya Srisittisongkhram"
+
+SIA_Sarit_Thanarat: "Sarit Thanarat"
+
+SIA_Mangkorn_Phonyothin: "Mangkorn Phonyothin"
+SIA_Mangkorn_Phonyothin_royal: "Luang Phromyothee"
+
+SIA_Tian_Kengradomying: "Karj Karjsongkhram"
+SIA_Tian_Kengradomying_royal: "Luang Karjsongkhram"
+
+SIA_Kuan_Jittakhun: "Kuan Jittakhun"
+SIA_Kuan_Jittakhun_royal: "Luang Kriengsakpichit"
+
+SIA_Wan_Chutin: "Wan Chutin"
+SIA_Wan_Chutin_royal: "Luang Prasartpittayayut"
+
+SIA_Bung_Suphachalasai: "Bung Suphachalasai"
+SIA_Bung_Suphachalasai_royal: "Luang Suphachalasai"
+
+SIA_Sin_Kamolnawin: "Sin Kamolnawin"
+SIA_Sin_Kamolnawin_royal: "Luang Sindhusongkhramchai"
+
+SIA_Thawan_Tareesawat: "Thawan Thamrongnawasawat"
+SIA_Thawan_Tareesawat_royal: "Luang Thamrongnawasawat"
+
+SIA_Thongdee_Suwannapruk: "Thongdee Suwannapruk"
+SIA_Thongdee_Suwannapruk_royal: "Phraya Wichitcholathee"
+
+SIA_Boonrod_Sawathasuk: "Boonrod Sawathasuk"
+SIA_Boonrod_Sawathasuk_royal: "Phraya Wijarnchakkrit"
+
+SIA_Prayoon_Yutthasartkosol: "Prayoon Yutthasartkosol"
+SIA_Prayoon_Yutthasartkosol_royal: "Luang Yutthasartkosol"
+
+SIA_Mongkol_Mongkolnavin: "Mongkol Mongkolnavin"
+SIA_Mongkol_Mongkolnavin_royal: "Phra Mongkolnavawut"

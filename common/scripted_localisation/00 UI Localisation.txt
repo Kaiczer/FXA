@@ -412,3 +412,29 @@ defined_text = {
 		localization_key = colour_reault
 	}
 }
+
+defined_text = {
+	name = GetSIATHI
+	text = {
+		trigger = {
+			ROOT = { has_cosmetic_tag = THI }
+		}
+		localization_key = THI
+	}
+	text = {
+		localization_key = SIA
+	}
+}
+
+defined_text = {
+	name = GetSIATHIAdj
+	text = {
+		trigger = {
+			ROOT = { has_cosmetic_tag = THI }
+		}
+		localization_key = THI_ADJ
+	}
+	text = {
+		localization_key = SIA_ADJ
+	}
+}

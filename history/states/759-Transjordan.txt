@@ -4,10 +4,9 @@ state={
 	name="STATE_759"
 
 	history={
-		owner = PAL
-		add_core_of = PAL
+		owner = IRQ
+		add_core_of = IRQ
 		add_core_of = JOR
-
 	}
 
 	provinces={

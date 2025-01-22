@@ -492,10 +492,6 @@ on_actions = {
 				add_to_array = { global.paired_impassable_states = THIS }
 				set_variable = { paired_impassable = 830.id } #Timbuktu
 			}
-			769 = { #Najran
-				add_to_array = { global.paired_impassable_states = THIS }
-				set_variable = { paired_impassable = 768.id } #Asir
-			}
 			770 = { #Rub Al Khali
 				add_to_array = { global.paired_impassable_states = THIS }
 				set_variable = { paired_impassable = 766.id } #Nejd
