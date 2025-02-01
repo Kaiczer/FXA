@@ -3,7 +3,7 @@ state={
 	id=197
 	name="STATE_197"
 	provinces={
-		555 581 3550 3581 6573 6586 9537 11554 
+		555 581 3550 3581 6586 11554 
 	}
 	history = {
 		owner = SLO
@@ -12,6 +12,6 @@ state={
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=878738
         state_category = undeveloped_rural_region
 }

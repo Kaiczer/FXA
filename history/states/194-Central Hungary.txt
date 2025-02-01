@@ -2,14 +2,14 @@ state={
 	id=194
 	name="STATE_194"
 	provinces={
-		684 716 3713 3731 6670 6700 6716 9660 11625 
+		684 716 6670 6700 9643 9660 11625 
 	}
 	history = {
 		owner = HUN
 		add_core_of = HUN
 	}
+	manpower=2933085
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

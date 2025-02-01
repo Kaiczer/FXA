@@ -1,16 +1,15 @@
-
 state={
-	id=195
-	name="STATE_195"
+	id=48
+	name="STATE_48"
 	provinces={
-		679 699 730 3730 6735 9656 9706 11644 11646 11659 
+		424 469 3418 3585 6470 9555 11401 11414 11432 
 	}
 	history = {
-		owner = HUN
-		add_core_of = HUN 
+		owner = CZE
+		add_core_of = CZE
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=2340203
         state_category = undeveloped_rural_region
 }
