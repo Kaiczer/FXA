@@ -2,14 +2,14 @@ state={
 	id=22
 	name="STATE_22"
 	provinces={
-		976 1109 1205 3401 3988 4109 7127 11895 12001 
+		863 976 1109 1205 3401 3864 3973 3988 4109 6930 7127 11786 11895 12001 
 	}
 	history = {
 		owner = GRE
 		add_core_of = GRE
 	}
+	manpower=2456515
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

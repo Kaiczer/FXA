@@ -2,14 +2,16 @@ state={
 	id=172
 	name="STATE_172"
 	provinces={
-		863 3864 3973 6930 11786 
+		10007 
 	}
-	history = {
-		owner = GRE
-		add_core_of = GRE
+	history={
+		owner = ITA
+		add_core_of = TUR
+		add_claim_by = GRE
+		add_claim_by = ITA
 	}
+	manpower=120000
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

@@ -2,15 +2,14 @@ state={
 	id=740
 	name="STATE_740"
 	provinces={
-		3714 11753 
+		6813 7620 9893 9912 13740 
 	}
-	history = {
-		owner = GEO
-		add_core_of = GEO
+	history={
+		owner = TUR
 		add_core_of = TUR
 	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

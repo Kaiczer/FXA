@@ -1,16 +1,15 @@
-
 state={
 	id=738
 	name="STATE_738"
 	provinces={
-		886 919 933 3890 3903 3921 3935 3950 6813 6888 6919 6950 6956 6965 7620 9761 9777 9893 9900 9912 9915 12866 13740 
+		886 919 933 3890 3903 3921 3935 3950 6888 6919 6950 6956 6965 9761 9777 9900 9915 12866 
 	}
-	history = {
+	history={
 		owner = TUR
 		add_core_of = TUR
 	}
+	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }
