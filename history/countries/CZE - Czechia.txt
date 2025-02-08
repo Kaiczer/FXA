@@ -3,6 +3,8 @@ set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
 
+set_cosmetic_tag = CZSL
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -30,10 +32,17 @@ if = {
 	}
 }
 
+set_popularities = {
+	social_conservative = 100
+}
 set_politics = {	
-	ruling_party = paternal_autocrat
+	ruling_party = social_conservative
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
+set_party_name = {
+	ideology = social_conservative
+	name = CZE_Hodza_Cabinet_party
+	long_name = CZE_Hodza_Cabinet_party_long
+}
