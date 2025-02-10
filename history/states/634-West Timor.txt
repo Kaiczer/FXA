@@ -6,10 +6,11 @@ state={
 	}
 	history = {
 		owner = POR
-		add_core_of = POR
+		add_claim_by = POR
+		add_core_of = INS
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=455604
         state_category = undeveloped_rural_region
 }

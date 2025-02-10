@@ -6,10 +6,11 @@ state={
 	}
 	history = {
 		owner = AST
+		add_core_of = SSF
 		add_claim_by = AST 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=150000
         state_category = undeveloped_rural_region
 }
