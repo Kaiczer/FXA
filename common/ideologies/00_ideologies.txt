@@ -307,7 +307,6 @@ ideologies = {
 		types = {
 			volkist_subtype = {}
 			volk_legionarism_subtype = { can_be_randomly_selected = no }
-			deutschevolkism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VOLKIST_1"

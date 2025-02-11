@@ -185,10 +185,6 @@ defined_text = {
 		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
 		localization_key = orthodox_nichirenism_subtype
 	}
-	text = {
-		trigger = { has_country_leader_ideology = deutschevolkism_subtype }
-		localization_key = deutschevolkism_subtype
-	}
 	### Use the following text if you included additional subideology
 	text = {
 		localization_key = volkist
@@ -293,10 +289,6 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
 		localization_key = orthodox_nichirenism_subtype_desc
-	}
-	text = {
-		trigger = { has_country_leader_ideology = deutschevolkism_subtype }
-		localization_key = deutschevolkism_subtype_desc
 	}
 	### Use the following text if you included additional subideology
 	text = {
