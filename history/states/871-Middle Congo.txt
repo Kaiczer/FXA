@@ -7,13 +7,11 @@ state={
 	}
 	history = {
 		owner = EQA
-		add_claim_by = EQA
-		add_claim_by = COG 
 		add_core_of = COG
 		add_core_of = EQA 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=454800
         state_category = undeveloped_rural_region
 }

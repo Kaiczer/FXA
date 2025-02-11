@@ -2,15 +2,15 @@ state={
 	id=921
 	name="STATE_921"
 	provinces={
-		1580 8214 10525 12940 12963 13084 13205 13636 
+		1580 12963 13084 13205 13636 
 	}
 	history = {
-		owner = ENG    
-		add_claim_by = ENG 
+		owner = ENG
+		add_claim_by = ENG
 		add_core_of = BOT
 	}
+	manpower=105300
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
-        manpower=0
-        state_category = undeveloped_rural_region
 }

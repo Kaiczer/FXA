@@ -7,11 +7,11 @@ state={
 	history = {
 		owner = KEN   
 		add_claim_by = KEN
-		add_core_of = UGA 
+		add_claim_by = UGA 
 		add_core_of = BGA 
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=0
+        manpower=703125
         state_category = undeveloped_rural_region
 }
