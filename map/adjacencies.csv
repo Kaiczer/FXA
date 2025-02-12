@@ -24,11 +24,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 990;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia East
 990;786;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia West
 
-2196;13551;;-1;-1;-1;-1;-1;TANGANYIKA_ROUTE;Tanganyika-Zanzibar
 #### Land Routes
 
-8108;13748;land;5081;3645;1029;3680;1021;SUMMAN_ROUTE;Rub al Khali
-
+8108;13748;;5081;3645;1029;3680;1021;SUMMAN_ROUTE;Rub al Khali
 2049;10788;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
 4903;5101;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
 5035;5101;;-1;2871;1159;2807;938;TRANSSAHARIAN_ROUTE;Transsaharian
@@ -37,6 +35,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 #### Naval Crossings
 
+2196;13551;sea;-1;-1;-1;-1;-1;;Tanganyika-Zanzibar
 22;3016;sea;5792;-1;-1;-1;-1;;Northern-Straits
 44;11050;sea;5792;-1;-1;-1;-1;;Northern-Straits
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel

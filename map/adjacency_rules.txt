@@ -513,3 +513,38 @@ adjacency_rule = {
 	icon = 12849
 	offset = { 0 0 0 }
 }
+
+# Summan Route - Special Case
+adjacency_rule = {
+	name = SUMMAN_ROUTE
+
+	contested = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	friend = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = no
+		submarine = no
+		trade = yes
+	}
+
+	required_provinces = { 8108 13748 }
+
+	icon = 13748
+	offset = { 0 0 0 }
+}
