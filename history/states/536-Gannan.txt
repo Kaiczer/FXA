@@ -6,12 +6,9 @@ state={
 		4156 4183 7004 9942 10057 10501 11945 12495 
 	}
 	history = {
-		owner = CPC
-		controller = CHI
-		add_core_of = CPC
-		add_claim_by = CHI
+		owner = CHI
+		add_core_of= CHI
 		add_claim_by = FNG
-		add_contested_owner = CHI
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

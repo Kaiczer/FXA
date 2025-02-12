@@ -60,20 +60,6 @@ every_country = {
 	}
 }
 
-## Chinese Civil War (KMT-CPC) ##
-CHI = {
-	declare_war_on = {
-		target = CPC
-		type = civil_war
-	}
-	add_civil_war_target = CPC
-	set_state_controller = 528
-	set_state_controller = 530
-	set_state_controller = 535
-	set_state_controller = 536
-	set_state_controller = 539
-}
-
 ## Truce of Wuhan 
 every_core_state = { # Set Truce Area #
 	limit = {

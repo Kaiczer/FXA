@@ -1453,7 +1453,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "legitimacy_container"
-			position = { x = 260 y = 422 }
+			position = { x = 260 y = 50 }
 			size = { width = 150 height = 75 }
 			clipping = no
 
