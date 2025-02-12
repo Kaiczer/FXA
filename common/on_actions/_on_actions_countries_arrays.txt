@@ -498,7 +498,7 @@ on_actions = {
 			}
 			942 = { #Labrador
 				add_to_array = { global.paired_impassable_states = THIS }
-				set_variable = { paired_impassable = 946.id } #Quebec
+				set_variable = { paired_impassable = 943.id } #Newfoundland
 			}
 			945 = { #North Quebec
 				add_to_array = { global.paired_impassable_states = THIS }
