@@ -4,12 +4,24 @@ state={
 	provinces={
 		6583 
 	}
+
+	resources = {
+		steel = 63
+	}
+
 	history = {
 		owner = LUX
 		add_core_of = LUX
+		add_to_array = { state_victory_points = 6583 }
+		victory_points = { 6583 5 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=300000
-        state_category = undeveloped_rural_region
+	manpower=300000
+	state_category = developed_rural_region
 }

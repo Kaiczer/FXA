@@ -6,7 +6,20 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
+		add_to_array = { state_victory_points = 6488 }
+		add_to_array = { state_victory_points = 564 }
 
+		victory_points = { 6488 20 } #Frankfurt
+		victory_points = { 564 3 } #Cassel
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			11533 = {
+				dam = 1 #Edersee Dam
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +27,6 @@ state={
 	}
 	manpower=4072453
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=local_industrial_region
+	local_supplies=15
 }

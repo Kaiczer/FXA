@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = ENG
 		add_core_of = ENG
+		add_to_array = { state_victory_points = 13631 }
+		victory_points = { 13631 1 }
+
+		buildings = {
+			infrastructure = 1
+			6196 = {
+				naval_base = 1
+			}
+			13631 = {
+				naval_base = 8
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=20772
-        state_category = undeveloped_rural_region
+	manpower=20772
+	state_category = zero_island
 }

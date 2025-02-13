@@ -7,9 +7,24 @@ state={
 	history = {
 		owner = GER
 		add_core_of = GER 
+		add_to_array = { state_victory_points = 241 }
+
+		victory_points = { 241 4 } #Wilhemshaven
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 3
+			air_base = 3
+			241 = {
+				naval_base = 8
+				coastal_bunker = 3
+				naval_facility = 1 #Wilhelmshaven Naval Dockyards
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2257607
-        state_category = undeveloped_rural_region
+	local_supplies=14.000
+	manpower=2257607
+	state_category = urbanising_region
 }

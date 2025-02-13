@@ -4,12 +4,31 @@ state={
 	provinces={
 		285 303 369 3342 3359 7377 11293 11303 
 	}
+	resources = {
+		aluminium = 2
+		steel = 2
+	}
 	history = {
 		owner = IRE
 		add_core_of = IRE
+		add_to_array = { state_victory_points = 11293 }
+		add_to_array = { state_victory_points = 369 }
+
+		victory_points = { 11293 20 } #Dublin
+		victory_points = { 369 0 } #Athlone
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+
+			11293 = {
+				naval_base = 6
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1402355
-        state_category = undeveloped_rural_region
+	manpower=1402355
+	state_category = urbanising_region
 }

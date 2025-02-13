@@ -5,12 +5,27 @@ state={
 	provinces={
 		521 3546 3560 5291 6545 9472 11488 11516 11642 
 	}
+
+	resources = {
+		steel = 41
+	}
+
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 6545 }
+		add_to_array = { state_victory_points = 11516 }
+
+		victory_points = { 6545 3 } #Verdun
+		victory_points = { 11516 5 } #Nancy
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1480177
-        state_category = undeveloped_rural_region
+	manpower=1480177
+	state_category = megalopolis
 }

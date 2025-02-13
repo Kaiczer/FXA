@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 9434 }
+		add_to_array = { state_victory_points = 11563 }
+
+		victory_points = { 9434 10 } #Le Havre
+		victory_points = { 11563 3 } #Rouen
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			9434 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=905278
-        state_category = undeveloped_rural_region
+	manpower=905278
+	state_category = developing_rural_region
 }

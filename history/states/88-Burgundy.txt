@@ -4,12 +4,27 @@ state={
 	provinces={
 		641 648 680 817 3650 3652 3669 6639 9590 9625 11628 11794 
 	}
+
+	resources = {
+		oil = 1
+		aluminium = 14
+	}
+
 	history = {
 		owner = FRA
-		add_core_of = FRA 
+		add_core_of = FRA
+		add_to_array = { state_victory_points = 3652 }
+
+		victory_points = { 3652 3 } #Dijon
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+		} 
 	}
 	manpower=1195459
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=megalopolis
 }

@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_core_of = CTL
+		add_to_array = { state_victory_points = 9853 }
+		victory_points = { 9853 1 } #Perpignan
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9853 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=238647
-        state_category = undeveloped_rural_region
+	manpower=238647
+	state_category = developing_rural_region
 }

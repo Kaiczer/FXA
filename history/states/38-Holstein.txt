@@ -9,9 +9,25 @@ state={
 		owner = SHO
 		add_core_of = SHO
 		add_core_of = GER
+		add_to_array = { state_victory_points = 6389 }
+		add_to_array = { state_victory_points = 11331 }
+		victory_points = { 6389 5 }
+		victory_points = { 11331 1 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 4
+			air_base = 5
+			6389 = {
+				naval_base = 8
+				coastal_bunker = 3
+			}
+			11331 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1318958
-        state_category = undeveloped_rural_region
+	manpower=1318958
+	state_category = urbanising_region
 }

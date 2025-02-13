@@ -8,9 +8,11 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 9523 }
+
+		victory_points = { 9523 8 } #Essonne
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=882430
-        state_category = undeveloped_rural_region
+	manpower=882430
+	state_category = urbanised_region
 }

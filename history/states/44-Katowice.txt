@@ -4,13 +4,29 @@ state={
 	provinces={
 		479 506 6464 11467 
 	}
+
+	resources = {
+		aluminium = 15
+		steel = 47
+	}
+
 	history = {
 		owner = POL
 		add_core_of = POL
 		add_claim_by = GER
+		add_to_array = { state_victory_points = 11467 }
+		add_to_array = { state_victory_points = 6464 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 6
+		}
+		victory_points = { 11467 10 }
+		victory_points = { 6464 4 }
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1866138
-        state_category = undeveloped_rural_region
+	local_supplies=5.0
+	manpower=1866138
+	state_category = major_industrial_region
 }

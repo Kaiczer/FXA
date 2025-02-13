@@ -3,10 +3,20 @@ state={
 	id=34
 	name="STATE_34"
 
-	history={
+	resources = {
+		aluminium = 18
+	}
+
+	history = {
 		owner = GER
 		add_core_of = GER
+		add_to_array = { state_victory_points = 6236 }
+		victory_points = { 6236 1 }
 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +24,5 @@ state={
 	}
 	manpower=470600
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=urbanising_region
 }

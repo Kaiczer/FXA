@@ -4,12 +4,28 @@ state={
 	provinces={
 		200 3150 11055 11136 11207 11306 
 	}
+	resources = {
+		aluminium = 3
+		tungsten = 5
+	}
 	history = {
 		owner = ENG
 		add_core_of = ENG
+		add_to_array = { state_victory_points = 3150 }
+		add_to_array = { state_victory_points = 9161 }
+		add_to_array = { state_victory_points = 11136 }
+
+		victory_points = { 3150 5 }
+		victory_points = { 9161 1 }
+		victory_points = { 11136 3 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=821186
-        state_category = undeveloped_rural_region
+	manpower=821186
+	state_category = urbanising_region
 }

@@ -7,9 +7,27 @@ state={
 	history = {
 		owner = SPA
 		add_core_of = SPA
+		add_core_of = CTL
+		add_to_array = { state_victory_points = 6906 }
+		add_to_array = { state_victory_points = 4098 }
+
+		victory_points = { 6906 10 }
+		victory_points = { 4098 3 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 1
+			air_base = 3
+			6906 = {
+				naval_base = 3
+			}
+			962 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1896738
-        state_category = undeveloped_rural_region
+	manpower=1896738
+	state_category = urbanising_region
 }

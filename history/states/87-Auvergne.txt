@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 9748 }
+		add_to_array = { state_victory_points = 6613 }
+		add_to_array = { state_victory_points = 6786 }
+
+		victory_points = { 6613 25 } #Lyon
+		victory_points = { 6786 3 } #Saint-Etienne
+		victory_points = { 9748 3 } #Clermont-Ferrand
+
+		buildings = {
+			infrastructure = 4
+			air_base = 7
+			arms_factory = 4
+			industrial_complex = 2
+		}
 	}
 	manpower=3030447
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=local_industrial_region
+	local_supplies=7
 }

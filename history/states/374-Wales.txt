@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = ENG
 		add_core_of = ENG
+		add_to_array = { state_victory_points = 9364 }
+		add_to_array = { state_victory_points = 377 }
+		add_to_array = { state_victory_points = 407 }
+
+		victory_points = { 377 5 }
+		victory_points = { 407 3 }
+		victory_points = { 9364 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			377 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=2594000
-	state_category = urbanising_region
+	state_category = urbanised_region
 }

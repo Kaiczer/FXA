@@ -7,9 +7,18 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 6766 }
+
+		victory_points = { 6766 10 } #Toulouse
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+		}
 	}
 	manpower=1232834
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=megalopolis
 }

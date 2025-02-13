@@ -7,9 +7,24 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 6449 }
+		add_to_array = { state_victory_points = 11535 }
+
+		victory_points = { 6449 3 } #Cherbourg
+		victory_points = { 11535 1 } #Caen
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1414334
-        state_category = undeveloped_rural_region
+	manpower=1414334
+	state_category = urbanised_region
 }

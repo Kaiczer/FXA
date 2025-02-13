@@ -2,11 +2,30 @@
 state={
 	id=377
 	name="STATE_377"
-
+	resources = {
+		steel = 89
+	}
 	history={
 		owner = ENG
 		add_core_of = ENG
+		add_to_array = { state_victory_points = 9379 }
+		add_to_array = { state_victory_points = 11297 }
+		add_to_array = { state_victory_points = 9315 }
 
+		victory_points = { 9379 10 } #Leeds
+		victory_points = { 11297 5 } #Hull
+		victory_points = { 9315 15 } #Sheffield
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 5
+			industrial_complex = 3
+			air_base = 10
+			synthetic_refinery = 1
+			11297 = {
+				naval_base = 5
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +33,6 @@ state={
 	}
 	manpower=5004905
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=industrial_heartland
 	local_supplies=0.000
 }

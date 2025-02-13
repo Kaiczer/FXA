@@ -7,9 +7,25 @@ state={
 	history = {
 		owner = BEL
 		add_core_of = BEL
+		add_to_array = { state_victory_points = 3516 }
+		add_to_array = { state_victory_points = 9536 }
+		add_to_array = { state_victory_points = 11519 }
+		add_to_array = { state_victory_points = 9418 }
+
+		victory_points = { 11519 10 } #Liège
+		victory_points = { 9418 2 } #Bastogne
+		victory_points = { 3516 5 } #Namur
+		victory_points = { 9536 3 } #Charleroi
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 3
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3807000
-        state_category = undeveloped_rural_region
+	local_supplies=7
+	manpower=3807000
+	state_category = minor_industrial_region
 }

@@ -7,9 +7,26 @@ state={
 	history = {
 		owner = ENG
 		add_core_of = ENG
+		add_claim_by = IRE
+		add_to_array = { state_victory_points = 3379 }
+		add_to_array = { state_victory_points = 385 }
+
+		victory_points = { 3379 8 }
+		victory_points = { 385 1 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			dockyard = 2
+
+			3379 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=1269183
-	state_category = developed_rural_region
+	state_category = urbanising_region
 }

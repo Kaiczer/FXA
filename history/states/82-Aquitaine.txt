@@ -4,12 +4,29 @@ state={
 	provinces={
 		929 3740 3749 6621 6759 6762 6775 6777 9710 9717 9737 11565 11720 
 	}
+	resources = {
+		aluminium = 13
+		steel = 30
+	}
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 9737 }
+
+		victory_points = { 9737 20 } #Bordeaux
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 2
+			9737 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
 	}
 	manpower=1550588
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=local_industrial_region
 }

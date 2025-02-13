@@ -5,15 +5,28 @@ state={
 	provinces={
 		375 478 3207 3312 3367 3499 6521 9428 9496 9535 11219 11415 11444 11505 
 	}
+
 	history = {
 		owner = GER
-		add_core_of = GER 
+		add_core_of = GER
 		add_to_array = { state_victory_points = 6521 }
 		add_to_array = { state_victory_points = 9496 }
 		victory_points = { 6521 50 }
 		victory_points = { 9496 5 }
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			anti_air_building = 2
+			air_base = 6
+			3499 = {
+				land_facility = 1 #Kommersdorf Research Facilities
+			}
+		}
 	}
+	
 	buildings_max_level_factor=1.000
 	manpower=6632514
-	state_category = megalopolis
+	state_category = minor_industrial_region
 }

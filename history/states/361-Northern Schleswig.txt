@@ -8,9 +8,16 @@ state={
 		owner = DEN
 		add_core_of = DEN
 		add_claim_by = GER
+		add_to_array = { state_victory_points = 13579 }
+
+		victory_points = { 13579 1 } #Sonderborg
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
         manpower=177691
-        state_category = undeveloped_rural_region
+        state_category = developing_rural_region
 }

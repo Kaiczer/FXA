@@ -4,12 +4,22 @@ state={
 	provinces={
 		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 
 	}
+
 	history = {
 		owner = GER
-		add_core_of = GER 
+		add_core_of = GER
+		add_to_array = { state_victory_points = 11544 }
+		add_to_array = { state_victory_points = 11417 }
+		victory_points = { 11544 15 }
+		victory_points = { 11417 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
+	
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2517214
-        state_category = undeveloped_rural_region
+	manpower=2517214
+	state_category = emerging_industrial_region
 }

@@ -8,9 +8,20 @@ state={
 		owner = BEL
 		add_core_of = BEL
 		add_claim_by = GER
+		add_to_array = { state_victory_points = 3488 }
+
+		victory_points = { 3488 2 } #Eupen
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			3488 = {
+				dam = 1 #Gileppe Dam
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=61000
-        state_category = undeveloped_rural_region
+	manpower=61000
+	state_category = developed_rural_region
 }

@@ -7,9 +7,27 @@ state={
 	history = {
 		owner = SPA
 		add_core_of = SPA
+		add_core_of = CTL
+		add_to_array = { state_victory_points = 9764 }
+		add_to_array = { state_victory_points = 6966 }
+		add_to_array = { state_victory_points = 6927 }
+
+		victory_points = { 9764 20 }
+		victory_points = { 6966 1 }
+		victory_points = { 6927 1 }
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+			9764 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2791292
-        state_category = undeveloped_rural_region
+	manpower=2791292
+	state_category = emerging_industrial_region
 }

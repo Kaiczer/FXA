@@ -7,9 +7,26 @@ state={
 	history = {
 		owner = IRE
 		add_core_of = IRE
+		add_to_array = { state_victory_points = 7394 }
+		add_to_array = { state_victory_points = 6313 }
+		add_to_array = { state_victory_points = 11237 }
+
+		victory_points = { 7394 2 }
+		victory_points = { 6313 2 }
+		victory_points = { 11237 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			7394 = {
+				naval_base = 3
+			}
+			13622 = {
+				dam = 1 #Ardnacrusha
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1030909
-        state_category = undeveloped_rural_region
+	manpower=1030909
+	state_category = developed_rural_region
 }

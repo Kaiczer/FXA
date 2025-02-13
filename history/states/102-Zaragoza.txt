@@ -4,12 +4,26 @@ state={
 	provinces={
 		790 798 813 871 948 3816 3909 3954 6878 6901 7213 9812 9813 9842 11737 13568 13583 
 	}
+	resources = {
+		steel = 18
+	}
 	history = {
 		owner = SPA
 		add_core_of = SPA
+		add_to_array = { state_victory_points = 3816 }
+		add_to_array = { state_victory_points = 7213 }
+
+		victory_points = { 3816 5 }
+		victory_points = { 7213 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 3
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=788601
-        state_category = undeveloped_rural_region
+	local_supplies=13
+	manpower=788601
+	state_category = developing_rural_region
 }

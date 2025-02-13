@@ -7,9 +7,22 @@ state={
 	history = {
 		owner = POR
 		add_core_of = POR
+		add_to_array = { state_victory_points = 3790 }
+		add_to_array = { state_victory_points = 6880 }
+
+		victory_points = { 3790 1 }
+		victory_points = { 6880 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3790 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=295660
-        state_category = undeveloped_rural_region
+	manpower=295660
+	state_category = undeveloped_rural_region
 }

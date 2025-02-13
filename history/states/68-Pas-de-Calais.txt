@@ -4,12 +4,35 @@ state={
 	provinces={
 		575 3476 3536 6504 9500 11483 11548 11606 
 	}
+	resources = {
+		steel = 86
+	}
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 11483 }
+		add_to_array = { state_victory_points = 11548 }
+		add_to_array = { state_victory_points = 9500 }
+
+		victory_points = { 11548 5 } #Calais
+		victory_points = { 9500 3 } #Boulogne
+		victory_points = { 11483 20 } #Lille
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 6
+			arms_factory = 4
+			air_base = 3
+			11548 = {
+				naval_base = 4
+			}
+			9500 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3234640
-        state_category = undeveloped_rural_region
+	local_supplies=7
+	manpower=3234640
+	state_category = industrial_heartland
 }

@@ -7,9 +7,14 @@ state={
 	history = {
 		owner = SPA
 		add_core_of = SPA
+		add_to_array = { state_victory_points = 3874 }
+		victory_points = { 3874 1 }
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=339101
-        state_category = undeveloped_rural_region
+	manpower=339101
+	state_category = peripheral_region
 }

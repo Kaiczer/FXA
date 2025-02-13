@@ -4,12 +4,32 @@ state={
 	provinces={
 		219 351 6399 9285 11270 11299 11332 
 	}
+	resources = {
+		aluminium = 6
+		steel = 46
+	}
 	history = {
 		owner = ENG
 		add_core_of = ENG
+		add_to_array = { state_victory_points = 351 }
+		add_to_array = { state_victory_points = 11332 }
+
+		victory_points = { 11332 3 } #Carlisle
+		victory_points = { 351 10 } #Newcastle
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 5
+			air_base = 6
+			industrial_complex = 1
+			arms_factory = 1
+			351 = {
+				naval_base = 6
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2181039
-        state_category = undeveloped_rural_region
+	local_supplies=7
+	manpower=2181039
+	state_category = megalopolis
 }

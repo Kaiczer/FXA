@@ -6,6 +6,14 @@ state={
 	history = {
 		owner = HOL
 		add_core_of = HOL
+		add_to_array = { state_victory_points = 11562 }
+
+		victory_points = { 11562 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -13,6 +21,6 @@ state={
 	}
 	manpower=275420
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

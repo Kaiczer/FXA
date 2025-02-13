@@ -4,13 +4,25 @@ state={
 	provinces={
 		9575 11531 
 	}
+
+	resources = {
+		steel = 74
+	}
+	
 	history = {
 		owner = RHI
 		add_core_of = RHI
 		add_core_of = GER
+		add_to_array = { state_victory_points = 11531 }
+
+		victory_points = { 11531 3 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=810987
-        state_category = undeveloped_rural_region
+	manpower=810987
+	state_category = urbanised_region
 }

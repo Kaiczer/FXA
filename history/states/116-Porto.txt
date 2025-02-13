@@ -4,12 +4,29 @@ state={
 	provinces={
 		724 877 3892 6921 6941 9817 11673 
 	}
+	resources = {
+		chromium = 8
+	}
 	history = {
 		owner = POR
 		add_core_of = POR
+		add_to_array = { state_victory_points = 9817 }
+		add_to_array = { state_victory_points = 11673 }
+
+		victory_points = { 9817 10 }
+		victory_points = { 11673 5 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			9817 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1605398
-        state_category = undeveloped_rural_region
+	manpower=1605398
+	state_category = urbanising_region
 }

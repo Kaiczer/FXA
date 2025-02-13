@@ -5,12 +5,29 @@ state={
 	provinces={
 		595 625 629 655 3659 6657 9597 9631 11582 11596 11600 11869 
 	}
+	resources = {
+		steel = 37
+	}
+
 	history = {
 		owner = FRA
-		add_core_of = FRA 
+		add_core_of = FRA
+		add_to_array = { state_victory_points = 6657 }
+
+		victory_points = { 6657 1 } #La Rochelle
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+			6657 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1727687
-        state_category = undeveloped_rural_region
+	manpower=1727687
+	state_category = urbanising_region
 }

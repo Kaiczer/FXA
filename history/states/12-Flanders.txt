@@ -8,9 +8,35 @@ state={
 	history = {
 		owner = BEL
 		add_core_of = BEL
+		add_to_array = { state_victory_points = 516 }
+		add_to_array = { state_victory_points = 6598 }
+		add_to_array = { state_victory_points = 13068 }
+		add_to_array = { state_victory_points = 6560 }
+		add_to_array = { state_victory_points = 6446 }
+		add_to_array = { state_victory_points = 13659 }
+
+		victory_points = { 6560 10 } #Ghent
+		victory_points = { 6446 5 } #Bruges
+		victory_points = { 13659 1 } #Kortrijk
+		victory_points = { 516 30 } #Brussels
+		victory_points = { 6598 30 } #Antwerp
+		victory_points = { 13068 1 } #Leuven
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			dockyard = 1
+			air_base = 3
+			arms_factory = 2
+			6446 = {
+				naval_base = 3
+			}
+			6598 = {
+				naval_base = 8
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=4429000
-        state_category = undeveloped_rural_region
+	manpower=4429000
+	state_category = major_industrial_region
 }

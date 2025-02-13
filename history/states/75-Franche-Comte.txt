@@ -8,9 +8,16 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA 
+		add_to_array = { state_victory_points = 9642 }
+
+		victory_points = { 9642 1 } #Besançon
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=853269
-        state_category = undeveloped_rural_region
+	manpower=853269
+	state_category = urbanising_region
 }
