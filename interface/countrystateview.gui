@@ -490,7 +490,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "level"
-			position = { x = 5 y = 54 }
+			position = { x = 3 y = 54 }
 			font = "hoi_20b"
 			maxWidth = 60
 			maxHeight = 20
@@ -634,13 +634,13 @@ guiTypes = {
 		
 		iconType = {
 			name = "resource"
-			position = { x=53 y=11 }	
+			position = { x=50 y=11 }	
 			spriteType = "GFX_resources_strip"
 		}
 		
 		instantTextboxType = {
 			name = "amount"
-			position = { x = 70 y = 11 }
+			position = { x = 67 y = 13 }
 			font = "hoi_20b"
 			maxWidth = 37
 			maxHeight = 18
