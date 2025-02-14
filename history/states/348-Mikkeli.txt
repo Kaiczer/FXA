@@ -7,9 +7,17 @@ state={
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_to_array = { state_victory_points = 37 }
+		add_to_array = { state_victory_points = 165 }
+
+		victory_points = { 37 1 } #Savonlinna
+		victory_points = { 165 1 } #Mikkeli
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=99638
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
 }

@@ -5,12 +5,23 @@ state={
 	provinces={
 		630 6634 9602 9756 9890 9906 11887 
 	}
+	resources = {
+		steel = 3
+	}
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = SER
+		add_to_array = { state_victory_points = 11887 }
+		
+		victory_points = { 11887 2 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1179472
-        state_category = undeveloped_rural_region
+	manpower=1179472
+	state_category = developing_rural_region
 }

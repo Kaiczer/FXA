@@ -8,9 +8,14 @@ state={
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = CRO
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=246400
-        state_category = undeveloped_rural_region
+	manpower=246400
+	state_category = undeveloped_rural_region
 }

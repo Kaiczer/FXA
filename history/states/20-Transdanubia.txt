@@ -4,12 +4,24 @@ state={
 	provinces={
 		686 701 3683 6703 6720 9676 11627 11663 13125 
 	}
+	resources = {
+		aluminium = 2
+	}
 	history = {
 		owner = HUN
 		add_core_of = HUN
+		add_to_array = { state_victory_points = 6720 }
+		add_to_array = { state_victory_points = 6703 }
+
+		victory_points = { 6720 3 }
+		victory_points = { 6703 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	manpower=1719020
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
 }

@@ -8,9 +8,20 @@ state={
 	history = {
 		owner = SWI
 		add_core_of = SWI
+		add_to_array = { state_victory_points = 6666 }
+		add_to_array = { state_victory_points = 11590 }
+		
+		victory_points = { 6666 15 }
+		victory_points = { 11590 3 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=776584
-        state_category = undeveloped_rural_region
+	manpower=776584
+	state_category = urbanised_region
 }

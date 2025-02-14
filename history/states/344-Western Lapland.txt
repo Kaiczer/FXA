@@ -5,12 +5,22 @@ state={
 	provinces={
 		124 3055 3193 11115 11125 11130 11164 
 	}
+	resources = {
+		steel = 7
+		chromium = 2
+	}
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_to_array = { state_victory_points = 11125 }
+
+		victory_points = { 11125 1 } #Tornio
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=4452
-        state_category = undeveloped_rural_region
+	manpower=4452
+	state_category = peripheral_region
 }

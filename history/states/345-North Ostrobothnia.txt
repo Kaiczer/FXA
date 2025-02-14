@@ -4,12 +4,28 @@ state={
 	provinces={
 		7 82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6212 9106 9233 11024 11041 11079 11081 11121 11132 13118 
 	}
+	resources = {
+		steel = 3
+	}
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_to_array = { state_victory_points = 11121 }
+		add_to_array = { state_victory_points = 3073 }
+
+		victory_points = { 11141 2 } #Kuopio
+		victory_points = { 3073 1 } #Suomussalmi
+		victory_points = { 11121 2 } #Oulu
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			11121 = {
+				naval_base = 1
+			}
+		}
 	}
 	manpower=156929
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
 }

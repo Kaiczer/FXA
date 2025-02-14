@@ -8,9 +8,29 @@ state={
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_to_array = { state_victory_points = 9904 }
+		add_to_array = { state_victory_points = 11846 }
+
+		victory_points = { 9904 40 }
+		victory_points = { 11846 1 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+			arms_factory = 1
+			industrial_complex = 5
+			9904 = {
+				landmark_colosseum = 1
+			}
+			11751 = {
+				naval_base = 5
+			}
+			11846 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1787301
-        state_category = undeveloped_rural_region
+	manpower=1787301
+	state_category = minor_industrial_region
 }

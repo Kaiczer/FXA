@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_to_array = { state_victory_points = 9794 }
+
+		victory_points = { 9794 2 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=685074
-        state_category = undeveloped_rural_region
+	manpower=685074
+	state_category = developing_rural_region
 }

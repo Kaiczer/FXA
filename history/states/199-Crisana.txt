@@ -4,13 +4,25 @@ state={
 	provinces={
 		696 713 746 3696 3709 6682 6697 9640 9687 9704 10104 
 	}
+	resources = {
+		steel = 4
+	}
 	history = {
 		owner = ROM
 		add_core_of = ROM
+		add_core_of = TRS
 		add_claim_by = HUN
+		add_to_array = { state_victory_points = 3696 }
+		add_to_array = { state_victory_points = 6682 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 3696 5 }
+		victory_points = { 6682 2 }
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1733764
-        state_category = undeveloped_rural_region
+	manpower=1733764
+	state_category = developing_rural_region
 }

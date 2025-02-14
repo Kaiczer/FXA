@@ -8,9 +8,15 @@ state={
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_to_array = { state_victory_points = 9990 }
+
+		victory_points = { 9990 2 } #Reggio di Calabria
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2176704
-        state_category = undeveloped_rural_region
+	manpower=2176704
+	state_category = urbanising_region
 }

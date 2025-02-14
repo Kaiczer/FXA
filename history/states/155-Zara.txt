@@ -9,9 +9,19 @@ state={
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = YUG
+		add_core_of = CRO
+		add_to_array = { state_victory_points = 11901 }
+
+		victory_points = { 11901 5 } #Zara
+
+		buildings = {
+			infrastructure = 2
+			11901 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=20324
-        state_category = undeveloped_rural_region
+	manpower=20324
+	state_category = undeveloped_rural_region
 }

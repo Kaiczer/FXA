@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_to_array = { state_victory_points = 3137 }
+		add_to_array = { state_victory_points = 9167 }
+
+		victory_points = { 3137 3 } #Tampere
+		victory_points = { 9167 1 } #Hameenlinna
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 	manpower=214886
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developed_rural_region
 	local_supplies=0.000
 }

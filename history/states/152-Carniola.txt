@@ -8,9 +8,18 @@ state={
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = SLV
+		add_to_array = { state_victory_points = 9627 }
+
+		victory_points = { 9627 10 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=565070
-        state_category = undeveloped_rural_region
+	local_supplies=5.000
+	manpower=565070
+	state_category = urbanised_region
 }

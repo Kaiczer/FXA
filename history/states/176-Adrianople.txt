@@ -9,9 +9,24 @@ state={
 		add_core_of = ISC
 		add_claim_by = GRE
 		add_claim_by = TUR
+		add_to_array = { state_victory_points = 11842 }
+		add_to_array = { state_victory_points = 849 }
+
+		victory_points = { 11842 5 } #Adrianople
+		victory_points = { 849 1 } #Gallipoli
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			849 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=686615
-        state_category = undeveloped_rural_region
+	manpower=686615
+	state_category = developed_rural_region
 }

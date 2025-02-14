@@ -4,12 +4,27 @@ state={
 	provinces={
 		833 867 907 974 3833 3865 3882 6886 11832 11856 13634 
 	}
+	resources = {
+		aluminium = 27
+		chromium = 20
+	}
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = MAC
+		add_core_of = SER
+		add_to_array = { state_victory_points = 3882 }
+
+		victory_points = { 3882 5 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1021554
-        state_category = undeveloped_rural_region
+	manpower=1021554
+	state_category = developed_rural_region
 }

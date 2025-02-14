@@ -8,9 +8,33 @@ state={
 	history = {
 		owner = DEN
 		add_core_of = DEN
+		add_to_array = { state_victory_points = 3325 }
+		add_to_array = { state_victory_points = 6287 }
+		add_to_array = { state_victory_points = 6393 }
+
+		victory_points = { 6287 20 } #Copenhagen
+		victory_points = { 6393 2 } #Roskilde
+		victory_points = { 3325 5 } #Odense
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 3
+			air_base = 6
+			6287 = {
+				naval_base = 8
+			}
+			6361 = {
+				naval_base = 1
+			}
+			3325 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1924294
-        state_category = undeveloped_rural_region
+	local_supplies=15.000
+	manpower=1924294
+	state_category = local_industrial_region
 }

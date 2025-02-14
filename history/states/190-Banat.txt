@@ -4,12 +4,24 @@ state={
 	provinces={
 		646 662 3649 9606 11592 11608 
 	}
+	resources = {
+		steel = 12
+		aluminium = 5
+	}
 	history = {
 		owner = ROM
 		add_core_of = ROM
+		add_to_array = { state_victory_points = 9606 }
+		
+		victory_points = { 9606 5 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=939958
-        state_category = undeveloped_rural_region
+	local_supplies=11.000
+	manpower=939958
+	state_category = developing_rural_region
 }

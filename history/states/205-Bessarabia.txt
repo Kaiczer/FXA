@@ -8,9 +8,24 @@ state={
 	history = {
 		owner = ROM
 		add_core_of = ROM
+		add_to_array = { state_victory_points = 3707 }
+		add_to_array = { state_victory_points = 6727 }
+		
+		victory_points = { 3707 10 }
+		victory_points = { 6727 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			6727 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2638893
-        state_category = undeveloped_rural_region
+	local_supplies=4.000
+	manpower=2638893
+	state_category = urbanising_region
 }

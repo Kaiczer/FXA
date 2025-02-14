@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = SWE
 		add_core_of = SWE
+		add_to_array = { state_victory_points = 11148 }
+
+		victory_points = { 11148 1 } #Ostersund
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			6126 = {
+				dam = 1 #Krångede Hydroelectric Power Station
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=136407
-        state_category = undeveloped_rural_region
+	manpower=136407
+	state_category = undeveloped_rural_region
 }

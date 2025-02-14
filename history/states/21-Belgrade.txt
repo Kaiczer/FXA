@@ -8,9 +8,20 @@ state={
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = SER
+		add_to_array = { state_victory_points = 11586 }
+
+		victory_points = { 11586 25 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 5
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2250275
-        state_category = undeveloped_rural_region
+	local_supplies=4.000
+	manpower=2250275
+	state_category = megalopolis
 }

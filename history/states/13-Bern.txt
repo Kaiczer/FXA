@@ -5,12 +5,27 @@ state={
 	provinces={
 		636 3612 9587 9618 9620 9638 11604 13550 
 	}
+	resources = {
+		aluminium = 22
+	}
 	history = {
 		owner = SWI
 		add_core_of = SWI
+		add_to_array = { state_victory_points = 9620 }
+		add_to_array = { state_victory_points = 9638 }
+
+		victory_points = { 9620 10 }
+		victory_points = { 9638 3 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1135279
-        state_category = undeveloped_rural_region
+	manpower=1135279
+	state_category = emerging_industrial_region
 }

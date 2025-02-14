@@ -7,9 +7,13 @@ state={
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_core_of = SER
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=152646
-        state_category = undeveloped_rural_region
+	manpower=152646
+	state_category = peripheral_region
 }

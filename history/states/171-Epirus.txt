@@ -4,12 +4,28 @@ state={
 	provinces={
 		3914 9805 9916 
 	}
+	resources = {
+		steel = 17
+		chromium = 17
+	}
 	history = {
 		owner = GRE
 		add_core_of = GRE
+		add_to_array = { state_victory_points = 3914 }
+
+		victory_points = { 3914 3 } #Ioannina
+
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			industrial_complex = 2
+			9805 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=460900
-        state_category = undeveloped_rural_region
+	manpower=460900
+	state_category = developed_rural_region
 }

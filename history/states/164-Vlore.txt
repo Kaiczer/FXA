@@ -8,9 +8,20 @@ state={
 		owner = ITA
 		add_core_of = ALB
 		add_claim_by = ITA
+		add_to_array = { state_victory_points = 11767 }
+
+		victory_points = { 11767 2 } #Vlorë
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			11767 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=37501
-        state_category = undeveloped_rural_region
+	manpower=37501
+	state_category = undeveloped_rural_region
 }

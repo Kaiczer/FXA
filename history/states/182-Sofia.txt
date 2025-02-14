@@ -8,9 +8,18 @@ state={
 	history = {
 		owner = BUL
 		add_core_of = BUL
+		add_to_array = { state_victory_points = 949 }
+	
+		victory_points = { 949 25 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1047300
-        state_category = undeveloped_rural_region
+	manpower=1047300
+	state_category = urbanised_region
 }

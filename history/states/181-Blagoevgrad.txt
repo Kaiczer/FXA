@@ -8,9 +8,13 @@ state={
 	history = {
 		owner = BUL
 		add_core_of = BUL
+		
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=790300
-        state_category = undeveloped_rural_region
+	local_supplies=3.000
+	manpower=790300
+	state_category = developing_rural_region
 }

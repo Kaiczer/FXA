@@ -2,11 +2,22 @@
 state={
 	id=9
 	name="STATE_9"
-
+	resources = {
+		oil = 1
+	}
 	history={
 		owner = AUS
 		add_core_of = AUS
+		add_to_array = { state_victory_points = 11666 }
 
+		victory_points = { 11666 45 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 6
+		}
 	}
 
 	provinces={
@@ -14,6 +25,5 @@ state={
 	}
 	manpower=3382556
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=emerging_industrial_region
 }

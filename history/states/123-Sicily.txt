@@ -7,9 +7,37 @@ state={
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_to_array = { state_victory_points = 10074 }
+		add_to_array = { state_victory_points = 4159 }
+		add_to_array = { state_victory_points = 4014 }
+		add_to_array = { state_victory_points = 13832 }
+
+		victory_points = { 10074 20 } #Palermo
+		victory_points = { 4159 5 } #Messina
+		victory_points = { 4014 5 } #Catania
+		victory_points = { 13832 1 } #Siracusa
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 10
+			10074 = {
+				naval_base = 2
+			}
+			7059 = {
+				naval_base = 5
+			}
+			4159 = {
+				naval_base = 8
+			}
+			4014 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3893866
-        state_category = undeveloped_rural_region
+	manpower=3893866
+	state_category = urbanised_region
 }

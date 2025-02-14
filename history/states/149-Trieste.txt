@@ -8,9 +8,19 @@ state={
 		owner = ITA
 		add_core_of = ITA
 		add_claim_by = YUG
+		add_to_array = { state_victory_points = 6626 }
+		victory_points = { 6626 15 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 6
+			6626 = {
+				naval_base = 6
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=348494
-        state_category = undeveloped_rural_region
+	manpower=348494
+	state_category = urbanised_region
 }

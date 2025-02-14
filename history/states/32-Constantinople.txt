@@ -10,9 +10,22 @@ state={
 		add_core_of = ISC
 		add_claim_by = GRE
 		add_claim_by = TUR
+		add_to_array = { state_victory_points = 9833 }
+
+		victory_points = { 9833 30 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 3
+			air_base = 4
+			9833 = {
+				naval_base = 8
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=777106
-        state_category = undeveloped_rural_region
+	manpower=777106
+	state_category = emerging_industrial_region
 }

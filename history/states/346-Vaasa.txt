@@ -7,9 +7,25 @@ state={
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_to_array = { state_victory_points = 3122 }
+		add_to_array = { state_victory_points = 66 }
+		add_to_array = { state_victory_points = 6013 }
+		add_to_array = { state_victory_points = 6141 }
+
+		victory_points = { 6141 1 } #Jyvaskyla
+		victory_points = { 3122 2 } #Vaasa
+		victory_points = { 66 1 } #Kokkola
+		victory_points = { 6013 1 } #Seinajoki
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			3122 = {
+				naval_base = 1
+			}
+		}
 	}
 	manpower=298165
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
 }

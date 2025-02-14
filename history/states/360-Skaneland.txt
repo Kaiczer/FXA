@@ -7,9 +7,29 @@ state={
 	history = {
 		owner = SWE
 		add_core_of = SWE
+		add_to_array = { state_victory_points = 9279 }
+		add_to_array = { state_victory_points = 6345 }
+		add_to_array = { state_victory_points = 11215 }
+
+		victory_points = { 9279 5 } #Malmo
+		victory_points = { 6345 1 } #Helsingborg
+		victory_points = { 11215 1 } #Karlskrona
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			11215 = {
+				naval_base = 5
+				coastal_bunker = 3
+			}
+			9279 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1066270
-        state_category = undeveloped_rural_region
+	manpower=1066270
+	state_category = urbanised_region
 }

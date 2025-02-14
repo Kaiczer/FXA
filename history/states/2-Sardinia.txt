@@ -7,9 +7,26 @@ state={
 	history = {
 		owner = ITA
 		add_core_of = ITA
+		add_to_array = { state_victory_points = 11773 }
+		add_to_array = { state_victory_points = 9772 }
+
+		victory_points = { 11773 3 } #Cagliari
+		victory_points = { 9772 2 } #Sassari
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			11773 = {
+				naval_base = 1
+			}
+			6891 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=973125
-        state_category = undeveloped_rural_region
+	manpower=973125
+	state_category = developing_rural_region
 }

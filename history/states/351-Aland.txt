@@ -7,9 +7,21 @@ state={
 	history = {
 		owner = FIN
 		add_core_of = FIN
+		add_core_of = SWE
+		add_to_array = { state_victory_points = 9228 }
+
+		victory_points = { 9228 1 } #Mariehamn
+
+		buildings = {
+			infrastructure = 2
+			9228 = {
+				naval_base = 1
+			}
+		}
+		set_demilitarized_zone = yes
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=14366
-        state_category = undeveloped_rural_region
+	manpower=14366
+	state_category = one_island
 }
