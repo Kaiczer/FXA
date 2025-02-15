@@ -9,9 +9,16 @@ state={
 		owner = POL
 		add_core_of = UKR  
 		add_core_of = POL
+		add_to_array = { state_victory_points = 11543 }
+		victory_points = { 11543 3 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2207862
-        state_category = undeveloped_rural_region
+	manpower=2207862
+	state_category = undeveloped_rural_region
 }

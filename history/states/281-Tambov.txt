@@ -5,12 +5,21 @@ state={
 	provinces={
 		232 275 313 340 367 396 471 3332 3389 9245 9273 9422 11227 11258 11296 11351 11436 
 	}
+	resources = {
+		chromium = 8
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 11381 }
+
+		victory_points = { 11381 2 } #Tambov
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1779583
-        state_category = undeveloped_rural_region
+	manpower=1779583
+	state_category = undeveloped_rural_region
 }

@@ -7,9 +7,15 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 6794 }
+
+		victory_points = { 6794 1 } #Elista
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=239620
-        state_category = undeveloped_rural_region
+	manpower=239620
+	state_category = peripheral_region
 }

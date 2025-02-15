@@ -5,13 +5,27 @@ state={
 	provinces={
 		685 6674 9628 9632 9647 11609 11614 
 	}
+	resources = {
+		chromium = 40
+	}
 	history = {
 		owner = DAG
 		add_core_of = DAG
 		add_claim_by = SOV 
+		add_to_array = { state_victory_points = 9628 }
+		add_to_array = { state_victory_points = 11614 }
+
+		victory_points = { 9628 3 } #Vladikavkaz
+		victory_points = { 11614 1 } #Nalchik
+
+		buildings = {
+			infrastructure = 2
+			9647 = {
+				dam = 1 #Terek Hydroelectric Station
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=925892
-        state_category = undeveloped_rural_region
+	manpower=925892
+	state_category = developing_rural_region
 }

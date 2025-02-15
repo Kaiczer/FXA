@@ -4,9 +4,21 @@ state={
 	provinces={
 		36 80 134 157 170 176 2998 3067 3071 6021 6096 6098 6175 9074 9119 9123 9198 11045 11054 11096 11146 11175 11181 13108 13115 
 	}
+	resources = {
+		steel = 45
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 6098 }
+		add_to_array = { state_victory_points = 3067 }
+
+		victory_points = { 3067 1 } #Ukhta
+		victory_points = { 6098 1 } #Repola
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=181858
 	buildings_max_level_factor=1.000

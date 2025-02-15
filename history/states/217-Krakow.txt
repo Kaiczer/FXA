@@ -4,12 +4,25 @@ state={
 	provinces={
 		417 442 466 3410 6499 6522 9412 9427 11398 11413 11507 
 	}
+	resources = {
+		oil = 5
+		steel = 3
+	}
 	history = {
 		owner = POL
 		add_core_of = POL 
+		add_to_array = { state_victory_points = 9427 }
+		victory_points = { 9427 20 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2297802
-        state_category = undeveloped_rural_region
+	local_supplies=12.000
+	manpower=2297802
+	state_category = emerging_industrial_region
 }

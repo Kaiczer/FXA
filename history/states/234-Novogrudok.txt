@@ -6,7 +6,17 @@ state={
 	history={
 		owner = BLR
 		add_core_of = BLR
+		add_to_array = { state_victory_points = 13736 }
+		add_to_array = { state_victory_points = 3309 }
+		add_to_array = { state_victory_points = 9359 }
 
+		victory_points = { 3309 1 }
+		victory_points = { 9359 3 }
+		victory_points = { 13736 1 }
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={
@@ -14,6 +24,6 @@ state={
 	}
 	manpower=1057147
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category = developing_rural_region
+	local_supplies=2.000
 }

@@ -5,12 +5,25 @@ state={
 	provinces={
 		410 452 499 3490 3517 3551 6339 6430 6473 6479 6502 6574 6575 6601 9337 9432 9447 9473 9577 11321 11395 11421 11458 11460 11523 
 	}
+	resources = {
+		tungsten = 28
+		steel = 33
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 11523 }
+		add_to_array = { state_victory_points = 6502 }
+
+		victory_points = { 11523 3 } #Pokrovsk
+		victory_points = { 6502 1 } #Balakovo
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=933940
-        state_category = undeveloped_rural_region
+	local_supplies=9
+	manpower=933940
+	state_category = developing_rural_region
 }

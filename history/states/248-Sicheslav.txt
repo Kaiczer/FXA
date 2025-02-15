@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = UKR
 		add_core_of = UKR 
+		add_to_array = { state_victory_points = 11437 }
+		add_to_array = { state_victory_points = 11561 }
+
+		victory_points = { 11437 5 }
+		victory_points = { 11561 5 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1500000
-        state_category = undeveloped_rural_region
+	manpower=1500000
+	state_category = developed_rural_region
 }

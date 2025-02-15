@@ -8,6 +8,12 @@ state={
 		add_core_of = POL
 		add_claim_by = LIT
 		add_claim_by = BLR
+		add_to_array = { state_victory_points = 3254 }
+		victory_points = { 3254 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={
@@ -16,5 +22,4 @@ state={
 	manpower=21826
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
 }

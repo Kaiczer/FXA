@@ -7,9 +7,22 @@ state={
 	history = {
 		owner = LAT
 		add_core_of = LAT
+		add_to_array = { state_victory_points = 9340 }
+		victory_points = { 9340 20 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			9340 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=385063
-        state_category = undeveloped_rural_region
+	manpower=385063
+	state_category = urbanised_region
 }

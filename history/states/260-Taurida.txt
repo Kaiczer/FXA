@@ -4,12 +4,19 @@ state={
 	provinces={
 		568 721 737 767 3573 6771 9712 
 	}
+	resources = {
+		chromium = 18
+	}
 	history = {
 		owner = UKR
 		add_core_of = UKR 
+		
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=874035
-        state_category = undeveloped_rural_region
+	manpower=874035
+	state_category = undeveloped_rural_region
 }

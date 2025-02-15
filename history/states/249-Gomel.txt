@@ -7,7 +7,14 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		add_core_of = BLR
+		add_to_array = { state_victory_points = 9288 }
 
+		victory_points = { 9288 8 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
 	}
 
 	provinces={
@@ -15,6 +22,5 @@ state={
 	}
 	manpower=380342
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category= developing_rural_region
 }

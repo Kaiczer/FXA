@@ -5,13 +5,26 @@ state={
 	provinces={
 		555 581 3550 3581 6586 11554 
 	}
+	resources = {
+		steel = 9
+		tungsten = 2
+	}
 	history = {
 		owner = CZE
 		add_core_of = SLO
 		add_core_of = CZE
+		add_to_array = { state_victory_points = 3581 }
+
+		victory_points = { 3581 3 } #Presov
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=878738
-        state_category = undeveloped_rural_region
+	local_supplies=3.000
+	manpower=878738
+	state_category = developing_rural_region
 }

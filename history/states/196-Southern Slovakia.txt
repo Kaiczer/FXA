@@ -10,9 +10,17 @@ state={
 		add_core_of = SLO
 		add_core_of = CZE
 		add_claim_by = HUN
+		add_to_array = { state_victory_points = 11679 }
+
+		victory_points = { 11679 1 } #Nove Zamky
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=894367
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=894367
+	state_category = undeveloped_rural_region
 }

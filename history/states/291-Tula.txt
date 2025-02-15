@@ -8,9 +8,21 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 6262 }
+		add_to_array = { state_victory_points = 11248 }
+
+		victory_points = { 11248 3 } #Ryazan
+		victory_points = { 6262 10 } #Tula
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 1
+			synthetic_refinery = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3459669
-        state_category = undeveloped_rural_region
+	manpower=3459669
+	state_category = developed_rural_region
 }

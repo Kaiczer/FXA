@@ -4,12 +4,23 @@ state={
 	provinces={
 		3298 3388 9317 9501 10493 11222 11302 
 	}
+	resources = {
+		steel = 2
+	}
 	history = {
 		owner = LAT
 		add_core_of = LAT
+		add_to_array = { state_victory_points = 9501 }
+
+		victory_points = { 9501 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=406247
-        state_category = undeveloped_rural_region
+	manpower=406247
+	state_category = developing_rural_region
 }

@@ -6,7 +6,15 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 3580 }
 
+		victory_points = { 3580 10 } #Kursk
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +22,5 @@ state={
 	}
 	manpower=1680086
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category= urbanised_region
 }

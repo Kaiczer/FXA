@@ -8,9 +8,21 @@ state={
 	history = {
 		owner = POL
 		add_core_of = POL 
+		add_claim_by = UKR
+		add_to_array = { state_victory_points = 11479 }
+		add_to_array = { state_victory_points = 9468 }
+		victory_points = { 11479 15 }
+		victory_points = { 9468 2 }
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 5
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3127409
-        state_category = undeveloped_rural_region
+	manpower=3127409
+	state_category = urbanised_region
 }

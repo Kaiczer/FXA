@@ -5,12 +5,29 @@ state={
 	provinces={
 		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
 	}
+	resources = {
+		steel = 17
+	}
 	history = {
 		owner = CZE
 		add_core_of = CZE
+		add_to_array = { state_victory_points = 11542 }
+		add_to_array = { state_victory_points = 6418 }
+
+		victory_points = { 11542 30 } #Prague
+		victory_points = { 6418 5 } #Plzen
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 6
+			air_base = 5
+			9429 = {
+				land_facility = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3017231
-        state_category = undeveloped_rural_region
+	manpower=3017231
+	state_category = major_industrial_region
 }

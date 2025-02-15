@@ -7,6 +7,21 @@ state={
 		owner = POL
 		add_core_of = POL
 		add_claim_by = GER
+		add_to_array = { state_victory_points = 362 }
+		add_to_array = { state_victory_points = 279 }
+		victory_points = { 362 15 } #Danzig
+		victory_points = { 279 2 } #Bromberg
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			362 = {
+				naval_base = 6
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +29,5 @@ state={
 	}
 	manpower=2629896
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=urbanised_region
 }

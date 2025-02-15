@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = UKR
 		add_core_of = UKR  
+		add_to_array = { state_victory_points = 6455 }
+		add_to_array = { state_victory_points = 3457 }
+
+		victory_points = { 6455 2 } #Mogilev-Podolsky
+		victory_points = { 3457 5 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=752493
-        state_category = undeveloped_rural_region
+	local_supplies=4.000
+	manpower=752493
+	state_category = urbanising_region
 }

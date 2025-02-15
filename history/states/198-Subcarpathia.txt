@@ -9,9 +9,15 @@ state={
 		add_core_of = SLO
 		add_core_of = CZE
 		add_claim_by = UKR
+		add_to_array = { state_victory_points = 11691 }
+		victory_points = { 11691 2 }
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=858570
-        state_category = undeveloped_rural_region
+	manpower=858570
+	state_category = undeveloped_rural_region
 }

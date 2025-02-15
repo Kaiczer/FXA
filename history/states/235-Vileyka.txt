@@ -6,6 +6,14 @@ state={
 	history={
 		owner = BLR
 		add_core_of = BLR
+		add_to_array = { state_victory_points = 277 }
+
+		victory_points = { 277 1 }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+		}
 	}
 
 	provinces={

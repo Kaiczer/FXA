@@ -6,6 +6,14 @@ state={
 	history = {
 		owner = CZE
 		add_core_of = CZE
+		add_to_array = { state_victory_points = 11525 }
+		
+		victory_points = { 11525 3 } #Moravian Budejovice
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 
 	provinces={
@@ -13,6 +21,6 @@ state={
 	}
 	manpower=855324
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=urbanising_region
 	local_supplies=0.000
 }

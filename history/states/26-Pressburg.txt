@@ -9,9 +9,25 @@ state={
 		owner = CZE
 		add_core_of = SLO
 		add_core_of = CZE
+		add_to_array = { state_victory_points = 9692 }
+		add_to_array = { state_victory_points = 541 }
+		add_to_array = { state_victory_points = 9551 }
+		add_to_array = { state_victory_points = 11522 }
+		add_to_array = { state_victory_points = 11539 }
+
+		victory_points = { 541 3 } #Trnava
+		victory_points = { 9551 2 } #Zilina
+		victory_points = { 11522 2 } #Nyitra
+		victory_points = { 11539 1 } #Martin
+		victory_points = { 9692 15 } #Pressburg
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1294782
-        state_category = undeveloped_rural_region
+	manpower=1294782
+	state_category = urbanising_region
 }

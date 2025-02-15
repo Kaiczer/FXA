@@ -2,11 +2,26 @@
 state={
 	id=208
 	name="STATE_208"
-
+	resources = {
+		steel = 30
+	}
 	history={
 		owner = CZE
 		add_core_of = CZE
+		add_to_array = { state_victory_points = 3569 }
+		add_to_array = { state_victory_points = 6562 }
+		add_to_array = { state_victory_points = 9567 }
 
+		victory_points = { 3569 10 } #Brno
+		victory_points = { 6562 5 } #Olomouc
+		victory_points = { 9567 3 } #Ostrava
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 3
+			air_base = 5
+		}
 	}
 
 	provinces={
@@ -14,6 +29,6 @@ state={
 	}
 	manpower=1759038
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=emerging_industrial_region
+	local_supplies=3.000
 }

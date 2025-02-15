@@ -8,6 +8,17 @@ state={
 		owner = LIT
 		add_core_of = LIT
 		add_claim_by = GER 
+		add_to_array = { state_victory_points = 3288 }
+
+		victory_points = { 3288 1 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3288 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

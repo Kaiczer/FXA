@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 3529 }
+
+		victory_points = { 3529 30 } #Tsaritsyn
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1122780
-        state_category = undeveloped_rural_region
+	local_supplies=14.000
+	manpower=1122780
+	state_category = urbanised_region
 }

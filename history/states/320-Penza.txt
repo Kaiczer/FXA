@@ -5,12 +5,25 @@ state={
 	provinces={
 		208 257 286 324 345 376 380 3196 3221 3257 3266 3269 3317 3322 3334 3360 3371 3372 6248 6284 6291 6329 6391 6409 9258 9276 9286 9324 9409 11240 11262 11269 11309 11324 11363 11364 11373 11393 
 	}
+	resources = {
+		steel = 25
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 392 }
+		add_to_array = { state_victory_points = 9258 }
+
+		victory_points = { 9258 2 }
+		victory_points = { 392 3 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1874350
-        state_category = undeveloped_rural_region
+	local_supplies=8.000
+	manpower=1874350
+	state_category = urbanising_region
 }

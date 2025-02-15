@@ -4,12 +4,26 @@ state={
 	provinces={
 		562 3458 3497 3586 6416 11430 11532 13611 
 	}
+	resources = {
+		steel = 9
+	}
 	history = {
 		owner = POL
 		add_core_of = POL 
+		add_to_array = { state_victory_points = 3458 }
+		add_to_array = { state_victory_points = 3497 }
+
+		victory_points = { 3458 1 } #Radom
+		victory_points = { 3497 4 } #Kielce
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2935697
-        state_category = undeveloped_rural_region
+	manpower=2935697
+	state_category = urbanising_region
 }

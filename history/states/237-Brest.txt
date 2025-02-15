@@ -6,6 +6,13 @@ state={
 	history={
 		owner = POL
 		add_core_of = POL
+		add_to_array = { state_victory_points = 3392 }
+
+		buildings = {
+			infrastructure = 4
+			air_base = 4
+		}
+		victory_points = { 3392 5 }
 	}
 
 	provinces={
@@ -13,6 +20,6 @@ state={
 	}
 	manpower=41400
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category= developing_rural_region
 	local_supplies=0.000
 }

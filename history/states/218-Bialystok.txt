@@ -2,11 +2,21 @@
 state={
 	id=218
 	name="STATE_218"
-
+	resources = {
+		steel = 2
+	}
 	history={
 		owner = POL
 		add_core_of = POL
 		add_claim_by = BLR
+		add_to_array = { state_victory_points = 11301 }
+		victory_points = { 11301 2 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +24,6 @@ state={
 	}
 	manpower=1622058
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category = developed_rural_region
+	local_supplies=5.000
 }

@@ -7,9 +7,18 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 3344 }
+		add_to_array = { state_victory_points = 11234 }
+
+		victory_points = { 3344 1 } #Toropets
+		victory_points = { 11234 1 } #Velikiye Luki
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=678783
-        state_category = undeveloped_rural_region
+	manpower=678783
+	state_category = undeveloped_rural_region
 }

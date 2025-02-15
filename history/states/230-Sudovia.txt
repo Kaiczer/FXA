@@ -7,6 +7,12 @@ state={
 		owner = POL
 		add_core_of = POL
 		add_core_of = LIT
+		add_to_array = { state_victory_points = 11312 }
+		victory_points = { 11312 1 }
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={
@@ -15,5 +21,4 @@ state={
 	manpower=242311
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
 }

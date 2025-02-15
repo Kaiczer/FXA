@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 11476 }
+		add_to_array = { state_victory_points = 9540 }
+
+		victory_points = { 11476 2 } #Millerovo
+		victory_points = { 9540 1 } #Ust-Medvyeditsa
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=890769
-        state_category = undeveloped_rural_region
+	local_supplies=8.000
+	manpower=890769
+	state_category = undeveloped_rural_region
 }

@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 11375 }
+
+		victory_points = { 11375 10 } #Nizhny Novgorod
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3378176
-        state_category = undeveloped_rural_region
+	manpower=3378176
+	state_category = urbanised_region
 }

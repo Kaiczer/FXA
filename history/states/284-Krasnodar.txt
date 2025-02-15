@@ -7,9 +7,17 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 3734 }
+
+		victory_points = { 3734 10 } #Krasnodar
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1702771
-        state_category = undeveloped_rural_region
+	local_supplies=9.000
+	manpower=1702771
+	state_category = urbanising_region
 }

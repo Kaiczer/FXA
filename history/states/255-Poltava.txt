@@ -8,9 +8,16 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		add_core_of = UKR
+		add_to_array = { state_victory_points = 511 }
+
+		victory_points = { 511 5 }
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=858337
-        state_category = undeveloped_rural_region
+	local_supplies=10.000
+	manpower=858337
+	state_category = undeveloped_rural_region
 }
