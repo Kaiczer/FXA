@@ -12,10 +12,10 @@ state={
 		owner = ENG
 		add_core_of = ENG
 		add_to_array = { state_victory_points = 3273 }
+		add_to_array = { state_victory_points = 11218 }
 
 		victory_points = { 3273 15 } #Glasgow
 		victory_points = { 11218 1 } #Dumfries
-		victory_points = { 3311 1 } #Douglas
 
 		buildings = {
 			infrastructure = 4
@@ -25,9 +25,6 @@ state={
 			air_base = 3
 			6395 = {
 				naval_base = 2
-			}
-			3311 = {
-				naval_base = 1
 			}
 		}
 	}

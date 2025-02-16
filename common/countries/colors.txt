@@ -459,8 +459,8 @@ TRU = {
 	color_ui = rgb { 144 169 90 }
 }
 IND = {
-	color = rgb { 225 72 50 } #more colorful one is 255 72 0
-	color_ui = rgb { 255 72 0 } #Old one is 255 103 48
+	color = rgb { 247 59 32 } #more colorful one is 255 72 0
+	color_ui = rgb { 247 59 32 } #Old one is 255 103 48
 }
 CRO = {
 	color = rgb { 40  150  130 } #130  70  180 
@@ -873,4 +873,20 @@ SSF = {
 SIB = {
 	color = rgb { 94 125 136 }
 	color_ui = rgb { 94 125 136 }
+}
+SDH = {
+	color = rgb { 21 91 0 }
+	color_ui = rgb { 21 91 0 }
+}
+GUJ = {
+	color = rgb { 201 43 38 }
+	color_ui = rgb { 201 43 38 }
+}
+KOL = {
+	color = rgb { 178 70 42 }
+	color_ui = rgb { 178 70 42 }
+}
+MNR = {
+	color = rgb { 242 219 68 }
+	color_ui = rgb { 242 219 68 }
 }

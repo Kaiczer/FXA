@@ -314,6 +314,87 @@ debug_decisions = {
 		}
 	}
 
+	balkanize_IND = {
+		icon = generic_flags
+
+		fire_only_once = no
+		cost = no 
+		
+		complete_effect = { 
+			every_state = {
+				limit = { is_core_of = BRM }
+				transfer_state_to = BRM
+			}
+			IND = {
+				annex_country = {
+					target = RAJ
+				}
+			}
+			KAS = {
+				transfer_state = 674
+			}
+			PAK = {
+				transfer_state = 672
+				transfer_state = 673
+				transfer_state = 675
+				transfer_state = 676
+				transfer_state = 677
+				set_cosmetic_tag = PAK_PUN
+			}
+			BAL = {
+				transfer_state = 678
+				transfer_state = 679
+			}
+			SDH = {
+				transfer_state = 680
+			}
+			GUJ = {
+				transfer_state = 683
+			}
+			RJH = {
+				transfer_state = 681
+				transfer_state = 684
+				set_cosmetic_tag = RJH_confed
+			}
+			HYD = {
+				transfer_state = 691
+				transfer_state = 692
+			}
+			MYS = {
+				transfer_state = 697
+			}
+			MDR = {
+				transfer_state = 699
+			}
+			TRV = {
+				transfer_state = 701
+			}
+			NEP = {
+				transfer_state = 671
+			}
+			BNG = {
+				transfer_state = 661
+				transfer_state = 663
+			}
+			DRS = {
+				transfer_state = 665
+			}
+			ASM = {
+				transfer_state = 662
+			}
+			MNR = {
+				transfer_state = 586
+				transfer_state = 1184
+			}
+			ORI = {
+				transfer_state = 688
+			}
+			KOL = { 
+				transfer_state = 694
+			}
+		}
+	}
+
 	turn_off_plpc_debug = {
 		icon = generic_flags
 

@@ -5,11 +5,6 @@ ASM: "Assam"
 ASM_ADJ: "Assamese"
 ASM_DEF: "Assam"
 
-### Punjab
-PAK_PUN: "Punjab"
-PAK_PUN_ADJ: "Punjabi"
-PAK_PUN_DEF: "Punjab"
-
 ### Gujarat
 GUJ: "Gujarat"
 GUJ_ADJ: "Gujarati"
@@ -17,7 +12,7 @@ GUJ_DEF: "Gujarat"
 
 ### Hyderabad
 HYD: "Hyderabad"
-HYD_ADJ: "Hyderabadi"
+HYD_ADJ: "Hyderabad"
 HYD_DEF: "Hyderabad"
 
 ### Kashmir
@@ -40,20 +35,52 @@ ORI: "Orissa"
 ORI_ADJ: "Orissan"
 ORI_DEF: "Orissa"
 
+### Kolhapur
+KOL: "Kolhapur"
+KOL_ADJ: "Kolhapuri"
+KOL_DEF: "Kolhapur"
+
 ### Travancore
 TRV: "Travancore"
 TRV_ADJ: "Travancore"
 TRV_DEF: "Travancore"
 
-# Bengal
+### Bengal
 BNG: "Bengal"
 BNG_ADJ: "Bengali"
 BNG_DEF: "Bengal"
+
+### Rajputana
+RJH: "Rajputana"
+RJH_ADJ: "Rajput"
+RJH_DEF: "Rajputana"
+
+RJH_confed: "Rajputana Confederation"
+RJH_confed_ADJ: "Rajput"
+RJH_confed_DEF: "the Rajputana Confederation"
+
+### Sindh
+SDH: "Sindh"
+SDH_ADJ: "Sindhi"
+SDH_DEF: "Sindh"
+
+### Manipur
+MNR: "Manipur"
+MNR_ADJ: "Manipur"
+MNR_DEF: "Manipur"
 
 ### Ceylon
 CEY: "Ceylon"
 CEY_DEF: "Ceylon"
 CEY_ADJ: "Ceylonese"
+
+### Baluchistan
+BAL: "Baluchistan"
+BAL_ADJ: "Baluchi"
+BAL_DEF: "Baluchistan"
+BAL_kalat: "Kalat Khanate"
+BAL_kalat_ADJ: "Kalati"
+BAL_kalat_DEF: "the Kalat Khanate"
 
 ### Maldives
 MLD: "Maldives"

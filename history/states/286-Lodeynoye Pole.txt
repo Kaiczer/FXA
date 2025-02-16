@@ -11,6 +11,9 @@ state={
 
 		buildings = {
 			infrastructure = 2
+			11153 = {
+				dam = 1 #Lower Svir Hydroelectric Station
+			}
 		}
 	}
 	buildings_max_level_factor=1.000

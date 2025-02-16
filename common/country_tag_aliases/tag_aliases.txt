@@ -73,6 +73,12 @@ GRU = {
 	has_country_flag = GER_is_puppet
 }
 
+### Indian Tags
+PUN = {
+	original_tag = PAK
+	has_country_flag = PAK_is_not_unified
+}
+
 # operative operation target
 # only set for majors who has agency
 # set on on_weekly

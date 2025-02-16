@@ -9,8 +9,10 @@ state={
 		owner = FRA
 		add_core_of = FRA 
 		add_to_array = { state_victory_points = 9642 }
+		add_to_array = { state_victory_points = 10779 }
 
 		victory_points = { 9642 1 } #Besançon
+		victory_points = { 10779 1 } #Belfort
 
 		buildings = {
 			infrastructure = 3
