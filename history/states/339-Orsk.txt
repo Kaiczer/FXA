@@ -4,12 +4,24 @@ state={
 	provinces={
 		4215 4261 7281 10196 10224 
 	}
+	resources = {
+		oil = 10
+		steel = 60
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 4261 }
+
+		victory_points = { 4261 3 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=261247
-        state_category = undeveloped_rural_region
+	manpower=261247
+	state_category = developing_rural_region
 }

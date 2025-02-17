@@ -7,7 +7,13 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 10435 }
 
+		victory_points = { 10435 1 }
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -16,5 +22,5 @@ state={
 	manpower=339172
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=2.000
 }

@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 9299 } #Stavropol-na-Volge - added via Russian content later
+		add_to_array = { state_victory_points = 11225 }
+
+		victory_points = { 11225 10 } #Samara
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1391819
-        state_category = undeveloped_rural_region
+	manpower=1391819
+	state_category = urbanising_region
 }

@@ -2,12 +2,23 @@
 state={
 	id=446
 	name="STATE_446"
-
+	resources = {
+		oil = 3
+		steel = 12
+		chromium = 24
+	}
 	history={
 		owner = KYR
 		add_core_of = KYR
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 12583 }
 
+		victory_points = { 12583 1 } #Pishpek
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
 	}
 
 	provinces={

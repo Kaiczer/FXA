@@ -9,9 +9,13 @@ state={
 		owner = KYR
 		add_core_of = KYR
 		add_claim_by = SOV 
+		add_to_array = { state_victory_points = 12581 }
+		victory_points = { 12581 1 } #Kokand
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=1527244
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
 }

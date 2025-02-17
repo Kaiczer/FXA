@@ -7,7 +7,12 @@ state={
 		owner = TMS
 		add_core_of = TMS
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 12333 }
+		victory_points = { 12333 2 } #Ashkabad
 
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -15,6 +20,5 @@ state={
 	}
 	manpower=320514
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
 }

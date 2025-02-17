@@ -5,13 +5,24 @@ state={
 	provinces={
 		1672 1826 4677 4719 4832 7725 7785 7786 10559 10574 10643 10683 12543 12556 12622 12641 
 	}
+	resources = {
+		steel = 10
+		chromium = 9
+	}
 	history = {
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 1672 }
+		victory_points = { 1672 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1044310
-        state_category = undeveloped_rural_region
+	manpower=1044310
+	state_category = developed_rural_region
 }

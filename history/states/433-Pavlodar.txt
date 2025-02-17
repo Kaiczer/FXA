@@ -4,13 +4,21 @@ state={
 	provinces={
 		1879 4670 4685 7317 7708 10202 10630 12616 
 	}
+	resources = {
+		chromium = 18
+	}
 	history = {
 		owner = KAZ
 		add_core_of = KAZ
 		add_claim_by = SOV 
+		add_to_array = { state_victory_points = 7708 }
+		victory_points = { 7708 1 } #Pavlodar
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=241033
-        state_category = undeveloped_rural_region
+	manpower=241033
+	state_category = undeveloped_rural_region
 }

@@ -5,13 +5,17 @@ state={
 	provinces={
 		1593 4599 7477 7563 7635 10359 12359 
 	}
+	resources = {
+		oil = 8
+	}
 	history={
 		owner = TMS
 		add_core_of = TMS
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 7477 }
+		victory_points = { 7477 1 } #Kyzyl-Su
 	}
 	manpower=290333
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
 }

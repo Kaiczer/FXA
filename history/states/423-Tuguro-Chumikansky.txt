@@ -8,9 +8,18 @@ state={
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 12559 }
+		victory_points = { 12559 1 }
+
+		buildings = {
+			infrastructure = 2
+			12559 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=97663
-        state_category = undeveloped_rural_region
+	manpower=97663
+	state_category = peripheral_region
 }

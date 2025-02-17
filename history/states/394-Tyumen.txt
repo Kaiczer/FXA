@@ -8,9 +8,16 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 1387 }
+
+		victory_points = { 1387 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=775645
-        state_category = undeveloped_rural_region
+	local_supplies=3.000
+	manpower=775645
+	state_category = undeveloped_rural_region
 }

@@ -5,13 +5,18 @@ state={
 	provinces={
 		105 198 6192 9205 10207 
 	}
+	resources = {
+		oil = 8
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=17240
-        state_category = undeveloped_rural_region
+	manpower=17240
+	state_category = wasteland
 }

@@ -7,7 +7,17 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 10148 }
+		add_to_array = { state_victory_points = 7597 }
+		
+		victory_points = { 10148 3 }
+		victory_points = { 7597 1 } #Kyzylorda
 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1 #Shymkent Agricultural Airport
+		}
 	}
 
 	provinces={
@@ -16,5 +26,4 @@ state={
 	manpower=2030319
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
 }

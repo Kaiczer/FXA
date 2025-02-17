@@ -5,12 +5,24 @@ state={
 	provinces={
 		206 237 278 361 390 1336 1380 1754 3280 4372 4758 6025 7320 7375 7403 7431 10216 10286 10314 11228 11307 11352 12216 12527 12626 
 	}
+	resources = {
+		aluminium = 8
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 7375 }
+
+		victory_points = { 7375 5 } #Perm
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1298499
-        state_category = undeveloped_rural_region
+	manpower=1298499
+	state_category = urbanising_region
 }

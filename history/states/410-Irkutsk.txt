@@ -1,0 +1,28 @@
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		1727 1803 1810 1813 1829 4750 4797 4808 4815 7769 7802 7838 7841 7876 10543 10549 10562 10661 10664 12525 12540 12647 
+	}
+	resources = {
+		aluminium = 38
+		steel = 23
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_to_array = { state_victory_points = 1813 }
+		add_to_array = { state_victory_points = 4797 }
+		victory_points = { 4797 10 }
+		victory_points = { 1813 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	manpower=1091588
+	state_category = developed_rural_region
+}

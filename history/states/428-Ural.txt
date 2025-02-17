@@ -9,9 +9,14 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 		add_claim_by = SOV 
+		add_to_array = { state_victory_points = 11537 }
+		victory_points = { 11537 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=556382
-        state_category = undeveloped_rural_region
+	manpower=556382
+	state_category = undeveloped_rural_region
 }

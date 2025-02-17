@@ -4,14 +4,28 @@ state={
 	provinces={
 		855 1322 1742 1755 1820 12446 
 	}
+	resources = {
+		oil = 6
+	}
 	history = {
 		owner = JAP
 		add_core_of = JAP
 		add_claim_by = RUS
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 12446 }
+
+		victory_points = { 12446 1 } #Toyohara
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12446 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=506482
-        state_category = undeveloped_rural_region
+	manpower=506482
+	state_category = developing_rural_region
 }

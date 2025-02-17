@@ -9,9 +9,20 @@ state={
 		owner = KAZ
 		add_core_of = KAZ
 		add_claim_by = SOV 
+		add_to_array = { state_victory_points = 1591 }
+		victory_points = { 1591 5 } #Verniy
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			1591 = {
+				dam = 1 #OTL Turkestan Hydroelectric Station
+			}
+		}
 	}
 	manpower=1435191
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
+	local_supplies=5.000
 }

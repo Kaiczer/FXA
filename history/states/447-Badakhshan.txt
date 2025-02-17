@@ -11,9 +11,13 @@ state={
 		add_claim_by = TAJ
 		add_claim_by = SOV 
 		add_claim_by = AFG
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=53210
-        state_category = undeveloped_rural_region
+	manpower=53210
+	state_category = wasteland
 }

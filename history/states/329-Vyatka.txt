@@ -4,12 +4,22 @@ state={
 	provinces={
 		31 45 88 146 189 272 359 3146 3363 6124 6162 6171 6274 6288 9114 9146 9192 9214 9283 9370 10200 11051 11087 11124 11133 11170 11193 
 	}
+	resources = {
+		aluminium = 17
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 6124 }
+
+		victory_points = { 6124 2 } #Vyatka
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1269285
-        state_category = undeveloped_rural_region
+	manpower=1269285
+	state_category = developed_rural_region
 }

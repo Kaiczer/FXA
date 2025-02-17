@@ -5,12 +5,23 @@ state={
 	provinces={
 		228 260 372 404 3251 3365 6323 6338 9336 9354 9514 11243 11292 11339 11496 
 	}
+	resources = {
+		steel = 33
+	}
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 6338 }
+
+		victory_points = { 6338 15 } #Kazan
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2286416
-        state_category = undeveloped_rural_region
+	manpower=2286416
+	state_category = developed_rural_region
 }
