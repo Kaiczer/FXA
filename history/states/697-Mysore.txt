@@ -2,11 +2,25 @@
 state={
 	id=697
 	name="STATE_697"
-
+	resources = {
+		tungsten = 70
+		chromium = 13
+	}
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 8011 }
+		add_to_array = { state_victory_points = 4344 }
 
+		victory_points = { 8011 10 } #Bengalore
+		victory_points = { 4344 3 } #Mysore
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +28,6 @@ state={
 	}
 	manpower=6841620
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=urbanising_region
 	local_supplies=0.000
 }

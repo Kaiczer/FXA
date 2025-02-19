@@ -4,12 +4,27 @@ state={
 	provinces={
 		1061 1103 1144 1190 1199 4064 4090 4132 7020 7150 7165 7207 9975 10118 11952 12037 12092 
 	}
+	resources = {
+		oil = 3
+	}
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 9975 }
+
+		victory_points = { 9975 20 } #Ahmedabad
+
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 2
+			9975 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4894300
-        state_category = undeveloped_rural_region
+	manpower=4894300
+	state_category = developed_rural_region
 }

@@ -4,12 +4,24 @@ state={
 	provinces={
 		4386 4987 5310 7374 10825 10910 12892 
 	}
+	resources = {
+		chromium = 2
+	}
 	history = {
 		owner = NEP
 		add_core_of = NEP
+		add_to_array = { state_victory_points = 4987 }
+
+		victory_points = { 4987 3 }
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=5834000
-        state_category = undeveloped_rural_region
+	manpower=5834000
+	state_category = developed_rural_region
 }

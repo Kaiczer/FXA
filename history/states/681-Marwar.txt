@@ -2,11 +2,24 @@
 state={
 	id=681
 	name="STATE_681"
-
+	resources = {
+		tungsten = 37
+	}
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		
+		add_to_array = { state_victory_points = 1908 }
+		add_to_array = { state_victory_points = 12876 }
 
+		victory_points = { 1908 3 } #Ajmer
+		victory_points = { 12876 2 } #Bikaner
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

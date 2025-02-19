@@ -4,12 +4,33 @@ state={
 	provinces={
 		1349 1405 4072 4187 4353 7013 7119 7177 7232 10019 10210 10270 12142 12182 12269 
 	}
+	resources = {
+		tungsten = 22
+	}
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 1349 }
+		add_to_array = { state_victory_points = 4187 }
+		add_to_array = { state_victory_points = 12182 }
+
+		victory_points = { 1349 40 } #Bombay
+		victory_points = { 4187 3 } #Surat
+		victory_points = { 12182 5 } #Poona
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+			1349 = {
+				naval_base = 6
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=19463500
-        state_category = undeveloped_rural_region
+	manpower=19463500
+	state_category = emerging_industrial_region
 }

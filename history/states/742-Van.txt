@@ -10,9 +10,15 @@ state={
 		add_core_of = TUR
 		add_core_of = KUR
 		add_claim_by = ARM 
+		add_to_array = { state_victory_points = 6935 }
+		victory_points = { 6935 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=135271
-        state_category = undeveloped_rural_region
+	manpower=135271
+	state_category = peripheral_region
 }

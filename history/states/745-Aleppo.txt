@@ -6,7 +6,14 @@ state={
 	history={
 		owner = SYR
 		add_core_of = SYR
+		add_to_array = { state_victory_points = 12473 }
 
+		victory_points = { 12473 10 } #Aleppo
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +21,6 @@ state={
 	}
 	manpower=540364
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
+	local_supplies=4.000
 }

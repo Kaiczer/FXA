@@ -2,11 +2,31 @@
 state={
 	id=774
 	name="STATE_774"
-
+	resources = {
+		oil = 1
+	}
 	history={
 		owner = MUS
 		add_core_of = MUS
+		add_to_array = { state_victory_points = 10760 }
+		add_to_array = { state_victory_points = 4993 }
+		add_to_array = { state_victory_points = 8020 }
 
+		victory_points = { 10760 4 } #Muscat
+		victory_points = { 4993 2 } #Sohar
+		victory_points = { 8020 2 } #Sur
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			8020 = {
+				naval_base = 1
+			}
+			10760 = {
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +34,6 @@ state={
 	}
 	manpower=226189
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

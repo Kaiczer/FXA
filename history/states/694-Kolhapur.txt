@@ -2,11 +2,27 @@
 state={
 	id=694
 	name="STATE_694"
-
+	resources = {
+		tungsten = 37
+		chromium = 4
+	}
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 7244 }
+		add_to_array = { state_victory_points = 12295 }
 
+		victory_points = { 7244 1 } #Mangalore
+		victory_points = { 12295 1 } #Kolhapur
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			7244 = {
+				naval_base = 4
+			}
+		}
 	}
 
 	provinces={

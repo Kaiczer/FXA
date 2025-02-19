@@ -7,6 +7,14 @@ state={
 		owner = IRQ
 		add_core_of = IRQ
 		add_core_of = SYR
+		add_to_array = { state_victory_points = 4111 }
+		victory_points = { 4111 20 }
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			air_base = 2
+		}
 	}
 
 	provinces={
@@ -14,6 +22,6 @@ state={
 	}
 	manpower=427415
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
+	local_supplies=2.000
 }

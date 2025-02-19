@@ -8,9 +8,19 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 4516 }
+
+		victory_points = { 4516 5 } #Patna
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=33923400
-        state_category = undeveloped_rural_region
+	manpower=33923400
+	state_category = urbanised_region
 }

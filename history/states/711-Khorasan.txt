@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = PER 
 		add_core_of = PER 
+		add_to_array = { state_victory_points = 5029 }
+		add_to_array = { state_victory_points = 7602 }
+		add_to_array = { state_victory_points = 10890 }
+
+		victory_points = { 5029 8 } #Mashhad
+		victory_points = { 7602 1 } #Astarabad
+		victory_points = { 10890 1 } #Birjand
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1197796
-        state_category = undeveloped_rural_region
+	local_supplies=5.000
+	manpower=1197796
+	state_category = developing_rural_region
 }

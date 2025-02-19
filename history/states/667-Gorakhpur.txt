@@ -8,9 +8,18 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 7334 }
+
+		victory_points = { 7334 5 } #Gorakhpur
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=5270160
-        state_category = undeveloped_rural_region
+	manpower=5270160
+	state_category = developing_rural_region
 }

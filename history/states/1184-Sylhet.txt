@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=5790345
     state_category = undeveloped_rural_region

@@ -1,0 +1,30 @@
+
+state={
+	id=670
+	name="STATE_670"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 2086 }
+		add_to_array = { state_victory_points = 4915 }
+
+		victory_points = { 2086 20 } #Delhi
+		victory_points = { 4915 5 } #Agra
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 4
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		2086 4915 5086 8114 9951 10794 11955 13850 13855 
+	}
+	manpower=34371332
+	buildings_max_level_factor=1.000
+	state_category=emerging_industrial_region
+}

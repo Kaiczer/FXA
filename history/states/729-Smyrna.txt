@@ -8,9 +8,22 @@ state={
 		owner = GRE
 		add_core_of = GRE
 		add_core_of = TUR
+		add_to_array = { state_victory_points = 4112 }
+
+		victory_points = { 4112 15 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+			4112 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1279893
-        state_category = undeveloped_rural_region
+	local_supplies=8.000
+	manpower=1279893
+	state_category = urbanised_region
 }

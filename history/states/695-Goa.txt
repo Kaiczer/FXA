@@ -8,9 +8,19 @@ state={
 		owner = POR 
 		add_core_of = IND 
 		add_claim_by = POR
+		add_to_array = { state_victory_points = 1273 }
+
+		victory_points = { 1273 1 } #Goa
+
+		buildings = {
+			infrastructure = 2
+			1273 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=533952
-        state_category = undeveloped_rural_region
+	manpower=533952
+	state_category = peripheral_region
 }

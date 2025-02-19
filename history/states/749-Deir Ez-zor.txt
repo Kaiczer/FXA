@@ -7,6 +7,15 @@ state={
 		owner = IRQ 
 		add_core_of = IRQ
 		add_core_of = SYR
+		add_to_array = { state_victory_points = 2013 }
+		add_to_array = { state_victory_points = 11919 }
+
+		victory_points = { 2013 1 } #Deir ez-Zor
+		victory_points = { 11919 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -15,5 +24,5 @@ state={
 	manpower=167585
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=2.000
 }

@@ -9,9 +9,19 @@ state={
 		add_core_of = ARM 
 		add_claim_by = SOV 
 		add_claim_by = TUR
+		add_to_array = { state_victory_points = 12320 }
+		add_to_array = { state_victory_points = 12441 }
+
+		victory_points = { 12320 10 } #Yerevan
+		victory_points = { 12441 1 } #Gyumri
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=827523
-        state_category = undeveloped_rural_region
+	manpower=827523
+	state_category = urbanising_region
 }

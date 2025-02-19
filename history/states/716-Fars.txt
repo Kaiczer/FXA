@@ -5,12 +5,22 @@ state={
 	provinces={
 		4966 5089 8117 10797 10881 
 	}
+	resources = {
+		oil = 11
+	}
 	history = {
 		owner = PER 
 		add_core_of = PER 
+		add_to_array = { state_victory_points = 8117 }
+
+		victory_points = { 8117 5 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=739175
-        state_category = undeveloped_rural_region
+	manpower=739175
+	state_category = developing_rural_region
 }

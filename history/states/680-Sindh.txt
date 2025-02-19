@@ -8,9 +8,22 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 3456 }
+
+		victory_points = { 3456 10 } #Karachi
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			3456 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4233400
-        state_category = undeveloped_rural_region
+	manpower=4233400
+	state_category = developing_rural_region
 }

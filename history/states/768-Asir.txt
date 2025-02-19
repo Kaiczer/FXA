@@ -8,9 +8,21 @@ state={
 		owner = YEM
 		add_claim_by = HEJ
 		add_core_of = YEM
+		add_to_array = { state_victory_points = 8073 }
+		add_to_array = { state_victory_points = 13664 }
+
+		victory_points = { 8073 1 } #Jazan
+		victory_points = { 13664 1 } #Abha
+
+		buildings = {
+			infrastructure = 1
+			8073 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=293948
-        state_category = undeveloped_rural_region
+	manpower=293948
+	state_category = peripheral_region
 }

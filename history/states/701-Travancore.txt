@@ -2,11 +2,30 @@
 state={
 	id=701
 	name="STATE_701"
-
+	resources = {
+		rubber = 14
+	}
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 7402 }
+		add_to_array = { state_victory_points = 10130 }
 
+		victory_points = { 7402 3 } #Trivandrum
+		victory_points = { 10130 2 } #Cochin
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			10130 = {
+				naval_base = 3
+			}
+			7402 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +33,6 @@ state={
 	}
 	manpower=6993700
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

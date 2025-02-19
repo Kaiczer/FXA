@@ -6,7 +6,15 @@ state={
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 12366 }
 
+		victory_points = { 12366 1 } #Gauhati
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

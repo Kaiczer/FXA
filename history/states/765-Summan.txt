@@ -10,10 +10,14 @@ state={
 		add_claim_by = HEJ
 		add_claim_by = MUS
 		add_claim_by = OMA
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	impassable = yes
 	manpower=19487
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=wasteland
 	local_supplies=0.000
 }

@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = EGY 
 		add_core_of = EGY
+		add_to_array = { state_victory_points = 4161 }
+
+		victory_points = { 4161 1 } #Arish
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=15359
-        state_category = undeveloped_rural_region
+	local_supplies=7.000
+	manpower=15359
+	state_category = wasteland
 }

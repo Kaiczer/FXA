@@ -10,9 +10,15 @@ state={
 		add_core_of = SIK
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_claim_by = RAJ
+		add_claim_by = IND
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4500
-        state_category = undeveloped_rural_region
+	manpower=4500
+	state_category = wasteland
 }

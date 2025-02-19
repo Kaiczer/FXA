@@ -1,0 +1,22 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = SYR
+		add_claim_by = SYR
+		add_core_of = KUR
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1549 1578 1634 5099 9823 10882 11871 12416 
+	}
+	manpower=454711
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+}

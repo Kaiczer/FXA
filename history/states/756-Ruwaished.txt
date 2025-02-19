@@ -10,9 +10,13 @@ state={
 		add_core_of = IRQ
 		add_core_of = JOR
 		add_claim_by = HEJ
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=25763
-        state_category = undeveloped_rural_region
+	manpower=25763
+	state_category = wasteland
 }

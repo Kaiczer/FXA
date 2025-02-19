@@ -7,9 +7,21 @@ state={
 	history = {
 		owner = HEJ
 		add_core_of = HEJ
+		add_to_array = { state_victory_points = 5037 }
+		add_to_array = { state_victory_points = 12883 }
+
+		victory_points = { 5037 10 } #Mecca
+		victory_points = { 12883 1 } #Jeddah
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12883 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=754141
-        state_category = undeveloped_rural_region
+	manpower=754141
+	state_category = developed_rural_region
 }

@@ -1,0 +1,32 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		add_to_array = { state_victory_points = 1088 }
+		add_to_array = { state_victory_points = 10087 }
+
+		victory_points = { 1088 1 } #Latakia
+		victory_points = { 10087 1 } #Tartus
+
+		buildings = {
+			infrastructure = 1
+			1088 = {
+				naval_base = 1
+			}
+			10087 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1088 10087 
+	}
+	manpower=443865
+	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
+}

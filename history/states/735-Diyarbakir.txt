@@ -9,9 +9,15 @@ state={
 		owner = KUR
 		add_core_of = TUR
 		add_core_of = KUR
+		add_to_array = { state_victory_points = 4512 }
+
+		victory_points = { 4512 5 } #Diyarbakir
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=540364
-        state_category = undeveloped_rural_region
+	manpower=540364
+	state_category = undeveloped_rural_region
 }

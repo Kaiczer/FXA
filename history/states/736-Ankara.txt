@@ -8,9 +8,20 @@ state={
 	history = {
 		owner = TUR
 		add_core_of = TUR
+		add_to_array = { state_victory_points = 11747 }
+		add_to_array = { state_victory_points = 921 }
+
+		victory_points = { 11747 15 } #Ankara
+		victory_points = { 921 5 } #Kayseri
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=923858
-        state_category = undeveloped_rural_region
+	manpower=923858
+	state_category = developed_rural_region
 }

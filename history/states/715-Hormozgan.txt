@@ -6,7 +6,20 @@ state={
 	history={
 		owner = PER
 		add_core_of = PER
-
+		add_to_array = { state_victory_points = 7982 }
+		
+		victory_points = { 7982 3 }
+		
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			7982 = {
+				naval_base = 4
+			}
+			12832 = {
+				naval_base = 2
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +27,5 @@ state={
 	}
 	manpower=492784
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
 }

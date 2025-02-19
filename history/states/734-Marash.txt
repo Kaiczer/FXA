@@ -7,6 +7,15 @@ state={
 		owner = SYR
 		add_claim_by = SYR
 		add_core_of = TUR
+		add_to_array = { state_victory_points = 806 }
+		add_to_array = { state_victory_points = 12029 }
+
+		victory_points = { 806 2 }
+		victory_points = { 12029 5 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +23,5 @@ state={
 	}
 	manpower=732695
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
 }

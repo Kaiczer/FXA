@@ -8,9 +8,16 @@ state={
 	history = {
 		owner = HEJ
 		add_core_of = HEJ
+		add_to_array = { state_victory_points = 7970 }
+		add_to_array = { state_victory_points = 10901 }
+		victory_points = { 7970 2 }
+		victory_points = { 10901 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=87344
-        state_category = undeveloped_rural_region
+	manpower=87344
+	state_category = wasteland
 }

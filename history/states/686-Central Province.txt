@@ -7,10 +7,20 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
-		 
+		add_core_of = IND
+		add_to_array = { state_victory_points = 12080 }
+		add_to_array = { state_victory_points = 11995 }
+
+		victory_points = { 12080 3 } #Indore
+		victory_points = { 11995 2 } #Bhopal
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=5444700
-        state_category = undeveloped_rural_region
+	manpower=5444700
+	state_category = undeveloped_rural_region
 }

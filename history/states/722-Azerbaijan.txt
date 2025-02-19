@@ -5,13 +5,31 @@ state={
 	provinces={
 		1536 1610 4458 4473 4477 4545 4614 7495 7661 9715 11645 11674 11704 12434 
 	}
+	resources = {
+		oil = 128
+	}
 	history = {
 		owner = AZR
 		add_core_of = AZR
 		add_claim_by = SOV
+		add_to_array = { state_victory_points = 7661 }
+		add_to_array = { state_victory_points = 11674 }
+		add_to_array = { state_victory_points = 4473 }
+
+		victory_points = { 7661 15 }
+		victory_points = { 11674 3 }
+		victory_points = { 4473 2 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 2
+			fuel_silo = 1
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2737488
-        state_category = undeveloped_rural_region
+	local_supplies=7.000
+	manpower=2737488
+	state_category = urbanised_region
 }

@@ -8,9 +8,20 @@ state={
 		owner = ARM
 		add_core_of = ARM
 		add_claim_by = TUR 
+		add_to_array = { state_victory_points = 11753 }
+		add_to_array = { state_victory_points = 9860 }
+		add_to_array = { state_victory_points = 11853 }
+
+		victory_points = { 9860 1 } #Mamuretulaziz
+		victory_points = { 11853 3 } #Erzurum
+		victory_points = { 11753 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=986762
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=9
 }

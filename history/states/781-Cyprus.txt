@@ -4,13 +4,26 @@ state={
 	provinces={
 		7193 11984 
 	}
+	resources = {
+		chromium = 3
+	}
 	history = {
 		owner = ENG 
 		add_claim_by = ENG   
 		add_core_of = CYP
+		add_to_array = { state_victory_points = 11984 }
+
+		victory_points = { 11984 1 }
+
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			11984 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=363000
-        state_category = undeveloped_rural_region
+	manpower=363000
+	state_category = undeveloped_rural_region
 }

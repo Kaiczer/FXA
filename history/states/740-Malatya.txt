@@ -1,0 +1,23 @@
+state={
+	id=740
+	name="STATE_740"
+	provinces={
+		6813 7620 9893 9912 13740 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_to_array = { state_victory_points = 9893 }
+
+		victory_points = { 9893 3 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	}
+	manpower=151322
+	buildings_max_level_factor=1.000
+	state_category=developing_rural_region
+}

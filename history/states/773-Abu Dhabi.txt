@@ -7,7 +7,14 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = TRU
-
+		add_to_array = { state_victory_points = 2048 }
+		victory_points = { 2048 1 }
+		buildings = {
+			infrastructure = 1
+			2048 = {
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces={
@@ -15,6 +22,6 @@ state={
 	}
 	manpower=108000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
+	local_supplies=4.000
 }

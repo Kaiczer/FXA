@@ -1,0 +1,26 @@
+
+state={
+	id=684
+	name="STATE_684"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 2054 }
+
+		victory_points = { 2054 3 } #Jaipur
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2054 2092 4971 7905 12743 12829 13849 
+	}
+	manpower=8369475
+	buildings_max_level_factor=1.000
+	state_category=developed_rural_region
+	local_supplies=9.000
+}

@@ -8,9 +8,20 @@ state={
 		owner = ENG 
 		add_claim_by = ENG   
 		add_core_of = QAR
+		add_core_of = TRU
+		add_to_array = { state_victory_points = 8051 }
+
+		victory_points = { 8051 1 } #Doha
+
+		buildings = {
+			infrastructure = 1
+			8051 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=19783
-        state_category = undeveloped_rural_region
+	manpower=19783
+	state_category = wasteland
 }

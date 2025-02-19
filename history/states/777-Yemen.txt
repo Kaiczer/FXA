@@ -8,9 +8,27 @@ state={
 		owner = YEM
 		add_claim_by = HEJ
 		add_core_of = YEM
+		add_to_array = { state_victory_points = 10840 }
+		add_to_array = { state_victory_points = 1973 }
+		add_to_array = { state_victory_points = 13836 }
+		add_to_array = { state_victory_points = 13837 }
+
+		victory_points = { 10840 5 } #Sana'a
+		victory_points = { 1973 2 } #Taiz
+		victory_points = { 13836 2 } #Hodeida
+		victory_points = { 13837 1 } #Marib
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			13836 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2639500
-        state_category = undeveloped_rural_region
+	manpower=2639500
+	state_category = developing_rural_region
 }

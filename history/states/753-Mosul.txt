@@ -2,11 +2,22 @@
 state={
 	id=753
 	name="STATE_753"
-
+	resources = {
+		oil = 40
+	}
 	history={
 		owner = IRQ
 		add_core_of = IRQ
+		add_to_array = { state_victory_points = 8123 }
+		add_to_array = { state_victory_points = 10106 }
 
+		victory_points = { 10106 10 } #Mosul
+		victory_points = { 8123 2 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+		}
 	}
 
 	provinces={
@@ -14,6 +25,5 @@ state={
 	}
 	manpower=413987
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
 }

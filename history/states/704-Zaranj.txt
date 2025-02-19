@@ -1,0 +1,19 @@
+state={
+	id=704
+	name="STATE_704"
+	provinces={
+		1948 2101 4949 5020 
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG 
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+	manpower=454465
+	state_category = peripheral_region
+}

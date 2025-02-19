@@ -7,9 +7,25 @@ state={
 	history = {
 		owner = TUR
 		add_core_of = TUR 
+		add_to_array = { state_victory_points = 9932 }
+		add_to_array = { state_victory_points = 11881 }
+
+		victory_points = { 9932 10 } #Trabzon
+		victory_points = { 11881 3 } #Samsun
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
+			9932 = {
+				naval_base = 2
+			}
+			11881 = {
+				naval_base = 2
+			}
+		}
 	}
 	manpower=1240133
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
 }

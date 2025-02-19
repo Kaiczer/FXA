@@ -9,9 +9,16 @@ state={
 		owner = OMA 
 		add_claim_by = MUS 
 		add_core_of = OMA
+		add_to_array = { state_victory_points = 13748 }
+
+		victory_points = { 13748 1 } #Nizwa
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	manpower=77948
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
 }

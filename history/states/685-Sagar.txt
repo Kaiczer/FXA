@@ -7,10 +7,18 @@ state={
 	history = {
 		owner = RAJ 
 		add_core_of = RAJ
-		 
+		add_core_of = IND
+		add_to_array = { state_victory_points = 4953 }
+
+		victory_points = { 4953 5 } #Jubbalpur
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4052500
-        state_category = undeveloped_rural_region
+	manpower=4052500
+	state_category = undeveloped_rural_region
 }

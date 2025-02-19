@@ -2,11 +2,32 @@
 state={
 	id=699
 	name="STATE_699"
-
+	resources = {
+		rubber = 19
+		steel = 8
+	}
 	history={
 		owner = RAJ
 		add_core_of = RAJ
+		add_core_of = IND
+		add_to_array = { state_victory_points = 10278 }
+		add_to_array = { state_victory_points = 1409 }
 
+		victory_points = { 1409 3 } #Madura
+		victory_points = { 10278 20 } #Madras
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 1
+			7265 = {
+				naval_base = 1
+			}
+			10278 = {
+				naval_base = 4
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +35,6 @@ state={
 	}
 	manpower=26286900
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=urbanising_region
 	local_supplies=0.000
 }
