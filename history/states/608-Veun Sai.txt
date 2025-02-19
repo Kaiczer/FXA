@@ -1,0 +1,24 @@
+state={
+	id=608
+	name="STATE_608"
+	provinces={
+		4596 10453 12167 
+	}
+	history = {
+		owner = FIC
+		add_claim_by = FIC
+		add_claim_by = CAM
+		add_core_of = LAO
+		add_to_array = { state_victory_points = 12167 }
+
+		victory_points = { 12167 1 } #Veun Sai
+	
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=193200
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=0.000
+}
