@@ -4,12 +4,25 @@ state={
 	provinces={
 		1357 4582 7601 10384 10425 10438 12195 12264 12360 12373 12388 12402 12431 
 	}
+	resources = {
+		steel = 3
+	}
 	history = {
 		owner = SIA
 		add_core_of = SIA
+		add_to_array = { state_victory_points = 10438 }
+		add_to_array = { state_victory_points = 12360 }
+
+		victory_points = { 10438 3 } #Nakhon Ratchasima/Kholat
+		victory_points = { 12360 1 } #Khonkaen/Khonken
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3846027
-        state_category = undeveloped_rural_region
+	manpower=3846027
+	state_category = developed_rural_region
 }

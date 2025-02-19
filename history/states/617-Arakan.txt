@@ -2,11 +2,25 @@
 state={
 	id=617
 	name="STATE_617"
-
+	resources = {
+		rubber = 4
+	}
 	history={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = BRM 
+		add_to_array = { state_victory_points = 12090 }
+
+		victory_points = { 12090 5 } #Sitwe
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			12090 = { # Port of Sitwe
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +28,6 @@ state={
 	}
 	manpower=1722500
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developed_rural_region
 	local_supplies=0.000
 }

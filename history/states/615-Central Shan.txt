@@ -9,9 +9,17 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = BRM 
+		add_core_of = SHN
+		add_to_array = { state_victory_points = 7909 }
+
+		victory_points = { 7909 1 } #Chiang Tung/Kengtung
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=982521
-        state_category = undeveloped_rural_region
+	manpower=982521
+	state_category = undeveloped_rural_region
 }

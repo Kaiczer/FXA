@@ -6,11 +6,20 @@ state={
 	}
 	history = {
 		owner = FIC 
-		add_core_of = FIC 
+		add_claim_by = FIC 
 		add_core_of = VIN
+		add_to_array = { state_victory_points = 4379 }
+		add_to_array = { state_victory_points = 4397 }
+
+		victory_points = { 4379 3 } #Hue
+		victory_points = { 4397 1 } #Vinh
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1880000
-        state_category = undeveloped_rural_region
+	manpower=1880000
+	state_category = undeveloped_rural_region
 }

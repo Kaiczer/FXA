@@ -6,11 +6,21 @@ state={
 	}
 	history = {
 		owner = FIC 
-		add_core_of = FIC 
+		add_claim_by = FIC 
 		add_core_of = CAM
+
+		add_to_array = { state_victory_points = 10177 }
+		add_to_array = { state_victory_points = 4302 }
+
+		victory_points = { 10177 2 } #Battambang/Phra Tabong
+		victory_points = { 4302 1 } #Siem Reap/Siemrath
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1500000
-        state_category = undeveloped_rural_region
+	manpower=1500000
+	state_category = undeveloped_rural_region
 }

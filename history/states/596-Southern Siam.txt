@@ -5,12 +5,37 @@ state={
 	provinces={
 		1281 1308 1337 1366 1394 4312 4371 7236 10156 10158 12201 12230 12286 
 	}
+	resources = {
+		rubber = 61
+	}
 	history = {
 		owner = SIA
 		add_core_of = SIA
+		add_to_array = { state_victory_points = 7236 }
+		add_to_array = { state_victory_points = 4312 }
+
+		victory_points = { 7236 4 } # Hat Yai
+		victory_points = { 4312 2 } # Nakhon Si Thammarat
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			7236 = { # Songkhla Naval Base - RSN 2nd Naval Area Command
+				naval_base = 1
+			}
+			4312 = { # Sichon Landing Zone/Samui Naval Base
+				naval_base = 1
+			}
+			12230 = { # Phang Nga Naval Base - RSN 3rd Naval Area Command (+Phuket Naval Base)
+				naval_base = 1
+			}
+			12286 = { # Kantang Naval Base
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1406026
-        state_category = undeveloped_rural_region
+	manpower=1406026
+	state_category = developing_rural_region
 }

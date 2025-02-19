@@ -6,12 +6,18 @@ state={
 	}
 	history = {
 		owner = FIC 
-		add_core_of = FIC 
+		add_claim_by = FIC 
 		add_core_of = LAO
+		add_to_array = { state_victory_points = 1563 }
 
+		victory_points = { 1563 1 } #Pakse/Pakxe
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=193200
-        state_category = undeveloped_rural_region
+	manpower=193200
+	state_category = peripheral_region
 }

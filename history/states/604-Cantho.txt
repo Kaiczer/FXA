@@ -6,11 +6,21 @@ state={
 	}
 	history = {
 		owner = FIC 
-		add_core_of = FIC 
+		add_claim_by= FIC 
 		add_core_of = VIN
+		add_to_array = { state_victory_points = 12133 }
+
+		victory_points = { 12133 2 } #Can Tho
+
+		buildings = {
+			infrastructure = 1
+			1396 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1490000
-        state_category = undeveloped_rural_region
+	manpower=1490000
+	state_category = undeveloped_rural_region
 }

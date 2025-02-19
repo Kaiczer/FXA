@@ -4,13 +4,25 @@ state={
 	provinces={
 		4424 10313 
 	}
+	resources = {
+		rubber = 220
+	}
 	history = {
 		owner = ENG 
 		add_core_of = MAL 
 		add_claim_by = ENG 
+		add_to_array = { state_victory_points = 10313 }
+
+		victory_points = { 10313 7 } # Johor Bahru
+
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=924223
-        state_category = undeveloped_rural_region
+	manpower=924223
+	state_category = undeveloped_rural_region
 }

@@ -4,12 +4,19 @@ state={
 	provinces={
 		1279 4297 12131 
 	}
+	resources = { #historically major mining state
+		tungsten = 17
+	}
 	history = {
 		owner = SIA
 		add_core_of = SIA
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=414814
-        state_category = undeveloped_rural_region
+	manpower=414814
+	state_category = undeveloped_rural_region
 }

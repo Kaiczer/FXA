@@ -4,13 +4,30 @@ state={
 	provinces={
 		1364 1376 4310 4384 12215 13543 
 	}
+	resources = {
+		rubber = 420
+	}
 	history = {
 		owner = ENG 
 		add_core_of = MAL 
 		add_claim_by = ENG 
+		add_to_array = { state_victory_points = 13543 }
+		add_to_array = { state_victory_points = 1364 }
+
+		victory_points = { 13543 7 } #Georgetown
+		victory_points = { 1364 5 } # Ipoh
+		buildings = {
+			infrastructure = 2
+			10297 = {
+				naval_base = 5 #Kuala Lumpur
+			}
+			13543 = {
+				naval_base = 2 #Penang
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=663623
-        state_category = undeveloped_rural_region
+	manpower=663623
+	state_category = undeveloped_rural_region
 }

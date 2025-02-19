@@ -5,14 +5,31 @@ state={
 	provinces={
 		1324 4639 7319 7376 7404 7432 10289 10317 12191 12475 
 	}
+	resources = {
+		rubber = 13
+	}
 	history = {
 		owner = FIC 
-		add_core_of = FIC 
+		add_claim_by = FIC 
 		add_core_of = CAM
+		add_to_array = { state_victory_points = 7376 }
+		add_to_array = { state_victory_points = 4639 }
 
+		victory_points = { 7376 4 } #Phnom Penh/Phanom Pen
+		victory_points = { 4639 1 } #Kampong Cham
+		victory_points = { 10317 1 } #Kampot/Kamphot
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			10317 = { #Kampot
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1714021
-        state_category = undeveloped_rural_region
+	manpower=1714021
+	state_category = developed_rural_region
 }

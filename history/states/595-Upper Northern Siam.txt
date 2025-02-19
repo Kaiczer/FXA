@@ -2,11 +2,23 @@
 state={
 	id=595
 	name="STATE_595"
-
+	resources = {
+		tungsten = 13
+		steel = 5
+	}
 	history={
 		owner = SIA
 		add_core_of = SIA
+		add_to_array = { state_victory_points = 1488 }
 
+		victory_points = { 1488 5 } #Chiang Mai/Xinme/Xiangmai
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +26,6 @@ state={
 	}
 	manpower=2068804
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

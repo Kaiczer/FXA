@@ -5,10 +5,19 @@ state={
 	provinces={
 		1082 1197 1934 4087 4318 4425 4588 4996 8063 10920 
 	}
+	resources = {
+		steel = 4
+	}
 	history = {
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = BRM 
+		add_core_of = KCH
+		add_to_array = { state_victory_points = 1934 }
+		victory_points = { 1934 2 } #Myitkina
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=1244600
 	buildings_max_level_factor=1.000

@@ -5,13 +5,25 @@ state={
 	provinces={
 		1492 1650 3999 4019 4059 4202 4454 4541 4585 4626 7034 7163 7190 7469 7534 10033 10386 10486 11966 12335 12404 12449 12464 12492 
 	}
+	resources = {
+		oil = 3
+	}
 	history = {
 		owner = ENG
 		add_claim_by = ENG
-		add_core_of = BRM 
+		add_core_of = BRM
+		add_to_array = { state_victory_points = 1492 }
+
+		victory_points = { 1492 5 } # Mandalay
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			industrial_complex = 1
+		}	 
 	}
 	manpower=1730000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developed_rural_region
 	local_supplies=0.000
 }

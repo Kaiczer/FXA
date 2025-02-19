@@ -6,7 +6,13 @@ state={
 	history={
 		owner = SIA
 		add_core_of = SIA
+		add_to_array = { state_victory_points = 1488 }
 
+		victory_points = { 10411 2 } #Nakhon Sawan/Nachwanswan/Nakhonsavan
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

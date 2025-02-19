@@ -4,13 +4,31 @@ state={
 	provinces={
 		1073 1157 1185 4075 4119 7015 7093 7518 9948 12008 12048 12065 
 	}
+	resources = {
+		tungsten = 32
+	}
 	history = {
 		owner = FIC 
 		add_core_of = FIC 
 		add_core_of = VIN
+		add_to_array = { state_victory_points = 9948 }
+		add_to_array = { state_victory_points = 4075 }
+
+		victory_points = { 4075 15 } # Hanoi (+Haiphong)
+		victory_points = { 9948 1 } # Lang Son
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+			4119 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=7151600
-        state_category = undeveloped_rural_region
+	manpower=7151600
+	state_category = urbanised_region
 }

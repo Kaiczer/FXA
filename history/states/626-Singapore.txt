@@ -8,9 +8,22 @@ state={
 		owner = ENG 
 		add_core_of = MAL 
 		add_claim_by = ENG 
+		add_to_array = { state_victory_points = 12299 }
+
+		victory_points = { 12299 25 } # Singapore
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 2
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1160000
-        state_category = undeveloped_rural_region
+	manpower=1160000
+	state_category = megalopolis
 }
