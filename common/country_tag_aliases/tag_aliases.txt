@@ -23,7 +23,10 @@ NXJ = { #Nan Xinjiang / South Xinjiang
 	original_tag = SIK
 	has_country_flag = SIK_hushan_army
 }
-
+GND = { #Chen Jitang
+	original_tag = GXC
+	has_country_flag = GXC_is_guangdong
+}
 ### South Africa
 ZAR = {
 	original_tag = SAF

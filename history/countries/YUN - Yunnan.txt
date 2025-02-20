@@ -1,5 +1,5 @@
 capital = 558 
-set_cosmetic_tag = YUN_CHI
+set_cosmetic_tag = YUN_KMT
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
@@ -41,9 +41,4 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
-}
-set_party_name = {
-	ideology = paternal_autocrat
-	name = YUN_paternal_autocrat_party_kmt
-	long_name = YUN_paternal_autocrat_party_kmt_long
 }
