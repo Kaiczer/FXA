@@ -10,9 +10,17 @@ state={
 		add_core_of = SCH 
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 11865 } #Daxian
+
+		victory_points = { 11865 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=7958000
-        state_category = undeveloped_rural_region
+	manpower=7958000
+	state_category = developing_rural_region
 }

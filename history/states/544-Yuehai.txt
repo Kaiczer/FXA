@@ -5,13 +5,33 @@ state={
 	provinces={
 		1047 1187 1202 4092 7108 7152 11938 11941 12095 
 	}
+	resources = {
+		steel = 5
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 11941 } #Qingyuan
+		add_to_array = { state_victory_points = 1187 } #Taishan
+		add_to_array = { state_victory_points = 1047 } #Guangzhou
+
+		victory_points = { 1047 40 } #POP 2 + STRAT 2 + POL 3 + BAL 3 = SIG 10
+		victory_points = { 11941 15 } #POP 4 + STRAT 1 + POL 0 = SIG 5
+		victory_points = { 1187 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 3
+			1047 = {
+				naval_base = 5
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=12615400
-        state_category = undeveloped_rural_region
+	manpower=12615400
+	state_category = megalopolis
 }

@@ -10,7 +10,13 @@ state={
 		add_core_of = SHX
 		add_claim_by = MEN
 		add_claim_by = CHI
-		add_claim_by = FNG
+		add_to_array = { state_victory_points = 12432 } #Datong
+
+		victory_points = { 12432 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	manpower=580050
 	buildings_max_level_factor=1.000

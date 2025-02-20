@@ -8,9 +8,23 @@ state={
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 11947 } #Lishui
+		add_to_array = { state_victory_points = 4013 } #Wenzhou
+
+		victory_points = { 4013 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 11947 3 } #POP 2 + STRAT 0 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+			4013 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2247089
-        state_category = undeveloped_rural_region
+	local_supplies=3.000
+	manpower=2247089
+	state_category = undeveloped_rural_region
 }

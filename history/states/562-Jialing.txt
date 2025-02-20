@@ -1,21 +1,30 @@
-
 state={
 	id=562
 	name="STATE_562"
-
-	history={
+	provinces={
+		1257 1367 1395 2045 4375 4925 5011 7240 8026 9966 10132 10841 12141 12705 12767 13067 
+	}
+	history = {
 		owner = SCH
-		add_core_of = SCH
+		add_core_of = SCH 
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 5011 } #Barkam
+		add_to_array = { state_victory_points = 4925 } #Chengdu
+		add_to_array = { state_victory_points = 10841 } #Ya'an
 
-	}
+		victory_points = { 4925 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
+		victory_points = { 10841 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 5011 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 
-	provinces={
-		1257 1367 1395 2045 4375 4925 5011 7240 8026 9966 10132 10841 12141 12705 12767 12819 13067 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+		}
 	}
 	manpower=21082400
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=urbanising_region
+	local_supplies=1.000
 }

@@ -8,7 +8,13 @@ state={
 		add_core_of = MON
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 1834 }
 
+		victory_points = { 1834 3 } #Moron
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -16,6 +22,5 @@ state={
 	}
 	manpower=18455 #2.5% of total population in 1935
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
 }

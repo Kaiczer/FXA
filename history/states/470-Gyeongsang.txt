@@ -9,9 +9,24 @@ state={
 		owner = JAP
 		add_core_of = KOR 
 		add_claim_by = JAP 
+		add_to_array = { state_victory_points = 4056 }
+		
+		victory_points = { 4056 5 } #Busan
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			4056 = {
+				naval_base = 3
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 90
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4668681
-        state_category = undeveloped_rural_region
+	manpower=4668681
+	state_category = developing_rural_region
 }

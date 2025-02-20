@@ -5,14 +5,28 @@ state={
 	provinces={
 		1725 4729 4732 4801 7881 10704 12686 
 	}
+	resources = {
+		steel = 2
+		chromium = 3
+	}
 	history = {
 		owner = MON
 		add_core_of = MON
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 4801 }
+
+		victory_points = { 4801 10 }#Urga
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	local_supplies=10.000
 	manpower=590560 #80% of total population in 1935
-	state_category = undeveloped_rural_region
+	state_category = developing_rural_region
 }

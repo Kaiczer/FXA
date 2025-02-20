@@ -9,6 +9,9 @@ state={
 		add_claim_by = CHI
 		add_claim_by = FNG
 
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -16,6 +19,6 @@ state={
 	}
 	manpower=13288 #1.8% of total population in 1935
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

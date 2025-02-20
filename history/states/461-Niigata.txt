@@ -4,12 +4,25 @@ state={
 	provinces={
 		1117 9952 11930 12007 
 	}
+	resources = {
+		tungsten = 9
+		oil = 3
+	}
 	history = {
 		owner = JAP
 		add_core_of = JAP
+		add_to_array = { state_victory_points = 1117 }
+
+		victory_points = { 1117 10 }
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1995777
-        state_category = undeveloped_rural_region
+	manpower=1995777
+	state_category = urbanising_region
 }

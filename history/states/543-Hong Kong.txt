@@ -9,9 +9,21 @@ state={
 		add_claim_by = CHI
 		add_claim_by = FNG 
 		add_claim_by = ENG
+		add_to_array = { state_victory_points = 10062 } #Hong Kong
+
+		victory_points = { 10062 15 } #POP 2 + STRAT 2 + POL 1 = SIG 5
+
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			10062 = {
+				naval_base = 6
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	manpower=853155
-	state_category = urbanised_region
+	state_category = major_port
 }

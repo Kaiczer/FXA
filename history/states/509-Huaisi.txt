@@ -9,9 +9,17 @@ state={
 		add_core_of = ZHI
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 1001 } #Bengbu
+
+		victory_points = { 1001 15 } #POP 4 + STRAT 1 + POL 0 = SIG 5
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=7239740
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=7239740
+	state_category = developing_rural_region
 }

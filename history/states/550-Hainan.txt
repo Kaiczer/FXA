@@ -4,13 +4,30 @@ state={
 	provinces={
 		994 1038 1070 11963 11990 
 	}
+	resources = {
+		tungsten = 6
+		steel = 5
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 1070 } #Haikou
+		add_to_array = { state_victory_points = 994 } #Yaxian
+
+		victory_points = { 1070 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+		victory_points = { 994 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1070 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2605535
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=2605535
+	state_category = developed_rural_region
 }

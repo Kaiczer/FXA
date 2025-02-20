@@ -5,13 +5,25 @@ state={
 	provinces={
 		4896 7101 7201 7279 7434 10006 
 	}
+	resources = {
+		tungsten = 12
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7101 } #Changde
+
+		victory_points = { 7101 20 } #POP 4 + STRAT 2 + POL 0 = SIG 6
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=8488200
-        state_category = undeveloped_rural_region
+	manpower=8488200
+	state_category = developed_rural_region
 }

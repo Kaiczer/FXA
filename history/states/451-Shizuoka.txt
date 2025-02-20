@@ -7,9 +7,21 @@ state={
 	history = {
 		owner = JAP
 		add_core_of = JAP
+		add_to_array = { state_victory_points = 7087 }
+		add_to_array = { state_victory_points = 10125 }
+
+		victory_points = { 10125 25 } #Nagoya
+		victory_points = { 7087 3 }
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 4
+			fuel_silo = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=4802561
-        state_category = undeveloped_rural_region
+	manpower=4802561
+	state_category = emerging_industrial_region
 }

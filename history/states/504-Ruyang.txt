@@ -8,6 +8,17 @@ state={
 		add_core_of = SHX
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 4606 } #Jincheng
+		add_to_array = { state_victory_points = 11931 } #Luoyang
+
+		victory_points = { 11931 20 } #POP 4 + STRAT 1 + POL 1 = SIG 6
+		victory_points = { 4606 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
 	}
 
 	provinces={
@@ -15,6 +26,6 @@ state={
 	}
 	manpower=8956000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

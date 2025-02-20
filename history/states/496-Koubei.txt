@@ -10,9 +10,16 @@ state={
 		add_core_of = FNG
 		add_core_of = MEN
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 10397 } #Zhangyuan
+
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 10397 1 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=971180
-        state_category = undeveloped_rural_region
+	manpower=971180
+	state_category = peripheral_region
 }

@@ -5,13 +5,23 @@ state={
 	provinces={
 		1087 1131 4160 7039 7135 9963 12077 
 	}
+	resources = {
+		tungsten = 30
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7039 }
+
+		victory_points = { 7039 2 } #Maoming
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3512030
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=3512030
+	state_category = developing_rural_region
 }

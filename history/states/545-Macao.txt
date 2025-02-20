@@ -4,14 +4,27 @@ state={
 	provinces={
 		4189 
 	}
+	resources = {
+		tungsten = 6
+	}
 	history = {
 		owner = POR
 		add_claim_by = CHI
 		add_claim_by = FNG 
 		add_claim_by = POR
+		add_to_array = { state_victory_points = 4189 } #Macau
+
+		victory_points = { 4189 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+			4189 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	manpower=164390
-	state_category = urbanised_region
+	state_category = port
 }

@@ -5,13 +5,31 @@ state={
 	provinces={
 		900 1052 3830 3900 6969 9905 11822 11886 12043 
 	}
+	resources = {
+		steel = 7
+	}
 	history = {
 		owner = FNG
 		add_core_of = FNG 
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 12043 } #Tangshan
+		add_to_array = { state_victory_points = 3900 } #Qinhuangdao
+		add_to_array = { state_victory_points = 11886 } #Shanhaiguan
+
+		victory_points = { 3900 3 }  #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 11886 1 }  #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 12043 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			3900 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2568500
-        state_category = undeveloped_rural_region
+	manpower=2568500
+	state_category = undeveloped_rural_region
 }

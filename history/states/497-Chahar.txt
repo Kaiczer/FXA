@@ -8,7 +8,14 @@ state={
 		add_core_of = MEN
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7648 } #Xilinhot
 
+		victory_points = { 7648 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -17,5 +24,5 @@ state={
 	manpower=2036000
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=6.000
 }

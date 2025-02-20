@@ -1,21 +1,27 @@
-
 state={
 	id=561
 	name="STATE_561"
-
-	history={
-		owner = SCH
-		add_core_of = SCH
-		add_claim_by = CHI
-		add_claim_by = FNG
-
-	}
-
 	provinces={
 		4141 4431 6999 10304 10822 11972 
 	}
+	history = {
+		owner = SCH
+		add_core_of = SCH 
+		add_claim_by = CHI
+		add_claim_by = FNG
+		add_to_array = { state_victory_points = 6999 } #Chongqing
+
+		victory_points = { 6999 30 } #POP 5 + STRAT 2 + POL 1 = SIG 8
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 2
+		}
+	}
 	manpower=22663580
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=urbanising_region
 	local_supplies=0.000
 }

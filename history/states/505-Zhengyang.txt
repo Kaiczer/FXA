@@ -8,6 +8,13 @@ state={
 		add_core_of = ZHI
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 10446 } #Xinyang
+
+		victory_points = { 10446 15 } #POP 4 + STRAT 1 + POL 0 = SIG 5
+
+		buildings = {
+			infrastructure = 3
+		}
 	}
 
 	provinces={
@@ -15,6 +22,6 @@ state={
 	}
 	manpower=6638000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
+	local_supplies=1.000
 }

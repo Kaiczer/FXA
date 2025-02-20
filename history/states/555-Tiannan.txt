@@ -8,9 +8,16 @@ state={
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 10459 } #Baise
+
+		victory_points = { 10459 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=960500
-        state_category = undeveloped_rural_region
+	manpower=960500
+	state_category = developing_rural_region
 }

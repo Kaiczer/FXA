@@ -7,9 +7,30 @@ state={
 	history = {
 		owner = JAP
 		add_core_of = JAP
+		add_to_array = { state_victory_points = 1092 }
+		add_to_array = { state_victory_points = 7212 }
+
+		victory_points = { 1092 20 } #Hiroshima
+		victory_points = { 7212 10 } #Okayama
+
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 1
+			fuel_silo = 1
+			1092 = {
+				naval_base = 10
+				naval_facility = 1 #Kure Naval Arsenal
+			}
+			9968 = {
+				dam = 1 #Taishakugawa Dam
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3137563
-        state_category = undeveloped_rural_region
+	manpower=3137563
+	state_category = emerging_industrial_region
 }

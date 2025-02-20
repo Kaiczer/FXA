@@ -8,6 +8,13 @@ state={
 		add_core_of = SIK
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 10674 } #Wujiaqu
+
+		victory_points = { 10674 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -15,6 +22,6 @@ state={
 	}
 	manpower=623955
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

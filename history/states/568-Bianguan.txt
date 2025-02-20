@@ -1,17 +1,22 @@
-
 state={
 	id=568
 	name="STATE_568"
-
+	provinces={
+		1778 2028 5076 5100 7971 8102 12327 12596 12776 12820 
+	}
 	history={
 		owner = XSM
 		add_core_of = XSM
 		add_claim_by = CHI
 		add_claim_by = FNG
-	}
+		add_to_array = { state_victory_points = 2028 } #Zhangye
+		
+		victory_points = { 2028 3 } #POP 2 + STRAT 0 + POL 0 = SIG 2
 
-	provinces={
-		1778 2028 5076 5100 7971 8102 12327 12596 12776 12820 
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	manpower=1477520
 	buildings_max_level_factor=1.000

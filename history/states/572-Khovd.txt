@@ -8,7 +8,10 @@ state={
 		add_core_of = MON
 		add_claim_by = CHI
 		add_claim_by = FNG
-
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -16,6 +19,6 @@ state={
 	}
 	manpower=32407
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=wasteland
 	local_supplies=0.000
 }

@@ -8,7 +8,13 @@ state={
 		add_core_of = XSM
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 8127 } 
 
+		victory_points = { 8127 1 } #Bayanhot
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -16,6 +22,6 @@ state={
 	}
 	manpower=684600
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
+	local_supplies=2.000
 }

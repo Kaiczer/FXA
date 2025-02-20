@@ -4,14 +4,24 @@ state={
 	provinces={
 		1474 7521 7549 7577 
 	}
+	resources = {
+		tungsten = 2
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = YUN
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7577 } #Kaili
+
+		victory_points = { 7577 10 } #POP 3 + STRAT 1 + POL 0 = SIG 4
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=991900
-        state_category = undeveloped_rural_region
+	manpower=991900
+	state_category = undeveloped_rural_region
 }

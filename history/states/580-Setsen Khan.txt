@@ -8,7 +8,14 @@ state={
 		add_core_of = MON
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 10708 }
 
+		victory_points = { 10708 3 } #Bayan Tümen
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

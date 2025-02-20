@@ -5,13 +5,30 @@ state={
 	provinces={
 		4028 4152 4177 7044 7137 7192 7650 10050 11926 11983 12023 
 	}
+	resources = {
+		chromium = 3
+	}
 	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7137 } #Nanning
+		add_to_array = { state_victory_points = 7192 } #Yulin
+		add_to_array = { state_victory_points = 4152 } #Wuzhou
+
+		victory_points = { 4152 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+		victory_points = { 7137 15 } #POP 2 + STRAT 2 + POL 1 = SIG 5
+		victory_points = { 7192 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=4253500
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=4253500
+	state_category = developed_rural_region
 }

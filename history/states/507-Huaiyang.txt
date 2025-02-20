@@ -10,9 +10,28 @@ state={
 		add_core_of = ZHI
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 12067 } #Yancheng
+		add_to_array = { state_victory_points = 4091 } #Rugao
+		add_to_array = { state_victory_points = 13707 } #Nantong
+
+		victory_points = { 13707 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 12067 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+		victory_points = { 4091 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			13707 = {
+				naval_base = 3
+			}
+			4091 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=14657520
-        state_category = undeveloped_rural_region
+	manpower=14657520
+	state_category = developing_rural_region
 }

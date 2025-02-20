@@ -8,9 +8,17 @@ state={
 		owner = JAP
 		add_core_of = KOR 
 		add_claim_by = JAP 
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 90
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2390018
-        state_category = undeveloped_rural_region
+	manpower=2390018
+	state_category = peripheral_region
 }

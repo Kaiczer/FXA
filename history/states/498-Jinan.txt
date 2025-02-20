@@ -5,15 +5,30 @@ state={
 	provinces={
 		1069 1084 4089 7160 7189 10102 12093 
 	}
+	resources = {
+		steel = 3
+	}
 	history = {
 		owner = ZHI
 		add_core_of = ZHI
 		add_core_of = SDL
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 7189 } #Dezhou
+		add_to_array = { state_victory_points = 1069 } #Jinan
+
+		victory_points = { 1069 20 } #POP 3 + STRAT 2 + POL 2 = SIG 7
+		victory_points = { 7189 5 } #POP 2 + STRAT 1 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=12573000
-        state_category = undeveloped_rural_region
+	local_supplies=2.000
+	manpower=12573000
+	state_category = developing_rural_region
 }

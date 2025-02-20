@@ -8,6 +8,19 @@ state={
 		owner = JAP 
 		add_core_of = SDL
 		add_claim_by = JAP
+		add_to_array = { state_victory_points = 13669 } # Tsingtau
+
+		victory_points = { 13669 15 } #POP 1 + STRAT 1 + POL 2 + BAL 1 = SIG 5
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13669 = {
+				naval_base = 5
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

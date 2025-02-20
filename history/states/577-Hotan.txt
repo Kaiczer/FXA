@@ -9,9 +9,17 @@ state={
 		add_core_of = SIK
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 13390 } #Qiemo
+
+		victory_points = { 13390 5 } #POP 1 + STRAT 2 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1023955
-        state_category = undeveloped_rural_region
+	local_supplies=4.000
+	manpower=1023955
+	state_category = peripheral_region
 }

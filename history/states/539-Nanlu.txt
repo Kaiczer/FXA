@@ -2,11 +2,30 @@
 state={
 	id=539
 	name="STATE_539"
-
+	resources = {
+		tungsten = 6
+	}
 	history = {
 		owner = CHI
 		add_core_of= CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 1006 } #Longyan
+		add_to_array = { state_victory_points = 7071 } #Xiamen
+		add_to_array = { state_victory_points = 7027 } #Minhou
+
+		victory_points = { 7027 10 }  #POP 3 + STRAT 1 + POL 0 = SIG 4
+		victory_points = { 7071 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 1006 5 } #POP 2 + STRAT 0 + POL 1 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +33,6 @@ state={
 	}
 	manpower=6263245
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developing_rural_region
+	local_supplies=3.000
 }

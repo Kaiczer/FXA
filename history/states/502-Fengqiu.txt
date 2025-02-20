@@ -5,14 +5,24 @@ state={
 	provinces={
 		1139 1169 4114 4144 
 	}
+	resources = {
+		steel = 7
+	}
 	history = {
 		owner = ZHI
 		add_core_of = ZHI
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 4144 } #Hebi
+
+		victory_points = { 4144 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3526000
-        state_category = undeveloped_rural_region
+	manpower=3526000
+	state_category = undeveloped_rural_region
 }

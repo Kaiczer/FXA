@@ -9,6 +9,18 @@ state={
 		owner = JAP
 		add_core_of = KOR 
 		add_claim_by = JAP 
+		add_to_array = { state_victory_points = 7125 }
+		
+		victory_points = { 7125 10 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 90
 	}
 	manpower=4031546
 	buildings_max_level_factor=1.000

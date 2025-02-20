@@ -5,10 +5,23 @@ state={
 	provinces={
 		814 934 972 1508 3814 3828 3881 3934 3978 4514 6837 6852 6898 6937 6988 7575 7633 9873 10331 10426 10429 10499 11801 11855 12469 12478 
 	}
+	resources = {
+		steel = 7
+	}
 	history = {
 		owner = FNG
 		add_core_of = FNG 
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 934 } #Chaoyang
+		add_to_array = { state_victory_points = 9873 } #Chengde
+		
+		victory_points = { 934 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+		victory_points = { 9873 10 } #POP 1 + STRAT 1 + POL 2 = SIG 4
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

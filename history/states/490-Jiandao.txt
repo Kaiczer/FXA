@@ -8,9 +8,13 @@ state={
 		owner = FNG
 		add_core_of = FNG 
 		add_claim_by = CHI
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=25100
-        state_category = undeveloped_rural_region
+	manpower=25100
+	state_category = peripheral_region
 }

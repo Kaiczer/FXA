@@ -5,12 +5,26 @@ state={
 	provinces={
 		1020 1183 4102 7178 11925 11949 12006 12032 
 	}
+	resources = {
+		chromium = 65
+	}
 	history = {
 		owner = JAP
 		add_core_of = JAP
+
+		add_to_array = { state_victory_points = 4102 }
+		add_to_array = { state_victory_points = 11925 }
+
+		victory_points = { 4102 5 } #Kagoshima
+		victory_points = { 11925 10 } #Kumamoto
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3802951
-        state_category = undeveloped_rural_region
+	local_supplies=10.000
+	manpower=3802951
+	state_category = urbanising_region
 }

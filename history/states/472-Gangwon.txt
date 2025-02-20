@@ -8,9 +8,20 @@ state={
 		owner = JAP
 		add_core_of = KOR 
 		add_claim_by = JAP 
+		add_to_array = { state_victory_points = 848 }
+
+		victory_points = { 848 2 }
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 90
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1529071 
-        state_category = undeveloped_rural_region
+	manpower=1529071 
+	state_category = undeveloped_rural_region
 }

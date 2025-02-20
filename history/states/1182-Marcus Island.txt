@@ -7,9 +7,17 @@ state={
 	history = {
 		owner = JAP 
 		add_core_of = JAP  
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13026 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=42
-        state_category = undeveloped_rural_region
+	manpower=42
+	state_category = zero_island
 }

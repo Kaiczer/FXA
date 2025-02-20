@@ -9,9 +9,17 @@ state={
 		owner = FNG
 		add_core_of = FNG 
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 6981 } #Andong
+
+		victory_points = { 6981 10 } #POP 2 + STRAT 2 + POL 0 = SIG 4
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=982637
-        state_category = undeveloped_rural_region
+	manpower=982637
+	state_category = undeveloped_rural_region
 }

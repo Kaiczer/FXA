@@ -1,21 +1,28 @@
-
 state={
 	id=566
 	name="STATE_566"
-
+	provinces={
+		517 531 556 1630 1647 1933 1985 2022 3745 4939 5025 5057 5193 6638 7397 7511 7911 8037 12797 12882 
+	}
 	history={
 		owner = XSM
 		add_core_of = XSM
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 1630 } #Lanzhou
+		add_to_array = { state_victory_points = 556 } #Tianshui
 
-	}
+		victory_points = { 1630 20 } #POP 2 + STRAT 2 + POL 2 = SIG 6
+		victory_points = { 556 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
 
-	provinces={
-		517 531 556 1630 1647 1933 1985 2022 3745 4939 5025 5057 6638 7511 7911 8037 12732 12797 12882 
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	manpower=4902680
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

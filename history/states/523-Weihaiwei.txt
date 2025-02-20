@@ -8,9 +8,20 @@ state={
 		owner = ENG 
 		add_core_of = SDL  
 		add_claim_by = ENG 
+		add_to_array = { state_victory_points = 13670 } # Weihaiwei
+
+		victory_points = { 13670 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 2
+			13670 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	manpower=222000
-	state_category = urbanised_region
+	state_category = minor_port
 }

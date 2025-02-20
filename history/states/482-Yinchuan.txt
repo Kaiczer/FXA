@@ -8,7 +8,14 @@ state={
 		add_core_of = XSM
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 10724 } #Yinchuan
 
+		victory_points = { 10724 10 } #POP 2 + STRAT 1 + POL 1 = SIG 4
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -17,5 +24,5 @@ state={
 	manpower=293400
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=4.000
 }

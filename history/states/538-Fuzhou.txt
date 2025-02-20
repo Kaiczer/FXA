@@ -8,9 +8,22 @@ state={
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 4196 } #Fuzhou
+		
+		victory_points = { 4196 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=350455
-        state_category = undeveloped_rural_region
+	manpower=350455
+	state_category = port
 }

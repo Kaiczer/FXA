@@ -8,7 +8,18 @@ state={
 		add_core_of = MON
 		add_claim_by = CHI
 		add_claim_by = FNG
+		add_to_array = { state_victory_points = 7799 }
+		add_to_array = { state_victory_points = 12520 }
+		add_to_array = { state_victory_points = 12695 }
 
+		victory_points = { 7799 2 } #Uliastai
+		victory_points = { 12520 1 } #Khovd
+		victory_points = { 12695 1 } #Ulaangom
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -16,6 +27,6 @@ state={
 	}
 	manpower=36910 #5% of total population in 1935
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
+	local_supplies=8.000
 }

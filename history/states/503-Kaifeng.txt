@@ -8,6 +8,16 @@ state={
 		add_core_of = ZHI
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 7656 } #Kaifeng
+		add_to_array = { state_victory_points = 9958 } #Zhengzhou
+
+		victory_points = { 7656 5 } #POP 1 + STRAT 1 + POL 1 = SIG 3
+		victory_points = { 9958 20 } #POP 4 + STRAT 2 + POL 1 = SIG 7
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -15,6 +25,6 @@ state={
 	}
 	manpower=15170000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=developed_rural_region
+	local_supplies=1.000
 }

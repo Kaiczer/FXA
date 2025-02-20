@@ -8,6 +8,13 @@ state={
 		add_core_of = SHX
 		add_claim_by = FNG
 		add_claim_by = CHI
+		add_to_array = { state_victory_points = 12078 } #Yangquan
+
+		victory_points = { 12078 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={

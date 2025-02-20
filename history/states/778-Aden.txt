@@ -8,7 +8,9 @@ state={
 		add_claim_by = RAJ
 		add_core_of = YEM
 		add_to_array = { state_victory_points = 5074 }
+		add_to_array = { state_victory_points = 8000 }
 
+		victory_points = { 8000 1 } #Hadibu
 		victory_points = { 5074 3 } #Aden
 
 		buildings = {
@@ -19,6 +21,9 @@ state={
 			}
 			5074 = {
 				naval_base = 3
+			}
+			8000 = {
+				naval_base = 1
 			}
 		}
 	}
