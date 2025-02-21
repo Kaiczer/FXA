@@ -300,7 +300,7 @@ on_actions = {
 
 			#Set Up North American tags array
 			add_to_array = { global.north_american_tags_array = CAN }
-			add_to_array = { global.north_american_tags_array = CLB }
+			add_to_array = { global.north_american_tags_array = ALS }
 			add_to_array = { global.north_american_tags_array = CLF }
 			add_to_array = { global.north_american_tags_array = NAR }
 			add_to_array = { global.north_american_tags_array = NEE }
