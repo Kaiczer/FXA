@@ -37,7 +37,7 @@ BEL = {
 	}
 }
 set_politics = {
-	ruling_party = authoritarian
+	ruling_party = paternalism
 	last_election = "1914.12.31" # set for the end of year as the end of throne of Kongo
 	election_frequency = 48
 	elections_allowed = no 

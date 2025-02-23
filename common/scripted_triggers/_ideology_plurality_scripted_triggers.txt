@@ -3,86 +3,86 @@
 # by ~mw~
 ########################################
 
-authoritarian_socialist_plurality = {
+authoritarian_socialism_plurality = {
 	check_variable = {
-		tooltip = authoritarian_socialist_plurality
-		highest_party_ideology = token:authoritarian_socialist
+		tooltip = authoritarian_socialism_plurality
+		highest_party_ideology = token:authoritarian_socialism
 	}
 }
 
-vanguard_socialist_plurality = {
+vanguard_socialism_plurality = {
 	check_variable = {
-		tooltip = vanguard_socialist_plurality
-		highest_party_ideology = token:vanguard_socialist
+		tooltip = vanguard_socialism_plurality
+		highest_party_ideology = token:vanguard_socialism
 	}
 }
 
-revolutionary_socialist_plurality = {
+revolutionary_socialism_plurality = {
 	check_variable = {
-		tooltip = revolutionary_socialist_plurality
-		highest_party_ideology = token:revolutionary_socialist
+		tooltip = revolutionary_socialism_plurality
+		highest_party_ideology = token:revolutionary_socialism
 	}
 }
 
-social_democrat_plurality = {
+social_democracy_plurality = {
 	check_variable = {
-		tooltip = social_democrat_plurality
-		highest_party_ideology = token:social_democrat
+		tooltip = social_democracy_plurality
+		highest_party_ideology = token:social_democracy
 	}
 }
 
-social_liberal_plurality = {
+social_liberalism_plurality = {
 	check_variable = {
-		tooltip = social_liberal_plurality
-		highest_party_ideology = token:social_liberal
+		tooltip = social_liberalism_plurality
+		highest_party_ideology = token:social_liberalism
 	}
 }
 
-classical_liberal_plurality = {
+classical_liberalism_plurality = {
 	check_variable = {
-		tooltip = classical_liberal_plurality
-		highest_party_ideology = token:classical_liberal
+		tooltip = classical_liberalism_plurality
+		highest_party_ideology = token:classical_liberalism
 	}
 }
 
-social_conservative_plurality = {
+social_conservatism_plurality = {
 	check_variable = {
-		tooltip = social_conservative_plurality
-		highest_party_ideology = token:social_conservative
+		tooltip = social_conservatism_plurality
+		highest_party_ideology = token:social_conservatism
 	}
 }
 
-authoritarian_plurality = {
+paternalism_plurality = {
 	check_variable = {
-		tooltip = authoritarian_plurality
-		highest_party_ideology = token:authoritarian
+		tooltip = paternalism_plurality
+		highest_party_ideology = token:paternalism
 	}
 }
 
-revolutionary_nationalist_plurality = {
+revolutionary_nationalism_plurality = {
 	check_variable = {
-		tooltip = revolutionary_nationalist_plurality
-		highest_party_ideology = token:revolutionary_nationalist
+		tooltip = revolutionary_nationalism_plurality
+		highest_party_ideology = token:revolutionary_nationalism
 	}
 }
 
-volkist_plurality = {
+volkism_plurality = {
 	check_variable = {
-		tooltip = volkist_plurality
-		highest_party_ideology = token:volkist
+		tooltip = volkism_plurality
+		highest_party_ideology = token:volkism
 	}
 }
 
-paternal_autocrat_plurality = {
+despotism_plurality = {
 	check_variable = {
-		tooltip = paternal_autocrat_plurality
-		highest_party_ideology = token:paternal_autocrat
+		tooltip = despotism_plurality
+		highest_party_ideology = token:despotism
 	}
 }
 
-reactionary_ultranationalist_plurality = {
+ultrareactionism_plurality = {
 	check_variable = {
-		tooltip = reactionary_ultranationalist_plurality
-		highest_party_ideology = token:reactionary_ultranationalist
+		tooltip = ultrareactionism_plurality
+		highest_party_ideology = token:ultrareactionism
 	}
 }

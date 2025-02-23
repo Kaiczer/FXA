@@ -292,25 +292,25 @@ on_actions = {
 							OR = {
 								AND = {
 									OR = {
-										has_government = social_conservative
-										has_government = authoritarian
+										has_government = social_conservatism
+										has_government = paternalism
 									}
 									PREV = {
 										OR = {
-											has_government = social_conservative
-											has_government = authoritarian
+											has_government = social_conservatism
+											has_government = paternalism
 										}
 									}
 								}
 								AND = {
 									OR = {
-										has_government = social_democrat
-										has_government = social_liberal
+										has_government = social_democracy
+										has_government = social_liberalism
 									}
 									PREV = {
 										OR = {
-											has_government = social_democrat
-											has_government = social_liberal
+											has_government = social_democracy
+											has_government = social_liberalism
 										}
 									}
 								}
@@ -325,30 +325,30 @@ on_actions = {
 						limit = {
 							OR = {
 								AND = {
-									has_government = social_democrat
+									has_government = social_democracy
 									PREV = {
 										OR = {
-											has_government = classical_liberal
-											has_government = social_conservative
-											has_government = authoritarian
+											has_government = classical_liberalism
+											has_government = social_conservatism
+											has_government = paternalism
 										}
 									}
 								}
 								AND = {
 									OR = {
-										has_government = classical_liberal
-										has_government = social_conservative
-										has_government = authoritarian
+										has_government = classical_liberalism
+										has_government = social_conservatism
+										has_government = paternalism
 									}
-									PREV = { has_government = social_democrat }
+									PREV = { has_government = social_democracy }
 								}
 								AND = {
-									has_government = authoritarian_socialist
-									PREV = { has_government = revolutionary_socialist }
+									has_government = authoritarian_socialism
+									PREV = { has_government = revolutionary_socialism }
 								}
 								AND = {
-									has_government = revolutionary_socialist
-									PREV = { has_government = authoritarian_socialist }
+									has_government = revolutionary_socialism
+									PREV = { has_government = authoritarian_socialism }
 								}
 							}
 						}
@@ -374,17 +374,17 @@ on_actions = {
 								}
 								AND = {
 									OR = {
-										has_government = authoritarian
-										has_government = paternal_autocrat
-										has_government = revolutionary_nationalist
-										has_government = volkist
+										has_government = paternalism
+										has_government = despotism
+										has_government = revolutionary_nationalism
+										has_government = volkism
 									}
 									PREV = {
 										OR = {
-											has_government = authoritarian
-											has_government = paternal_autocrat
-											has_government = revolutionary_nationalist
-											has_government = volkist
+											has_government = paternalism
+											has_government = despotism
+											has_government = revolutionary_nationalism
+											has_government = volkism
 										}
 									}
 								}
@@ -399,40 +399,40 @@ on_actions = {
 						limit = {
 							OR = {
 								AND = {
-									has_government = social_democrat
-									PREV = { has_government = revolutionary_socialist }
+									has_government = social_democracy
+									PREV = { has_government = revolutionary_socialism }
 								}
 								AND = {
-									has_government = revolutionary_socialist
-									PREV = { has_government = social_democrat }
+									has_government = revolutionary_socialism
+									PREV = { has_government = social_democracy }
 								}
 								AND = {
-									has_government = paternal_autocrat
-									PREV = { has_government = social_conservative }
+									has_government = despotism
+									PREV = { has_government = social_conservatism }
 								}
 								AND = {
-									has_government = social_conservative
-									PREV = { has_government = paternal_autocrat }
+									has_government = social_conservatism
+									PREV = { has_government = despotism }
 								}
 								AND = {
-									has_government = reactionary_ultranationalist
+									has_government = ultrareactionism
 									PREV = {
 										OR = {
-											has_government = social_conservative
-											has_government = authoritarian
-											has_government = revolutionary_nationalist
-											has_government = volkist
+											has_government = social_conservatism
+											has_government = paternalism
+											has_government = revolutionary_nationalism
+											has_government = volkism
 										}
 									}
 								}
 								AND = {
 									OR = {
-										has_government = social_conservative
-										has_government = authoritarian
-										has_government = revolutionary_nationalist
-										has_government = volkist
+										has_government = social_conservatism
+										has_government = paternalism
+										has_government = revolutionary_nationalism
+										has_government = volkism
 									}
-									PREV = { has_government = reactionary_ultranationalist }
+									PREV = { has_government = ultrareactionism }
 								}
 							}
 						}
@@ -875,25 +875,25 @@ on_actions = {
 						OR = {
 							AND = {
 								OR = {
-									has_government = social_conservative
-									has_government = authoritarian
+									has_government = social_conservatism
+									has_government = paternalism
 								}
 								ROOT = {
 									OR = {
-										has_government = social_conservative
-										has_government = authoritarian
+										has_government = social_conservatism
+										has_government = paternalism
 									}
 								}
 							}
 							AND = {
 								OR = {
-									has_government = social_democrat
-									has_government = social_liberal
+									has_government = social_democracy
+									has_government = social_liberalism
 								}
 								ROOT = {
 									OR = {
-										has_government = social_democrat
-										has_government = social_liberal
+										has_government = social_democracy
+										has_government = social_liberalism
 									}
 								}
 							}
@@ -912,30 +912,30 @@ on_actions = {
 					limit = {
 						OR = {
 							AND = {
-								has_government = social_democrat
+								has_government = social_democracy
 								ROOT = {
 									OR = {
-										has_government = classical_liberal
-										has_government = social_conservative
-										has_government = authoritarian
+										has_government = classical_liberalism
+										has_government = social_conservatism
+										has_government = paternalism
 									}
 								}
 							}
 							AND = {
 								OR = {
-									has_government = classical_liberal
-									has_government = social_conservative
-									has_government = authoritarian
+									has_government = classical_liberalism
+									has_government = social_conservatism
+									has_government = paternalism
 								}
-								ROOT = { has_government = social_democrat }
+								ROOT = { has_government = social_democracy }
 							}
 							AND = {
-								has_government = authoritarian_socialist
-								ROOT = { has_government = revolutionary_socialist }
+								has_government = authoritarian_socialism
+								ROOT = { has_government = revolutionary_socialism }
 							}
 							AND = {
-								has_government = revolutionary_socialist
-								ROOT = { has_government = authoritarian_socialist }
+								has_government = revolutionary_socialism
+								ROOT = { has_government = authoritarian_socialism }
 							}
 						}
 					}
@@ -965,13 +965,13 @@ on_actions = {
 							}
 							AND = {
 								OR = {
-									has_government = authoritarian
-									has_government = paternal_autocrat
+									has_government = paternalism
+									has_government = despotism
 								}
 								ROOT = {
 									OR = {
-										has_government = authoritarian
-										has_government = paternal_autocrat
+										has_government = paternalism
+										has_government = despotism
 									}
 								}
 							}
@@ -990,36 +990,36 @@ on_actions = {
 					limit = {
 						OR = {
 							AND = {
-								has_government = social_democrat
-								ROOT = { has_government = revolutionary_socialist }
+								has_government = social_democracy
+								ROOT = { has_government = revolutionary_socialism }
 							}
 							AND = {
-								has_government = revolutionary_socialist
-								ROOT = { has_government = social_democrat }
+								has_government = revolutionary_socialism
+								ROOT = { has_government = social_democracy }
 							}
 							AND = {
-								has_government = paternal_autocrat
-								ROOT = { has_government = social_conservative }
+								has_government = despotism
+								ROOT = { has_government = social_conservatism }
 							}
 							AND = {
-								has_government = social_conservative
-								ROOT = { has_government = paternal_autocrat }
+								has_government = social_conservatism
+								ROOT = { has_government = despotism }
 							}
 							AND = {
-								has_government = reactionary_ultranationalist
+								has_government = ultrareactionism
 								ROOT = {
 									OR = {
-										has_government = social_conservative
-										has_government = authoritarian
+										has_government = social_conservatism
+										has_government = paternalism
 									}
 								}
 							}
 							AND = {
 								OR = {
-									has_government = social_conservative
-									has_government = authoritarian
+									has_government = social_conservatism
+									has_government = paternalism
 								}
-								ROOT = { has_government = reactionary_ultranationalist }
+								ROOT = { has_government = ultrareactionism }
 							}
 						}
 					}
@@ -1454,82 +1454,82 @@ on_actions = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] liberating FROM = [From.GetName]"
 			if = {
-				limit = { FROM = { has_government = authoritarian_socialist } }
-				set_temp_variable = { liberated_government = token:authoritarian_socialist }
+				limit = { FROM = { has_government = authoritarian_socialism } }
+				set_temp_variable = { liberated_government = token:authoritarian_socialism }
 			}
 			else_if = {
-				limit = { FROM = { has_government = vanguard_socialist } }
+				limit = { FROM = { has_government = vanguard_socialism } }
 				random_list = {
-					2 = { set_temp_variable = { liberated_government = token:vanguard_socialist } }
-					1 = { set_temp_variable = { liberated_government = token:revolutionary_socialist } }
+					2 = { set_temp_variable = { liberated_government = token:vanguard_socialism } }
+					1 = { set_temp_variable = { liberated_government = token:revolutionary_socialism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = revolutionary_socialist } }
+				limit = { FROM = { has_government = revolutionary_socialism } }
 				random_list = {
-					1 = { set_temp_variable = { liberated_government = token:vanguard_socialist } }
-					2 = { set_temp_variable = { liberated_government = token:revolutionary_socialist } }
+					1 = { set_temp_variable = { liberated_government = token:vanguard_socialism } }
+					2 = { set_temp_variable = { liberated_government = token:revolutionary_socialism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = social_democrat } }
+				limit = { FROM = { has_government = social_democracy } }
 				random_list = {
-					3 = { set_temp_variable = { liberated_government = token:social_democrat } }
-					2 = { set_temp_variable = { liberated_government = token:social_liberal } }
-					1 = { set_temp_variable = { liberated_government = token:classical_liberal } }
-					1 = { set_temp_variable = { liberated_government = token:social_conservative } }
+					3 = { set_temp_variable = { liberated_government = token:social_democracy } }
+					2 = { set_temp_variable = { liberated_government = token:social_liberalism } }
+					1 = { set_temp_variable = { liberated_government = token:classical_liberalism } }
+					1 = { set_temp_variable = { liberated_government = token:social_conservatism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = social_liberal } }
+				limit = { FROM = { has_government = social_liberalism } }
 				random_list = {
-					2 = { set_temp_variable = { liberated_government = token:social_democrat } }
-					3 = { set_temp_variable = { liberated_government = token:social_liberal } }
-					2 = { set_temp_variable = { liberated_government = token:classical_liberal } }
-					1 = { set_temp_variable = { liberated_government = token:social_conservative } }
+					2 = { set_temp_variable = { liberated_government = token:social_democracy } }
+					3 = { set_temp_variable = { liberated_government = token:social_liberalism } }
+					2 = { set_temp_variable = { liberated_government = token:classical_liberalism } }
+					1 = { set_temp_variable = { liberated_government = token:social_conservatism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = classical_liberal } }
+				limit = { FROM = { has_government = classical_liberalism } }
 				random_list = {
-					1 = { set_temp_variable = { liberated_government = token:social_democrat } }
-					2 = { set_temp_variable = { liberated_government = token:social_liberal } }
-					3 = { set_temp_variable = { liberated_government = token:classical_liberal } }
-					2 = { set_temp_variable = { liberated_government = token:social_conservative } }
+					1 = { set_temp_variable = { liberated_government = token:social_democracy } }
+					2 = { set_temp_variable = { liberated_government = token:social_liberalism } }
+					3 = { set_temp_variable = { liberated_government = token:classical_liberalism } }
+					2 = { set_temp_variable = { liberated_government = token:social_conservatism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = social_conservative } }
+				limit = { FROM = { has_government = social_conservatism } }
 				random_list = {
-					1 = { set_temp_variable = { liberated_government = token:social_democrat } }
-					1 = { set_temp_variable = { liberated_government = token:social_liberal } }
-					2 = { set_temp_variable = { liberated_government = token:classical_liberal } }
-					3 = { set_temp_variable = { liberated_government = token:social_conservative } }
+					1 = { set_temp_variable = { liberated_government = token:social_democracy } }
+					1 = { set_temp_variable = { liberated_government = token:social_liberalism } }
+					2 = { set_temp_variable = { liberated_government = token:classical_liberalism } }
+					3 = { set_temp_variable = { liberated_government = token:social_conservatism } }
 				}
 				set_temp_variable = { liberated_elections = 1 }
 			}
 			else_if = {
-				limit = { FROM = { has_government = authoritarian } }
+				limit = { FROM = { has_government = paternalism } }
 				random_list = {
-					1 = { set_temp_variable = { liberated_government = token:social_conservative } }
-					3 = { set_temp_variable = { liberated_government = token:authoritarian } }
+					1 = { set_temp_variable = { liberated_government = token:social_conservatism } }
+					3 = { set_temp_variable = { liberated_government = token:paternalism } }
 				}
 			}
 			else_if = {
-				limit = { FROM = { has_government = paternal_autocrat } }
+				limit = { FROM = { has_government = despotism } }
 				random_list = {
-					1 = { set_temp_variable = { liberated_government = token:authoritarian } }
-					3 = { set_temp_variable = { liberated_government = token:paternal_autocrat } }
+					1 = { set_temp_variable = { liberated_government = token:paternalism } }
+					3 = { set_temp_variable = { liberated_government = token:despotism } }
 				}
 			}
 			else_if = {
-				limit = { FROM = { has_government = reactionary_ultranationalist } }
-				set_temp_variable = { liberated_government = token:reactionary_ultranationalist }
+				limit = { FROM = { has_government = ultrareactionism } }
+				set_temp_variable = { liberated_government = token:ultrareactionism }
 			}
 			if = {
 				limit = { has_variable = liberated_elections }

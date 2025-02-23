@@ -1,102 +1,102 @@
 defined_text = {
 	name = GetSubIdeologyLoc
 	text = {
-		trigger = { has_government = authoritarian_socialist }
+		trigger = { has_government = authoritarian_socialism }
 		localization_key = "[GetSubIdeologyLocAuthSoc]"
 	}
 	text = {
-		trigger = { has_government = vanguard_socialist }
+		trigger = { has_government = vanguard_socialism }
 		localization_key = "[GetSubIdeologyLocVanSoc]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_socialist }
+		trigger = { has_government = revolutionary_socialism }
 		localization_key = "[GetSubIdeologyLocRevSoc]"
 	}
 	text = {
-		trigger = { has_government = social_democrat }
+		trigger = { has_government = social_democracy }
 		localization_key = "[GetSubIdeologyLocSocDem]"
 	}
 	text = {
-		trigger = { has_government = social_liberal }
+		trigger = { has_government = social_liberalism }
 		localization_key = "[GetSubIdeologyLocSocLib]"
 	}
 	text = {
-		trigger = { has_government = classical_liberal }
+		trigger = { has_government = classical_liberalism }
 		localization_key = "[GetSubIdeologyLocClsLib]"
 	}
 	text = {
-		trigger = { has_government = social_conservative }
+		trigger = { has_government = social_conservatism }
 		localization_key = "[GetSubIdeologyLocSocCon]"
 	}
 	text = {
-		trigger = { has_government = authoritarian }
+		trigger = { has_government = paternalism }
 		localization_key = "[GetSubIdeologyLocAuthoritarian]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_nationalist }
+		trigger = { has_government = revolutionary_nationalism }
 		localization_key = "[GetSubIdeologyLocRevNat]"
 	}
 	text = {
-		trigger = { has_government = volkist }
+		trigger = { has_government = volkism }
 		localization_key = "[GetSubIdeologyLocVolkist]"
 	}
 	text = {
-		trigger = { has_government = paternal_autocrat }
+		trigger = { has_government = despotism }
 		localization_key = "[GetSubIdeologyLocPatAut]"
 	}
 	text = {
-		trigger = { has_government = reactionary_ultranationalist }
+		trigger = { has_government = ultrareactionism }
 		localization_key = "[GetSubIdeologyLocReaUlt]"
 	}
 }
 defined_text = {
 	name = GetRulingIdeologySubtypeDesc
 	text = {
-		trigger = { has_government = authoritarian_socialist }
+		trigger = { has_government = authoritarian_socialism }
 		localization_key = "[GetSubIdeologyDescAuthSoc]"
 	}
 	text = {
-		trigger = { has_government = vanguard_socialist }
+		trigger = { has_government = vanguard_socialism }
 		localization_key = "[GetSubIdeologyDescVanSoc]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_socialist }
+		trigger = { has_government = revolutionary_socialism }
 		localization_key = "[GetSubIdeologyDescRevSoc]"
 	}
 	text = {
-		trigger = { has_government = social_democrat }
+		trigger = { has_government = social_democracy }
 		localization_key = "[GetSubIdeologyDescSocDem]"
 	}
 	text = {
-		trigger = { has_government = social_liberal }
+		trigger = { has_government = social_liberalism }
 		localization_key = "[GetSubIdeologyDescSocLib]"
 	}
 	text = {
-		trigger = { has_government = classical_liberal }
+		trigger = { has_government = classical_liberalism }
 		localization_key = "[GetSubIdeologyDescClsLib]"
 	}
 	text = {
-		trigger = { has_government = social_conservative }
+		trigger = { has_government = social_conservatism }
 		localization_key = "[GetSubIdeologyDescSocCon]"
 	}
 	text = {
-		trigger = { has_government = authoritarian }
+		trigger = { has_government = paternalism }
 		localization_key = "[GetSubIdeologyDescAuthoritarian]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_nationalist }
+		trigger = { has_government = revolutionary_nationalism }
 		localization_key = "[GetSubIdeologyDescRevNat]"
 	}
 	text = {
-		trigger = { has_government = volkist }
+		trigger = { has_government = volkism }
 		localization_key = "[GetSubIdeologyDescVolkist]"
 	}
 	text = {
-		trigger = { has_government = paternal_autocrat }
+		trigger = { has_government = despotism }
 		localization_key = "[GetSubIdeologyDescPatAut]"
 	}
 	text = {
-		trigger = { has_government = reactionary_ultranationalist }
+		trigger = { has_government = ultrareactionism }
 		localization_key = "[GetSubIdeologyDescReaUlt]"
 	}
 }
@@ -109,7 +109,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = authoritarian_socialist
+		localization_key = authoritarian_socialism
 	}
 }
 defined_text = {
@@ -117,7 +117,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = vanguard_socialist
+		localization_key = vanguard_socialism
 	}
 }
 defined_text = {
@@ -125,7 +125,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_socialist
+		localization_key = revolutionary_socialism
 	}
 }
 defined_text = {
@@ -133,7 +133,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_democrat
+		localization_key = social_democracy
 	}
 }
 defined_text = {
@@ -141,7 +141,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_liberal
+		localization_key = social_liberalism
 	}
 }
 defined_text = {
@@ -149,7 +149,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = classical_liberal
+		localization_key = classical_liberalism
 	}
 }
 defined_text = {
@@ -160,7 +160,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_conservative
+		localization_key = social_conservatism
 	}
 }
 defined_text = {
@@ -168,7 +168,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = authoritarian
+		localization_key = paternalism
 	}
 }
 defined_text = {
@@ -176,7 +176,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_nationalist
+		localization_key = revolutionary_nationalism
 	}
 }
 defined_text = {
@@ -187,7 +187,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = volkist
+		localization_key = volkism
 	}
 }
 defined_text = {
@@ -195,7 +195,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = paternal_autocrat
+		localization_key = despotism
 	}
 }
 defined_text = {
@@ -203,7 +203,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = reactionary_ultranationalist
+		localization_key = ultrareactionism
 	}
 }
 defined_text = {
@@ -214,7 +214,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = authoritarian_socialist_subtype_desc
+		localization_key = authoritarian_socialism_subtype_desc
 	}
 }
 defined_text = {
@@ -222,7 +222,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = vanguard_socialist_subtype_desc
+		localization_key = vanguard_socialism_subtype_desc
 	}
 }
 defined_text = {
@@ -230,7 +230,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_socialist_subtype_desc
+		localization_key = revolutionary_socialism_subtype_desc
 	}
 }
 defined_text = {
@@ -238,7 +238,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_democrat_subtype_desc
+		localization_key = social_democracy_subtype_desc
 	}
 }
 defined_text = {
@@ -246,7 +246,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_liberal_subtype_desc
+		localization_key = social_liberalism_subtype_desc
 	}
 }
 defined_text = {
@@ -254,7 +254,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = classical_liberal_subtype_desc
+		localization_key = classical_liberalism_subtype_desc
 	}
 }
 defined_text = {
@@ -265,7 +265,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = social_conservative_subtype_desc
+		localization_key = social_conservatism_subtype_desc
 	}
 }
 defined_text = {
@@ -273,7 +273,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = authoritarian_subtype_desc
+		localization_key = paternalism_subtype_desc
 	}
 }
 defined_text = {
@@ -281,7 +281,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_nationalist_subtype_desc
+		localization_key = revolutionary_nationalism_subtype_desc
 	}
 }
 defined_text = {
@@ -292,7 +292,7 @@ defined_text = {
 	}
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = volkist_subtype_desc
+		localization_key = volkism_subtype_desc
 	}
 }
 defined_text = {
@@ -300,7 +300,7 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = paternal_autocrat_subtype_desc
+		localization_key = despotism_subtype_desc
 	}
 }
 defined_text = {
@@ -308,6 +308,6 @@ defined_text = {
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = reactionary_ultranationalist_subtype_desc
+		localization_key = ultrareactionism_subtype_desc
 	}
 }

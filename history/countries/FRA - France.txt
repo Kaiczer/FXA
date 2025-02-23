@@ -30,20 +30,20 @@ if = {
 	}
 }
 set_popularities = {
-	authoritarian_socialist = 3
-	vanguard_socialist = 7
-	revolutionary_socialist = 5
-	social_democrat = 17
-	social_liberal = 15
-	classical_liberal = 26
-	social_conservative = 4
-	authoritarian = 2
-	revolutionary_nationalist = 4
-	paternal_autocrat = 8
-	reactionary_ultranationalist = 9
+	authoritarian_socialism = 3
+	vanguard_socialism = 7
+	revolutionary_socialism = 5
+	social_democracy = 17
+	social_liberalism = 15
+	classical_liberalism = 26
+	social_conservatism = 4
+	paternalism = 2
+	revolutionary_nationalism = 4
+	despotism = 8
+	ultrareactionism = 9
 }
 set_politics = {	
-	ruling_party = classical_liberal
+	ruling_party = classical_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

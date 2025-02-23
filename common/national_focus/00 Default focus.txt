@@ -1216,7 +1216,7 @@ focus_tree = {
 		y = 1
 
 		available = {
-			has_any_authoritarian_government = no
+			has_any_paternalism_government = no
 		}
 
 		prerequisite = { focus = generic_political_effort }

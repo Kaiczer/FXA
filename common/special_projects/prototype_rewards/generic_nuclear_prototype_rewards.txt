@@ -163,7 +163,7 @@ sp_nuclear_major_political_interference_generic_reward = {
 		base = 1
 		modifier = {
 			factor = 0.25
-			FROM = { has_any_authoritarian_government = no }
+			FROM = { has_any_paternalism_government = no }
 		}
 	}
 

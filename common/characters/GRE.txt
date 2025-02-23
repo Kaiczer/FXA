@@ -5,13 +5,13 @@ characters = {
 			civilian = "gfx/leaders/GRE/GRE_nikolaos_plastiras.png"
 		}
 		country_leader = {
-			ideology = classical_liberal_subtype
+			ideology = classical_liberalism_subtype
 		}
 		country_leader = {
-			ideology = authoritarian_subtype
+			ideology = paternalism_subtype
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = despotism_subtype
 		}
 	}
 }

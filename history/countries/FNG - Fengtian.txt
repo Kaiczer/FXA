@@ -37,14 +37,14 @@ if = {
 }
 
 set_popularities = {
-	social_conservative = 3
-	classical_liberal = 8
-	social_liberal = 6
-	authoritarian = 43
-	paternal_autocrat = 40
+	social_conservatism = 3
+	classical_liberalism = 8
+	social_liberalism = 6
+	paternalism = 43
+	despotism = 40
 }
 set_politics = {	
-	ruling_party = authoritarian
+	ruling_party = paternalism
 	last_election = "1931.6.5"
 	election_frequency = 48
 	elections_allowed = no

@@ -30,16 +30,16 @@ if = {
 	}
 }
 set_popularities = {
-	vanguard_socialist = 6
-	revolutionary_socialist = 11
-	revolutionary_nationalist = 55
-	social_conservative = 14
-	authoritarian = 7
-	reactionary_ultranationalist = 7
+	vanguard_socialism = 6
+	revolutionary_socialism = 11
+	revolutionary_nationalism = 55
+	social_conservatism = 14
+	paternalism = 7
+	ultrareactionism = 7
 }
 recruit_character = MEX_roque_gonzalez_garza
 set_politics = {	
-	ruling_party = revolutionary_nationalist
+	ruling_party = revolutionary_nationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

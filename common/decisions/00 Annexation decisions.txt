@@ -7095,8 +7095,8 @@ annexation_decisions = {
         }
         ai_will_do = { factor = 100 }
     }
-    # Kel Air
-    annexation_AIR_CONQ = {
+    # Kel Ayr
+    annexation_AYR_CONQ = {
         icon = generic_form_nation
         selectable_mission = yes
         days_mission_timeout = @annexation_days_mission_timeout
@@ -7108,12 +7108,12 @@ annexation_decisions = {
             831 = { is_valid_annexation_state = no }
         }
         complete_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AIR_CONQ"
+            log = "[GetDateText]: [Root.GetName]: Decision complete annexation_AYR_CONQ"
             block_annexation_mission_selection = yes
             country_event = annex.1296
         }
         timeout_effect = {
-            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AIR_CONQ"
+            log = "[GetDateText]: [Root.GetName]: Decision timeout annexation_AYR_CONQ"
             block_annexation_mission_selection = yes
             country_event = annex.1296
         }

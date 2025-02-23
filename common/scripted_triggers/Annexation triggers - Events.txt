@@ -21,7 +21,7 @@ has_valid_chinese_ally = {
 				CHI = {
 					OR = {
 						has_socialist_government = yes
-						has_government = social_democrat
+						has_government = social_democracy
 					}
 					china_annexation_valid_tag = yes
 				}
@@ -56,11 +56,11 @@ has_valid_chinese_ally = {
 				}
 			}
 			else_if = {
-				limit = { has_authoritarian_government = yes }
+				limit = { has_paternalism_government = yes }
 				OR = {
 					NOT = { country_exists = GXC }
 					GXC = {
-						has_government = authoritarian
+						has_government = paternalism
 						china_annexation_valid_tag = yes
 					}
 				}
@@ -70,8 +70,8 @@ has_valid_chinese_ally = {
 					NOT = { country_exists = CHI }
 					CHI = {
 						OR = {
-							has_government = social_liberal
-							has_government = social_democrat
+							has_government = social_liberalism
+							has_government = social_democracy
 						}
 						china_annexation_valid_tag = yes
 					}
@@ -79,7 +79,7 @@ has_valid_chinese_ally = {
 			}
 		}
 		else_if = {
-			limit = { has_authoritarian_government = yes }
+			limit = { has_paternalism_government = yes }
 			OR = {
 				NOT = { country_exists = ZHI }
 				ZHI = {

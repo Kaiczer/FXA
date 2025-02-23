@@ -30,12 +30,12 @@ if = {
 	}
 }
 set_popularities = {
-	vanguard_socialist = 80
-	revolutionary_socialist = 10
-	authoritarian_socialist = 10
+	vanguard_socialism = 80
+	revolutionary_socialism = 10
+	authoritarian_socialism = 10
 }
 set_politics = {	
-	ruling_party = vanguard_socialist
+	ruling_party = vanguard_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

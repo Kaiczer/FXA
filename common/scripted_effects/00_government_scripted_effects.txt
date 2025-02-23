@@ -12,9 +12,9 @@ clear_government_flags = {
 	clr_country_flag = TFH_is_democratic
 	clr_country_flag = TFH_right_wing_democracy
 	clr_country_flag = TFH_left_wing_democracy
-	clr_country_flag = TFH_is_authoritarian
+	clr_country_flag = TFH_is_paternalism
 	clr_country_flag = TFH_is_dictatorship
-	clr_country_flag = TFH_is_any_authoritarian
+	clr_country_flag = TFH_is_any_paternalism
 	clr_country_flag = TFH_is_liberal
 	clr_country_flag = TFH_is_conservative
 }
@@ -22,15 +22,15 @@ clear_government_flags = {
 set_government_flags = {
 	clear_government_flags = yes
 	if = {
-		limit = { has_government = authoritarian_socialist }
+		limit = { has_government = authoritarian_socialism }
 		set_country_flag = TFH_is_socialist
-		set_country_flag = TFH_is_any_authoritarian
+		set_country_flag = TFH_is_any_paternalism
 	}
 	else_if = {
 		limit = {
 			OR = {
-				has_government = vanguard_socialist
-				has_government = revolutionary_socialist
+				has_government = vanguard_socialism
+				has_government = revolutionary_socialism
 			}
 		}
 		set_country_flag = TFH_is_socialist
@@ -38,36 +38,36 @@ set_government_flags = {
 	else_if = {
 		limit = {
 			OR = {
-				has_government = revolutionary_nationalist
-				has_government = volkist
-				has_government = paternal_autocrat
-				has_government = reactionary_ultranationalist
+				has_government = revolutionary_nationalism
+				has_government = volkism
+				has_government = despotism
+				has_government = ultrareactionism
 			}
 		}
-		set_country_flag = TFH_is_authoritarian
-		set_country_flag = TFH_is_any_authoritarian
+		set_country_flag = TFH_is_paternalism
+		set_country_flag = TFH_is_any_paternalism
 		set_country_flag = TFH_is_dictatorship
 	}
 	else_if = {
 		limit = { 
-			has_government = authoritarian
-			has_government = revolutionary_nationalist
-			has_government = volkist
+			has_government = paternalism
+			has_government = revolutionary_nationalism
+			has_government = volkism
 		}
-		set_country_flag = TFH_is_authoritarian
-		set_country_flag = TFH_is_any_authoritarian
+		set_country_flag = TFH_is_paternalism
+		set_country_flag = TFH_is_any_paternalism
 		set_country_flag = TFH_is_conservative
 	}
 	else = {
 		set_country_flag = TFH_is_democratic
 		set_country_flag = TFH_is_elected
 		if = {
-			limit = { has_government = social_conservative }
+			limit = { has_government = social_conservatism }
 			set_country_flag = TFH_right_wing_democracy
 			set_country_flag = TFH_is_conservative
 		}
 		else_if = {
-			limit = { has_government = classical_liberal }
+			limit = { has_government = classical_liberalism }
 			set_country_flag = TFH_right_wing_democracy
 			set_country_flag = TFH_is_liberal
 		}

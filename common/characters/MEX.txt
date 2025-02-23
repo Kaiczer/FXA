@@ -7,15 +7,15 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = authoritarian_subtype
+			ideology = paternalism_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = revolutionary_nationalist_subtype
+			ideology = revolutionary_nationalism_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = volkist_subtype
+			ideology = volkism_subtype
 			traits = { }
 		}
 	}

@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = volkist_subtype
+			ideology = volkism_subtype
     		desc = "POLITICS_ADAM_DRESSLER_DESC"
 			traits = { 
 				GER_leader_of_people
@@ -23,7 +23,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = revolutionary_nationalist_subtype
+			ideology = revolutionary_nationalism_subtype
 			traits = {
 				#GER_fuehrer_puppet
 			}
@@ -98,7 +98,7 @@ characters = {
 			}
 			traits = {
 				TFH_aufsichtsrat_president
-				TFH_staunch_left_volkist
+				TFH_staunch_left_volkism
 			}
 			can_be_fired = no
 		}

@@ -35,18 +35,18 @@ recruit_character = USA_fiorello_la_guardia
 recruit_character = USA_hiram_warren_johnson
 
 set_popularities = {
-	revolutionary_socialist = 5
-	social_liberal = 43
-	classical_liberal = 19
-	social_democrat = 16
-	social_conservative = 12
-	authoritarian = 3
-	revolutionary_nationalist = 1
-	paternal_autocrat = 1
+	revolutionary_socialism = 5
+	social_liberalism = 43
+	classical_liberalism = 19
+	social_democracy = 16
+	social_conservatism = 12
+	paternalism = 3
+	revolutionary_nationalism = 1
+	despotism = 1
 }
 
 set_politics = {	
-	ruling_party = social_liberal
+	ruling_party = social_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

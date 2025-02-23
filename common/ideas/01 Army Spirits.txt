@@ -48,8 +48,8 @@ ideas = {
 			allowed = { has_dlc_nsb = yes }
 			visible = { #update on_ruling_party_change if you change this
 				OR = {
-					has_government = vanguard_socialist
-					has_government = revolutionary_socialist
+					has_government = vanguard_socialism
+					has_government = revolutionary_socialism
 				}
 			}
 			modifier = {
@@ -65,7 +65,7 @@ ideas = {
 			ledger = army
 			allowed = { has_dlc_nsb = yes }
 			visible = { #update on_ruling_party_change if you change this
-				has_any_authoritarian_government = yes
+				has_any_paternalism_government = yes
 			}
 			modifier = {
 				military_leader_cost_factor = -0.5
@@ -190,8 +190,8 @@ ideas = {
 			allowed = { has_dlc_nsb = yes }
 			visible = { #update on_ruling_party_change if you change this
 				OR = {
-					has_government = vanguard_socialist
-					has_government = revolutionary_socialist
+					has_government = vanguard_socialism
+					has_government = revolutionary_socialism
 					has_elected_government = yes
 				}
 			}
@@ -210,8 +210,8 @@ ideas = {
 			visible = { #update on_ruling_party_change if you change this
 				OR = {
 					has_socialist_government = yes
-					has_government = volkist
-					has_government = reactionary_ultranationalist
+					has_government = volkism
+					has_government = ultrareactionism
 				}
 			}
 			modifier = {
@@ -226,7 +226,7 @@ ideas = {
 			ledger = army
 			allowed = { has_dlc_nsb = yes }
 			visible = { #update on_ruling_party_change if you change this
-				has_any_authoritarian_government = yes
+				has_any_paternalism_government = yes
 			}
 			modifier = {
 				political_power_factor = 0.1

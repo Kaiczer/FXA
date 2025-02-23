@@ -877,9 +877,9 @@ ideas = {
 
 			}
 		}
-		authoritarian_dictatorship = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea authoritarian_dictatorship" }
-			on_remove = { set_variable = { previous_constitution_form = token:authoritarian_dictatorship } }
+		paternalism_dictatorship = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternalism_dictatorship" }
+			on_remove = { set_variable = { previous_constitution_form = token:paternalism_dictatorship } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -891,9 +891,9 @@ ideas = {
 
 			}
 		}
-		authoritarian_democracy = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea authoritarian_democracy" }
-			on_remove = { set_variable = { previous_constitution_form = token:authoritarian_democracy } }
+		paternalism_democracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternalism_democracy" }
+			on_remove = { set_variable = { previous_constitution_form = token:paternalism_democracy } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no

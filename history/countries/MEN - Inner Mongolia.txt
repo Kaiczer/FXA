@@ -38,13 +38,13 @@ FNG = {
 }
 515 = { set_demilitarized_zone = yes }
 set_popularities = {
-	authoritarian = 85
-	paternal_autocrat = 5
-	classical_liberal = 5
-	social_conservative = 5
+	paternalism = 85
+	despotism = 5
+	classical_liberalism = 5
+	social_conservatism = 5
 }
 set_politics = {	
-	ruling_party = authoritarian
+	ruling_party = paternalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

@@ -326,7 +326,7 @@
 		color_override = no
 		name = "1. Homeland Defense Army"
 		available = {
-			has_authoritarian_government = yes
+			has_paternalism_government = yes
 		}
 	}
 	icon = {
@@ -379,7 +379,7 @@
 		color_override = no
 		name = "1. Celestial Penetration Army"
 		available = {
-			has_authoritarian_government = yes
+			has_paternalism_government = yes
 		}
 	}
 	icon = {

@@ -22,75 +22,75 @@ defined_text = {
 	name = GetPopularityTooltipDesc
 	text = {
 		trigger = {
-			has_government = authoritarian_socialist
+			has_government = authoritarian_socialism
 		}
-		localization_key = authoritarian_socialist_subtype_desc
+		localization_key = authoritarian_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = vanguard_socialist
+			has_government = vanguard_socialism
 		}
-		localization_key = vanguard_socialist_subtype_desc
+		localization_key = vanguard_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = revolutionary_socialist
+			has_government = revolutionary_socialism
 		}
-		localization_key = revolutionary_socialist_subtype_desc
+		localization_key = revolutionary_socialism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = social_democrat
+			has_government = social_democracy
 		}
-		localization_key = social_democrat_subtype_desc
+		localization_key = social_democracy_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = social_liberal
+			has_government = social_liberalism
 		}
-		localization_key = social_liberal_subtype_desc
+		localization_key = social_liberalism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = classical_liberal
+			has_government = classical_liberalism
 		}
-		localization_key = classical_liberal_subtype_desc
+		localization_key = classical_liberalism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = social_conservative
+			has_government = social_conservatism
 		}
-		localization_key = social_conservative_subtype_desc
+		localization_key = social_conservatism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = authoritarian
+			has_government = paternalism
 		}
-		localization_key = authoritarian_subtype_desc
+		localization_key = paternalism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = revolutionary_nationalist
+			has_government = revolutionary_nationalism
 		}
-		localization_key = revolutionary_nationalist_subtype_desc
+		localization_key = revolutionary_nationalism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = volkist
+			has_government = volkism
 		}
-		localization_key = volkist_subtype_desc
+		localization_key = volkism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = paternal_autocrat
+			has_government = despotism
 		}
-		localization_key = paternal_autocrat_subtype_desc
+		localization_key = despotism_subtype_desc
 	}
 	text = {
 		trigger = {
-			has_government = reactionary_ultranationalist
+			has_government = ultrareactionism
 		}
-		localization_key = reactionary_ultranationalist_subtype_desc
+		localization_key = ultrareactionism_subtype_desc
 	}
 }
 defined_text = {
@@ -153,12 +153,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = authoritarian_socialist
-				check_variable = { political_power_ideology = token:authoritarian_socialist }
+				has_government = authoritarian_socialism
+				check_variable = { political_power_ideology = token:authoritarian_socialism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:authoritarian_socialist }
+			is_in_array = { ROOT.coalition_partners = token:authoritarian_socialism }
 		}
-		localization_key = party_pop_coalition_authoritarian_socialist
+		localization_key = party_pop_coalition_authoritarian_socialism
 	}
 	text = {
 		localization_key = empty
@@ -169,12 +169,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = vanguard_socialist
-				check_variable = { political_power_ideology = token:vanguard_socialist }
+				has_government = vanguard_socialism
+				check_variable = { political_power_ideology = token:vanguard_socialism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:vanguard_socialist }
+			is_in_array = { ROOT.coalition_partners = token:vanguard_socialism }
 		}
-		localization_key = party_pop_coalition_vanguard_socialist
+		localization_key = party_pop_coalition_vanguard_socialism
 	}
 	text = {
 		localization_key = empty
@@ -185,12 +185,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = revolutionary_socialist
-				check_variable = { political_power_ideology = token:revolutionary_socialist }
+				has_government = revolutionary_socialism
+				check_variable = { political_power_ideology = token:revolutionary_socialism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:revolutionary_socialist }
+			is_in_array = { ROOT.coalition_partners = token:revolutionary_socialism }
 		}
-		localization_key = party_pop_coalition_revolutionary_socialist
+		localization_key = party_pop_coalition_revolutionary_socialism
 	}
 	text = {
 		localization_key = empty
@@ -201,12 +201,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = social_democrat
-				check_variable = { political_power_ideology = token:social_democrat }
+				has_government = social_democracy
+				check_variable = { political_power_ideology = token:social_democracy }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_democrat }
+			is_in_array = { ROOT.coalition_partners = token:social_democracy }
 		}
-		localization_key = party_pop_coalition_social_democrat
+		localization_key = party_pop_coalition_social_democracy
 	}
 	text = {
 		localization_key = empty
@@ -217,12 +217,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = social_liberal
-				check_variable = { political_power_ideology = token:social_liberal }
+				has_government = social_liberalism
+				check_variable = { political_power_ideology = token:social_liberalism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_liberal }
+			is_in_array = { ROOT.coalition_partners = token:social_liberalism }
 		}
-		localization_key = party_pop_coalition_social_liberal
+		localization_key = party_pop_coalition_social_liberalism
 	}
 	text = {
 		localization_key = empty
@@ -233,12 +233,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = classical_liberal
-				check_variable = { political_power_ideology = token:classical_liberal }
+				has_government = classical_liberalism
+				check_variable = { political_power_ideology = token:classical_liberalism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:classical_liberal }
+			is_in_array = { ROOT.coalition_partners = token:classical_liberalism }
 		}
-		localization_key = party_pop_coalition_classical_liberal
+		localization_key = party_pop_coalition_classical_liberalism
 	}
 	text = {
 		localization_key = empty
@@ -249,12 +249,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = social_conservative
-				check_variable = { political_power_ideology = token:social_conservative }
+				has_government = social_conservatism
+				check_variable = { political_power_ideology = token:social_conservatism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:social_conservative }
+			is_in_array = { ROOT.coalition_partners = token:social_conservatism }
 		}
-		localization_key = party_pop_coalition_social_conservative
+		localization_key = party_pop_coalition_social_conservatism
 	}
 	text = {
 		localization_key = empty
@@ -265,12 +265,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = authoritarian
-				check_variable = { political_power_ideology = token:authoritarian }
+				has_government = paternalism
+				check_variable = { political_power_ideology = token:paternalism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:authoritarian }
+			is_in_array = { ROOT.coalition_partners = token:paternalism }
 		}
-		localization_key = party_pop_coalition_authoritarian
+		localization_key = party_pop_coalition_paternalism
 	}
 	text = {
 		localization_key = empty
@@ -281,12 +281,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = revolutionary_nationalist
-				check_variable = { political_power_ideology = token:revolutionary_nationalist }
+				has_government = revolutionary_nationalism
+				check_variable = { political_power_ideology = token:revolutionary_nationalism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:revolutionary_nationalist }
+			is_in_array = { ROOT.coalition_partners = token:revolutionary_nationalism }
 		}
-		localization_key = party_pop_coalition_revolutionary_nationalist
+		localization_key = party_pop_coalition_revolutionary_nationalism
 	}
 	text = {
 		localization_key = empty
@@ -297,12 +297,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = volkist
-				check_variable = { political_power_ideology = token:volkist }
+				has_government = volkism
+				check_variable = { political_power_ideology = token:volkism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:volkist }
+			is_in_array = { ROOT.coalition_partners = token:volkism }
 		}
-		localization_key = party_pop_coalition_volkist
+		localization_key = party_pop_coalition_volkism
 	}
 	text = {
 		localization_key = empty
@@ -313,12 +313,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = paternal_autocrat
-				check_variable = { political_power_ideology = token:paternal_autocrat }
+				has_government = despotism
+				check_variable = { political_power_ideology = token:despotism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:paternal_autocrat }
+			is_in_array = { ROOT.coalition_partners = token:despotism }
 		}
-		localization_key = party_pop_coalition_paternal_autocrat
+		localization_key = party_pop_coalition_despotism
 	}
 	text = {
 		localization_key = empty
@@ -328,10 +328,10 @@ defined_text = {
 	name = GetCoalitionReactUltranationalist
 	text = {
 		trigger = {
-			NOT = { has_government = reactionary_ultranationalist }
-			is_in_array = { ROOT.coalition_partners = token:reactionary_ultranationalist }
+			NOT = { has_government = ultrareactionism }
+			is_in_array = { ROOT.coalition_partners = token:ultrareactionism }
 		}
-		localization_key = party_pop_coalition_reactionary_ultranationalist
+		localization_key = party_pop_coalition_ultrareactionism
 	}
 	text = {
 		localization_key = empty
@@ -341,73 +341,73 @@ defined_text = {
 	name = GetCoalitionTooltipColour
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:authoritarian_socialist }
+			check_variable = { coalition_partner_var = token:authoritarian_socialism }
 		}
 		localization_key = colour_authsoc
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:vanguard_socialist }
+			check_variable = { coalition_partner_var = token:vanguard_socialism }
 		}
 		localization_key = colour_vansoc
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:revolutionary_socialist }
+			check_variable = { coalition_partner_var = token:revolutionary_socialism }
 		}
 		localization_key = colour_revsoc
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:social_democrat }
+			check_variable = { coalition_partner_var = token:social_democracy }
 		}
 		localization_key = colour_socdem
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:social_liberal }
+			check_variable = { coalition_partner_var = token:social_liberalism }
 		}
 		localization_key = colour_soclib
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:classical_liberal }
+			check_variable = { coalition_partner_var = token:classical_liberalism }
 		}
 		localization_key = colour_clslib
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:social_conservative }
+			check_variable = { coalition_partner_var = token:social_conservatism }
 		}
 		localization_key = colour_soccon
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:authoritarian }
+			check_variable = { coalition_partner_var = token:paternalism }
 		}
 		localization_key = colour_auth
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:revolutionary_nationalist }
+			check_variable = { coalition_partner_var = token:revolutionary_nationalism }
 		}
 		localization_key = colour_revnat
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:volkist }
+			check_variable = { coalition_partner_var = token:volkism }
 		}
-		localization_key = colour_volkist
+		localization_key = colour_volkism
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:paternal_autocrat }
+			check_variable = { coalition_partner_var = token:despotism }
 		}
 		localization_key = colour_pataut
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:reactionary_ultranationalist }
+			check_variable = { coalition_partner_var = token:ultrareactionism }
 		}
 		localization_key = colour_reault
 	}

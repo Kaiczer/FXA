@@ -7,15 +7,15 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_subtype
+			ideology = social_liberalism_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = classical_liberal_subtype
+			ideology = classical_liberalism_subtype
 			traits = { }
 		}
 		country_leader = {
-			ideology = social_conservative_subtype
+			ideology = social_conservatism_subtype
 			traits = { }
 		}
 	}

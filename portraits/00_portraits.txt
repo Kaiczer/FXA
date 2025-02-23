@@ -45,7 +45,7 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -55,20 +55,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -81,7 +68,20 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -99,7 +99,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -117,7 +117,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -136,7 +136,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -155,7 +155,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -166,7 +166,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -177,7 +177,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -221,7 +221,7 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -231,20 +231,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -257,7 +244,20 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_10"
@@ -273,7 +273,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_10"
@@ -289,7 +289,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_10"
@@ -305,7 +305,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_10"
@@ -322,7 +322,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_14"
@@ -332,7 +332,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_13"
 				"GFX_Portrait_Europe_Generic_new_14"
@@ -342,7 +342,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -386,7 +386,7 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -398,23 +398,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_South_America_Generic_new_2"
-				"GFX_Portrait_South_America_Generic_new_4"
-				"GFX_Portrait_South_America_Generic_new_1"
-				"GFX_Portrait_South_America_Generic_new_7"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_6"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -430,7 +414,23 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+				"GFX_Portrait_South_America_Generic_new_7"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_6"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -448,7 +448,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_6"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -466,7 +466,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_6"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -484,7 +484,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_6"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -502,7 +502,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_6"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -516,7 +516,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -527,7 +527,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_4"
@@ -570,7 +570,7 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -578,18 +578,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_5"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -600,7 +589,18 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -614,7 +614,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -628,7 +628,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -642,7 +642,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -657,7 +657,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -667,7 +667,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -678,7 +678,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -717,7 +717,7 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_7"
 				"GFX_Portrait_Africa_Generic_new_1"
@@ -725,7 +725,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_land_new_8"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -735,7 +735,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_8"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -745,7 +745,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_8"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -754,7 +754,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_6"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -763,7 +763,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_6"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -772,7 +772,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_6"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_4"
@@ -783,7 +783,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_8"
@@ -793,7 +793,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_6"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -802,7 +802,7 @@ continent = {
 				"GFX_Portrait_Africa_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_4"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -845,14 +845,14 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_2"
 				"GFX_Portrait_Asia_Generic_new_7"
 				"GFX_Portrait_Asia_Generic_land_new_6"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -861,7 +861,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_7"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -870,7 +870,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_7"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -880,7 +880,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -890,7 +890,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -900,7 +900,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -910,7 +910,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_4"
 				"GFX_Portrait_Asia_Generic_new_5"
@@ -921,7 +921,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_2"
 				"GFX_Portrait_Asia_Generic_new_7"
@@ -929,7 +929,7 @@ continent = {
 				"GFX_Portrait_Asia_Generic_land_new_6"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Asia_Generic_new_2"
 				"GFX_Portrait_Asia_Generic_new_7"
@@ -962,14 +962,14 @@ continent = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 				"GFX_Portrait_Middle_East_Generic_land_3"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -982,7 +982,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -995,21 +995,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_democrat = {
-			male = {
-				"GFX_Portrait_Middle_East_Generic_3"
-				"GFX_Portrait_Middle_East_Generic_2"
-				"GFX_Portrait_Middle_East_Generic_5"
-				"GFX_Portrait_Middle_East_Generic_1"
-				"GFX_Portrait_Middle_East_Generic_6"
-				"GFX_Portrait_Middle_East_Generic_7"
-				"GFX_Portrait_Middle_East_Generic_8"
-				"GFX_Portrait_South_America_Generic_new_2"
-				"GFX_Portrait_South_America_Generic_new_4"
-				"GFX_Portrait_South_America_Generic_new_1"
-			}
-		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1023,7 +1009,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1037,7 +1023,7 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1051,14 +1037,28 @@ continent = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_Middle_East_Generic_6"
+				"GFX_Portrait_Middle_East_Generic_7"
+				"GFX_Portrait_Middle_East_Generic_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -1066,7 +1066,7 @@ continent = {
 				"GFX_Portrait_Middle_East_Generic_land_3"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -1102,7 +1102,7 @@ continent = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_India_Generic_land_new_2"
 				"GFX_Portrait_India_Generic_new_1"
@@ -1110,59 +1110,14 @@ continent = {
 				"GFX_Portrait_India_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_India_Generic_new_1"
 				"GFX_Portrait_India_Generic_new_3"
 				"GFX_Portrait_India_Generic_new_6"
 			}
 		}
-		revolutionary_socialist = {
-			male = {
-				"GFX_Portrait_India_Generic_new_1"
-				"GFX_Portrait_India_Generic_new_3"
-				"GFX_Portrait_India_Generic_new_6"
-				"GFX_Portrait_India_Generic_new_7"
-			}
-		}
-		social_democrat = {
-			male = {
-				"GFX_Portrait_India_Generic_new_1"
-				"GFX_Portrait_India_Generic_new_2"
-				"GFX_Portrait_India_Generic_new_3"
-				"GFX_Portrait_India_Generic_new_4"
-				"GFX_Portrait_India_Generic_new_5"
-				"GFX_Portrait_India_Generic_new_6"
-			}
-		}
-		social_liberal = {
-			male = {
-				"GFX_Portrait_India_Generic_new_2"
-				"GFX_Portrait_India_Generic_new_4"
-				"GFX_Portrait_India_Generic_new_5"
-			}
-		}
-		classical_liberal = {
-			male = {
-				"GFX_Portrait_India_Generic_new_1"
-				"GFX_Portrait_India_Generic_new_2"
-				"GFX_Portrait_India_Generic_new_3"
-				"GFX_Portrait_India_Generic_new_4"
-				"GFX_Portrait_India_Generic_new_5"
-				"GFX_Portrait_India_Generic_new_6"
-			}
-		}
-		social_conservative = {
-			male = {
-				"GFX_Portrait_India_Generic_new_1"
-				"GFX_Portrait_India_Generic_new_2"
-				"GFX_Portrait_India_Generic_new_3"
-				"GFX_Portrait_India_Generic_new_4"
-				"GFX_Portrait_India_Generic_new_5"
-				"GFX_Portrait_India_Generic_new_6"
-			}
-		}
-		authoritarian = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_India_Generic_new_1"
 				"GFX_Portrait_India_Generic_new_3"
@@ -1170,7 +1125,52 @@ continent = {
 				"GFX_Portrait_India_Generic_new_7"
 			}
 		}
-		paternal_autocrat = {
+		social_democracy = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		social_liberalism = {
+			male = {
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+			}
+		}
+		classical_liberalism = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_2"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_4"
+				"GFX_Portrait_India_Generic_new_5"
+				"GFX_Portrait_India_Generic_new_6"
+			}
+		}
+		paternalism = {
+			male = {
+				"GFX_Portrait_India_Generic_new_1"
+				"GFX_Portrait_India_Generic_new_3"
+				"GFX_Portrait_India_Generic_new_6"
+				"GFX_Portrait_India_Generic_new_7"
+			}
+		}
+		despotism = {
 			male = {
 				"GFX_Portrait_India_Generic_new_1"
 				"GFX_Portrait_India_Generic_new_3"
@@ -1179,7 +1179,7 @@ continent = {
 				"GFX_Portrait_India_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_India_Generic_new_1"
 				"GFX_Portrait_India_Generic_new_3"
@@ -1218,14 +1218,14 @@ continent = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_5"
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_2"
 				"GFX_Portrait_South_America_Generic_new_5"
@@ -1234,7 +1234,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1245,7 +1245,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1256,7 +1256,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1267,7 +1267,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1278,7 +1278,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1289,7 +1289,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1300,7 +1300,7 @@ continent = {
 				"GFX_Portrait_Europe_Generic_new_15"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1311,7 +1311,7 @@ continent = {
 				"GFX_Portrait_Middle_East_Generic_land_3"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_South_America_Generic_new_3"
 				"GFX_Portrait_South_America_Generic_new_2"
@@ -1344,13 +1344,13 @@ AFG = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -1363,7 +1363,7 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -1376,7 +1376,7 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1390,7 +1390,7 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1404,7 +1404,7 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1418,7 +1418,7 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -1432,21 +1432,21 @@ AFG = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		authoritarian = {
-			male = {
-				"GFX_Portrait_Middle_East_Generic_3"
-				"GFX_Portrait_Middle_East_Generic_4"
-				"GFX_Portrait_Middle_East_Generic_2"
-			}
-		}
-		paternal_autocrat = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		despotism = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -1522,7 +1522,7 @@ DEI = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1532,20 +1532,7 @@ DEI = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1558,7 +1545,20 @@ DEI = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1576,7 +1576,7 @@ DEI = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1594,7 +1594,7 @@ DEI = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1613,7 +1613,7 @@ DEI = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1632,7 +1632,7 @@ DEI = {
 				"GFX_Portrait_South_America_Generic_new_7"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1643,7 +1643,7 @@ DEI = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1654,7 +1654,7 @@ DEI = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -1696,7 +1696,7 @@ GUY = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1707,7 +1707,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1718,7 +1718,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1729,7 +1729,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1739,7 +1739,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1749,7 +1749,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1759,7 +1759,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1769,7 +1769,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1779,7 +1779,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -1788,7 +1788,7 @@ GUY = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -1823,7 +1823,7 @@ HAI = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1832,7 +1832,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1841,7 +1841,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1850,7 +1850,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1858,7 +1858,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1866,7 +1866,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1874,7 +1874,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1883,7 +1883,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1891,7 +1891,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -1900,7 +1900,7 @@ HAI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1933,7 +1933,7 @@ JAM = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1942,7 +1942,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1951,7 +1951,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1960,7 +1960,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1969,7 +1969,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1978,7 +1978,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1987,7 +1987,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -1996,7 +1996,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2005,7 +2005,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -2014,7 +2014,7 @@ JAM = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2054,7 +2054,7 @@ LEC = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2064,20 +2064,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2090,7 +2077,20 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2107,7 +2107,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2124,7 +2124,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2142,7 +2142,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2160,7 +2160,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2171,7 +2171,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2182,7 +2182,7 @@ LEC = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -2220,13 +2220,13 @@ TUR = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2236,7 +2236,7 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2246,7 +2246,7 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2257,7 +2257,7 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2268,7 +2268,7 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2279,7 +2279,7 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2290,21 +2290,21 @@ TUR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		authoritarian = {
-			male = {
-				"GFX_Portrait_Middle_East_Generic_3"
-				"GFX_Portrait_Middle_East_Generic_4"
-				"GFX_Portrait_Middle_East_Generic_2"
-			}
-		}
-		paternal_autocrat = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		despotism = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -2341,7 +2341,7 @@ SUR = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2352,7 +2352,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2363,7 +2363,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2374,7 +2374,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2385,7 +2385,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2396,7 +2396,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2407,7 +2407,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2418,7 +2418,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2428,7 +2428,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -2437,7 +2437,7 @@ SUR = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -2476,7 +2476,7 @@ TRI = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2487,7 +2487,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2498,7 +2498,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2509,7 +2509,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2520,7 +2520,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2531,7 +2531,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2542,7 +2542,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2553,7 +2553,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_new_5"
 				"GFX_Portrait_Africa_Generic_new_7"
@@ -2564,7 +2564,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -2573,7 +2573,7 @@ TRI = {
 				"GFX_Portrait_Mixed_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Africa_Generic_land_new_1"
 				"GFX_Portrait_Africa_Generic_land_new_4"
@@ -2603,13 +2603,13 @@ ZAN = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2619,7 +2619,7 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2629,7 +2629,7 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_democrat = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2640,7 +2640,7 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2651,7 +2651,7 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2662,7 +2662,7 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2673,21 +2673,21 @@ ZAN = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		authoritarian = {
-			male = {
-				"GFX_Portrait_Middle_East_Generic_3"
-				"GFX_Portrait_Middle_East_Generic_4"
-				"GFX_Portrait_Middle_East_Generic_2"
-			}
-		}
-		paternal_autocrat = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		reactionary_ultranationalist = {
+		despotism = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_4"
+				"GFX_Portrait_Middle_East_Generic_2"
+			}
+		}
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -2717,14 +2717,14 @@ MNR = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 				"GFX_Portrait_Middle_East_Generic_land_3"
 			}
 		}
-		vanguard_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2737,7 +2737,7 @@ MNR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		revolutionary_socialist = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_5"
@@ -2750,21 +2750,7 @@ MNR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_democrat = {
-			male = {
-				"GFX_Portrait_Middle_East_Generic_3"
-				"GFX_Portrait_Middle_East_Generic_2"
-				"GFX_Portrait_Middle_East_Generic_5"
-				"GFX_Portrait_Middle_East_Generic_1"
-				"GFX_Portrait_Middle_East_Generic_6"
-				"GFX_Portrait_Middle_East_Generic_7"
-				"GFX_Portrait_Middle_East_Generic_8"
-				"GFX_Portrait_South_America_Generic_new_2"
-				"GFX_Portrait_South_America_Generic_new_4"
-				"GFX_Portrait_South_America_Generic_new_1"
-			}
-		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2778,7 +2764,7 @@ MNR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2792,7 +2778,7 @@ MNR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_2"
@@ -2806,14 +2792,28 @@ MNR = {
 				"GFX_Portrait_South_America_Generic_new_1"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Middle_East_Generic_3"
+				"GFX_Portrait_Middle_East_Generic_2"
+				"GFX_Portrait_Middle_East_Generic_5"
+				"GFX_Portrait_Middle_East_Generic_1"
+				"GFX_Portrait_Middle_East_Generic_6"
+				"GFX_Portrait_Middle_East_Generic_7"
+				"GFX_Portrait_Middle_East_Generic_8"
+				"GFX_Portrait_South_America_Generic_new_2"
+				"GFX_Portrait_South_America_Generic_new_4"
+				"GFX_Portrait_South_America_Generic_new_1"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
 				"GFX_Portrait_Middle_East_Generic_2"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"
@@ -2821,7 +2821,7 @@ MNR = {
 				"GFX_Portrait_Middle_East_Generic_land_3"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Middle_East_Generic_3"
 				"GFX_Portrait_Middle_East_Generic_4"

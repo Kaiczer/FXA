@@ -221,7 +221,7 @@ is_french_africa_tag = {
 }
 is_native_african_tag = {
 	OR = {
-		original_tag = AIR
+		original_tag = AYR
 		original_tag = ADA
 	}
 }
@@ -377,7 +377,7 @@ is_quechua_speaking_tag = {
 			#has_completed_focus = PRU_indigenous_restoration
 			AND = {
 				original_tag = ECU
-				has_government = authoritarian_socialist
+				has_government = authoritarian_socialism
 			}
 		}
 	}

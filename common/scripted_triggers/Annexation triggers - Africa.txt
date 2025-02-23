@@ -96,7 +96,7 @@ can_release_kel_adagh = {
         }
     }
 }
-# Kel Air - annexation_AIR_CONQ
+# Kel Air - annexation_AYR_CONQ
 can_release_kel_air = {
     state = 831
     NOT = { is_claimed_by = ROOT }
@@ -107,8 +107,8 @@ can_release_kel_air = {
             798 = { is_valid_annexation_state = no }
         }
         NOT = {
-            country_exists = AIR
-            has_country_flag = AIR_CONQ
+            country_exists = AYR
+            has_country_flag = AYR_CONQ
         }
     }
 }

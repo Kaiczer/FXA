@@ -49,12 +49,12 @@ create_ambition_areas = {
 		}
 		set_variable = { ambition_area_@ALB = 1 }
 	}
-	# AIR = Kel Air 
+	# AYR = Kel Ayr 
 	if = {
 		limit = {
 			or = {
-				is_core_of = AIR
-				is_claimed_by = AIR
+				is_core_of = AYR
+				is_claimed_by = AYR
 				state = 823
 				state = 831
 			}

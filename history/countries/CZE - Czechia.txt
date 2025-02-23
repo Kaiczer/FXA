@@ -33,16 +33,16 @@ if = {
 }
 
 set_popularities = {
-	social_conservative = 100
+	social_conservatism = 100
 }
 set_politics = {	
-	ruling_party = social_conservative
+	ruling_party = social_conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_party_name = {
-	ideology = social_conservative
+	ideology = social_conservatism
 	name = CZE_Hodza_Cabinet_party
 	long_name = CZE_Hodza_Cabinet_party_long
 }

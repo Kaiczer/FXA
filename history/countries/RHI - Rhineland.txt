@@ -37,14 +37,14 @@ FRA = {
 	}
 }
 set_popularities = {
-	authoritarian = 48
-	social_conservative = 14
-	revolutionary_nationalist = 13
-	social_democrat = 15
-	paternal_autocrat = 10
+	paternalism = 48
+	social_conservatism = 14
+	revolutionary_nationalism = 13
+	social_democracy = 15
+	despotism = 10
 }
 set_politics = {	
-	ruling_party = authoritarian
+	ruling_party = paternalism
 	last_election = "1920.1.10"
 	election_frequency = 48
 	elections_allowed = no

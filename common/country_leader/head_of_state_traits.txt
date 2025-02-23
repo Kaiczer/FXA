@@ -554,25 +554,25 @@ leader_traits = {
 	KUM_first_reformer = { #Nasir Shah
 		random = no
 		political_power_gain = 0.05
-		social_conservative_drift = 0.01
-		authoritarian_drift = 0.01
+		social_conservatism_drift = 0.01
+		paternalism_drift = 0.01
 	}
 	KUM_first_reformer2 = {
 		random = no
 		political_power_gain = 0.10
-		social_conservative_drift = 0.01
+		social_conservatism_drift = 0.01
 	}
 	KUM_first_reformer3 = {
 		random = no
 		political_power_gain = 0.10
-		social_conservative_drift = 0.01
-		authoritarian_drift = 0.01
+		social_conservatism_drift = 0.01
+		paternalism_drift = 0.01
 		stability_factor = 0.10
 	}
 	KUM_first_reformer4 = {
 		random = no
 		political_power_gain = 0.10
-		social_conservative_drift = 0.01
+		social_conservatism_drift = 0.01
 		stability_factor = 0.10
 	}
 
@@ -867,7 +867,7 @@ leader_traits = {
 		political_power_factor = 0.05
 		trade_opinion_factor = 0.01
 	}
-	POL_revolutionary_nationalist = { #Kazimierz Zakrzewski, syndicalist
+	POL_revolutionary_nationalism = { #Kazimierz Zakrzewski, syndicalist
 		random = no
 		political_power_factor = 0.05
 	}
@@ -1048,7 +1048,7 @@ leader_traits = {
 	### Socialist Italy
 	SRI_il_duce = { #Mussolini
 		random = no
-		authoritarian_socialist_drift = 0.01
+		authoritarian_socialism_drift = 0.01
 		party_popularity_stability_factor = 0.5
 		grant_medal_cost_factor = -0.5
 		political_advisor_cost_factor = -0.33
@@ -1216,11 +1216,11 @@ leader_traits = {
 	UKR_hetman_only_in_name = {
 		random = no
 		stability_factor = 0.1
-		paternal_autocrat_drift = 0.05
+		despotism_drift = 0.05
 	}
 	UKR_advisory_council_of_hetman = {
 		random = no
-		authoritarian_drift = 0.04
+		paternalism_drift = 0.04
 		political_power_factor = 0.08
 		research_speed_factor = 0.08
 	}
@@ -1250,7 +1250,7 @@ leader_traits = {
 		random = no
 		war_support_factor = 0.1
 		stability_factor = 0.05
-		social_liberal_drift = 0.01
+		social_liberalism_drift = 0.01
 	}
 	UKR_providnyk = {
 		random = no
@@ -1319,7 +1319,7 @@ leader_traits = {
 		random = no
 		political_power_gain = 0.1
 		stability_factor = 0.15
-		social_liberal_drift = 0.07
+		social_liberalism_drift = 0.07
 	}
 
 	### Ma Clique

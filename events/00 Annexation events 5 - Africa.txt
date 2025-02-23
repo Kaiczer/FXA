@@ -288,38 +288,38 @@ country_event = { # Fate of Kel Adagh
         recheck_annexations = yes
     }
 }
-country_event = { # Fate of Kel Air
+country_event = { # Fate of Kel Ayr
     id = annex.1296
-    title = annexation_AIR_CONQ
-    desc = annexation_AIR_CONQ_desc
+    title = annexation_AYR_CONQ
+    desc = annexation_AYR_CONQ_desc
     picture = GFX_report_event_generic_conference2
     is_triggered_only = yes
     immediate = {
         hidden_effect = {
-            add_to_temp_array = { core_removal_array = AIR }
+            add_to_temp_array = { core_removal_array = AYR }
             remove_all_cores_and_claims_of_tags = yes
             every_state = {
                 limit = {
                     state = 831
                 }
-                add_core_of = AIR
+                add_core_of = AYR
             }
         }
     }
-    option = { # Liberate AIR
+    option = { # Liberate Ayr
         log = "[GetLogInfo]: event annex.1296 option annex.1296.a"
         name = annex.1296.a
         ai_chance = { base = 100 }
-        set_temp_variable = { tag_to_release = AIR }
+        set_temp_variable = { tag_to_release = AYR }
         release_targeted_tag = yes
         recheck_annexations = yes
     }
-    option = { # Occupy AIR
+    option = { # Occupy AYR
         log = "[GetLogInfo]: event annex.1296 option annex.occupation"
         name = annex.occupation
         ai_chance = { base = 0 }
         occupy_replace_country = yes
-        set_country_flag = AIR_CONQ
+        set_country_flag = AYR_CONQ
         recheck_annexations = yes
     }
 }

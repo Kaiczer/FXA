@@ -291,144 +291,144 @@ ideas = {
 		}
 
 		### Drift ideas ###
-		authoritarian_socialist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea authoritarian_socialist_influence" }
+		authoritarian_socialism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea authoritarian_socialism_influence" }
 			picture = generic_syndicalism_drift_bonus
 			allowed_civil_war = {
-				has_government = authoritarian_socialist
+				has_government = authoritarian_socialism
 			}
 			modifier = {
-				authoritarian_socialist_drift = 0.1
-				authoritarian_socialist_acceptance = 85
+				authoritarian_socialism_drift = 0.1
+				authoritarian_socialism_acceptance = 85
 			}
 		}
 
-		vanguard_socialist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea vanguard_socialist_influence" }
+		vanguard_socialism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea vanguard_socialism_influence" }
 			picture = generic_syndicalism_drift_bonus
 			allowed_civil_war = {
-				has_government = vanguard_socialist
+				has_government = vanguard_socialism
 			}
 			modifier = {
-				vanguard_socialist_drift = 0.1
-				vanguard_socialist_acceptance = 85
+				vanguard_socialism_drift = 0.1
+				vanguard_socialism_acceptance = 85
 			}
 		}
-		revolutionary_socialist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_socialist_influence" }
+		revolutionary_socialism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_socialism_influence" }
 			picture = generic_syndicalism_drift_bonus
 			allowed_civil_war = {
-				has_government = revolutionary_socialist
+				has_government = revolutionary_socialism
 			}
 			modifier = {
-				revolutionary_socialist_drift = 0.1
-				revolutionary_socialist_acceptance = 85
+				revolutionary_socialism_drift = 0.1
+				revolutionary_socialism_acceptance = 85
 			}
 		}
 
-		social_democrat_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_democrat_influence" }
+		social_democracy_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_democracy_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = social_democrat
+				has_government = social_democracy
 			}
 			modifier = {
-				social_democrat_drift = 0.1
-				social_democrat_acceptance = 85
+				social_democracy_drift = 0.1
+				social_democracy_acceptance = 85
 			}
 		}
 
-		social_liberal_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_liberal_influence" }
+		social_liberalism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_liberalism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = social_liberal
+				has_government = social_liberalism
 			}
 			modifier = {
-				social_liberal_drift = 0.1
-				social_liberal_acceptance = 85
+				social_liberalism_drift = 0.1
+				social_liberalism_acceptance = 85
 			}
 		}
 
-		classical_liberal_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea classical_liberal_influence" }
+		classical_liberalism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea classical_liberalism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = classical_liberal
+				has_government = classical_liberalism
 			}
 			modifier = {
-				classical_liberal_drift = 0.1
-				classical_liberal_acceptance = 85
+				classical_liberalism_drift = 0.1
+				classical_liberalism_acceptance = 85
 			}
 		}
 
-		social_conservative_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_conservative_influence" }
+		social_conservatism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea social_conservatism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = social_conservative
+				has_government = social_conservatism
 			}
 			modifier = {
-				social_conservative_drift = 0.1
-				social_conservative_acceptance = 85
+				social_conservatism_drift = 0.1
+				social_conservatism_acceptance = 85
 			}
 		}
 
-		authoritarian_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea authoritarian_influence" }
+		paternalism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternalism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = authoritarian
+				has_government = paternalism
 			}
 			modifier = {
-				authoritarian_drift = 0.1
-				authoritarian_acceptance = 85
+				paternalism_drift = 0.1
+				paternalism_acceptance = 85
 			}
 		}
-		revolutionary_nationalist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_nationalist_influence" }
+		revolutionary_nationalism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_nationalism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = revolutionary_nationalist
+				has_government = revolutionary_nationalism
 			}
 			modifier = {
-				revolutionary_nationalist_drift = 0.1
-				revolutionary_nationalist_acceptance = 85
+				revolutionary_nationalism_drift = 0.1
+				revolutionary_nationalism_acceptance = 85
 			}
 		}
-		volkist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea volkist_influence" }
+		volkism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea volkism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = volkist
+				has_government = volkism
 			}
 			modifier = {
-				volkist_drift = 0.1
-				volkist_acceptance = 85
+				volkism_drift = 0.1
+				volkism_acceptance = 85
 			}
 		}
 
-		paternal_autocrat_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternal_autocrat_influence" }
+		despotism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea despotism_influence" }
 			picture = generic_fascism_drift_bonus
 			allowed_civil_war = {
-				has_government = paternal_autocrat
+				has_government = despotism
 			}
 			modifier = {
-				paternal_autocrat_drift = 0.1
-				paternal_autocrat_acceptance = 85
+				despotism_drift = 0.1
+				despotism_acceptance = 85
 			}
 		}
 
-		reactionary_ultranationalist_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea reactionary_ultranationalist_influence" }
+		ultrareactionism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ultrareactionism_influence" }
 			picture = generic_fascism_drift_bonus
 			allowed_civil_war = {
-				has_government = reactionary_ultranationalist
+				has_government = ultrareactionism
 			}
 			modifier = {
-				reactionary_ultranationalist_drift = 0.1
-				reactionary_ultranationalist_acceptance = 85
+				ultrareactionism_drift = 0.1
+				ultrareactionism_acceptance = 85
 			}
 		}
 

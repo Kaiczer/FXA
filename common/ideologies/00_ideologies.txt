@@ -1,7 +1,7 @@
 ideologies = {
-	authoritarian_socialist = {
+	authoritarian_socialism = {
 		types = {
-			authoritarian_socialist_subtype = { }
+			authoritarian_socialism_subtype = { }
 			revolutionary_showaism_subtype = { can_be_randomly_selected = no }
 			national_bolshevism_subtype = { can_be_randomly_selected = no color = { 64 4 4 } }
 		}
@@ -31,9 +31,9 @@ ideologies = {
 		}
 		ai_neutral = yes #ai_communist
 	}
-	vanguard_socialist = {
+	vanguard_socialism = {
 		types = {
-			vanguard_socialist_subtype = { }
+			vanguard_socialism_subtype = { }
 			monarchical_socialism_subtype = { can_be_randomly_selected = no }
 			leninism_subtype = { can_be_randomly_selected = no }
 			syndicalism_subtype = { can_be_randomly_selected = no }
@@ -65,9 +65,9 @@ ideologies = {
 		ai_neutral = yes #ai_communist	
 	}
 
-	revolutionary_socialist = {
+	revolutionary_socialism = {
 		types = {
-			revolutionary_socialist_subtype = {}
+			revolutionary_socialism_subtype = {}
 			socialist_feminism_subtype = { can_be_randomly_selected = no }
 			utopian_socialism_subtype = { can_be_randomly_selected = no }
 			anarcho_syndicalism_subtype = { can_be_randomly_selected = no }
@@ -102,9 +102,9 @@ ideologies = {
 		ai_neutral = yes #ai_communist	
 	}
 	
-	social_democrat = {
+	social_democracy = {
 		types = {
-			social_democrat_subtype = {}
+			social_democracy_subtype = {}
 			socdem_democratic_socialism_subtype = { can_be_randomly_selected = no }
 			socdem_left_nationalism_subtype = { can_be_randomly_selected = no }
 		}
@@ -135,9 +135,9 @@ ideologies = {
 		ai_neutral = yes #ai_fascist
 	}
 	
-	social_liberal = {
+	social_liberalism = {
 		types = {
-			social_liberal_subtype = {}
+			social_liberalism_subtype = {}
 			soclib_centrism_subtype = { can_be_randomly_selected = no }
 			radical_liberalism_subtype = { can_be_randomly_selected = no }
 		}
@@ -168,9 +168,9 @@ ideologies = {
 		ai_neutral = yes #ai_fascist	
 	}
 
-	classical_liberal = {
+	classical_liberalism = {
 		types = {
-			classical_liberal_subtype = {}
+			classical_liberalism_subtype = {}
 			clslib_centrism_subtype = { can_be_randomly_selected = no }
 			liberal_conservatism_subtype = { can_be_randomly_selected = no }
 			venizelism_subtype = { can_be_randomly_selected = no }
@@ -202,9 +202,9 @@ ideologies = {
 		ai_neutral = yes #ai_fascist
 	}
 	
-	social_conservative = {
+	social_conservatism = {
 		types = {
-			social_conservative_subtype = {}
+			social_conservatism_subtype = {}
 			christian_democracy_subtype = { can_be_randomly_selected = no }
 			toryism_subtype = { can_be_randomly_selected = no }
 		}
@@ -235,9 +235,9 @@ ideologies = {
 		ai_neutral = yes #ai_fascist	
 	}
 	
-	authoritarian = {
+	paternalism = {
 		types = {
-			authoritarian_subtype = {}
+			paternalism_subtype = {}
 			national_conservatism_subtype = { can_be_randomly_selected = no }
 			shogunal_democracy = { can_be_randomly_selected = no }
 			controlled_democracy_subtype = { can_be_randomly_selected = no }
@@ -269,9 +269,9 @@ ideologies = {
 		}
 		ai_neutral = yes #ai_fascist		
 	}
-	revolutionary_nationalist = {
+	revolutionary_nationalism = {
 		types = {
-			revolutionary_nationalist_subtype = { }
+			revolutionary_nationalism_subtype = { }
 			reform_showaism_subtype = { can_be_randomly_selected = no }
 			national_syndicalism_subtype = { can_be_randomly_selected = no }
 			carnarianism_subtype = { can_be_randomly_selected = no }
@@ -303,9 +303,9 @@ ideologies = {
 		}
 		ai_neutral = yes #ai_fascist
 	}
-	volkist = {
+	volkism = {
 		types = {
-			volkist_subtype = {}
+			volkism_subtype = {}
 			volk_legionarism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
@@ -335,9 +335,9 @@ ideologies = {
 		ai_neutral = yes #ai_fascist 	
 
 	}
-	paternal_autocrat = {
+	despotism = {
 		types = {
-			paternal_autocrat_subtype = { }
+			despotism_subtype = { }
 			absolute_monarchism_subtype = { can_be_randomly_selected = no }
 			samurai_dictatorship_subtype = { can_be_randomly_selected = no }
 			caudillo_populism_subtype = { can_be_randomly_selected = no }
@@ -345,12 +345,12 @@ ideologies = {
 			high_toryism_subtype = { can_be_randomly_selected = no }
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+			"FACTION_NAME_DESPOTISM_1"
+			"FACTION_NAME_DESPOTISM_2"
+			"FACTION_NAME_DESPOTISM_3"
+			"FACTION_NAME_DESPOTISM_4"
+			"FACTION_NAME_DESPOTISM_5"
+			"FACTION_NAME_DESPOTISM_6"
 		}
 		color = { 45 45 45 } #45 45 45
 		rules = {
@@ -370,9 +370,9 @@ ideologies = {
 		}
 		ai_neutral = yes #ai_fascist 
 	}
-	reactionary_ultranationalist = {
+	ultrareactionism = {
 		types = {
-			reactionary_ultranationalist_subtype = { }
+			ultrareactionism_subtype = { }
 			klan_nationalism_subtype = { can_be_randomly_selected = no }
 			orthodox_nichirenism_subtype = { can_be_randomly_selected = no }
 		}

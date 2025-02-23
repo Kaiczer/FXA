@@ -33,11 +33,11 @@ if = {
 }
 recruit_character = ENG_george_frederick_windsor
 set_popularities = {
-	social_democrat = 51
-	social_conservative = 49
+	social_democracy = 51
+	social_conservatism = 49
 }
 set_politics = {	
-	ruling_party = social_conservative
+	ruling_party = social_conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

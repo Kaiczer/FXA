@@ -30,16 +30,16 @@ if = {
 	}
 }
 set_popularities = {
-	social_democrat = 7
-	social_liberal = 2
-	classical_liberal = 3
-	social_conservative = 15
-	authoritarian = 10
-	revolutionary_nationalist = 61
-	paternal_autocrat = 2
+	social_democracy = 7
+	social_liberalism = 2
+	classical_liberalism = 3
+	social_conservatism = 15
+	paternalism = 10
+	revolutionary_nationalism = 61
+	despotism = 2
 }
 set_politics = {	
-	ruling_party = revolutionary_nationalist
+	ruling_party = revolutionary_nationalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

@@ -254,8 +254,8 @@ liberate_workers_occupation = {
 
 	visible = {
 		OR = {
-			has_government = vanguard_socialist
-			has_government = revolutionary_socialist
+			has_government = vanguard_socialism
+			has_government = revolutionary_socialism
 		}
 	}
 
@@ -397,7 +397,7 @@ brutally_oppressive_occupation = {
 	sound_effect = "Martial_Law_Interface_Brutally_Oppressive_Occupation_Unique_FAS"
 
 	visible = {
-		#has_any_authoritarian_government = yes
+		#has_any_paternalism_government = yes
 	}
 
 	state_modifier = {

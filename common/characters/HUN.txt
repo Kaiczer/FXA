@@ -5,16 +5,16 @@ characters = {
 			civilian = "gfx/leaders/HUN/HUN_miklos_horthy.png"
 		}
 		country_leader = {
-			ideology = authoritarian_subtype
+			ideology = paternalism_subtype
 		}
 		country_leader = {
-			ideology = revolutionary_nationalist_subtype
+			ideology = revolutionary_nationalism_subtype
 		}
 		country_leader = {
-			ideology = paternal_autocrat_subtype
+			ideology = despotism_subtype
 		}
 		country_leader = {
-			ideology = reactionary_ultranationalist_subtype
+			ideology = ultrareactionism_subtype
 		}
 	}
 }

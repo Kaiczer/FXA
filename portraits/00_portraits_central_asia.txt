@@ -12,23 +12,14 @@ ALO = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -37,18 +28,16 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_4"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -59,7 +48,7 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -70,7 +59,7 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -81,7 +70,18 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -90,7 +90,7 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -99,7 +99,7 @@ ALO = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -122,7 +122,7 @@ BHU = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -131,18 +131,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_5"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -153,7 +142,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -164,7 +153,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -175,7 +164,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -186,7 +175,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -197,7 +186,18 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_5"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -206,7 +206,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -215,7 +215,7 @@ BHU = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -239,23 +239,14 @@ ETS = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -264,7 +255,16 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -275,7 +275,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -286,7 +286,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -297,7 +297,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -308,7 +308,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -317,7 +317,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -326,7 +326,7 @@ ETS = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -350,23 +350,14 @@ KUM = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -375,7 +366,16 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -386,7 +386,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -397,7 +397,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -408,7 +408,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -419,7 +419,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -428,7 +428,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -437,7 +437,7 @@ KUM = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -461,23 +461,14 @@ TRK = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -486,18 +477,16 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_4"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -508,7 +497,7 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -519,7 +508,7 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -530,7 +519,18 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -539,7 +539,7 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -548,7 +548,7 @@ TRK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -571,7 +571,7 @@ MON = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -581,19 +581,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_5"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -605,7 +593,19 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_5"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -616,7 +616,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -627,7 +627,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -638,7 +638,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -649,7 +649,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -658,7 +658,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -667,7 +667,7 @@ MON = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -691,7 +691,7 @@ NEP = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -701,19 +701,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_5"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -725,7 +713,19 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_5"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -736,7 +736,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -747,7 +747,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -758,7 +758,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -769,7 +769,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -778,7 +778,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -787,7 +787,7 @@ NEP = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -811,23 +811,14 @@ KHI = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -836,7 +827,7 @@ KHI = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -845,7 +836,7 @@ KHI = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -854,7 +845,7 @@ KHI = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -863,7 +854,7 @@ KHI = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -872,21 +863,30 @@ KHI = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -907,7 +907,7 @@ TIB = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -917,19 +917,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_5"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -941,7 +929,19 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_5"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -952,7 +952,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -963,7 +963,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -974,7 +974,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -985,7 +985,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -994,7 +994,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -1003,7 +1003,7 @@ TIB = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -1027,23 +1027,14 @@ BUK = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Central_Asia_Generic_new_1"
-				"GFX_Portrait_Central_Asia_Generic_new_2"
-				"GFX_Portrait_Central_Asia_Generic_new_3"
-				"GFX_Portrait_Central_Asia_Generic_new_4"
-				"GFX_Portrait_Central_Asia_Generic_new_6"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -1052,18 +1043,16 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_6"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
 				"GFX_Portrait_Central_Asia_Generic_new_4"
 				"GFX_Portrait_Central_Asia_Generic_new_6"
-				"GFX_Portrait_Central_Asia_Generic_new_7"
-				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_liberal = {
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -1074,7 +1063,7 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		classical_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -1085,7 +1074,7 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		social_conservative = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_2"
@@ -1096,7 +1085,18 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		authoritarian = {
+		social_conservatism = {
+			male = {
+				"GFX_Portrait_Central_Asia_Generic_new_1"
+				"GFX_Portrait_Central_Asia_Generic_new_2"
+				"GFX_Portrait_Central_Asia_Generic_new_3"
+				"GFX_Portrait_Central_Asia_Generic_new_4"
+				"GFX_Portrait_Central_Asia_Generic_new_6"
+				"GFX_Portrait_Central_Asia_Generic_new_7"
+				"GFX_Portrait_Central_Asia_Generic_new_8"
+			}
+		}
+		paternalism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -1105,7 +1105,7 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"
@@ -1114,7 +1114,7 @@ BUK = {
 				"GFX_Portrait_Central_Asia_Generic_new_8"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Central_Asia_Generic_new_1"
 				"GFX_Portrait_Central_Asia_Generic_new_3"

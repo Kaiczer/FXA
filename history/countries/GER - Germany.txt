@@ -34,20 +34,20 @@ create_faction = eurospakt
 add_to_faction = HOL
 
 set_popularities = {
-	authoritarian_socialist = 7
-	volkist = 40
-	revolutionary_nationalist = 11
-	reactionary_ultranationalist = 11
-	paternal_autocrat = 4
-	authoritarian = 15
-	social_conservative = 12
+	authoritarian_socialism = 7
+	volkism = 40
+	revolutionary_nationalism = 11
+	ultrareactionism = 11
+	despotism = 4
+	paternalism = 15
+	social_conservatism = 12
 }
-add_coalition_social_conservative = yes 
-add_coalition_revolutionary_nationalist = yes
-add_coalition_authoritarian_socialist = yes
+add_coalition_social_conservatism = yes 
+add_coalition_revolutionary_nationalism = yes
+add_coalition_authoritarian_socialism = yes
 
 set_politics = {	
-	ruling_party = volkist
+	ruling_party = volkism
 	last_election = "1932.4.10" #Last election in 1932 before Prussian Putch
 	election_frequency = 84 #why the term is so long af
 	elections_allowed = no 

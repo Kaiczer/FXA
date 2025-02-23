@@ -264,7 +264,7 @@ MAF = {
 		}
 	}
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -274,20 +274,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -300,7 +287,20 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -317,7 +317,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -334,7 +334,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -352,7 +352,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -370,7 +370,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -381,7 +381,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -392,7 +392,7 @@ MAF = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -440,7 +440,7 @@ GEA = {
 	}
 
 	political = {
-		authoritarian_socialist = {
+		authoritarian_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -450,20 +450,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_12"
 			}
 		}
-		vanguard_socialist = {
-			male = {
-				"GFX_Portrait_Europe_Generic_new_16"
-				"GFX_Portrait_Europe_Generic_new_13"
-				"GFX_Portrait_Europe_Generic_new_10"
-				"GFX_Portrait_Europe_Generic_new_15"
-				"GFX_Portrait_Europe_Generic_new_1"
-				"GFX_Portrait_Europe_Generic_new_2"
-				"GFX_Portrait_Europe_Generic_new_5"
-				"GFX_Portrait_Europe_Generic_new_12"
-				"GFX_Portrait_Europe_Generic_new_11"
-			}
-		}
-		revolutionary_socialist = {
+		vanguard_socialism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -476,7 +463,20 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		social_democrat = {
+		revolutionary_socialism = {
+			male = {
+				"GFX_Portrait_Europe_Generic_new_16"
+				"GFX_Portrait_Europe_Generic_new_13"
+				"GFX_Portrait_Europe_Generic_new_10"
+				"GFX_Portrait_Europe_Generic_new_15"
+				"GFX_Portrait_Europe_Generic_new_1"
+				"GFX_Portrait_Europe_Generic_new_2"
+				"GFX_Portrait_Europe_Generic_new_5"
+				"GFX_Portrait_Europe_Generic_new_12"
+				"GFX_Portrait_Europe_Generic_new_11"
+			}
+		}
+		social_democracy = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -493,7 +493,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_liberal = {
+		social_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -510,7 +510,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		classical_liberal = {
+		classical_liberalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -528,7 +528,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		social_conservative = {
+		social_conservatism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -546,7 +546,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_18"
 			}
 		}
-		authoritarian = {
+		paternalism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -557,7 +557,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_11"
 			}
 		}
-		paternal_autocrat = {
+		despotism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"
@@ -568,7 +568,7 @@ GEA = {
 				"GFX_Portrait_Europe_Generic_new_7"
 			}
 		}
-		reactionary_ultranationalist = {
+		ultrareactionism = {
 			male = {
 				"GFX_Portrait_Europe_Generic_new_16"
 				"GFX_Portrait_Europe_Generic_new_13"

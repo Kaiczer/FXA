@@ -31,19 +31,19 @@ if = {
 }
 
 set_popularities = {
-	authoritarian_socialist = 2
-	vanguard_socialist = 3
-	revolutionary_socialist = 7
-	social_democrat = 12
-	social_liberal = 8
-	classical_liberal = 9
-	social_conservative = 29
-	authoritarian = 10
-	revolutionary_nationalist = 8
-	volkist = 12
+	authoritarian_socialism = 2
+	vanguard_socialism = 3
+	revolutionary_socialism = 7
+	social_democracy = 12
+	social_liberalism = 8
+	classical_liberalism = 9
+	social_conservatism = 29
+	paternalism = 10
+	revolutionary_nationalism = 8
+	volkism = 12
 }
 set_politics = {	
-	ruling_party = social_conservative
+	ruling_party = social_conservatism
 	last_election = "1933.3.25"
 	election_frequency = 36
 	elections_allowed = yes

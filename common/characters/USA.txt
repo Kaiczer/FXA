@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			desc = USA_fiorello_la_guardia_leader_desc
-			ideology = social_liberal_subtype
+			ideology = social_liberalism_subtype
 			traits = { USA_people_president }
 		}
 	}
@@ -20,7 +20,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = classical_liberal_subtype
+			ideology = classical_liberalism_subtype
 		}
 	}
 }

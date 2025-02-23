@@ -13,7 +13,7 @@ political_actions = {
 			trigger = {
 				OR = {
 					has_left_democratic_government = yes
-					has_government = classical_liberal
+					has_government = classical_liberalism
 				}
 			}
 		}
@@ -23,8 +23,8 @@ political_actions = {
 			key = oppression
 			trigger = {
 				OR = {
-					has_government = social_conservative
-					has_government = authoritarian
+					has_government = social_conservatism
+					has_government = paternalism
 				}
 			}
 		}
@@ -69,8 +69,8 @@ political_actions = {
 			key = generic_political_rally
 			trigger = {
 				NOT = {
-					has_government = authoritarian_socialist
-					has_authoritarian_government = yes
+					has_government = authoritarian_socialism
+					has_paternalism_government = yes
 				}
 			}
 		}
@@ -80,8 +80,8 @@ political_actions = {
 			key = eng_propaganda_campaigns
 			trigger = {
 				OR = {
-					has_government = authoritarian_socialist
-					has_authoritarian_government = yes
+					has_government = authoritarian_socialism
+					has_paternalism_government = yes
 				}
 			}
 		}

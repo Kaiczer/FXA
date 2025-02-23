@@ -5,10 +5,10 @@ characters = {
 			civilian = "gfx/leaders/UKR/UKR_symon_petliura.png"
 		}
 		country_leader = {
-			ideology = social_democrat_subtype
+			ideology = social_democracy_subtype
 		}
 		country_leader = {
-			ideology = authoritarian_subtype
+			ideology = paternalism_subtype
 		}
 	}
 }
