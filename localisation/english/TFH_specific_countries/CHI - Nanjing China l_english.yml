@@ -2,12 +2,20 @@
 #### Bookmark Description ####
 
 ### Countries Name ###
-CHI: "Nanjing Government"
-CHI_DEF: "the National Government"
-CHI_ADJ: "Kuomintang Chinese"
+CHI: "Nanjing"
+CHI_DEF: "Nanjing"
+CHI_ADJ: "Nanjing"
 
-CHI_revolutionary: "National Revolutionary Government" #Kuomintang Civil War
-CHI_revolutionary_DEF: "the National Revolutionary Government of China" #Kuomintang Civil War
+CHI_government_authoritarian: "Nanjing Government"
+CHI_government_authoritarian_DEF: "the National Government"
+CHI_government_authoritarian_ADJ: "Nanjing Chinese"
+CHI_government_paternal_autocrat: "Nanjing Government"
+CHI_government_paternal_autocrat_DEF: "the National Government"
+CHI_government_paternal_autocrat_ADJ: "Nanjing Chinese"
+
+CHI_LKMT_government: "National Revolutionary Government" #Kuomintang Civil War
+CHI_LKMT_government_DEF: "the National Revolutionary Government" #Kuomintang Civil War
+CHI_LKMT_government_ADJ: "Left Kuomintang"
 
 CHI_authoritarian_socialist_party: "Communist Party of China"
 CHI_vanguard_socialist_party: "Communist Party of China"

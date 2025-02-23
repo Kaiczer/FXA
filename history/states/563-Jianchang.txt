@@ -5,10 +5,9 @@ state={
 		2067 7294 10726 12819 
 	}
 	history = {
-		owner = SCH
+		owner = CHB
+		add_core_of = CHB
 		add_core_of = SCH 
-		add_claim_by = CHI
-		add_claim_by = FNG
 		add_to_array = { state_victory_points = 2067 } #Xichang
 
 		victory_points = { 2067 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2

@@ -1954,36 +1954,6 @@ create_ambition_areas = {
 		}
 		set_variable = { ambition_area_@SLV = 1 }
 	}
-	# SNE = Shoshone / Native American Confederacy
-	if = {
-		limit = {
-			OR = {
-				is_core_of = SNE
-				is_claimed_by = SNE
-				state = 1005
-				state = 1006
-				## Required conjunction land 
-				state = 986
-				state = 987
-				state = 988
-				state = 997
-				state = 998
-				state = 999
-				## Further claim in Iroquois territory
-				state = 961
-				state = 962
-				state = 964
-				state = 966
-				state = 967
-				state = 970
-				state = 983
-				state = 984
-				state = 985
-				state = 989
-			}
-		}
-		set_variable = { ambition_area_@SNE = 1 }
-	}
 	# SOM = Somalia
 	if = {
 		limit = {

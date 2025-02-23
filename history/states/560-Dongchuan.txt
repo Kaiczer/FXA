@@ -8,8 +8,8 @@ state={
 	history = {
 		owner = SCH
 		add_core_of = SCH 
-		add_claim_by = CHI
-		add_claim_by = FNG
+		
+		
 		add_to_array = { state_victory_points = 11865 } #Daxian
 
 		victory_points = { 11865 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7

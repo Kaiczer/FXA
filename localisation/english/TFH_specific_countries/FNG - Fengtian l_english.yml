@@ -2,9 +2,21 @@
 #### Bookmark Description ####
 
 ### Countries Name ###
-FNG: "Beijing Government"
-FNG_DEF: "the Government of National Pacification Army"
-FNG_ADJ: "Beiyang Chinese"
+FNG: "Fengtian"
+FNG_DEF: "Fengtian"
+FNG_ADJ: "Fengtian"
+
+FNG_government_authoritarian: "Beijing Government"
+FNG_government_authoritarian_DEF: "the National Pacification Military Government"
+FNG_government_authoritarian_ADJ: "Beiyang Chinese"
+
+FNG_united_china_government: "China"
+FNG_united_china_government_DEF: "China"
+FNG_united_china_government_ADJ: "Chinese"
+
+FNG_united_china_government_authoritarian: "Republic of China"
+FNG_united_china_government_authoritarian_DEF: "the Republic of China"
+FNG_united_china_government_authoritarian_ADJ: "Chinese"
 
 FNG_authoritarian_socialist_party: "CPC"
 FNG_authoritarian_socialist_party_long: "Zhongguo Gongchandang (Communist Party of China)"

@@ -8,8 +8,8 @@ state={
 	history = {
 		owner = MEN
 		add_core_of = MEN
-		add_claim_by = CHI
-		add_claim_by = FNG
+		
+		
 		add_to_array = { state_victory_points = 10451 } #Ordos
 
 		victory_points = { 10451 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2

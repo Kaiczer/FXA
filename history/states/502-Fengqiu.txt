@@ -11,8 +11,8 @@ state={
 	history = {
 		owner = ZHI
 		add_core_of = ZHI
-		add_claim_by = FNG
-		add_claim_by = CHI
+		
+		
 		add_to_array = { state_victory_points = 4144 } #Hebi
 
 		victory_points = { 4144 5 } #POP 3 + STRAT 0 + POL 0 = SIG 3

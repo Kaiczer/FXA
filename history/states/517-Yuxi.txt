@@ -8,8 +8,8 @@ state={
 	history = {
 		owner = SHX
 		add_core_of = SHX
-		add_claim_by = FNG
-		add_claim_by = CHI
+		
+		
 		add_to_array = { state_victory_points = 1976 } #Xian
 
 		victory_points = { 1976 30 } #POP 3 + STRAT 2 + POL 2 + BAL 1 = SIG 8

@@ -264,25 +264,12 @@ debug_decisions = {
 				transfer_state = 992
 				transfer_state = 993
 			}
-			SNE = {
+			CAS = {
 				transfer_state = 1009
 			}
 			NEE = {
 				every_state = {
 					limit = { is_new_england = yes }
-					transfer_state_to = PREV
-				}
-			}
-			NAR = {
-				every_state = {
-					limit = { 
-						OR = {
-							region = 120
-							state = 1005
-							state = 1006
-							state = 1007
-						}	
-					}
 					transfer_state_to = PREV
 				}
 			}

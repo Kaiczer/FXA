@@ -56,12 +56,11 @@ can_release_united_states = {
 			NOT = {
 				country_exists = USA
 				country_exists = SCA
-				country_exists = NAR
                 country_exists = CLF
                 country_exists = ALS
                 country_exists = NEE
                 country_exists = TEX
-                country_exists = SNE
+                country_exists = CAS
 			}
 		}
         NOT = {
@@ -113,12 +112,11 @@ should_release_america_first = {
             amount = 3
             country_exists = USA
             country_exists = SCA
-            country_exists = NAR
             country_exists = CLF
             country_exists = ALS
             country_exists = NEE
             country_exists = TEX
-            country_exists = SNE
+            country_exists = CAS
         }
 		960 = { is_valid_annexation_state = no }
         973 = { is_valid_annexation_state = no }

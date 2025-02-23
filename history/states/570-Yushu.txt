@@ -9,8 +9,8 @@ state={
 		owner = XSM
 		add_core_of = XSM
 		add_claim_by = TIB
-		add_claim_by = CHI
-		add_claim_by = FNG
+		
+		
 		add_to_array = { state_victory_points = 1882 } #Yushu
 
 		victory_points = { 1882 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2

@@ -31,16 +31,20 @@ if = {
 		}
 	}
 }
-
+CHI = {
+	set_autonomy = {
+		target = PREV 
+		autonomous_state = associated_governorate
+	}
+}
 set_politics = {	
 	ruling_party = authoritarian
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-CHI = {
-	set_autonomy = {
-		target = PREV 
-		autonomous_state = associated_governorate
-	}
+set_party_name = {
+	ideology = authoritarian
+	name = GXC_Xinan_KMT_party
+	long_name = GXC_Xinan_KMT_party_long
 }

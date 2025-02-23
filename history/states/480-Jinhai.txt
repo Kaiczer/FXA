@@ -6,7 +6,7 @@ state={
 	history={
 		owner = FNG
 		add_core_of = FNG
-		add_claim_by = CHI
+		
 		add_to_array = { state_victory_points = 7109 } #Baoding
 
 		victory_points = { 7109 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7

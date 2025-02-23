@@ -7,7 +7,7 @@ state={
 	history = {
 		owner = CHI
 		add_core_of = CHI
-		add_claim_by = FNG
+		
 		add_to_array = { state_victory_points = 7191 } #Hangzhou
 
 		victory_points = { 7191 20 } #POP 4 + STRAT 2 + POL 1 = SIG 7

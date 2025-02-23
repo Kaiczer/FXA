@@ -12,7 +12,7 @@ state={
 	history = {
 		owner = GXC
 		add_core_of = GXC
-		add_claim_by = FNG
+		
 		add_to_array = { state_victory_points = 4050 } #Huiyang
 
 		victory_points = { 4050 15 } #POP 4 + STRAT 1 + POL 0 = SIG 5

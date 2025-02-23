@@ -5,10 +5,13 @@ SCH_ADJ: "Sichuanese"
 
 ### Country Names
 SCH_KMT: "Sichuan"
-SCH_KMT_DEF: "the Pacification Authority of Sichuan"
+SCH_KMT_DEF: "the Chongqing Pacification Authority"
 SCH_KMT_ADJ: "Sichuanese"
 
 ### Parties
+SCH_RKMT_party: "Chongqing Headquarters" #Pro-KMT Liu Xiang
+SCH_RKMT_party_long: "Gemingjun Junshi Weiyuanhui Chongqing Xingying (NRA Military Commission's Headquarters in Chongqing)"
+
 SCH_social_democrat_party: "Tridemists Clique" #Lü Chao and other KMTs
 SCH_social_democrat_party_long: "Qin Sun Wen Pai (Pro-Sun Wen Faction)"
 SCH_classical_liberal_party: "Home Rule Clique" #Xiong Kewu
@@ -17,7 +20,5 @@ SCH_social_conservative_party: "Baoding Clique" #Deng Xihou / Liu Wenhui (Xikang
 SCH_social_conservative_party_long: "Baoding Xi (Baoding Clique)"
 SCH_authoritarian_party: "Armament Clique" #Yang Sen / Liu Cunhou
 SCH_authoritarian_party_long: "Wubei Xi (Tianjin Alumni Clique)"
-SCH_paternal_autocrat_party_kmt: "Liu Xiang's Clique" #Pro-KMT Liu Xiang
-SCH_paternal_autocrat_party_kmt_long: "Chuan-Kang Suijing Gongshu (Chuan-Kang Pacification Commission)"
 SCH_paternal_autocrat_party: "Sucheng Clique" #Independent Liu Xiang
 SCH_paternal_autocrat_party_long: "Sucheng Xi (Accelerated School Clique)"

@@ -6,8 +6,8 @@ state={
 	history={
 		owner = MEN
 		add_core_of = MEN
-		add_claim_by = CHI
-		add_claim_by = FNG
+		
+		
 		add_to_array = { state_victory_points = 10424 } #Guisui
 
 		victory_points = { 10424 5 } #POP 2 + STRAT 0 + POL 1 = SIG 3

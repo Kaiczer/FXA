@@ -8,8 +8,8 @@ state={
 	history = {
 		owner = SDL
 		add_core_of = SDL
-		add_claim_by = FNG
-		add_claim_by = CHI
+		
+		
 		add_to_array = { state_victory_points = 1104 } #Yantai
 
 		victory_points = { 1104 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
