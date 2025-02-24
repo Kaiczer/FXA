@@ -149,7 +149,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionAuthoritarianSocialist
+	name = GetCoalitionAuthSoc
 	text = {
 		trigger = {
 			NOT = {
@@ -165,7 +165,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionVanguardSocialist
+	name = GetCoalitionVanSoc
 	text = {
 		trigger = {
 			NOT = {
@@ -181,7 +181,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionRevSocialist
+	name = GetCoalitionRevSoc
 	text = {
 		trigger = {
 			NOT = {
@@ -197,7 +197,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionSocialDemocrat
+	name = GetCoalitionSocDem
 	text = {
 		trigger = {
 			NOT = {
@@ -213,7 +213,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionSocialLiberal
+	name = GetCoalitionSocLib
 	text = {
 		trigger = {
 			NOT = {
@@ -229,7 +229,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionClassicalLiberal
+	name = GetCoalitionClaLib
 	text = {
 		trigger = {
 			NOT = {
@@ -245,7 +245,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionSocialConservative
+	name = GetCoalitionSocCon
 	text = {
 		trigger = {
 			NOT = {
@@ -261,7 +261,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionAuthoritarian
+	name = GetCoalitionPaternalist
 	text = {
 		trigger = {
 			NOT = {
@@ -277,7 +277,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionRevNationalist
+	name = GetCoalitionRevNat
 	text = {
 		trigger = {
 			NOT = {
@@ -309,7 +309,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionPaternalAutocrat
+	name = GetCoalitionDespotist
 	text = {
 		trigger = {
 			NOT = {
@@ -325,7 +325,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionReactUltranationalist
+	name = GetCoalitionUltRea
 	text = {
 		trigger = {
 			NOT = { has_government = ultrareactionism }
