@@ -7,11 +7,25 @@ state={
 	history = {
 		owner = NZL  
 		add_core_of = FIJ 
-		add_claim_by = ENG
 		add_claim_by = NZL  
+		add_to_array = { state_victory_points = 4286 }
+
+		victory_points = { 4286 1 } #Suva
+
+		buildings = {
+			infrastructure = 1
+			7302 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=180000
-        state_category = undeveloped_rural_region
+	manpower=180000
+	state_category = one_island
 }

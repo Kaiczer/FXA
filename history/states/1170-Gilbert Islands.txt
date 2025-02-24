@@ -8,9 +8,33 @@ state={
 		owner = ENG 
 		add_core_of = SSF 
 		add_claim_by = ENG  
+		add_to_array = { state_victory_points = 13021 }
+
+		victory_points = { 13021 1 }
+
+		buildings = {
+			infrastructure = 1
+			13021 = {
+				naval_base = 1
+			}
+			4387 = {
+				naval_base = 1
+			}
+			7393 = {
+				naval_base = 1
+			}
+			13020 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=28900
-        state_category = undeveloped_rural_region
+	manpower=28900
+	state_category = zero_island
 }

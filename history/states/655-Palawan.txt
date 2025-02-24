@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = PHI 
 		add_core_of = PHI  
+
+		buildings = {
+			infrastructure = 1
+			4429 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=83041
-        state_category = undeveloped_rural_region
+	manpower=83041
+	state_category = undeveloped_rural_region
 }

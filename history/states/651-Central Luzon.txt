@@ -7,10 +7,29 @@ state={
 	}
 	history = {
 		owner = PHI 
-		add_core_of = PHI  
+		add_core_of = PHI 
+		add_to_array = { state_victory_points = 10265 }
+		add_to_array = { state_victory_points = 1221 }
+		add_to_array = { state_victory_points = 1415 }
+
+		victory_points = { 1415 1 } #Dagupan
+		victory_points = { 10265 15 } #Manila
+		victory_points = { 1221 1 } #Batangas
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 6
+			10265 = {
+				naval_base = 5
+			}
+			1415 = {
+				naval_base = 1
+			}
+		} 
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=3548684
-        state_category = undeveloped_rural_region
+	manpower=3548684
+	state_category = urbanised_region
 }

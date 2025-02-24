@@ -8,9 +8,24 @@ state={
 		owner = ENG 
 		add_core_of = SSF 
 		add_claim_by = ENG  
+		
+		buildings = {
+			infrastructure = 1
+			13056 = {
+				naval_base = 1
+			}
+			13054 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=5444
-        state_category = undeveloped_rural_region
+	manpower=5444
+	state_category = zero_island
 }

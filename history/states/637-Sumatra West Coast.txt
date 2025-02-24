@@ -4,13 +4,24 @@ state={
 	provinces={
 		1428 1460 1533 4446 7368 10194 10354 10382 10522 12126 12415 
 	}
+	resources = {
+		rubber = 77
+	}
 	history = {
 		owner = BEI
 		add_core_of = DEI
+		add_core_of = INS
 		add_claim_by = BEI 
+		add_to_array = { state_victory_points = 10354 }
+
+		victory_points = { 10354 5 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2379198
-        state_category = undeveloped_rural_region
+	manpower=2379198
+	state_category = peripheral_region
 }

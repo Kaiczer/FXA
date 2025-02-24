@@ -8,9 +8,50 @@ state={
 		owner = JAP 
 		add_core_of = SSF 
 		add_claim_by = JAP  
+		add_to_array = { state_victory_points = 2489 }
+		add_to_array = { state_victory_points = 13028 }
+		add_to_array = { state_victory_points = 13036 }
+
+		victory_points = { 2489 1 } #Truk
+		victory_points = { 13028 1 } #Yap
+		victory_points = { 13036 1 } #Ponape
+
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			2489 = {
+				naval_base = 6
+			}
+			13028 = {
+				naval_base = 1
+			}
+			13030 = {
+				naval_base = 1
+			}
+			13031 = {
+				naval_base = 1
+			}
+			13032 = {
+				naval_base = 1
+			}
+			13034 = {
+				naval_base = 1
+			}
+			13035 = {
+				naval_base = 1
+			}
+			13036 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=42357
-        state_category = undeveloped_rural_region
+	manpower=42357
+	state_category = one_island
 }

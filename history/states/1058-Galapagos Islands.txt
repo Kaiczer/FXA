@@ -7,9 +7,19 @@ state={
 	history = {
 		owner = ECU 
 		add_core_of = ECU
+		add_to_array = { state_victory_points = 5023 }
+
+		victory_points = { 5023 1 }
+
+		buildings = {
+			infrastructure = 1
+			5023 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=11532
-        state_category = undeveloped_rural_region
+	manpower=11532
+	state_category = zero_island
 }

@@ -1,26 +1,26 @@
 state={
-	id=645
-	name="STATE_645"
+	id=634
+	name="STATE_634"
 	provinces={
-		1419 1437 1574 7369 7413 7557 10141 10342 10409 
+		1326 12178 12190 12206 13001 
 	}
 	history = {
-		owner = BEI
-		add_core_of = DEI
+		owner = POR
+		add_claim_by = POR
 		add_core_of = INS
-		add_claim_by = BEI 
+		
+		add_to_array = { state_victory_points = 12190 }
+		victory_points = { 12190 1 } # Dili
+
 		buildings = {
 			infrastructure = 1
-			1574 = {
-				naval_base = 1
-			}
-			7413 = {
+			12190 = {
 				naval_base = 1
 			}
 		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-	manpower=1104780
+	manpower=455604
 	state_category = peripheral_region
 }

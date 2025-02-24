@@ -2,12 +2,26 @@
 state={
 	id=642
 	name="STATE_642"
-
+	resources = {
+		rubber = 89
+	}
 	history={
 		owner = BEI
 		add_core_of = DEI
 		add_claim_by = BEI
+		add_to_array = { state_victory_points = 10237 }
 
+		victory_points = { 10237 1 }
+
+		buildings = {
+			infrastructure = 1
+			10237 = {
+				naval_base = 3
+			}
+			10325 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={
@@ -15,6 +29,6 @@ state={
 	}
 	manpower=622256
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

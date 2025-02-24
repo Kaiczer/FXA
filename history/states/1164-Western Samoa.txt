@@ -8,9 +8,24 @@ state={
 		owner = NZL 
 		add_core_of = SSF 
 		add_claim_by = NZL  
+		add_to_array = { state_victory_points = 7290 }
+
+		victory_points = { 7290 1 }
+
+		buildings = {
+			infrastructure = 1
+			7290 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=55900
-        state_category = undeveloped_rural_region
+	manpower=55900
+	state_category = one_island
 }

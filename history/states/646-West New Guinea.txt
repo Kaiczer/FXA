@@ -2,14 +2,28 @@
 state={
 	id=646
 	name="STATE_646"
-
+	resources = {
+		aluminium = 40
+	}
 	history={
 		owner = AST
 		add_core_of = DEI
-		add_claim_by = BEI
+		add_core_of = PNG
+		add_claim_by = INS
 		add_claim_by = AST
-		add_core_of = PPG
+		add_to_array = { state_victory_points = 12371 }
 
+		victory_points = { 12371 1 }
+
+		buildings = {
+			infrastructure = 1
+			12371 = {
+				naval_base = 2
+			}
+			4579 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={
@@ -17,6 +31,6 @@ state={
 	}
 	manpower=246502
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
+	local_supplies=1.000
 }

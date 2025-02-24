@@ -4,12 +4,28 @@ state={
 	provinces={
 		2197 2203 2211 4819 5195 7839 8204 8212 8232 8241 10650 12632 12966 12974 12980 12988 
 	}
+	resources = {
+		tungsten = 5
+	}
 	history = {
 		owner = NZL
 		add_core_of = NZL
+		add_to_array = { state_victory_points = 2197 }
+		add_to_array = { state_victory_points = 2211 }
+
+		victory_points = { 2197 1 } #Christchurch
+		victory_points = { 2211 1 } #Dunedin
+
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			2197 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=555774
-        state_category = undeveloped_rural_region
+	manpower=555774
+	state_category = developing_rural_region
 }

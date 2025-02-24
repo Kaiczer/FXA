@@ -7,10 +7,32 @@ state={
 	history = {
 		owner = AST
 		add_claim_by = AST 
-		add_core_of = PPG
+		add_core_of = PNG
+		add_to_array = { state_victory_points = 7251 }
+
+		victory_points = { 7251 1 }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			7251 = {
+				naval_base = 5
+			}
+			4352 = {
+				naval_base = 1
+			}
+			7339 = {
+				naval_base = 1
+			}
+		}
+		
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=345640
-        state_category = undeveloped_rural_region
+	manpower=345640
+	state_category = peripheral_region
 }

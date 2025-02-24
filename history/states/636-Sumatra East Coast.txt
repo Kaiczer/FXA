@@ -5,13 +5,32 @@ state={
 	provinces={
 		1277 4652 7327 7463 7673 10209 12168 12181 12302 12343 
 	}
+	resources = {
+		aluminium = 5
+		rubber = 75
+	}
 	history = {
 		owner = BEI
 		add_core_of = DEI
+		add_core_of = INS
 		add_claim_by = BEI 
+		add_to_array = { state_victory_points = 4652 }
+		add_to_array = { state_victory_points = 12181 }
+
+		victory_points = { 4652 1 }
+		victory_points = { 12181 5 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			4652 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2308361
-        state_category = undeveloped_rural_region
+	manpower=2308361
+	state_category = undeveloped_rural_region
 }

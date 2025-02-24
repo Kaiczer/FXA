@@ -8,9 +8,25 @@ state={
 		owner = JAP 
 		add_core_of = SSF 
 		add_claim_by = JAP  
+		add_to_array = { state_victory_points = 12103 }
+
+		victory_points = { 12103 1 } #Koror
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			12103 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=12100
-        state_category = undeveloped_rural_region
+	manpower=12100
+	state_category = zero_island
 }

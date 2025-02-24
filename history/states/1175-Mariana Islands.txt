@@ -8,9 +8,28 @@ state={
 		owner = JAP 
 		add_core_of = SSF 
 		add_claim_by = JAP  
+		add_to_array = { state_victory_points = 3995 }
+
+		victory_points = { 3995 1 } #Garapan
+
+		buildings = {
+			infrastructure = 1
+			air_base = 3
+			3995 = {
+				naval_base = 1
+			}
+			13023 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=21657
-        state_category = undeveloped_rural_region
+	manpower=21657
+	state_category = zero_island
 }

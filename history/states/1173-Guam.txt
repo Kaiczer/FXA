@@ -7,9 +7,19 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 12140 }
+
+		victory_points = { 12140 1 } #Agana
+
+		buildings = {
+			infrastructure = 2
+			12140 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=20900
-        state_category = undeveloped_rural_region
+	manpower=20900
+	state_category = one_island
 }

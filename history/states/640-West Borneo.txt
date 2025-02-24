@@ -2,12 +2,21 @@
 state={
 	id=640
 	name="STATE_640"
-
+	resources = {
+		oil = 12
+		rubber = 33
+	}
 	history={
 		owner = BEI
 		add_core_of = DEI
+		add_core_of = INS
 		add_claim_by = BEI
-
+		buildings = {
+			infrastructure = 1
+			1316 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={

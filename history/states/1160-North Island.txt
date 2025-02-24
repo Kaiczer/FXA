@@ -7,9 +7,27 @@ state={
 	history = {
 		owner = NZL
 		add_core_of = NZL
+		add_to_array = { state_victory_points = 1814 }
+		add_to_array = { state_victory_points = 4543 }
+
+		victory_points = { 1814 10 } #Wellington
+		victory_points = { 4543 5 } #Auckland
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+			4543 = {
+				naval_base = 3
+			}
+			1814 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1018036
-        state_category = undeveloped_rural_region
+	manpower=1018036
+	state_category = urbanising_region
 }

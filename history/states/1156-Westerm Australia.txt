@@ -7,9 +7,24 @@ state={
 	history = {
 		owner = AST
 		add_core_of = AST 
+		add_to_array = { state_victory_points = 1652 }
+		add_to_array = { state_victory_points = 8228 }
+
+		victory_points = { 1652 10 } #Perth
+		victory_points = { 8228 1 } #Fremantle
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			8228 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=425308
-        state_category = undeveloped_rural_region
+	manpower=425308
+	state_category = developing_rural_region
 }

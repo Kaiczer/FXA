@@ -6,9 +6,13 @@ state={
 	history={
 		owner = AST
 		add_core_of = DEI
-		add_claim_by = BEI
+		add_core_of = PNG
+		add_claim_by = INS
 		add_claim_by = AST
-		add_core_of = PPG
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -17,6 +21,6 @@ state={
 	impassable = yes
 	manpower=7261
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=wasteland
 	local_supplies=0.000
 }

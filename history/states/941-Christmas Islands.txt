@@ -7,9 +7,15 @@ state={
 	history = {
 		owner = AST
 		add_core_of = AST 
+		buildings = {
+			infrastructure = 1
+			13005 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1667
-        state_category = undeveloped_rural_region
+	manpower=1667
+	state_category = zero_island
 }

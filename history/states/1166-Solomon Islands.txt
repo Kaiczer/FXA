@@ -8,9 +8,29 @@ state={
 		owner = AST
 		add_core_of = SSF
 		add_claim_by = AST 
+		add_to_array = { state_victory_points = 1269 }
+		add_to_array = { state_victory_points = 4378 }
+
+		victory_points = { 1269 1 } #Honiara
+		victory_points = { 4378 1 } #Buin
+
+		buildings = {
+			infrastructure = 1
+			1269 = {
+				naval_base = 2
+			}
+			4378 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
+		set_garrison_strength = 1.0
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=150000
-        state_category = undeveloped_rural_region
+	manpower=150000
+	state_category = one_island
 }
