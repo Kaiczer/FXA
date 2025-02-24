@@ -759,7 +759,6 @@ country_event = {
 						}
 						NOT = { has_state_flag = keeping_state@FROM }
 					}
-					transfer_state_without_overriding_occupation = yes
 				}
 			}
 		}

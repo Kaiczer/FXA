@@ -231,9 +231,6 @@ on_actions = {
 			#bypass not calling puppets into war exploit
 			country_event = ai_events.100
 
-			#annexation failsafe
-			recheck_annexations = yes
-
 		}
 	}
 
@@ -573,15 +570,6 @@ on_actions = {
 			# 	FROM.FROM = { rename_state_effect = yes }
 			# }
 
-			### Annexation Check
-			if = {
-				limit = {
-					owns_state = FROM.FROM
-					FROM.FROM = { has_state_flag = annexation_trigger_state }
-				}
-				recheck_annexations = yes
-			}
-
 			### Operative Nationality Check
 			# if = {
 			# 	limit = {
@@ -673,7 +661,6 @@ on_actions = {
 				#clear embargo flags
 				every_possible_country = { clear_embargo_PREV = yes }
 			}
-			recheck_annexations = yes
 
 			every_occupied_country = {
 				limit = { has_variable = ROOT.can_integrate_@THIS }
@@ -1108,7 +1095,6 @@ on_actions = {
 				clr_global_flag = pc_has_non_subject_winner
 				clear_array = global.pc_winners_array
 				clear_array = global.pc_losers_array
-				every_country = { recheck_annexations = yes }
 			}
 
 			# remove the force-surrender idea, just in case it's still there

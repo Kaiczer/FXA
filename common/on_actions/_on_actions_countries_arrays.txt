@@ -43,6 +43,7 @@ on_actions = {
 			add_to_array = { global.european_tags_array = ICE }
 			add_to_array = { global.european_tags_array = IRE }
 			add_to_array = { global.european_tags_array = ITA }
+			add_to_array = { global.european_tags_array = ISC }
 			add_to_array = { global.european_tags_array = LAT }
 			add_to_array = { global.european_tags_array = LIT }
 			add_to_array = { global.european_tags_array = LOM }
@@ -155,6 +156,9 @@ on_actions = {
 			add_to_array = { global.asian_tags_array = ZHI }
 
 			#Set up Indian tags array
+			add_to_array = { global.indian_tags_array = MNR }
+			add_to_array = { global.indian_tags_array = SDH }
+			add_to_array = { global.indian_tags_array = KOL }
 			add_to_array = { global.indian_tags_array = ASM }
 			add_to_array = { global.indian_tags_array = BAL }
 			add_to_array = { global.indian_tags_array = BNG }
@@ -181,7 +185,6 @@ on_actions = {
 			add_to_array = { global.middle_eastern_tags_array = EGY }
 			add_to_array = { global.middle_eastern_tags_array = GEO }
 			add_to_array = { global.middle_eastern_tags_array = IRQ }
-			add_to_array = { global.middle_eastern_tags_array = ISC }
 			add_to_array = { global.middle_eastern_tags_array = ISR }
 			add_to_array = { global.middle_eastern_tags_array = JOR }
 			add_to_array = { global.middle_eastern_tags_array = KUR }
@@ -211,7 +214,7 @@ on_actions = {
 
 			#Set up African tags array
 			add_to_array = { global.african_tags_array = ADA }
-			add_to_array = { global.african_tags_array = AIR }
+			add_to_array = { global.african_tags_array = AYR }
 			add_to_array = { global.african_tags_array = ANG }
 			add_to_array = { global.african_tags_array = BGA }
 			add_to_array = { global.african_tags_array = BOR }
@@ -299,8 +302,8 @@ on_actions = {
 			add_to_array = { global.caribbean_tags_array = TRI }
 
 			#Set Up North American tags array
-			add_to_array = { global.north_american_tags_array = CAN }
 			add_to_array = { global.north_american_tags_array = ALS }
+			add_to_array = { global.north_american_tags_array = CAN }
 			add_to_array = { global.north_american_tags_array = CLF }
 			add_to_array = { global.north_american_tags_array = NEE }
 			add_to_array = { global.north_american_tags_array = NFL }
@@ -512,6 +515,12 @@ on_actions = {
 				set_variable = { paired_impassable = 800.id } #Tripoli
 			}
 
+			#Set up Great Britain array and flags
+			every_state = {
+				limit = { is_great_britain = yes }
+				add_to_array = { global.great_britain_states_array = THIS }
+			}
+
 			#Set up mainland France array and flags
 			every_state = {
 				limit = {
@@ -526,6 +535,32 @@ on_actions = {
 			for_each_scope_loop = {
 				array = global.france_states_array
 				set_state_flag = is_mainland_france_state
+			}
+
+			#Set up mainland Italy array and flags
+			every_state = {
+				limit = {
+					OR = {
+						region = 23 #Northern Italy
+						region = 181 #Southern Italy
+						state = 149
+						state = 150
+						state = 151
+					}
+				}
+				add_to_array = { global.italy_states_array = THIS }
+			}
+			for_each_scope_loop = {
+				array = global.italy_states_array
+				set_state_flag = is_mainland_italy_state
+			}
+
+			#Set up United States mainland 
+			USA = {
+				every_owned_state = {
+					limit = { is_in_home_area = yes }
+					set_state_flag = USA_mainland_state
+				}
 			}
 		}
 	}

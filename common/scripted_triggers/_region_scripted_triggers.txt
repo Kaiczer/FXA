@@ -75,45 +75,7 @@ is_germany = {
 }
 
 owns_at_least_six_german_states = {
-	count_triggers = {
-		amount = 6
-		#North Germany
-		41 = { is_valid_annexation_state = yes } 
-		42 = { is_valid_annexation_state = yes } 
-		43 = { is_valid_annexation_state = yes } 
-		55 = { is_valid_annexation_state = yes } 
-
-		#Rhineland
-		51 = { is_valid_annexation_state = yes }
-		53 = { is_valid_annexation_state = yes } 
-		54 = { is_valid_annexation_state = yes } 
-
-		#Brandenburg
-		37 = { is_valid_annexation_state = yes }
-		36 = { is_valid_annexation_state = yes }
-		5 = { is_valid_annexation_state = yes }
-
-		
-		33 = { is_valid_annexation_state = yes } 
-		46 = { is_valid_annexation_state = yes } 
-		47 = { is_valid_annexation_state = yes } 
-
-		#South Germany
-		49 = { is_valid_annexation_state = yes } 
-		50 = { is_valid_annexation_state = yes }
-		56 = { is_valid_annexation_state = yes } 
-		57 = { is_valid_annexation_state = yes } 
-		58 = { is_valid_annexation_state = yes } 
-
-		#East Oder
-		34 = { is_valid_annexation_state = yes } 
-		35 = { is_valid_annexation_state = yes } 
-		44 = { is_valid_annexation_state = yes }
-
-		#other
-		38 = { is_valid_annexation_state = yes } 
-		40 = { is_valid_annexation_state = yes } 
-	}
+	
 }
 
 is_north_germany = {
@@ -125,28 +87,11 @@ is_north_germany = {
 	}
 }
 
-has_valid_north_germany_annexation_state = {
-	OR = {
-		41 = { is_valid_annexation_state = yes } 
-		42 = { is_valid_annexation_state = yes } 
-		43 = { is_valid_annexation_state = yes } 
-		55 = { is_valid_annexation_state = yes } 
-	}
-}
-
 is_rhineland = {
 	OR = {
 		state = 51
 		state = 53 
 		state = 54 
-	}
-}
-
-has_valid_rhineland_annexation_state = {
-	OR = {
-		51 = { is_valid_annexation_state = yes }
-		53 = { is_valid_annexation_state = yes } 
-		54 = { is_valid_annexation_state = yes } 
 	}
 }
 
@@ -158,27 +103,11 @@ is_brandenburg = {
 	}
 }
 
-has_valid_brandenburg_annexation_state = {
-	OR = {
-		5 = { is_valid_annexation_state = yes } 
-		36 = { is_valid_annexation_state = yes } 
-		37 = { is_valid_annexation_state = yes }
-	}
-}
-
 is_saxony = {
 	OR = {
 		state = 33 
 		state = 46 
 		state = 47 
-	}
-}
-
-has_valid_saxony_annexation_state = {
-	OR = {
-		33 = { is_valid_annexation_state = yes } 
-		46 = { is_valid_annexation_state = yes } 
-		47 = { is_valid_annexation_state = yes } 
 	}
 }
 
@@ -192,16 +121,6 @@ is_south_germany = {
 	}
 }
 
-has_valid_south_germany_annexation_state = {
-	OR = {
-		49 = { is_valid_annexation_state = yes } 
-		50 = { is_valid_annexation_state = yes } 
-		56 = { is_valid_annexation_state = yes } 
-		57 = { is_valid_annexation_state = yes } 
-		58 = { is_valid_annexation_state = yes } 
-	}
-}
-
 is_east_oder = {
 	OR = {
 		state = 35 
@@ -210,24 +129,16 @@ is_east_oder = {
 	}
 }
 
-has_valid_east_oder_annexation_state = {
-	OR = {
-		34 = { is_valid_annexation_state = yes } 
-		35 = { is_valid_annexation_state = yes } 
-		44 = { is_valid_annexation_state = yes } 
-	}
-}
-
 owns_states_in_two_major_german_regions = {
-	count_triggers = {
-		amount = 2
-		has_valid_north_germany_annexation_state = yes
-		has_valid_rhineland_annexation_state = yes
-		has_valid_brandenburg_annexation_state = yes
-		has_valid_saxony_annexation_state = yes
-		has_valid_south_germany_annexation_state = yes
-		has_valid_east_oder_annexation_state = yes
-	}
+	# count_triggers = {
+	# 	amount = 2
+	# 	has_valid_north_germany_annexation_state = yes
+	# 	has_valid_rhineland_annexation_state = yes
+	# 	has_valid_brandenburg_annexation_state = yes
+	# 	has_valid_saxony_annexation_state = yes
+	# 	has_valid_south_germany_annexation_state = yes
+	# 	has_valid_east_oder_annexation_state = yes
+	# }
 }
 
 is_full_germany = {
@@ -374,21 +285,6 @@ is_china_claim_area = {
 		is_mainland_china_claim_area = yes
 		state = 541 #Taiwan
 	}
-}
-
-has_valid_china_annexation_state = {
-	479 = { is_valid_annexation_state = yes }
-	498 = { is_valid_annexation_state = yes }
-	513 = { is_valid_annexation_state = yes }
-	518 = { is_valid_annexation_state = yes }
-	525 = { is_valid_annexation_state = yes }
-	529 = { is_valid_annexation_state = yes }
-	544 = { is_valid_annexation_state = yes }
-	558 = { is_valid_annexation_state = yes }
-	561 = { is_valid_annexation_state = yes }
-	566 = { is_valid_annexation_state = yes }
-	570 = { is_valid_annexation_state = yes }
-	571 = { is_valid_annexation_state = yes }
 }
 
 is_mainland_china_state = {
