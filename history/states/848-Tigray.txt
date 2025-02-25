@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = ETH 
 		add_core_of = ETH  
+		add_to_array = { state_victory_points = 2072 }
+		add_to_array = { state_victory_points = 13828 }
+		add_to_array = { state_victory_points = 13829 }
+
+		victory_points = { 2072 2 } #Mekelle
+		victory_points = { 13828 1 } #Aksum
+		victory_points = { 13829 1 } #Adwa
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1460000
-        state_category = undeveloped_rural_region
+	manpower=1460000
+	state_category = peripheral_region
 }

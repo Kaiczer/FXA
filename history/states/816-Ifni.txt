@@ -8,9 +8,19 @@ state={
 		owner = SPA
 		add_core_of = MOR
 		add_claim_by = SPA
+		add_to_array = { state_victory_points = 12857 }
+		
+		victory_points = { 12857 1 } #Sidi Ifni
+
+		buildings = {
+			infrastructure = 1
+			12857 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=11043
-        state_category = undeveloped_rural_region
+	manpower=11043
+	state_category = peripheral_region
 }

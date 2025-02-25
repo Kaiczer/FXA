@@ -9,9 +9,13 @@ state={
 		add_core_of = EGY
 		add_core_of = SUD
 		add_claim_by = ENG
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1108287
-        state_category = undeveloped_rural_region
+	manpower=1108287
+	state_category = peripheral_region
 }

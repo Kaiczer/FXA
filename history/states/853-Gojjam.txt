@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = ETH 
 		add_core_of = ETH  
+		add_to_array = { state_victory_points = 13824 }
+
+		victory_points = { 13824 2 } #Debre Markos
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1314000
-        state_category = undeveloped_rural_region
+	manpower=1314000
+	state_category = peripheral_region
 }

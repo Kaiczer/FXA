@@ -9,9 +9,20 @@ state={
 		add_core_of = GAM 
 		add_claim_by = SEN
 		add_claim_by = SIE
+
+		buildings = {
+			infrastructure = 1
+			4989 = {
+				naval_base = 1
+			}
+		}
+
+		start_resistance = yes
+		set_resistance = 9
+		set_compliance = 15
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=199520
-        state_category = undeveloped_rural_region
+	manpower=199520
+	state_category = peripheral_region
 }

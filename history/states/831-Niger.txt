@@ -8,6 +8,13 @@ state={
 		add_claim_by = WEA
 		add_core_of = AYR
 		add_core_of = NGR
+		add_to_array = { state_victory_points = 10758 }
+
+		victory_points = { 10758 1 } #Sinder
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -15,6 +22,6 @@ state={
 	}
 	manpower=1209653
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	state_category=peripheral_region
+	local_supplies=1.000
 }

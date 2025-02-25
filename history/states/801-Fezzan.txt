@@ -6,13 +6,17 @@ state={
 	history={
 		owner = LBA
 		add_core_of = LBA
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	impassable = yes
 	provinces={
 		7194 12022 13572 13584 
 	}
+	impassable = yes
 	manpower=42633
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=wasteland
 	local_supplies=0.000
 }

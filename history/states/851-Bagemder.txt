@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = ETH 
 		add_core_of = ETH  
+		add_to_array = { state_victory_points = 1984 }
+
+		victory_points = { 1984 2 } #Gondar
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1606000
-        state_category = undeveloped_rural_region
+	manpower=1606000
+	state_category = peripheral_region
 }

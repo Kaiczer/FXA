@@ -7,9 +7,21 @@ state={
 	history = {
 		owner = MOR
 		add_core_of = MOR
+		add_to_array = { state_victory_points = 7069 }
+
+		victory_points = { 7069 3 } #Casablanca
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			7069 = {
+				naval_base = 5
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2131272
-        state_category = undeveloped_rural_region
+	manpower=2131272
+	state_category = developing_rural_region
 }

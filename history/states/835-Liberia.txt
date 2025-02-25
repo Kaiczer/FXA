@@ -4,12 +4,27 @@ state={
 	provinces={
 		7959 8006 13565 13604 
 	}
+	resources = {
+		rubber = 7
+	}
 	history = {
 		owner = LIB   
 		add_core_of = LIB
+		add_to_array = { state_victory_points = 13604 }
+
+		victory_points = { 13604 3 }
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+			13604 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=808000
-        state_category = undeveloped_rural_region
+	manpower=808000
+	state_category = developing_rural_region
 }

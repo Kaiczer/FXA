@@ -8,6 +8,17 @@ state={
 		add_claim_by = WEA
 		add_claim_by = MSL
 		add_core_of = IVO
+		add_to_array = { state_victory_points = 10836 }
+
+		victory_points = { 10836 1 } #Ouagadougou
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		start_resistance = yes
+		set_resistance = 38
+		set_compliance = 7
 	}
 
 	provinces={
@@ -16,5 +27,5 @@ state={
 	manpower=3754166
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=1.000
 }

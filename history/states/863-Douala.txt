@@ -4,13 +4,30 @@ state={
 	provinces={
 		5036 6039 
 	}
+	resources = {
+		rubber = 10
+	}
 	history={
 		owner = EQA
 		add_core_of = CMR
 		add_claim_by = EQA
+		add_to_array = { state_victory_points = 6039 }
+
+		victory_points = { 6039 1 }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			industrial_complex = 1
+			arms_factory = 1
+			6039 = {
+				naval_base = 1
+			}
+		}
+
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1031024
-        state_category = undeveloped_rural_region
+	manpower=1031024
+	state_category = developing_rural_region
 }

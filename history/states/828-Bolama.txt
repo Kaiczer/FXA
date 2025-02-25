@@ -8,9 +8,19 @@ state={
 		owner = POR   
 		add_core_of = GNA
 		add_claim_by = POR
+		add_to_array = { state_victory_points = 12747 }
+
+		victory_points = { 12747 1 } #Bolama
+
+		buildings = {
+			infrastructure = 1
+			12891 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=364900
-        state_category = undeveloped_rural_region
+	manpower=364900
+	state_category = undeveloped_rural_region
 }

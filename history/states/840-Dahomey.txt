@@ -9,9 +9,19 @@ state={
 		add_claim_by = WEA 
 		add_claim_by = YOR
 		add_core_of = DAH
+		add_to_array = { state_victory_points = 10919 }
+
+		victory_points = { 10919 1 }
+
+		buildings = {
+			infrastructure = 1
+			10919 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2114000
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=2114000
+	state_category = undeveloped_rural_region
 }

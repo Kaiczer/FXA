@@ -9,9 +9,16 @@ state={
 		owner = POR     
 		add_core_of = ANG
 		add_claim_by = POR 
+		add_to_array = { state_victory_points = 8219 }
+
+		victory_points = { 8219 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=371188
-        state_category = undeveloped_rural_region
+	manpower=371188
+	state_category = peripheral_region
 }

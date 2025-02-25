@@ -9,9 +9,21 @@ state={
 		add_core_of = HAU
 		add_claim_by = NGA 
 		add_claim_by = SIE
+		add_to_array = { state_victory_points = 13214 }
+		add_to_array = { state_victory_points = 1969 }
+		add_to_array = { state_victory_points = 1891 }
+
+		victory_points = { 13214 3 } #Kaduna
+		victory_points = { 1969 2 } #Katsena
+		victory_points = { 1891 1 } #Sokoto
+
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=6634755
-        state_category = undeveloped_rural_region
+	manpower=6634755
+	state_category = undeveloped_rural_region
 }

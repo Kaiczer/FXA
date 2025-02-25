@@ -4,13 +4,23 @@ state={
 	provinces={
 		988 7219 7931 10071 12775 
 	}
+	resources = {
+		rubber = 10
+	}
 	history = {
 		owner = COG
 		add_core_of = COG
 		add_claim_by = BEL
+		add_to_array = { state_victory_points = 10071 }
+
+		victory_points = { 10071 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=566403
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=566403
+	state_category = peripheral_region
 }

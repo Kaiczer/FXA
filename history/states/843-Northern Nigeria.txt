@@ -7,7 +7,15 @@ state={
 		owner = SIE
 		add_core_of = NGA
 		add_claim_by = SIE
+		add_to_array = { state_victory_points = 12900 }
+		add_to_array = { state_victory_points = 4889 }
 
+		victory_points = { 12900 2 } #Lokoja
+		victory_points = { 4889 1 } #Yola
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

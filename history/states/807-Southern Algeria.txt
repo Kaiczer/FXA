@@ -8,9 +8,20 @@ state={
 		owner = FRA
 		add_core_of = FRA 
 		add_core_of = ALG
+		add_to_array = { state_victory_points = 1126 }
+		
+		victory_points = { 1126 1 } #Laghouat
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 20
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=577519
-        state_category = undeveloped_rural_region
+	manpower=577519
+	state_category = wasteland
 }

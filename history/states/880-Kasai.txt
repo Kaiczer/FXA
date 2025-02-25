@@ -8,9 +8,16 @@ state={
 		owner = COG
 		add_core_of = COG
 		add_claim_by = BEL
+		add_to_array = { state_victory_points = 1731 }
+
+		victory_points = { 1731 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1134568
-        state_category = undeveloped_rural_region
+	manpower=1134568
+	state_category = undeveloped_rural_region
 }

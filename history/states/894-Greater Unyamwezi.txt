@@ -9,9 +9,18 @@ state={
 		owner = KEN   
 		add_claim_by = KEN
 		add_core_of = TGN  
+		add_to_array = { state_victory_points = 8144 }
+		add_to_array = { state_victory_points = 13317 }
+
+		victory_points = { 8144 1 } #Tabora
+		victory_points = { 13317 1 } #Muansa
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1771440
-        state_category = undeveloped_rural_region
+	manpower=1771440
+	state_category = developing_rural_region
 }

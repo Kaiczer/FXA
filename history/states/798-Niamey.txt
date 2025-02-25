@@ -7,6 +7,17 @@ state={
 		owner = WEA
 		add_claim_by = WEA
 		add_core_of = NGR
+		add_to_array = { state_victory_points = 2056 }
+
+		victory_points = { 2056 1 } #Niamey
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		start_resistance = yes
+		set_resistance = 34
+		set_compliance = 8
 	}
 
 	provinces={
@@ -15,5 +26,5 @@ state={
 	manpower=1814479
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=1.000
 }

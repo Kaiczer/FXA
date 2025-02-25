@@ -4,13 +4,27 @@ state={
 	provinces={
 		8039 8096 10862 12742 12787 13136 
 	}
+	resources = {
+		aluminium = 2
+	}
 	history = {
 		owner = SIE  
 		add_core_of = GHA
 		add_claim_by = SIE
+		add_to_array = { state_victory_points = 10862 }
+
+		victory_points = { 10862 1 } #Accra
+
+		buildings = {
+			air_base = 1
+			infrastructure = 1
+			10862 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3163600
-        state_category = undeveloped_rural_region
+	manpower=3163600
+	state_category = undeveloped_rural_region
 }

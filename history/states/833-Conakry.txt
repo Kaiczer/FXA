@@ -8,9 +8,23 @@ state={
 		owner = WEA
 		add_claim_by = WEA
 		add_core_of = GNA
+		add_to_array = { state_victory_points = 1909 }
+
+		victory_points = { 1909 1 } #Conakry
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			1909 = {
+				naval_base = 2
+			}
+		}
+		start_resistance = yes
+		set_resistance = 29
+		set_compliance = 8
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=2821635
-        state_category = undeveloped_rural_region
+	local_supplies=1.000
+	manpower=2821635
+	state_category = undeveloped_rural_region
 }

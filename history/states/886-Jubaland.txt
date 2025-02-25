@@ -9,9 +9,13 @@ state={
 		owner = ITA    
 		add_claim_by = ITA
 		add_core_of = SOM  
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=85894
-        state_category = undeveloped_rural_region
+	manpower=85894
+	state_category = peripheral_region
 }

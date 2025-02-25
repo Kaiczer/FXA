@@ -6,11 +6,33 @@ state={
 	}
 	history = {
 		owner = FRA
-		add_core_of = FRA 
 		add_core_of = ALG
+		add_claim_by = FRA
+		add_to_array = { state_victory_points = 7132 }
+		add_to_array = { state_victory_points = 4150 }
+		add_to_array = { state_victory_points = 11923 }
+		add_to_array = { state_victory_points = 12020 }
+
+		victory_points = { 7132 15 } #Oran
+		victory_points = { 4150 3 } #Sidi-Bèl-Abbès
+		victory_points = { 11923 3 } #Mostaganem
+		victory_points = { 12020 2 } #Tiaret
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			7132 = {
+				naval_base = 6
+			}
+		}
+		
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 100
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1680817
-        state_category = undeveloped_rural_region
+	manpower=1680817
+	state_category = developed_rural_region
 }

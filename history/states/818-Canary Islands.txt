@@ -7,9 +7,19 @@ state={
 	history = {
 		owner = SPA
 		add_core_of = SPA
+		add_to_array = { state_victory_points = 13071 }
+		
+		victory_points = { 13071 1 } #Las Palmas
+
+		buildings = {
+			infrastructure = 1
+			13071 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=555128
-        state_category = undeveloped_rural_region
+	manpower=555128
+	state_category = one_island
 }

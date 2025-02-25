@@ -9,9 +9,19 @@ state={
 		add_claim_by = KEN
 		add_claim_by = TGN
 		add_core_of = ZAN 
+		add_to_array = { state_victory_points = 13551 }
+
+		victory_points = { 13551 5 }
+
+		buildings = {
+			infrastructure = 1
+			13551 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=178400
-        state_category = undeveloped_rural_region
+	manpower=178400
+	state_category = peripheral_region
 }

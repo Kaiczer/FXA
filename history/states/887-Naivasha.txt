@@ -8,9 +8,16 @@ state={
 	history = {
 		owner = KEN   
 		add_core_of = KEN
+		add_to_array = { state_victory_points = 1939 }
+
+		victory_points = { 1939 3 }
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=415984
-        state_category = undeveloped_rural_region
+	local_supplies=2.000
+	manpower=415984
+	state_category = developing_rural_regin
 }

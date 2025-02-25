@@ -7,6 +7,17 @@ state={
 		owner = WEA
 		add_claim_by = WEA
 		add_core_of = MRT
+		add_to_array = { state_victory_points = 5034 }
+
+		victory_points = { 5034 1 } #Nouakchott
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		start_resistance = yes
+		set_resistance = 13
+		set_compliance = 9
 	}
 
 	provinces={
@@ -14,6 +25,6 @@ state={
 	}
 	manpower=296412
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

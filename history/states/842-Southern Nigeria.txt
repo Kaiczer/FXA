@@ -9,6 +9,15 @@ state={
 		owner = SIE  
 		add_core_of = NGA 
 		add_claim_by = SIE
+		add_to_array = { state_victory_points = 8034 }
+		add_to_array = { state_victory_points = 10831 }
+
+		victory_points = { 8034 1 } #Port Harcourt
+		victory_points = { 10831 1 } #Calabar
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=5716003
 	buildings_max_level_factor=1.000

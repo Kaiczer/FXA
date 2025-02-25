@@ -4,12 +4,24 @@ state={
 	provinces={
 		7912 13817 13820 
 	}
+	resources = {
+		rubber = 2
+	}
 	history = {
 		owner = ETH 
 		add_core_of = ETH  
+		add_to_array = { state_victory_points = 7912 }
+		add_to_array = { state_victory_points = 13820 }
+
+		victory_points = { 7912 1 } #Jimma
+		victory_points = { 13820 2 } #Gambela
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=876000
-        state_category = undeveloped_rural_region
+	manpower=876000
+	state_category = peripheral_region
 }

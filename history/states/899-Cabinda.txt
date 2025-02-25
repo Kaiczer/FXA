@@ -9,9 +9,19 @@ state={
 		add_core_of = COG
 		add_core_of = ANG
 		add_claim_by = POR 
+		add_to_array = { state_victory_points = 2115 }
+
+		victory_points = { 2115 1 }
+
+		buildings = {
+			infrastructure = 1
+			2115 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=42500
-        state_category = undeveloped_rural_region
+	manpower=42500
+	state_category = minor_port
 }

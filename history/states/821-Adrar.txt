@@ -8,10 +8,13 @@ state={
 		owner = WEA
 		add_claim_by = WEA
 		add_core_of = MRT
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=40000
-        state_category = undeveloped_rural_region
+	manpower=40000
+	state_category = wasteland
 }

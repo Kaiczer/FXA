@@ -8,9 +8,21 @@ state={
 	history = {
 		owner = LBA
 		add_core_of = LBA
+		add_to_array = { state_victory_points = 1149 }
+		
+		victory_points = { 1149 5 }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			industrial_complex = 1
+			1149 = {
+				naval_base = 3
+			}
+		}
 	}
 	manpower=1206000
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developed_rural_region
 	local_supplies=0.000
 }

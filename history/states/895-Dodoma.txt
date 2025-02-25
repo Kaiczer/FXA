@@ -8,9 +8,17 @@ state={
 		owner = KEN   
 		add_claim_by = KEN
 		add_core_of = TGN  
+		add_to_array = { state_victory_points = 12911 }
+
+		victory_points = { 12911 1 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=923925
-        state_category = undeveloped_rural_region
+	manpower=923925
+	state_category = undeveloped_rural_region
 }

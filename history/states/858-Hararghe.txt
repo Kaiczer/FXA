@@ -6,7 +6,16 @@ state={
 	history={
 		owner = ETH
 		add_core_of = ETH
+		add_to_array = { state_victory_points = 7980 }
+		add_to_array = { state_victory_points = 13822 }
 
+		victory_points = { 7980 2 } #Dire Dawa
+		victory_points = { 13822 3 } #Harar
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

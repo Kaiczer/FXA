@@ -5,14 +5,19 @@ state={
 
 	history = {
 		owner = FRA
-		add_core_of = FRA 
 		add_core_of = ALG
+		add_claim_by = FRA 
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
-	impassable = yes
-
+	
 	provinces={
 		12849 13586 
 	}
+	
+	impassable = yes
 	manpower=70245
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region

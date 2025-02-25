@@ -9,9 +9,25 @@ state={
 		add_core_of = ERI 
 		add_claim_by = ETH 
 		add_claim_by = ITA
+		add_to_array = { state_victory_points = 12723 }
+		add_to_array = { state_victory_points = 12766 }
+		add_to_array = { state_victory_points = 13831 }
+
+		victory_points = { 12723 1 } #Bishia
+		victory_points = { 12766 1 } #Massawa
+		victory_points = { 13831 3 } #Asmara
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			12766 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=706600
-        state_category = undeveloped_rural_region
+	manpower=706600
+	state_category = undeveloped_rural_region
 }

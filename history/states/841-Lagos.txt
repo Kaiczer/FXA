@@ -8,7 +8,20 @@ state={
 		add_core_of = YOR
 		add_claim_by = NGA
 		add_claim_by = SIE
+		add_to_array = { state_victory_points = 4952 }
+		add_to_array = { state_victory_points = 2050 }
+		add_to_array = { state_victory_points = 10991 }
+		
+		victory_points = { 4952 3 } #Benin
+		victory_points = { 2050 15 } #Lagos
+		victory_points = { 10991 1 } #Ilorin
 
+		buildings = {
+			infrastructure = 1
+			2050 = {
+				naval_base = 3
+			}
+		}
 	}
 
 	provinces={
@@ -16,6 +29,6 @@ state={
 	}
 	manpower=2402372
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

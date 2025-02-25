@@ -5,10 +5,20 @@ state={
 	provinces={
 		3854 7088 7133 8223 12929 
 	}
+	resources = {
+		rubber = 5
+	}
 	history = {
 		owner = KEN   
 		add_claim_by = KEN
 		add_core_of = UGA  
+		add_to_array = { state_victory_points = 7088 }
+
+		victory_points = { 7088 1 } #Hoima
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=2812500
 	buildings_max_level_factor=1.000

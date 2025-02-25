@@ -8,9 +8,20 @@ state={
 		owner = SPA
 		add_core_of = MOR
 		add_claim_by = SPA
+		add_claim_by = MRT
+		add_to_array = { state_victory_points = 13886 }
+
+		victory_points = { 13886 1 } #El Aaiun
+
+		buildings = {
+			infrastructure = 1
+			13886 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=21056
-        state_category = undeveloped_rural_region
+	manpower=21056
+	state_category = wasteland
 }

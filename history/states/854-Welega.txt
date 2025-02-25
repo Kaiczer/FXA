@@ -7,9 +7,18 @@ state={
 	history = {
 		owner = ETH 
 		add_core_of = ETH  
+		add_to_array = { state_victory_points = 2009 }
+		add_to_array = { state_victory_points = 13821 }
+
+		victory_points = { 2009 2 } #Asosa
+		victory_points = { 13821 1 } #Dembidollo
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=876000
-        state_category = undeveloped_rural_region
+	manpower=876000
+	state_category = peripheral_region
 }

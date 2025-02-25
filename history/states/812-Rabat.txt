@@ -4,12 +4,34 @@ state={
 	provinces={
 		1194 4097 7100 10013 10070 11987 13859 
 	}
+	resources = {
+		steel = 3
+	}
 	history = {
 		owner = MOR
 		add_core_of = MOR
+		add_to_array = { state_victory_points = 10070 }
+		add_to_array = { state_victory_points = 7100 }
+		add_to_array = { state_victory_points = 4097 }
+		add_to_array = { state_victory_points = 11987 }
+
+		victory_points = { 10070 4 } #Rabat
+		victory_points = { 7100 3 } #Fez
+		victory_points = { 4097 1 } #Taza
+		victory_points = { 11987 1 } #Meknes
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			10070 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1420849
-        state_category = undeveloped_rural_region
+	manpower=1420849
+	state_category = undeveloped_rural_region
 }
