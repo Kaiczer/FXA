@@ -12,13 +12,11 @@ state={
 		add_core_of = MOR
 		add_claim_by = SPA
 		add_to_array = { state_victory_points = 13860 }
-		add_to_array = { state_victory_points = 13873 }
 		add_to_array = { state_victory_points = 4199 }
 		add_to_array = { state_victory_points = 10113 }
 		add_to_array = { state_victory_points = 12087 }
 
 		victory_points = { 13860 2 } #Ceuta
-		victory_points = { 13873 2 } #Melilla
 		victory_points = { 4199 1 } #Hoceima
 		victory_points = { 10113 1 } #Larache
 		victory_points = { 12087 1 } #Tetouan
@@ -27,9 +25,6 @@ state={
 			infrastructure = 1
 			air_base = 3
 			13860 = {
-				naval_base = 2
-			}
-			13873 = {
 				naval_base = 2
 			}
 		}
