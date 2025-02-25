@@ -9,9 +9,25 @@ state={
 		owner = SAF    
 		add_claim_by = SAF 
 		add_core_of = NMB
+		add_to_array = { state_victory_points = 5154 }
+		add_to_array = { state_victory_points = 4879 }
+		add_to_array = { state_victory_points = 2207 }
+
+		victory_points = { 4879 3 }
+		victory_points = { 2207 1 }
+		victory_points = { 5154 1 }
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+			5154 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=158235
-        state_category = undeveloped_rural_region
+	manpower=158235
+	state_category = undeveloped_rural_region
 }

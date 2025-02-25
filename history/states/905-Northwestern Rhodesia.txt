@@ -10,9 +10,13 @@ state={
 		add_claim_by = RHO 
 		add_core_of = ZAM
 		add_core_of = BSL
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=119706
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

@@ -10,9 +10,17 @@ state={
 		add_claim_by = RHO 
 		add_core_of = BSL
 		add_core_of = ZAM 
+		add_to_array = { state_victory_points = 13648 }
+		add_to_array = { state_victory_points = 7872 }
+		victory_points = { 7872 1 }
+		victory_points = { 13648 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=596754
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

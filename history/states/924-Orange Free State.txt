@@ -4,12 +4,23 @@ state={
 	provinces={
 		5231 11122 12064 12648 13773 13774 13775 13776 13777 13778 13779 
 	}
+	resources = {
+		chromium = 29
+	}
 	history = {
 		owner = SAF    
 		add_core_of = SAF 
+		add_to_array = { state_victory_points = 5231 }
+
+		victory_points = { 5231 3 } #Bloemfontein
+
+		buildings = {
+			infrastructure = 2
+		}
+
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=772100
-        state_category = undeveloped_rural_region
+	manpower=772100
+	state_category = undeveloped_rural_region
 }

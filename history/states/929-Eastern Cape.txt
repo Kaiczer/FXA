@@ -4,12 +4,28 @@ state={
 	provinces={
 		1833 4584 4696 4822 7576 13761 13762 13763 13764 13765 13766 13767 13768 
 	}
+	resources = {
+		chromium = 33
+	}
 	history = {
 		owner = SAF    
 		add_core_of = SAF 
+		add_to_array = { state_victory_points = 4696 }
+		add_to_array = { state_victory_points = 13764 }
+
+		victory_points = { 4696 2 } #Port Elizabeth
+		victory_points = { 13764 1 } #East London
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4696 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1115540
-        state_category = undeveloped_rural_region
+	manpower=1115540
+	state_category = undeveloped_rural_region
 }

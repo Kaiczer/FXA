@@ -7,9 +7,24 @@ state={
 	history = {
 		owner = SAF    
 		add_core_of = SAF 
+		add_to_array = { state_victory_points = 12589 }
+
+		victory_points = { 12589 20 } #Cape Town
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			dockyard = 1
+			12589 = {
+				naval_base = 4
+				dam = 1 #Woodhead Dam
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1799558
-        state_category = undeveloped_rural_region
+	manpower=1799558
+	state_category = urbanising_region
 }

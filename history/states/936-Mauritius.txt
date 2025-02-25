@@ -8,9 +8,16 @@ state={
 		owner = FRA
 		add_core_of = MAD
 		add_claim_by = FRA
+
+		buildings = {
+			infrastructure = 1
+			13018 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=404458
-        state_category = undeveloped_rural_region
+	manpower=404458
+	state_category = one_island
 }

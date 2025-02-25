@@ -8,9 +8,33 @@ state={
 		owner = FRA
 		add_core_of = MAD
 		add_claim_by = FRA
+		add_to_array = { state_victory_points = 5128 }
+		add_to_array = { state_victory_points = 8188 }
+		add_to_array = { state_victory_points = 12956 }
+
+		victory_points = { 5128 15 } #Antananarivo
+		victory_points = { 8188 2 } #Mahajanga
+		victory_points = { 12956 3 } #Toliara
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5222 = {
+				naval_base = 2
+			}
+			8188 = {
+				naval_base = 1
+			}
+			8246 = {
+				naval_base = 1
+			}
+			12956 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3694611
-        state_category = undeveloped_rural_region
+	manpower=3694611
+	state_category = undeveloped_rural_region
 }

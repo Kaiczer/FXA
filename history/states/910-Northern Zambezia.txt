@@ -8,9 +8,22 @@ state={
 		owner = POR     
 		add_core_of = MZB
 		add_claim_by = POR 
+		add_to_array = { state_victory_points = 12971 }
+		add_to_array = { state_victory_points = 2123 }
+
+		victory_points = { 12971 1 } #Quelimane
+		victory_points = { 2123 1 } #Moçambique
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			2123 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2767300
-        state_category = undeveloped_rural_region
+	manpower=2767300
+	state_category = developing_rural_region
 }
