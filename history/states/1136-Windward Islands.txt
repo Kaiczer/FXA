@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = ENG
 		add_core_of = ENG
+
+		buildings = {
+			infrastructure = 1
+			11350 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=365120
-        state_category = undeveloped_rural_region
+	local_supplies=4.000
+	manpower=365120
+	state_category = undeveloped_rural_region
 }

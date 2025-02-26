@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 4565 }
+		add_to_array = { state_victory_points = 4464 }
+
+		victory_points = { 4565 5 } #Jackson
+		victory_points = { 4464 2 } #Biloxi
+
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			industrial_complex = 3
+			4464 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2009821
-        state_category = undeveloped_rural_region
+	manpower=2009821
+	state_category = developed_rural_region
 }

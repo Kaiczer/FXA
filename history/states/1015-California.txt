@@ -5,12 +5,32 @@ state={
 	provinces={
 		610 710 766 768 781 823 941 986 1432 1601 1651 3588 3644 3677 3784 3840 4331 4518 4657 4727 6482 6665 6681 6694 6699 6745 6757 6772 6861 6876 6881 7667 7986 9637 9697 9713 9730 9855 9911 10159 10387 10483 11658 11698 11763 11795 11859 11876 12303 12374 
 	}
+	
+	resources = {
+		aluminium = 11
+	}
+
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 9713 }
+		add_to_array = { state_victory_points = 4518 }
+
+		victory_points = { 4518 1 } #Fresno
+		victory_points = { 9713 15 } #Sacramento
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 12
+			dockyard = 1
+			air_base = 6
+			610 = {
+				naval_base = 1
+			}
+		}
 	}
 	manpower=1890750
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=industrial_heartland
 	local_supplies=0.000
 }

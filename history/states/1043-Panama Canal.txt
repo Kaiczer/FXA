@@ -8,9 +8,24 @@ state={
 		owner = USA 
 		add_core_of = PAN
 		add_claim_by = USA
+		add_to_array = { state_victory_points = 7617 }
+
+		victory_points = { 7617 5 }
+
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			7617 = {
+				naval_base = 3
+				canal_panama = {
+					level = 1
+					allowed = { has_dlc = "Gotterdammerung" }
+				}
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=39467
-        state_category = undeveloped_rural_region
+	manpower=39467
+	state_category = major_port
 }

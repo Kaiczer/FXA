@@ -7,9 +7,26 @@ state={
 	history = {
 		owner = CAN 
 		add_core_of = CAN
+		add_core_of = QUE
+		add_to_array = { state_victory_points = 4345 }
+		add_to_array = { state_victory_points = 12149 }
+
+		victory_points = { 4345 20 } #Montreal
+		victory_points = { 12149 5 } #Quebec
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+			12149 = {
+				naval_base = 6
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1858992
-        state_category = undeveloped_rural_region
+	manpower=1858992
+	state_category = local_industrial_region
 }

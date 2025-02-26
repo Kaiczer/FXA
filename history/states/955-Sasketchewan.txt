@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = CAN 
 		add_core_of = CAN
+		add_to_array = { state_victory_points = 12603 }
+		add_to_array = { state_victory_points = 4739 }
+
+		victory_points = { 12603 4 }
+		victory_points = { 4739 1 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=844746
-        state_category = undeveloped_rural_region
+	manpower=844746
+	state_category = developing_rural_region
 }

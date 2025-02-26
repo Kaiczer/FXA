@@ -4,12 +4,26 @@ state={
 	provinces={
 		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
 	}
+	resources = {
+		oil = 4
+	}
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 1445 }
+		add_to_array = { state_victory_points = 6696 }
+
+		victory_points = { 1445 1 }
+		victory_points = { 6696 10 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			air_base = 4
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2614589
-        state_category = undeveloped_rural_region
+	manpower=2614589
+	state_category = urbanising_region
 }

@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = MEX
 		add_core_of = MEX
+		add_to_array = { state_victory_points = 12753 }
+
+		victory_points = { 12753 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=754006
-        state_category = undeveloped_rural_region
+	manpower=754006
+	state_category = undeveloped_rural_region
 }

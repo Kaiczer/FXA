@@ -7,9 +7,25 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 12735 }
+		add_to_array = { state_victory_points = 492 }
+		add_to_array = { state_victory_points = 7480 }
+
+		victory_points = { 12735 5 } #Birmingham
+		victory_points = { 492 3 } #Montgomery
+		victory_points = { 7480 2 } #Mobile
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 5
+			air_base = 2
+			7480 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2646248
-        state_category = undeveloped_rural_region
+	manpower=2646248
+	state_category = urbanised_region
 }

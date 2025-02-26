@@ -6,7 +6,25 @@ state={
 	history={
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 3957 }
+		add_to_array = { state_victory_points = 6984 }
 
+		victory_points = { 3957 40 } #Washington
+		victory_points = { 6984 15 } #Balimore
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			dockyard = 1
+			air_base = 6
+			6984 = {
+				naval_base = 2
+			}
+			3957 = {
+				naval_base = 1
+				naval_facility = 1 #United States Naval Research Laboratory (NRL)
+			}
+		}
 	}
 
 	provinces={
@@ -14,6 +32,6 @@ state={
 	}
 	manpower=1900200 #89.7% of D.C. + Maryland population
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=local_industrial_region
 	local_supplies=0.000
 }

@@ -8,9 +8,17 @@ state={
 	history = {
 		owner = CAN 
 		add_core_of = CAN
+		add_core_of = QUE
+		add_to_array = { state_victory_points = 4419 }
+
+		victory_points = { 4419 1 } #Chicoutimi
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=272670
-        state_category = undeveloped_rural_region
+	manpower=272670
+	state_category = developing_rural_region
 }

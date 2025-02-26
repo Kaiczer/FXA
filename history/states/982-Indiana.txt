@@ -4,12 +4,27 @@ state={
 	provinces={
 		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
 	}
+
+	resources = {
+		oil = 1
+	}
+
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 1595 }
+		add_to_array = { state_victory_points = 6713 }
+
+		victory_points = { 1595 15 } #Indianapolis
+		victory_points = { 6713 15 } #Gary
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=3238503
-        state_category = undeveloped_rural_region
+	manpower=3238503
+	state_category = minor_industrial_region
 }

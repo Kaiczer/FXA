@@ -5,12 +5,29 @@ state={
 	provinces={
 		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 
 	}
+	
+	resources = {
+		oil = 173
+		aluminium = 27
+	}
+
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 10798 }
+		add_to_array = { state_victory_points = 1806 }
+
+		victory_points = { 10798 6 } #Oklahoma City
+		victory_points = { 1806 3 } #Tulsa
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2300198
-        state_category = undeveloped_rural_region
+	manpower=2300198
+	state_category = developed_rural_region
 }

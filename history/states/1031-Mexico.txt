@@ -4,12 +4,34 @@ state={
 	provinces={
 		1965 5066 8089 10730 10832 12755 13449 13454 13458 
 	}
+	
+	resources = {
+		steel = 11
+	}
+
 	history = {
 		owner = MEX
 		add_core_of = MEX
+		add_to_array = { state_victory_points = 10832 }
+		add_to_array = { state_victory_points = 1965 }
+		add_to_array = { state_victory_points = 2008 }
+
+		victory_points = { 1965 25 }
+		victory_points = { 2008 10 }
+		victory_points = { 10832 3 }
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			8032 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=5397710
-        state_category = undeveloped_rural_region
+	manpower=5397710
+	state_category = urbanised_region
 }

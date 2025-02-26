@@ -8,9 +8,21 @@ state={
 		owner = ENG
 		add_core_of = TRI
 		add_claim_by = ENG
+		add_to_array = { state_victory_points = 3284 }
+		
+		victory_points = { 3284 5 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			3284 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=448300
-        state_category = undeveloped_rural_region
+	local_supplies=2.000
+	manpower=448300
+	state_category = developing_rural_region
 }

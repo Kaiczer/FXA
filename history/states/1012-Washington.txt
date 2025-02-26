@@ -7,9 +7,26 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 1690 }
+		add_to_array = { state_victory_points = 7315 }
+		add_to_array = { state_victory_points = 7386 }
+
+		victory_points = { 1690 2 } #Spokane
+		victory_points = { 7315 20 } #Seattle
+		victory_points = { 7386 5 } #Olympia
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 5
+			7315 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1563396
-        state_category = undeveloped_rural_region
+	manpower=1563396
+	state_category = urbanising_region
 }

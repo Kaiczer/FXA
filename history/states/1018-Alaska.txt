@@ -7,9 +7,31 @@ state={
 	history = {
 		owner = USA
 		add_claim_by = USA
+		add_core_of = ALS
+		add_to_array = { state_victory_points = 13090 }
+		add_to_array = { state_victory_points = 13091 }
+		add_to_array = { state_victory_points = 13203 }
+
+		victory_points = { 13090 1 }
+		victory_points = { 13091 1 }
+		victory_points = { 13203 3 }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13090 = {
+				naval_base = 1
+			}
+			13091 = {
+				naval_base = 1
+			}
+			13203 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=59278
-        state_category = undeveloped_rural_region
+	manpower=59278
+	state_category = undeveloped_rural_region
 }

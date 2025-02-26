@@ -4,12 +4,27 @@ state={
 	provinces={
 		8079 10732 10889 12810 13456 13466 
 	}
+	
+	resources = {
+		oil = 14 #10
+	}
+
 	history = {
 		owner = MEX
 		add_core_of = MEX
+		add_to_array = { state_victory_points = 12810 }
+		victory_points = { 12810 5 }
+
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12810 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1619338
-        state_category = undeveloped_rural_region
+	manpower=1619338
+	state_category = developed_rural_region
 }

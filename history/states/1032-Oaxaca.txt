@@ -4,12 +4,28 @@ state={
 	provinces={
 		2021 8236 10773 12712 13445 13448 13451 13452 
 	}
+	
+	resources = {
+		oil = 13 #9
+	}
+
 	history = {
 		owner = MEX
 		add_core_of = MEX
+		add_to_array = { state_victory_points = 13451 }
+		victory_points = { 13451 2 }
+
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 2
+			10889 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=1084549
-        state_category = undeveloped_rural_region
+	local_supplies=8.000
+	manpower=1084549
+	state_category = undeveloped_rural_region
 }

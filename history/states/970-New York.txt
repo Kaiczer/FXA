@@ -5,12 +5,26 @@ state={
 	provinces={
 		598 734 1436 3602 3702 3733 3747 6707 6717 6778 6795 6916 9664 9708 9721 9754 11650 11654 11662 11680 
 	}
+	resources = {
+		steel = 11
+	}
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 11654 }
+		add_to_array = { state_victory_points = 3733 }
+
+		victory_points = { 11654 20 } #Buffalo
+		victory_points = { 3733 3 } #Rochester
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	manpower=3394572 
-	state_category = undeveloped_rural_region
+	state_category = major_industrial_region
 }

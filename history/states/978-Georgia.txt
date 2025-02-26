@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 12384 }
+		add_to_array = { state_victory_points = 11975 }
+
+		victory_points = { 12384 20 } #Atlanta
+		victory_points = { 11975 3 } #Savannah
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 2
+			11975 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2908506
-        state_category = undeveloped_rural_region
+	manpower=2908506
+	state_category = megalopolis
 }

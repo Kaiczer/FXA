@@ -4,13 +4,21 @@ state={
 	provinces={
 		490 1426 1657 6740 12147 13162 13164 13166 13181 13184 13186 
 	}
+	resources = {
+		aluminium = 8
+	}
 	history = {
 		owner = CAN 
 		add_core_of = CAN
+		add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=46564
-        state_category = undeveloped_rural_region
+	manpower=46564
+	state_category = undeveloped_rural_region
 }

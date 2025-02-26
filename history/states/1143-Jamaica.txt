@@ -8,9 +8,22 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = JAM
+		add_to_array = { state_victory_points = 12304 }
+
+		victory_points = { 12304 8 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 1
+			arms_factory = 1
+			12304 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=01136100
-        state_category = undeveloped_rural_region
+	manpower=1136100
+	state_category = developed_rural_region
 }

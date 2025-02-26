@@ -7,9 +7,23 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 3513 }
+		add_to_array = { state_victory_points = 4328 }
+
+		victory_points = { 3513 15 } #Portland
+		victory_points = { 4328 5 } #Salem
+
+		buildings = {
+			infrastructure = 2
+			air_base = 6
+			industrial_complex = 1
+			12211 = {
+				naval_base = 3
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=953786
-        state_category = undeveloped_rural_region
+	manpower=953786
+	state_category = developed_rural_region
 }

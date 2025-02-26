@@ -7,9 +7,25 @@ state={
 	history = {
 		owner = PAN 
 		add_core_of = PAN
+		add_to_array = { state_victory_points = 13681 }
+
+		victory_points = { 13681 5 } #Ciudad de Panamá
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			7630 = {
+				naval_base = 4
+			}
+			13681 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=308938
-        state_category = undeveloped_rural_region
+	manpower=308938
+	state_category = developing_rural_region
 }

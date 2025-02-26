@@ -4,12 +4,24 @@ state={
 	provinces={
 		1752 1836 1870 3719 4759 4772 6722 7877 10685 10709 12566 12685 13395 
 	}
+	
+	resources = {
+		steel = 20
+	}
+
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 1836 }
+
+		victory_points = { 1836 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=680845
-        state_category = undeveloped_rural_region
+	local_supplies=9.000
+	manpower=680845
+	state_category = developing_rural_region
 }

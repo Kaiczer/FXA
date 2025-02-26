@@ -8,9 +8,21 @@ state={
 		owner = USA
 		add_claim_by = USA
 		add_core_of = PUE
+		add_to_array = { state_victory_points = 1440 }
+
+		victory_points = { 1440 5 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			1440 = {
+				naval_base = 4
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1754600
-        state_category = undeveloped_rural_region
+	manpower=1754600
+	state_category = undeveloped_rural_region
 }

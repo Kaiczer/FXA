@@ -7,9 +7,30 @@ state={
 	history = {
 		owner = PAN 
 		add_core_of = PAN
+		add_to_array = { state_victory_points = 13683 }
+
+		victory_points = { 13683 1 } #David
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			7809 = {
+				naval_base = 1
+			}
+			13684 = {
+				naval_base = 1
+			}
+			13682 = {
+				naval_base = 1
+			}
+			13682 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=252766
-        state_category = undeveloped_rural_region
+	manpower=252766
+	state_category = undeveloped_rural_region
 }

@@ -8,9 +8,29 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
+		add_to_array = { state_victory_points = 1562 }
+		add_to_array = { state_victory_points = 9814 }
+
+		victory_points = { 1562 5 } #San Diego
+		victory_points = { 9814 25 } #Los Angeles
+
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 7
+			air_base = 10
+
+			9814 = {
+				naval_base = 5
+			}
+
+			1562 = {
+				naval_base = 10
+			}
+		}
 	}
 	manpower=2208492
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=industrial_heartland
 	local_supplies=0.000
 }

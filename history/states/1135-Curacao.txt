@@ -4,13 +4,28 @@ state={
 	provinces={
 		153 
 	}
+	resources = {
+		oil = 28
+	}
 	history = {
 		owner = ENG
 		add_claim_by = ENG
 		add_claim_by = HOL
+		add_to_array = { state_victory_points = 153 }
+		
+		victory_points = { 153 1 }
+
+		buildings = {
+			fuel_silo = 1
+			infrastructure = 2
+			153 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=76299
-        state_category = undeveloped_rural_region
+	manpower=76299
+	state_category = undeveloped_rural_region
 }
