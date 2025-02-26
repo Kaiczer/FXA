@@ -331,7 +331,7 @@ social_democracy_desc: "Progressive"
 social_liberalism_desc: "Progressive"
 classical_liberalism_desc: "Liberal"
 social_conservatism_desc: "Conservative"
-paternalism_desc: "Authoritarian"
+paternalism_desc: "Conservative"
 revolutionary_nationalism_desc: "Right-Revolutionary"
 volkism_desc: "Right-Authoritarian"
 despotism_desc: "Reactionary"
@@ -348,7 +348,7 @@ social_conservatism_drift: "Daily Social Conservative support"
 paternalism_drift: "Daily Paternalist support"
 revolutionary_nationalism_drift: "Daily Revolutionary Nationalist support"
 volkism_drift: "Daily Volkist support"
-despotism_drift: "Daily Despot support"
+despotism_drift: "Daily Despotist support"
 ultrareactionism_drift: "Daily Ultrareactionary support"
 
 ### Ideology Acceptance
@@ -362,7 +362,7 @@ social_conservatism_acceptance: "Acceptance of Social Conservatives"
 paternalism_acceptance: "Acceptance of Paternalists"
 revolutionary_nationalism_acceptance: "Acceptance of Revolutionary Nationalists"
 volkism_acceptance: "Acceptance of Volkists"
-despotism_acceptance: "Acceptance of Despots"
+despotism_acceptance: "Acceptance of Despotists"
 ultrareactionism_acceptance: "Acceptance of Ultrareactionaries"
 
 ### Ideology Banned
@@ -376,7 +376,7 @@ social_conservatism_banned: "Banned Social Conservatives"
 paternalism_banned: "Banned Paternalists"
 revolutionary_nationalism_banned: "Banned Revolutionary Nationalists"
 volkism_banned: "Banned Volkists"
-despotism_banned: "Banned Despots"
+despotism_banned: "Banned Despotists
 ultrareactionism_banned: "Banned Ultrareactionaries"
 
 ### Ideology Subtype Desc
@@ -389,8 +389,8 @@ classical_liberalism_subtype_desc: "Classical Liberalism champions free markets,
 social_conservatism_subtype_desc: "Social Conservatism is a political ideology which can vary greatly depending on the political history of the region or nation. Nonetheless, it is normally centred on preserving traditional beliefs, attitudes and philosophy as well as the traditional power dynamic of society while using the democratic system. Opposed to both radical and moderate changes to the status quo, conservatives want to keep society in order and stable. Most conservative societies usually promote a regulated market economy and economic protectionism."
 paternalism_subtype_desc: "Paternalism is an ideology centered around empowered executive power, giving less importance to parliamentarism and maintaining some partial democratic political system. Authoritarian regimes often take a conservative stance on social issues, favor centralization, and typically have Hawkish sentiments in government; although isolationist branches of this ideology are not unheard of. These regimes aim to maintain national stability and provide the people with both a popular and responsible government."
 revolutionary_nationalism_subtype_desc: "Revolutionary Nationalism blends nationalist pride with radical change. Unlike ultrareactionaries who want to return to a "golden age," revolutionary nationalists aim to reshape their nation, often in response to colonial oppression. They fight for independence and self-rule using various strategies, including political activism, mass protests, or armed struggle. Some movements incorporate socialist ideas, advocating for social justice and economic equality while promoting national unity."
-volkism_subtype_desc: "Volkism, or Volkssozialistische Nationalismus, is an paternalism nationalist ideology that arose during the Conservative Revolution, fueled by the instability of the Weimar system and territorial losses. Blending Prussian-style socialism, corporate statism, and völkisch nationalism, it sought to replace the old order with a "Third Position" ideology that rejected Western ideologies, and Marxist Socialism. Volkists promoted a forced class-collaborative society where absolute loyalty to the nation was paramount, enforcing strict social order, advocating cultural occultism and mysticism, and state-backed economic control. Advocating social militarism, territorial expansion, and Pan-Nationalist unification, Volkism prioritized national strength over individualism, demanded cultural conformity, and aimed to build a nation-state under a supreme leader’s rule."
-despotism_subtype_desc: "Despotism is not a political ideology in the normal sense of the word, but rather a general term for the attitude that these governments hold towards their citizens: The people are all subjects of the supreme leader, either a king or a dictator, and it is the leader's job and duty to lead the state and society towards the righteous and best path while uniting the people of under his benevolent protection. These countries usually have a very paternalism government, conservative social views and a state-controlled economy."
+volkism_subtype_desc: "Volkism, or Volkssozialistische Nationalismus, is an authoritarian nationalist ideology that arose during the Conservative Revolution, fueled by the instability of the Weimar system and territorial losses. Blending Prussian-style socialism, corporate statism, and völkisch nationalism, it sought to replace the old order with a "Third Position" ideology that rejected Western ideologies, and Marxist Socialism. Volkists promoted a forced class-collaborative society where absolute loyalty to the nation was paramount, enforcing strict social order, advocating cultural occultism and mysticism, and state-backed economic control. Advocating social militarism, territorial expansion, and Pan-Nationalist unification, Volkism prioritized national strength over individualism, demanded cultural conformity, and aimed to build a nation-state under a supreme leader’s rule."
+despotism_subtype_desc: "Despotism is a system where absolute power rests in the hands of a single ruler, unchecked by law, tradition, or opposition. The state is shaped by their will alone, with decisions enforced through fear, loyalty, and force. Promising order and strength, despotism often descends into repression and paranoia, as stability depends entirely on the ruler’s control. Whether justified by divine right, military dominance, or sheer ambition, the despot stands above all, ruling without challenge and bending the nation to their desires."
 ultrareactionism_subtype_desc: "Ultrareactionism is an extreme nationalist ideology that longs for a return to traditional values and social structures. It opposes modern political, social, and cultural changes, often promoting national superiority and xenophobia. These movements usually support paternalism rule, favoring strong leaders or elite governance. Ultrareactionaries often advocate for expansionist policies and reject dissenting opinions. Historical examples include far-right movements in Europe that push for strict nationalism, ethnic exclusivity, and aggressive foreign policies."
 
 
