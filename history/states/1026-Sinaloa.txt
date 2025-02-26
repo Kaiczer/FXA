@@ -10,6 +10,9 @@ state={
 
 		buildings = {
 			infrastructure = 1
+			8057 = {
+				naval_base = 3
+			}
 		}
 	}
 	buildings_max_level_factor=1.000
