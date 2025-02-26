@@ -9,9 +9,19 @@ state={
 		add_core_of = CHL
 		add_claim_by = BOL
 		add_claim_by = PRU
+		add_to_array = { state_victory_points = 13510 }
+
+		victory_points = { 13510 4 } #Iquique
+
+		buildings = {
+			infrastructure = 1
+			13510 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=88592
-        state_category = undeveloped_rural_region
+	manpower=88592
+	state_category = peripheral_region
 }

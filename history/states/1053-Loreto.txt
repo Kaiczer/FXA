@@ -6,7 +6,13 @@ state={
 	history={
 		owner = PRU
 		add_core_of = PRU
+		add_to_array = { state_victory_points = 13349 }
 
+		victory_points = { 13349 1 } #Iquitos
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -14,6 +20,6 @@ state={
 	}
 	manpower=186626
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=0.000
 }

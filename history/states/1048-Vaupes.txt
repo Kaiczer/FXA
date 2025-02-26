@@ -6,11 +6,15 @@ state={
 		2007 10792 12729 12770 13383 13384 13389 13391 13393 13396 13401 13402 
 	}
 	history = {
-		owner = COL   
+		owner = COL
 		add_core_of = COL
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=148924
-        state_category = undeveloped_rural_region
+	manpower=148924
+	state_category = wasteland
 }

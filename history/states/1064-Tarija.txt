@@ -4,12 +4,24 @@ state={
 	provinces={
 		5229 
 	}
+	
+	resources = {
+		oil = 3
+	}
+
 	history = {
-		owner = BOL 
+		owner = BOL
 		add_core_of = BOL
+		add_to_array = { state_victory_points = 5229 }
+
+		victory_points = { 5229 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=150123
-        state_category = undeveloped_rural_region
+	manpower=150123
+	state_category = peripheral_region
 }

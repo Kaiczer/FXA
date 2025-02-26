@@ -6,11 +6,26 @@ state={
 		1937 2085 8056 10864 12703 12790 12845 13433 13436 
 	}
 	history = {
-		owner = COL   
+		owner = COL
 		add_core_of = COL
+		add_to_array = { state_victory_points = 12790 }
+
+		victory_points = { 12790 5 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			air_base = 4
+			12790 = {
+				naval_base = 5
+			}
+			8056 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2226781
-        state_category = undeveloped_rural_region
+	manpower=2226781
+	state_category = developed_rural_region
 }

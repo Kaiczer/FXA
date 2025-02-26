@@ -4,12 +4,28 @@ state={
 	provinces={
 		7968 8080 10823 10912 13435 
 	}
+	
+	resources = {
+		oil = 31
+	}
+
 	history = {
-		owner = VEN 
+		owner = VEN
 		add_core_of = VEN
+		add_to_array = { state_victory_points = 10912 }
+
+		victory_points = { 10912 3 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			10912 = {
+				naval_base = 2
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=335010
-        state_category = undeveloped_rural_region
+	manpower=335010
+	state_category = undeveloped_rural_region
 }

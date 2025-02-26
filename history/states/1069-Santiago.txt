@@ -4,12 +4,40 @@ state={
 	provinces={
 		650 5191 8222 8229 8251 12984 13235 13499 
 	}
+	resources = {
+		steel = 19
+	}
 	history = {
 		owner = CHL 
 		add_core_of = CHL
+		add_to_array = { state_victory_points = 12984 }
+		add_to_array = { state_victory_points = 8251 }
+		add_to_array = { state_victory_points = 650 }
+		add_to_array = { state_victory_points = 13499 }
+		add_to_array = { state_victory_points = 8229 }
+
+		victory_points = { 12984 5 } #Concepcion
+		victory_points = { 8251 3 } #Chillán
+		victory_points = { 650 30 } #Santiago
+		victory_points = { 13499 10 } #Valparaiso
+		victory_points = { 8229 3 } #Talca
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 3
+			13499 = {
+				naval_base = 5
+			}
+			650 = {
+				bunker = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2346806
-        state_category = undeveloped_rural_region
+	manpower=2346806
+	state_category = megalopolis
 }

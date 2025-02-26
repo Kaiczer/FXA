@@ -7,9 +7,29 @@ state={
 	history = {
 		owner = CHL 
 		add_core_of = CHL
+		add_to_array = { state_victory_points = 5121 }
+		add_to_array = { state_victory_points = 12954 }
+		add_to_array = { state_victory_points = 5169 }
+		add_to_array = { state_victory_points = 5201 }
+
+		victory_points = { 5201 1 } #Punta Arenas
+		victory_points = { 5121 2 } #Temuco
+		victory_points = { 12954 2 } #Valdivia
+		victory_points = { 5169 1 } #Puerto Montt
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			5121 = {
+				naval_base = 1
+			}
+			5201 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1624289
-        state_category = undeveloped_rural_region
+	manpower=1624289
+	state_category = developed_rural_region
 }

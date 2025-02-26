@@ -8,9 +8,16 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 1
+			10995 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=30
-        state_category = undeveloped_rural_region
+	manpower=30
+	state_category = zero_island
 }

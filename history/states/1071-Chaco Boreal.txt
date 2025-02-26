@@ -4,13 +4,27 @@ state={
 	provinces={
 		2195 2209 5165 8203 10973 13245 13252 
 	}
+	
+	resources = {
+		tungsten = 4
+		steel = 2
+	}
+
 	history = {
 		owner = PAR
 		add_core_of = PAR
 		add_claim_by = BOL
+		add_to_array = { state_victory_points = 2195 }
+		add_to_array = { state_victory_points = 10973 }
+		victory_points = { 2195 1 }
+		victory_points = { 10973 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=45900
-        state_category = undeveloped_rural_region
+	manpower=45900
+	state_category = undeveloped_rural_region
 }

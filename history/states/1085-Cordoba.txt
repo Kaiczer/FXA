@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = ARG
 		add_core_of = ARG
+		add_to_array = { state_victory_points = 5918 }
+
+		victory_points = { 5918 20 } #Córdoba
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			5184 = {
+				dam = 1 #Calamuchita Reservoir
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1168800
-        state_category = undeveloped_rural_region
+	manpower=1168800
+	state_category = developed_rural_region
 }

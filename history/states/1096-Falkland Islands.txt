@@ -8,9 +8,19 @@ state={
 		owner = ENG
 		add_claim_by = ENG
 		add_core_of = ARG
+		add_to_array = { state_victory_points = 12960 }
+
+		victory_points = { 12960 1 }
+
+		buildings = {
+			infrastructure = 1
+			12960 = {
+				naval_base = 1
+			}
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=2463
-        state_category = undeveloped_rural_region
+	manpower=2463
+	state_category = zero_island
 }

@@ -4,12 +4,22 @@ state={
 	provinces={
 		2199 8192 12306 13228 
 	}
+	resources = {
+		oil = 4
+	}
 	history = {
 		owner = ARG
 		add_core_of = ARG
+		add_to_array = { state_victory_points = 12306 }
+
+		victory_points = { 12306 1 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=42900
-        state_category = undeveloped_rural_region
+	manpower=42900
+	state_category = undeveloped_rural_region
 }

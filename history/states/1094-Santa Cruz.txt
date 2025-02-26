@@ -7,9 +7,20 @@ state={
 	history = {
 		owner = ARG
 		add_core_of = ARG
+		add_to_array = { state_victory_points = 13219 }
+		add_to_array = { state_victory_points = 12952 }
+		add_to_array = { state_victory_points = 13808 }
+
+		victory_points = { 13219 2 }
+		victory_points = { 12952 1 }
+		victory_points = { 13808 2 }
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=30100
-        state_category = undeveloped_rural_region
+	manpower=30100
+	state_category = peripheral_region
 }

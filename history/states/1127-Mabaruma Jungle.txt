@@ -9,10 +9,14 @@ state={
 		add_core_of = GYA 
 		add_claim_by = ENG
 		add_claim_by = VEN
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	impassable = yes
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=1567
-        state_category = undeveloped_rural_region
+	manpower=1567
+	state_category = wasteland
 }

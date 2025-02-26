@@ -7,9 +7,16 @@ state={
 	history = {
 		owner = ECU 
 		add_core_of = ECU
+		add_claim_by = PRU
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=8403
-        state_category = undeveloped_rural_region
+	manpower=8403
+	state_category = peripheral_region
 }

@@ -5,12 +5,24 @@ state={
 	provinces={
 		1712 2106 2208 3147 4669 4678 4744 5143 5213 6040 7813 8255 9125 10986 11119 13241 
 	}
+	resources = {
+		tungsten = 40
+		steel = 7
+	}
 	history = {
 		owner = ARG
 		add_core_of = ARG
+		add_to_array = { state_victory_points = 5143 }
+
+		victory_points = { 5143 2 }
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
 	}
 	buildings_max_level_factor=1.000
-	local_supplies=0.000
-        manpower=520800
-        state_category = undeveloped_rural_region
+	local_supplies=6.000
+	manpower=520800
+	state_category = developing_rural_region
 }

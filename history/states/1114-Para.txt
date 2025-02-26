@@ -7,9 +7,29 @@ state={
 	history = {
 		owner = BRA 
 		add_core_of = BRA
+		add_to_array = { state_victory_points = 12853 }
+		add_to_array = { state_victory_points = 13354 }
+		add_to_array = { state_victory_points = 13357 }
+		add_to_array = { state_victory_points = 13379 }
+
+		victory_points = { 12853 10 }
+		victory_points = { 13354 1 }
+		victory_points = { 13357 3 }
+		victory_points = { 13379 1 }
+
+		buildings = {
+			infrastructure = 1
+			12853 = {
+				naval_base = 2
+			}
+			13379 = {
+				naval_base = 1
+			}
+		}
+
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-        manpower=922200
-        state_category = undeveloped_rural_region
+	manpower=922200
+	state_category = undeveloped_rural_region
 }
