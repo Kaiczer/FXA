@@ -1,0 +1,212 @@
+######################
+## SCRIPTED EFFECTS ##
+######################
+
+#### STATE SCOPE ####
+
+retain_state = {
+	set_state_flag = { flag = retain_state_@ROOT days = 16 value = 1 }
+	set_temp_variable = { retain_state_@THIS = 1 }
+}
+
+clear_retained_states = {
+	hidden_effect = { every_state = { clear_retain_state = yes } }
+}
+
+clear_retain_state = {
+	clr_state_flag = retain_state_@PREV
+	set_temp_variable = { retain_state_@THIS = 0 } #clear_variable doesn't work for temp variables
+}
+
+occupy_state = {
+	set_state_flag = occupied_by_@PREV
+	set_temp_variable = { occupied_by_@THIS = 1 }
+}
+
+clear_occupy_state = {
+	clr_state_flag = occupied_by_@PREV
+	set_temp_variable = { occupied_by_@THIS = 0 } #clear_variable doesn't work for temp variables
+}
+
+#################
+## GUI EFFECTS ##
+#################
+
+recheck_annexations_base = {
+	#clear_array = offered_states_array (In consideration / omitted for further use)
+	allow_annexation_decision_selection = yes
+}
+
+recheck_annexations_immediate = {
+	recheck_annexations_base = yes
+	hidden_effect = {
+		country_event = annex.1
+	}
+}
+
+recheck_annexations = {
+	recheck_annexations_base = yes
+	hidden_effect = {
+		country_event = { id = annex.1 days = 1 random_days = 3 }
+	}
+}
+
+allow_annexation_decision_selection = {
+	clr_country_flag = open_annexation_event
+	clear_retained_states = yes
+}
+
+build_annexation_temp_arrays = {
+	if = {
+		limit = { has_variable = annexation_target:annexation_extra_states^num }
+		if = {
+			limit = { var:annexation_target = { is_valid_annexation_state = yes } }
+			set_temp_variable = { priority_state_@var:annexation_target = annexation_target }
+			for_each_scope_loop = {
+				array = annexation_target:annexation_extra_states
+				if = {
+					limit = {
+						is_allowed_annexation_state_for_owner = yes
+						impassable = no
+					}
+
+					### build owners array
+					if = {
+						limit = { NOT = { is_in_array = { owners_@PREV = owner } } }
+						add_to_temp_array = { owners_@PREV = owner }
+					}
+
+					### add up total owned strategic value
+					add_to_temp_variable = { total_score_@var:owner = state_strategic_value }
+				}
+			}
+		}
+		else = {
+			for_each_scope_loop = {
+				array = annexation_target:annexation_extra_states
+				if = {
+					limit = {
+						is_allowed_annexation_state_for_owner = yes
+						impassable = no
+					}
+
+					### build owners array
+					if = {
+						limit = { NOT = { is_in_array = { owners_@PREV = owner } } }
+						add_to_temp_array = { owners_@PREV = owner }
+					}
+
+					### add up total owned strategic value
+					add_to_temp_variable = { total_score_@var:owner = state_strategic_value }
+
+					### select best state to target the decision
+					if = {
+						limit = {
+							is_owned_by = ROOT
+							check_variable = { annexation_target = PREV.annexation_target }
+						}
+						set_temp_variable = { has_valid_state_@var:annexation_target = THIS }
+						if = {
+							limit = { NOT = { has_variable = priority_state_@var:annexation_target } }
+							set_temp_variable = { priority_state_@var:annexation_target = THIS }
+						}
+						else_if = {
+							limit = { var:priority_state_@var:annexation_target = { check_variable = { state_strategic_value < PREV.state_strategic_value } } }
+							set_temp_variable = { priority_state_@var:annexation_target = THIS }
+						}
+						else_if = {
+							limit = { var:priority_state_@var:annexation_target = { check_variable = { id > PREV.id } } }
+							set_temp_variable = { priority_state_@var:annexation_target = THIS }
+						}
+					}
+				}
+			}
+		}
+
+		### assign total owned strategic value to each owner
+		for_each_loop = {
+			array = owners_@THIS
+			add_to_temp_array = { owner_scores_@THIS = total_score_@var:v }
+		}
+
+		### select country with the highest total owned strategic value
+		find_highest_in_array = { array = owner_scores_@THIS }
+		set_temp_variable = { priority_country_@var:annexation_target = owners_@THIS^i }
+	}
+}
+
+block_annexation_decision_selection = {
+	clear_retained_states = yes
+	FROM = {
+		if = {
+			limit = { has_variable = annexation_target }
+			var:annexation_target = { save_event_target_as = targeted_annexation_state }
+		}
+		else = {
+			save_event_target_as = targeted_annexation_state
+		}
+	}
+	set_country_flag = { flag = open_annexation_event days = 16 value = 1 }
+}
+
+initialise_regional_annexation_variables = {
+	add_to_regional_annexation_array = yes
+	set_state_as_annexation_target = yes
+}
+
+set_state_as_annexation_target = {
+	if = {
+		limit = { NOT = { has_variable = PREV.annexation_target } }
+		set_variable = { PREV.annexation_target = THIS }
+	}
+}
+
+add_to_regional_annexation_array = {
+	if = {
+		limit = { NOT = { is_in_array = { annexation_extra_states = PREV } } }
+		add_to_array = { annexation_extra_states = PREV }
+	}
+}
+
+#################################
+## ANNEXATION POSSIBLE RELEASE ##
+#################################
+check_possible_annexation_EU = { # Europe
+
+}
+
+check_possible_annexation_NA = { # North America
+
+}
+
+check_possible_annexation_SA = { # South America
+
+}
+
+check_possible_annexation_CA = { # Central America
+
+}
+
+check_possible_annexation_AF = { # Africa
+
+}
+
+check_possible_annexation_AS = { # Asia
+
+}
+
+check_possible_annexation_CS = { # Central Asia
+
+}
+
+check_possible_annexation_OC = { # Oceania
+
+}
+
+check_possible_annexation_ME = { # Middle East
+
+}
+
+check_possible_annexation_ID = { # India
+
+}

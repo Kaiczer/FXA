@@ -1230,7 +1230,6 @@ create_ambition_areas = {
 				region = 160 #Philippines
 				is_core_of = MAL
 				#China
-				is_chinese_port_city = yes
 			}
 		}
 		set_variable = { ambition_area_@JAP = 1 }
