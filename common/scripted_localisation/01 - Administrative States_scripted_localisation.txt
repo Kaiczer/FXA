@@ -155,3 +155,124 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = GermanGetSubDivStatus
+	text = {
+		trigger = { has_state_flag = GER_province_rank }
+		localization_key = GER_Province
+	}
+	text = {
+		trigger = { has_state_flag = GER_state_rank }
+		localization_key = GER_State
+	}
+	text = {
+		trigger = { has_state_flag = GER_gau }
+		localization_key = GER_Gau
+	}
+	text = {
+		localization_key = "BUG - STATE TARGETED IS NOT PART OF GERMANY"
+	}
+}
+
+defined_text = {
+	name = GermanGetStateProvinceTitle
+	text = {
+		trigger = { has_state_flag = pomerania_region }
+		localization_key = pomerania_region
+	}
+	text = {
+		trigger = { has_state_flag = brandenburg_region }
+		localization_key = brandenburg_region
+	}
+	text = {
+		trigger = { has_state_flag = silesia_region }
+		localization_key = silesia_region
+	}
+	text = {
+		trigger = { has_state_flag = east_prussia_region }
+		localization_key = east_prussia_region
+	}
+	text = {
+		trigger = { has_state_flag = magdeburg_region }
+		localization_key = magdeburg_region
+	}
+	text = {
+		trigger = { has_state_flag = hanover_region }
+		localization_key = hanover_region
+	}
+	text = {
+		trigger = { has_state_flag = schleswig_region }
+		localization_key = schleswig_region
+	}
+	text = {
+		trigger = { has_state_flag = anhalt_region }
+		localization_key = anhalt_region
+	}
+	text = {
+		trigger = { has_state_flag = westphalia_region }
+		localization_key = westphalia_region
+	}
+	text = {
+		trigger = { has_state_flag = hesse_region }
+		localization_key = hesse_region
+	}
+	text = {
+		trigger = { has_state_flag = mecklenburg_region }
+		localization_key = mecklenburg_region
+	}
+	text = {
+		trigger = { has_state_flag = hamburg_region }
+		localization_key = hamburg_region
+	}
+	text = {
+		trigger = { has_state_flag = saxony_region }
+		localization_key = saxony_region
+	}
+	text = {
+		trigger = { has_state_flag = thuringia_region }
+		localization_key = thuringia_region
+	}
+	text = {
+		trigger = { has_state_flag = bavaria_region }
+		localization_key = bavaria_region
+	}
+	text = {
+		trigger = { has_state_flag = wurttemberg_region }
+		localization_key = wurttemberg_region
+	}
+	text = {
+		trigger = { has_state_flag = baden_region }
+		localization_key = baden_region
+	}
+	text = {
+		trigger = { has_state_flag = rhineland_region }
+		localization_key = rhineland_region
+	}
+	text = {
+		trigger = { has_state_flag = posen_region }
+		localization_key = posen_region
+	}
+	text = {
+		trigger = { has_state_flag = oldenburg_region }
+		localization_key = oldenburg_region
+	}
+	text = {
+		trigger = { has_state_flag = alsace_region }
+		localization_key = alsace_region
+	}
+	text = {
+		trigger = { has_state_flag = sudetenland_region }
+		localization_key = sudetenland_region
+	}
+	text = {
+		trigger = { has_state_flag = west_prussia_region }
+		localization_key = west_prussia_region
+	}
+	text = {
+		trigger = { has_state_flag = palatinate_region }
+		localization_key = palatinate_region
+	}
+	text = {
+		localization_key = "BUG - STATE TARGETED IS NOT PART OF GERMANY"
+	}
+}

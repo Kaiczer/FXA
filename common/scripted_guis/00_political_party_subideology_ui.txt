@@ -7,6 +7,7 @@ scripted_gui = {
 			always = yes 
 		}
 	}
+
 	FH_subideology_localization = {
 		window_name = FH_subideology_localization_window
 		parent_window_token = politics_tab
@@ -15,6 +16,7 @@ scripted_gui = {
 			always = yes
 		}
 	}
+
 	FH_subideology_localization_diplomatic = {
 		window_name = FH_subideology_diplomatic_window
 		context_type = selected_country_context
@@ -24,6 +26,7 @@ scripted_gui = {
 			always = yes
 		}
 	}
+
 	### KR ###
 	party_popularity_number = {
 		context_type = player_context
@@ -40,6 +43,7 @@ scripted_gui = {
 			}
 		}
 	}
+
 	puppet_faction_name = {
 		context_type = player_context
 		parent_window_token = politics_tab
@@ -49,6 +53,7 @@ scripted_gui = {
 			always = no
 		}
 	}
+	
 	power_balance_button_disabled = {
 		context_type = player_context
 		parent_window_token = politics_tab

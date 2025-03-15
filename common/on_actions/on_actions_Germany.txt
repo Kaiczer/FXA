@@ -1,0 +1,136 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Germany Subdivision Status Setup 
+			every_state = {
+				limit = {
+					OR = {
+						state = 5
+						state = 34
+					}
+				}
+				set_state_flag = brandenburg_region
+			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 35
+						state = 36
+					}
+				}
+				set_state_flag = pomerania_region
+			}
+			every_state = {
+				limit = { 
+					OR = {
+						state = 212 #East Prussia
+						state = 213 #Masuria
+						state = 229 #Memel
+					}
+				 }
+				set_state_flag = east_prussia_region
+			}
+			210 = { set_state_flag = west_prussia_region }
+			211 = { set_state_flag = posen_region }
+			every_state = {
+				limit = {
+					OR = {
+						state = 44
+						state = 45
+					}
+				}
+				set_state_flag = silesia_region
+			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 41
+						state = 42
+					}
+				}
+				set_state_flag = hanover_region
+			}
+			37 = { set_state_flag = mecklenburg_region }
+			40 = { set_state_flag = hamburg_region }
+			every_state = {
+				limit = {
+					OR = {
+						state = 38
+						state = 39
+						state = 361
+					}
+				}
+				set_state_flag = schleswig_region
+			}
+			46 = { set_state_flag = saxony_region }
+			47 = { set_state_flag = thuringia_region }
+			43 = { set_state_flag = westphalia_region }
+			33 = { set_state_flag = magdeburg_region }
+			55 = { set_state_flag = hesse_region }
+			every_state = {
+				limit = {
+					OR = {
+						state = 56
+						state = 57
+						state = 58
+					}
+				}
+				set_state_flag = bavaria_region
+			}
+			49 = { set_state_flag = baden_region }
+			50 = { set_state_flag = wurttemberg_region }
+			every_state = {
+				limit = {
+					OR = {
+						state = 51
+						state = 54
+					}
+				}
+				set_state_flag = rhineland_region
+			}
+			every_state = {
+				limit = {
+					OR = {
+						state = 52
+						state = 53
+					}
+				}
+				set_state_flag = palatinate_region
+			}
+			every_state = {
+				limit = {
+					OR = {
+						has_state_flag = brandenburg_region
+						has_state_flag = pomerania_region
+						has_state_flag = silesia_region
+						has_state_flag = east_prussia_region
+						has_state_flag = west_prussia_region
+						has_state_flag = posen_region
+						has_state_flag = magdeburg_region
+						has_state_flag = hanover_region
+						has_state_flag = schleswig_region
+						has_state_flag = anhalt_region
+						has_state_flag = westphalia_region
+						has_state_flag = hesse_region
+					}
+				}
+				set_state_flag = GER_province_rank
+			}
+			every_state = {
+				limit = {
+					OR = {
+						has_state_flag = mecklenburg_region
+						has_state_flag = hamburg_region
+						has_state_flag = saxony_region
+						has_state_flag = thuringia_region
+						has_state_flag = bavaria_region
+						has_state_flag = baden_region
+						has_state_flag = rhineland_region
+						has_state_flag = wurttemberg_region
+					}
+				}
+				set_state_flag = GER_state_rank
+			}
+		}
+	}
+}
