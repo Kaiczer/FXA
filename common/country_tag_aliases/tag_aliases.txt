@@ -27,6 +27,7 @@ GND = { #Chen Jitang
 	original_tag = GXC
 	has_country_flag = GXC_is_guangdong
 }
+
 ### South Africa
 ZAR = {
 	original_tag = SAF
@@ -51,7 +52,7 @@ ENT = {
 }
 
 ### Third International Leader
-TIN = {
+CIN = {
 	global_event_target = faction_leader_communist_international
 
 	fallback = SOV
@@ -68,18 +69,6 @@ IMP = {
 OTT = {
 	original_tag = TUR
 	has_cosmetic_tag = OTT
-}
-
-### Puppet Germany
-GRU = {
-	original_tag = GER
-	has_country_flag = GER_is_puppet
-}
-
-### Indian Tags
-PUN = {
-	original_tag = PAK
-	has_country_flag = PAK_is_not_unified
 }
 
 # operative operation target

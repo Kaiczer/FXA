@@ -248,7 +248,7 @@ is_german_tag = {
 			original_tag = SHO
 			original_tag = PRS 
 			original_tag = AUS
-			original_tag = GRU
+			original_tag = GFD
 			AND = {
 				original_tag = SWI
 				has_global_flag = SWI_germanization
@@ -266,7 +266,7 @@ is_germany_or_splinter_tag = {
 			original_tag = SGM 
 			original_tag = SHO
 			original_tag = PRS 
-			original_tag = GRU
+			original_tag = GFD
 			AND = {
 				original_tag = AUS
 				has_cosmetic_tag = AUS_germany
@@ -283,6 +283,8 @@ is_italian_tag = {
 			original_tag = VNE 
 			original_tag = LOM
 			original_tag = PIE
+			original_tag = SAR
+			original_tag = SIT
 		}
 	}
 }

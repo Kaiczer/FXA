@@ -12,7 +12,7 @@ on_actions = {
 			9 = { set_variable = { annexation_target = THIS } } #Lower Austria
 			10 = { set_variable = { annexation_target = THIS } } #Luxembourg
 			11 = { set_variable = { annexation_target = THIS } } #Warsaw
-			12 = { set_variable = { annexation_target = THIS } } #Flanders
+			12 = { set_variable = { annexation_target = THIS } } #Brabant
 			13 = { set_variable = { annexation_target = THIS } } #Bern
 			14 = { set_variable = { annexation_target = THIS } } #Madrid
 			15 = { set_variable = { annexation_target = THIS } } #Lisbon
@@ -41,7 +41,7 @@ on_actions = {
 			51 = { set_variable = { annexation_target = THIS } } #Western Rhineland
 			57 = { set_variable = { annexation_target = THIS } } #Upper Bavaria
 			62 = { set_variable = { annexation_target = THIS } } #Westerschelde
-			63 = { set_variable = { annexation_target = THIS } } #South Limburg
+			64 = { set_variable = { annexation_target = THIS } } #Limburg
 			65 = { set_variable = { annexation_target = THIS } } #Wallonia
 			66 = { set_variable = { annexation_target = THIS } } #Eupen
 			67 = { set_variable = { annexation_target = THIS } } #Bastogne
@@ -144,9 +144,10 @@ on_actions = {
 			310 = { set_variable = { annexation_target = THIS } } #Murmansk
 			311 = { set_variable = { annexation_target = THIS } } #Salla
 			317 = { set_variable = { annexation_target = THIS } } #Ismail
-			341 = { set_variable = { annexation_target = THIS } } #Viipuri
+			341 = { set_variable = { annexation_target = THIS } } #Viipuri-Karelia
 			342 = { set_variable = { annexation_target = THIS } } #Petsamo
 			351 = { set_variable = { annexation_target = THIS } } #Aland
+			367 = { set_variable = { annexation_target = THIS } } #Iceland
 			374 = { set_variable = { annexation_target = THIS } } #Wales
 			379 = { set_variable = { annexation_target = THIS } } #Northumbria
 			381 = { set_variable = { annexation_target = THIS } } #Lothian
@@ -445,13 +446,36 @@ on_actions = {
 			937 = { set_variable = { annexation_target = 933.id } } #Reunion > Madagascar
 
 			#### Target Annexation - Capital City's States #### 
-
-
-
-			#### Target Annexation - Missing Additional States ####
 			every_state = {
-				limit = { NOT = { is_in_array = { annexation_target:annexation_extra_states = THIS } } }
-				add_to_array = { annexation_target:annexation_extra_states = THIS }
+				### Western Europe ####
+				if = {
+					limit = { is_england = yes }
+					6 = { initialise_regional_annexation_variables = yes }
+				}
+				if = {
+					limit = { is_scotland = yes }
+					381 = { initialise_regional_annexation_variables = yes } #Lothian
+				}
+				else_if = {
+					limit = { is_wales = yes }
+					374 = { initialise_regional_annexation_variables = yes } #South Wales
+				}
+				else_if = {
+					limit = { is_ireland = yes }
+					16 = { initialise_regional_annexation_variables = yes } #Leinster
+				}
+				else_if = {
+					limit = { is_mainland_france_state = yes }
+					3 = { initialise_regional_annexation_variables = yes }
+				}
+			}
+
+			#### Target Annexation - Additional States ####
+			every_state = {
+				limit = { 
+					NOT = { is_in_array = { annexation_extra_states = THIS } } 
+				}
+				add_to_array = { annexation_extra_states = THIS }	
 			}
 
 			every_state = {

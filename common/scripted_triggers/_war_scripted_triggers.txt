@@ -69,8 +69,8 @@ at_peace_or_same_enemies_as_ENT = {
 	at_peace_or_same_enemies_as_TARGET = yes
 }
 
-at_peace_or_same_enemies_as_TIN = {
-	set_temp_variable = { target = TIN }
+at_peace_or_same_enemies_as_CIN = {
+	set_temp_variable = { target = CIN }
 	at_peace_or_same_enemies_as_TARGET = yes
 }
 

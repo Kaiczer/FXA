@@ -3,7 +3,6 @@
 ######################
 
 #### STATE SCOPE ####
-
 retain_state = {
 	set_state_flag = { flag = retain_state_@ROOT days = 16 value = 1 }
 	set_temp_variable = { retain_state_@THIS = 1 }
@@ -26,6 +25,194 @@ occupy_state = {
 clear_occupy_state = {
 	clr_state_flag = occupied_by_@PREV
 	set_temp_variable = { occupied_by_@THIS = 0 } #clear_variable doesn't work for temp variables
+}
+
+transfer_state_without_overriding_occupation = {
+	save_current_factory_count = yes
+	if = {
+		limit = { is_fully_controlled_by = owner }
+		transfer_state_to = var:tag_to_release
+	}
+	else = {
+		set_state_owner_to = var:tag_to_release
+		set_state_province_controller = {
+			controller = var:tag_to_release
+			limit = { NOT = { has_war_with = ROOT } }
+		}
+	}
+	restore_previous_factory_count = yes
+	if = {
+		limit = { is_claim_or_core_of_target = no }
+		var:tag_to_release = { PREV = { set_state_flag = { flag = annexation_recent_transfer_@PREV value = 1 days = 60 } } }
+	}
+}
+
+# state scope
+state_given_notification_effect = {
+	hidden_effect = {
+		if = {
+			limit = { owner = { is_ai = no } }
+			save_event_target_as = granted_land
+			state_event = { id = annex.2 trigger_for = owner }
+		}
+	}
+}
+
+# state scope
+transfer_state_and_notify = {
+	transfer_state_without_overriding_occupation = yes
+	state_given_notification_effect = yes
+}
+
+# state scope
+add_claim_of_ROOT = {
+	effect_tooltip = {
+		if = {
+			limit = { is_claim_or_core_of_ROOT = no }
+			add_claim_by = ROOT
+		}
+	}
+	hidden_effect = {
+		if = {
+			limit = { NOT = { is_core_of = ROOT } }
+			add_claim_by = ROOT
+		}
+	}
+}
+
+# state scope
+remove_claim_and_add_core_of_target = {
+	effect_tooltip = {
+		if = {
+			limit = { is_claimed_by = var:tag_to_release }
+			remove_claim_by = var:tag_to_release
+		}
+		if = {
+			limit = { NOT = { is_core_of = var:tag_to_release } }
+			add_core_of = var:tag_to_release
+		}
+	}
+	hidden_effect = {
+		remove_claim_by = var:tag_to_release
+		add_core_of = var:tag_to_release
+	}
+}
+
+# state scope
+set_transfer_target_state = {
+	set_temp_variable = { state_transfer_target_@THIS = 1 }
+}
+
+change_transfer_flag_target = {
+	owner = { PREV = { clr_state_flag = annexation_recent_transfer_@PREV } }
+	var:tag_to_release = { PREV = { set_state_flag = { flag = annexation_recent_transfer_@PREV value = 1 days = 60 } } }
+}
+
+#### GLOBAL SCOPE ####
+# global scope
+release_targeted_tag_with_claims = {
+	set_temp_variable = { claims = 1 }
+	release_targeted_tag_state_transfer_effect = yes
+	puppet_released_tag = yes
+}
+
+# global scope
+release_targeted_tag_with_claims_nocosmetic = {
+	set_temp_variable = { claims = 1 }
+	release_targeted_tag_state_transfer_effect = yes
+	puppet_released_tag_nocosmetic = yes
+}
+
+# global scope
+release_targeted_tag = {
+	release_targeted_tag_state_transfer_effect = yes
+	puppet_released_tag = yes
+}
+
+# global scope
+release_targeted_tag_nocosmetic = {
+	release_targeted_tag_state_transfer_effect = yes
+	puppet_released_tag_nocosmetic = yes
+}
+
+# global scope
+puppet_released_tag = {
+	puppet_released_tag_nocosmetic = yes
+	var:tag_to_release = { drop_cosmetic_tag = yes }
+}
+
+# global scope
+puppet_released_tag_nocosmetic = {
+	puppet = var:tag_to_release
+	var:tag_to_release = {
+		mark_focus_tree_layout_dirty = yes
+		hidden_effect = {
+			#transfer_technology_without_doctrines = yes
+			remove_ideas = ready_to_surrender
+			if = {
+				limit = { has_elections = yes }
+				set_politics = {
+					ruling_party = var:current_party_ideology_group
+					elections_allowed = no
+				}
+			}
+			every_possible_country = {
+				clear_embargo_PREV = yes
+				clear_volunteers_to_PREV = yes
+				PREV = { clear_volunteers_to_PREV = yes }
+			}
+		}
+	}
+}
+
+# country scope
+set_transfer_target_cores = {
+	set_temp_variable = { transfer_target_@THIS = 1 }
+}
+
+# global scope
+transfer_targeted_territory = {
+	every_owned_state = {
+		limit = {
+			OR = {
+				has_variable = state_transfer_target_@THIS
+				any_country_with_core = { has_variable = transfer_target_@THIS }
+			}
+			is_allowed_annexation_state = yes
+		}
+		transfer_state_without_overriding_occupation = yes
+		state_given_notification_effect = yes
+	}
+}
+
+release_targeted_tag_state_transfer_effect = {
+	if = {
+		limit = { has_variable = claims }
+		every_owned_state = {
+			limit = {
+				is_claim_or_core_of_target = yes
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_without_overriding_occupation = yes
+		}
+	}
+	else = {
+		every_owned_state = {
+			limit = {
+				is_core_of = var:tag_to_release
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_without_overriding_occupation = yes
+		}
+	}
+}
+
+# country scope
+annex_splinter_tag = {
+	var:tag_to_release = {
+		every_owned_state = { change_transfer_flag_target = yes }
+		annex_country = { target = PREV transfer_troops = yes }
+	}
 }
 
 #################
@@ -58,12 +245,12 @@ allow_annexation_decision_selection = {
 
 build_annexation_temp_arrays = {
 	if = {
-		limit = { has_variable = annexation_target:annexation_extra_states^num }
+		limit = { has_variable = annexation_extra_states^num }
 		if = {
 			limit = { var:annexation_target = { is_valid_annexation_state = yes } }
 			set_temp_variable = { priority_state_@var:annexation_target = annexation_target }
 			for_each_scope_loop = {
-				array = annexation_target:annexation_extra_states
+				array = annexation_extra_states
 				if = {
 					limit = {
 						is_allowed_annexation_state_for_owner = yes
@@ -83,7 +270,7 @@ build_annexation_temp_arrays = {
 		}
 		else = {
 			for_each_scope_loop = {
-				array = annexation_target:annexation_extra_states
+				array = annexation_extra_states
 				if = {
 					limit = {
 						is_allowed_annexation_state_for_owner = yes
@@ -172,7 +359,30 @@ add_to_regional_annexation_array = {
 ## ANNEXATION POSSIBLE RELEASE ##
 #################################
 check_possible_annexation_EU = { # Europe
-
+	if = {
+		limit = { can_release_britain = yes }
+		ROOT = { activate_targeted_decision = { decision = annexation_britain target = PREV } }
+	}
+	else_if = {
+		limit = { can_release_scotland = yes }
+		ROOT = { activate_targeted_decision = { decision = annexation_scotland target = PREV } }
+	}
+	else_if = {
+		limit = { can_release_wales = yes }
+		ROOT = { activate_targeted_decision = { decision = annexation_wales target = PREV } }
+	}
+	else_if = {
+		limit = { can_release_northern_ireland = yes }
+		ROOT = { activate_targeted_decision = { decision = annexation_northern_ireland target = PREV } }
+	}
+	else_if = {
+		limit = { can_release_ireland = yes }
+		ROOT = { activate_targeted_decision = { decision = annexation_ireland target = PREV } }
+	}
+	else_if = { 
+		limit = { can_release_france = yes } 
+		ROOT = { activate_targeted_decision = { decision = annexation_france target = PREV } }
+	}
 }
 
 check_possible_annexation_NA = { # North America

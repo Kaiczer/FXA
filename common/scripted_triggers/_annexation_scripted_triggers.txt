@@ -144,7 +144,7 @@ annexations_state_is_tied_to_annexation_decision = {
 
 annexations_check_highest_scores_for_regional_annexation = {
 	if = {
-		limit = { has_variable = annexation_target:annexation_extra_states^num }
+		limit = { has_variable = annexation_extra_states^num }
 		check_variable = { priority_state_@var:annexation_target = PREV }
 		check_variable = { priority_country_@var:annexation_target = ROOT }
 	}
@@ -159,12 +159,12 @@ annexations_state_has_valid_annexation = {
 
 annexations_is_valid_annexation_region = {
 	if = {
-		limit = { NOT = { has_variable = annexation_target:annexation_extra_states } }
+		limit = { NOT = { has_variable = annexation_extra_states } }
 		is_valid_annexation_state = yes
 	}
 	else = {
 		any_of_scopes = {
-			array = annexation_target:annexation_extra_states
+			array = annexation_extra_states
 			is_valid_annexation_state = yes
 		}
 	}
