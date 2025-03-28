@@ -1,0 +1,970 @@
+###########################
+# Annexation Events concerning Europe
+###########################
+# By lots of folks
+# Converted from on_actions to decisions by Rylock and Dr_Njitram
+# Any new post-annexation events need to have their triggers in the KR_on_actions file
+###########################
+
+# Table of Contents
+#	This might sound arcane to you, but we are following a center-west-north-east-south route. You'll get the hang of it
+
+add_namespace = annex
+
+#####################################
+##   W E S T E R N   E U R O P E   ##
+#####################################
+country_event = { #Fate of Great Britain
+	id = annex.1001
+	title = annexation_britain
+	desc = annexation_britain_desc
+	# picture = GFX_report_event_generic_map_britain
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			ENG = { drop_cosmetic_tag = yes }
+			event_target:original_britain_puppet = {
+				clear_cores_of_tag_if_possible = yes
+			}
+			if = {
+				limit = { is_british_tag = yes }
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					has_event_target = faction_leader_imperial_defense_sphere
+					event_target:faction_leader_imperial_defense_sphere = { 
+						NOT = { original_tag = ENG }
+						ROOT_can_grant_land = yes
+					}
+				}
+				event_target:faction_leader_imperial_defense_sphere = { save_event_target_as = british_exiles }
+			}
+			else_if = {
+				limit = { ENT = { ROOT_can_grant_land = yes } }
+				ENT = { save_event_target_as = british_exiles }
+			}
+			388 = { retain_state = yes }
+		}
+	}
+
+	option = { #Release Great Britain
+		log = "[GetLogInfo]: event annex.1001 option annex.1001.a"
+		name = annex.1001.a
+		trigger = {
+			381 = { is_valid_annexation_state = yes }
+			annexations_can_release_united_kingdom = no
+			is_subject = no
+		}
+		set_temp_variable = { tag_to_release = event_target:original_britain_puppet }
+		every_state = {
+			limit = { is_great_britain = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Restore United Kingdom
+		log = "[GetLogInfo]: event annex.1001 option annex.1001.b"
+		name = annex.1001.b
+		trigger = {
+			annexations_can_release_united_kingdom = yes
+			is_subject = no
+		}
+		set_temp_variable = { tag_to_release = event_target:original_united_kingdom }
+		every_state = {
+			limit = { is_great_britain = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Restore England
+		log = "[GetLogInfo]: event annex.1001 option annex.1001.c"
+		name = annex.1001.c
+		trigger = {
+			381 = { is_valid_annexation_state = no }
+			annexations_can_release_united_kingdom = no
+			is_subject = no
+		}
+		set_temp_variable = { tag_to_release = EGL }
+		every_state = {
+			limit = { is_england = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Release England, Scotland
+		log = "[GetLogInfo]: event annex.1001 option annex.1001.d"
+		name = annex.1001.d
+		trigger = {
+			381 = { is_valid_annexation_state = yes }
+			annexations_can_release_united_kingdom = no
+			is_subject = no
+		}
+		set_temp_variable = { tag_to_release = SCO }
+		every_state = {
+			limit = { region = 3 }
+			remove_claim_and_add_core_of_target = yes
+		}
+		release_targeted_tag = yes
+
+		set_temp_variable = { tag_to_release = EGL }
+		every_state = {
+			limit = { 
+				OR = {
+					is_england = yes
+					is_wales = yes
+				}
+			}
+			remove_claim_and_add_core_of_target = yes
+		}	
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Release England, Wales, Scotland
+		log = "[GetLogInfo]: event annex.1001 option annex.1001.e"
+		name = annex.1001.e
+		trigger = {
+			381 = { is_valid_annexation_state = yes }
+			annexations_can_release_united_kingdom = no
+			is_subject = no
+		}
+		set_temp_variable = { tag_to_release = SCO }
+		every_state = {
+			limit = { region = 3 }
+			remove_claim_and_add_core_of_target = yes
+		}
+		release_targeted_tag = yes
+
+		set_temp_variable = { tag_to_release = EGL }
+		every_state = {
+			limit = { is_england = yes }
+			remove_claim_and_add_core_of_target = yes
+		}	
+		release_targeted_tag = yes
+
+		set_temp_variable = { tag_to_release = WLS }
+		every_state = {
+			limit = { is_wales = yes }
+			remove_claim_and_add_core_of_target = yes
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Give to British Remnants Ally
+		log = "[GetLogInfo]: event annex.1001 option annex.europe.give_to_british_exiles"
+		name = annex.europe_give_to_british_exiles
+		trigger = { has_event_target = british_exiles }
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				is_major = yes
+				NOT = { is_ally_with = event_target:british_exiles }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:british_exiles }
+		every_owned_state = {
+			limit = {
+				is_great_britain = yes
+				is_valid_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Give it to overlord
+		log = "[GetLogInfo]: event annex.1001 option annex.europe.give_to_overlord"
+		name = annex.europe_give_to_overlord
+		trigger = { annexations_should_give_lands_to_overlord = yes }
+		set_temp_variable = { tag_to_release = overlord }
+		every_owned_state = {
+			limit = {
+				OR = {
+					region = 1
+					region = 2
+				}
+				is_wales = no
+				is_valid_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Integrate Back to Original Britain
+		log = "[GetLogInfo]: event annex.1001 option annex.integration"
+		name = annex.integration
+		trigger = { annexations_can_annex = yes }
+		every_owned_state = {
+			limit = { is_great_britain = yes }
+			add_claim_of_ROOT = yes 
+		}
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1001 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of Scotland
+	id = annex.1002
+	title = annexation_scotland
+	desc = annexation_scotland_desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SCO = { clear_cores_of_tag_if_possible = yes }
+			if = {
+				limit = {
+					OR = {
+						377 = { is_claim_or_core_of_ROOT = yes }
+						379 = { is_claim_or_core_of_ROOT = yes }
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					377 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
+				}
+				save_event_target_as = britain
+			}
+			else_if = {
+				limit = {
+					379 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
+				}
+				save_event_target_as = britain
+			}
+			if = {
+				limit = {
+					has_event_target = faction_leader_imperial_defense_sphere
+					event_target:faction_leader_imperial_defense_sphere = {
+						ROOT_can_grant_land = yes
+						NOT = {
+							tag = event_target:britain
+							original_tag = ENG
+						}
+					}
+				}
+				event_target:faction_leader_imperial_defense_sphere = { save_event_target_as = british_exiles }
+			}
+		}
+	}
+
+	option = { #Puppet Scotland
+		log = "[GetLogInfo]: event annex.1002 option annex.1002.a"
+		name = annex.1002.a
+		trigger = {
+			is_subject = no
+			NOT = { is_ally_with = event_target:british_exiles }
+		}
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				has_event_target = britain
+				OR = {
+					is_major = no
+					is_ally_with = event_target:britain
+				}
+			}
+			modifier = {
+				factor = 0
+				has_event_target = british_exiles
+				is_major = no
+			}
+		}
+		set_temp_variable = { tag_to_release = SCO }
+		every_state = {
+			limit = { is_scotland = yes }
+			remove_claim_and_add_core_of_target = yes
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1002 option annex.give_to_britain"
+		trigger = {
+			has_event_target = britain
+			NOT = { is_ally_with = event_target:british_exiles }
+		}
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				is_major = yes 
+				OR = {
+					NOT = { is_ally_with = event_target:britain }
+					event_target:britain = {
+						is_subject = yes
+						NOT = { is_subject_of = ROOT }
+					}
+				}
+			}
+			modifier = {
+				add = 0
+				NOT = { has_event_target = british_exiles }
+			}
+			modifier = {
+				factor = 0.1
+				event_target:britain = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:britain }
+		every_owned_state = {
+			limit = { is_scotland = yes }
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1002 option annex.give_to_british_exiles"
+		name = annex.give_to_british_exiles
+		trigger = { has_event_target = british_exiles }
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0.1
+				event_target:british_exiles = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:british_exiles }
+		every_owned_state = {
+			limit = { is_scotland = yes }
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1002 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = { annexations_should_give_lands_to_overlord = yes }
+		set_temp_variable = { tag_to_release = overlord }
+		every_owned_state = {
+			limit = {
+				is_scotland = yes
+				is_valid_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1002 option annex.integration"
+		name = annex.integration
+		trigger = { annexations_can_annex = yes }
+		if = {
+			limit = { is_british_tag = yes }
+			every_state = {
+				limit = { is_scotland = yes }
+				remove_claim_and_add_core_of_target = yes
+			}
+		}
+		else = {
+			every_state = { 
+				limit = { is_scotland = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1002 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of Wales
+	id = annex.1003
+	title = annexation_wales
+	desc = annexation_wales_desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			WLS = { clear_cores_of_tag_if_possible = yes }
+			if = {
+				limit = { 375 = { is_claim_or_core_of_ROOT = yes } }
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					375 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
+				}
+				save_event_target_as = britain
+			}
+			if = {
+				limit = {
+					has_event_target = faction_leader_imperial_defense_sphere
+					event_target:faction_leader_imperial_defense_sphere = {
+						ROOT_can_grant_land = yes
+						NOT = {
+							tag = event_target:britain
+							original_tag = ENG
+						}
+					}
+				}
+				event_target:faction_leader_imperial_defense_sphere = { save_event_target_as = british_exiles }
+			}
+		}
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.1003.a"
+		name = annex.1003.a
+		trigger = {
+			is_subject = no
+			NOT = { is_ally_with = event_target:british_exiles }
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				has_event_target = britain
+				OR = {
+					is_major = no
+					is_ally_with = event_target:britain
+				}
+			}
+			modifier = {
+				factor = 0
+				has_event_target = british_exiles
+				is_major = no
+			}
+		}
+		set_temp_variable = { tag_to_release = WLS }
+		every_state = {
+			limit = { is_wales = yes }
+			remove_claim_and_add_core_of_target = yes
+		}
+		release_targeted_tag = yes 
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.give_to_britain"
+		trigger = {
+			has_event_target = britain
+			NOT = { is_ally_with = event_target:british_exiles }
+		}
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				is_major = yes 
+				OR = {
+					NOT = { is_ally_with = event_target:britain }
+					event_target:britain = {
+						is_subject = yes
+						NOT = { is_subject_of = ROOT }
+					}
+				}
+			}
+			modifier = {
+				add = 0
+				NOT = { has_event_target = british_exiles }
+			}
+			modifier = {
+				factor = 0.1
+				event_target:britain = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:britain }
+		every_owned_state = {
+			limit = { is_wales = yes }
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.give_to_british_exiles"
+		name = annex.give_to_british_exiles
+		trigger = { has_event_target = british_exiles }
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0.1
+				event_target:british_exiles = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:british_exiles }
+		every_owned_state = {
+			limit = { is_wales = yes }
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = { annexations_should_give_lands_to_overlord = yes }
+		set_temp_variable = { tag_to_release = overlord }
+		every_owned_state = {
+			limit = {
+				is_wales = yes
+				is_valid_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.integration"
+		name = annex.integration
+		trigger = { annexations_can_annex = yes }
+		if = {
+			limit = { is_british_tag = yes }
+			every_state = {
+				limit = { is_wales = yes }
+				remove_claim_and_add_core_of_target = yes
+			}
+		}
+		else = {
+			every_state = { 
+				limit = { is_wales = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+		recheck_annexations = yes
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1003 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of Northern Ireland
+	id = annex.1004
+	title = annexation_northern_ireland
+	desc = annexation_northern_ireland_desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = IRE
+						AND = {
+							annexations_britain_can_annex_overseas = yes
+							owns_state = 380
+						}
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { IRE = { ROOT_can_grant_land = yes } }
+				IRE = { save_event_target_as = ireland }
+			}
+			if = {
+				limit = {
+					6 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = {
+							NOT = { tag = event_target:ireland }
+							owns_state = 380
+							has_socialist_government = no
+							ROOT_can_grant_land = yes
+						}
+					}
+				}
+				var:6.owner = { save_event_target_as = britain }
+			}
+		}
+	}
+
+	option = {
+		log = "[GetLogInfo]: event annex.1004 option annex.europe.give_to_ireland"
+		name = annex.europe.give_to_ireland
+		trigger = { has_event_target = ireland }
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:ireland }
+				is_ally_with = event_target:britain
+				annexations_AI_will_consider_returning_colonies = yes
+			}
+			modifier = {
+				factor = 0.1
+				event_target:ireland = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:ireland }
+		388 = { transfer_state_and_notify = yes }
+		recheck_annexations = yes
+	}
+
+	option = { #Give to Britain
+		log = "[GetLogInfo]: event annex.1004 option annex.europe.give_to_britain"
+		name = annex.europe.give_to_britain
+		trigger = { has_event_target = britain }
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				annexations_AI_will_consider_returning_colonies = no
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:britain }
+				OR = {
+					is_major = yes
+					is_ally_with = event_target:ireland
+				}
+			}
+			modifier = {
+				factor = 0.1
+				event_target:britain = { is_subject = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:britain }
+		388 = {  #Northern Ireland
+			transfer_state_and_notify = yes
+			add_claim_by = var:tag_to_release
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Give to overlord
+		log = "[GetLogInfo]: event annex.1004 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		388 = { transfer_state_and_notify = yes } #Northern Ireland
+		recheck_annexations = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.1004 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		388 = { add_claim_of_ROOT = yes } #Northern Ireland
+		recheck_annexations = yes
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.1004 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of Ireland
+	id = annex.1005
+	title = annexation_ireland
+	desc = annexation_ireland_desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			388 = {
+				add_core_of = IRE
+				retain_state = yes
+			}
+		}
+	}
+
+	option = { #Puppet Ireland
+		log = "[GetLogInfo]: event annex.1005 option annex.1005.a"
+		name = annex.1005.a
+		trigger = {
+			is_subject = no
+			is_british_tag = no
+		}
+		set_temp_variable = { tag_to_release = IRE }
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Create United Ireland : Britain (Associate Government)
+
+	}
+
+	option = { #Create Irish Free State : Britain (Nominal Puppet)
+
+	}
+
+	option = { #Create Dominion of Ireland : Britain (Autonomous Territory)
+
+	}
+
+	option = { #Give to overlord
+		log = "[GetLogInfo]: event annex.1005 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = { annexations_should_give_lands_to_overlord = yes }
+		set_temp_variable = { tag_to_release = overlord }
+		IRE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.1005 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+
+country_event = { #Fate of France
+	id = annex.1006
+	title = annexation_france
+	desc = annexation_france_desc
+	picture = GFX_report_event_generic_map_france
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { NOT = { country_exists = FRA } }
+				FRA = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = {
+				limit = { NOT = { country_exists = FPP } }
+				FPP = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = {
+				limit = { is_french_tag = yes }
+				save_event_target_as = can_annex
+			}
+			random_other_country = {
+				limit = {
+					is_french_tag = yes
+					is_ally_with = ROOT
+					OR = {
+						is_subject = no
+						is_subject_of = ROOT
+					}
+				}
+				save_event_target_as = france
+			}
+			if = {
+				limit = { NOT = { has_event_target = france } }
+				if = {
+					limit = { FRA = { ROOT_can_grant_land = yes } }
+					FRA = { save_event_target_as = france }
+				}
+				else_if = {
+					limit = { FPP = { ROOT_can_grant_land = yes } }
+					FPP = { save_event_target_as = france }
+				}
+			}
+			68 = { retain_state = yes } #Pas-de-Calais
+			77 = { retain_state = yes } #Brittany
+			83 = { retain_state = yes } #Basses-Pyrenees
+			84 = { retain_state = yes } #Roussillon
+			94 = { retain_state = yes } #Savoy
+			95 = { retain_state = yes } #Nice
+		}
+	}
+
+	option = { #Restore the French Republic!
+		log = "[GetLogInfo]: event annex.1041 option annex.1041.b"
+		name = annex.1041.b
+		trigger = {
+			is_ally_with = ENT
+			NOT = { country_exists = FRA }
+			has_socialist_government = no
+			is_french_tag = no
+			is_subject = no
+		}
+		ai_chance = {
+			base = 100
+			# modifier = {
+			# 	factor = 0
+			# 	annexations_AI_release_puppet_default_logic = yes
+			# }
+		}
+		set_temp_variable = { tag_to_release = FRA }
+		every_state = {
+			limit = {
+				is_mainland_france_state = yes
+				NOT = { is_core_of = var:tag_to_release }
+			}
+			add_claim_by = var:tag_to_release
+		}
+		release_targeted_tag_with_claims = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Set up a French Puppet Government
+		log = "[GetLogInfo]: event annex.1041 option annex.1041.c"
+		name = annex.1041.c
+		trigger = {
+			NOT = { country_exists = FPP }
+			OR = {
+				NOT = { is_ally_with = ENT }
+				FRA = {
+					exists = yes
+					NOT = { is_ally_with = ROOT }
+				}
+			}
+			OR = {
+				NOT = { is_ally_with = event_target:france }
+				event_target:france = {
+					is_subject = yes
+					NOT = { is_subject_of = ROOT }
+				}
+			}
+			is_french_tag = no
+			is_subject = no
+		}
+		ai_chance = {
+			base = 70
+			# modifier = {
+			# 	factor = 0
+			# 	annexations_AI_release_puppet_default_logic = yes
+			# }
+		}
+		set_temp_variable = { tag_to_release = FPP }
+		every_state = {
+			limit = { is_mainland_france_state = yes }
+			add_core_of = var:tag_to_release
+			hidden_effect = { remove_claim_by = var:tag_to_release }
+		}
+		release_targeted_tag = yes
+		recheck_annexations = yes
+	}
+
+	option = { #Give to France
+		log = "[GetLogInfo]: event annex.1041 option annex.give_to_france"
+		name = annex.give_to_france
+		trigger = {
+			has_event_target = france
+		}
+		ai_chance = {
+			base = 70
+			# modifier = {
+			# 	factor = 0
+			# 	event_target:france = { annexations_AI_grant_land_default_logic = yes }
+			# }
+		}
+		set_temp_variable = { tag_to_release = event_target:france }
+		every_owned_state = {
+			limit = {
+				is_mainland_france_state = yes
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Give to overlord
+		log = "[GetLogInfo]: event annex.1041 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		every_owned_state = {
+			limit = {
+				is_mainland_france_state = yes
+				is_allowed_annexation_state = yes
+			}
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.1041 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = { is_mainland_france_state = yes }
+			add_claim_of_ROOT = yes
+		}
+		recheck_annexations = yes
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.1041 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+		recheck_annexations = yes
+	}
+}
+

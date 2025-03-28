@@ -1,0 +1,311 @@
+###########################
+# Events that happen after Annexations
+###########################
+# By lots of folks
+# Converted from on_actions to decisions by Rylock and Dr_Njitram
+# Any new post-annexation events need to have their triggers in the KR_on_actions file
+###########################
+
+add_namespace = annex
+
+country_event = { #Check for possible annexations (donotlog)
+	id = annex.1
+	hidden = yes
+	is_triggered_only = yes
+
+	trigger = {
+		surrender_progress < 0.1
+		NOT = {
+			# Special tags - these shouldn't exist outside of very specific circumstances
+			tag = XXB #debug tag
+			AND = {
+				has_civil_war = yes
+				any_country_with_original_tag = {
+					original_tag_to_check = ROOT
+					civilwar_target = ROOT #== start_civil_war
+					has_war_with = ROOT #sanity check
+				}
+			}
+		}
+	}
+
+	option = {
+		every_other_country = {
+			limit = {
+				has_capitulated = no
+				OR = {
+					AND = {
+						is_ally_with = ROOT
+						any_home_area_neighbor_country = {
+							has_war_with = PREV
+							has_capitulated = no
+						}
+					}
+					AND = {
+						has_war_with = ROOT
+						any_home_area_neighbor_country = {
+							is_ally_with = ROOT
+							has_capitulated = no
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = europe
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { europe_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = north_america
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { north_america_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = central_america
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { central_america_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = south_america
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { south_america_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = australia #Oceania
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { australia_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = asia
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { asia_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = india
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { india_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = middle_east
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { middle_east_blocked = 1 }
+			}
+			else_if = {
+				limit = {
+					capital_scope = {
+						is_on_continent = africa
+						is_core_of = PREV
+					}
+				}
+				set_temp_variable = { africa_blocked = 1 }
+			}
+		}
+		for_each_scope_loop = {
+			array = owned_controlled_states
+
+			### build temp continent arrays
+			if = {
+				limit = {
+					NOT = { is_core_of = ROOT }
+					NOT = { is_claimed_by = ROOT }
+					NOT = { has_state_flag = occupied_by_@ROOT }
+					NOT = { has_state_flag = temporarily_disabled_annexation_@ROOT }
+				}
+				if = {
+					limit = { is_on_continent = europe }
+					add_to_temp_array = { annexation_states_europe = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = north_america }
+					add_to_temp_array = { annexation_states_north_america = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = central_america }
+					add_to_temp_array = { annexation_states_central_america = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = south_america }
+					add_to_temp_array = { annexation_states_south_america = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = australia } #Oceania
+					add_to_temp_array = { annexation_states_australia = THIS }
+				}
+				else_if = {
+					limit = { is_central_asia = yes }
+					add_to_temp_array = { annexation_states_central_asia = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = asia }
+					add_to_temp_array = { annexation_states_asia = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = india }
+					add_to_temp_array = { annexation_states_india = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = middle_east }
+					add_to_temp_array = { annexation_states_middle_east = THIS }
+				}
+				else_if = {
+					limit = { is_on_continent = africa }
+					add_to_temp_array = { annexation_states_africa = THIS }
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = europe_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_europe
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_europe
+				check_possible_annexation_EU = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = north_america_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_north_america
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_north_america
+				check_possible_annexation_NA = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = central_america_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_central_america
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_central_america
+				check_possible_annexation_CA = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = south_america_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_south_america
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_south_america
+				check_possible_annexation_SA = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = australia_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_australia
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_australia
+				check_possible_annexation_OC = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = asia_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_central_asia
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_central_asia
+				check_possible_annexation_CS = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_asia
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_asia
+				check_possible_annexation_AS = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = india_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_india
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_india
+				check_possible_annexation_ID = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = middle_east_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_middle_east
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_middle_east
+				check_possible_annexation_ME = yes
+			}
+		}
+		if = {
+			limit = { NOT = { has_variable = africa_blocked } }
+			for_each_scope_loop = {
+				array = annexation_states_africa
+				build_annexation_temp_arrays = yes
+			}
+			for_each_scope_loop = {
+				array = annexation_states_africa
+				check_possible_annexation_AF = yes
+			}
+		}
+	}
+}
+
+state_event = { #Generic "Land Granted" event
+	id = annex.2
+	title = annex.2.t
+	desc = annex.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		log = "[GetLogInfo]: event annex.2 option annex.2.a"
+		name = annex.2.a
+		effect_tooltip = { THIS = { transfer_state_to = ROOT } }
+	}
+}
+

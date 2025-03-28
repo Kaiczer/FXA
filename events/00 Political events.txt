@@ -314,7 +314,7 @@ country_event = {
 }
 
 ######################################
-### Setting up Factional Rivalries ###
+### SetCINg up Factional Rivalries ###
 ######################################
 
 country_event = { #donotlog
@@ -339,8 +339,8 @@ country_event = { #donotlog
 						is_ally_with = ENT
 					}
 					AND = {
-						TIN = { exists = yes }
-						is_ally_with = TIN
+						CIN = { exists = yes }
+						is_ally_with = CIN
 					}
 				}
 			}
@@ -349,7 +349,7 @@ country_event = { #donotlog
 				modifier = factional_rivalry
 			}
 			if = {
-				limit = { is_ally_with = TIN }
+				limit = { is_ally_with = CIN }
 				embargo_PREV = yes
 			}
 		}
@@ -379,8 +379,8 @@ country_event = { #donotlog
 						is_ally_with = ENT
 					}
 					AND = {
-						TIN = { exists = yes }
-						is_ally_with = TIN
+						CIN = { exists = yes }
+						is_ally_with = CIN
 					}
 				}
 			}
@@ -422,8 +422,8 @@ country_event = { #donotlog
 						is_ally_with = GER
 					}
 					AND = {
-						TIN = { exists = yes }
-						is_ally_with = TIN
+						CIN = { exists = yes }
+						is_ally_with = CIN
 					}
 				}
 			}
@@ -433,8 +433,8 @@ country_event = { #donotlog
 			}
 			if = {
 				limit = {
-					TIN = { exists = yes }
-					is_ally_with = TIN
+					CIN = { exists = yes }
+					is_ally_with = CIN
 				}
 				embargo_PREV = yes
 			}
@@ -465,8 +465,8 @@ country_event = { #donotlog
 						is_ally_with = GER
 					}
 					AND = {
-						TIN = { exists = yes }
-						is_ally_with = TIN
+						CIN = { exists = yes }
+						is_ally_with = CIN
 					}
 				}
 			}
@@ -492,11 +492,11 @@ country_event = { #donotlog
 	is_triggered_only = yes
 
 	trigger = {
-		TIN = {
+		CIN = {
 			exists = yes
 			is_ally_with = ROOT
 		}
-		NOT = { has_variable = TIN_faction }
+		NOT = { has_variable = CIN_faction }
 	}
 
 	immediate = {
@@ -519,7 +519,7 @@ country_event = { #donotlog
 			}
 			embargo_PREV = yes
 		}
-		set_variable = { TIN_faction = 1 }
+		set_variable = { CIN_faction = 1 }
 	}
 }
 
@@ -529,8 +529,8 @@ country_event = { #donotlog
 	is_triggered_only = yes
 
 	trigger = {
-		has_variable = TIN_faction
-		TIN = {
+		has_variable = CIN_faction
+		CIN = {
 			exists = yes
 			NOT = { is_ally_with = ROOT }
 		}
@@ -545,8 +545,8 @@ country_event = { #donotlog
 						is_ally_with = GER
 					}
 					AND = {
-						TIN = { exists = yes }
-						is_ally_with = TIN
+						CIN = { exists = yes }
+						is_ally_with = CIN
 					}
 				}
 			}
@@ -562,7 +562,7 @@ country_event = { #donotlog
 			}
 			clear_embargo_PREV = yes
 		}
-		clear_variable = TIN_faction
+		clear_variable = CIN_faction
 	}
 }
 
@@ -1513,7 +1513,7 @@ country_event = { #donotlog
 ###    State Transfer Events   ###
 ##################################
 
-# Puppeting
+# PuppeCINg
 country_event = {
 	id = generic_events.250
 	title = generic_events.250.t

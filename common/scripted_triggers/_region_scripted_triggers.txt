@@ -3,29 +3,50 @@ is_island_region = {
 	OR = {
 		is_one_state_island = yes
 		is_great_britain = yes
-		region = 4 #Ireland
+		is_ireland = yes
 		region = 36 #Greenland
 		region = 53 #Caribbean Sea
 		region = 76 #East China Sea
 		region = 91 #Arafura & Banda Seas
 		region = 93 #Java & Flores Seas
-		region = 154 #Home Islands
+		region = 154 #Eastern Japan
 		region = 158 #Sunda Islands
 		region = 159 #Borneo
 		region = 160 #Philippines
 		region = 167 #New Guinea
 		region = 169 #Tyrhennian Sea
 		region = 192 #Sumatra
+		region = 273 #Western Japan
 		is_on_continent = australia
 	}
 }
 
 is_great_britain = {
 	OR = {
+		is_england = yes
+		is_scotland = yes
+		is_wales = yes
+	}
+}
+
+is_england = {
+	OR = {
 		region = 1 #Southern England
 		region = 2 #Northern England
-		region = 3 #Scotland
 	}
+	is_wales = no
+}
+
+is_scotland = {
+	region = 3 #Scotland
+}
+
+is_wales = {
+	state = 374
+}
+
+is_ireland = {
+	region = 4 #Ireland
 }
 
 is_mainland_france_state = {
@@ -38,22 +59,54 @@ is_european_italy = {
 		state = 2 #Sardinia
 		AND = {
 			region = 181 #Po Valley
+			NOT = { state = 139 } #Trentino
 			NOT = { state = 149 } #Trieste
 			NOT = { state = 150 } #Gorizia
 			NOT = { state = 151 } #Istria
-			NOT = { state = 138 } #Trentino
 		}
+	}
+}
+
+is_piedmont = {
+	OR = {
+		state = 133 #Liguria
+		state = 134 #Piedmont
+		state = 135 #Aosta Valley
+	}
+}
+
+is_venetia = {
+	state = 137
+}
+
+is_central_italy = {
+	OR = {
+		state = 128 #Umbria
+		state = 129 #Marche
+		state = 131 #Romagna
+	}
+}
+
+is_southern_italy = {
+	OR = {
+		state = 123 #Sicily
+		state = 124 #Calabria
+		state = 125 #Apulia
+		state = 126 #Campania
+		state = 127 #Abruzzo
 	}
 }
 
 is_portugal = {
 	OR = {
-		state = 15
-		state = 116
-		state = 117
-		state = 118
-		state = 119
-		state = 120
+		state = 15 #Lisbon
+		state = 116 #Porto
+		state = 117 #Beira
+		state = 118 #Alto Alentejo
+		state = 119 #Baixo Alentejo
+		state = 120 #Algarve
+		state = 819 #Madeira
+		state = 820 #Azores
 	}
 }
 
@@ -62,8 +115,43 @@ is_spain = {
 		region = 41 #Eastern Iberia
 		region = 236 #Southern Iberia
 		region = 237 #Western Iberia
+		state = 97 #Balearic Islands
+		state = 818 #Canary Islands
 	}
 	is_portugal = no
+}
+
+is_flanders = {
+	OR = {
+		state = 12 #Brabant
+		state = 63 #Flanders
+	}
+}
+
+is_wallonia = {
+	OR = {
+		state = 65 #Wallonia
+		state = 66 #Eupen
+		state = 67 #Bastogne
+	}
+}
+
+is_belgium = {
+	OR = {
+		is_flanders = yes
+		is_wallonia = yes
+	}
+}
+
+is_netherlands = {
+	OR = {
+		state = 7 #Holland
+		state = 59 #Friesland
+		state = 60 #Zeeland
+		state = 61 #Gelderland
+		state = 62 #Westerscheild
+		state = 64 #Limburg
+	}
 }
 
 is_germany = {
@@ -74,101 +162,270 @@ is_germany = {
 	}
 }
 
-owns_at_least_six_german_states = {
-	
-}
-
 is_north_germany = {
 	OR = {
-		state = 41 
-		state = 42 
-		state = 43 
-		state = 55 
+		state = 41 #Hanover
+		state = 42 #Weser-Ems
+		state = 43 #Westphalia
+		state = 55 #Hesse
+	}
+}
+
+has_valid_north_germany_annexation_state = {
+	OR = {
+		41 = { is_valid_annexation_state = yes } #Hanover
+		42 = { is_valid_annexation_state = yes } #Weser-Ems
+		43 = { is_valid_annexation_state = yes } #Westphalia
+		55 = { is_valid_annexation_state = yes } #Hesse
 	}
 }
 
 is_rhineland = {
 	OR = {
-		state = 51
-		state = 53 
-		state = 54 
+		state = 51 #Western Rhineland
+		state = 52 #Saarland
+		state = 53 #Palatinate
+		state = 54 #Eastern Rhineland
 	}
 }
 
-is_brandenburg = {
+has_valid_rhineland_annexation_state = {
 	OR = {
-		state = 5 
-		state = 36 
-		state = 37
-	}
-}
-
-is_saxony = {
-	OR = {
-		state = 33 
-		state = 46 
-		state = 47 
-	}
-}
-
-is_south_germany = {
-	OR = {
-		state = 49 
-		state = 50 
-		state = 56 
-		state = 57 
-		state = 58 
-	}
-}
-
-is_east_oder = {
-	OR = {
-		state = 35 
-		state = 34 
-		state = 44 
-	}
-}
-
-owns_states_in_two_major_german_regions = {
-	# count_triggers = {
-	# 	amount = 2
-	# 	has_valid_north_germany_annexation_state = yes
-	# 	has_valid_rhineland_annexation_state = yes
-	# 	has_valid_brandenburg_annexation_state = yes
-	# 	has_valid_saxony_annexation_state = yes
-	# 	has_valid_south_germany_annexation_state = yes
-	# 	has_valid_east_oder_annexation_state = yes
-	# }
-}
-
-is_full_germany = {
-	OR = {
-		is_germany = yes
-		is_prussia = yes
-		state = 71 #Alsace-Lorraine
-		state = 45 #Upper Silesia
-		state = 44 #Posen
-		state = 39 #Northern Schleswig
+		51 = { is_valid_annexation_state = yes } #Western Rhineland
+		52 = { is_valid_annexation_state = yes } #Saarland
+		53 = { is_valid_annexation_state = yes } #Palatinate
+		54 = { is_valid_annexation_state = yes } #Eastern Rhineland
 	}
 }
 
 is_prussia = {
 	OR = {
-		state = 5 #East Prussia
-		state = 210
-		state = 212 #Memel
-		state = 213 #West Prussia
-		state = 229 #Masuria
+		state = 5 #Brandenburg
+		state = 34 #Neumark
+		state = 35 #Eastern Pomerania
+		state = 36 #Western Pomerania
+		state = 37 #Macklenburg
+		state = 45 #Silesia
 	}
+}
+
+has_valid_prussia_annexation_state = {
+	OR = {
+		5 = { is_valid_annexation_state = yes } #Mecklenburg
+		34 = { is_valid_annexation_state = yes } #Neumark
+		35 = { is_valid_annexation_state = yes } #Eastern Pomerania
+		36 = { is_valid_annexation_state = yes } #Western Pomerania
+		37 = { is_valid_annexation_state = yes } #Macklenburg
+		45 = { is_valid_annexation_state = yes } #Silesia
+	}
+}
+
+is_saxony = {
+	OR = {
+		state = 33 #Magdeburg-Anhalt
+		state = 46 #Saxony
+		state = 47 #Thuringia
+	}
+}
+
+has_valid_saxony_annexation_state = {
+	OR = {
+		33 = { is_valid_annexation_state = yes } #Magdeburg-Anhalt
+		46 = { is_valid_annexation_state = yes } #Saxony
+		47 = { is_valid_annexation_state = yes } #Thuringia
+	}
+}
+
+is_south_germany = {
+	OR = {
+		state = 49 #Baden
+		state = 50 #Wurttemberg
+		state = 56 #Franconia
+		state = 57 #Upper Bavaria
+		state = 58 #Lower Bavaria
+	}
+}
+
+has_valid_south_germany_annexation_state = {
+	OR = {
+		49 = { is_valid_annexation_state = yes } #Baden
+		50 = { is_valid_annexation_state = yes } #Wurttemberg
+		56 = { is_valid_annexation_state = yes } #Franconia
+		57 = { is_valid_annexation_state = yes } #Upper Bavaria
+		58 = { is_valid_annexation_state = yes } #Lower Bavaria
+	}
+}
+
+is_old_prussia = {
+	OR = {
+		state = 210 #West Prussia
+		state = 212 #East Prussia
+		state = 213 #Masuria
+		state = 229 #Memel
+	}
+}
+
+is_full_germany = {
+	OR = {
+		is_germany = yes
+		is_old_prussia = yes
+		state = 71 #Alsace-Lorraine
+		state = 44 #Upper Silesia
+		state = 211 #Posen
+		state = 361 #Northern Schleswig
+	}
+}
+
+is_luxembourg = {
+	state = 10 #Luxembourg
+}
+
+is_poland = {
+	OR = {
+		state = 11 #Warsaw
+		state = 211 #Posen
+		state = 214 #Plock
+		state = 215 #Kalisz
+		state = 216 #Kielce
+		state = 217 #Krakow
+		state = 218 #Bialystok
+		state = 219 #Lublin
+		state = 220 #Chelm
+		state = 221 #Lwow
+		state = 232 #Suwalki
+	}
+}
+
+is_switzerland = {
+	region = 131 #Switzerland
 }
 
 is_core_austria = {
 	region = 21 #Austria
 }
 
+is_core_hungary = {
+	OR = {
+		state = 20 #Transdanubia
+		state = 158 #South Transdanubia
+		state = 159 #North Hungary
+		state = 194 #Central Hungary
+		state = 195 #Alfold
+	}
+}
+
+is_czechia = {
+	region = 22 #Bohemia
+	is_slovakia = no
+}
+
+is_slovakia = {
+	OR = {
+		state = 26 #Slovakia
+		state = 196 #South Slovakia
+		state = 197 #Eastern Slovakia
+		state = 198 #Subcarpathia
+	}
+}
+
+is_czechoslovakia = {
+	region = 22
+}
+
+is_yugoslavia = {
+	OR = {
+		is_slovenia = yes
+		is_croatia = yes
+		is_serbia = yes
+		is_bosnia = yes
+		is_montenegro = yes
+		state = 117 #Macedonia
+	}
+}
+
+is_slovenia = {
+	OR = {
+		state = 150
+		state = 152
+		state = 153
+		state = 154
+	}
+}
+
+is_croatia = {
+	OR = {
+		state = 151 #Fiume
+		state = 155 #Zara
+		state = 156 #Central Croatia
+		state = 157 #Split 
+		state = 192 #Syrmia
+		state = 193 #Bachka
+	}
+}
+
+is_serbia = {
+	OR = {
+		state = 21 #Belgrade
+		state = 178 #Kosovo
+		state = 179 #Morava
+		state = 180 #Pirot
+		state = 191 #Vojvodina
+		state = 192 #Syrmia
+		state = 193 #Bachka
+	}
+}
+
+is_bosnia = {
+	OR = {
+		state = 160 #Bosnia
+		state = 161 #Hercegovina
+	}
+}
+
+is_montenegro = {
+	state = 162
+}
+
+is_albania = {
+	OR = {
+		state = 163 #Albania
+		state = 164 #Vlore
+		state = 165 #North Epirus
+	}
+}
+
+is_bulgaria = {
+	OR = {
+		state = 181 #Blagoevgrad
+		state = 182 #Sofia
+		state = 183 #Pleven
+		state = 184 #Kardzhali
+		state = 185 #Burgas
+		state = 186 #Varna
+		state = 187 #Silistra
+	}
+}
+
+is_greece = {
+	OR = {
+		region = 25 #Greece
+		region = 69 #Western Mediterranean Sea
+		region = 223 #Aegean Sea
+	}
+}
+
+is_romania = {
+	region = 15 #Romania
+}
+
+is_transylvania = {
+	region = 144 #Transylvania
+}
+
 is_denmark = {
 	OR = {
 		region = 33 #Denmark
+		region = 36 #Greenland
 		state = 370 #Faroe Islands
 	}
 }
@@ -184,6 +441,7 @@ is_sweden = {
 	OR = {
 		region = 10 #Southern Sweden
 		region = 247 #Northern Sweden
+		state = 359 #Gotland
 		state = 351 #Åland
 	}
 }
@@ -200,27 +458,65 @@ is_finland = {
 	OR = {
 		region = 13 #Finland
 		state = 351 #Åland
-		state = 344 #Tornio
+		state = 311 #Salla
+		state = 342 #Petsamo
 		state = 343 #Lapland
+		state = 344 #Western Lapland
 	}
+}
+
+is_anatolia = {
+	region = 129 #Anatolia
 }
 
 is_core_anatolia = {
 	OR = {
-		state = 728
-		state = 729
-		state = 730
+		state = 760
 		state = 731
 		state = 732
 		state = 733
 		state = 734
-		state = 736
-		state = 737
 		state = 738
 		state = 739
 		state = 740
 		state = 741
 	}
+}
+
+is_estonia = {
+	OR = {
+		state = 29
+		state = 222
+		state = 233
+	}
+}
+
+is_latvia = {
+	OR = {
+		state = 24
+		state = 224
+		state = 225
+		state = 226
+		state = 227
+	}
+}
+
+is_lithuania = {
+	OR = {
+		state = 25
+		state = 228
+		state = 229
+		state = 230
+		state = 231
+	}
+}
+
+is_belarus = {
+	region = 39 #Belarus
+}
+
+is_ukraine = {
+	region = 130 #Ukraine
 }
 
 is_china_proper = {
@@ -252,6 +548,23 @@ is_xinjiang = {
 	}
 }
 
+is_tibet = {
+	OR = {
+		state = 570
+		state = 585
+		state = 587
+		state = 588
+		state = 589
+	}
+}
+
+is_mongolia = {
+	OR = {
+		region = 152 #Outer Mongolia
+		region = 222 #Inner Mongolia
+	}
+}
+
 is_shandong = {
 	OR = {
 		state = 498
@@ -272,11 +585,11 @@ is_core_china = {
 
 is_mainland_china_claim_area = {
 	OR = {
-		is_core_china = yes
+		is_china_proper = yes
+		is_manchuria = yes
 		is_xinjiang = yes
-		is_core_of = TIB
-		is_core_of = MON
-		state = 587 #Tawang
+		is_mongolia = yes
+		is_tibet = yes
 	}
 }
 
@@ -287,33 +600,19 @@ is_china_claim_area = {
 	}
 }
 
-is_mainland_china_state = {
-	OR = {
-        state = 479 #Jingzhao
-        state = 498 #Jinan
-        state = 513 #Taiyuan
-        state = 518 #Nanjing
-        state = 525 #Wuhan
-        state = 529 #Xiangjiang
-        state = 544 #Guangzhou
-        state = 558 #Yunnan
-        state = 561 #Chongqing
-        state = 566 #Jingyuan
-        state = 570 #Yulin
-        state = 571 #Kumul
-    }
+is_korea = {
+	region = 191 #Korea
 }
 
-is_chinese_port_city = {
+is_japan = {
 	OR = {
-		state = 478 #Tianjin
-        state = 500 #Qingdao
-        state = 508 #Shanghai
-        state = 523 #Weihaiwei
-        state = 538 #Fuzhou
-        state = 543 #Hong Kong
-        state = 545 #Macau
-        state = 548 #Guangzhouwan
+		region = 154 #Eastern Japan
+		region = 273 #Western Japan
+		state = 466
+		state = 467
+		state = 468
+		state = 422
+		state = 427
 	}
 }
 
@@ -323,9 +622,9 @@ is_indonesia = {
 		region = 93 #Java & Flores Seas
 		region = 158 #Sunda Islands
 		region = 159 #Borneo
-		region = 167 #New Guinea
 		region = 192 #Sumatra
 	}
+	is_sarawak = no
 }
 
 is_india = {
@@ -339,13 +638,34 @@ is_india = {
 		region = 263 #Coromandel Coast
 		region = 264 #Cape Comorin
 		region = 270 #Kashmir
-		state = 938 #Maldives
-		state = 939 #Diego Garcia
 		state = 703 #Andaman Islands
 		state = 587 #Tawang
 		state = 664 #Sikkim
 		state = 579 #Aksai Chin
-		state = 578
+		state = 578 #Chiragsaldi Pass
+		is_maldives = yes
+	}
+}
+is_maldives = {
+	OR = {
+		state = 938
+		state = 939
+	}
+}
+is_burma = {
+	OR = {
+		region = 195 #Burma
+		state = 598 #Tenasserim
+	}
+}
+
+is_siam = {
+	OR = {
+		AND = {
+			region = 142 #Siam
+			NOT = { state = 598 } #Tenasserim
+		}
+		state = 596 #Kra Isthmus
 	}
 }
 
@@ -358,6 +678,52 @@ is_southeast_asia = {
 		region = 195 #Burma
 		is_indonesia = yes
 	}
+}
+
+is_cambodia = {
+	OR = {
+		state = 608
+		state = 610 
+		state = 611 
+		state = 612
+	}
+}
+
+is_laos = {
+	OR = {
+		state = 605
+		state = 606
+		state = 607
+		state = 608
+		state = 609
+	}
+}
+
+is_vietnam = {
+	OR = {
+		state = 599
+		state = 600
+		state = 601
+		state = 602
+		state = 603
+		state = 604
+	}
+}
+
+is_malaya = {
+	region = 194 #Malay Peninsula
+	NOT = { state = 596 } #Kra Isthmus
+}
+
+is_sarawak = {
+	OR = {
+		state = 627 #North Borneo
+		state = 628 #Sabah
+	}
+}
+
+is_philippines = {
+	region = 160 #Philippines
 }
 
 is_pacific_islands = {
@@ -389,13 +755,14 @@ is_new_england = {
 
 is_american_pacific_islands = {
 	OR = {
-		state = 1019 #Hawaii
-		state = 1180 #Johnston Atoll
-		state = 1181 #Midway Island
-		state = 1176 #Wake Island
-		state = 1173 #Guam
-		state = 1165 #Samoa
-		state = 1179 #Line Islands
+		state = 629 #Hawaii
+		state = 630 #Johnston Atoll
+		state = 631 #Midway Island
+		state = 632 #Wake Island
+		state = 638 #Guam
+		state = 642 #Phoenix Island
+		state = 726 #Samoa
+		state = 727 #Line Islands
 	}
 }
 
@@ -412,6 +779,105 @@ is_canada = {
 	}
 }
 
+is_mexico = {
+	OR = {
+		region = 123 #Transvolcanic Belt
+		region = 224 #Yucatan Peninsula
+		region = 225 #Sierra Madre
+	}
+}
+
+is_guatemala = {
+	state = 1035 #Guatemala
+}
+
+is_el_salvador = {
+	state = 1038 #El Salvador
+}
+
+is_honduras = {
+	state = 1037 #Honduras
+}
+
+is_nicaragua = {
+	OR = {
+		state = 1039 #Managua
+		state = 1040 #Matagalpa
+	}
+}
+
+is_costa_rica = {
+	state = 1041 #Costa Rica
+}
+
+is_panama = {
+	OR = {
+		state = 1042 #Veraguas
+		state = 1043 #Panama Canal
+		state = 1044 #Panama City
+	}
+}
+
+is_cuba = {
+	OR = {
+		state = 1145 #Havana
+		state = 1144 #Santiago de Cuba
+	}
+}
+
+is_haiti = {
+	state = 1142 #Haiti
+}
+
+is_dominican_republic = {
+	state = 1141 #Santo Domingo
+}
+
+is_west_indies = {
+	OR = {
+		state = 308 #Leeward Islands
+		state = 690 #Bahamas
+		state = 692 #Windward Islands
+		state = 695 #Curaçao
+		state = 696 #Bermuda
+		state = 1077 #Saint Martin
+	}
+}
+
+is_gran_colombia = {
+	OR = {
+		is_colombia = yes
+		is_venezuela = yes
+		is_ecuador = yes
+		is_panama = yes
+	}
+}
+
+is_colombia = {
+	region = 198 #Colombia
+}
+
+is_venezuela = {
+	region = 124 #Venezuela
+}
+
+is_ecuador = {
+	OR = {
+		state = 1050 #Quito
+		state = 1051 #Pastaza
+		state = 1058 #Galapagos Islands
+	}
+}
+
+is_peru = {
+	OR = {
+		region = 206 #Peru
+		state = 1052 #Pastaza
+		state = 1053 #Loreto
+		state = 1054 #La Libertad
+	}
+}
+
 is_russia = {
 	OR = {
 		region = 40 #Transvolga
@@ -420,19 +886,13 @@ is_russia = {
 		region = 135 #North Caucasus
 		AND = {
 			region = 137 #Caspian Lowlands
-			NOT = { 
-				state = 428
-				state = 429
-				state = 438
-			} 
+			NOT = { state = 428 } #Guryev
 		}
 		region = 150 #Arctic Russia
 		region = 256 #Ural Mountains
-		state = 310 #Murmansk
-		state = 311
 		state = 308 #White Karelia
-		state = 341 #Petsamo
-		state = 225 #Latgale
+		state = 309 #Soroka
+		state = 310 #Murmansk
 		is_siberia = yes
 		is_russian_far_east = yes
 	}
@@ -447,8 +907,7 @@ is_siberia = {
 		region = 258 #Altai
 		region = 259 #Transbaikal
 		state = 403 #Tuva
-		state = 396 #Taymyr
-		state = 390
+		state = 396 #N.Siberian Lowlands
 	}
 }
 
@@ -457,71 +916,91 @@ is_russian_far_east = {
 		region = 148 #Primorye
 		region = 149 #Russian Far East
 		region = 260 #Amur
-		state = 415 #Northeast Siberia
-		state = 425
+		state = 415 #Yana-Kolyma Lowlands
 	}
 }
 
 is_central_asia = {
 	OR = {
-		is_kazakh = yes
+		is_kazakhstan = yes
 		region = 253 #Transcaspia
 		region = 254 #Transoxiana
 		region = 255 #Ferghana Valley
 	}
 }
 
-is_kazakh = {
+is_central_asia_plus_claims = {
 	OR = {
 		region = 136 #Kazakh Steppes
-		state = 428
-		state = 429
-		state = 430
-		state = 431
-		state = 432
-		state = 433
-		state = 434
-		state = 435
-		state = 436
-		state = 437
-		state = 438
-		state = 439
+		region = 253 #Transcaspia
+		region = 254 #Transoxiana
+		region = 255 #Ferghana Valley
+		is_xinjiang = yes
+		state = 406 #Guryev
+		state = 418 #Ashkhabad
+		state = 581 #Uralsk
+		state = 418 #Ashkabad
+	}
+}
+
+is_kazakhstan = {
+	OR = {
+		region = 136 #Kazakh Steppes
+		state = 428 #Guryev
+		state = 435 #Semireche
 		state = 443
 	}
 }
 
 is_southern_central_asia = {
 	OR = {
-		is_kirgizia = yes
-		is_turkmenistan = yes
+		is_kirghizia = yes
 		is_uzbekistan = yes
+		is_turkmenistan = yes
 	}
 }
 
-is_kirgizia = {
+is_kirghizia = {
 	OR = {
-		state = 446
-		state = 708
-	}
-}
-
-is_turkmenistan = {
-	OR = {
-		state = 707
-		state = 440
-		state = 441
+		state = 708 #Ferghana
+		state = 446 #Frunze
 	}
 }
 
 is_uzbekistan = {
 	OR = {
-		state = 442
-		state = 443
-		state = 444
-		state = 445
+		is_tagikistan = yes
+		state = 442 
+		state = 444 
+		state = 445 
+	}
+}
+
+is_turkmenistan = {
+	OR = {
+		state = 440
+		state = 441 
+		state = 707 
+	}
+}
+
+is_tagikistan = { 
+	OR = {
 		state = 447
 		state = 448
 	}
+}
+
+is_syria = {
+	region = 28 #Levant
+}
+
+is_iraq = {
+	region = 239 #Mesopotamia
+}
+
+is_kurdistan = {
+	region = 252 #Kurdistan
 }
 
 is_persia = {
@@ -529,11 +1008,44 @@ is_persia = {
 		region = 116 #Alborz Mountains
 		region = 155 #Zagros Mountains
 		region = 269 #Iranian Plateau
-		state = 718
-		state = 721
-		state = 755
+		state = 718 #Khuzestan
+		state = 721 #Urmia
+		state = 755 #Kermanshah
 	}
 }
+
+is_amazonas = {
+	region = 163 #Amazonas
+}
+
+is_central_brazil = {
+	region = 201 #Central Brazil
+}
+
+# is_northeast_brazil = {
+# 	OR = {
+# 		state = 498 #Northeast Brazil
+# 		state = 497 #Piauí
+# 		state = 896 #Maranhão
+# 	}
+# }
+
+# is_southeast_brazil = {
+# 	OR = {
+# 		state = 496 #Minas Gerais
+# 		state = 500 #Rio de Janeiro
+# 		state = 895 #Espírito Santo
+# 	}
+# }
+
+# is_southern_brazil = {
+# 	OR = {
+# 		state = 502 #Rio Grande do Sul
+# 		state = 503 #Paraná
+# 		state = 894 #Santa Catarina
+# 		state = 1041 #Iguassú
+# 	}
+# }
 
 is_brazil = {
 	OR = {
@@ -541,19 +1053,66 @@ is_brazil = {
 		region = 163 #Amazonas
 		region = 201 #Central Brazil
 		region = 202 #Northeast Brazil
-		state = 1100
-		state = 1101
-		state = 1102
-		state = 1103
+		AND = {
+			region = 203 #Uruguay Basin
+			NOT = { state = 1073 } #Uruguay
+		}
+	}
+}
+
+is_argentina = {
+	OR = {
+		region = 208 #Central Argentina
+		state = 1074
+		state = 1075
+		state = 1076
+		state = 1079
+		state = 1080
+		state = 1081
+		state = 1083
+		state = 1084
+		state = 1086
+		state = 1087
+		state = 1088
+		state = 1089
+		state = 1090
+		state = 1091
+		state = 1092
+		state = 1093
+		state = 1094
+		state = 1095
+		state = 1096
+		state = 1097
+	}
+}
+
+is_paraguay = {
+	region = 204 #Gran Chaco
+}
+
+is_chile = {
+	OR = {
+		state = 1065
+		state = 1066
+		state = 1067
+		state = 1068
+		state = 1069
+		state = 1070
+	}
+}
+
+is_bolivia = {
+	OR = {
+		state = 1060
+		state = 1061
+		state = 1062
+		state = 1063
+		state = 1064
 	}
 }
 
 is_guyana = {
 	OR = {
-		state = 1120
-		state = 1121
-		state = 1122
-		state = 1123
 		state = 1124
 		state = 1125
 		state = 1126
@@ -561,20 +1120,60 @@ is_guyana = {
 	}
 }
 
+is_suriname = {
+	OR = {
+		state = 1122
+		state = 1123 #Suriname
+	}
+}
+
+is_east_guyana = {
+	OR = {
+		state = 1120
+		state = 1121
+	}
+}
+
+is_hejaz = {
+	OR = {
+		state = 763 #Mecca
+		state = 767 #Medina
+		state = 768 #Asir
+	}
+}
+
 is_arabia = {
 	OR = {
-		state = 756
-		state = 760
 		state = 761
 		state = 762
-		state = 763
 		state = 764
 		state = 766
-		state = 767
-		state = 768
 		state = 769
 		state = 770
 	}
+}
+
+is_yemen = {
+	OR = {
+		state = 777
+		state = 778
+		state = 779
+	}
+}
+
+is_oman = {
+	OR = {
+		state = 765
+		state = 774
+		state = 775
+		state = 776
+		state = 780
+		state = 811
+	}
+}
+
+is_afghanistan = {
+	region = 162 #Afghanistan
 }
 
 is_australia = {
@@ -583,45 +1182,290 @@ is_australia = {
 		region = 248 #Eastern Australia
 		region = 249 #Northern Australia
 		region = 250 #Central Australia
-		state = 940 #Christmas & Cocos
-		state = 941
+		state = 940 
+		state = 941 
+	}
+}
+
+is_new_zealand = {
+	region = 157 #New Zealand
+}
+
+is_papua = {
+	OR = {
+		region = 167 #New Guinea
+		state = 649 #Bismarck Archipelago
 	}
 }
 
 is_azania = {
 	OR = {
-		state = 882
-		state = 883
+		region = 102
+		state = 886
+	}
+}
+
+is_egypt = {
+	OR = {
+		region = 126 #Egypt
+		state = 786 #Western Desert
+	}
+}
+
+is_libya = {
+	OR = {
+		state = 797
+		state = 799
+		state = 800
+		state = 801
+	}
+}
+
+is_tunisia = {
+	OR = {
+		state = 802
+		state = 803
+	}
+}
+
+is_algeria = {
+	OR = {
+		state = 804
+		state = 805
+		state = 806
+		state = 807
+		state = 808
+	}
+}
+
+is_morocco = {
+	OR = {
+		state = 809
+		state = 810
+		state = 812
+		state = 813
+		state = 814
+		state = 815
+		state = 817
+	}
+}
+
+is_mauritania = {
+	OR = {
+		state = 817
+		state = 821
+		state = 825
+	}
+}
+
+is_malian_tuareg = {
+	OR = {
+		state = 822
+		state = 830
+	}
+}
+
+is_mali = {
+	OR = {
+		is_malian_tuareg = yes
+		state = 829
+	}
+}
+
+is_senegal = {
+	state = 826
+}
+
+is_gambia = {
+	OR = {
+		state = 827
+		state = 930
+	}
+}
+
+is_senegambia = {
+	OR = { 
+		is_senegal = yes
+		is_gambia = yes
+	}
+}
+
+is_guinea = {
+	OR = {
+		state = 828
+		state = 833
+	}
+}
+
+is_sierra_leone = {
+	state = 834 #Sierra Leone
+}
+
+is_liberia = {
+	state = 835 #Liberia
+}
+
+is_ivory_coast = {
+	state = 836 #Ivory Coast
+}
+
+is_burkina_faso = {
+	state = 837 #Upper Volta
+}
+
+is_ghana = {
+	state = 838 #Gold Coast
+}
+
+is_togo = {
+	state = 839 #Togoland
+}
+
+is_dahomey = {
+	state = 840 #Dahomey
+}
+
+is_nigeria = {
+	region = 266 #Nigeria
+}
+
+is_niger = {
+	OR = {
+		is_niger_tuareg = yes
+		state = 798 #Air
+	}
+}
+
+is_niger_tuareg = {
+	OR = {
+		state = 823
+		state = 831
+	}
+}
+
+is_chad = {
+	OR = {
+		state = 824 #Chad
+		state = 832 #Borku-Ennedi
+	}
+}
+
+is_sudan = {
+	OR = {
+		region = 128 #Upper Nile
+		region = 268 #Upper Nile
+		state = 792
+	}
+}
+
+is_ethiopia = {
+	region = 17 #Ethiopia
+}
+
+is_somalia = {
+	region = 267 #Horn of Africa
+}
+
+is_kenya = {
+	OR = {
 		state = 885
 		state = 887
 		state = 888
+		state = 889
 		state = 890
-		state = 891
-		state = 892
-		state = 893
-		state = 894
-		state = 895
-		state = 896
-		state = 897
-		state = 898
-		state = 899
 	}
 }
-is_south_seas_islands = {
+
+is_uganda = {
 	OR = {
-		state = 1164
-		state = 1167
-		state = 1168
-		state = 1169
-		state = 1170
-		state = 1171
-		state = 1172
-		state = 1174
-		state = 1175
-		state = 1178
-		state = 1182
+		is_buganda = yes
+		state = 882 #Uganda
 	}
 }
+
+is_buganda = {
+	state = 883 #Buganda
+}
+
+is_cameroon = {
+	OR = {
+		state = 862
+		state = 863
+		state = 864
+	}
+}
+
+is_ubangi_shari = {
+	OR = {
+		state = 660 #Ubangi-Shari
+		state = 971 #New Cameroon
+	}
+}
+
+is_gabon = {
+	OR = { 
+		state = 866
+		state = 867
+		state = 869 #Gabon
+	}
+}
+
+is_congo = {
+	region = 145 #Congo Basin
+}
+
+is_angola = {
+	OR = {
+		region = 190 #Angola
+		state = 899 #Cabinda
+	}
+}
+
+is_mozambique = {
+	region = 241 #Mozambique
+}
+
+is_zambia = {
+	OR = {
+		state = 904
+		state = 905
+		state = 906
+		state = 907
+		state = 908
+	}
+}
+
+is_zimbabwe = {
+	OR = {
+		state = 913
+		state = 914
+	}
+}
+
+is_malawi = {
+	state = 909 #Nyasaland
+}
+
+is_namibia = {
+	OR = {
+		state = 916
+		state = 917
+		state = 918
+		state = 919
+		state = 920
+	}
+}
+
+is_botswana = {
+	OR = {
+		state = 915
+		state = 921
+	}
+}
+is_south_africa = {
+	region = 139 #South Africa
+}
+
 # the following triggers will check if the country in scope is on a particular continent
 # note that these are continents as per the game - asia and middle-east are considered separate continents
 is_in_asia = {

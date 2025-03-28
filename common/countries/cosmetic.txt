@@ -42,13 +42,17 @@ YUN_CHI = {
 	color = rgb { 0 42 177 }
 	color_ui = rgb { 0 42 177 }
 }
-XSM_kmt = {
+XSM_CHI = {
 	color = rgb { 0 60 177 }
 	color_ui = rgb { 0 60 177 }
 }
-SIK_kmt = {
+SIK_CHI = {
 	color = rgb { 0 60 177 }
 	color_ui = rgb { 0 60 177 }
+}
+NXJ = {
+	color = rgb { 191 85 10 }
+	color_ui = rgb { 191 85 10 }
 }
 SDL_akc = {
 	color = rgb { 189 113 33 }

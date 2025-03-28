@@ -1,0 +1,3128 @@
+#Britain - annexation_britain
+can_release_britain = {
+	6 = { annexations_state_is_tied_to_annexation_decision = yes } #London 
+	ROOT = {
+		OR = {
+			is_subject = yes
+			is_british_tag = yes
+			if = {
+				limit = { is_ally_with = IMP } #In case of Alliance with IMP (United Kingdoms dissolved)
+				NOT = { country_exists = ENG }
+			}
+			else_if = { #Normal Situation
+				NOT = { country_exists = GBP }
+			}
+		}
+	}
+}
+
+#Scotland - annexation_scotland
+can_release_scotland = {
+	381 = { annexations_state_is_tied_to_annexation_decision = yes } #Edinburgh
+	NOT = { country_exists = SCO }
+	ROOT = { should_release_britain_first = yes }
+}
+
+#Wales - annexation_wales
+can_release_wales = {
+	374 = { annexations_state_is_tied_to_annexation_decision = yes } #Cardiff
+	NOT = { country_exists = WLS }
+	ROOT = { should_release_britain_first = yes }
+}
+
+#Northern Ireland - annexation_northern_ireland
+can_release_northern_ireland = {
+	388 = { annexations_state_is_tied_to_annexation_decision = yes } #Belfast
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = IRE 
+			133.owner = {
+				OR = {
+					is_british_tag = yes
+					IMP = { is_monarchy = yes }
+				}
+			}
+			6 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					owns_state = 380 #Lanark
+					has_socialist_government = no
+					ROOT_can_grant_land = yes
+				}
+			} 
+		}
+	}
+	ROOT = {
+		should_release_ireland_first = yes
+		should_release_britain_first = yes
+	}
+}
+
+#Ireland - annexation_ireland
+can_release_ireland = {
+	16 = { annexations_state_is_tied_to_annexation_decision = yes } #Dublin
+	NOT = { country_exists = IRE }
+}
+
+#France - annexation_france
+can_release_france = {
+	3 = { annexations_state_is_tied_to_annexation_decision = yes } #Ile-de-France
+	ROOT = {
+		OR = {
+			is_subject = yes
+			is_french_tag = yes
+			if = {
+				limit = { is_ally_with = ENT }
+				OR = {
+					NOT = { country_exists = FRA }
+					AND = {
+						NOT = { is_ally_with = FRA }
+						NOT = { country_exists = FPP }
+					}
+				}
+			}
+			else = {
+				NOT = { country_exists = FPP }
+			}
+			FRA = { ROOT_can_grant_land = yes }
+			FPP = { ROOT_can_grant_land = yes }
+		}
+	}
+}
+
+#Brittany - annexation_brittany
+can_release_brittany = {
+	77 = { annexations_state_is_tied_to_annexation_decision = yes } #Brittany
+	NOT = { country_exists = BRI }
+	ROOT = { should_release_france_first = yes }
+}
+
+#Calais - annexation_calais
+can_release_calais = {
+	68 = { annexations_state_is_tied_to_annexation_decision = yes } #Calais
+	ROOT = {
+		OR = {
+			is_subject = yes
+			65 = { is_claim_or_core_of_ROOT = yes } #Wallonia
+			69 = { is_claim_or_core_of_ROOT = yes } #Somme
+			65 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			69 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { 
+		should_release_france_first = yes
+		should_release_wallonia_first = yes
+		should_release_flanders_first = yes
+	}
+}
+
+#Alsace Lorraine - annexation_alsace_lorraine
+can_release_alsace_lorraine = { 
+	71 = { annexations_state_is_tied_to_annexation_decision = yes } #Alsace
+	ROOT = {
+		OR = {
+			is_subject = yes
+			72 = { is_claim_or_core_of_ROOT = yes } #Lorraine
+			52 = { is_claim_or_core_of_ROOT = yes } #Saarland
+			49 = { is_claim_or_core_of_ROOT = yes } #Baden
+			72 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			52 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			49 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_france_first = yes
+		should_release_rhineland_first = yes
+		should_release_south_germany_first = yes 
+	}
+}
+
+#Savoy - annexation_savoy
+can_release_savoy = {
+	94 = { annexations_state_is_tied_to_annexation_decision = yes } #Savoy
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				134 = { is_claim_or_core_of_ROOT = yes }
+				owns_state = 135
+			}
+			88 = { is_claim_or_core_of_ROOT = yes } 
+			134 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					135 = { annexations_required_state_is_owned_by_either_side = yes }	
+				}
+			}
+			88 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_france_first = yes
+		should_release_piedmont_first = yes 
+		135 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
+#Nice - annexation_nice
+can_release_nice = {
+	94 = { annexations_state_is_tied_to_annexation_decision = yes } #Savoy
+	ROOT = {
+		OR = {
+			is_subject = yes
+			92 = { is_claim_or_core_of_ROOT = yes } 
+			AND = {
+				134  = { is_claim_or_core_of_ROOT = yes }
+				owns_state = 133
+			}
+			134 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					133 = { annexations_required_state_is_owned_by_either_side = yes }	
+				}
+			}
+			92 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_france_first = yes
+		should_release_piedmont_first = yes 
+	}
+}
+
+#Roussillon - annexation_roussillon
+can_release_roussillon = { 
+	84 = { annexations_state_is_tied_to_annexation_decision = yes } #Roussillon
+	ROOT = {
+		is_subject = yes 
+		85 = { is_claim_or_core_of_ROOT = yes } 
+		91 = { is_claim_or_core_of_ROOT = yes }
+		96 = { is_claim_or_core_of_ROOT = yes }
+		85 = {
+			annexations_state_owner_is_valid_grant_target = yes
+			owner = { ROOT_can_grant_land = yes }
+		}
+		91 = {
+			annexations_state_owner_is_valid_grant_target = yes
+			owner = { ROOT_can_grant_land = yes }
+		}
+		96 = {
+			annexations_state_owner_is_valid_grant_target = yes
+			owner = { ROOT_can_grant_land = yes }
+		}
+		ROOT = {
+			should_release_france_first = yes
+			should_release_catalonia_first = yes
+		}
+	}
+}
+
+#Basses Pyrenees - annexation_basses_pyrenees
+can_release_basses_pyrenees = { 
+	83 = { annexations_state_is_tied_to_annexation_decision = yes } #Basses Pyrenees
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			104 = { is_claim_or_core_of_ROOT = yes } 
+			85 = { is_claim_or_core_of_ROOT = yes }
+			82  = { is_claim_or_core_of_ROOT = yes }
+			104 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			85 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			82 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_france_first = yes
+		OR = {
+			105 = { annexations_state_has_valid_annexation = no }
+			NOT = { country_exists = BSQ }
+		}
+	}
+}
+
+#Corsica - annexation_corsica
+can_release_corsica = { 
+	1 = { annexations_state_is_tied_to_annexation_decision = yes } #Corsica
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			92 = { is_claim_or_core_of_ROOT = yes }
+			133 = { is_claim_or_core_of_ROOT = yes }
+			2 = { is_claim_or_core_of_ROOT = yes }
+			92 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			133 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			2 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_france_first = yes
+		should_release_piedmont_first = yes
+		should_release_sardinia_first = yes
+	}
+}
+
+#Spain - annexation_spain
+can_release_spain = { 
+	14 = { annexations_state_is_tied_to_annexation_decision = yes } #Madrid
+	NOT = { country_exists = SPA }
+}
+
+#Catalonia - annexation_catalonia
+can_release_catalonia = { 
+	96 = { annexations_state_is_tied_to_annexation_decision = yes } #Barcelona
+	NOT = { country_exists = CTA }
+	ROOT = { should_release_spain_first = yes }
+}
+
+#Basque - annexation_basque
+can_release_basque = { 
+	104 = { annexations_state_is_tied_to_annexation_decision = yes } #Basque
+	NOT = { country_exists = BSQ }
+	ROOT = { should_release_spain_first = yes }
+}
+
+#Galicia - annexation_galicia
+can_release_galicia = {
+	115 = { annexations_state_is_tied_to_annexation_decision = yes } #Galicia
+	NOT = { country_exists = GAL }
+	ROOT = { should_release_spain_first = yes }
+}
+
+#Valencia - annexation_valencia
+can_release_valencia = { 
+	98 = { annexations_state_is_tied_to_annexation_decision = yes } #Valencia
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			96 = { is_claim_or_core_of_ROOT = yes }
+			99 = { is_claim_or_core_of_ROOT = yes }
+			96 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			99 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_spain_first = yes
+		should_release_catalonia_first = yes
+	}
+}
+
+#Balearic Islands - annexation_balearic_islands
+can_release_balearic_islands = { 
+	97 = { annexations_state_is_tied_to_annexation_decision = yes } #Balearic Islands
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			96 = { is_claim_or_core_of_ROOT = yes }
+			98 = { is_claim_or_core_of_ROOT = yes }
+			96 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			98 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_spain_first = yes
+		should_release_catalonia_first = yes
+	}
+}
+
+#Gibraltar - annexation_gibraltar
+can_release_gibraltar = { 
+	121 = { annexations_state_is_tied_to_annexation_decision = yes } #Gibraltar
+	ROOT = {
+		OR = {
+			is_subject = yes
+			100 = { is_claim_or_core_of_ROOT = yes }
+			114 = { is_claim_or_core_of_ROOT = yes }
+			100 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			114 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			is_british_tag = yes
+			6.owner = {
+				AND = {
+					is_british_tag = yes
+					has_socialist_government = no
+				}
+				ROOT_can_grant_land = yes
+			}
+		}
+	}
+	ROOT = { should_release_spain_first = yes }
+}
+
+#Portugal - annexation_portugal
+can_release_portugal = { 
+	15 = { annexations_state_is_tied_to_annexation_decision = yes } #Lisbon
+	NOT = { country_exists = POR }
+}
+
+#Netherlands - annexation_netherlands
+can_release_netherlands = { 
+	7 = { annexations_state_is_tied_to_annexation_decision = yes } #Amsterdam
+	NOT = { country_exists = HOL }
+}
+
+#Westerschelde - annexation_westerschelde
+can_release_westerschelde = { 
+	62 = { annexations_state_is_tied_to_annexation_decision = yes } #Westerschelde
+	ROOT = {
+		OR = {
+			is_subject = yes
+			63 = { is_claim_or_core_of_ROOT = yes }
+			61 = { is_claim_or_core_of_ROOT = yes }
+			63 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			61 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_belgium_first = yes
+		should_release_netherlands_first = yes
+		should_release_flanders_first = yes 
+	}
+}
+
+#Limburg - annexation_limburg
+can_release_limburg = {
+	64 = { annexations_state_is_tied_to_annexation_decision = yes } #Limburg
+	ROOT = {
+		OR = {
+			is_subject = yes
+			12 = { is_claim_or_core_of_ROOT = yes }
+			61 = { is_claim_or_core_of_ROOT = yes }
+			51 = { is_claim_or_core_of_ROOT = yes }
+			12 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			61 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			51 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_belgium_first = yes
+		should_release_netherlands_first = yes
+		should_release_flanders_first = yes 
+		should_release_rhineland_first = yes
+	}
+}
+
+#Belgium - annexation_belgium
+can_release_belgium = { 
+	12 = { annexations_state_is_tied_to_annexation_decision = yes } #Brabant
+	NOT = { country_exists = BEL }
+	ROOT = {
+		should_release_france_first = yes
+		should_release_netherlands_first = yes
+		NOT = { has_country_flag = BELGIUM_BALKANIZED }
+	}
+}
+
+#Luxembourg - annexation_luxembourg
+can_release_luxembourg = {
+	10 = { annexations_state_is_tied_to_annexation_decision = yes } #Luxembourg
+	NOT = { country_exists = LUX }
+}
+
+#Flanders - annexation_flanders
+can_release_flanders = { 
+	12 = { annexations_state_is_tied_to_annexation_decision = yes } #Brabant
+	NOT = { country_exists = FLA }
+	ROOT = { should_release_belgium_first = yes }
+}
+
+#Wallonia - annexation_wallonia
+can_release_wallonia = { 
+	65 = { annexations_state_is_tied_to_annexation_decision = yes } #Wallonia
+	NOT = { country_exists = WLL }
+	ROOT = { should_release_belgium_first = yes }
+}
+
+#Eupen - annexation_eupen
+can_release_eupen = { 
+	66 = { annexations_state_is_tied_to_annexation_decision = yes } #Eupen
+	ROOT = {
+		OR = {
+			is_subject = yes
+			51 = { is_claim_or_core_of_ROOT = yes }
+			65 = { is_claim_or_core_of_ROOT = yes }
+			51 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			65 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_belgium_first = yes
+		should_release_rhineland_first = yes
+		should_release_wallonia_first = yes 
+	}
+}
+
+#Bastogne - annexation_bastogne
+can_release_bastogne = { 
+	67 = { annexations_state_is_tied_to_annexation_decision = yes } #Bastogne
+	ROOT = {
+		OR = {
+			is_subject = yes
+			10 = { is_claim_or_core_of_ROOT = yes }
+			65 = { is_claim_or_core_of_ROOT = yes }
+			10 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			65 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		OR = {
+			10 = { annexations_state_has_valid_annexation = no }
+			NOT = { country_exists = LUX }
+		}
+		should_release_belgium_first = yes
+		should_release_wallonia_first  = yes
+	}
+}
+
+#Italy - annexation_italy
+can_release_italy = { 
+	4 = { annexations_state_is_tied_to_annexation_decision = yes } #Rome
+	NOT = { country_exists = ITA }
+	ROOT = { NOT = { has_country_flag = ITALY_BALKANIZED } }
+}
+
+#Rome - annexation_rome
+can_release_rome = { 
+	4 = { annexations_state_is_tied_to_annexation_decision = yes } #Rome
+	NOT = { country_exists = STE }
+	ROOT = { should_release_italy_first = yes }
+}
+
+#Central Italy - annexation_central_italy
+can_release_central_italy = { 
+	131 = { annexations_state_is_tied_to_annexation_decision = yes } #Central Italy
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = STE
+			STE = { ROOT_can_grant_land = yes }
+			is_italian_tag = yes 
+			annexations_can_give_lands_to_italian_tag = yes
+		}
+	}
+	ROOT = {
+		should_release_italy_first = yes
+		should_release_piedmont_first = yes
+	}
+}
+
+#South Italy - annexation_south_italy
+can_release_south_italy = {
+	126 = { annexations_state_is_tied_to_annexation_decision = yes } #South Italy
+	NOT = { country_exists = SIT }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			4 = { is_claim_or_core_of_ROOT = yes }
+			4 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { should_release_rome_first = yes }
+}
+
+#Malta - annexation_malta 
+can_release_malta = { 
+	122 = { annexations_state_is_tied_to_annexation_decision = yes } #Malta
+	NOT = { country_exists = MLT }
+	ROOT = { 123 = { annexations_state_has_valid_annexation = no } } #Sicily
+}
+
+#Sardinia - annexation_sardinia
+can_release_sardinia = { 
+	2 = { annexations_state_is_tied_to_annexation_decision = yes } #Sardinia
+	NOT = { country_exists = SAR }
+	ROOT = { should_release_italy_first = yes }
+}
+
+#Piedmont - annexation_piedmont 
+can_release_piedmont = { 
+	135 = { annexations_state_is_tied_to_annexation_decision = yes } #Piedmont
+	NOT = { country_exists = PIE }
+	ROOT = { should_release_sardinia_first = yes }
+}
+
+#Lombardy - annexation_lombardy
+can_release_lombardy = { 
+	136 = { annexations_state_is_tied_to_annexation_decision = yes } #Lombardy
+	NOT = { country_exists = LOM }
+	ROOT = { should_release_rome_first = yes }
+}
+
+#Venice - annexation_venice 
+can_release_venice = { 
+	137 = { annexations_state_is_tied_to_annexation_decision = yes } #Venice
+	NOT = { country_exists = VNE }
+	ROOT = { should_release_lombardy_first = yes }
+}
+
+#Trentino - annexation_trentino
+can_release_trentino = { 
+	138 = { annexations_state_is_tied_to_annexation_decision = yes } #Trentino
+	ROOT = {
+		OR = {
+			is_subject = yes
+			136 = { is_claim_or_core_of_ROOT = yes }
+			137 = { is_claim_or_core_of_ROOT = yes }
+			AND = {
+				143 = { is_claim_or_core_of_ROOT = yes }
+				owns_state = 139
+			}
+			136 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			137 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			139 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { 
+					annexations_required_state_is_owned_by_either_side = yes
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_venice_first = yes
+		should_release_lombardy_first = yes
+	}
+}
+
+#South Tyrol - annexation_south_tyrol
+can_release_south_tyrol = { 
+	139 = { annexations_state_is_tied_to_annexation_decision = yes } #South Tyrol
+	ROOT = {
+		OR = {
+			is_subject = yes
+			143 = { is_claim_or_core_of_ROOT = yes }
+			138 = { is_claim_or_core_of_ROOT = yes }
+			138 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			143 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_venice_first = yes
+		should_release_lombardy_first = yes
+		138 = { annexations_state_has_valid_annexation = no } #Trentino
+	}
+}
+
+#Gorizia - annexation_gorizia
+can_release_gorizia = {
+	150 = { annexations_state_is_tied_to_annexation_decision = yes } #Gorizia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			152 = { is_claim_or_core_of_ROOT = yes } #Carniola
+			AND = {
+				137 = { is_claim_or_core_of_ROOT = yes } #Venetia
+				owns_state = 149
+			}
+			152 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			137 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					149 = { annexations_required_state_is_owned_by_either_side = yes }
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_slovenia_first = yes
+		149 = { annexations_state_has_valid_annexation = no } #Trieste
+	}
+}
+
+#Trieste - annexation_trieste
+can_release_trieste = {
+	149 = { annexations_state_is_tied_to_annexation_decision = yes } #Trieste
+	ROOT = {
+		OR = {
+			is_subject = yes
+			137 = { is_claim_or_core_of_ROOT = yes } #Venetia
+			AND = {
+				152 = { is_claim_or_core_of_ROOT = yes } #Carniola
+				owns_state = 150
+			}
+			137 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			152 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					150 = { annexations_required_state_is_owned_by_either_side = yes }
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_slovenia_first = yes
+		should_release_venice_first = yes
+	}
+}
+
+#Istria - annexation_istria
+can_release_istria = {
+	151 = { annexations_state_is_tied_to_annexation_decision = yes } #Istria
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			AND = {
+				152 = { is_claim_or_core_of_ROOT = yes } #Carniola
+				owns_state = 150
+			}
+			156 = { is_claim_or_core_of_ROOT = yes } #Dalmatia
+			149 = { is_claim_or_core_of_ROOT = yes } #Trieste
+			152 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					150 = { annexations_required_state_is_owned_by_either_side = yes }
+					ROOT_can_grant_land = yes
+				}
+			}
+			156 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			149 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_slovenia_first = yes
+		should_release_venice_first = yes
+		149 = { annexations_state_has_valid_annexation = no } #Trieste
+	}
+}
+#Zara - annexation_zara
+can_release_zara = { 
+	155 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				149 = {	is_claim_or_core_of_ROOT = yes }	
+				owns_state = 151
+			}
+			156 = { is_claim_or_core_of_ROOT = yes } #Dalmatia
+			156 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			149 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					151 = { annexations_required_state_is_owned_by_either_side = yes }
+					owner = { ROOT_can_grant_land = yes }
+				}
+			} 
+		}
+	}
+	ROOT = {
+		should_release_croatia_first = yes
+		should_release_venice_first = yes
+		151 = { annexations_state_has_valid_annexation = no } #Istria
+	}
+}
+
+#Vlore - annexation_vlore
+can_release_vlore = { 
+	164 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			163 = { is_claim_or_core_of_ROOT = yes } #Epirus
+			163 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { should_release_albania_first = yes }
+}
+
+#Switzerland - annexation_switzerland
+can_release_switzerland = { 
+	13 = { annexations_state_is_tied_to_annexation_decision = yes } #Switzerland
+	NOT = { country_exists = SWI }
+}
+
+#Vorarlberg - annexation_vorarlberg
+can_release_vorarlberg = { 
+	142 = { annexations_state_is_tied_to_annexation_decision = yes } #Vorarlberg
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = AUS
+			140 = { is_claim_or_core_of_ROOT = yes } #Zurich
+			143 = { is_claim_or_core_of_ROOT = yes } #Tyrol
+			AUS = { ROOT_can_grant_land = yes }
+			140 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			143 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_austria_first = yes
+		should_release_switzerland_first = yes
+	}
+}
+
+#Ticino - annexation_ticino
+can_release_ticino = { 
+	141 = { annexations_state_is_tied_to_annexation_decision = yes } #Ticino
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = SWI
+			140 = { is_claim_or_core_of_ROOT = yes } #Zurich
+			134 = { is_claim_or_core_of_ROOT = yes } #Piedmont
+			136 = { is_claim_or_core_of_ROOT = yes } #Lombardy
+			SWI = { ROOT_can_grant_land = yes }
+			136 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_switzerland_first = yes
+		should_release_lombardy_first = yes
+	}
+}
+
+#Austria - annexation_austria
+can_release_austria = {
+	9 = { annexations_state_is_tied_to_annexation_decision = yes } #Austria
+	NOT = { country_exists = AUS }
+	ROOT = { should_release_south_germany_first = yes }
+}
+
+#Burgenland - annexation_bergenland
+can_release_burgenland = {
+	147 = { annexations_state_is_tied_to_annexation_decision = yes } #Burgenland
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				9 = { is_claim_or_core_of_ROOT = yes } #Austria
+				owns_state = 145
+			}
+			AND = {
+				20 = { is_claim_or_core_of_ROOT = yes } #Transdanubia
+				owns_State = 158
+			}
+			9 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					145 = { annexations_required_state_is_owned_by_either_side = yes } 
+				}
+			}
+			20 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					158 = { annexations_required_state_is_owned_by_either_side = yes } 
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_hungary_first = yes
+		should_release_austria_first = yes
+	}
+}
+
+#North Germany - annexation_north_germany
+can_release_north_germany = { 
+	41 = { annexations_state_is_tied_to_annexation_decision = yes } #Hanover
+	NOT = { country_exists = NGM }
+	ROOT = {
+		if = { 
+			limit = { original_tag = AUS }
+			should_release_south_germany_first = yes 
+		}
+	}
+}
+
+#Prussia - annexation_prussia
+can_release_prussia = { 
+	5 = { annexations_state_is_tied_to_annexation_decision = yes } #Brandenburg
+	NOT = { country_exists = PRS }
+	ROOT = {
+		if = { 
+			limit = { original_tag = AUS }
+			should_release_south_germany_first = yes 
+		}
+	}
+}
+
+#Holstein - annexation_holstein
+can_release_holstein = {
+	38 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			41 = { is_claim_or_core_of_ROOT = yes } #Hanover
+			37 = { is_claim_or_core_of_ROOT = yes } #Mecklenburg
+			41 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			37 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_north_germany_first = yes
+		should_release_prussia_first = yes
+	}
+}
+
+#Hamburg  - annexation_hamburg
+can_release_hamburg = { 
+	40 = { annexations_state_is_tied_to_annexation_decision = yes } #Hamburg
+	ROOT = {
+		OR = {
+			is_subject = yes
+			41 = { is_claim_or_core_of_ROOT = yes } #Hanover
+			38 = { is_claim_or_core_of_ROOT = yes } #Mecklenburg
+			41 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			38 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_north_germany_first = yes
+		should_release_prussia_first = yes
+		38 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
+#Schleswig - annexation_schleswig
+can_release_schleswig = { 
+	39  = { annexations_state_is_tied_to_annexation_decision = yes } #Schleswig
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				362 = { is_claim_or_core_of_ROOT = yes } #Jutland
+				owns_state = 361 #North Schleswig
+			}
+			AND = {
+				41 = { is_claim_or_core_of_ROOT = yes } #Hanover
+				owns_state = 40 #Hamburg
+			}
+			AND = {
+				37 = { is_claim_or_core_of_ROOT = yes } #Mecklenburg
+				owns_state = 38 #Holstein
+			}
+			37 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					38 = { annexations_required_state_is_owned_by_either_side = yes }
+					owner = { ROOT_can_grant_land = yes }
+				}
+			}
+			41 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					40 = { annexations_required_state_is_owned_by_either_side = yes }
+					owner = { ROOT_can_grant_land = yes }
+				}
+			}
+			362 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					361 = { annexations_required_state_is_owned_by_either_side = yes }
+					owner = { ROOT_can_grant_land = yes }
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_denmark_first = yes
+		should_release_north_germany_first = yes
+		should_release_prussia_first = yes
+		38 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
+#Rhineland - annexation_rhineland
+can_release_rhineland = { 
+	53 = { annexations_state_is_tied_to_annexation_decision = yes } #Palatinate
+	NOT = { country_exists = RHI }
+	ROOT = {
+		if = { 
+			limit = { original_tag = AUS }
+			should_release_south_germany_first = yes
+		}
+		should_release_north_germany_first = yes
+	}
+}
+
+#South Germany - annexation_south_germany
+can_release_south_germany = {
+	57 = { annexations_state_is_tied_to_annexation_decision = yes } #Bavaria
+	NOT = { country_exists = SGM }
+}
+
+#Upper Silesia - annexation_upper_silesia
+can_release_upper_silesia = { 
+	44 = { annexations_state_is_tied_to_annexation_decision = yes } #Upper Silesia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			45 = { is_claim_or_core_of_ROOT = yes } #Silesia
+			215 = { is_claim_or_core_of_ROOT = yes } #Kalisz
+			45 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			215 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_prussia_first = yes
+	}
+}
+
+#Poznan - annexation_poznan
+can_release_poznan = {
+	211 = { annexations_state_is_tied_to_annexation_decision = yes } #Poznan
+	ROOT = {
+		OR = {
+			is_subject = yes
+			34 = { is_claim_or_core_of_ROOT = yes } #Neumark
+			45 = { is_claim_or_core_of_ROOT = yes } #Silesia
+			215 = { is_claim_or_core_of_ROOT = yes } #Kalisz
+			34 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			45 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			215 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_prussia_first = yes
+	}
+}
+
+#West Prussia - annexation_west_prussia
+can_release_west_prussia = { 
+	210 = { annexations_state_is_tied_to_annexation_decision = yes } #West Prussia
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			35 = { is_claim_or_core_of_ROOT = yes } #East Prussia
+			212 = { is_claim_or_core_of_ROOT = yes } #Posen
+			213 = { is_claim_or_core_of_ROOT = yes } #Masuria
+			35 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			212 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			213 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_prussia_first = yes
+		211 = { annexations_state_has_valid_annexation = no }
+		213 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
+#Masuria - annexation_masuria
+can_release_masuria = { 
+	213 = { annexations_state_is_tied_to_annexation_decision = yes } #Masuria
+	ROOT = {
+		OR = {
+			is_subject = yes
+			214 =  { is_claim_or_core_of_ROOT = yes } #Plock
+			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
+			210 = { is_claim_or_core_of_ROOT = yes } #West Prussia
+			210 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			212 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			214 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_prussia_first = yes
+		if = {
+			limit = { NOT = { original_tag = POL } }
+			should_release_east_prussia_first = yes
+		}
+	}
+}
+
+#East Prussia - annexation_east_prussia
+can_release_east_prussia = { 
+	212  = { annexations_state_is_tied_to_annexation_decision = yes } #East Prussia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			35 = { is_claim_or_core_of_ROOT = yes } #East Pomerania
+			210 = { is_claim_or_core_of_ROOT = yes } #West Prussia
+			213 = { is_claim_or_core_of_ROOT = yes } #Masuria
+			35 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			210 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			213 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_prussia_first = yes
+		if = {
+			limit = { original_tag = POL }
+			213 = { annexations_state_has_valid_annexation = no } #Masuria
+		}
+	}
+}
+
+#Memel - annexation_memel
+can_release_memel = {
+	229 = { annexations_state_is_tied_to_annexation_decision = yes } #Memel
+	ROOT = {
+		OR = {
+			is_subject = yes
+			228 = { is_claim_or_core_of_ROOT = yes } #Samogitia
+			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
+			228 = { #Samogitia
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			212 = { #East Prussia
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_prussia_first = yes
+		should_release_poland_first = yes
+		should_release_east_prussia_first = yes
+	}
+}
+
+#Denmark - annexation_denmark
+can_release_denmark = { 
+	17 = { annexations_state_is_tied_to_annexation_decision = yes } #Denmark
+	NOT = { country_exists = DEN }
+}
+
+#Iceland - annexation_iceland
+can_release_iceland = { 
+	367 = { annexations_state_is_tied_to_annexation_decision = yes } #Iceland
+	NOT = { country_exists = ICE }
+	ROOT = {
+		should_release_denmark_first = yes
+		should_release_norway_first = yes
+	}
+}
+
+#Norway - annexation_norway
+can_release_norway = {
+	18 = { annexations_state_is_tied_to_annexation_decision = yes } #Østlandet
+	NOT = { country_exists = NOR }
+}
+
+#Sweden - annexation_sweden
+can_release_sweden = {
+	19 = { annexations_state_is_tied_to_annexation_decision = yes } #Svealand
+	NOT = { country_exists = SWE }
+}
+
+#Aland - annexation_aland
+can_release_aland = {
+	145 = { annexations_state_is_tied_to_annexation_decision = yes } #Åland
+	ROOT = {
+		OR = {
+			is_subject = yes
+			19 = { is_claim_or_core_of_ROOT = yes } #Svealand
+			30 = { is_claim_or_core_of_ROOT = yes } #Finland Proper
+			19 = { #Svealand
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			30 = { #Finland Proper
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_sweden_first = yes
+		should_release_finland_first = yes
+	}
+}
+
+#Finland - annexation_finland
+can_release_finland = {
+	30 = { annexations_state_is_tied_to_annexation_decision = yes } #Nyland
+	NOT = { country_exists = FIN }
+}
+
+#Karelia - annexation_karelia
+can_release_karelia = {
+	341 = { annexations_state_is_tied_to_annexation_decision = yes } #Karelia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			31 = { is_claim_or_core_of_ROOT = yes } #Leningrad
+			30 = { is_claim_or_core_of_ROOT = yes } #Finland Proper
+			31 = { #Leningrad
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			30 = { #Finland Proper
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_finland_first = yes
+	}
+}
+
+#Salla - annexation_salla
+can_release_salla = { 
+	311 = { annexations_state_is_tied_to_annexation_decision = yes } #Salla
+	ROOT = {
+		OR = {
+			is_subject = yes
+			308 = { is_claim_or_core_of_ROOT = yes } 
+			345 = { is_claim_or_core_of_ROOT = yes } 
+			308 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			345 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_finland_first = yes
+		308 = { annexations_state_has_valid_annexation = no } #White Karelia
+	}
+}
+
+#Petsamo - annexation_petsamo
+can_release_petsamo = { 
+	341 = { annexations_state_is_tied_to_annexation_decision = yes } #Salla
+	ROOT = {
+		OR = {
+			is_subject = yes
+			308 = { is_claim_or_core_of_ROOT = yes } 
+			345 = { is_claim_or_core_of_ROOT = yes } 
+			308 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			345 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_finland_first = yes
+		311 = { annexations_state_has_valid_annexation = no } #Salla
+	}
+}
+
+#Estonia - annexation_estonia
+can_release_estonia = { 
+	29 = { annexations_state_is_tied_to_annexation_decision = yes } #Estland
+	NOT = { country_exists = EST }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Latvia - annexation_latvia
+can_release_latvia = { 
+	24 = { annexations_state_is_tied_to_annexation_decision = yes } #Riga
+	NOT = { country_exists = LAT }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Latgale - annexation_latgale
+can_release_latgale = { 
+	225 = { annexations_state_is_tied_to_annexation_decision = yes } #Latgale
+	ROOT = {
+		OR = {
+			is_subject = yes
+			224 = { is_claim_or_core_of_ROOT = yes } #Livonia
+			227 = { is_claim_or_core_of_ROOT = yes } #Courland
+			264 = { is_claim_or_core_of_ROOT = yes } #Pskov
+			262 = { is_claim_or_core_of_ROOT = yes } #Velikiye Luki
+			224 = { #Livonia
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			227 = { #Courland
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			264 = { #Pskov
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			262 = { #Velikiye Luki
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_latvia_first = yes
+	}
+}
+
+#Lithuania - annexation_lithuania
+can_release_lithuania = { 
+	25 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
+	NOT = { country_exists = LIT }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Vilnius - annexation_vilnius
+can_release_vilnius = { 
+	231 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
+	ROOT = {
+		OR = {
+			is_subject = yes
+			25 = { is_claim_or_core_of_ROOT = yes } #Kaunas
+			235 = { is_claim_or_core_of_ROOT = yes } #Braslav
+			AND = {
+				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+				owns_state = 218 #Bialystok
+			}
+			11 = { #Kaunas
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			219 = { #Lublin
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					218 = { annexations_required_state_is_owned_by_either_side = yes } #Bialystok
+				}
+			}
+			235 = { #Braslav
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_belarus_first = yes
+	}
+}
+
+#Poland - annexation_poland
+can_release_poland = { 
+	11 = { annexations_state_is_tied_to_annexation_decision = yes } #Warsaw
+	NOT = { country_exists = POL }
+}
+
+#Bialystok - annexation_bialystok
+can_release_bialystok = { 
+	218 = { annexations_state_is_tied_to_annexation_decision = yes } #Bialystok
+	ROOT = {
+		OR = {
+			is_subject = yes
+			219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+			234 = { is_claim_or_core_of_ROOT = yes } #Novogrudok
+			AND = {
+				27 = { is_claim_or_core_of_ROOT = yes } #Minsk
+				owns_state = 234
+			}
+			219 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			234 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			29 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { 
+					234 = { annexations_required_state_is_owned_by_either_side = yes } #Novogrudok
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_belarus_first = yes
+		234 = { annexations_state_has_valid_annexation = no } #Novogrudok
+	}
+}
+
+#Suwalki - annexation_suwalki
+can_release_suwalki = { 
+	232 = { annexations_state_is_tied_to_annexation_decision = yes } #Suwalki
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				214 = { is_claim_or_core_of_ROOT = yes } #Plock
+				owns_state = 213 #Masuria
+			}
+			230 = { is_claim_or_core_of_ROOT = yes } #Sudovia
+			214 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					213 = { annexations_required_state_is_owned_by_either_side = yes } #Bialystok
+					ROOT_can_grant_land = yes
+				}
+			}
+			230 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_belarus_first = yes
+		should_release_poland_first = yes
+		213 = { annexations_state_has_valid_annexation = no } #Masuria
+		230 = { annexations_state_has_valid_annexation = no } #Sudovia
+		218 = { annexations_state_has_valid_annexation = no } #Bialystok
+	}
+}
+
+#Sudovia - annexation_sudovia
+can_release_sudovia = { 
+	230 = { annexations_state_is_tied_to_annexation_decision = yes } #Sudovia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = LIT
+			25 = { is_claim_or_core_of_ROOT = yes } #Sudovia
+			LIT = { ROOT_can_grant_land = yes }
+			25 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { should_release_lithuania_first = yes }
+}
+
+#Brest - annexation_brest
+can_release_brest = { 
+	237 = { annexations_state_is_tied_to_annexation_decision = yes } #Brest
+	ROOT = {
+		OR = {
+			is_subject = yes
+			220 = { is_claim_or_core_of_ROOT = yes } #Chelm
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			220 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		220 = { annexations_state_has_valid_annexation = no } #Chelm
+		240 = { annexations_state_has_valid_annexation = no } #Volhynia
+	}
+}
+
+#Chelm - annexation_chelm
+can_release_chelm = { 
+	220 = { annexations_state_is_tied_to_annexation_decision = yes } #Chelm
+	ROOT = {
+		OR = {
+			is_subject = yes
+			219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+			AND = {
+				241 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+				owns_state = 240 #Volhynia
+			}
+			219 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			241 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					240 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_ukraine_first = yes
+		240 = { annexations_state_has_valid_annexation = no } #Volhynia
+	}
+}
+
+#Lwow - annexation_lwow
+can_release_lwow = { 
+	221 = { annexations_state_is_tied_to_annexation_decision = yes } #Lwow
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+				owns_state = 220 #Chelm
+			}
+			AND = {
+				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+				owns_state = 217 #Volhynia
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					220 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+			219 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					217 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		220 = { annexations_state_has_valid_annexation = no } #Chelm
+	}
+}
+
+#Volhynia - annexation_volhynia
+can_release_volhynia = { 
+	240 = { annexations_state_is_tied_to_annexation_decision = yes } #Volhynia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = UKR
+			241 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			AND = {
+				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+				owns_state = 220 #Chelm
+			}
+			UKR = { ROOT_can_grant_land = yes }
+			241 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			219 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					220 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+	}
+}
+
+#Stanislawow - annexation_stanislawow
+can_release_stanislawow = { 
+	270 = { annexations_state_is_tied_to_annexation_decision = yes } #Stanislawow
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				241 = { is_claim_or_core_of_ROOT = yes } 
+				owns_state = 240 #Volhynia
+			}
+			AND = {
+				217 = { is_claim_or_core_of_ROOT = yes } #Krakow
+				owns_state = 221
+			}
+			241 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					240 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+			217 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					221 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		221 = { annexations_state_has_valid_annexation = no } #Lwow
+	}
+}
+
+
+#Belarus - annexation_belarus
+can_release_belarus = { 
+	27 = { annexations_state_is_tied_to_annexation_decision = yes } #Minsk
+	NOT = { country_exists = BLR }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Gomel - annexation_gomel
+can_release_gomel = { 
+	249 = { annexations_state_is_tied_to_annexation_decision = yes } #Gomel
+	ROOT = {
+		OR = {
+			is_subject = yes
+			239 = { is_claim_or_core_of_ROOT = yes } #Mozyr
+			250 = { is_claim_or_core_of_ROOT = yes } #Siveria
+			251 = { is_claim_or_core_of_ROOT = yes } #Chernihiv
+			263 = { is_claim_or_core_of_ROOT = yes } #Krichev
+			239 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			250 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			251 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			263 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_belarus_first = yes
+	}
+}
+
+#Kobryn - annexation_kobryn
+can_release_kobryn = { 
+	238 = { annexations_state_is_tied_to_annexation_decision = yes } #Kobryn
+	ROOT = {
+		OR = {
+			is_subject = yes
+			233 = { is_claim_or_core_of_ROOT = yes } #Pinsk
+			237 = { is_claim_or_core_of_ROOT = yes } #Brest
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			233 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			237 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		should_release_poland_first = yes
+		237 = { annexations_state_has_valid_annexation = no } #Brest
+	}
+}
+
+#Novogrudok - annexation_novogrudok
+can_release_novogrudok = { 
+	234 = { annexations_state_is_tied_to_annexation_decision = yes } #Novogrudok
+	ROOT = {
+		OR = {
+			is_subject = yes
+			233 = { is_claim_or_core_of_ROOT = yes } #Pinsk
+			238 = { is_claim_or_core_of_ROOT = yes } #Kobryn
+			233 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			238 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { 
+		should_release_poland_first = yes
+		should_release_belarus_first = yes
+		238 = { annexations_state_has_valid_annexation = no } #Kobryn
+	}
+}
+
+#Ukraine - annexation_ukraine
+can_release_ukraine = { 
+	28 = { annexations_state_is_tied_to_annexation_decision = yes } #Kiev
+	NOT = { country_exists = UKR }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Czechia - annexation_czechia
+can_release_czechia = { 
+	8 = { annexations_state_is_tied_to_annexation_decision = yes } #Prague
+	NOT = { country_exists = CZE }
+}
+
+#Slovakia - annexation_slovakia
+can_release_slovakia = { 
+	26 = { annexations_state_is_tied_to_annexation_decision = yes } #Bratislava
+	NOT = { country_exists = SLO }
+	ROOT = { should_release_czechia_first = yes }
+}
+
+#Sudetenland - annexation_sudetenland
+can_release_sudetenland = { 
+	46 = { annexations_state_is_tied_to_annexation_decision = yes } #Sudetenland
+	ROOT = {
+		OR = {
+			is_subject = yes
+			8 = { is_claim_or_core_of_ROOT = yes } #Prague
+			46 = { is_claim_or_core_of_ROOT = yes } #Saxony
+			8 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			46 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_czechia_first = yes
+		46 = { annexations_state_has_valid_annexation = no } #Saxony
+	}
+}
+
+#Tesin - annexation_tesin
+can_release_tesin = { 
+	ROOT = {
+		OR = { 
+			is_subject = yes
+			208 = { is_claim_or_core_of_ROOT = yes } #Moravia
+			217 = { is_claim_or_core_of_ROOT = yes } #Krakow
+			208 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			217 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_czechia_first = yes
+		should_release_poland_first = yes
+	}
+}
+
+#Southern Slovakia - annexation_southern_slovakia
+can_release_southern_slovakia = { 
+	196 = { annexations_state_is_tied_to_annexation_decision = yes } #Southern Slovakia
+	ROOT = {
+		OR = { 
+			is_subject = yes
+			26 = { is_claim_or_core_of_ROOT = yes } #Moravia
+			159 = { is_claim_or_core_of_ROOT = yes } #Krakow
+			26 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			159 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_slovakia_first = yes
+		should_release_hungary_first = yes
+	}
+}
+
+#Subcarpathia - annexation_subcarpathia
+can_release_subcarpathia = { 
+	198 = { annexations_state_is_tied_to_annexation_decision = yes } #Subcarpathia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			196 = { is_claim_or_core_of_ROOT = yes } #Southern Slovakia
+			197 = { is_claim_or_core_of_ROOT = yes } #Eastern Slovakia
+			221 = { is_claim_or_core_of_ROOT = yes } #Lwow
+			196 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			197 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			221 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_slovakia_first = yes
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		221 = { annexations_state_has_valid_annexation = no } #Lwow
+	}
+}
+
+#Hungary - annexation_hungary
+can_release_hungary = { 
+	194  = { annexations_state_is_tied_to_annexation_decision = yes } #Hungary
+	NOT = { country_exists = HUN }
+}
+
+#Romania - annexation_romania
+can_release_romania = { 
+	23 = { annexations_state_is_tied_to_annexation_decision = yes } #Romania
+	NOT = { country_exists = ROM }
+}
+
+#Transylvania - annexation_transylvania
+can_release_transylvania = {
+	200 = { annexations_state_is_tied_to_annexation_decision = yes } #Transylvania
+	NOT = { country_exists = TRA }
+	ROOT = { should_release_romania_first = yes }
+}
+
+#Moldova - annexation_moldova
+can_release_moldova = { 
+	202 = { annexations_state_is_tied_to_annexation_decision = yes } #Moldova
+	NOT = { country_exists = MOL }
+	ROOT = { should_release_romania_first = yes }
+}
+
+#West Banat - annexation_west_banat
+can_release_west_banat = { 
+	190 = { annexations_state_is_tied_to_annexation_decision = yes } #West Banat
+	ROOT = {
+		OR = {
+			is_subject = yes
+			189 = { is_claim_or_core_of_ROOT = yes } #Oltenia
+			199 = { is_claim_or_core_of_ROOT = yes } #Partium
+			201 = { is_claim_or_core_of_ROOT = yes } #South Transylvania
+			189 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			199 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			201 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_romania_first = yes
+		should_release_transylvania_first = yes
+	}
+}
+
+#Silistria - annexation_silistria
+can_release_silistria = { 
+	187 = { annexations_state_is_tied_to_annexation_decision = yes } #Silistria
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			186 = { is_claim_or_core_of_ROOT = yes } 
+			AND = {
+				23 = { is_claim_or_core_of_ROOT = yes } #Romania
+				owns_state = 188
+			}
+			186 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			23 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					188 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_romania_first = yes
+		should_release_bulgaria_first = yes
+		if = {
+			limit = { original_tag = ROM }
+			186 = { annexations_state_has_valid_annexation = no } #Dobruja
+		}
+	}
+}
+
+#Dobruja - annexation_dobruja
+can_release_dobruja = { 
+	186 = { annexations_state_is_tied_to_annexation_decision = yes } #Dobruja
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			23 = { is_claim_or_core_of_ROOT = yes } #Romania
+			AND = {
+				186 = { is_claim_or_core_of_ROOT = yes } #Dobruja
+				owns_state = 187
+			}
+			23 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			186 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					187 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_romania_first = yes
+		should_release_bulgaria_first = yes
+		if = {
+			limit = { NOT = { original_tag = ROM } }
+			187 = { annexations_state_has_valid_annexation = no } #Silistria
+		}
+	}
+}
+
+#Bessarabia - annexation_bessarabia
+can_release_bessarabia = { 
+	205 = { annexations_state_is_tied_to_annexation_decision = yes } #Bessarabia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			245 = { is_claim_or_core_of_ROOT = yes } #Podnistrovia
+			202 = { is_claim_or_core_of_ROOT = yes } #Moldova
+			245 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			202 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_moldova_first = yes
+		should_release_ukraine_first = yes
+	}
+}
+
+#Suceava - annexation_suceava
+can_release_suceava = {
+	203 = { annexations_state_is_tied_to_annexation_decision = yes } #Suceava
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			202 = { is_claim_or_core_of_ROOT = yes } #Moldova
+			original_tag = ROM
+			ROM = { ROOT_can_grant_land = yes }
+			202 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = { should_release_moldova_first = yes }
+}
+
+#Cernauti - annexation_cernauti
+can_release_cernauti = { 
+	204 = { annexations_state_is_tied_to_annexation_decision = yes } #Cernauti
+	ROOT = {
+		OR = {
+			is_subject = yes
+			203 = { is_claim_or_core_of_ROOT = yes } #Suceava
+			270 = { is_claim_or_core_of_ROOT = yes } #Stanislawow
+			203 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			270 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_moldova_first = yes
+		203 = { annexations_state_has_valid_annexation = no }
+		270 = { annexations_state_has_valid_annexation = no } #Stanislawow
+	}
+}
+
+#Ismail - annexation_ismail
+can_release_ismail = { 
+	317 = { annexations_state_is_tied_to_annexation_decision = yes } #Ismail
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			202 = { is_claim_or_core_of_ROOT = yes } #Moldova
+			205 = { is_claim_or_core_of_ROOT = yes } #Bessarabia
+			202 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			205 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_moldova_first = yes
+		205 = { annexations_state_has_valid_annexation = no } #Bessarabia
+	}
+}
+
+#Serbia - annexation_serbia
+can_release_serbia = {
+	21 = { annexations_state_is_tied_to_annexation_decision = yes } #Belgrade
+	NOT = { country_exists = SER }
+}
+
+#Slovenia  - annexation_slovenia
+can_release_slovenia = { 
+	152 = { annexations_state_is_tied_to_annexation_decision = yes } #Ljubljana
+	NOT = { country_exists = SLV }
+	ROOT = { should_release_croatia_first = yes }
+}
+
+#Croatia - annexation_croatia
+can_release_croatia = { 
+	156 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = CRO }
+	ROOT = { should_release_serbia_first = yes }
+}
+
+#Bosnia - annexation_bosnia
+can_release_bosnia = {
+	160 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = BOS }
+	ROOT = { should_release_croatia_first = yes }
+}
+
+#Montenegro - annexation_montenegro
+can_release_montenegro = { 
+	162 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = MNE }
+	ROOT = { should_release_serbia_first = yes }
+}
+
+#Macedonia  - annexation_macedonia
+can_release_macedonia = { 
+	177 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = MAC }
+	ROOT = { should_release_serbia_first = yes }
+}
+
+
+#Prekmurje - annexation_prekmurje
+can_release_prekmurje = { 
+	154  = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			158 = { is_claim_or_core_of_ROOT = yes } #South Transdanubia
+			153 = { is_claim_or_core_of_ROOT = yes } #Drava
+			158 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			153 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_hungary_first = yes
+		should_release_slovenia_first = yes
+	}
+}
+
+#Syrmia - annexation_syrmia
+can_release_syrmia = {
+	192 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			21 = { is_claim_or_core_of_ROOT = yes } #Belgrade
+			156 = { is_claim_or_core_of_ROOT = yes } #Croatia
+			21 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			156 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_serbia_first = yes
+		should_release_croatia_first = yes
+	}
+}
+
+#Banat - annexation_banat
+can_release_banat = { 
+	191 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			21 = { is_claim_or_core_of_ROOT = yes } #Belgrade
+			192 = { is_claim_or_core_of_ROOT = yes } #Syrmia
+			21 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			192 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_croatia_first = yes
+		should_release_serbia_first = yes
+		should_release_hungary_first = yes
+		192 = { annexations_state_has_valid_annexation = no } #Syrmia
+	}
+}
+
+#Bachka - annexation_bachka
+can_release_bachka = { 
+	193 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			191  = { is_claim_or_core_of_ROOT = yes } #Banat
+			192 = { is_claim_or_core_of_ROOT = yes } #Syrmia
+			194 = { is_claim_or_core_of_ROOT = yes } #Central Hungary
+			191 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			192 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			194 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_croatia_first = yes
+		should_release_serbia_first = yes
+		should_release_hungary_first = yes
+		191 = { annexations_state_has_valid_annexation = no } 
+	}
+}
+
+#Pirot - annexation_pirot
+can_release_pirot = { 
+	180 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			179 = { is_claim_or_core_of_ROOT = yes } #Morava
+			182 = { is_claim_or_core_of_ROOT = yes } #Sofia
+			179 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			182 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_serbia_first = yes
+		should_release_bulgaria_first = yes
+	}
+}
+
+#Kosovo - annexation_kosovo
+can_release_kosovo = {
+	178 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			21 = { is_claim_or_core_of_ROOT = yes } #Belgrade
+			163 = { is_claim_or_core_of_ROOT = yes } #Albania
+			21 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			163 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_serbia_first = yes
+		should_release_albania_first = yes
+	}
+}
+
+#Albania - annexation_albania
+can_release_albania = { 
+	163 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = ALB }
+}
+
+#Bulgaria - annexation_bulgaria
+can_release_bulgaria = { 
+	182 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = BUL }
+}
+
+#Greece  - annexation_greece
+can_release_greece = { 
+	22 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = GRE }
+}
+
+#North Epirus - annexation_north_epirus
+can_release_north_epirus = { 
+	165 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			163 = { is_claim_or_core_of_ROOT = yes } #Albania
+			171 = { is_claim_or_core_of_ROOT = yes } #Epirus
+			163 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			171 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_albania_first = yes
+		should_release_greece_first = yes
+	}
+}
+
+#Aegean Macedonia - annexation_aegean_macedonia
+can_release_aegean_macedonia = { 
+	173 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			22 = { is_claim_or_core_of_ROOT = yes } #Greece
+			177 = { is_claim_or_core_of_ROOT = yes } #Macedonia
+			22 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			177 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_greece_first = yes
+		should_release_macedonia_first = yes
+		should_release_bulgaria_first = yes
+	}
+}
+
+#East Macedonia - annexation_east_macedonia
+can_release_east_macedonia = {
+	174 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			173 = { is_claim_or_core_of_ROOT = yes } #Aegean Macedonia
+			175 = { is_claim_or_core_of_ROOT = yes } #Thrace
+			181 = { is_claim_or_core_of_ROOT = yes } #Blagoevgrad
+			173 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			175 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			181 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_greece_first = yes
+		should_release_bulgaria_first = yes
+		should_release_aegean_macedonia_first = yes
+		173 = { annexations_state_has_valid_annexation = no } #Aegean Macedonia
+	}
+}
+
+#Thrace - annexation_thrace
+can_release_thrace = { 
+	175 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			174 = { is_claim_or_core_of_ROOT = yes } #East Macedonia
+			176 = { is_claim_or_core_of_ROOT = yes } #Adrianople
+			AND = {
+				185 = { is_claim_or_core_of_ROOT = yes } #Plovdiv
+				owns_state = 184
+			}
+			174 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			176 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			185 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					184 = { annexations_required_state_is_owned_by_either_side = yes } #Kardzhali
+					ROOT_can_grant_land = yes
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_bulgaria_first = yes
+		should_release_greece_first = yes
+		174  = { annexations_state_has_valid_annexation = no } #East Macedonia
+	}
+}
+
+#Adrianople - annexation_adrianople
+can_release_adrianople = { 
+	176 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				174 = { is_claim_or_core_of_ROOT = yes } #East Macedonia
+				owns_state = 175
+			}
+			32.owner = { is_claim_or_core_of_ROOT = yes }
+			174 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					175 = { annexations_required_state_is_owned_by_either_side = yes } #Kardzhali
+					ROOT_can_grant_land = yes
+				}
+			}
+			32 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_turkey_first = yes
+		should_release_greece_first = yes
+		175 = { annexations_state_has_valid_annexation = no } #Thrace
+		if = {
+			limit = { NOT = { original_tag = BUL  } }
+			32 = { annexations_state_has_valid_annexation = no } #Constantinople
+		}
+	}
+}
+
+#Constantinople - annexation_constantinople
+can_release_constantinople = {
+	32 = { annexations_state_is_tied_to_annexation_decision = yes } #Constantinople
+	ROOT = {
+		OR = {
+			is_subject = yes
+			22 = { is_claim_or_core_of_ROOT = yes } #Central Greece
+			728 = { #Bursa
+				is_owned_by = ROOT
+				is_claim_or_core_of_ROOT = yes
+			}
+			22 = { #Central Greece
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			728 = { #Bursa
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_turkey_first = yes
+		should_release_greece_first = yes
+		728 = { annexations_state_has_valid_annexation = no } #Bursa
+		if = {
+			limit = { original_tag = BUL }
+			176 = { annexations_state_has_valid_annexation = no } #Adrianople
+		}
+	}
+}
+
+#North Aegeans - annexation_north_aegeans
+can_release_north_aegeans = { 
+	170 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			728 = { is_claim_or_core_of_ROOT = yes } #Bursa
+			22 = { is_claim_or_core_of_ROOT = yes } #Central Greece
+			22 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			728 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_greece_first = yes
+		should_release_turkey_first = yes
+		728 = { annexations_state_has_valid_annexation = no } #Bursa
+	}
+}
+
+#Dodecanese - annexation_dodecanese
+can_release_dodecanese = { 
+	172 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			22 = { is_claim_or_core_of_ROOT = yes } #Central Greece
+			169 = { is_claim_or_core_of_ROOT = yes } #Mugla
+			22 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			169 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_greece_first = yes
+		should_release_turkey_first = yes
+		169 = { annexations_state_has_valid_annexation = no } #Mugla
+	}
+}
+
+#Cyprus - annexation_cyprus
+can_release_cyprus = { 
+	181 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = CYP }
+	ROOT = {
+		should_release_greece_first = yes
+		should_release_turkey_first = yes
+	}
+}
+
+#Russia - annexation_russia 
+can_release_russia = { 
+	289 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = SOV }
+	ROOT = { is_russian_tag = no }
+}
+
+#North Caucasus - annexation_north_caucasus
+can_release_north_caucasus = {
+	295 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = DAG }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#White Karelia - annexation_white_karelia
+can_release_white_karelia = { 
+	308 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			307 = { is_claim_or_core_of_ROOT = yes } #Pudozh
+			345 = { is_claim_or_core_of_ROOT = yes } #Ostrobothnia
+			307 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			345 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_finland_first = yes
+	}
+}
+
+#Siveria - annexation_siveria
+can_release_siveria = {
+	250 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			251 = { is_claim_or_core_of_ROOT = yes } #Chernihiv
+			277 = { is_claim_or_core_of_ROOT = yes } 
+			251 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			277 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_ukraine_first = yes
+	}
+}
+
+#Crimea - annexation_crimea
+can_release_crimea = { 
+	261 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			260 = { is_claim_or_core_of_ROOT = yes } #Kherson
+			285 = { is_claim_or_core_of_ROOT = yes } #Maikov
+			260 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			285 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_kuban_first = yes
+	}
+}
+
+#Kuban - annexation_kuban
+can_release_kuban = { 
+	284 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			259 = { is_claim_or_core_of_ROOT = yes } #Azov
+			299 = { is_claim_or_core_of_ROOT = yes } #Stavropol
+			259 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			299 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_russia_first = yes
+	}
+}
+
+#Eastern Belarus - annexation_eastern_belarus
+can_release_eastern_belarus = {
+	265 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				236 = { is_claim_or_core_of_ROOT = yes } 
+				OR = {
+					owns_state = 262
+					owns_state = 263
+				}
+			}
+			AND = {
+				278 = { is_claim_or_core_of_ROOT = yes }
+				owns_state = 265
+			}
+			236 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					262 = { annexations_required_state_is_owned_by_either_side = yes }
+					263 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+			278 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					NOT = { tag = event_target:mogilev }
+					265 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_belarus_first = yes
+	}
+}
+
+#### Should Release Tag Special Triggers ####
+should_release_aegean_macedonia_first = {
+	173 = { annexations_state_has_valid_annexation = no }
+}
+
+should_release_albania_first = {
+	OR = {
+		country_exists = ALB
+		163 = { annexations_state_has_valid_annexation = no } #Tirana
+	}
+}
+
+should_release_austria_first = {
+	OR = {
+		country_exists = AUS
+		9 = { annexations_state_has_valid_annexation = no } #Vienna
+	}
+}
+
+should_release_belgium_first = {
+	OR = {
+		country_exists = BEL
+		12 = { annexations_state_has_valid_annexation = no } #Brabant
+		has_country_flag  = BELGIUM_BALKANIZED
+	}
+}
+
+should_release_belarus_first = {
+	OR = {
+		country_exists = BLR
+		27 = { annexations_state_has_valid_annexation = no } #Minsk
+	}
+}
+
+should_release_britain_first = {
+	OR = {
+		6 = { annexations_state_has_valid_annexation = no } #London
+		AND = {
+			OR = {
+				NOT = { has_event_target = faction_leader_imperial_defense_sphere }
+				event_target:faction_leader_imperial_defense_sphere = { ROOT_can_grant_land = no }
+			}
+			if = {
+				limit = { ENT = { is_ally_with = IMP } }
+				ENT = { ROOT_can_grant_land = no }
+			}
+		}
+	}
+}
+
+should_release_bulgaria_first = {
+	OR = {
+		country_exists = BUL
+		182 = { annexations_state_has_valid_annexation = no } #Sofia
+	}
+}
+
+should_release_croatia_first = {
+	OR = {
+		country_exists = CRO
+		156 = { annexations_state_has_valid_annexation = no } #Zagreb
+	}
+}
+
+should_release_catalonia_first = {
+	OR = {
+		country_exists = CTA
+		96 = { annexations_state_has_valid_annexation = no } #Barcelona
+	}
+}
+
+should_release_czechia_first = {
+	OR = {
+		country_exists = CZE
+		8 = { annexations_state_has_valid_annexation = no } #Prague
+	}
+}
+
+should_release_denmark_first = { 
+	OR = {
+		country_exists = DEN
+		17 = { annexations_state_has_valid_annexation = no } #Copenhagen
+	}
+}
+
+should_release_east_prussia_first = {
+	212 = { annexations_state_has_valid_annexation = no } #Königsberg
+}
+
+should_release_finland_first = {
+	OR = {
+		country_exists = FIN
+		30 = { annexations_state_has_valid_annexation = no } #Helsinki
+	}
+}
+
+should_release_flanders_first = {
+	OR = {
+		country_exists = FLA
+		12 = { annexations_state_has_valid_annexation = no } #Brabant
+	}
+}
+
+should_release_france_first = {
+	OR = {
+		3 = { annexations_state_has_valid_annexation = no } #Ile-de-France
+		AND = {
+			annexations_can_release_any_france = no
+			FRA = { ROOT_can_grant_land = no }
+			FPP = { ROOT_can_grant_land = no }
+		}
+	}
+}
+
+should_release_greece_first = {
+	OR = {
+		country_exists = GRE
+		22 = { annexations_state_has_valid_annexation = no } #Athens
+	}
+}
+
+should_release_hungary_first = {
+	OR = {
+		country_exists = HUN
+		194 = { annexations_state_has_valid_annexation = no } #Budapest
+	}
+}
+
+should_release_ireland_first = {
+	OR = {
+		country_exists = IRE
+		16 = { annexations_state_has_valid_annexation = no } #Dublin
+	}
+}
+
+should_release_italy_first = {
+	OR = {
+		country_exists = ITA
+		4 = { annexations_state_has_valid_annexation = no } #Rome
+		NOT = { has_country_flag = ITALY_BALKANIZED }
+	}
+}
+
+should_release_kuban_first = {
+	284 = { annexations_state_has_valid_annexation = no } #Kuban
+}
+
+should_release_latvia_first = {
+	OR = {
+		country_exists = LAT
+		24 = { annexations_state_has_valid_annexation = no } #Riga
+	}
+}
+
+should_release_lithuania_first = {
+	OR = {
+		country_exists = LIT
+		25 = { annexations_state_has_valid_annexation = no } #Vilnius
+	}
+}
+
+should_release_lombardy_first = {
+	OR = {
+		country_exists = LOM
+		136 = { annexations_state_has_valid_annexation = no } #Milan
+	}
+}
+
+should_release_macedonia_first = {
+	OR = {
+		country_exists = MAC
+		177 = { annexations_state_has_valid_annexation = no } #Skopje
+	}
+}
+
+should_release_moldova_first = {
+	OR = {
+		country_exists = MOL
+		202 = { annexations_state_has_valid_annexation = no } #Moldova
+	}
+}
+
+should_release_netherlands_first = {
+	OR = {
+		country_exists = HOL
+		7 = { annexations_state_has_valid_annexation = no } #Amsterdam
+	}
+}
+
+should_release_north_germany_first = {
+	OR = {
+		country_exists = NGM
+		41 = { annexations_state_has_valid_annexation = no } #Hanover
+	}
+}
+
+should_release_norway_first = {
+	OR = {
+		country_exists = NOR
+		18 = { annexations_state_has_valid_annexation = no } #Oslo
+	}
+}
+
+should_release_piedmont_first = {
+	OR = {
+		country_exists = PIE
+		134 = { annexations_state_has_valid_annexation = no } #Turin
+	}
+}
+
+should_release_poland_first = {
+	OR = {
+		country_exists = POL
+		11 = { annexations_state_has_valid_annexation = no } #Warsaw
+	}
+}
+
+should_release_prussia_first = {
+	OR = {
+		country_exists = PRS
+		5 = { annexations_state_has_valid_annexation = no } #Berlin
+	}
+}
+
+should_release_rhineland_first = {
+	OR = {
+		country_exists = RHI
+		53 = { annexations_state_has_valid_annexation = no } #Cologne
+	}
+}
+
+should_release_romania_first = {
+	OR = {
+		country_exists = ROM
+		23 = { annexations_state_has_valid_annexation = no } #Bucharest
+	}
+}
+
+should_release_rome_first = {
+	OR = {
+		country_exists = STE
+		4 = { annexations_state_has_valid_annexation = no } #Rome
+	}
+}
+
+should_release_russia_first = { 
+	OR = {
+		country_exists = SOV
+		282 = { annexations_state_has_valid_annexation = no } #Moscow
+	}
+}
+
+should_release_sardinia_first = {
+	OR = {
+		country_exists = SAR
+		2 = { annexations_state_has_valid_annexation = no } #Sardinia
+	}
+}
+
+should_release_serbia_first = {
+	OR = {
+		country_exists = SER
+		21 = { annexations_state_has_valid_annexation = no } #Belgrade
+	}
+}
+
+should_release_slovakia_first = {
+	OR = {
+		country_exists = SLO
+		26 = { annexations_state_has_valid_annexation = no } #Bratislava
+	}
+}
+
+should_release_slovenia_first = {
+	OR = {
+		country_exists = SLV
+		152 = { annexations_state_has_valid_annexation = no } #Ljubljana
+	}
+}
+
+should_release_south_germany_first = {
+	OR = {
+		country_exists = SGM
+		57 = { annexations_state_has_valid_annexation = no } #Munich
+	}
+}
+
+should_release_spain_first = { 
+	OR = {
+		country_exists = SPA
+		14 = { annexations_state_has_valid_annexation = no } #Madrid
+	}
+}
+
+should_release_sweden_first = {
+	OR = {
+		country_exists = SWE
+		19 = { annexations_state_has_valid_annexation = no } #Stockholm
+	}
+}
+
+should_release_switzerland_first = { 
+	OR = {
+		country_exists = SWI
+		13 = { annexations_state_has_valid_annexation = no } #Bern
+	}
+}
+
+should_release_transylvania_first = {
+	OR = {
+		country_exists = TRA
+		200 = { annexations_state_has_valid_annexation = no } #Cluj
+	}
+}
+
+should_release_turkey_first = {
+	OR = {
+		country_exists = TUR
+		736 = { annexations_state_has_valid_annexation = no } #Ankara
+	}
+}
+
+should_release_ukraine_first = {
+	OR = {
+		country_exists = UKR
+		28 = { annexations_state_has_valid_annexation = no } #Kiev
+	}
+}
+
+should_release_venice_first = {
+	OR = {
+		country_exists = VNE
+		137 = { annexations_state_has_valid_annexation = no } #Venice
+	}
+}
+
+should_release_wallonia_first = {
+	OR = {
+		country_exists = WLL
+		65 = { annexations_state_has_valid_annexation = no } #Wallonia
+	}
+}
