@@ -1,8 +1,9 @@
-
 state={
 	id=439
 	name="STATE_439"
-
+	provinces={
+		1554 4300 4578 4581 4629 4636 4638 4686 7243 7486 7501 7507 7556 7597 7600 7657 7682 7777 10148 10353 10366 10506 10601 10603 10660 12329 12340 12397 12471 12658 
+	}
 	history={
 		owner = KAZ
 		add_core_of = KAZ
@@ -19,11 +20,8 @@ state={
 			air_base = 1 #Shymkent Agricultural Airport
 		}
 	}
-
-	provinces={
-		1554 4578 4629 4636 4686 7501 7507 7556 7597 7682 7777 10148 10353 10366 10506 10601 10603 10660 12329 12340 12397 12658 
-	}
 	manpower=2030319
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
+	local_supplies=0.000
 }

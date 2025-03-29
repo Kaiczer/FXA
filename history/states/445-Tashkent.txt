@@ -1,19 +1,18 @@
-
 state={
 	id=445
 	name="STATE_445"
-	resources = {
-		aluminium = 3
-		tungsten = 5
-		steel = 12
+	resources={
+		aluminium=3.000
+		tungsten=5.000
+		steel=12.000
 	}
 	history={
 		owner = UZB
 		add_core_of = UZB
 		add_claim_by = SOV
-		add_to_array = { state_victory_points = 1459 }
+		add_to_array = { state_victory_points = 11687 }
 
-		victory_points = { 1459 7 } #Tashkent
+		victory_points = { 11687 7 } #Tashkent
 
 		buildings = {
 			infrastructure = 2
@@ -21,9 +20,8 @@ state={
 			arms_factory = 1
 		}
 	}
-
 	provinces={
-		1459 1483 10187 10348 10488 10530 11687 
+		11687 
 	}
 	manpower=2199200
 	buildings_max_level_factor=1.000
