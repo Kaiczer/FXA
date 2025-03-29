@@ -1,11 +1,10 @@
-
 state={
 	id=446
 	name="STATE_446"
-	resources = {
-		oil = 3
-		steel = 12
-		chromium = 24
+	resources={
+		oil=3.000
+		steel=12.000
+		chromium=24.000
 	}
 	history={
 		owner = KYR
@@ -20,9 +19,8 @@ state={
 			arms_factory = 1
 		}
 	}
-
 	provinces={
-		1675 1825 4224 4316 4391 4768 7706 10408 12511 12583 12640 13147 
+		1675 1825 4224 4316 4391 4768 7706 10408 10660 12511 12583 12640 13147 
 	}
 	manpower=2388764
 	buildings_max_level_factor=1.000
