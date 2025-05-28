@@ -8,11 +8,17 @@ characters = {
 		}
 		country_leader = {
 			ideology = paternalism_subtype
-			traits = { }
+			traits = { 
+				FNG_old_marshal
+				CHN_supreme_warlord
+			}
 		}
 		country_leader = {
 			ideology = despotism_subtype
-			traits = { }
+			traits = { 
+				FNG_old_marshal
+				CHN_supreme_warlord
+			}
 		}
 	}
 	FNG_zhang_jinghui = {

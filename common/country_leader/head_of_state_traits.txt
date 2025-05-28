@@ -178,6 +178,16 @@ leader_traits = {
 		political_power_gain = 0.1
 	}
 
+	### China / At-large
+	CHN_supreme_warlord = { #Republican Warlord President
+		random = no
+		political_power_gain = 0.1
+		stability_factor = -0.1
+		command_power_gain = 0.05
+		planning_speed = 0.1
+		max_planning = 0.1
+	}
+
 	### Union of Britain
 	ENG_grand_protector = { #Oswald Mosley
 		random = no
@@ -1304,14 +1314,6 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.20
 		stability_factor = -0.15
-	}
-	KR_leader_of_the_party_in_disarray = {
-		sprite = 12
-		random = no
-		political_power_factor = -0.1
-		political_advisor_cost_factor = 0.33
-		economy_cost_factor = 0.33
-		mobilization_laws_cost_factor = 0.33
 	}
 
 	### United States

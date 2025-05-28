@@ -7,7 +7,7 @@ FNG_DEF: "Fengtian"
 FNG_ADJ: "Fengtian"
 
 FNG_government_paternalism: "Beijing Government"
-FNG_government_paternalism_DEF: "the National Pacification Military Government"
+FNG_government_paternalism_DEF: "the Government of National Pacification Army"
 FNG_government_paternalism_ADJ: "Beiyang Chinese"
 
 FNG_united_china_government: "China"
@@ -38,3 +38,8 @@ FNG_revolutionary_nationalism_party: "YCP"
 FNG_revolutionary_nationalism_party_long: "Zhongguo Qingnian-dang (Young China Party)"
 FNG_despotism_party: "Fengtian Clique"
 FNG_despotism_party_long: "Fengtian-pai (Fengtian Clique)"
+
+### Traits ###
+CHN_supreme_warlord: "Supreme Warlord of all China"
+FNG_old_marshal: "Old Marshal"
+FNG_hope_of_manchuria: "Hope of Manchuria"
