@@ -1,4 +1,4 @@
-capital = 5
+capital = 212
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
@@ -27,6 +27,13 @@ if = {
 			early_fighter = 1
 			CAS1 = 1
 		}
+	}
+}
+
+POL = {
+	set_autonomy = {
+		target = PREV  
+		autonomous_state = associated_government
 	}
 }
 
