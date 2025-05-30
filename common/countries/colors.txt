@@ -583,8 +583,8 @@ KOR = {
 	color_ui = rgb { 125 13 24 }	
 }
 ISR = {
-	color = rgb {104 134 189}
-	color_ui = rgb {114 134 229}
+	color = rgb { 104 134 189 }
+	color_ui = rgb { 114 134 229 }
 }
 TRA = {
 	color = rgb { 192 128 64 }
@@ -595,12 +595,12 @@ PAL = {
 	color_ui = rgb { 140 39 53 }
 }
 SAR = {
-	color = rgb{ 216  25  33 }
-	color_ui = rgb{ 216  25  33 }
+	color = rgb { 216 25 33 }
+	color_ui = rgb { 216 25 33 }
 }
 SPA = {
 	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color_ui = rgb { 242 205 94 }
 }
 SHO = {
 	color = rgb { 219 130 105 }
@@ -901,4 +901,36 @@ MNR = {
 MNE = {
 	color = rgb { 194 5 4 }
 	color_ui = rgb { 194 5 48 }
+}
+FPP = {
+	color = rgb { 103 156 191 }
+	color_ui = rgb { 103 156 191 }
+}
+GBP = {
+	color = rgb { 143 29 44 }
+	color_ui = rgb { 143 29 44 }
+}
+RSP = {
+	color = rgb { 57 99 158 }
+	color_ui = rgb { 57 99 158 }
+}
+GFD = {
+	color = rgb { 59 57 57 }
+	color_ui = rgb { 59 57 57 }
+}
+SIT = {
+	color = rgb { 32 120 35 }
+	color_ui = rgb { 32 120 35 }
+}
+PNJ = {
+	color = rgb { 3 26 13 }
+	color_ui = rgb { 3 26 13 }
+}
+TEX = {
+	color = rgb { 0 32 91 }
+	color_ui = rgb { 0 32 91 }
+}
+CLF = {
+	color = rgb { 189 138 94 }
+	color_ui = rgb { 189 138 94 }
 }

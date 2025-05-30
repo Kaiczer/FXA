@@ -1,9 +1,8 @@
-
 state={
 	id=706
 	name="STATE_706"
-	resources = {
-		tungsten = 3
+	resources={
+		tungsten=3.000
 	}
 	history={
 		owner = AFG
@@ -22,11 +21,11 @@ state={
 			industrial_complex = 2
 		}
 	}
-
 	provinces={
-		1995 5064 5082 7519 7584 7916 7984 8090 10737 10781 10789 10826 10852 12248 12314 12653 12769 12831 12877 
+		1995 4949 5020 5064 5082 7519 7584 7916 7984 8090 10737 10781 10789 10826 10852 12248 12314 12653 12769 12831 12877 
 	}
 	manpower=5037140
 	buildings_max_level_factor=1.000
 	state_category=developed_rural_region
+	local_supplies=0.000
 }

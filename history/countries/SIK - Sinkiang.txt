@@ -52,6 +52,8 @@ create_dynamic_country = {
 		elections_allowed = no
 	}
 	
+	NXJ = { set_capital = { state = 577 } }
+
 	every_state = {
 		limit = {
 			OR = {

@@ -1,0 +1,30 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		6446 6560 13659 
+	}
+	history = {
+		owner = BEL
+		add_core_of = BEL
+		add_to_array = { state_victory_points = 6446 }
+		add_to_array = { state_victory_points = 6560 }
+		add_to_array = { state_victory_points = 13659 }
+
+		victory_points = { 13659 1 } #Kortrijk
+		victory_points = { 6560 10 } #Ghent
+		victory_points = { 6446 5 } #Bruges
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6446 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=550840
+	buildings_max_level_factor=1.000
+	state_category=developed_rural_region
+	local_supplies=0.000
+}

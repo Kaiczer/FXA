@@ -1,0 +1,180 @@
+scripted_gui = {
+
+	TFH_subdivision_gui = {
+		context_type = selected_state_context
+		window_name = TFH_subdivision
+		parent_window_token = selected_state_view
+
+		ai_enabled = { always = no }
+
+		visible = {
+			OR = {
+				AND = {
+					owner = { is_chinese_tag = yes }
+					OR = { 
+						### Chinese Province ###
+						has_state_flag = guangdong_region
+						has_state_flag = guangxi_region
+						has_state_flag = zhili_region
+						has_state_flag = henan_region
+						has_state_flag = hubei_region
+						has_state_flag = hunan_region
+						has_state_flag = jiangsu_region
+						has_state_flag = jiangxi_region
+						has_state_flag = shaanxi_region
+						has_state_flag = shanxi_region
+						has_state_flag = shandong_region
+						has_state_flag = anhui_region
+						has_state_flag = zhejiang_region
+						has_state_flag = fujian_region
+						has_state_flag = sichuan_region
+						has_state_flag = chuanbian_region
+						has_state_flag = guizhou_region
+						has_state_flag = yunnan_region
+						has_state_flag = qinghai_region
+						has_state_flag = gansu_region
+						has_state_flag = ningxia_region
+						has_state_flag = fengtian_region
+						has_state_flag = jilin_region
+						has_state_flag = heilongjiang_region
+						has_state_flag = rehe_region
+						has_state_flag = neimenggu_region
+						has_state_flag = suiyuan_region
+						has_state_flag = chahar_region
+						has_state_flag = xinjiang_region
+						has_state_flag = taiwan_region
+						has_state_flag = outer_mongolia_region
+						has_state_flag = tibet_region
+					}
+				}
+				AND = {
+					owner = { is_german_tag = yes }
+					OR = { 
+						### German States ###
+						## Prussian Provinces ##
+						has_state_flag = pomerania_region
+						has_state_flag = brandenburg_region
+						has_state_flag = silesia_region
+						has_state_flag = east_prussia_region
+						has_state_flag = magdeburg_region
+						has_state_flag = hanover_region
+						has_state_flag = schleswig_region
+						has_state_flag = anhalt_region
+						has_state_flag = westphalia_region
+						has_state_flag = hesse_region
+
+						## Constituent States ##
+						has_state_flag = mecklenburg_region
+						has_state_flag = hamburg_region
+						has_state_flag = saxony_region
+						has_state_flag = thuringia_region
+						has_state_flag = bavaria_region
+						has_state_flag = wurttemberg_region
+						has_state_flag = baden_region
+						has_state_flag = rhineland_region
+
+						## Future Regions ##
+						has_state_flag = posen_region
+						has_state_flag = oldenburg_region
+						has_state_flag = alsace_region
+						has_state_flag = sudetenland_region
+						has_state_flag = west_prussia_region
+						has_state_flag = palatinate_region
+					}
+				}
+			}
+		}
+	}
+
+	TFH_subdivision_chinese_province = {
+		context_type = selected_state_context
+		window_name = TFH_subdivision_chinese_province
+		parent_window_token = selected_state_view
+
+		ai_enabled = { always = no }
+
+		visible = {
+			owner = { is_chinese_tag = yes }
+			OR = { 
+				### Chinese Province ###
+				has_state_flag = guangdong_region
+				has_state_flag = guangxi_region
+				has_state_flag = zhili_region
+				has_state_flag = henan_region
+				has_state_flag = hubei_region
+				has_state_flag = hunan_region
+				has_state_flag = jiangsu_region
+				has_state_flag = jiangxi_region
+				has_state_flag = shaanxi_region
+				has_state_flag = shanxi_region
+				has_state_flag = shandong_region
+				has_state_flag = anhui_region
+				has_state_flag = zhejiang_region
+				has_state_flag = fujian_region
+				has_state_flag = sichuan_region
+				has_state_flag = chuanbian_region
+				has_state_flag = guizhou_region
+				has_state_flag = yunnan_region
+				has_state_flag = qinghai_region
+				has_state_flag = gansu_region
+				has_state_flag = ningxia_region
+				has_state_flag = fengtian_region
+				has_state_flag = jilin_region
+				has_state_flag = heilongjiang_region
+				has_state_flag = rehe_region
+				has_state_flag = neimenggu_region
+				has_state_flag = suiyuan_region
+				has_state_flag = chahar_region
+				has_state_flag = xinjiang_region
+				has_state_flag = taiwan_region
+				has_state_flag = outer_mongolia_region
+				has_state_flag = tibet_region
+			}
+		}
+	}
+
+	TFH_subdivision_german_states = {
+		context_type = selected_state_context
+		window_name = TFH_subdivision_german_states
+		parent_window_token = selected_state_view
+
+		ai_enabled = { always = no }
+
+		visible = {
+			owner = { is_german_tag = yes }
+			OR = { 
+				### German States ###
+				## Prussian Provinces ##
+				has_state_flag = pomerania_region
+				has_state_flag = brandenburg_region
+				has_state_flag = silesia_region
+				has_state_flag = east_prussia_region
+				has_state_flag = magdeburg_region
+				has_state_flag = hanover_region
+				has_state_flag = schleswig_region
+				has_state_flag = anhalt_region
+				has_state_flag = westphalia_region
+				has_state_flag = hesse_region
+
+				## Constituent States ##
+				has_state_flag = mecklenburg_region
+				has_state_flag = hamburg_region
+				has_state_flag = saxony_region
+				has_state_flag = thuringia_region
+				has_state_flag = bavaria_region
+				has_state_flag = wurttemberg_region
+				has_state_flag = baden_region
+				has_state_flag = rhineland_region
+
+				## Future Regions ##
+				has_state_flag = posen_region
+				has_state_flag = oldenburg_region
+				has_state_flag = alsace_region
+				has_state_flag = sudetenland_region
+				has_state_flag = west_prussia_region
+				has_state_flag = palatinate_region
+			}
+		}
+	}
+}
+

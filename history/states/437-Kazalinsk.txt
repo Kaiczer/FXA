@@ -1,22 +1,20 @@
-
 state={
 	id=437
 	name="STATE_437"
-
+	provinces={
+		1459 1483 10488 10530 
+	}
 	history={
-		owner = KAZ
-		add_core_of = KAZ
+		owner = UZB
+		add_core_of = UZB
 		add_claim_by = SOV
 		
 		buildings = {
 			infrastructure = 1
 		}
 	}
-
-	provinces={
-		4300 4374 4581 4638 7243 7354 7392 7486 7600 7657 10452 12471 
-	}
 	manpower=79541
 	buildings_max_level_factor=1.000
 	state_category=peripheral_region
+	local_supplies=0.000
 }
