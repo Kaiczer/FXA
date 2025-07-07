@@ -1,14 +1,13 @@
 characters = {
-	SOV_Vladimir_Lenin = {
-		name = "Vladimir Lenin"
+	SOV_alexei_rykov = {
+		name = SOV_alexei_rykov
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/SOV_vladimir_lenin.png"
+				large = "gfx/leaders/SOV/SOV_alexei_rykov.png"
 			}
 		}
-		country_leader = {
-			ideology = vanguard_socialism_subtype
-		}
+		country_leader = { ideology = vanguard_socialism_subtype }
+		country_leader = { ideology = revolutionary_socialism_subtype }
 	}
 	SOV_Mikhail_Kalinin = {
 		name = "Mikhail Kalinin"
@@ -17,8 +16,6 @@ characters = {
 				large = "gfx/leaders/SOV/SOV_Mikhail_Kalinin.png"
 			}
 		}
-		country_leader = {
-			ideology = vanguard_socialism_subtype
-		}
+		country_leader = { ideology = vanguard_socialism_subtype }
 	}
 }

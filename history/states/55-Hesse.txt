@@ -1,8 +1,9 @@
-
 state={
 	id=55
 	name="STATE_55"
-
+	provinces={
+		564 589 3397 3524 3574 6444 6488 6549 9486 9524 11445 11533 11560 
+	}
 	history={
 		owner = RHI
 		add_core_of = RHI
@@ -21,12 +22,8 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		564 589 3397 3524 3574 6444 6488 6549 9486 9524 11445 11533 
-	}
 	manpower=4072453
 	buildings_max_level_factor=1.000
 	state_category=local_industrial_region
-	local_supplies=15
+	local_supplies=15.000
 }

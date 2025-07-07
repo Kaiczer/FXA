@@ -3,7 +3,10 @@ state={
 	name="STATE_41"
 	resources={
 		oil=3.000
-	}	
+	}
+	provinces={
+		247 526 3234 6513 9375 11402 11493 13888 
+	}
 	history = {
 		owner = NGM
 		add_core_of = NGM 
@@ -16,9 +19,6 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-	}
-	provinces={
-		526 3271 3395 6218 6263 6298 6377 6513 9264 9375 11402 11493 
 	}
 	manpower=3397507
 	buildings_max_level_factor=1.000

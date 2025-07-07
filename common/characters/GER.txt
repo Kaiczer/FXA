@@ -3,7 +3,7 @@ characters = {
 	GER_adam_dressler = {
 		name = GER_adam_dressler
 		portraits = {
-			civilian = {
+			civilian = { 
 				large = "gfx/leaders/GER/GER_adam_dressler.png"
 			}
 		}
@@ -13,6 +13,30 @@ characters = {
 			traits = { 
 				GER_leader_of_people
 			}
+		}
+	}
+	GER_albrecht_von_graefe = {
+		name = GER_albrecht_von_graefe
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/GER_albrecht_von_graefe.png"
+			}
+		}
+		country_leader = {
+			ideology = volkism_subtype
+    		desc = "POLITICS_ALBRECHT_VON_GRAEFE_DESC"
+		}
+	}
+	GER_dietrich_eckart = {
+		name = GER_dietrich_eckart
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GER/GER_dietrich_eckart.png"
+			}
+		}
+		country_leader = {
+			ideology = volkism_subtype
+    		desc = "POLITICS_DIETRICH_ECKART_DESC"
 		}
 	}
 	GER_wilhelm_teudt = {

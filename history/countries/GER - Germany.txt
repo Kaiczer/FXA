@@ -1,7 +1,7 @@
 capital = 5
 set_research_slots = 3
-set_stability = 0.23
-set_war_support = 0.88
+set_stability = 0.37
+set_war_support = 0.23
 
 set_technology = {
 	infantry_weapons = 1
@@ -30,8 +30,7 @@ if = {
 	}
 }
 
-create_faction = eurospakt
-add_to_faction = HOL
+create_faction = bruderschaftskreis
 
 set_popularities = {
 	authoritarian_socialism = 7
@@ -55,6 +54,8 @@ set_politics = {
 
 ## Starting Characters ##
 recruit_character = GER_adam_dressler
+recruit_character = GER_albrecht_von_graefe
+recruit_character = GER_dietrich_eckart
 recruit_character = GER_wilhelm_teudt #ADVKP's puppet leader in DNVP volkisch faction
 recruit_character = GER_ferdinand_werner
 recruit_character = GER_erich_ludendorff

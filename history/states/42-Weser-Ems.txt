@@ -2,7 +2,7 @@ state={
 	id=42
 	name="STATE_42"
 	provinces={
-		241 247 309 336 3234 9281 11264 11360 11388 
+		241 309 336 9281 11264 11360 11388 
 	}
 	history = {
 		owner = SHO
@@ -23,8 +23,8 @@ state={
 			}
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=14.000
 	manpower=2257607
-	state_category = urbanising_region
+	buildings_max_level_factor=1.000
+	state_category=urbanising_region
+	local_supplies=14.000
 }

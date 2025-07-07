@@ -2,6 +2,7 @@ capital = 53
 set_research_slots = 2
 set_stability = 0.23
 set_war_support = 0.88
+
 set_cosmetic_tag = RHI_mandate
 
 set_technology = {
@@ -30,12 +31,7 @@ if = {
 		}
 	}
 }
-FRA = {
-	set_autonomy = {
-		target = PREV 
-		autonomous_state = autonomous_puppet
-	}
-}
+
 set_popularities = {
 	paternalism = 48
 	social_conservatism = 14
@@ -43,12 +39,14 @@ set_popularities = {
 	social_democracy = 15
 	despotism = 10
 }
+
 set_politics = {	
 	ruling_party = paternalism
 	last_election = "1920.1.10"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 ## Countries Leader ##
 recruit_character = RHI_Konrad_Adenauer
 recruit_character = RHI_Paul_Tirard

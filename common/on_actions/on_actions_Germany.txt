@@ -45,13 +45,14 @@ on_actions = {
 				limit = {
 					OR = {
 						state = 41
-						state = 42
+						state = 52
 					}
 				}
 				set_state_flag = hanover_region
 			}
 			37 = { set_state_flag = mecklenburg_region }
 			40 = { set_state_flag = hamburg_region }
+			42 = { set_state_flag = oldenburg_region }
 			every_state = {
 				limit = {
 					OR = {
@@ -62,7 +63,15 @@ on_actions = {
 				}
 				set_state_flag = schleswig_region
 			}
-			46 = { set_state_flag = saxony_region }
+			every_state = {
+				limit = {
+					OR = {
+						state = 46
+						state = 206
+					}
+				}
+				set_state_flag = saxony_region
+			}
 			47 = { set_state_flag = thuringia_region }
 			43 = { set_state_flag = westphalia_region }
 			33 = { set_state_flag = magdeburg_region }
@@ -90,10 +99,7 @@ on_actions = {
 			}
 			every_state = {
 				limit = {
-					OR = {
-						state = 52
-						state = 53
-					}
+					state = 53
 				}
 				set_state_flag = palatinate_region
 			}
@@ -112,6 +118,9 @@ on_actions = {
 						has_state_flag = anhalt_region
 						has_state_flag = westphalia_region
 						has_state_flag = hesse_region
+						has_state_flag = palatinate_region
+						has_state_flag = rhineland_region
+						is_claimed_by = PRS
 					}
 				}
 				set_state_flag = GER_province_rank
@@ -125,11 +134,29 @@ on_actions = {
 						has_state_flag = thuringia_region
 						has_state_flag = bavaria_region
 						has_state_flag = baden_region
-						has_state_flag = rhineland_region
 						has_state_flag = wurttemberg_region
 					}
 				}
 				set_state_flag = GER_state_rank
+			}
+			every_state = {
+				limit = {
+					owner = { original_tag = SHO }
+				}
+				clr_state_flag = GER_province_rank
+				clr_state_flag = GER_state_rank
+				set_state_flag = GER_canton_rank
+			}
+			every_state = {
+				limit = {
+					owner = {
+						tag = GER
+						has_government = volkism
+					}
+				}
+				clr_state_flag = GER_province_rank
+				clr_state_flag = GER_state_rank
+				set_state_flag = GER_gau_rank
 			}
 		}
 	}
