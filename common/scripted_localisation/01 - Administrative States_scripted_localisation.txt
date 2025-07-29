@@ -166,8 +166,12 @@ defined_text = {
 		localization_key = GER_State
 	}
 	text = {
-		trigger = { has_state_flag = GER_gau }
+		trigger = { has_state_flag = GER_gau_rank }
 		localization_key = GER_Gau
+	}
+	text = {
+		trigger = { has_state_flag = GER_canton_rank }
+		localization_key = GER_Canton
 	}
 	text = {
 		localization_key = "BUG - STATE TARGETED IS NOT PART OF GERMANY"

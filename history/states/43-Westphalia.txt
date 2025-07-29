@@ -1,11 +1,12 @@
-
 state={
 	id=43
 	name="STATE_43"
-
+	provinces={
+		405 495 3355 3395 3398 6535 6622 9443 9509 9547 11233 11346 11431 
+	}
 	history={
-		owner = GER
-		add_core_of = GER
+		owner = RHI
+		add_core_of = RHI
 		add_to_array = { state_victory_points = 495 }
 		add_to_array = { state_victory_points = 6535 }
 		add_to_array = { state_victory_points = 9509 }
@@ -23,11 +24,8 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		405 495 3355 3398 6535 6622 9443 9509 9547 11233 11346 11431 
-	}
 	manpower=5039693
 	buildings_max_level_factor=1.000
 	state_category=industrial_heartland
+	local_supplies=0.000
 }

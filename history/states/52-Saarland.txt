@@ -1,28 +1,29 @@
 state={
 	id=52
 	name="STATE_52"
+	resources={
+		steel=3.000
+	}
 	provinces={
-		9575 11531 
+		374 3271 3326 6218 6263 6298 6325 6349 6377 9264 13887 
 	}
-
-	resources = {
-		steel = 74
-	}
-	
 	history = {
-		owner = RHI
-		add_core_of = RHI
-		add_core_of = GER
-		add_to_array = { state_victory_points = 11531 }
+		owner = SHO
+		add_core_of = SHO
+		victory_points = { 3326 10 }
 
-		victory_points = { 11531 3 }
-
+		add_to_array = { state_victory_points = 3326 }
+		
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 4
+			dockyard = 3
+			3326 = {
+				coastal_bunker = 1
+				naval_base = 2
+			}
 		}
 	}
-	buildings_max_level_factor=1.000
 	manpower=810987
-	state_category = urbanised_region
+	buildings_max_level_factor=1.000
+	state_category=urbanising_region
+	local_supplies=0.000
 }

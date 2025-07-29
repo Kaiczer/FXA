@@ -1,28 +1,30 @@
 state={
 	id=48
 	name="STATE_48"
-	provinces={
-		424 469 3418 3585 6470 9555 11401 11414 11432 
+	resources={
+		tungsten=4.000
+		steel=3.000
 	}
-	resources = {
-		tungsten = 4
-		steel = 3
+	provinces={
+		424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525 
 	}
 	history = {
 		owner = CZE
 		add_core_of = CZE
 		add_to_array = { state_victory_points = 11401 }
-
+		add_to_array = { state_victory_points = 11525 }
+		
+		victory_points = { 11525 3 } #Moravian Budejovice
 		victory_points = { 11401 2 } #Liberec
 
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 3
 			arms_factory = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=2340203
-	state_category = urbanised_region
+	buildings_max_level_factor=1.000
+	state_category=urbanised_region
+	local_supplies=0.000
 }

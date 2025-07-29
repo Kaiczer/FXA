@@ -65,6 +65,14 @@ transfer_state_and_notify = {
 }
 
 # state scope
+transfer_state_if_owned = {
+	if = {
+		limit = { is_valid_annexation_state = yes }
+		transfer_state_and_notify = yes
+	}
+}
+
+# state scope
 add_claim_of_ROOT = {
 	effect_tooltip = {
 		if = {

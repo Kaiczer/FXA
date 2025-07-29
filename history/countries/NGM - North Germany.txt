@@ -1,7 +1,9 @@
-﻿capital = 5
+﻿capital = 46
 set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
+
+set_cosmetic_tag = NGM_federation
 
 set_technology = {
 	infantry_weapons = 1
@@ -29,6 +31,11 @@ if = {
 		}
 	}
 }
+
+create_faction = unity_accord
+add_to_faction = NGM
+add_to_faction = SGM
+add_to_faction = SHO
 
 set_politics = {	
 	ruling_party = despotism

@@ -1,23 +1,16 @@
-
 state={
 	id=206
 	name="STATE_206"
-
+	provinces={
+		514 573 3514 
+	}
 	history = {
-		owner = CZE
-		add_core_of = CZE
-		add_to_array = { state_victory_points = 11525 }
-		
-		victory_points = { 11525 3 } #Moravian Budejovice
-
+		owner = GER
+		add_core_of = GER
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-	}
-
-	provinces={
-		543 557 5283 7857 11525 
 	}
 	manpower=855324
 	buildings_max_level_factor=1.000

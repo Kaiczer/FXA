@@ -1,6 +1,6 @@
 @soi_icon_x_pos = 360
 @soi_icon_y_pos = -25
-@soi_text_x_pos = 80
+@soi_text_x_pos = 70
 @soi_text_y_pos = -25
 
 guiTypes = {
@@ -68,7 +68,7 @@ guiTypes = {
 			format = center
 
 			position = { x = @soi_text_x_pos  y = -4 }
-			maxWidth = 330
+			maxWidth = 350
 			maxHeight = 30
 		}
 
@@ -79,7 +79,7 @@ guiTypes = {
 			format = center
 
 			position = { x = @soi_text_x_pos  y = 20 }
-			maxWidth = 330
+			maxWidth = 350
 			maxHeight = 30
 		}
 	}
