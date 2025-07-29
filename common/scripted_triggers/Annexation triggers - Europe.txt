@@ -130,13 +130,13 @@ can_release_alsace_lorraine = {
 		OR = {
 			is_subject = yes
 			72 = { is_claim_or_core_of_ROOT = yes } #Lorraine
-			52 = { is_claim_or_core_of_ROOT = yes } #Saarland
+			53 = { is_claim_or_core_of_ROOT = yes } #Palatinate
 			49 = { is_claim_or_core_of_ROOT = yes } #Baden
 			72 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			52 = {
+			53 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
