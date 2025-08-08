@@ -1,9 +1,8 @@
-
 state={
 	id=800
 	name="STATE_800"
 	provinces={
-		1041 1118 1149 1174 1189 4047 4117 4176 4194 7066 7136 7154 7209 9980 10037 10046 10067 10117 11940 12009 12039 12088 13073 13589 
+		1149 1189 4117 7154 7194 10037 10067 11940 12039 13572 13584 13589 13897 13898 13900 13901 
 	}
 	history = {
 		owner = LBA
@@ -21,8 +20,8 @@ state={
 			}
 		}
 	}
-	manpower=1206000
+	manpower=280786
 	buildings_max_level_factor=1.000
-	state_category=developed_rural_region
+	state_category=developing_rural_region
 	local_supplies=0.000
 }

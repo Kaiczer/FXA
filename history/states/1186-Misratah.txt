@@ -1,0 +1,22 @@
+state={
+	id=1186
+	name="STATE_1186"
+	provinces={
+		1041 1118 1174 4047 4176 4194 7066 7136 7209 9980 10046 10117 12009 12088 13073 13899 13902 
+	}
+	history={
+		owner = LBA
+		add_core_of = LBA
+		add_to_array = { state_victory_points = 9980 }
+
+		victory_points = { 9980 2 } #Misratah
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=46321
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=0.000
+}
