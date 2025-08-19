@@ -1,33 +1,24 @@
 state={
 	id=863
 	name="STATE_863"
-	provinces={
-		5036 6039 
+	resources={
+		rubber=10.000
 	}
-	resources = {
-		rubber = 10
+	provinces={
+		13605 13903 13904 13905 13906 
 	}
 	history={
-		owner = EQA
+		owner = SIE
 		add_core_of = CMR
-		add_claim_by = EQA
-		add_to_array = { state_victory_points = 6039 }
-
-		victory_points = { 6039 1 }
+		add_claim_by = SIE
 
 		buildings = {
 			infrastructure = 1
-			air_base = 1
-			industrial_complex = 1
-			arms_factory = 1
-			6039 = {
-				naval_base = 1
-			}
 		}
 
 	}
+	manpower=1030000
 	buildings_max_level_factor=1.000
+	state_category=peripheral_region
 	local_supplies=0.000
-	manpower=1031024
-	state_category = developing_rural_region
 }
