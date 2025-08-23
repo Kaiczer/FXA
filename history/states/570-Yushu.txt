@@ -1,9 +1,8 @@
-
 state={
 	id=570
 	name="STATE_570"
 	provinces={
-		4914 4964 8018 10856 12899 
+		4914 4964 8018 10856 12899 13907 13908 13909 13910 13911 13912 13913 13914 13915 13916 13917 13918 13919 13920 13921 13922 
 	}
 	history = {
 		owner = XSM
@@ -16,8 +15,8 @@ state={
 		}
 		set_demilitarized_zone = yes #Qinghai-Tibetan War 1932
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=1.000
 	manpower=60278
-	state_category = peripheral_region
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=1.000
 }
