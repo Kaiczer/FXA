@@ -1,0 +1,22 @@
+state={
+	id=1193
+	name="STATE_1193"
+	provinces={
+		1961 8029 10802 12784 13733 13734 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		add_to_array = { state_victory_points = 1961 } #Ger
+
+		victory_points = { 1961 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1171434
+	state_category=peripheral_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

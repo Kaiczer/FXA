@@ -1,33 +1,27 @@
-
 state={
 	id=585
 	name="STATE_585"
-	resources = {
-		oil = 2
+	resources={
+		oil=2.000
+	}
+	provinces={
+		4407 13926 13927 13928 
 	}
 	history={
 		owner = TIB
 		add_core_of	= TIB
 		add_core_of = CHB
-		
-		
-		add_to_array = { state_victory_points = 5080 } #Nagqu
-		add_to_array = { state_victory_points = 5102 } #Chamdo
+		add_to_array = { state_victory_points = 4407 } #Chamdo
 
-		victory_points = { 5102 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
-		victory_points = { 5080 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 4407 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
 
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
 	}
-
-	provinces={
-		4407 5018 5080 5102 8041 8059 10741 
-	}
-	manpower=145200
+	manpower=29040
 	buildings_max_level_factor=1.000
-	state_category=undeveloped_rural_region
+	state_category=peripheral_region
 	local_supplies=2.000
 }

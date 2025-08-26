@@ -179,6 +179,7 @@ on_actions = {
 			564 = { set_state_flag = chuanbian_region }
 			585 = { set_state_flag = chuanbian_region }
 			587 = { set_state_flag = chuanbian_region }
+			1192 = { set_state_flag = chuanbian_region }
 
 			482 = { set_state_flag = ningxia_region }
 			567 = { set_state_flag = ningxia_region }
@@ -205,6 +206,7 @@ on_actions = {
 
 			588 = { set_state_flag = tibet_region }
 			589 = { set_state_flag = tibet_region }
+			1193 = { set_state_flag = tibet_region }
 
 			403 = { set_state_flag = outer_mongolia_region }	
 			581 = { set_state_flag = outer_mongolia_region }
