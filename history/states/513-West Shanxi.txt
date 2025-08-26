@@ -1,31 +1,27 @@
-
 state={
 	id=513
 	name="STATE_513"
-	resources = {
-		tungsten = 6
-		steel = 3
+	resources={
+		tungsten=6.000
+		steel=3.000
+	}
+	provinces={
+		1115 1531 4074 4174 10367 10838 12300 
 	}
 	history={
 		owner = SHX
 		add_core_of = SHX
-		
-		
-		add_to_array = { state_victory_points = 1962 } #Taiyuan
+		add_to_array = { state_victory_points = 4174 } #Taiyuan
 
-		victory_points = { 1962 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
+		victory_points = { 4174 30 } #POP 4 + STRAT 2 + POL 2 = SIG 8
 
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
 		}
 	}
-
-	provinces={
-		1034 1115 1531 1575 4074 4174 4469 4634 7571 10367 10838 12300 
-	}
-	manpower=6960600
+	manpower=5707692
 	buildings_max_level_factor=1.000
 	state_category=developed_rural_region
 	local_supplies=0.000

@@ -1,23 +1,18 @@
-
 state={
 	id=576
 	name="STATE_576"
-	provinces={
-		1766 1928 1970 2015 4828 5016 5087 5216 7949 8112 8185 10754 10870 12119 12768 13323 13731 
+	resources={
+		aluminium=2.000
+		chromium=3.000
 	}
-	resources = {
-		aluminium = 2
-		chromium = 3
+	provinces={
+		1766 1928 2015 4828 5016 5087 7949 10754 10870 12119 12768 13323 
 	}
 	history = {
 		owner = SIK
 		add_core_of = SIK
-		
-		
-		add_to_array = { state_victory_points = 5216 } #Hotan
 		add_to_array = { state_victory_points = 10870 } #Kashgar
 
-		victory_points = { 5216 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
 		victory_points = { 10870 5 } #POP 1 + STRAT 1 + POL 1 = SIG 3
 		
 		buildings = {
@@ -25,8 +20,8 @@ state={
 			industrial_complex = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=451387
-	state_category = peripheral_region
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=0.000
 }

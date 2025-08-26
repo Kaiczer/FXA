@@ -137,7 +137,7 @@ clear_all_relations = {
 # requires temp variable target = TAG
 clear_all_relations_with_TARGET = {
 	# if = {
-	# 	limit = { var:target = { is_ally_with = XXB } }
+	# 	limit = { var:target = { is_ally_with = AAA } }
 	# 	remove_from_sphere = yes
 	# 	if = {
 	# 		limit = { is_in_tech_sharing_group = any_research }

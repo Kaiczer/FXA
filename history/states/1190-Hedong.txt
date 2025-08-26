@@ -1,0 +1,19 @@
+state={
+	id=1190
+	name="STATE_1190"
+	provinces={
+		1034 1575 4634 7571 
+	}
+	history={
+		owner = SHX
+		add_core_of = SHX
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1252908
+	state_category=peripheral_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

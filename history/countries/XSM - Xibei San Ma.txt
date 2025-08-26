@@ -37,3 +37,82 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_dynamic_country = {
+	original_tag = XSM  
+	set_country_flag = XSM_gansu_ma_clique
+	set_cosmetic_tag = GSM
+	reserve_dynamic_country = yes 
+	set_country_flag = reserved_dynamic_country 
+
+	set_politics = {	
+		ruling_party = despotism 
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	XSM = {
+		every_owned_state = {
+			limit = { 
+				OR = {
+					state = 565
+					state = 566
+					state = 568
+					state = 1187
+					state = 1188
+				} 
+			}
+			transfer_state_to = GSM
+		}
+	}
+	GSM = { set_capital = { state = 1188 } }
+}
+
+create_dynamic_country = {
+	original_tag = XSM  
+	set_country_flag = XSM_ningxia_ma_clique
+	set_cosmetic_tag = NXM
+	reserve_dynamic_country = yes 
+	set_country_flag = reserved_dynamic_country 
+
+	set_politics = {	
+		ruling_party = despotism 
+		last_election = "1933.3.5"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
+	XSM = {
+		every_owned_state = {
+			limit = { 
+				OR = {
+					state = 482
+					state = 567
+				} 
+			}
+			transfer_state_to = NXM
+		}
+	}
+	NXM = { set_capital = { state = 482 } }
+}
+
+GSM = {
+	every_owned_state = {
+		remove_core_of = XSM
+		remove_core_of = NXM
+	}
+}
+
+NXM = {
+	every_owned_state = {
+		remove_core_of = XSM
+		remove_core_of = GSM
+	}
+}
+
+XSM = {
+	every_owned_state = {
+		remove_core_of = GSM
+		remove_core_of = NXM
+	}
+}

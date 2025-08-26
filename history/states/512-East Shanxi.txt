@@ -1,24 +1,22 @@
-
 state={
 	id=512
 	name="STATE_512"
-
+	provinces={
+		1027 1203 1438 1962 4208 4469 10053 10480 12078 12344 
+	}
 	history={
 		owner = SHX
 		add_core_of = SHX
-		add_to_array = { state_victory_points = 12078 } #Yangquan
+		add_to_array = { state_victory_points = 1962 } #Yangquan
 
-		victory_points = { 12078 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 1962 5 } 
 
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 	}
-
-	provinces={
-		1027 1180 1203 1438 1519 1962 4058 4208 4538 7074 10053 10421 10480 12062 12078 12344 
-	}
-	manpower=4060350
+	manpower=3451297
 	buildings_max_level_factor=1.000
 	state_category=undeveloped_rural_region
 	local_supplies=0.000

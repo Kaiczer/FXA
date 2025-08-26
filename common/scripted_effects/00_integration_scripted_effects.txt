@@ -186,7 +186,7 @@ add_state_core_upon_reaching_compliance_threshold = {
 		remove_claim_by = FROM
 
 		#disable resistance if set
-		force_enable_resistance = { occupied = XXB clear = yes }
+		force_enable_resistance = { occupied = AAA clear = yes }
 		if = {
 			limit = { has_resistance = yes }
 			cancel_resistance = yes
@@ -355,29 +355,29 @@ clear_cores_of_tag_if_possible = {
 
 start_state_integration_resistance = {
 	if = {
-		limit = { NOT = { occupied_country_tag = XXB } }
+		limit = { NOT = { occupied_country_tag = AAA } }
 		if = {
 			limit = { has_resistance = yes }
 			set_temp_variable = { previous_compliance = compliance }
 			set_temp_variable = { previous_resistance = resistance }
 			cancel_resistance = yes
 		}
-		add_core_of = XXB
-		force_enable_resistance = { occupied = XXB }
-		start_resistance = XXB
+		add_core_of = AAA
+		force_enable_resistance = { occupied = AAA }
+		start_resistance = AAA
 		set_compliance = var:previous_compliance?0
 		set_resistance = var:previous_resistance?0
-		remove_core_of = XXB
+		remove_core_of = AAA
 	}
-	PREV = { XXB = { set_occupation_law_where_available = territorial_integration } }
+	PREV = { AAA = { set_occupation_law_where_available = territorial_integration } }
 }
 
 clear_state_integration_resistance = {
-	force_enable_resistance = { occupied = XXB clear = yes }
+	force_enable_resistance = { occupied = AAA clear = yes }
 	if = {
 		limit = {
 			has_resistance = yes
-			occupied_country_tag = XXB
+			occupied_country_tag = AAA
 		}
 		set_temp_variable = { previous_compliance = compliance }
 		set_temp_variable = { previous_resistance = resistance }

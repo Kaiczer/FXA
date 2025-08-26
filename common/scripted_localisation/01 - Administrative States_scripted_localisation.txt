@@ -43,6 +43,10 @@ defined_text = {
 		localization_key = zhili_region
 	}
 	text = {
+		trigger = { has_state_flag = jishen_region }
+		localization_key = jishen_region
+	}
+	text = {
 		trigger = { has_state_flag = henan_region }
 		localization_key = henan_region
 	}

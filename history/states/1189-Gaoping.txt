@@ -1,0 +1,22 @@
+state={
+	id=1189
+	name="STATE_1189"
+	provinces={
+		1180 1519 4058 4538 7074 10421 12062 
+	}
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_to_array = { state_victory_points = 1180 } #Gaoping
+
+		victory_points = { 1180 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=609052
+	state_category=undeveloped_rural_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

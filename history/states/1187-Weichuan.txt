@@ -1,0 +1,23 @@
+state={
+	id=1187
+	name="STATE_1187"
+	provinces={
+		531 2022 5193 7397 7911 8037 12797 12882 13925 
+	}
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_to_array = { state_victory_points = 7911 } #Tianshui
+
+		victory_points = { 7911 5 } 
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+	manpower=1961072
+	state_category=developing_rural_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

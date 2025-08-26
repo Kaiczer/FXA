@@ -47,7 +47,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-### Create Eastern European Rival Government ###
+### Create Communist-Counterpart Government ###
 create_dynamic_country = {
 	original_tag = UKR  
 	set_country_flag = UKR_is_soviet_puppet

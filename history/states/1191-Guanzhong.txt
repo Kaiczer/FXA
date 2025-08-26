@@ -1,0 +1,23 @@
+state={
+	id=1191
+	name="STATE_1191"
+	provinces={
+		5007 7208 8049 10733 12156 
+	}
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_to_array = { state_victory_points = 10733 } #Fengxiang
+
+		victory_points = { 10733 1 } 
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=2973120
+	state_category=developing_rural_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

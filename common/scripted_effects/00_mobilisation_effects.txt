@@ -8,8 +8,8 @@ disband_units_setup = {
 		set_temp_variable = { disband_state = THIS }
 		set_temp_variable = { disband_state_owner = THIS.owner }
 		if = {
-			limit = { NOT = { country_exists = XXB } }
-			XXB = {
+			limit = { NOT = { country_exists = AAA } }
+			AAA = {
 				transfer_state = PREV
 				set_temp_variable = { debug_tag_instance = THIS }
 				set_temp_variable = { old_manpower = manpower_k }
@@ -17,7 +17,7 @@ disband_units_setup = {
 		}
 		else = {
 			create_dynamic_country = {
-				original_tag = XXB
+				original_tag = AAA
 
 				transfer_state = PREV
 				set_temp_variable = { debug_tag_instance = THIS }

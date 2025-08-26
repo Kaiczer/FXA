@@ -1,0 +1,23 @@
+state={
+	id=1188
+	name="STATE_1188"
+	provinces={
+		1630 5057 7511 12732 
+	}
+	history = {
+		owner = XSM
+		add_core_of = XSM
+		add_to_array = { state_victory_points = 1630 } #Lanzhou
+
+		victory_points = { 1630 20 } 
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=1617885
+	state_category=developing_rural_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
