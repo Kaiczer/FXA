@@ -6,9 +6,8 @@ state={
 	}
 	history={
 		owner = XSM
-		add_core_of = XSM
-		
-		
+		add_core_of = GNM
+		add_claim_by = XSM
 		add_to_array = { state_victory_points = 2028 } #Zhangye
 		
 		victory_points = { 2028 3 } #POP 2 + STRAT 0 + POL 0 = SIG 2
@@ -17,6 +16,10 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 75
 	}
 	manpower=1477520
 	buildings_max_level_factor=1.000

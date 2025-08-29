@@ -1,31 +1,24 @@
-
 state={
 	id=449
 	name="STATE_449"
-	provinces={
-		993 1097 1113 1182 4000 4100 4184 4188 7016 9998 11908 
+	resources={
+		steel=19.000
 	}
-	resources = {
-		steel = 19
-		aluminium = 2
+	provinces={
+		1182 4184 4188 9998 
 	}
 	history = {
 		owner = JAP
 		add_core_of = JAP
 		add_to_array = { state_victory_points = 1182 }
 		add_to_array = { state_victory_points = 9998 }
-		add_to_array = { state_victory_points = 1113 }
-		add_to_array = { state_victory_points = 7016 }
-
-		victory_points = { 1113 2 } #Utsunomiya
-		victory_points = { 7016 1 } #Mito
 		victory_points = { 1182 50 }
 		victory_points = { 9998 20 }
 
 		buildings = {
 			infrastructure = 3
 			air_base = 6
-			industrial_complex = 4
+			industrial_complex = 3
 			arms_factory = 3
 			dockyard = 2
 			9998 = {
@@ -33,8 +26,8 @@ state={
 			}
 		}
 	}
+	manpower=9756318
 	buildings_max_level_factor=1.000
+	state_category=major_industrial_region
 	local_supplies=0.000
-	manpower=15271673
-	state_category = major_industrial_region
 }

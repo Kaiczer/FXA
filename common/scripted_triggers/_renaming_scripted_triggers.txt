@@ -84,6 +84,7 @@ is_chinese_tag = {
 		original_tag = YUN
 		original_tag = CHB
 		original_tag = CPC
+		original_tag = GNM
 		AND = {
 			original_tag = KML 
 			has_country_flag = KML_is_chinese_tag

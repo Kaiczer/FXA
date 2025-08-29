@@ -1,22 +1,20 @@
-
 state={
 	id=479
 	name="STATE_479"
-	history = {
-		owner = FNG
-		add_core_of = FNG 
-		
-		
-		add_to_array = { state_victory_points = 1134 }
-		add_to_array = { state_victory_points = 9843 }
-		victory_points = { 9843 50 }
-		victory_points = { 1134 6 } #Gu'an city
-	}
 	provinces={
 		1134 4140 6828 9843 11761 12026 
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
+	history = {
+		owner = FNG
+		add_core_of = FNG 
+		add_to_array = { state_victory_points = 1134 }
+		add_to_array = { state_victory_points = 9843 }
+		
+		victory_points = { 9843 50 }
+		victory_points = { 1134 6 } #Gu'an city
+	}
 	manpower=11461000
-	state_category = urbanised_region
+	buildings_max_level_factor=1.000
+	state_category=urbanised_region
+	local_supplies=0.000
 }

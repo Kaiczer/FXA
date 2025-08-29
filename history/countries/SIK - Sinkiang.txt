@@ -58,7 +58,6 @@ create_dynamic_country = {
 		limit = {
 			OR = {
 				state = 575
-				state = 576
 				state = 577
 				state = 578
 			}
@@ -71,7 +70,6 @@ create_dynamic_country = {
 		limit = {
 			NOT = { 
 				state = 575
-				state = 576
 				state = 577
 				state = 578
 			}

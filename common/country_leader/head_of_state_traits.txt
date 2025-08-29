@@ -624,12 +624,6 @@ leader_traits = {
 	}
 
 	### Mongolia
-	MON_the_mad_baron = { #Roman von Ungern-Sternberg
-		random = no
-		stability_factor = 0.05
-		war_support_factor = 0.05
-		cavalry_attack_factor = 0.05
-	}
 	MON_princes_puppet = { #Unenbayan
 		random = no
 		stability_factor = 0.05

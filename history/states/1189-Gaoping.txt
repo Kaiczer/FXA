@@ -2,7 +2,7 @@ state={
 	id=1189
 	name="STATE_1189"
 	provinces={
-		1180 1519 4058 4538 7074 10421 12062 
+		1180 1519 4058 4538 7074 10421 
 	}
 	history={
 		owner = SHX
@@ -16,7 +16,7 @@ state={
 		}
 	}
 	manpower=609052
-	state_category=undeveloped_rural_region
 	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
 	local_supplies=0.000
 }

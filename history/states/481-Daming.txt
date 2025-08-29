@@ -1,24 +1,19 @@
-
 state={
 	id=481
 	name="STATE_481"
-
+	provinces={
+		1188 7092 9987 11933 11962 12062 
+	}
 	history={
 		owner = ZHI
 		add_core_of = ZHI
-		
-		
 		add_to_array = { state_victory_points = 1188 } #Shimen
 
-		victory_points = { 1188 15 } #POP 4 + STRAT 0 + POL 1 = SIG 5
+		victory_points = { 1188 15 } 
 
 		buildings = {
 			infrastructure = 2
 		}
-	}
-
-	provinces={
-		1188 7092 9987 11933 11962 
 	}
 	manpower=1042550
 	buildings_max_level_factor=1.000

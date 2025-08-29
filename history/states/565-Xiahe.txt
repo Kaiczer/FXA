@@ -5,10 +5,9 @@ state={
 		4313 10918 11448 
 	}
 	history={
-		owner = XSM
-		add_core_of = XSM
-		
-		
+		owner = GNM
+		add_core_of = GNM
+		add_claim_by = XSM #Labrang Monastery
 
 		buildings = {
 			infrastructure = 1

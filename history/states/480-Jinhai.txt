@@ -1,12 +1,12 @@
-
 state={
 	id=480
 	name="STATE_480"
-
-	history={
+	provinces={
+		4032 4093 4137 4190 4208 7000 7109 9969 10003 10022 10053 10119 11944 11980 11996 
+	}
+	history = {
 		owner = FNG
 		add_core_of = FNG
-		
 		add_to_array = { state_victory_points = 7109 } #Baoding
 
 		victory_points = { 7109 20 } #POP 5 + STRAT 2 + POL 0 = SIG 7
@@ -14,10 +14,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-	}
-
-	provinces={
-		4032 4093 4137 4190 7000 7109 9969 10003 10022 10119 11944 11980 11996 
 	}
 	manpower=10442950
 	buildings_max_level_factor=1.000

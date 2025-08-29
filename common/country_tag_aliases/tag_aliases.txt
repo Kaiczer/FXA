@@ -25,18 +25,18 @@ NXJ = { #Nan Xinjiang / South Xinjiang
 	original_tag = SIK
 	has_country_flag = SIK_hushan_army
 }
-GND = { #Chen Jitang / Guangdong # For Liangguang Civil War
+GND = { #Chen Jitang / Guangdong (For Xinan Civil War)
 	original_tag = GXC
 	has_country_flag = GXC_is_guangdong
 }
-GSM = {
-	original_tag = XSM
-	has_country_flag = XSM_gansu_ma_clique
-}
-NXM = {
-	original_tag = XSM
-	has_country_flag = XSM_ningxia_ma_clique
-}
+# GSM = {
+# 	original_tag = XSM
+# 	has_country_flag = XSM_gansu_ma_clique
+# }
+# NXM = {
+# 	original_tag = XSM
+# 	has_country_flag = XSM_ningxia_ma_clique
+# }
 
 ### South Africa
 ZAR = {

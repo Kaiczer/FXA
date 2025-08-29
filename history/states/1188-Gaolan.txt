@@ -6,7 +6,8 @@ state={
 	}
 	history = {
 		owner = XSM
-		add_core_of = XSM
+		add_core_of = GNM
+		add_claim_by = XSM
 		add_to_array = { state_victory_points = 1630 } #Lanzhou
 
 		victory_points = { 1630 20 } 
@@ -15,6 +16,10 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 87
 	}
 	manpower=1617885
 	state_category=developing_rural_region
