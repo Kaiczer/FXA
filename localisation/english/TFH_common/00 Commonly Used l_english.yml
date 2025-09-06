@@ -97,9 +97,6 @@ volunteer_limit_plus_one_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?1|+=0]"
 volunteer_limit_plus_fifty_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.5|+=%1]"
 volunteer_limit_plus_hundred_percent_tt: "$MODIFIER_SEND_VOLUNTEER_SIZE$: [?0.1|+=%1]"
 
-### Idea Names ###
-black_monday: "Black Monday"
-
 ### Colours (for use in scripted loc) ###
 colour_cyan: "C"
 colour_dirty_grey: "L"
@@ -247,9 +244,9 @@ modifier_army_sub_unit_mountaineers_attack_factor_tooltip: "$modifier_army_sub_u
 modifier_army_sub_unit_mountaineers_defence_factor_tooltip: "$modifier_army_sub_unit_mountaineers_defence_factor$: $RIGHT|+=%2$"
 modifier_army_sub_unit_mountaineers_max_org_factor_tooltip: "$modifier_army_sub_unit_mountaineers_max_org_factor$: $RIGHT|+=%2$"
 
-modifier_army_sub_unit_marines_attack_factor_tooltip: "$modifier_army_sub_unit_marines_attack_factor$: $RIGHT|+=%2$"
-modifier_army_sub_unit_marines_defence_factor_tooltip: "$modifier_army_sub_unit_marines_defence_factor$: $RIGHT|+=%2$"
-modifier_army_sub_unit_marines_max_org_factor_tooltip: "$modifier_army_sub_unit_marines_max_org_factor$: $RIGHT|+=%2$"
+modifier_army_sub_unit_marine_attack_factor_tooltip: "$modifier_army_sub_unit_marine_attack_factor$: $RIGHT|+=%2$"
+modifier_army_sub_unit_marine_defence_factor_tooltip: "$modifier_army_sub_unit_marine_defence_factor$: $RIGHT|+=%2$"
+modifier_army_sub_unit_marine_max_org_factor_tooltip: "$modifier_army_sub_unit_marine_max_org_factor$: $RIGHT|+=%2$"
 
 modifier_army_sub_unit_paratrooper_attack_factor_tooltip: "$modifier_army_sub_unit_paratrooper_attack_factor$: $RIGHT|+=%2$"
 modifier_army_sub_unit_paratrooper_defence_factor_tooltip: "$modifier_army_sub_unit_paratrooper_defence_factor$: $RIGHT|+=%2$"
