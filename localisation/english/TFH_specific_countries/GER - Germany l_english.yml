@@ -1,9 +1,10 @@
 ﻿l_english:
+### Country Names ###
 GER: "Germany"
 GER_ADJ: "German"
 GER_DEF: "Germany"
 
-### Country Names
+### Cosmetic Names ###
 GER_authoritarian_socialism: "German National People's Republic"
 GER_authoritarian_socialism_DEF: "the German National People's Republic"
 GER_authoritarian_socialism_ADJ: "German"
@@ -17,7 +18,7 @@ GER_volkism: "Deutscher Volksstaat"
 GER_volkism_ADJ: "German"
 GER_volkism_DEF: "the German People's State"
 
-#### Parties ####
+#### Parties ###
 GER_authoritarian_socialism_party: "ADVKP (Schwarze Front)"
 GER_authoritarian_socialism_party_long: "Alldeutsche Volkistische Volkseinheitspartei - Schwarze Front (Pan-German Volkist People's Unity Party - Black Front)"
 GER_vanguard_socialism_party: "DKP"
@@ -38,8 +39,8 @@ GER_revolutionary_nationalism_party: "DNVP"
 GER_revolutionary_nationalism_party_long: "Deutschnationale Volkspartei (German National People's Party)"
 GER_volkism_party: "ADVKP"
 GER_volkism_party_long: "Alldeutsche Volkistische Volkseinheitspartei (Pan-German Volkist People's Unity Party)"
-GER_despotism_party: "DNVP"
-GER_despotism_party_long: "Deutschnationale Volkspartei (German National People's Party)"
+GER_despotism_party: "$GER_revolutionary_nationalism_party$"
+GER_despotism_party_long: "$GER_revolutionary_nationalism_party_long$"
 GER_ultrareactionism_party: "AV/DNVP"
 GER_ultrareactionism_party_long: "Alldeutsche Verband/Deutschnationale Volkspartei (Pan-German League/German National People's Party)"
 
@@ -62,7 +63,6 @@ GER_otto_strasser_desc: "§YTitles:\n§!- President of People's Chamber of Natio
 
 ### Traits ###
 GER_event_only: "Can be fired only via events"
-GER_leader_of_people: "Führer des gesamten Deutschen Volkes"
 reich_chancellor: "Reich Chancellor"
 TFH_volkism_preacher: "Volkism Preacher"
 TFH_powerless_vice_chancellor: "Powerless Vice Chancellor"

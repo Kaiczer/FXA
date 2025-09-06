@@ -30,10 +30,17 @@ if = {
 	}
 }
 
+recruit_character = JAP_hirohito
+
+set_popularities = {
+	social_conservatism = 100
+}
+
 set_politics = {	
-	ruling_party = despotism
+	ruling_party = social_conservatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+JAP_hirohito = { set_character_flag = is_monarch }

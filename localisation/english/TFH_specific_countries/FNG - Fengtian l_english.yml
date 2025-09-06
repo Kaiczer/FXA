@@ -1,6 +1,4 @@
 ﻿l_english:
-#### Bookmark Description ####
-
 ### Countries Name ###
 FNG: "Fengtian"
 FNG_DEF: "Fengtian"
@@ -18,14 +16,16 @@ FNG_united_china_government_paternalism: "Republic of China"
 FNG_united_china_government_paternalism_DEF: "the Republic of China"
 FNG_united_china_government_paternalism_ADJ: "Chinese"
 
-FNG_authoritarian_socialism_party: "CPC"
-FNG_authoritarian_socialism_party_long: "Zhongguo Gongchandang (Communist Party of China)"
+### Political Parties ###
+
+FNG_authoritarian_socialism_party: "$FNG_vanguard_socialism_party$"
+FNG_authoritarian_socialism_party_long: "$FNG_vanguard_socialism_party_long$"
 FNG_vanguard_socialism_party: "CPC"
 FNG_vanguard_socialism_party_long: "Zhongguo Gongchandang (Communist Party of China)"
 FNG_revolutionary_socialism_party: "NAJUF"
 FNG_revolutionary_socialism_party_long: "Dongbei Kangri Lianjun (Northeast Anti-Japanese United Forces)"
 FNG_social_democracy_party: "CNSP"
-FNG_social_democracy_party_long: "Guojia Shehuidang (Chinese National Socialist Party)"
+FNG_social_democracy_party_long: "Guojia Shehuidang (Chinese National-Socialist Party)"
 FNG_social_liberalism_party: "Zhidaobu"
 FNG_social_liberalism_party_long: "Zizhi Zhidaobu (Home Rule Guidance Club)"
 FNG_classical_liberalism_party: "Xiehehui"
@@ -38,8 +38,3 @@ FNG_revolutionary_nationalism_party: "YCP"
 FNG_revolutionary_nationalism_party_long: "Zhongguo Qingnian-dang (Young China Party)"
 FNG_despotism_party: "Fengtian Clique"
 FNG_despotism_party_long: "Fengtian-pai (Fengtian Clique)"
-
-### Traits ###
-CHN_supreme_warlord: "Supreme Warlord of all China"
-FNG_old_marshal: "Old Marshal"
-FNG_hope_of_manchuria: "Hope of Manchuria"

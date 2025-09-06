@@ -1,0 +1,44 @@
+characters = {
+	GNM_liu_zhidan = {
+		name = GNM_liu_zhidan
+		portraits = {
+			army = {
+				large = "gfx/leaders/GNM/GNM_liu_zhidan.png"
+			}
+		}
+		country_leader = { 
+			ideology = authoritarian_socialism_subtype
+		}
+		country_leader = { 
+			ideology = vanguard_socialism_subtype
+		}
+		country_leader = { 
+			ideology = revolutionary_socialism_subtype
+		}
+	}
+	GNM_ma_hongkui = {
+		name = GNM_ma_hongkui
+		portraits = {
+			army = {
+				large = "gfx/leaders/GNM/GNM_ma_hongkui.png"
+			}
+		}
+		country_leader = { 
+			ideology = despotism_subtype
+		}
+	}
+	GNM_ma_hongbin = {
+		name = GNM_ma_hongbin
+		portraits = {
+			army = {
+				large = "gfx/leaders/GNM/GNM_ma_hongbin.png"
+			}
+		}
+		country_leader = { 
+			ideology = social_conservatism_subtype
+		}
+		country_leader = { 
+			ideology = paternalism_subtype
+		}
+	}
+}

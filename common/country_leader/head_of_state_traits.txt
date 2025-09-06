@@ -544,6 +544,11 @@ leader_traits = {
 	}
 
 	### Japan ###
+	JAP_heavenly_sovereign = { # For Japanese Emperors
+		random = no
+		stability_factor = 0.15
+		war_support_factor = 0.1
+	}
 	JAP_hirohito_defeat_trait = { #Trait for Hirohito in Puppet JAP content
 		random = no
 		war_support_factor = -0.2

@@ -1,0 +1,47 @@
+characters = {
+	SIK_ma_zhongying = {
+		name = SIK_ma_zhongying
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIK/SIK_ma_zhongying.png"
+			}
+		}
+		country_leader = { 
+			ideology = despotism_subtype
+		}
+		country_leader = { 
+			ideology = ultrareactionism_subtype
+		}
+	}
+	SIK_ma_hushan = {
+		name = SIK_ma_hushan
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIK/SIK_ma_hushan.png"
+			}
+		}
+		country_leader = { 
+			ideology = despotism_subtype
+		}
+	}
+	SIK_sheng_shicai = {
+		name = SIK_sheng_shicai
+		portraits = {
+			army = {
+				large = "gfx/leaders/SIK/SIK_sheng_shicai.png"
+			}
+		}
+		country_leader = { 
+			ideology = authoritarian_socialism_subtype
+		}
+		country_leader = { 
+			ideology = vanguard_socialism_subtype
+		}
+		country_leader = { 
+			ideology = revolutionary_socialism_subtype
+		}
+		country_leader = { 
+			ideology = social_democracy_subtype
+		}
+	}
+}

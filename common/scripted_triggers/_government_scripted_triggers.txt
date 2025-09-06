@@ -29,10 +29,10 @@ has_democratic_government = {
 }
 
 # checks for country in scope: paternalism, paternal autocrat, or national populist
-has_paternalism_government = {
+has_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = TFH_is_paternalism #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = TFH_is_paternalism
+		has_country_flag = TFH_is_authoritarian
 	}
 }
 
@@ -61,10 +61,10 @@ has_left_democratic_government = {
 }
 
 # checks for country in scope: authoritarian_socialism, paternalism democrat, paternal autocrat or national populist
-has_any_paternalism_government = {
+has_any_authoritarian_government = {
 	custom_trigger_tooltip = {
 		tooltip = TFH_is_any_paternalism #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
-		has_country_flag = TFH_is_any_paternalism
+		has_country_flag = TFH_is_any_authoritarian
 	}
 }
 
@@ -184,8 +184,8 @@ same_government_type_as_ROOT_paternalism = {
 			ROOT = { has_elected_government = yes }
 		}
 		AND = {
-			has_paternalism_government = yes
-			ROOT = { has_paternalism_government = yes }
+			has_authoritarian_government = yes
+			ROOT = { has_authoritarian_government = yes }
 		}
 	}
 }
@@ -213,6 +213,16 @@ is_monarchy = {
 				has_character_flag = is_monarch
 				has_character_flag = is_regent
 			}
+		}
+	}
+}
+
+is_warlord_state = {
+	custom_trigger_tooltip = {
+		tooltip = is_warlord_state
+		any_character = {
+			is_country_leader = yes
+			has_character_flag = is_warlord
 		}
 	}
 }

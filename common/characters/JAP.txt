@@ -1,0 +1,46 @@
+characters = {
+	JAP_hirohito = {
+		name = JAP_hirohito
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_hirohito_imperial.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = classical_liberalism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = social_conservatism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = paternalism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = revolutionary_nationalism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = volkism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+		country_leader = {
+			ideology = ultrareactionism_subtype
+			traits = { JAP_heavenly_sovereign }
+		}
+	}
+}

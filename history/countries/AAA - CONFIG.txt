@@ -42,16 +42,3 @@ every_possible_country = {
 # add_to_array = { global.ideologies_non_socialist = token:national_populist_subtype }
 
 set_variable = { global.base_unit_limit_bonus = 8 }
-
-### For Government Setup ###
-for_each_scope_loop = {
-	array = global.countries
-	if = {
-		limit = { exists = yes }
-		set_government_flags = yes 
-	}
-	if = { 
-		limit = { has_autonomy_state = colonial_government }
-		add_ideas = colonial_administration
-	}
-}

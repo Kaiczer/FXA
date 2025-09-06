@@ -1,7 +1,7 @@
 ﻿capital = 868
 set_research_slots = 2
-set_stability = 0.23
-set_war_support = 0.88
+set_stability = 0.43
+set_war_support = 0.46
 
 set_cosmetic_tag = XSM_southern
 
@@ -32,9 +32,28 @@ if = {
 	}
 }
 
+set_popularities = {
+	social_conservatism = 25
+	paternalism = 13
+	despotism = 36
+	revolutionary_nationalism = 14
+	ultrareactionism = 12
+}
+
 set_politics = {	
 	ruling_party = social_conservatism
 	last_election = "1931.8.11"
 	election_frequency = 48
 	elections_allowed = no
 }
+
+add_coalition_paternalism = yes
+add_coalition_despotism = yes
+
+recruit_character = XSM_ma_lin
+recruit_character = XSM_ma_bufang
+
+activate_advisor = XSM_ma_bufang_sic
+
+XSM_ma_lin = { set_character_flag = is_warlord }
+XSM_ma_bufang = { set_character_flag = is_warlord }

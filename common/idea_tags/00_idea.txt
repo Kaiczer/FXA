@@ -23,7 +23,7 @@ idea_categories = {
 	}
 
 	government = {
-		slot = constitution_form
+		slot = government_form
 		character_slot = second_in_command
 		character_slot = political_advisor
 		character_slot = political_advisor
@@ -36,7 +36,7 @@ idea_categories = {
 		removal_cost = 0
 	}
 
-	laws_1 = { # Political
+	laws_1 = { # Political Affairs
 		slot = constitutional_state_type
 		slot = executive_mode
 		slot = legislative_mode
@@ -49,13 +49,12 @@ idea_categories = {
 		removal_cost = 0
 	}
 
-	laws_2 = { # Security/Economy/People
+	laws_2 = { # Domestic Affairs
 		slot = mobilization_laws
-		slot = culture_empowerment
-		slot = people_state_relationship
+		slot = cultural_policy
+		slot = law_obediance
 		slot = trade_laws
 		slot = economy
-		slot = economic_model
 
 		ledger = civilian
 

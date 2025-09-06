@@ -57,6 +57,9 @@ is_regent_NOT: "Is not acting as regent"
 is_monarchy: "§Y[THIS.GetNameWithFlag]§! is a §Ymonarchy§!"
 is_monarchy_NOT: "§Y[THIS.GetNameWithFlag]§! is §Rnot§! a §Ymonarchy§!"
 
+is_warlord_state: "§Y[THIS.GetNameWithFlag]§! is a §Ywarlord state§!"
+is_warlord_state_NOT: "§Y[THIS.GetNameWithFlag]§! is §Rnot§! a §Ywarlord state§!"
+
 government_is_collapsed: "§RThe government of§! §Y[THIS.GetNameWithFlag]§! §Rhas collapsed or unstabilized.§!"
 nation_failed_to_survive: "§RThe national survive rate§! §Y[THIS.GetNameWithFlag]§! §Rhas dropped into the point of the failed state.§!"
 

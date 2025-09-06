@@ -37,3 +37,20 @@ set_politics = {
 	elections_allowed = no
 }
 
+
+
+
+
+#### For the Global Setup / It needs to be put on the last of the history file ####
+### For Government Setup ###
+for_each_scope_loop = {
+	array = global.countries
+	if = {
+		limit = { exists = yes }
+		set_government_flags = yes 
+	}
+	if = { 
+		limit = { has_autonomy_state = colonial_government }
+		add_ideas = colonial_administration
+	}
+}

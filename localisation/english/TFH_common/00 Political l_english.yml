@@ -98,7 +98,6 @@ military_staff_available: "This member of the Military staff is alive and ready 
 government_is_loc: "Current ruling party is "
 government_is_not_loc: "Current ruling party is not "
 
-
 ### Triggers
 TFH_is_socialist: "$government_is_loc$§Y$authoritarian_socialism$§!, §Y$vanguard_socialism$§! or §Y$revolutionary_socialism$§!"
 TFH_is_socialist_NOT: "$government_is_not_loc$§Y$authoritarian_socialism$§!, §Y$vanguard_socialism$§! or §Y$revolutionary_socialism$§!"

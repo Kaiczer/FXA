@@ -70,7 +70,7 @@ political_actions = {
 			trigger = {
 				NOT = {
 					has_government = authoritarian_socialism
-					has_paternalism_government = yes
+					has_authoritarian_government = yes
 				}
 			}
 		}
@@ -81,7 +81,7 @@ political_actions = {
 			trigger = {
 				OR = {
 					has_government = authoritarian_socialism
-					has_paternalism_government = yes
+					has_authoritarian_government = yes
 				}
 			}
 		}

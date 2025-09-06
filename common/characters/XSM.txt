@@ -1,0 +1,41 @@
+characters = {
+	XSM_ma_lin = {
+		name = XSM_ma_lin
+		portraits = {
+			army = {
+				large = "gfx/leaders/XSM/XSM_ma_lin.png"
+			}
+		}
+		country_leader = { 
+			ideology = social_conservatism_subtype
+		}
+		country_leader = { 
+			ideology = paternalism_subtype
+		}
+	}
+	XSM_ma_bufang = {
+		name = XSM_ma_bufang
+		portraits = {
+			army = {
+				large = "gfx/leaders/XSM/XSM_ma_bufang.png"
+			}
+		}
+		country_leader = { 
+			ideology = revolutionary_nationalism_subtype
+		}
+		country_leader = { 
+			ideology = despotism_subtype
+		}
+		country_leader = { 
+			ideology = ultrareactionism_subtype
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = XSM_ma_bufang_sic
+			allowed = { has_country_leader = { character = XSM_ma_lin } }
+			#traits = { XSM_ambitious_general }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+}

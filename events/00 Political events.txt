@@ -914,7 +914,7 @@ country_event = {
 			factor = 1.5
 			overlord = {
 				OR = {
-					has_paternalism_government = yes
+					has_authoritarian_government = yes
 					has_government = authoritarian_socialism
 				}
 			}
@@ -1035,7 +1035,7 @@ country_event = {
 			factor = 1.5
 			overlord = {
 				OR = {
-					has_paternalism_government = yes
+					has_authoritarian_government = yes
 					has_government = authoritarian_socialism
 				}
 			}
@@ -1135,7 +1135,7 @@ country_event = {
 			factor = 1.5
 			overlord = {
 				OR = {
-					has_paternalism_government = yes
+					has_authoritarian_government = yes
 					has_government = authoritarian_socialism
 				}
 			}
