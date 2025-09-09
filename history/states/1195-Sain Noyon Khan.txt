@@ -1,0 +1,22 @@
+state={
+	id=1195
+	name="STATE_1195"
+	provinces={
+		1725 1728 1798 1859 4697 7881 10623 12675 
+	}
+	history ={
+		owner = MON
+		add_core_of = MON
+		add_to_array = { state_victory_points = 1728 }
+
+		victory_points = { 1728 2 } #Tsetserleg
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=64961
+	state_category=peripheral_region
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

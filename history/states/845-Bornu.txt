@@ -6,8 +6,7 @@ state={
 	}
 	history = {
 		owner = SIE  
-		add_core_of = BOR
-		add_claim_by = NGA 
+		add_core_of = NGA
 		add_claim_by = SIE
 		add_to_array = { state_victory_points = 4997 }
 

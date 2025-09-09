@@ -1,13 +1,12 @@
-
 state={
 	id=583
 	name="STATE_583"
-
+	provinces={
+		1689 4777 4858 7773 7799 7843 10560 10563 10634 10669 10695 12520 12544 12614 12649 12695 13869 13872 13884 
+	}
 	history={
 		owner = MON
 		add_core_of = MON
-		
-		
 		add_to_array = { state_victory_points = 7799 }
 		add_to_array = { state_victory_points = 12520 }
 		add_to_array = { state_victory_points = 12695 }
@@ -21,11 +20,7 @@ state={
 			industrial_complex = 1
 		}
 	}
-
-	provinces={
-		1689 1728 1798 1859 4697 4777 4858 7717 7773 7799 7843 10554 10560 10563 10623 10634 10669 10695 12520 12544 12605 12614 12649 12675 12695 13869 13872 13884 
-	}
-	manpower=36910 #5% of total population in 1935
+	manpower=36910
 	buildings_max_level_factor=1.000
 	state_category=peripheral_region
 	local_supplies=8.000
