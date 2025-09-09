@@ -1,0 +1,164 @@
+### Australia & New Zealand Name Pool ###
+AST = {
+	male = {
+		names = {  
+			John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+		 }
+	}
+	female = {
+		names = {
+			Sheila Wanda Mary Amelia Chloe Leslie Zoe Sophie Evie Barbera Olivia Charlotte Amelia Ava Mia Chloe Zoe Evie Sophie Emily Ella Matilda
+		}
+	}
+	surnames = {
+		Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+	
+	 }
+	callsigns = { }
+
+	ace = {
+		name = Leslie
+		callsign = Les
+		surname = Clisby
+		type = fighter
+	}
+	ace = {
+		name = "John"
+		callsign = Wad
+		surname = Waddy
+		type = fighter
+	}
+	ace = {
+		name = Keith
+		callsign = Bluey
+		surname = Truscott
+		type = fighter
+	}
+	ace = {
+		name = Paterson
+		callsign = Pat
+		surname = Hughes
+		type = fighter
+	}
+	ace = {
+		name = Adrian
+		callsign = Tim
+		surname = Goldsmith
+		type = fighter
+	}
+	ace = {
+		name = Clive
+		callsign = Killer
+		surname = Caldwell
+		type = fighter
+	}
+}
+
+NZL = {
+	male = {
+		names = {  
+			John Alf Adrian Louis Hallam Henry Shane Stafford William Frederick Thomas Ronald Lawrence Bruce Ray Stuart Brian Bob Scott Guy
+			Kai Kupe Hahona Hehu Rongo Tangaroa
+		 }
+	}
+	female = {
+		names = { 
+			Sheila Wanda Mary Amelia Chloe Leslie Zoe Sophie Evie Barbera Olivia Charlotte Amelia Ava Mia Chloe Zoe Evie Sophie Emily Ella Matilda
+			Aroha Arini Ana Whina Panai Hauku
+		}
+	}
+	surnames = {
+		Hope Tennyson Northcote War Thesinger Denman Forster Baird Issac Stewart Fisher Cook Davis Armstrong Anderson Mitchell MacKenzie
+	
+	 }
+	callsigns = { }
+}
+
+### Pacific Islands Name Pool ###
+PNG = {
+	male = {
+		names = {
+			Abba Adrian Benkato Boaz David Dika Francis Frans Freddy George John Makali Marcus Matthew Michael Paias Patrick Paulias Peter Rabbie Ryan Stanley Ted Will
+		}
+	}
+	female = {
+		names = {
+			Dame Erika Heather Lara Nitya Raema
+		}
+	}
+	surnames = {
+		Aizue Bai Bina Cooper Dekker Egerton Gene Genia Giddings Heynatz Hicks Kaisiepo Kidu Kompaon Lam Laws Maheswari Matane McDonald Mead Mondo Namaliu Numberi Ottio O'Neill Pini Pruaitch Rumbewas Sheppard Solossa Somare Toua Watson Wingti
+	}
+	callsigns = {}
+}
+
+FIJ = {
+	male = {
+		names = { 
+			Anirudh Ballu Brij Dixon Epeli Faraz George Hari Imran Isikia Jeremaia Jesoni Josateki Lokeshani Kaliopate Paresh Poseci Rajesh Rajnesh Ram Sangeeta Satya Savenaca Sarojini Shivlal Taito Angelita Christine Gabrissa Greta Joanne Lanja Lovelite Margaret Marlene Millicent Olympia Reanna Sheba Sheeva Kaingaue Kaitinano Karitaake Keina Maere Makurita Nei Norma Taoriba Teekoa Tekarei Teresia Tessie Tio
+			Aleki Aputi Enele Haych Laini Laki Malosi Peleki Peniamina Petelo Semis Sinalei Taito Tuala Tusitala Uaine Uati Vaea Apisai Bikenibeu Faimalaga Fiatau Filoimea Ionatana Kamuta Koloa Lagitupu Maatia Saufatu Seve Solofa Toaripi Tomasi Tomu Tulaga Tupua 
+		}
+	}
+	female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+	surnames = {
+		Ali "Bhagwan-Rolls" Bune Chandra Heffernan Iqbal Khan Konrote Kumar Lal Luveni Nagindas Nailatikau Nandan Narayan Nawalowalo Niranjan Pillay Punja Samisoni Savua Seeto Singh Siwatibau Tavola Toganivalu Vitusagavulu Waradi Adeang Aroi Brechtefeld Dagiero Deireragea Detenamo Detudamo Dowabobo Doweiya Dowiyogo Fritz Fusi Garabwan Gobure Hartman Harris Hendrie Kam Kun Moses Peo Peter Solomon Starr Stephen Thomas Uera Waibeiya Zacharias Baaro Baiteke Biniati Breckterfield Christopher David Dowiyogo Etita Iuta Karianako Katoatau Lambourne Makin Meme Mwemweata Nariki Nawai Russell Ruuka Tabaroua Takooa Tatonga Teaiwa Tekanene Tewaaki Thomas Tito Toromon Faapo Tino Vui Aveau Iusitinio Kini Keil Malielegaoi Lauofo Ropati Mauiliu Liuga Tultama Mataafa Tumaalii Pinati Lameko Leiataua Posala Apinelu Ielemia Ionatana Latasi Lauti Leupena Luka Manuella Paeniu Puapua Sione Sopoanga Talake Telito Teo Toafa Tuilimu Uota
+		Uan Yeeting
+		Waqanisau
+	}
+	callsigns = { }
+}
+
+SSF = {
+	male = {
+		names = { 
+			Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+			Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+			Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+			Makaleka Makikonu Mauna Momilani Nohealani Polola Sanoe Ualani Uluwehi Wailani Waipuna Pili
+		}
+	}
+	female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+	surnames = {
+		Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+		Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+		Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+		Makaleka Makikonu Mauna Momilani Nohealani Polola Sanoe Ualani Uluwehi Wailani Waipuna Pili
+	}
+	callsigns = { }
+}
+
+HAW = {
+	male = {
+		names = { 
+			Kamehameha Ahe Aheahe Ailani Akamu Akela Bane Elta Etana Eusebui Haleigha Halia Haulani Hikialani Hilo Kaeo Kahawai Kahiau
+			Kahikilani Kahikina Kahili Kahil Kahoku Kaholo Kahoni Kaikane Kaimee Kaimi Kainoa Kupe Kalino Kalon Kanuha Kanoa Kaua Kapula
+			Kepler Koa Kimo Malo Makani Mele Mililani Moke Nainoa Nana Nani Aloha Kakae Kihanuilulumoku Kai
+		}
+	}
+	female = {
+		names = {
+			Alamea Alaula Alika Elikapeka Halia Iokina Iolana Kailani Kalea Kamaile Kamea Kanoa Kawena Keala Keola Keona Kiele Kina
+			Kinipela Konane Lahela Lanai Lani Leiko Leilani Liliha Lilo Luana Mahina Maile Makana Makelina Malana Maleah Malia Mana
+			Miliani Moana Nalanie Napua Noelani Nohealani Okalani Onaona Palila Pilialoha Ulani
+		}
+	}
+	surnames = {
+		Aalona Ahulani Ainalani Akeakamai Alani Aluala Alealani Alohilani Anakalia Anuenue "'Ehukai" "'Ewalani" "Ha'aheo" Heleakala
+		Hanalei Hanohano "Hau'oli" "Hi'iaka" "Ho'okano" Hualani Ikepela "Ka'aukai" Kahananui Kaheleha Kaikea Kainalu Kalauokalani
+		Kaleoikaika Kamehu "Kameha'o" Kamehameha Kawaiola Kehaulani Kelupaina Keonoana Lanakila Lehuanani Lokelani Lono
+		Makaleka Makikonu Mauna Momilani Nohealani Polola Po'okela Sanoe Ualani Uluwehi Wailani Waipuna Pili
+	}
+	callsigns = { }
+}

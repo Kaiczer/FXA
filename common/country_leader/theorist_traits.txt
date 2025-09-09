@@ -1,0 +1,268 @@
+leader_traits = {
+	council_of_theorists = {
+		sprite = 11
+		experience_gain_army = 0.03
+		experience_gain_air = 0.03
+		experience_gain_navy = 0.03
+		land_doctrine_cost_factor = -0.05
+		air_doctrine_cost_factor = -0.05
+		naval_doctrine_cost_factor = -0.05
+
+		ai_will_do = { factor = 3 }
+	}
+	mmic_2 = {
+		sprite = 11
+		experience_gain_army = 0.05
+		experience_gain_air = 0.05
+		experience_gain_navy = 0.05
+		land_doctrine_cost_factor = -0.05
+		air_doctrine_cost_factor = -0.05
+		naval_doctrine_cost_factor = -0.05
+
+		ai_will_do = { factor = 3 }
+	}
+	mmic_exiles = {
+		sprite = 11
+		experience_gain_army = 0.05
+		experience_gain_air = 0.05
+		experience_gain_navy = 0.05
+		land_doctrine_cost_factor = -0.05
+		air_doctrine_cost_factor = -0.05
+		naval_doctrine_cost_factor = -0.05
+	}
+
+	military_theorist = {
+		sprite = 14
+		land_doctrine_cost_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+		}
+	}
+
+	armour_theorist = {
+		sprite = 14
+
+		equipment_bonus = {
+			armor = {
+				instant = yes
+				maximum_speed = 0.10
+			}
+		}
+		cat_mobile_warfare_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+			modifier = {
+				factor = 0
+				num_of_military_factories < 25
+			}
+		}
+	}
+
+	mobile_warfare_expert = {
+		sprite = 14
+		cat_mobile_warfare_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = superior_firepower
+					has_tech = trench_warfare
+					has_tech = mass_assault
+				}
+			}
+		}
+	}
+
+	superior_firepower_expert = {
+		sprite = 14
+		cat_superior_firepower_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = mobile_warfare
+					has_tech = trench_warfare
+					has_tech = mass_assault
+				}
+			}
+		}
+	}
+
+	grand_battle_plan_expert = {
+		sprite = 14
+		cat_grand_battle_plan_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = mobile_warfare
+					has_tech = superior_firepower
+					has_tech = mass_assault
+				}
+			}
+		}
+	}
+
+	mass_assault_expert = {
+		sprite = 14
+		cat_mass_assault_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0.1
+				date < 1939.1.1
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_tech = mobile_warfare
+					has_tech = superior_firepower
+					has_tech = trench_warfare
+				}
+			}
+		}
+	}
+
+	air_warfare_theorist = {
+		sprite = 14
+		air_doctrine_cost_factor = -0.1
+
+		ai_will_do = { factor = 0 }
+	}
+
+	dive_bomber = {
+		sprite = 14
+		equipment_bonus = {
+			small_plane_cas_airframe = {
+				instant = yes
+				air_ground_attack = 0.1
+			}
+		}
+		air_doctrine_cost_factor = -0.10
+
+		ai_will_do = { factor = 0 }
+	}
+
+	victory_through_airpower = {
+		sprite = 14
+		cat_strategic_destruction_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	close_air_support_proponent = {
+		sprite = 14
+		cat_battlefield_support_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	assault_aviation = {
+		sprite = 14
+		cat_operational_integrity_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	naval_theorist = {
+		sprite = 14
+		naval_doctrine_cost_factor = -0.1
+
+		ai_will_do = { factor = 0 }
+	}
+
+	naval_aviation_pioneer = {
+		sprite = 14
+		cat_base_strike_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	grand_fleet_proponent = {
+		sprite = 14
+		cat_fleet_in_being_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	submarine_specialist = {
+		sprite = 14
+		cat_trade_interdiction_cost_factor = -0.15
+
+		ai_will_do = { factor = 0 }
+	}
+
+	rocket_scientist = {
+		random = no
+		sprite = 14
+		sp_tag_rocket_speed_factor = 0.1
+		sp_tag_jet_speed_factor = 0.1
+
+		ai_will_do = { factor = 0 }
+
+	#	IMPORTANT!
+	#	add to advisor scope in character file:
+	#	research_bonus = {
+	#		rocketry = 0.150
+	#	}
+	}
+
+	nuclear_scientist = {
+		random = no
+		sprite = 14
+		sp_tag_nuclear_warfare_speed_factor = 0.1
+		sp_tag_nuclear_power_speed_factor = 0.1
+
+		ai_will_do = { factor = 0 }
+
+	#	IMPORTANT!
+	#	add to advisor scope in character file:
+	#	research_bonus = {
+	#		nuclear = 0.150
+	#	}
+	}
+
+	electronic_scientist = {
+		random = no
+		sprite = 14
+		sp_tag_radar_speed_factor = 0.1
+		production_speed_radar_station_factor = 0.2
+
+		ai_will_do = { factor = 0 }
+
+	#	IMPORTANT!
+	#	add to advisor scope in character file:
+	#	research_bonus = {
+	#		electronics = 0.150
+	#	}
+	}
+}

@@ -1,0 +1,75 @@
+### Baltic Names Pool ###
+LIT = {
+	male = {
+		names = { 
+			Adolfas Aleksandras Algirdas Andrius Antanas Arturas Arunas Augustinas Balys Boris
+			Bronislovas Danielius Darius Gendiminas Henrikas Jonas Jonusas Juozas Juras Jurgis
+			Justas Kazimieras Kazys Kipras Konstantinas Lukas Marijus Markas Mikalojus Mindaugas
+			Motejus Mykolas Paulius Petras Povilas Ramunas Ringaudas Rolandas Simonas Stasys
+			Steponas Valdas Valdemaras Viktoras Vilhelmas Visvaldas Vladimiras Vygantas Vytautas Zydrunas
+		}
+	}
+	female = {
+		names = { 
+			Birute Morta Kristina Daina Danuté Sigita Ugne Urte Ona Vaiva Vilma
+		}
+	}
+	surnames = { 
+		Adamkus Almenas Avizienis Baltrusaitis Brazauskas Basanavicius Birutis Bradziunas Buga Ciurlionis
+		Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griskevicius Ivanauskas Jablonskis
+		Jucys Krupavicius Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas
+		Pozela Radvila Sabaniauskas Schatz Simonavicius Sirvydas Slezevicius Semtona Snieckus Stauaitis
+		Straizys Stulginkis Svedas Terleckas Urbsys Vagnorius Valeska Voldemaras Zemaitis Zuokas
+	}
+	callsigns = { }
+}
+
+EST = {
+	male = {
+		names = { 
+			Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+			Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+			Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+			Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+			Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+	}
+	female = {
+		names = { 
+			Anna Imbi Jaana Johanna Mari Mirjam Piia Piret Ilse Ida Riin Sirje Salme Kätlin
+		}
+	}
+	surnames = {
+		Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+	}
+	callsigns = { }
+}
+
+LAT = {
+	male = {
+		names = { 
+			Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis
+			Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs
+			Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis
+			Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards
+			Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids
+		}
+	}
+	female = {
+		names = { 
+			Anna Julija Laima Signe Olita Irbe Iveta Inese Marika Vita Zaiga Milda Lelde 
+		}
+	}
+	surnames = { 
+		Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste
+		Caps Celmins Dalins Dambitis Darzins Desslers Eizenteins Goppers Halsmans
+		Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis
+		Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins
+		Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums
+	}
+	callsigns = { }
+}

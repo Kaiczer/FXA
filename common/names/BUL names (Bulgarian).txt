@@ -1,0 +1,38 @@
+### Bulgarian Name Pool ###
+
+BUL = {
+	male = {
+		names = {
+			Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
+			Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
+			Kliment Konstantin Krastyu Leonid Lyuben Mihail Nikifor Nikola Pencho Petar Petko
+			Petur Pravoslav Racho Radko Radoy Sava Simeon Sotir Stanislav Stanko
+			Stefan Stiliyan Stoyu Teodosi Todor Trifon Valko Vasil Velizar Vulko Zhivko
+		}
+		surnames = {
+			Agura Balabanov Balkanski Battemberg Blaskov Boyadzhiev Bradistilov Charakchiev Daskalov Dikov
+			Dimitriev Draganov Drangov Fichev Georgiev Hesapchiev Ilyev Ivanov Kirkov Kovachev Krayonski
+			Kutinchev Lazarov Lukov Marinkov Marinov Mutkorov Naydenov Nazlamov Nikiforov Nikolaev
+			Pakov Petrov Radev Saksokoburggotski Savov Sirakov Solarov Stoyanov Tenev Todorov
+			Tsaklev Valkov Valnarov Vasilev Vazov Velchev Zafirov Zhekov Zlatarev Zlatev
+		}
+	}
+	female = {
+		names = {
+			Aleksandra Aleksandrina Bilyana Bisera Bogdana Bogna Borislava Boyana Dana Desislava Donka
+			Elisaveta Elisabeth Emiliya Emily Evdokiya Filipa Philippa Gergana
+			Hristina Iskra Iva Ivana Ivanka Ivet Lala Lidiya Lilyana Lyudmila Maya Nadejda Nevena
+			Penka Rada Radka Raina Raya Rayna Rosa Nikolina
+			Rositsa Silva Silviya Snezhana Stoyanka Tereza Tonka Todorka Tsveta Tsvetanka Vasilka
+			Yolanda Yana Yoana Yordanka Zhivka Violeta Bogomilia Sofiya Krasimira
+		}
+		surnames = {
+			Agurova Balabanova Balkanska Blaskova Boyadzhieva Bradistilova Charakchieva Daskalova Dikova
+			Dimitrieva Draganova Drangova Ficheva Georgieva Hesapchieva Ilyeva Ivanova Kirkova Kovacheva Krayonska
+			Kutincheva Lazarova Lukova Marinkova Marinova Mutkorova Naydenova Nazlamova Nikiforova Nikolaeva
+			Pakova Petrova Radeva Savova Sirakova Solarova Stoyanova Teneva Todorova
+			Tsakleva Valkova Valnarova Vasileva Vazova Velcheva Zafirova Zhekova Zlatareva Zlateva
+		}
+	}
+	callsigns = { }
+}

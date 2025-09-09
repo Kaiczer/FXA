@@ -6,10 +6,9 @@ state={
 		10225 12113 12184 13708 
 	}
 	history = {
-		owner = BEI
-		add_core_of = DEI
+		owner = DEI
+		add_claim_by = DEI
 		add_core_of = INS
-		add_claim_by = BEI 
 		add_to_array = { state_victory_points = 12113 }
 
 		victory_points = { 12113 1 }

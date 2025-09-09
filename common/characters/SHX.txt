@@ -1,0 +1,34 @@
+characters = {
+	SHX_yan_xishan = {
+		name = SHX_yan_xishan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHX/SHX_yan_xishan.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_liberalism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = classical_liberalism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = social_conservatism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = paternalism_subtype
+			traits = { }
+		}
+		country_leader = {
+			ideology = despotism_subtype
+			traits = { }
+		}
+	}
+}

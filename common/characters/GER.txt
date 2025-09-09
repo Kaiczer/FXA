@@ -67,7 +67,7 @@ characters = {
 			desc = GER_ferdinand_werner_desc
 			traits = { 
 				reich_chancellor
-				TFH_volkism_preacher
+				volkism_preacher
 			}
 			cost = 0
 			can_be_fired = no
@@ -94,8 +94,8 @@ characters = {
 				has_character_flag = GER_event_only
 			}
 			traits = {
-				TFH_powerless_vice_chancellor
-				TFH_general_from_altesreich
+				powerless_vice_chancellor
+				general_from_altesreich
 			}
 			can_be_fired = no
 		}
@@ -121,8 +121,8 @@ characters = {
 				has_character_flag = GER_event_only
 			}
 			traits = {
-				TFH_aufsichtsrat_president
-				TFH_staunch_left_volkism
+				aufsichtsrat_president
+				staunch_left_volkism
 			}
 			can_be_fired = no
 		}

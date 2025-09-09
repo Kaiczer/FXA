@@ -141,7 +141,6 @@ is_commonwealth_tag = {
 		tooltip = is_commonwealth_tag
 		OR = {
 			tag = CAN
-			original_tag = BEI
 			original_tag = AST
 			original_tag = NZL
 			original_tag = SAF

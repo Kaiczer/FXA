@@ -113,7 +113,6 @@ on_actions = {
 			#Set up Asian tags array
 			add_to_array = { global.asian_tags_array = AFG }
 			add_to_array = { global.asian_tags_array = TNJ }
-			add_to_array = { global.asian_tags_array = BEI }
 			add_to_array = { global.asian_tags_array = BHU }
 			add_to_array = { global.asian_tags_array = BRM }
 			add_to_array = { global.asian_tags_array = CAM }
@@ -235,7 +234,6 @@ on_actions = {
 			add_to_array = { global.african_tags_array = HAU }
 			add_to_array = { global.african_tags_array = IVO }
 			add_to_array = { global.african_tags_array = KEN }
-			add_to_array = { global.african_tags_array = LES }
 			add_to_array = { global.african_tags_array = LIB }
 			add_to_array = { global.african_tags_array = MAD }
 			add_to_array = { global.african_tags_array = MLI }
@@ -252,7 +250,6 @@ on_actions = {
 			add_to_array = { global.african_tags_array = SEN }
 			add_to_array = { global.african_tags_array = SIE }
 			add_to_array = { global.african_tags_array = SOM }
-			add_to_array = { global.african_tags_array = SWA }
 			add_to_array = { global.african_tags_array = TGN }
 			add_to_array = { global.african_tags_array = TOG }
 			add_to_array = { global.african_tags_array = UGA }

@@ -33,10 +33,12 @@ if = {
 	}
 }
 recruit_character = ENG_george_frederick_windsor
+
 set_popularities = {
 	social_democracy = 51
 	social_conservatism = 49
 }
+
 set_politics = {	
 	ruling_party = social_conservatism
 	last_election = "1933.3.5"
@@ -58,15 +60,15 @@ every_country = {
 			tag = KEN
 			tag = SIE 
 			tag = NFL
-			tag = BEI
 			tag = IRQ
 			tag = RHO
+			tag = SRW
+			tag = DRS
 		}
 	}
 	ENG = {
 		add_to_faction = PREV 
 	}
 }
-
 
 ENG_george_frederick_windsor = { set_character_flag = is_monarch }

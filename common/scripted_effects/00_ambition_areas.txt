@@ -694,7 +694,6 @@ create_ambition_areas = {
 			}
 		}
 		set_variable = { ambition_area_@DEI = 1 }
-		set_variable = { ambition_area_@BEI = 1 }
 	}
 	# DEN = Denmark
 	if = {

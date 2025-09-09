@@ -10,9 +10,10 @@ state={
 		rubber = 41
 	}
 	history = {
-		owner = BEI  
+		owner = SRW  
 		add_core_of = SRW
-		add_claim_by = BEI 
+		add_claim_by = DEI
+		add_claim_by = INS
 		add_to_array = { state_victory_points = 1208 }
 		add_to_array = { state_victory_points = 7371 }
 

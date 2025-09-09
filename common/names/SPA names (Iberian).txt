@@ -1,0 +1,143 @@
+### Iberian Name Pool ###
+SPA = {
+	male = {
+		names = { 
+			Agustín Alberto Alejandro Alfonso Álvaro Antonio Arsenio Arturo Augusto Aureliano 
+			Baldomero Baltasar Benancio Benigno Benito Bernardino Bernardo 
+			Calixto Cándido Carlos Celestino Claudio Cristóbal Dámaso Diego Dionisio Domingo 
+			Eduardo Eleazar Emilio Ernesto Estanislao Esteban Federico Felipe Félix Fernando Francisco
+			Gabino Gabriel Gaspar Genaro Gonzalo Herminio Ignacio Isidro 
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "Jose María" Juan "Juan Manuel" Julián Julio Leopoldo Lorenzo Luis 
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro 
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Valeriano Vicente
+		  }
+	}
+	female = {
+		names = {
+			Adelita Amalia Amaranta Ana Araceli Aurelia Auxilio Beatriz Belén Blanca
+			Camila Candelaria Cándida Carmen Chavela Cirila Consuelo Cristina Delfina Dolores 
+			Eduarda Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia María "María del Carmen" "María del Mar" "María Dolores" Marisol Mercedes 
+			Noemí Nohemi Primitiva Rebeca Remedios Rocío Salvadora Socorro Sofía Soledad
+			Teodora Teófila Úrsula Valentina Valeria Vicenta Ximena
+		}
+	}
+	surnames = { 
+		Acuña Aguirre Allendesalazar Alonso Álvarez Aranda Arcadio Asensio Aznar
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calvo Cano Castillo Castro Cervera Cevallos Cortés
+		"de Albornoz" "de Carvajal" "de la Fuente" "de Irujo" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Franco 
+		Gallego García Garrido González Grande Guisado Heredia Hernández Herrera Hevia Iglesias Jiménez Lasarte Letamendía Linares López 
+		Maroto Márquez Martínez-Campos Maura Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Mola Molina Moreno Muñoz 
+		Narváez Núñez O'Donnell Ortega Pavía Pérez Ramírez Rodríguez Rojo Romero Ruiz Sánchez Sanjurjo Serrano Silvestre Suárez
+		Topete Torres Urkiaga Valdés Varela Vázquez Velasco Villapol Villar Weyler Yagüe Zapatero
+	}
+	callsigns = { }
+}
+
+GAL = {
+	male = {
+		names = { 
+			Agostiño Alberto Aldán Alexandro Alfonso Álvaro Amaro Ánxel Anxelo Antonio Antón Anxo Arturo 
+			Benancio Benedito Benigno Bento Benxamín Bernal Brais Breixo Bruno
+			Calisto Cándido Carlos Claudio Cristovo Dámaso David Diego Domingos
+			Eduardo Eloy Emilio Ernesto Estevo Federico Félix Fernando Francisco
+			Gabriel Gaspar Gonzalo Iago José "José Antonio" "José Luis" "Jose María" Juan Leopoldo Lourenzo Luis 
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateu Melchor Miguel Nicolás Pablo Pascoal Pedro 
+			Rafael Ramón Ricardo Salvador Santiago Sebastián Segundo Sidro Tomé Uxío Valeriano Vicenzo Vítor
+			Xacinto Xacobo Xaime Xerardo Xeromé Xesús Xián Xoán Xoaquín Xoel Xosé Xurxo Xusto
+		  }
+	}
+	female = {
+		names = {
+			Aleixa Alexandra Amaranta Ana "Ana María" Araceli Belén Benedita Blanca
+			Camila Candelaria Cándida Caridade Carmen Consuelo Cristina Delfina Dores 
+			Eduarda Einés Esperanza Felipa Fidelia Froilana Graciela Herminia Icía Isabel Irea Irene Isadora Isabella
+			Jimena Justa Justina Luciana Lucrecia Madalena Margarida María "María del Carmen" Mariña Mercedes 
+			Natividade Noemí Nohemi Olaia Páscoa Piedade Rebeca Remedios Rocío Sofía
+			Teodora Teófila Tereixa Úrsula Uxía Valentina Valeria Vicenta Vitoria
+			Xacinta Xema Xiana Ximena Xoana Xosefa Xuana Xulia
+		}
+	}
+	surnames = { 
+		Abad Acosta Acuña Aguilar Alonso Alvarado Álvarez Alvarín Arias Asensio Aznar
+		Bermúdez Blanco Blázquez Bravo Caballero Cabrera Calvo Campos Cano Castillo Castro Cervera Cevallos Cortés
+		Delgado Díaz Domínguez Duarte Durán Espinosa Estévez Expósito Falcón Fariña Fornos Feijóo Fernández Ferrer Franco Fuentes
+		Gallego García Garrido Gómez González Gutiérrez Hermida Herrera Herrero Hevia Iglesias Lara Laranxeiro Liño Liñares López 
+		Márquez Marín Martínez Martiñeira Méndez Montes Medela Molina Moreno Muiña Muñoz 
+		Nemiña Nieto Núñez Ortega Otero Ouso Pardo Pazos Peña Pereira Pérez Prieto
+		Ramírez Ramos Rey Ribas Rico Rivas Rivera Robles Rodríguez Romero Ruíz Salgado Sánchez Sierra Suárez Suengas
+		Torres Urtaza Valeiro Vidal VilaVillar
+	}
+	callsigns = { }
+}
+
+CTL = {
+	male = {
+		names = { 
+			Adriá Agustí Alberto Andreu Alfonso Arnau Arturo Aureliano 
+			Baldomero Baltasar Benancio Bernat Biel Blai 
+			Carles Claudio Cristóbal Dámaso Daniel Dídac Dionisio Domingo 
+			Eduard Emilio Ernesto Esteban Federico Felipe Feliu Francesc
+			Gabino Gabriel Gaspar Gerard Gonçal Guillem Ignasi
+			Jan Jaume Joan Joaquín Jordi Josp "Joan Manuel" Leo Llorenç Lucà Lucas Luis 
+			Manel Marc Martí Mateu Miguel Nicolau Nil Oriol Pascual Pau Pere Pol
+			Ramón Ricard Valeriano Vicenç
+		  }
+	}
+	female = {
+		names = {
+			Abril Amalia Amaranta Anna Araceli Aurelia Beatriz Belén Berta Blanca
+			Camila Candelaria Carmen Chavela Cirila Consuelo Cristina Delfina Dolores 
+			Eduarda Emma Esperanza Felipa Fidelia Froilana Graciela Herminia Inés Isabel Irene Isadora Isabella
+			Jimena Julia Justa Justina Leire Lluís Luciana Lucrecia María "María del Carmen" "María del Mar" "Maria Dolors" Marisol Mercè 
+			Noemí Nohemi Primitiva Rebeca Rocío Salvadora Sofía
+			Teodora Teófila Úrsula Valentina Valeria Vicenta
+		}
+	}
+	surnames = { 
+		Aguirre Aixarás Álvarez Amorós Aranda Arcadio Asensio
+		Blázquez Barradas Basaraz Bugallal Burruezo Caballero Cabrera Calçada Calvo Cano Casals Castellá Cervera Companys
+		"de la Fuente" "de la Llave" "de Orleans" Díaz Domínguez Espartero Fernández Forcadell Franco 
+		García Garrido Gavarró González Heredia Hernández Herrera Hevia Jiménez Lasarte Linares López 
+		Maroto Márquez Maura Martí Martín Martínez Menéndez Mercado Miaja Millán-Astray Mina Molina Moreno Muñoz 
+		Narváez Nin Núñez O'Donnell Ortega Pavía Pérez Prats Ramírez Requena Rodríguez Rojo Romero Ruiz Sabrià Sánchez Serrano Silvestre Solé Suárez
+		Topete Torres Valdés Varela Vázquez Vergés Vila Villapol Villar
+	}
+	callsigns = { }
+}
+
+BSQ = {
+	male = {
+		names = { 
+			Agustín Aitor Alberto Álvaro Antonio Arturo Asteri Aureliano 
+			Baltasar Bazkoare Beñat Bernat Bikendi
+			Calixto Carlos Cristóbal Dámaso Diego Dionisio Domingo 
+			Eduardo Eleazar Eloi Emilio Eneko Ernesto Estanislao Esteban Federico Félix Ferrán Francisco
+			Gabino Gabriel Gaspar Genaro Gorka Haritz Ignacio Imanol Isidro 
+			Jacobo Jaime Joaquín "Jorge Mariano" José "José Antonio" "José Ignacio" "Jose María" Juan "Juan Manuel" Julen Justo 
+			Kauldi Leopoldo Lorenzo Luis 
+			Manuel Marcelo Mariano Mario "Mario Eduardo" Mateo Melchor Miguel Nicolás Norberto Pablo Pascual Pedro 
+			Rafael Raimundo Ramón Ricardo Salvador Sandalio Santiago Sebastián Segismundo Segundo Untzalu Valeriano Vicente
+		  }
+	}
+	female = {
+		names = {
+			Ainara Ainhoa Alaia Amaia Ane Beatriz
+			Camila Candelaria Carmen Chavela Cirila Cristina
+			Eduarda Fidelia Froilana Garazi Ikerne Inés Irati Irene Isabella Izar Izaro
+			Jimena Justa Justina Laia Luciana Lucrecia Maialen María 
+			Noemí Nohemi Primitiva Rebeca Rocío Sofía 
+			Teodora Úrsula Uxue Valentina Valeria Vicenta
+		}
+	}
+	surnames = { 
+		Amez Aguirre Aizpurua Allende Aramburu Arancibia Aranda Arcadio Arizmendi
+		Blázquez Barradas Basaraz Belausteigoitia Bilbao Burruezo Cervera Cevallos Chasco Cortés
+		Díaz Domínguez Echavarren Elizalde Espeche Fernández 
+		Gárate Garay García Garmendia González Goñiz Hernández Herrera Irujo Jiménez Larralde Lasarte Leizaola Letamendía Loyzaga
+		Maroto Márquez Martín Martínez Mendoza Millán-Astray Mina Montoya Muñoz 
+		Narváez Núñez Ochoa Oñate Oria Ortiz Ortueta Pérez Ramírez Rodríguez Rojo Romero Ruiz Sagasti Sánchez Serrano Silvestre Suárez
+		Topete Torres Urkiaga Uriarte Uribe Urrengoetxea Valdés Varela Vázquez Velasco Villaorduña Zelaya Zumalabe
+	}
+	callsigns = { }
+}

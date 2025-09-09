@@ -939,9 +939,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_army_regrouping_1
-			expert_advisor_trait = SHC_army_regrouping_2
-			genius_advisor_trait = SHC_army_regrouping_3
+			specialist_advisor_trait = MHC_army_regrouping_1
+			expert_advisor_trait = MHC_army_regrouping_2
+			genius_advisor_trait = MHC_army_regrouping_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -968,9 +968,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_cavalry_1
-			expert_advisor_trait = SHC_cavalry_2
-			genius_advisor_trait = SHC_cavalry_3
+			specialist_advisor_trait = MHC_cavalry_1
+			expert_advisor_trait = MHC_cavalry_2
+			genius_advisor_trait = MHC_cavalry_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -992,9 +992,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_infantry_1
-			expert_advisor_trait = SHC_infantry_2
-			genius_advisor_trait = SHC_infantry_3
+			specialist_advisor_trait = MHC_infantry_1
+			expert_advisor_trait = MHC_infantry_2
+			genius_advisor_trait = MHC_infantry_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -1025,9 +1025,9 @@ leader_traits = {
 			gui_row = 16
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_army_logistics_1
-			expert_advisor_trait = SHC_army_logistics_2
-			genius_advisor_trait = SHC_army_logistics_3
+			specialist_advisor_trait = MHC_army_logistics_1
+			expert_advisor_trait = MHC_army_logistics_2
+			genius_advisor_trait = MHC_army_logistics_3
 		}
 		trickster = {
 			type = corps_commander
@@ -1135,9 +1135,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_entrenchment_1
-			expert_advisor_trait = SHC_entrenchment_2
-			genius_advisor_trait = SHC_entrenchment_3
+			specialist_advisor_trait = MHC_entrenchment_1
+			expert_advisor_trait = MHC_entrenchment_2
+			genius_advisor_trait = MHC_entrenchment_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -1164,9 +1164,9 @@ leader_traits = {
 			gui_row = 1
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_armoured_1
-			expert_advisor_trait = SHC_armoured_2
-			genius_advisor_trait = SHC_armoured_3
+			specialist_advisor_trait = MHC_armoured_1
+			expert_advisor_trait = MHC_armoured_2
+			genius_advisor_trait = MHC_armoured_3
 		}
 	
 		commando = {
@@ -1188,9 +1188,9 @@ leader_traits = {
 			gui_row = 11
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_commando_1
-			expert_advisor_trait = SHC_commando_2
-			genius_advisor_trait = SHC_commando_3
+			specialist_advisor_trait = MHC_commando_1
+			expert_advisor_trait = MHC_commando_2
+			genius_advisor_trait = MHC_commando_3
 		}
 	
 		desert_fox = {
@@ -1345,9 +1345,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_amphibious_assault_1
-			expert_advisor_trait = SHC_amphibious_assault_2
-			genius_advisor_trait = SHC_amphibious_assault_3
+			specialist_advisor_trait = MHC_amphibious_assault_1
+			expert_advisor_trait = MHC_amphibious_assault_2
+			genius_advisor_trait = MHC_amphibious_assault_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -1395,9 +1395,9 @@ leader_traits = {
 			custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_CombinedArms_1
-			expert_advisor_trait = SHC_CombinedArms_2
-			genius_advisor_trait = SHC_CombinedArms_3
+			specialist_advisor_trait = MHC_CombinedArms_1
+			expert_advisor_trait = MHC_CombinedArms_2
+			genius_advisor_trait = MHC_CombinedArms_3
 	
 			ai_will_do = { factor = 1 }
 	
@@ -1607,9 +1607,9 @@ leader_traits = {
 			ai_will_do = { factor = 1 }
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_concealment_1
-			expert_advisor_trait = SHC_concealment_2
-			genius_advisor_trait = SHC_concealment_3
+			specialist_advisor_trait = MHC_concealment_1
+			expert_advisor_trait = MHC_concealment_2
+			genius_advisor_trait = MHC_concealment_3
 	
 			trait_type = assignable_trait
 			any_parent = { commando }
@@ -1718,9 +1718,9 @@ leader_traits = {
 			custom_gain_xp_trigger_tooltip = SEAWOLF_TRIGGER_TT
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_anti_submarine_1
-			expert_advisor_trait = SHC_anti_submarine_2
-			genius_advisor_trait = SHC_anti_submarine_3
+			specialist_advisor_trait = MHC_anti_submarine_1
+			expert_advisor_trait = MHC_anti_submarine_2
+			genius_advisor_trait = MHC_anti_submarine_3
 	
 			ai_will_do = { factor = 1 }
 			gui_row = 2
@@ -1757,9 +1757,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_screen_1
-			expert_advisor_trait = SHC_screen_2
-			genius_advisor_trait = SHC_screen_3
+			specialist_advisor_trait = MHC_screen_1
+			expert_advisor_trait = MHC_screen_2
+			genius_advisor_trait = MHC_screen_3
 	
 			ai_will_do = { factor = 1 }
 			gui_row = 5
@@ -1988,9 +1988,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_carrier_1
-			expert_advisor_trait = SHC_carrier_2
-			genius_advisor_trait = SHC_carrier_3
+			specialist_advisor_trait = MHC_carrier_1
+			expert_advisor_trait = MHC_carrier_2
+			genius_advisor_trait = MHC_carrier_3
 	
 			ai_will_do = { factor = 0 }
 	
@@ -2024,9 +2024,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_capital_ship_1
-			expert_advisor_trait = SHC_capital_ship_2
-			genius_advisor_trait = SHC_capital_ship_3
+			specialist_advisor_trait = MHC_capital_ship_1
+			expert_advisor_trait = MHC_capital_ship_2
+			genius_advisor_trait = MHC_capital_ship_3
 	
 			ai_will_do = { factor = 0 }
 	
@@ -2081,9 +2081,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_submarine_1
-			expert_advisor_trait = SHC_submarine_2
-			genius_advisor_trait = SHC_submarine_3
+			specialist_advisor_trait = MHC_submarine_1
+			expert_advisor_trait = MHC_submarine_2
+			genius_advisor_trait = MHC_submarine_3
 	
 			ai_will_do = { factor = 0 }
 	
@@ -2137,9 +2137,9 @@ leader_traits = {
 			any_parent = { cruiser_captain destroyer_leader }
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_naval_air_defence_1
-			expert_advisor_trait = SHC_naval_air_defence_2
-			genius_advisor_trait = SHC_naval_air_defence_3
+			specialist_advisor_trait = MHC_naval_air_defence_1
+			expert_advisor_trait = MHC_naval_air_defence_2
+			genius_advisor_trait = MHC_naval_air_defence_3
 	
 			ai_will_do = { factor = 1 }
 			gui_row = 6
@@ -2198,9 +2198,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_naval_strike_1
-			expert_advisor_trait = SHC_naval_strike_2
-			genius_advisor_trait = SHC_naval_strike_3
+			specialist_advisor_trait = MHC_naval_strike_1
+			expert_advisor_trait = MHC_naval_strike_2
+			genius_advisor_trait = MHC_naval_strike_3
 	
 			ai_will_do = { factor = 0 }
 	
@@ -2307,9 +2307,9 @@ leader_traits = {
 			}
 	
 			slot = high_command
-			specialist_advisor_trait = SHC_fleet_logistics_1
-			expert_advisor_trait = SHC_fleet_logistics_2
-			genius_advisor_trait = SHC_fleet_logistics_3
+			specialist_advisor_trait = MHC_fleet_logistics_1
+			expert_advisor_trait = MHC_fleet_logistics_2
+			genius_advisor_trait = MHC_fleet_logistics_3
 	
 			ai_will_do = { factor = 0 }
 	

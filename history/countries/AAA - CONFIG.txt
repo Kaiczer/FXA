@@ -20,7 +20,9 @@ every_possible_country = {
 	set_government_flags = yes
 }
 
-# # set up ideology array
+save_global_event_target_as = system
+
+# set up ideology array
 # add_to_array = { global.ideologies = token:totalist_subtype }
 # add_to_array = { global.ideologies = token:syndicalist_subtype }
 # add_to_array = { global.ideologies = token:radical_socialist_subtype }
@@ -32,7 +34,7 @@ every_possible_country = {
 # add_to_array = { global.ideologies = token:despotism_subtype }
 # add_to_array = { global.ideologies = token:national_populist_subtype }
 
-# # set up non-socialist ideology array
+# set up non-socialist ideology array
 # add_to_array = { global.ideologies_non_socialist = token:social_democracy_subtype }
 # add_to_array = { global.ideologies_non_socialist = token:social_liberalism_subtype }
 # add_to_array = { global.ideologies_non_socialist = token:market_liberal_subtype }

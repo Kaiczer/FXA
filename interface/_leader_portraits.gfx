@@ -13,34 +13,22 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_generic_empowered_legislature"
-		texturefile = "gfx/interface/advisors/Generic/generic_empowered_legislature.png"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_empowered_executive"
-		texturefile = "gfx/interface/advisors/Generic/generic_controlled_parliament.png"
-	}
-	spriteType = {
-		name = "GFX_idea_generic_empowered_trade_unions"
-		texturefile = "gfx/interface/advisors/Generic/generic_trade_unions_empowered.png"
-	}
-	spriteType = {
 		name = "GFX_idea_generic_council_of_theorists"
 		texturefile = "gfx/interface/advisors/Generic/generic_council_of_theorists.png"
 	}
 
-	spriteType = {
-		name = "GFX_idea_china_northern_school"
-		texturefile = "gfx/interface/advisors/CHN/northern_school.png"
-	}
-	spriteType = {
-		name = "GFX_idea_china_southern_school"
-		texturefile = "gfx/interface/advisors/CHN/southern_school.png"
-	}
-	spriteType = {
-		name = "GFX_idea_china_green_forest_school"
-		texturefile = "gfx/interface/advisors/CHN/green_forest_school.png"
-	}
+	# spriteType = {
+	# 	name = "GFX_idea_china_northern_school"
+	# 	texturefile = "gfx/interface/advisors/CHN/northern_school.png"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_china_southern_school"
+	# 	texturefile = "gfx/interface/advisors/CHN/southern_school.png"
+	# }
+	# spriteType = {
+	# 	name = "GFX_idea_china_green_forest_school"
+	# 	texturefile = "gfx/interface/advisors/CHN/green_forest_school.png"
+	# }
 
 	########################
 	########################

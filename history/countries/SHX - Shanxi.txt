@@ -1,7 +1,9 @@
 capital = 513
-set_research_slots = 1
-set_stability = 0.23
-set_war_support = 0.88
+set_research_slots = 2
+set_stability = 0.54
+set_war_support = 0.62
+
+set_cosmetic_tag = SHX_clique
 
 set_technology = {
 	infantry_weapons = 1
@@ -29,10 +31,22 @@ if = {
 		}
 	}
 }
-517 = { set_demilitarized_zone = yes }
+
+recruit_character = SHX_yan_xishan
+
+517 = { set_demilitarized_zone = yes } #Bandit Activity
+
+set_popularities = {
+	classical_liberalism = 7
+	social_conservatism = 3
+	paternalism = 25
+	despotism = 60
+	revolutionary_nationalism = 5
+}
+
 set_politics = {	
 	ruling_party = despotism
-	last_election = "1933.3.5"
+	last_election = "1930.3.7" #End of the Beiping Government
 	election_frequency = 48
 	elections_allowed = no
 }

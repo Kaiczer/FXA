@@ -6,7 +6,7 @@
 AUS = "countries/WestEuropean.txt" # Austria /
 HOL = "countries/WestEuropean.txt" # Netherlands / 
 GER = "countries/WestEuropean.txt" # Germany / 
-GFD = "countries/WestEuropean.txt" # German Federation (Unified Germany Puppet) /
+GFD = "countries/WestEuropean.txt" # German Federation (Germany Puppet) /
 RHI = "countries/WestEuropean.txt" # Rhineland / 
 LUX = "countries/WestEuropean.txt" # Luxembourg / 
 SHO = "countries/WestEuropean.txt" # Schleswig-Holstein /
@@ -29,7 +29,7 @@ MOL = "countries/WestEuropean.txt" # Moldova /
 LOM = "countries/WestEuropean.txt" # Lombardy /
 PIE = "countries/WestEuropean.txt" # Piedmont / 
 SAR = "countries/WestEuropean.txt" # Sardinia / 
-STE = "countries/WestEuropean.txt" # Papal State
+STE = "countries/WestEuropean.txt" # Papal State /
 TRA = "countries/WestEuropean.txt" # Transylvania /
 VNE = "countries/WestEuropean.txt" # Venice / 
 WLL = "countries/WestEuropean.txt" # Wallonia / 
@@ -95,16 +95,16 @@ AZR = "countries/MiddleEastern.txt" # Azerbaijan /
 #### North American Cultural Setting ####
 #########################################
 
-### British Commonwealth ###
+### Canada ###
 CAN = "countries/Commonwealth.txt" # Canada / 
 NFL = "countries/Commonwealth.txt" # Newfoundland / 
+QUE = "countries/WestEuropean.txt" # Quebec /
 
 ### the States ###
 USA = "countries/WestEuropean.txt" # United States /
 ALS = "countries/WestEuropean.txt" # Alaska /
 CLF = "countries/WestEuropean.txt" # California / 
 NEE = "countries/WestEuropean.txt" # New England /
-QUE = "countries/WestEuropean.txt" # Quebec /
 SCA = "countries/WestEuropean.txt" # Socialist America / 
 CAS = "countries/WestEuropean.txt" # Cascadia / 
 TEX = "countries/WestEuropean.txt" # Texas / 
@@ -138,7 +138,7 @@ CRU = "countries/SouthAmerican.txt" # Cruzoob
 JAM = "countries/SouthAmerican.txt" # Jamaica
 PUE = "countries/SouthAmerican.txt" # Puerto Rico
 SUR = "countries/SouthAmerican.txt" # Suriname
-TRI = "countries/SouthAmerican.txt" # Trinidad and Tobago
+TRI = "countries/SouthAmerican.txt" # Trinidad
 GYA = "countries/SouthAmerican.txt" # Guyana
 
 ###############################
@@ -241,7 +241,6 @@ NEP = "countries/Asian.txt" # Nepal /
 DRS = "countries/Asian.txt" # Sikkim/Dremoshong /
 DEI = "countries/WestEuropean.txt" # Dutch East Indies / 
 SIB = "countries/EastEuropean.txt" # Siberia /
-BEI = "countries/Commonwealth.txt" # British East Indies / 
 FIC = "countries/FrenchColony.txt" # French Indochina /
 
 ##################################
@@ -300,20 +299,18 @@ ZAN = "countries/African.txt" # Zanzibar /
 ### South Africa ###
 BOT = "countries/African.txt" # Botswana / 
 BSL = "countries/African.txt" # Barotseland / 
-LES = "countries/African.txt" # Lesotho /
 MAD = "countries/African.txt" # Madagascar /
 MLW = "countries/African.txt" # Nyasaland /
 MZB = "countries/African.txt" # Mozambique /
 NMB = "countries/African.txt" # Namibia /
-SWA = "countries/African.txt" # Swaziland /
+SAF = "countries/Commonwealth.txt" # South Africa / 
 ZAM = "countries/African.txt" # Zambia / 
 ZIM = "countries/African.txt" # Zimbabwe / 
 
 ### Various ###
 EQA = "countries/FrenchColony.txt" # French Equatorial Africa / 
 WEA = "countries/FrenchColony.txt" # French West Africa / 
-RHO = "countries/Commonwealth.txt" # United Rhodesia / 
-SAF = "countries/Commonwealth.txt" # South Africa / 
+RHO = "countries/Commonwealth.txt" # Rhodesia Colony / 
 
 ### Oceania ###
 AST = "countries/Commonwealth.txt" # Australia
@@ -324,4 +321,4 @@ SSF = "countries/Commonwealth.txt" # South Seas Federation
 HAW = "countries/WestEuropean.txt" # Hawaii
 
 ### Others
-AAA = "countries/WestEuropean.txt" # Archive of the World
+AAA = "countries/WestEuropean.txt" # Archive of the World / SYSTEM CONFIG

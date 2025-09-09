@@ -1,0 +1,45 @@
+# For minor countries where advisors are not defined
+# Generate them from a generic template
+
+# Head of Intelligence (only for LaR)
+every_possible_country = {
+	limit = {
+		is_dynamic_country = no
+		NOT = { tag = event_target:system }
+		# NOT = { tag = RUS } #path-specific heads of intelligence
+		# NOT = { tag = CEN } #formable tag
+		# NOT = { tag = SCA } #formable tag
+		# NOT = { tag = JBS } #uses a special advisor system
+		# NOT = { tag = CHI } #Head of Intel spawns via focus
+		# NOT = { tag = FER } #unique head of intelligence
+		# NOT = { tag = RSA }
+		NOT = { has_allowed_idea_with_traits = { idea = head_of_intelligence characters = yes } }
+	}
+
+	### this file doesn't accept scripted effects - make sure that the below are exactly the same as in generate_generic_head_of_intelligence
+
+	generate_character = {
+		token_base = generic_head_of_intelligence # token will be TAG_token_base
+		advisor = {
+			slot = political_advisor
+			traits = { head_of_intelligence }
+			allowed = {
+				has_dlc_lar = yes
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					has_intelligence_agency = no
+				}
+			}
+		}
+		portraits = {
+			army = { small = GFX_idea_generic_head_of_intelligence }
+		}
+	}
+	generic_head_of_intelligence = { set_character_flag = is_generic }
+}

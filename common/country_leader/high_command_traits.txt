@@ -4,7 +4,7 @@
 
 leader_traits = {
 
-	SHC_entrenchment_1 = { # Ground units entrench n% faster
+	MHC_entrenchment_1 = { # Ground units entrench n% faster
 		sprite = 9
 		dig_in_speed_factor = 0.15
 		land_bunker_effectiveness_factor = 0.05
@@ -25,7 +25,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_entrenchment_2 = { # Ground units entrench 8% faster
+	MHC_entrenchment_2 = { # Ground units entrench 8% faster
 		sprite = 9
 		dig_in_speed_factor = 0.3
 		land_bunker_effectiveness_factor = 0.1
@@ -46,7 +46,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_entrenchment_3 = { # Ground units entrench 12% faster
+	MHC_entrenchment_3 = { # Ground units entrench 12% faster
 		sprite = 9
 		dig_in_speed_factor = 0.45
 		land_bunker_effectiveness_factor = 0.15
@@ -67,7 +67,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_armoured_1 = { # +4 armor efficiency
+	MHC_armoured_1 = { # +4 armor efficiency
 		sprite = 8
 		army_armor_attack_factor = 0.05
 		army_armor_defence_factor = 0.05
@@ -87,7 +87,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_armoured_2 = { # +8 armor efficiency
+	MHC_armoured_2 = { # +8 armor efficiency
 		sprite = 8
 		army_armor_attack_factor = 0.1
 		army_armor_defence_factor = 0.1
@@ -107,7 +107,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_armoured_3 = { # +12 armor efficiency
+	MHC_armoured_3 = { # +12 armor efficiency
 		sprite = 8
 		army_armor_attack_factor = 0.15
 		army_armor_defence_factor = 0.15
@@ -127,7 +127,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_artillery_1 = { # +4 artillery efficiency
+	MHC_artillery_1 = { # +4 artillery efficiency
 		sprite = 16
 		army_artillery_attack_factor = 0.1
 		army_artillery_defence_factor = 0.05
@@ -147,7 +147,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_artillery_2 = { # +8 artillery efficiency
+	MHC_artillery_2 = { # +8 artillery efficiency
 		sprite = 16
 		army_artillery_attack_factor = 0.15
 		army_artillery_defence_factor = 0.1
@@ -167,7 +167,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_artillery_3 = { # +12 artillery efficiency
+	MHC_artillery_3 = { # +12 artillery efficiency
 		sprite = 16
 		army_artillery_attack_factor = 0.2
 		army_artillery_defence_factor = 0.15
@@ -187,7 +187,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_infantry_1 = { # +4 infantry efficiency
+	MHC_infantry_1 = { # +4 infantry efficiency
 		sprite = 5
 		army_infantry_attack_factor = 0.05
 		army_infantry_defence_factor = 0.1
@@ -207,7 +207,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_infantry_2 = { # +8 infantry efficiency
+	MHC_infantry_2 = { # +8 infantry efficiency
 		sprite = 5
 		army_infantry_attack_factor = 0.1
 		army_infantry_defence_factor = 0.15
@@ -227,7 +227,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_infantry_3 = { # +12 infantry efficiency
+	MHC_infantry_3 = { # +12 infantry efficiency
 		sprite = 5
 		army_infantry_attack_factor = 0.15
 		army_infantry_defence_factor = 0.2
@@ -247,7 +247,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_commando_1 = { # +4 paratrooper/marine/mountain efficiency
+	MHC_commando_1 = { # +4 paratrooper/marine/mountain efficiency
 		sprite = 5
 		special_forces_attack_factor = 0.05
 		special_forces_cap_flat = 3
@@ -267,7 +267,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_commando_2 = { # +8 paratrooper/marine/mountain efficiency
+	MHC_commando_2 = { # +8 paratrooper/marine/mountain efficiency
 		sprite = 5
 		special_forces_attack_factor = 0.1
 		special_forces_cap_flat = 6
@@ -287,7 +287,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_commando_3 = { # +12 paratrooper/marine/mountain efficiency
+	MHC_commando_3 = { # +12 paratrooper/marine/mountain efficiency
 		sprite = 5
 		special_forces_attack_factor = 0.15
 		special_forces_cap_flat = 10
@@ -307,7 +307,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_cavalry_1 = { # +4 cavalry/motorized efficiency
+	MHC_cavalry_1 = { # +4 cavalry/motorized efficiency
 		sprite = 17
 		cavalry_attack_factor = 0.05
 		cavalry_defence_factor = 0.05
@@ -327,7 +327,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_cavalry_2 = { # +8 cavalry/motorized efficiency
+	MHC_cavalry_2 = { # +8 cavalry/motorized efficiency
 		sprite = 17
 		cavalry_attack_factor = 0.1
 		cavalry_defence_factor = 0.1
@@ -347,7 +347,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_cavalry_3 = { # +12 cavalry/motorized efficiency
+	MHC_cavalry_3 = { # +12 cavalry/motorized efficiency
 		sprite = 17
 		cavalry_attack_factor = 0.15
 		cavalry_defence_factor = 0.15
@@ -367,7 +367,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_CombinedArms_1 = { # +4 cavalry/motorized efficiency
+	MHC_CombinedArms_1 = { # +4 cavalry/motorized efficiency
 		sprite = 8
 		motorized_attack_factor = 0.05
 		motorized_defence_factor = 0.05
@@ -389,7 +389,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_CombinedArms_2 = { # +8 cavalry/motorized efficiency
+	MHC_CombinedArms_2 = { # +8 cavalry/motorized efficiency
 		sprite = 8
 		motorized_attack_factor = 0.1
 		motorized_defence_factor = 0.1
@@ -411,7 +411,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_CombinedArms_3 = { # +12 cavalry/motorized efficiency
+	MHC_CombinedArms_3 = { # +12 cavalry/motorized efficiency
 		sprite = 8
 		motorized_attack_factor = 0.15
 		motorized_defence_factor = 0.15
@@ -433,7 +433,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_regrouping_1 = {
+	MHC_army_regrouping_1 = {
 		sprite = 5
 		land_reinforce_rate = 0.03
 		org_loss_when_moving = -0.05
@@ -453,7 +453,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_regrouping_2 = {
+	MHC_army_regrouping_2 = {
 		sprite = 5
 		land_reinforce_rate = 0.06
 		org_loss_when_moving = -0.1
@@ -473,7 +473,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_regrouping_3 = {
+	MHC_army_regrouping_3 = {
 		sprite = 5
 		land_reinforce_rate = 0.09
 		org_loss_when_moving = -0.15
@@ -493,7 +493,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_concealment_1 = { # Ground units take less damage from air attacks
+	MHC_concealment_1 = { # Ground units take less damage from air attacks
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.05
 
@@ -512,7 +512,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_concealment_2 = { # Ground units take less damage from air attacks
+	MHC_concealment_2 = { # Ground units take less damage from air attacks
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.10
 
@@ -531,7 +531,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_concealment_3 = { # Ground units take less damage from air attacks
+	MHC_concealment_3 = { # Ground units take less damage from air attacks
 		sprite = 9
 		enemy_army_bonus_air_superiority_factor = -0.15
 
@@ -550,7 +550,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_logistics_1 = {
+	MHC_army_logistics_1 = {
 		sprite = 6
 		supply_consumption_factor = -0.04
 
@@ -569,7 +569,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_logistics_2 = {
+	MHC_army_logistics_2 = {
 		sprite = 6
 		supply_consumption_factor = -0.08
 
@@ -588,7 +588,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_logistics_3 = {
+	MHC_army_logistics_3 = {
 		sprite = 6
 		supply_consumption_factor = -0.12
 
@@ -607,7 +607,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_radio_intelligence_1 = {
+	MHC_army_radio_intelligence_1 = {
 		sprite = 15
 		civilian_intel_factor = 0.03
 		army_intel_factor = 0.03
@@ -630,7 +630,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_radio_intelligence_2 = {
+	MHC_army_radio_intelligence_2 = {
 		sprite = 15
 		civilian_intel_factor = 0.06
 		army_intel_factor = 0.06
@@ -653,7 +653,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_army_radio_intelligence_3 = {
+	MHC_army_radio_intelligence_3 = {
 		sprite = 15
 		civilian_intel_factor = 0.09
 		army_intel_factor = 0.09
@@ -676,7 +676,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_anti_submarine_1 = {
+	MHC_anti_submarine_1 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.1
 
@@ -699,7 +699,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_anti_submarine_2 = {
+	MHC_anti_submarine_2 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.15
 
@@ -722,7 +722,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_anti_submarine_3 = {
+	MHC_anti_submarine_3 = {
 		sprite = 4
 		navy_submarine_detection_factor = 0.2
 
@@ -745,7 +745,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_air_defence_1 = {
+	MHC_naval_air_defence_1 = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.08
 
@@ -768,7 +768,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_air_defence_2 = {
+	MHC_naval_air_defence_2 = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.15
 
@@ -791,7 +791,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_air_defence_3 = {
+	MHC_naval_air_defence_3 = {
 		sprite = 3
 		navy_anti_air_attack_factor = 0.2
 
@@ -814,7 +814,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_fleet_logistics_1 = {
+	MHC_fleet_logistics_1 = {
 		sprite = 6
 		navy_max_range_factor = 0.05
 
@@ -837,7 +837,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_fleet_logistics_2 = {
+	MHC_fleet_logistics_2 = {
 		sprite = 6
 		navy_max_range_factor = 0.10
 
@@ -860,7 +860,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_fleet_logistics_3 = {
+	MHC_fleet_logistics_3 = {
 		sprite = 6
 		navy_max_range_factor = 0.15
 
@@ -883,7 +883,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_amphibious_assault_1 = {
+	MHC_amphibious_assault_1 = {
 		sprite = 3
 		amphibious_invasion = 0.05
 
@@ -906,7 +906,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_amphibious_assault_2 = {
+	MHC_amphibious_assault_2 = {
 		sprite = 3
 		amphibious_invasion = 0.1
 
@@ -929,7 +929,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_amphibious_assault_3 = {
+	MHC_amphibious_assault_3 = {
 		sprite = 3
 		amphibious_invasion = 0.15
 
@@ -952,7 +952,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_submarine_1 = {
+	MHC_submarine_1 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.1
 		navy_submarine_defence_factor = 0.05
@@ -976,7 +976,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_submarine_2 = {
+	MHC_submarine_2 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.15
 		navy_submarine_defence_factor = 0.1
@@ -1000,7 +1000,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_submarine_3 = {
+	MHC_submarine_3 = {
 		sprite = 4
 		navy_submarine_attack_factor = 0.2
 		navy_submarine_defence_factor = 0.15
@@ -1024,7 +1024,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_capital_ship_1 = {
+	MHC_capital_ship_1 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.05
 		navy_capital_ship_defence_factor = 0.05
@@ -1048,7 +1048,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_capital_ship_2 = {
+	MHC_capital_ship_2 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.1
 		navy_capital_ship_defence_factor = 0.1
@@ -1072,7 +1072,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_capital_ship_3 = {
+	MHC_capital_ship_3 = {
 		sprite = 3
 		navy_capital_ship_attack_factor = 0.15
 		navy_capital_ship_defence_factor = 0.15
@@ -1096,7 +1096,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_screen_1 = {
+	MHC_screen_1 = {
 		sprite = 3
 		navy_screen_attack_factor = 0.05
 		navy_screen_defence_factor = 0.1
@@ -1120,7 +1120,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_screen_2 = {
+	MHC_screen_2 = {
 		sprite = 3
 		navy_screen_attack_factor = 0.1
 		navy_screen_defence_factor = 0.15
@@ -1144,7 +1144,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_screen_3 = {
+	MHC_screen_3 = {
 		sprite = 3
 		navy_screen_attack_factor = 0.15
 		navy_screen_defence_factor = 0.2
@@ -1168,7 +1168,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_carrier_1 = {
+	MHC_carrier_1 = {
 		sprite = 3
 		sortie_efficiency = 0.1
 
@@ -1191,7 +1191,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_carrier_2 = {
+	MHC_carrier_2 = {
 		sprite = 3
 		sortie_efficiency = 0.15
 
@@ -1214,7 +1214,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_carrier_3 = {
+	MHC_carrier_3 = {
 		sprite = 3
 		sortie_efficiency = 0.2
 
@@ -1237,9 +1237,9 @@ leader_traits = {
 		}
 	}
 
-	# copy of SHC_fleet_logistics_1, but without a paper sprite, meant for icons
+	# copy of MHC_fleet_logistics_1, but without a paper sprite, meant for icons
 	##didn't add extra levels as these aren't going to level anyhow
-	SHC_navy_council = {
+	MHC_navy_council = {
 		sprite = 11
 		navy_max_range_factor = 0.05
 
@@ -1258,7 +1258,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_combat_training_1 = {  # Chance of ace generating is increased by 5%
+	MHC_air_combat_training_1 = {  # Chance of ace generating is increased by 5%
 		sprite = 1
 		air_ace_generation_chance_factor = 0.05
 
@@ -1281,7 +1281,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_combat_training_2 = {  # Chance of ace generating is increased by 10%
+	MHC_air_combat_training_2 = {  # Chance of ace generating is increased by 10%
 		sprite = 1
 		air_ace_generation_chance_factor = 0.1
 
@@ -1304,7 +1304,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_combat_training_3 = {  # Chance of ace generating is increased by 15%
+	MHC_air_combat_training_3 = {  # Chance of ace generating is increased by 15%
 		sprite = 1
 		air_ace_generation_chance_factor = 0.15
 
@@ -1327,7 +1327,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_strike_1 = {
+	MHC_naval_strike_1 = {
 		sprite = 2
 		naval_strike_attack_factor = 0.02
 		naval_strike_targetting_factor = 0.02
@@ -1352,7 +1352,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_strike_2 = {
+	MHC_naval_strike_2 = {
 		sprite = 2
 		naval_strike_attack_factor = 0.03
 		naval_strike_targetting_factor = 0.03
@@ -1377,7 +1377,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_naval_strike_3 = {
+	MHC_naval_strike_3 = {
 		sprite = 2
 		naval_strike_attack_factor = 0.05
 		naval_strike_targetting_factor = 0.05
@@ -1402,7 +1402,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_bomber_interception_1 = {
+	MHC_bomber_interception_1 = {
 		sprite = 1
 		air_intercept_efficiency = 0.05
 
@@ -1425,7 +1425,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_bomber_interception_2 = {
+	MHC_bomber_interception_2 = {
 		sprite = 1
 		air_intercept_efficiency = 0.10
 
@@ -1448,7 +1448,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_bomber_interception_3 = {
+	MHC_bomber_interception_3 = {
 		sprite = 1
 		air_intercept_efficiency = 0.15
 
@@ -1471,7 +1471,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_superiority_1 = {
+	MHC_air_superiority_1 = {
 		sprite = 1
 		air_superiority_efficiency = 0.05
 
@@ -1494,7 +1494,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_superiority_2 = {
+	MHC_air_superiority_2 = {
 		sprite = 1
 		air_superiority_efficiency = 0.10
 
@@ -1517,7 +1517,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_air_superiority_3 = {
+	MHC_air_superiority_3 = {
 		sprite = 1
 		air_superiority_efficiency = 0.15
 
@@ -1540,7 +1540,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_close_air_support_1 = {
+	MHC_close_air_support_1 = {
 		sprite = 1
 		air_cas_efficiency = 0.05
 		ground_attack_factor = 0.03
@@ -1564,7 +1564,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_close_air_support_2 = {
+	MHC_close_air_support_2 = {
 		sprite = 1
 		air_cas_efficiency = 0.10
 		ground_attack_factor = 0.05
@@ -1588,7 +1588,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_close_air_support_3 = {
+	MHC_close_air_support_3 = {
 		sprite = 1
 		air_cas_efficiency = 0.15
 		ground_attack_factor = 0.08
@@ -1612,7 +1612,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_strategic_bombing_1 = {
+	MHC_strategic_bombing_1 = {
 		sprite = 2
 		air_strategic_bomber_defence_factor = 0.01
 		air_strategic_bomber_bombing_factor = 0.03
@@ -1636,7 +1636,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_strategic_bombing_2 = {
+	MHC_strategic_bombing_2 = {
 		sprite = 2
 		air_strategic_bomber_defence_factor = 0.02
 		air_strategic_bomber_bombing_factor = 0.05
@@ -1660,7 +1660,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_strategic_bombing_3 = {
+	MHC_strategic_bombing_3 = {
 		sprite = 2
 		air_strategic_bomber_defence_factor = 0.03
 		air_strategic_bomber_bombing_factor = 0.09
@@ -1684,7 +1684,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_tactical_bombing_1 = {
+	MHC_tactical_bombing_1 = {
 		sprite = 2
 		air_cas_present_factor = 0.1
 
@@ -1707,7 +1707,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_tactical_bombing_2 = {
+	MHC_tactical_bombing_2 = {
 		sprite = 2
 		air_cas_present_factor = 0.15
 
@@ -1730,7 +1730,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_tactical_bombing_3 = {
+	MHC_tactical_bombing_3 = {
 		sprite = 2
 		air_cas_present_factor = 0.2
 
@@ -1753,7 +1753,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_airborne_1 = {
+	MHC_airborne_1 = {
 		sprite = 1
 		paradrop_organization_factor = 1.2
 		paratrooper_aa_defense = 0.1
@@ -1763,7 +1763,7 @@ leader_traits = {
 		ai_will_do = { factor = 0 }
 	}
 
-	SHC_airborne_2 = {
+	MHC_airborne_2 = {
 		sprite = 1
 		paradrop_organization_factor = 1.5
 		paratrooper_aa_defense = 0.15
@@ -1773,7 +1773,7 @@ leader_traits = {
 		ai_will_do = { factor = 0 }
 	}
 
-	SHC_airborne_3 = {
+	MHC_airborne_3 = {
 		sprite = 1
 		paradrop_organization_factor = 1.8
 		paratrooper_aa_defense = 0.25
@@ -1783,7 +1783,7 @@ leader_traits = {
 		ai_will_do = { factor = 0 }
 	}
 
-	SHC_pilot_training_1 = {
+	MHC_pilot_training_1 = {
 		sprite = 1
 		air_training_xp_gain_factor = 0.05
 
@@ -1802,7 +1802,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_pilot_training_2 = {
+	MHC_pilot_training_2 = {
 		sprite = 1
 		air_training_xp_gain_factor = 0.1
 
@@ -1825,7 +1825,7 @@ leader_traits = {
 		}
 	}
 
-	SHC_pilot_training_3 = {
+	MHC_pilot_training_3 = {
 		sprite = 1
 		air_training_xp_gain_factor = 0.15
 
@@ -1847,9 +1847,9 @@ leader_traits = {
 			}
 		}
 	}
-	# copy of SHC_pilot_training_1, but without a paper sprite, meant for icons
+	# copy of MHC_pilot_training_1, but without a paper sprite, meant for icons
 	##didn't add extra levels as these aren't going to level anyhow
-	SHC_air_council = {
+	MHC_air_council = {
 		sprite = 11
 		air_training_xp_gain_factor = 0.05
 
@@ -1870,7 +1870,7 @@ leader_traits = {
 
 	### Ukraine ###
 
-	SHC_maknovite = {
+	MHC_maknovite = {
 		sprite = 17
 		army_attack_against_major_factor = 0.1
 		recon_factor = 0.1
@@ -1889,7 +1889,7 @@ leader_traits = {
 			}
 		}
 	}
-	SHC_propaganda = {
+	MHC_propaganda = {
 		sprite = 5
 		breakthrough_factor = 0.1
 		army_strength_factor = 0.05
@@ -1908,7 +1908,7 @@ leader_traits = {
 			}
 		}
 	}
-	SHC_chief_otaman = {
+	MHC_chief_otaman = {
 		sprite = 5
 		max_command_power = 20
 
@@ -1926,7 +1926,7 @@ leader_traits = {
 			}
 		}
 	}
-	SHC_chief_otaman_2 = { #high Idealism
+	MHC_chief_otaman_2 = { #high Idealism
 		sprite = 5
 		max_command_power = 20
 		political_power_factor = 0.10
@@ -1945,7 +1945,7 @@ leader_traits = {
 			}
 		}
 	}
-	SHC_chief_otaman_3 = { #low-mid Idealism
+	MHC_chief_otaman_3 = { #low-mid Idealism
 		sprite = 5
 		max_command_power = 20
 		conscription = 0.01
@@ -1965,7 +1965,7 @@ leader_traits = {
 			}
 		}
 	}
-	SHC_chief_otaman_4 = { #Low idealism
+	MHC_chief_otaman_4 = { #Low idealism
 		sprite = 5
 		max_command_power = 20
 		stability_factor = 0.03

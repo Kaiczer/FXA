@@ -1,0 +1,78 @@
+### Caucasian Nations Name Pool ###
+DAG = {
+	male = {
+		names = {  
+			Abdula Abdulatip Abdulbek Abdulsalam Abusupyan Ahmadkhan Akhmed Aliaskhab Alibek Anvar Apanni Bazigit Butta Dzhabar Dzhalal Elkhan Elmurza Gabib Gadzhi Gadzhimagomed Gaydar Gaydardarbek Gumyush Hamzat Imanshapi Islamnur Israil Kamalutdin Kerim Khabib Khadzhimurad Khadzimurat Khasbulat Khazhi Kuramagomed Kurban Labazan Lavkha Lifri Magomedali Mahammadali Mahammat Makhach Maksud Mavlet Mehmed Mekhti Muhu Nakchir Nariman Nazhumudin Rabadan Razanbek Razhab Rivzan Sagid Said Serder Seyfula Shapi Shirvani Tagir Taimas Tarlan Taymaz Taimaz Tamirlan Taymas Timirlan Vagab Yakhiya Vezirkhan Zagir Zhovdar
+		}
+	}
+	female = {
+		names = { 
+			Abidat Afiyat Aminat Asiyat Ayzanat Balakyz Bariyat Bartsalay Basirat Benevsha Boranbiyke Destekhanum Dzhavgarat Dzhuvayriyat Fazu Ganifat Genzhe Guldzhanat Gyogurchun Gyuzgyush Hadijat Icher Ichinkelem Khadizhat Khalimat Kveri Kyubre Zumrud Zarema Zalbika
+		}
+	}
+	surnames = { 
+		Ismailkov Amirilayev Abdulayev Dzhalilova Yagudaev Gavrilov Atnilov Puterbrot Aliev Afandi Shamil Tsvaygenbaum Bakhshiev Dadashev Gamzatov Novruzova Meylanov Semenduev Gaydarbekov Isaev Khaybulaev Idrisov Mustafaev Salinkov Kopylov Han Imadaev Ramazanov Suleymanov Udunyan Mukhammad Abakarova Aliyev Sahin Uguev
+	}
+	callsigns = {  }
+}
+
+GEO = {
+   	male = {
+   		names = {  
+			Aleksandre Avtandil Besarion Butchu Datiko Davit Egnate Evgeni Filipp Giorgi Grigol Gulichino Iakob Ioseb Iosef Irakli Kalenike Kale Karlo Lavrenti Mikheil Niko Nikoloz Noe Pavel Polikarp Kandid Radjeb Shalva Semon Sergo Silibistro Tamaz Varlam Valiko Zurab 
+       }
+   	}
+   female = {
+       	names = { 
+       		Alexandra Ana Ekaterine Ketevan Kato Kristine Ladia Manana Mariam Mariko Maia Marta Nana Natela Natia Nina Nino Sephora Tamar 
+        }
+   }
+   surnames = {
+        Abkhazivili Amilakhvari Amirejibi Bagration Berdzenishvili Beria Beridze Bolkvadze Charkviani Chkheidze Cherkezishvili Chikovani Dzjughasjvili Eliava Eristavi Galogre Gegechkori Geladze Gelashvili Giorgadze Jaqeli Jibladze Jolbordi Jugheli Kapanadze Kartvelishvili Kavtaradze Koreneva Kvaratskhelia Kvinitadze Lapachi Lomidze Lordkipanidze Machabeli Makharadze Mdivani Megrelishvili Molodini Mukhrani Ninoshvili Nozadze Orbeli Ordzhonikidze Prangishvili Ramishvili Sharashidze Shermadini Sivisive Somkhishivili Surameli Svanidze Tsereteli Tsiklauri Zhordania
+   }
+   callsigns = {  }
+}
+
+ARM = {
+	male = {
+		names = { 
+			Adroushan Agheksanter Alex Anag Anania Aramazt Aram Aran Ararad Ari Arman Asbourag Askanaz Avetik Avetis Artashes Barkev Dajad Erik Garegin Ghougas Gomidas Gor Hamo Harutiun Hayk Hovhannes Khoren Krikor Magar Malkhas Markar Mikaiel Mouron Movses Narek Nbad Norayr Nshan Parsegh Pertag Samvel Sarhad Sasoun Serj Set Serop Sirak Sirakan Soukias Teotig Tevan Tigran Vahe Vanagan Varos Zaven Yeghishe 
+		}
+	}
+	female = {
+		names = { 
+			Anna Anahit Ani Elen Mane Mariam Mary Milena Nare
+		}
+	}
+	surnames = {
+		Aharonian Adontz Arshakuni Artashesian Assarian Aviet Azatyan Babaian Babalian Bagratuni Bakunts Banaian Boshian Boyajian Esmerian Gamburyan Gamerikian Hakobjanian Hintlian Ishkhanian Kajaznuni Kasabian Kasparian Khachatourian Khatisan Khorenatsi Krikorian Mamikonian Manoogian Manvelian Markarian Minassian Mirzoyan Narcessian Nzhdeh Ohanjanyan Pashayan Petrosian Pilosyan Rodnoian Sahakyan Samuelian Sarian Sasounyan Seropian Shirakatsi Shiraz Skendarian Suzmeyan Tatiossian Tigranyan Tovmasian Tumanian Yeghiayan Yerevanian Zakaryan Zornakyan
+	}
+}
+
+AZR = {
+	male = {
+		names = {
+			Abbas Abdulla Ahmad Akif Ali Alibala Arif Anar Azer
+			Bakhtiyar Baysangur Chingiz Dadash Davud Elnur Elshan
+			Farrukh Farhad Gafur Gasym Geray Hamid Hanifa Hasan Heydar
+			Ibrahim Ikhtiyar Ilkin Isgandar Ismayil Jafar Javad Javid Jeyhun Kamal Kamran Kanan
+			Latif Mabud Mahmud Maharram Mammad Manaf Mirmövsüm Mirkhalyg Mukhtar Murad Musa Mustafa
+			Nadir Nariman Nazim Niftaly Orkhan Osman
+			Rasim Rasul Rauf Rüfat Rüstam
+			Said Sabir Samad Sarkhan Süleyman
+			Tofig Toghrul Vagif Yusif Yunus Ziya Zakariyya
+		}
+	}
+	female = {
+		names = {
+			Aida Alaviyya Almaz Amina Aydan Aygül Aygün Ayna Bikekhanim Chimnaz Dilbar Dostu Fatima Farida Fatmanise Firuza
+			Gülay Gülnara Gülchöhra Gültakin Günel Humay Jamila Khadija Khuraman Lamiya Leman Leyla Madina Matanat Naila Nargiz Nigar Nazrin
+			Rana Rahila Rübaba Saadat Sabina Sakina Saida Sevda Sevinj Shafa Shams Solmaz Tomiris Tutu Ümbülbanu Vajiha Zhala Züleykha Zülfiyya
+		}
+	}
+	surnames = {
+		Abbasli Agharzayev Ahmadzada Akhundzada Alizada Alibeyli Arablinski Arifoghlu Bayramli Baghirzada Bakikhanov Chilingirzada Dadashov Feyzullayev Genceli Hamidlinski Hamidli Hasanzada Hajibeyli Hajinski Ibrahimli Ildirim Imanov Isparzada Garabeyli Garakhanov Garayev Gayibov Jabbarli Javadov Lemberanski Mammadbeyli Mammadli Maharramov Mehmandarov Mirza Muradkhanli Muradli Müshvig Narimanov Narimanbeyli Oghuz Rajabli Sadighli Seyidzada Sharifov Shikhlinski Süleymali Tofigzada Topchubashov Velikhanli
+
+	}
+	callsigns = { "Absheron" "Agha" "Babak" "Bakili" "Bey" "Borchali" "Bozgurd" "Div" "Gargha" "Gartal" "Girat" "Khan" "Koroghlu" "Malikmammad" "Mashtagha" "Müsavatchi" "Nadinc" "Nakhchivan" "Nizami" "Nasimi" "Oghuz" "Ordubad" "Sabail" "Shahin" "Shinabub" "Tatar" "Tülkü" "Yasamal" "Yoldash" "Ulduz" }
+}

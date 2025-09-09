@@ -126,18 +126,6 @@ VIN_FRA = {
  	color = rgb { 0 50 160 } #0 146 167
  	color_ui = rgb { 0 50 160 }
 }
-NFA_FRA = {
-	color = rgb { 0 50 160 } #0 20 130
-	color_ui = rgb { 0 20 130 }
-}
-NFA_ENG = {
-  color = rgb { 210 0 0 }
-	color_ui = rgb { 210 0 0 }
-}
-NFA_GER = {
-  color = rgb { 135 169 107 }
-	color_ui = rgb { 135 169 107 }
-}
 NFQ_FRA = {
 	color = rgb { 0 50 160 } #17 103 198
 	color_ui = rgb { 57 113 228 }

@@ -9,10 +9,9 @@ state={
 		rubber = 14
 	}
 	history = {
-		owner = BEI
-		add_core_of = DEI
+		owner = DEI
+		add_claim_by = DEI
 		add_core_of = INS
-		add_claim_by = BEI 
 
 		buildings = {
 			infrastructure = 1
