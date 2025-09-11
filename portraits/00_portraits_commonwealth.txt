@@ -1,5 +1,4 @@
-### British generic portrait set
-
+### British Commonwealth generic portrait set
 AST = {
 	army = {
 		male = {
@@ -129,7 +128,7 @@ GBP = {
 	}
 }
 
-GBR = {
+EGL = {
 	army = {
 		male = {
 			"GFX_Portrait_Britain_Generic_land_1"
@@ -299,7 +298,7 @@ SAF = {
 	}
 }
 
-SCT = {
+SCO = {
 	army = {
 		male = {
 			"GFX_Portrait_Britain_Generic_land_1"
@@ -331,7 +330,7 @@ SCT = {
 	}
 }
 
-WAL = {
+WLS = {
 	army = {
 		male = {
 			"GFX_Portrait_Britain_Generic_land_1"
@@ -363,7 +362,7 @@ WAL = {
 	}
 }
 
-ZIM_rhodesia = {
+RHO = {
 	army = {
 		male = {
 			"GFX_Portrait_Britain_Generic_land_1"
