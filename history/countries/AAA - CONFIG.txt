@@ -17,7 +17,8 @@ every_possible_country = {
 	set_variable = { can_integrate_AAA = 50 }
 
 	set_temp_variable = { new_government = current_party_ideology_group }
-	set_government_flags = yes
+	# set_government_flags = yes
+	set_default_government = yes
 }
 
 save_global_event_target_as = system

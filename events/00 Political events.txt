@@ -913,10 +913,7 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			overlord = {
-				OR = {
-					has_authoritarian_government = yes
-					has_government = authoritarian_socialism
-				}
+				has_any_authoritarian_government = yes
 			}
 		}
 		modifier = {
@@ -1034,10 +1031,7 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			overlord = {
-				OR = {
-					has_authoritarian_government = yes
-					has_government = authoritarian_socialism
-				}
+				has_any_authoritarian_government = yes
 			}
 		}
 		modifier = {
@@ -1134,10 +1128,7 @@ country_event = {
 		modifier = {
 			factor = 1.5
 			overlord = {
-				OR = {
-					has_authoritarian_government = yes
-					has_government = authoritarian_socialism
-				}
+				has_any_authoritarian_government = yes
 			}
 		}
 		modifier = {

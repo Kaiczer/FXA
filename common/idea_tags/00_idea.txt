@@ -37,7 +37,7 @@ idea_categories = {
 	}
 
 	laws_1 = { # Political Affairs
-		slot = constitutional_state_type
+		slot = constitutional_governance
 		slot = executive_mode
 		slot = legislative_mode
 		slot = judicial_mode
@@ -51,10 +51,10 @@ idea_categories = {
 
 	laws_2 = { # Domestic Affairs
 		slot = mobilization_laws
-		slot = cultural_policy
-		slot = law_obediance
 		slot = trade_laws
 		slot = economy
+		slot = cultural_policy
+		slot = law_obediance
 
 		ledger = civilian
 

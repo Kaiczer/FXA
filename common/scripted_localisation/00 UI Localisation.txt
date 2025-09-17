@@ -438,3 +438,92 @@ defined_text = {
 		localization_key = SIA_ADJ
 	}
 }
+
+### Exile Toggle decision ###
+defined_text = {
+	name = toggle_exile_decisions_text
+	text = {
+		trigger = { has_country_flag = TF_disabled_exile_decisions }
+		localization_key = toggle_exile_decisions_enable
+	}
+	text = {
+		localization_key = toggle_exile_decisions_disable
+	}
+}
+
+defined_text = {
+	name = toggle_exile_decisions_desc_text
+	text = {
+		trigger = { has_country_flag = TF_disabled_exile_decisions }
+		localization_key = toggle_exile_decisions_enable_desc
+	}
+	text = {
+		localization_key = toggle_exile_decisions_disable_desc
+	}
+}
+
+### Raise Stability decision ###
+defined_text = {
+	name = generic_raise_stability_text
+	text = {
+		trigger = { has_socialist_government = yes }
+		localization_key = generic_raise_stability_socialist
+	}
+	text = {
+		trigger = { has_democratic_government = yes }
+		localization_key = generic_raise_stability_democratic
+	}
+	text = {
+		trigger = { has_any_reactionary_government = yes } 
+		localization_key = generic_raise_stability_reactionary
+	}
+	text = {
+		localization_key = generic_raise_stability_authoritarian
+	}
+}
+
+defined_text = {
+	name = generic_raise_stability_desc_text
+	text = {
+		trigger = { has_socialist_government = yes }
+		localization_key = generic_raise_stability_socialist_desc
+	}
+	text = {
+		trigger = { has_democratic_government = yes }
+		localization_key = generic_raise_stability_democratic_desc
+	}
+	text = {
+		trigger = { has_any_reactionary_government = yes } 
+		localization_key = generic_raise_stability_reactionary_desc
+	}
+	text = {
+		localization_key = generic_raise_stability_authoritarian_desc
+	}
+}
+
+### Raise Support decision ###
+defined_text = {
+	name = generic_raise_support_text
+	text = {
+		trigger = {
+			has_any_authoritarian_government = yes
+		}
+		localization_key = solidify_control
+	}
+	text = {
+		localization_key = rally_public_support
+	}
+}
+
+defined_text = {
+	name = generic_raise_support_desc_text
+	text = {
+		trigger = {
+			has_any_authoritarian_government = yes
+		}
+		localization_key = solidify_control_desc
+	}
+	text = {
+		localization_key = rally_public_support_desc
+	}
+}

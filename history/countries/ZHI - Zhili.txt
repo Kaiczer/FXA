@@ -1,8 +1,8 @@
 ﻿capital = 503
 set_cosmetic_tag = ZHI_LFP
 set_research_slots = 1
-set_stability = 0.23
-set_war_support = 0.88
+set_stability = 0.43
+set_war_support = 0.54
 
 set_technology = {
 	infantry_weapons = 1
@@ -30,13 +30,41 @@ if = {
 		}
 	}
 }
+
+add_ideas = { #Set Government Customs
+	# Government
+	local_warlord
+	local_confederation
+	executive_hos
+	rule_by_decree
+	manipulated_judiciary
+	procrastinated_bureaucracy
+	# Policy
+	all_bow_to_law
+	cultural_conservatism
+	limited_exports
+	low_economic_mobilisation
+	limited_conscription
+}
+
 525 = { set_demilitarized_zone = yes }
 510 = { set_demilitarized_zone = yes }
+
 FNG = {
 	set_autonomy = {
 		target = PREV 
 		autonomous_state = associated_governorate
 	}
+}
+
+recruit_character = ZHI_cao_kun 
+
+set_popularities = {
+	classical_liberalism = 10
+	social_conservatism = 10
+	paternalism = 33
+	revolutionary_nationalism = 6
+	despotism = 41
 }
 set_politics = {	
 	ruling_party = despotism
@@ -44,7 +72,6 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-#recruit_character = ZHI_sun_chuanfang #Vice President of China
-recruit_character = ZHI_cao_kun #Chief of Staff of Zhili High Command 
 
-#ZHI_sun_chuanfang = { retire = yes } #Wait for NPC Reshuffle
+ZHI_cao_kun = { set_character_flag = is_warlord }
+

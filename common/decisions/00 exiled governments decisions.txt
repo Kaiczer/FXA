@@ -7,11 +7,11 @@ governments_in_exile = {
 		}
 		complete_effect = { #donotlog
 			if = {
-				limit = { has_country_flag = KR_disabled_exile_decisions }
-				clr_country_flag = KR_disabled_exile_decisions
+				limit = { has_country_flag = TF_disabled_exile_decisions }
+				clr_country_flag = TF_disabled_exile_decisions
 			}
 			else = {
-				set_country_flag = KR_disabled_exile_decisions
+				set_country_flag = TF_disabled_exile_decisions
 			}
 		}
 	}
@@ -52,7 +52,7 @@ governments_in_exile = {
 
 		target_array = exiles
 		target_trigger = {
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			is_hosting_exile = FROM
 			FROM = { has_legitimacy < 100 }
 		}
@@ -143,7 +143,7 @@ governments_in_exile = {
 				is_government_in_exile = yes
 			}
 			has_capitulated = no
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 		}
 
 		modifier = {
@@ -208,7 +208,7 @@ governments_in_exile = {
 		target_array = exiles
 		target_trigger = {
 			has_war = yes
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			FROM = {
 				is_exiled_in = ROOT
 				has_legitimacy > 30
@@ -256,7 +256,7 @@ governments_in_exile = {
 
 		target_array = exiles
 		target_trigger = {
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			FROM = {
 				is_exiled_in = ROOT
 				has_legitimacy > 50
@@ -290,7 +290,7 @@ governments_in_exile = {
 
 		target_array = exiles
 		target_trigger = {
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			FROM = {
 				is_exiled_in = ROOT
 				has_navy_size = { size > 0 }
@@ -331,7 +331,7 @@ category_exile_forces = {
 
 		target_array = exiles
 		target_trigger = {
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			is_hosting_exile = FROM
 			FROM = { has_legitimacy > 15 }
 		}
@@ -373,7 +373,7 @@ category_exile_forces = {
 		target_array = exiles
 		target_trigger = {
 			has_war = yes
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			is_hosting_exile = FROM
 			FROM = { has_legitimacy > 40 }
 		}
@@ -432,7 +432,7 @@ category_exile_forces = {
 		target_array = exiles
 		target_trigger = {
 			has_war = yes
-			NOT = { has_country_flag = KR_disabled_exile_decisions }
+			NOT = { has_country_flag = TF_disabled_exile_decisions }
 			is_hosting_exile = FROM
 			FROM = { has_legitimacy > 25 }
 		}

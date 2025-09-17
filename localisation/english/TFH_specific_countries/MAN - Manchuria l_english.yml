@@ -1,0 +1,30 @@
+﻿l_english:
+### Countries Name ###
+MAN: "Fengtian"
+MAN_DEF: "Fengtian"
+MAN_ADJ: "Fengtian"
+
+### Political Parties ###
+
+MAN_authoritarian_socialism_party: "$MAN_vanguard_socialism_party$"
+MAN_authoritarian_socialism_party_long: "$MAN_vanguard_socialism_party_long$"
+MAN_vanguard_socialism_party: "CPC"
+MAN_vanguard_socialism_party_long: "Zhongguo Gongchandang (Communist Party of China)"
+MAN_revolutionary_socialism_party: "NAJUF"
+MAN_revolutionary_socialism_party_long: "Dongbei Kangri Lianjun (Northeast Anti-Japanese United Forces)"
+MAN_social_democracy_party: "NSP"
+MAN_social_democracy_party_long: "Guojia Shehuidang (National-Socialist Party)"
+MAN_social_liberalism_party: "Zhidaobu"
+MAN_social_liberalism_party_long: "Zizhi Zhidaobu (Home Rule Guidance Club)"
+MAN_classical_liberalism_party: "$MAN_social_liberalism_party$"
+MAN_classical_liberalism_party_long: "$MAN_social_liberalism_party_long$"
+MAN_social_conservatism_party: "Manmindang"
+MAN_social_conservatism_party_long: "Manzhou Minzhudang (Manchuria Democratic Party)"
+MAN_paternalism_party: "Concordia Association" 
+MAN_paternalism_party_long: "Manzhouguo Xiahehui (Manchuria Concordia Association)"
+MAN_revolutionary_nationalism_party: "Manqinglian"
+MAN_revolutionary_nationalism_party_long: "Mengzhou Qingnian Lianmeng (Manchuria Youth League)"
+MAN_despotism_party: "Kwantung Army"
+MAN_despotism_party_long: "Guandong-jun (Kwantung Army)"
+MAN_ultrareactionism_party: "$MAN_despotism_party$"
+MAN_ultrareactionism_party_long: "$MAN_despotism_party_long$"

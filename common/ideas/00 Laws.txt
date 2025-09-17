@@ -751,6 +751,8 @@ ideas = {
 	government_form = {
 		law = yes 
 		use_list_view = yes 
+
+		### Monarchy ###
 		absolute_monarchy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea absolute_monarchy" }
 			on_remove = { set_variable = { previous_government_form = token:absolute_monarchy } }
@@ -763,6 +765,18 @@ ideas = {
 			}
 			visible = {
 				is_monarchy = yes
+			}
+
+			modifier = {
+				stability_factor = 0.18
+				political_power_factor = 0.11
+				compliance_gain = -0.08
+				consumer_goods_factor = 0.15
+				drift_defence_factor = 0.2
+				political_advisor_cost_factor = 0.15
+				economy_cost_factor = 0.15
+				trade_laws_cost_factor = 0.2
+				research_speed_factor = -0.15
 			}
 		}
 		enlightened_monarchy = {
@@ -778,6 +792,17 @@ ideas = {
 			visible = {
 				is_monarchy = yes
 			}
+			modifier = {
+				stability_factor = 0.13
+				political_power_factor = 0.07
+				compliance_gain = -0.05
+				consumer_goods_factor = 0.12
+				drift_defence_factor = 0.15
+				political_advisor_cost_factor = 0.1
+				economy_cost_factor = 0.1
+				trade_laws_cost_factor = 0.15
+				research_speed_factor = -0.1
+			}
 		}
 		semi_constitutional_monarchy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea semi_constitutional_monarchy" }
@@ -791,6 +816,17 @@ ideas = {
 			}
 			visible = {
 				is_monarchy = yes
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.13
+				compliance_gain = -0.02
+				consumer_goods_factor = 0.07
+				drift_defence_factor = 0.15
+				political_advisor_cost_factor = 0.05
+				economy_cost_factor = 0.05
+				trade_laws_cost_factor = 0.10
 			}
 		}
 		constitutional_monarchy = {
@@ -806,21 +842,20 @@ ideas = {
 			visible = {
 				is_monarchy = yes
 			}
-		}
-		crowned_republic = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea crowned_republic" }
-			on_remove = { set_variable = { previous_government_form = token:crowned_republic } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
 
-			available = {
-				always = no
-			}
-			visible = {
-				is_monarchy = yes
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.05
+				compliance_gain = 0.06
+				consumer_goods_factor = -0.02
+				drift_defence_factor = -0.15
+				political_advisor_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				trade_laws_cost_factor = -0.05
 			}
 		}
+
+		### Republic ###
 		presidential_republic = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea presidential_republic" }
 			on_remove = { set_variable = { previous_government_form = token:presidential_republic } }
@@ -833,6 +868,17 @@ ideas = {
 			}
 			visible = {
 				is_monarchy = no
+			}
+
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = 0.06
+				consumer_goods_factor = -0.05
+				drift_defence_factor = 0.1
+				political_advisor_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				trade_laws_cost_factor = -0.05
+				mobilization_laws_cost_factor = -0.03
 			}
 		}
 		semi_presidential_republic = {
@@ -848,6 +894,17 @@ ideas = {
 			visible = {
 				is_monarchy = no
 			}
+
+			modifier = {
+				stability_factor = 0.13
+				political_power_factor = 0.06
+				consumer_goods_factor = -0.05
+				drift_defence_factor = 0.1
+				political_advisor_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				trade_laws_cost_factor = -0.05
+				mobilization_laws_cost_factor = 0.05
+			}
 		}
 		parliamentary_republic = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parliamentary_republic" }
@@ -862,7 +919,20 @@ ideas = {
 			visible = {
 				is_monarchy = no
 			}
+
+			modifier = {
+				stability_factor = 0.11
+				political_power_gain = 0.1
+				consumer_goods_factor = -0.1
+				drift_defence_factor = -0.1
+				political_advisor_cost_factor = -0.1
+				economy_cost_factor = -0.01
+				trade_laws_cost_factor = -0.01
+				mobilization_laws_cost_factor = 0.1
+			}
 		}
+
+		### Non-Aligned Regimes ###
 		communist_state = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea communist_state" }
 			on_remove = { set_variable = { previous_government_form = token:communist_state } }
@@ -875,8 +945,26 @@ ideas = {
 			}
 			visible = {
 				is_monarchy = no
-				has_socialist_government = yes
-				is_warlord_state = yes
+				OR = {
+					has_socialist_government = yes
+					AND = {
+						is_warlord_state = yes
+						has_socialist_government = yes
+					}
+				}
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.15
+				political_power_factor = 0.09
+				war_support_factor = 0.15
+				drift_defence_factor = 0.25
+				economy_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				resistance_decay = 0.15
+				opinion_gain_monthly_same_ideology_factor = 0.1
+				consumer_goods_factor = 0.23
+				research_speed_factor = -0.25
 			}
 		}
 		soviet_republic = {
@@ -892,6 +980,19 @@ ideas = {
 			visible = {
 				is_monarchy = no
 				has_socialist_government = yes
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.1
+				political_power_gain = 0.09
+				war_support_factor = 0.1
+				drift_defence_factor = 0.15
+				economy_cost_factor = 0.15
+				trade_laws_cost_factor = 0.15
+				resistance_decay = 0.05
+				opinion_gain_monthly_same_ideology_factor = 0.1
+				consumer_goods_factor = 0.18
+				research_speed_factor = -0.1
 			}
 		}
 		totalitarian_dictatorship = {
@@ -910,6 +1011,18 @@ ideas = {
 					is_warlord_state = yes
 				}
 			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.15
+				political_power_gain = 0.2
+				war_support_factor = 0.2
+				drift_defence_factor = 0.15
+				economy_cost_factor = 0.3
+				trade_laws_cost_factor = 0.3
+				resistance_damage_to_garrison = 0.15
+				consumer_goods_factor = 0.3
+				research_speed_factor = -0.35
+			}
 		}
 		military_dictatorship = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea military_dictatorship" }
@@ -927,10 +1040,22 @@ ideas = {
 					is_warlord_state = yes
 				}
 			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.1
+				political_power_gain = 0.2
+				war_support_factor = 0.23
+				drift_defence_factor = 0.15
+				economy_cost_factor = 0.3
+				trade_laws_cost_factor = 0.3
+				resistance_damage_to_garrison = 0.15
+				consumer_goods_factor = 0.28
+				research_speed_factor = -0.28
+			}
 		}
-		paternalism_dictatorship = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternalism_dictatorship" }
-			on_remove = { set_variable = { previous_government_form = token:paternalism_dictatorship } }
+		paternal_dictatorship = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea paternal_dictatorship" }
+			on_remove = { set_variable = { previous_government_form = token:paternal_dictatorship } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -944,6 +1069,18 @@ ideas = {
 					is_warlord_state = yes
 				}
 			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.1
+				political_power_gain = 0.15
+				war_support_factor = 0.1
+				drift_defence_factor = 0.1
+				economy_cost_factor = 0.2
+				trade_laws_cost_factor = 0.2
+				resistance_damage_to_garrison = 0.1
+				consumer_goods_factor = 0.2
+				research_speed_factor = -0.2
+			}
 		}
 		theocracy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea theocracy" }
@@ -956,7 +1093,19 @@ ideas = {
 				always = no
 			}
 			visible = {
-				has_authoritarian_government = yes
+				has_any_authoritarian_government = yes
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.15
+				political_power_gain = 0.15
+				war_support_factor = 0.13
+				drift_defence_factor = 0.15
+				economy_cost_factor = 0.23
+				trade_laws_cost_factor = 0.23
+				resistance_damage_to_garrison = 0.15
+				consumer_goods_factor = 0.2
+				research_speed_factor = -0.25
 			}
 		}
 		oligarchy = {
@@ -970,7 +1119,18 @@ ideas = {
 				always = no
 			}
 			visible = {
-				has_authoritarian_government = yes
+				has_any_authoritarian_government = yes
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.1
+				war_support_factor = -0.1
+				drift_defence_factor = 0.15
+				economy_cost_factor = -0.2
+				trade_laws_cost_factor = -0.2
+				consumer_goods_factor = -0.2
+				research_speed_factor = 0.2
 			}
 		}
 		corporatist_state = {
@@ -984,7 +1144,19 @@ ideas = {
 				always = no
 			}
 			visible = {
-				has_authoritarian_government = yes
+				has_any_authoritarian_government = yes
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.15
+				political_power_factor = 0.1
+				drift_defence_factor = 0.25
+				economy_cost_factor = 0.17
+				trade_laws_cost_factor = 0.17
+				opinion_gain_monthly_same_ideology_factor = 0.1
+				consumer_goods_factor = 0.18
+				research_speed_factor = 0.1
+				local_building_slots_factor = 0.2
 			}
 		}
 		local_warlord = {
@@ -1000,10 +1172,21 @@ ideas = {
 			visible = {
 				is_warlord_state = yes
 			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.1
+				political_power_factor = -0.13
+				drift_defence_factor = 0.25
+				war_support_factor = 0.1
+				economy_cost_factor = 0.3
+				trade_laws_cost_factor = 0.3
+				recruitable_population_factor = 0.1
+				local_building_slots_factor = 0.2
+			}
 		}
-		anarchy_society = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea anarchy_society" }
-			on_remove = { set_variable = { previous_government_form = token:anarchy_society } }
+		anarchist_society = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea anarchist_society" }
+			on_remove = { set_variable = { previous_government_form = token:anarchist_society } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1014,6 +1197,19 @@ ideas = {
 			visible = {
 				is_monarchy = no
 				has_socialist_government = yes
+			}
+
+			modifier = {
+				stability_factor = -0.45
+				political_power_factor = 0.2
+				war_support_factor = 0.15
+				economy_cost_factor = 1
+				trade_laws_cost_factor = 1
+				recruitable_population_factor = 0.2
+				weekly_manpower = 100
+				trade_opinion_factor = -1
+				min_export = -0.5
+				compliance_growth = 0.2
 			}
 		}
 		colonial_administration = { 
@@ -1029,6 +1225,18 @@ ideas = {
 			visible = {
 				is_puppet = yes
 			}
+
+			modifier = {
+				stability_factor = -0.20
+				party_popularity_stability_factor = 0.1
+				political_power_factor = -0.15
+				war_support_factor = -0.15
+				recruitable_population_factor = -0.1
+				compliance_growth = -0.2
+				cic_to_overlord_factor = 0.2
+				mic_to_overlord_factor = 0.2
+				master_build_autonomy_factor = 0.01
+			}
 		}
 		power_vacuum = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea power_vacuum" }
@@ -1039,13 +1247,13 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = government_is_collapsed
-					has_country_flag = TFH_power_vacuum
+					has_country_flag = is_power_vacuum
 				}
 			}
 			visible = {
 				custom_trigger_tooltip = {
 					tooltip = government_is_collapsed
-					has_country_flag = TFH_power_vacuum
+					has_country_flag = is_power_vacuum
 				}
 			}
 
@@ -1058,13 +1266,13 @@ ideas = {
 		}
 	}
 
-	constitutional_state_type = {
+	constitutional_governance = {
 		law = yes 
 		use_list_view = yes
 
 		unitary_state = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea unitary_state" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:unitary_state } }
+			on_remove = { set_variable = { previous_constitutional_governance = token:unitary_state } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1072,14 +1280,17 @@ ideas = {
 			available = {
 				always = no
 			}
-			visible = {
-				#is_unitary_state = yes 
+
+			modifier = {
+				political_power_factor = 0.13
+				stability_factor = 0.17
+				war_support_factor = 0.1
+				compliance_gain = -0.06
 			}
 		}
-
 		regionalized_unitary = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea regionalized_unitary" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:regionalized_unitary } }
+			on_remove = { set_variable = { previous_constitutional_governance = token:regionalized_unitary } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1087,74 +1298,55 @@ ideas = {
 			available = {
 				always = no
 			}
-			visible = {
 
+			modifier = {
+				political_power_factor = 0.08
+				stability_factor = 0.12
+				war_support_factor = 0.05
+				compliance_gain = 0.008
 			}
 		}
-
-		asymmatric_union = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea asymmatric_union" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:asymmatric_union } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-			visible = {
-
-			}
-		}
-
-		union_of_soviets = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea union_of_soviets" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:union_of_soviets } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-			visible = {
-
-			}
-		}
-
-		states_federalism = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea states_federalism" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:states_federalism } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-			visible = {
-
-			}
-		}
-
-		federal_state = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea federal_state" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:federal_state } }
-			cost = 0
-			removal_cost = -1
-			cancel_if_invalid = no
-
-			available = {
-				always = no
-			}
-			visible = {
-
-			}
-		}
-
 		facade_federal_state = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea facade_federal_state" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:facade_federal_state } }
+			on_remove = { set_variable = { previous_constitutional_governance = token:facade_federal_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				compliance_gain = 0.07
+				non_core_manpower = 0.05
+			}
+		}
+		asymmatric_union = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea asymmatric_union" }
+			on_remove = { set_variable = { previous_constitutional_governance = token:asymmatric_union } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.08
+				war_support_factor = 0.04
+				compliance_gain = 0.013
+				non_core_manpower = 0.04
+			}
+		}
+		union_of_soviets = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea union_of_soviets" }
+			on_remove = { set_variable = { previous_constitutional_governance = token:union_of_soviets } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1163,13 +1355,61 @@ ideas = {
 				always = no
 			}
 			visible = {
+				has_socialist_government = yes
+			}
 
+			modifier = {
+				political_power_factor = 0.05
+				party_popularity_stability_factor = 0.08
+				war_support_factor = 0.1
+				compliance_gain = 0.013
+				non_core_manpower = 0.15
 			}
 		}
+		states_federalism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea states_federalism" }
+			on_remove = { set_variable = { previous_constitutional_governance = token:states_federalism } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+			visible = {
+				is_american_tag = yes
+			}
+
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.12
+				war_support_factor = 0.15
+				compliance_gain = 0.08
+				non_core_manpower = 0.15
+			}
+		}
+		federal_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea federal_state" }
+			on_remove = { set_variable = { previous_constitutional_governance = token:federal_state } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				political_power_factor = 0.14
+				stability_factor = 0.12
+				war_support_factor = 0.1
+				compliance_gain = 0.12
+				non_core_manpower = 0.18
+			}
+		}
 		confederation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea confederation" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:confederation } }
+			on_remove = { set_variable = { previous_constitutional_governance = token:confederation } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1177,14 +1417,18 @@ ideas = {
 			available = {
 				always = no
 			}
-			visible = {
 
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.13
+				war_support_factor = -0.05
+				compliance_gain = 0.016
+				non_core_manpower = 0.08
 			}
 		}
-
 		local_confederation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea local_confederation" }
-			on_remove = { set_variable = { previous_constitutional_state_type = token:local_confederation } }
+			on_remove = { set_variable = { previous_constitutional_governance = token:local_confederation } }
 			cost = 0
 			removal_cost = -1
 			cancel_if_invalid = no
@@ -1192,11 +1436,15 @@ ideas = {
 			available = {
 				always = no
 			}
-			visible = {
 
+			modifier = {
+				political_power_factor = -0.07
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				compliance_gain = -0.015
+				conscription_factor = 0.12
 			}
 		}
-		
 		anarchist_federation = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea anarchist_federation" }
 			cost = 0
@@ -1207,10 +1455,17 @@ ideas = {
 				always = no
 			}
 			visible = {
-				has_idea = anarchy_society
+				has_idea = anarchist_society
+			}
+
+			modifier = {
+				political_power_factor = 0.16
+				stability_factor = -0.45
+				war_support_factor = 0.15
+				compliance_gain = 0.02
+				recruitable_population_factor = 0.1
 			}
 		}
-
 		failed_state = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea failed_state" }
 			cost = 0
@@ -1220,7 +1475,7 @@ ideas = {
 			available = {
 				custom_trigger_tooltip = {
 					tooltip = nation_failed_to_survive
-					has_country_flag = TFH_failed_state
+					has_country_flag = is_failed_state
 				}
 			}
 
@@ -1229,118 +1484,664 @@ ideas = {
 				stability_factor = -0.5
 				war_support_factor = -0.5
 				consumer_goods_factor = 0.5
+				compliance_gain = -0.5
 			}
 		}
 	}
+
 	executive_mode = {
 		law = yes
 		use_list_view = yes
+
 		executive_directory = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea executive_directory" }
+			on_remove = { set_variable = { previous_executive_mode = token:executive_directory } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				political_power_factor = 0.04
+				drift_defence_factor = -0.05
+				political_advisor_cost_factor = -0.07
+			}
 
 		}
 		partylaw = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea partylaw" }
+			on_remove = { set_variable = { previous_executive_mode = token:partylaw } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.08
+				political_power_factor = 0.08
+				drift_defence_factor = 0.25
+				political_advisor_cost_factor = -0.12
+			}
 		}
 		executive_hos = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea executive_hos" }
+			on_remove = { set_variable = { previous_executive_mode = token:executive_hos } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				drift_defence_factor = 0.1
+				political_advisor_cost_factor = -0.08
+			}
 		}
 		joint_executive = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea joint_executive" }
+			on_remove = { set_variable = { previous_executive_mode = token:joint_executive } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				political_power_factor = 0.04
+				drift_defence_factor = 0.25
+				political_advisor_cost_factor = -0.5
+			}
 		}
 		executive_premiership = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea joint_executive" }
+			on_remove = { set_variable = { previous_executive_mode = token:joint_executive } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.03
+				political_power_factor = 0.04
+				drift_defence_factor = 0.30
+				political_advisor_cost_factor = -0.5
+			}
 		}
 		parliamentary_cabinet = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parliamentary_cabinet" }
+			on_remove = { set_variable = { previous_executive_mode = token:parliamentary_cabinet } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.03
+				political_power_factor = 0.02
+				drift_defence_factor = 0.32
+				political_advisor_cost_factor = 0.06
+			}
 		}
 	}
+
 	legislative_mode = {
 		law = yes
 		use_list_view = yes
+
 		legislative_supremacy = {
-			
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea legislative_supremacy" }
+			on_remove = { set_variable = { previous_legislative_mode = token:legislative_supremacy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+			visible = {
+				has_socialist_government = no
+			}
+
+			modifier = {
+				stability_factor = 0.12
+				political_power_factor = 0.09
+				drift_defence_factor = 0.09
+				political_advisor_cost_factor = -0.04
+			}
 		}
 		peoples_legislature = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea peoples_legislature" }
+			on_remove = { set_variable = { previous_legislative_mode = token:peoples_legislature } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+			visible = {
+				has_socialist_government = yes
+			}
+
+			modifier = {
+				party_popularity_stability_factor = 0.12
+				political_power_factor = 0.1
+				drift_defence_factor = 0.1
+				political_advisor_cost_factor = -0.04
+			}
 		}
 		well_functioned_parliament = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea well_functioned_parliament" }
+			on_remove = { set_variable = { previous_legislative_mode = token:well_functioned_parliament } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.08
+				drift_defence_factor = 0.05
+				political_advisor_cost_factor = -0.03
+			}
 		}
 		rubberstamp_parliament = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rubberstamp_parliament" }
+			on_remove = { set_variable = { previous_legislative_mode = token:rubberstamp_parliament } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.04
+				political_power_factor = -0.08
+				drift_defence_factor = -0.05
+				political_advisor_cost_factor = 0.05
+			}
+		}
+		rule_by_decree = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea rule_by_decree" }
+			on_remove = { set_variable = { previous_legislative_mode = token:rule_by_decree } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				party_popularity_stability_factor = 0.05
+				political_power_factor = 0.03
+				drift_defence_factor = 0.08
+				political_advisor_cost_factor = -0.10
+			}
 		}
 	}
+
 	judicial_mode = {
 		law = yes
 		use_list_view = yes
-		judicatory_supremacy = {
 
+		judicatory_supremacy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea judicatory_supremacy" }
+			on_remove = { set_variable = { previous_judicial_mode = token:judicatory_supremacy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				political_power_factor = 0.08
+				war_support_factor = -0.03
+				drift_defence_factor = 0.05
+				compliance_gain = -0.04
+			}
 		}
 		well_functioned_courts = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea well_functioned_courts" }
+			on_remove = { set_variable = { previous_judicial_mode = token:well_functioned_courts } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.06
+				war_support_factor = 0.02
+				drift_defence_factor = -0.05
+				compliance_gain = 0.03
+			}
 		}
 		manipulated_judiciary = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea manipulated_judiciary" }
+			on_remove = { set_variable = { previous_judicial_mode = token:manipulated_judiciary } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.03
+				political_power_factor = 0.03
+				war_support_factor = -0.04
+				drift_defence_factor = -0.05
+				compliance_gain = 0.03
+			}
 		}
 		vigilante_judiciary = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea vigilante_judiciary" }
+			on_remove = { set_variable = { previous_judicial_mode = token:vigilante_judiciary } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.01
+				political_power_factor = 0.01
+				war_support_factor = -0.08
+				drift_defence_factor = -0.05
+				compliance_gain = 0.03
+			}
 		}
 	}
+
 	administrative_mode = {
 		law = yes
 		use_list_view = yes
-		centralized_bureaucracy = {
 
+		centralized_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea centralized_bureaucracy" }
+			on_remove = { set_variable = { previous_administrative_mode = token:centralized_bureaucracy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.06
+				war_support_factor = 0.04
+				compliance_gain = 0.03
+				resistance_growth = -0.03
+				local_building_slots_factor = 0.15
+				local_factories = 0.12
+				local_manpower = 0.12
+				local_non_core_manpower = 0.08
+				local_resources_factor = 0.08
+			}
 		}
 		parallel_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parallel_bureaucracy" }
+			on_remove = { set_variable = { previous_administrative_mode = token:parallel_bureaucracy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.03
+				political_power_factor = 0.02
+				war_support_factor = 0.03
+				compliance_gain = 0.01
+				resistance_growth = 0.01
+				local_building_slots_factor = 0.12
+				local_factories = 0.1
+				local_manpower = 0.12
+				local_non_core_manpower = 0.05
+				local_resources_factor = 0.16
+			}
 		}
 		decentralized_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parallel_bureaucracy" }
+			on_remove = { set_variable = { previous_administrative_mode = token:parallel_bureaucracy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.02
+				political_power_factor = 0.05
+				war_support_factor = -0.02
+				compliance_gain = 0.07
+				resistance_growth = -0.05
+				local_building_slots_factor = 0.09
+				local_factories = 0.09
+				local_manpower = 0.20
+				local_non_core_manpower = 0.06
+				local_resources_factor = 0.04
+			}
 		}
 		procrastinated_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parallel_bureaucracy" }
+			on_remove = { set_variable = { previous_administrative_mode = token:parallel_bureaucracy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.04
+				political_power_factor = -0.04
+				war_support_factor = -0.04
+				compliance_gain = -0.03
+				resistance_growth = 0.05
+				local_building_slots_factor = -0.09
+				local_factories = -0.1
+				local_manpower = -0.1
+				local_non_core_manpower = -0.03
+				local_resources_factor = -0.04
+			}
 		}
 		corrupted_bureaucracy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea parallel_bureaucracy" }
+			on_remove = { set_variable = { previous_administrative_mode = token:parallel_bureaucracy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.1
+				war_support_factor = -0.06
+				compliance_gain = -0.12
+				resistance_growth = 0.15
+				local_building_slots_factor = -0.25
+				local_factories = -0.25
+				local_manpower = -0.15
+				local_non_core_manpower = -0.15
+				local_resources_factor = -0.12
+			}
 		}
 	}
+
 	law_obediance = {
 		law = yes
 		use_list_view = yes
-		all_bow_to_leader = {
 
+		all_bow_to_leader = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea all_bow_to_leader" }
+			on_remove = { set_variable = { previous_law_obediance = token:all_bow_to_leader } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.12
+				political_power_factor = 0.1
+				war_support_factor = -0.1
+				resistance_growth = 0.1
+				local_manpower = 0.15
+				local_non_core_manpower = 0.15
+				local_resources_factor = 0.12
+				army_core_attack_factor	= 0.1		
+				army_core_defence_factor = 0.1
+			}
 		}
 		all_bow_to_law = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea all_bow_to_law" }
+			on_remove = { set_variable = { previous_law_obediance = token:all_bow_to_law } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.08
+				war_support_factor = -0.06
+				resistance_growth = 0.08
+				local_manpower = 0.12
+				local_non_core_manpower = 0.12
+				local_resources_factor = 0.1
+				army_core_attack_factor	= 0.08		
+				army_core_defence_factor = 0.08
+			}
 		}
 		legality_equilibrium = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea legality_equilibrium" }
+			on_remove = { set_variable = { previous_law_obediance = token:legality_equilibrium } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.08
+				political_power_factor = 0.06
+				war_support_factor = 0.02
+				compliance_gain = 0.06
+				resistance_growth = 0.06
+				local_manpower = 0.09
+				local_non_core_manpower = 0.09
+				local_resources_factor = 0.08
+				army_core_attack_factor	= 0.06		
+				army_core_defence_factor = 0.06
+			}
 		}
 		laws_bow_to_all = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea laws_bow_to_all" }
+			on_remove = { set_variable = { previous_law_obediance = token:laws_bow_to_all } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.06
+				political_power_factor = 0.04
+				war_support_factor = 0.04
+				compliance_gain = 0.12
+				resistance_growth = -0.03
+				local_manpower = 0.06
+				local_non_core_manpower = 0.06
+				local_resources_factor = 0.08
+				army_core_attack_factor	= 0.06		
+				army_core_defence_factor = 0.06
+			}
 		}
 		all_are_equal = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea all_are_equal" }
+			on_remove = { set_variable = { previous_law_obediance = token:all_are_equal } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.06
+				political_power_factor = 0.04
+				compliance_gain = 0.12
+				resistance_growth = -0.06
+				local_manpower = 0.06
+				local_non_core_manpower = 0.06
+				local_resources_factor = 0.08
+				army_core_attack_factor	= 0.06		
+				army_core_defence_factor = 0.06
+			}
 		}
 	}
+	
 	cultural_policy = {
 		law = yes
 		use_list_view = yes
-		cultural_hegemony = {
 
+		cultural_hegemony = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea cultural_hegemony" }
+			on_remove = { set_variable = { previous_cultural_policy = token:cultural_hegemony } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = 0.05
+				compliance_gain = 0.12
+				resistance_growth = 0.12
+				drift_defence_factor = 0.4
+			}
 		}
 		homogeneous_culture = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea homogeneous_culture" }
+			on_remove = { set_variable = { previous_cultural_policy = token:homogeneous_culture } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.08
+				war_support_factor = -0.08
+				political_power_factor = 0.06
+				compliance_gain = 0.14
+				resistance_growth = 0.1
+				drift_defence_factor = 0.3
+			}
 		}
 		cultural_conservatism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea homogeneous_culture" }
+			on_remove = { set_variable = { previous_cultural_policy = token:homogeneous_culture } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.06
+				war_support_factor = -0.06
+				political_power_factor = 0.04
+				compliance_gain = 0.15
+				resistance_growth = 0.1
+				drift_defence_factor = 0.25
+			}
 		}
 		cultural_autonomy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea cultural_autonomy" }
+			on_remove = { set_variable = { previous_cultural_policy = token:cultural_autonomy } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.02
+				war_support_factor = 0.02
+				political_power_factor = 0.05
+				compliance_gain = 0.16
+				resistance_growth = 0.06
+				drift_defence_factor = 0.2
+			}
 		}
 		heterogeneous_culture = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea heterogeneous_culture" }
+			on_remove = { set_variable = { previous_cultural_policy = token:heterogeneous_culture } }
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
 
+			available = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				political_power_factor = 0.06
+				compliance_gain = 0.18
+				resistance_growth = 0.02
+				drift_defence_factor = 0.1
+			}
 		}
 	}
 }

@@ -71,7 +71,7 @@
 # 				}
 # 			}
 # 			else_if = {
-# 				limit = { has_authoritarian_government = yes }
+# 				limit = { has_any_authoritarian_government = yes }
 # 				GXC = {
 # 					has_country_leader = { character = GXC_li_zongren }
 # 					china_annexation_valid_tag = yes
@@ -85,7 +85,7 @@
 # 			}
 # 		}
 # 		else_if = {
-# 			limit = { has_authoritarian_government = yes }
+# 			limit = { has_any_authoritarian_government = yes }
 # 			QIE = {
 # 				NOT = { has_country_leader = { character = QIE_aisin_gioro_puyi } }
 # 				china_annexation_valid_tag = yes
@@ -152,7 +152,7 @@
 # 		NOT = { country_exists = QIE }
 # 	}
 # 	else_if = {
-# 		limit = { has_authoritarian_government = yes }
+# 		limit = { has_any_authoritarian_government = yes }
 # 		NOT = { country_exists = QIE }
 # 	}
 # 	else = {

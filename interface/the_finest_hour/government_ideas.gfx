@@ -1,0 +1,257 @@
+spriteTypes = {
+	### Constitutional Governance Model (CGM) ###
+	SpriteType = {
+		name = "GFX_idea_unitary_state"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_unitary_state.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_regionalized_unitary"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_regionalized_unitary.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_facade_federal_state"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_facade_federal_state.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_asymmatric_union"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_asymmatric_union.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_union_of_soviets"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_union_of_soviets.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_states_federalism"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_states_federalism.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_federal_state"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_federal_state.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_confederation"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_confederation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_local_confederation"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_local_confederation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_anarchist_federation"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_anarchist_federation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_failed_state"
+		texturefile = "gfx/interface/ideas/Government/idea_cgm_failed_state.png"
+	}
+
+	### Form of Government (FORM) ###
+	SpriteType = {
+		name = "GFX_idea_absolute_monarchy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_absolute_monarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_enlightened_monarchy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_enlightened_monarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_constitutional_monarchy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_semi_constitutional_monarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_constitutional_monarchy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_constitutional_monarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_presidential_republic"
+		texturefile = "gfx/interface/ideas/Government/idea_form_presidential_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_semi_presidential_republic"
+		texturefile = "gfx/interface/ideas/Government/idea_form_semi_presidential_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_parliamentary_republic"
+		texturefile = "gfx/interface/ideas/Government/idea_form_parliamentary_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_communist_state"
+		texturefile = "gfx/interface/ideas/Government/idea_form_communist_state.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_soviet_republic"
+		texturefile = "gfx/interface/ideas/Government/idea_form_soviet_republic.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_totalitarian_dictatorship"
+		texturefile = "gfx/interface/ideas/Government/idea_form_totalitarian_dictatorship.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_military_dictatorship"
+		texturefile = "gfx/interface/ideas/Government/idea_form_military_dictatorship.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_paternal_dictatorship"
+		texturefile = "gfx/interface/ideas/Government/idea_form_paternal_dictatorship.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_theocracy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_theocracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_oligarchy"
+		texturefile = "gfx/interface/ideas/Government/idea_form_oligarchy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_corporatist_state"
+		texturefile = "gfx/interface/ideas/Government/idea_form_corporatist_state.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_local_warlord"
+		texturefile = "gfx/interface/ideas/Government/idea_form_local_warlord.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_anarchist_society"
+		texturefile = "gfx/interface/ideas/Government/idea_form_anarchist_society.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_colonial_administration"
+		texturefile = "gfx/interface/ideas/Government/idea_form_colonial_administration.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_power_vacuum"
+		texturefile = "gfx/interface/ideas/Government/idea_form_power_vacuum.png"
+	}
+
+	### Executive Mode (EXE) ###
+	SpriteType = {
+		name = "GFX_idea_executive_directory"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_executive_directory.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_partylaw"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_partylaw.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_executive_hos"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_executive_hos.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_joint_executive"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_joint_executive.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_executive_premiership"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_executive_premiership.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_parliamentary_cabinet"
+		texturefile = "gfx/interface/ideas/Government/idea_exe_parliamentary_cabinet.png"
+	}
+
+	### Legislative Mode (LEG) ###
+	SpriteType = {
+		name = "GFX_idea_legislative_supremacy"
+		texturefile = "gfx/interface/ideas/Government/idea_leg_legislative_supremacy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_peoples_legislature"
+		texturefile = "gfx/interface/ideas/Government/idea_leg_peoples_legislature.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_well_functioned_parliament"
+		texturefile = "gfx/interface/ideas/Government/idea_leg_well_functioned_parliament.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_rubberstamp_parliament"
+		texturefile = "gfx/interface/ideas/Government/idea_leg_rubberstamp_parliament.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_rule_by_decree"
+		texturefile = "gfx/interface/ideas/Government/idea_leg_rule_by_decree.png"
+	}
+
+	### Judicial Mode (JDC) ###
+	SpriteType = {
+		name = "GFX_idea_judicatory_supremacy"
+		texturefile = "gfx/interface/ideas/Government/idea_jdc_judicatory_supremacy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_well_functioned_courts"
+		texturefile = "gfx/interface/ideas/Government/idea_jdc_well_functioned_courts.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_manipulated_judiciary"
+		texturefile = "gfx/interface/ideas/Government/idea_jdc_manipulated_judiciary.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_vigilante_judiciary"
+		texturefile = "gfx/interface/ideas/Government/idea_jdc_vigilante_judiciary.png"
+	}
+
+	### Administrative Mode (ADM) ###
+	SpriteType = {
+		name = "GFX_idea_centralized_bureaucracy"
+		texturefile = "gfx/interface/ideas/Government/idea_adm_centralized_bureaucracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_parallel_bureaucracy"
+		texturefile = "gfx/interface/ideas/Government/idea_adm_parallel_bureaucracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_decentralized_bureaucracy"
+		texturefile = "gfx/interface/ideas/Government/idea_adm_decentralized_bureaucracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_procrastinated_bureaucracy"
+		texturefile = "gfx/interface/ideas/Government/idea_adm_procrastinated_bureaucracy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_corrupted_bureaucracy"
+		texturefile = "gfx/interface/ideas/Government/idea_adm_corrupted_bureaucracy.png"
+	}
+
+	### Legal Obediancy (LOB) ###
+	SpriteType = {
+		name = "GFX_idea_all_bow_to_leader"
+		texturefile = "gfx/interface/ideas/Government/idea_lob_all_bow_to_leader.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_all_bow_to_law"
+		texturefile = "gfx/interface/ideas/Government/idea_lob_all_bow_to_law.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_legality_equilibrium"
+		texturefile = "gfx/interface/ideas/Government/idea_lob_legality_equilibrium.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_laws_bow_to_all"
+		texturefile = "gfx/interface/ideas/Government/idea_lob_laws_bow_to_all.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_all_are_equal"
+		texturefile = "gfx/interface/ideas/Government/idea_lob_all_are_equal.png"
+	}
+
+	### Cultural Policy (CTR) ###
+	SpriteType = {
+		name = "GFX_idea_cultural_hegemony"
+		texturefile = "gfx/interface/ideas/Government/idea_ctr_cultural_hegemony.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_homogeneous_culture"
+		texturefile = "gfx/interface/ideas/Government/idea_ctr_homogeneous_culture.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_cultural_conservatism"
+		texturefile = "gfx/interface/ideas/Government/idea_ctr_cultural_conservatism.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_cultural_autonomy"
+		texturefile = "gfx/interface/ideas/Government/idea_ctr_cultural_autonomy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_heterogeneous_culture"
+		texturefile = "gfx/interface/ideas/Government/idea_ctr_heterogeneous_culture.png"
+	}
+}
