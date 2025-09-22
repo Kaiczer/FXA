@@ -41,7 +41,7 @@ german_unification = {
 			if = {
 				limit = {
 					original_tag = PRS
-					owns_state = 5
+					5 = { is_claim_or_core_of_ROOT = yes }
 					NOT = { country_exists = GER }
 				}
 				count_triggers = {
