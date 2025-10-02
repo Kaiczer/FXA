@@ -1,0 +1,40 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			# Set Up Italian Default Core States
+			2 = { set_variable = { ITA_default_core_state = SAR } }
+
+			130 = { set_variable = { ITA_default_core_state = PIE } }
+			133 = { set_variable = { ITA_default_core_state = PIE } }
+			132 = { set_variable = { ITA_default_core_state = PIE } }
+			134 = { set_variable = { ITA_default_core_state = PIE } }
+			135 = { set_variable = { ITA_default_core_state = PIE } }
+
+			4 = { set_variable = { ITA_default_core_state = STE } }
+			128 = { set_variable = { ITA_default_core_state = STE } }
+			129 = { set_variable = { ITA_default_core_state = STE } }
+			131 = { set_variable = { ITA_default_core_state = STE } }
+
+			136 = { set_variable = { ITA_default_core_state = LOM } }
+
+			137 = { set_variable = { ITA_default_core_state = VNE } }
+			138 = { set_variable = { ITA_default_core_state = VNE } }
+			149 = { set_variable = { ITA_default_core_state = VNE } }
+
+			123 = { set_variable = { ITA_default_core_state = SIT } }
+			124 = { set_variable = { ITA_default_core_state = SIT } }
+			125 = { set_variable = { ITA_default_core_state = SIT } }
+			126 = { set_variable = { ITA_default_core_state = SIT } }
+			127 = { set_variable = { ITA_default_core_state = SIT } }
+
+			# Set Up Italian Tags Array
+			add_to_array = { global.italian_tags_array = ITA }
+			add_to_array = { global.italian_tags_array = SAR }
+			add_to_array = { global.italian_tags_array = PIE }
+			add_to_array = { global.italian_tags_array = STE }
+			add_to_array = { global.italian_tags_array = LOM }
+			add_to_array = { global.italian_tags_array = VNE }
+			add_to_array = { global.italian_tags_array = SIT }
+		}
+	}
+}

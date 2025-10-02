@@ -84,7 +84,7 @@ remove_cores_of_tag_if_non_existent = {
 		is_italian_tag = yes
 		is_indian_tag = yes
 		is_chinese_tag = yes
-		original_tag = KUM
+		original_tag = KML
 		#add new entries here as needed - remember to update the exceptions in clear_cores_of_tag_if_possible
 	}
 	NOT = { has_country_flag = reserved_dynamic_tag }

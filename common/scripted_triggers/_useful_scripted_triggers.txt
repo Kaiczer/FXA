@@ -440,8 +440,10 @@ is_in_faction_but_not_leader = {
 
 is_colonial_tag = {
 	OR = {
-		original_tag = MAF #ignore colonial tags
-		original_tag = GEA #ignore colonial tags
+		original_tag = WEA #ignore colonial tags
+		original_tag = EQA #ignore colonial tags
+		original_tag = RHO #ignore colonial tags
+		original_tag = FIC #ignore colonial tags
 		original_tag = DEI #ignore colonial tags
 	}
 }

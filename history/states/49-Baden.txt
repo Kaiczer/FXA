@@ -12,9 +12,10 @@ state={
 
 	history = {
 		owner = SGM
-		owner = SGM
+		add_core_of = SGM
 		add_to_array = { state_victory_points = 6568 }
 		add_to_array = { state_victory_points = 3530 }
+
 		victory_points = { 6568 4 }
 		victory_points = { 3530 5 }
 

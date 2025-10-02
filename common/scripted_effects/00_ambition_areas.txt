@@ -893,7 +893,7 @@ create_ambition_areas = {
 			OR = {
 				is_core_of = FRA
 				is_claimed_by = FRA
-				is_mainland_france_state = yes
+				is_france = yes
 				state = 1 #Corsica
 				## French Metropolis Algeria
 				state = 804
@@ -940,7 +940,7 @@ create_ambition_areas = {
 				is_core_of = GER
 				is_claimed_by = GER
 				is_full_germany = yes
-				is_core_austria = yes
+				is_austria = yes
 				region = 22 #Bohemia
 				region = 37 #Baltic States
 				state = 66 #Verviers
@@ -1911,11 +1911,11 @@ create_ambition_areas = {
 		limit = {
 			OR = {
 				is_core_of = SIK
-				is_core_of = KUM
-				is_core_of = ETS
+				is_core_of = KML
+				is_core_of = ETK
 				is_claimed_by = SIK
-				is_claimed_by = KUM
-				is_claimed_by = ETS
+				is_claimed_by = KML
+				is_claimed_by = ETK
 				is_xinjiang = yes
 			}
 		}
@@ -2247,11 +2247,7 @@ create_ambition_areas = {
 				is_american_pacific_islands = yes
 			}
 		}
-		set_variable = { ambition_area_@CLF = 1 }
 		set_variable = { ambition_area_@USA = 1 }
-		set_variable = { ambition_area_@TEX = 1 }
-		set_variable = { ambition_area_@ALS = 1 }
-		set_variable = { ambition_area_@NEE = 1 }
 	}
 	# VIN = Vietnam
 	if = {

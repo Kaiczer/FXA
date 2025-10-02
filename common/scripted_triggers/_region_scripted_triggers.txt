@@ -49,7 +49,7 @@ is_ireland = {
 	region = 4 #Ireland
 }
 
-is_mainland_france_state = {
+is_france = {
 	has_state_flag = is_mainland_france_state
 }
 
@@ -162,77 +162,85 @@ is_germany = {
 	}
 }
 
-is_north_germany = {
+is_hanseatic_germany = {
 	OR = {
-		state = 41 #Hanover
-		state = 42 #Weser-Ems
-		state = 43 #Westphalia
-		state = 55 #Hesse
+		state = 37 #Mecklenburg
+		state = 38 #Schleswig
+		state = 39 #Holstein
+		state = 40 #Hamburg
 	}
 }
 
-has_valid_north_germany_annexation_state = {
+has_valid_hanseatic_germany_annexation_state = {
 	OR = {
-		41 = { is_valid_annexation_state = yes } #Hanover
-		42 = { is_valid_annexation_state = yes } #Weser-Ems
-		43 = { is_valid_annexation_state = yes } #Westphalia
-		55 = { is_valid_annexation_state = yes } #Hesse
-	}
-}
-
-is_rhineland = {
-	OR = {
-		state = 51 #Western Rhineland
-		state = 52 #Saarland
-		state = 53 #Palatinate
-		state = 54 #Eastern Rhineland
-	}
-}
-
-has_valid_rhineland_annexation_state = {
-	OR = {
-		51 = { is_valid_annexation_state = yes } #Western Rhineland
-		52 = { is_valid_annexation_state = yes } #Saarland
-		53 = { is_valid_annexation_state = yes } #Palatinate
-		54 = { is_valid_annexation_state = yes } #Eastern Rhineland
-	}
-}
-
-is_prussia = {
-	OR = {
-		state = 5 #Brandenburg
-		state = 34 #Neumark
-		state = 35 #Eastern Pomerania
-		state = 36 #Western Pomerania
-		state = 37 #Macklenburg
-		state = 45 #Silesia
-	}
-}
-
-has_valid_prussia_annexation_state = {
-	OR = {
-		5 = { is_valid_annexation_state = yes } #Mecklenburg
-		34 = { is_valid_annexation_state = yes } #Neumark
-		35 = { is_valid_annexation_state = yes } #Eastern Pomerania
-		36 = { is_valid_annexation_state = yes } #Western Pomerania
-		37 = { is_valid_annexation_state = yes } #Macklenburg
-		45 = { is_valid_annexation_state = yes } #Silesia
+		37 = { is_valid_annexation_state = yes } #Mecklenburg
+		38 = { is_valid_annexation_state = yes } #Schleswig
+		39 = { is_valid_annexation_state = yes } #Holstein
+		40 = { is_valid_annexation_state = yes } #Hamburg
 	}
 }
 
 is_saxony = {
 	OR = {
-		state = 33 #Magdeburg-Anhalt
+		state = 33 #Magdeburg
+		state = 41 #Hanover
+		state = 42 #Oldenburg
 		state = 46 #Saxony
 		state = 47 #Thuringia
+		state = 52 #East Hanover
+		state = 206 #East Saxony
 	}
 }
 
 has_valid_saxony_annexation_state = {
 	OR = {
-		33 = { is_valid_annexation_state = yes } #Magdeburg-Anhalt
+		33 = { is_valid_annexation_state = yes } #Magdeburg
+		41 = { is_valid_annexation_state = yes } #Hanover
+		42 = { is_valid_annexation_state = yes } #Oldenburg
 		46 = { is_valid_annexation_state = yes } #Saxony
 		47 = { is_valid_annexation_state = yes } #Thuringia
+		52 = { is_valid_annexation_state = yes } #East Hanover
+		206 = { is_valid_annexation_state = yes } #East Saxony
+	}
+}
+
+is_rhineland = {
+	OR = {
+		state = 43 #Westphalia
+		state = 51 #Western Rhineland
+		state = 53 #Palatinate
+		state = 54 #Eastern Rhineland
+		state = 55 #Hesse
+	}
+}
+
+has_valid_rhineland_annexation_state = {
+	OR = {
+		43 = { is_valid_annexation_state = yes } #Westphalia
+		51 = { is_valid_annexation_state = yes } #Western Rhineland
+		53 = { is_valid_annexation_state = yes } #Palatinate
+		54 = { is_valid_annexation_state = yes } #Eastern Rhineland
+		55 = { is_valid_annexation_state = yes } #Hesse
+	}
+}
+
+is_brandenburg = {
+	OR = {
+		state = 5 #Brandenburg
+		state = 34 #Neumark
+		state = 35 #Eastern Pomerania
+		state = 36 #Western Pomerania
+		state = 45 #Silesia
+	}
+}
+
+has_valid_brandenburg_annexation_state = {
+	OR = {
+		5 = { is_valid_annexation_state = yes } #Brandenburg
+		34 = { is_valid_annexation_state = yes } #Neumark
+		35 = { is_valid_annexation_state = yes } #Eastern Pomerania
+		36 = { is_valid_annexation_state = yes } #Western Pomerania
+		45 = { is_valid_annexation_state = yes } #Silesia
 	}
 }
 
@@ -300,11 +308,11 @@ is_switzerland = {
 	region = 131 #Switzerland
 }
 
-is_core_austria = {
+is_austria = {
 	region = 21 #Austria
 }
 
-is_core_hungary = {
+is_hungary = {
 	OR = {
 		state = 20 #Transdanubia
 		state = 158 #South Transdanubia

@@ -383,7 +383,7 @@ crisis = {
 				}
 			}
 			if = {
-				limit = { original_tag = ฆฯฮ }
+				limit = { original_tag = SOV }
 				OR = {
 					FRA = { NOT = { has_war_with = GER } }
 					FRA = { has_capitulated = yes }

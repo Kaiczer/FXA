@@ -1,10 +1,7 @@
 add_operative_nationalities = {
 	if = {
 		limit = {
-			OR = {
-				has_nationality = USA
-				has_nationality = SCA
-			}
+			has_nationality = USA
 		}
 		if = {
 			limit = {

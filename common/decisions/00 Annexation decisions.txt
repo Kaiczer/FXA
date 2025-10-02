@@ -1,118 +1,66 @@
 @annexation_days_mission_timeout = 120
 
 annexation_decisions = {
-
-  ###   EUROPE   ###
-	# Britain
-	annexation_britain = {
-		icon = continent_europe
+	annexation_decision = {
+		icon = {
+			key = continent_europe
+			trigger = { FROM = { is_on_continent = europe } }
+		}
+		icon = {
+			key = continent_north_america
+			trigger = {
+				FROM = {
+					OR = {
+						is_on_continent = north_america
+						is_on_continent = central_america
+					}
+				}
+			}
+		}
+		icon = {
+			key = continent_south_america
+			trigger = { FROM = { is_on_continent = south_america } }
+		}
+		icon = {
+			key = continent_asia
+			trigger = {
+				FROM = {
+					OR = {
+						is_on_continent = asia
+						is_on_continent = india
+						state = 713 #Baluchistan
+					}
+				}
+			}
+		}
+		icon = {
+			key = continent_oceania
+			trigger = { FROM = { is_on_continent = australia } }
+		}
+		icon = {
+			key = continent_middle_east
+			trigger = { FROM = { is_on_continent = middle_east } }
+		}
 		state_target = yes
-		on_map_mode = decision_view_only
+		on_map_mode = map_and_decisions_view
 		visible = {
 			FROM = { is_valid_annexation_state = yes }
 		}
 		target_trigger = {
 			FROM = { is_valid_annexation_state = yes }
 		}
-		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_britain"
-			block_annexation_decision_selection = yes
-			country_event = annex.1001
-		}
-		ai_will_do = { factor = 100 }
-	}
 
-	# Scotland 
-	annexation_scotland = {
-		icon = continent_europe
-		state_target = yes
-		on_map_mode = decision_view_only
-		visible = {
-			FROM = { is_valid_annexation_state = yes }
+		cancel_effect = {
+			log = "[GetLogRoot][GetLogFrom]: Decision cancel annexation_decision"
+			add_to_variable = { ROOT.active_annexation_decisions = -1 }
 		}
-		target_trigger = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_britain"
-			block_annexation_decision_selection = yes
-			country_event = annex.1002
-		}
-		ai_will_do = { factor = 100 }
-	}
 
-	# Wales
-	annexation_wales = {
-		icon = continent_europe
-		state_target = yes
-		on_map_mode = decision_view_only
-		visible = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		target_trigger = {
-			FROM = { is_valid_annexation_state = yes }
-		}
 		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_wales"
-			block_annexation_decision_selection = yes
-			country_event = annex.1003
-		}
-		ai_will_do = { factor = 100 }
-	}
-
-	# Northern Ireland
-	annexation_northern_ireland = {
-		icon = continent_europe
-		state_target = yes
-		on_map_mode = decision_view_only
-		visible = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		target_trigger = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_northern_ireland"
-			block_annexation_decision_selection = yes
-			country_event = annex.1004
-		}
-		ai_will_do = { factor = 100 }
-	}
-
-	# Ireland 
-	annexation_ireland = {
-		icon = continent_europe
-		state_target = yes
-		on_map_mode = decision_view_only
-		visible = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		target_trigger = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_ireland"
-			block_annexation_decision_selection = yes
-			country_event = annex.1005
-		}
-		ai_will_do = { factor = 100 }
-	}
-
-	# France
-	annexation_france = {
-		icon = continent_europe
-		state_target = yes
-		on_map_mode = decision_view_only
-		visible = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		target_trigger = {
-			FROM = { is_valid_annexation_state = yes }
-		}
-		complete_effect = {
-			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_france"
-			block_annexation_decision_selection = yes
-			country_event = annex.1006
+			log = "[GetLogRoot][GetLogFrom]: Decision complete annexation_decision"
+			annexation_decision_effect = yes
+			hidden_effect = {
+				remove_targeted_decision = { decision = annexation_decision target = FROM }
+			}
 		}
 		ai_will_do = { factor = 100 }
 	}

@@ -98,8 +98,10 @@ peace_ai_desires = {
 		enable = {
 			ROOT.FROM = {
 				OR = {
-					original_tag = MAF
-					original_tag = GEA
+					original_tag = WEA
+					original_tag = EQA
+					original_tag = RHO
+					original_tag = FIC
 					original_tag = DEI
 				}
 			}

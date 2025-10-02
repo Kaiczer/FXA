@@ -786,22 +786,6 @@ MLT = {
 	color = rgb { 255 255 153 }
 	color_ui = rgb { 255 255 153 }
 }
-NEE = {
-	color = rgb { 0 107 51 }
-	color_ui = rgb { 0 107 51 }
-}
-ALS = {
-	color = rgb { 60 59 110 }
-	color_ui = rgb { 60 59 110 }
-}
-CAS = {
-	color = rgb { 249 146 98 }
-	color_ui = rgb { 249 146 98 }
-}
-SCA = {
-	color = rgb { 178 34 52 }
-	color_ui = rgb { 178 34 52 }
-}
 RAS = {
   	color = rgb { 212 188 155 }
 	color_ui = rgb { 212 188 155 }
@@ -937,12 +921,4 @@ SIT = {
 PNJ = {
 	color = rgb { 3 26 13 }
 	color_ui = rgb { 3 26 13 }
-}
-TEX = {
-	color = rgb { 0 32 91 }
-	color_ui = rgb { 0 32 91 }
-}
-CLF = {
-	color = rgb { 189 138 94 }
-	color_ui = rgb { 189 138 94 }
 }

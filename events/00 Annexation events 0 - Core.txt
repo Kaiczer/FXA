@@ -185,6 +185,7 @@ country_event = { #Check for possible annexations (donotlog)
 				}
 			}
 		}
+		set_variable = { active_annexation_decisions = 0 }
 		if = {
 			limit = { NOT = { has_variable = europe_blocked } }
 			for_each_scope_loop = {
@@ -193,7 +194,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_europe
-				check_possible_annexation_EU = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -204,7 +205,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_north_america
-				check_possible_annexation_NA = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -215,7 +216,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_central_america
-				check_possible_annexation_CA = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -226,7 +227,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_south_america
-				check_possible_annexation_SA = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -237,7 +238,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_australia
-				check_possible_annexation_OC = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -248,7 +249,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_central_asia
-				check_possible_annexation_CS = yes
+				check_possible_annexations = yes
 			}
 			for_each_scope_loop = {
 				array = annexation_states_asia
@@ -256,7 +257,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_asia
-				check_possible_annexation_AS = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -267,7 +268,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_india
-				check_possible_annexation_ID = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -278,7 +279,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_middle_east
-				check_possible_annexation_ME = yes
+				check_possible_annexations = yes
 			}
 		}
 		if = {
@@ -289,7 +290,7 @@ country_event = { #Check for possible annexations (donotlog)
 			}
 			for_each_scope_loop = {
 				array = annexation_states_africa
-				check_possible_annexation_AF = yes
+				check_possible_annexations = yes
 			}
 		}
 	}

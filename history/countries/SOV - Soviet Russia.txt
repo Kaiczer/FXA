@@ -3,7 +3,7 @@ set_research_slots = 4
 set_stability = 0.23
 set_war_support = 0.88
 
-save_global_event_target_as = faction_leader_communist_international
+save_global_event_target_as = TFH_comintern_leader
 
 set_technology = {
 	infantry_weapons = 1
@@ -31,22 +31,25 @@ if = {
 		}
 	}
 }
+
+### Character ###
+recruit_character = SOV_alexei_rykov #Premier of Soviet Russia / leader of the Russian Government
+recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman / acting leader upon the death of Lenin
+
 set_popularities = {
 	vanguard_socialism = 80
 	revolutionary_socialism = 10
 	authoritarian_socialism = 10
 }
+
 set_politics = {	
 	ruling_party = vanguard_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-create_faction = third_international
 
-### Character ###
-recruit_character = SOV_alexei_rykov #Premier of Soviet Russia / leader of the Russian Government
-recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman / acting leader upon the death of Lenin
+create_faction = third_international
 
 every_country = {
 	limit = {

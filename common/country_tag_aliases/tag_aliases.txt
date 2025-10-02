@@ -14,7 +14,7 @@ MRN = {
 
 ### China
 CHN = { #Unified China tag
-	variable = global.china_target_tag
+	has_variable = global.china_target_tag
 }
 ZGZ = { #Zhongguo Guojia Zhanxian / Chinese United Front
 	global_event_target = china_united_front_leader
@@ -56,21 +56,21 @@ CNG = {
 
 ### Entente Leader
 ENT = {
-	global_event_target = faction_leader_entente
+	global_event_target = TFH_entente_leader
 
 	fallback = FRA
 }
 
-### Third International Leader
+### Communist International Leader
 CIN = {
-	global_event_target = faction_leader_communist_international
+	global_event_target = TFH_comintern_leader
 
 	fallback = SOV
 }
 
 ### Imperial Sphere Leader
 IMP = {
-	global_event_target = faction_leader_imperial_defense_sphere
+	global_event_target = TFH_imperial_leader
 
 	fallback = ENG 
 }

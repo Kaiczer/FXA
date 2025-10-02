@@ -3,7 +3,7 @@ set_research_slots = 1
 set_stability = 0.23
 set_war_support = 0.88
 
-save_global_event_target_as = faction_leader_entente
+save_global_event_target_as = TFH_entente_leader
 
 set_technology = {
 	infantry_weapons = 1
@@ -31,6 +31,9 @@ if = {
 		}
 	}
 }
+
+recruit_character = FRA_Albert_Lebrun
+
 set_popularities = {
 	authoritarian_socialism = 3
 	vanguard_socialism = 7
@@ -44,14 +47,16 @@ set_popularities = {
 	despotism = 8
 	ultrareactionism = 9
 }
+
 set_politics = {	
 	ruling_party = classical_liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-recruit_character = FRA_Albert_Lebrun
+
 create_faction = continental_entente
+
 every_country = {
 	limit = {
 		OR = {
@@ -69,6 +74,7 @@ every_country = {
 		add_to_faction = PREV 
 	}
 }
+
 every_country = {
 	limit = {
 		OR = {
@@ -84,6 +90,7 @@ every_country = {
 		add_to_faction = PREV 
 	}
 }
+
 add_to_faction = ITA
 add_to_faction = LBA
 add_to_faction = RHI

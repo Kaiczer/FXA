@@ -1,17 +1,12 @@
 # renaming events trigger
 is_american_tag = {
-	#custom_trigger_tooltip = {
-	#	tooltip = is_american_tag
-	OR = {
-		original_tag = USA
-		original_tag = ALS
-		original_tag = TEX
-		original_tag = CLF 
-		original_tag = NEE
-		original_tag = SCA 
-		original_tag = CAS
+	custom_trigger_tooltip = {
+		tooltip = is_american_tag
+		OR = {
+			original_tag = USA
+			# original_tag = HAW
+		}
 	}
-	#}
 }
 is_arab_tag = {
 	custom_trigger_tooltip = {
@@ -189,8 +184,8 @@ is_catholic_tag = {
 			original_tag = SLV
 			original_tag = SLO
 			original_tag = RHI
-			original_tag = WAL
-			original_tag = YUC
+			original_tag = WLL
+			original_tag = CRU
 		}
 	}
 }
@@ -212,7 +207,7 @@ is_french_africa_tag = {
 			original_tag = SEN
 			original_tag = IVO
 			original_tag = GNA
-			original_tag = OUG
+			original_tag = OBG
 			original_tag = GAB
 			original_tag = WEA
 			original_tag = EQA 
@@ -232,7 +227,7 @@ is_french_speaking_tag = {
 			is_french_tag = yes
 			is_french_africa_tag = yes
 			original_tag = QUE
-			original_tag = WAL
+			original_tag = WLL
 			original_tag = HAI
 		}
 	}
@@ -267,10 +262,10 @@ is_germany_or_splinter_tag = {
 			original_tag = SHO
 			original_tag = PRS 
 			original_tag = GFD
-			AND = {
-				original_tag = AUS
-				has_cosmetic_tag = AUS_germany
-			}
+			# AND = {
+			# 	original_tag = AUS
+			# 	has_cosmetic_tag = AUS_germany
+			# }
 		}
 	}
 }
@@ -338,7 +333,7 @@ is_spanish_speaking_tag = {
 			original_tag = CUB
 			original_tag = DOM
 			original_tag = PAN
-			original_tag = YUC
+			original_tag = CRU
 		}
 	}
 }
@@ -375,8 +370,8 @@ is_quechua_speaking_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_quechua_speaking_tag
 		OR = {
-			has_cosmetic_tag = PRU_quechua
-			#has_completed_focus = PRU_indigenous_restoration
+			# has_cosmetic_tag = PRU_quechua
+			# has_completed_focus = PRU_indigenous_restoration
 			AND = {
 				original_tag = ECU
 				has_government = authoritarian_socialism
@@ -461,7 +456,7 @@ is_belgian_tag = {
 		OR = {
 			original_tag = BEL
 			original_tag = FLA
-			original_tag = WAL
+			original_tag = WLL
 		}
 	}
 }
@@ -612,21 +607,6 @@ is_netherlands_tag = {
 is_irish_tag = {
 	OR = {
 		original_tag = IRE
-	}
-}
-
-is_liberal_us_tag = {
-	OR = {
-		original_tag = USA
-		original_tag = NEE
-		original_tag = CLF
-	}
-}
-
-is_usa_or_clf = {
-	OR = {
-		original_tag = USA
-		original_tag = CLF
 	}
 }
 

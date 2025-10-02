@@ -9,31 +9,11 @@ guiTypes = {
 		#	quadTextureSprite ="GFX_tiled_window"
 		#}
 		
-		iconType = {
-			name = "Tokugawa_Iesato"
-			position = { x = 8 y = 10 }
-			spriteType = "GFX_Portrait_Japan_Tokugawa_Iesato"
-		}
-		iconType = {
-			name = "Tri_Edo_Commissioner"
-			position = { x = 8 y = 10 }
-			spriteType = "GFX_Portrait_Japan_Tri_Edo_Commissioner"
-		}
-		iconType = {
-			name = "Hirohito"
-			position = { x = 8 y = 10 }
-			spriteType = "GFX_Portrait_Japan_Hirohito"
-		}
-		iconType = {
-			name = "Yasuhito"
-			position = { x = 8 y = 10 }
-			spriteType = "GFX_Portrait_Japan_Yasuhito"
-		}
-		iconType = {
-			name = "Viktor_Lutze"
-			position = { x = 8 y = 10 }
-			spriteType = "GFX_Portrait_Rhine_Viktor_Lutze"
-		}
+		# iconType = {
+		# 	name = "Tokugawa_Iesato"
+		# 	position = { x = 8 y = 10 }
+		# 	spriteType = "GFX_Portrait_Japan_Tokugawa_Iesato"
+		# }
 
 		# Add a new iconType (copy-paste) for every PM. Change its name and set the SpriteType to the PM, please give it an entry in the .gfx file
 		

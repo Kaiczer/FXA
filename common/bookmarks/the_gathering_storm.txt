@@ -45,20 +45,26 @@ bookmarks = {
 			
 			}
 		}
-		
-		GER = {
-			history = GER_TFH_gathering_storm_desc
-			ideology = volkism
 
-			ideas={
+		ITA = {
+			history = ITA_TFH_gathering_storm_desc
+			ideology = social_democracy
+
+			ideas = {
 
 			}
 
 			focuses = {
-			
+
 			}
 		}
 
+		AAA = { #placeholder
+			ideology = ultrareactionism
+			history = Debug_KR_gathering_storm_desc
+		}
+
+		
 		POL = {
 			history = POL_TFH_gathering_storm_desc
 			ideology = paternalism
@@ -96,10 +102,6 @@ bookmarks = {
 			focuses = {
 			
 			}
-		}
-
-		"---" = {
-
 		}
 
 		effect = {

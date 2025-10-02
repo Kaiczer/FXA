@@ -1,22 +1,68 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			1 = { set_variable = { annexation_target = THIS } } #Corsica
-			2 = { set_variable = { annexation_target = THIS } } #Sardinia
-			3 = { set_variable = { annexation_target = THIS } } #Paris
-			4 = { set_variable = { annexation_target = THIS } } #Latium
-			5 = { set_variable = { annexation_target = THIS } } #Brandenburg
-			6 = { set_variable = { annexation_target = THIS } } #London
-			7 = { set_variable = { annexation_target = THIS } } #Amsterdam
+			# [STATE_NUMBER] = {
+			#	set_variable = { annexation_target = THIS }
+			#	set_variable = { annx_evnt_num = XXXXX } #annex_event_number 
+			# }
+			1 = { #Corsica
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11014 }
+			}
+			2 = { #Sardinia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12005 }
+			} 
+			3 = { #Paris  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11006 }
+			}
+			4 = { #Latium
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12001 }
+			} 
+			5 = { #Brandenburg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13008 }
+			} 
+			6 = { #London  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11001 } 
+			}
+			7 = { #Amsterdam
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11021 }
+			} 
 			8 = { set_variable = { annexation_target = THIS } } #Bohemia
-			9 = { set_variable = { annexation_target = THIS } } #Lower Austria
-			10 = { set_variable = { annexation_target = THIS } } #Luxembourg
+			9 = { #Lower Austria
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13005}
+			} 
+			10 = { #Luxembourg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11024 }
+			} 
 			11 = { set_variable = { annexation_target = THIS } } #Warsaw
-			12 = { set_variable = { annexation_target = THIS } } #Brabant
-			13 = { set_variable = { annexation_target = THIS } } #Bern
-			14 = { set_variable = { annexation_target = THIS } } #Madrid
-			15 = { set_variable = { annexation_target = THIS } } #Lisbon
-			16 = { set_variable = { annexation_target = THIS } } #Dublin
+			12 = { #Brabant
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11025 }
+			} 
+			13 = { #Bern
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13001 }
+			} 
+			14 = { #Madrid
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11015 }
+			} 
+			15 = { #Lisbon
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11020 }
+			} 
+			16 = { #Dublin
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11005 }
+			}
 			17 = { set_variable = { annexation_target = THIS } } #Copenhagen
 			18 = { set_variable = { annexation_target = THIS } } #Oslo
 			19 = { set_variable = { annexation_target = THIS } } #Stockholm
@@ -31,48 +77,164 @@ on_actions = {
 			29 = { set_variable = { annexation_target = THIS } } #Harju
 			30 = { set_variable = { annexation_target = THIS } } #Uusima
 			32 = { set_variable = { annexation_target = THIS } } #Constantinople
-			35 = { set_variable = { annexation_target = THIS } } #East Pomerania
-			38 = { set_variable = { annexation_target = THIS } } #Holstein
-			39 = { set_variable = { annexation_target = THIS } } #Schleswig
-			41 = { set_variable = { annexation_target = THIS } } #Hanover
+			37 = { #Mecklenburg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13013 }
+			}
+			38 = { #Holstein
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13014 }
+			} 
+			39 = { #Schleswig
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13015 }
+			} 
 			44 = { set_variable = { annexation_target = THIS } } #Katowice
-			46 = { set_variable = { annexation_target = THIS } } #Saxony
+			46 = { #Saxony 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13009 }
+			} 
 			48 = { set_variable = { annexation_target = THIS } } #Sudetenland
-			51 = { set_variable = { annexation_target = THIS } } #Western Rhineland
-			57 = { set_variable = { annexation_target = THIS } } #Upper Bavaria
-			62 = { set_variable = { annexation_target = THIS } } #Westerschelde
-			64 = { set_variable = { annexation_target = THIS } } #Limburg
-			65 = { set_variable = { annexation_target = THIS } } #Wallonia
-			66 = { set_variable = { annexation_target = THIS } } #Eupen
-			67 = { set_variable = { annexation_target = THIS } } #Bastogne
-			68 = { set_variable = { annexation_target = THIS } } #Pas-de-Calais
-			71 = { set_variable = { annexation_target = THIS } } #Alsace
-			77 = { set_variable = { annexation_target = THIS } } #Brittany
-			83 = { set_variable = { annexation_target = THIS } } #Basses-Pyrenees
-			84 = { set_variable = { annexation_target = THIS } } #Roussillon
-			94 = { set_variable = { annexation_target = THIS } } #Savoy
-			95 = { set_variable = { annexation_target = THIS } } #Nice
-			96 = { set_variable = { annexation_target = THIS } } #Barcelona/Catalonia
-			105 = { set_variable = { annexation_target = THIS } } #Bilbao/Basque Country
-			115 = { set_variable = { annexation_target = THIS } } #Galicia
-			121 = { set_variable = { annexation_target = THIS } } #Gibraltar
-			122 = { set_variable = { annexation_target = THIS } } #Malta
-			126 = { set_variable = { annexation_target = THIS } } #Campania
-			130 = { set_variable = { annexation_target = THIS } } #Tuscany
-			131 = { set_variable = { annexation_target = THIS } } #Romagna
-			132 = { set_variable = { annexation_target = THIS } } #Emilia
-			134 = { set_variable = { annexation_target = THIS } } #Piedmont
-			135 = { set_variable = { annexation_target = THIS } } #Aosta Valley
-			136 = { set_variable = { annexation_target = THIS } } #Lombardy
-			137 = { set_variable = { annexation_target = THIS } } #Veneto
-			138 = { set_variable = { annexation_target = THIS } } #Trentino
-			139 = { set_variable = { annexation_target = THIS } } #South Tyrol
-			141 = { set_variable = { annexation_target = THIS } } #Ticino
-			142 = { set_variable = { annexation_target = THIS } } #Vorarlberg
-			147 = { set_variable = { annexation_target = THIS } } #Burgenland
-			149 = { set_variable = { annexation_target = THIS } } #Trieste
-			150 = { set_variable = { annexation_target = THIS } } #Gorizia
-			151 = { set_variable = { annexation_target = THIS } } #Istria
+			52 = { #Hanover 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13012 }
+			} 
+			53 = { #Palatinate
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13010 }
+			} 
+			57 = { #Upper Bavaria
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13011 }
+			}
+			62 = { #Westerschelde
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11022 }
+			} 
+			64 = { #Limburg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11023 }
+			} 
+			65 = { #Wallonia 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11026 }
+			}
+			66 = { #Eupen 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11027 }
+			} 
+			68 = { #Pas-de-Calais  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11008 }
+			}
+			71 = { #Alsace  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11009 }
+			}
+			73 = { #Romandy
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13002 }
+			}
+			77 = { #Brittany  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11007 }
+			}
+			83 = { #Basses-Pyrenees
+				set_variable = { annexation_target = THIS } 
+				set_variable = { annx_evnt_num = 11013 }
+			} 
+			84 = { #Roussillon
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11012 }
+			} 
+			94 = { #Savoy
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11010 }
+			} 
+			95 = { #Nice  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11011 }
+			}
+			96 = { #Barcelona/Catalonia 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11016 }
+			} 
+			105 = { #Bilbao/Basque Country
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11017 }
+			} 
+			115 = { #Galicia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11018 }
+			} 
+			121 = { #Gibraltar
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11019 }
+			} 
+			122 = { #Malta
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12004 }
+			} 
+			126 = { #Campania 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12003 }
+			} 
+			130 = { #Tuscany
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12013 }
+			} 
+			131 = { #Romagna
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12002 }
+			} 
+			134 = { #Piedmont  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12006 }
+			}
+			135 = { #Aosta Valley
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12014 }
+			} 
+			136 = { #Lombardy 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12007 }
+			}
+			137 = { #Veneto 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12008 }
+			}
+			138 = { #Trentino
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12009 }
+			} 
+			139 = { #South Tyrol
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13007 }
+			} 
+			141 = { #Ticino 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13003 }
+			} 
+			142 = { #Vorarlberg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13004 }
+			}
+			147 = { #Burgenland 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13006}
+			}
+			149 = { #Trieste 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12011 }
+			}
+			150 = { #Gorizia 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12010 }
+			} 
+			151 = { #Rijeka 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 12012 }
+			}
 			152 = { set_variable = { annexation_target = THIS } } #Carniola
 			154 = { set_variable = { annexation_target = THIS } } #Prekmurje
 			155 = { set_variable = { annexation_target = THIS } } #Zara
@@ -148,10 +310,19 @@ on_actions = {
 			342 = { set_variable = { annexation_target = THIS } } #Petsamo
 			351 = { set_variable = { annexation_target = THIS } } #Aland
 			367 = { set_variable = { annexation_target = THIS } } #Iceland
-			374 = { set_variable = { annexation_target = THIS } } #Wales
+			374 = { #Wales  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11003 }
+			} 
 			379 = { set_variable = { annexation_target = THIS } } #Northumbria
-			381 = { set_variable = { annexation_target = THIS } } #Lothian
-			388 = { set_variable = { annexation_target = THIS } } #Ulster
+			381 = { #Lothian
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11002 }
+			}
+			388 = { #Ulster  
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 11004 }
+			}
 			400 = { set_variable = { annexation_target = THIS } } #Novosibirsk
 			403 = { set_variable = { annexation_target = THIS } } #Tannu Uryankhai
 			420 = { set_variable = { annexation_target = THIS } } #Primorsky
@@ -308,7 +479,7 @@ on_actions = {
 			859 = { set_variable = { annexation_target = THIS } } #Ogaden
 			860 = { set_variable = { annexation_target = THIS } } #Somalia
 			861 = { set_variable = { annexation_target = THIS } } #Somaliland
-			863 = { set_variable = { annexation_target = THIS } } #Douala
+			862 = { set_variable = { annexation_target = THIS } } #Adamawa
 			865 = { set_variable = { annexation_target = THIS } } #Ubangi
 			866 = { set_variable = { annexation_target = THIS } } #Rio Muni
 			868 = { set_variable = { annexation_target = THIS } } #Xining
@@ -400,10 +571,21 @@ on_actions = {
 			SSF = { every_core_state = { set_variable = { annexation_target = THIS } } } # South Sea Federations
 
 			#### Paired Annexation with Core State Target (Sub Target > Core Target) ####
+			40 = { set_variable = { annexation_target = 38.id } } #Hamburg > Holstein
+			
+			42 = { set_variable = { annexation_target = 52.id } } #Oldenburg > East Hanover
+
+			128 = { set_variable = { annexation_target = 131.id } } #Umbria > Romagna
+			129 = { set_variable = { annexation_target = 131.id } } #Marche > Romagna
+
+			132 = { set_variable = { annexation_target = 134.id } } #Emilia > Piedmont
+
 			169 = { set_variable = { annexation_target = 728.id } } #Mugla > Bursa
 			170 = { set_variable = { annexation_target = 728.id } } #North Aegean Islands > Bursa
 			172 = { set_variable = { annexation_target = 728.id } } #Dodecanese > Bursa
 			729 = { set_variable = { annexation_target = 728.id } } #Smyrna > Bursa
+
+			206 = { set_variable = { annexation_target = 46.id } } #East Saxony > Saxony
 			
 			361 = { set_variable = { annexation_target = 39.id } } #North Schleswig > Schleswig
 			
@@ -447,10 +629,10 @@ on_actions = {
 
 			#### Target Annexation - Capital City's States #### 
 			every_state = {
-				### Western Europe ####
+				### Western Europe ###
 				if = {
 					limit = { is_england = yes }
-					6 = { initialise_regional_annexation_variables = yes }
+					6 = { initialise_regional_annexation_variables = yes } #London
 				}
 				if = {
 					limit = { is_scotland = yes }
@@ -465,9 +647,27 @@ on_actions = {
 					16 = { initialise_regional_annexation_variables = yes } #Leinster
 				}
 				else_if = {
-					limit = { is_mainland_france_state = yes }
-					3 = { initialise_regional_annexation_variables = yes }
+					limit = { is_france = yes }
+					3 = { initialise_regional_annexation_variables = yes } #Paris
 				}
+				else_if = {
+					limit = { is_flanders = yes }
+					12 = { initialise_regional_annexation_variables = yes } #Brabant
+				}
+				else_if = {
+					limit = { is_wallonia = yes }
+					65 = { initialise_regional_annexation_variables = yes } #Wallonia
+				}
+				else_if = {
+					limit = { is_netherlands = yes }
+					7 = { initialise_regional_annexation_variables = yes } #Holland
+				}
+				else_if = {
+					limit = { is_luxembourg = yes }
+					10 = { initialise_regional_annexation_variables = yes } #Luxembourg
+				}
+
+				### Southern Europe ###
 			}
 
 			#### Target Annexation - Additional States ####

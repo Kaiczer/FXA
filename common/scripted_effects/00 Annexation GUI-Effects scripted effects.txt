@@ -65,7 +65,7 @@ transfer_state_and_notify = {
 }
 
 # state scope
-transfer_state_if_owned = {
+transfer_if_owned = {
 	if = {
 		limit = { is_valid_annexation_state = yes }
 		transfer_state_and_notify = yes
@@ -116,7 +116,53 @@ change_transfer_flag_target = {
 	var:tag_to_release = { PREV = { set_state_flag = { flag = annexation_recent_transfer_@PREV value = 1 days = 60 } } }
 }
 
+# state scope
+remove_claim_and_add_core_of_ROOT = {
+	effect_tooltip = {
+		if = {
+			limit = { is_claimed_by = ROOT }
+			remove_claim_by = ROOT
+		}
+		if = {
+			limit = { NOT = { is_core_of = ROOT } }
+			add_core_of = ROOT
+		}
+	}
+	hidden_effect = {
+		remove_claim_by = ROOT
+		add_core_of = ROOT
+	}
+}
+
+# state scope
+add_claim_of_target = {
+	effect_tooltip = {
+		if = {
+			limit = { is_claim_or_core_of_target = no }
+			add_claim_by = var:tag_to_release
+		}
+	}
+	hidden_effect = {
+		if = {
+			limit = { NOT = { is_core_of = var:tag_to_release } }
+			add_claim_by = var:tag_to_release
+		}
+	}
+}
+
+# country scope
+add_claim_of_target_on_valid_cores = {
+	every_core_state = {
+		limit = {
+			is_allowed_annexation_state = yes
+			is_claim_or_core_of_target = no
+		}
+		add_claim_by = var:tag_to_release
+	}
+}
+
 #### GLOBAL SCOPE ####
+
 # global scope
 release_targeted_tag_with_claims = {
 	set_temp_variable = { claims = 1 }
@@ -220,6 +266,17 @@ annex_splinter_tag = {
 	var:tag_to_release = {
 		every_owned_state = { change_transfer_flag_target = yes }
 		annex_country = { target = PREV transfer_troops = yes }
+	}
+}
+
+# country scope
+add_claim_of_ROOT_on_valid_cores = {
+	every_core_state = {
+		limit = {
+			is_allowed_annexation_state = yes
+			is_claim_or_core_of_ROOT = no
+		}
+		add_claim_by = ROOT
 	}
 }
 
@@ -363,68 +420,382 @@ add_to_regional_annexation_array = {
 	}
 }
 
+annexation_decision_effect = {
+	clear_retained_states = yes
+	FROM = {
+		if = {
+			limit = { has_variable = annexation_target }
+			var:annexation_target = { save_event_target_as = targeted_annexation_state }
+		}
+		else = {
+			save_event_target_as = targeted_annexation_state
+		}
+	}
+	set_country_flag = { flag = open_annexation_event days = 16 value = 1 }
+	### Temporary Only (See below note) ###
+	meta_effect = {
+		text = { country_event = [EVENT] }
+		EVENT = "annex.[?FROM.annexation_target:annx_evnt_num]"
+	}
+	# if = { 
+		## Note: Remove when the annexation event for islands has implemented (uses Temporary Only for now)
+	# 	limit = {
+	# 		OR = { #Islands' Annexation List
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 2057 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3076 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3075 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3074 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3019 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3083 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3078 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3071 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 3067 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 5052 }
+	# 			check_variable = { FROM.annexation_target:annx_evnt_num = 5054 }
+	# 		}
+	# 	}
+	# 	FROM = {
+	# 		meta_effect = {
+	# 			text = { state_event = { id = [EVENT] trigger_for = ROOT } }
+	# 			EVENT = "annex.[?annexation_target:annx_evnt_num]"
+	# 		}
+	# 	}
+	# }
+	# else = {
+	# 	meta_effect = {
+	# 		text = { country_event = [EVENT] }
+	# 		EVENT = "annex.[?FROM.annexation_target:annx_evnt_num]"
+	# 	}
+	# }
+}
+
 #################################
 ## ANNEXATION POSSIBLE RELEASE ##
 #################################
-check_possible_annexation_EU = { # Europe
+
+check_possible_annexations = {
 	if = {
-		limit = { can_release_britain = yes }
-		ROOT = { activate_targeted_decision = { decision = annexation_britain target = PREV } }
-	}
-	else_if = {
-		limit = { can_release_scotland = yes }
-		ROOT = { activate_targeted_decision = { decision = annexation_scotland target = PREV } }
-	}
-	else_if = {
-		limit = { can_release_wales = yes }
-		ROOT = { activate_targeted_decision = { decision = annexation_wales target = PREV } }
-	}
-	else_if = {
-		limit = { can_release_northern_ireland = yes }
-		ROOT = { activate_targeted_decision = { decision = annexation_northern_ireland target = PREV } }
-	}
-	else_if = {
-		limit = { can_release_ireland = yes }
-		ROOT = { activate_targeted_decision = { decision = annexation_ireland target = PREV } }
-	}
-	else_if = { 
-		limit = { can_release_france = yes } 
-		ROOT = { activate_targeted_decision = { decision = annexation_france target = PREV } }
+		limit = {
+			meta_trigger = {
+				text = { can_release_[STATE] = yes }
+				STATE = "[?THIS.annexation_target.GetID]"
+			}
+		}
+		ROOT = {
+			add_to_variable = { active_annexation_decisions = 1 }
+			activate_targeted_decision = { decision = annexation_decision target = PREV }
+		}
 	}
 }
 
-check_possible_annexation_NA = { # North America
-
+### AI Annexation Release ###
+annexations_create_non_socialist_britain_event_target = {
+	if = {
+		limit = { is_subject = no }
+		if = {
+			limit = {
+				var:6.owner = { #Greater London
+					annexations_is_valid_britain = yes
+					is_ally_of_ROOT = yes
+					has_socialist_government = no
+				}
+			}
+			var:6.owner = {
+				save_event_target_as = britain
+				add_to_array = { ROOT.potential_grant_targets = THIS }
+			}
+		}
+	}
 }
 
-check_possible_annexation_SA = { # South America
-
+annexations_reset_belgian_tags = {
+	if = {
+		limit = { NOT = { country_exists = BEL } }
+		every_state = {
+			if = {
+				limit = { is_belgium = yes }
+				add_core_of = BEL
+			}
+			else = {
+				remove_core_of = BEL
+			}
+			remove_claim_by = BEL
+		}
+		BEL = {
+			drop_cosmetic_tag = yes
+			# BEL_remove_monarchy = yes
+			62 = { disable_state_integration = yes } #Westerscheldt
+			64 = { disable_state_integration = yes } #Limburg
+			68 = { disable_state_integration = yes } #Lille
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = FLA } }
+		FLA = {
+			clear_cores_of_tag_if_possible = yes
+			drop_cosmetic_tag = yes
+			# BEL_remove_monarchy = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = WLL } }
+		WLL = {
+			clear_cores_of_tag_if_possible = yes
+			drop_cosmetic_tag = yes
+			# BEL_remove_monarchy = yes
+		}
+	}
 }
 
-check_possible_annexation_CA = { # Central America
-
+annexations_reset_italian_tags = {
+	every_state = {
+		limit = {
+			has_state_flag = is_mainland_italy_state
+			has_variable = ITA_default_core_state
+			check_variable = { core_countries^num = 1 }
+		}
+		if = {
+			limit = { NOT = { country_exists = var:ITA_default_core_state } }
+			add_core_of = var:ITA_default_core_state
+		}
+		else_if = {
+			limit = { NOT = { country_exists = ITA } }
+			add_core_of = ITA
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = ITA } }
+		ITA = {
+			# ITA_remove_monarchy = yes
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = STE } }
+		STE = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = VNE } }
+		VNE = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = LOM } }
+		LOM = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = PIE } }
+		PIE = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = SAR } }
+		SAR = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = SIT } }
+		SIT = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
 }
 
-check_possible_annexation_AF = { # Africa
-
+annexation_release_italy = {
+	every_state = {
+		limit = {
+			is_european_italy = yes
+			has_state_flag = is_mainland_italy_state
+		}
+		if = {
+			limit = { is_owned_by = ROOT }
+			remove_claim_and_add_core_of_target = yes
+		}
+		else = {
+			add_claim_of_target = yes
+		}
+	}
+	release_targeted_tag = yes
+	hidden_effect = {
+		for_each_scope_loop = {
+			array = global.italian_tags_array
+			if = {
+				limit = { exists = no }
+				clear_cores_of_tag_if_possible = yes
+			}
+		}
+	}
 }
 
-check_possible_annexation_AS = { # Asia
-
+annexations_give_italy_to_target = {
+	if = {
+		limit = { has_event_target = italy }
+		set_temp_variable = { tag_to_release = event_target:italy }
+		every_owned_state = {
+			limit = {
+				is_european_italy = yes
+				# is_italian_irredentist_claim = no
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+		recheck_annexations = yes
+	}
 }
 
-check_possible_annexation_CS = { # Central Asia
-
+annexations_reset_german_tags = {
+	if = {
+		limit = { NOT = { country_exists = GFD } }
+		GFD = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = RHI } }
+		RHI = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = NGM } }
+		NGM = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = PRS } }
+		PRS = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = SHO } }
+		SHO = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = SGM } }
+		SGM = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
 }
 
-check_possible_annexation_OC = { # Oceania
-
+annexations_create_german_event_targets = {
+	if = {
+		limit = {
+			has_country_flag = is_potential_unifier_GER
+			is_subject = no
+		}
+		random_other_country = {
+			limit = {
+				has_country_flag = is_potential_unifier_GER
+				is_ally_with = ROOT
+			}
+			save_event_target_as = germany
+			add_to_array = { ROOT.potential_grant_targets = THIS }
+		}
+		if = {
+			limit = { NOT = { has_event_target = germany } }
+			random_other_country = {
+				limit = {
+					has_country_flag = is_potential_unifier_GER
+					ROOT_can_grant_land = yes
+				}
+				save_event_target_as = germany
+				add_to_array = { ROOT.potential_grant_targets = THIS }
+			}
+		}
+	}
 }
 
-check_possible_annexation_ME = { # Middle East
-
+annexations_release_germany = {
+	if = {
+		limit = {
+			any_country_with_original_tag = {
+				original_tag_to_check = GFD
+				is_ally_of_ROOT = yes
+				set_temp_variable = { tag_to_release = THIS }
+			}
+		}
+		every_owned_state = {
+			limit = {
+				is_germany = yes
+				is_valid_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+	}
+	else = {
+		annexations_germany_retain_special_states = yes
+		generate_new_german_puppet = yes
+		every_subject_country = {
+			limit = {
+				is_germany_or_splinter_tag = yes
+				NOT = { has_country_flag = is_potential_unifier_GER }
+				NOT = { original_tag = RHI }
+				NOT = { original_tag = PRS }
+				is_ai = yes
+			}
+			annex_splinter_tag = yes
+		}
+	}
 }
 
-check_possible_annexation_ID = { # India
+annexations_germany_retain_special_states = {
+	hidden_effect = {
+		if = {
+			limit = { event_target:targeted_annexation_state = { is_rhineland = no } }
+			51 = { retain_state = yes } #Western Rhineland
+			53 = { retain_state = yes } #Palatinate
+			54 = { retain_state = yes } #Eastern Rhineland
+		}
+	}
+}
 
+generate_new_german_puppet = {
+	if = {
+		limit = { NOT = { country_exists = GFD } }
+		set_temp_variable = { tag_to_release = GFD }
+		every_state = {
+			limit = { is_germany = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+	else = {
+		set_temp_variable = { target = GFD }
+		create_dynamic_country = {
+			original_tag = GFD
+			set_temp_variable = { tag_to_release = THIS }
+			ROOT = {
+				every_owned_state = {
+					limit = { is_core_of = GFD }
+					transfer_state_without_overriding_occupation = yes
+				}
+			}
+		}
+		puppet_released_tag = yes
+	}
 }

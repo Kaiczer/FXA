@@ -1,0 +1,7 @@
+is_german_unifier_tag = {
+	OR = {
+		original_tag = GER
+		original_tag = GFD
+		has_cosmetic_tag = AUS_germany
+	}
+}

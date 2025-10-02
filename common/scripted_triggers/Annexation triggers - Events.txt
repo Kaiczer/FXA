@@ -264,8 +264,8 @@ annexations_can_grant_land_to_ally_non_socialist_britain = {
 }
 
 annexations_is_ally_of_entente_britain = {
-	is_ally_with = event_target:faction_leader_imperial_defense_sphere
-	NOT = { tag = event_target:faction_leader_imperial_defense_sphere }
+	is_ally_with = event_target:TFH_imperial_leader
+	NOT = { tag = event_target:TFH_imperial_leader }
 }
 
 annexations_france_can_annex_overseas = {
@@ -368,8 +368,6 @@ annexations_AI_will_consider_returning_colonies = {
 		is_in_europe = yes
 		original_tag = AST
 		original_tag = NZL
-		original_tag = GEO
-		original_tag = ARM
 		original_tag = RAJ
 	}
 }
@@ -405,7 +403,7 @@ annexations_AI_give_to_spain_instead = {
 annexations_can_release_any_india = {
 	NOT = { is_ally_with = event_target:india }
 	if = {
-		limit = { tag = event_target:faction_leader_imperial_defense_sphere }
+		limit = { tag = event_target:TFH_imperial_leader }
 		NOT = { country_exists = RAJ }
 	}
 	else = {
@@ -478,104 +476,19 @@ annexations_can_release_any_italy = {
 		}
 	}
 	if = {
-		OR = {
-			NOT = { country_exists = ITA }
-			AND = {
-				NOT = { country_exists = SAR }
-				OR = {
-					original_tag = FRA
-					tag = event_target:faction_leader_imperial_defense_sphere
-					is_in_faction_with = ENT
+		limit = {
+			OR = {
+				NOT = { country_exists = ITA }
+				AND = {
+					NOT = { country_exists = SAR }
+					OR = {
+						original_tag = FRA
+						is_in_faction_with = ENT
+					}
 				}
 			}
 		}
 	}
-}
-
-annexations_can_release_brazil = {
-	NOT = { country_exists = BRA }
-	500 = { #Rio de Janeiro
-		OR = {
-			is_valid_annexation_state = yes
-			owner = {
-				is_brazilian_tag = yes
-				is_subject_of = ROOT
-			}
-		}
-	}
-	is_subject = no
-	count_triggers = {
-		amount = 3
-		498 = { #Northeastern Brazil
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-		499 = { #Bahia
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-		501 = { #São Paulo
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-		505 = { #Goyaz
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-		502 = { #Rio Grande do Sul
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-		898 = { #Pará
-			OR = {
-				is_valid_annexation_state = yes
-				owner = {
-					is_brazilian_tag = yes
-					is_subject_of = ROOT
-				}
-			}
-		}
-	}
-}
-
-annexations_can_release_brazilian_splinters = {
-	OR = {
-		NOT = { is_ally_with = event_target:brazil }
-		AND = {
-			has_event_target = brazil
-			event_target:brazil = {
-				is_subject = yes
-				NOT = { is_subject_of = ROOT }
-			}
-		}
-	}
-	NOT = { original_tag = BRA }
-	is_subject = no
 }
 
 annexations_can_release_any_germany = {
@@ -584,7 +497,7 @@ annexations_can_release_any_germany = {
 		limit = { has_socialist_government = yes }
 		NOT = {
 			any_country_with_original_tag = {
-				original_tag_to_check = GRU
+				original_tag_to_check = GFD
 				exists = yes
 				has_socialist_government = yes
 			}
@@ -593,55 +506,12 @@ annexations_can_release_any_germany = {
 	else = {
 		NOT = {
 			any_country_with_original_tag = {
-				original_tag_to_check = GRU
+				original_tag_to_check = GFD
 				exists = yes
 				has_socialist_government = no
 			}
 		}
 	}
-}
-
-annexations_can_release_socialist_germany = {
-	has_socialist_government = yes
-	NOT = { is_ally_with = event_target:germany }
-	NOT = {
-		any_country_with_original_tag = {
-			original_tag_to_check = GFD
-			exists = yes
-			has_socialist_government = yes
-		}
-	}
-	NOT = { original_tag = GER }
-	is_subject = no
-}
-
-annexations_can_release_republican_germany = {
-	has_socialist_government = no
-	NOT = { is_ally_with = event_target:germany }
-	NOT = {
-		any_country_with_original_tag = {
-			original_tag_to_check = GFD
-			exists = yes
-			is_monarchy = no
-			has_socialist_government = no
-		}
-	}
-	NOT = { original_tag = GER }
-	is_subject = no
-}
-
-annexations_can_release_monarchist_germany = {
-	has_socialist_government = no
-	NOT = { is_ally_with = event_target:germany }
-	NOT = {
-		any_country_with_original_tag = {
-			original_tag_to_check = GFD
-			exists = yes
-			is_monarchy = yes
-		}
-	}
-	NOT = { original_tag = GER }
-	is_subject = no
 }
 
 annexations_germany_is_independent_ally_or_puppet_of_ROOT = {
@@ -657,7 +527,7 @@ annexations_germany_is_independent_ally_or_puppet_of_ROOT = {
 annexations_can_release_german_splinters = {
 	annexations_germany_is_independent_ally_or_puppet_of_ROOT = no
 	NOT = { original_tag = GER }
-	NOT = { original_tag = GRU }
+	NOT = { original_tag = GFD }
 	is_subject = no
 }
 
@@ -669,15 +539,14 @@ annexations_can_release_any_france = {
 	else_if = {
 		limit = { is_ally_with = ENT }
 		OR = {
-			NOT = { country_exists = NFA }
 			AND = {
-				NOT = { is_ally_with = NFA }
-				NOT = { country_exists = FRP }
+				NOT = { is_ally_with = FRA }
+				NOT = { country_exists = FPP }
 			}
 		}
 	}
 	else = {
-		NOT = { country_exists = FRP }
+		NOT = { country_exists = FPP }
 	}
 }
 
@@ -689,9 +558,9 @@ annexations_can_release_any_britain = {
 	else_if = {
 		limit = { annexations_can_release_united_kingdom = yes }
 		OR = {
-			NOT = { country_exists = GBR }
+			NOT = { country_exists = GBP }
 			AND = {
-				NOT = { is_ally_with = GBR }
+				NOT = { is_ally_with = GBP }
 				OR = {
 					NOT = { country_exists = GBP }
 					GBP = { is_dynamic_country = yes }
@@ -709,10 +578,10 @@ annexations_can_release_any_britain = {
 
 annexations_can_release_united_kingdom = {
 	OR = {
-		is_ally_with = event_target:faction_leader_imperial_defense_sphere
+		is_ally_with = event_target:TFH_imperial_leader
 		AND = {
 			is_ally_with = ENT
-			NOT = { country_exists = event_target:faction_leader_imperial_defense_sphere }
+			NOT = { country_exists = event_target:TFH_imperial_leader }
 		}
 	}
 }
@@ -803,6 +672,69 @@ annexations_AI_prefer_giving_to_non_puppets = {
 		is_subject = no
 		annexations_AI_wants_to_dismantle_target = no
 		annexations_AI_dont_give_lands_to_opposing_factions = no
+	}
+}
+
+annexations_allowed_to_annex_strategic_territories = {
+	has_socialist_government = no
+	is_subject = no
+	naval_base > 0
+}
+
+annexations_major_can_annex_strategic_territories = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	is_actual_major = yes
+}
+
+annexations_AI_wants_to_own_suez = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	OR = {
+		original_tag = FRA
+		original_tag = GER
+		original_tag = RUS
+		is_british_tag = yes
+		is_italian_tag = yes
+	}
+}
+
+annexations_AI_wants_to_own_singapore = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	OR = {
+		original_tag = FRA
+		original_tag = GER
+		is_british_tag = yes
+		has_any_authoritarian_government = yes
+	}
+}
+
+annexations_AI_wants_to_own_panama_canal = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	OR = {
+		original_tag = FRA
+		original_tag = GER
+		original_tag = RUS
+		is_british_tag = yes
+		is_american_tag = yes
+	}
+}
+
+annexations_AI_wants_to_own_gibraltar = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	OR = {
+		original_tag = FRA
+		original_tag = GER
+		original_tag = RUS
+		is_italian_tag = yes
+		has_any_authoritarian_government = yes
+	}
+}
+
+annexations_AI_wants_to_own_malta = {
+	annexations_allowed_to_annex_strategic_territories = yes
+	OR = {
+		original_tag = FRA
+		original_tag = GER
+		# original_tag = AUS
 	}
 }
 
@@ -928,4 +860,16 @@ annexations_AI_grant_land_default_logic = {
 		annexations_AI_prefer_giving_to_allies = yes
 		annexations_AI_prefer_giving_to_non_puppets = yes
 	}
+}
+
+annexations_can_release_germany = {
+	NOT = { is_ally_with = event_target:germany }
+	NOT = {
+		any_country_with_original_tag = {
+			original_tag_to_check = GFD
+			exists = yes
+		}
+	}
+	is_german_unifier_tag = no
+	is_subject = no
 }

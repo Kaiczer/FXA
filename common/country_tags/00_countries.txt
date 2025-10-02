@@ -103,12 +103,7 @@ QUE = "countries/WestEuropean.txt" # Quebec /
 
 ### the States ###
 USA = "countries/WestEuropean.txt" # United States /
-ALS = "countries/WestEuropean.txt" # Alaska /
-CLF = "countries/WestEuropean.txt" # California / 
-NEE = "countries/WestEuropean.txt" # New England /
-SCA = "countries/WestEuropean.txt" # Socialist America / 
-CAS = "countries/WestEuropean.txt" # Cascadia / 
-TEX = "countries/WestEuropean.txt" # Texas / 
+HAW = "countries/WestEuropean.txt" # Hawaii /
 
 #########################################
 #### South American Cultural Setting ####
@@ -319,4 +314,3 @@ NZL = "countries/Commonwealth.txt" # New Zealand
 PNG = "countries/Commonwealth.txt" # Papua New Guinea
 FIJ = "countries/Commonwealth.txt" # Fiji
 SSF = "countries/Commonwealth.txt" # South Seas Federation
-HAW = "countries/WestEuropean.txt" # Hawaii
