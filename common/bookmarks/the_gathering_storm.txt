@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 
-		USA = {
+		"USA" = {
 			history = USA_TFH_gathering_storm_desc
 			ideology = social_liberalism	
 
@@ -20,7 +20,7 @@ bookmarks = {
 			}
 		}
 
-		ENG = {
+		"ENG" = {
 			history = ENG_TFH_gathering_storm_desch
 			ideology = social_conservatism
 
@@ -33,7 +33,7 @@ bookmarks = {
 			}
 		}
 
-		FRA = {
+		"FRA" = {
 			history = FRA_TFH_gathering_storm_desc
 			ideology = classical_liberalism
 
@@ -46,7 +46,7 @@ bookmarks = {
 			}
 		}
 
-		ITA = {
+		"ITA" = {
 			history = ITA_TFH_gathering_storm_desc
 			ideology = social_democracy
 
@@ -58,14 +58,8 @@ bookmarks = {
 
 			}
 		}
-
-		AAA = { #placeholder
-			ideology = ultrareactionism
-			history = Debug_KR_gathering_storm_desc
-		}
-
-		
-		POL = {
+				
+		"POL" = {
 			history = POL_TFH_gathering_storm_desc
 			ideology = paternalism
 
@@ -78,7 +72,7 @@ bookmarks = {
 			}
 		}
 
-		SOV = {
+		"SOV" = {
 			history = SOV_TFH_gathering_storm_desc
 			ideology = vanguard_socialism
 
@@ -91,7 +85,7 @@ bookmarks = {
 			}
 		}
 
-		JAP = {
+		"JAP" = {
 			history = JAP_TFH_gathering_storm_desc
 			ideology = social_conservatism
 			
@@ -102,6 +96,10 @@ bookmarks = {
 			focuses = {
 			
 			}
+		}
+
+		"---" = {
+			history = "Debug_gathering_storm_desc"
 		}
 
 		effect = {
