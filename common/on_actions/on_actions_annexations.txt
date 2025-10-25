@@ -42,7 +42,10 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11024 }
 			} 
-			11 = { set_variable = { annexation_target = THIS } } #Warsaw
+			11 = { #Warsaw
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13016 }
+			}
 			12 = { #Brabant
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11025 }
@@ -89,7 +92,10 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13015 }
 			} 
-			44 = { set_variable = { annexation_target = THIS } } #Katowice
+			44 = { #Katowice
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13021 }
+			} 
 			46 = { #Saxony 
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13009 }
@@ -268,10 +274,22 @@ on_actions = {
 			204 = { set_variable = { annexation_target = THIS } } #Cernauti
 			205 = { set_variable = { annexation_target = THIS } } #Bessarabia
 			209 = { set_variable = { annexation_target = THIS } } #Tesin
-			210 = { set_variable = { annexation_target = THIS } } #West Prussia
-			211 = { set_variable = { annexation_target = THIS } } #Posen
-			212 = { set_variable = { annexation_target = THIS } } #East Prussia
-			213 = { set_variable = { annexation_target = THIS } } #Masuria
+			210 = { #West Prussia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13019 }
+			} 
+			211 = { #Posen
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13020 }
+			}
+			212 = { #East Prussia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13017 }
+			}
+			213 = { #Masuria
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13018 }
+			} 
 			218 = { set_variable = { annexation_target = THIS } } #Bialystok
 			220 = { set_variable = { annexation_target = THIS } } #Chelm
 			221 = { set_variable = { annexation_target = THIS } } #Lwow

@@ -1107,11 +1107,6 @@ can_release_213 = {
 			is_subject = yes
 			214 =  { is_claim_or_core_of_ROOT = yes } #Plock
 			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
-			210 = { is_claim_or_core_of_ROOT = yes } #West Prussia
-			210 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
 			212 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
@@ -1188,9 +1183,9 @@ can_release_211 = {
 	}
 }
 
-#Upper Silesia - annexation_upper_silesia
+#Katowice - annexation_katowice
 can_release_44 = { 
-	44 = { annexations_state_is_tied_to_annexation_decision = yes } #Upper Silesia
+	44 = { annexations_state_is_tied_to_annexation_decision = yes } #Katowice
 	ROOT = {
 		OR = {
 			is_subject = yes
@@ -1215,31 +1210,6 @@ can_release_44 = {
 		should_release_poland_first = yes
 		should_release_east_prussia_first = yes
 		211 = { annexations_state_has_valid_annexation = no }
-	}
-}
-
-#Memel - annexation_memel
-can_release_229 = {
-	229 = { annexations_state_is_tied_to_annexation_decision = yes } #Memel
-	ROOT = {
-		OR = {
-			is_subject = yes
-			228 = { is_claim_or_core_of_ROOT = yes } #Samogitia
-			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
-			228 = { #Samogitia
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			212 = { #East Prussia
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_lithuania_first = yes
-		should_release_east_prussia_first = yes
-		should_release_poland_first = yes
 	}
 }
 
@@ -1550,6 +1520,31 @@ can_release_lithuania = {
 	25 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
 	NOT = { country_exists = LIT }
 	ROOT = { should_release_russia_first = yes }
+}
+
+#Memel - annexation_memel
+can_release_229 = {
+	229 = { annexations_state_is_tied_to_annexation_decision = yes } #Memel
+	ROOT = {
+		OR = {
+			is_subject = yes
+			228 = { is_claim_or_core_of_ROOT = yes } #Samogitia
+			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
+			228 = { #Samogitia
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			212 = { #East Prussia
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_east_prussia_first = yes
+		should_release_poland_first = yes
+	}
 }
 
 #Vilnius - annexation_vilnius
