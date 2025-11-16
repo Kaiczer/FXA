@@ -314,6 +314,7 @@ ideas = {
 				vanguard_socialism_acceptance = 85
 			}
 		}
+
 		revolutionary_socialism_influence = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_socialism_influence" }
 			picture = generic_syndicalism_drift_bonus
@@ -385,17 +386,19 @@ ideas = {
 				paternalism_acceptance = 85
 			}
 		}
-		revolutionary_nationalism_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea revolutionary_nationalism_influence" }
+
+		national_corporatism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea national_corporatism_influence" }
 			picture = generic_democratic_drift_bonus
 			allowed_civil_war = {
-				has_government = revolutionary_nationalism
+				has_government = national_corporatism
 			}
 			modifier = {
-				revolutionary_nationalism_drift = 0.1
-				revolutionary_nationalism_acceptance = 85
+				national_corporatism_drift = 0.1
+				national_corporatism_acceptance = 85
 			}
 		}
+
 		volkism_influence = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea volkism_influence" }
 			picture = generic_democratic_drift_bonus
@@ -420,15 +423,15 @@ ideas = {
 			}
 		}
 
-		ultrareactionism_influence = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ultrareactionism_influence" }
+		ultranationalism_influence = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea ultranationalism_influence" }
 			picture = generic_fascism_drift_bonus
 			allowed_civil_war = {
-				has_government = ultrareactionism
+				has_government = ultranationalism
 			}
 			modifier = {
-				ultrareactionism_drift = 0.1
-				ultrareactionism_acceptance = 85
+				ultranationalism_drift = 0.1
+				ultranationalism_acceptance = 85
 			}
 		}
 

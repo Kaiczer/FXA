@@ -496,8 +496,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternalism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_revolutionary_nationalism_group"
-		texturefile = "gfx/interface/ideologies/revolutionary_nationalism_group.png"
+		name = "GFX_ideology_national_corporatism_group"
+		texturefile = "gfx/interface/ideologies/national_corporatism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_volkism_group"
@@ -508,10 +508,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/despotism_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_ultrareactionism_group"
-		texturefile = "gfx/interface/ideologies/ultrareactionism_group.png"
+		name = "GFX_ideology_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/ultranationalism_group.png"
 	}
-	# Subideologies
+
+	### Subideologies ###
 	spriteType = {
 		name = "GFX_ideology_revolutionary_showaism_subtype"
 		textureFile = "gfx/interface/ideologies/subideologies/revolutionary_showaism_group.png"
@@ -520,18 +521,18 @@ spriteTypes = {
 		name = "GFX_ideology_national_bolshevism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/national_bolshevism_group.png"
 	}
-	spriteType = {
-		name = "GFX_ideology_monarchical_socialism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/monarchical_socialism_group.png"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_monarchical_socialism_subtype"
+	# 	texturefile = "gfx/interface/ideologies/subideologies/monarchical_socialism_group.png"
+	# }
 	spriteType = {
 		name = "GFX_ideology_leninism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/leninism_group.png"
 	}
-	spriteType = {
-		name = "GFX_ideology_syndicalism_subtype"
-		texturefile = "gfx/interface/ideologies/subideologies/syndicalism_group.png"
-	}
+	# spriteType = {
+	# 	name = "GFX_ideology_syndicalism_subtype"
+	# 	texturefile = "gfx/interface/ideologies/subideologies/syndicalism_group.png"
+	# }
 	spriteType = {
 		name = "GFX_ideology_socialist_feminism_subtype"
 		texturefile = "gfx/interface/ideologies/subideologies/socialist_feminism_group.png"

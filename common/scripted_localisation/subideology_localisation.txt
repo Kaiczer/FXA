@@ -1,3 +1,7 @@
+### Subideology Name and Description as a delay ui ###
+### Implemented by CaptainKaiczer ###
+
+### Get Ruling Subideology Name ###
 defined_text = {
 	name = GetSubIdeologyLoc
 	text = {
@@ -30,25 +34,27 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_government = paternalism }
-		localization_key = "[GetSubIdeologyLocAuthoritarian]"
+		localization_key = "[GetSubIdeologyLocPatNal]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_nationalism }
-		localization_key = "[GetSubIdeologyLocRevNat]"
+		trigger = { has_government = national_corporatism }
+		localization_key = "[GetSubIdeologyLocNatCor]"
 	}
 	text = {
 		trigger = { has_government = volkism }
-		localization_key = "[GetSubIdeologyLocVolkist]"
+		localization_key = "[GetSubIdeologyLocVolkism]"
 	}
 	text = {
 		trigger = { has_government = despotism }
-		localization_key = "[GetSubIdeologyLocPatAut]"
+		localization_key = "[GetSubIdeologyLocDespot]"
 	}
 	text = {
-		trigger = { has_government = ultrareactionism }
-		localization_key = "[GetSubIdeologyLocReaUlt]"
+		trigger = { has_government = ultranationalism }
+		localization_key = "[GetSubIdeologyLocUltNat]"
 	}
 }
+
+### Get Ruling Subideology Description ###
 defined_text = {
 	name = GetRulingIdeologySubtypeDesc
 	text = {
@@ -81,26 +87,27 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_government = paternalism }
-		localization_key = "[GetSubIdeologyDescAuthoritarian]"
+		localization_key = "[GetSubIdeologyDescPatNal]"
 	}
 	text = {
-		trigger = { has_government = revolutionary_nationalism }
-		localization_key = "[GetSubIdeologyDescRevNat]"
+		trigger = { has_government = national_corporatism }
+		localization_key = "[GetSubIdeologyDescNatCor]"
 	}
 	text = {
 		trigger = { has_government = volkism }
-		localization_key = "[GetSubIdeologyDescVolkist]"
+		localization_key = "[GetSubIdeologyDescVolkism]"
 	}
 	text = {
 		trigger = { has_government = despotism }
-		localization_key = "[GetSubIdeologyDescPatAut]"
+		localization_key = "[GetSubIdeologyDescDespot]"
 	}
 	text = {
-		trigger = { has_government = ultrareactionism }
-		localization_key = "[GetSubIdeologyDescReaUlt]"
+		trigger = { has_government = ultranationalism }
+		localization_key = "[GetSubIdeologyDescUltNat]"
 	}
 }
 
+### Subideology Name ###
 defined_text = {
 	name = GetSubIdeologyLocAuthSoc
 	text = {
@@ -164,7 +171,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyLocAuthoritarian
+	name = GetSubIdeologyLocPatNal
 
 	### Use the following text if you included additional subideology
 	text = {
@@ -172,26 +179,22 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyLocRevNat
+	name = GetSubIdeologyLocNatCor
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_nationalism
+		localization_key = national_corporatism
 	}
 }
 defined_text = {
-	name = GetSubIdeologyLocVolkist
-	text = {
-		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
-		localization_key = orthodox_nichirenism_subtype
-	}
+	name = GetSubIdeologyLocVolkism
 	### Use the following text if you included additional subideology
 	text = {
 		localization_key = volkism
 	}
 }
 defined_text = {
-	name = GetSubIdeologyLocPatAut
+	name = GetSubIdeologyLocDespot
 
 	### Use the following text if you included additional subideology
 	text = {
@@ -199,13 +202,15 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyLocReaUlt
+	name = GetSubIdeologyLocUltNat
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = ultrareactionism
+		localization_key = ultranationalism
 	}
 }
+
+### Subideology Description ###
 defined_text = {
 	name = GetSubIdeologyDescAuthSoc
 	text = {
@@ -269,7 +274,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyDescAuthoritarian
+	name = GetSubIdeologyDescPatNal
 
 	### Use the following text if you included additional subideology
 	text = {
@@ -277,26 +282,23 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyDescRevNat
+	name = GetSubIdeologyDescNatCor
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = revolutionary_nationalism_subtype_desc
+		localization_key = national_corporatism_subtype_desc
 	}
 }
 defined_text = {
-	name = GetSubIdeologyDescVolkist
-	text = {
-		trigger = { has_country_leader_ideology = orthodox_nichirenism_subtype }
-		localization_key = orthodox_nichirenism_subtype_desc
-	}
+	name = GetSubIdeologyDescVolkism
+
 	### Use the following text if you included additional subideology
 	text = {
 		localization_key = volkism_subtype_desc
 	}
 }
 defined_text = {
-	name = GetSubIdeologyDescPatAut
+	name = GetSubIdeologyDescDespot
 
 	### Use the following text if you included additional subideology
 	text = {
@@ -304,10 +306,10 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetSubIdeologyDescReaUlt
+	name = GetSubIdeologyDescUltNat
 
 	### Use the following text if you included additional subideology
 	text = {
-		localization_key = ultrareactionism_subtype_desc
+		localization_key = ultranationalism_subtype_desc
 	}
 }

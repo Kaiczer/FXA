@@ -29,24 +29,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_conservatism_small.png"
 	}
 	spriteType = {
-		name = "GFX_despotism_small"
-		texturefile = "gfx/interface/ideologies/despotism_small.png"
-	}
-	spriteType = {
-		name = "GFX_ultrareactionism_small"
-		texturefile = "gfx/interface/ideologies/ultrareactionism_small.png"
-	}
-	spriteType = {
 		name = "GFX_paternalism_small"
 		texturefile = "gfx/interface/ideologies/paternalism_small.png"
 	}
 	spriteType = {
-		name = "GFX_revolutionary_nationalism_small"
-		texturefile = "gfx/interface/ideologies/revolutionary_nationalism_small.png"
+		name = "GFX_national_corporatism_small"
+		texturefile = "gfx/interface/ideologies/national_corporatism_small.png"
 	}
 	spriteType = {
 		name = "GFX_volkism_small"
 		texturefile = "gfx/interface/ideologies/volkism_small.png"
+	}
+	spriteType = {
+		name = "GFX_despotism_small"
+		texturefile = "gfx/interface/ideologies/despotism_small.png"
+	}
+	spriteType = {
+		name = "GFX_ultranationalism_small"
+		texturefile = "gfx/interface/ideologies/ultranationalism_small.png"
 	}
 }
 

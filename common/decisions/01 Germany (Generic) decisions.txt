@@ -1,0 +1,76 @@
+german_unification = {
+	germany_final_mobilization = { #Every Potential Government
+
+	}
+
+	germany_declare_government = { #Strongest Potential Government
+		icon = generic_speech
+		
+		available = {
+			is_subject = no
+			has_civil_war = no
+			num_of_controlled_factories > 15
+			has_army_manpower = { size > 299999 }
+			if = {
+				limit = {
+					OR = {
+						original_tag = GER
+						original_tag = RHI
+					}
+				}
+				count_triggers = {
+					amount = 2
+					47 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+					52 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+					57 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						original_tag = NGM
+						original_tag = SGM
+						original_tag = SHO
+					}
+				}
+				OR = {
+					5 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+					51 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+			if = {
+				limit = {
+					original_tag = PRS
+					5 = {  
+						is_claim_or_core_of_ROOT = yes
+						is_owned_by = ROOT
+					}
+					NOT = { country_exists = GER }
+				}
+				count_triggers = {
+					amount = 2
+					47 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+					52 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+					57 = { is_owned_and_controlled_by_ROOT_or_subject = yes }
+				}
+			}
+		}
+
+		visible = {
+			is_germany_or_splinter_tag = yes
+			is_subject = no
+			NOT = {
+				tag = AUS
+				tag = GFD
+			}
+		}
+
+		cost = 100
+		fire_only_once = yes
+	}
+
+	germany_reunification_war = { #Legitimated Government (May bypass if any German nations sided with Major powers)
+
+	}
+
+}

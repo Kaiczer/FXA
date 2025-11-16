@@ -1,6 +1,6 @@
 # Various useful scripted effects
 # By Rylock and Alpinia
-# Repurposed by Captain Kaiczer
+# Repurposed by CaptainKaiczer
 
 # removes the country in scope from all wars (separately - it won't end the wars)
 separate_peace_all_wars = {
@@ -389,20 +389,7 @@ force_capitulate = {
 copy_government_of_ROOT = {
 	set_politics = { ruling_party = var:ROOT.current_party_ideology_group }
 	hidden_effect = {
-		set_popularities = {
-			authoritarian_socialism = ROOT.party_popularity_100@authoritarian_socialism
-			vanguard_socialism = ROOT.party_popularity_100@vanguard_socialism
-			revolutionary_socialism = ROOT.party_popularity_100@revolutionary_socialism
-			social_democracy = ROOT.party_popularity_100@social_democracy
-			social_liberalism = ROOT.party_popularity_100@social_liberalism
-			classical_liberalism = ROOT.party_popularity_100@classical_liberalism
-			social_conservatism = ROOT.party_popularity_100@social_conservatism
-			paternalism = ROOT.party_popularity_100@paternalism
-			revolutionary_nationalism = ROOT.party_popularity_100@revolutionary_nationalism
-			volkism = ROOT.party_popularity_100@volkism
-			despotism = ROOT.party_popularity_100@despotism
-			ultrareactionism = ROOT.party_popularity_100@ultrareactionism
-		}
+		copy_popularities_of_ROOT = yes
 	}
 }
 
@@ -410,20 +397,7 @@ copy_government_of_ROOT = {
 copy_government_of_PREV = {
 	set_politics = { ruling_party = var:PREV.current_party_ideology_group }
 	hidden_effect = {
-		set_popularities = {
-			authoritarian_socialism = PREV.party_popularity_100@authoritarian_socialism
-			vanguard_socialism = PREV.party_popularity_100@vanguard_socialism
-			revolutionary_socialism = PREV.party_popularity_100@revolutionary_socialism
-			social_democracy = PREV.party_popularity_100@social_democracy
-			social_liberalism = PREV.party_popularity_100@social_liberalism
-			classical_liberalism = PREV.party_popularity_100@classical_liberalism
-			social_conservatism = PREV.party_popularity_100@social_conservatism
-			paternalism = PREV.party_popularity_100@paternalism
-			revolutionary_nationalism = PREV.party_popularity_100@revolutionary_nationalism
-			volkism = PREV.party_popularity_100@volkism
-			despotism = PREV.party_popularity_100@despotism
-			ultrareactionism = PREV.party_popularity_100@ultrareactionism
-		}
+		copy_popularities_of_PREV = yes
 	}
 }
 
@@ -439,10 +413,10 @@ copy_popularities_of_ROOT = {
 			classical_liberalism = ROOT.party_popularity_100@classical_liberalism
 			social_conservatism = ROOT.party_popularity_100@social_conservatism
 			paternalism = ROOT.party_popularity_100@paternalism
-			revolutionary_nationalism = ROOT.party_popularity_100@revolutionary_nationalism
+			national_corporatism = ROOT.party_popularity_100@national_corporatism
 			volkism = ROOT.party_popularity_100@volkism
 			despotism = ROOT.party_popularity_100@despotism
-			ultrareactionism = ROOT.party_popularity_100@ultrareactionism
+			ultranationalism = ROOT.party_popularity_100@ultranationalism
 		}
 	}
 }
@@ -459,10 +433,10 @@ copy_popularities_of_PREV = {
 			classical_liberalism = PREV.party_popularity_100@classical_liberalism
 			social_conservatism = PREV.party_popularity_100@social_conservatism
 			paternalism = PREV.party_popularity_100@paternalism
-			revolutionary_nationalism = PREV.party_popularity_100@revolutionary_nationalism
+			national_corporatism = PREV.party_popularity_100@national_corporatism
 			volkism = PREV.party_popularity_100@volkism
 			despotism = PREV.party_popularity_100@despotism
-			ultrareactionism = PREV.party_popularity_100@ultrareactionism
+			ultranationalism = PREV.party_popularity_100@ultranationalism
 		}
 	}
 }
@@ -575,7 +549,7 @@ get_current_government_type = {
 	add_to_array = { original_popularities = party_popularity_100@classical_liberalism }
 	add_to_array = { original_popularities = party_popularity_100@social_conservatism }
 	add_to_array = { original_popularities = party_popularity_100@paternalism }
-	add_to_array = { original_popularities = party_popularity_100@revolutionary_nationalism }
+	add_to_array = { original_popularities = party_popularity_100@national_corporatism }
 	add_to_array = { original_popularities = party_popularity_100@volkism }
 	add_to_array = { original_popularities = party_popularity_100@despotism }
 
@@ -652,10 +626,10 @@ restore_previous_government_type = {
 				classical_liberalism = original_popularities^5
 				social_conservatism = original_popularities^6
 				paternalism = original_popularities^7
-				revolutionary_nationalism = original_popularities^8
+				national_corporatism = original_popularities^8
 				volkism = original_popularities^9
 				despotism = original_popularities^10
-				ultrareactionism = original_popularities^11
+				ultranationalism = original_popularities^11
 			}
 			clear_array = original_popularities
 		}

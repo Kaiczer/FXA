@@ -9,13 +9,11 @@ puppet_country_without_changing_government = {
 clear_government_flags = {
 	clr_country_flag = is_socialist
 	clr_country_flag = is_democratic
-	clr_country_flag = is_nationalist
+	clr_country_flag = is_authoritarian
 
 	clr_country_flag = is_revolutionary
-	clr_country_flag = is_authoritarian
-	clr_country_flag = is_reactionary
-
 	clr_country_flag = is_elected
+	
 	clr_country_flag = is_dictatorship
 
 	clr_country_flag = is_classic_democratic
@@ -28,7 +26,6 @@ set_government_flags = {
 		limit = { has_government = authoritarian_socialism }
 		set_country_flag = is_socialist
 		set_country_flag = is_authoritarian
-		set_country_flag = is_dictatorship
 	}
 	else_if = {
 		limit = {
@@ -44,47 +41,23 @@ set_government_flags = {
 		limit = {
 			OR = {
 				has_government = paternalism
-				has_government = revolutionary_nationalism
+				has_government = national_corporatism
 				has_government = volkism
 				has_government = despotism
-				has_government = ultrareactionism
-			}
-		}
-		set_country_flag = is_nationalist
-	}
-	else_if = {
-		limit = {
-			OR = {
-				has_government = volkism
-				has_government = despotism
-				has_government = ultrareactionism
-			}
-		}
-		set_country_flag = is_dictatorship
-	}
-	else_if = {
-		limit = {
-			OR = {
-				has_government = paternalism
-				has_government = volkism
+				has_government = ultranationalism
 			}
 		}
 		set_country_flag = is_authoritarian
 	}
 	else_if = {
 		limit = {
-			has_government = revolutionary_nationalism
-		}
-		set_country_flag = is_revolutionary
-	}
-	else_if = {
-		limit = {
 			OR = {
+				has_government = volkism
 				has_government = despotism
-				has_government = ultrareactionism
+				has_government = ultranationalism
 			}
 		}
-		set_country_flag = is_reactionary
+		set_country_flag = is_dictatorship
 	}
 	else = {
 		set_country_flag = is_elected
@@ -107,7 +80,7 @@ set_government_flags = {
 set_default_government = {
 	if = {
 		limit = {
-			has_elections = no
+			has_authoritarian_government = yes
 		}
 		add_ideas = {
 			unitary_state
@@ -120,7 +93,7 @@ set_default_government = {
 			cultural_hegemony
 		}
 	}
-	if = {
+	else_if = {
 		limit = {
 			is_monarchy = yes
 		}
@@ -135,7 +108,7 @@ set_default_government = {
 			homogeneous_culture
 		}
 	}
-	if = {
+	else_if = {
 		limit = {
 			has_socialist_government = yes
 		}
@@ -150,7 +123,10 @@ set_default_government = {
 			cultural_autonomy
 		}
 	}
-	else = {
+	else_if = {
+		limit = { 
+			has_elected_government = yes
+		}
 		add_ideas = {
 			unitary_state
 			presidential_republic

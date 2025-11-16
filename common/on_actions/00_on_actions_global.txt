@@ -375,14 +375,14 @@ on_actions = {
 									OR = {
 										has_government = paternalism
 										has_government = despotism
-										has_government = revolutionary_nationalism
+										has_government = national_corporatism
 										has_government = volkism
 									}
 									PREV = {
 										OR = {
 											has_government = paternalism
 											has_government = despotism
-											has_government = revolutionary_nationalism
+											has_government = national_corporatism
 											has_government = volkism
 										}
 									}
@@ -414,12 +414,12 @@ on_actions = {
 									PREV = { has_government = despotism }
 								}
 								AND = {
-									has_government = ultrareactionism
+									has_government = ultranationalism
 									PREV = {
 										OR = {
 											has_government = social_conservatism
 											has_government = paternalism
-											has_government = revolutionary_nationalism
+											has_government = national_corporatism
 											has_government = volkism
 										}
 									}
@@ -428,10 +428,10 @@ on_actions = {
 									OR = {
 										has_government = social_conservatism
 										has_government = paternalism
-										has_government = revolutionary_nationalism
+										has_government = national_corporatism
 										has_government = volkism
 									}
-									PREV = { has_government = ultrareactionism }
+									PREV = { has_government = ultranationalism }
 								}
 							}
 						}
@@ -997,7 +997,7 @@ on_actions = {
 								ROOT = { has_government = despotism }
 							}
 							AND = {
-								has_government = ultrareactionism
+								has_government = ultranationalism
 								ROOT = {
 									OR = {
 										has_government = social_conservatism
@@ -1010,7 +1010,7 @@ on_actions = {
 									has_government = social_conservatism
 									has_government = paternalism
 								}
-								ROOT = { has_government = ultrareactionism }
+								ROOT = { has_government = ultranationalism }
 							}
 						}
 					}
@@ -1518,8 +1518,8 @@ on_actions = {
 				}
 			}
 			else_if = {
-				limit = { FROM = { has_government = ultrareactionism } }
-				set_temp_variable = { liberated_government = token:ultrareactionism }
+				limit = { FROM = { has_government = ultranationalism } }
+				set_temp_variable = { liberated_government = token:ultranationalism }
 			}
 			if = {
 				limit = { has_variable = liberated_elections }
