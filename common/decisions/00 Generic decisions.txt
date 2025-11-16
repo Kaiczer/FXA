@@ -7,22 +7,22 @@ political_actions = {
 			trigger = { has_socialist_government = yes }
 		}
 
-		#Democratic -> 'Legislate More Freedoms'
+		#Liberal -> 'Legislate More Freedoms'
 		icon = {
 			key = generic_civil_support
-			trigger = { has_democratic_government = yes }
+			trigger = { has_progressive_democratic_government = yes }
 		}
 
-		#Authoritarian -> 'Police Crackdown'
+		#Conservative -> 'Police Crackdown'
 		icon = {
 			key = oppression
-			trigger = { has_non_reactionary_right_government = yes }
+			trigger = { has_classic_democratic_government = yes }
 		}
 
-		#Reactionary -> 'Send in the Army'
+		#Authoritarian -> 'Send in the Army'
 		icon = {
 			key = generic_army_support
-			trigger = { has_any_reactionary_government = yes }
+			trigger = { has_authoritarian_government = yes }
 		}
 
 		available = {
@@ -383,7 +383,7 @@ crisis = {
 				}
 			}
 			if = {
-				limit = { original_tag = ฆฯฮ }
+				limit = { original_tag = SOV }
 				OR = {
 					FRA = { NOT = { has_war_with = GER } }
 					FRA = { has_capitulated = yes }

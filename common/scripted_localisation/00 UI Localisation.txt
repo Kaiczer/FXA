@@ -70,9 +70,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = revolutionary_nationalism
+			has_government = national_corporatism
 		}
-		localization_key = revolutionary_nationalism_subtype_desc
+		localization_key = national_corporatism_subtype_desc
 	}
 	text = {
 		trigger = {
@@ -88,9 +88,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = ultrareactionism
+			has_government = ultranationalism
 		}
-		localization_key = ultrareactionism_subtype_desc
+		localization_key = ultranationalism_subtype_desc
 	}
 }
 defined_text = {
@@ -281,12 +281,12 @@ defined_text = {
 	text = {
 		trigger = {
 			NOT = {
-				has_government = revolutionary_nationalism
-				check_variable = { political_power_ideology = token:revolutionary_nationalism }
+				has_government = national_corporatism
+				check_variable = { political_power_ideology = token:national_corporatism }
 			}
-			is_in_array = { ROOT.coalition_partners = token:revolutionary_nationalism }
+			is_in_array = { ROOT.coalition_partners = token:national_corporatism }
 		}
-		localization_key = party_pop_coalition_revolutionary_nationalism
+		localization_key = party_pop_coalition_national_corporatism
 	}
 	text = {
 		localization_key = empty
@@ -328,10 +328,10 @@ defined_text = {
 	name = GetCoalitionUltRea
 	text = {
 		trigger = {
-			NOT = { has_government = ultrareactionism }
-			is_in_array = { ROOT.coalition_partners = token:ultrareactionism }
+			NOT = { has_government = ultranationalism }
+			is_in_array = { ROOT.coalition_partners = token:ultranationalism }
 		}
-		localization_key = party_pop_coalition_ultrareactionism
+		localization_key = party_pop_coalition_ultranationalism
 	}
 	text = {
 		localization_key = empty
@@ -385,13 +385,13 @@ defined_text = {
 		trigger = {
 			check_variable = { coalition_partner_var = token:paternalism }
 		}
-		localization_key = colour_auth
+		localization_key = colour_patnal
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:revolutionary_nationalism }
+			check_variable = { coalition_partner_var = token:national_corporatism }
 		}
-		localization_key = colour_revnat
+		localization_key = colour_natcor
 	}
 	text = {
 		trigger = {
@@ -403,13 +403,13 @@ defined_text = {
 		trigger = {
 			check_variable = { coalition_partner_var = token:despotism }
 		}
-		localization_key = colour_pataut
+		localization_key = colour_despot
 	}
 	text = {
 		trigger = {
-			check_variable = { coalition_partner_var = token:ultrareactionism }
+			check_variable = { coalition_partner_var = token:ultranationalism }
 		}
-		localization_key = colour_reault
+		localization_key = colour_ultnat
 	}
 }
 
@@ -474,11 +474,11 @@ defined_text = {
 		localization_key = generic_raise_stability_democratic
 	}
 	text = {
-		trigger = { has_any_reactionary_government = yes } 
-		localization_key = generic_raise_stability_reactionary
+		trigger = { has_dictatorship_government = yes } 
+		localization_key = generic_raise_stability_dictatorship
 	}
 	text = {
-		localization_key = generic_raise_stability_authoritarian
+		localization_key = generic_raise_stability_conservative
 	}
 }
 
@@ -493,11 +493,11 @@ defined_text = {
 		localization_key = generic_raise_stability_democratic_desc
 	}
 	text = {
-		trigger = { has_any_reactionary_government = yes } 
-		localization_key = generic_raise_stability_reactionary_desc
+		trigger = { has_dictatorship_government = yes } 
+		localization_key = generic_raise_stability_dictatorship_desc
 	}
 	text = {
-		localization_key = generic_raise_stability_authoritarian_desc
+		localization_key = generic_raise_stability_conservative_desc
 	}
 }
 

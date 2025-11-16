@@ -35,14 +35,14 @@ create_faction = bruderschaftskreis
 set_popularities = {
 	authoritarian_socialism = 7
 	volkism = 40
-	revolutionary_nationalism = 11
-	ultrareactionism = 11
+	national_corporatism = 11
+	ultranationalism = 11
 	despotism = 4
 	paternalism = 15
 	social_conservatism = 12
 }
 add_coalition_social_conservatism = yes 
-add_coalition_revolutionary_nationalism = yes
+add_coalition_national_corporatism = yes
 add_coalition_authoritarian_socialism = yes
 
 set_politics = {	

@@ -146,10 +146,10 @@ end_coalition = {
 	clear_variable = is_in_coalition_with_@token:classical_liberalism
 	clear_variable = is_in_coalition_with_@token:social_conservatism
 	clear_variable = is_in_coalition_with_@token:paternalism
-	clear_variable = is_in_coalition_with_@token:revolutionary_nationalism
+	clear_variable = is_in_coalition_with_@token:national_corporatism
 	clear_variable = is_in_coalition_with_@token:volkism
 	clear_variable = is_in_coalition_with_@token:despotism
-	clear_variable = is_in_coalition_with_@token:ultrareactionism
+	clear_variable = is_in_coalition_with_@token:ultranationalism
 }
 
 change_ruling_party_popularity = {
@@ -178,7 +178,7 @@ save_current_party_popularities = {
 	add_to_temp_array = { saved_popularities = party_popularity_100@classical_liberalism }
 	add_to_temp_array = { saved_popularities = party_popularity_100@social_conservatism }
 	add_to_temp_array = { saved_popularities = party_popularity_100@paternalism }
-	add_to_temp_array = { saved_popularities = party_popularity_100@revolutionary_nationalism }
+	add_to_temp_array = { saved_popularities = party_popularity_100@national_corporatism }
 	add_to_temp_array = { saved_popularities = party_popularity_100@volkism }
 	add_to_temp_array = { saved_popularities = party_popularity_100@despotism }
 
@@ -187,7 +187,7 @@ save_current_party_popularities = {
 		array = saved_popularities
 		subtract_from_temp_variable = { sum = v }
 	}
-	add_to_temp_array = { saved_popularities = sum } #last value (reault), calculated directly to avoid rounding errors
+	add_to_temp_array = { saved_popularities = sum } #last value (ultranationalism), calculated directly to avoid rounding errors
 }
 
 add_coalition_authoritarian_socialism = {
@@ -222,8 +222,8 @@ add_coalition_paternalism = {
 	set_temp_variable = { coalition_partner_var = token:paternalism }
 	add_to_coalition = yes
 }
-add_coalition_revolutionary_nationalism = {
-	set_temp_variable = { coalition_partner_var = token:revolutionary_nationalism }
+add_coalition_national_corporatism = {
+	set_temp_variable = { coalition_partner_var = token:national_corporatism }
 	add_to_coalition = yes
 }
 add_coalition_volkism = {
@@ -234,10 +234,12 @@ add_coalition_despotism = {
 	set_temp_variable = { coalition_partner_var = token:despotism }
 	add_to_coalition = yes
 }
-add_coalition_ultrareactionism = {
-	set_temp_variable = { coalition_partner_var = token:ultrareactionism }
+add_coalition_ultranationalism = {
+	set_temp_variable = { coalition_partner_var = token:ultranationalism }
 	add_to_coalition = yes
 }
+
+### Remove from Coalition ###
 remove_coalition_authoritarian_socialism = {
 	set_temp_variable = { coalition_partner_var = token:authoritarian_socialism }
 	remove_from_coalition = yes
@@ -270,8 +272,8 @@ remove_coalition_paternalism = {
 	set_temp_variable = { coalition_partner_var = token:paternalism }
 	remove_from_coalition = yes
 }
-remove_coalition_revolutionary_nationalism = {
-	set_temp_variable = { coalition_partner_var = token:revolutionary_nationalism }
+remove_coalition_national_corporatism = {
+	set_temp_variable = { coalition_partner_var = token:national_corporatism }
 	remove_from_coalition = yes
 }
 remove_coalition_volkism = {
@@ -282,7 +284,7 @@ remove_coalition_despotism = {
 	set_temp_variable = { coalition_partner_var = token:despotism }
 	remove_from_coalition = yes
 }
-remove_coalition_ultrareactionism = {
-	set_temp_variable = { coalition_partner_var = token:ultrareactionism }
+remove_coalition_ultranationalism = {
+	set_temp_variable = { coalition_partner_var = token:ultranationalism }
 	remove_from_coalition = yes
 }

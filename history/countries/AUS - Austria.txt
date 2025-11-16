@@ -35,11 +35,11 @@ set_popularities = {
 	classical_liberalism = 3
 	social_conservatism = 15
 	paternalism = 10
-	revolutionary_nationalism = 61
+	national_corporatism = 61
 	despotism = 2
 }
 set_politics = {	
-	ruling_party = revolutionary_nationalism
+	ruling_party = national_corporatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no

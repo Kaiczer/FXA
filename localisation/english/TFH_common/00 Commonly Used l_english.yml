@@ -132,7 +132,6 @@ colour_autdem: "g"
 colour_pataut: "P"
 colour_natpop: "N"
 colour_alt_green: "n"
-colour_mustard: "M"
 
 ### Day of the Week ### (for use in scripted loc)
 day_sunday: "Sunday"
@@ -472,8 +471,10 @@ social_liberalism_drift_tooltip: "$social_liberalism_drift$: $RIGHT|+=$"
 classical_liberalism_drift_tooltip: "$classical_liberalism_drift$: $RIGHT|+=$"
 social_conservatism_drift_tooltip: "$social_conservatism_drift$: $RIGHT|+=$"
 paternalism_drift_tooltip: "$paternalism_drift$: $RIGHT|+=$"
+national_corporatism_drift_tooltip: "$national_corporatism_drift$: $RIGHT|+=$"
+volkism_drift_tooltip: "$volkism_drift$: $RIGHT|+=$"
 despotism_drift_tooltip: "$despotism_drift$: $RIGHT|+=$"
-ultrareactionism_drift_tooltip: "$ultrareactionism_drift$: $RIGHT|+=$"
+ultranationalism_drift_tooltip: "$ultranationalism_drift$: $RIGHT|+=$"
 
 ### check_variable Tooltips ###
 more_owned_states_than_tooltip: "More owned states than $RIGHT|Y0$"

@@ -7,15 +7,6 @@ previous_government_was_socialist = {
 	}
 }
 
-previous_government_was_elected = {
-	OR = {
-		check_variable = { old_ideology_token = token:social_democracy }
-		check_variable = { old_ideology_token = token:social_liberalism }
-		check_variable = { old_ideology_token = token:classical_liberalism }
-		check_variable = { old_ideology_token = token:social_conservatism }
-	}
-}
-
 previous_government_was_democratic = {
 	OR = {
 		check_variable = { old_ideology_token = token:social_democracy }
@@ -26,13 +17,13 @@ previous_government_was_democratic = {
 	}
 }
 
-previous_government_was_paternalism = {
+previous_government_was_authoritarian = {
 	OR = {
 		check_variable = { old_ideology_token = token:paternalism }
-		check_variable = { old_ideology_token = token:revolutionary_nationalism }
+		check_variable = { old_ideology_token = token:national_corporatism }
 		check_variable = { old_ideology_token = token:volkism }
 		check_variable = { old_ideology_token = token:despotism }
-		check_variable = { old_ideology_token = token:ultrareactionism }
+		check_variable = { old_ideology_token = token:ultranationalism }
 	}
 }
 
@@ -40,7 +31,16 @@ previous_government_was_dictatorship = {
 	OR = {
 		check_variable = { old_ideology_token = token:volkism }
 		check_variable = { old_ideology_token = token:despotism }
-		check_variable = { old_ideology_token = token:ultrareactionism }
+		check_variable = { old_ideology_token = token:ultranationalism }
+	}
+}
+
+previous_government_was_elected = {
+	OR = {
+		check_variable = { old_ideology_token = token:social_democracy }
+		check_variable = { old_ideology_token = token:social_liberalism }
+		check_variable = { old_ideology_token = token:classical_liberalism }
+		check_variable = { old_ideology_token = token:social_conservatism }
 	}
 }
 
@@ -58,14 +58,14 @@ previous_government_was_right_democratic = {
 	}
 }
 
-previous_government_was_any_paternalism = {
+previous_government_was_any_authoritarian = {
 	OR = {
 		check_variable = { old_ideology_token = token:authoritarian_socialism }
 		check_variable = { old_ideology_token = token:paternalism }
-		check_variable = { old_ideology_token = token:revolutionary_nationalism }
+		check_variable = { old_ideology_token = token:national_corporatism }
 		check_variable = { old_ideology_token = token:volkism }
 		check_variable = { old_ideology_token = token:despotism }
-		check_variable = { old_ideology_token = token:ultrareactionism }
+		check_variable = { old_ideology_token = token:ultranationalism }
 	}
 }
 
@@ -101,8 +101,8 @@ previous_government_was_paternalism = {
 	check_variable = { old_ideology_token = token:paternalism }
 }
 
-previous_government_was_revolutionary_nationalism = {
-	check_variable = { old_ideology_token = token:revolutionary_nationalism }
+previous_government_was_national_corporatism = {
+	check_variable = { old_ideology_token = token:national_corporatism }
 }
 
 previous_government_volkism = {
@@ -113,6 +113,6 @@ previous_government_was_despotism = {
 	check_variable = { old_ideology_token = token:despotism }
 }
 
-previous_government_was_ultrareactionism = {
-	check_variable = { old_ideology_token = token:ultrareactionism }
+previous_government_was_ultranationalism = {
+	check_variable = { old_ideology_token = token:ultranationalism }
 }

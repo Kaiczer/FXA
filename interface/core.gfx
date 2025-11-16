@@ -794,18 +794,15 @@ bitmapfonts = {
 		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
 
 		### KR added colours
-		o = { 187 0 0 }		# Totalist Dark Red
-		r = { 255 0 0 }		# Syndicalist Bright Red
+		o = { 187 0 0 }		# AuthSoc Dark Red
+		r = { 255 0 0 }		# VanSoc Bright Red
 		S = { 243 65 126 }	# SocDem Magenta
 		l = { 246 139 31 } 	# SocLib Orange
-		m = { 245 217 0 }	# MarLib Yellow
+		m = { 245 217 0 }	# ClsLib Yellow
 		c = { 75 97 209 }	# SocCon Blue (Savoy blue, for dark backgrounds)
-		P = { 112 110 125 }	# PatAut Dark Grey
-		N = { 167 89 37 }	# NatPop Brown
+		P = { 112 110 125 }	# Despot Dark Grey
+		N = { 167 89 37 }	# NatCor Brown
 		n = { 65 125 85 }	# Alternate paler Green
-		M = { 204 163 51 }	# Mustard (copy of Gradient Step 8)
-		x = { 168 0 75 }	# Maximist Red
-		p = { 255 119 196 }	#Pink
 	}
 
 

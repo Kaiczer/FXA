@@ -59,10 +59,10 @@ paternalism_plurality = {
 	}
 }
 
-revolutionary_nationalism_plurality = {
+national_corporatism_plurality = {
 	check_variable = {
-		tooltip = revolutionary_nationalism_plurality
-		highest_party_ideology = token:revolutionary_nationalism
+		tooltip = national_corporatism_plurality
+		highest_party_ideology = token:national_corporatism
 	}
 }
 
@@ -80,9 +80,9 @@ despotism_plurality = {
 	}
 }
 
-ultrareactionism_plurality = {
+ultranationalism_plurality = {
 	check_variable = {
-		tooltip = ultrareactionism_plurality
-		highest_party_ideology = token:ultrareactionism
+		tooltip = ultranationalism_plurality
+		highest_party_ideology = token:ultranationalism
 	}
 }

@@ -6,109 +6,225 @@ has_same_government_as_ROOT = {
 
 # checks for country in scope of three socialist-based ideologies
 has_socialist_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_socialist #uses custom trigger to allow for a _NOT tooltip - see Political_l_english
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = authoritarian_socialism
+				NEXT_ITEM = {
+					localization_key = key_loc_grammar_or
+					ITEM = vanguard_socialism
+					NEXT_ITEM = revolutionary_socialism
+				}
+			}
+		}
 		has_country_flag = is_socialist
 	}
 }
 
 # checks for country in scope of four democratic-based ideologies
 has_democratic_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_democratic
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = social_democracy
+				NEXT_ITEM = {
+					localization_key = key_loc_punc_comma
+					ITEM = social_liberalism
+					NEXT_ITEM = {
+						localization_key = key_loc_grammar_or
+						ITEM = classical_liberalism
+						NEXT_ITEM = social_conservatism
+					}
+				}
+			}
+		}
 		has_country_flag = is_democratic
 	}
 }
 
-# checks for country in scope of five nationalist-based ideologies
-has_nationalist_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_nationalist
-		has_country_flag = is_nationalist
+# checks for country in scope of five authoritarian-based ideologies
+has_authoritarian_government = {
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = paternalism
+				NEXT_ITEM = {
+					localization_key = key_loc_punc_comma
+					ITEM = national_corporatism
+					NEXT_ITEM = {
+						localization_key = key_loc_punc_comma
+						ITEM = volkism
+						NEXT_ITEM = {
+							localization_key = key_loc_grammar_or
+							ITEM = despotism
+							NEXT_ITEM = ultranationalism
+						}
+					}
+				}
+			}
+		}
+		has_country_flag = is_authoritarian
+		NOT = { has_country_flag = is_socialist }
 	}
 }
 
 # checks for country in scope of authoritarian-based ideologies (left-right ignores)
 has_any_authoritarian_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_any_authoritarian
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_grammar_or
+				ITEM = authoritarian_socialism
+				NEXT_ITEM = {
+					localization_key = key_loc_grammar_or
+					ITEM = paternalism
+					NEXT_ITEM = {
+						localization_key = key_loc_grammar_or
+						ITEM = national_corporatism
+						NEXT_ITEM = {
+							localization_key = key_loc_grammar_or
+							ITEM = volkism
+							NEXT_ITEM = {
+								localization_key = key_loc_punc_comma
+								ITEM = despotism
+								NEXT_ITEM = ultranationalism
+							}
+						}
+					}
+				}
+			}
+		}
 		has_country_flag = is_authoritarian
-	}
-}
-
-# checks for country in scope of right-authoritarian-based ideologies
-has_right_authoritarian_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_right_authoritarian
-		has_country_flag = is_nationalist
-		has_country_flag = is_authoritarian
-	}
-}
-
-# checks for country in scope of non-reactionary right-based ideologies
-has_non_reactionary_right_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_non_reactionary_right
-		has_country_flag = is_revolutionary
-		has_country_flag = is_nationalist
-		has_right_authoritarian_government = yes
-	}
-}
-
-# checks for country in scope of reactionary-based ideologies (left-right ignores)
-has_any_reactionary_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_any_reactionary
-		has_country_flag = is_reactionary
-	}
-}
-
-# checks for country in scope of revolutionary-based ideologies (left-right ignores)
-has_any_revolutionary_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_any_revolutionary
-		has_country_flag = is_revolutionary
-	}
-}
-
-# checks for country in scope of left-revolutionary-based ideologies
-has_left_revolutionary_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_left_revolutionary
-		has_country_flag = is_socialist
-		has_country_flag = is_revolutionary
-	}
-}
-
-# checks for country in scope of elected-based ideologies
-has_elected_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_elected
-		has_country_flag = is_elected
 	}
 }
 
 # checks for country in scope of dictatorship-based ideologies
 has_dictatorship_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_any_dictatorship
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_grammar_or
+				ITEM = volkism
+				NEXT_ITEM = {
+					localization_key = key_loc_punc_comma
+					ITEM = despotism
+					NEXT_ITEM = ultranationalism
+				}
+			}
+		}
 		has_country_flag = is_dictatorship
+	}
+}
+
+# checks for country in scope of revolutionary-based ideologies 
+has_revolutionary_government = {
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = vanguard_socialism
+				NEXT_ITEM = revolutionary_socialism
+			}
+		}
+		has_country_flag = is_revolutionary
+	}
+}
+
+# checks for country in scope of non-aligned based ideologies
+has_non_aligned_government = {
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_grammar_or
+				ITEM = paternalism
+				NEXT_ITEM = despotism
+			}
+		}
+		OR = {
+			has_government = paternalism
+			has_government = despotism
+		}
+	}
+}
+
+# checks for country in scope of elected-based ideologies
+has_elected_government = {
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_grammar_or 
+				ITEM = social_democracy
+				NEXT_ITEM = {
+					localization_key = key_loc_grammar_or
+					ITEM = social_liberalism
+					NEXT_ITEM = {
+						localization_key = key_loc_punc_comma
+						ITEM = classical_liberalism
+						NEXT_ITEM = social_conservatism
+					}
+				}
+			}
+		}
+		has_country_flag = is_elected
 	}
 }
 
 # checks for country in scope of classic democratic-based ideologies
 has_classic_democratic_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_classic_democratic
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = classical_liberalism
+				NEXT_ITEM = social_conservatism
+			}
+		}
 		has_country_flag = is_classic_democratic
 	}
 }
 
 # checks for country in scope of progressive democratic-based ideologies
 has_progressive_democratic_government = {
-	custom_trigger_tooltip = {
-		tooltip = TFH_is_progressive_democratic
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = social_democracy
+				NEXT_ITEM = social_liberalism
+			}
+		}
 		has_country_flag = is_progressive_democratic
+	}
+}
+
+# checks for country in scope of conservative-based ideologies
+has_conservative_government = {
+	custom_override_tooltip = {
+		tooltip = {
+			localization_key = key_loc_has_government
+			IDEOLOGY = {
+				localization_key = key_loc_punc_comma
+				ITEM = social_conservatism
+				NEXT_ITEM = paternalism
+			}
+		}
+		OR = {
+			has_government = social_conservatism
+			has_government = paternalism
+		}
 	}
 }
 
@@ -163,10 +279,12 @@ is_in_coalition_with_paternalism = {
 	set_temp_variable = { coalition_target = token:paternalism }
 	has_coalition_with_target = yes
 }
-is_in_coalition_with_revolutionary_nationalism = {
-	set_temp_variable = { coalition_target = token:revolutionary_nationalism }
+
+is_in_coalition_with_national_corporatism = {
+	set_temp_variable = { coalition_target = token:national_corporatism }
 	has_coalition_with_target = yes
 }
+
 is_in_coalition_with_volkism = {
 	set_temp_variable = { coalition_target = token:volkism }
 	has_coalition_with_target = yes
@@ -177,8 +295,8 @@ is_in_coalition_with_despotism = {
 	has_coalition_with_target = yes
 }
 
-is_in_coalition_with_ultrareactionism = {
-	set_temp_variable = { coalition_target = token:ultrareactionism }
+is_in_coalition_with_ultranationalism = {
+	set_temp_variable = { coalition_target = token:ultranationalism }
 	has_coalition_with_target = yes
 }
 
@@ -195,8 +313,8 @@ same_government_type_as_ROOT = {
 			ROOT = { has_democratic_government = yes }
 		}
 		AND = {
-			has_dictatorship_government = yes
-			ROOT = { has_dictatorship_government = yes }
+			has_authoritarian_government = yes
+			ROOT = { has_authoritarian_government = yes }
 		}
 	}
 }
