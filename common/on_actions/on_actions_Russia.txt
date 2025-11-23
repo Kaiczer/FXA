@@ -15,24 +15,24 @@ on_actions = {
 
 			#Central Asian integration
 			KAZ = {
-				TMS = { enable_coring_at_fifty_compliance = yes }
-				UZB = { enable_coring_at_fifty_compliance = yes }
-				KYR = { enable_coring_at_fifty_compliance = yes }
+				TMS = { enable_country_integration_80_compliance = yes }
+				UZB = { enable_country_integration_80_compliance = yes }
+				KYR = { enable_country_integration_80_compliance = yes }
 			}
 			UZB = {
-				KAZ = { enable_coring_at_fifty_compliance = yes }
-				TMS = { enable_coring_at_fifty_compliance = yes }
-				KYR = { enable_coring_at_fifty_compliance = yes }
+				KAZ = { enable_country_integration_80_compliance = yes }
+				TMS = { enable_country_integration_80_compliance = yes }
+				KYR = { enable_country_integration_80_compliance = yes }
 			}
 			TMS = {
-				KAZ = { enable_coring_at_fifty_compliance = yes }
-				UZB = { enable_coring_at_fifty_compliance = yes }
-				KYR = { enable_coring_at_fifty_compliance = yes }
+				KAZ = { enable_country_integration_80_compliance = yes }
+				UZB = { enable_country_integration_80_compliance = yes }
+				KYR = { enable_country_integration_80_compliance = yes }
 			}
 			KYR = {
-				KAZ = { enable_coring_at_fifty_compliance = yes }
-				TMS = { enable_coring_at_fifty_compliance = yes }
-				UZB = { enable_coring_at_fifty_compliance = yes }
+				KAZ = { enable_country_integration_80_compliance = yes }
+				TMS = { enable_country_integration_80_compliance = yes }
+				UZB = { enable_country_integration_80_compliance = yes }
 			}
 		}
 	}

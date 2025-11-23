@@ -1,0 +1,39 @@
+on_actions = {
+	on_startup = { # Set 50% integration effect at game start
+		effect = {
+			every_state = {
+				limit = { is_full_germany = yes }
+				if = {
+					limit = { 
+						OR = {
+							is_germany = yes
+							state = 212 # East Prussia
+						}
+					}
+					GER = { PREV = { enable_state_integration_50_compliance = yes } }
+					GFD = { PREV = { enable_state_integration_50_compliance = yes } }
+					NGM = { PREV = { enable_state_integration_50_compliance = yes } }
+					SGM = { PREV = { enable_state_integration_50_compliance = yes } }
+					RHI = {
+						if = {
+							limit = { NOT = { has_country_flag = GER_CONFED } }
+							PREV = { enable_state_integration_50_compliance = yes }
+						}
+					}
+				}
+				else = {
+					GER = { PREV = { enable_state_integration_80_compliance = yes } }
+					GFD = { PREV = { enable_state_integration_80_compliance = yes } }
+					NGM = { PREV = { enable_state_integration_80_compliance = yes } }
+					SGM = { PREV = { enable_state_integration_80_compliance = yes } }
+					RHI = {
+						if = {
+							limit = { NOT = { has_country_flag = GER_CONFED } }
+							PREV = { enable_state_integration_80_compliance = yes }
+						}
+					}
+				}
+			}
+		}
+	}
+}

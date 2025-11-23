@@ -1213,6 +1213,99 @@ can_release_44 = {
 	}
 }
 
+#Bialystok - annexation_bialystok
+can_release_218 = {
+	218 = { annexations_state_is_tied_to_annexation_decision = yes } #Bialystok
+	ROOT = {
+		OR = {
+			is_subject = yes
+			214 = { is_claim_or_core_of_ROOT = yes } #Plock
+			234 = { is_claim_or_core_of_ROOT = yes } #Novogrudok
+			214 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			234 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			} 
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_belarus_first = yes
+	}
+}
+
+#Sudovia - annexation_sudovia
+can_release_230 = {
+	230 = { annexations_state_is_tied_to_annexation_decision = yes } #Sudovia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			25 = { is_claim_or_core_of_ROOT = yes } #Kaunas
+			25 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+	}
+}
+
+#Suwalki - annexation_suwalki
+can_release_232 = {
+	232 = { annexations_state_is_tied_to_annexation_decision = yes } #Suwalki
+	ROOT = {
+		OR = {
+			is_subject = yes
+			218 = { is_claim_or_core_of_ROOT = yes } #Bialystok
+			230 = { is_claim_or_core_of_ROOT = yes } #Sudovia
+			218 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			230 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_poland_first = yes
+		should_release_belarus_first = yes
+		218 = { annexations_state_has_valid_annexation = no } #Bialystok
+		230 = { annexations_state_has_valid_annexation = no } #Sudovia
+	}
+}
+
+#Volhynia - annexation_volhynia
+can_release_240 = {
+	240 = { annexations_state_is_tied_to_annexation_decision = yes } #Volhynia
+	ROOT = {
+		OR = {
+			is_subject = yes
+			220 = { is_claim_or_core_of_ROOT = yes } #Chelm
+			241 = { is_claim_or_core_of_ROOT = yes } #Pohoryn
+			220 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_ukraine_first = yes
+	}
+}
+
 #Czechia - annexation_czechia
 can_release_8 = { 
 	8 = { annexations_state_is_tied_to_annexation_decision = yes } #Prague
