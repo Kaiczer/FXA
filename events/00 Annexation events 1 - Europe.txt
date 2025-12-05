@@ -18,7 +18,7 @@
 add_namespace = annex
 
 #####################################
-##   W E S T E R N   E U R O P E   ##
+###  W E S T E R N   E U R O P E  ###
 #####################################
 
 country_event = { #Fate of Great Britain
@@ -4766,9 +4766,9 @@ country_event = { #Fate of Eupen
 	}
 }
 
-#####################################
-##  S O U T H E R N   E U R O P E  ##
-#####################################
+#######################################
+###  S O U T H E R N   E U R O P E  ###
+#######################################
 
 country_event = { # Fate of Rome
 	id = annex.12001
@@ -6611,9 +6611,9 @@ country_event = { # Fate of Aosta Valley
 	}
 }
 
-###################################
-##  C E N T R A L   E U R O P E  ##
-###################################
+#####################################
+###  C E N T R A L   E U R O P E  ###
+#####################################
 
 country_event = { # Fate of Switzerland
 	id = annex.13001
@@ -11006,8 +11006,10 @@ country_event = { # Fate of Slovakia
 			transfer_state_and_notify = yes
 		}
 		var:tag_to_release = {
-			limit = { original_tag = CZE }
-			set_cosmetic_tag = CZSL
+			if = {
+				limit = { original_tag = CZE }
+				set_cosmetic_tag = CZSL
+			}
 		}
 	}
 
@@ -11514,3 +11516,94 @@ country_event = { # Fate of Hungary
 		recheck_annexations = yes 
 	}
 }
+
+#####################################
+### N O R T H E R N   E U R O P E ###
+#####################################
+
+country_event = { # Fate of Denmark
+	id = annex.14001
+	title = annexation_denmark
+	desc = annexation_denmark_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_denmark = yes }
+					add_core_of = DEN
+				}
+				else = { 
+					remove_core_of = DEN
+				}
+				remove_claim_by = DEN
+			}
+		}
+	}
+
+	option = { #Liberate Denmark
+		log = "[GetLogInfo]: event annex.14001 option annex.14001.a"
+		name = annex.14001.a
+		trigger = {
+			is_subject = no 
+		}
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = DEN }
+		release_targeted_tag = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.14001 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		every_owned_state = {
+			limit = { is_denmark = yes }
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.14001 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = { is_denmark = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.14001 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes 
+	}
+}
+##################################
+### E A S T E R N  E U R O P E ###
+##################################
+
+# Fate of Estonia
+
+###################
+### B A L K A N ###
+###################
+
+# Fate of Yugoslavia

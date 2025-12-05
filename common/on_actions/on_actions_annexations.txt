@@ -69,7 +69,10 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11005 }
 			}
-			17 = { set_variable = { annexation_target = THIS } } #Copenhagen
+			17 = { #Copenhagen 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14001 }
+			} 
 			18 = { set_variable = { annexation_target = THIS } } #Oslo
 			19 = { set_variable = { annexation_target = THIS } } #Stockholm
 			21 = { set_variable = { annexation_target = THIS } } #Belgrade
@@ -644,9 +647,7 @@ on_actions = {
 			729 = { set_variable = { annexation_target = 728.id } } #Smyrna > Bursa
 
 			206 = { set_variable = { annexation_target = 46.id } } #East Saxony > Saxony
-			
-			361 = { set_variable = { annexation_target = 39.id } } #North Schleswig > Schleswig
-			
+						
 			427 = { set_variable = { annexation_target = 426.id } } #South Kurils > North Kurils
 			
 			540 = { set_variable = { annexation_target = 497.id } } #Dariganga > North Chahar

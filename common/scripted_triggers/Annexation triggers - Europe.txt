@@ -1515,18 +1515,42 @@ can_release_194 = {
 }
 
 #Denmark - annexation_denmark
-can_release_denmark = { 
+can_release_17 = { 
 	17 = { annexations_state_is_tied_to_annexation_decision = yes } #Denmark
 	NOT = { country_exists = DEN }
 }
 
 #Iceland - annexation_iceland
-can_release_iceland = { 
+can_release_367 = { 
 	367 = { annexations_state_is_tied_to_annexation_decision = yes } #Iceland
 	NOT = { country_exists = ICE }
 	ROOT = {
 		should_release_denmark_first = yes
 		should_release_norway_first = yes
+	}
+}
+
+#Northern Schleswig - annexation_north_schleswig
+can_release_361 = { 
+	361 = { annexations_state_is_tied_to_annexation_decision = yes } #Northern Schleswig
+	ROOT = {
+		OR = {
+			is_subject = yes
+			39 = { is_claim_or_core_of_ROOT = yes } #Schleswig
+			362 = { is_claim_or_core_of_ROOT = yes } #Jutland
+			39 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			362 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_denmark_first = yes
+		39 = { annexations_state_has_valid_annexation = no } #Schleswig
 	}
 }
 
