@@ -701,7 +701,7 @@ can_release_151 = {
 }
 
 #Tuscany - annexation_tuscany
-can_release_130 = { #Tuscany
+can_release_130 = { 
 	130 = { annexations_state_is_tied_to_annexation_decision = yes } #Tuscany
 	ROOT = {
 		OR = {
@@ -738,7 +738,7 @@ can_release_130 = { #Tuscany
 }
 
 #Aosta Valley - annexation_aosta
-can_release_135 = { #Aosta Valley
+can_release_135 = { 
 	135 = { annexations_state_is_tied_to_annexation_decision = yes } #Aosta Valley
 	ROOT = {
 		OR = {
@@ -1105,8 +1105,13 @@ can_release_213 = {
 	ROOT = {
 		OR = {
 			is_subject = yes
+			35 = { is_claim_or_core_of_ROOT = yes } #East Pomerania
 			214 =  { is_claim_or_core_of_ROOT = yes } #Plock
 			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
+			35 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
 			212 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
@@ -1244,7 +1249,12 @@ can_release_230 = {
 		OR = {
 			is_subject = yes
 			25 = { is_claim_or_core_of_ROOT = yes } #Kaunas
+			218 = { is_claim_or_core_of_ROOT = yes } #Bialystok
 			25 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			218 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1252,6 +1262,7 @@ can_release_230 = {
 	}
 	ROOT = {
 		should_release_lithuania_first = yes
+		218 = { annexations_state_has_valid_annexation = no } #Bialystok
 	}
 }
 
@@ -1277,7 +1288,6 @@ can_release_232 = {
 		should_release_lithuania_first = yes
 		should_release_poland_first = yes
 		should_release_belarus_first = yes
-		218 = { annexations_state_has_valid_annexation = no } #Bialystok
 		230 = { annexations_state_has_valid_annexation = no } #Sudovia
 	}
 }
@@ -1288,9 +1298,33 @@ can_release_240 = {
 	ROOT = {
 		OR = {
 			is_subject = yes
-			220 = { is_claim_or_core_of_ROOT = yes } #Chelm
+			219 = { is_claim_or_core_of_ROOT = yes } #Chelm
 			241 = { is_claim_or_core_of_ROOT = yes } #Pohoryn
-			220 = { 
+			219 = { 
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			241 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_poland_first = yes
+		should_release_ukraine_first = yes
+	}
+}
+
+#Chelm - annexation_chelm
+can_release_220 = { 
+	220 = { annexations_state_is_tied_to_annexation_decision = yes } #Chelm
+	ROOT = {
+		OR = {
+			is_subject = yes
+			219 = { is_claim_or_core_of_ROOT = yes } #Lublin
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			219 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1303,6 +1337,82 @@ can_release_240 = {
 	ROOT = {
 		should_release_poland_first = yes
 		should_release_ukraine_first = yes
+		240 = { annexations_state_has_valid_annexation = no } #Volhynia
+	}
+}
+
+#Brest - annexation_brest
+can_release_237 = { 
+	237 = { annexations_state_is_tied_to_annexation_decision = yes } #Brest
+	ROOT = {
+		OR = {
+			is_subject = yes
+			220 = { is_claim_or_core_of_ROOT = yes } #Chelm
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			220 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		220 = { annexations_state_has_valid_annexation = no } #Chelm
+	}
+}
+
+#Stanislawow - annexation_stanislawow
+can_release_270 = { 
+	270 = { annexations_state_is_tied_to_annexation_decision = yes } #Stanislawow
+	ROOT = {
+		OR = {
+			is_subject = yes
+			217 = { is_claim_or_core_of_ROOT = yes } #Krakow
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			217 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			240 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		240 = { annexations_state_has_valid_annexation = no } #Volhynia
+	}
+}
+
+#Lwow - annexation_lwow
+can_release_221 = { 
+	221 = { annexations_state_is_tied_to_annexation_decision = yes } #Lwow
+	ROOT = {
+		OR = {
+			is_subject = yes
+			217 = { is_claim_or_core_of_ROOT = yes } #Krakow
+			270 = { is_claim_or_core_of_ROOT = yes } #Stanislawow
+			217 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			270 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_poland_first = yes
+		270 = { annexations_state_has_valid_annexation = no } #Stanislawow
 	}
 }
 
@@ -1317,30 +1427,6 @@ can_release_26 = {
 	26 = { annexations_state_is_tied_to_annexation_decision = yes } #Bratislava
 	NOT = { country_exists = SLO }
 	ROOT = { should_release_czechia_first = yes }
-}
-
-#Sudetenland - annexation_sudetenland
-can_release_48 = { 
-	48 = { annexations_state_is_tied_to_annexation_decision = yes } #Sudetenland
-	ROOT = {
-		OR = {
-			is_subject = yes
-			8 = { is_claim_or_core_of_ROOT = yes } #Prague
-			46 = { is_claim_or_core_of_ROOT = yes } #Saxony
-			8 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			46 = { 
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_czechia_first = yes
-		46 = { annexations_state_has_valid_annexation = no } #Saxony
-	}
 }
 
 #Tesin - annexation_tesin
@@ -1744,188 +1830,6 @@ can_release_suwalki = {
 		218 = { annexations_state_has_valid_annexation = no } #Bialystok
 	}
 }
-
-#Sudovia - annexation_sudovia
-can_release_sudovia = { 
-	230 = { annexations_state_is_tied_to_annexation_decision = yes } #Sudovia
-	ROOT = {
-		OR = {
-			is_subject = yes
-			original_tag = LIT
-			25 = { is_claim_or_core_of_ROOT = yes } #Sudovia
-			LIT = { ROOT_can_grant_land = yes }
-			25 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = { should_release_lithuania_first = yes }
-}
-
-#Brest - annexation_brest
-can_release_brest = { 
-	237 = { annexations_state_is_tied_to_annexation_decision = yes } #Brest
-	ROOT = {
-		OR = {
-			is_subject = yes
-			220 = { is_claim_or_core_of_ROOT = yes } #Chelm
-			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
-			220 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			240 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_poland_first = yes
-		220 = { annexations_state_has_valid_annexation = no } #Chelm
-		240 = { annexations_state_has_valid_annexation = no } #Volhynia
-	}
-}
-
-#Chelm - annexation_chelm
-can_release_chelm = { 
-	220 = { annexations_state_is_tied_to_annexation_decision = yes } #Chelm
-	ROOT = {
-		OR = {
-			is_subject = yes
-			219 = { is_claim_or_core_of_ROOT = yes } #Lublin
-			AND = {
-				241 = { is_claim_or_core_of_ROOT = yes } #Volhynia
-				owns_state = 240 #Volhynia
-			}
-			219 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			241 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					240 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_poland_first = yes
-		should_release_ukraine_first = yes
-		240 = { annexations_state_has_valid_annexation = no } #Volhynia
-	}
-}
-
-#Lwow - annexation_lwow
-can_release_lwow = { 
-	221 = { annexations_state_is_tied_to_annexation_decision = yes } #Lwow
-	ROOT = {
-		OR = {
-			is_subject = yes
-			AND = {
-				240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
-				owns_state = 220 #Chelm
-			}
-			AND = {
-				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
-				owns_state = 217 #Volhynia
-			}
-			240 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					220 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-			219 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					217 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_poland_first = yes
-		220 = { annexations_state_has_valid_annexation = no } #Chelm
-	}
-}
-
-#Volhynia - annexation_volhynia
-can_release_volhynia = { 
-	240 = { annexations_state_is_tied_to_annexation_decision = yes } #Volhynia
-	ROOT = {
-		OR = {
-			is_subject = yes
-			original_tag = UKR
-			241 = { is_claim_or_core_of_ROOT = yes } #Volhynia
-			AND = {
-				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
-				owns_state = 220 #Chelm
-			}
-			UKR = { ROOT_can_grant_land = yes }
-			241 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			219 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					220 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_poland_first = yes
-	}
-}
-
-#Stanislawow - annexation_stanislawow
-can_release_stanislawow = { 
-	270 = { annexations_state_is_tied_to_annexation_decision = yes } #Stanislawow
-	ROOT = {
-		OR = {
-			is_subject = yes
-			AND = {
-				241 = { is_claim_or_core_of_ROOT = yes } 
-				owns_state = 240 #Volhynia
-			}
-			AND = {
-				217 = { is_claim_or_core_of_ROOT = yes } #Krakow
-				owns_state = 221
-			}
-			241 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					240 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-			217 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					221 = { annexations_required_state_is_owned_by_either_side = yes } #Chelm
-					ROOT_can_grant_land = yes
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_poland_first = yes
-		221 = { annexations_state_has_valid_annexation = no } #Lwow
-	}
-}
-
 
 #Belarus - annexation_belarus
 can_release_belarus = { 

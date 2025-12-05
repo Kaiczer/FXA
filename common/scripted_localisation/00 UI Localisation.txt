@@ -229,7 +229,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionClaLib
+	name = GetCoalitionClsLib
 	text = {
 		trigger = {
 			NOT = {
@@ -261,7 +261,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionPaternalist
+	name = GetCoalitionPatNal
 	text = {
 		trigger = {
 			NOT = {
@@ -277,7 +277,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionRevNat
+	name = GetCoalitionNatCor
 	text = {
 		trigger = {
 			NOT = {
@@ -293,7 +293,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionVolkist
+	name = GetCoalitionVolkism
 	text = {
 		trigger = {
 			NOT = {
@@ -309,7 +309,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionDespotist
+	name = GetCoalitionDespot
 	text = {
 		trigger = {
 			NOT = {
@@ -325,7 +325,7 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetCoalitionUltRea
+	name = GetCoalitionUltNat
 	text = {
 		trigger = {
 			NOT = { has_government = ultranationalism }

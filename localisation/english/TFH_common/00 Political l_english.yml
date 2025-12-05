@@ -82,14 +82,14 @@ generic_events.76.d: "Our allies in [From.GetNameDefCap] have returned some of o
 generic_events.76.a: "Great!"
 
 ### Ideology ###
-KR_different_ideology_close: "Different Ideology"
-KR_different_ideology: "Different Ideology"
-KR_similar_ideology_close: "Similar Ideology"
-KR_similar_ideology: "Similar Ideology"
-KR_similar_ideology_distant: "Similar Ideology"
-KR_same_ideology: "Same Ideology"
-KR_ideology_allowed: "Minister permitted for the country's ideology"
-KR_factional_rivalry: "Factional Rivalry"
+different_ideology_close: "Different Ideology"
+different_ideology: "Different Ideology"
+similar_ideology_close: "Similar Ideology"
+similar_ideology: "Similar Ideology"
+similar_ideology_distant: "Similar Ideology"
+same_ideology: "Same Ideology"
+ideology_allowed: "Minister permitted for the country's ideology"
+factional_rivalry: "Factional Rivalry"
 minister_available: "§RMinisters can't be manually added or removed.§! They can only be changed via events, focuses, decisions and so on.\n\nThis list represents all possible ministers for a nation, so the people here may be at odds with the current government, in a different country or even dead."
 military_staff_available: "This member of the Military staff is alive and ready to serve the government."
 
@@ -111,7 +111,7 @@ popularity_ideology_desc: "§L[GetPopularityTooltipDesc]§!"
 party_popularity_delayed_tooltip: "Party popularity represents your current government's control over the nation and their support with the people. Political parties with high popularity are more able to push their political agenda and stabilise the nation."
 
 party_popularity_tooltip: "§HParty Popularity§![GetPopularityPPGain]"
-party_popularity_tooltip_long: "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionAuthSoc][GetCoalitionVanSoc][GetCoalitionRevSoc][GetCoalitionSocDem][GetCoalitionSocLib][GetCoalitionClaLib][GetCoalitionSocCon][GetCoalitionPatNal][GetCoalitionNatCor][GetCoalitionVolkism][GetCoalitionDespot][GetCoalitionUltNat]"
+party_popularity_tooltip_long: "§H\n\nEffects from our current Party Popularity:§!\nDaily Political Power Gain: [GetPopularityPPGainValue][GetHasCoalition][GetCoalitionAuthSoc][GetCoalitionVanSoc][GetCoalitionRevSoc][GetCoalitionSocDem][GetCoalitionSocLib][GetCoalitionClsLib][GetCoalitionSocCon][GetCoalitionPatNal][GetCoalitionNatCor][GetCoalitionVolkism][GetCoalitionDespot][GetCoalitionUltNat]"
 
 party_popularity_dynamic_modifier: "Party Popularity"
 party_popularity_dynamic_modifier_ideology_mapped: "Party Popularity"

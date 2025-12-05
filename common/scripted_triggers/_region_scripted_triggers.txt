@@ -288,19 +288,26 @@ is_luxembourg = {
 	state = 10 #Luxembourg
 }
 
-is_poland = {
+is_lesser_poland = {
 	OR = {
 		state = 11 #Warsaw
-		state = 211 #Posen
 		state = 214 #Plock
 		state = 215 #Kalisz
 		state = 216 #Kielce
 		state = 217 #Krakow
-		state = 218 #Bialystok
 		state = 219 #Lublin
+	}
+}
+
+is_poland = {
+	OR = {
+		is_lesser_poland = yes
+		state = 211 #Posen
+		state = 218 #Bialystok
 		state = 220 #Chelm
 		state = 221 #Lwow
 		state = 232 #Suwalki
+		state = 270 #Stanislawow
 	}
 }
 

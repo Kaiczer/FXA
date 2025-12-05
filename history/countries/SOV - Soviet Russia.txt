@@ -49,7 +49,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = third_international
+create_faction = comintern
 
 every_country = {
 	limit = {

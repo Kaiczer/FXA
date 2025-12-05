@@ -1,10 +1,12 @@
 ﻿l_english:
-## Starting Factions
+### Starting Factions ###
 imperial_sphere: "Imperial Defense Sphere" #IMP
-continental_entente: "Continental Europa System" #ENT
-bruderschaftskreis: "Bruderschaftskreis" #Brotherhood Circle
-third_international: "Comintern" #CIN
-intermarium: "Intermarium" 
-unity_accord: "Einheitsabkommen" #UA
+turin_accord: "Turin Accord" #ENT
+brotherhood_circle: "Bruderschaftskreis" #Brotherhood Circle
+comintern: "Comintern" #CIN
+warsaw_bloc: "Warsaw Bloc" 
+unity_accord: "Einheitsabkommen" #UAC
 
-## Formable Factions
+### Formable Factions ###
+western_tripatite: "Western Tripatite" #IMP+ENT Merged Faction
+solidarspakt: "Solidarspakt" #Brotherhood's Emergence

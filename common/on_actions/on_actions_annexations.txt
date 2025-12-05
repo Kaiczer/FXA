@@ -33,7 +33,10 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11021 }
 			} 
-			8 = { set_variable = { annexation_target = THIS } } #Bohemia
+			8 = { #Bohemia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13030 }
+			} 
 			9 = { #Lower Austria
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13005 }
@@ -74,7 +77,10 @@ on_actions = {
 			23 = { set_variable = { annexation_target = THIS } } #Muntenia
 			24 = { set_variable = { annexation_target = THIS } } #Riga
 			25 = { set_variable = { annexation_target = THIS } } #Kaunas
-			26 = { set_variable = { annexation_target = THIS } } #Pressburg
+			26 = { #Pressburg
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13031 }
+			} 
 			27 = { set_variable = { annexation_target = THIS } } #Minsk
 			28 = { set_variable = { annexation_target = THIS } } #Kiev
 			29 = { set_variable = { annexation_target = THIS } } #Harju
@@ -100,7 +106,6 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13009 }
 			} 
-			48 = { set_variable = { annexation_target = THIS } } #Sudetenland
 			52 = { #Hanover 
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13012 }
@@ -265,15 +270,27 @@ on_actions = {
 			191 = { set_variable = { annexation_target = THIS } } #West Banat
 			192 = { set_variable = { annexation_target = THIS } } #Syrmia
 			193 = { set_variable = { annexation_target = THIS } } #Bachka
-			194 = { set_variable = { annexation_target = THIS } } #Central Hungary
-			196 = { set_variable = { annexation_target = THIS } } #Southern Slovakia
-			198 = { set_variable = { annexation_target = THIS } } #Subcarpathia
+			194 = { #Central Hungary
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13035 }
+			} 
+			196 = { #Southern Slovakia 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13033 }
+			} 
+			198 = { #Subcarpathia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13034 }
+			} 
 			200 = { set_variable = { annexation_target = THIS } } #Transylvania
 			202 = { set_variable = { annexation_target = THIS } } #Moldova
 			203 = { set_variable = { annexation_target = THIS } } #Suceava
 			204 = { set_variable = { annexation_target = THIS } } #Cernauti
 			205 = { set_variable = { annexation_target = THIS } } #Bessarabia
-			209 = { set_variable = { annexation_target = THIS } } #Tesin
+			209 = { #Tesin
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13032 }
+			} 
 			210 = { #West Prussia
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13019 }
@@ -294,8 +311,14 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13022 }
 			} 
-			220 = { set_variable = { annexation_target = THIS } } #Chelm
-			221 = { set_variable = { annexation_target = THIS } } #Lwow
+			220 = { #Chelm
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13026 }
+			}
+			221 = { #Lwow
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13029 }
+			} 
 			225 = { set_variable = { annexation_target = THIS } } #Latgale
 			229 = { set_variable = { annexation_target = THIS } } #Memel
 			230 = { #Sudovia 
@@ -308,9 +331,15 @@ on_actions = {
 				set_variable = { annx_evnt_num = 13024 }
 			}
 			235 = { set_variable = { annexation_target = THIS } } #Vileyka
-			237 = { set_variable = { annexation_target = THIS } } #Brest
+			237 = { #Brest 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13027 }
+			} 
 			238 = { set_variable = { annexation_target = THIS } } #Kobryn
-			240 = { set_variable = { annexation_target = THIS } } #Volyn
+			240 = { #Volhynia 
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13025 }
+			} 
 			249 = { set_variable = { annexation_target = THIS } } #Gomel
 			250 = { set_variable = { annexation_target = THIS } } #Siveria
 			261 = { set_variable = { annexation_target = THIS } } #Crimea
@@ -318,7 +347,10 @@ on_actions = {
 			263 = { set_variable = { annexation_target = THIS } } #Krichev
 			265 = { set_variable = { annexation_target = THIS } } #Smolensk
 			269 = { set_variable = { annexation_target = THIS } } #Rostov
-			270 = { set_variable = { annexation_target = THIS } } #Stanislawow
+			270 = { #Stanislawow
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 13028 }
+			} 
 			284 = { set_variable = { annexation_target = THIS } } #Krasnodar
 			285 = { set_variable = { annexation_target = THIS } } #Maikov
 			289 = { set_variable = { annexation_target = THIS } } #Moscow

@@ -29,7 +29,7 @@ if = {
 		}
 	}
 }
-create_faction = intermarium
+create_faction = warsaw_bloc
 every_country = {
 	limit = {
 		OR = {
