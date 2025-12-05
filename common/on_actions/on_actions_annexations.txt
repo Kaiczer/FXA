@@ -696,36 +696,116 @@ on_actions = {
 					limit = { is_scotland = yes }
 					381 = { initialise_regional_annexation_variables = yes } #Lothian
 				}
-				else_if = {
+				if = {
 					limit = { is_wales = yes }
 					374 = { initialise_regional_annexation_variables = yes } #South Wales
 				}
-				else_if = {
+				if = {
 					limit = { is_ireland = yes }
 					16 = { initialise_regional_annexation_variables = yes } #Leinster
 				}
-				else_if = {
+				if = {
 					limit = { is_france = yes }
 					3 = { initialise_regional_annexation_variables = yes } #Paris
 				}
-				else_if = {
+				if = {
 					limit = { is_flanders = yes }
 					12 = { initialise_regional_annexation_variables = yes } #Brabant
 				}
-				else_if = {
+				if = {
 					limit = { is_wallonia = yes }
 					65 = { initialise_regional_annexation_variables = yes } #Wallonia
 				}
-				else_if = {
+				if = {
 					limit = { is_netherlands = yes }
 					7 = { initialise_regional_annexation_variables = yes } #Holland
 				}
-				else_if = {
+				if = {
 					limit = { is_luxembourg = yes }
 					10 = { initialise_regional_annexation_variables = yes } #Luxembourg
 				}
-
 				### Southern Europe ###
+				if = {
+					limit = { is_spain = yes }
+					14 = { initialise_regional_annexation_variables = yes } #Madrid
+				}
+				if = {
+					limit = { is_portugal = yes }
+					15 = { initialise_regional_annexation_variables = yes } #Lisbon
+				}
+				if = {
+					limit = { is_italy = yes }
+					4 = { initialise_regional_annexation_variables = yes } #Latium
+					if = { 
+						limit = { is_piedmont = yes }
+						134 = { initialise_regional_annexation_variables = yes } #Piedmont
+					}
+					else_if = {
+						limit = { is_central_italy = yes }
+						131 = { initialise_regional_annexation_variables = yes } #Romagna
+					}
+					else_if = {
+						limit = { is_southern_italy = yes }
+						126 = { initialise_regional_annexation_variables = yes } #Campania
+					}
+					2 = { add_to_regional_annexation_array = yes } #Sardinia
+					4 = { add_to_regional_annexation_array = yes } #Latium
+					126 = { add_to_regional_annexation_array = yes } #Campania
+					130 = { add_to_regional_annexation_array = yes } #Tuscany
+					131 = { add_to_regional_annexation_array = yes } #Romagna
+					134 = { add_to_regional_annexation_array = yes } #Piedmont
+					136 = { add_to_regional_annexation_array = yes } #Lombardy
+					137 = { add_to_regional_annexation_array = yes } #Veneto
+				}
+				### Central Europe ###
+				if = {
+					limit = { is_brandenburg = yes }
+					5 = { initialise_regional_annexation_variables = yes } #Brandenburg
+				}
+				if = {
+					limit = { is_hanseatic_germany = yes }
+					38 = { initialise_regional_annexation_variables = yes } #Holstein
+				}
+				if = {
+					limit = { is_rhineland = yes }
+					53 = { initialise_regional_annexation_variables = yes } #Koblenz
+				}
+				if = {
+					limit = { is_saxony = yes }
+					46 = { initialise_regional_annexation_variables = yes } #Saxony
+				}
+				if = {
+					limit = { is_south_germany = yes }
+					57 = { initialise_regional_annexation_variables = yes } #Bavaria
+				}
+				if = {
+					limit = { is_old_prussia = yes }
+					212 = { initialise_regional_annexation_variables = yes } #East Prussia
+				}
+				if = {
+					limit = { is_switzerland = yes }
+					13 = { initialise_regional_annexation_variables = yes } #Bern
+				}
+				if = {
+					limit = { is_austria = yes }
+					9 = { initialise_regional_annexation_variables = yes } #Vienna
+				}
+				if = {
+					limit = { is_poland = yes }
+					11 = { initialise_regional_annexation_variables = yes } #Warsaw
+				}
+				if = {
+					limit = { is_czechia = yes }
+					8 = { initialise_regional_annexation_variables = yes } #Bohemia
+				}
+				if = {
+					limit = { is_slovakia = yes }
+					26 = { initialise_regional_annexation_variables = yes } #Bratislava
+				}
+				if = {
+					limit = { is_hungary = yes }
+					194 = { initialise_regional_annexation_variables = yes } #Budapest
+				}
 			}
 
 			#### Target Annexation - Additional States ####

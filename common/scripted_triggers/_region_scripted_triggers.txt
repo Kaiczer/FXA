@@ -154,6 +154,50 @@ is_netherlands = {
 	}
 }
 
+is_piedmont = {
+	OR = {
+		state = 133 #Liguria
+		state = 134 #Piedmont
+		state = 135 #Aosta Valley
+	}
+}
+
+is_central_italy = {
+	OR = {
+		state = 128 #Umbria
+		state = 129 #Marche
+		state = 131 #Romagna
+	}
+}
+
+is_southern_italy = {
+	OR = {
+		state = 123 #Sicily
+		state = 124 #Calabria
+		state = 125 #Apulia
+		state = 126 #Campania
+		state = 127 #Abruzzo
+	}
+}
+
+is_venice = {
+	OR = {
+		state = 137
+		state = 138
+		state = 149
+		state = 150
+		state = 151
+	}
+}
+
+is_italy = {
+	OR = {
+		region = 23 #Italy
+		region = 169 #Tyrrhenian Sea
+		region = 181 #Po Valley
+	}
+}
+
 is_germany = {
 	OR = {
 		region = 6 #Rhineland

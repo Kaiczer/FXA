@@ -10927,6 +10927,10 @@ country_event = { # Fate of Slovakia
 				}
 				remove_claim_by = SLO
 			}
+			every_country = { #Dissolve Czechoslovakia
+				limit = { has_cosmetic_tag = CZSL }
+				drop_cosmetic_tag = yes
+			}
 		}
 		196 = { retain_state = yes } #Southern Slovakia
 		198 = { retain_state = yes } #Subcarpathian Rus'
@@ -11001,6 +11005,10 @@ country_event = { # Fate of Slovakia
 			limit = { is_slovakia = yes }
 			transfer_state_and_notify = yes
 		}
+		var:tag_to_release = {
+			limit = { original_tag = CZE }
+			set_cosmetic_tag = CZSL
+		}
 	}
 
 	option = { #give to overlord
@@ -11037,6 +11045,7 @@ country_event = { # Fate of Slovakia
 				limit = { is_slovakia = yes }
 				remove_claim_and_add_core_of_ROOT = yes
 			}
+			set_cosmetic_tag = CZSL
 		}
 	}
 
@@ -11175,6 +11184,7 @@ country_event = { # Fate of Tesin
 		recheck_annexations = yes
 	}
 }
+
 country_event = { # Fate of Southern Slovakia
 	id = annex.13033
 	title = annexation_south_slovakia
