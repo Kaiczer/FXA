@@ -36,95 +36,111 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_startup = {
+		# Russian Subdivision Status Setup
+		effect = {
+			31 = { set_state_flag = leningrad_region }
+			271 = { set_state_flag = leningrad_region }
+			272 = { set_state_flag = leningrad_region }
+			273 = { set_state_flag = leningrad_region }
+			274 = { set_state_flag = leningrad_region }
+			275 = { set_state_flag = leningrad_region }
+			286 = { set_state_flag = leningrad_region }
+			287 = { set_state_flag = leningrad_region }
+			310 = { set_state_flag = leningrad_region }
 
-	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
-	# on_annex = {
-	# 	effect = {
-	# 		FROM = {
-	# 			if = {
-	# 				limit = { tag = var:global.russia }
-	# 				if = {
-	# 					limit = { var:219.owner = { is_russian_tag = yes } }
-	# 					set_variable = { global.russia = 219.owner }
-	# 				}
-	# 				else = {
-	# 					set_variable = { global.russia = RUS }
-	# 				}
-	# 			}
-	# 			if = {
-	# 				limit = { original_tag = TRM }
-	# 				every_state = {
-	# 					limit = { is_claim_or_core_of_FROM = yes }
-	# 					remove_claim_by = FROM
-	# 					remove_core_of = FROM
-	# 				}
-	# 			}
-	# 			else_if = {
-	# 				limit = { original_tag = RUS }
-	# 				clr_global_flag = RUS_war_for_bessarabia
-	# 				TRM = {
-	# 					if = {
-	# 						limit = { has_cosmetic_tag = TRM_free_russia }
-	# 						set_cosmetic_tag = TRM_RUS
-	# 					}
-	# 				}
-	# 			}
-	# 			else_if = {
-	# 				limit = { original_tag = ROM }
-	# 				clr_global_flag = RUS_war_for_bessarabia
-	# 			}
-	# 			if = {
-	# 				limit = { has_variable = RUS_alliance_disabled_integration }
-	# 				var:RUS_alliance_disabled_integration = {
-	# 					PREV = { enable_coring_at_eighty_compliance = yes }
-	# 					if = {
-	# 						limit = { PREV = { original_tag = UKR } }
-	# 						73 = { enable_state_integration_80_compliance = yes } #Transcarpathia
-	# 						78 = { enable_state_integration_80_compliance = yes } #Bessarabia
-	# 						80 = { enable_state_integration_80_compliance = yes } #Cernauti
-	# 						89 = { enable_state_integration_80_compliance = yes } #Stanislawow
-	# 						91 = { enable_state_integration_80_compliance = yes } #Lwow
-	# 						1088 = { enable_state_integration_80_compliance = yes } #Chelm
+			306 = { set_state_flag = karelia_region }
+			307 = { set_state_flag = karelia_region }
+			308 = { set_state_flag = karelia_region }
+			309 = { set_state_flag = karelia_region }
 
-	# 						241 = { disable_state_integration = yes } #Gomel
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = JAP } }
-	# 						537 = { enable_state_integration_80_compliance = yes } #Sakhalin
-	# 						555 = { enable_state_integration_80_compliance = yes } #Kuril Islands
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = LIT } }
-	# 						188 = { enable_state_integration_80_compliance = yes } #Memel
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = POL } }
-	# 						97 = { enable_state_integration_80_compliance = yes } #Bialystok
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = FIN } }
-	# 						146 = { enable_state_integration_80_compliance = yes } #Karelia
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = ROM } }
-	# 						78 = { enable_state_integration_80_compliance = yes } #Bessarabia
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = GEO } }
-	# 						585 = { enable_state_integration_80_compliance = yes } #Batumi
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = ARM } }
-	# 						1000 = { enable_state_integration_80_compliance = yes } #Kars
-	# 					}
-	# 					else_if = {
-	# 						limit = { PREV = { original_tag = PER } }
-	# 						418 = { enable_state_integration_80_compliance = yes } #Ashkhabad
-	# 					}
-	# 				}
-	# 				clear_variable = RUS_alliance_disabled_integration
-	# 			}
-	# 		}
-	# 	}
-	# }
+			250 = { set_state_flag = western_region }
+			264 = { set_state_flag = western_region }
+			265 = { set_state_flag = western_region }
+			276 = { set_state_flag = western_region }
+			277 = { set_state_flag = western_region }
+			278 = { set_state_flag = western_region }
+
+			288 = { set_state_flag = moscow_region }
+			289 = { set_state_flag = moscow_region }
+			290 = { set_state_flag = moscow_region }
+			291 = { set_state_flag = moscow_region }
+
+			266 = { set_state_flag = central_chernozem_region }
+			267 = { set_state_flag = central_chernozem_region }
+			268 = { set_state_flag = central_chernozem_region }
+			279 = { set_state_flag = central_chernozem_region }
+			280 = { set_state_flag = central_chernozem_region }
+			281 = { set_state_flag = central_chernozem_region }
+
+			269 = { set_state_flag = north_caucasus_region }
+			283 = { set_state_flag = north_caucasus_region }
+			284 = { set_state_flag = north_caucasus_region }
+			285 = { set_state_flag = north_caucasus_region }
+			297 = { set_state_flag = north_caucasus_region }
+			299 = { set_state_flag = north_caucasus_region }
+			300 = { set_state_flag = north_caucasus_region }
+
+			298 = { set_state_flag = kalmykia_region }
+			282 = { set_state_flag = lower_volga_region }
+			301 = { set_state_flag = lower_volga_region }
+			302 = { set_state_flag = lower_volga_region }
+			303 = { set_state_flag = lower_volga_region }
+			304 = { set_state_flag = lower_volga_region }
+			305 = { set_state_flag = lower_volga_region }
+
+			312 = { set_state_flag = northern_region }
+			313 = { set_state_flag = northern_region }
+			314 = { set_state_flag = northern_region }
+			315 = { set_state_flag = northern_region }
+			316 = { set_state_flag = northern_region }
+			340 = { set_state_flag = northern_region }
+			326 = { set_state_flag = komi_zyryan_region }
+			327 = { set_state_flag = komi_zyryan_region }
+
+			318 = { set_state_flag = ivanovo_region }
+			319 = { set_state_flag = ivanovo_region }
+
+			every_state = {
+				limit = {
+					OR = {
+						has_state_flag = leningrad_region
+						has_state_flag = western_region
+						has_state_flag = moscow_region
+						has_state_flag = central_chernozem_region
+						has_state_flag = ivanovo_region
+					}
+				}
+				set_state_flag = RUS_oblast_rank
+			}
+			every_state = {
+				limit = {
+					OR = { 
+						has_state_flag = north_caucasus_region
+						has_state_flag = lower_volga_region
+						has_state_flag = northern_region
+					}
+				}
+				set_state_flag = RUS_krai_rank
+			}
+			every_state = {
+				limit = {
+					OR = { 
+						has_state_flag = karelia_region
+					}
+				}
+				set_state_flag = RUS_auto_republic_rank
+			}
+			every_state = {
+				limit = {
+					OR = { 
+						has_state_flag = kalmykia_region
+						has_state_flag = komi_zyryan_region
+					}
+				}
+				set_state_flag = RUS_auto_oblast_rank
+			}
+		}
+	}
 }

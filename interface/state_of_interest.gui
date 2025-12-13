@@ -83,5 +83,32 @@ guiTypes = {
 			maxHeight = 30
 		}
 	}
+	
+	### RUSSIAN STATES ###
+	containerWindowType = {
+		name = "TFH_subdivision_russian_states"
+
+		instantTextBoxType = {
+			name = "russian_state_title"
+			text = "[THIS.GetName]"
+			font = hoi_36header
+			format = center
+
+			position = { x = @soi_text_x_pos  y = -4 }
+			maxWidth = 350
+			maxHeight = 30
+		}
+
+		instantTextBoxType = {
+			name = "russian_province_title"
+			text = "russian_province_title"
+			font = hoi_24header
+			format = center
+
+			position = { x = @soi_text_x_pos  y = 20 }
+			maxWidth = 350
+			maxHeight = 30
+		}
+	}
 }
 

@@ -32,9 +32,9 @@ on_actions = {
 			479 = { set_state_flag = zhili_region }
 			480 = { set_state_flag = zhili_region }
 
-			481 = { set_state_flag = jishen_region }
-			498 = { set_state_flag = jishen_region }
-			502 = { set_state_flag = jishen_region }
+			481 = { set_state_flag = yanzhou_region }
+			498 = { set_state_flag = yanzhou_region }
+			502 = { set_state_flag = yanzhou_region }
 
 			499 = { set_state_flag = shandong_region }
 			500 = { set_state_flag = shandong_region }
@@ -166,7 +166,7 @@ on_actions = {
 						has_state_flag = fengtian_region
 						has_state_flag = rehe_region
 						has_state_flag = zhili_region
-						has_state_flag = jishen_region
+						has_state_flag = yanzhou_region
 						has_state_flag = shandong_region
 						has_state_flag = shanxi_region
 						has_state_flag = shaanxi_region

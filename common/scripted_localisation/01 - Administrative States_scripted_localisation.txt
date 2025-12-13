@@ -43,8 +43,8 @@ defined_text = {
 		localization_key = zhili_region
 	}
 	text = {
-		trigger = { has_state_flag = jishen_region }
-		localization_key = jishen_region
+		trigger = { has_state_flag = yanzhou_region }
+		localization_key = yanzhou_region
 	}
 	text = {
 		trigger = { has_state_flag = henan_region }
@@ -282,5 +282,80 @@ defined_text = {
 	}
 	text = {
 		localization_key = "BUG - STATE TARGETED IS NOT PART OF GERMANY"
+	}
+}
+
+defined_text = {
+	name = RussianGetSubDivStatus
+	text = {
+		trigger = { has_state_flag = RUS_oblast_rank }
+		localization_key = RUS_Oblast
+	}
+	text = {
+		trigger = { has_state_flag = RUS_krai_rank }
+		localization_key = RUS_Krai
+	}
+	text = {
+		trigger = { has_state_flag = RUS_auto_oblast_rank }
+		localization_key = RUS_Auto_Oblast
+	}
+	text = {
+		trigger = { has_state_flag = RUS_auto_republic_rank }
+		localization_key = RUS_Auto_Republic
+	}
+	text = {
+		localization_key = "BUG - STATE TARGETED IS NOT PART OF RUSSIA"
+	}
+}
+
+defined_text = {
+	name = RussianGetStateProvinceTitle
+	text = {
+		trigger = { has_state_flag = leningrad_region }
+		localization_key = leningrad_region
+	}
+	text = {
+		trigger = { has_state_flag = karelia_region }
+		localization_key = karelia_region
+	}
+	text = {
+		trigger = { has_state_flag = western_region }
+		localization_key = western_region
+	}
+	text = {
+		trigger = { has_state_flag = moscow_region }
+		localization_key = moscow_region
+	}
+	text = {
+		trigger = { has_state_flag = central_chernozem_region }
+		localization_key = central_chernozem_region
+	}
+	text = {
+		trigger = { has_state_flag = north_caucasus_region }
+		localization_key = north_caucasus_region
+	}
+	text = {
+		trigger = { has_state_flag = kalmykia_region }
+		localization_key = kalmykia_region
+	}
+	text = {
+		trigger = { has_state_flag = lower_volga_region }
+		localization_key = lower_volga_region
+	}
+	text = {
+		trigger = { has_state_flag = northern_region }
+		localization_key = northern_region
+	}
+	text = {
+		trigger = { has_state_flag = komi_zyryan_region }
+		localization_key = komi_zyryan_region
+	}
+	text = {
+		trigger = { has_state_flag = ivanovo_region }
+		localization_key = ivanovo_region
+	}
+	
+	text = {
+		localization_key = "BUG - STATE TARGETED IS NOT PART OF RUSSIA"
 	}
 }
