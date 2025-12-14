@@ -5,8 +5,9 @@ state={
 		714 6692 9649 9691 11664 
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = DAG
+		add_core_of = DAG
+		add_claim_by = SOV 
 
 		buildings = {
 			infrastructure = 2

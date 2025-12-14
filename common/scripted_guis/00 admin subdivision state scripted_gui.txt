@@ -16,7 +16,7 @@ scripted_gui = {
 						has_state_flag = guangdong_region
 						has_state_flag = guangxi_region
 						has_state_flag = zhili_region
-						has_state_flag = jishen_region
+						has_state_flag = yanzhou_region
 						has_state_flag = henan_region
 						has_state_flag = hubei_region
 						has_state_flag = hunan_region
@@ -83,6 +83,23 @@ scripted_gui = {
 						has_state_flag = palatinate_region
 					}
 				}
+				AND = {
+					owner = { is_russian_tag = yes }
+					OR = { 
+						### Russian States ###
+						has_state_flag = leningrad_region
+						has_state_flag = karelia_region
+						has_state_flag = western_region
+						has_state_flag = moscow_region
+						has_state_flag = central_chernozem_region
+						has_state_flag = north_caucasus_region
+						has_state_flag = kalmykia_region
+						has_state_flag = lower_volga_region
+						has_state_flag = northern_region
+						has_state_flag = komi_zyryan_region
+						has_state_flag = ivanovo_region
+					}
+				}
 			}
 		}
 	}
@@ -101,7 +118,7 @@ scripted_gui = {
 				has_state_flag = guangdong_region
 				has_state_flag = guangxi_region
 				has_state_flag = zhili_region
-				has_state_flag = jishen_region
+				has_state_flag = yanzhou_region
 				has_state_flag = henan_region
 				has_state_flag = hubei_region
 				has_state_flag = hunan_region
@@ -175,6 +192,32 @@ scripted_gui = {
 				has_state_flag = sudetenland_region
 				has_state_flag = west_prussia_region
 				has_state_flag = palatinate_region
+			}
+		}
+	}
+
+	TFH_subdivision_russian_states = {
+		context_type = selected_state_context
+		window_name = TFH_subdivision_russian_states
+		parent_window_token = selected_state_view
+
+		ai_enabled = { always = no }
+
+		visible = {
+			owner = { is_russian_tag = yes }
+			OR = { 
+				### Russian States ###
+				has_state_flag = leningrad_region
+				has_state_flag = karelia_region
+				has_state_flag = western_region
+				has_state_flag = moscow_region
+				has_state_flag = central_chernozem_region
+				has_state_flag = north_caucasus_region
+				has_state_flag = kalmykia_region
+				has_state_flag = lower_volga_region
+				has_state_flag = northern_region
+				has_state_flag = komi_zyryan_region
+				has_state_flag = ivanovo_region
 			}
 		}
 	}
