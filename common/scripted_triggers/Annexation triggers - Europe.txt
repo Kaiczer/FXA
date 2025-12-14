@@ -545,7 +545,7 @@ can_release_2 = {
 }
 
 #Piedmont - annexation_piedmont 
-can_release_135 = { 
+can_release_134 = { 
 	135 = { annexations_state_is_tied_to_annexation_decision = yes } #Piedmont
 	NOT = { country_exists = PIE }
 	ROOT = { should_release_rome_first = yes }
@@ -804,6 +804,10 @@ can_release_141 = {
 			136 = { is_claim_or_core_of_ROOT = yes } #Lombardy
 			SWI = { ROOT_can_grant_land = yes }
 			136 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			140 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -3052,10 +3056,7 @@ should_release_romania_first = {
 }
 
 should_release_rome_first = {
-	OR = {
-		country_exists = STE
-		4 = { annexations_state_has_valid_annexation = no } #Rome
-	}
+	4 = { annexations_state_has_valid_annexation = no } #Rome
 }
 
 should_release_russia_first = { 

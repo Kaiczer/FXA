@@ -4823,6 +4823,10 @@ country_event = { # Fate of Rome
 				}
 			}
 			138 = { retain_state = yes }
+			149 = { retain_state = yes }
+			150 = { retain_state = yes }
+			151 = { retain_state = yes }
+			155 = { retain_state = yes }
 		}
 	}
 
@@ -4842,6 +4846,7 @@ country_event = { # Fate of Rome
 		trigger = {
 			NOT = { country_exists = STE }
 			NOT = { tag = ENT }
+			annexations_can_release_italian_splinters = yes
 		}
 		set_temp_variable = { tag_to_release = STE }
 		4 = { remove_claim_and_add_core_of_target = yes }
