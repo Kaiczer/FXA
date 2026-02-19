@@ -2,14 +2,16 @@ state={
 	id=448
 	name="STATE_448"
 	resources={
-		steel=3.000
+		steel=3
 	}
 	history = {
 		owner = UZB
 		add_core_of = UZB
 		add_core_of = TAJ
 		add_claim_by = SOV 
+
 		add_to_array = { state_victory_points = 1384 }
+		
 		victory_points = { 1384 2 }
 
 		buildings = {
@@ -17,10 +19,10 @@ state={
 		}
 	}
 	provinces={
-		1384 1919 4542 12218 12250 12430 
+		1384 1919 4542 10348 12218 12250 12430 
 	}
 	manpower=2500703
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=0
 }

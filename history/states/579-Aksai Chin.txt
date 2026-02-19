@@ -6,14 +6,18 @@ state={
 	}
 	history = {
 		owner = TIB
-		add_core_of = TIB
-		add_claim_by = SIK
-		add_claim_by = RAJ
-		add_claim_by = IND 
+		add_claim_by = TIB #As it has sparring influence via monasteries
+		add_claim_by = SIK #As warlord's try to impose their authority over it
+		add_claim_by = RAJ #Johnson Line
+		add_claim_by = IND #Johnson Line
 
 		buildings = {
 			infrastructure = 1
 		}
+
+		start_resistance = yes
+		set_resistance = 0
+		set_compliance = 40
 	}
 	buildings_max_level_factor=1.000
 	manpower=19800

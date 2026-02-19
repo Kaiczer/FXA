@@ -1,23 +1,19 @@
-
 state={
 	id=496
 	name="STATE_496"
 	provinces={
-		828 881 952 1137 1590 3955 6904 9768 9776 10397 
+		828 952 1137 1590 6904 9776 
 	}
 	history = {
 		owner = FNG
 		add_core_of = FNG		
-		add_to_array = { state_victory_points = 10397 } #Zhangyuan
-
-		victory_points = { 10397 1 } #POP 1 + STRAT 1 + POL 0 = SIG 2
 
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=971180
-	state_category = peripheral_region
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=0.000
 }

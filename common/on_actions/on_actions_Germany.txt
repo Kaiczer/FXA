@@ -37,6 +37,7 @@ on_actions = {
 					OR = {
 						state = 44
 						state = 45
+						state = 206
 					}
 				}
 				set_state_flag = silesia_region
@@ -63,15 +64,7 @@ on_actions = {
 				}
 				set_state_flag = schleswig_region
 			}
-			every_state = {
-				limit = {
-					OR = {
-						state = 46
-						state = 206
-					}
-				}
-				set_state_flag = saxony_region
-			}
+			46 = { set_state_flag = saxony_region }
 			47 = { set_state_flag = thuringia_region }
 			43 = { set_state_flag = westphalia_region }
 			33 = { set_state_flag = magdeburg_region }

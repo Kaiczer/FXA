@@ -2,7 +2,7 @@ state={
 	id=705
 	name="STATE_705"
 	provinces={
-		1948 2017 2062 2078 2101 4893 7448 8053 10476 10896 12788 12871 
+		4893 7448 7584 8053 10476 10896 12788 12871 12877 
 	}
 	history = {
 		owner = AFG
@@ -16,7 +16,7 @@ state={
 		}
 	}
 	manpower=1363395
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=undeveloped_rural_region
-	local_supplies=0.000
+	local_supplies=0
 }

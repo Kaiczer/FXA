@@ -4,9 +4,8 @@ state={
 	name="STATE_730"
 
 	history={
-		owner = ITA
+		owner = TUR
 		add_core_of = TUR
-		add_claim_by = ITA
 		add_to_array = { state_victory_points = 1005 }
 
 		victory_points = { 1005 3 }

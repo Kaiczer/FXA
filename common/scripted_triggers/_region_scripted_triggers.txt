@@ -232,7 +232,6 @@ is_saxony = {
 		state = 46 #Saxony
 		state = 47 #Thuringia
 		state = 52 #East Hanover
-		state = 206 #East Saxony
 	}
 }
 
@@ -244,7 +243,6 @@ has_valid_saxony_annexation_state = {
 		46 = { is_valid_annexation_state = yes } #Saxony
 		47 = { is_valid_annexation_state = yes } #Thuringia
 		52 = { is_valid_annexation_state = yes } #East Hanover
-		206 = { is_valid_annexation_state = yes } #East Saxony
 	}
 }
 
@@ -275,6 +273,7 @@ is_brandenburg = {
 		state = 35 #Eastern Pomerania
 		state = 36 #Western Pomerania
 		state = 45 #Silesia
+		state = 206 #Upper Silesia
 	}
 }
 
@@ -285,6 +284,7 @@ has_valid_brandenburg_annexation_state = {
 		35 = { is_valid_annexation_state = yes } #Eastern Pomerania
 		36 = { is_valid_annexation_state = yes } #Western Pomerania
 		45 = { is_valid_annexation_state = yes } #Silesia
+		206 = { is_valid_annexation_state = yes } #Upper Silesia
 	}
 }
 

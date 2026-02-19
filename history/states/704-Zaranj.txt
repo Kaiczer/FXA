@@ -2,20 +2,21 @@ state={
 	id=704
 	name="STATE_704"
 	provinces={
-		10348 
+		1948 2017 2062 2078 2101 4949 5020 5064 
 	}
 	history = {
-		owner = UZB
-		add_core_of = UZB 
-		add_core_of = TAJ
-		add_claim_by = SOV
+		owner = AFG
+		add_core_of = AFG
+		add_to_array = { state_victory_points = 5064 }
+		
+		victory_points = { 5064 2 }
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 	}
 	manpower=454465
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=peripheral_region
-	local_supplies=3.000
+	local_supplies=3
 }

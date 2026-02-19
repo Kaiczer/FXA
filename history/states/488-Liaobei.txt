@@ -1,14 +1,12 @@
-
 state={
 	id=488
 	name="STATE_488"
 	provinces={
-		846 887 916 930 1499 1558 1627 1638 3849 3877 4561 4633 4642 6893 7812 9831 9927 11808 11836 11903 12337 
+		846 916 930 1499 1558 1627 1638 3877 4561 4633 4642 6893 7812 9831 9927 11836 11903 12337 
 	}
 	history = {
 		owner = FNG
 		add_core_of = FNG 
-		
 		add_to_array = { state_victory_points = 916 } #Siping
 		add_to_array = { state_victory_points = 930 } #Tongliao/Bayisingtu
 		add_to_array = { state_victory_points = 12337 } #Wangyemiao/Ulanhot
@@ -22,8 +20,8 @@ state={
 			arms_factory = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=4104399
-	state_category = undeveloped_rural_region
+	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
+	local_supplies=0.000
 }

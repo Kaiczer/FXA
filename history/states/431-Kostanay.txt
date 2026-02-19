@@ -5,9 +5,9 @@ state={
 		1276 1303 1363 4337 4340 4369 4850 7233 7357 7383 7429 10140 10168 10284 10295 10312 12115 12143 12170 12185 12229 12257 12266 12285 
 	}
 	history = {
-		owner = KAZ
+		owner = SOV
 		add_core_of = KAZ
-		add_claim_by = SOV 
+		add_core_of = SOV 
 		add_to_array = { state_victory_points = 10284 }
 		victory_points = { 10284 1 } #Kustanai
 

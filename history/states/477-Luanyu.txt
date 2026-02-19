@@ -1,12 +1,11 @@
-
 state={
 	id=477
 	name="STATE_477"
-	provinces={
-		900 1052 3830 3900 6969 9905 11822 11886 12043 
+	resources={
+		steel=7
 	}
-	resources = {
-		steel = 7
+	provinces={
+		900 1052 3830 3900 9905 11822 12043 
 	}
 	history = {
 		owner = FNG
@@ -28,8 +27,8 @@ state={
 			}
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=2568500
-	state_category = undeveloped_rural_region
+	buildings_max_level_factor=1
+	state_category=undeveloped_rural_region
+	local_supplies=0
 }

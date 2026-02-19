@@ -5,9 +5,9 @@ state={
 		steel=10.000
 	}
 	history = {
-		owner = KAZ
+		owner = SOV
 		add_core_of = KAZ
-		add_claim_by = SOV 
+		add_core_of = SOV 
 		add_to_array = { state_victory_points = 4250 }
 		victory_points = { 4250 1 } #Karaganda
 

@@ -1,12 +1,12 @@
 state={
 	id=484
 	name="STATE_484"
-	provinces={
-		836 892 964 987 3783 3839 3895 6951 7790 9781 9788 9835 9885 11764 11771 11815 
+	resources={
+		steel=29.000
+		tungsten=8.000
 	}
-	resources = {
-		steel = 29
-		tungsten = 8 #Not particularly known for Tungsten mining, but giving north China some from the south for balance.
+	provinces={
+		836 887 892 945 964 987 3783 3839 3849 3888 3895 3934 6804 6868 6910 6951 7790 9759 9781 9788 9835 9885 11764 11771 11808 11815 
 	}
 	history = {
 		owner = FNG
@@ -30,8 +30,8 @@ state={
 			}
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=10007000
-	state_category = urbanised_region
+	buildings_max_level_factor=1.000
+	state_category=urbanised_region
+	local_supplies=0.000
 }

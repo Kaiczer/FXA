@@ -1,21 +1,24 @@
-
 state={
 	id=487
 	name="STATE_487"
 	provinces={
-		945 3888 6804 6868 6910 9759 
+		1776 4745 4852 7697 7743 10541 10612 12537 13871 
 	}
 	history = {
 		owner = FNG
 		add_core_of = FNG 
-		
+		add_to_array = { state_victory_points = 4745 } #Hailar
+		add_to_array = { state_victory_points = 10612 } #Manzhouli
+
+		victory_points = { 4745 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
+		victory_points = { 10612 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=159964
-	state_category = peripheral_region
+	buildings_max_level_factor=1.000
+	state_category=peripheral_region
+	local_supplies=0.000
 }

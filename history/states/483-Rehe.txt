@@ -1,12 +1,11 @@
-
 state={
 	id=483
 	name="STATE_483"
-	provinces={
-		814 934 972 1508 3814 3828 3881 3934 3978 4514 6837 6852 6898 6937 6988 7575 7633 9873 10331 10426 10429 10499 11801 11855 12469 12478 
+	resources={
+		steel=7.000
 	}
-	resources = {
-		steel = 7
+	provinces={
+		814 881 934 972 1508 3814 3828 3881 3955 3978 4514 6837 6852 6898 6937 6969 6988 7575 7633 9768 9873 10331 10426 10429 10499 11801 11855 11886 12469 12478 
 	}
 	history = {
 		owner = FNG
@@ -23,8 +22,8 @@ state={
 			industrial_complex = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
 	manpower=2185000
-	state_category = undeveloped_rural_region
+	buildings_max_level_factor=1.000
+	state_category=undeveloped_rural_region
+	local_supplies=0.000
 }

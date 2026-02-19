@@ -6,9 +6,9 @@ state={
 		1591 1840 4651 4773 4845 7711 7795 7856 10146 10547 10550 10619 10680 12529 12662 13148 13149 13197 
 	}
 	history = {
-		owner = KAZ
+		owner = SOV
 		add_core_of = KAZ
-		add_claim_by = SOV 
+		add_core_of = SOV 
 		add_to_array = { state_victory_points = 1591 }
 		victory_points = { 1591 5 } #Verniy
 

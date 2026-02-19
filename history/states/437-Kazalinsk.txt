@@ -2,7 +2,7 @@ state={
 	id=437
 	name="STATE_437"
 	provinces={
-		1459 1483 10488 10530 
+		1483 10488 10530 
 	}
 	history={
 		owner = UZB
@@ -14,7 +14,7 @@ state={
 		}
 	}
 	manpower=79541
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=peripheral_region
-	local_supplies=0.000
+	local_supplies=0
 }

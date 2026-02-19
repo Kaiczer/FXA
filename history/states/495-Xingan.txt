@@ -1,27 +1,19 @@
-
 state={
 	id=495
 	name="STATE_495"
-
+	provinces={
+		1502 1847 4809 4876 7873 7894 10567 13150 
+	}
 	history={
 		owner = FNG
 		add_core_of = FNG
-		
-		add_to_array = { state_victory_points = 4745 } #Hailar
 		add_to_array = { state_victory_points = 1847 } #Nenjiang
-		add_to_array = { state_victory_points = 10612 } #Manzhouli
 
-		victory_points = { 4745 1 } #POP 1 + STRAT 0 + POL 0 = SIG 1
 		victory_points = { 1847 3 } #POP 1 + STRAT 1 + POL 0 = SIG 2
-		victory_points = { 10612 5 } #POP 1 + STRAT 2 + POL 0 = SIG 3
 
 		buildings = {
 			infrastructure = 2
 		}
-	}
-
-	provinces={
-		1502 1776 1847 4745 4809 4852 4876 7697 7743 7873 7894 10541 10567 10612 12537 13150 13871 
 	}
 	manpower=246710
 	buildings_max_level_factor=1.000

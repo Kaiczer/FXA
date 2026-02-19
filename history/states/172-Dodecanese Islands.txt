@@ -5,10 +5,9 @@ state={
 		10007 
 	}
 	history={
-		owner = ITA
-		add_core_of = TUR
-		add_claim_by = GRE
-		add_claim_by = ITA
+		owner = GRE
+		add_claim_by = TUR
+		add_core_of = GRE
 		add_to_array = { state_victory_points = 10007 }
 
 		victory_points = { 10007 1 }

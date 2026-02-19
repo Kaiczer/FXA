@@ -1,12 +1,11 @@
-
 state={
 	id=8
 	name="STATE_8"
-	provinces={
-		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
+	resources={
+		steel=17.000
 	}
-	resources = {
-		steel = 17
+	provinces={
+		445 494 543 583 3462 5283 6418 6440 6592 7857 9414 9421 9429 9541 9569 11542 11556 
 	}
 	history = {
 		owner = CZE
@@ -27,7 +26,8 @@ state={
 			}
 		}
 	}
+	manpower=3444893
 	buildings_max_level_factor=1.000
-	manpower=3017231
-	state_category = major_industrial_region
+	state_category=major_industrial_region
+	local_supplies=0.000
 }
