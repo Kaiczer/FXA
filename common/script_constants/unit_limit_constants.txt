@@ -1,0 +1,11 @@
+unit_limits = {
+	schema = {
+		any_key = yes
+		data = fixed_point
+	}
+
+	min = 6
+
+	base = 6
+	faction_leader_bonus = 0.15
+}

@@ -30,7 +30,7 @@ if = {
 	}
 }
 
-create_faction = brotherhood_circle
+create_faction_from_template = faction_template_brotherhood_circle
 
 set_popularities = {
 	authoritarian_socialism = 7

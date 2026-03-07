@@ -1,12 +1,19 @@
 ﻿l_english:
 ### Starting Factions ###
-imperial_sphere: "Imperial Defense Sphere" #IMP
-turin_accord: "Turin Accord" #ENT
-brotherhood_circle: "Bruderschaftskreis" #Brotherhood Circle
-comintern: "Comintern" #CIN
-warsaw_bloc: "Warsaw Bloc" 
-unity_accord: "Einheitsabkommen" #UAC
+faction_imperial_defense_sphere: "Imperial Defense Sphere" #IMP
+faction_turin_accord: "Turin Accord" #ENT
+faction_brotherhood_circle: "Bruderschaftskreis" #Brotherhood Circle
+faction_comintern: "Comintern" #CIN
+faction_warsaw_bloc: "Warsaw Bloc" 
+faction_unity_accord: "Einheitsabkommen" #UAC
 
 ### Formable Factions ###
-western_tripatite: "Western Tripatite" #IMP+ENT Merged Faction
-solidarspakt: "Solidarspakt" #Brotherhood's Emergence
+faction_western_tripatite: "Western Tripatite" #IMP+ENT Merged Faction
+faction_transatlantic_league: "Security Organization of Transatlantic Alliance"
+faction_solidarspakt: "Solidarspakt" #Brotherhood's Emergence
+
+### Integrated Generic Factions ###
+faction_generic: "Coalition of Mutual Cooperation"
+faction_defender_of_democracy: "Defender of Democracy"
+faction_harbinger_of_a_new_order: "New Order Harbingers"
+action_internationale_successor: "New Internationale"

@@ -2,7 +2,7 @@ state={
 	id=213
 	name="STATE_213"
 	provinces={
-		3295 3351 3380 6347 6375 9327 9346 9372 11386 
+		3351 6375 9327 9346 9372 11386 
 	}
 	history = {
 		owner = POL
@@ -17,12 +17,10 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
-			3295 = {
-				bunker = 2
-			}
 		}
 	}
-	buildings_max_level_factor=1.000
 	manpower=1382300
-	state_category = urbanising_region
+	buildings_max_level_factor=1
+	state_category=urbanising_region
+	local_supplies=0
 }

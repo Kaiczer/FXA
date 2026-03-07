@@ -73,8 +73,14 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 14001 }
 			} 
-			18 = { set_variable = { annexation_target = THIS } } #Oslo
-			19 = { set_variable = { annexation_target = THIS } } #Stockholm
+			18 = { #Oslo
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14004 }
+			} 
+			19 = { #Stockholm
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14005 }
+			} 
 			21 = { set_variable = { annexation_target = THIS } } #Belgrade
 			22 = { set_variable = { annexation_target = THIS } } #Athens
 			23 = { set_variable = { annexation_target = THIS } } #Muntenia
@@ -87,7 +93,10 @@ on_actions = {
 			27 = { set_variable = { annexation_target = THIS } } #Minsk
 			28 = { set_variable = { annexation_target = THIS } } #Kiev
 			29 = { set_variable = { annexation_target = THIS } } #Harju
-			30 = { set_variable = { annexation_target = THIS } } #Uusima
+			30 = { #Uusima
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14006 }
+			} 
 			32 = { set_variable = { annexation_target = THIS } } #Constantinople
 			37 = { #Mecklenburg
 				set_variable = { annexation_target = THIS }
@@ -367,10 +376,27 @@ on_actions = {
 			310 = { set_variable = { annexation_target = THIS } } #Murmansk
 			311 = { set_variable = { annexation_target = THIS } } #Salla
 			317 = { set_variable = { annexation_target = THIS } } #Ismail
-			341 = { set_variable = { annexation_target = THIS } } #Viipuri-Karelia
+			341 = { #Viipuri-Karelia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14007 }
+			}
 			342 = { set_variable = { annexation_target = THIS } } #Petsamo
-			351 = { set_variable = { annexation_target = THIS } } #Aland
-			367 = { set_variable = { annexation_target = THIS } } #Iceland
+			351 = { #Aland
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14008 }
+			} 
+			361 = { #North Schleswig
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14009 }
+			}
+			367 = { #Iceland
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14002 }
+			} 
+			368 = { #Greenland
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 14003 }
+			}
 			374 = { #Wales  
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11003 }

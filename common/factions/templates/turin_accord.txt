@@ -1,0 +1,45 @@
+faction_template_turin_accord = {
+	name = faction_turin_accord
+	icon = GFX_faction_icon_entente
+	manifest = faction_manifest_restoration_of_the_old_order
+
+	default_rules = {
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		war_declaration_rule_major_or_player_only
+		call_to_war_rule_major_only
+		change_leader_rule_manpower
+		change_leader_rule_industry
+		change_leader_rule_influence
+	}
+}
+faction_template_western_tripatite = { #IMP+ENT Merged Faction
+	name = faction_western_tripatite
+	icon = GFX_faction_icon_entente
+	manifest = faction_manifest_restoration_of_the_old_order
+
+	default_rules = {
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		war_declaration_rule_major_or_player_only
+		call_to_war_rule_major_only
+		change_leader_rule_manpower
+		change_leader_rule_industry
+		change_leader_rule_influence
+	}
+}
+faction_template_transatlantic_league = { #Security Organization of Transatlantic Alliance (SOTA)
+	name = faction_transatlantic_league
+	icon = GFX_faction_icon_entente
+	manifest = faction_manifest_restoration_of_the_old_order
+
+	default_rules = {
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		war_declaration_rule_major_or_player_only
+		call_to_war_rule_major_only
+		change_leader_rule_manpower
+		change_leader_rule_industry
+		change_leader_rule_influence
+	}
+}

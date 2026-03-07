@@ -1,8 +1,9 @@
-
 state={
 	id=210
 	name="STATE_210"
-
+	provinces={
+		279 334 362 389 3295 3324 3380 6347 9263 
+	}
 	history={
 		owner = POL
 		add_core_of = POL
@@ -21,13 +22,13 @@ state={
 			362 = {
 				naval_base = 6
 			}
+			3295 = {
+				bunker = 2
+			}
 		}
 	}
-
-	provinces={
-		279 334 362 389 3324 9263 
-	}
 	manpower=2629896
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=urbanised_region
+	local_supplies=0
 }

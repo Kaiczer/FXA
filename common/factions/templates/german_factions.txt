@@ -1,0 +1,36 @@
+faction_template_brotherhood_circle = { #Bruderschaftskreis
+	name = faction_brotherhood_circle
+	icon = GFX_faction_icon_reichspakt
+	manifest = faction_manifest_global_hegemony
+
+	default_rules = {
+		manpower_contribution_high
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		change_leader_rule_never
+	}
+}
+faction_template_unity_accord = { #Einheitsabkommen
+	name = faction_unity_accord
+	icon = GFX_faction_icon_reichspakt
+	manifest = faction_manifest_global_hegemony
+
+	default_rules = {
+		manpower_contribution_high
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		has_enough_influence_for_leadership
+	}
+}
+faction_template_solidarspakt = { #Solidarspakt
+	name = faction_solidarspakt
+	icon = GFX_faction_icon_solidarspakt
+	manifest = faction_manifest_global_hegemony
+
+	default_rules = {
+		manpower_contribution_high
+		joining_rule_non_socialist
+		dismissal_rule_ideology_socialist
+		change_leader_rule_never
+	}
+}

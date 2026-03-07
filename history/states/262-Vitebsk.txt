@@ -8,9 +8,11 @@ state={
 		steel = 10
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = BLR
+		owner = BSR
+		add_core_of = BSR
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=5.000

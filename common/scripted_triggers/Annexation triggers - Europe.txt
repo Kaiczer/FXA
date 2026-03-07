@@ -1159,6 +1159,7 @@ can_release_210 = {
 		should_release_brandenburg_first = yes
 		should_release_east_prussia_first = yes
 		213 = { annexations_state_has_valid_annexation = no }
+		211 = { annexations_state_has_valid_annexation = no }
 	}
 }
 
@@ -1188,7 +1189,7 @@ can_release_211 = {
 	ROOT = {
 		should_release_poland_first = yes
 		should_release_east_prussia_first = yes
-		210 = { annexations_state_has_valid_annexation = no }
+		213 = { annexations_state_has_valid_annexation = no }
 	}
 }
 
@@ -1534,74 +1535,57 @@ can_release_367 = {
 	}
 }
 
-#Northern Schleswig - annexation_north_schleswig
-can_release_361 = { 
-	361 = { annexations_state_is_tied_to_annexation_decision = yes } #Northern Schleswig
-	ROOT = {
-		OR = {
-			is_subject = yes
-			39 = { is_claim_or_core_of_ROOT = yes } #Schleswig
-			362 = { is_claim_or_core_of_ROOT = yes } #Jutland
-			39 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			362 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_denmark_first = yes
-		39 = { annexations_state_has_valid_annexation = no } #Schleswig
-	}
-}
-
 #Norway - annexation_norway
-can_release_norway = {
+can_release_18 = {
 	18 = { annexations_state_is_tied_to_annexation_decision = yes } #Østlandet
 	NOT = { country_exists = NOR }
 }
 
 #Sweden - annexation_sweden
-can_release_sweden = {
+can_release_19 = {
 	19 = { annexations_state_is_tied_to_annexation_decision = yes } #Svealand
 	NOT = { country_exists = SWE }
 }
 
-#Aland - annexation_aland
-can_release_aland = {
-	145 = { annexations_state_is_tied_to_annexation_decision = yes } #Åland
-	ROOT = {
-		OR = {
-			is_subject = yes
-			19 = { is_claim_or_core_of_ROOT = yes } #Svealand
-			30 = { is_claim_or_core_of_ROOT = yes } #Finland Proper
-			19 = { #Svealand
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			30 = { #Finland Proper
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_sweden_first = yes
-		should_release_finland_first = yes
-	}
-}
-
 #Finland - annexation_finland
-can_release_finland = {
+can_release_30 = {
 	30 = { annexations_state_is_tied_to_annexation_decision = yes } #Nyland
 	NOT = { country_exists = FIN }
 }
 
+#Greenland - annexation_greenland
+can_release_368 = {
+	368 = { annexations_state_is_tied_to_annexation_decision = yes } #Greenland
+	ROOT = {
+		OR = {
+			is_subject = yes
+			17 = { is_claim_or_core_of_ROOT = yes }
+			18 = { is_claim_or_core_of_ROOT = yes }
+			tag = CAN
+			is_american_tag = yes
+			17 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			18 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			CAN = { ROOT_can_grant_land = yes }
+			any_country = {
+				is_american_tag = yes
+				ROOT_can_grant_land = yes
+			}
+		}
+	}
+	ROOT = {
+		should_release_denmark_first = yes
+		should_release_norway_first = yes
+	}
+}
+
 #Karelia - annexation_karelia
-can_release_karelia = {
+can_release_341 = {
 	341 = { annexations_state_is_tied_to_annexation_decision = yes } #Karelia
 	ROOT = {
 		OR = {
@@ -1624,53 +1608,51 @@ can_release_karelia = {
 	}
 }
 
-#Salla - annexation_salla
-can_release_salla = { 
-	311 = { annexations_state_is_tied_to_annexation_decision = yes } #Salla
+#Aland - annexation_aland
+can_release_351 = {
+	351 = { annexations_state_is_tied_to_annexation_decision = yes } #Åland
 	ROOT = {
 		OR = {
 			is_subject = yes
-			308 = { is_claim_or_core_of_ROOT = yes } 
-			345 = { is_claim_or_core_of_ROOT = yes } 
-			308 = { 
+			19 = { is_claim_or_core_of_ROOT = yes } #Svealand
+			30 = { is_claim_or_core_of_ROOT = yes } #Finland Proper
+			19 = { #Svealand
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			345 = { 
+			30 = { #Finland Proper
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
 		}
 	}
 	ROOT = {
-		should_release_russia_first = yes
+		should_release_sweden_first = yes
 		should_release_finland_first = yes
-		308 = { annexations_state_has_valid_annexation = no } #White Karelia
 	}
 }
 
-#Petsamo - annexation_petsamo
-can_release_petsamo = { 
-	341 = { annexations_state_is_tied_to_annexation_decision = yes } #Salla
+#Northern Schleswig - annexation_north_schleswig
+can_release_361 = { 
+	361 = { annexations_state_is_tied_to_annexation_decision = yes } #Northern Schleswig
 	ROOT = {
 		OR = {
 			is_subject = yes
-			308 = { is_claim_or_core_of_ROOT = yes } 
-			345 = { is_claim_or_core_of_ROOT = yes } 
-			308 = { 
+			39 = { is_claim_or_core_of_ROOT = yes } #Schleswig
+			362 = { is_claim_or_core_of_ROOT = yes } #Jutland
+			39 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			345 = { 
+			362 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
 		}
 	}
 	ROOT = {
-		should_release_russia_first = yes
-		should_release_finland_first = yes
-		311 = { annexations_state_has_valid_annexation = no } #Salla
+		should_release_denmark_first = yes
+		39 = { annexations_state_has_valid_annexation = no } #Schleswig
 	}
 }
 

@@ -46,7 +46,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = imperial_sphere
+create_faction_from_template = faction_template_imperial_defense_sphere
 
 every_country = {
 	limit = {

@@ -34,7 +34,7 @@ if = {
 
 ### Character ###
 recruit_character = SOV_alexei_rykov #Premier of Soviet Russia / leader of the Russian Government
-recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman / acting leader upon the death of Lenin
+recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman
 
 set_popularities = {
 	vanguard_socialism = 80
@@ -49,7 +49,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = comintern
+create_faction_from_template = faction_template_comintern
 
 every_country = {
 	limit = {

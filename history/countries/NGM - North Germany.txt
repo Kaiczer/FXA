@@ -32,7 +32,7 @@ if = {
 	}
 }
 
-create_faction = unity_accord
+create_faction_from_template = faction_template_unity_accord
 add_to_faction = NGM
 add_to_faction = SGM
 add_to_faction = SHO

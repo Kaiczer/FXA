@@ -29,7 +29,9 @@ if = {
 		}
 	}
 }
-create_faction = warsaw_bloc
+
+create_faction_from_template = faction_template_warsaw_bloc
+
 every_country = {
 	limit = {
 		OR = {
@@ -41,9 +43,24 @@ every_country = {
 	}
 	add_to_faction = PREV
 }
+
 set_politics = {	
-	ruling_party = paternalism
+	ruling_party = national_corporatism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+add_ideas = {
+	corporatist_state
+	unitary_state
+	executive_directory
+	rule_by_decree
+	manipulated_judiciary
+	centralized_bureaucracy
+	all_bow_to_leader
+	cultural_conservatism
+	limited_exports
+	partial_economic_mobilisation
+	limited_conscription
 }

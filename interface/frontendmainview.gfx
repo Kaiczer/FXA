@@ -38,10 +38,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/logo_game.dds"
 	}
 
-	spriteType = {
-		name = "GFX_frontend_game_logo_patch_number"
-		texturefile = "gfx/interface/logo_game_patch_number.png"
-	}
+	# spriteType = {
+	# 	name = "GFX_frontend_game_logo_patch_number"
+	# 	texturefile = "gfx/interface/logo_game_patch_number.png"
+	# }
 
 	spriteType = {
 		name = "GFX_frontend_dev_logo"

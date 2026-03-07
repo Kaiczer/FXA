@@ -249,75 +249,65 @@ flag_specific_integrated_states = {
 }
 
 clear_cores_of_tag_if_possible = {
-	every_core_state = {
-		limit = {
-			check_variable = { core_countries^num > 1 } #is not the state's last core
-			if = {
-				limit = { PREV = { is_american_tag = yes } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					is_american_tag = yes
-				}
-			}
-			else_if = {
-				limit = { PREV = { is_italian_tag = yes } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					is_italian_tag = yes
-				}
-			}
-			else_if = {
-				limit = { PREV = { is_indian_tag = yes } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					is_indian_tag = yes
-				}
-			}
-			else_if = {
-				limit = { PREV = { is_chinese_tag = yes } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					is_chinese_tag = yes
-				}
-			}
-			else_if = {
-				limit = { PREV = { is_arabian_tag = yes } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					is_arabian_tag = yes
-				}
-			}
-			else_if = {
-				limit = { PREV = { original_tag = KML } }
-				any_country_with_core = {
-					NOT = { tag = PREV.PREV }
-					OR = {
-						original_tag = ETK
-						original_tag = SIK
+	if = {
+		limit = { exists = no }
+		every_core_state = {
+			limit = {
+				check_variable = { core_countries^num > 1 } #is not the state's last core
+				if = {
+					limit = { PREV = { is_american_tag = yes } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						is_american_tag = yes
 					}
 				}
-			}
-			NOT = {
-				AND = {
-					has_resistance = yes
-					occupied_country_tag = PREV
-					controller = { has_variable = can_integrate_@PREV.PREV }
+				else_if = {
+					limit = { PREV = { is_italian_tag = yes } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						is_italian_tag = yes
+					}
 				}
-				AND = {
-					NOT = { is_core_of = controller }
-					controller = { has_variable = can_integrate_@PREV.PREV }
-					NOT = {
-						any_country_with_core = {
-							NOT = { tag = PREV.PREV }
-							NOT = { var:PREV.controller = { has_variable = can_integrate_@PREV } }
+				else_if = {
+					limit = { PREV = { is_indian_tag = yes } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						OR = {
+							is_indian_tag = yes
+							original_tag = BRM
+						}
+					}
+				}
+				else_if = {
+					limit = { PREV = { is_chinese_tag = yes } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						is_chinese_tag = yes
+					}
+				}
+				else_if = {
+					limit = { PREV = { is_arabian_tag = yes } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						is_arabian_tag = yes
+					}
+				}
+				else_if = {
+					limit = { PREV = { original_tag = KML } }
+					any_country_with_core = {
+						NOT = { tag = PREV.PREV }
+						OR = {
+							original_tag = ETK
+							original_tag = SIK
 						}
 					}
 				}
 			}
+			remove_core_of = PREV
 		}
-		remove_core_of = PREV
+		every_state = { remove_claim_by = PREV }
+		force_update_map_mode = { mapmode = cores_claims_map_mode }
 	}
-	force_update_map_mode = { mapmode = cores_claims_map_mode }
 }
 
 start_state_integration_resistance = {

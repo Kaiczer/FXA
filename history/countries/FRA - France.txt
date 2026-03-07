@@ -55,7 +55,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = turin_accord
+create_faction_from_template = faction_template_turin_accord
 
 every_country = {
 	limit = {

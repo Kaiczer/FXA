@@ -799,3 +799,9 @@ generate_new_german_puppet = {
 		puppet_released_tag = yes
 	}
 }
+
+create_russian_puppet = {
+	if = {
+		limit = { }
+	}
+}

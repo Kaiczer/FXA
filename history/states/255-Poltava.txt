@@ -5,9 +5,8 @@ state={
 		511 559 3508 3557 6578 6605 9413 11504 
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
-		add_core_of = UKR
+		owner = USR
+		add_core_of = USR
 		add_to_array = { state_victory_points = 511 }
 
 		victory_points = { 511 5 }

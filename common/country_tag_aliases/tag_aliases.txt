@@ -1,12 +1,4 @@
 ### Soviet Republics
-USR = { 
-	original_tag = UKR
-	has_country_flag = UKR_is_soviet_puppet
-}
-BSR = {
-	original_tag = BLR
-	has_country_flag = BLR_is_soviet_puppet
-}
 MRN = {
 	original_tag = DAG
 	has_country_flag = DAG_is_mountainous_republic
@@ -29,14 +21,6 @@ GND = { #Chen Jitang / Guangdong (For Xinan Civil War)
 	original_tag = GXC
 	has_country_flag = GXC_is_guangdong
 }
-# GSM = {
-# 	original_tag = XSM
-# 	has_country_flag = XSM_gansu_ma_clique
-# }
-# NXM = {
-# 	original_tag = XSM
-# 	has_country_flag = XSM_ningxia_ma_clique
-# }
 
 ### South Africa
 ZAR = {
