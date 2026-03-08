@@ -1,15 +1,7 @@
 technologies = {
+	tech_camel_corps = {
+		allow = { always = no } #only added by effect
 
-	camel_corps_tech = {
-		research_cost = 1
-
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: camel_corps_tech_effect
 		camelry = {
 			desert = {
 				attack = 0.15
@@ -20,16 +12,14 @@ technologies = {
 	}
 
 	tech_ski_infantry = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_ski_infantry_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: tech_ski_infantry_effect
-		infantry = {
+		category_light_infantry = {
 			hills = {
 				attack = 0.05
 				defence = 0.05
@@ -44,16 +34,10 @@ technologies = {
 	}
 
 	tech_marine_bonus = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_marine_bonus_effect
-		marine = {
+		#if you change these, also change them for tech_marine_bonus_combined
+		category_marines = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -68,16 +52,10 @@ technologies = {
 	}
 
 	tech_marine_bonus_2 = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_marine_bonus_2_effect
-		marine = {
+		#if you change these, also change them for tech_marine_bonus_combined
+		category_marines = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 		}
@@ -91,16 +69,34 @@ technologies = {
 		}
 	}
 
-	jungle_warfare = {
-		research_cost = 1
+	#combination of tech_marine_bonus and tech_marine_bonus_2
+	#DO NOT ADD THIS TECH - IT ONLY EXISTS FOR TOOLTIP PURPOSES
+	tech_marine_bonus_combined = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		#make sure these add up to tech_marine_bonus + tech_marine_bonus_2
+		category_marines = {
+			soft_attack = 0.1
+			hard_attack = 0.1
 		}
+		amphibious_mechanized = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+		category_amphibious_tanks = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+		}
+	}
 
-		#If you change these
-		#Change the custom tooltip too: jungle_warfare_effect
+	tech_jungle_warfare = {
+		allow = { always = no } #only added by effect
+
+		on_research_complete = {
+			custom_effect_tooltip = tech_jungle_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
+		}
+		show_effect_as_desc = yes
+
 		category_light_infantry = {
 			jungle = {
 				attack = 0.05
@@ -110,16 +106,14 @@ technologies = {
 		}
 	}
 
-	forest_warfare = {
-		research_cost = 1
+	tech_forest_warfare = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_forest_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: forest_warfare_effect
 		category_light_infantry = {
 			forest = {
 				attack = 0.05
@@ -129,33 +123,47 @@ technologies = {
 		}
 	}
 
-	improved_field_hospitals = {
-		research_cost = 1
+	tech_improved_field_hospitals = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: improved_field_hospitals_effect
 		field_hospital = {
 			casualty_trickleback = 0.20
 			experience_loss_factor = -0.10
 		}
 	}
 
-	expanded_engineer_corps_tech = {
-		research_cost = 1
+	tech_expanded_engineer_corps = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: expanded_engineer_corps_tech_effect
 		engineer = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		pioneer_support = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		jungle_pioneers_support = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		assault_engineer = {
+			entrenchment = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		armored_engineer = {
 			entrenchment = 2
 			fort = {
 				defence = 0.10
@@ -164,16 +172,14 @@ technologies = {
 		}
 	}
 
-	mountain_training_tech = {
-		research_cost = 1
+	tech_mountain_warfare = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_mountain_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: mountain_training_tech_effect
 		category_light_infantry = {
 			mountain = {
 				attack = 0.05
@@ -183,32 +189,23 @@ technologies = {
 		}
 	}
 
-	improved_recon_units_tech = {
-		research_cost = 1
+	tech_improved_recon_units = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: improved_recon_units_tech_effect
 		category_recon = {
 			recon = 1
 			breakthrough = 1
 		}
 	}
 
-	asymmetrical_warfare = {
-		research_cost = 1
+	tech_urban_warfare = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_urban_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: RAJ_jungle_training_effect
 		category_light_infantry = {
 			urban = {
 				attack = 0.05
@@ -218,16 +215,14 @@ technologies = {
 		}
 	}
 
-	desert_warfare = {
-		research_cost = 1
+	tech_desert_warfare = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_desert_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: desert_warfare_effect
 		category_light_infantry = {
 			desert = {
 				attack = 0.10
@@ -237,16 +232,14 @@ technologies = {
 		}
 	}
 
-	marsh_warfare = {
-		research_cost = 1
+	tech_marsh_warfare = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_marsh_warfare_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: marsh_warfare_effect
 		category_light_infantry = {
 			marsh = {
 				attack = 0.10
@@ -256,16 +249,14 @@ technologies = {
 		}
 	}
 
-	anti_fortification_artillery = {
-		research_cost = 1
+	tech_anti_fortification_artillery = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_anti_fortification_artillery_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: anti_fortification_artillery_effect
 		category_artillery = {
 			fort = {
 				attack = 0.20
@@ -274,15 +265,8 @@ technologies = {
 	}
 
 	tech_integrated_specialists = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_integrated_specialists_effect
 		special_forces_cap = 0.05
 		category_special_forces = {
 			soft_attack = 0.05
@@ -291,61 +275,41 @@ technologies = {
 	}
 
 	tech_at_cavalry = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_at_cavalry_effect
-		cavalry = {
+		category_cavalry = {
 			ap_attack = 3
 		}
 	}
 
 	tech_semi_motorised_cav = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_semi_motorised_cav_effect
-		cavalry = {
+		category_cavalry = {
 			max_organisation = 5
 			default_morale = 0.1
+			maximum_speed = 0.15
+		}
+		recon = {
 			maximum_speed = 0.15
 		}
 	}
 
 	tech_improved_encryption = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_improved_encryption_effect
 		crypto_strength = 2
 	}
 
 	tech_mountain_artillery = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_mountain_artillery_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: tech_mountain_artillery_effect
-		artillery = {
+		category_artillery = {
 			hills = {
 				attack = 0.1
 				movement = 0.1
@@ -358,17 +322,14 @@ technologies = {
 	}
 
 	tech_arctic_commando = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_arctic_commando_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: tech_arctic_commando_effect
 		special_forces_no_supply_grace = 48
-
 		category_special_forces = {
 			acclimatization_cold_climate_gain_factor = 0.10
 			hills = {
@@ -381,140 +342,71 @@ technologies = {
 	}
 
 	tech_better_paratroopers = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_better_paratroopers_effect
 		extra_paratrooper_supply_grace = 24
-		paratrooper = {
+		category_paratroopers = {
 			soft_attack = 0.10
 			default_morale = 0.2
 		}
 	}
 
 	tech_irregulars = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_irregulars_effect
 		enable_subunits = {
 			irregular_infantry
 		}
 	}
 
 	tech_militias = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_militias_effect
 		enable_subunits = {
 			militia
 		}
 	}
 
 	tech_assault_battalion = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_assault_battalion_effect
 		enable_subunits = {
 			assault_battalion
 		}
 	}
 
 	tech_anti_partisan = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_anti_partisan_effect
-		infantry = {
+		category_light_infantry = {
 			suppression_factor = 0.15
 		}
-		cavalry = {
+		category_cavalry = {
 			suppression_factor = 0.15
 		}
 	}
 
 	tech_improved_logistics = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_improved_logistics_effect
 		logistics_company = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.05
+		}
+		helicopter_transport = {
 			supply_consumption_factor = -0.1
 			fuel_consumption_factor = -0.05
 		}
 	}
 
-	tech_early_helicopters = {
-		research_cost = 1
+	tech_extensive_reconnaissance = {
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_extensive_reconnaissance_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
+		show_effect_as_desc = yes
 
-		#If you change these
-		#Change the custom tooltip too: tech_early_helicopters_effect
-		category_recon = {
-			recon = 1
-		}
-		special_forces_no_supply_grace = 24
-	}
-
-	tech_human_wave_tactics = {
-		research_cost = 1
-
-		#added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_human_wave_tactics_effect
-		enable_tactic = tactic_human_wave_tactics
-	}
-
-	tech_extensive_reconaissance = {
-		research_cost = 1
-
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_extensive_reconaissance_effect
 		category_recon = {
 			recon = 1
 			snow = {
@@ -542,15 +434,8 @@ technologies = {
 	}
 
 	tech_strengthened_support_companies = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_strengthened_support_companies_effect
 		category_support_battalions = {
 			max_strength = 5
 			max_organisation = 10
@@ -558,15 +443,8 @@ technologies = {
 	}
 
 	tech_anti_armour_tactics = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_anti_armour_tactics_effect
 		category_all_infantry = {
 			hard_attack = 0.25
 			ap_attack = 1
@@ -574,15 +452,12 @@ technologies = {
 	}
 
 	tech_river_boats = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
+		on_research_complete = {
+			custom_effect_tooltip = tech_river_boats_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
 		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_river_boats_effect
+		show_effect_as_desc = yes
 
 		category_all_infantry = {
 			river = {
@@ -594,19 +469,118 @@ technologies = {
 	}
 
 	tech_armored_car_spearhead = {
-		research_cost = 1
+		allow = { always = no } #only added by effect
 
-		#only added by effect
-		allow = {
-			always = no
-		}
-
-		#If you change these
-		#Change the custom tooltip too: tech_armored_car_spearhead_effect
 		armored_car = {
 			max_organisation = 10
 			default_morale = 0.1
 			maximum_speed = 0.2
+		}
+	}
+
+	tech_improved_decryption = {
+		allow = { always = no } #only added by effect
+
+		decryption_power = 10
+	}
+
+	tech_elephant_sappers = {
+		allow = { always = no } #only added by effect
+
+		on_research_complete = {
+			custom_effect_tooltip = tech_elephant_sappers_terrain_effect #TODO: remove if tech_effect terrain tooltips are fixed
+		}
+		show_effect_as_desc = yes
+
+		engineer = {
+			supply_consumption_factor = -0.05
+			jungle = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		pioneer_support = {
+			supply_consumption_factor = -0.05
+			jungle = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+	}
+
+	tech_gtd_unlock_cruiser_sub_modules = {
+		allow = { always = no } #only added by effect
+		enable_equipment_modules = {
+			ship_extra_fuel_tank
+			ship_light_battery_sub
+		}
+	}
+
+	tech_bicycle_battalion = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			bicycle_battalion
+		}
+	}
+
+	tech_camelry = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			camelry
+		}
+	}
+
+	tech_penal_battalion = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			penal_battalion
+		}
+	}
+
+	tech_winter_logistics_support = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			winter_logistics_support
+		}
+	}
+
+	tech_long_range_patrol_support = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			long_range_patrol_support
+		}
+	}
+
+	tech_jungle_pioneers_support = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			jungle_pioneers_support
+		}
+	}
+
+	tech_sturmtruppe_battalion = {
+		allow = { always = no } #only added by effect
+
+		enable_subunits = {
+			sturmtruppe_battalion
 		}
 	}
 }

@@ -1,5 +1,4 @@
 equipments = {
-
 	artillery_equipment = {
 		year = 1934
 
@@ -16,6 +15,7 @@ equipments = {
 
 		#Misc Abilities
 		reliability = 0.8
+		maximum_speed = 4
 
 		#Defensive Abilities
 		defense = 10
@@ -113,6 +113,7 @@ equipments = {
 
 		#Misc Abilities
 		reliability = 0.8
+		maximum_speed = 4
 
 		#Defensive Abilities
 		defense = 12

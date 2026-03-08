@@ -116,7 +116,7 @@ continuous_focus_palette = {
 			factor = 1
 			modifier = {
 				factor = 0
-				num_occupied_states < 1
+				check_variable = { occupied_countries^num < 1 }
 			}
 		}
 
@@ -156,15 +156,11 @@ continuous_focus_palette = {
 
 		icon = GFX_goal_continuous_research
 
-		available = {
-			hidden_trigger = { has_tech_sharing_feature = yes }
-		}
-
 		enable = {
 			is_in_faction = yes
 			num_faction_members > 1
 
-			custom_trigger_tooltip = {
+			custom_override_tooltip = {
 				tooltip = NO_OTHER_SHARING_GROUPS
 				OR = {
 					AND = {

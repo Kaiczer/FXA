@@ -11,8 +11,6 @@ sp_air_radar = {
 		specialization_air = 1
 	}
 
-	project_tags = sp_tag_radar
-
 	available = {
 		FROM = { has_tech = electronic_mechanical_engineering }
 	}
@@ -35,7 +33,6 @@ sp_air_radar = {
 			date > 1940.1.1
 		}
 	}
-
 
 	project_output = {
 		country_effects = {
@@ -67,9 +64,6 @@ sp_air_radar = {
 		}
 
 		enable_equipment_modules = {
-			limit = {
-				has_dlc = "Man the Guns"
-			}
 			ship_radar_1
 		}
 	}

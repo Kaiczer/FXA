@@ -13,7 +13,7 @@ sp_nuclear_reactor = {
 	}
 
 	resource_cost = {
-		resources = { steel=6 tungsten=3 chromium=6 }
+		resources = { steel = 6 tungsten = 3 chromium = 6 }
 	}
 
 	prototype_time = sp_time.prototype.long
@@ -22,8 +22,10 @@ sp_nuclear_reactor = {
 		country_effects = {
 			custom_override_tooltip = {
 				tooltip = {
-					localization_key = SP_UNLOCK_BUILDING
+					localization_key = SP_UNLOCK_BUILDING_ICON_DESC
 					BUILDING = nuclear_reactor
+					BUILDING_DESCRIPTION = nuclear_reactor_desc
+					ICON_FRAME = 13
 				}
 				IF = {
 					limit = {
@@ -179,7 +181,6 @@ sp_nuclear_reactor = {
 				iteration_output = {
 					country_effects = {
 						set_global_flag = nuclear_reactor_tested_flag
-						set_country_flag = nuclear_reactor_classify_flag
 					}
 				}
 			}
@@ -216,7 +217,7 @@ sp_nuclear_reactor = {
 										name = sp_nuclear_reactor_tested_tech_bonus
 										bonus = 0.25
 										uses = 1
-										technology  = atomic_research
+										technology = atomic_research
 									}
 								}
 							}
@@ -241,7 +242,6 @@ sp_nuclear_reactor = {
 			option = {
 				token = ssp_nuclear_major_breakthrough_reward_option
 
-
 				iteration_output = {
 					country_effects = {
 						FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium }
@@ -249,10 +249,8 @@ sp_nuclear_reactor = {
 				}
 			}
 		}
-
 	}
 }
-
 
 # ADVANDED NUCLEAR USAGE
 sp_commercial_nuclear_reactor = {
@@ -268,10 +266,10 @@ sp_commercial_nuclear_reactor = {
 		sp_nuclear_reactor
 	}
 	resource_cost = {
-		resources = { steel=6 tungsten=4 chromium=7 }
+		resources = { steel = 6 tungsten = 4 chromium = 7 }
 	}
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 	available = {
 		FROM = {
@@ -283,8 +281,10 @@ sp_commercial_nuclear_reactor = {
 		country_effects = {
 			custom_override_tooltip = {
 				tooltip = {
-					localization_key = SP_UNLOCK_BUILDING
+					localization_key = SP_UNLOCK_BUILDING_ICON_DESC
 					BUILDING = commercial_nuclear_reactor
+					BUILDING_DESCRIPTION = commercial_nuclear_reactor_desc
+					ICON_FRAME = 27
 				}
 				set_technology = {
 					commercial_nuclear_reactor_tech = 1
@@ -387,10 +387,8 @@ sp_commercial_nuclear_reactor = {
 				}
 			}
 		}
-
 	}
 }
-
 
 sp_nuclear_engines = {
 	specialization = specialization_nuclear
@@ -402,14 +400,14 @@ sp_nuclear_engines = {
 	complexity = sp_complexity.medium
 
 	resource_cost = {
-		resources = { steel=4 tungsten=2 chromium=5 }
+		resources = { steel = 4 tungsten = 2 chromium = 5 }
 	}
 
 	special_project_parent = {
 		sp_commercial_nuclear_reactor
 	}
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 	available = {
 
@@ -440,13 +438,7 @@ sp_nuclear_engines = {
 		sp_nuclear_reactor_radioactive_leak_stabilized_reward
 		sp_nuclear_reactor_minor_explosion_reward
 	}
-
-	unique_prototype_rewards = {
-
-	}
 }
-
-
 
 # ATOMIC BOMBS
 sp_nuclear_bomb = {
@@ -458,7 +450,7 @@ sp_nuclear_bomb = {
 	prototype_time = sp_time.prototype.long
 	complexity = sp_complexity.large
 	resource_cost = {
-		resources = { steel=2 tungsten=8 chromium=2 }
+		resources = { steel = 2 tungsten = 8 chromium = 2 }
 	}
 	special_project_parent = {
 		sp_nuclear_reactor
@@ -484,7 +476,6 @@ sp_nuclear_bomb = {
 
 		scientist_effects = {
 		}
-
 	}
 
 	empty_reward_weight = {
@@ -504,7 +495,6 @@ sp_nuclear_bomb = {
 	}
 
 	unique_prototype_rewards = {
-
 		sp_nuclear_bomb_test_prototype_reward = {
 			fire_only_once = yes
 
@@ -611,7 +601,6 @@ sp_nuclear_bomb = {
 					factor = 0.5
 					FROM = { has_country_flag = nuclear_bomb_high_security_flag }
 				}
-
 			}
 
 			option = {
@@ -625,11 +614,7 @@ sp_nuclear_bomb = {
 							}
 							custom_effect_tooltip = sp_nuclear_bomb_information_leak_reward_tt
 							hidden_effect = {
-								country_event = {
-									id = sp_nuclear_project_events.1
-									hours = 8
-									random_hours = 4
-								}
+								country_event = { id = sp_nuclear_project_events.1 hours = 8 random_hours = 4 }
 							}
 						}
 					}
@@ -675,14 +660,14 @@ sp_thermo_nuclear_bomb = {
 	complexity = sp_complexity.insane
 
 	resource_cost = {
-		resources = { steel=2 tungsten=10 chromium=3 }
+		resources = { steel = 2 tungsten = 10 chromium = 3 }
 	}
 
 	special_project_parent = {
 		sp_nuclear_bomb
 	}
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 	available = {
 
@@ -753,12 +738,10 @@ sp_thermo_nuclear_bomb = {
 							}
 							add_nuclear_bombs = -1
 							FROM = { add_project_progress_ratio = constant:sp_progress.gain.high }
-							set_country_flag = thermonuclear_weapon_test_flag
 						}
 						ELSE = {
 							custom_effect_tooltip = "sp_no_nukes_available_tt"
 						}
-
 					}
 				}
 			}
@@ -776,7 +759,7 @@ sp_nuclear_warheads = {
 	complexity = sp_complexity.large
 
 	resource_cost = {
-		resources = { aluminium=4 tungsten=4 chromium=2 }
+		resources = { aluminium = 4 tungsten = 4 chromium = 2 }
 	}
 
 	special_project_parent = {
@@ -785,7 +768,7 @@ sp_nuclear_warheads = {
 		sp_rockets_medium_range_ballistic_missile
 	}
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 	available = {
 	}
@@ -813,10 +796,6 @@ sp_nuclear_warheads = {
 		sp_nuclear_bomb_theoretical_breakthrough_generic_reward
 		sp_nuclear_bomb_critical_mass_generic_reward
 		sp_nuclear_bomb_accident_generic_reward
-	}
-
-	unique_prototype_rewards = {
-
 	}
 }
 

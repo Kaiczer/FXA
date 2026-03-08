@@ -35,7 +35,7 @@ types = {
 		command_power = 25
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 		}
 
 		# Raid Type is visible
@@ -66,9 +66,6 @@ types = {
 
 		arrow = {
 			type = air
-		}
-		unit_model = {
-			type = equipment
 		}
 
 		unit_requirements = {
@@ -186,7 +183,6 @@ types = {
 						}
 						raid_reduce_project_progress_ratio = 0.05
 					}
-
 				}
 				actor_effects = {
 					raid_damage_units = {
@@ -202,7 +198,6 @@ types = {
 			}
 			success = {
 				victim_effects = {
-
 					var:target_state = {
 						custom_effect_tooltip = {
 							localization_key = raid_facility_damage_tt
@@ -274,7 +269,6 @@ types = {
 
 ###############################################################################
 
-
 	lock_bombing_raid = {
 		days_to_prepare = 90
 
@@ -282,12 +276,10 @@ types = {
 
 		command_power = 20 # command power allocation cost
 
-		ai_will_do = {
-			base = 1
-		}
+		ai_will_do = { base = 1 }
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 		}
 		# Raid Type is visible
 		visible = {
@@ -316,21 +308,18 @@ types = {
 		arrow = {
 			type = air
 		}
-		unit_model = {
-			type = equipment
-		}
 
 		unit_requirements = {
 			equipment = {
 				type = { tactical_bomber }
-				amount = { min = 70  }
+				amount = { min = 70 }
 			}
 		}
 
 		unit_requirements = {
 			equipment = {
 				type = { strategic_bomber }
-				amount = { min = 70  }
+				amount = { min = 70 }
 			}
 		}
 
@@ -502,10 +491,7 @@ types = {
 				}
 			}
 		}
-
 	}
-
-
 
 ###################################################
 
@@ -533,7 +519,7 @@ types = {
 		}
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 		}
 		# Raid Type is visible
 		visible = {
@@ -549,7 +535,6 @@ types = {
 		# Can prepare
 		available = {
 			is_special_project_completed = sp:sp_air_bouncing_bomb
-
 		}
 
 		launchable = {
@@ -566,9 +551,6 @@ types = {
 
 		arrow = {
 			type = air
-		}
-		unit_model = {
-			type = equipment
 		}
 
 		unit_requirements = {
@@ -631,11 +613,8 @@ types = {
 
 			critical = {
 				base = 0.15
-
 			}
 		}
-
-
 
 		success_levels = {
 			failure = {
@@ -764,9 +743,6 @@ types = {
 		}
 	}
 
-
-
-
 ########################################################
 
  ##  ### #   ### ### ### #   ###      ###   ##  ### ###
@@ -776,7 +752,6 @@ types = {
  ##  ### ### #   ### ### ### ###      #  # #  # ### ###
 
 ########################################################
-
 
 	oilfield_raid = {
 		days_to_prepare = 90
@@ -807,7 +782,7 @@ types = {
 		command_power = 20 # command power allocation cost
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 		}
 		# Raid Type is visible
 		visible = {
@@ -825,7 +800,6 @@ types = {
 
 		}
 
-
 		# Can launch a raid
 		launchable = {
 			has_war_with = FROM
@@ -836,28 +810,13 @@ types = {
 				# Resouce amount needed to be eligible as raid target
 				oil > 24
 				# If the site has been hit recently you can't target it again
-				NOT = {
-					OR = {
-						has_dynamic_modifier = {
-							modifier = refinery_damaged_modifier
-						}
-						has_dynamic_modifier = {
-							modifier = refinery_critically_damaged_modifier
-						}
-						has_dynamic_modifier = {
-							modifier = refinery_lightly_damaged_modifier
-						}
-					}
-				}
+				NOT = { has_dynamic_modifier = { modifier = refinery_damaged_modifier } }
 			}
 		}
 		target_icon = GFX_oilfield_target_icon
 		target_loc_key = raid_target_name_oil_field
 		arrow = {
 			type = air
-		}
-		unit_model = {
-			type = equipment
 		}
 		launch_sound = raid_launch_air
 
@@ -949,8 +908,9 @@ types = {
 				victim_effects = {
 					# Damage to Target
 					var:target_state = {
+						set_variable = { refinery_damaged_value = -0.25 }
 						add_dynamic_modifier = {
-							modifier = refinery_lightly_damaged_modifier
+							modifier = refinery_damaged_modifier
 							days = 90
 						}
 					}
@@ -974,6 +934,7 @@ types = {
 				victim_effects = {
 					# Damage to Target
 					var:target_state = {
+						set_variable = { refinery_damaged_value = -0.5 }
 						add_dynamic_modifier = {
 							modifier = refinery_damaged_modifier
 							days = 180
@@ -1003,8 +964,9 @@ types = {
 				victim_effects = {
 					# Damage to Target
 					var:target_state = {
+						set_variable = { refinery_damaged_value = -0.75 }
 						add_dynamic_modifier = {
-							modifier = refinery_critically_damaged_modifier
+							modifier = refinery_damaged_modifier
 							days = 360
 						}
 					}
@@ -1029,7 +991,6 @@ types = {
 				}
 			}
 		}
-
 	}
 
 ###################################################################################################
@@ -1064,7 +1025,7 @@ types = {
 		command_power = 20
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 			has_dlc_bba = yes
 		}
 
@@ -1096,9 +1057,6 @@ types = {
 		arrow = {
 			type = air
 		}
-		unit_model = {
-			type = equipment
-		}
 
 		unit_requirements = {
 			equipment = {
@@ -1107,7 +1065,6 @@ types = {
 				amount = { min = 70 }
 			}
 		}
-
 
 		starting_point = {
 			types = { air_base }
@@ -1196,7 +1153,6 @@ types = {
 							repair_speed_modifier = -0.20
 						}
 					}
-
 				}
 				actor_effects = {
 					raid_damage_units = {
@@ -1212,7 +1168,6 @@ types = {
 			}
 			success = {
 				victim_effects = {
-
 					var:target_state = {
 						custom_effect_tooltip = {
 							localization_key = raid_building_destroyed_tt
@@ -1290,7 +1245,7 @@ types = {
 		command_power = 20
 
 		allowed = {
-			has_dlc_got = yes
+			has_dlc_gtd = yes
 			has_dlc_bba = no
 		}
 
@@ -1322,9 +1277,6 @@ types = {
 		arrow = {
 			type = air
 		}
-		unit_model = {
-			type = equipment
-		}
 
 		unit_requirements = {
 			equipment = {
@@ -1332,7 +1284,6 @@ types = {
 				amount = { min = 70 }
 			}
 		}
-
 
 		starting_point = {
 			types = { air_base }
@@ -1436,7 +1387,6 @@ types = {
 			}
 			success = {
 				victim_effects = {
-
 					var:target_state = {
 						custom_effect_tooltip = {
 							localization_key = raid_building_destroyed_tt
@@ -1491,8 +1441,6 @@ types = {
 			}
 		}
 	}
-
-
 
 # END OF TYPES
 }

@@ -1001,7 +1001,7 @@ destroy_all_ships = {
 		count = all
 	}
 	destroy_ships = {
-		type = ship_hull_cruiser_panzerschiff
+		type = ship_hull_armoured_cruiser
 		count = all
 	}
 	destroy_ships = {

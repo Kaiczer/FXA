@@ -64,7 +64,7 @@ sp_air_generic_aerodynamics_advancements_reward = {
 	}
 
 	option = {
-		token =sp_air_generic_avionics_advancements_reward_option
+		token = sp_air_generic_avionics_advancements_reward_option
 
 		iteration_output = {
 			country_effects = {
@@ -87,7 +87,7 @@ sp_air_generic_discoveries_reward = {
 	}
 
 	option = {
-		token =sp_air_generic_avionics_advancements_reward_option
+		token = sp_air_generic_avionics_advancements_reward_option
 
 		iteration_output = {
 			country_effects = {
@@ -130,12 +130,10 @@ sp_air_political_interference_generic_reward = {
 	}
 }
 
-
 # EXPANDED AIR GENERIC AIR REWARDS
 
 #Low Scientist XP gain
 sp_air_generic_reward_scientist_xp_1 = {
-
 	fire_only_once = yes
 
 	threshold = {
@@ -187,7 +185,6 @@ sp_air_generic_reward_scientist_xp_1 = {
 
 #Medium Scientist XP gain
 sp_air_generic_reward_scientist_xp_2 = {
-
 	fire_only_once = yes
 
 	threshold = {
@@ -242,7 +239,6 @@ sp_air_generic_reward_scientist_xp_2 = {
 
 #High Scientist XP gain
 sp_air_generic_reward_scientist_xp_3 = {
-
 	fire_only_once = yes
 
 	threshold = {

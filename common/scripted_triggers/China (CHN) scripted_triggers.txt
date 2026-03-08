@@ -6,75 +6,35 @@ is_fully_controlled_by_ROOT_and_is_not_core_of_ROOT = {
 ### new triggers ###
 
 china_is_aligned_with_zhili = {
-	check_variable = {
-		tooltip = china_is_aligned_with_zhili
-		country_leader:china_alignment = token:zhili
-	}
+	
 }
 
 china_is_aligned_with_monarchists = {
-	check_variable = {
-		tooltip = china_is_aligned_with_monarchists
-		country_leader:china_alignment = token:chinese_monarchists
-	}
+	
 }
 
 china_is_aligned_with_fengtian = {
-	check_variable = {
-		tooltip = china_is_aligned_with_fengtian
-		country_leader:china_alignment = token:fengtian
-	}
+	
 }
 
 china_is_aligned_with_left_kmt = {
-	custom_trigger_tooltip = {
-		tooltip = china_is_aligned_with_left_kmt
-		OR = {
-			check_variable = { country_leader:china_alignment = token:chinese_republican }
-			check_variable = { country_leader:china_alignment = token:left_kuomintang }
-		}
-	}
+	
 }
 
 china_is_aligned_with_right_kmt = {
-	custom_trigger_tooltip = {
-		tooltip = china_is_aligned_with_right_kmt
-		OR = {
-			check_variable = { country_leader:china_alignment = token:chinese_republican }
-			check_variable = { country_leader:china_alignment = token:right_kuomintang }
-		}
-	}
+	
 }
 
 china_is_aligned_with_communists = {
-	custom_trigger_tooltip = {
-		tooltip = china_is_aligned_with_right_kmt
-		OR = {
-			check_variable = { country_leader:china_alignment = token:chinese_republican }
-			check_variable = { country_leader:china_alignment = token:chinese_communists }
-		}
-	}
+	
 }
 
 china_is_aligned_with_kmt = {
-	custom_trigger_tooltip = {
-		tooltip = china_is_aligned_with_kmt
-		OR = {
-			china_is_aligned_with_left_kmt = yes
-			china_is_aligned_with_right_kmt = yes
-		}
-	}
+	
 }
 
 china_is_aligned_with_republicans = {
-	custom_trigger_tooltip = {
-		tooltip = china_is_aligned_with_republicans
-		OR = {
-			china_is_aligned_with_left_kmt = yes
-			china_is_aligned_with_right_kmt = yes
-			china_is_aligned_with_communists = yes
-		}
-	}
+	
 }
 
 china_is_unaligned = {
@@ -85,7 +45,7 @@ china_is_unaligned = {
 }
 
 china_same_alignment_as_PREV = {
-	check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment }
+	
 }
 
 china_compatible_alignment_to_PREV = {
@@ -115,7 +75,7 @@ china_compatible_alignment_to_PREV = {
 }
 
 china_same_alignment_as_FROM = {
-	check_variable = { country_leader:china_alignment = FROM.country_leader:china_alignment }
+	
 }
 
 china_compatible_alignment_to_FROM = {
@@ -124,7 +84,7 @@ china_compatible_alignment_to_FROM = {
 		FROM = { china_is_unaligned = no }
 	}
 	OR = {
-		FROM = { check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment } }
+		# FROM = { check_variable = { country_leader:china_alignment = PREV.country_leader:china_alignment } }
 		AND = {
 			china_is_aligned_with_zhili = yes
 			FROM = { china_is_aligned_with_zhili = yes }

@@ -1,7 +1,5 @@
 technologies = {
-
 	early_transport_plane = {
-
 		enable_equipments = {
 			transport_plane_equipment_1
 		}
@@ -35,7 +33,6 @@ technologies = {
 	}
 
 	improved_transport_plane = {
-
 		enable_equipments = {
 			transport_plane_equipment_2
 		}
@@ -69,7 +66,6 @@ technologies = {
 	}
 
 	strategic_airlifter = {
-
 		enable_equipments = {
 			transport_plane_equipment_3
 		}
@@ -98,7 +94,6 @@ technologies = {
 	}
 
 	early_fighter = {
-
 		enable_equipments = {
 			fighter_equipment_0
 		}
@@ -147,7 +142,6 @@ technologies = {
 	}
 
 	cv_early_fighter = {
-
 		enable_equipments = {
 			cv_fighter_equipment_0
 		}
@@ -183,7 +177,6 @@ technologies = {
 	}
 
 	fighter1 = {
-
 		enable_equipments = {
 			fighter_equipment_1
 		}
@@ -245,7 +238,6 @@ technologies = {
 	}
 
 	cv_fighter1 = {
-
 		enable_equipments = {
 			cv_fighter_equipment_1
 		}
@@ -288,7 +280,6 @@ technologies = {
 	}
 
 	fighter2 = {
-
 		enable_equipments = {
 			fighter_equipment_2
 		}
@@ -356,7 +347,6 @@ technologies = {
 	}
 
 	cv_fighter2 = {
-
 		enable_equipments = {
 			cv_fighter_equipment_2
 		}
@@ -400,7 +390,6 @@ technologies = {
 	}
 
 	fighter3 = {
-
 		enable_equipments = {
 			fighter_equipment_3
 		}
@@ -462,7 +451,6 @@ technologies = {
 	}
 
 	cv_fighter3 = {
-
 		enable_equipments = {
 			cv_fighter_equipment_3
 		}
@@ -499,7 +487,6 @@ technologies = {
 	}
 
 	jet_fighter1 = {
-
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_jet_engine
@@ -554,7 +541,6 @@ technologies = {
 	}
 
 	jet_fighter2 = {
-
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
@@ -565,7 +551,6 @@ technologies = {
 			jet_fighter_equipment_2
 		}
 
-		is_special_project_tech = yes
 		research_cost = 2
 		start_year = 1950
 
@@ -589,7 +574,6 @@ technologies = {
 	}
 
 	CAS1 = {
-
 		enable_equipments = {
 			CAS_equipment_1
 		}
@@ -634,7 +618,6 @@ technologies = {
 	}
 
 	cv_CAS1 = {
-
 		enable_equipments = {
 			cv_CAS_equipment_1
 		}
@@ -679,7 +662,6 @@ technologies = {
 	}
 
 	CAS2 = {
-
 		enable_equipments = {
 			CAS_equipment_2
 		}
@@ -735,7 +717,6 @@ technologies = {
 	}
 
 	cv_CAS2 = {
-
 		enable_equipments = {
 			cv_CAS_equipment_2
 		}
@@ -780,7 +761,6 @@ technologies = {
 	}
 
 	CAS3 = {
-
 		enable_equipments = {
 			CAS_equipment_3
 		}
@@ -835,7 +815,6 @@ technologies = {
 	}
 
 	cv_CAS3 = {
-
 		enable_equipments = {
 			cv_CAS_equipment_3
 		}
@@ -873,7 +852,6 @@ technologies = {
 	}
 
 	naval_bomber1 = {
-
 		enable_equipments = {
 			nav_bomber_equipment_1
 		}
@@ -917,7 +895,6 @@ technologies = {
 	}
 
 	cv_naval_bomber1 = {
-
 		enable_equipments = {
 			cv_nav_bomber_equipment_1
 		}
@@ -962,7 +939,6 @@ technologies = {
 	}
 
 	naval_bomber2 = {
-
 		enable_equipments = {
 			nav_bomber_equipment_2
 		}
@@ -1013,7 +989,6 @@ technologies = {
 	}
 
 	cv_naval_bomber2 = {
-
 		enable_equipments = {
 			cv_nav_bomber_equipment_2
 		}
@@ -1057,7 +1032,6 @@ technologies = {
 	}
 
 	naval_bomber3 = {
-
 		enable_equipments = {
 			nav_bomber_equipment_3
 		}
@@ -1108,7 +1082,6 @@ technologies = {
 	}
 
 	cv_naval_bomber3 = {
-
 		enable_equipments = {
 			cv_nav_bomber_equipment_3
 		}
@@ -1141,7 +1114,6 @@ technologies = {
 	}
 
 	early_bomber = {
-
 		enable_equipments = {
 			tac_bomber_equipment_0
 		}
@@ -1180,7 +1152,6 @@ technologies = {
 	}
 
 	heavy_fighter1 = {
-
 		enable_equipments = {
 			heavy_fighter_equipment_1
 		}
@@ -1211,7 +1182,6 @@ technologies = {
 	}
 
 	heavy_fighter2 = {
-
 		enable_equipments = {
 			heavy_fighter_equipment_2
 		}
@@ -1242,7 +1212,6 @@ technologies = {
 	}
 
 	heavy_fighter3 = {
-
 		enable_equipments = {
 			heavy_fighter_equipment_3
 		}
@@ -1273,7 +1242,6 @@ technologies = {
 	}
 
 	scout_plane1 = {
-
 		enable_equipments = {
 			scout_plane_equipment_1
 		}
@@ -1318,7 +1286,6 @@ technologies = {
 	}
 
 	scout_plane2 = {
-
 		enable_equipments = {
 			scout_plane_equipment_2
 		}
@@ -1358,7 +1325,6 @@ technologies = {
 	}
 
 	tactical_bomber1 = {
-
 		enable_equipments = {
 			tac_bomber_equipment_1
 		}
@@ -1414,7 +1380,6 @@ technologies = {
 	}
 
 	tactical_bomber2 = {
-
 		enable_equipments = {
 			tac_bomber_equipment_2
 		}
@@ -1430,7 +1395,7 @@ technologies = {
 				PROJECT = sp_air_jet_engine
 			}
 			if = {
-				limit = { has_dlc_got = yes }
+				limit = { has_dlc_gtd = yes }
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_air_bouncing_bomb
@@ -1483,7 +1448,6 @@ technologies = {
 	}
 
 	tactical_bomber3 = {
-
 		enable_equipments = {
 			tac_bomber_equipment_3
 		}
@@ -1531,7 +1495,6 @@ technologies = {
 	}
 
 	jet_tactical_bomber1 = {
-
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_jet_engine
@@ -1581,7 +1544,6 @@ technologies = {
 	}
 
 	jet_tactical_bomber2 = {
-
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
@@ -1614,7 +1576,6 @@ technologies = {
 	}
 
 	strategic_bomber1 = {
-
 		enable_equipments = {
 			strat_bomber_equipment_1
 		}
@@ -1643,23 +1604,22 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 5
-				has_tech = air_superiority
+				has_doctrine = new_strategic_destruction
 			}
 			modifier = {
 				factor = 5
-				has_tech = nukes
+				is_special_project_completed = sp:sp_nuclear_bomb
 			}
 		}
 	}
 
 	strategic_bomber2 = {
-
 		enable_equipments = {
 			strat_bomber_equipment_2
 		}
 		on_research_complete = {
 			if = {
-				limit = { has_dlc_got = yes }
+				limit = { has_dlc_gtd = yes }
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_PROJECT
 					PROJECT = sp_air_intercontinental_bomber
@@ -1708,17 +1668,16 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 5
-				has_tech = air_superiority
+				has_doctrine = new_strategic_destruction
 			}
 			modifier = {
 				factor = 5
-				has_tech = nukes
+				is_special_project_completed = sp:sp_nuclear_bomb
 			}
 		}
 	}
 
 	strategic_bomber3 = {
-
 		enable_equipments = {
 			strat_bomber_equipment_3
 		}
@@ -1747,17 +1706,16 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 5
-				has_tech = air_superiority
+				has_doctrine = new_strategic_destruction
 			}
 			modifier = {
 				factor = 5
-				has_tech = nukes
+				is_special_project_completed = sp:sp_nuclear_bomb
 			}
 		}
 	}
 
 	jet_strategic_bomber1 = {
-
 		allow = {
 			ROOT = {
 				is_special_project_completed = sp:sp_air_axial_jet_engine
@@ -1798,7 +1756,6 @@ technologies = {
 	}
 
 	suicide_craft = {
-
 		enable_equipments = {
 			rocket_suicide_equipment_1
 		}

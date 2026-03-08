@@ -1,11 +1,9 @@
 
-
 ### #   #   # ### #  #  ##      ###   ##  #   # ###   ##
 #   #    # #   #  ## # #        #  # #  # ## ## #  # #
 ##  #     #    #  # ## # ##     ###  #  # # # # ###   #
 #   #     #    #  #  # #  #     #  # #  # #   # #  #   #
 #   ###   #   ### #  #  ##      ###   ##  #   # ###  ##
-
 
 sp_rockets_flying_bomb = {
 	specialization = specialization_air
@@ -52,19 +50,29 @@ sp_rockets_flying_bomb = {
 		}
 	}
 
-
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
 		country_effects = {
+			if = {
+				limit = { has_dlc_gtd = yes }
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_flying_bomb
+				}
+			}
+			else = {
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_flying_bomb
+				}
+			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = sp_rockets_improved_guidance
 			}
 			if = {
-				limit = {
-					has_dlc_bba = yes
-				}
+				limit = { has_dlc_bba = yes }
 				custom_effect_tooltip = {
 					localization_key = SP_UNLOCK_TECH
 					TECH = sp_rockets_rocket_bomber
@@ -97,7 +105,6 @@ sp_rockets_flying_bomb = {
 	}
 
 	unique_prototype_rewards = {
-
 		# Design Choice
 		sp_rocket_design_choice_reward = {
 			fire_only_once = yes
@@ -144,7 +151,6 @@ sp_rockets_flying_bomb = {
 					}
 				}
 			}
-
 		}
 
 		# Pulsejet Design
@@ -308,13 +314,11 @@ sp_rockets_flying_bomb = {
 	}
 }
 
-
 ###   ##  #   #   ###  ## ### ###  ##      #   # ###  ##  ## ### #   ###  ##
 #  # #  # #   #    #  #    #   #  #  #     ## ##  #  #   #    #  #   #   #
 ###  #### #   #    #   #   #   #  #        # # #  #   #   #   #  #   ##   #
 #  # #  # #   #    #    #  #   #  #  #     #   #  #    #   #  #  #   #     #
 ###  #  # ### ### ### ##   #  ###  ##      #   # ### ##  ##  ### ### ### ##
-
 
 # Ballistic Missiles - The V2 programme
 sp_rockets_ballistic_missile = {
@@ -362,6 +366,21 @@ sp_rockets_ballistic_missile = {
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
+		country_effects = {
+			if = {
+				limit = { has_dlc_gtd = yes }
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_ballistic_missile
+				}
+			}
+			else = {
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_ballistic_missile
+				}
+			}
+		}
 		enable_equipments = {
 			limit = {
 				has_dlc = "Gotterdammerung"
@@ -374,7 +393,6 @@ sp_rockets_ballistic_missile = {
 			}
 			guided_missile_equipment_2
 		}
-
 	}
 
 	generic_prototype_rewards = {
@@ -519,7 +537,6 @@ sp_rockets_ballistic_missile = {
 	}
 }
 
-
 # Medium range Missiles
 sp_rockets_medium_range_ballistic_missile = {
 	specialization = specialization_air
@@ -546,13 +563,26 @@ sp_rockets_medium_range_ballistic_missile = {
 
 	}
 
-	ai_will_do = {
-		base = 1
-	}
+	ai_will_do = { base = 1 }
 
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
+		country_effects = {
+			if = {
+				limit = { has_dlc_gtd = yes }
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_medium_range_ballistic_missile
+				}
+			}
+			else = {
+				custom_effect_tooltip = {
+					localization_key = SP_ROCKET_SITE_REMINDER_PROJECT
+					PROJECT = sp_rockets_medium_range_ballistic_missile
+				}
+			}
+		}
 		enable_equipments = {
 			limit = {
 				has_dlc = "Gotterdammerung"
@@ -565,7 +595,6 @@ sp_rockets_medium_range_ballistic_missile = {
 			}
 			guided_missile_equipment_3
 		}
-
 	}
 
 	generic_prototype_rewards = {
@@ -672,7 +701,7 @@ sp_rockets_long_range_ballistic_missile = {
 		}
 	}
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	special_project_parent = {
@@ -683,18 +712,21 @@ sp_rockets_long_range_ballistic_missile = {
 
 	available = {
 	}
-	ai_will_do = {
-		base = 1
-	}
+	ai_will_do = { base = 1 }
 
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
+		country_effects = {
+			custom_effect_tooltip = {
+				localization_key = SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT
+				PROJECT = sp_rockets_long_range_ballistic_missile
+			}
+		}
 		enable_equipments = {
 			#ballistic_missile_equipment_3
 			nuclear_missile_equipment_2
 		}
-
 	}
 
 	generic_prototype_rewards = {
@@ -780,7 +812,6 @@ sp_rockets_long_range_ballistic_missile = {
 				token = sp_rocket_launch_site_choice_reward_accept
 
 				iteration_output = {
-
 					country_effects = {
 						set_country_flag = no_new_rocket_facility_built
 						add_timed_idea = {
@@ -813,7 +844,6 @@ sp_rockets_long_range_ballistic_missile = {
 #  # #  # #  # #  # #  # #  #      #  #  #     #  #  #  #  #
  ##  #  #  ##   ##  #  # ###       #   ##      #  # ### #  #
 
-
 # Ground to Air Missiles - The Wasserfall Project
 sp_rockets_ground_to_air_missile = {
 	specialization = specialization_air
@@ -837,7 +867,7 @@ sp_rockets_ground_to_air_missile = {
 	complexity = sp_complexity.large
 
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	special_project_parent = {
@@ -850,17 +880,21 @@ sp_rockets_ground_to_air_missile = {
 		}
 	}
 
-	ai_will_do = {
-		base = 1
-	}
+	ai_will_do = { base = 1 }
 
 	prototype_time = sp_time.prototype.medium
 
 	project_output = {
+		country_effects = {
+			custom_effect_tooltip = {
+				localization_key = SP_ROCKET_SITE_REMINDER_PROJECT
+				PROJECT = sp_rockets_ground_to_air_missile
+			}
+		}
+
 		enable_equipments = {
 			sam_missile_equipment_1
 		}
-
 	}
 
 	generic_prototype_rewards = {
@@ -1008,7 +1042,6 @@ sp_rockets_ground_to_air_missile = {
 	}
 }
 
-
 sp_rocket_interceptor = {
 	specialization = specialization_air
 
@@ -1074,7 +1107,6 @@ sp_rocket_interceptor = {
 			}
 			rocket_engine_1
 		}
-
 	}
 
 	generic_prototype_rewards = {
@@ -1097,8 +1129,3 @@ sp_rocket_interceptor = {
 		sp_air_generic_reward_test_failure_3
 	}
 }
-
-
-
-
-

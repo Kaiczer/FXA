@@ -1,0 +1,169 @@
+#################
+### DIPLOMACY ###
+#################
+guarantors = {
+	input = game:all_countries
+	name = collection_guarantors
+	operators = {
+		limit = { has_guaranteed = PREV }
+	}
+}
+
+################
+### IDEOLOGY ###
+################
+socialist_countries = {
+	input = game:all_countries
+	name = collection_socialist_countries
+	operators = {
+		limit = { has_socialist_government = yes }
+	}
+}
+
+non_socialist_countries = {
+	input = game:all_countries
+	name = collection_non_socialist_countries
+	operators = {
+		limit = { has_socialist_government = no }
+	}
+}
+
+democratic_countries = {
+	input = game:all_countries
+	name = collection_democratic_countries
+	operators = {
+		limit = { has_elected_government = yes }
+	}
+}
+
+non_democratic_countries = {
+	input = game:all_countries
+	name = collection_non_democratic_countries
+	operators = {
+		limit = { has_elected_government = no }
+	}
+}
+
+reactionary_countries = {
+	input = game:all_countries
+	name = collection_reactionary_countries
+	operators = {
+		limit = { has_authoritarian_government = yes }
+	}
+}
+
+non_reactionary_countries = {
+	input = game:all_countries
+	name = collection_non_reactionary_countries
+	operators = {
+		limit = { has_authoritarian_government = no }
+	}
+}
+
+####################
+### GEOGRAPHICAL ###
+####################
+european_countries = {
+	input = game:all_countries
+	name = collection_european_countries
+	operators = {
+		limit = { is_in_europe = yes }
+	}
+}
+
+allied_european_countries = {
+	input = collection:european_countries
+	name = collection_allied_european_countries
+	operators = {
+		limit = { is_ally_with = ROOT }
+	}
+}
+
+american_countries = {
+	input = game:all_countries
+	name = collection_american_countries
+	operators = {
+		limit = { is_in_americas = yes }
+	}
+}
+
+socialist_american_countries = {
+	input = collection:american_countries
+	name = collection_socialist_american_countries
+	operators = {
+		limit = { has_socialist_government = yes }
+	}
+}
+
+democratic_american_countries = {
+	input = collection:american_countries
+	name = collection_democratic_american_countries
+	operators = {
+		limit = { has_elected_government = yes }
+	}
+}
+
+allied_american_countries = {
+	input = collection:american_countries
+	name = collection_allied_american_countries
+	operators = {
+		limit = { is_ally_with = ROOT }
+	}
+}
+
+non_american_countries = {
+	input = game:all_countries
+	name = collection_non_american_countries
+	operators = {
+		limit = { is_in_americas = no }
+	}
+}
+
+allied_non_american_countries = {
+	input = collection:non_american_countries
+	name = collection_allied_non_american_countries
+	operators = {
+		limit = { is_ally_with = ROOT }
+	}
+}
+
+asian_and_pacific_countries = {
+	input = game:all_countries
+	name = collection_asian_and_pacific_countries
+	operators = {
+		limit = {
+			OR = {
+				is_in_australia = yes
+				AND = {
+					is_in_asia = yes
+					is_central_asian_tag = no
+				}
+			}
+		}
+	}
+}
+
+allied_asian_and_pacific_countries = {
+	input = collection:asian_and_pacific_countries
+	name = collection_allied_asian_and_pacific_countries
+	operators = {
+		limit = { is_ally_with = ROOT }
+	}
+}
+
+subject_asian_and_pacific_countries = {
+	input = collection:asian_and_pacific_countries
+	name = collection_subject_asian_and_pacific_countries
+	operators = {
+		limit = { is_subject_of = ROOT }
+	}
+}
+
+allied_democratic_asian_and_pacific_countries = {
+	input = collection:allied_asian_and_pacific_countries
+	name = collection_allied_democratic_asian_and_pacific_countries
+	operators = {
+		limit = { has_elected_government = yes }
+	}
+}
+

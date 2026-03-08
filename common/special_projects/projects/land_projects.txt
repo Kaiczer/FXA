@@ -6,17 +6,13 @@
  #       #       #    #  #    #  #         #    #    #  #   #   #    #  ##  ##  #       #   #         #    #    #  #   ##  #   #   #    #
  #       ######  #    #  #    #  ######    #    #    #  #    #   ####   #    #  ######  #    #        #    #    #  #    #  #    #   ####
 
-
-
 sp_land_flamethrower_tank = {
 	specialization = specialization_land
 	#icon = GFX_sp_land_flamethrower_tank ### Automatically hooked-in since the GFX ID matches the project ID.
 
 	project_tags = sp_tag_tank
 
-	ai_will_do = {
-		base = 1
-	}
+	ai_will_do = { base = 1 }
 
 	allowed = {
 		has_dlc_nsb = yes
@@ -38,24 +34,25 @@ sp_land_flamethrower_tank = {
 
 	project_output = {
 		country_effects = {
-			add_design_template_bonus = {
-				name = sp_land_flamethrower_tank
-				uses = 1
-				cost_factor = 1
-				equipment = light_tank_flame_chassis
-				equipment = medium_tank_flame_chassis
-				equipment = heavy_tank_flame_chassis
+			if = {
+				limit = { date > 1936.1.1 } #ignore calls from the history files
+				add_design_template_bonus = {
+					name = sp_land_flamethrower_tank
+					uses = 1
+					cost_factor = 1
+					equipment = light_tank_flame_chassis
+					equipment = medium_tank_flame_chassis
+					equipment = heavy_tank_flame_chassis
+				}
+				add_design_template_bonus = {
+					name = sp_land_flamethrower_tank
+					uses = 2
+					cost_factor = 0.5
+					equipment = light_tank_flame_chassis
+					equipment = medium_tank_flame_chassis
+					equipment = heavy_tank_flame_chassis
+				}
 			}
-
-			add_design_template_bonus = {
-				name = sp_land_flamethrower_tank
-				uses = 2
-				cost_factor = 0.5
-				equipment = light_tank_flame_chassis
-				equipment = medium_tank_flame_chassis
-				equipment = heavy_tank_flame_chassis
-			}
-
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = sp_armored_advanced_flamethrower_tech
@@ -97,7 +94,6 @@ sp_land_flamethrower_tank = {
 	}
 }
 
-
   #####                                                                       #                                                         #     #
  #     #  #####   ######   ####   #    ##    #       #   ####   #####        # #    #####   #    #   ####   #####   ######  #####       #     #  ######  #    #  #   ####   #       ######   ####
  #        #    #  #       #    #  #   #  #   #       #  #         #         #   #   #    #  ##  ##  #    #  #    #  #       #    #      #     #  #       #    #  #  #    #  #       #       #
@@ -105,7 +101,6 @@ sp_land_flamethrower_tank = {
        #  #####   #       #       #  ######  #       #       #    #        #######  #####   #    #  #    #  #####   #       #    #       #   #   #       #    #  #  #       #       #            #
  #     #  #       #       #    #  #  #    #  #       #  #    #    #        #     #  #   #   #    #  #    #  #   #   #       #    #        # #    #       #    #  #  #    #  #       #       #    #
   #####   #       ######   ####   #  #    #  ######  #   ####     #        #     #  #    #  #    #   ####   #    #  ######  #####          #     ######  #    #  #   ####   ######  ######   ####
-
 
 sp_land_military_engineering_vehicles = {
 	specialization = specialization_land
@@ -184,9 +179,6 @@ sp_land_military_engineering_vehicles = {
 	}
 }
 
-
-
-
                                                                                              ##
   ####   #    #  #####   ######  #####          #    #  ######    ##    #    #  #   #       #  #        #    #   ####   #####   ######  #####   #    #      #####    ##    #    #  #    #   ####
  #       #    #  #    #  #       #    #         #    #  #        #  #   #    #   # #         ##         ##  ##  #    #  #    #  #       #    #  ##   #        #     #  #   ##   #  #   #   #
@@ -195,14 +187,13 @@ sp_land_military_engineering_vehicles = {
  #    #  #    #  #       #       #   #          #    #  #       #    #   #  #     #        #    #       #    #  #    #  #    #  #       #   #   #   ##        #    #    #  #   ##  #   #   #    #
   ####    ####   #       ######  #    #         #    #  ######  #    #    ##      #         ###  #      #    #   ####   #####   ######  #    #  #    #        #    #    #  #    #  #    #   ####
 
-
 sp_land_land_cruiser = {
 	specialization = specialization_land
 
 	project_tags = sp_tag_tank
 
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	available = {
@@ -236,33 +227,39 @@ sp_land_land_cruiser = {
 		}
 	}
 
+	ai_will_do = {
+		base = 1
+		modifier = {
+			factor = 0
+			ROOT = { num_of_military_factories < 200 }
+		}
+	}
+
 	project_output = {
 		country_effects = {
 			if = {
-				limit = {
-					has_dlc_nsb = yes
-				}
-				add_design_template_bonus = {
-					name = sp_land_land_cruiser
-					uses = 1
-					cost_factor = 1
-					equipment = land_cruiser_chassis_1
-				}
-			}
-			else = {
-				add_equipment_to_stockpile = {
-					type = land_cruiser_equipment_1
-					amount = 1
-				}
-
-				add_equipment_production = {
-					equipment = {
-						type = land_cruiser_equipment_1
+				limit = { date > 1936.1.1 } #ignore calls from the history files
+				if = {
+					limit = { has_dlc_nsb = yes }
+					add_design_template_bonus = {
+						name = sp_land_land_cruiser
+						uses = 1
+						cost_factor = 1
+						equipment = land_cruiser_chassis_1
 					}
-					requested_factories = 1 #optional
-					progress = 0.35 #optional
-					amount = 1
-					efficiency = 30
+				}
+				else = {
+					add_equipment_to_stockpile = {
+						type = land_cruiser_equipment_1
+						amount = 1
+					}
+					add_equipment_production = {
+						equipment = {
+							type = land_cruiser_equipment_1
+						}
+						progress = 0.35 #optional
+						efficiency = 30
+					}
 				}
 			}
 
@@ -313,6 +310,9 @@ sp_land_land_cruiser = {
 		}
 
 		enable_equipment_modules = {
+			limit = {
+				has_dlc = "No Step Back"
+			}
 			lc_heavy_naval_guns
 			#lc_super_heavy_railway_gun #SP: SH RWG
 			#lc_high_impact_obliterator_cannon #SP Tech: Obliterator Cannon
@@ -888,12 +888,7 @@ sp_land_land_cruiser = {
 			}
 		}
 	}
-
-
 }
-
-
-
 
    ##    #####   #    #    ##    #    #   ####   ######  #####         ##    #####   #####  #  #       #       ######  #####   #   #      #####   #####    ####        #  ######   ####   #####   ####
   #  #   #    #  #    #   #  #   ##   #  #    #  #       #    #       #  #   #    #    #    #  #       #       #       #    #   # #       #    #  #    #  #    #       #  #       #    #    #    #
@@ -902,14 +897,13 @@ sp_land_land_cruiser = {
  #    #  #    #   #  #   #    #  #   ##  #    #  #       #    #      #    #  #   #     #    #  #       #       #       #   #     #        #       #   #   #    #  #    #  #       #    #    #    #    #
  #    #  #####     ##    #    #  #    #   ####   ######  #####       #    #  #    #    #    #  ######  ######  ######  #    #    #        #       #    #   ####    ####   ######   ####     #     ####
 
-
 sp_land_super_heavy_howitzer = {
 	specialization = specialization_land
 
 	project_tags = sp_tag_artillery
 
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	available = {
@@ -975,7 +969,6 @@ sp_land_super_heavy_howitzer = {
 	}
 
 	unique_prototype_rewards = {
-
 		sp_land_reward_super_heavy_howitzer_focus_preference = {
 			fire_only_once = yes
 
@@ -1043,9 +1036,8 @@ sp_land_self_propelled_super_heavy_howitzer = {
 
 	project_tags = sp_tag_artillery
 
-
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	special_project_parent = {
@@ -1110,7 +1102,6 @@ sp_land_self_propelled_super_heavy_howitzer = {
 	}
 
 	unique_prototype_rewards = {
-
 		sp_land_reward_self_propelled_super_heavy_howitzer_focus_preference = {
 			fire_only_once = yes
 
@@ -1215,8 +1206,15 @@ sp_land_super_heavy_railway_gun = {
 		}
 
 		country_effects = {
-			create_railway_gun = {
-				equipment = super_heavy_railway_gun_equipment_1
+			if = {
+				limit = {
+					exists = yes
+					date > 1936.1.1 #ignore calls from the history files
+					num_divisions > 0 #ignore recently-released puppets
+				}
+				create_railway_gun = {
+					equipment = super_heavy_railway_gun_equipment_1
+				}
 			}
 		}
 	}
@@ -1251,7 +1249,7 @@ sp_land_multi_charge_large_caliber_gun = {
 	project_tags = sp_tag_artillery
 
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	special_project_parent = {
@@ -1314,7 +1312,6 @@ sp_land_multi_charge_large_caliber_gun = {
 	}
 
 	unique_prototype_rewards = {
-
 		sp_land_reward_multi_charge_large_caliber_gun_successful_test_firing = {
 			fire_only_once = yes
 
@@ -1463,7 +1460,6 @@ sp_land_multi_charge_large_caliber_gun = {
 	}
 }
 
-
 ##     ## ########  ######      ###       ########  #######  ########  ########
 ###   ### ##       ##    ##    ## ##      ##       ##     ## ##     ##    ##
 #### #### ##       ##         ##   ##     ##       ##     ## ##     ##    ##
@@ -1472,14 +1468,13 @@ sp_land_multi_charge_large_caliber_gun = {
 ##     ## ##       ##    ##  ##     ##    ##       ##     ## ##    ##     ##
 ##     ## ########  ######   ##     ##    ##        #######  ##     ##    ##
 
-
 sp_land_stronghold_network = {
 	specialization = specialization_land
 
 	project_tags = sp_tag_artillery
 
 	allowed = {
-		has_dlc_got = yes
+		has_dlc_gtd = yes
 	}
 
 	available = {
