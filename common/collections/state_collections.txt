@@ -83,198 +83,172 @@ faction_owned_core_states = {
 	name = COLLECTION_FACTION_OWNED_CORE_STATES
 }
 
-# all_entente_cores_and_claims = {
-# 	input = constant:state_groups.entente_cores_and_claims
-# 	name = collection_all_entente_cores_and_claims
-# }
+all_entente_cores_and_claims = {
+	input = constant:state_groups.entente_cores_and_claims
+	name = collection_all_entente_cores_and_claims
+}
 
-# all_owned_entente_cores_and_claims = {
-# 	input = collection:all_entente_cores_and_claims
-# 	name = collection_all_owned_entente_cores_and_claims
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_entente_cores_and_claims = {
+	input = collection:all_entente_cores_and_claims
+	name = collection_all_owned_entente_cores_and_claims
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_austrian_ambitions = {
-# 	input = constant:state_groups.austrian_ambitions
-# 	name = collection_all_austrian_ambitions
-# }
+all_balkan_states = {
+	input = constant:state_groups.balkan_peninsula
+	name = collection_all_balkan_states
+}
 
-# all_owned_austrian_ambitions = {
-# 	input = collection:all_austrian_ambitions
-# 	name = collection_all_owned_austrian_ambitions
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_balkan_states = {
+	input = collection:all_balkan_states
+	name = collection_all_owned_balkan_states
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_balkan_states = {
-# 	input = constant:state_groups.balkan_peninsula
-# 	name = collection_all_balkan_states
-# }
+all_russian_ambitions = {
+	input = constant:state_groups.russian_ambitions
+	name = collection_all_russian_ambitions
+}
 
-# all_owned_balkan_states = {
-# 	input = collection:all_balkan_states
-# 	name = collection_all_owned_balkan_states
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_russian_ambitions = {
+	input = collection:all_russian_ambitions
+	name = collection_all_owned_russian_ambitions
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_russian_ambitions = {
-# 	input = constant:state_groups.russian_ambitions
-# 	name = collection_all_russian_ambitions
-# }
+all_indian_states = {
+	input = constant:state_groups.indian_states
+	name = collection_all_indian_states
+}
 
-# all_owned_russian_ambitions = {
-# 	input = collection:all_russian_ambitions
-# 	name = collection_all_owned_russian_ambitions
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_indian_states = {
+	input = collection:all_indian_states
+	name = collection_all_controlled_indian_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_argentinian_states = {
-# 	input = constant:state_groups.argentina_states
-# 	name = collection_all_argentinian_states
-# }
+all_baltic_states = {
+	input = constant:state_groups.baltic_states
+	name = collection_all_baltic_states
+}
 
-# all_controlled_argentinian_states = {
-# 	input = collection:all_argentinian_states
-# 	name = collection_all_controlled_argentinian_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_baltic_states = {
+	input = collection:all_baltic_states
+	name = collection_all_controlled_baltic_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_indian_states = {
-# 	input = constant:state_groups.indian_states
-# 	name = collection_all_indian_states
-# }
+all_chinese_states = {
+	input = constant:state_groups.chinese_states
+	name = collection_all_chinese_states
+}
 
-# all_controlled_indian_states = {
-# 	input = collection:all_indian_states
-# 	name = collection_all_controlled_indian_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_chinese_states = {
+	input = collection:all_chinese_states
+	name = collection_all_controlled_chinese_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_baltic_states = {
-# 	input = constant:state_groups.baltic_states
-# 	name = collection_all_baltic_states
-# }
+all_middle_east_states = {
+	input = constant:state_groups.middle_eastern_states
+	name = collection_all_middle_east_states
+}
 
-# all_controlled_baltic_states = {
-# 	input = collection:all_baltic_states
-# 	name = collection_all_controlled_baltic_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_middle_east_states = {
+	input = collection:all_middle_east_states
+	name = collection_all_owned_middle_east_states
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_chinese_states = {
-# 	input = constant:state_groups.chinese_states
-# 	name = collection_all_chinese_states
-# }
+all_central_american_states = {
+	input = constant:state_groups.central_american_states
+	name = collection_all_central_american_states
+}
 
-# all_controlled_chinese_states = {
-# 	input = collection:all_chinese_states
-# 	name = collection_all_controlled_chinese_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_central_american_states = {
+	input = collection:all_central_american_states
+	name = collection_all_controlled_central_american_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_middle_east_states = {
-# 	input = constant:state_groups.middle_eastern_states
-# 	name = collection_all_middle_east_states
-# }
+all_mainland_american_states = {
+	input = constant:state_groups.mainland_american_states
+	name = collection_all_mainland_american_states
+}
 
-# all_owned_middle_east_states = {
-# 	input = collection:all_middle_east_states
-# 	name = collection_all_owned_middle_east_states
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_mainland_american_states = {
+	input = collection:all_mainland_american_states
+	name = collection_all_controlled_mainland_american_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_central_american_states = {
-# 	input = constant:state_groups.central_american_states
-# 	name = collection_all_central_american_states
-# }
+all_central_asian_states = {
+	input = constant:state_groups.central_asian_states
+	name = collection_all_central_asian_states
+}
 
-# all_controlled_central_american_states = {
-# 	input = collection:all_central_american_states
-# 	name = collection_all_controlled_central_american_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_controlled_central_asian_states = {
+	input = collection:all_central_asian_states
+	name = collection_all_controlled_central_asian_states
+	operators = {
+		limit = { controller = { is_ally_with = ROOT } }
+	}
+}
 
-# all_mainland_american_states = {
-# 	input = constant:state_groups.mainland_american_states
-# 	name = collection_all_mainland_american_states
-# }
+all_central_asian_and_east_turkestani_states = {
+	input = constant:state_groups.central_asian_and_east_turkestani_states
+	name = collection_all_central_asian_and_east_turkestani_states
+}
 
-# all_controlled_mainland_american_states = {
-# 	input = collection:all_mainland_american_states
-# 	name = collection_all_controlled_mainland_american_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_central_asian_and_east_turkestani_states = {
+	input = collection:all_central_asian_and_east_turkestani_states
+	name = collection_all_owned_central_asian_and_east_turkestani_states
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_central_asian_states = {
-# 	input = constant:state_groups.central_asian_states
-# 	name = collection_all_central_asian_states
-# }
+all_asian_and_pacific_states = {
+	input = constant:state_groups.asian_and_pacific_states
+	name = collection_all_asian_and_pacific_states
+}
 
-# all_controlled_central_asian_states = {
-# 	input = collection:all_central_asian_states
-# 	name = collection_all_controlled_central_asian_states
-# 	operators = {
-# 		limit = { controller = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_asian_and_pacific_states = {
+	input = collection:all_asian_and_pacific_states
+	name = collection_all_owned_asian_and_pacific_states
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 
-# all_central_asian_and_east_turkestani_states = {
-# 	input = constant:state_groups.central_asian_and_east_turkestani_states
-# 	name = collection_all_central_asian_and_east_turkestani_states
-# }
+all_sinosphere_states = {
+	input = constant:state_groups.sinosphere_states
+	name = collection_all_sinosphere_states
+}
 
-# all_owned_central_asian_and_east_turkestani_states = {
-# 	input = collection:all_central_asian_and_east_turkestani_states
-# 	name = collection_all_owned_central_asian_and_east_turkestani_states
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
-
-# all_asian_and_pacific_states = {
-# 	input = constant:state_groups.asian_and_pacific_states
-# 	name = collection_all_asian_and_pacific_states
-# }
-
-# all_owned_asian_and_pacific_states = {
-# 	input = collection:all_asian_and_pacific_states
-# 	name = collection_all_owned_asian_and_pacific_states
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
-
-# all_sinosphere_states = {
-# 	input = constant:state_groups.sinosphere_states
-# 	name = collection_all_sinosphere_states
-# }
-
-# all_owned_sinosphere_states = {
-# 	input = collection:all_sinosphere_states
-# 	name = collection_all_owned_sinosphere_states
-# 	operators = {
-# 		limit = { owner = { is_ally_with = ROOT } }
-# 	}
-# }
+all_owned_sinosphere_states = {
+	input = collection:all_sinosphere_states
+	name = collection_all_owned_sinosphere_states
+	operators = {
+		limit = { owner = { is_ally_with = ROOT } }
+	}
+}
 

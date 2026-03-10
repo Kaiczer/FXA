@@ -1271,32 +1271,6 @@ can_release_230 = {
 	}
 }
 
-#Suwalki - annexation_suwalki
-can_release_232 = {
-	232 = { annexations_state_is_tied_to_annexation_decision = yes } #Suwalki
-	ROOT = {
-		OR = {
-			is_subject = yes
-			218 = { is_claim_or_core_of_ROOT = yes } #Bialystok
-			230 = { is_claim_or_core_of_ROOT = yes } #Sudovia
-			218 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			230 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_lithuania_first = yes
-		should_release_poland_first = yes
-		should_release_belarus_first = yes
-		230 = { annexations_state_has_valid_annexation = no } #Sudovia
-	}
-}
-
 #Volhynia - annexation_volhynia
 can_release_240 = {
 	240 = { annexations_state_is_tied_to_annexation_decision = yes } #Volhynia
@@ -1804,40 +1778,6 @@ can_release_bialystok = {
 		should_release_poland_first = yes
 		should_release_belarus_first = yes
 		234 = { annexations_state_has_valid_annexation = no } #Novogrudok
-	}
-}
-
-#Suwalki - annexation_suwalki
-can_release_suwalki = { 
-	232 = { annexations_state_is_tied_to_annexation_decision = yes } #Suwalki
-	ROOT = {
-		OR = {
-			is_subject = yes
-			AND = {
-				214 = { is_claim_or_core_of_ROOT = yes } #Plock
-				owns_state = 213 #Masuria
-			}
-			230 = { is_claim_or_core_of_ROOT = yes } #Sudovia
-			214 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					213 = { annexations_required_state_is_owned_by_either_side = yes } #Bialystok
-					ROOT_can_grant_land = yes
-				}
-			}
-			230 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_lithuania_first = yes
-		should_release_belarus_first = yes
-		should_release_poland_first = yes
-		213 = { annexations_state_has_valid_annexation = no } #Masuria
-		230 = { annexations_state_has_valid_annexation = no } #Sudovia
-		218 = { annexations_state_has_valid_annexation = no } #Bialystok
 	}
 }
 

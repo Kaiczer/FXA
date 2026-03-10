@@ -1,7 +1,7 @@
 faction_template_co_prosperity_sphere = {
 	name = faction_co_prosperity_sphere
 	icon = GFX_faction_logo_japanese_co_prosperity_sphere
-	manifest = faction_manifest_asia_pacific_hegemony
+	#manifest = faction_manifest_asia_pacific_hegemony
 
 	default_rules = {
 		joining_rule_non_socialist

@@ -53,7 +53,7 @@ faction_template_harbinger_of_a_new_order = {
 
 faction_template_internationale_successor = {
 	name = faction_internationale_successor
-	manifest = faction_manifest_world_revolution
+	manifest = faction_manifest_generic_communist_revolution
 	icon = GFX_faction_logo_generic_9
 
 	visible = {

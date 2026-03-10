@@ -291,7 +291,6 @@ create_ambition_areas = {
 				state = 27
 				state = 218
 				state = 231
-				state = 232
 				state = 233
 				state = 234
 				state = 235
@@ -1332,7 +1331,6 @@ create_ambition_areas = {
 				state = 229 #Memel
 				state = 530
 				state = 231
-				state = 232
 			}
 		}
 		set_variable = { ambition_area_@LIT = 1 }
@@ -1984,7 +1982,6 @@ create_ambition_areas = {
 				state = 205
 				state = 218
 				state = 229
-				state = 232
 				state = 220
 				state = 221
 				state = 422

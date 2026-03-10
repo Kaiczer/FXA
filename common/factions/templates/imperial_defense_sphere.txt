@@ -1,7 +1,7 @@
 faction_template_imperial_defense_sphere = {
 	name = faction_imperial_defense_sphere
 	icon = GFX_faction_icon_entente
-	manifest = faction_manifest_restoration_of_the_old_order
+	#manifest = faction_manifest_restoration_of_the_old_order
 
 	default_rules = {
 		joining_rule_non_socialist

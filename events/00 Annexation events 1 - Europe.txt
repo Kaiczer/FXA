@@ -8866,7 +8866,6 @@ country_event = { # Fate of Poland
 			218 = { retain_state = yes } #Bialystok
 			220 = { retain_state = yes } #Chelm
 			221 = { retain_state = yes } #Lwow
-			232 = { retain_state = yes } #Suwalki
 			if = {
 				limit = { var:34.owner = { is_german_unifier_tag = yes } }
 				211 = { retain_state = yes } #Posen
@@ -9924,133 +9923,8 @@ country_event = { # Fate of Sudovia
 	}
 }
 
-country_event = { # Fate of Suwalki
-	id = annex.13024
-	title = annexation_suwalki
-	desc = annexation_suwalki_desc
-	picture = GFX_report_event_generic_conference2
-
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						218 = { is_claim_or_core_of_ROOT = yes } #Bialystok
-						230 = { is_claim_or_core_of_ROOT = yes } #Sudovia
-					}
-				}
-				save_event_target_as = can_annex
-			}
-			if = {
-				limit = {
-					218 = { #Bialystok
-						annexations_state_owner_is_valid_grant_target = yes
-						owner = { ROOT_can_grant_land = yes }
-					}
-				}
-				var:218.owner = { save_event_target_as = bialystok }
-			}
-			if = {
-				limit = {
-					230 = { #Sudovia
-						annexations_state_owner_is_valid_grant_target = yes
-						owner = { 
-							ROOT_can_grant_land = yes
-							NOT = { tag = event_target:bialystok }
-						}
-					}
-				}
-				var:230.owner = { save_event_target_as = sudovia }
-			}
-		}
-	}
-
-	option = { #Give to Bialystok
-		log = "[GetLogInfo]: event annex.13024 option annex.europe.give_to_bialystok"
-		name = annex.europe.give_to_bialystok
-		trigger = {
-			has_event_target = bialystok
-		}
-		ai_chance = {
-			base = 70
-			modifier = {
-				factor = 0 
-				annexations_can_annex = yes
-			}
-			modifier = {
-				factor = 0
-				NOT = { is_ally_with = event_target:bialystok }
-				is_ally_with = event_target:sudovia
-			}
-			modifier = {
-				factor = 0.1
-				event_target:bialystok = { is_subject = yes }
-			}
-		}
-		set_temp_variable = { tag_to_release = event_target:bialystok }
-		232 = { transfer_state_and_notify = yes } #Suwalki
-	}
-
-	option = { #Give to Sudovia
-		log = "[GetLogInfo]: event annex.13024 option annex.europe.give_to_sudovia"
-		name = annex.europe.give_to_sudovia
-		trigger = {
-			has_event_target = sudovia
-		}
-		ai_chance = {
-			base = 30
-			modifier = {
-				factor = 0 
-				annexations_can_annex = yes
-			}
-			modifier = {
-				factor = 0
-				NOT = { is_ally_with = event_target:sudovia }
-				is_ally_with = event_target:bialystok
-			}
-			modifier = {
-				factor = 0.1
-				event_target:sudovia = { is_subject = yes }
-			}
-		}
-		set_temp_variable = { tag_to_release = event_target:sudovia }
-		232 = { transfer_state_and_notify = yes } #Suwalki
-	}
-
-	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13024 option annex.give_to_overlord"
-		name = annex.give_to_overlord
-		trigger = {
-			annexations_should_give_lands_to_overlord = yes
-		}
-		set_temp_variable = { tag_to_release = overlord }
-		232 = { transfer_state_and_notify = yes } #Suwalki
-	}
-
-	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13024 option annex.integration"
-		name = annex.integration
-		trigger = {
-			annexations_can_annex = yes
-		}
-		232 = { add_claim_of_ROOT = yes } #Suwalki
-	}
-
-	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13024 option annex.cancel"
-		name = annex.cancel
-		ai_chance = { base = 0 }
-	}
-
-	after = {
-		recheck_annexations = yes
-	}
-}
-
 country_event = { # Fate of Volhynia
-	id = annex.13025 
+	id = annex.13024 
 	title = annexation_volhynia
 	desc = annexation_volhynia_desc
 	picture = GFX_report_event_generic_conference2
@@ -10093,7 +9967,7 @@ country_event = { # Fate of Volhynia
 	}
 
 	option = { #Give to Lublin
-		log = "[GetLogInfo]: event annex.13025 option annex.europe.give_to_lublin"
+		log = "[GetLogInfo]: event annex.13024 option annex.europe.give_to_lublin"
 		name = annex.europe.give_to_lublin
 		trigger = {
 			has_event_target = lublin
@@ -10119,7 +9993,7 @@ country_event = { # Fate of Volhynia
 	}
 
 	option = { #Give to Pohoryn
-		log = "[GetLogInfo]: event annex.13025 option annex.europe.give_to_pohoryn"
+		log = "[GetLogInfo]: event annex.13024 option annex.europe.give_to_pohoryn"
 		name = annex.europe.give_to_pohoryn
 		trigger = {
 			has_event_target = pohoryn
@@ -10145,7 +10019,7 @@ country_event = { # Fate of Volhynia
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13025 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13024 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10155,7 +10029,7 @@ country_event = { # Fate of Volhynia
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13025 option annex.integration"
+		log = "[GetLogInfo]: event annex.13024 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10164,7 +10038,7 @@ country_event = { # Fate of Volhynia
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13025 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13024 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10175,7 +10049,7 @@ country_event = { # Fate of Volhynia
 }
 
 country_event = { # Fate of Chelm
-	id = annex.13026
+	id = annex.13025
 	title = annexation_chelm
 	desc = annexation_chelm_desc
 	picture = GFX_report_event_generic_conference2
@@ -10218,7 +10092,7 @@ country_event = { # Fate of Chelm
 	}
 
 	option = { #Give to Lublin
-		log = "[GetLogInfo]: event annex.13026 option annex.europe.give_to_lublin"
+		log = "[GetLogInfo]: event annex.13025 option annex.europe.give_to_lublin"
 		name = annex.europe.give_to_lublin
 		trigger = {
 			has_event_target = lublin
@@ -10244,7 +10118,7 @@ country_event = { # Fate of Chelm
 	}
 
 	option = { #Give to Volhynia
-		log = "[GetLogInfo]: event annex.13026 option annex.europe.give_to_volhynia"
+		log = "[GetLogInfo]: event annex.13025 option annex.europe.give_to_volhynia"
 		name = annex.europe.give_to_volhynia
 		trigger = {
 			has_event_target = volhynia
@@ -10270,7 +10144,7 @@ country_event = { # Fate of Chelm
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13026 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13025 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10280,7 +10154,7 @@ country_event = { # Fate of Chelm
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13026 option annex.integration"
+		log = "[GetLogInfo]: event annex.13025 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10289,7 +10163,7 @@ country_event = { # Fate of Chelm
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13026 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13025 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10300,7 +10174,7 @@ country_event = { # Fate of Chelm
 }
 
 country_event = { # Fate of Brest
-	id = annex.13027
+	id = annex.13026
 	title = annexation_brest
 	desc = annexation_brest_desc
 	picture = GFX_report_event_generic_conference2
@@ -10343,7 +10217,7 @@ country_event = { # Fate of Brest
 	}
 
 	option = { #Give to Chelm
-		log = "[GetLogInfo]: event annex.13027 option annex.europe.give_to_chelm"
+		log = "[GetLogInfo]: event annex.13026 option annex.europe.give_to_chelm"
 		name = annex.europe.give_to_chelm
 		trigger = {
 			has_event_target = chelm
@@ -10369,7 +10243,7 @@ country_event = { # Fate of Brest
 	}
 
 	option = { #Give to Kobryn
-		log = "[GetLogInfo]: event annex.13027 option annex.europe.give_to_kobryn"
+		log = "[GetLogInfo]: event annex.13026 option annex.europe.give_to_kobryn"
 		name = annex.europe.give_to_kobryn
 		trigger = {
 			has_event_target = kobryn
@@ -10395,7 +10269,7 @@ country_event = { # Fate of Brest
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13027 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13026 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10405,7 +10279,7 @@ country_event = { # Fate of Brest
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13027 option annex.integration"
+		log = "[GetLogInfo]: event annex.13026 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10414,7 +10288,7 @@ country_event = { # Fate of Brest
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13027 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13026 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10425,7 +10299,7 @@ country_event = { # Fate of Brest
 }
 
 country_event = { # Fate of Stanislawow
-	id = annex.13028
+	id = annex.13027
 	title = annexation_stanislawow
 	desc = annexation_stanislawow_desc 
 	picture = GFX_report_event_generic_conference2
@@ -10468,7 +10342,7 @@ country_event = { # Fate of Stanislawow
 	}
 
 	option = { #Give to Lwow
-		log = "[GetLogInfo]: event annex.13028 option annex.europe.give_to_lwow"
+		log = "[GetLogInfo]: event annex.13027 option annex.europe.give_to_lwow"
 		name = annex.europe.give_to_lwow
 		trigger = {
 			has_event_target = lwow
@@ -10494,7 +10368,7 @@ country_event = { # Fate of Stanislawow
 	}
 
 	option = { #Give to Krakow
-		log = "[GetLogInfo]: event annex.13028 option annex.europe.give_to_krakow"
+		log = "[GetLogInfo]: event annex.13027 option annex.europe.give_to_krakow"
 		name = annex.europe.give_to_krakow
 		trigger = {
 			has_event_target = krakow
@@ -10520,7 +10394,7 @@ country_event = { # Fate of Stanislawow
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13028 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13027 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10530,7 +10404,7 @@ country_event = { # Fate of Stanislawow
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13028 option annex.integration"
+		log = "[GetLogInfo]: event annex.13027 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10539,7 +10413,7 @@ country_event = { # Fate of Stanislawow
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13028 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13027 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10550,7 +10424,7 @@ country_event = { # Fate of Stanislawow
 }
 
 country_event = { # Fate of Lwow
-	id = annex.13029
+	id = annex.13028
 	title = annexation_lwow
 	desc = annexation_lwow_desc
 	picture = GFX_report_event_generic_conference2
@@ -10594,7 +10468,7 @@ country_event = { # Fate of Lwow
 	}
 
 	option = { #Give to Krakow
-		log = "[GetLogInfo]: event annex.13029 option annex.europe.give_to_krakow"
+		log = "[GetLogInfo]: event annex.13028 option annex.europe.give_to_krakow"
 		name = annex.europe.give_to_krakow
 		trigger = {
 			has_event_target = krakow
@@ -10620,7 +10494,7 @@ country_event = { # Fate of Lwow
 	}
 
 	option = { #Give to Stanislawow
-		log = "[GetLogInfo]: event annex.13029 option annex.europe.give_to_stanislawow"
+		log = "[GetLogInfo]: event annex.13028 option annex.europe.give_to_stanislawow"
 		name = annex.europe.give_to_stanislawow
 		trigger = {
 			has_event_target = stanislawow
@@ -10646,7 +10520,7 @@ country_event = { # Fate of Lwow
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13029 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13028 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10656,7 +10530,7 @@ country_event = { # Fate of Lwow
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13029 option annex.integration"
+		log = "[GetLogInfo]: event annex.13028 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10665,14 +10539,14 @@ country_event = { # Fate of Lwow
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13029 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13028 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
 }
 
 country_event = { # Fate of Czechia
-	id = annex.13030
+	id = annex.13029
 	title = annexation_czechia
 	desc = annexation_czechia_desc
 	picture = GFX_report_event_generic_conference2
@@ -10698,8 +10572,8 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #Liberate Czechoslovakia
-		log = "[GetLogInfo]: event annex.13030 option annex.13030.a"
-		name = annex.13030.a
+		log = "[GetLogInfo]: event annex.13029 option annex.13029.a"
+		name = annex.13029.a
 		trigger = {
 			26 = { is_valid_annexation_state = yes }
 			is_subject = no 
@@ -10726,8 +10600,8 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #Balkanize to Czechia and Slovakia
-		log = "[GetLogInfo]: event annex.13030 option annex.13030.b"
-		name = annex.13030.b
+		log = "[GetLogInfo]: event annex.13029 option annex.13029.b"
+		name = annex.13029.b
 		trigger = {
 			26 = { is_valid_annexation_state = yes }
 			is_subject = no 
@@ -10761,8 +10635,8 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #Liberate Czechia
-		log = "[GetLogInfo]: event annex.13030 option annex.13030.c"
-		name = annex.13030.c
+		log = "[GetLogInfo]: event annex.13029 option annex.13029.c"
+		name = annex.13029.c
 		trigger = {
 			26 = { is_valid_annexation_state = no }
 			is_subject = no 
@@ -10783,7 +10657,7 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13030 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13029 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10796,7 +10670,7 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13030 option annex.integration"
+		log = "[GetLogInfo]: event annex.13029 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10808,7 +10682,7 @@ country_event = { # Fate of Czechia
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13030 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13029 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10819,7 +10693,7 @@ country_event = { # Fate of Czechia
 }
 
 country_event = { # Fate of Slovakia
-	id = annex.13031
+	id = annex.13030
 	title = annexation_slovakia
 	desc = annexation_slovakia_desc
 	picture = GFX_report_event_generic_conference2
@@ -10869,8 +10743,8 @@ country_event = { # Fate of Slovakia
 	}
 
 	option = { #Liberate Slovakia
-		log = "[GetLogInfo]: event annex.13031 option annex.13031.a"
-		name = annex.13031.a
+		log = "[GetLogInfo]: event annex.13030 option annex.13030.a"
+		name = annex.13030.a
 		trigger = {
 			is_subject = no 
 		}
@@ -10899,7 +10773,7 @@ country_event = { # Fate of Slovakia
 	}
 
 	option = { #Give to Czechia
-		log = "[GetLogInfo]: event annex.13031 option annex.europe.give_to_czechia"
+		log = "[GetLogInfo]: event annex.13030 option annex.europe.give_to_czechia"
 		name = annex.europe.give_to_czechia
 		trigger = {
 			has_event_target = czechia
@@ -10925,7 +10799,7 @@ country_event = { # Fate of Slovakia
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13031 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13030 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -10938,7 +10812,7 @@ country_event = { # Fate of Slovakia
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13031 option annex.integration"
+		log = "[GetLogInfo]: event annex.13030 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -10963,7 +10837,7 @@ country_event = { # Fate of Slovakia
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13031 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13030 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -10974,7 +10848,7 @@ country_event = { # Fate of Slovakia
 }
 
 country_event = { # Fate of Tesin
-	id = annex.13032
+	id = annex.13031
 	title = annexation_tesin
 	desc = annexation_tesin_desc
 	picture = GFX_report_event_generic_conference2
@@ -11017,7 +10891,7 @@ country_event = { # Fate of Tesin
 	}
 
 	option = { #Give to Moravia
-		log = "[GetLogInfo]: event annex.13032 option annex.europe.give_to_moravia"
+		log = "[GetLogInfo]: event annex.13031 option annex.europe.give_to_moravia"
 		name = annex.europe.give_to_moravia
 		trigger = {
 			has_event_target = moravia
@@ -11043,7 +10917,7 @@ country_event = { # Fate of Tesin
 	}
 
 	option = { #Give to Krakow
-		log = "[GetLogInfo]: event annex.13032 option annex.europe.give_to_krakow"
+		log = "[GetLogInfo]: event annex.13031 option annex.europe.give_to_krakow"
 		name = annex.europe.give_to_krakow
 		trigger = {
 			has_event_target = krakow
@@ -11069,7 +10943,7 @@ country_event = { # Fate of Tesin
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13032 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13031 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -11079,7 +10953,7 @@ country_event = { # Fate of Tesin
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13032 option annex.integration"
+		log = "[GetLogInfo]: event annex.13031 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -11088,7 +10962,7 @@ country_event = { # Fate of Tesin
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13032 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13031 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -11099,7 +10973,7 @@ country_event = { # Fate of Tesin
 }
 
 country_event = { # Fate of Southern Slovakia
-	id = annex.13033
+	id = annex.13032
 	title = annexation_south_slovakia
 	desc = annexation_south_slovakia_desc
 	picture = GFX_report_event_generic_conference2
@@ -11142,7 +11016,7 @@ country_event = { # Fate of Southern Slovakia
 	}
 
 	option = { #Give to Hungary
-		log = "[GetLogInfo]: event annex.13033 option annex.europe.give_to_hungary"
+		log = "[GetLogInfo]: event annex.13032 option annex.europe.give_to_hungary"
 		name = annex.europe.give_to_hungary
 		trigger = {
 			has_event_target = hungary
@@ -11168,7 +11042,7 @@ country_event = { # Fate of Southern Slovakia
 	}
 
 	option = { #Give to Slovakia
-		log = "[GetLogInfo]: event annex.13033 option annex.europe.give_to_slovakia"
+		log = "[GetLogInfo]: event annex.13032 option annex.europe.give_to_slovakia"
 		name = annex.europe.give_to_slovakia
 		trigger = {
 			has_event_target = slovakia
@@ -11194,7 +11068,7 @@ country_event = { # Fate of Southern Slovakia
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13033 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13032 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -11204,7 +11078,7 @@ country_event = { # Fate of Southern Slovakia
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13033 option annex.integration"
+		log = "[GetLogInfo]: event annex.13032 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -11213,7 +11087,7 @@ country_event = { # Fate of Southern Slovakia
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13033 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13032 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -11224,7 +11098,7 @@ country_event = { # Fate of Southern Slovakia
 }
 
 country_event = { # Fate of Subcarpathia
-	id = annex.13034
+	id = annex.13033
 	title = annexation_subcarpathia 
 	desc = annexation_subcarpathia_desc
 	picture = GFX_report_event_generic_conference2
@@ -11271,7 +11145,7 @@ country_event = { # Fate of Subcarpathia
 	}
 
 	option = { #Give to South Slovakia
-		log = "[GetLogInfo]: event annex.13034 option annex.europe.give_to_south_slovakia"
+		log = "[GetLogInfo]: event annex.13033 option annex.europe.give_to_south_slovakia"
 		name = annex.europe.give_to_south_slovakia
 		trigger = {
 			has_event_target = south_slovakia
@@ -11297,7 +11171,7 @@ country_event = { # Fate of Subcarpathia
 	}
 
 	option = { #Give to East Slovakia
-		log = "[GetLogInfo]: event annex.13034 option annex.europe.give_to_east_slovakia"
+		log = "[GetLogInfo]: event annex.13033 option annex.europe.give_to_east_slovakia"
 		name = annex.europe.give_to_east_slovakia
 		trigger = {
 			has_event_target = east_slovakia
@@ -11323,7 +11197,7 @@ country_event = { # Fate of Subcarpathia
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13034 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13033 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -11333,7 +11207,7 @@ country_event = { # Fate of Subcarpathia
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13034 option annex.integration"
+		log = "[GetLogInfo]: event annex.13033 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -11342,7 +11216,7 @@ country_event = { # Fate of Subcarpathia
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13034 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13033 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}
@@ -11353,7 +11227,7 @@ country_event = { # Fate of Subcarpathia
 } 
 
 country_event = { # Fate of Hungary
-	id = annex.13035
+	id = annex.13034
 	title = annexation_hungary
 	desc = annexation_hungary_desc
 	picture = GFX_report_event_generic_conference2
@@ -11376,8 +11250,8 @@ country_event = { # Fate of Hungary
 	}
 
 	option = { #Liberate Hungary
-		log = "[GetLogInfo]: event annex.13035 option annex.13035.a"
-		name = annex.13035.a
+		log = "[GetLogInfo]: event annex.13034 option annex.13034.a"
+		name = annex.13034.a
 		trigger = {
 			is_subject = no 
 		}
@@ -11393,7 +11267,7 @@ country_event = { # Fate of Hungary
 	}
 
 	option = { #give to overlord
-		log = "[GetLogInfo]: event annex.13035 option annex.give_to_overlord"
+		log = "[GetLogInfo]: event annex.13034 option annex.give_to_overlord"
 		name = annex.give_to_overlord
 		trigger = {
 			annexations_should_give_lands_to_overlord = yes
@@ -11406,7 +11280,7 @@ country_event = { # Fate of Hungary
 	}
 
 	option = { #Integrate
-		log = "[GetLogInfo]: event annex.13035 option annex.integration"
+		log = "[GetLogInfo]: event annex.13034 option annex.integration"
 		name = annex.integration
 		trigger = {
 			annexations_can_annex = yes
@@ -11418,7 +11292,7 @@ country_event = { # Fate of Hungary
 	}
 
 	option = { #Cancel
-		log = "[GetLogInfo]: event annex.13035 option annex.cancel"
+		log = "[GetLogInfo]: event annex.13034 option annex.cancel"
 		name = annex.cancel
 		ai_chance = { base = 0 }
 	}

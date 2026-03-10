@@ -87,3 +87,32 @@ faction_manifest_generic_a_new_world_order = {
 		}
 	}
 }
+
+faction_manifest_generic_communist_revolution = {
+	name = faction_manifest_generic_communist_revolution_name
+	description = faction_manifest_generic_communist_revolution_desc
+	is_manifest = yes
+	ratio_progress = {
+		total_amount_collection = game:all_countries
+		completed_amount_collection = collection:socialist_countries
+
+		scale = {
+			army_attack_against_major_factor = 0.1
+			consumer_goods_factor = -0.15
+			resistance_growth_on_our_occupied_states = -0.10
+			conscription_factor = 0.10
+		}
+
+		progress_sections = {
+			manifest_fulfilled = {
+				min = @manifest_fulfilled_value
+
+				modifier = {
+					resistance_target = -0.10
+					drift_defence_factor = 0.15
+					political_power_factor = 0.10
+				}
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 faction_template_turin_accord = {
 	name = faction_turin_accord
 	icon = GFX_faction_icon_entente
-	manifest = faction_manifest_restoration_of_the_old_order
+	#manifest = faction_manifest_restoration_of_the_old_order
 
 	default_rules = {
 		joining_rule_non_socialist
@@ -16,7 +16,7 @@ faction_template_turin_accord = {
 faction_template_western_tripatite = { #IMP+ENT Merged Faction
 	name = faction_western_tripatite
 	icon = GFX_faction_icon_entente
-	manifest = faction_manifest_restoration_of_the_old_order
+	#manifest = faction_manifest_restoration_of_the_old_order
 
 	default_rules = {
 		joining_rule_non_socialist
@@ -31,7 +31,7 @@ faction_template_western_tripatite = { #IMP+ENT Merged Faction
 faction_template_transatlantic_league = { #Security Organization of Transatlantic Alliance (SOTA)
 	name = faction_transatlantic_league
 	icon = GFX_faction_icon_entente
-	manifest = faction_manifest_restoration_of_the_old_order
+	#manifest = faction_manifest_restoration_of_the_old_order
 
 	default_rules = {
 		joining_rule_non_socialist

@@ -338,10 +338,6 @@ on_actions = {
 				set_variable = { annx_evnt_num = 13023 }
 			} 
 			231	= { set_variable = { annexation_target = THIS } } #Vilnius
-			232 = { #Suwalki
-				set_variable = { annexation_target = THIS }
-				set_variable = { annx_evnt_num = 13024 }
-			}
 			235 = { set_variable = { annexation_target = THIS } } #Vileyka
 			237 = { #Brest 
 				set_variable = { annexation_target = THIS }
