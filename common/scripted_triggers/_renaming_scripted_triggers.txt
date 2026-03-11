@@ -297,6 +297,18 @@ is_russian_tag = {
 		original_tag = SOV
 	}
 }
+is_ukrainian_tag = {
+	OR = {
+		original_tag = UKR
+		original_tag = USR 
+	}
+}
+is_belarusian_tag = {
+	OR = {
+		original_tag = BLR
+		original_tag = BSR 
+	}
+}
 is_yugoslavian_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_south_slav_tag

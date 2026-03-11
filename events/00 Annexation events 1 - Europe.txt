@@ -12346,7 +12346,6 @@ country_event = { # Fate of North Schleswig
 ### E A S T E R N  E U R O P E ###
 ##################################
 
-
 country_event = { # Fate of Estonia
 	id = annex.15001
 	title = annexation_estonia
@@ -12619,27 +12618,10 @@ country_event = { # Fate of Russia
 
 	immediate = {
 		hidden_effect = {
+			SOV = { clear_cores_of_tag_if_possible = yes }
 			if = { 
 				limit = { NOT = { country_exists = RUS } } 
-				RUS = {
-					every_core_state = {
-						limit = { is_core_of = PREV }
-						remove_core_of = PREV
-					}
-				}
-			}
-			if = { 
-				limit = { NOT = { country_exists = SOV } } 
-				SOV = {
-					every_core_state = {
-						limit = { is_core_of = PREV }
-						remove_core_of = PREV
-					}
-				}
-			}
-			if = {
-				limit = { is_russian_tag = yes }
-				save_event_target_as = can_annex
+				RUS = { clear_cores_of_tag_if_possible = yes }
 			}
 			if = {
 				limit = {
@@ -12664,15 +12646,6 @@ country_event = { # Fate of Russia
 					limit = { SOV = { ROOT_can_grant_land = yes } }
 					SOV = { save_event_target_as = russia }
 				}
-			}
-			every_state = {
-				if = {
-					limit = { is_russia = no }
-					remove_core_of = RUS
-					remove_core_of = SOV
-				}
-				remove_claim_by = RUS
-				remove_claim_by = SOV
 			}
 			249 = { retain_state = yes } #Gomel
 			250 = { retain_state = yes } #Siveria
@@ -12701,7 +12674,7 @@ country_event = { # Fate of Russia
 		}
 	}
 	
-	option = { #Liberate Non-Socialist Russia
+	option = { #Liberate Non-Communist Russia
 		log = "[GetLogInfo]: event annex.15004 option annex.15004.a"
 		name = annex.15004.a
 		trigger = {
@@ -12729,7 +12702,7 @@ country_event = { # Fate of Russia
 		release_targeted_tag = yes
 	}
 
-	option = { #Liberate Socialist Russia
+	option = { #Liberate Communist Russia
 		log = "[GetLogInfo]: event annex.15004 option annex.15004.b"
 		name = annex.15004.b
 		trigger = {
@@ -12826,22 +12799,299 @@ country_event = { # Fate of Belarus
 
 	immediate = {
 		hidden_effect = {
-			every_state = {
+			if = {
+				limit = { is_russian_tag = yes }
+				save_event_target_as = can_annex
+			}
+			if = { 
+				limit = { NOT = { country_exists = BLR } } 
+				BLR = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = { 
+				limit = { NOT = { country_exists = BSR } } 
+				BSR = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = {
+				limit = { NOT = { has_event_target = belarus } }
 				if = {
-					limit = { is_belarus = no }
-					remove_core_of = BLR
+					limit = { BLR = { ROOT_can_grant_land = yes } }
+					BLR = { save_event_target_as = belarus }
 				}
-				else = {
-					add_core_of = BLR
+				else_if = {
+					limit = { BSR = { ROOT_can_grant_land = yes } }
+					BSR = { save_event_target_as = belarus }
 				}
-				remove_claim_by = BLR
 			}
 			249 = { retain_state = yes } #Gomel
 		}
 	}
+
+	option = { #Liberate Non-Communist Belarus
+		log = "[GetLogInfo]: event annex.15005 option annex.15005.a"
+		name = annex.15005.a
+		trigger = {
+			is_subject = no
+			has_socialist_government = no
+			is_belarusian_tag = no 
+			NOT = { country_exists = BLR }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:belarus }
+			}
+		}
+		set_temp_variable = { tag_to_release = BLR }
+		every_state = {
+			limit = { is_belarus = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+
+	option = { #Liberate Communist Belarus
+		log = "[GetLogInfo]: event annex.15005 option annex.15005.b"
+		name = annex.15005.b
+		trigger = {
+			is_subject = no
+			has_socialist_government = yes
+			is_belarusian_tag = no 
+			NOT = { country_exists = BSR }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:belarus }
+			}
+		}
+		set_temp_variable = { tag_to_release = BSR }
+		every_state = {
+			limit = { is_belarus = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+
+	option = { #Give to Belarus
+		log = "[GetLogInfo]: event annex.15005 option annex.give_to_belarus"
+		name = annex.give_to_belarus
+		trigger = { has_event_target = belarus }
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				event_target:belarus = { annexations_AI_grant_land_default_logic = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:belarus }
+		every_owned_state = {
+			limit = {
+				is_belarus = yes
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.15005 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		BLR = { set_transfer_target_cores = yes }
+		BSR = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.15005 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_belarus = yes
+				is_allowed_annexation_state = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.15005 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
 }
 
-# Fate of Ukraine
+country_event = { # Fate of Ukraine
+	id = annex.15006
+	title = annexation_ukraine
+	desc = annexation_ukraine_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { is_russian_tag = yes }
+				save_event_target_as = can_annex
+			}
+			if = { 
+				limit = { NOT = { country_exists = UKR } } 
+				UKR = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = { 
+				limit = { NOT = { country_exists = USR } } 
+				USR = { clear_cores_of_tag_if_possible = yes }
+			}
+			if = {
+				limit = { NOT = { has_event_target = ukraine } }
+				if = {
+					limit = { UKR = { ROOT_can_grant_land = yes } }
+					UKR = { save_event_target_as = ukraine }
+				}
+				else_if = {
+					limit = { USR = { ROOT_can_grant_land = yes } }
+					USR = { save_event_target_as = ukraine }
+				}
+			}
+			261 = { retain_state = yes } #Crimea
+		}
+	}
+
+	option = { #Liberate Non-Communist Ukraine
+		log = "[GetLogInfo]: event annex.15006 option annex.15006.a"
+		name = annex.15006.a
+		trigger = {
+			is_subject = no
+			has_socialist_government = no
+			is_ukrainian_tag = no
+			NOT = { country_exists = UKR }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:ukraine }
+			}
+		}
+		set_temp_variable = { tag_to_release = UKR }
+		every_state = {
+			limit = { is_ukraine = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+
+	option = { #Liberate Communist Ukraine
+		log = "[GetLogInfo]: event annex.15006 option annex.15006.b"
+		name = annex.15006.b
+		trigger = {
+			is_subject = no
+			has_socialist_government = yes
+			is_ukrainian_tag = no
+			NOT = { country_exists = USR }
+		}
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0
+				NOT = { is_ally_with = event_target:ukraine }
+			}
+		}
+		set_temp_variable = { tag_to_release = USR }
+		every_state = {
+			limit = { is_ukraine = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+
+	option = { #Give to Ukraine
+		log = "[GetLogInfo]: event annex.15006 option annex.give_to_ukraine"
+		name = annex.give_to_ukraine
+		trigger = { has_event_target = ukraine }
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				event_target:ukraine = { annexations_AI_grant_land_default_logic = yes }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:ukraine }
+		every_owned_state = {
+			limit = {
+				is_ukraine = yes
+				is_allowed_annexation_state = yes
+			}
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.15006 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		UKR = { set_transfer_target_cores = yes }
+		USR = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.15006 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_ukraine = yes
+				is_allowed_annexation_state = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.15006 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
 
 # Fate of Northen Caucasus
 

@@ -583,7 +583,6 @@ country_event = {
 		log = "[GetLogInfo]: event generic_events.75 option generic_events.75.a"
 		name = generic_events.75.a #return all land
 		ai_chance = { base = 1 }
-		clr_country_flag = KR_returning_land
 		custom_effect_tooltip = KR_will_return_all
 		hidden_effect = {
 			event_target:return_to = {
@@ -603,14 +602,12 @@ country_event = {
 				is_claim_or_core_of_ROOT = no
 				is_important_state = yes
 				NOT = { has_variable = can_integrate_@ROOT }
-				NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 				NOT = { has_state_flag = keeping_state@ROOT }
 			}
 		}
 		ai_chance = { base = 100 }
 		custom_effect_tooltip = KR_will_return_rest
 		hidden_effect = {
-			clr_country_flag = KR_returning_land
 			every_owned_state = {
 				limit = {
 					OR = {
@@ -633,7 +630,6 @@ country_event = {
 						is_claim_or_core_of_ROOT = no
 						is_important_state = no
 						NOT = { has_variable = can_integrate_@ROOT }
-						NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 						NOT = { has_state_flag = keeping_state@ROOT }
 						OR = {
 							is_coastal = yes
@@ -656,7 +652,6 @@ country_event = {
 				is_claim_or_core_of_ROOT = no
 				is_important_state = no
 				NOT = { has_variable = can_integrate_@ROOT }
-				NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 				NOT = { has_state_flag = keeping_state@ROOT }
 				is_core_of = event_target:return_to
 			}
@@ -664,7 +659,6 @@ country_event = {
 				is_claim_or_core_of_ROOT = no
 				is_important_state = no
 				NOT = { has_variable = can_integrate_@ROOT }
-				NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 				NOT = { has_state_flag = keeping_state@ROOT }
 				NOT = { is_core_of = event_target:return_to }
 				is_claimed_by = event_target:return_to
@@ -672,12 +666,10 @@ country_event = {
 		}
 		custom_effect_tooltip = KR_will_return_cores
 		hidden_effect = {
-			clr_country_flag = KR_returning_land
 			every_owned_state = {
 				limit = {
 					is_claim_or_core_of_ROOT = no
 					NOT = { has_variable = can_integrate_@ROOT }
-					NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 					NOT = { has_state_flag = keeping_state@ROOT }
 					NOT = { is_core_of = event_target:return_to }
 					is_claimed_by = event_target:return_to
@@ -693,7 +685,6 @@ country_event = {
 		log = "[GetLogInfo]: event generic_events.75 option generic_events.75.e"
 		name = generic_events.75.e #keep it all you pig
 		ai_chance = { base = 0 }
-		clr_country_flag = KR_returning_land
 		custom_effect_tooltip = KR_will_not_return
 		hidden_effect = {
 			every_owned_state = {
@@ -704,12 +695,14 @@ country_event = {
 					}
 					is_claim_or_core_of_ROOT = no
 					NOT = { has_variable = can_integrate_@ROOT }
-					NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 					NOT = { has_state_flag = keeping_state@ROOT }
 				}
 				set_state_flag = keeping_state@ROOT
 			}
 		}
+	}
+	after = {
+		clr_country_flag = returning_land
 	}
 }
 
@@ -737,7 +730,6 @@ country_event = {
 						is_claim_or_core_of_ROOT = yes
 						is_claim_or_core_of_FROM = no
 						NOT = { has_variable = can_integrate_@FROM }
-						NOT = { any_country_with_core = { has_variable = FROM.can_integrate_@THIS } }
 						OR = {
 							is_coastal = yes
 							any_neighbor_state = { is_owned_by = ROOT }
@@ -752,13 +744,13 @@ country_event = {
 						is_claim_or_core_of_ROOT = yes
 						is_claim_or_core_of_FROM = no
 						NOT = { has_variable = can_integrate_@FROM }
-						NOT = { any_country_with_core = { has_variable = FROM.can_integrate_@THIS } }
 						OR = {
 							is_coastal = yes
 							any_neighbor_state = { is_owned_by = ROOT }
 						}
 						NOT = { has_state_flag = keeping_state@FROM }
 					}
+					transfer_state_without_overriding_occupation = yes
 				}
 			}
 		}

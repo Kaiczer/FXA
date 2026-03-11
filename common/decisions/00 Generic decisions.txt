@@ -679,12 +679,10 @@ foreign_support = {
 		icon = generic_agreement
 
 		available = {
-			if = {
-				limit = { has_war = yes }
-				surrender_progress < 0.20
-			}
-			else = {
-				has_war = no
+			has_war = no
+			hidden_trigger = {
+				NOT = { has_country_flag = returning_land }
+				can_select_annexation_decision = yes
 			}
 		}
 
@@ -692,18 +690,13 @@ foreign_support = {
 		target_array = subjects
 
 		target_trigger = {
-			country_exists = FROM
 			is_ally_with = FROM
-			NOT = {
-				has_country_flag = returning_land
-				has_country_flag = checking_for_possible_annexations
-			}
 			any_owned_state = {
 				is_claim_or_core_of_FROM = yes
 				is_claim_or_core_of_ROOT = no
 				NOT = { has_variable = can_integrate_@ROOT }
-				NOT = { any_country_with_core = { has_variable = ROOT.can_integrate_@THIS } }
 				NOT = { has_state_flag = keeping_state@ROOT }
+				NOT = { has_state_flag = annexation_recent_transfer_@ROOT }
 				OR = {
 					is_coastal = yes
 					any_neighbor_state = { is_owned_by = FROM }
@@ -715,7 +708,11 @@ foreign_support = {
 		fire_only_once = no
 
 		ai_will_do = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 0
+				check_variable = { active_annexation_decisions < 1 } #deal with annexations first
+			}
 			modifier = {
 				factor = 0.1
 				FROM = {
@@ -726,7 +723,7 @@ foreign_support = {
 		}
 
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision return_cores_to_ally target: [From.GetName]"
+			log = "[GetLogRoot][GetLogFrom]: Decision return_cores_to_ally"
 			set_country_flag = returning_land
 			FROM = { save_event_target_as = return_to }
 			country_event = generic_events.75
