@@ -5000,4 +5000,19 @@ guiTypes = {
 			format = center
 		}
 	}
+
+	containerWindowType = {
+		name = "FH_subideology_diplomatic_window"
+		position = { x = 263 y = 145 }
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 260
+			maxHeight = 20
+			format = left
+			alwaystransparent = yes
+		}
+	}
 }

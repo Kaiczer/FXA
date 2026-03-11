@@ -13,6 +13,14 @@ scripted_gui = {
 		visible = { always = yes }
 	}
 
+	FH_subideology_localization_diplomatic = {
+		window_name = FH_subideology_diplomatic_window
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		ai_enabled = { always = no }
+		visible = { always = yes }
+	}
+
 	### KR ###
 	party_popularity_number = {
 		context_type = player_context
