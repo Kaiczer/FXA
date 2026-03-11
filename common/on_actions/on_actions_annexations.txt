@@ -756,7 +756,6 @@ on_actions = {
 				}
 				if = {
 					limit = { is_italy = yes }
-					4 = { initialise_regional_annexation_variables = yes } #Latium
 					if = { 
 						limit = { is_piedmont = yes }
 						134 = { initialise_regional_annexation_variables = yes } #Piedmont

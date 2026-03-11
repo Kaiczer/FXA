@@ -67,18 +67,6 @@ is_european_italy = {
 	}
 }
 
-is_piedmont = {
-	OR = {
-		state = 133 #Liguria
-		state = 134 #Piedmont
-		state = 135 #Aosta Valley
-	}
-}
-
-is_venetia = {
-	state = 137
-}
-
 is_central_italy = {
 	OR = {
 		state = 128 #Umbria
@@ -159,24 +147,6 @@ is_piedmont = {
 		state = 133 #Liguria
 		state = 134 #Piedmont
 		state = 135 #Aosta Valley
-	}
-}
-
-is_central_italy = {
-	OR = {
-		state = 128 #Umbria
-		state = 129 #Marche
-		state = 131 #Romagna
-	}
-}
-
-is_southern_italy = {
-	OR = {
-		state = 123 #Sicily
-		state = 124 #Calabria
-		state = 125 #Apulia
-		state = 126 #Campania
-		state = 127 #Abruzzo
 	}
 }
 

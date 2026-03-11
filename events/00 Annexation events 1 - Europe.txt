@@ -4908,10 +4908,7 @@ country_event = { # Fate of Central Italy
 			annexations_reset_italian_tags = yes
 			if = {
 				limit = {  
-					OR = {
-						original_tag = STE
-						has_country_flag = is_potential_unifier_ITA
-					}
+					is_italian_tag = yes
 				}
 				save_event_target_as = can_annex
 			}
@@ -5448,10 +5445,12 @@ country_event = { # Fate of Piedmont
 			}
 			if = {
 				limit = {
-					133 = { is_valid_annexation_state = yes } #Liguria
-					SAR = { ROOT_can_grant_land = yes }
+					133 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
 				}
-				SAR = { save_event_target_as = sardinia }
+				var:133.owner = { save_event_target_as = sardinia }
 			}
 			130 = { retain_state = yes } #Tuscany
 			135 = { retain_state = yes } #Aosta Valley

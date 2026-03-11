@@ -495,22 +495,32 @@ can_release_4 = {
 	NOT = { country_exists = STE }
 }
 
-#Central Italy - annexation_central_italy
-can_release_131 = { 
-	131 = { annexations_state_is_tied_to_annexation_decision = yes } #Central Italy
-	ROOT = {
-		OR = {
-			is_subject = yes
-			original_tag = STE
-			STE = { ROOT_can_grant_land = yes }
-			is_italian_tag = yes 
-			annexations_can_give_lands_to_italian_tag = yes
-		}
-	}
-	ROOT = {
-		should_release_rome_first = yes
-		130 = { annexations_state_has_valid_annexation = no }
-	}
+#Sardinia - annexation_sardinia
+can_release_2 = { 
+	2 = { annexations_state_is_tied_to_annexation_decision = yes } #Sardinia
+	NOT = { country_exists = SAR }
+	ROOT = { should_release_rome_first = yes }
+}
+
+#Piedmont - annexation_piedmont 
+can_release_134 = { 
+	134 = { annexations_state_is_tied_to_annexation_decision = yes } #Piedmont
+	NOT = { country_exists = PIE }
+	ROOT = { should_release_rome_first = yes }
+}
+
+#Lombardy - annexation_lombardy
+can_release_136 = { 
+	136 = { annexations_state_is_tied_to_annexation_decision = yes } #Lombardy
+	NOT = { country_exists = LOM }
+	ROOT = { should_release_rome_first = yes }
+}
+
+#Venice - annexation_venice 
+can_release_137 = { 
+	137 = { annexations_state_is_tied_to_annexation_decision = yes } #Venice
+	NOT = { country_exists = VNE }
+	ROOT = { should_release_lombardy_first = yes }
 }
 
 #Southern Italy - annexation_southern_italy
@@ -530,39 +540,29 @@ can_release_126 = {
 	ROOT = { should_release_rome_first = yes }
 }
 
+#Central Italy - annexation_central_italy
+can_release_131 = { 
+	131 = { annexations_state_is_tied_to_annexation_decision = yes } #Central Italy
+	ROOT = {
+		OR = {
+			is_subject = yes
+			original_tag = STE
+			STE = { ROOT_can_grant_land = yes }
+			is_italian_tag = yes 
+			annexations_can_give_lands_to_italian_tag = yes
+		}
+	}
+	ROOT = {
+		should_release_rome_first = yes
+		130 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
 #Malta - annexation_malta 
 can_release_122 = { 
 	122 = { annexations_state_is_tied_to_annexation_decision = yes } #Malta
 	NOT = { country_exists = MLT }
 	ROOT = { 123 = { annexations_state_has_valid_annexation = no } } #Sicily
-}
-
-#Sardinia - annexation_sardinia
-can_release_2 = { 
-	2 = { annexations_state_is_tied_to_annexation_decision = yes } #Sardinia
-	NOT = { country_exists = SAR }
-	ROOT = { should_release_rome_first = yes }
-}
-
-#Piedmont - annexation_piedmont 
-can_release_134 = { 
-	135 = { annexations_state_is_tied_to_annexation_decision = yes } #Piedmont
-	NOT = { country_exists = PIE }
-	ROOT = { should_release_rome_first = yes }
-}
-
-#Lombardy - annexation_lombardy
-can_release_136 = { 
-	136 = { annexations_state_is_tied_to_annexation_decision = yes } #Lombardy
-	NOT = { country_exists = LOM }
-	ROOT = { should_release_rome_first = yes }
-}
-
-#Venice - annexation_venice 
-can_release_137 = { 
-	137 = { annexations_state_is_tied_to_annexation_decision = yes } #Venice
-	NOT = { country_exists = VNE }
-	ROOT = { should_release_lombardy_first = yes }
 }
 
 #Trentino - annexation_trentino
@@ -2978,7 +2978,13 @@ should_release_romania_first = {
 }
 
 should_release_rome_first = {
-	4 = { annexations_state_has_valid_annexation = no } #Rome
+	OR = {
+		OR = {
+			country_exists = STE
+			country_exists = ITA
+		}
+		4 = { annexations_state_has_valid_annexation = no } #Rome
+	}
 }
 
 should_release_russia_first = { 
