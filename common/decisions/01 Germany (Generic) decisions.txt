@@ -1,15 +1,18 @@
 german_unification = {
-	germany_final_mobilization = { #Every Potential Government
+	germany_final_mobilization = { #Every Independent Government -> Give the proper buff to join the Restaurationskrieg
 
 	}
 
-	germany_declare_government = { #Strongest Potential Government
+	germany_declare_government = { #Strongest Independent Government -> Proclaim the unifier German government
 		icon = generic_speech
 		
-		available = {
+		allowed = {
 			is_subject = no
 			has_civil_war = no
 			num_of_controlled_factories > 15
+		}
+
+		available = {
 			has_army_manpower = { size > 299999 }
 			if = {
 				limit = {
@@ -60,7 +63,7 @@ german_unification = {
 		fire_only_once = yes
 	}
 
-	germany_reunification_war = { #Legitimated Government (May bypass if any German nations sided with Major powers)
+	germany_restoration_war = { #Legitimated Government (May bypass if any German nations sided with Major powers)
 
 	}
 
