@@ -897,7 +897,7 @@ on_actions = {
 				### Eastern Europe ###
 				if = {
 					limit = { is_estonia = yes }
-					29 = { initialise_regional_annexation_variables = yes } #
+					29 = { initialise_regional_annexation_variables = yes } 
 				}
 				if = {
 					limit = { is_latvia = yes }
@@ -914,12 +914,10 @@ on_actions = {
 				if = {
 					limit = { is_belarus = yes }
 					27 = { initialise_regional_annexation_variables = yes }
-					236 = { add_to_regional_annexation_array = yes }
 				}
 				if = {
 					limit = { is_ukraine = yes }
 					28 = { initialise_regional_annexation_variables = yes }
-					256 = { add_to_regional_annexation_array = yes }
 				}
 				if = {
 					limit = { is_northern_caucasus = yes }
@@ -929,10 +927,8 @@ on_actions = {
 
 			#### Target Annexation - Additional States ####
 			every_state = {
-				limit = { 
-					NOT = { is_in_array = { annexation_extra_states = THIS } } 
-				}
-				add_to_array = { annexation_extra_states = THIS }	
+				limit = { NOT = { is_in_array = { annexation_target:annexation_extra_states = THIS } } }
+				add_to_array = { annexation_target:annexation_extra_states = THIS }
 			}
 
 			every_state = {

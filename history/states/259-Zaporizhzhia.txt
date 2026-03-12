@@ -7,7 +7,12 @@ state={
 	}
 	history = {
 		owner = UKR
-		add_core_of = UKR 
+		add_core_of = UKR
+		add_claim_by = USR
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=1682306
 	buildings_max_level_factor=1.000

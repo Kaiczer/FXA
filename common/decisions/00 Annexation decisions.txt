@@ -41,8 +41,10 @@ annexation_decisions = {
 			key = continent_middle_east
 			trigger = { FROM = { is_on_continent = middle_east } }
 		}
+		
 		state_target = yes
 		on_map_mode = map_and_decisions_view
+
 		visible = {
 			FROM = { is_valid_annexation_state = yes }
 		}
@@ -63,5 +65,6 @@ annexation_decisions = {
 			}
 		}
 		ai_will_do = { factor = 100 }
+		fixed_random_seed = no
 	}
 }

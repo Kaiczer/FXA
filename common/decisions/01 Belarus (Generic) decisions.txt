@@ -1,0 +1,92 @@
+political_actions = {
+	belarusian_unification = {
+		icon = generic_speech
+
+		allowed = {
+			is_belarusian_tag = yes
+		}
+
+		available = {
+			is_belarusian_tag = yes 
+			if = {
+				limit = { original_tag = BLR }
+				NOT = { country_exists = BSR }
+				any_state_in = {
+					strategic_region = 39
+					is_owned_by = BLR
+					NOT = { is_owned_by = BSR }
+				}
+			}
+			if = {
+				limit = { original_tag = BSR }
+				NOT = { country_exists = BLR }
+				any_state_in = {
+					strategic_region = 39
+					is_owned_by = BSR
+					NOT = { is_owned_by = BLR }
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 100
+			modifier = {
+				factor = 100
+				is_belarusian_tag = yes
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision complete belarusian_unification"
+			if = { # Transfer every Belarusian state under Allies (Region 39) to ROOT-is_belarusian_tag
+				limit = {
+					any_allied_country = {
+						any_owned_state = { region = 39 }
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							region = 39
+							NOT = { is_claim_or_core_of_PREV = yes }
+						}
+					}
+					every_owned_state = {
+						limit = { 
+							region = 39
+							NOT = { is_claim_or_core_of_PREV = yes }
+							controller = {
+								OR = {
+									is_ally_with = ROOT
+									is_in_faction_with = ROOT
+									is_subject_of = ROOT
+								}
+							} 
+						}
+						transfer_state_to = ROOT
+					}
+				}
+			}
+			if = { # Wipe the BSR's existence from the land
+				limit = { original_tag = BLR }
+				BSR = { clear_cores_of_tag_if_possible = yes }
+			}
+			else_if = { # Same as above but Communism prevails
+				limit = { original_tag = BSR }
+				BLR = { clear_cores_of_tag_if_possible = yes }
+				every_state = {
+					limit = { 
+						is_claimed_by = ROOT
+						region = 39
+					}
+					add_core_of = ROOT
+				}
+			}
+			add_political_power = 100
+			add_stability = 0.15
+			add_war_support = 0.1
+		}
+	}
+}

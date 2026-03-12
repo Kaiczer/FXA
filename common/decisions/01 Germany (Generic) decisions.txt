@@ -55,16 +55,7 @@ german_unification = {
 				}
 			}
 		}
-
-		visible = {
-			is_germany_or_splinter_tag = yes
-			is_subject = no
-			NOT = {
-				tag = AUS
-				tag = GFD
-			}
-		}
-
+		
 		cost = 100
 		fire_only_once = yes
 	}

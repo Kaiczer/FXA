@@ -6,6 +6,7 @@ state={
 	history={
 		owner = BLR
 		add_core_of = BLR
+		add_claim_by = BSR
 		add_to_array = { state_victory_points = 277 }
 
 		victory_points = { 277 1 }

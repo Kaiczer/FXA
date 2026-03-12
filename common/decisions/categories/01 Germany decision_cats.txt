@@ -2,14 +2,12 @@
 german_unification = {
 	priority = 100
 	allowed = {
-		any_country = {
-			is_germany_or_splinter_tag = yes
-			is_subject = no
-			has_manpower > 249999
-		}
+		is_germany_or_splinter_tag = yes
+		is_subject = no
+		has_manpower > 249999
 	}
-	visible = {
-		#is_germany_or_splinter_tag = yes
-		#is_subject = no
+	available = {
+		is_germany_or_splinter_tag = yes
+		is_subject = no
 	}
 }
