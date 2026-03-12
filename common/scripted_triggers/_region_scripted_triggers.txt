@@ -515,7 +515,7 @@ is_estonia = {
 	OR = {
 		state = 29
 		state = 222
-		state = 233
+		state = 223
 	}
 }
 
@@ -1492,6 +1492,22 @@ is_botswana = {
 }
 is_south_africa = {
 	region = 139 #South Africa
+}
+
+is_dagestan = {
+	OR = {
+		state = 295
+		state = 296
+	}
+}
+
+is_northern_caucasus = {
+	OR = {
+		is_dagestan = yes
+		state = 292
+		state = 293
+		state = 294
+	}
 }
 
 # the following triggers will check if the country in scope is on a particular continent

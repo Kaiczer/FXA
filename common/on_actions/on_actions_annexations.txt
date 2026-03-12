@@ -84,15 +84,30 @@ on_actions = {
 			21 = { set_variable = { annexation_target = THIS } } #Belgrade
 			22 = { set_variable = { annexation_target = THIS } } #Athens
 			23 = { set_variable = { annexation_target = THIS } } #Muntenia
-			24 = { set_variable = { annexation_target = THIS } } #Riga
-			25 = { set_variable = { annexation_target = THIS } } #Kaunas
+			24 = { #Riga
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15002 }
+			} 
+			25 = { #Kaunas
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15003 }
+			} 
 			26 = { #Pressburg
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13030 }
 			} 
-			27 = { set_variable = { annexation_target = THIS } } #Minsk
-			28 = { set_variable = { annexation_target = THIS } } #Kiev
-			29 = { set_variable = { annexation_target = THIS } } #Harju
+			27 = { #Minsk
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15005 }
+			} 
+			28 = { #Kiev
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15006 }
+			} 
+			29 = { #Harju
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15001 }
+			} 
 			30 = { #Uusima
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 14006 }
@@ -331,52 +346,76 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13028 }
 			} 
-			225 = { set_variable = { annexation_target = THIS } } #Latgale
-			229 = { set_variable = { annexation_target = THIS } } #Memel
+			225 = { #Latgale
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15010 }
+			} 
+			229 = { #Memel
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15012 }
+			} 
 			230 = { #Sudovia 
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13023 }
 			} 
-			231	= { set_variable = { annexation_target = THIS } } #Vilnius
-			235 = { set_variable = { annexation_target = THIS } } #Vileyka
+			231	= { #Vilnius
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15011 }
+			} 
 			237 = { #Brest 
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13026 }
 			} 
-			238 = { set_variable = { annexation_target = THIS } } #Kobryn
 			240 = { #Volhynia 
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13024 }
 			} 
-			249 = { set_variable = { annexation_target = THIS } } #Gomel
-			250 = { set_variable = { annexation_target = THIS } } #Siveria
-			261 = { set_variable = { annexation_target = THIS } } #Crimea
-			262 = { set_variable = { annexation_target = THIS } } #Vitebsk
-			263 = { set_variable = { annexation_target = THIS } } #Krichev
-			265 = { set_variable = { annexation_target = THIS } } #Smolensk
-			269 = { set_variable = { annexation_target = THIS } } #Rostov
+			249 = { #Gomel
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15014 }
+			} 
+			250 = { #Siveria
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15013 }
+			} 
+			261 = { #Crimea
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15017 }
+			} 
+			265 = { #Smolensk
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15015 }
+			} 
 			270 = { #Stanislawow
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 13027 }
 			} 
-			284 = { set_variable = { annexation_target = THIS } } #Krasnodar
-			285 = { set_variable = { annexation_target = THIS } } #Maikov
-			289 = { set_variable = { annexation_target = THIS } } #Moscow
-			293 = { set_variable = { annexation_target = THIS } } #Kabardino-Balkar
-			294 = { set_variable = { annexation_target = THIS } } #Chechnya
-			295 = { set_variable = { annexation_target = THIS } } #Dagestan
-			296 = { set_variable = { annexation_target = THIS } } #Terek
-			306 = { set_variable = { annexation_target = THIS } } #Petrozavodsk
-			308 = { set_variable = { annexation_target = THIS } } #White Karelia
-			309 = { set_variable = { annexation_target = THIS } } #Soroka
-			310 = { set_variable = { annexation_target = THIS } } #Murmansk
+			284 = { #Krasnodar
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15016 }
+			} 
+			289 = { #Moscow
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15004 }
+			} 
+			295 = { #Dagestan
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15007 }
+			} 
+			308 = { #Eastern Karelia
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15008 }
+			} 
+			310 = { #Murmansk
+				set_variable = { annexation_target = THIS }
+				set_variable = { annx_evnt_num = 15009 }
+			} 
 			311 = { set_variable = { annexation_target = THIS } } #Salla
 			317 = { set_variable = { annexation_target = THIS } } #Ismail
 			341 = { #Viipuri-Karelia
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 14007 }
 			}
-			342 = { set_variable = { annexation_target = THIS } } #Petsamo
 			351 = { #Aland
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 14008 }
@@ -397,7 +436,6 @@ on_actions = {
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11003 }
 			} 
-			379 = { set_variable = { annexation_target = THIS } } #Northumbria
 			381 = { #Lothian
 				set_variable = { annexation_target = THIS }
 				set_variable = { annx_evnt_num = 11002 }
@@ -663,48 +701,57 @@ on_actions = {
 
 			132 = { set_variable = { annexation_target = 134.id } } #Emilia > Piedmont
 
-			169 = { set_variable = { annexation_target = 728.id } } #Mugla > Bursa
-			170 = { set_variable = { annexation_target = 728.id } } #North Aegean Islands > Bursa
-			172 = { set_variable = { annexation_target = 728.id } } #Dodecanese > Bursa
-			729 = { set_variable = { annexation_target = 728.id } } #Smyrna > Bursa
+			306 = { set_variable = { annexation_target = 308.id } } #Petrozavodsk > White Karelia
+			309 = { set_variable = { annexation_target = 308.id } } #Soroka > White Karelia
+
+			262 = { set_variable = { annexation_target = 265.id } } #Vitebsk > Smolensk
+			263 = { set_variable = { annexation_target = 265.id } } #Krichev > Smolensk
+
+			269 = { set_variable = { annexation_target = 284.id } } #Rostov > Krasnodar
+			285 = { set_variable = { annexation_target = 284.id } } #Maikov > Krasnodar
+
+			# 169 = { set_variable = { annexation_target = 728.id } } #Mugla > Bursa
+			# 170 = { set_variable = { annexation_target = 728.id } } #North Aegean Islands > Bursa
+			# 172 = { set_variable = { annexation_target = 728.id } } #Dodecanese > Bursa
+			# 729 = { set_variable = { annexation_target = 728.id } } #Smyrna > Bursa
 						
-			427 = { set_variable = { annexation_target = 426.id } } #South Kurils > North Kurils
+			# 427 = { set_variable = { annexation_target = 426.id } } #South Kurils > North Kurils
 			
-			540 = { set_variable = { annexation_target = 497.id } } #Dariganga > North Chahar
+			# 540 = { set_variable = { annexation_target = 497.id } } #Dariganga > North Chahar
 
-			565 = { set_variable = { annexation_target = 868.id } } #Xiahe > Xining
-			569 = { set_variable = { annexation_target = 868.id } } #Dulan > Xining
+			# 565 = { set_variable = { annexation_target = 868.id } } #Xiahe > Xining
+			# 569 = { set_variable = { annexation_target = 868.id } } #Dulan > Xining
 
-			578 = { set_variable = { annexation_target = 579.id } } #Chiragsaldi > Aksai Chin
+			# 578 = { set_variable = { annexation_target = 579.id } } #Chiragsaldi > Aksai Chin
 
-			616 = { set_variable = { annexation_target = 615.id } } #Northern Shan > Central Shan
+			# 616 = { set_variable = { annexation_target = 615.id } } #Northern Shan > Central Shan
 
-			634 = { set_variable = { annexation_target = 633.id } } #East Timor > West Timor
+			# 634 = { set_variable = { annexation_target = 633.id } } #East Timor > West Timor
 
-			677 = { set_variable = { annexation_target = 676.id } } #Quetta > Peshwar
+			# 677 = { set_variable = { annexation_target = 676.id } } #Quetta > Peshwar
 			
-			678 = { set_variable = { annexation_target = 679.id } } #Chagai > Baluchistan
+			# 678 = { set_variable = { annexation_target = 679.id } } #Chagai > Baluchistan
 
-			703 = { set_variable = { annexation_target = 690.id } } #Andaman > Coastal Andhra
+			# 703 = { set_variable = { annexation_target = 690.id } } #Andaman > Coastal Andhra
 
-			763 = { set_variable = { annexation_target = 767.id } } #Medina > Mecca
+			# 763 = { set_variable = { annexation_target = 767.id } } #Medina > Mecca
 
-			771 = { set_variable = { annexation_target = 773.id } } #Bahrain > Abu Dhabi
-			772 = { set_variable = { annexation_target = 773.id } } #Qatar > Abu Dhabi
+			# 771 = { set_variable = { annexation_target = 773.id } } #Bahrain > Abu Dhabi
+			# 772 = { set_variable = { annexation_target = 773.id } } #Qatar > Abu Dhabi
 
-			779 = { set_variable = { annexation_target = 778.id } } #Hadhramaut > Aden
+			# 779 = { set_variable = { annexation_target = 778.id } } #Hadhramaut > Aden
 			
-			867 = { set_variable = { annexation_target = 866.id } } #Sao Tome > Rio Muni
+			# 867 = { set_variable = { annexation_target = 866.id } } #Sao Tome > Rio Muni
 
-			870 = { set_variable = { annexation_target = 871.id } } #Tekeland > Brazzaville
+			# 870 = { set_variable = { annexation_target = 871.id } } #Tekeland > Brazzaville
 
-			931 = { set_variable = { annexation_target = 6.id } } #Ascension > London
-			932 = { set_variable = { annexation_target = 6.id } } #Saint Helena > London
+			# 931 = { set_variable = { annexation_target = 6.id } } #Ascension > London
+			# 932 = { set_variable = { annexation_target = 6.id } } #Saint Helena > London
 			
-			934 = { set_variable = { annexation_target = 933.id } } #Comoros > Madagascar
-			935 = { set_variable = { annexation_target = 933.id } } #Seychelles > Madagascar
-			936 = { set_variable = { annexation_target = 933.id } } #Mauritius > Madagascar
-			937 = { set_variable = { annexation_target = 933.id } } #Reunion > Madagascar
+			# 934 = { set_variable = { annexation_target = 933.id } } #Comoros > Madagascar
+			# 935 = { set_variable = { annexation_target = 933.id } } #Seychelles > Madagascar
+			# 936 = { set_variable = { annexation_target = 933.id } } #Mauritius > Madagascar
+			# 937 = { set_variable = { annexation_target = 933.id } } #Reunion > Madagascar
 
 			#### Target Annexation - Capital City's States #### 
 			every_state = {
@@ -825,6 +872,58 @@ on_actions = {
 				if = {
 					limit = { is_hungary = yes }
 					194 = { initialise_regional_annexation_variables = yes } #Budapest
+				}
+				### Northern Europe ###
+				if = {
+					limit = { is_denmark = yes }
+					17 = { initialise_regional_annexation_variables = yes } #Copenhagen
+				}
+				if = {
+					limit = { state = 367 } 
+					367 = { initialise_regional_annexation_variables = yes } #Iceland
+				}
+				if = {
+					limit = { is_norway = yes }
+					18 = { initialise_regional_annexation_variables = yes } #Oslo
+				}
+				if = {
+					limit = { is_sweden = yes }
+					19 = { initialise_regional_annexation_variables = yes } #Svealand
+				}
+				if = {
+					limit = { is_finland = yes }
+					30 = { initialise_regional_annexation_variables = yes } #Viipuri
+				}
+				### Eastern Europe ###
+				if = {
+					limit = { is_estonia = yes }
+					29 = { initialise_regional_annexation_variables = yes } #
+				}
+				if = {
+					limit = { is_latvia = yes }
+					24 = { initialise_regional_annexation_variables = yes }
+				}
+				if = {
+					limit = { is_lithuania = yes }
+					25 = { initialise_regional_annexation_variables = yes }
+				}
+				if = {
+					limit = { is_russia = yes }
+					289 = { initialise_regional_annexation_variables = yes } #Moscow
+				}
+				if = {
+					limit = { is_belarus = yes }
+					27 = { initialise_regional_annexation_variables = yes }
+					236 = { add_to_regional_annexation_array = yes }
+				}
+				if = {
+					limit = { is_ukraine = yes }
+					28 = { initialise_regional_annexation_variables = yes }
+					256 = { add_to_regional_annexation_array = yes }
+				}
+				if = {
+					limit = { is_northern_caucasus = yes }
+					295 = { initialise_regional_annexation_variables = yes }
 				}
 			}
 

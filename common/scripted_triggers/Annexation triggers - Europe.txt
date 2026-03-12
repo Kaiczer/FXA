@@ -1345,9 +1345,9 @@ can_release_237 = {
 	}
 }
 
-#Stanislawow - annexation_stanislawow
-can_release_270 = { 
-	270 = { annexations_state_is_tied_to_annexation_decision = yes } #Stanislawow
+#Lwow - annexation_lwow
+can_release_221 = { 
+	221 = { annexations_state_is_tied_to_annexation_decision = yes } #Lwow
 	ROOT = {
 		OR = {
 			is_subject = yes
@@ -1370,19 +1370,19 @@ can_release_270 = {
 	}
 }
 
-#Lwow - annexation_lwow
-can_release_221 = { 
-	221 = { annexations_state_is_tied_to_annexation_decision = yes } #Lwow
+#Stanislawow - annexation_stanislawow
+can_release_270 = { 
+	270 = { annexations_state_is_tied_to_annexation_decision = yes } #Stanislawow
 	ROOT = {
 		OR = {
 			is_subject = yes
-			217 = { is_claim_or_core_of_ROOT = yes } #Krakow
-			270 = { is_claim_or_core_of_ROOT = yes } #Stanislawow
-			217 = {
+			221 = { is_claim_or_core_of_ROOT = yes } #Lwow
+			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
+			221 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			270 = {
+			240 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1391,7 +1391,7 @@ can_release_221 = {
 	ROOT = {
 		should_release_ukraine_first = yes
 		should_release_poland_first = yes
-		270 = { annexations_state_has_valid_annexation = no } #Stanislawow
+		221 = { annexations_state_has_valid_annexation = no } #Lwow
 	}
 }
 
@@ -1509,24 +1509,6 @@ can_release_367 = {
 	}
 }
 
-#Norway - annexation_norway
-can_release_18 = {
-	18 = { annexations_state_is_tied_to_annexation_decision = yes } #Østlandet
-	NOT = { country_exists = NOR }
-}
-
-#Sweden - annexation_sweden
-can_release_19 = {
-	19 = { annexations_state_is_tied_to_annexation_decision = yes } #Svealand
-	NOT = { country_exists = SWE }
-}
-
-#Finland - annexation_finland
-can_release_30 = {
-	30 = { annexations_state_is_tied_to_annexation_decision = yes } #Nyland
-	NOT = { country_exists = FIN }
-}
-
 #Greenland - annexation_greenland
 can_release_368 = {
 	368 = { annexations_state_is_tied_to_annexation_decision = yes } #Greenland
@@ -1556,6 +1538,24 @@ can_release_368 = {
 		should_release_denmark_first = yes
 		should_release_norway_first = yes
 	}
+}
+
+#Norway - annexation_norway
+can_release_18 = {
+	18 = { annexations_state_is_tied_to_annexation_decision = yes } #Østlandet
+	NOT = { country_exists = NOR }
+}
+
+#Sweden - annexation_sweden
+can_release_19 = {
+	19 = { annexations_state_is_tied_to_annexation_decision = yes } #Svealand
+	NOT = { country_exists = SWE }
+}
+
+#Finland - annexation_finland
+can_release_30 = {
+	30 = { annexations_state_is_tied_to_annexation_decision = yes } #Nyland
+	NOT = { country_exists = FIN }
 }
 
 #Karelia - annexation_karelia
@@ -1631,42 +1631,113 @@ can_release_361 = {
 }
 
 #Estonia - annexation_estonia
-can_release_estonia = { 
+can_release_29 = { 
 	29 = { annexations_state_is_tied_to_annexation_decision = yes } #Estland
 	NOT = { country_exists = EST }
 	ROOT = { should_release_russia_first = yes }
 }
 
 #Latvia - annexation_latvia
-can_release_latvia = { 
+can_release_24 = { 
 	24 = { annexations_state_is_tied_to_annexation_decision = yes } #Riga
 	NOT = { country_exists = LAT }
 	ROOT = { should_release_russia_first = yes }
 }
 
+#Lithuania - annexation_lithuania
+can_release_25 = { 
+	25 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
+	NOT = { country_exists = LIT }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Russia - annexation_russia 
+can_release_289 = { 
+	289 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = RSP }
+	OR = {
+		NOT = { country_exists = SOV }
+		NOT = { country_exists = RUS }
+	}
+	ROOT = { is_russian_tag = no }
+}
+
+#Belarus - annexation_belarus
+can_release_27 = { 
+	27 = { annexations_state_is_tied_to_annexation_decision = yes } #Minsk
+	NOT = { country_exists = BLR }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Ukraine - annexation_ukraine
+can_release_28 = { 
+	28 = { annexations_state_is_tied_to_annexation_decision = yes } #Kiev
+	NOT = { country_exists = UKR }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#North Caucasus - annexation_north_caucasus
+can_release_295 = {
+	295 = { annexations_state_is_tied_to_annexation_decision = yes }
+	NOT = { country_exists = DAG }
+	ROOT = { should_release_russia_first = yes }
+}
+
+#Eastern Karelia - annexation_eastern_karelia
+can_release_308 = { 
+	308 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			286 = { is_claim_or_core_of_ROOT = yes } #Lodeynoye Pole
+			341 = { is_claim_or_core_of_ROOT = yes } #Viipuri
+			307 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			341 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_finland_first = yes
+	}
+}
+
+#Murmansk - annexation_murmansk
+can_release_310 = {
+	310 = { annexations_state_is_tied_to_annexation_decision = yes } #Murmansk
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			309 = { is_claim_or_core_of_ROOT = yes } #Soroka
+			309 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		308 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
 #Latgale - annexation_latgale
-can_release_latgale = { 
+can_release_225 = { 
 	225 = { annexations_state_is_tied_to_annexation_decision = yes } #Latgale
 	ROOT = {
 		OR = {
 			is_subject = yes
-			224 = { is_claim_or_core_of_ROOT = yes } #Livonia
-			227 = { is_claim_or_core_of_ROOT = yes } #Courland
-			264 = { is_claim_or_core_of_ROOT = yes } #Pskov
-			262 = { is_claim_or_core_of_ROOT = yes } #Velikiye Luki
-			224 = { #Livonia
+			224 = { is_claim_or_core_of_ROOT = yes } #Vidzeme
+			264 = { is_claim_or_core_of_ROOT = yes } #Velikiye Luki
+			224 = { #Vidzeme
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			227 = { #Courland
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			264 = { #Pskov
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			262 = { #Velikiye Luki
+			264 = { #Velikiye Luki
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1678,11 +1749,33 @@ can_release_latgale = {
 	}
 }
 
-#Lithuania - annexation_lithuania
-can_release_lithuania = { 
-	25 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
-	NOT = { country_exists = LIT }
-	ROOT = { should_release_russia_first = yes }
+#Vilnius - annexation_vilnius
+can_release_231 = { 
+	231 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
+	ROOT = {
+		OR = {
+			is_subject = yes
+			25 = { is_claim_or_core_of_ROOT = yes } #Kaunas
+			218 = { is_claim_or_core_of_ROOT = yes } #Bialystok
+			234 = { is_claim_or_core_of_ROOT = yes } #Novogrudok
+			25 = { #Kaunas
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			218 = { #Bialystok
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+			234 = { #Novogrudok
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = { ROOT_can_grant_land = yes }
+			}
+		}
+	}
+	ROOT = {
+		should_release_lithuania_first = yes
+		should_release_belarus_first = yes
+	}
 }
 
 #Memel - annexation_memel
@@ -1691,13 +1784,13 @@ can_release_229 = {
 	ROOT = {
 		OR = {
 			is_subject = yes
-			228 = { is_claim_or_core_of_ROOT = yes } #Samogitia
 			212 = { is_claim_or_core_of_ROOT = yes } #East Prussia
-			228 = { #Samogitia
+			228 = { is_claim_or_core_of_ROOT = yes } #Samogitia
+			212 = { #East Prussia
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			212 = { #East Prussia
+			228 = { #Samogitia
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1710,94 +1803,38 @@ can_release_229 = {
 	}
 }
 
-#Vilnius - annexation_vilnius
-can_release_vilnius = { 
-	231 = { annexations_state_is_tied_to_annexation_decision = yes } #Vilnius
+#Siveria - annexation_siveria
+can_release_250 = {
+	250 = { annexations_state_is_tied_to_annexation_decision = yes }
 	ROOT = {
 		OR = {
 			is_subject = yes
-			25 = { is_claim_or_core_of_ROOT = yes } #Kaunas
-			235 = { is_claim_or_core_of_ROOT = yes } #Braslav
-			AND = {
-				219 = { is_claim_or_core_of_ROOT = yes } #Lublin
-				owns_state = 218 #Bialystok
-			}
-			11 = { #Kaunas
+			251 = { is_claim_or_core_of_ROOT = yes } #Chernihiv
+			277 = { is_claim_or_core_of_ROOT = yes } 
+			251 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			219 = { #Lublin
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					ROOT_can_grant_land = yes
-					218 = { annexations_required_state_is_owned_by_either_side = yes } #Bialystok
-				}
-			}
-			235 = { #Braslav
+			277 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
 		}
 	}
 	ROOT = {
-		should_release_lithuania_first = yes
-		should_release_belarus_first = yes
+		should_release_russia_first = yes
+		should_release_ukraine_first = yes
 	}
-}
-
-#Bialystok - annexation_bialystok
-can_release_bialystok = { 
-	218 = { annexations_state_is_tied_to_annexation_decision = yes } #Bialystok
-	ROOT = {
-		OR = {
-			is_subject = yes
-			219 = { is_claim_or_core_of_ROOT = yes } #Lublin
-			234 = { is_claim_or_core_of_ROOT = yes } #Novogrudok
-			AND = {
-				27 = { is_claim_or_core_of_ROOT = yes } #Minsk
-				owns_state = 234
-			}
-			219 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			234 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			29 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { 
-					234 = { annexations_required_state_is_owned_by_either_side = yes } #Novogrudok
-					ROOT_can_grant_land = yes
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_poland_first = yes
-		should_release_belarus_first = yes
-		234 = { annexations_state_has_valid_annexation = no } #Novogrudok
-	}
-}
-
-#Belarus - annexation_belarus
-can_release_belarus = { 
-	27 = { annexations_state_is_tied_to_annexation_decision = yes } #Minsk
-	NOT = { country_exists = BLR }
-	ROOT = { should_release_russia_first = yes }
 }
 
 #Gomel - annexation_gomel
-can_release_gomel = { 
+can_release_249 = { 
 	249 = { annexations_state_is_tied_to_annexation_decision = yes } #Gomel
 	ROOT = {
 		OR = {
 			is_subject = yes
 			239 = { is_claim_or_core_of_ROOT = yes } #Mozyr
 			250 = { is_claim_or_core_of_ROOT = yes } #Siveria
-			251 = { is_claim_or_core_of_ROOT = yes } #Chernihiv
-			263 = { is_claim_or_core_of_ROOT = yes } #Krichev
 			239 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
@@ -1806,11 +1843,79 @@ can_release_gomel = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			251 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
+		}
+	}
+	ROOT = {
+		should_release_ukraine_first = yes
+		should_release_belarus_first = yes
+		250 = { annexations_state_has_valid_annexation = no }
+	}
+}
+
+#Smolensk - annexation_smolensk
+can_release_265 = {
+	265 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes
+			AND = {
+				236 = { is_claim_or_core_of_ROOT = yes } 
+				OR = {
+					owns_state = 262
+					owns_state = 263
+				}
 			}
-			263 = {
+			AND = {
+				278 = { is_claim_or_core_of_ROOT = yes }
+				owns_state = 265
+			}
+			236 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					262 = { annexations_required_state_is_owned_by_either_side = yes }
+					263 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+			278 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					NOT = { tag = event_target:mogilev }
+					265 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+		}
+	}
+	ROOT = {
+		should_release_russia_first = yes
+		should_release_belarus_first = yes
+	}
+}
+
+#Kuban - annexation_kuban
+can_release_284 = { 
+	284 = { annexations_state_is_tied_to_annexation_decision = yes }
+	ROOT = {
+		OR = {
+			is_subject = yes 
+			AND = {
+				28 = { is_claim_or_core_of_ROOT = yes }
+				OR = {
+					owns_state = 257 #Cuman
+					owns_state = 258 #Azov
+				}
+			}
+			300 = { is_claim_or_core_of_ROOT = yes } #Salsky
+			28 = {
+				annexations_state_owner_is_valid_grant_target = yes
+				owner = {
+					ROOT_can_grant_land = yes
+					257 = { annexations_required_state_is_owned_by_either_side = yes }
+					258 = { annexations_required_state_is_owned_by_either_side = yes }
+				}
+			}
+			300 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1818,28 +1923,23 @@ can_release_gomel = {
 	}
 	ROOT = {
 		should_release_ukraine_first = yes
-		should_release_belarus_first = yes
+		should_release_russia_first = yes
 	}
 }
 
-#Kobryn - annexation_kobryn
-can_release_kobryn = { 
-	238 = { annexations_state_is_tied_to_annexation_decision = yes } #Kobryn
+#Crimea - annexation_crimea
+can_release_261 = { 
+	261 = { annexations_state_is_tied_to_annexation_decision = yes }
 	ROOT = {
 		OR = {
 			is_subject = yes
-			233 = { is_claim_or_core_of_ROOT = yes } #Pinsk
-			237 = { is_claim_or_core_of_ROOT = yes } #Brest
-			240 = { is_claim_or_core_of_ROOT = yes } #Volhynia
-			233 = {
+			260 = { is_claim_or_core_of_ROOT = yes } #Kherson
+			285 = { is_claim_or_core_of_ROOT = yes } #Maikov
+			260 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
-			237 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			240 = {
+			285 = {
 				annexations_state_owner_is_valid_grant_target = yes
 				owner = { ROOT_can_grant_land = yes }
 			}
@@ -1847,42 +1947,9 @@ can_release_kobryn = {
 	}
 	ROOT = {
 		should_release_ukraine_first = yes
-		should_release_poland_first = yes
-		should_release_poland_first = yes
-		237 = { annexations_state_has_valid_annexation = no } #Brest
+		should_release_kuban_first = yes
+		284 = { annexations_state_has_valid_annexation = no }
 	}
-}
-
-#Novogrudok - annexation_novogrudok
-can_release_novogrudok = { 
-	234 = { annexations_state_is_tied_to_annexation_decision = yes } #Novogrudok
-	ROOT = {
-		OR = {
-			is_subject = yes
-			233 = { is_claim_or_core_of_ROOT = yes } #Pinsk
-			238 = { is_claim_or_core_of_ROOT = yes } #Kobryn
-			233 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			238 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = { 
-		should_release_poland_first = yes
-		should_release_belarus_first = yes
-		238 = { annexations_state_has_valid_annexation = no } #Kobryn
-	}
-}
-
-#Ukraine - annexation_ukraine
-can_release_ukraine = { 
-	28 = { annexations_state_is_tied_to_annexation_decision = yes } #Kiev
-	NOT = { country_exists = UKR }
-	ROOT = { should_release_russia_first = yes }
 }
 
 #Romania - annexation_romania
@@ -2593,157 +2660,6 @@ can_release_cyprus = {
 	ROOT = {
 		should_release_greece_first = yes
 		should_release_turkey_first = yes
-	}
-}
-
-#Russia - annexation_russia 
-can_release_russia = { 
-	289 = { annexations_state_is_tied_to_annexation_decision = yes }
-	NOT = { country_exists = SOV }
-	ROOT = { is_russian_tag = no }
-}
-
-#North Caucasus - annexation_north_caucasus
-can_release_north_caucasus = {
-	295 = { annexations_state_is_tied_to_annexation_decision = yes }
-	NOT = { country_exists = DAG }
-	ROOT = { should_release_russia_first = yes }
-}
-
-#White Karelia - annexation_white_karelia
-can_release_white_karelia = { 
-	308 = { annexations_state_is_tied_to_annexation_decision = yes }
-	ROOT = {
-		OR = {
-			is_subject = yes 
-			307 = { is_claim_or_core_of_ROOT = yes } #Pudozh
-			345 = { is_claim_or_core_of_ROOT = yes } #Ostrobothnia
-			307 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			345 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_russia_first = yes
-		should_release_finland_first = yes
-	}
-}
-
-#Siveria - annexation_siveria
-can_release_siveria = {
-	250 = { annexations_state_is_tied_to_annexation_decision = yes }
-	ROOT = {
-		OR = {
-			is_subject = yes
-			251 = { is_claim_or_core_of_ROOT = yes } #Chernihiv
-			277 = { is_claim_or_core_of_ROOT = yes } 
-			251 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			277 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_russia_first = yes
-		should_release_ukraine_first = yes
-	}
-}
-
-#Crimea - annexation_crimea
-can_release_crimea = { 
-	261 = { annexations_state_is_tied_to_annexation_decision = yes }
-	ROOT = {
-		OR = {
-			is_subject = yes
-			260 = { is_claim_or_core_of_ROOT = yes } #Kherson
-			285 = { is_claim_or_core_of_ROOT = yes } #Maikov
-			260 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			285 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_kuban_first = yes
-	}
-}
-
-#Kuban - annexation_kuban
-can_release_kuban = { 
-	284 = { annexations_state_is_tied_to_annexation_decision = yes }
-	ROOT = {
-		OR = {
-			is_subject = yes 
-			259 = { is_claim_or_core_of_ROOT = yes } #Azov
-			299 = { is_claim_or_core_of_ROOT = yes } #Stavropol
-			259 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-			299 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = { ROOT_can_grant_land = yes }
-			}
-		}
-	}
-	ROOT = {
-		should_release_ukraine_first = yes
-		should_release_russia_first = yes
-	}
-}
-
-#Eastern Belarus - annexation_eastern_belarus
-can_release_eastern_belarus = {
-	265 = { annexations_state_is_tied_to_annexation_decision = yes }
-	ROOT = {
-		OR = {
-			is_subject = yes
-			AND = {
-				236 = { is_claim_or_core_of_ROOT = yes } 
-				OR = {
-					owns_state = 262
-					owns_state = 263
-				}
-			}
-			AND = {
-				278 = { is_claim_or_core_of_ROOT = yes }
-				owns_state = 265
-			}
-			236 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					ROOT_can_grant_land = yes
-					262 = { annexations_required_state_is_owned_by_either_side = yes }
-					263 = { annexations_required_state_is_owned_by_either_side = yes }
-				}
-			}
-			278 = {
-				annexations_state_owner_is_valid_grant_target = yes
-				owner = {
-					ROOT_can_grant_land = yes
-					NOT = { tag = event_target:mogilev }
-					265 = { annexations_required_state_is_owned_by_either_side = yes }
-				}
-			}
-		}
-	}
-	ROOT = {
-		should_release_russia_first = yes
-		should_release_belarus_first = yes
 	}
 }
 
