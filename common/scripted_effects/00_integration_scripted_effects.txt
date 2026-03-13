@@ -250,7 +250,7 @@ flag_specific_integrated_states = {
 
 clear_cores_of_tag_if_possible = {
 	if = {
-		limit = { exists = no }
+		limit = { NOT = { country_exists = THIS } }
 		every_core_state = {
 			limit = {
 				check_variable = { core_countries^num > 1 } #is not the state's last core
@@ -305,8 +305,10 @@ clear_cores_of_tag_if_possible = {
 			}
 			remove_core_of = PREV
 		}
-		every_state = { remove_claim_by = PREV }
-		force_update_map_mode = { mapmode = cores_claims_map_mode }
+		hidden_effect = {
+			every_state = { remove_claim_by = PREV }
+			force_update_map_mode = { mapmode = cores_claims_map_mode }
+		}
 	}
 }
 

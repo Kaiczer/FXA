@@ -78,12 +78,12 @@ political_actions = {
 				UKR = { clear_cores_of_tag_if_possible = yes }
 				every_state = {
 					limit = { 
-						is_claimed_by = ROOT
 						region = 130
 					}
-					add_core_of = ROOT
+					remove_claim_and_add_core_of_ROOT = yes
 				}
 			}
+			set_capital = { state = 28 }
 			add_political_power = 100
 			add_stability = 0.15
 			add_war_support = 0.1

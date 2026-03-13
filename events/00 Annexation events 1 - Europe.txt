@@ -12625,6 +12625,8 @@ country_event = { # Fate of Russia
 			249 = { retain_state = yes } #Gomel
 			250 = { retain_state = yes } #Siveria
 			261 = { retain_state = yes } #Crimea
+			262 = { retain_state = yes } #Vitebsk
+			263 = { retain_state = yes } #Krichev
 			265 = { retain_state = yes } #Smolensk
 			269 = { retain_state = yes } #Rostov
 			284 = { retain_state = yes } #Krasnodar
@@ -12825,7 +12827,7 @@ country_event = { # Fate of Belarus
 				is_belarus = yes
 				is_allowed_annexation_state = yes
 			}
-			remove_claim_and_add_core_of_ROOT = yes
+			add_claim_of_ROOT = yes
 		}
 	}
 
@@ -12977,7 +12979,7 @@ country_event = { # Fate of Ukraine
 				is_ukraine = yes
 				is_allowed_annexation_state = yes
 			}
-			remove_claim_and_add_core_of_ROOT = yes
+			add_claim_of_ROOT = yes
 		}
 	}
 
