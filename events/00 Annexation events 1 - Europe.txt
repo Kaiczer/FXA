@@ -8,11 +8,11 @@
 ###########################
 ### Category ###
 # 11xxx = Western Europe
-# 12xxx = Southern Europe
+# 12xxx = Southern Europe (Italian Peninsula)
 # 13xxx = Central Europe
 # 14xxx = Northern Europe
 # 15xxx = Eastern Europe (+ Baltic)
-# 16xxx = Balkan
+# 16xxx = Southern Europe (Balkan)
 # 17xxx = Southeastern Europe (Caucasus)
 ############################
 
@@ -14529,7 +14529,35 @@ country_event = { # Fate of Crimea
 ### B A L K A N ###
 ###################
 
-# Fate of Yugoslavia
+# Fate of Serbia
+# annexations_reset_yugoslav_tags
+# release YUG
+# release SER
+# YUG / is_potential_unified_YUG can_annex
+# is_potential_unified_YUG is target to give to
+
+
+# Fate of Croatia
+
+# Fate of Bosnia
+
+# Fate of Slovenia
+
+# Fate of Montenegro
+
+# Fate of Macedonia
+
+# Fate of Albania
+
+# Fate of Greece
+
+# Fate of Bulgaria
+
+# Fate of Romania
+
+# Fate of Transylvaria
+
+# Fate of Moldova
 
 #######################
 ### C A U C A S U S ###

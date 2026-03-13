@@ -550,7 +550,6 @@ annexations_reset_belgian_tags = {
 annexations_reset_italian_tags = {
 	every_state = {
 		limit = {
-			has_state_flag = is_mainland_italy_state
 			has_variable = ITA_default_core_state
 			check_variable = { core_countries^num = 1 }
 		}
@@ -619,7 +618,6 @@ annexation_release_italy = {
 	every_state = {
 		limit = {
 			is_european_italy = yes
-			has_state_flag = is_mainland_italy_state
 		}
 		if = {
 			limit = { is_owned_by = ROOT }

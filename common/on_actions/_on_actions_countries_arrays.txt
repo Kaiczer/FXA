@@ -527,24 +527,6 @@ on_actions = {
 				array = global.france_states_array
 				set_state_flag = is_mainland_france_state
 			}
-
-			#Set up mainland Italy array and flags
-			every_state = {
-				limit = {
-					OR = {
-						region = 23 #Northern Italy
-						region = 181 #Southern Italy
-						state = 149
-						state = 150
-						state = 151
-					}
-				}
-				add_to_array = { global.italy_states_array = THIS }
-			}
-			for_each_scope_loop = {
-				array = global.italy_states_array
-				set_state_flag = is_mainland_italy_state
-			}
 		}
 	}
 }
