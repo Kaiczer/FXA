@@ -1,8 +1,9 @@
-
 state={
 	id=443
 	name="STATE_443"
-
+	provinces={
+		1479 1532 1614 4488 4499 4618 7541 10395 10420 10435 12233 12454 12474 13206 
+	}
 	history={
 		owner = SOV
 		add_core_of = KAZ
@@ -15,12 +16,8 @@ state={
 			infrastructure = 1
 		}
 	}
-
-	provinces={
-		1479 1532 1614 1721 4488 4499 4618 7541 10395 10420 10435 12233 12454 12474 13206 
-	}
 	manpower=339172
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=undeveloped_rural_region
-	local_supplies=2.000
+	local_supplies=2
 }

@@ -14529,12 +14529,33 @@ country_event = { # Fate of Crimea
 ### B A L K A N ###
 ###################
 
-# Fate of Serbia
-# annexations_reset_yugoslav_tags
 # release YUG
 # release SER
 # YUG / is_potential_unified_YUG can_annex
 # is_potential_unified_YUG is target to give to
+country_event = { # Fate of Serbia
+	id = annex.16001
+	title = annexation_serbia
+	desc = annexation_serbia_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+		}
+	}
+}
 
 
 # Fate of Croatia

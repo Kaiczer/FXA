@@ -1,9 +1,8 @@
-
 state={
 	id=357
 	name="STATE_357"
 	provinces={
-		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 13096 
+		69 147 171 295 383 3063 3128 3141 3286 3375 3386 6028 6195 6310 6331 6406 9054 9138 9218 11070 11114 
 	}
 	history = {
 		owner = SWE
@@ -28,7 +27,8 @@ state={
 			}
 		}
 	}
-	buildings_max_level_factor=1.000
 	manpower=1554463
-	state_category = urbanising_region
+	buildings_max_level_factor=1
+	state_category=urbanising_region
+	local_supplies=0
 }

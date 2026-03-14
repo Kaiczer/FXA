@@ -1,17 +1,18 @@
 state={
 	id=420
 	name="STATE_420"
-	provinces={
-		664 681 753 810 837 957 3695 3723 3739 3753 3787 3811 3843 3977 5427 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
+	resources={
+		chromium=23
 	}
-	resources = {
-		chromium = 23
+	provinces={
+		664 681 753 810 837 957 3695 3723 3739 3753 3787 3811 3843 3977 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
 	}
 	history = {
 		owner = RUS
 		add_core_of = RUS
 		add_claim_by = SOV
 		add_to_array = { state_victory_points = 957 }
+		
 		victory_points = { 957 10 }
 
 		buildings = {
@@ -28,7 +29,8 @@ state={
 			}
 		}
 	}
-	buildings_max_level_factor=1.000
 	manpower=841465
-	state_category = urbanised_region
+	buildings_max_level_factor=1
+	state_category=urbanised_region
+	local_supplies=0
 }
