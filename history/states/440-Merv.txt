@@ -1,12 +1,12 @@
-
 state={
 	id=440
 	name="STATE_440"
-
+	provinces={
+		1493 1649 4482 4549 4958 5003 7560 7618 7924 8099 10357 10414 10485 10742 12324 12491 
+	}
 	history={
-		owner = TMS
-		add_core_of = TMS
-		add_claim_by = SOV
+		owner = UZB
+		add_core_of = UZB
 		add_to_array = { state_victory_points = 10742 }
 
 		victory_points = { 10742 1 } #Chardzhuy
@@ -15,12 +15,8 @@ state={
 			infrastructure = 1
 		}
 	}
-
-	provinces={
-		1493 1649 4482 4549 4958 5003 7560 7618 7924 8099 10357 10414 10485 10742 12324 12465 12491 
-	}
 	manpower=354853
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=peripheral_region
-	local_supplies=4.000
+	local_supplies=4
 }

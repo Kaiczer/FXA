@@ -2,12 +2,11 @@ state={
 	id=443
 	name="STATE_443"
 	provinces={
-		1479 1532 1614 4488 4499 4618 7541 10395 10420 10435 12233 12454 12474 13206 
+		1479 1532 1614 4488 4499 4618 10395 10420 10435 13206 
 	}
 	history={
-		owner = SOV
-		add_core_of = KAZ
-		add_core_of = SOV 
+		owner = UZB
+		add_core_of = UZB
 		add_to_array = { state_victory_points = 10435 }
 
 		victory_points = { 10435 1 }

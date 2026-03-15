@@ -9,11 +9,14 @@ state={
 		oil = 8
 	}
 	history={
-		owner = TMS
-		add_core_of = TMS
-		add_claim_by = SOV
+		owner = UZB
+		add_core_of = UZB
 		add_to_array = { state_victory_points = 7477 }
 		victory_points = { 7477 1 } #Kyzyl-Su
+
+		buildings = {
+			infrastructure = 1
+		}
 	}
 	manpower=290333
 	buildings_max_level_factor=1.000

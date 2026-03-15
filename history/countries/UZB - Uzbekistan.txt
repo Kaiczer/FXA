@@ -33,9 +33,16 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = despotism
+	ruling_party = vanguard_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
+### For Soviet Turkestan ###
+ROOT = {
+	set_capital = {
+		state = 445
+		remember_old_capital = yes
+	}
+}
