@@ -33,7 +33,8 @@ if = {
 }
 
 ### Character ###
-recruit_character = SOV_alexei_rykov #Premier of Soviet Russia / leader of the Russian Government
+recruit_character = SOV_alexei_rykov #Premier of Soviet Russia / leader of the Soviet Government
+# recruit_character = SOV_yakov_sverdlov #Secretary of Central Committee of Russian Communist Party (Bolsheviks)
 recruit_character = SOV_Mikhail_Kalinin #VTsIK Chairman
 
 set_popularities = {
@@ -47,6 +48,18 @@ set_politics = {
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+add_ideas = {
+	soviet_republic
+	asymmatric_union
+	executive_premiership
+	peoples_legislature
+	well_functioned_courts
+	parallel_bureaucracy
+	limited_exports
+	cultural_autonomy
+	all_bow_to_law
 }
 
 create_faction_from_template = faction_template_comintern
