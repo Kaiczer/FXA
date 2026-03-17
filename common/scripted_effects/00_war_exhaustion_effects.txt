@@ -24,9 +24,11 @@ war_exhaustion_collect_manpower_data = {
 }
 
 # war_exhaustion_collect_factory_data = {
-# 	# Find CIV Factories in Every Owned State
-# 	set_variable = { civilian_factory_threshold = num_of_civilian_factories@THIS.var:controlled_states }
-# 	# Find MIL Factories in Every Owned State
+# 	# Find CIV Factories in Every Owned States
+# 	set_variable = { civilian_factory_threshold = num_of_civilian_factories@THIS.var:owned_states }
+# 	# Find MIL Factories in Every Owned States
+# 	set_variable = { military_factory_threshold = num_of_military_factories@THIS.var:owned_states }
+# 	# Find INF Levels in Every Owned States
 # }
 
 war_exhaustion_localisation_variable = {
