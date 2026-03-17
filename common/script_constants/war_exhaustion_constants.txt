@@ -1,0 +1,10 @@
+war_exhaust_monthly_factor = {
+	schema = {
+		any_key = yes
+		data = fixed_point
+	}
+
+	min = 0.005
+
+	base = 0.005
+}

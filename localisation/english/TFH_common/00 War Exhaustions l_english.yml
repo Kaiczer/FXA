@@ -1,0 +1,8 @@
+﻿l_english:
+war_exhaustion: "War Exhaustion"
+war_exhaustion_foreshadow: "Pay the Price of War"
+WE_has_reached_ten_percent_threshold: "[THIS.GetFlag]§Y[THIS.GetName]§! has suffered more than [GetCasualtyFormatSI] of pre-war available manpower."
+WE_ten_percent_threshold_million: "§Y[?casualties_threshold_loc|0]M§!"
+WE_ten_percent_threshold_thousand: "§Y[?casualties_threshold_loc|0]K§!"
+WE_ten_percent_threshold_hundred: "§Y[?casualties_threshold_loc|0]§!"
+WE_war_exhaustion_activated_tooltip: "When either of conditions is fulfilled, §Y[THIS.GetNameWithFlag]§! have to pay a price of war."

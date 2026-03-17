@@ -557,8 +557,43 @@ on_actions = {
 	on_declare_war = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] has declared war on [From.GetName]"
-			FROM = { set_country_flag = had_war }
-			ROOT = { set_country_flag = had_war }
+			FROM = { 
+				set_country_flag = had_war
+				# Set up War Exhaustion Mechanic
+				if = {
+					limit = { 
+						NOT = { has_active_mission = war_exhaustion_foreshadow }
+					}
+					collect_available_data_war_exhaustion = yes
+					activate_mission = war_exhaustion_foreshadow
+				}
+			}
+			ROOT = { 
+				set_country_flag = had_war
+				# Set up War Exhaustion Mechanic
+				if = {
+					limit = { 
+						NOT = { has_active_mission = war_exhaustion_foreshadow }
+					}
+					collect_available_data_war_exhaustion = yes
+					activate_mission = war_exhaustion_foreshadow
+				}
+			}			
+		}
+	}
+
+	# Check every fellow that has joined the war of OVERLORD / FACTION_LEADER
+	on_war = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has entered war"
+			if = {
+				limit = { 
+					NOT = { has_active_mission = war_exhaustion_foreshadow }
+				}
+				# Set up War Exhaustion Mechanic
+				collect_available_data_war_exhaustion = yes
+				activate_mission = war_exhaustion_foreshadow
+			}			
 		}
 	}
 

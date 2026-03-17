@@ -1,0 +1,56 @@
+# WE Mechanic
+collect_available_data_war_exhaustion = {
+	war_exhaustion_collect_manpower_data = yes
+	war_exhaustion_localisation_variable = yes
+	# war_exhaustion_collect_factory_data = yes
+}
+
+war_exhaustion_collect_manpower_data = {
+	# Find 30% of Available Manpower 
+	clear_variable = casualties_threshold # For Calculation Only
+	set_temp_variable = { threshold_temp = 0 }
+	if = {
+		limit = { has_manpower > 9999 }
+		add_to_temp_variable = { threshold_temp = max_available_manpower_k }
+	}
+	else = { 
+		add_to_temp_variable = { threshold_temp = max_available_manpower }
+	}
+	
+	divide_temp_variable = { threshold_temp = 10 }
+	multiply_temp_variable = { threshold_temp = 3 }
+
+	set_variable = { casualties_threshold = threshold_temp }
+}
+
+# war_exhaustion_collect_factory_data = {
+# 	# Find CIV Factories in Every Owned State
+# 	set_variable = { civilian_factory_threshold = num_of_civilian_factories@THIS.var:controlled_states }
+# 	# Find MIL Factories in Every Owned State
+# }
+
+war_exhaustion_localisation_variable = {
+	clear_variable = casualties_threshold_loc # For Localisation Only
+
+	set_variable = { casualties_threshold_loc = casualties_threshold } # Set Localisation
+	
+	# IF casualties_threshold reached 1000K (1 Million)
+	if = {
+		limit = {
+			check_variable = { 
+				var = casualties_threshold	
+				value = 1000
+				compare = greater_than_or_equals
+			}
+		}
+		set_temp_variable = { temp = casualties_threshold }
+		divide_temp_variable = { temp = 1000 }
+		set_variable = { casualties_threshold_loc = temp }
+	}
+}
+
+war_exhaustion_calculation = {
+	clear_variable = war_exhaustion_level
+	# monthly_growth 
+	add_to_variable = { exhaustion_growth = @war_exhaust_monthly_factor }
+}

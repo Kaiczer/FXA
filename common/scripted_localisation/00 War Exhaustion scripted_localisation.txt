@@ -1,0 +1,22 @@
+define_text = {
+	name = GetCasualtyFormatSI
+	text = {
+		trigger = {
+			check_variable = { 
+				var = casualties_threshold	
+				value = 1000
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = WE_ten_percent_threshold_million
+	}
+	text = {
+		trigger = {
+			has_manpower < 9999
+		}
+		localization_key = WE_ten_percent_threshold_hundred
+	}
+	text = { 
+		localization_key = WE_ten_percent_threshold_thousand
+	}
+}

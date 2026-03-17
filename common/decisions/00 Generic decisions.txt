@@ -1,5 +1,69 @@
-political_actions = {
+war_exhaustion = {
+	war_exhaustion_foreshadow = {
+		icon = generic_army_support
+		is_good = no
 
+		days_mission_timeout = 180
+
+		available = {
+			custom_override_tooltip = {
+				tooltip = WE_has_reached_ten_percent_threshold
+				check_variable = {
+					var = casualties_k
+					value = casualties_threshold
+					compare = greater_than_or_equals
+				}	
+			}
+		}
+
+		cancel_trigger = {
+			has_war = no
+		}
+
+		activation = {
+			always = no #triggered by on_action > on_declare_war > activate_mission = war_exhaustion_foreshadow
+		}
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Mission complete_effect war_exhaustion_foreshadow"
+			custom_effect_tooltip = WE_war_exhaustion_activated_tooltip
+			set_country_flag = we_on_activated_flag
+		}
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Mission timeout_effect war_exhaustion_foreshadow"
+			custom_effect_tooltip = WE_war_exhaustion_activated_tooltip
+			set_country_flag = we_on_activated_flag
+		}
+	}
+	# Debug Decision
+	war_exhaustion_debug_declare_war = {
+		available = {
+			is_debug = yes
+			is_ai = no
+		}
+		complete_effect = {
+			if = {
+				limit = { has_war = no }
+				every_country = {
+					limit = { 
+						is_neighbor_of = ROOT
+					}
+					declare_war_on = {
+						target = PREV
+						type = annex_everything
+					}
+				}
+			}
+			else = {
+				every_enemy_country = {
+					white_peace = PREV
+				}
+			}
+		}
+	}
+}
+political_actions = {
 	generic_raise_stability = {
 		#Socialist -> 'Improve Worker Conditions'
 		icon = {

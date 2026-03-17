@@ -97,8 +97,8 @@ military_staff_available: "This member of the Military staff is alive and ready 
 key_loc_has_government: "Current ruling party is $IDEOLOGY$"
 key_loc_has_government_NOT: "Current ruling party is not $IDEOLOGY$"
 key_loc_punc_comma: "$ITEM|Y$, $NEXT_ITEM$"
-key_loc_grammar_or: "$ITEM|Y$ or $NEXT_ITEM|Y$"
-key_loc_grammar_and: "$ITEM|Y$ and $NEXT_ITEM|Y$"
+key_loc_grammar_or: "$ITEM|Y$, or $NEXT_ITEM|Y$"
+key_loc_grammar_and: "$ITEM|Y$, and $NEXT_ITEM|Y$"
 
 unlocked_later: "Your path remains closed until an opportunity presents itself."
 new_focus_tree_unlocked: "§GA new focus tree will be unlocked§!"

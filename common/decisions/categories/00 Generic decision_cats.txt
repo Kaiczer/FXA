@@ -1,5 +1,20 @@
 #those with a set priority
 
+war_exhaustion = {
+	icon = generic_crisis
+	priority = 9999
+
+	visible = {
+		OR = {
+			AND = {
+				has_war = yes
+				NOT = { has_country_flag = we_on_activated_flag }
+			}
+			is_debug = yes
+		}
+	}
+}
+
 crisis = {
 	icon = generic_crisis
 	priority = 100
