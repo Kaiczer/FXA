@@ -1,0 +1,62 @@
+guiTypes = {
+	containerWindowType = {
+		name = "TFH_war_exhaustion_mechanic_windows"
+		position = { x = 295 y = 148 }
+		size = { width = 0 height = 0 }
+
+		iconType = {
+			name = "war_exhaustion_progressbar_phase_1"
+			spriteType = "GFX_war_exhaustion_progressbar_phase_one"
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		iconType = {
+			name = "war_exhaustion_progressbar_phase_2"
+			spriteType = "GFX_war_exhaustion_progressbar_phase_two"
+			position = {
+				x = 4
+				y = 7
+			}
+		}
+		iconType = {
+			name = "war_exhaustion_progressbar_bg"
+			spriteType = "GFX_war_exhaustion_progressbar_bg"
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		iconType = {
+			name = "war_exhaustion_level"
+			spriteType = "GFX_war_exhaustion_level"
+			position = {
+				x = 212
+				y = 3
+			}
+		}
+		containerWindowType = {
+			name = "TFH_war_exhaustion_indication_text"
+			position = { x = 95 y = 7 }
+			instantTextBoxType = {
+				name = "war_exhaustion_text"
+				font = "hoi_18mbs"
+				text = "0/0"
+				maxWidth = 135 
+				fixedsize = yes
+				maxHeight = 20
+				format = left
+			}
+			iconType = {
+				name = "war_exhaustion_growth"
+				spriteType = "GFX_war_exhaustion_flat"
+				position = {
+					x = -22
+					y = 0
+				}
+				Orientation = "UPPER_LEFT"
+			}
+		}
+	}
+}

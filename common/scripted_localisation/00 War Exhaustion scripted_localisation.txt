@@ -20,3 +20,25 @@ define_text = {
 		localization_key = WE_ten_percent_threshold_thousand
 	}
 }
+
+define_text = {
+	name = GetWarExhaustionGrowth_Icon
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_point_growth > 0 }
+		}
+		localization_key = "GFX_war_exhaustion_arrow_up"
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_point_growth < 0 }
+		}
+		localization_key = "GFX_war_exhaustion_arrow_down"
+	}
+	text = { 
+		trigger = {
+			check_variable = { war_exhaustion_point_growth = 0 }
+		}
+		localization_key = "GFX_war_exhaustion_flat"
+	}
+}

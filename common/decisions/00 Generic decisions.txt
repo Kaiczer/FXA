@@ -62,6 +62,41 @@ war_exhaustion = {
 			}
 		}
 	}
+	war_exhaustion_debug_progressbar_10 = {
+		available = {
+			is_debug = yes
+			is_ai = no
+		}
+		complete_effect = {
+			add_to_variable = { war_exhaustion_modifier_level = 1 }
+			random_list = {
+				33 = {
+					set_variable = { war_exhaustion_point_growth = 1 }
+				}
+				33 = {
+					set_variable = { war_exhaustion_point_growth = 0 }
+				}
+				33 = {
+					set_variable = { war_exhaustion_point_growth = -1 }
+				}
+				1 = { add_political_power = 1 }
+			}
+			if = {
+				limit = { check_variable = { war_exhaustion_point_one < 100 } }
+				add_to_variable = { war_exhaustion_point_one = 10 }
+			}
+			else_if = {
+				limit = { 
+					check_variable = { war_exhaustion_point_one = 100 }
+					check_variable = { war_exhaustion_point_two < 100 }
+				}
+				add_to_variable = { war_exhaustion_point_two = 10 }
+			}
+			else = {
+				add_political_power = 1
+			}
+		}
+	}
 }
 political_actions = {
 	generic_raise_stability = {

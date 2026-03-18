@@ -1,0 +1,72 @@
+###################################
+### W A R - E X H A U S T I O N ###
+###################################
+##############################
+## War Exhaustion Mechanic
+## Developed by CaptainKaiczer
+##############################
+
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_war_exhaustion_progressbar_bg"
+		texturefile = "gfx/interface/gui/war_exhaust/war_exhaustion_progressbar_bg.dds"
+		size = {
+			x = 210
+			y = 35
+		}
+	}
+
+	progressbartype = {
+		name = "GFX_war_exhaustion_progressbar_phase_one"
+		textureFile1 = "gfx/interface/gui/war_exhaust/war_exhaustion_phase_one_progress_color.dds"
+		textureFile2 = "gfx/interface/gui/war_exhaust/war_exhaustion_phase_one_progress_bw.dds"
+		color = { 0 0 0 }
+		colortwo = { 0 0 0 }
+		size = {
+			x = 210
+			y = 35
+		}
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	progressbartype = {
+		name = "GFX_war_exhaustion_progressbar_phase_two"
+		textureFile1 = "gfx/interface/gui/war_exhaust/war_exhaustion_phase_two_progress.dds"
+		textureFile2 = "gfx/interface/blank.dds"
+		color = { 0 0 0 }
+		colortwo = { 0 0 0 }
+		size = {
+			x = 210
+			y = 20
+		}
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	spriteType = {
+		name = "GFX_war_exhaustion_level"
+		texturefile = "gfx/interface/gui/war_exhaust/war_exhaustion_level.dds"
+		noOfFrames = 8
+	}
+
+	spriteType = {
+		name = "GFX_war_exhaustion_flat"
+		texturefile = "gfx/interface/gui/war_exhaust/we_point_growth_flat.dds"
+	}
+
+	spriteType = {
+		name = "GFX_war_exhaustion_arrow_up"
+		texturefile = "gfx/interface/gui/war_exhaust/we_point_growth_arrow_up.dds"
+	}
+
+	spriteType = {
+		name = "GFX_war_exhaustion_arrow_down"
+		texturefile = "gfx/interface/gui/war_exhaust/we_point_growth_arrow_down.dds"
+	}
+
+	spriteType = {
+		name = "GFX_war_exhaustion_warning"
+		texturefile = "gfx/interface/gui/war_exhaust/warning_11x24.dds"
+	}
+}

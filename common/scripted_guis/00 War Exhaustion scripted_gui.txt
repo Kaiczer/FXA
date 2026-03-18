@@ -1,0 +1,26 @@
+scripted_gui = {
+	TFH_war_exhaustion_mechanic_ui = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "TFH_war_exhaustion_mechanic_windows"
+
+		visible = {
+			is_ai = no 
+		}
+
+		properties = {
+			war_exhaustion_progressbar_phase_1 = { 
+				frame = war_exhaustion_point_one
+			}
+			war_exhaustion_progressbar_phase_2 = { 
+				frame = war_exhaustion_point_two
+			}
+			war_exhaustion_level = {
+				frame = war_exhaustion_modifier_level
+			}
+			war_exhaustion_growth = {
+				image = "[GetWarExhaustionGrowth_Icon]"
+			}
+		}
+	}
+}
