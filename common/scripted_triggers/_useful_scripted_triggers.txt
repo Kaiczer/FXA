@@ -23,6 +23,7 @@ is_actual_major = {
 			#is an exception
 			tag = CIN
 			tag = ENT
+			tag = IMP
 
 			# has more than 70% of the average of the top 7
 			set_temp_variable = { factory_average = 0 }
@@ -32,6 +33,16 @@ is_actual_major = {
 			}
 			divide_temp_variable = { factory_average = 4.9 }
 			num_of_factories > factory_average
+		}
+	}
+}
+
+is_in_faction_with_major = {
+	custom_trigger_tooltip = {
+		tooltip = TFH_is_in_faction_with_major
+		any_allied_country = {
+			is_actual_major = yes
+			is_in_faction_with = PREV
 		}
 	}
 }
@@ -152,6 +163,17 @@ is_owned_and_controlled_by_ROOT_or_subject = {
 				tag = ROOT
 				is_subject_of = ROOT
 			}
+		}
+	}
+}
+# Can be used in state scope, to check if there is enemies (at war) controlled the state
+is_controlled_by_enemies = {
+	custom_trigger_tooltip = {
+		tooltip = TFH_controlled_by_enemies
+		controller = {
+			NOT = { is_subject_of = ROOT }
+			is_ally_of_ROOT = no
+			has_war_with = PREV
 		}
 	}
 }

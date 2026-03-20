@@ -27,12 +27,14 @@ war_exhaustion = {
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Mission complete_effect war_exhaustion_foreshadow"
 			custom_effect_tooltip = WE_war_exhaustion_activated_tooltip
+			war_exhaustion_set_war_exhaustion_point_cap = yes
 			set_country_flag = we_on_activated_flag
 		}
 
 		timeout_effect = {
 			log = "[GetDateText]: [Root.GetName]: Mission timeout_effect war_exhaustion_foreshadow"
 			custom_effect_tooltip = WE_war_exhaustion_activated_tooltip
+			war_exhaustion_set_war_exhaustion_point_cap = yes
 			set_country_flag = we_on_activated_flag
 		}
 	}
@@ -69,28 +71,32 @@ war_exhaustion = {
 		}
 		complete_effect = {
 			add_to_variable = { war_exhaustion_modifier_level = 1 }
+			set_variable = { war_exhaustion_point_actual = 100 }
 			random_list = {
 				33 = {
-					set_variable = { war_exhaustion_point_growth = 1 }
+					add_to_variable = { war_exhaustion_point_growth = 1 }
+					add_to_variable = { war_exhaustion_point_actual = 1 }
 				}
 				33 = {
-					set_variable = { war_exhaustion_point_growth = 0 }
+					add_to_variable = { war_exhaustion_point_growth = 0 }
+					add_to_variable = { war_exhaustion_point_actual = 0 }
 				}
 				33 = {
-					set_variable = { war_exhaustion_point_growth = -1 }
+					add_to_variable = { war_exhaustion_point_growth = -1 }
+					add_to_variable = { war_exhaustion_point_actual = -1 }
 				}
-				1 = { add_political_power = 1 }
+				1 = { add_to_variable = { war_exhaustion_point_actual = 2 } }
 			}
 			if = {
-				limit = { check_variable = { war_exhaustion_point_one < 100 } }
-				add_to_variable = { war_exhaustion_point_one = 10 }
+				limit = { check_variable = { war_exhaustion_frame_one < 100 } }
+				add_to_variable = { war_exhaustion_frame_one = 10 }
 			}
 			else_if = {
 				limit = { 
-					check_variable = { war_exhaustion_point_one = 100 }
-					check_variable = { war_exhaustion_point_two < 100 }
+					check_variable = { war_exhaustion_frame_one = 100 }
+					check_variable = { war_exhaustion_frame_two < 100 }
 				}
-				add_to_variable = { war_exhaustion_point_two = 10 }
+				add_to_variable = { war_exhaustion_frame_two = 10 }
 			}
 			else = {
 				add_political_power = 1

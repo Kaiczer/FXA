@@ -42,3 +42,15 @@ define_text = {
 		localization_key = "GFX_war_exhaustion_flat"
 	}
 }
+
+define_text = {
+	name = GetWarExhaustionUILoc
+	text = { 
+		trigger = { has_war = yes }
+		localization_key = WE_war_exhaustion_point_at_war
+	}
+	text = { 
+		trigger = { has_war = no }
+		localization_key = WE_war_exhaustion_point_at_peace
+	}
+}

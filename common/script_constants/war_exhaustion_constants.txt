@@ -4,7 +4,6 @@ war_exhaust_monthly_factor = {
 		data = fixed_point
 	}
 
-	min = 0.005
-
-	base = 0.005
+	min = 1.005
+	base = 1.005
 }

@@ -1,0 +1,27 @@
+add_namespace = war_exhaustion
+
+country_event = { # Bi-Weekly Update of Maximum WEP Cap
+	id = war_exhaustion.1
+
+	hidden = yes 
+	
+	trigger = {
+		has_war = yes
+		NOT = { has_country_flag = war_exhaustion_update_time_limit }
+	}
+
+	immediate = {
+		war_exhaustion_set_war_exhaustion_point_cap = yes
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		set_country_flag = {
+			flag = war_exhaustion_update_time_limit
+			days = 13 
+		}
+	}
+}

@@ -3,7 +3,6 @@ guiTypes = {
 		name = "TFH_war_exhaustion_mechanic_windows"
 		position = { x = 295 y = 148 }
 		size = { width = 0 height = 0 }
-
 		iconType = {
 			name = "war_exhaustion_progressbar_phase_1"
 			spriteType = "GFX_war_exhaustion_progressbar_phase_one"
@@ -38,21 +37,22 @@ guiTypes = {
 		}
 		containerWindowType = {
 			name = "TFH_war_exhaustion_indication_text"
-			position = { x = 95 y = 7 }
+			position = { x = 75 y = 7 }
 			instantTextBoxType = {
 				name = "war_exhaustion_text"
 				font = "hoi_18mbs"
-				text = "0/0"
+				text = "WE_war_exhaustion_point_interface_loc"
 				maxWidth = 135 
 				fixedsize = yes
 				maxHeight = 20
 				format = left
+				# pdx_tooltip = "WE_war_exhaustion_point_interface_loc"
 			}
 			iconType = {
 				name = "war_exhaustion_growth"
 				spriteType = "GFX_war_exhaustion_flat"
 				position = {
-					x = -22
+					x = 65
 					y = 0
 				}
 				Orientation = "UPPER_LEFT"

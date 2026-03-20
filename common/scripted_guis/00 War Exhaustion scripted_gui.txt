@@ -5,15 +5,23 @@ scripted_gui = {
 		window_name = "TFH_war_exhaustion_mechanic_windows"
 
 		visible = {
-			is_ai = no 
+			if = {
+				limit = { is_ai = no }
+				always = yes 
+			} 
+			else = { has_war = yes }
+		}
+
+		ai_enabled = {
+			always = no
 		}
 
 		properties = {
 			war_exhaustion_progressbar_phase_1 = { 
-				frame = war_exhaustion_point_one
+				frame = war_exhaustion_frame_one
 			}
 			war_exhaustion_progressbar_phase_2 = { 
-				frame = war_exhaustion_point_two
+				frame = war_exhaustion_frame_two
 			}
 			war_exhaustion_level = {
 				frame = war_exhaustion_modifier_level
