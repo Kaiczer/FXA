@@ -6,8 +6,10 @@ country_event = { # Bi-Weekly Update of Maximum WEP Cap
 	hidden = yes 
 	
 	trigger = {
-		has_war = yes
-		NOT = { has_country_flag = war_exhaustion_update_time_limit }
+		AND = {
+			has_war = yes
+			NOT = { has_country_flag = war_exhaustion_update_time_limit }
+		}
 	}
 
 	immediate = {

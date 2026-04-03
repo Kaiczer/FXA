@@ -1,8 +1,9 @@
-
 state={
 	id=239
 	name="STATE_239"
-
+	provinces={
+		215 535 3203 3507 6232 6556 9249 9554 11453 
+	}
 	history={
 		owner = BLR
 		add_core_of = BLR
@@ -16,11 +17,8 @@ state={
 			air_base = 3
 		}
 	}
-
-	provinces={
-		215 535 3203 3507 6232 6556 9554 11453 
-	}
 	manpower=379869
-	buildings_max_level_factor=1.000
+	buildings_max_level_factor=1
 	state_category=developed_rural_region
+	local_supplies=0
 }

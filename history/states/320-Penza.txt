@@ -11,12 +11,10 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
-		add_to_array = { state_victory_points = 392 }
 		add_to_array = { state_victory_points = 9258 }
 
 		victory_points = { 9258 2 }
-		victory_points = { 392 3 }
-
+		
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2

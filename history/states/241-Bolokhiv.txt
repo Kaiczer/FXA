@@ -9,9 +9,11 @@ state={
 		owner = UKR
 		add_core_of = UKR  
 		add_claim_by = USR
-		add_to_array = { state_victory_points = 11514 }
+		add_to_array = { state_victory_points = 11543 }
+		add_to_array = { state_victory_points = 3457 }
 
-		victory_points = { 11514 5 }
+		victory_points = { 3457 5 }
+		victory_points = { 11543 3 }
 
 		buildings = {
 			infrastructure = 3

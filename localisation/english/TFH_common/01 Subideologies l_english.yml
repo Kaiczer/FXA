@@ -22,7 +22,7 @@ socialist_feminism_subtype_desc: "§Y(Socialist Feminism)§!\nThe focus of Socia
 agrarian_socialism_subtype: "Agrarian Socialism"
 agrarian_socialism_subtype_desc: "§Y(Agrarian Socialism)§!\nAgrarian Socialism is the attempt to fuse Agrarian principles with Socialist doctrine. Championed by the likes of Zapata or the Narodniks, Agrarian Socialists are frequently more Conservative than their Leftist allies and push for a Socialist system that puts the peasantry and the farmers of the state above all other concerns. Common in less-developed or under-industrialized nations, Agrarian Socialism is frequently democratic, and usually calls for the creation of farming cooperatives, communes, or other cooperative organizational structures to better increase agricultural output and efficiency while progressing towards true Socialism."
 bukharinism_subtype: "Bukharinism"
-bukharinism_subtype_desc: "§Y(Bukharinism)§!\nBukharinism or Semi-Market Socialism is a set of ideas formulated by the Russian Bolshevik Nikolai Bukharin after the Civil War in Russia, which formed the basis of the program of his People's Socialist Party and the rationale for the so-called New Economic Policy.\nBukharin considered the main culprit for the failure of the Bolshevik Revolution in Russia and the loss of the Reds in the Civil War to be the ineffective policy of \"War communism\", which led to the complete alienation of the peasants from the Bolsheviks and economic crisis. Bukharin, however, in his writings, developed with economist Nikolai Kondratiev, suggested that socialism should be achieved gradually - and that state regulation of a mixed economy using planned and market mechanisms was necessary to achieve this goal. \"Socialism in the city - Capitalism in the countryside\" was how Bukharin characterized his program at the founding congress of the new party. In addition to the economic sphere, Bukharinism proposes a multiparty form of Soviet democracy, separation of powers, and Korenization - support for national minorities by promoting national human resources and limiting Russification."
+bukharinism_subtype_desc: "§Y(Bukharinism)§!\n"
 moderate_socialism_subtype: "Moderate Socialism"
 moderate_socialism_subtype_desc: "§Y(Moderate Socialism)§!\nModerate Socialism is an ideology that seeks to combine Democracy and Socialism in one syncretic system. Usually pursuing a directly democratic system, though sometimes using representative bodies such as a congress or union councils, these governments seek to give each and every citizen a voice regardless of their standing in society as they pursue true Socialism."
 
@@ -35,8 +35,6 @@ socdem_left_nationalism_subtype_desc: "§Y(Left-wing Nationalism)§!\nLeft-Wing 
 ## Social Liberal
 soclib_centrism_subtype: "Centrism"
 soclib_centrism_subtype_desc: "§Y(Centrism)§!\nDemocratic Centrism describes the political outlook that revolves around the maintaining of the set status quo. Though this status quo varies from nation to nation, Centrists rally around this middleground just the same, seeking to balance equality and hierarchy in their varied societies. Hated by both conservatives and extremists who see them as fence-sitters, Centrists rally around the proven status quo without faltering, resisting rapid reform and staunch traditionalism just the same as they pursue a happy medium between bickering parties for the greater good of their societies as they seek stability and consistency above all."
-radical_liberalism_subtype: "Radical Liberalism"
-radical_liberalism_subtype_desc: "§Y(Radical Liberalism)§!\nRadical Liberalism - also called Classical Radicalism or Radical Republicanism - describes the modern political movements chiefly inspired by the Radicals of the French Revolution and the precursor Liberals of the past century. Associated with Republicanism, modernism, civic nationalism, rationalism, secular humanism, progressivism, and more, Radical Liberal seeks to stretch the meaning of what it means to be ‘Liberal’ in order to build a truly free, fair, and egalitarian society that champions freedom, liberty, and justice for all."
 
 ## Classical Liberal
 clslib_centrism_subtype: "Centrism"
@@ -52,7 +50,7 @@ christian_democracy_subtype_desc: "§Y(Christian Democracy)§!\nChristian Democr
 toryism_subtype: "Toryism"
 toryism_subtype_desc: "§Y(Toryism)§!\nToryism is an originally-British version of traditionalism and conservatism, which upholds the supremacy of social order as it has evolved in the English culture throughout history. The Tory ethos has been summed up with the phrase "God, King, and Country". Tories are generally monarchists, were historically of a high church Anglican religious heritage, and are opposed to political liberalism. Typically, Tories defend the ideas of hierarchy, natural order, and aristocracy."
 
-### Authoritarian
+### Paternalism
 national_conservatism_subtype: "National Conservatism"
 national_conservatism_subtype_desc: "§Y(National Conservatism)§!\nNational Conservatism is a nationalist variant of mainline conservative thought that concentrates on upholding the national and cultural identity of the nation. These states usually promote traditional cultural and societal values, filial piety and the importance of the family structure, and patriotic monoculturalism. Though varied in their economic outlooks, they frequently range from corporatism and mixed-economics to laissez-faire policies, but usually oppose globalization and internationalism."
 shogunal_democracy_subtype: "Shogunal Democracy"
@@ -61,7 +59,7 @@ controlled_democracy_subtype: "Controlled Democracy"
 controlled_democracy_subtype_desc: "§Y(Controlled Democracy)§!\nControlled democracy refers to a political system where the appearance of democracy is maintained, but power is effectively concentrated in the hands of a select few individuals or groups. It is characterized by limited political freedoms, restricted opposition parties, and manipulation of electoral processes to ensure the ruling elite retains power. Although elections may take place, they are often tightly controlled and manipulated to ensure predetermined outcomes, effectively limiting genuine democratic participation and decision-making by the general population."
 carlism_subtype: "Carlism"
 
-### Revolutionary Nationalist
+### National Corporatism
 carnarianism_subtype: "Carnarianism"
 carnarianism_subtype_desc: "§Y(Carnarianism)§!\nAfter the war, which saturated the land with bloodshed and tears, had concluded, the enduring sense of defeat continued to smolder within the hearts of the vengeful and despondent. Struggling to rejuvenate a nation that had fallen from grace became the paramount aspiration for certain individuals. Notably, the Italian romantic futurist poet, Gabriele D’Annunzio, embarked on a mission to Fiume. It was here that the Charter of Carnaro, infused with his poetic mastery and camaraderie with vanguard_socialism sympathizers, was penned. This charter brimmed with the vision of a new harmonious nation founded on class cooperation, granting autonomy to various occupations and fostering class democracy to harmonize the existing social strata within the unity of the state."
 reform_showaism_subtype: "Reform Showaism"
@@ -73,11 +71,11 @@ legionarism_subtype_desc: "§Y(Legionarism)§!\nLegionarism, as practiced by the
 radical_carlism: "Radical Carlism"
 national_syndicalism: "National Syndicalism"
 
-### Volkist
+### Volkism
 volk_legionarism_subtype: "Legionarism"
 volk_legionarism_subtype_desc: "§Y(Legionarism)§!\nLegionarism, as practiced by the Iron Guard, was a complex and multifaceted ideology that fused fervent nationalism, religious devotion, and paternalism principles to envision a spiritually and culturally revitalized Romania. It stood firmly against both liberal democracy and communism, advocating for a theocratic and corporatist state where national and religious values were paramount. This ideology emphasized unity, discipline, and cultural heritage, resonating with many Romanians who sought a return to traditional values and a strong national identity. However, the movement's violent and exclusionary practices, particularly its anti-Semitism and paternalismism, cast a dark shadow over Romanian history. While aspiring to create a cohesive and morally upright society, the Iron Guard's methods often involved brutality and repression. Members of Legionary parties were often trained to act as militant martyrs to become closer to their nation and God, though less extreme examples existed where nationalism and patriotism were expressed more than martyrdom. In terms of economics, there was no singular defined view, although capitalism and socialism were usually outright rejected as corrupting, foreign influences. Instead, corporatism, right syndicalism, or other forms of controlled economics were largely dominant. Though the emphasis on religion and zealotry varied, most Legionaries were devoutly Catholic or Christian, depending on their nation of origin, and all were deeply devoted to the jingoistic revitalization of their native country."
 
-### Paternal Autocrat
+### Despotism
 absolute_monarchism_subtype: "Absolute Monarchy"
 absolute_monarchism_subtype_desc: "§Y(Absolute Monarchy)§!\nAbsolute Monarchy holds a often despotic and paternalism regime over the people. It is made of an autocratic king or emperor who rules over the country with an iron fist and with a powerful government under him. The government tends to be conservative with traditional values and focuses. The market, press, and businesses of the country are government controlled and the people live without a lot of their freedoms."
 samurai_dictatorship_subtype: "Samurai Dictatorship"
@@ -89,7 +87,7 @@ corporatocracy_subtype_desc: "§Y(Corporatocracy)§!\nCorporatocracies are regim
 high_toryism_subtype: "High Toryism"
 high_toryism_subtype_desc: "§Y(High Toryism)§!\nHigh Toryism is the old traditionalist conservatism that aligns with the Tory principles originating in the 16th century. High Tories and their worldview often clash with the modernizing elements within the Conservative Party. Historically, late eighteenth-century conservatism, derived from figures like the Whig Edmund Burke, Lee Munro, and William Pitt the Younger, marked a departure from the "higher" or legitimist Toryism associated with Jacobitism. High Toryism has been described as neo-feudalist, favoring a traditional hierarchical and patriarchal society over modern notions of freedom and equality. It holds the traditional gentry as a higher cultural benchmark than the bourgeoisie and those who have attained their status through commerce or labor."
 
-### Reactionary Ultranationalist 
+### Ultranationalism 
 klan_nationalism_subtype: "Klan Nationalism"
 klan_nationalism_subtype_desc: "§Y(Klan Nationalism)§!\nKlan Nationalism is a generic name of the White Supremacist ideology esposed by the American Ku Klux Klan. Varied in its approach to how it handles issues concerning race and ethnicity, the varied sects of the Klan all agree on one thing - White is right. From supporting Back to Africa plans to advocating to a total return the slavery, the ideas of the Klan are varied and diverse, but they can all agree that piety, nationalism, white supremacism, American exceptionalism, and militarism are all Godly pursuits."
 orthodox_nichirenism_subtype: "Orthodox Nichirenism"

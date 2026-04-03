@@ -10,10 +10,8 @@ state={
 		add_core_of = UKR  
 		add_claim_by = USR
 		add_to_array = { state_victory_points = 6455 }
-		add_to_array = { state_victory_points = 3457 }
 
 		victory_points = { 6455 2 } #Mogilev-Podolsky
-		victory_points = { 3457 5 }
 
 		buildings = {
 			infrastructure = 2

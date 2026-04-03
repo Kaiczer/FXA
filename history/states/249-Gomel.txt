@@ -1,8 +1,9 @@
-
 state={
 	id=249
 	name="STATE_249"
-
+	provinces={
+		9288 9342 
+	}
 	history={
 		owner = BSR
 		add_core_of = BSR
@@ -16,11 +17,8 @@ state={
 			air_base = 2
 		}
 	}
-
-	provinces={
-		9249 9288 9342 
-	}
 	manpower=380342
-	buildings_max_level_factor=1.000
-	state_category= developing_rural_region
+	buildings_max_level_factor=1
+	state_category=developing_rural_region
+	local_supplies=0
 }

@@ -1,8 +1,9 @@
-
 state={
 	id=27
 	name="STATE_27"
-
+	provinces={
+		216 294 304 331 360 386 3267 3293 3350 3759 6292 6319 6373 11216 11285 11313 11370 
+	}
 	history={
 		owner = BLR
 		add_core_of = BLR
@@ -22,12 +23,8 @@ state={
 			air_base = 3
 		}
 	}
-
-	provinces={
-		216 294 304 331 360 386 3267 3293 3759 6292 11216 11285 11313 11370 
-	}
 	manpower=1061072
-	buildings_max_level_factor=1.000
-	state_category= urbanising_region
-	local_supplies=5.000
+	buildings_max_level_factor=1
+	state_category=urbanising_region
+	local_supplies=5
 }
