@@ -2,20 +2,23 @@ capital = 5
 set_research_slots = 3
 set_stability = 0.37
 set_war_support = 0.23
+set_cosmetic_tag = GER_preuni
 
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_engineers = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_mountaineers = 1
 	fuel_silos = 1
 	basic_train = 1
 }
 
 if = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
 	set_technology = {
 		iw_small_airframe = 1
 		aa_lmg = 1
@@ -31,7 +34,6 @@ if = {
 }
 
 create_faction_from_template = faction_template_brotherhood_circle
-
 set_popularities = {
 	authoritarian_socialism = 7
 	volkism = 40
@@ -41,26 +43,26 @@ set_popularities = {
 	paternalism = 15
 	social_conservatism = 12
 }
-add_coalition_social_conservatism = yes 
+
+add_coalition_social_conservatism = yes
 add_coalition_national_corporatism = yes
 add_coalition_authoritarian_socialism = yes
 
-set_politics = {	
+set_politics = {
 	ruling_party = volkism
-	last_election = "1932.4.10" #Last election in 1932 before Prussian Putch
-	election_frequency = 84 #why the term is so long af
-	elections_allowed = no 
+	last_election = "1933.3.5"	#Last election in 1933 before Prussian Putch
+	election_frequency = 84	#why the term is long af
+	elections_allowed = no
 }
 
 ## Starting Characters ##
 recruit_character = GER_adam_dressler
 recruit_character = GER_albrecht_von_graefe
 recruit_character = GER_dietrich_eckart
-recruit_character = GER_wilhelm_teudt #DVKBV's puppet leader in DNVP volkisch faction
+recruit_character = GER_wilhelm_teudt
 recruit_character = GER_ferdinand_werner
 recruit_character = GER_erich_ludendorff
 recruit_character = GER_otto_strasser
-
 ## Advisor Activations ##
 activate_advisor = GER_ferdinand_werner_sic
 activate_advisor = GER_erich_ludendorff_adv

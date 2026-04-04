@@ -8,7 +8,7 @@ GFD: "German Federation"
 GFD_ADJ: "German"
 GFD_DEF: "the German Federation"
 
-### Cosmetic Names ###
+### Ideology Cosmetic Names ###
 GER_authoritarian_socialism: "German National People's Republic"
 GER_authoritarian_socialism_DEF: "the German National People's Republic"
 GER_authoritarian_socialism_ADJ: "German"
@@ -18,9 +18,17 @@ GER_vanguard_socialism_ADJ: "German"
 GER_revolutionary_socialism: "German Democratic Republic"
 GER_revolutionary_socialism_DEF: "the German Democratic Republic"
 GER_revolutionary_socialism_ADJ: "German"
-GER_volkism: "Volksherrschaft-in-Elbia"
+GER_volkism: "Deutscher Volkstaat"
 GER_volkism_ADJ: "German"
-GER_volkism_DEF: "the German People's Rulership in Elbia"
+GER_volkism_DEF: "the German People's State"
+
+### Custom Cosmetic Names ###
+GER_preuni: "Berlin Government"
+GER_preuni_ADJ: "German"
+GER_preuni_DEF: "the Berlin Government"
+GER_preuni_volkism: "Deutsche Volksherrschaft Elbia"
+GER_preuni_volkism_ADJ: "German"
+GER_preuni_volkism_DEF: "the German People's Rulership in Elbia"
 
 #### Parties ###
 GER_authoritarian_socialism_party: "DVKBV (Schwarze Front)"

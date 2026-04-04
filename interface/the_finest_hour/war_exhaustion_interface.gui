@@ -42,10 +42,10 @@ guiTypes = {
 				name = "war_exhaustion_text"
 				font = "hoi_18mbs"
 				text = "WE_war_exhaustion_point_interface_loc"
-				maxWidth = 135 
-				fixedsize = yes
+				position = { x = -20 y = 0 }
+				maxWidth = 100 
 				maxHeight = 20
-				format = left
+				format = center
 				# pdx_tooltip = "WE_war_exhaustion_point_interface_loc"
 			}
 			iconType = {
