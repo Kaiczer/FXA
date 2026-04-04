@@ -54,3 +54,55 @@ define_text = {
 		localization_key = WE_war_exhaustion_point_at_peace
 	}
 }
+
+define_text = {
+	name = GetWarExhaustionLV
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 1 }
+		}
+		localization_key = WE_war_exhaustion_lv_1
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 2 }
+		}
+		localization_key = WE_war_exhaustion_lv_2
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 3 }
+		}
+		localization_key = WE_war_exhaustion_lv_3
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 4 }
+		}
+		localization_key = WE_war_exhaustion_lv_4
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 5 }
+		}
+		localization_key = WE_war_exhaustion_lv_5
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 6 }
+		}
+		localization_key = WE_war_exhaustion_lv_6
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 7 }
+		}
+		localization_key = WE_war_exhaustion_lv_7
+	}
+	text = {
+		trigger = {
+			check_variable = { war_exhaustion_modifier_level = 8 }
+		}
+		localization_key = WE_war_exhaustion_lv_8
+	}
+}

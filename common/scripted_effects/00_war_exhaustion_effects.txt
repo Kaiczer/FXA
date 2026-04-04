@@ -1,8 +1,116 @@
-# WE Mechanic
+#### WE Mechanic ####
+### Implemented by CaptainKaiczer ###
+
+### Initialization / Update ###
 collect_available_data_war_exhaustion = {
 	war_exhaustion_collect_manpower_data = yes
 	war_exhaustion_localisation_variable = yes
 	# war_exhaustion_collect_factory_data = yes
+}
+
+war_exhaustion_effects_initiate = {
+	war_exhaustion_set_war_exhaustion_point_cap = yes
+	set_up_war_exhaustion_effects_start = yes
+}
+
+war_exhaustion_effects_update = {
+	war_exhaustion_level_update = yes
+	war_exhaustion_penalty_effects_update = yes
+}
+
+### Actual Calculation / Configuration ###
+
+set_up_war_exhaustion_effects_start = {
+	# All decimal variables
+	set_variable = { war_exhaustion_pp_factor_var = -0.002 }
+	set_variable = { war_exhaustion_stability_factor_var = -0.025 }
+	set_variable = { war_exhaustion_war_support_factor_var = -0.04 }
+	set_variable = { war_exhaustion_consumer_goods_factor_var = 0.015 }
+	set_variable = { war_exhaustion_industrial_capacity_factor_var = -0.02 }
+	set_variable = { war_exhaustion_local_resources_factor_var = -0.015 }
+	set_variable = { war_exhaustion_production_speed_factor_var = -0.025 }
+	set_variable = { war_exhaustion_industrial_repair_factor_var = -0.02 }
+	set_variable = { war_exhaustion_army_org_factor_var = -0.015 }
+	set_variable = { war_exhaustion_land_reinforce_rate_var = -0.02 }
+	#Only Non-decimal variable (max: 800)
+	set_variable = {  war_exhaustion_weekly_manpower_var = -200 }
+}
+
+war_exhaustion_level_update = {
+	if = {
+		limit = { 
+			check_variable = { 
+				var = war_exhaustion_point_actual
+				value = 175
+				compare = greater_than_or_equals
+			}
+		}
+		set_variable = { war_exhaustion_modifier_level = 8 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 150 }
+			check_variable = { war_exhaustion_point_actual < 175 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 7 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 125 }
+			check_variable = { war_exhaustion_point_actual < 150 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 6 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 101 }
+			check_variable = { war_exhaustion_point_actual < 124 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 5 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 75 }
+			check_variable = { war_exhaustion_point_actual < 101 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 4 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 50 }
+			check_variable = { war_exhaustion_point_actual < 75 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 3 }
+	}
+	else_if = {
+		limit = { 
+			check_variable = { war_exhaustion_point_actual = 25 }
+			check_variable = { war_exhaustion_point_actual < 50 }
+		}
+		set_variable = { war_exhaustion_modifier_level = 2 }
+	}
+	else = {
+		set_variable = { war_exhaustion_modifier_level = 1 }
+	}
+}
+
+war_exhaustion_penalty_effects_update = {
+	# Apply the modifier level to the base factors to get the actual penalties
+	set_temp_variable = { war_exhaustion_multiplier = war_exhaustion_modifier_level }
+	multiply_temp_variable = { war_exhaustion_multiplier = 2.5 }
+	# divide_temp_variable = { war_exhaustion_multiplier = 10 }
+	# Apply the multiplier to all penalty variables
+	multiply_variable = { war_exhaustion_pp_factor_var = war_exhaustion_point_actual }
+	multiply_variable = { war_exhaustion_stability_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_war_support_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_consumer_goods_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_industrial_capacity_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_local_resources_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_production_speed_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_industrial_repair_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_army_org_factor_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_land_reinforce_rate_var = war_exhaustion_multiplier }
+	multiply_variable = { war_exhaustion_weekly_manpower_var = war_exhaustion_modifier_level }
 }
 
 war_exhaustion_collect_manpower_data = {
@@ -102,7 +210,7 @@ war_exhaustion_localisation_variable = {
 	}
 }
 
-war_exhaustion_calculation = {
+war_exhaustion_monthly_calculation = {
 	clear_variable = war_exhaustion_level
 	# monthly_growth 
 	add_to_variable = { exhaustion_growth = @war_exhaust_monthly_factor }

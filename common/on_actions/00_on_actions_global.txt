@@ -567,7 +567,7 @@ on_actions = {
 					collect_available_data_war_exhaustion = yes
 					activate_mission = war_exhaustion_foreshadow
 				}
-				else = { war_exhaustion_set_war_exhaustion_point_cap = yes }
+				else = { war_exhaustion_effects_initiate = yes }
 			}
 			ROOT = { 
 				set_country_flag = had_war
@@ -579,7 +579,7 @@ on_actions = {
 					collect_available_data_war_exhaustion = yes
 					activate_mission = war_exhaustion_foreshadow
 				}
-				else = { war_exhaustion_set_war_exhaustion_point_cap = yes }
+				else = { war_exhaustion_effects_initiate = yes }
 			}			
 		}
 	}
@@ -596,6 +596,7 @@ on_actions = {
 				collect_available_data_war_exhaustion = yes
 				activate_mission = war_exhaustion_foreshadow
 			}
+			else = { war_exhaustion_effects_initiate = yes }
 		}
 	}
 

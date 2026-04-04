@@ -2,6 +2,8 @@
 
 ### Regular Tooltips (for use in custom_effect_tooltip) ###
 tooltip_white_line: "   \n"
+tooltip_line_break: "\n"
+tooltip_line_break_2: "$tooltip_line_break$$tooltip_line_break$"
 
 elections_in_one_months: "§HElections will be held in one month§!"
 elections_in_three_months: "§HElections will be held in three months§!"

@@ -27,12 +27,17 @@ guiTypes = {
 				y = 0
 			}
 		}
-		iconType = {
-			name = "war_exhaustion_level"
-			spriteType = "GFX_war_exhaustion_level"
-			position = {
-				x = 212
-				y = 3
+		containerWindowType = {
+			name = TFH_war_exhaustion_level
+			position = { x = 0 y = 0 }
+			iconType = {
+				name = "war_exhaustion_level"
+				spriteType = "GFX_war_exhaustion_level"
+				position = {
+					x = 212
+					y = 3
+				}
+				pdx_tooltip = "WE_war_exhaustion_level_interface_loc"
 			}
 		}
 		containerWindowType = {
@@ -46,7 +51,7 @@ guiTypes = {
 				maxWidth = 100 
 				maxHeight = 20
 				format = center
-				# pdx_tooltip = "WE_war_exhaustion_point_interface_loc"
+				fixedsize = yes
 			}
 			iconType = {
 				name = "war_exhaustion_growth"

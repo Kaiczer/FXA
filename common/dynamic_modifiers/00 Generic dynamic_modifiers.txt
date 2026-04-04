@@ -11,8 +11,26 @@ mobilisation_penalty_modifier = {
 	army_org_factor = mobilisation_penalty_var
 	land_reinforce_rate = mobilisation_penalty_var
 	industrial_capacity_factory = mobilisation_penalty_var
-
 	#positive values
 	training_time_factor = mobilisation_penalty_var_positive
 	consumer_goods_factor = mobilisation_penalty_var_positive
+}
+
+war_exhaustion_penalty_modifier = {
+	# icon = GFX_war_exhaustion_level
+	# Base values will be set at LV.0 (Peaceful LV.1), and other LVs will be multiplied through War Exhaustion LV. factor
+	# National Survival
+	political_power_factor = war_exhaustion_pp_factor_var
+	stability_factor = war_exhaustion_stability_factor_var
+	war_support_factor = war_exhaustion_war_support_factor_var
+	# Economic
+	consumer_goods_factor = war_exhaustion_consumer_goods_factor_var
+	industrial_capacity_factory = war_exhaustion_industrial_capacity_factor_var
+	local_resources_factor = war_exhaustion_local_resources_factor_var
+	production_speed_buildings_factor = war_exhaustion_production_speed_factor_var
+	industry_repair_factor = war_exhaustion_industrial_repair_factor_var
+	# Military
+	army_org_factor = war_exhaustion_army_org_factor_var
+	land_reinforce_rate = war_exhaustion_land_reinforce_rate_var
+	weekly_manpower = war_exhaustion_weekly_manpower_var
 }
