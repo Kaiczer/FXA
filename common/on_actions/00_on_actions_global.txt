@@ -553,6 +553,13 @@ on_actions = {
 		}
 	}
 
+	on_monthly = {
+		effect = {
+			# Checking for war exhaustion growth in every country on monthly basis
+			war_exhaustion_monthly_calculation = yes
+		}
+	}
+
 	#FROM is war target
 	on_declare_war = {
 		effect = {
@@ -1462,8 +1469,8 @@ on_actions = {
 		effect = {
 			log = "[GetDateText] [Root.GetName] on_puppet FROM = [From.GetName]"
 			ROOT = {
-				clr_country_flag = TFH_independence_war_overlord
-				clr_country_flag = TFH_independence_war
+				clr_country_flag = independence_war_overlord
+				clr_country_flag = independence_war
 				clr_country_flag = TFH_independence_refused
 			}
 		}
@@ -2260,8 +2267,8 @@ on_actions = {
 			}
 
 			# Independence
-			clr_country_flag = TFH_independence_war
-			clr_country_flag = TFH_independence_war_overlord
+			clr_country_flag = independence_war
+			clr_country_flag = independence_war_overlord
 
 			# Volunteers
 			save_event_target_as = volunteer_target
@@ -2275,6 +2282,7 @@ on_actions = {
 	# ROOT is country, this is ran for every country
 	on_daily = {
 		effect = {
+			# Unit Limit Calculation
 			unit_limit_calculation_effect = yes
 		}
 	}

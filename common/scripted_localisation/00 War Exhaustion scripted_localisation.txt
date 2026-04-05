@@ -46,11 +46,15 @@ define_text = {
 define_text = {
 	name = GetWarExhaustionUILoc
 	text = { 
-		trigger = { has_war = yes }
+		trigger = { 
+			check_variable = { war_exhaustion_point_actual > 0 }
+		}
 		localization_key = WE_war_exhaustion_point_at_war
 	}
 	text = { 
-		trigger = { has_war = no }
+		trigger = { 
+			check_variable = { war_exhaustion_point_actual = 0 }
+		}
 		localization_key = WE_war_exhaustion_point_at_peace
 	}
 }
