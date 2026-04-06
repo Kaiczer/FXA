@@ -47,15 +47,19 @@ define_text = {
 	name = GetWarExhaustionUILoc
 	text = { 
 		trigger = { 
-			check_variable = { war_exhaustion_point_actual > 0 }
+			OR = {
+				check_variable = { war_exhaustion_point_actual > 0 }
+				has_war = yes
+			}
 		}
-		localization_key = WE_war_exhaustion_point_at_war
+		localization_key = WE_war_exhaustion_point_indicator
 	}
 	text = { 
 		trigger = { 
-			check_variable = { war_exhaustion_point_actual = 0 }
+			check_variable = { war_exhaustion_point_actual < 1 }
+			has_war = no
 		}
-		localization_key = WE_war_exhaustion_point_at_peace
+		localization_key = WE_war_exhaustion_point_disable
 	}
 }
 
@@ -108,5 +112,49 @@ define_text = {
 			check_variable = { war_exhaustion_modifier_level = 8 }
 		}
 		localization_key = WE_war_exhaustion_lv_8
+	}
+}
+
+# Modifier List for Tooltip
+define_text = {
+	name = WE_Basis_Gain
+	text = {
+		trigger = { has_variable = war_exhaustion_basis_gain }
+		localization_key = WE_war_exhaustion_point_monthly_gain
+	}
+}
+define_text = {
+	name = WE_Casualties_Gain
+	text = {
+		trigger = { has_variable = war_exhaustion_casualties_gain }
+		localization_key = WE_war_exhaustion_point_casualties_gain
+	}
+}
+define_text = {
+	name = WE_Damaged_Buildings_Gain
+	text = {
+		trigger = { has_variable = war_exhaustion_damaged_buildings_gain }
+		localization_key = WE_war_exhaustion_point_damaged_buildings_gain
+	}
+}
+define_text = {
+	name = WE_Mobilization_Change
+	text = {
+		trigger = { has_variable = war_exhaustion_mobilization_change }
+		localization_key = WE_war_exhaustion_point_mobilization_change
+	}
+}
+define_text = {
+	name = WE_Surrender_Progress_Gain
+	text = {
+		trigger = { has_variable = war_exhaustion_surrender_progress_gain  }
+		localization_key = WE_war_exhaustion_point_surrender_progress_gain
+	}
+}
+define_text = {
+	name = WE_Recovery_Change
+	text = {
+		trigger = { has_variable = war_exhaustion_recovery_change  }
+		localization_key = WE_war_exhaustion_point_recovery_change
 	}
 }
