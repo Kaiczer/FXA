@@ -257,6 +257,7 @@ war_exhaustion_monthly_calculation = {
 		# casualties 
 		if = {
 			limit = {
+				check_variable = { casualties > 0 }
 				check_variable = { 
 					var = casualties_k
 					value = 100
@@ -368,18 +369,6 @@ war_exhaustion_monthly_calculation = {
 			add_to_variable = { exhaustion_growth = 0.8 }
 			set_variable = { war_exhaustion_mobilization_change = 0.8 }
 		}
-		else_if = {
-			limit = {
-				OR = {
-					has_idea = undisturbed_isolation
-					has_idea = isolation
-					has_idea = civilian_economy
-				}
-				has_war = no
-			}
-			add_to_variable = { exhaustion_growth = -0.3 }
-			set_variable = { war_exhaustion_mobilization_change = -0.3 }
-		}
 		else = { 
 			add_to_variable = { exhaustion_growth = 0.2 }
 			set_variable = { war_exhaustion_mobilization_change = 0.2 }
@@ -438,6 +427,9 @@ war_exhaustion_monthly_calculation = {
 	# Set up the variables for calculation and UI
 	set_variable = { war_exhaustion_point_growth = exhaustion_growth }
 	add_to_variable = { war_exhaustion_point_actual = exhaustion_growth }
+	# Clamp up variables / Set up the progress bar
+	war_exhaustion_clamp_variables = yes
+	war_exhaustion_set_progress_bar = yes
 }
 
 war_exhaustion_clear_monthly_calculation = {
@@ -448,11 +440,41 @@ war_exhaustion_clear_monthly_calculation = {
 	clear_variable = war_exhaustion_surrender_progress_gain
 }
 
-# war_exhaustion_set_progress_bar = {
-# 	# Phase 1 (0-100)
-# 	# Phase 2 (101-200)
-# }
+war_exhaustion_set_progress_bar = {
+	# Phase 1 (0-100)
+	if = {
+		limit = {
+			check_variable = { war_exhaustion_point_actual > 0 }
+			check_variable = { war_exhaustion_point_actual < 101 }
+		}
+		set_temp_variable = { we_progress_bar_temp = war_exhaustion_point_actual }
+		set_variable = { war_exhaustion_frame_one = we_progress_bar_temp }
+		clear_variable = war_exhaustion_frame_two 
+	}
+	# Phase 2 (101-200)
+	else_if = {
+		limit = {
+			check_variable = { war_exhaustion_point_actual > 100 }
+			check_variable = { war_exhaustion_point_actual < 201 }
+		}
+		set_temp_variable = { we_progress_bar_temp = war_exhaustion_point_actual }
+		subtract_from_temp_variable = { we_progress_bar_temp = 100 }
+		set_variable = { war_exhaustion_frame_one = 100 } # Keep the first bar full
+		set_variable = { war_exhaustion_frame_two = we_progress_bar_temp }
+	}
+	else = {
+		clear_variable = war_exhaustion_frame_one
+		clear_variable = war_exhaustion_frame_two
+	}
+}
 
-# war_exhaustion_clamp_variables = {
-
-# }
+war_exhaustion_clamp_variables = { #Normal clamp_variable doesn't work, it set actual WEP to 0 suddenly
+	if = {
+		limit = { check_variable = { war_exhaustion_point_actual < 0 } }
+		set_variable = { war_exhaustion_point_actual = 0 }
+	}
+	else_if = {
+		limit = { check_variable = { war_exhaustion_point_actual > maximum_war_exhaustion_cap } }
+		set_variable = { war_exhaustion_point_actual = maximum_war_exhaustion_cap }
+	}
+}
