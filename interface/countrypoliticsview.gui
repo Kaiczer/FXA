@@ -87,7 +87,7 @@ guiTypes = {
 			iconType = {
 				name ="pol_view_bg"
 				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -4 y = 1 }
+				position = { x = -5 y = -1 }
 			}
 		}
 
@@ -562,7 +562,7 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "national_spirit_container"
-				position = { x = -5 y = 20 }
+				position = { x = -5 y = 10 }
 				size = { width = 282 height = 66 }
 				horizontalScrollbar = "bottom_horizontal_slider"
                 smooth_scrolling = yes
