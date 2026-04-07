@@ -798,8 +798,66 @@ generate_new_german_puppet = {
 	}
 }
 
-create_russian_puppet = {
+annexations_reset_yugoslav_tags = {
 	if = {
-		limit = { }
+		limit = { NOT = { country_exists = YUG } }
+		YUG = {
+			drop_cosmetic_tag = yes
+			clear_cores_of_tag_if_possible = yes
+		}
+	}
+	if = {
+		limit = { NOT = { country_exists = SLV } }
+		every_state = {
+			limit = { is_slovenia = no }
+			remove_core_of = SLV
+			remove_claim_by = SLV
+		}
+		SLV = { drop_cosmetic_tag = yes }
+	}
+	if = {
+		limit = { NOT = { country_exists = CRO } }
+		every_state = {
+			limit = { is_croatia = no }
+			remove_core_of = CRO
+			remove_claim_by = CRO
+		}
+		CRO = { drop_cosmetic_tag = yes }
+	}
+	if = {
+		limit = { NOT = { country_exists = BOS } }
+		every_state = {
+			limit = { is_bosnia = no }
+			remove_core_of = BOS
+			remove_claim_by = BOS
+		}
+		BOS = { drop_cosmetic_tag = yes }
+	}
+	if = {
+		limit = { NOT = { country_exists = SER } }
+		every_state = {
+			limit = { is_serbia = no }
+			remove_core_of = SER
+			remove_claim_by = SER
+		}
+		SER = { drop_cosmetic_tag = yes }
+	}
+	if = {
+		limit = { NOT = { country_exists = MNE } }
+		every_state = {
+			limit = { is_montenegro = no }
+			remove_core_of = MNE
+			remove_claim_by = MNE
+		}
+		MNE = { drop_cosmetic_tag = yes }
+	}
+	if = {
+		limit = { NOT = { country_exists = MAC } }
+		every_state = {
+			limit = { is_macedonia = no }
+			remove_core_of = MAC
+			remove_claim_by = MAC
+		}
+		MAC = { drop_cosmetic_tag = yes }
 	}
 }

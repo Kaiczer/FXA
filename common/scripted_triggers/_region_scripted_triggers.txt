@@ -367,7 +367,7 @@ is_yugoslavia = {
 		is_serbia = yes
 		is_bosnia = yes
 		is_montenegro = yes
-		state = 117 #Macedonia
+		is_macedonia = yes
 	}
 }
 
@@ -412,6 +412,10 @@ is_bosnia = {
 
 is_montenegro = {
 	state = 162
+}
+
+is_macedonia = {
+	state = 177
 }
 
 is_albania = {
