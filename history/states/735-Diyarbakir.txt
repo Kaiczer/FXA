@@ -10,7 +10,9 @@ state={
 		add_core_of = TUR
 		add_core_of = KUR
 		add_to_array = { state_victory_points = 4512 }
+		add_to_array = { state_victory_points = 9860 }
 
+		victory_points = { 9860 1 } #Mamuretulaziz
 		victory_points = { 4512 5 } #Diyarbakir
 
 		buildings = {

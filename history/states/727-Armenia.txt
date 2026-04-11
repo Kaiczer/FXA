@@ -2,13 +2,11 @@ state={
 	id=727
 	name="STATE_727"
 	provinces={
-		3564 12320 12380 12441 13123 13724 
+		3564 12320 12441 13123 13724 
 	}
 	history = {
 		owner = ARM
 		add_core_of = ARM 
-		add_claim_by = SOV 
-		add_claim_by = TUR
 		add_to_array = { state_victory_points = 12320 }
 		add_to_array = { state_victory_points = 12441 }
 
@@ -21,7 +19,8 @@ state={
 			air_base = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	manpower=827523
-	state_category = urbanising_region
+	manpower=686844
+	buildings_max_level_factor=1
+	state_category=urbanising_region
+	local_supplies=0
 }

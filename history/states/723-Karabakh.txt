@@ -1,25 +1,23 @@
-
 state={
 	id=723
 	name="STATE_723"
 	provinces={
-		1467 1539 4660 6642 6997 11708 13418 
+		1467 4660 6642 
 	}
 	history = {
-		owner = AZR
-		add_core_of = AZR
+		owner = ARM
 		add_core_of = ARM
-		add_claim_by = SOV
-		add_to_array = { state_victory_points = 6997 }
+		add_claim_by = AZR
+		add_to_array = { state_victory_points = 1467 }
 
-		victory_points = { 6997 2 }
+		victory_points = { 1467 2 } #Khankendi
 
 		buildings = {
 			infrastructure = 1
 		}
 	}
-	buildings_max_level_factor=1.000
-	local_supplies=0.000
-	manpower=744000
-	state_category = undeveloped_rural_region
+	manpower=639840
+	buildings_max_level_factor=1
+	state_category=undeveloped_rural_region
+	local_supplies=0
 }

@@ -1,0 +1,26 @@
+state={
+	id=1196
+	name="STATE_1196"
+	provinces={
+		1539 1610 4477 11645 11674 11704 
+	}
+	history = {
+		owner = AZR
+		add_core_of = AZR
+		add_to_array = { state_victory_points = 7661 }
+		add_to_array = { state_victory_points = 11674 }
+		add_to_array = { state_victory_points = 4473 }
+
+		victory_points = { 11674 3 }
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=985495
+	buildings_max_level_factor=1
+	state_category=developing_rural_region
+	local_supplies=0
+}
