@@ -30,14 +30,6 @@ if = {
 	}
 }
 
-SOV = {
-	set_autonomy = {
-		target = PREV
-		autonomous_state = associated_government
-	}
-	remove_from_faction = PREV
-}
-
 set_politics = {	
 	ruling_party = despotism
 	last_election = "1933.3.5"

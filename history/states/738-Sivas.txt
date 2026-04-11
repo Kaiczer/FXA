@@ -8,10 +8,8 @@ state={
 		owner = TUR
 		add_core_of = TUR
 		add_to_array = { state_victory_points = 3903 }
-		add_to_array = { state_victory_points = 7620 }
 
 		victory_points = { 3903 3 } #Sivas
-		victory_points = { 7620 3 } #Malatya
 
 		buildings = {
 			infrastructure = 1

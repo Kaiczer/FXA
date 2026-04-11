@@ -8,7 +8,10 @@ state={
 		owner = AZR
 		add_core_of = AZR
 		add_claim_by = ARM
+		add_to_array = { state_victory_points = 6997 }
 
+		victory_points = { 6997 2 } #Nakhchivan
+		
 		buildings = {
 			infrastructure = 1
 		}

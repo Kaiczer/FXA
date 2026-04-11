@@ -9,7 +9,10 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		add_to_array = { state_victory_points = 11668 }
+		add_to_array = { state_victory_points = 3698 }
+		add_to_array = { state_victory_points = 3720 }
 
+		victory_points = { 3698 2 }
 		victory_points = { 11668 3 } #Novorossiysk
 		victory_points = { 3720 1 } #Maykop
 

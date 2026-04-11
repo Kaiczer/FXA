@@ -2,20 +2,23 @@ state={
 	id=1198
 	name="STATE_1198"
 	provinces={
-		1539 11708 13418 
+		11708 13418 
 	}
 	history = {
 		owner = AZR
 		add_core_of = AZR
 		add_claim_by = AZR
 		add_claim_by = ARM
+		add_to_array = { state_victory_points = 11708 }
 
+		victory_points = { 11708 2 } #Ijevan
+		
 		buildings = {
 			infrastructure = 2
 		}
 	}
 	manpower=250177
 	buildings_max_level_factor=1
-	state_category = undeveloped_rural_region
+	state_category=undeveloped_rural_region
 	local_supplies=0
 }

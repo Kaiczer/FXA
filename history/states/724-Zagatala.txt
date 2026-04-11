@@ -6,9 +6,11 @@ state={
 	}
 	history = {
 		owner = GEO
-		add_core_of = GEO
+		add_claim_by = GEO
 		add_core_of = AZR
-		add_claim_by = SOV
+		add_to_array = { state_victory_points = 6763 }
+
+		victory_points = { 6763 2 } #Zagatala
 
 		buildings = {
 			infrastructure = 1
