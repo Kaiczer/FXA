@@ -18,497 +18,280 @@ state_groups = {
 	###		region = 26 #Bulgaria
 	###	}
 	balkan_peninsula = {
-		4 #Lower Austria
-		9 #Prague
-		39 #South Tyrol
-		43 #Central Hungary
-		44 #Toskeria
-		45 #Vojvodina
-		46 #Muntenia
-		47 #Central Greece
-		48 #Sofia
-		69 #Liberec
-		70 #Slovakia
-		71 #Danubian Plain
-		73 #Transcarpathia
-		74 #Czech Silesia
-		75 #Moravia
-		76 #Cluj
-		77 #Silistria
-		78 #Bessarabia
-		79 #Moldavia
-		80 #Cernauti
-		81 #Oltenia
-		82 #Banat
-		83 #Partium
-		84 #Brasov
-		102 #Carniola
-		103 #Rijeka
-		104 #Bosnia
-		105 #Montenegro
-		106 #Macedonia
-		107 #Belgrade
-		108 #Kraljevo
-		109 #Central Croatia
-		152 #Upper Austria
-		153 #North Tyrol
-		154 #AlfÃ¶ld
-		155 #Transdanubia
-		163 #Dalmatia
-		184 #Komotini
-		185 #Epirus
-		186 #Peloponnese
-		211 #Burgas
-		212 #Plovdiv
-		341 #Adrianople
-		664 #Miskolc
-		713 #Suceava
-		731 #Florina
-		758 #Ionian Islands
-		765 #Kosovo
-		766 #Northern Epirus
-		767 #Nish
-		768 #Thessaly
-		769 #Serres
-		770 #Pleven
-		771 #Varna
-		772 #Constantza
-		773 #Constantinople
-		775 #Styria
-		784 #Burgenland
-		786 #Budejovice
-		789 #Szeklerland
-		794 #Syrmia
-		835 #Carinthia
-		836 #Salzburg
-		841 #Kotor
-		875 #West Banat
-		924 #Tesin
-		942 #Vorarlberg
-		989 #Chalcidice
-		990 #Vidin
-		1053 #Ghegeria
-		1076 #Veria
-		1089 #Kardzhali
-		1090 #Pressburg
-		1107 #Karavanks
-		1109 #Mura
-	}
-
-	###	OR = {
-	###		#Balkans
-	###		region = 15 #Romania
-	###		region = 24 #Central Balkans
-	###		region = 25 #Greece
-	###		region = 26 #Bulgaria
-	###		region = 27 #Hungary
-	###		region = 143 #Illyria
-	###		region = 144 #Transylvania
-	###
-	###		#Eastern Europe
-	###		region = 13 #Finland
-	###		region = 37 #Baltic States
-	###		region = 39 #Belarus
-	###		region = 38 #Poland
-	###		region = 130 #Ukraine
-	###
-	###		#Middle East
-	###		region = 129 #Anatolia
-	###		region = 134 #Transcaucasia
-	###		region = 162 #Afghanistan
-	###		region = 116 #Alborz Mountains
-	###		region = 155 #Zagros Mountains
-	###		region = 269 #Iranian Plateau
-	###		region = 252 #Kurdistan
-	###
-	###		#Central Asia
-	###		region = 136 #Kazakh Steppes
-	###		region = 253 #Transcaspia
-	###		region = 254 #Transoxiana
-	###		region = 255 #Ferghana Valley
-	###
-	###		#East Asia
-	###		region = 152 #Outer Mongolia
-	###		region = 222 #Inner Mongolia
-	###		region = 210 #Jilin
-	###		region = 218 #Fengtian
-	###		region = 219 #Heilongjiang
-	###		region = 221 #Tarim Basin
-	###		region = 265 #Dzungaria
-	###		region = 191 #Korea
-	###	}
-	russian_ambitions = {
-		5 #East Prussia
-		10 #Warsaw
-		11 #Kaunas
-		12 #Livonia
-		13 #Estonia
-		43 #Central Hungary
-		44 #Toskeria
-		45 #Vojvodina
-		46 #Muntenia
-		47 #Central Greece
-		48 #Sofia
-		49 #Ankara
-		67 #Upper Silesia
-		70 #Slovakia
-		71 #Danubian Plain
-		73 #Transcarpathia
-		76 #Cluj
-		77 #Silistria
-		78 #Bessarabia
-		79 #Moldavia
-		80 #Cernauti
-		81 #Oltenia
-		82 #Banat
-		83 #Partium
-		84 #Brasov
-		86 #Posen
-		87 #Kalisz
-		88 #Krakow
-		89 #Stanislawow
-		90 #Kielce
-		91 #Lwow
-		92 #Lublin
-		93 #Brest
-		94 #Volkovysk
-		95 #Pinsk
-		96 #Vilnius
-		97 #Bialystok
-		98 #Plock
-		102 #Carniola
-		103 #Rijeka
-		104 #Bosnia
-		105 #Montenegro
-		106 #Macedonia
-		107 #Belgrade
-		108 #Kraljevo
-		109 #Central Croatia
-		111 #Tavastia
-		137 #Crimea
-		146 #Karelia
-		149 #Ostrobothnia
-		154 #Alföld
-		155 #Transdanubia
-		163 #Dalmatia
-		184 #Komotini
-		185 #Epirus
-		186 #Peloponnese
-		188 #Memel
-		189 #Samogitia
-		190 #Courland
-		191 #Northern Livonia
-		192 #Odessa
-		193 #Chernyhiv
-		194 #Mozyr
-		196 #Taurida
-		197 #Kherson
-		198 #Vinnitsa
-		199 #Proskuriv
-		200 #Alexandrivsk
-		201 #Zhitomir
-		202 #Kyïv
-		203 #Cherkasy
-		204 #Novogrudok
-		206 #Minsk
-		207 #Braslav
-		211 #Burgas
-		212 #Plovdiv
-		221 #Kharkiv
-		225 #Sumy
-		226 #Katerinoslav
-		227 #Yuzivka
-		228 #Starobilsk
-		229 #Azerbaijan
-		230 #Yerevan
-		231 #Georgia
-		241 #Homel
-		259 #Poltava
-		266 #Teheran
-		267 #Kabul
-		287 #Qiemo
-		328 #Andong
-		329 #Tuva
-		330 #Urga
-		339 #Smyrna
-		340 #Bursa
-		341 #Adrianople
-		342 #Mugla
-		343 #Afyon
-		344 #Adana
-		345 #Sivas
-		346 #Konya
-		348 #Alxa
-		350 #Diyarbekir
-		352 #Van
-		354 #Erzurum
-		355 #Trebizond
-		356 #Kastamonu
-		402 #Turgay
-		404 #Karaganda
-		405 #Bukhara
-		407 #Tashkent
-		410 #Sistan
-		411 #Isfahan
-		412 #Fars
-		414 #Kerman
-		415 #Herat
-		416 #Khorasan
-		417 #Urmia
-		418 #Ashkhabad
-		419 #Tabriz
-		420 #Mazandaran
-		421 #Kermanshah
-		525 #Gyeonggi
-		527 #Yangseo
-		583 #Petropavlovsk
-		584 #Karakum
-		585 #Batum
-		586 #Kokand
-		587 #Mangyshlak
-		588 #Pavlodar
-		589 #Semireche
-		590 #Akmolinsk
-		610 #Rehe
-		612 #Xilingol
-		616 #Ordos
-		617 #Dihua
-		618 #Dzungaria
-		619 #Kashgar
-		621 #Guisui
-		655 #Sudovia
-		664 #Miskolc
-		712 #Kyzylkum
-		713 #Suceava
-		714 #Qiqihar
-		715 #Liaobei
-		716 #Liaoning
-		717 #Hejiang
-		731 #Florina
-		732 #Samarkand
-		745 #Dalian
-		758 #Ionian Islands
-		765 #Kosovo
-		766 #Northern Epirus
-		767 #Nish
-		768 #Thessaly
-		769 #Serres
-		770 #Pleven
-		771 #Varna
-		772 #Constantza
-		773 #Constantinople
-		776 #West Prussia
-		777 #Masuria
-		789 #Szeklerland
-		791 #Starodub
-		792 #Volhynia
-		794 #Syrmia
-		804 #Pamir
-		810 #Alash-Kala
-		819 #Sulaymaniyah
-		821 #Pavlograd
-		840 #Nyland
-		841 #Kotor
-		842 #Riga
-		861 #Khorezm
-		863 #Finland Proper
-		864 #Savo
-		875 #West Banat
-		880 #Latgale
-		883 #Aigun
-		884 #Hulunbuir
-		885 #Songjiang
-		886 #Jilin
-		897 #Aksai Chin
-		989 #Chalcidice
-		990 #Vidin
-		997 #Polesia
-		998 #Karabagh
-		1000 #Kars
-		1001 #Lazistan
-		1042 #Badakhshan
-		1053 #Ghegeria
-		1076 #Veria
-		1080 #Abkhazia
-		1083 #Kumul
-		1084 #Uliastai
-		1085 #Taklamakan Desert
-		1087 #Mohilev
-		1088 #Chelm
-		1089 #Kardzhali
-		1090 #Pressburg
-		1099 #Samnam
-		1100 #Gwanbuk
-		1109 #Mura
-		1114 #Gobi Desert
-		1115 #Mörön
-		1116 #Bayan Tümen
-		1117 #Kandahar
-		1118 #Qataghan
+		# Austria
+		9
+		139
+		142
+		143
+		144
+		145
+		146
+		147
+		148
+		# Hungary
+		20
+		158
+		159
+		194
+		195
+		# Yugoslavia
+		21
+		149
+		150
+		151
+		152
+		153
+		154
+		155
+		156
+		157
+		160
+		161
+		162
+		177
+		178
+		179
+		180
+		191
+		192
+		193
+		# Romania
+		23
+		187
+		188
+		189
+		190
+		199
+		200
+		201
+		202
+		203
+		204
+		205
+		317
+		# Bulgaria
+		182
+		181
+		183
+		184
+		185
+		186
+		# Albania
+		163
+		164
+		165
+		# Greece
+		22
+		166
+		167
+		168
+		170
+		171
+		172
+		173
+		174
+		175
+		# Straits Commission / European Territory
+		32
+		176
 	}
 
 	### is_on_continent = india
 	indian_states = {
-		281 #Maldives
-		320 #Madras
-		321 #Goa
-		323 #Nepal
-		324 #Bhutan
-		422 #Colombo
-		423 #Madura
-		424 #Andhra
-		425 #Mysore
-		426 #Orissa
-		427 #Hyderabad
-		428 #Gujarat
-		429 #Bombay
-		430 #East Bengal
-		431 #West Bengal
-		432 #Assam
-		433 #Rajputana
-		434 #Manipur
-		435 #Bihar
-		436 #Raipur
-		437 #Central Provinces
-		438 #Oudh
-		439 #Delhi
-		440 #East Punjab
-		441 #Kashmir
-		442 #Peshawar
-		443 #Sind
-		445 #Quetta
-		710 #Diego Garcia
-		733 #Andaman & Nicobar
-		814 #Uttaranchal
-		815 #Patiala
-		818 #Pondicherry
-		839 #Aravali
-		858 #Tawang
-		867 #Travancore
-		868 #Kolhapur
-		887 #Darjeeling
-		888 #Sikkim
-		889 #Vizagapatnam
-		890 #Simla
-		891 #West Punjab
-		893 #Berar
-		897 #Aksai Chin
-		936 #Gwalior
-		966 #Chhattisgarh
-		1034 #Malabar Coast
-		1057 #Jubbulpore
-		1119 #Trincomalee
+		# Burma
+		613
+		598
+		614
+		615
+		616
+		617
+		618
+		619
+		# India
+		670
+		578
+		579
+		586
+		587
+		661
+		662
+		663
+		664
+		665
+		666
+		667
+		668
+		669
+		671
+		672
+		673
+		674
+		675
+		676
+		677
+		678
+		679
+		680
+		681
+		682
+		683
+		684
+		685
+		686
+		687
+		688
+		689
+		690
+		691
+		692
+		693
+		694
+		695
+		696
+		697
+		698
+		699
+		700
+		701
+		# Seas States
+		702
+		703
+		938
+		939
 	}
 
 	###	region = 37 #Baltic States
 	baltic_states = {
-		11 #Kaunas
-		12 #Livonia
-		13 #Estonia
-		96 #Vilnius
-		188 #Memel
-		189 #Samogitia
-		190 #Courland
-		191 #Northern Livonia
-		655 #Sudovia
-		842 #Riga
-		880 #Latgale
+		# Estonia
+		29
+		222
+		223
+		# Latvia
+		24
+		224
+		225
+		226
+		227
+		# Lithuania
+		25
+		228
+		229
+		230
+		231
 	}
 
 	### is_core_china = yes
 	chinese_states = {
-		283 #Lanzhou
-		325 #Kunming
-		326 #Hong Kong
-		328 #Andong
-		348 #Alxa
-		353 #Yushu
-		591 #Qiongya
-		592 #Guangzhou
-		593 #Qingyuan
-		594 #Nanning
-		595 #Nanping
-		596 #Hangzhou
-		597 #Jinan
-		598 #Yancheng
-		599 #Guilin
-		600 #Ganzhou
-		601 #Xikang
-		602 #Changsha
-		603 #Zunyi
-		604 #Babao
-		605 #Chengdu
-		606 #Anqing
-		607 #Luoyang
-		608 #Beijing
-		609 #Tianjin
-		610 #Rehe
-		611 #Zhangyuan
-		612 #Xilingol
-		613 #Nanjing
-		614 #Tangshan
-		615 #Datong
-		616 #Ordos
-		620 #Xiangyang
-		621 #Guisui
-		622 #Yulin
-		650 #Chongqing
-		661 #Daxian
-		714 #Qiqihar
-		715 #Liaobei
-		716 #Liaoning
-		717 #Hejiang
-		728 #Guangzhouwan
-		729 #Macao
-		743 #Shanghai
-		744 #Qingdao
-		745 #Dalian
-		746 #Ningbo
-		747 #Fuzhou
-		774 #Hexi Corridor
-		788 #Aba
-		799 #Guanzhong
-		800 #Shaoguan
-		801 #Shantou
-		802 #Xiamen
-		803 #Wenzhou
-		816 #Dali
-		883 #Aigun
-		884 #Hulunbuir
-		885 #Songjiang
-		886 #Jilin
-		996 #Barga
-		1012 #Huiyang
-		1013 #Changde
-		1014 #Wuhu
-		1015 #Ya'an
-		1044 #Nanchang
-		1045 #Xining
-		1046 #Longyan
-		1047 #Xuzhou
-		1048 #Wuhan
-		1049 #Shihe
-		1050 #Bengbu
-		1051 #Guiyang
-		1052 #Kaili
-		1054 #Tiannan
-		1055 #Liuzhou
-		1056 #Beihai
-		1058 #Xinyang
-		1059 #Kaifeng
-		1060 #Hebi
-		1061 #Shimen
-		1062 #Baoding
-		1063 #Dezhou
-		1064 #Linyi
-		1065 #Weixian
-		1066 #Qanzhou
-		1067 #Jinhua
-		1068 #Qinhuangdao
-		1069 #Lishui
-		1072 #Taiyuan
-		1075 #Nantong
-		1120 #Yinchuan
+		# Beijing Government
+		479
+		474
+		477
+		478
+		480
+		481
+		483
+		484
+		485
+		486
+		487
+		488
+		489
+		490
+		491
+		492
+		493
+		494
+		495
+		496
+		497
+		498
+		499
+		500
+		501
+		502
+		503
+		505
+		506
+		507
+		509
+		510
+		514
+		515
+		523
+		525
+		# Nanjing Government
+		518
+		508
+		511
+		519
+		520
+		521
+		522
+		527
+		528
+		529
+		530
+		531
+		532
+		533
+		534
+		535
+		536
+		537
+		538
+		539
+		542
+		543
+		544
+		545
+		546
+		547
+		548
+		549
+		550
+		551
+		552
+		553
+		554
+		555
+		556
+		557
+		558
+		559
+		560
+		561
+		562
+		563
+		# Xikang Clique
+		564
+		# Shanxi
+		513
+		504
+		512
+		516
+		517
+		526
+		1189
+		1190
+		1191
+		# Ma Cliques
+		482
+		565
+		566
+		567
+		1187
+		868
+		568
+		569
+		570
+		# Xinjiang
+		573
+		571
+		573
+		574
+		576
+		576
+		577
 	}
 
 	###	OR = {

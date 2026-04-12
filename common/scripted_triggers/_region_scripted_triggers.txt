@@ -418,6 +418,15 @@ is_macedonia = {
 	state = 177
 }
 
+is_greater_macedonia = {
+	OR = {
+		is_macedonia = yes
+		state = 173
+		state = 174
+		state = 181
+	}
+}
+
 is_albania = {
 	OR = {
 		state = 163 #Albania

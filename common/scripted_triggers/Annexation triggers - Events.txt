@@ -873,3 +873,19 @@ annexations_can_release_germany = {
 	is_german_unifier_tag = no
 	is_subject = no
 }
+
+annexations_can_release_yugoslavia = {
+	NOT = { is_ally_with = event_target:yugoslavia }
+	NOT = {
+		any_country_with_original_tag = {
+			original_tag_to_check = YUG
+			exists = yes
+		}
+	}
+	has_country_flag = is_potential_unifier_YUG
+	is_subject = no
+	any_owned_state = {
+		is_yugoslavia = yes
+		is_allowed_annexation_state_for_owner = yes
+	}
+}
