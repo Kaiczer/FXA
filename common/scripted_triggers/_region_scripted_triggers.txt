@@ -50,20 +50,11 @@ is_ireland = {
 }
 
 is_france = {
-	has_state_flag = is_mainland_france_state
-}
-
-is_european_italy = {
 	OR = {
-		region = 23 #Italy
-		state = 2 #Sardinia
-		AND = {
-			region = 181 #Po Valley
-			NOT = { state = 139 } #Trentino
-			NOT = { state = 149 } #Trieste
-			NOT = { state = 150 } #Gorizia
-			NOT = { state = 151 } #Istria
-		}
+		state = 1 #Coscica
+		region = 19 #Northern France
+		region = 20 #Southern France
+		region = 164 #Western France
 	}
 }
 

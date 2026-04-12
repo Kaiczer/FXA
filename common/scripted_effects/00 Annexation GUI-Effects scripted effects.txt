@@ -617,7 +617,7 @@ annexations_reset_italian_tags = {
 annexation_release_italy = {
 	every_state = {
 		limit = {
-			is_european_italy = yes
+			is_italy = yes
 		}
 		if = {
 			limit = { is_owned_by = ROOT }
@@ -645,7 +645,7 @@ annexations_give_italy_to_target = {
 		set_temp_variable = { tag_to_release = event_target:italy }
 		every_owned_state = {
 			limit = {
-				is_european_italy = yes
+				is_italy = yes
 				# is_italian_irredentist_claim = no
 				is_allowed_annexation_state = yes
 			}
@@ -859,5 +859,31 @@ annexations_reset_yugoslav_tags = {
 			remove_claim_by = MAC
 		}
 		MAC = { drop_cosmetic_tag = yes }
+	}
+}
+
+annexations_merge_yugoslav_subjects = {
+	if = {
+		limit = { 
+			var:tag_to_release = {
+				tag = YUG
+				is_subject_of = ROOT
+				exists = yes
+			}
+		}
+		YUG = {
+			every_country = {
+				limit = { 
+					is_yugoslavian_tag = yes
+					is_subject_of = ROOT
+				}
+				PREV = {
+					annex_country = {
+						target = PREV
+						transfer_troops = yes
+					}
+				}
+			}
+		}
 	}
 }
