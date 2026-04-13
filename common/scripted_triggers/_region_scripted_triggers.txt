@@ -447,11 +447,33 @@ is_greece = {
 }
 
 is_romania = {
-	region = 15 #Romania
+	OR = {
+		is_moldova = yes
+		is_wallachia = yes
+	}
 }
 
 is_transylvania = {
 	region = 144 #Transylvania
+}
+
+is_moldova = {
+	OR = {
+		state = 202
+		state = 203
+		state = 204
+		state = 205
+		state = 317
+	}
+}
+
+is_wallachia = {
+	OR = {
+		state = 23
+		state = 187
+		state = 188
+		state = 189
+	}
 }
 
 is_denmark = {

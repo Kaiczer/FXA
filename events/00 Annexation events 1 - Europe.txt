@@ -234,7 +234,7 @@ country_event = { # Fate of Great Britain
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Scotland
+country_event = { # Fate of Scotland
 	id = annex.11002
 	title = annexation_scotland
 	desc = annexation_scotland_desc
@@ -423,7 +423,7 @@ country_event = { #Fate of Scotland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Wales
+country_event = { # Fate of Wales
 	id = annex.11003
 	title = annexation_wales
 	desc = annexation_wales_desc
@@ -600,7 +600,7 @@ country_event = { #Fate of Wales
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Northern Ireland
+country_event = { # Fate of Northern Ireland
 	id = annex.11004
 	title = annexation_northern_ireland
 	desc = annexation_northern_ireland_desc
@@ -724,7 +724,7 @@ country_event = { #Fate of Northern Ireland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Ireland
+country_event = { # Fate of Ireland
 	id = annex.11005
 	title = annexation_ireland
 	desc = annexation_ireland_desc
@@ -810,7 +810,7 @@ country_event = { #Fate of Ireland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of France
+country_event = { # Fate of France
 	id = annex.11006
 	title = annexation_france
 	desc = annexation_france_desc
@@ -983,7 +983,7 @@ country_event = { #Fate of France
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Brittany
+country_event = { # Fate of Brittany
 	id = annex.11007
 	title = annexation_brittany
 	desc = annexation_brittany_desc
@@ -1072,7 +1072,7 @@ country_event = { #Fate of Brittany
 	}
 }
 
-country_event = { #Fate of Calais
+country_event = { # Fate of Calais
 	id = annex.11008
 	title = annexation_calais
 	desc = annexation_calais_desc
@@ -1203,7 +1203,7 @@ country_event = { #Fate of Calais
 	}	
 }
 
-country_event = { #Fate of Alsace-Lorraine
+country_event = { # Fate of Alsace-Lorraine
 	id = annex.11009
 	title = annexation_alsace_lorraine
 	desc = annexation_alsace_lorraine_desc
@@ -1421,7 +1421,7 @@ country_event = { #Fate of Alsace-Lorraine
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Savoy 
+country_event = { # Fate of Savoy 
 	id = annex.11010
 	title = annexation_savoy
 	desc = annexation_savoy_desc
@@ -1559,7 +1559,7 @@ country_event = { #Fate of Savoy
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Nice
+country_event = { # Fate of Nice
 	id = annex.11011
 	title = annexation_nice
 	desc = annexation_nice_desc
@@ -1713,7 +1713,7 @@ country_event = { #Fate of Nice
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Roussillon
+country_event = { # Fate of Roussillon
 	id = annex.11012
 	title = annexation_roussillon
 	desc = annexation_roussillon_desc
@@ -1920,7 +1920,7 @@ country_event = { #Fate of Roussillon
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Basses-Pyrenees
+country_event = { # Fate of Basses-Pyrenees
 	id = annex.11013
 	title = annexation_basses_pyrenees
 	desc = annexation_basses_pyrenees_desc
@@ -2228,7 +2228,7 @@ country_event = { #Fate of Basses-Pyrenees
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Corsica
+country_event = { # Fate of Corsica
 	id = annex.11014
 	title = annexation_corsica
 	desc = annexation_corsica_desc
@@ -2611,7 +2611,7 @@ country_event = { #Fate of Corsica
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Spain
+country_event = { # Fate of Spain
 	id = annex.11015
 	title = annexation_spain
 	desc = annexation_spain_desc
@@ -2675,7 +2675,7 @@ country_event = { #Fate of Spain
 	}
 }
 
-country_event = { #Fate of Catalonia
+country_event = { # Fate of Catalonia
 	id = annex.11016
 	title = annexation_catalonia
 	desc = annexation_catalonia_desc
@@ -2786,7 +2786,7 @@ country_event = { #Fate of Catalonia
 	}
 }
 
-country_event = { #Fate of Euskadi
+country_event = { # Fate of Euskadi
 	id = annex.11017
 	title = annexation_euskadi
 	desc = annexation_euskadi_desc
@@ -2898,7 +2898,7 @@ country_event = { #Fate of Euskadi
 	}
 }
 
-country_event = { #Fate of Galicia
+country_event = { # Fate of Galicia
 	id = annex.11018
 	title = annexation_galicia
 	desc = annexation_galicia_desc
@@ -3043,7 +3043,7 @@ country_event = { #Fate of Galicia
 	}
 }
 
-country_event = { #Fate of Gibraltar
+country_event = { # Fate of Gibraltar
 	id = annex.11019
 	title = annexation_gibraltar
 	desc = annexation_gibraltar_desc
@@ -3229,7 +3229,7 @@ country_event = { #Fate of Gibraltar
 	}
 }
 
-country_event = { #Fate of Portugal
+country_event = { # Fate of Portugal
 	id = annex.11020
 	title = annexation_portugal
 	desc = annexation_portugal_desc
@@ -3396,7 +3396,7 @@ country_event = { #Fate of Portugal
 	}
 }
 
-country_event = { #Fate of the Netherlands
+country_event = { # Fate of the Netherlands
 	id = annex.11021
 	title = annexation_netherlands
 	desc = annexation_netherlands_desc
@@ -3531,7 +3531,7 @@ country_event = { #Fate of the Netherlands
 	}
 }
 
-country_event = { #Fate of Westerschelde
+country_event = { # Fate of Westerschelde
 	id = annex.11022
 	title = annexation_westerschelde
 	desc = annexation_westerschelde_desc
@@ -3663,7 +3663,7 @@ country_event = { #Fate of Westerschelde
 	}
 }
 
-country_event = { #Fate of Limburg
+country_event = { # Fate of Limburg
 	id = annex.11023
 	title = annexation_limburg
 	desc = annexation_limburg_desc
@@ -3873,7 +3873,7 @@ country_event = { #Fate of Limburg
 	}
 }
 
-country_event = { #Fate of Luxembourg
+country_event = { # Fate of Luxembourg
 	id = annex.11024
 	title = annexation_luxembourg
 	desc = annexation_luxembourg_desc
@@ -4183,7 +4183,7 @@ country_event = { #Fate of Luxembourg
 	}
 }
 
-country_event = { #Fate of Flanders 
+country_event = { # Fate of Flanders 
 	id = annex.11025
 	title = annexation_flanders
 	desc = annexation_flanders_desc
@@ -4447,7 +4447,7 @@ country_event = { #Fate of Flanders
 	}
 }
 
-country_event = { #Fate of Wallonia
+country_event = { # Fate of Wallonia
 	id = annex.11026
 	title = annexation_wallonia
 	desc = annexation_wallonia_desc
@@ -4674,7 +4674,7 @@ country_event = { #Fate of Wallonia
 	}
 }
 
-country_event = { #Fate of Eupen
+country_event = { # Fate of Eupen
 	id = annex.11027
 	title = annexation_eupen
 	desc = annexation_eupen_desc
@@ -13009,9 +13009,7 @@ country_event = { # Fate of Northern Caucasus
 					limit = { is_northern_caucasus = yes }
 					add_core_of = DAG
 				}
-				else = {
-					remove_core_of = DAG
-				}
+				else = { remove_core_of = DAG }
 				remove_claim_by = DAG
 			}
 			if = {
@@ -14628,10 +14626,8 @@ country_event = { # Fate of Serbia
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_serbia = yes }
-			transfer_state_and_notify = yes
-		}
+		SER = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -14767,10 +14763,8 @@ country_event = { # Fate of Croatia
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_croatia = yes }
-			transfer_state_and_notify = yes
-		}
+		CRO = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -14904,10 +14898,8 @@ country_event = { # Fate of Bosnia
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_bosnia = yes }
-			transfer_state_and_notify = yes
-		}
+		BOS = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -15041,10 +15033,8 @@ country_event = { # Fate of Slovenia
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_slovenia = yes }
-			transfer_state_and_notify = yes
-		}
+		SLV = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -15178,10 +15168,8 @@ country_event = { # Fate of Montenegro
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_montenegro = yes }
-			transfer_state_and_notify = yes
-		}
+		MNE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -15319,10 +15307,8 @@ country_event = { # Fate of Macedonia
 			}
 		}
 		set_temp_variable = { tag_to_release = event_target:yugoslavia }
-		every_state = {
-			limit = { is_macedonia = yes }
-			transfer_state_and_notify = yes
-		}
+		MAC = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #give to overlord
@@ -15378,8 +15364,8 @@ country_event = { # Fate of Albania
 				}
 				else = {
 					remove_core_of = ALB
-					remove_claim_by = ALB
 				}
+				remove_claim_by = ALB
 			}
 			if = {
 				limit = { tag = GRE }
@@ -15409,10 +15395,8 @@ country_event = { # Fate of Albania
 			annexations_should_give_lands_to_overlord = yes
 		}
 		set_temp_variable = { tag_to_release = overlord }
-		every_owned_state = {
-			limit = { is_albania = yes }
-			transfer_state_and_notify = yes
-		}
+		ALB = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #Integrate
@@ -15453,10 +15437,8 @@ country_event = { # Fate of Greece
 					limit = { is_greece = yes }
 					add_core_of = GRE
 				}
-				else = {
-					remove_core_of = GRE
-					remove_claim_by = GRE
-				}
+				else = { remove_core_of = GRE }
+				remove_claim_by = GRE
 			}
 			32 = { retain_state = yes }
 			165 = { retain_state = yes }
@@ -15489,10 +15471,8 @@ country_event = { # Fate of Greece
 			annexations_should_give_lands_to_overlord = yes
 		}
 		set_temp_variable = { tag_to_release = overlord }
-		every_owned_state = {
-			limit = { is_greece = yes }
-			transfer_state_and_notify = yes
-		}
+		GRE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
 	}
 
 	option = { #Integrate
@@ -15518,9 +15498,166 @@ country_event = { # Fate of Greece
 	}
 }
 
-# Fate of Bulgaria
+country_event = { # Fate of Bulgaria
+	id = annex.16009
+	title = annexation_bulgaria
+	desc = annexation_bulgaria_desc
+	picture = GFX_report_event_generic_conference2
 
-# Fate of Romania
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_bulgaria = yes }
+					add_core_of = BUL
+				}
+				else = { remove_core_of = BUL }
+				remove_claim_by = BUL
+			}
+		}
+	}
+
+	option = { # Release BUL
+		log = "[GetLogInfo]: event annex.16009 option annex.16009.a"
+		name = annex.16009.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = BUL }
+		release_targeted_tag = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16009 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		BUL = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16009 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_state = {
+			limit = { is_bulgaria = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16009 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+} 
+
+country_event = { # Fate of Romania
+	id = annex.16010
+	title = annexation_romania
+	desc = annexation_romania_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_romania = yes }
+					add_core_of = ROM
+				}
+				else = { remove_core_of = ROM }
+				remove_claim_by = ROM
+			}
+			every_state = {
+				limit = { is_moldova = yes }
+				retain_state = yes
+			}
+		}
+	}
+
+	option = { # Release ROM (with Moldova)
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.a"
+		name = annex.16010.a
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		every_owned_state = { 
+			limit = { is_moldova = yes }
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { # Release ROM
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.b"
+		name = annex.16010.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		# set_cosmetic_tag = ROM_wallachia
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16010 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		ROM = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16010 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_state = {
+			limit = { is_romania = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16010 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
 
 # Fate of Transylvaria
 
