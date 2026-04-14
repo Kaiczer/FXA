@@ -551,7 +551,7 @@ annexations_reset_italian_tags = {
 	every_state = {
 		limit = {
 			has_variable = ITA_default_core_state
-			check_variable = { core_countries^num = 1 }
+			check_variable = { core_countries^num > 0 }
 		}
 		if = {
 			limit = { NOT = { country_exists = var:ITA_default_core_state } }
@@ -616,8 +616,9 @@ annexations_reset_italian_tags = {
 
 annexation_release_italy = {
 	every_state = {
-		limit = {
+		limit = { 
 			is_italy = yes
+			is_italian_irredentist_claim = no
 		}
 		if = {
 			limit = { is_owned_by = ROOT }
@@ -629,12 +630,14 @@ annexation_release_italy = {
 	}
 	release_targeted_tag = yes
 	hidden_effect = {
-		for_each_scope_loop = {
-			array = global.italian_tags_array
-			if = {
-				limit = { exists = no }
-				clear_cores_of_tag_if_possible = yes
+		every_collection_element = {
+			input = {
+				input = collection:italian_countries
+				operators = {
+					limit = { exists = no }
+				}
 			}
+			clear_cores_of_tag_if_possible = yes
 		}
 	}
 }
@@ -871,17 +874,15 @@ annexations_merge_yugoslav_subjects = {
 				exists = yes
 			}
 		}
-		YUG = {
-			every_country = {
-				limit = { 
-					is_yugoslavian_tag = yes
-					is_subject_of = ROOT
-				}
-				PREV = {
-					annex_country = {
-						target = PREV
-						transfer_troops = yes
-					}
+		every_subject_country = {
+			limit = {
+				is_southern_slav_tag = yes
+				is_ai = yes
+			}
+			var:tag_to_release = {
+				annex_country = {
+					target = PREV
+					transfer_troops = yes
 				}
 			}
 		}

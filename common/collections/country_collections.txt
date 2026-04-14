@@ -167,3 +167,11 @@ allied_democratic_asian_and_pacific_countries = {
 	}
 }
 
+######################
+### COUNTRY_GROUPS ###
+######################
+
+italian_countries = {
+	input = constant:country_groups.italy
+	name = collection_italian_countries
+}

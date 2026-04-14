@@ -506,27 +506,6 @@ on_actions = {
 				set_variable = { paired_impassable = 800.id } #Tripoli
 			}
 
-			#Set up Great Britain array and flags
-			every_state = {
-				limit = { is_great_britain = yes }
-				add_to_array = { global.great_britain_states_array = THIS }
-			}
-
-			#Set up mainland France array and flags
-			every_state = {
-				limit = {
-					OR = {
-						region = 19 #Northern France
-						region = 20 #Southern France
-						region = 164 #Western France
-					}
-				}
-				add_to_array = { global.france_states_array = THIS }
-			}
-			for_each_scope_loop = {
-				array = global.france_states_array
-				set_state_flag = is_mainland_france_state
-			}
 		}
 	}
 }

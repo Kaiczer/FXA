@@ -628,7 +628,6 @@ can_release_150 = {
 	ROOT = {
 		should_release_austria_first = yes
 		should_release_slovenia_first = yes
-		149 = { annexations_state_has_valid_annexation = no } #Trieste
 	}
 }
 
@@ -660,6 +659,7 @@ can_release_149 = {
 		should_release_austria_first = yes
 		should_release_slovenia_first = yes
 		should_release_venice_first = yes
+		150 = { annexations_state_has_valid_annexation = no }
 	}
 }
 

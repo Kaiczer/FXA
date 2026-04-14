@@ -6365,7 +6365,9 @@ country_event = { # Fate of Tuscany
 	immediate = {
 		hidden_effect = {
 			if = {
-				limit = { has_country_flag = is_potential_unifier_ITA }
+				limit = { 
+					is_italian_tag = yes	
+				}
 				save_event_target_as = can_annex
 			}
 			if = {
@@ -14521,9 +14523,9 @@ country_event = { # Fate of Crimea
 	}
 }
 
-###################
-### B A L K A N ###
-###################
+############################################
+### S O U T H E A S T E R N  E U R O P E ###
+############################################
 
 country_event = { # Fate of Serbia
 	id = annex.16001
@@ -14547,7 +14549,7 @@ country_event = { # Fate of Serbia
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {
@@ -14685,7 +14687,7 @@ country_event = { # Fate of Croatia
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {
@@ -14822,7 +14824,7 @@ country_event = { # Fate of Bosnia
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {
@@ -14957,7 +14959,7 @@ country_event = { # Fate of Slovenia
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {
@@ -15092,7 +15094,7 @@ country_event = { # Fate of Montenegro
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {
@@ -15227,7 +15229,7 @@ country_event = { # Fate of Macedonia
 			}
 			if = {
 				limit = { 
-					is_yugoslavian_tag = no
+					is_southern_slav_tag = no
 					is_subject = no
 				}
 				random_other_country = {

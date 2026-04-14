@@ -1,0 +1,14 @@
+is_italian_irredentist_claim = {
+	OR = {
+		state = 1
+		state = 94
+		state = 95
+		state = 141
+		state = 149
+		state = 150
+		state = 151
+		state = 155
+		state = 157
+		state = 164
+	}
+}

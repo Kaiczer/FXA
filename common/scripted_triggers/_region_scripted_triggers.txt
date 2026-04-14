@@ -798,10 +798,6 @@ is_pacific_islands = {
 	}
 }
 
-is_mainland_america = {
-	has_state_flag = USA_mainland_state
-}
-
 is_new_england = {
 	region = 186 #New England
 	NOT = { state = 995 } #New York City
