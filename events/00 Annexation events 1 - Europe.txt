@@ -13,7 +13,6 @@
 # 14xxx = Northern Europe
 # 15xxx = Eastern Europe (+ Baltic)
 # 16xxx = Southern Europe (Balkan)
-# 17xxx = Southeastern Europe (Caucasus)
 ############################
 
 add_namespace = annex
@@ -2727,8 +2726,7 @@ country_event = { # Fate of Catalonia
 		set_temp_variable = { tag_to_release = event_target:spain }
 		98 = { transfer_if_owned = yes } #Valencia
 		97 = { transfer_if_owned = yes } #Balearic Islands
-		# custom_effect_tooltip = tooltip_white_line
-
+		custom_effect_tooltip = tooltip_white_line
 		set_temp_variable = { tag_to_release = CTL }
 		release_targeted_tag = yes
 	}
@@ -14563,7 +14561,6 @@ country_event = { # Fate of Serbia
 				}
 			}
 			178 = { retain_state = yes } #Kosovo
-			180 = { retain_state = yes } #Pirot
 			191 = { retain_state = yes } #West Banat
 			193 = { retain_state = yes } #Bachka
 		}
@@ -15586,17 +15583,47 @@ country_event = { # Fate of Romania
 				remove_claim_by = ROM
 			}
 			every_state = {
-				limit = { is_moldova = yes }
+				limit = { 
+					OR = {
+						is_moldova = yes
+						is_transylvania = yes
+						state = 187
+						state = 188
+					}
+				}
 				retain_state = yes
 			}
 		}
 	}
 
-	option = { # Release ROM (with Moldova)
+	option = { # Release ROM (with Moldova+Transylvania)
 		log = "[GetLogInfo]: event annex.16010 option annex.16010.a"
 		name = annex.16010.a
 		ai_chance = {
-			base = 70
+			base = 60
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		every_owned_state = { 
+			limit = { 
+				OR = {
+					is_moldova = yes
+					is_transylvania = yes
+				}
+			}
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { # Release ROM (with Moldova)
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.b"
+		name = annex.16010.b
+		ai_chance = {
+			base = 25
 			modifier = {
 				factor = 0
 				annexations_can_annex = yes
@@ -15611,10 +15638,10 @@ country_event = { # Fate of Romania
 	}
 
 	option = { # Release ROM
-		log = "[GetLogInfo]: event annex.16010 option annex.16010.b"
-		name = annex.16010.b
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.c"
+		name = annex.16010.c
 		ai_chance = {
-			base = 30
+			base = 15
 			modifier = {
 				factor = 0
 				annexations_can_annex = yes
@@ -15659,10 +15686,328 @@ country_event = { # Fate of Romania
 	}
 }
 
-# Fate of Transylvaria
+country_event = { # Fate of Transylvania
+	id = annex.16011
+	title = annexation_transylvania
+	desc = annexation_transylvania_desc
+	picture = GFX_report_event_generic_conference2
 
-# Fate of Moldova
+	is_triggered_only = yes
 
-#######################
-### C A U C A S U S ###
-#######################
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = { 
+					limit = { is_transylvania = yes }
+					add_core_of = TRA
+				}
+				else = { remove_core_of = TRA }
+				remove_claim_by = TRA
+			}
+			if = {
+				limit = { 
+					OR = {
+						23 = { is_claim_or_core_of_ROOT = yes }
+						195 = { is_claim_or_core_of_ROOT = yes }
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					23 = { #Muntenia
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
+				}
+				var:23.owner = { save_event_target_as = romania }
+			}
+			if = {
+				limit = {
+					195 = { #Alfold
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { 
+							ROOT_can_grant_land = yes
+							NOT = { tag = event_target:romania }
+						}
+					}
+				}
+				var:195.owner = { save_event_target_as = hungary }
+			}
+			190 = { retain_state = yes } #Banat
+		}
+	}
+
+	option = { # Release TRA
+		log = "[GetLogInfo]: event annex.16011 option annex.16011.a"
+		name = annex.16011.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = TRA }
+		release_targeted_tag = yes
+	}
+
+	option = { #Split with Hungary/Romania
+		log = "[GetLogInfo]: event annex.16011 option annex.16011.a"
+		name = annex.16011.b
+		trigger = {
+			has_event_target = romania
+			has_event_target = hungary
+			OR = {
+				199 = { is_valid_annexation_state = yes }
+				200 = { is_valid_annexation_state = yes }
+				201 = { is_valid_annexation_state = yes }
+			}
+		}
+		ai_chance = { base = 0 }
+		set_temp_variable = { tag_to_release = event_target:romania }
+		201 = { transfer_state_and_notify = yes } #South Transylvania
+		custom_effect_tooltip = tooltip_white_line
+		set_temp_variable = { tag_to_release = event_target:hungary }
+		199 = { transfer_state_and_notify = yes }
+		200 = { transfer_if_owned = yes }
+	}
+
+	option = { #Give to Romania
+		log = "[GetLogInfo]: event annex.16011 option annex.europe.give_to_romania"
+		name = annex.europe.give_to_romania
+		trigger = {
+			has_event_target = romania
+		}
+		ai_chance = { 
+			base = 60
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0.1
+				is_ally_with = event_target:romania
+				NOT = { is_ally_with = event_target:hungary }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:romania }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Give to Hungary
+		log = "[GetLogInfo]: event annex.16011 option annex.europe.give_to_hungary"
+		name = annex.europe.give_to_hungary
+		trigger = {
+			has_event_target = hungary
+		}
+		ai_chance = { 
+			base = 10
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 5
+				is_ally_with = event_target:hungary
+				NOT = { is_ally_with = event_target:romania }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:hungary }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16011 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16011 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		if = {
+			limit = { 
+				23 = { is_claim_or_core_of_ROOT = yes }
+			}
+			every_owned_state = {
+				limit = { is_transylvania = yes }
+				remove_claim_and_add_core_of_ROOT = yes
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = { is_transylvania = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16011 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Moldova
+	id = annex.16012
+	title = annexation_moldova
+	desc = annexation_moldova_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_moldova = yes }
+					add_core_of = MOL
+				}
+				else = { remove_core_of = MOL }
+				remove_claim_by = MOL
+			}
+			if = {
+				limit = {
+					23 = { is_claim_or_core_of_ROOT = yes }
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					23 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = {
+							ROOT_can_grant_land = yes
+						}
+					}
+				}
+				var:23.owner = { save_event_target_as = romania }
+			}
+			205 = { retain_state = yes }
+		}
+	}
+
+	option = { # Release MOL
+		log = "[GetLogInfo]: event annex.16012 option annex.16012.a"
+		name = annex.16012.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = MOL }
+		release_targeted_tag = yes
+	}
+
+	option = { #Split with Romania/Ukraine
+		log = "[GetLogInfo]: event annex.16012 option annex.16012.b"
+		name = annex.16012.b
+		trigger = {
+			has_event_target = romania
+			var:28.owner = {
+				owns_state = 245 
+				245 = { is_claim_or_core_of_PREV = yes }
+				is_subject = no
+			}
+			205 = { is_valid_annexation_state = yes }
+		}
+		ai_chance = { base = 0 }
+		set_temp_variable = { tag_to_release = var:28.owner }
+		205 = { clear_retain_state = yes }
+		205 = { transfer_if_owned = yes } #South Transylvania
+		custom_effect_tooltip = tooltip_white_line
+		set_temp_variable = { tag_to_release = event_target:romania }
+		202 = { transfer_state_and_notify = yes }
+		203 = { transfer_state_and_notify = yes }
+		204 = { transfer_state_and_notify = yes }
+		317 = { transfer_state_and_notify = yes }
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16012 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		MOL = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16012 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		if = {
+			limit = { 
+				23 = { is_claim_or_core_of_ROOT = yes }
+			}
+			every_owned_state = {
+				limit = { is_moldova = yes }
+				remove_claim_and_add_core_of_ROOT = yes
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = { is_moldova = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16012 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+# Fate of Zara
+
+# Fate of Syrmia
+
+# Fate of Bachka
+
+# Fate of West Banat
+
+# Fate of Kosovo
+
+# Fate of Banat
+
+# Fate of Dobruja
+
+# Fate of Bessarabia
+
+# Fate of North Epirus
+
+# Fate of Constantinople
+
+# Fate of Adrianople
+
+# Fate of Aegean Macedonia (174+175)
+
+# Fate of Aegean Islands
