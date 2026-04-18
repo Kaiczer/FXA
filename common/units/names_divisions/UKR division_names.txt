@@ -1,0 +1,383 @@
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#			for example the current one is no longer available due to the can_use trigger saying so).
+#			In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#			mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#			this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names.
+#			Numbers must start from 1 and up.
+#			Numbers can't repeat in one scope.
+#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#			1st argument = The name. It must contain either:
+#						%d (for decimal number placement)
+#						%s (for string number placement - ROMAN numbers like XIV).
+#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#									where you choose the historical division name.
+#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#									the current game version.
+
+UKR_INF_01 = {
+	name = div_infantry_division
+
+	for_countries = { UKR }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_GAR_01 }
+
+	fallback_name = "%da Pikhotna Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "21a 'Zalizna' Pikhotna Dyviziia" }
+		2 = { "22a im. hetmana B. Khmelnytskoho Pikhotna Dyviziia" }
+		3 = { "23ia im. hetmana P. Polubotka Pikhotna Dyviziia" }
+		4 = { "24a im. hetmana P. Doroshenka Pikhotna Dyviziia" }
+		5 = { "25a im. hetmana D. Apostola Pikhotna Dyviziia" }
+		6 = { "26a im. koshovoho K. Hordiienka Pikhotna Dyviziia" }
+		7 = { "27a Kyivska Pikhotna Dyviziia" }
+		8 = { "28a Kyivska Pikhotna Dyviziia" }
+		9 = { "29a Kyivska Pikhotna Dyviziia" }
+		10 = { "30a Kyivska Pikhotna Dyviziia" }
+		11 = { "31a Podilska Pikhotna Dyviziia" }
+		12 = { "32a Podilska Pikhotna Dyviziia" }
+		13 = { "33ia Podilska Pikhotna Dyviziia" }
+		14 = { "34a Podilska Pikhotna Dyviziia" }
+		15 = { "35a Podilska Pikhotna Dyviziia" }
+		16 = { "36a Volynska Pikhotna Dyviziia" }
+		17 = { "37a Volynska Pikhotna Dyviziia" }
+		18 = { "38a Volynska Pikhotna Dyviziia" }
+		19 = { "39a Volynska Pikhotna Dyviziia" }
+		20 = { "40a Volynska Pikhotna Dyviziia" }
+		21 = { "41a Poltavska Pikhotna Dyviziia" }
+		22 = { "42a Poltavska Pikhotna Dyviziia" }
+		23 = { "43ia Poltavska Pikhotna Dyviziia" }
+		24 = { "44a Poltavska Pikhotna Dyviziia" }
+		25 = { "45a Poltavska Pikhotna Dyviziia" }
+	}
+}
+
+UKR_CAV_01 = {
+	name = div_cavalry_division
+
+	for_countries = { UKR }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Kinna Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "7a im. koshovoho I. Sirka Kinna Dyviziia" }
+		2 = { "8a Kinna Dyviziia 'Chorni Zaporozhtsi'" }
+		3 = { "9a Kyivska Kinna Dyviziia" }
+		4 = { "10a Kyivska Kinna Dyviziia" }
+		5 = { "11a Katerynoslavska Kinna Dyviziia" }
+		6 = { "12a Katerynoslavska Kinna Dyviziia" }
+		7 = { "13a Khersonska Kinna Dyviziia" }
+		8 = { "14a Khersonska Kinna Dyviziia" }
+		9 = { "15a Poltavska Kinna Dyviziia" }
+		10 = { "16a Poltavska Kinna Dyviziia" }
+	}
+}
+
+UKR_MOT_01 = {
+	name = div_motorised_division
+
+	for_countries = { UKR }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Motostriletska Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kyivska Motostriletska Dyviziia" }
+		2 = { "%da Kyivska Motostriletska Dyviziia" }
+		3 = { "%dia Kyivska Motostriletska Dyviziia" }
+		4 = { "%da Kyivska Motostriletska Dyviziia" }
+		5 = { "%da Katerynoslavska Motostriletska Dyviziia" }
+		6 = { "%da Katerynoslavska Motostriletska Dyviziia" }
+		7 = { "%da Katerynoslavska Motostriletska Dyviziia" }
+		8 = { "%da Katerynoslavska Motostriletska Dyviziia" }
+		9 = { "%da Katerynoslavska Motostriletska Dyviziia" }
+		10 = { "%da Kharkivska Motostriletska Dyviziia" }
+		11 = { "%da Kharkivska Motostriletska Dyviziia" }
+		12 = { "%da Kharkivska Motostriletska Dyviziia" }
+		13 = { "%da Kharkivska Motostriletska Dyviziia" }
+		14 = { "%da Kharkivska Motostriletska Dyviziia" }
+		15 = { "%da Poltavska Motostriletska Dyviziia" }
+		16 = { "%da Poltavska Motostriletska Dyviziia" }
+		17 = { "%da Poltavska Motostriletska Dyviziia" }
+		18 = { "%da Poltavska Motostriletska Dyviziia" }
+		19 = { "%da Poltavska Motostriletska Dyviziia" }
+		20 = { "%da Podilska Motostriletska Dyviziia" }
+		21 = { "%da Podilska Motostriletska Dyviziia" }
+		22 = { "%da Podilska Motostriletska Dyviziia" }
+		23 = { "%dia Podilska Motostriletska Dyviziia" }
+		24 = { "%da Podilska Motostriletska Dyviziia" }
+		25 = { "%da Podilska Motostriletska Dyviziia" }
+	}
+}
+
+UKR_ARM_01 = {
+	name = div_armoured_division
+
+	for_countries = { UKR }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Tankova Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kyivska Tankova Dyviziia" }
+		2 = { "%da Kyivska Tankova Dyviziia" }
+		3 = { "%dia Kyivska Tankova Dyviziia" }
+		4 = { "%da Kharkivska Tankova Dyviziia" }
+		5 = { "%da Kharkivska Tankova Dyviziia" }
+		6 = { "%da Kharkivska Tankova Dyviziia" }
+		7 = { "%da Khersonska Tankova Dyviziia" }
+		8 = { "%da Podilska Tankova Dyviziia" }
+		9 = { "%da Poltavska Tankova Dyviziia" }
+		10 = { "%da Chernihivska Tankova Dyviziia" }
+	}
+}
+
+UKR_MEC_01 = {
+	name = div_mechanised_division
+
+	for_countries = { UKR }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Mekhanizovana Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kyivska Mekhanizovana Dyviziia" }
+		2 = { "%da Kyivska Mekhanizovana Dyviziia" }
+		3 = { "%dia Kyivska Mekhanizovana Dyviziia" }
+		4 = { "%da Kyivska Mekhanizovana Dyviziia" }
+		5 = { "%da Kharkivska Mekhanizovana Dyviziia" }
+		6 = { "%da Kharkivska Mekhanizovana Dyviziia" }
+		7 = { "%da Kharkivska Mekhanizovana Dyviziia" }
+		8 = { "%da Kharkivska Mekhanizovana Dyviziia" }
+		9 = { "%da Kharkivska Mekhanizovana Dyviziia" }
+		10 = { "%da Katerynoslavska Mekhanizovana Dyviziia" }
+		11 = { "%da Katerynoslavska Mekhanizovana Dyviziia" }
+		12 = { "%da Katerynoslavska Mekhanizovana Dyviziia" }
+		13 = { "%da Katerynoslavska Mekhanizovana Dyviziia" }
+		14 = { "%da Katerynoslavska Mekhanizovana Dyviziia" }
+		15 = { "%da Poltavska Mekhanizovana Dyviziia" }
+		16 = { "%da Khersonska Mekhanizovana Dyviziia" }
+		17 = { "%da Chernihivska Mekhanizovana Dyviziia" }
+		18 = { "%da Podilska Mekhanizovana Dyviziia" }
+		19 = { "%da Poltavska Mekhanizovana Dyviziia" }
+		20 = { "%da Volynska Mekhanizovana Dyviziia" }
+		21 = { "%da Podilska Mekhanizovana Dyviziia" }
+		22 = { "%da Podilska Mekhanizovana Dyviziia" }
+		23 = { "%dia Poltavska Mekhanizovana Dyviziia" }
+		24 = { "%da Volynska Mekhanizovana Dyviziia" }
+		25 = { "%da Volynska Mekhanizovana Dyviziia" }
+	}
+}
+
+UKR_GAR_01 = {
+	name = div_garrison_division
+
+	for_countries = { UKR }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Prykordonna Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kharkivska Prykordonna Dyviziia" }
+		2 = { "%da Kharkivska Prykordonna Dyviziia" }
+		3 = { "%dia Kharkivska Prykordonna Dyviziia" }
+		4 = { "%da Kharkivska Prykordonna Dyviziia" }
+		5 = { "%da Kharkivska Prykordonna Dyviziia" }
+		6 = { "%da Katerynoslavska Prykordonna Dyviziia" }
+		7 = { "%da Katerynoslavska Prykordonna Dyviziia" }
+		8 = { "%da Katerynoslavska Prykordonna Dyviziia" }
+		9 = { "%da Katerynoslavska Prykordonna Dyviziia" }
+		10 = { "%da Katerynoslavska Prykordonna Dyviziia" }
+		11 = { "%da Chernihivska Prykordonna Dyviziia" }
+		12 = { "%da Chernihivska Prykordonna Dyviziia" }
+		13 = { "%da Chernihivska Prykordonna Dyviziia" }
+		14 = { "%da Chernihivska Prykordonna Dyviziia" }
+		15 = { "%da Chernihivska Prykordonna Dyviziia" }
+		16 = { "%da Volynska Prykordonna Dyviziia" }
+		17 = { "%da Volynska Prykordonna Dyviziia" }
+		18 = { "%da Volynska Prykordonna Dyviziia" }
+		19 = { "%da Volynska Prykordonna Dyviziia" }
+		20 = { "%da Volynska Prykordonna Dyviziia" }
+		21 = { "%da Podilska Prykordonna Dyviziia" }
+		22 = { "%da Podilska Prykordonna Dyviziia" }
+		23 = { "%dia Podilska Prykordonna Dyviziia" }
+		24 = { "%da Podilska Prykordonna Dyviziia" }
+		25 = { "%da Podilska Prykordonna Dyviziia" }
+	}
+}
+
+UKR_MAR_01 = {
+	name = div_marine_division
+
+	for_countries = { UKR }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Dyviziia Morskoi Pikhoty"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da im. hetmana P. Sahaidachnoho Dyviziia Morskoi Pikhoty" }
+		2 = { "%da Okrema Sevastopilska Dyviziia Morskoi Pikhoty" }
+		3 = { "%dia Okrema Sevastopilska Dyviziia Morskoi Pikhoty" }
+		4 = { "%da Okrema Semfiropilska Dyviziia Morskoi Pikhoty" }
+		5 = { "%da Okrema Semfiropilska Dyviziia Morskoi Pikhoty" }
+		6 = { "%da Khersonska Dyviziia Morskoi Pikhoty" }
+		7 = { "%da Khersonska Dyviziia Morskoi Pikhoty" }
+		8 = { "%da Khersonska Dyviziia Morskoi Pikhoty" }
+		9 = { "%da Khersonska Dyviziia Morskoi Pikhoty" }
+		10 = { "%da Khersonska Dyviziia Morskoi Pikhoty" }
+	}
+}
+
+UKR_MTN_01 = {
+	name = div_mountain_division
+
+	for_countries = { UKR }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Hirska Dyviziia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Volynska Hirska Dyviziia" }
+		2 = { "%da Volynska Hirska Dyviziia" }
+		3 = { "%dia Volynska Hirska Dyviziia" }
+		4 = { "%da Volynska Hirska Dyviziia" }
+		5 = { "%da Volynska Hirska Dyviziia" }
+		6 = { "%da Okrema Hirska Dyviziia" }
+		7 = { "%da Okrema Hirska Dyviziia" }
+		8 = { "%da Okrema Hirska Dyviziia" }
+		9 = { "%da Okrema Hirska Dyviziia" }
+		10 = { "%da Okrema Hirska Dyviziia" }
+	}
+}
+
+UKR_PAR_01 = {
+	name = div_paratrooper_division
+
+	for_countries = { UKR }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Povitriano-Desantna Dyv."
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kyivska Povitriano-Desantna Dyv." }
+		2 = { "%da Kyivska Povitriano-Desantna Dyv." }
+		3 = { "%dia Kyivska Povitriano-Desantna Dyv." }
+		4 = { "%da Kharkivska Povitriano-Desantna Dyv." }
+		5 = { "%da Kharkivska Povitriano-Desantna Dyv." }
+		6 = { "%da Kharkivska Povitriano-Desantna Dyv." }
+		7 = { "%da Kharkivska Povitriano-Desantna Dyv." }
+		8 = { "%da Katerynoslavska Povitriano-Desantna Dyv." }
+		9 = { "%da Katerynoslavska Povitriano-Desantna Dyv." }
+		10 = { "%da Katerynoslavska Povitriano-Desantna Dyv." }
+	}
+}
+
+UKR_MIL_01 = {
+	name = div_militia_division
+
+	for_countries = { UKR }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { UKR_INF_01 }
+
+	fallback_name = "%da Dyviziia Opolchennia"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered = {
+		1 = { "%da Kharkivska Dyviziia Opolchennia" }
+		2 = { "%da Kharkivska Dyviziia Opolchennia" }
+		3 = { "%dia Kharkivska Dyviziia Opolchennia" }
+		4 = { "%da Kharkivska Dyviziia Opolchennia" }
+		5 = { "%da Chernihivska Dyviziia Opolchennia" }
+		6 = { "%da Chernihivska Dyviziia Opolchennia" }
+		7 = { "%da Chernihivska Dyviziia Opolchennia" }
+		8 = { "%da Chernihivska Dyviziia Opolchennia" }
+		9 = { "%da Chernihivska Dyviziia Opolchennia" }
+		10 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		11 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		12 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		13 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		14 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		15 = { "%da Katerynoslavska Dyviziia Opolchennia" }
+		16 = { "%da Kyivska Dyviziia Opolchennia" }
+		17 = { "%da Kyivska Dyviziia Opolchennia" }
+		18 = { "%da Kyivska Dyviziia Opolchennia" }
+		19 = { "%da Kyivska Dyviziia Opolchennia" }
+		20 = { "%da Kyivska Dyviziia Opolchennia" }
+	}
+}
+

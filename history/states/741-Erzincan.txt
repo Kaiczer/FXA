@@ -6,8 +6,8 @@ state={
 	}
 	history = {
 		owner = ARM
-		add_core_of = ARM
-		add_claim_by = TUR 
+		add_claim_by = ARM
+		add_core_of = TUR 
 		add_to_array = { state_victory_points = 11753 }
 		add_to_array = { state_victory_points = 11853 }
 
@@ -17,6 +17,10 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
+
+		start_resistance = yes
+		set_resistance = 10
+		set_compliance = 65
 	}
 	manpower=986762
 	buildings_max_level_factor=1.000

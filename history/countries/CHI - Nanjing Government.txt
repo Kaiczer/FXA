@@ -62,28 +62,28 @@ every_country = {
 }
 
 ## Truce of Wuhan 
-every_core_state = { # Set Truce Area #
-	limit = {
-		OR = {
-			state = 511
-			state = 527
-			state = 533
-		}
-	}
-	set_state_flag = CHN_truce_area
-}
-every_core_state = { # Set Area for Armies to be Teleported #
-	limit = {
-		OR = {
-			state = 529
-			state = 534
-			state = 520
-			state = 519
-			state = 518
-		}
-	}
-	set_state_flag = CHN_accessible_area
-}
+# every_core_state = { # Set Truce Area
+# 	limit = {
+# 		OR = {
+# 			state = 511
+# 			state = 527
+# 			state = 533
+# 		}
+# 	}
+# 	set_state_flag = CHN_truce_area
+# }
+# every_core_state = { # Set Area for Armies to be Teleported
+# 	limit = {
+# 		OR = {
+# 			state = 529
+# 			state = 534
+# 			state = 520
+# 			state = 519
+# 			state = 518
+# 		}
+# 	}
+# 	set_state_flag = CHN_accessible_area
+# }
 
 recruit_character = CHI_jiang_jieshi
 set_popularities = {

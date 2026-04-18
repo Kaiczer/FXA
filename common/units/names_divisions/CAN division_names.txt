@@ -1,0 +1,199 @@
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#			however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#			for example the current one is no longer available due to the can_use trigger saying so).
+#			In automated choice, the division template must have at leCAN 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#			mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#			this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names.
+#			Numbers must start from 1 and up.
+#			Numbers can't repeat in one scope.
+#			If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#			All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#			1st argument = The name. It must contain either:
+#						%d (for decimal number placement)
+#						%s (for string number placement - ROMAN numbers like XIV).
+#			2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#									where you choose the historical division name.
+#			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#									the current game version.
+
+CAN_INF_01 = {# Infantry
+	name = div_infantry_division
+	for_countries = { IMP }
+	division_types = { "infantry" }
+	fallback_name = "%dth Infantry Division"
+	# It's okay to have gaps in numbering.
+	ordered = {# Names with numbers (only one number per entry).
+		1 = { "%dst Infantry Division 'King's Own'" }
+		2 = { "%dnd Infantry Division 'Lincoln & Welland'" }
+		3 = { "%drd Infantry Division 'Queen's Own'" }
+		4 = { "%dth Infantry Division 'Prince of Wales'" }
+		5 = { "%dth Infantry Division 'Black Watch'" }
+		6 = { "%dth Infantry Division" }
+		7 = { "%dth Infantry Division" }
+		8 = { "%dth Infantry Division" }
+		9 = { "%dth Infantry Division" }
+		10 = { "%dth Infantry Division" }
+	}
+}
+CAN_CAV_01 = {# Cavalry
+	name = div_cavalry_division
+	for_countries = { IMP }
+	division_types = { "cavalry" }
+	fallback_name = "%dth District Cavalry"
+	ordered = {
+		1 = { "%dst District Cavalry 'King's Own'" }
+		2 = { "%dth District Cavalry 'Queen's Own'" }
+		3 = { "%dnd District Cavalry" }
+		4 = { "%drd District Cavalry" }
+		5 = { "%dth District Cavalry" }
+		6 = { "%dth District Cavalry" }
+		7 = { "%dth District Cavalry" }
+		8 = { "%dth District Cavalry" }
+		9 = { "%dth District Cavalry" }
+		10 = { "%dth District Cavalry" }
+	}
+}
+CAN_MOT_01 = {# Motorised
+	name = div_motorised_division
+	for_countries = { IMP }
+	division_types = { "motorized" }
+	fallback_name = "%dth Motorised Brigade"
+	ordered = {
+		1 = { "%dst Motorised Brigade" }
+		2 = { "%dnd Motorised Brigade" }
+		3 = { "%drd Motorised Brigade" }
+		4 = { "%dth Motorised Brigade" }
+		5 = { "%dth Motorised Brigade" }
+		6 = { "%dth Motorised Brigade" }
+		7 = { "%dth Motorised Brigade" }
+		8 = { "%dth Motorised Brigade" }
+		9 = { "%dth Motorised Brigade" }
+		10 = { "%dth Motorised Brigade" }
+	}
+}
+CAN_ARM_01 = {# Tanks
+	name = div_armoured_division
+	for_countries = { IMP }
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+	link_numbering_with = { CAN_INF_01 }
+	fallback_name = "%dth Armoured Division"
+	ordered = {
+		1 = { "%dst Armoured Division" }
+		2 = { "%dnd Armoured Division" }
+		3 = { "%drd Armoured Division" }
+		4 = { "%dth Armoured Division" }
+		5 = { "%dth Armoured Division" }
+		6 = { "%dth Armoured Division" }
+		7 = { "%dth Armoured Division" }
+		8 = { "%dth Armoured Division" }
+		9 = { "%dth Armoured Division" }
+		10 = { "%dth Armoured Division" }
+	}
+}
+CAN_MEC_01 = {# Mechanised
+	name = div_mechanised_division
+	for_countries = { IMP }
+	division_types = { "mechanized" }
+	link_numbering_with = { CAN_INF_01 }
+	fallback_name = "%dth Infantry Division"
+	ordered = {
+		1 = { "%dst Infantry Division" }
+		2 = { "%dnd Infantry Division" }
+		3 = { "%drd Infantry Division" }
+		4 = { "%dth Infantry Division" }
+		5 = { "%dth Infantry Division" }
+		6 = { "%dth Infantry Division" }
+		7 = { "%dth Infantry Division" }
+		8 = { "%dth Infantry Division" }
+		9 = { "%dth Infantry Division" }
+		10 = { "%dth Infantry Division" }
+	}
+}
+CAN_GAR_01 = {# Garrison and Militia
+	name = div_garrison_division
+	for_countries = { IMP }
+	division_types = { "infantry" }
+	fallback_name = "%dth District Militia"
+	ordered = {
+		1 = { "%dst District Militia" }
+		2 = { "%dnd District Militia" }
+		3 = { "%drd District Militia" }
+		4 = { "%dth District Militia" }
+		5 = { "%dth District Militia" }
+		6 = { "%dth District Militia" }
+		7 = { "%dth District Militia" }
+		8 = { "%dth District Militia" }
+		9 = { "%dth District Militia" }
+		10 = { "%dth District Militia" }
+	}
+}
+CAN_MAR_01 = {# Royal Marines
+	name = div_marine_division
+	for_countries = { IMP }
+	division_types = { "marine" }
+	fallback_name = "%dth Marine Division"
+	ordered = {
+		1 = { "%dst Marine Division" }
+		2 = { "%dnd Marine Division" }
+		3 = { "%drd Marine Division" }
+		4 = { "%dth Marine Division" }
+		5 = { "%dth Marine Division" }
+		6 = { "%dth Marine Division" }
+		7 = { "%dth Marine Division" }
+		8 = { "%dth Marine Division" }
+		9 = { "%dth Marine Division" }
+		10 = { "%dth Marine Division" }
+	}
+}
+CAN_MTN_01 = {# Mountaineers
+	name = div_mountain_division
+	for_countries = { IMP }
+	division_types = { "mountaineers" }
+	fallback_name = "%dth Special Forces Division"
+	ordered = {
+		1 = { "%dst Special Forces Division" }
+		2 = { "%dnd Special Forces Division" }
+		3 = { "%drd Special Forces Division" }
+		4 = { "%dth Special Forces Division" }
+		5 = { "%dth Special Forces Division" }
+		6 = { "%dth Special Forces Division" }
+		7 = { "%dth Special Forces Division" }
+		8 = { "%dth Special Forces Division" }
+		9 = { "%dth Special Forces Division" }
+		10 = { "%dth Special Forces Division" }
+	}
+}
+CAN_PAR_01 = {# Paratroopers
+	name = div_airborne_division
+	for_countries = { IMP }
+	division_types = { "paratrooper" }
+	link_numbering_with = { CAN_INF_01 }
+	fallback_name = "%dth Airborne Division"
+	ordered = {
+		1 = { "%dst Airborne Division" }
+		2 = { "%dnd Airborne Division" }
+		3 = { "%drd Airborne Division" }
+		4 = { "%dth Airborne Division" }
+		5 = { "%dth Airborne Division" }
+		6 = { "%dth Airborne Division" }
+		7 = { "%dth Airborne Division" }
+		8 = { "%dth Airborne Division" }
+		9 = { "%dth Airborne Division" }
+		10 = { "%dth Airborne Division" }
+	}
+}

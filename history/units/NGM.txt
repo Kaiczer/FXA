@@ -1,0 +1,170 @@
+division_template = {
+	name = "Landabteilung-Brigade"
+
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigade"
+
+	division_names_group = GER_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	    recon = { x = 0 y = 0 }
+	    artillery = { x = 0 y = 1 }
+	}
+}
+division_template = { # Freikorps Sachsen, Hanover Süd, and Westphalia's Heimatbund's remnants
+	name = "Integrierte Freikorps"
+
+	division_names_group = GER_INF_02
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+        irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 0 y = 2 }
+        irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+		irregular_infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	#### Bundesarmee ####
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3522
+		division_template = "Landabteilung-Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3522
+		division_template = "Landabteilung-Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6559
+		division_template = "Landabteilung-Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6559
+		division_template = "Landabteilung-Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11481
+		division_template = "Landabteilung-Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11493
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3234
+		division_template = "Kavallerie-Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11493
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11493
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6487
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6487
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 6524
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 482
+		division_template = "Integrierte Freikorps"
+		start_experience_factor = 0.3
+	}
+}

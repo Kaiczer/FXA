@@ -3,6 +3,8 @@ set_research_slots = 2
 set_stability = 0.23
 set_war_support = 0.88
 
+load_oob = "RHI"
+
 set_cosmetic_tag = RHI_mandate
 
 set_technology = {
@@ -30,6 +32,21 @@ if = {
 			CAS1 = 1
 		}
 	}
+}
+
+# Diplomatic Actions
+every_country = {
+	limit = {
+		OR = {
+			tag = USA
+			tag = BEL
+			tag = FRA
+			tag = ENG
+			tag = ITA
+		}
+	}
+	give_guarantee = PREV
+	diplomatic_relation = { country = PREV relation = non_aggression_pact }
 }
 
 set_popularities = {

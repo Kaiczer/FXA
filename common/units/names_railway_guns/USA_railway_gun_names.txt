@@ -1,0 +1,7 @@
+USA_RG_HISTORICAL = {
+	for_countries = { USA WCA NEE ACC APG HAW }
+
+	type = railway_gun
+
+	fallback_name = "Battery %d, Coast Artillery (Railway) Regiment"
+}

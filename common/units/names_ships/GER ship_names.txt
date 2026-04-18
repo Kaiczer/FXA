@@ -1,0 +1,794 @@
+
+GER_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	fallback_name = "Schlachtschiff %d"
+
+	ordered = {
+		1 = { "Scharnhorst" }
+		2 = { "Gneisenau" }
+		3 = { "Fürst Bismarck" }
+		4 = { "Tirpitz" }
+		5 = { "Hindenburg" }
+		6 = { "Ludendorff" }
+		7 = { "Friedrich der Große" }
+		8 = { "Kaiser" }
+		9 = { "Ulrich von Hutten" }
+		10 = { "Götz von Berlichingen" }
+		11 = { "Brandenburg" }
+		12 = { "Hessen" }
+		13 = { "Zähringen" }
+		14 = { "Mecklenburg" }
+		15 = { "Elsaß" }
+		16 = { "Lothringen" }
+		17 = { "Hannover" }
+		18 = { "Nassau" }
+		19 = { "Pommern" }
+		20 = { "Westfalen" }
+		21 = { "Rheinland" }
+		22 = { "Thüringen" }
+		23 = { "Württemberg" }
+		24 = { "Braunschweig" }
+		25 = { "Bayern" }
+		26 = { "Sachsen" }
+		27 = { "Baden" }
+		28 = { "Weißenburg" }
+		29 = { "Ostfriesland" }
+		30 = { "Oldenburg" }
+		31 = { "Posen" }
+		32 = { "Preußen" }
+		33 = { "Pillau" }
+		34 = { "Helgoland" }
+		35 = { "Schwaben" }
+		36 = { "Wörth" }
+		37 = { "Wettin" }
+		38 = { "Wittelsbach" }
+		39 = { "Orbotrit" }
+		40 = { "Ostmark" }
+		41 = { "Schleswig" }
+		42 = { "Holstein" }
+		43 = { "Franken" }
+		44 = { "Strelitz" }
+		45 = { "Vaterland" }
+		46 = { "Deutschland" }
+		47 = { "König" }
+		48 = { "Kronprinz" }
+		49 = { "Kaiserin" }
+		50 = { "Dietrich von Bern" }
+		51 = { "Siegfried" }
+		52 = { "Hildebrand" }
+		53 = { "Germania" }
+		54 = { "Wolfram von Eschenbach" }
+		55 = { "Schlesien" }
+		56 = { "Anhalt" }
+		57 = { "Pfalz" }
+		58 = { "Kurland" }
+		59 = { "Livland" }
+		60 = { "Sedan" }
+		61 = { "Saint-Mihiel" }
+		62 = { "Compiegne" }
+		63 = { "Amiens" }
+		64 = { "Gravelotte" }
+	}
+}
+
+GER_BC_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BC
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	fallback_name = "Schlachtkreuzer %d"
+
+	ordered = {
+		1 = { "Von der Tann" }
+		2 = { "Moltke" }
+		3 = { "Goeben" }
+		4 = { "Derfflinger" }
+		5 = { "Holtzendorff" }
+		6 = { "Yorck" }
+		7 = { "Mackensen" }
+		8 = { "Von Lettow-Vorbeck" }
+		9 = { "Friedrich Barbarossa" }
+		10 = { "Karl der Große" }
+		11 = { "Prinz Eitel Friedrich" }
+		12 = { "Victoria Louise" }
+		13 = { "Prinz Heinrich" }
+		14 = { "Prinz Joachim" }
+		15 = { "Graf Adalbert" }
+		16 = { "August Wilhelm" }
+		17 = { "Prinz Oskar" }
+		18 = { "Bülow" }
+		19 = { "Von Anhalt-Dessau" }
+		20 = { "Manstein" }
+		21 = { "François" }
+		22 = { "Heinrich der Löwe" }
+		23 = { "Otto der Große" }
+		24 = { "Hermann" }
+		25 = { "Seeckt" }
+		26 = { "Keith" }
+		27 = { "Manteuffel" }
+		28 = { "Müffling" }
+		29 = { "König Rupprecht" }
+		30 = { "Friedrich Carl" }
+		31 = { "Maximilian" }
+		32 = { "Louis Ferdinand" }
+		34 = { "Friedrich Georg" }
+		35 = { "Prinz Hubertus" }
+		36 = { "Alexandrine" }
+		37 = { "Cecilie" }
+	}
+}
+
+GER_SS_IMPERIAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GER GEA BAT }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	prefix = "SM "
+	fallback_name = "U-%d"
+
+	ordered = {
+		294 = { "U-%d" }
+		295 = { "U-%d" }
+		296 = { "U-%d" }
+		297 = { "U-%d" }
+		298 = { "U-%d" }
+		299 = { "U-%d" }
+		300 = { "U-%d" }
+		301 = { "U-%d" }
+		302 = { "U-%d" }
+		303 = { "U-%d" }
+		304 = { "U-%d" }
+	}
+}
+
+GER_CA_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CA
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	fallback_name = "Schwerer Kreuzer %d"
+
+	ordered = {
+		1 = { "Admiral Graf Spee" }
+		2 = { "Admiral Hipper" }
+		3 = { "Blücher" }
+		4 = { "Prinz Eugen" }
+		5 = { "Seydlitz" }
+		6 = { "Lützow" }
+		7 = { "Roon" }
+		8 = { "Friedrich Carl" }
+		9 = { "Buddenbrock" }
+		20 = { "Bittenfeld" }
+		21 = { "Schwarzenberg" }
+		22 = { "Eichhorn" }
+		23 = { "Flemming" }
+		24 = { "Boyen" }
+		25 = { "Haeseler" }
+		26 = { "Woyrsch" }
+		27 = { "Mansfeld" }
+		28 = { "Kalckreuth" }
+		29 = { "Kleist" }
+		30 = { "Wrangel" }
+		31 = { "Daun" }
+		32 = { "Heyde" }
+		33 = { "Krockow" }
+		34 = { "Admiral Pohl" }
+		35 = { "Admiral Scheer" }
+		36 = { "Admiral Souchon" }
+		37 = { "Admiral Reuter" }
+		38 = { "Below" }
+		39 = { "Gallwitz" }
+		40 = { "Hutier" }
+		41 = { "Falkenhayn" }
+		42 = { "Ziethen" }
+		43 = { "Schwerin" }
+		44 = { "Winterfeldt" }
+		45 = { "Waldersee" }
+		46 = { "Tauentzien" }
+		47 = { "Steinmetz" }
+		48 = { "Bonin" }
+		49 = { "Linsingen" }
+		50 = { "Saldern" }
+		51 = { "Grolman" }
+		52 = { "Werder" }
+		53 = { "Kirchbach" }
+		54 = { "Zastrow" }
+		55 = { "Scholtz" }
+		56 = { "Fransecky" }
+		57 = { "Fouqué" }
+		58 = { "Alvensleben" }
+		59 = { "Fabeck" }
+		60 = { "Marwitz" }
+		61 = { "Winckler" }
+	}
+}
+
+GER_CL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CL
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	fallback_name = "Leichter Kreuzer %d"
+
+	ordered = {
+		1 = { "Emden" }
+		2 = { "Königsberg" }
+		3 = { "Karlsruhe" }
+		4 = { "Köln" }
+		5 = { "Leipzig" }
+		6 = { "Nürnberg" }
+		7 = { "München" }
+		8 = { "Berlin" }
+		9 = { "Hamburg" }
+		10 = { "Stuttgart" }
+		11 = { "Bremen" }
+		12 = { "Lübeck" }
+		13 = { "Danzig" }
+		14 = { "Stettin" }
+		15 = { "Dresden" }
+		16 = { "Mainz" }
+		17 = { "Augsburg" }
+		18 = { "Magdeburg" }
+		19 = { "Breslau" }
+		20 = { "Stralsund" }
+		21 = { "Frankfurt" }
+		22 = { "Rostock" }
+		23 = { "Elbing" }
+		24 = { "Straßburg" }
+		25 = { "Regensburg" }
+		26 = { "Wiesbaden" }
+		27 = { "Aachen" }
+		28 = { "Potsdam" }
+		29 = { "Heidelberg" }
+		30 = { "Kiel" }
+		31 = { "Würzburg" }
+		32 = { "Münster" }
+		33 = { "Darmstadt" }
+		34 = { "Chemnitz" }
+		35 = { "Braunschweig" }
+		36 = { "Cassel" }
+		37 = { "Oldenburg" }
+		38 = { "Düsseldorf" }
+		39 = { "Halle" }
+		40 = { "Wien" }
+		41 = { "Dortmund" }
+		42 = { "Freiburg" }
+		43 = { "Duisburg" }
+		44 = { "Mannheim" }
+		45 = { "Erfurt" }
+		46 = { "Osnabrück" }
+		47 = { "Essen" }
+		48 = { "Wolfsburg" }
+		49 = { "Elberfeld" }
+		50 = { "Prag" }
+		51 = { "Innsbruck" }
+		52 = { "Saarbrücken" }
+		53 = { "Posen" }
+		54 = { "Mülhausen" }
+		55 = { "Paderborn" }
+		56 = { "Brünn" }
+		57 = { "Ingolstadt" }
+		58 = { "Bielefeld" }
+		59 = { "Salzburg" }
+		60 = { "Pilsen" }
+		61 = { "Mülheim" }
+		62 = { "Heilbronn" }
+		63 = { "Bonn" }
+		64 = { "Graz" }
+		65 = { "Oberhausen" }
+		66 = { "Ludwigshafen" }
+		67 = { "Bochum" }
+		68 = { "Solingen" }
+		69 = { "Linz" }
+		70 = { "Mönchengladbach" }
+		71 = { "Fürth" }
+		72 = { "Trier" }
+		73 = { "Hagen" }
+		74 = { "Krefeld" }
+		75 = { "Ulm" }
+		76 = { "Göttingen" }
+		77 = { "Gelsenkirchen" }
+		78 = { "Recklinghausen" }
+		79 = { "Pforzheim" }
+		80 = { "Hamm" }
+		81 = { "Bottrop" }
+		82 = { "Bremerhaven" }
+		83 = { "Reutlingen" }
+		84 = { "Jena" }
+		85 = { "Koblenz" }
+		86 = { "Leverkusen" }
+		87 = { "Neuss" }
+		88 = { "Offenbach" }
+		89 = { "Herne" }
+		90 = { "Remscheid" }
+		91 = { "Kaiserslautern" }
+		92 = { "Salzgitter" }
+		93 = { "Schwerin" }
+		94 = { "Cottbus" }
+		95 = { "Wilhelmshaven" }
+		96 = { "Erlangen" }
+		97 = { "Siegen" }
+		98 = { "Hildesheim" }
+		99 = { "Zwickau" }
+		101 = { "Medusa" }
+		102 = { "Niobe" }
+		103 = { "Nymphe" }
+		104 = { "Brummer" }
+		105 = { "Bremse" }
+		106 = { "Gazelle" }
+		107 = { "Thetis" }
+		108 = { "Ariadne" }
+		109 = { "Amazone" }
+		110 = { "Frauenlob" }
+		111 = { "Arcona" }
+		112 = { "Undine" }
+		113 = { "Hela" }
+		114 = { "Gefion" }
+		115 = { "Flensburg" }
+		116 = { "Barmen" }
+		117 = { "Riga" }
+		118 = { "Triest" }
+		119 = { "Reval" }
+		120 = { "Libau" }
+		121 = { "Bromberg" }
+		122 = { "Plauen" }
+		123 = { "Oppeln" }
+		124 = { "Beuthen" }
+		125 = { "Görlitz" }
+		126 = { "Liegnitz" }
+		127 = { "Gera" }
+		128 = { "Memel" }
+		129 = { "Gotenhafen" }
+		130 = { "Konstanz" }
+		131 = { "Bamberg" }
+		132 = { "Dorpat" }
+		133 = { "Cuxhaven" }
+		134 = { "Thorn" }
+		135 = { "Goslar" }
+		136 = { "Lüneburg" }
+		137 = { "Weimar" }
+		138 = { "Bayreuth" }
+		139 = { "Eisenach" }
+		140 = { "Greifswald" }
+		141 = { "Wismar" }
+		142 = { "Celle" }
+		143 = { "Mitau" }
+		144 = { "Gotha" }
+		145 = { "Wittenberg" }
+		146 = { "Gießen" }
+		147 = { "Passau" }
+		148 = { "Aschaffenburg" }
+		149 = { "Naumburg" }
+		150 = { "Nordhausen" }
+		151 = { "Mühlhausen" }
+		152 = { "Stendal" }
+		153 = { "Coburg" }
+		154 = { "Wesel" }
+		155 = { "Halberstadt" }
+		156 = { "Glogau" }
+		157 = { "Schweidnitz" }
+		158 = { "Narwa" }
+		159 = { "Pernau" }
+		160 = { "Windau" }
+		161 = { "Wenden" }
+		162 = { "Wolmar" }
+		163 = { "Walk" }
+		164 = { "Arensburg" }
+		165 = { "Stade" }
+		166 = { "Minden" }
+		167 = { "Ansbach" }
+		168 = { "Emmerich" }
+		169 = { "Allenstein" }
+		170 = { "Quedlinburg" }
+		171 = { "Marienburg" }
+		172 = { "Wolgast" }
+		173 = { "Altenburg" }
+		174 = { "Ravensburg" }
+		175 = { "Schwäbisch Hall" }
+		176 = { "Fellin" }
+		177 = { "Weissenstein" }
+		178 = { "Goldingen" }
+		179 = { "Jacobstadt" }
+		180 = { "Friedrichstadt" }
+		181 = { "Werro" }
+		182 = { "Grobin" }
+		183 = { "Pilten" }
+		184 = { "Cöslin" }
+		185 = { "Neustrelitz" }
+		186 = { "Merseburg" }
+		187 = { "Bernburg" }
+		188 = { "Eisleben" }
+		189 = { "Zerbst" }
+		190 = { "Tilsit" }
+	}
+}
+
+GER_DD_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_DD
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	fallback_name = "T %d"
+
+	unique = {
+		"G 200"
+		"G 201"
+		"G 202"
+		"G 203"
+		"G 204"
+		"G 205"
+		"G 206"
+		"S 207"
+		"G 208"
+		"V 209"
+		"S 210"
+		"G 211"
+		"G 212"
+		"G 213"
+		"V 214"
+		"V 215"
+		"V 216"
+		"V 217"
+		"V 218"
+		"V 219"
+		"G 220"
+		"S 221"
+		"S 222"
+		"S 223"
+		"S 224"
+		"T 225"
+		"T 226"
+		"T 227"
+		"T 228"
+		"T 229"
+		"B 230"
+		"S 231"
+		"S 232"
+		"S 233"
+		"S 234"
+		"S 235"
+		"S 236"
+		"V 237"
+		"V 238"
+		"V 239"
+		"T 240"
+		"S 241"
+		"S 242"
+		"B 243"
+		"B 244"
+		"B 245"
+		"S 246"
+		"V 247"
+		"V 248"
+		"V 249"
+		"G 250"
+		"G 251"
+		"G 252"
+		"G 253"
+		"G 254"
+		"B 255"
+		"S 256"
+		"B 257"
+		"B 258"
+		"B 259"
+		"T 260"
+		"S 261"
+		"S 262"
+		"B 263"
+		"B 264"
+		"B 265"
+		"S 266"
+		"G 267"
+		"G 268"
+		"G 269"
+		"T 270"
+		"S 271"
+		"V 272"
+		"V 273"
+		"V 274"
+		"B 275"
+		"S 276"
+		"S 277"
+		"S 278"
+		"S 279"
+		"V 280"
+		"V 281"
+		"V 282"
+		"V 283"
+		"V 284"
+		"V 285"
+		"B 286"
+		"B 287"
+		"B 288"
+		"B 289"
+		"G 290"
+		"G 291"
+		"G 292"
+		"G 293"
+		"G 294"
+		"T 295"
+		"T 296"
+		"T 297"
+		"T 298"
+		"T 299"
+	}
+}
+
+GER_CV_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CARRIERS
+
+	for_countries = { GER GEA BAT MAF }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	prefix = "SMS "
+	fallback_name = "Träger %d"
+
+	ordered = {
+		1 = { "Graf Zeppelin" }
+		2 = { "Peter Strasser" }
+		3 = { "Oswald Boelcke" }
+		4 = { "Karl Allmenröder" }
+		5 = { "Walter Blume" }
+		6 = { "Otto Lilienthal" }
+		7 = { "Erich Loewenhardt" }
+		10 = { "Manfred von Richthofen" }
+		11 = { "Lothar von Richthofen" }
+		12 = { "Ernst Udet" }
+		13 = { "Max Immelman" }
+		14 = { "Werner Voss" }
+		15 = { "Helmuth Wilberg" }
+		16 = { "Heinrich Mathy" }
+		17 = { "Wilhelm Siegert" }
+		18 = { "Franz Büchner" }
+	}
+}
+
+GER_THEME_ANIMALS_IMPERIAL = {
+	name = NAME_THEME_ANIMALS
+
+	for_countries = { GER GEA BAT MAF }
+
+	prefix = "SMS "
+	type = ship
+
+	fallback_name = "Schiff %d"
+
+	ordered = {
+		1 = { "Möwe" }
+		2 = { "Albatros" }
+		3 = { "Seeadler" }
+		4 = { "Greif" }
+		5 = { "Falke" }
+		6 = { "Kondor" }
+		7 = { "Wolf" }
+		8 = { "Iltis" }
+		9 = { "Gepard" }
+		10 = { "Panther" }
+		11 = { "Tiger" }
+		12 = { "Löwe" }
+		13 = { "Luchs" }
+		14 = { "Bär" }
+		15 = { "Jaguar" }
+		16 = { "Leopard" }
+		17 = { "Kobra" }
+		18 = { "Viper" }
+		19 = { "Drache" }
+		20 = { "Wiesel" }
+		21 = { "Delphin" }
+		22 = { "Wal" }
+		23 = { "Rabe" }
+		24 = { "Habicht" }
+		25 = { "Wisent" }
+		26 = { "Puma" }
+		27 = { "Natter" }
+		28 = { "Otter" }
+		29 = { "Biber" }
+		30 = { "Bison" }
+		31 = { "Elch" }
+		32 = { "Dachs" }
+		33 = { "Hirsch" }
+		34 = { "Steinbock" }
+		35 = { "Zebra" }
+		36 = { "Hermelin" }
+		37 = { "Nerz" }
+		38 = { "Zobel" }
+		39 = { "Ozelot" }
+		40 = { "Hyäne" }
+		41 = { "Marder" }
+		42 = { "Reiher" }
+		43 = { "Fuchs" }
+		44 = { "Storch" }
+		45 = { "Kranich" }
+		46 = { "Kormoran" }
+		47 = { "Sperber" }
+		48 = { "Bussard" }
+		49 = { "Geier" }
+	}
+}
+
+GER_THEME_GERMANIC_IMPERIAL = {
+	name = NAME_THEME_GERMANIC_MYTHOLOGY
+
+	for_countries = { GER GEA BAT MAF }
+
+	type = ship
+	prefix = "SMS "
+	fallback_name = "Schiff %d"
+
+	ordered = {
+		1 = { "Wotan" }
+		2 = { "Donar" }
+		3 = { "Tyr" }
+		4 = { "Friia" }
+		5 = { "Uolla" }
+		6 = { "Phol" }
+		7 = { "Gausus" }
+		8 = { "Mittgart" }
+		9 = { "Hellea" }
+		10 = { "Herta" }
+		11 = { "Freya" }
+		12 = { "Thrym" }
+		13 = { "Vineta" }
+		14 = { "Ägir" }
+		15 = { "Atla" }
+		16 = { "Siegfried" }
+		17 = { "Hansa" }
+		18 = { "Hymir" }
+		19 = { "Borr" }
+		20 = { "Baduhenna" }
+		21 = { "Bragi" }
+		22 = { "Vili" }
+		23 = { "Thrud" }
+		24 = { "Idun" }
+		25 = { "Lodur" }
+		26 = { "Mani" }
+		27 = { "Mannus" }
+		28 = { "Vihansa" }
+		29 = { "Ran" }
+		30 = { "Hödur" }
+		31 = { "Sigi" }
+		32 = { "Himilinberg" }
+		33 = { "Alb" }
+		34 = { "Europa" }
+		35 = { "Aurora" }
+	}
+}
+
+GER_THEME_BATTLE_IMPERIAL = {
+	name = NAME_THEME_BATTLES
+
+	for_countries = { GER GEA BAT MAF }
+
+	type = ship
+	prefix = "SMS "
+	fallback_name = "Schiff %d"
+
+	ordered = {
+		1 = { "Skaggerak" }
+		2 = { "Teutoburger Wald" }
+		3 = { "Flandern" }
+		4 = { "Verdun" }
+		5 = { "Sedan" }
+		6 = { "Königgrätz" }
+		7 = { "Leuthen" }
+		8 = { "Soor" }
+		17 = { "Tannenberg" }
+		9 = { "Kesselsdorf" }
+		28 = { "Pirmasens" }
+		29 = { "Großbeeren" }
+		10 = { "La Rothière" }
+		11 = { "Kulm" }
+		12 = { "Belle-Alliance" }
+		24 = { "Düppeler Schanzen" }
+		25 = { "Trautenau" }
+		13 = { "Helgoland" }
+		14 = { "Doggerbank" }
+		15 = { "Coronel" }
+		16 = { "Penang" }
+		26 = { "Saint-Mihiel" }
+	}
+}
+
+GER_THEME_FISH_IMPERIAL = {
+	name = NAME_THEME_FISH
+
+	for_countries = { GER GEA BAT MAF }
+
+	type = ship
+	prefix = "SMS "
+	fallback_name = "Schiff %d"
+
+	ordered = {
+		1 = { "Zander" }
+		2 = { "Wels" }
+		3 = { "Hering" }
+		4 = { "Aal" }
+		5 = { "Hecht" }
+		6 = { "Flunder" }
+		7 = { "Dorsch" }
+		8 = { "Hai" }
+		9 = { "Stachelrochen" }
+		10 = { "Neunauge" }
+		11 = { "Bitterling" }
+		12 = { "Lachs" }
+		24 = { "Barsch" }
+		13 = { "Kabeljau" }
+		14 = { "Forelle" }
+		15 = { "Stör" }
+		16 = { "Barbe" }
+		17 = { "Schleie" }
+		18 = { "Sardine" }
+		19 = { "Grundel" }
+		20 = { "Makrele" }
+		21 = { "Heilbutt" }
+		22 = { "Seezunge" }
+		23 = { "Knurrhahn" }
+	}
+}
+
+GER_THEME_RIVERS_IMPERIAL = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { GER GEA BAT MAF }
+
+	type = ship
+	prefix = "SMS "
+
+	ordered = {
+		1 = { "Rhein" }
+		2 = { "Donau" }
+		3 = { "Oder" }
+		4 = { "Warnow" }
+		5 = { "Recknitz" }
+		6 = { "Neiße" }
+		7 = { "Main" }
+		8 = { "Trave" }
+		9 = { "Uecker" }
+		28 = { "Jade" }
+		29 = { "Elbe" }
+		10 = { "Inn" }
+		11 = { "Isar" }
+		12 = { "Maas" }
+		24 = { "Ruhr" }
+		25 = { "Spree" }
+		13 = { "Mosel" }
+		14 = { "Wupper" }
+		15 = { "Saar" }
+		16 = { "Alf" }
+		17 = { "Neckar" }
+		18 = { "Sauer" }
+		19 = { "Weser" }
+		20 = { "Aller" }
+		21 = { "Fulda" }
+		22 = { "Werra" }
+		23 = { "Alster" }
+		26 = { "Havel" }
+	}
+}
+

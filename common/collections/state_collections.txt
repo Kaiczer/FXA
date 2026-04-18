@@ -83,19 +83,6 @@ faction_owned_core_states = {
 	name = COLLECTION_FACTION_OWNED_CORE_STATES
 }
 
-all_entente_cores_and_claims = {
-	input = constant:state_groups.entente_cores_and_claims
-	name = collection_all_entente_cores_and_claims
-}
-
-all_owned_entente_cores_and_claims = {
-	input = collection:all_entente_cores_and_claims
-	name = collection_all_owned_entente_cores_and_claims
-	operators = {
-		limit = { owner = { is_ally_with = ROOT } }
-	}
-}
-
 all_balkan_states = {
 	input = constant:state_groups.balkan_peninsula
 	name = collection_all_balkan_states

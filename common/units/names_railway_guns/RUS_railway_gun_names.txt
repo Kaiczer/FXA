@@ -1,0 +1,7 @@
+RUS_RG_HISTORICAL = {
+	for_countries = { RUS FER RSA }
+
+	type = railway_gun
+
+	fallback_name = "%dya otdelnaya zheleznodorozhnaya artilleriyskaya batareya"
+}
