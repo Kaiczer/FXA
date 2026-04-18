@@ -50,10 +50,11 @@ every_country = {
 }
 
 set_popularities = {
-	paternalism = 48
-	social_conservatism = 14
-	national_corporatism = 13
+	revolutionary_socialism = 3
 	social_democracy = 15
+	social_conservatism = 14
+	paternalism = 45
+	national_corporatism = 13
 	despotism = 10
 }
 
@@ -65,7 +66,8 @@ set_politics = {
 }
 
 ## Countries Leader ##
-recruit_character = RHI_Konrad_Adenauer
 recruit_character = RHI_Paul_Tirard
-recruit_character = RHI_Hans_Adam_Dorten
-recruit_character = RHI_Josef_Friedrich_Matthes
+# recruit_character = RHI_Josef_Smeets # Socialist Sovereigntist 
+recruit_character = RHI_Josef_Friedrich_Matthes # Democrat Sovereigtist
+recruit_character = RHI_Konrad_Adenauer # Convervative Sovereigtist
+recruit_character = RHI_Hans_Adam_Dorten # Localist Sovereigntist (Pro-French, Anti-German) 
