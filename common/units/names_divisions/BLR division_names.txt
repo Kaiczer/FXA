@@ -34,7 +34,7 @@
 BLR_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "infantry" }
 
@@ -72,7 +72,7 @@ BLR_INF_01 = {
 BLR_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "cavalry" }
 
@@ -100,7 +100,7 @@ BLR_CAV_01 = {
 BLR_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "motorized" }
 
@@ -138,7 +138,7 @@ BLR_MOT_01 = {
 BLR_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -166,7 +166,7 @@ BLR_ARM_01 = {
 BLR_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "mechanized" }
 
@@ -204,7 +204,7 @@ BLR_MEC_01 = {
 BLR_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "infantry" }
 
@@ -242,7 +242,7 @@ BLR_GAR_01 = {
 BLR_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "marine" }
 
@@ -280,7 +280,7 @@ BLR_MAR_01 = {
 BLR_MIL_01 = {
 	name = div_militia_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "infantry" }
 
@@ -308,7 +308,7 @@ BLR_MIL_01 = {
 BLR_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "mountaineers" }
 
@@ -346,7 +346,7 @@ BLR_MTN_01 = {
 BLR_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { BLR }
+	for_countries = { BLR BSR }
 
 	division_types = { "paratrooper" }
 
