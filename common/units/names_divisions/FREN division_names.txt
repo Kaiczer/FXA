@@ -36,7 +36,7 @@
 FREN_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "infantry" }
 
@@ -74,7 +74,7 @@ FREN_INF_01 = {
 FREN_INFB_01 = {
 	name = div_infantry_brigade
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "infantry" }
 
@@ -112,7 +112,7 @@ FREN_INFB_01 = {
 FREN_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "cavalry" }
 
@@ -140,7 +140,7 @@ FREN_CAV_01 = {
 FREN_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "motorized" }
 
@@ -168,7 +168,7 @@ FREN_MOT_01 = {
 FREN_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "light_armor" "medium_armor" "mechanized" }
 
@@ -196,7 +196,7 @@ FREN_MEC_01 = {
 FREN_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -224,7 +224,7 @@ FREN_ARM_01 = {
 FREN_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "paratrooper" }
 
@@ -252,7 +252,7 @@ FREN_PAR_01 = {
 FREN_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "marine" }
 
@@ -280,7 +280,7 @@ FREN_MAR_01 = {
 FREN_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "mountaineers" }
 
@@ -308,7 +308,7 @@ FREN_MTN_01 = {
 FREN_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "infantry" }
 
@@ -336,7 +336,7 @@ FREN_GAR_01 = {
 FREN_MIL_01 = {
 	name = div_militia_division
 
-	for_countries = { HAI ANT QUE MRT NGR MLI SEN IVO GNA VOL CHA GAB BRI LIL FRP KTG }	# Includes names for Haiti and French-speaking releasable nations
+	for_countries = { FPP HAI WEA EQA QUE FIC MRT SEN GNA IVO MSL MLI DAH NGR AYR ADA CHA OBG CMR GAB MAD }	# Includes names for Haiti and French-speaking releasable nations
 
 	division_types = { "irregular_infantry" "militia" }
 

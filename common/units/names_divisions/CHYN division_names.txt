@@ -33,7 +33,7 @@
 CHYN_INF_01 = {
 	name = div_infantry_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "infantry" }
 
@@ -52,7 +52,7 @@ CHYN_INF_01 = {
 CHYN_CAV_01 = {
 	name = div_cavalry_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "cavalry" }
 
@@ -71,7 +71,7 @@ CHYN_CAV_01 = {
 CHYN_MOT_01 = {
 	name = div_motorised_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "motorized" }
 
@@ -90,7 +90,7 @@ CHYN_MOT_01 = {
 CHYN_MEC_01 = {
 	name = div_mechanised_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "mechanized" }
 
@@ -109,7 +109,7 @@ CHYN_MEC_01 = {
 CHYN_ARM_01 = {
 	name = div_armoured_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -128,7 +128,7 @@ CHYN_ARM_01 = {
 CHYN_PAR_01 = {
 	name = div_paratrooper_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "paratrooper" }
 
@@ -147,7 +147,7 @@ CHYN_PAR_01 = {
 CHYN_MAR_01 = {
 	name = div_marine_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "marine" }
 
@@ -166,7 +166,7 @@ CHYN_MAR_01 = {
 CHYN_MTN_01 = {
 	name = div_mountain_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "mountaineers" }
 
@@ -185,7 +185,7 @@ CHYN_MTN_01 = {
 CHYN_GAR_01 = {
 	name = div_garrison_unit
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "infantry" }
 
@@ -204,7 +204,7 @@ CHYN_GAR_01 = {
 CHYN_MIL_01 = {
 	name = div_CHY_minbing
 
-	for_countries = { ANQ HNN SHX SHD SZC }
+	for_countries = { TNJ HNN SHX SDL SCH }
 
 	division_types = { "infantry" }
 

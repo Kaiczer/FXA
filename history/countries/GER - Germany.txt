@@ -4,7 +4,7 @@ set_stability = 0.37
 set_war_support = 0.23
 set_cosmetic_tag = GER_preuni
 
-load_oob = "GER"
+oob = "GER"
 
 set_technology = {
 	infantry_weapons = 1
