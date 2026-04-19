@@ -365,7 +365,7 @@ war_exhaustion_monthly_calculation = {
 			set_variable = { war_exhaustion_mobilization_change = 0.6 }
 		}
 		else_if = {
-			limit = { has_idea = total_economic_mobilisation }
+			limit = { has_idea = tot_economic_mobilisation }
 			add_to_variable = { exhaustion_growth = 0.8 }
 			set_variable = { war_exhaustion_mobilization_change = 0.8 }
 		}
