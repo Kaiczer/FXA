@@ -31,10 +31,10 @@
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
 
-KAC_INF_01 = {
+KCH_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "infantry" }
 
@@ -148,10 +148,10 @@ KAC_INF_01 = {
 	}
 }
 
-KAC_CAV_01 = {
+KCH_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "cavalry" }
 
@@ -219,15 +219,15 @@ KAC_CAV_01 = {
 	}
 }
 
-KAC_MOT_01 = {
+KCH_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { KAC_INF_01 }
+	link_numbering_with = { KCH_INF_01 }
 
 	fallback_name = "%d. Motor Division"
 
@@ -270,15 +270,15 @@ KAC_MOT_01 = {
 	}
 }
 
-KAC_ARM_01 = {
+KCH_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { KAC_CAV_01 }
+	link_numbering_with = { KCH_CAV_01 }
 
 	fallback_name = "%d. Armoured Division"
 
@@ -321,15 +321,15 @@ KAC_ARM_01 = {
 	}
 }
 
-KAC_MEC_01 = {
+KCH_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { KAC_CAV_01 }
+	link_numbering_with = { KCH_CAV_01 }
 
 	fallback_name = "%d. Mechanised Division"
 
@@ -372,15 +372,15 @@ KAC_MEC_01 = {
 	}
 }
 
-KAC_MIL_01 = {
+KCH_MIL_01 = {
 	name = div_militia_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { KAC_INF_01 }
+	#link_numbering_with = { KCH_INF_01 }
 
 	fallback_name = "%d. Militia Battalion"
 
@@ -444,15 +444,15 @@ KAC_MIL_01 = {
 	}
 }
 
-KAC_GAR_01 = {
+KCH_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { KAC_INF_01 }
+	#link_numbering_with = { KCH_INF_01 }
 
 	fallback_name = "%d. Garrison"
 
@@ -514,15 +514,15 @@ KAC_GAR_01 = {
 	}
 }
 
-KAC_MAR_01 = {
+KCH_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { KAC_GAR_01 }
+	#link_numbering_with = { KCH_GAR_01 }
 
 	fallback_name = "%d. Kachin Marine Division"
 
@@ -562,15 +562,15 @@ KAC_MAR_01 = {
 	}
 }
 
-KAC_MTN_01 = {
+KCH_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { KAC_INF_01 }
+	link_numbering_with = { KCH_INF_01 }
 
 	fallback_name = "%d. Special Forces Div."
 
@@ -633,10 +633,10 @@ KAC_MTN_01 = {
 	}
 }
 
-KAC_PAR_01 = {
+KCH_PAR_01 = {
 	name = div_airborne_division
 
-	for_countries = { KAC }
+	for_countries = { KCH }
 
 	division_types = { "paratrooper" }
 

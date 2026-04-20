@@ -296,22 +296,22 @@ SPA_GAR_01 = {
 	}
 }
 
-SPA_INF_02 = {
-	name = div_SPA_carlist_requetes
+# SPA_INF_02 = {
+# 	name = div_SPA_carlist_requetes
 
-	for_countries = { SPA }
+# 	for_countries = { SPA }
 
-	can_use = {
-		has_country_leader = { character = SPR_francisco_javier_de_borbon_parma_y_braganza }
-	}
+# 	can_use = {
+# 		has_country_leader = { character = SPR_francisco_javier_de_borbon_parma_y_braganza }
+# 	}
 
-	division_types = { "infantry" }
+# 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPA_INF_01 }
+# 	# Number reservation system will tie to another group.
+# 	#link_numbering_with = { SPA_INF_01 }
 
-	fallback_name = "%d° Requeté"
-}
+# 	fallback_name = "%d° Requeté"
+# }
 
 SPA_INF_03 = {
 	name = div_SPA_anarchist_brigade
@@ -373,32 +373,32 @@ SPA_INF_04 = {
 	}
 }
 
-SPA_INF_05 = {
-	name = div_SPA_army_of_africa
+# SPA_INF_05 = {
+# 	name = div_SPA_army_of_africa
 
-	for_countries = { SPA }
+# 	for_countries = { SPA }
 
-	can_use = {
-		tag = SPK
-	}
+# 	can_use = {
+# 		tag = SPK
+# 	}
 
-	division_types = { "infantry" }
+# 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SPA_INF_01 }
+# 	# Number reservation system will tie to another group.
+# 	#link_numbering_with = { SPA_INF_01 }
 
-	fallback_name = "%da Ejército de África"
+# 	fallback_name = "%da Ejército de África"
 
-	ordered = {
-		1 = { "%da Ejército de África 'Regulares'" }
-		2 = { "%da Ejército de África 'Mehal-la Jalifiana'" }
-		3 = { "%da Ejército de África 'Tiradores del Ifni'" }
-		4 = { "%da Ejército de África 'Legión'" }
-		5 = { "%da Ejército de África" }
-		6 = { "%da Ejército de África" }
-		7 = { "%da Ejército de África" }
-		8 = { "%da Ejército de África" }
-		9 = { "%da Ejército de África" }
-		10 = { "%da Ejército de África" }
-	}
-}
+# 	ordered = {
+# 		1 = { "%da Ejército de África 'Regulares'" }
+# 		2 = { "%da Ejército de África 'Mehal-la Jalifiana'" }
+# 		3 = { "%da Ejército de África 'Tiradores del Ifni'" }
+# 		4 = { "%da Ejército de África 'Legión'" }
+# 		5 = { "%da Ejército de África" }
+# 		6 = { "%da Ejército de África" }
+# 		7 = { "%da Ejército de África" }
+# 		8 = { "%da Ejército de África" }
+# 		9 = { "%da Ejército de África" }
+# 		10 = { "%da Ejército de África" }
+# 	}
+# }

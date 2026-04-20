@@ -90,7 +90,7 @@ SER_INF_01 = {
 SER_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "cavalry" }
 
@@ -174,7 +174,7 @@ SER_MOT_01 = {
 SER_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" }
 
@@ -202,7 +202,7 @@ SER_ARM_01 = {
 SER_ARM_02 = {
 	name = div_armoured_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -286,7 +286,7 @@ SER_MEC_01 = {
 SER_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "infantry" }
 
@@ -314,7 +314,7 @@ SER_GAR_01 = {
 SER_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "marine" }
 
@@ -379,7 +379,7 @@ SER_MTN_01 = {
 SER_MTN_02 = {
 	name = div_mountain_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "mountaineers" }
 
@@ -407,7 +407,7 @@ SER_MTN_02 = {
 SER_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { SER MNT }
+	for_countries = { SER MNE }
 
 	division_types = { "paratrooper" }
 
@@ -431,15 +431,15 @@ SER_PAR_01 = {
 	}
 }
 
-MNT_INF_01 = {
+MNE_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { MNT }
+	for_countries = { MNE }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { MNT_MOT_01 MNT_MEC_01 }
+	link_numbering_with = { MNE_MOT_01 MNE_MEC_01 }
 
 	fallback_name = "%d. Pesadijska Divizija"
 
@@ -459,15 +459,15 @@ MNT_INF_01 = {
 	}
 }
 
-MNT_MOT_01 = {
+MNE_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { MNT }
+	for_countries = { MNE }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { MNT_INF_01 MNT_MEC_01 }
+	link_numbering_with = { MNE_INF_01 MNE_MEC_01 }
 
 	fallback_name = "%d. Motorizovana Divizija"
 
@@ -487,15 +487,15 @@ MNT_MOT_01 = {
 	}
 }
 
-MNT_MEC_01 = {
+MNE_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { MNT }
+	for_countries = { MNE }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { MNT_INF_01 MNT_MOT_01 }
+	link_numbering_with = { MNE_INF_01 MNE_MOT_01 }
 
 	fallback_name = "%d. Mehanizovana Divizija"
 

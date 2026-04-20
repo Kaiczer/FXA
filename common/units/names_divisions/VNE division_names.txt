@@ -1,6 +1,6 @@
-VNC_INF_01 = {# Infantry
+VNE_INF_01 = {# Infantry
 	name = div_infantry_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "infantry" }
 	fallback_name = "%da Divisione di Fanteria"
 	ordered = {
@@ -31,9 +31,9 @@ VNC_INF_01 = {# Infantry
 		25 = { "%da Divisione di Fanteria" }
 	}
 }
-VNC_CAV_01 = {# Cavalry
+VNE_CAV_01 = {# Cavalry
 	name = div_cavalry_regiment
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "cavalry" }
 	fallback_name = "%d° Reggimento di Cappelletti"
 	ordered = {
@@ -59,11 +59,11 @@ VNC_CAV_01 = {# Cavalry
 		20 = { "%d° Reggimento di Cappelletti" }
 	}
 }
-VNC_MOT_01 = {# Motorized
+VNE_MOT_01 = {# Motorized
 	name = div_motorised_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "motorized" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%da Divisione Motorizzata"
 	ordered = {
 		106 = { "%da Divisione Motorizzata" }
@@ -78,11 +78,11 @@ VNC_MOT_01 = {# Motorized
 		115 = { "%da Divisione Motorizzata" }
 	}
 }
-VNC_MEC_01 = {# Mechanized
+VNE_MEC_01 = {# Mechanized
 	name = div_mechanised_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "mechanized" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%da Divisione Meccanizzata"
 	ordered = {
 		116 = { "%da Divisione Meccanizzata" }
@@ -102,11 +102,11 @@ VNC_MEC_01 = {# Mechanized
 		130 = { "%da Divisione Meccanizzata" }
 	}
 }
-VNC_ARM_01 = {# Tanks
+VNE_ARM_01 = {# Tanks
 	name = div_armoured_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%da Divisione Corazzata"
 	ordered = {
 		132 = { "%da Divisione Corazzata 'Ariete'" }
@@ -131,9 +131,9 @@ VNC_ARM_01 = {# Tanks
 		150 = { "%da Divisione Corazzata" }
 	}
 }
-VNC_MAR_01 = {# Marines
+VNE_MAR_01 = {# Marines
 	name = div_marine_regiment
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "marine" }
 	fallback_name = "%d° Fanti da Mar"
 	ordered = {
@@ -154,9 +154,9 @@ VNC_MAR_01 = {# Marines
 		15 = { "%d° Fanti da Mar" }
 	}
 }
-VNC_MTN_01 = {# Mountaineers
+VNE_MTN_01 = {# Mountaineers
 	name = div_mountain_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "mountaineers" }
 	fallback_name = "%da Divisione Alpina"
 	ordered = {
@@ -170,11 +170,11 @@ VNC_MTN_01 = {# Mountaineers
 		8 = { "%da Divisione Alpina 'Cadore'" }
 	}
 }
-VNC_PAR_01 = {# Paratrooper
+VNE_PAR_01 = {# Paratrooper
 	name = div_paratrooper_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "paratrooper" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%da Divisione Paracadutisti"
 	ordered = {
 		80 = { "%da Divisione Aviotrasportabile 'La Spezia'" }
@@ -189,11 +189,11 @@ VNC_PAR_01 = {# Paratrooper
 		189 = { "%da Divisione Paracadutisti" }
 	}
 }
-VNC_GAR_01 = {# Garrison
+VNE_GAR_01 = {# Garrison
 	name = div_garrison_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "infantry" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%da Cernida"
 	ordered = {
 		201 = { "%da Divisione Costiera" }
@@ -229,11 +229,11 @@ VNC_GAR_01 = {# Garrison
 		229 = { "%da Divisione Costiera" }
 	}
 }
-VNC_MIL_01 = {# Militia
+VNE_MIL_01 = {# Militia
 	name = div_militia_division
-	for_countries = { VNC }
+	for_countries = { VNE }
 	division_types = { "infantry" }
-	link_numbering_with = { VNC_INF_01 }
+	link_numbering_with = { VNE_INF_01 }
 	fallback_name = "%s Volontari della Libertà"
 	ordered = {
 		1 = { "%da Volontari della Libertà 'Leon de San Marco'" }

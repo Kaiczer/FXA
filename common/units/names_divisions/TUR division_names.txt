@@ -31,7 +31,7 @@
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
 
-OTT_INF_01 = {
+TUR_INF_01 = {
 	name = div_infantry_division
 
 	for_countries = { TUR }
@@ -39,7 +39,7 @@ OTT_INF_01 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { OTT_GAR_01 }
+	#link_numbering_with = { TUR_GAR_01 }
 
 	fallback_name = "%d. Piyade Fırkası"
 
@@ -102,7 +102,7 @@ OTT_INF_01 = {
 	}
 }
 
-OTT_CAV_01 = {
+TUR_CAV_01 = {
 	name = div_cavalry_division
 
 	for_countries = { TUR }
@@ -150,7 +150,7 @@ OTT_CAV_01 = {
 	}
 }
 
-OTT_CAV_02 = {
+TUR_CAV_02 = {
 	name = div_cavalry_division
 
 	for_countries = { TUR }
@@ -178,7 +178,7 @@ OTT_CAV_02 = {
 	}
 }
 
-OTT_MOT_01 = {
+TUR_MOT_01 = {
 	name = div_motorised_division
 
 	for_countries = { TUR }
@@ -186,7 +186,7 @@ OTT_MOT_01 = {
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { OTT_INF_01 }
+	link_numbering_with = { TUR_INF_01 }
 
 	fallback_name = "%d. Motorize Fırkası"
 
@@ -206,7 +206,7 @@ OTT_MOT_01 = {
 	}
 }
 
-OTT_ARM_01 = {
+TUR_ARM_01 = {
 	name = div_armoured_division
 
 	for_countries = { TUR }
@@ -214,7 +214,7 @@ OTT_ARM_01 = {
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { OTT_INF_01 }
+	#link_numbering_with = { TUR_INF_01 }
 
 	fallback_name = "%d. Zirhli Fırkası"
 
@@ -234,7 +234,7 @@ OTT_ARM_01 = {
 	}
 }
 
-OTT_MEC_01 = {
+TUR_MEC_01 = {
 	name = div_mechanised_division
 
 	for_countries = { TUR }
@@ -242,7 +242,7 @@ OTT_MEC_01 = {
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { OTT_INF_01 }
+	link_numbering_with = { TUR_INF_01 }
 
 	fallback_name = "%d. Mekanize Fırkası"
 
@@ -262,7 +262,7 @@ OTT_MEC_01 = {
 	}
 }
 
-OTT_GAR_01 = {
+TUR_GAR_01 = {
 	name = div_garrison_division
 
 	for_countries = { TUR }
@@ -270,7 +270,7 @@ OTT_GAR_01 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { OTT_INF_01 }
+	link_numbering_with = { TUR_INF_01 }
 
 	fallback_name = "%d. Muhafız Piyade Fırkası"
 
@@ -333,7 +333,7 @@ OTT_GAR_01 = {
 	}
 }
 
-OTT_MAR_01 = {
+TUR_MAR_01 = {
 	name = div_marine_division
 
 	for_countries = { TUR }
@@ -341,7 +341,7 @@ OTT_MAR_01 = {
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { OTT_GAR_01 }
+	#link_numbering_with = { TUR_GAR_01 }
 
 	fallback_name = "%d. Amfibi Deniz Piyade Tugayı"
 
@@ -361,7 +361,7 @@ OTT_MAR_01 = {
 	}
 }
 
-OTT_MTN_01 = {
+TUR_MTN_01 = {
 	name = div_mountain_division
 
 	for_countries = { TUR }
@@ -369,7 +369,7 @@ OTT_MTN_01 = {
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { OTT_MEC_01 }
+	#link_numbering_with = { TUR_MEC_01 }
 
 	fallback_name = "%d. Dağcı Fırka"
 
@@ -418,7 +418,7 @@ OTT_MTN_01 = {
 	}
 }
 
-OTT_PAR_01 = {
+TUR_PAR_01 = {
 	name = div_paratrooper_division
 
 	for_countries = { TUR }
@@ -445,7 +445,7 @@ OTT_PAR_01 = {
 	}
 }
 
-OTT_MIL_01 = {
+TUR_MIL_01 = {
 	name = div_militia_division
 
 	for_countries = { TUR }
@@ -453,7 +453,7 @@ OTT_MIL_01 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { OTT_INF_01 }
+	link_numbering_with = { TUR_INF_01 }
 
 	fallback_name = "%d. Redif Piyade Fırkası"
 

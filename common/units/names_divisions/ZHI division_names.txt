@@ -1,7 +1,7 @@
-LEP_INF_01 = {
-	name = div_LEP_bubing_zhen
+ZHI_INF_01 = {
+	name = div_ZHI_bubing_zhen
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "infantry" }
 
@@ -37,10 +37,10 @@ LEP_INF_01 = {
 	}
 }
 
-LEP_INF_02 = {
-	name = div_LEP_bubing_xie
+ZHI_INF_02 = {
+	name = div_ZHI_bubing_xie
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "infantry" }
 
@@ -81,10 +81,10 @@ LEP_INF_02 = {
 	}
 }
 
-LEP_INF_03 = {
-	name = div_LEP_paobing_zhen
+ZHI_INF_03 = {
+	name = div_ZHI_paobing_zhen
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "infantry" }
 
@@ -99,10 +99,10 @@ LEP_INF_03 = {
 	}
 }
 
-LEP_MIL_01 = {
-	name = div_LEP_minbing
+ZHI_MIL_01 = {
+	name = div_ZHI_minbing
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "irregular_infantry" "militia" }
 
@@ -143,37 +143,10 @@ LEP_MIL_01 = {
 	}
 }
 
-LEP_MIL_02 = {
-	name = div_LEP_polizeitruppe
+ZHI_CAV_01 = {
+	name = div_ZHI_qibing_xie
 
-	for_countries = { LEP }
-
-	division_types = { "irregular_infantry" "militia" }
-
-	# Number reservation system will tie to another group.
-
-	fallback_name = "%d. Bubing Zhen"
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
-		1 = { "Hilfstruppe 'Xiamen'" }
-		2 = { "Hilfstruppe 'Wuxi'" }
-		3 = { "Hilfstruppe 'Nanjing'" }
-		4 = { "Hilfstruppe 'Wenzhou'" }
-		5 = { "Hilfstruppe 'Nantong'" }
-		6 = { "Hilfstruppe 'Kulangsu'" }
-		7 = { "%d. Hilfstruppe" }
-		8 = { "%d. Hilfstruppe" }
-		9 = { "%d. Hilfstruppe" }
-		10 = { "%d. Hilfstruppe" }
-	}
-}
-
-LEP_CAV_01 = {
-	name = div_LEP_qibing_xie
-
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "cavalry" }
 
@@ -210,10 +183,10 @@ LEP_CAV_01 = {
 	}
 }
 
-LEP_MOT_01 = {
+ZHI_MOT_01 = {
 	name = div_motorised_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "motorized" }
 
@@ -228,15 +201,15 @@ LEP_MOT_01 = {
 	}
 }
 
-LEP_MEC_01 = {
+ZHI_MEC_01 = {
 	name = div_mechanised_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { LEP_INF_01 }
+	link_numbering_with = { ZHI_INF_01 }
 
 	fallback_name = "Jixiehua Bubing di %d Zhen"
 
@@ -247,15 +220,15 @@ LEP_MEC_01 = {
 	}
 }
 
-LEP_ARM_01 = {
+ZHI_ARM_01 = {
 	name = div_armoured_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { LEP_INF_01 }
+	#link_numbering_with = { ZHI_INF_01 }
 
 	fallback_name = "Zhuangjia di %d Xie"
 
@@ -266,15 +239,15 @@ LEP_ARM_01 = {
 	}
 }
 
-LEP_PAR_01 = {
+ZHI_PAR_01 = {
 	name = div_paratrooper_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { LEP_INF_01 }
+	#link_numbering_with = { ZHI_INF_01 }
 
 	fallback_name = "Sanbing di %d Xie"
 
@@ -285,15 +258,15 @@ LEP_PAR_01 = {
 	}
 }
 
-LEP_MAR_01 = {
+ZHI_MAR_01 = {
 	name = div_marine_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { LEP_INF_01 }
+	#link_numbering_with = { ZHI_INF_01 }
 
 	fallback_name = "Luzhan Dui di %d Xie"
 
@@ -304,15 +277,15 @@ LEP_MAR_01 = {
 	}
 }
 
-LEP_MTN_01 = {
+ZHI_MTN_01 = {
 	name = div_mountain_unit
 
-	for_countries = { LEP }
+	for_countries = { ZHI }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { LEP_INF_01 }
+	link_numbering_with = { ZHI_INF_01 }
 
 	fallback_name = "Shandi di %d Xie"
 

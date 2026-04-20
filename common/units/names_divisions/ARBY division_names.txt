@@ -31,9 +31,9 @@
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
 
-SAU_INF_01 = {
+ARBY_INF_01 = {
 	name = div_infantry_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "infantry" }
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
@@ -63,10 +63,10 @@ SAU_INF_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists.
 	}
 }
-SAU_MIL_01 = {
+ARBY_MIL_01 = {
 	name = div_militia_division
 
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 
 	division_types = { "infantry" }
 
@@ -99,9 +99,9 @@ SAU_MIL_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists.
 	}
 }
-SAU_CAV_01 = {
+ARBY_CAV_01 = {
 	name = div_cavalry_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "cavalry" }
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
@@ -133,12 +133,12 @@ SAU_CAV_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists. As they were the same as the Cav division names, have had the numbers linked.
 	}
 }
-SAU_MOT_01 = {
+ARBY_MOT_01 = {
 	name = div_motorised_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "motorized" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_INF_01 }
+	link_numbering_with = { ARBY_INF_01 }
 	fallback_name = "Alfurqat al-%di"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -166,12 +166,12 @@ SAU_MOT_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
-SAU_ARM_01 = {
+ARBY_ARM_01 = {
 	name = div_armoured_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_CAV_01 }
+	link_numbering_with = { ARBY_CAV_01 }
 	fallback_name = "Alfursan Almalika al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -200,12 +200,12 @@ SAU_ARM_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists. As they were the same as the Cav division names, have had the numbers linked.
 	}
 }
-SAU_MEC_01 = {
+ARBY_MEC_01 = {
 	name = div_mechanised_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "mechanized" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_INF_01 }
+	link_numbering_with = { ARBY_INF_01 }
 	fallback_name = "Alfurqat al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -232,12 +232,12 @@ SAU_MEC_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
-SAU_GAR_01 = {
+ARBY_GAR_01 = {
 	name = div_garrison_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "infantry" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_INF_01 }
+	link_numbering_with = { ARBY_INF_01 }
 	fallback_name = "Alfurqat al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -265,12 +265,12 @@ SAU_GAR_01 = {
 		# Adapted from combining the names of the HoI4 division template name and the HoI3 SAU division lists. As they were the same as the inf division names, have had the numbers linked.
 	}
 }
-SAU_MAR_01 = {
+ARBY_MAR_01 = {
 	name = div_marine_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "marine" }
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SAU_MAR_01 }
+	#link_numbering_with = { ARBY_MAR_01 }
 	fallback_name = "al-Mushati al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -290,12 +290,12 @@ SAU_MAR_01 = {
 		# Taken from HoI3 division lists.
 	}
 }
-SAU_MTN_01 = {
+ARBY_MTN_01 = {
 	name = div_mountain_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "mountaineers" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_MAR_01 }
+	link_numbering_with = { ARBY_MAR_01 }
 	fallback_name = "al-Mushati al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -315,12 +315,12 @@ SAU_MTN_01 = {
 		# Taken from HoI3 division lists. As they were the same as the MAR division names, have had the numbers linked.
 	}
 }
-SAU_PAR_01 = {
+ARBY_PAR_01 = {
 	name = div_paratrooper_division
-	for_countries = { SAU JBS YEM HEJ IKH TRU }
+	for_countries = { SAU RAS YEM HEJ TRU }
 	division_types = { "paratrooper" }
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SAU_MAR_01 }
+	link_numbering_with = { ARBY_MAR_01 }
 	fallback_name = "al-Mushati al-%dr"
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.

@@ -30,15 +30,15 @@
 #									where you choose the historical division name.
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
-WAL_INF_01 = {
+WLL_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division d'Infanterie"
 
@@ -97,15 +97,15 @@ WAL_INF_01 = {
 	}
 }
 
-WAL_CAV_01 = {
+WLL_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division de Cavalerie"
 
@@ -125,15 +125,15 @@ WAL_CAV_01 = {
 	}
 }
 
-WAL_MOT_01 = {
-	name = div_WAL_motorised_cavalry
+WLL_MOT_01 = {
+	name = div_WLL_motorised_cavalry
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Div. de Cavalerie Motorisée"
 
@@ -153,15 +153,15 @@ WAL_MOT_01 = {
 	}
 }
 
-WAL_MEC_01 = {
-	name = div_WAL_mechanised_cavalry
+WLL_MEC_01 = {
+	name = div_WLL_mechanised_cavalry
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { WAL_MOT_01 }
+	link_numbering_with = { WLL_MOT_01 }
 
 	fallback_name = "%dème Div. de Cavalerie Mécanisée"
 
@@ -181,15 +181,15 @@ WAL_MEC_01 = {
 	}
 }
 
-WAL_ARM_01 = {
+WLL_ARM_01 = {
 	name = div_tank_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division de Chars"
 
@@ -209,15 +209,15 @@ WAL_ARM_01 = {
 	}
 }
 
-WAL_PAR_01 = {
+WLL_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division de Paracommando"
 
@@ -237,15 +237,15 @@ WAL_PAR_01 = {
 	}
 }
 
-WAL_MAR_01 = {
+WLL_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { WAL_INF_01 }
+	#link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Div. d'Infanterie de Marine"
 
@@ -265,15 +265,15 @@ WAL_MAR_01 = {
 	}
 }
 
-WAL_MTN_01 = {
+WLL_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { WAL_INF_01 }
+	link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division d'Infanterie"
 
@@ -328,15 +328,15 @@ WAL_MTN_01 = {
 	}
 }
 
-WAL_GAR_01 = {
+WLL_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { WAL }
+	for_countries = { WLL }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { WAL_INF_01 }
+	link_numbering_with = { WLL_INF_01 }
 
 	fallback_name = "%dème Division Statique"
 
@@ -366,7 +366,7 @@ WAL_GAR_01 = {
 	}
 }
 
-WAL_MIL_01 = {
+WLL_MIL_01 = {
 	name = div_militia_division
 
 	for_countries = { DAH }

@@ -31,15 +31,15 @@
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
 
-SHA_INF_01 = {
+SHN_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Rarb Thi %d" # %dth Infantry Div.
 
@@ -92,15 +92,15 @@ SHA_INF_01 = {
 	}
 }
 
-SHA_MLT_01 = {
+SHN_MLT_01 = {
 	name = div_militia_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Arsasamak Thi %d"
 
@@ -125,15 +125,15 @@ SHA_MLT_01 = {
 	}
 }
 
-SHA_CAV_01 = {
+SHN_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Mah Thi %d" # %dth Cavalry Div.
 
@@ -144,15 +144,15 @@ SHA_CAV_01 = {
 	}
 }
 
-SHA_MOT_01 = {
+SHN_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "motorized" "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SHA_INF_01 }
+	link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Yarnghor Thi %d"
 
@@ -163,15 +163,15 @@ SHA_MOT_01 = {
 	}
 }
 
-SHA_ARM_01 = {
+SHN_ARM_01 = {
 	name = div_tank_group
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Lottang Thi %d"
 
@@ -182,15 +182,15 @@ SHA_ARM_01 = {
 	}
 }
 
-SHA_PAR_01 = {
+SHN_PAR_01 = {
 	name = div_airborne_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Dode Jong Thi %d"
 
@@ -201,15 +201,15 @@ SHA_PAR_01 = {
 	}
 }
 
-SHA_MAR_01 = {
+SHN_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { SHA_INF_01 }
+	#link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Ruea Thi %d"
 
@@ -220,15 +220,15 @@ SHA_MAR_01 = {
 	}
 }
 
-SHA_MTN_01 = {
+SHN_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { SHA }
+	for_countries = { SHN }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SHA_INF_01 }
+	link_numbering_with = { SHN_INF_01 }
 
 	fallback_name = "Korngpon Taharn Phukhao Thi %d"
 

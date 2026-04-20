@@ -1,0 +1,30 @@
+ADA_INF_01 = {
+	name = div_infantry_division
+
+	for_countries = { ADA AYR }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d Tagelmust Infantry"
+}
+
+ADA_CAV_01 = {
+	name = div_cavalry_division
+
+	for_countries = { ADA AYR }
+
+	division_types = { "cavalry" }
+
+	fallback_name = "%d Mehari Cavalry"
+}
+
+ADA_MIL_01 = {
+	name = div_militia_division
+
+	for_countries = { ADA AYR }
+
+	division_types = { "irregular_infantry" }
+
+	fallback_name = "%d Clan Levy"
+}
+

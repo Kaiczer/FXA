@@ -1,6 +1,6 @@
 IRE_INF_01 = {
 	name = div_infantry_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "infantry" }
 	fallback_name = "%d Infantry Division"
 	ordered = {
@@ -30,7 +30,7 @@ IRE_INF_01 = {
 }
 IRE_CAV_01 = {
 	name = div_cavalry_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "cavalry" }
 	fallback_name = "%d Cavalry Division"
 	ordered = {
@@ -48,7 +48,7 @@ IRE_CAV_01 = {
 }
 IRE_MOT_01 = {
 	name = div_motor_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "motorized" }
 	link_numbering_with = { IRE_INF_01 }
 	fallback_name = "%d Motor Division"
@@ -67,7 +67,7 @@ IRE_MOT_01 = {
 }
 IRE_MEC_01 = {
 	name = div_mechanised_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "mechanized" }
 	link_numbering_with = { IRE_INF_01 }
 	fallback_name = "%d Mechanised Division"
@@ -86,7 +86,7 @@ IRE_MEC_01 = {
 }
 IRE_ARM_01 = {
 	name = div_armoured_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 	fallback_name = "%d Armoured Division"
 	ordered = {
@@ -104,7 +104,7 @@ IRE_ARM_01 = {
 }
 IRE_PAR_01 = {
 	name = div_paratrooper_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "paratrooper" }
 	fallback_name = "%dth Airborne Division"
 	ordered = {
@@ -122,7 +122,7 @@ IRE_PAR_01 = {
 }
 IRE_MAR_01 = {
 	name = div_marine_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "marine" }
 	fallback_name = "%dth Marines Division"
 	ordered = {
@@ -140,7 +140,7 @@ IRE_MAR_01 = {
 }
 IRE_MTN_01 = {
 	name = div_mountain_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "mountaineers" }
 	link_numbering_with = { IRE_INF_01 }
 	fallback_name = "%dth Mountain Division"
@@ -159,7 +159,7 @@ IRE_MTN_01 = {
 }
 IRE_GAR_01 = {
 	name = div_garrison_division
-	for_countries = { IRE NIR }
+	for_countries = { IRE }
 	division_types = { "infantry" }
 	link_numbering_with = { IRE_INF_01 }
 	fallback_name = "%dth Infantry Division"
@@ -188,34 +188,3 @@ IRE_GAR_01 = {
 		22 = { "%dnd Infantry Division" }
 	}
 }
-
-NIR_MIL_01 = {
-	name = div_IRE_ulster_volunteer_forces
-	for_countries = { NIR }
-	division_types = { "infantry" }
-	fallback_name = "%d Ulster Volunteer Unit"
-	ordered = {
-		1 = { "%dst Ulster Volunteer Unit" }
-		2 = { "%dnd Ulster Volunteer Unit" }
-		3 = { "%drd Ulster Volunteer Unit" }
-		4 = { "%dth Ulster Volunteer Unit" }
-		5 = { "%dth Ulster Volunteer Unit" }
-		6 = { "%dth Ulster Volunteer Unit" }
-	}
-}
-
-NIR_MIL_02 = {
-	name = div_IRE_ulster_special_constables
-	for_countries = { NIR }
-	division_types = { "irregular_infantry" }
-	fallback_name = "%d B-Specials"
-	ordered = {
-		1 = { "%dst B-Specials" }
-		2 = { "%dnd B-Specials" }
-		3 = { "%drd B-Specials" }
-		4 = { "%dth B-Specials" }
-		5 = { "%dth B-Specials" }
-		6 = { "%dth B-Specials" }
-	}
-}
-

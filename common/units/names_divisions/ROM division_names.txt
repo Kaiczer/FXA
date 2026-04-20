@@ -34,7 +34,7 @@
 ROM_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "infantry" }
 
@@ -62,7 +62,7 @@ ROM_INF_01 = {
 ROM_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "cavalry" }
 
@@ -87,7 +87,7 @@ ROM_CAV_01 = {
 ROM_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "motorized" }
 
@@ -115,7 +115,7 @@ ROM_MOT_01 = {
 ROM_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -143,7 +143,7 @@ ROM_ARM_01 = {
 ROM_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "mechanized" }
 
@@ -171,7 +171,7 @@ ROM_MEC_01 = {
 ROM_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "infantry" }
 
@@ -199,7 +199,7 @@ ROM_GAR_01 = {
 ROM_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "marine" }
 
@@ -227,7 +227,7 @@ ROM_MAR_01 = {
 ROM_MTN_01 = {
 	name = div_ROM_mountaineer_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "mountaineers" }
 
@@ -255,7 +255,7 @@ ROM_MTN_01 = {
 ROM_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { ROM TRS }
+	for_countries = { ROM TRA MOL }
 
 	division_types = { "paratrooper" }
 

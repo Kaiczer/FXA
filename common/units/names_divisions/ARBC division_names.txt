@@ -33,7 +33,7 @@
 
 EGY_INF_01 = {
 	name = div_infantry_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "infantry" }
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { EGY_GAR_01 }
@@ -65,7 +65,7 @@ EGY_INF_01 = {
 }
 EGY_CAV_01 = {
 	name = div_cavalry_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "cavalry" "camelry" }
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
@@ -92,7 +92,7 @@ EGY_CAV_01 = {
 }
 EGY_MOT_01 = {
 	name = div_motorised_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "motorized" "mechanized" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
@@ -123,7 +123,7 @@ EGY_MOT_01 = {
 }
 EGY_ARM_01 = {
 	name = div_armoured_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_CAV_01 }
@@ -150,7 +150,7 @@ EGY_ARM_01 = {
 }
 EGY_GAR_01 = {
 	name = div_garrison_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "infantry" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
@@ -181,7 +181,7 @@ EGY_GAR_01 = {
 }
 EGY_MAR_01 = {
 	name = div_marine_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "marine" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
@@ -204,7 +204,7 @@ EGY_MAR_01 = {
 }
 EGY_MTN_01 = {
 	name = div_mountain_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "mountaineers" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
@@ -227,7 +227,7 @@ EGY_MTN_01 = {
 }
 EGY_PAR_01 = {
 	name = div_paratrooper_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	division_types = { "paratrooper" }
 	# Number reservation system will tie to another group.
 	link_numbering_with = { EGY_INF_01 }
@@ -250,7 +250,7 @@ EGY_PAR_01 = {
 }
 EGY_MIL_01 = {
 	name = div_militia_division
-	for_countries = { EGY SUD LBA ALG TUN TRP ZAN }
+	for_countries = { EGY SUD LBA ALG TUN ZAN }
 	# Number reservation system will tie to another group.
 	division_types = { "infantry" }
 	fallback_name = "Firqat %d Mīlīshiyā"

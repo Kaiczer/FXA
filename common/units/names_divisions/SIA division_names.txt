@@ -147,55 +147,55 @@ SIA_REPUB_INF_01 = {
 	}
 }
 
-SIA_F_INF_01 = {
-	name = div_SIA_female_infantry_division
+# SIA_F_INF_01 = {
+# 	name = div_SIA_female_infantry_division
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = { has_completed_focus = "SIA_femalecorps" }
+# 	can_use = { has_completed_focus = "SIA_femalecorps" }
 
-	division_types = { "infantry" }
+# 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { SIA_INF_01 }
+# 	# Number reservation system will tie to another group.
+# 	link_numbering_with = { SIA_INF_01 }
 
-	fallback_name = "Korngpon Taharn Ying Thi %d" # %dth Female Infantry Div.
+# 	fallback_name = "Korngpon Taharn Ying Thi %d" # %dth Female Infantry Div.
 
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = {
-		1000 = { "Korngpon Taharn Ying 'Suriyothai'" "'Suriyothai' Female Inf. Division" }
-		2000 = { "Korngpon Taharn Ying 'Suranaree'" "'Suranaree' Female Inf. Division" }
-		3000 = { "Korngpon Taharn Ying 'Thepsatri'" "'Thepsatri' Female Inf. Division" }
-		4000 = { "Korngpon Taharn Ying 'Srisunthorn'" "'Srisunthorn' Female Inf. Division" }
-		1 = { "Korngpon Taharn Ying Thi %d" }
-	}
-}
+# 	# Names with numbers (only one number per entry).
+# 	# It's okay to have gaps in numbering.
+# 	ordered = {
+# 		1000 = { "Korngpon Taharn Ying 'Suriyothai'" "'Suriyothai' Female Inf. Division" }
+# 		2000 = { "Korngpon Taharn Ying 'Suranaree'" "'Suranaree' Female Inf. Division" }
+# 		3000 = { "Korngpon Taharn Ying 'Thepsatri'" "'Thepsatri' Female Inf. Division" }
+# 		4000 = { "Korngpon Taharn Ying 'Srisunthorn'" "'Srisunthorn' Female Inf. Division" }
+# 		1 = { "Korngpon Taharn Ying Thi %d" }
+# 	}
+# }
 
-SIA_MLT_01 = {
-	name = div_SIA_taharn_pran_paramilitary_division
+# SIA_MLT_01 = {
+# 	name = div_SIA_taharn_pran_paramilitary_division
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_taharpran }
-	}
+# 	can_use = {
+# 		SIA = { has_completed_focus = SIA_taharpran }
+# 	}
 
-	division_types = { "infantry" }
+# 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	link_numbering_with = { SIA_MLT_02 }
+# 	# Number reservation system will tie to another group.
+# 	link_numbering_with = { SIA_MLT_02 }
 
-	fallback_name = "Korngpon Taharn Pran Thi %d"
+# 	fallback_name = "Korngpon Taharn Pran Thi %d"
 
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	# Coldwar-era paramilitary unit OTL
+# 	# Names with numbers (only one number per entry).
+# 	# It's okay to have gaps in numbering.
+# 	# Coldwar-era paramilitary unit OTL
 
-	ordered = {
-		1 = { "Korngpon Taharn Pran Thi %d" }
-	}
-}
+# 	ordered = {
+# 		1 = { "Korngpon Taharn Pran Thi %d" }
+# 	}
+# }
 
 SIA_MLT_02 = {
 	name = div_SIA_militia_regiment
@@ -205,7 +205,7 @@ SIA_MLT_02 = {
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { SIA_MLT_01 }
+	# link_numbering_with = { SIA_MLT_01 } # Temporary Measurement
 
 	fallback_name = "Krom Taharn Arsa Thi %d"
 
@@ -218,60 +218,60 @@ SIA_MLT_02 = {
 	}
 }
 
-SIA_MLT_03 = {
-	name = div_SIA_yuwachon_taharn_division
+# SIA_MLT_03 = {
+# 	name = div_SIA_yuwachon_taharn_division
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_yuwachontaharn }
-	}
+# 	can_use = {
+# 		SIA = { has_completed_focus = SIA_yuwachontaharn }
+# 	}
 
-	division_types = { "infantry" }
+# 	division_types = { "infantry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SIA_INF_01 }
+# 	# Number reservation system will tie to another group.
+# 	#link_numbering_with = { SIA_INF_01 }
 
-	fallback_name = "Korngpon Yuwachon Taharn Thi %d"
+# 	fallback_name = "Korngpon Yuwachon Taharn Thi %d"
 
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	# Military Cadet unit, predecessor to modern day Thai ROTC
+# 	# Names with numbers (only one number per entry).
+# 	# It's okay to have gaps in numbering.
+# 	# Military Cadet unit, predecessor to modern day Thai ROTC
 
-	ordered = {
-		1 = { "Korngpon Yuwachon Taharn Thi %d 'Phra Nakhon'" }
-		2 = { "Korngpon Yuwachon Taharn Thi %d 'Thonburi'" }
-		3 = { "Korngpon Yuwachon Taharn Thi %d 'Chiang Mai'" }
-		4 = { "Korngpon Yuwachon Taharn Thi %d 'Lampang'" }
-		5 = { "Korngpon Yuwachon Taharn Thi %d 'Phitsanulok'" }
-		6 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Sawan'" }
-		7 = { "Korngpon Yuwachon Taharn Thi %d 'Lopburi'" }
-		8 = { "Korngpon Yuwachon Taharn Thi %d 'Ayutthaya'" }
-		9 = { "Korngpon Yuwachon Taharn Thi %d 'Saraburi'" }
-		10 = { "Korngpon Yuwachon Taharn Thi %d 'Samut Prakarn'" }
-		11 = { "Korngpon Yuwachon Taharn Thi %d 'Nonthaburi'" }
-		12 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Ratchasima'" }
-		13 = { "Korngpon Yuwachon Taharn Thi %d 'Ubon Ratchathani'" }
-		14 = { "Korngpon Yuwachon Taharn Thi %d 'Udon Thani'" }
-		15 = { "Korngpon Yuwachon Taharn Thi %d 'Nongkhai'" }
-		16 = { "Korngpon Yuwachon Taharn Thi %d 'Khonkaen'" }
-		17 = { "Korngpon Yuwachon Taharn Thi %d 'Sakon Nakhon'" }
-		18 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Phanom'" }
-		19 = { "Korngpon Yuwachon Taharn Thi %d 'Prachinburi'" }
-		20 = { "Korngpon Yuwachon Taharn Thi %d 'Chacheongsao'" }
-		21 = { "Korngpon Yuwachon Taharn Thi %d 'Ratchaburi'" }
-		22 = { "Korngpon Yuwachon Taharn Thi %d 'Phetchaburi'" }
-		23 = { "Korngpon Yuwachon Taharn Thi %d 'Chumporn'" }
-		24 = { "Korngpon Yuwachon Taharn Thi %d 'Langsuan'" }
-		25 = { "Korngpon Yuwachon Taharn Thi %d 'Ranong'" }
-		26 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Si Thammarat'" }
-		27 = { "Korngpon Yuwachon Taharn Thi %d 'Phuket'" }
-		28 = { "Korngpon Yuwachon Taharn Thi %d 'Phattalung'" }
-		29 = { "Korngpon Yuwachon Taharn Thi %d 'Trang'" }
-		30 = { "Korngpon Yuwachon Taharn Thi %d 'Pattani'" }
-		31 = { "Korngpon Yuwachon Taharn Thi %d 'Songkhla'" }
-	}
-}
+# 	ordered = {
+# 		1 = { "Korngpon Yuwachon Taharn Thi %d 'Phra Nakhon'" }
+# 		2 = { "Korngpon Yuwachon Taharn Thi %d 'Thonburi'" }
+# 		3 = { "Korngpon Yuwachon Taharn Thi %d 'Chiang Mai'" }
+# 		4 = { "Korngpon Yuwachon Taharn Thi %d 'Lampang'" }
+# 		5 = { "Korngpon Yuwachon Taharn Thi %d 'Phitsanulok'" }
+# 		6 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Sawan'" }
+# 		7 = { "Korngpon Yuwachon Taharn Thi %d 'Lopburi'" }
+# 		8 = { "Korngpon Yuwachon Taharn Thi %d 'Ayutthaya'" }
+# 		9 = { "Korngpon Yuwachon Taharn Thi %d 'Saraburi'" }
+# 		10 = { "Korngpon Yuwachon Taharn Thi %d 'Samut Prakarn'" }
+# 		11 = { "Korngpon Yuwachon Taharn Thi %d 'Nonthaburi'" }
+# 		12 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Ratchasima'" }
+# 		13 = { "Korngpon Yuwachon Taharn Thi %d 'Ubon Ratchathani'" }
+# 		14 = { "Korngpon Yuwachon Taharn Thi %d 'Udon Thani'" }
+# 		15 = { "Korngpon Yuwachon Taharn Thi %d 'Nongkhai'" }
+# 		16 = { "Korngpon Yuwachon Taharn Thi %d 'Khonkaen'" }
+# 		17 = { "Korngpon Yuwachon Taharn Thi %d 'Sakon Nakhon'" }
+# 		18 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Phanom'" }
+# 		19 = { "Korngpon Yuwachon Taharn Thi %d 'Prachinburi'" }
+# 		20 = { "Korngpon Yuwachon Taharn Thi %d 'Chacheongsao'" }
+# 		21 = { "Korngpon Yuwachon Taharn Thi %d 'Ratchaburi'" }
+# 		22 = { "Korngpon Yuwachon Taharn Thi %d 'Phetchaburi'" }
+# 		23 = { "Korngpon Yuwachon Taharn Thi %d 'Chumporn'" }
+# 		24 = { "Korngpon Yuwachon Taharn Thi %d 'Langsuan'" }
+# 		25 = { "Korngpon Yuwachon Taharn Thi %d 'Ranong'" }
+# 		26 = { "Korngpon Yuwachon Taharn Thi %d 'Nakhon Si Thammarat'" }
+# 		27 = { "Korngpon Yuwachon Taharn Thi %d 'Phuket'" }
+# 		28 = { "Korngpon Yuwachon Taharn Thi %d 'Phattalung'" }
+# 		29 = { "Korngpon Yuwachon Taharn Thi %d 'Trang'" }
+# 		30 = { "Korngpon Yuwachon Taharn Thi %d 'Pattani'" }
+# 		31 = { "Korngpon Yuwachon Taharn Thi %d 'Songkhla'" }
+# 	}
+# }
 
 SIA_CAV_00 = {
 	name = div_cavalry_division
@@ -341,32 +341,32 @@ SIA_CAV_01 = {
 	}
 }
 
-SIA_CAV_03 = {
-	name = div_SIA_police_cavalry_regiment
+# SIA_CAV_03 = {
+# 	name = div_SIA_police_cavalry_regiment
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = {
-		SIA = { has_completed_focus = SIA_phaopoliceintegration }
-	}
+# 	can_use = {
+# 		SIA = { has_completed_focus = SIA_phaopoliceintegration }
+# 	}
 
-	division_types = { "cavalry" }
+# 	division_types = { "cavalry" }
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { SIA_INF_01 }
+# 	# Number reservation system will tie to another group.
+# 	#link_numbering_with = { SIA_INF_01 }
 
-	fallback_name = "Krom Tamruaj Puthorn Pak %d" # %dth Police Cavalry Command
+# 	fallback_name = "Krom Tamruaj Puthorn Pak %d" # %dth Police Cavalry Command
 
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	# No 'Pak 1' here since they're the Metropolitian Unit (Tamruag Nakhonbarn)
-	ordered = {
-		1 = { "Krom Tamruaj Nakhonbarn" }
-		2 = { "Krom Tamruaj Puthorn Pak %d" }
-		3 = { "Krom Tamruaj Puthorn Pak %d" }
-		4 = { "Krom Tamruaj Puthorn Pak %d" }
-	}
-}
+# 	# Names with numbers (only one number per entry).
+# 	# It's okay to have gaps in numbering.
+# 	# No 'Pak 1' here since they're the Metropolitian Unit (Tamruag Nakhonbarn)
+# 	ordered = {
+# 		1 = { "Krom Tamruaj Nakhonbarn" }
+# 		2 = { "Krom Tamruaj Puthorn Pak %d" }
+# 		3 = { "Krom Tamruaj Puthorn Pak %d" }
+# 		4 = { "Krom Tamruaj Puthorn Pak %d" }
+# 	}
+# }
 
 SIA_PAR_01 = {
 	name = div_airborne_division

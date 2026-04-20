@@ -40,7 +40,7 @@ set_politics = {
 ### Templates ###
 division_template = {
 	name = "Firqat Alfursan"
-	division_names_group = SAU_CAV_01
+	division_names_group = ARBY_CAV_01
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -49,7 +49,7 @@ division_template = {
 }
 division_template = {
 	name = "Qasam Milishia"
-	division_names_group = SAU_MIL_01
+	division_names_group = ARBY_MIL_01
 	regiments = {
 		irregular_infantry = { x = 0 y = 0 }
 		irregular_infantry = { x = 0 y = 1 }
@@ -59,7 +59,7 @@ division_template = {
 }
 division_template = {
 	name = "Firqat Musha"
-	division_names_group = SAU_INF_01
+	division_names_group = ARBY_INF_01
 	regiments = {
 		irregular_infantry = { x = 0 y = 0 }
 		irregular_infantry = { x = 0 y = 1 }
@@ -71,7 +71,7 @@ division_template = {
 }
 division_template = {
 	name = "Camel Corps"
-	division_names_group = SAU_CAV_01
+	division_names_group = ARBY_CAV_01
 	regiments = {
 		camelry = { x = 0 y = 0 }
 		camelry = { x = 0 y = 1 }

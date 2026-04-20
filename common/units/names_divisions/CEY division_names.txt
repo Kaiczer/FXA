@@ -31,136 +31,134 @@
 #			3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #									the current game version.
 
-HND_INF_01 = {
+CEY_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d Infantry Division"
+	fallback_name = "%d. Moderati Padati Rejiment"
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dst Rifles Division" }
-		2 = { "%dnd Rifles Division" }
-		3 = { "%drd Orissa Rifles Division" }
-		4 = { "%dth Bihar Rifles Division" }
-		5 = { "%dth Bihar Rifles Division" }
-		6 = { "%dth Bihar Rifles Division" }
-		7 = { "%dth Orissa Rifles Division" }
-		8 = { "%dth Orissa Rifles Division" }
-		9 = { "%dth Rifles Division" }
-		10 = { "%dth Rifles Division" }
-		11 = { "%dth Rifles Division" }
-		12 = { "%dth Rifles Division" }
-		13 = { "%dth Rifles Division" }
-		14 = { "%dth Rifles Division" }
-		15 = { "%dth Rifles Division" }
-		16 = { "%dth Rifles Division" }
-		17 = { "%dth Rifles Division" }
-		18 = { "%dth Rifles Division" }
-		19 = { "%dth Rifles Division" }
-		20 = { "%dth Rifles Division" }
-		21 = { "%dst Rifles Division" }
-		22 = { "%dnd Rifles Division" }
-		23 = { "%drd Rifles Division" }
-		24 = { "%dth Rifles Division" }
-		25 = { "%dth Rifles Division" }
-		26 = { "%dth Bengal Rifles Division" }
-		27 = { "%dth Bihari Rifles Division" }
-		28 = { "%dth Tripura Rifles Division" }
-		29 = { "%dth Chittagong Rifles Division" }
-		30 = { "%dth Dacca Rifles Division" }
-		31 = { "%dst Patna Rifles Division" }
-		32 = { "%dnd Rifles Division" }
-		33 = { "%drd Rifles Division" }
-		34 = { "%dth Rifles Division" }
-		35 = { "%dth Rifles Division" }
-		36 = { "%dth Rifles Division" }
-		37 = { "%dth Rifles Division" }
-		38 = { "%dth Rifles Division" }
-		39 = { "%dth Rifles Division" }
-		40 = { "%dth Rifles Division" }
-		41 = { "%dst Rifles Division" }
-		42 = { "%dnd Rifles Division" }
-		43 = { "%drd Rifles Division" }
-		44 = { "%dth Rifles Division" }
-		45 = { "%dth Rifles Division" }
-		46 = { "%dth Rifles Division" }
-		47 = { "%dth Rifles Division" }
-		48 = { "%dth Rifles Division" }
-		49 = { "%dth Rifles Division" }
-		50 = { "%dth Rifles Division" }
-		51 = { "%dst Rifles Division" }
-		52 = { "%dnd Rifles Division" }
-		53 = { "%drd Rifles Division" }
-		54 = { "%dth Rifles Division" }
-		55 = { "%dth Rifles Division" }
-		56 = { "%dth Rifles Division" }
-		57 = { "%dth Rifles Division" }
-		58 = { "%dth Rifles Division" }
-		59 = { "%dth Rifles Division" }
-		60 = { "%dth Rifles Division" }
-		61 = { "%dst Rifles Division" }
-		62 = { "%dnd Rifles Division" }
-		63 = { "%drd Rifles Division" }
-		64 = { "%dth Rifles Division" }
-		65 = { "%dth Rifles Division" }
-		66 = { "%dth Rifles Division" }
-		67 = { "%dth Rifles Division" }
-		68 = { "%dth Rifles Division" }
-		69 = { "%dth Rifles Division" }
-		70 = { "%dth Rifles Division" }
-		71 = { "%dst Rifles Division" }
-		72 = { "%dnd Rifles Division" }
-		73 = { "%drd Rifles Division" }
-		74 = { "%dth Rifles Division" }
-		75 = { "%dth Rifles Division" }
-		76 = { "%dth Rifles Division" }
-		77 = { "%dth Rifles Division" }
-		78 = { "%dth Rifles Division" }
-		79 = { "%dth Rifles Division" }
-		80 = { "%dth Rifles Division" }
-		81 = { "%dst Rifles Division" }
-		82 = { "%dnd Rifles Division" }
-		83 = { "%drd Rifles Division" }
-		84 = { "%dth Rifles Division" }
-		85 = { "%dth Rifles Division" }
-		86 = { "%dth Rifles Division" }
-		87 = { "%dth Rifles Division" }
-		88 = { "%dth Rifles Division" }
-		89 = { "%dth Rifles Division" }
-		90 = { "%dth Rifles Division" }
-		91 = { "%dst Rifles Division" }
-		92 = { "%dnd Rifles Division" }
-		93 = { "%drd Rifles Division" }
-		94 = { "%dth Rifles Division" }
-		95 = { "%dth Rifles Division" }
-		96 = { "%dth Rifles Division" }
-		97 = { "%dth Rifles Division" }
-		98 = { "%dth Rifles Division" }
-		99 = { "%dth Rifles Division" }
-
-		# SAF only had three historically, but just in case!
+		1 = { "%dst Moderati Padati Rejiment" }
+		2 = { "%dnd Moderati Padati Rejiment" }
+		3 = { "%drd Moderati Padati Rejiment" }
+		4 = { "%dth Moderati Padati Rejiment" }
+		5 = { "%dth Moderati Padati Rejiment" }
+		6 = { "%dth Moderati Padati Rejiment" }
+		7 = { "%dth Moderati Padati Rejiment" }
+		8 = { "%dth Moderati Padati Rejiment" }
+		9 = { "%dth Moderati Padati Rejiment" }
+		10 = { "%dth Moderati Padati Rejiment" }
+		11 = { "%dth Moderati Padati Rejiment" }
+		12 = { "%dth Moderati Padati Rejiment" }
+		13 = { "%dth Moderati Padati Rejiment" }
+		14 = { "%dth Moderati Padati Rejiment" }
+		15 = { "%dth Moderati Padati Rejiment" }
+		16 = { "%dth Moderati Padati Rejiment" }
+		17 = { "%dth Moderati Padati Rejiment" }
+		18 = { "%dth Moderati Padati Rejiment" }
+		19 = { "%dth Moderati Padati Rejiment" }
+		20 = { "%dth Moderati Padati Rejiment" }
+		21 = { "%dst Moderati Padati Rejiment" }
+		22 = { "%dnd Moderati Padati Rejiment" }
+		23 = { "%drd Moderati Padati Rejiment" }
+		24 = { "%dth Moderati Padati Rejiment" }
+		25 = { "%dth Moderati Padati Rejiment" }
+		26 = { "%dth Moderati Padati Rejiment" }
+		27 = { "%dth Moderati Padati Rejiment" }
+		28 = { "%dth Moderati Padati Rejiment" }
+		29 = { "%dth Moderati Padati Rejiment" }
+		30 = { "%dth Moderati Padati Rejiment" }
+		31 = { "%dst Moderati Padati Rejiment" }
+		32 = { "%dnd Moderati Padati Rejiment" }
+		33 = { "%drd Moderati Padati Rejiment" }
+		34 = { "%dth Moderati Padati Rejiment" }
+		35 = { "%dth Moderati Padati Rejiment" }
+		36 = { "%dth Moderati Padati Rejiment" }
+		37 = { "%dth Moderati Padati Rejiment" }
+		38 = { "%dth Moderati Padati Rejiment" }
+		39 = { "%dth Moderati Padati Rejiment" }
+		40 = { "%dth Moderati Padati Rejiment" }
+		41 = { "%dst Moderati Padati Rejiment" }
+		42 = { "%dnd Moderati Padati Rejiment" }
+		43 = { "%drd Moderati Padati Rejiment" }
+		44 = { "%dth Moderati Padati Rejiment" }
+		45 = { "%dth Moderati Padati Rejiment" }
+		46 = { "%dth Moderati Padati Rejiment" }
+		47 = { "%dth Moderati Padati Rejiment" }
+		48 = { "%dth Moderati Padati Rejiment" }
+		49 = { "%dth Moderati Padati Rejiment" }
+		50 = { "%dth Moderati Padati Rejiment" }
+		51 = { "%dst Moderati Padati Rejiment" }
+		52 = { "%dnd Moderati Padati Rejiment" }
+		53 = { "%drd Moderati Padati Rejiment" }
+		54 = { "%dth Moderati Padati Rejiment" }
+		55 = { "%dth Moderati Padati Rejiment" }
+		56 = { "%dth Moderati Padati Rejiment" }
+		57 = { "%dth Moderati Padati Rejiment" }
+		58 = { "%dth Moderati Padati Rejiment" }
+		59 = { "%dth Moderati Padati Rejiment" }
+		60 = { "%dth Moderati Padati Rejiment" }
+		61 = { "%dst Moderati Padati Rejiment" }
+		62 = { "%dnd Moderati Padati Rejiment" }
+		63 = { "%drd Moderati Padati Rejiment" }
+		64 = { "%dth Moderati Padati Rejiment" }
+		65 = { "%dth Moderati Padati Rejiment" }
+		66 = { "%dth Moderati Padati Rejiment" }
+		67 = { "%dth Moderati Padati Rejiment" }
+		68 = { "%dth Moderati Padati Rejiment" }
+		69 = { "%dth Moderati Padati Rejiment" }
+		70 = { "%dth Moderati Padati Rejiment" }
+		71 = { "%dst Moderati Padati Rejiment" }
+		72 = { "%dnd Moderati Padati Rejiment" }
+		73 = { "%drd Moderati Padati Rejiment" }
+		74 = { "%dth Moderati Padati Rejiment" }
+		75 = { "%dth Moderati Padati Rejiment" }
+		76 = { "%dth Moderati Padati Rejiment" }
+		77 = { "%dth Moderati Padati Rejiment" }
+		78 = { "%dth Moderati Padati Rejiment" }
+		79 = { "%dth Moderati Padati Rejiment" }
+		80 = { "%dth Moderati Padati Rejiment" }
+		81 = { "%dst Moderati Padati Rejiment" }
+		82 = { "%dnd Moderati Padati Rejiment" }
+		83 = { "%drd Moderati Padati Rejiment" }
+		84 = { "%dth Moderati Padati Rejiment" }
+		85 = { "%dth Moderati Padati Rejiment" }
+		86 = { "%dth Moderati Padati Rejiment" }
+		87 = { "%dth Moderati Padati Rejiment" }
+		88 = { "%dth Moderati Padati Rejiment" }
+		89 = { "%dth Moderati Padati Rejiment" }
+		90 = { "%dth Moderati Padati Rejiment" }
+		91 = { "%dst Moderati Padati Rejiment" }
+		92 = { "%dnd Moderati Padati Rejiment" }
+		93 = { "%drd Moderati Padati Rejiment" }
+		94 = { "%dth Moderati Padati Rejiment" }
+		95 = { "%dth Moderati Padati Rejiment" }
+		96 = { "%dth Moderati Padati Rejiment" }
+		97 = { "%dth Moderati Padati Rejiment" }
+		98 = { "%dth Moderati Padati Rejiment" }
+		99 = { "%dth Moderati Padati Rejiment" }
 	}
 }
 
-HND_CAV_01 = {
+CEY_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { GER_Gar_01 }
 
-	fallback_name = "%d. Cavalry Division"
+	fallback_name = "%d. Mounted Rifles Division"
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
@@ -218,20 +216,18 @@ HND_CAV_01 = {
 		51 = { "%dst Mounted Rifles Division" }
 		52 = { "%dnd Mounted Rifles Division" }
 		53 = { "%drd Mounted Rifles Division" }
-
-		# Historically, there's no way SAF would have had 53 Cav divisions the list taken this far because of cav's suppression role in-game.
 	}
 }
 
-HND_MOT_01 = {
+CEY_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HND_INF_01 }
+	link_numbering_with = { CEY_INF_01 }
 
 	fallback_name = "%d. Motor Division"
 
@@ -274,15 +270,15 @@ HND_MOT_01 = {
 	}
 }
 
-HND_ARM_01 = {
+CEY_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HND_CAV_01 }
+	link_numbering_with = { CEY_CAV_01 }
 
 	fallback_name = "%d. Armoured Division"
 
@@ -322,20 +318,18 @@ HND_ARM_01 = {
 		31 = { "%dst Armoured Division" }
 		32 = { "%dnd Armoured Division" }
 		33 = { "%drd Armoured Division" }
-
-		# Historically, only the 6th was armoured, but suspect they intended to have a linked number system (as per the Canadians) but started their armoured units a bit later in the sequence - this is a guess though.
 	}
 }
 
-HND_MEC_01 = {
+CEY_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "mechanized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HND_CAV_01 }
+	link_numbering_with = { CEY_CAV_01 }
 
 	fallback_name = "%d. Mechanised Division"
 
@@ -375,214 +369,206 @@ HND_MEC_01 = {
 		31 = { "%dst Mechanised Division" }
 		32 = { "%dnd Mechanised Division" }
 		33 = { "%drd Mechanised Division" }
-
-		# None historically. List starts from 6 to be consistent with armoured list starting at the same spot.
 	}
 }
 
-HND_GAR_01 = {
+CEY_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HND_INF_01 }
+	#link_numbering_with = { CEY_INF_01 }
 
-	fallback_name = "%d. Republic Defence Div."
+	fallback_name = "%d. District Force"
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dst Republic Defence Div." }
-		2 = { "%dnd Republic Defence Div." }
-		3 = { "%drd Republic Defence Div." }
-		4 = { "%dth Republic Defence Div." }
-		5 = { "%dth Republic Defence Div." }
-		6 = { "%dth Republic Defence Div." }
-		7 = { "%dth Republic Defence Div." }
-		8 = { "%dth Republic Defence Div." }
-		9 = { "%dth Republic Defence Div." }
-		10 = { "%dth Republic Defence Div." }
-		11 = { "%dth Republic Defence Div." }
-		12 = { "%dth Republic Defence Div." }
-		13 = { "%dth Republic Defence Div." }
-		14 = { "%dth Republic Defence Div." }
-		15 = { "%dth Republic Defence Div." }
-		16 = { "%dth Republic Defence Div." }
-		17 = { "%dth Republic Defence Div." }
-		18 = { "%dth Republic Defence Div." }
-		19 = { "%dth Republic Defence Div." }
-		20 = { "%dth Republic Defence Div." }
-		21 = { "%dst Republic Defence Div." }
-		22 = { "%dnd Republic Defence Div." }
-		23 = { "%drd Republic Defence Div." }
-		24 = { "%dth Republic Defence Div." }
-		25 = { "%dth Republic Defence Div." }
-		26 = { "%dth Republic Defence Div." }
-		27 = { "%dth Republic Defence Div." }
-		28 = { "%dth Republic Defence Div." }
-		29 = { "%dth Republic Defence Div." }
-		30 = { "%dth Republic Defence Div." }
-		31 = { "%dst Republic Defence Div." }
-		32 = { "%dnd Republic Defence Div." }
-		33 = { "%drd Republic Defence Div." }
-		34 = { "%dth Republic Defence Div." }
-		35 = { "%dth Republic Defence Div." }
-		36 = { "%dth Republic Defence Div." }
-		37 = { "%dth Republic Defence Div." }
-		38 = { "%dth Republic Defence Div." }
-		39 = { "%dth Republic Defence Div." }
-		40 = { "%dth Republic Defence Div." }
-		41 = { "%dst Republic Defence Div." }
-		42 = { "%dnd Republic Defence Div." }
-		43 = { "%drd Republic Defence Div." }
-		44 = { "%dth Republic Defence Div." }
-		45 = { "%dth Republic Defence Div." }
-		46 = { "%dth Republic Defence Div." }
-		47 = { "%dth Republic Defence Div." }
-		48 = { "%dth Republic Defence Div." }
-		49 = { "%dth Republic Defence Div." }
-		51 = { "%dst Republic Defence Div." }
-		52 = { "%dnd Republic Defence Div." }
-		53 = { "%drd Republic Defence Div." }
-
-		# SAF has six named 'commands' that were more-or-less garrison forces. After that, have used a generic 'xth District Force' structure.
+		1 = { "%dst District Force" }
+		2 = { "%dnd District Force" }
+		3 = { "%drd District Force" }
+		4 = { "%dth District Force" }
+		5 = { "%dth District Force" }
+		6 = { "%dth District Force" }
+		7 = { "%dth District Force" }
+		8 = { "%dth District Force" }
+		9 = { "%dth District Force" }
+		10 = { "%dth District Force" }
+		11 = { "%dth District Force" }
+		12 = { "%dth District Force" }
+		13 = { "%dth District Force" }
+		14 = { "%dth District Force" }
+		15 = { "%dth District Force" }
+		16 = { "%dth District Force" }
+		17 = { "%dth District Force" }
+		18 = { "%dth District Force" }
+		19 = { "%dth District Force" }
+		20 = { "%dth District Force" }
+		21 = { "%dst District Force" }
+		22 = { "%dnd District Force" }
+		23 = { "%drd District Force" }
+		24 = { "%dth District Force" }
+		25 = { "%dth District Force" }
+		26 = { "%dth District Force" }
+		27 = { "%dth District Force" }
+		28 = { "%dth District Force" }
+		29 = { "%dth District Force" }
+		30 = { "%dth District Force" }
+		31 = { "%dst District Force" }
+		32 = { "%dnd District Force" }
+		33 = { "%drd District Force" }
+		34 = { "%dth District Force" }
+		35 = { "%dth District Force" }
+		36 = { "%dth District Force" }
+		37 = { "%dth District Force" }
+		38 = { "%dth District Force" }
+		39 = { "%dth District Force" }
+		40 = { "%dth District Force" }
+		41 = { "%dst District Force" }
+		42 = { "%dnd District Force" }
+		43 = { "%drd District Force" }
+		44 = { "%dth District Force" }
+		45 = { "%dth District Force" }
+		46 = { "%dth District Force" }
+		47 = { "%dth District Force" }
+		48 = { "%dth District Force" }
+		49 = { "%dth District Force" }
+		51 = { "%dst District Force" }
+		52 = { "%dnd District Force" }
+		53 = { "%drd District Force" }
 	}
 }
 
-HND_MIL_01 = {
+CEY_MIL_01 = {
 	name = div_militia_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HND_INF_01 }
+	#link_numbering_with = { CEY_INF_01 }
 
-	fallback_name = "%d. Union Police"
+	fallback_name = "%d. Militia Group"
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dst Union Police" }
-		2 = { "%dnd Union Police" }
-		3 = { "%drd Union Police" }
-		4 = { "%dth Union Police" }
-		5 = { "%dth Union Police" }
-		6 = { "%dth Union Police" }
-		7 = { "%dth Union Police" }
-		8 = { "%dth Union Police" }
-		9 = { "%dth Union Police" }
-		10 = { "%dth Union Police" }
-		11 = { "%dth Union Police" }
-		12 = { "%dth Union Police" }
-		13 = { "%dth Union Police" }
-		14 = { "%dth Union Police" }
-		15 = { "%dth Union Police" }
-		16 = { "%dth Union Police" }
-		17 = { "%dth Union Police" }
-		18 = { "%dth Union Police" }
-		19 = { "%dth Union Police" }
-		20 = { "%dth Union Police" }
-		21 = { "%dst Union Police" }
-		22 = { "%dnd Union Police" }
-		23 = { "%drd Union Police" }
-		24 = { "%dth Union Police" }
-		25 = { "%dth Union Police" }
-		26 = { "%dth Union Police" }
-		27 = { "%dth Union Police" }
-		28 = { "%dth Union Police" }
-		29 = { "%dth Union Police" }
-		30 = { "%dth Union Police" }
-		31 = { "%dst Union Police" }
-		32 = { "%dnd Union Police" }
-		33 = { "%drd Union Police" }
-		34 = { "%dth Union Police" }
-		35 = { "%dth Union Police" }
-		36 = { "%dth Union Police" }
-		37 = { "%dth Union Police" }
-		38 = { "%dth Union Police" }
-		39 = { "%dth Union Police" }
-		40 = { "%dth Union Police" }
-		41 = { "%dst Union Police" }
-		42 = { "%dnd Union Police" }
-		43 = { "%drd Union Police" }
-		44 = { "%dth Union Police" }
-		45 = { "%dth Union Police" }
-		46 = { "%dth Union Police" }
-		47 = { "%dth Union Police" }
-		48 = { "%dth Union Police" }
-		49 = { "%dth Union Police" }
-		51 = { "%dst Union Police" }
-		52 = { "%dnd Union Police" }
-		53 = { "%drd Union Police" }
-
-		# SAF has six named 'commands' that were more-or-less garrison forces. After that, have used a generic 'xth District Force' structure.
+		1 = { "Militia Group 'Azad'" }
+		2 = { "Militia Group 'Iyengar'" }
+		3 = { "Militia Group 'Tamil Nadu'" }
+		4 = { "%dth Militia Group" }
+		5 = { "%dth Militia Group" }
+		6 = { "%dth Militia Group" }
+		7 = { "%dth Militia Group" }
+		8 = { "%dth Militia Group" }
+		9 = { "%dth Militia Group" }
+		10 = { "%dth Militia Group" }
+		11 = { "%dth Militia Group" }
+		12 = { "%dth Militia Group" }
+		13 = { "%dth Militia Group" }
+		14 = { "%dth Militia Group" }
+		15 = { "%dth Militia Group" }
+		16 = { "%dth Militia Group" }
+		17 = { "%dth Militia Group" }
+		18 = { "%dth Militia Group" }
+		19 = { "%dth Militia Group" }
+		20 = { "%dth Militia Group" }
+		21 = { "%dst Militia Group" }
+		22 = { "%dnd Militia Group" }
+		23 = { "%drd Militia Group" }
+		24 = { "%dth Militia Group" }
+		25 = { "%dth Militia Group" }
+		26 = { "%dth Militia Group" }
+		27 = { "%dth Militia Group" }
+		28 = { "%dth Militia Group" }
+		29 = { "%dth Militia Group" }
+		30 = { "%dth Militia Group" }
+		31 = { "%dst Militia Group" }
+		32 = { "%dnd Militia Group" }
+		33 = { "%drd Militia Group" }
+		34 = { "%dth Militia Group" }
+		35 = { "%dth Militia Group" }
+		36 = { "%dth Militia Group" }
+		37 = { "%dth Militia Group" }
+		38 = { "%dth Militia Group" }
+		39 = { "%dth Militia Group" }
+		40 = { "%dth Militia Group" }
+		41 = { "%dst Militia Group" }
+		42 = { "%dnd Militia Group" }
+		43 = { "%drd Militia Group" }
+		44 = { "%dth Militia Group" }
+		45 = { "%dth Militia Group" }
+		46 = { "%dth Militia Group" }
+		47 = { "%dth Militia Group" }
+		48 = { "%dth Militia Group" }
+		49 = { "%dth Militia Group" }
+		51 = { "%dst Militia Group" }
+		52 = { "%dnd Militia Group" }
+		53 = { "%drd Militia Group" }
 	}
 }
 
-HND_MAR_01 = {
+CEY_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { HND_GAR_01 }
+	#link_numbering_with = { CEY_GAR_01 }
 
-	fallback_name = "%d. Union Marines"
+	fallback_name = "%d. Marine Commando Div."
 
 	# Names with numbers (only one number per entry).
 	# It's okay to have gaps in numbering.
 	ordered = {
-		1 = { "%dst Union Marines" }
-		2 = { "%dnd Union Marines" }
-		3 = { "%drd Union Marines" }
-		4 = { "%dth Union Marines" }
-		5 = { "%dth Union Marines" }
-		6 = { "%dth Union Marines" }
-		7 = { "%dth Union Marines" }
-		8 = { "%dth Union Marines" }
-		9 = { "%dth Union Marines" }
-		10 = { "%dth Union Marines" }
-		11 = { "%dth Union Marines" }
-		12 = { "%dth Union Marines" }
-		13 = { "%dth Union Marines" }
-		14 = { "%dth Union Marines" }
-		15 = { "%dth Union Marines" }
-		16 = { "%dth Union Marines" }
-		17 = { "%dth Union Marines" }
-		18 = { "%dth Union Marines" }
-		19 = { "%dth Union Marines" }
-		20 = { "%dth Union Marines" }
-		21 = { "%dst Union Marines" }
-		22 = { "%dnd Union Marines" }
-		23 = { "%drd Union Marines" }
-		24 = { "%dth Union Marines" }
-		25 = { "%dth Union Marines" }
-		26 = { "%dth Union Marines" }
-		27 = { "%dth Union Marines" }
-		28 = { "%dth Union Marines" }
-		29 = { "%dth Union Marines" }
-		30 = { "%dth Union Marines" }
-
-		# SAF didn't have any Marine divisions, these are all fictional.  Based on HoI3 lists, numbering independent of main sequence.
+		1 = { "%dst Marine Commando Div." }
+		2 = { "%dnd Marine Commando Div." }
+		3 = { "%drd Marine Commando Div." }
+		4 = { "%dth Marine Commando Div." }
+		5 = { "%dth Marine Commando Div." }
+		6 = { "%dth Marine Commando Div." }
+		7 = { "%dth Marine Commando Div." }
+		8 = { "%dth Marine Commando Div." }
+		9 = { "%dth Marine Commando Div." }
+		10 = { "%dth Marine Commando Div." }
+		11 = { "%dth Marine Commando Div." }
+		12 = { "%dth Marine Commando Div." }
+		13 = { "%dth Marine Commando Div." }
+		14 = { "%dth Marine Commando Div." }
+		15 = { "%dth Marine Commando Div." }
+		16 = { "%dth Marine Commando Div." }
+		17 = { "%dth Marine Commando Div." }
+		18 = { "%dth Marine Commando Div." }
+		19 = { "%dth Marine Commando Div." }
+		20 = { "%dth Marine Commando Div." }
+		21 = { "%dst Marine Commando Div." }
+		22 = { "%dnd Marine Commando Div." }
+		23 = { "%drd Marine Commando Div." }
+		24 = { "%dth Marine Commando Div." }
+		25 = { "%dth Marine Commando Div." }
+		26 = { "%dth Marine Commando Div." }
+		27 = { "%dth Marine Commando Div." }
+		28 = { "%dth Marine Commando Div." }
+		29 = { "%dth Marine Commando Div." }
+		30 = { "%dth Marine Commando Div." }
 	}
 }
 
-HND_MTN_01 = {
+CEY_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HND_INF_01 }
+	link_numbering_with = { CEY_INF_01 }
 
 	fallback_name = "%d. Special Forces Div."
 
@@ -642,15 +628,13 @@ HND_MTN_01 = {
 		51 = { "%dst Special Forces Div." }
 		52 = { "%dnd Special Forces Div." }
 		53 = { "%drd Special Forces Div." }
-
-		# None in service historically.  Uses main division sequencing.  Approach consistent with ENG and CAN.
 	}
 }
 
-HND_PAR_01 = {
+CEY_PAR_01 = {
 	name = div_airborne_division
 
-	for_countries = { HND }
+	for_countries = { CEY }
 
 	division_types = { "paratrooper" }
 
@@ -691,8 +675,6 @@ HND_PAR_01 = {
 		28 = { "%dth Airborne Commando Div." }
 		29 = { "%dth Airborne Commando Div." }
 		30 = { "%dth Airborne Commando Div." }
-
-		# SAF didn't have any Airborne divisions.  Have independent sequence.
 	}
 }
 
