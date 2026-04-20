@@ -391,7 +391,7 @@ annexations_AI_give_to_france_instead = {
 }
 
 annexations_AI_give_to_portugal_instead = {
-	has_event_target = portugal
+	#has_event_target = portugal
 	annexations_AI_will_consider_returning_colonies = yes
 }
 
@@ -412,11 +412,11 @@ annexations_can_release_any_india = {
 }
 
 annexations_can_release_republican_india = {
-	has_event_target = republican_india_available
+	#has_event_target = republican_india_available
 }
 
 annexations_can_release_british_india = {
-	has_event_target = british_india_available
+	#has_event_target = british_india_available
 }
 
 annexations_india_is_puppet_or_independent_ally_of_ROOT = {
