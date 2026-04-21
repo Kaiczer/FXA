@@ -3,7 +3,7 @@
 ARAB_THEME_CALIPHS = {
 	name = NAME_THEME_CALIPHS
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 
@@ -39,7 +39,7 @@ ARAB_THEME_CALIPHS = {
 ARAB_THEME_BATTLES = {
 	name = NAME_THEME_BATTLES
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 
@@ -89,7 +89,7 @@ ARAB_THEME_BATTLES = {
 ARAB_THEME_TRIBES = {
 	name = NAME_THEME_TRIBES
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 
@@ -151,7 +151,7 @@ ARAB_THEME_TRIBES = {
 ARAB_THEME_GENERALS = {
 	name = NAME_THEME_GENERALS
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 
@@ -179,7 +179,7 @@ ARAB_THEME_GENERALS = {
 ARAB_THEME_ANIMALS = {
 	name = NAME_THEME_ANIMALS
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 
@@ -203,7 +203,7 @@ ARAB_THEME_ANIMALS = {
 ARAB_THEME_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { EGY SYR IRQ HEJ JBS SAU IKH OMA YEM }
+	for_countries = { EGY PAL SYR IRQ HEJ RAS SAU YEM KUW BAH QAR TRU OMA MUS }
 
 	type = ship
 

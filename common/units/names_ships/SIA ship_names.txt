@@ -213,60 +213,60 @@ SIA_THEME_STATES = {
 	}
 }
 
-### THEME: ROYAL BARGE ###
-SIA_THEME_ROYAL_BARGE = {
-	name = NAME_THEME_ROYAL_BARGE
+# ### THEME: ROYAL BARGE ###
+# SIA_THEME_ROYAL_BARGE = {
+# 	name = NAME_THEME_ROYAL_BARGE
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = {
-		OR = {
-			has_cosmetic_tag = THI
-			has_cosmetic_tag = SIA_default
-		}
-	}
+# 	can_use = {
+# 		OR = {
+# 			has_cosmetic_tag = THI
+# 			has_cosmetic_tag = SIA_default
+# 		}
+# 	}
 
-	type = ship
+# 	type = ship
 
-	prefix = "HSMS "
-	fallback_name = "Reua Roeb %d"
+# 	prefix = "HSMS "
+# 	fallback_name = "Reua Roeb %d"
 
-	unique = {
-		"Theva Surararm" "Sayamornsumphol" "Mahapichaithep" "Manee Mekhala" "Sepsahai Maitree" "Sri Ayutthayadaech" "Arsawadeeroth"
-		"Senintharapradit" "Rith Rangsorn" "Thewa Surararm" "Rarnrookpairee" "Parnprapha" "Khattiyopanapha" "Saksitthawuth"
-		"Songkhramkanchit" "Kajornchol Kadee" "Hanhak Sudtru" "Soo Pirin" "Thepa" "Theai Mueang" "Racharit" "Vitiyakom" "Udomdej"
-		"Harntordee" "Thewapikart" "Phlarn Ari" "Sangharn Pairee" "Ritteerueangdaet" "Naretrarnrorn" "Yongyot Ayochiya"
-	}
-}
+# 	unique = {
+# 		"Theva Surararm" "Sayamornsumphol" "Mahapichaithep" "Manee Mekhala" "Sepsahai Maitree" "Sri Ayutthayadaech" "Arsawadeeroth"
+# 		"Senintharapradit" "Rith Rangsorn" "Thewa Surararm" "Rarnrookpairee" "Parnprapha" "Khattiyopanapha" "Saksitthawuth"
+# 		"Songkhramkanchit" "Kajornchol Kadee" "Hanhak Sudtru" "Soo Pirin" "Thepa" "Theai Mueang" "Racharit" "Vitiyakom" "Udomdej"
+# 		"Harntordee" "Thewapikart" "Phlarn Ari" "Sangharn Pairee" "Ritteerueangdaet" "Naretrarnrorn" "Yongyot Ayochiya"
+# 	}
+# }
 
-### THEME: ROYAL HOUSES ###
-SIA_THEME_ROYAL_HOUSE = {
-	name = NAME_THEME_ROYAL_HOUSES
+# ### THEME: ROYAL HOUSES ###
+# SIA_THEME_ROYAL_HOUSE = {
+# 	name = NAME_THEME_ROYAL_HOUSES
 
-	for_countries = { SIA }
+# 	for_countries = { SIA }
 
-	can_use = {
-		OR = {
-			has_cosmetic_tag = THI
-			has_cosmetic_tag = SIA_default
-		}
-	}
+# 	can_use = {
+# 		OR = {
+# 			has_cosmetic_tag = THI
+# 			has_cosmetic_tag = SIA_default
+# 		}
+# 	}
 
-	type = ship
+# 	type = ship
 
-	prefix = "HSMS "
-	fallback_name = "Reua Roeb %d"
+# 	prefix = "HSMS "
+# 	fallback_name = "Reua Roeb %d"
 
-	unique = {
-		### Named after royal houses ###
-		"Thephadsadin" "Narintharangkoon" "Montrikul" "Isarangkul" "Chetsadangkul" "Narintharakul" "Chattakul" "Duangchak" "Darakorn"
-		"Thappakorn" "Puengboon" "Suthat" "Suriyakul" "Intharangkul" "Kapitatha" "Kluaimai" "Kunchorn" "Kusuma" "Chumsaeng" "Dechartiwong"
-		"Tinnakorn" "Niyamit" "Nilrath" "Pramoj" "Phamomwan" "Paitoon" "Morakot" "Mahakul" "Malakul" "Renunan" "Watchareewong" "Sanitwong"
-		"Arunawong" "Arpornkul" "Gomaen" "Khanejorn" "Ngon-roth" "Chompoonuth" "Chumsai" "Piyakorn" "Ladawan" "Lamyong" "Siriwong" "Singhra"
-		"Subaan" "Annop" "Uraipong" "Kritsadakorn" "Kollamart" "Kasemsri" "Kasemsan" "Khattanarng" "Chakkrapan" "Chantath" "Chittapong" "Chayarngkoon"
-		"Chumpon" "Chaiyan" "Diskul" "Thaweewong" "Thongthaem" "Thongyai" "Tevakul" "Nopphawong" "Phanupan" "Worawaan" "Watthanawong" "Srithawat"
-		"Suksawat" "Sopang" "Sawasdikul" "Sawasdiwat" "Supradit" "Sonakul" "Kittiyakorn" "Rapeepan" "Prawit" "Jiraprawat" "Arpakorn" "Boripatr"
-		"Chattrachai" "Burachat" "Penpat" "Chakrabongse" "Yukol" "Wuttichai" "Sriyong" "Rangsit" "Mahidol" "Chutatuth" "Sakdidej"
-	}
-}
+# 	unique = {
+# 		### Named after royal houses ###
+# 		"Thephadsadin" "Narintharangkoon" "Montrikul" "Isarangkul" "Chetsadangkul" "Narintharakul" "Chattakul" "Duangchak" "Darakorn"
+# 		"Thappakorn" "Puengboon" "Suthat" "Suriyakul" "Intharangkul" "Kapitatha" "Kluaimai" "Kunchorn" "Kusuma" "Chumsaeng" "Dechartiwong"
+# 		"Tinnakorn" "Niyamit" "Nilrath" "Pramoj" "Phamomwan" "Paitoon" "Morakot" "Mahakul" "Malakul" "Renunan" "Watchareewong" "Sanitwong"
+# 		"Arunawong" "Arpornkul" "Gomaen" "Khanejorn" "Ngon-roth" "Chompoonuth" "Chumsai" "Piyakorn" "Ladawan" "Lamyong" "Siriwong" "Singhra"
+# 		"Subaan" "Annop" "Uraipong" "Kritsadakorn" "Kollamart" "Kasemsri" "Kasemsan" "Khattanarng" "Chakkrapan" "Chantath" "Chittapong" "Chayarngkoon"
+# 		"Chumpon" "Chaiyan" "Diskul" "Thaweewong" "Thongthaem" "Thongyai" "Tevakul" "Nopphawong" "Phanupan" "Worawaan" "Watthanawong" "Srithawat"
+# 		"Suksawat" "Sopang" "Sawasdikul" "Sawasdiwat" "Supradit" "Sonakul" "Kittiyakorn" "Rapeepan" "Prawit" "Jiraprawat" "Arpakorn" "Boripatr"
+# 		"Chattrachai" "Burachat" "Penpat" "Chakrabongse" "Yukol" "Wuttichai" "Sriyong" "Rangsit" "Mahidol" "Chutatuth" "Sakdidej"
+# 	}
+# }
 

@@ -57,7 +57,7 @@ faction_template_internationale_successor = {
 	icon = GFX_faction_logo_generic_9
 
 	visible = {
-		NOT = { country_exists = INT }
+		NOT = { country_exists = CIN }
 	}
 
 	available = {

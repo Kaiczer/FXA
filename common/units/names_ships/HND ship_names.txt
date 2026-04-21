@@ -1,9 +1,9 @@
 ##### BHARITYA COMMUNE NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-HND_DD_HISTORICAL = {
+IND_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -23,10 +23,10 @@ HND_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-HND_CL_HISTORICAL = {
+IND_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -42,10 +42,10 @@ HND_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-HND_CA_HISTORICAL = {
+IND_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -59,10 +59,10 @@ HND_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-HND_BB_HISTORICAL = {
+IND_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -76,10 +76,10 @@ HND_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-HND_BC_HISTORICAL = {
+IND_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -93,10 +93,10 @@ HND_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-HND_CV_HISTORICAL = {
+IND_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -110,10 +110,10 @@ HND_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-HND_SS_HISTORICAL = {
+IND_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -128,10 +128,10 @@ HND_SS_HISTORICAL = {
 }
 
 ## THEME: BRITISH INDIAN CITIES ###
-HND_CITIES = {
+IND_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 
@@ -150,10 +150,10 @@ HND_CITIES = {
 }
 
 ### THEME: INSPIRATIONAL ###
-HND_INSPIRATIONAL = {
+IND_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
 
-	for_countries = { HND }
+	for_countries = { IND }
 
 	type = ship
 

@@ -1,9 +1,9 @@
-##### PJBISTAN NAME LISTS #####
+##### PAKISTAN NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-PJB_DD_HISTORICAL = {
+PAK_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -17,10 +17,10 @@ PJB_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-PJB_CL_HISTORICAL = {
+PAK_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -34,10 +34,10 @@ PJB_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-PJB_CA_HISTORICAL = {
+PAK_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -51,10 +51,10 @@ PJB_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-PJB_BB_HISTORICAL = {
+PAK_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -68,10 +68,10 @@ PJB_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-PJB_BC_HISTORICAL = {
+PAK_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -85,10 +85,10 @@ PJB_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-PJB_CV_HISTORICAL = {
+PAK_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -102,10 +102,10 @@ PJB_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-PJB_SS_HISTORICAL = {
+PAK_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { PJB }
+	for_countries = { PAK }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }

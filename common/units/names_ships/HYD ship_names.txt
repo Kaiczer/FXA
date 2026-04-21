@@ -1,9 +1,9 @@
 ##### PRINCELY FEDERATION NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-PRF_DD_HISTORICAL = {
+HYD_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -23,10 +23,10 @@ PRF_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-PRF_CL_HISTORICAL = {
+HYD_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -43,10 +43,10 @@ PRF_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-PRF_CA_HISTORICAL = {
+HYD_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -60,10 +60,10 @@ PRF_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-PRF_BB_HISTORICAL = {
+HYD_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { PRF }
+	for_countries = { HYD }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -76,7 +76,7 @@ PRF_BB_HISTORICAL = {
 	}
 }
 
-PRF_BB_HISTORICAL2 = {
+HYD_BB_HISTORICAL2 = {
 	name = NAME_THEME_HISTORICAL_BB
 
 	for_countries = { MDR MYS TRV }
@@ -93,10 +93,10 @@ PRF_BB_HISTORICAL2 = {
 }
 
 ### BATTLECRUISER NAMES ###
-PRF_BC_HISTORICAL = {
+HYD_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -110,10 +110,10 @@ PRF_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-PRF_CV_HISTORICAL = {
+HYD_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -127,10 +127,10 @@ PRF_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-PRF_SS_HISTORICAL = {
+HYD_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -145,10 +145,10 @@ PRF_SS_HISTORICAL = {
 }
 
 ## THEME: INDIAN STATES ###
-PRF_STATES = {
+HYD_STATES = {
 	name = NAME_THEME_STATES
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 
@@ -162,10 +162,10 @@ PRF_STATES = {
 }
 
 ## THEME: BRITISH INDIAN CITIES ###
-PRF_CITIES = {
+HYD_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 
@@ -184,10 +184,10 @@ PRF_CITIES = {
 }
 
 ### THEME: INSPIRATIONAL ###
-PRF_INSPIRATIONAL = {
+HYD_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
 
-	for_countries = { PRF MDR MYS TRV }
+	for_countries = { HYD MDR MYS TRV }
 
 	type = ship
 

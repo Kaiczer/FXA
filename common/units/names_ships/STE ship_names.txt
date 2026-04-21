@@ -1,9 +1,9 @@
-##### PAPAL NAME LISTS #####
+##### STEAL NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-PAP_DD_HISTORICAL = {
+STE_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -26,10 +26,10 @@ PAP_DD_HISTORICAL = {
 }
 
 ### CRUISER NAMES###
-PAP_CL_HISTORICAL = {
+STE_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -48,10 +48,10 @@ PAP_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-PAP_CA_HISTORICAL = {
+STE_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -66,10 +66,10 @@ PAP_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-PAP_BB_HISTORICAL = {
+STE_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -83,10 +83,10 @@ PAP_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-PAP_BC_HISTORICAL = {
+STE_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -100,10 +100,10 @@ PAP_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-PAP_CV_HISTORICAL = {
+STE_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -116,10 +116,10 @@ PAP_CV_HISTORICAL = {
 	}
 }
 
-PAP_SS_HISTORICAL = {
+STE_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -146,10 +146,10 @@ PAP_SS_HISTORICAL = {
 }
 
 ## THEME: POPES ###
-PAP_POPES = {
+STE_POPES = {
 	name = NAME_THEME_POPES
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 
@@ -160,10 +160,10 @@ PAP_POPES = {
 }
 
 ## THEME: ITALIAN MYTHOLOGICAL NAMES ###
-PAP_MYTHOLOGY = {
+STE_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 
@@ -176,10 +176,10 @@ PAP_MYTHOLOGY = {
 }
 
 ## THEME: ITALIAN WEATHER NAMES ###
-PAP_WEATHER = {
+STE_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { PAP }
+	for_countries = { STE }
 
 	type = ship
 

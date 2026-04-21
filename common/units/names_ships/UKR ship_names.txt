@@ -3,7 +3,7 @@
 UKR_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -27,7 +27,7 @@ UKR_DD_HISTORICAL = {
 UKR_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -56,7 +56,7 @@ UKR_CL_HISTORICAL = {
 UKR_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -73,7 +73,7 @@ UKR_CA_HISTORICAL = {
 UKR_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -96,7 +96,7 @@ UKR_BB_HISTORICAL = {
 UKR_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -113,7 +113,7 @@ UKR_BC_HISTORICAL = {
 UKR_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -130,7 +130,7 @@ UKR_CV_HISTORICAL = {
 UKR_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -224,7 +224,7 @@ UKR_SS_HISTORICAL = {
 UKR_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 
@@ -240,7 +240,7 @@ UKR_REGIONS = {
 UKR_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { UKR }
+	for_countries = { UKR USR }
 
 	type = ship
 

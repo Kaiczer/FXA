@@ -1,9 +1,9 @@
 ##### SARDINIA NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-SRD_DD_HISTORICAL = {
+SAR_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -24,10 +24,10 @@ SRD_DD_HISTORICAL = {
 }
 
 ### LIGHT CRUISER NAMES###
-SRD_CL_HISTORICAL = {
+SAR_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -42,10 +42,10 @@ SRD_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-SRD_CA_HISTORICAL = {
+SAR_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -60,10 +60,10 @@ SRD_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-SRD_BB_HISTORICAL = {
+SAR_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -79,10 +79,10 @@ SRD_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-SRD_BC_HISTORICAL = {
+SAR_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -98,10 +98,10 @@ SRD_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-SRD_CV_HISTORICAL = {
+SAR_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -119,10 +119,10 @@ SRD_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-SRD_SS_HISTORICAL = {
+SAR_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -144,10 +144,10 @@ SRD_SS_HISTORICAL = {
 }
 
 ## THEME: ITALIAN REGIONS ###
-SRD_REGIONS = {
+SAR_REGIONS = {
 	name = NAME_THEME_REGIONS
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 
@@ -159,10 +159,10 @@ SRD_REGIONS = {
 }
 
 ## THEME: ITALIAN CITIES ###
-SRD_CITIES = {
+SAR_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 
@@ -176,10 +176,10 @@ SRD_CITIES = {
 }
 
 ## THEME: ITALIAN WEATHER NAMES ###
-SRD_WEATHER = {
+SAR_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 
@@ -192,10 +192,10 @@ SRD_WEATHER = {
 }
 
 ## THEME: ROMAN MYTHOLOGY ###
-SRD_MYTHOLOGY = {
+SAR_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { SRD }
+	for_countries = { SAR }
 
 	type = ship
 

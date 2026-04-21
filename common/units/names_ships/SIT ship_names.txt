@@ -1,9 +1,9 @@
-##### TWO SICILIES NAME LISTS #####
+##### SOUTH ITALY NAME LISTS #####
 ### REGULAR DESTROYER NAMES###
-SIC_DD_HISTORICAL = {
+SIT_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -26,7 +26,7 @@ SIC_DD_HISTORICAL = {
 }
 
 ### CRUISER NAMES###
-SIC_CL_HISTORICAL = {
+SIT_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
 	for_countries = { ITA }
@@ -48,10 +48,10 @@ SIC_CL_HISTORICAL = {
 }
 
 ### HEAVY CRUISER NAMES###
-SIC_CA_HISTORICAL = {
+SIT_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -67,10 +67,10 @@ SIC_CA_HISTORICAL = {
 }
 
 ### BATTLESHIP NAMES ###
-SIC_BB_HISTORICAL = {
+SIT_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -84,10 +84,10 @@ SIC_BB_HISTORICAL = {
 }
 
 ### BATTLECRUISER NAMES ###
-SIC_BC_HISTORICAL = {
+SIT_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -102,10 +102,10 @@ SIC_BC_HISTORICAL = {
 }
 
 ### AIRCRAFT CARRIER NAMES ###
-SIC_CV_HISTORICAL = {
+SIT_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -119,10 +119,10 @@ SIC_CV_HISTORICAL = {
 }
 
 ### SUBMARINES ###
-SIC_SS_FHNX = {
+SIT_SS_FHNX = {
 	name = NAME_THEME_HISTORICAL_FHNX_SUBMARINES
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -131,10 +131,10 @@ SIC_SS_FHNX = {
 	fallback_name = "X%s"
 }
 
-SIC_SS_HISTORICAL = {
+SIT_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -159,10 +159,10 @@ SIC_SS_HISTORICAL = {
 }
 
 ## THEME: ITALIAN CITIES ###
-SIC_CITIES = {
+SIT_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 
@@ -176,10 +176,10 @@ SIC_CITIES = {
 }
 
 ## THEME: ITALIAN MYTHOLOGICAL NAMES ###
-SIC_MYTHOLOGY = {
+SIT_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 
@@ -192,10 +192,10 @@ SIC_MYTHOLOGY = {
 }
 
 ## THEME: ITALIAN WEATHER NAMES ###
-SIC_WEATHER = {
+SIT_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { SIC }
+	for_countries = { SIT }
 
 	type = ship
 
