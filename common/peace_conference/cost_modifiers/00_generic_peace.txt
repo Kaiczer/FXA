@@ -2,14 +2,13 @@
 # See documentation.info file for more detailed scripting information.
 
 peace_action_modifiers = {
-
 	### Global
 	player_led_peace_conference = {
 		category = events_or_focuses
-		peace_action_type = { take_states liberate puppet force_government }
+		peace_action_type = { take_states liberate puppet force_government take_navy }
 		enable = {
 			has_game_rule = { rule = peace_conference_options option = PLAYER_PRIMACY }
-			NOT = { has_global_flag = plpc_turned_off }
+			NOT = { has_global_flag = KR_plpc_turned_off }
 			pc_is_on_winning_side = yes
 			is_ai = no
 		}
@@ -20,7 +19,9 @@ peace_action_modifiers = {
 		category = events_or_focuses
 		peace_action_type = { liberate }
 		enable = {
-			ROOT.FROM = { is_in_africa = no }
+			ROOT.FROM = {
+				is_in_africa = no
+			}
 		}
 		cost_multiplier = 800
 	}
@@ -30,6 +31,15 @@ peace_action_modifiers = {
 		peace_action_type = { puppet force_government }
 		enable = {
 			always = yes
+		}
+		cost_multiplier = 800
+	}
+
+	no_liberation_of_colonial_tags = {
+		category = events_or_focuses
+		peace_action_type = { liberate puppet force_government }
+		enable = {
+			ROOT.FROM = { is_colonial_tag = yes }
 		}
 		cost_multiplier = 800
 	}
