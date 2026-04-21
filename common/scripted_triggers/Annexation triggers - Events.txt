@@ -412,11 +412,11 @@ annexations_can_release_any_india = {
 }
 
 annexations_can_release_republican_india = {
-	#has_event_target = republican_india_available
+	# has_event_target = republican_india_available
 }
 
 annexations_can_release_british_india = {
-	#has_event_target = british_india_available
+	# has_event_target = british_india_available
 }
 
 annexations_india_is_puppet_or_independent_ally_of_ROOT = {
@@ -433,7 +433,7 @@ annexations_can_release_indian_splinters = {
 	OR = {
 		NOT = { is_ally_with = event_target:india }
 		AND = {
-			has_event_target = india
+			# has_event_target = india
 			event_target:india = {
 				is_subject = yes
 				NOT = { is_subject_of = ROOT }
