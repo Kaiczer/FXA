@@ -83,6 +83,10 @@ faction_owned_core_states = {
 	name = COLLECTION_FACTION_OWNED_CORE_STATES
 }
 
+##############
+### REGION ###
+##############
+
 all_balkan_states = {
 	input = constant:state_groups.balkan_peninsula
 	name = collection_all_balkan_states
@@ -91,19 +95,6 @@ all_balkan_states = {
 all_owned_balkan_states = {
 	input = collection:all_balkan_states
 	name = collection_all_owned_balkan_states
-	operators = {
-		limit = { owner = { is_ally_with = ROOT } }
-	}
-}
-
-all_russian_ambitions = {
-	input = constant:state_groups.russian_ambitions
-	name = collection_all_russian_ambitions
-}
-
-all_owned_russian_ambitions = {
-	input = collection:all_russian_ambitions
-	name = collection_all_owned_russian_ambitions
 	operators = {
 		limit = { owner = { is_ally_with = ROOT } }
 	}

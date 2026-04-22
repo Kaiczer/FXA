@@ -19,7 +19,7 @@ on_actions = {
 
 			137 = { set_variable = { ITA_default_core_state = VNE } }
 			138 = { set_variable = { ITA_default_core_state = VNE } }
-			149 = { set_variable = { ITA_default_core_state = VNE } }
+			# 149 = { set_variable = { ITA_default_core_state = VNE } }
 
 			123 = { set_variable = { ITA_default_core_state = SIT } }
 			124 = { set_variable = { ITA_default_core_state = SIT } }

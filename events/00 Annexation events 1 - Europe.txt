@@ -13,7 +13,6 @@
 # 14xxx = Northern Europe
 # 15xxx = Eastern Europe (+ Baltic)
 # 16xxx = Southern Europe (Balkan)
-# 17xxx = Southeastern Europe (Caucasus)
 ############################
 
 add_namespace = annex
@@ -234,7 +233,7 @@ country_event = { # Fate of Great Britain
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Scotland
+country_event = { # Fate of Scotland
 	id = annex.11002
 	title = annexation_scotland
 	desc = annexation_scotland_desc
@@ -423,7 +422,7 @@ country_event = { #Fate of Scotland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Wales
+country_event = { # Fate of Wales
 	id = annex.11003
 	title = annexation_wales
 	desc = annexation_wales_desc
@@ -600,7 +599,7 @@ country_event = { #Fate of Wales
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Northern Ireland
+country_event = { # Fate of Northern Ireland
 	id = annex.11004
 	title = annexation_northern_ireland
 	desc = annexation_northern_ireland_desc
@@ -724,7 +723,7 @@ country_event = { #Fate of Northern Ireland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Ireland
+country_event = { # Fate of Ireland
 	id = annex.11005
 	title = annexation_ireland
 	desc = annexation_ireland_desc
@@ -810,7 +809,7 @@ country_event = { #Fate of Ireland
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of France
+country_event = { # Fate of France
 	id = annex.11006
 	title = annexation_france
 	desc = annexation_france_desc
@@ -983,7 +982,7 @@ country_event = { #Fate of France
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Brittany
+country_event = { # Fate of Brittany
 	id = annex.11007
 	title = annexation_brittany
 	desc = annexation_brittany_desc
@@ -1072,7 +1071,7 @@ country_event = { #Fate of Brittany
 	}
 }
 
-country_event = { #Fate of Calais
+country_event = { # Fate of Calais
 	id = annex.11008
 	title = annexation_calais
 	desc = annexation_calais_desc
@@ -1203,7 +1202,7 @@ country_event = { #Fate of Calais
 	}	
 }
 
-country_event = { #Fate of Alsace-Lorraine
+country_event = { # Fate of Alsace-Lorraine
 	id = annex.11009
 	title = annexation_alsace_lorraine
 	desc = annexation_alsace_lorraine_desc
@@ -1421,7 +1420,7 @@ country_event = { #Fate of Alsace-Lorraine
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Savoy 
+country_event = { # Fate of Savoy 
 	id = annex.11010
 	title = annexation_savoy
 	desc = annexation_savoy_desc
@@ -1559,7 +1558,7 @@ country_event = { #Fate of Savoy
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Nice
+country_event = { # Fate of Nice
 	id = annex.11011
 	title = annexation_nice
 	desc = annexation_nice_desc
@@ -1713,7 +1712,7 @@ country_event = { #Fate of Nice
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Roussillon
+country_event = { # Fate of Roussillon
 	id = annex.11012
 	title = annexation_roussillon
 	desc = annexation_roussillon_desc
@@ -1920,7 +1919,7 @@ country_event = { #Fate of Roussillon
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Basses-Pyrenees
+country_event = { # Fate of Basses-Pyrenees
 	id = annex.11013
 	title = annexation_basses_pyrenees
 	desc = annexation_basses_pyrenees_desc
@@ -2228,7 +2227,7 @@ country_event = { #Fate of Basses-Pyrenees
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Corsica
+country_event = { # Fate of Corsica
 	id = annex.11014
 	title = annexation_corsica
 	desc = annexation_corsica_desc
@@ -2611,7 +2610,7 @@ country_event = { #Fate of Corsica
 	after = { recheck_annexations = yes }
 }
 
-country_event = { #Fate of Spain
+country_event = { # Fate of Spain
 	id = annex.11015
 	title = annexation_spain
 	desc = annexation_spain_desc
@@ -2675,7 +2674,7 @@ country_event = { #Fate of Spain
 	}
 }
 
-country_event = { #Fate of Catalonia
+country_event = { # Fate of Catalonia
 	id = annex.11016
 	title = annexation_catalonia
 	desc = annexation_catalonia_desc
@@ -2727,8 +2726,7 @@ country_event = { #Fate of Catalonia
 		set_temp_variable = { tag_to_release = event_target:spain }
 		98 = { transfer_if_owned = yes } #Valencia
 		97 = { transfer_if_owned = yes } #Balearic Islands
-		# custom_effect_tooltip = tooltip_white_line
-
+		custom_effect_tooltip = tooltip_white_line
 		set_temp_variable = { tag_to_release = CTL }
 		release_targeted_tag = yes
 	}
@@ -2786,7 +2784,7 @@ country_event = { #Fate of Catalonia
 	}
 }
 
-country_event = { #Fate of Euskadi
+country_event = { # Fate of Euskadi
 	id = annex.11017
 	title = annexation_euskadi
 	desc = annexation_euskadi_desc
@@ -2898,7 +2896,7 @@ country_event = { #Fate of Euskadi
 	}
 }
 
-country_event = { #Fate of Galicia
+country_event = { # Fate of Galicia
 	id = annex.11018
 	title = annexation_galicia
 	desc = annexation_galicia_desc
@@ -3043,7 +3041,7 @@ country_event = { #Fate of Galicia
 	}
 }
 
-country_event = { #Fate of Gibraltar
+country_event = { # Fate of Gibraltar
 	id = annex.11019
 	title = annexation_gibraltar
 	desc = annexation_gibraltar_desc
@@ -3229,7 +3227,7 @@ country_event = { #Fate of Gibraltar
 	}
 }
 
-country_event = { #Fate of Portugal
+country_event = { # Fate of Portugal
 	id = annex.11020
 	title = annexation_portugal
 	desc = annexation_portugal_desc
@@ -3396,7 +3394,7 @@ country_event = { #Fate of Portugal
 	}
 }
 
-country_event = { #Fate of the Netherlands
+country_event = { # Fate of the Netherlands
 	id = annex.11021
 	title = annexation_netherlands
 	desc = annexation_netherlands_desc
@@ -3531,7 +3529,7 @@ country_event = { #Fate of the Netherlands
 	}
 }
 
-country_event = { #Fate of Westerschelde
+country_event = { # Fate of Westerschelde
 	id = annex.11022
 	title = annexation_westerschelde
 	desc = annexation_westerschelde_desc
@@ -3663,7 +3661,7 @@ country_event = { #Fate of Westerschelde
 	}
 }
 
-country_event = { #Fate of Limburg
+country_event = { # Fate of Limburg
 	id = annex.11023
 	title = annexation_limburg
 	desc = annexation_limburg_desc
@@ -3873,7 +3871,7 @@ country_event = { #Fate of Limburg
 	}
 }
 
-country_event = { #Fate of Luxembourg
+country_event = { # Fate of Luxembourg
 	id = annex.11024
 	title = annexation_luxembourg
 	desc = annexation_luxembourg_desc
@@ -4183,7 +4181,7 @@ country_event = { #Fate of Luxembourg
 	}
 }
 
-country_event = { #Fate of Flanders 
+country_event = { # Fate of Flanders 
 	id = annex.11025
 	title = annexation_flanders
 	desc = annexation_flanders_desc
@@ -4447,7 +4445,7 @@ country_event = { #Fate of Flanders
 	}
 }
 
-country_event = { #Fate of Wallonia
+country_event = { # Fate of Wallonia
 	id = annex.11026
 	title = annexation_wallonia
 	desc = annexation_wallonia_desc
@@ -4674,7 +4672,7 @@ country_event = { #Fate of Wallonia
 	}
 }
 
-country_event = { #Fate of Eupen
+country_event = { # Fate of Eupen
 	id = annex.11027
 	title = annexation_eupen
 	desc = annexation_eupen_desc
@@ -6367,7 +6365,9 @@ country_event = { # Fate of Tuscany
 	immediate = {
 		hidden_effect = {
 			if = {
-				limit = { has_country_flag = is_potential_unifier_ITA }
+				limit = { 
+					is_italian_tag = yes	
+				}
 				save_event_target_as = can_annex
 			}
 			if = {
@@ -12994,7 +12994,7 @@ country_event = { # Fate of Ukraine
 	}
 }
 
-country_event = { # Fate of Northen Caucasus
+country_event = { # Fate of Northern Caucasus
 	id = annex.15007
 	title = annexation_north_caucasus
 	desc = annexation_north_caucasus_desc
@@ -13009,9 +13009,7 @@ country_event = { # Fate of Northen Caucasus
 					limit = { is_northern_caucasus = yes }
 					add_core_of = DAG
 				}
-				else = {
-					remove_core_of = DAG
-				}
+				else = { remove_core_of = DAG }
 				remove_claim_by = DAG
 			}
 			if = {
@@ -14525,14 +14523,10 @@ country_event = { # Fate of Crimea
 	}
 }
 
-###################
-### B A L K A N ###
-###################
+############################################
+### S O U T H E A S T E R N  E U R O P E ###
+############################################
 
-# release YUG
-# release SER
-# YUG / is_potential_unified_YUG can_annex
-# is_potential_unified_YUG is target to give to
 country_event = { # Fate of Serbia
 	id = annex.16001
 	title = annexation_serbia
@@ -14553,33 +14547,1469 @@ country_event = { # Fate of Serbia
 				}
 				save_event_target_as = can_annex
 			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+			178 = { retain_state = yes } #Kosovo
+			191 = { retain_state = yes } #West Banat
+			193 = { retain_state = yes } #Bachka
 		}
+	}
+
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16001 option annex.16001.a"
+		name = annex.16001.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release SER
+		log = "[GetLogInfo]: event annex.16001 option annex.16001.b"
+		name = annex.16001.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = SER }
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16001 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		SER = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16001 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		SER = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16001 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_serbia = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16001 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
 	}
 }
 
+country_event = { # Fate of Croatia
+	id = annex.16002
+	title = annexation_croatia
+	desc = annexation_croatia_desc
+	picture = GFX_report_event_generic_conference2
 
-# Fate of Croatia
+	is_triggered_only = yes
 
-# Fate of Bosnia
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+			155 = { retain_state = yes }
+			192 = { retain_state = yes }
+		}
+	}
 
-# Fate of Slovenia
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16002 option annex.16002.a"
+		name = annex.16002.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release CRO
+		log = "[GetLogInfo]: event annex.16002 option annex.16002.b"
+		name = annex.16002.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = CRO }
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16002 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		CRO = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
 
-# Fate of Montenegro
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16002 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		CRO = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
 
-# Fate of Macedonia
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16002 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_croatia = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
 
-# Fate of Albania
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16002 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
 
-# Fate of Greece
+	after = {
+		recheck_annexations = yes
+	}
+}
 
-# Fate of Bulgaria
+country_event = { # Fate of Bosnia
+	id = annex.16003
+	title = annexation_bosnia
+	desc = annexation_bosnia_desc
+	picture = GFX_report_event_generic_conference2
 
-# Fate of Romania
+	is_triggered_only = yes
 
-# Fate of Transylvaria
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+		}
+	}
 
-# Fate of Moldova
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16003 option annex.16003.a"
+		name = annex.16003.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release BOS
+		log = "[GetLogInfo]: event annex.16003 option annex.16003.b"
+		name = annex.16003.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = BOS }
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16003 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		BOS = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
 
-#######################
-### C A U C A S U S ###
-#######################
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16003 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		BOS = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16003 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_bosnia = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16003 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Slovenia
+	id = annex.16004
+	title = annexation_slovenia
+	desc = annexation_slovenia_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+		}
+	}
+
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16004 option annex.16004.a"
+		name = annex.16004.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release SLV
+		log = "[GetLogInfo]: event annex.16004 option annex.16004.b"
+		name = annex.16004.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = SLV }
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16004 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		SLV = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16004 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		SLV = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16004 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_slovenia = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16004 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Montenegro
+	id = annex.16005
+	title = annexation_montenegro
+	desc = annexation_montenegro_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+		}
+	}
+
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16005 option annex.16005.a"
+		name = annex.16005.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release MNE
+		log = "[GetLogInfo]: event annex.16005 option annex.16005.b"
+		name = annex.16005.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = MNE }
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16005 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		MNE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16005 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		MNE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16005 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_montenegro = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16005 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Macedonia
+	id = annex.16006
+	title = annexation_macedonia
+	desc = annexation_macedonia_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			annexations_reset_yugoslav_tags = yes
+			if = {
+				limit = {
+					OR = {
+						original_tag = YUG
+						has_country_flag = is_potential_unifier_YUG
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = { 
+					is_southern_slav_tag = no
+					is_subject = no
+				}
+				random_other_country = {
+					limit = {
+						OR = {
+							tag = YUG
+							has_country_flag = is_potential_unifier_YUG
+						}
+					}
+					save_event_target_as = yugoslavia
+				}
+			}
+		}
+	}
+
+	option = { # Release YUG
+		log = "[GetLogInfo]: event annex.16006 option annex.16006.a"
+		name = annex.16006.a
+		trigger = {
+			annexations_can_release_yugoslavia = yes
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = YUG }
+		every_state = {
+			limit = { is_yugoslavia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+		annexations_merge_yugoslav_subjects = yes
+	}
+	
+	option = { # Release MAC
+		log = "[GetLogInfo]: event annex.16006 option annex.16006.b"
+		name = annex.16006.b
+		ai_chance = {
+			base = 65
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = MAC }
+		every_state = {
+			limit = { is_macedonia = yes }
+			add_core_of = var:tag_to_release
+		}
+		release_targeted_tag = yes
+	}
+	
+	option = { # Give to YUG 
+		log = "[GetLogInfo]: event annex.16006 option annex.europe.give_to_yugoslavia"
+		name = annex.europe.give_to_yugoslavia
+		trigger = {
+			has_event_target = yugoslavia
+		}
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 10
+				OR = {
+					is_ally_with = event_target:yugoslavia
+					is_in_faction_with = event_target:yugoslavia
+				}
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:yugoslavia }
+		MAC = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16006 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		MAC = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16006 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = {
+				is_macedonia = yes
+			}
+			remove_claim_and_add_core_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16006 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Albania
+	id = annex.16007
+	title = annexation_albania
+	desc = annexation_albania
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_albania = yes }
+					add_core_of = ALB
+				}
+				else = {
+					remove_core_of = ALB
+				}
+				remove_claim_by = ALB
+			}
+			if = {
+				limit = { tag = GRE }
+				165 = { retain_state = yes } #Northern Epirus
+			}
+		}
+	}
+
+	option = { # Release ALB
+		log = "[GetLogInfo]: event annex.16007 option annex.16007.a"
+		name = annex.16007.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ALB }
+		release_targeted_tag = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16007 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		ALB = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16007 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = { is_albania = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16007 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Greece
+	id = annex.16008
+	title = annexation_greece
+	desc = annexation_greece
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_greece = yes }
+					add_core_of = GRE
+				}
+				else = { remove_core_of = GRE }
+				remove_claim_by = GRE
+			}
+			32 = { retain_state = yes }
+			165 = { retain_state = yes }
+			176 = { retain_state = yes }
+			170 = { retain_state = yes }
+			172 = { retain_state = yes }
+			174 = { retain_state = yes }
+			175 = { retain_state = yes }
+		}
+	}
+
+	option = { # Release GRE
+		log = "[GetLogInfo]: event annex.16008 option annex.16008.a"
+		name = annex.16008.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = GRE }
+		release_targeted_tag = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16008 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		GRE = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16008 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_owned_state = {
+			limit = { is_greece = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16008 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Bulgaria
+	id = annex.16009
+	title = annexation_bulgaria
+	desc = annexation_bulgaria_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_bulgaria = yes }
+					add_core_of = BUL
+				}
+				else = { remove_core_of = BUL }
+				remove_claim_by = BUL
+			}
+		}
+	}
+
+	option = { # Release BUL
+		log = "[GetLogInfo]: event annex.16009 option annex.16009.a"
+		name = annex.16009.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = BUL }
+		release_targeted_tag = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16009 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		BUL = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16009 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_state = {
+			limit = { is_bulgaria = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16009 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+} 
+
+country_event = { # Fate of Romania
+	id = annex.16010
+	title = annexation_romania
+	desc = annexation_romania_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_romania = yes }
+					add_core_of = ROM
+				}
+				else = { remove_core_of = ROM }
+				remove_claim_by = ROM
+			}
+			every_state = {
+				limit = { 
+					OR = {
+						is_moldova = yes
+						is_transylvania = yes
+						state = 187
+						state = 188
+					}
+				}
+				retain_state = yes
+			}
+		}
+	}
+
+	option = { # Release ROM (with Moldova+Transylvania)
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.a"
+		name = annex.16010.a
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		every_owned_state = { 
+			limit = { 
+				OR = {
+					is_moldova = yes
+					is_transylvania = yes
+				}
+			}
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { # Release ROM (with Moldova)
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.b"
+		name = annex.16010.b
+		ai_chance = {
+			base = 25
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		every_owned_state = { 
+			limit = { is_moldova = yes }
+			transfer_state_and_notify = yes
+		}
+	}
+
+	option = { # Release ROM
+		log = "[GetLogInfo]: event annex.16010 option annex.16010.c"
+		name = annex.16010.c
+		ai_chance = {
+			base = 15
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = ROM }
+		release_targeted_tag = yes
+		# set_cosmetic_tag = ROM_wallachia
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16010 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		ROM = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16010 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		every_state = {
+			limit = { is_romania = yes }
+			add_claim_of_ROOT = yes
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16010 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Transylvania
+	id = annex.16011
+	title = annexation_transylvania
+	desc = annexation_transylvania_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = { 
+					limit = { is_transylvania = yes }
+					add_core_of = TRA
+				}
+				else = { remove_core_of = TRA }
+				remove_claim_by = TRA
+			}
+			if = {
+				limit = { 
+					OR = {
+						23 = { is_claim_or_core_of_ROOT = yes }
+						195 = { is_claim_or_core_of_ROOT = yes }
+					}
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					23 = { #Muntenia
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { ROOT_can_grant_land = yes }
+					}
+				}
+				var:23.owner = { save_event_target_as = romania }
+			}
+			if = {
+				limit = {
+					195 = { #Alfold
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = { 
+							ROOT_can_grant_land = yes
+							NOT = { tag = event_target:romania }
+						}
+					}
+				}
+				var:195.owner = { save_event_target_as = hungary }
+			}
+			190 = { retain_state = yes } #Banat
+		}
+	}
+
+	option = { # Release TRA
+		log = "[GetLogInfo]: event annex.16011 option annex.16011.a"
+		name = annex.16011.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = TRA }
+		release_targeted_tag = yes
+	}
+
+	option = { #Split with Hungary/Romania
+		log = "[GetLogInfo]: event annex.16011 option annex.16011.a"
+		name = annex.16011.b
+		trigger = {
+			has_event_target = romania
+			has_event_target = hungary
+			OR = {
+				199 = { is_valid_annexation_state = yes }
+				200 = { is_valid_annexation_state = yes }
+				201 = { is_valid_annexation_state = yes }
+			}
+		}
+		ai_chance = { base = 0 }
+		set_temp_variable = { tag_to_release = event_target:romania }
+		201 = { transfer_state_and_notify = yes } #South Transylvania
+		custom_effect_tooltip = tooltip_white_line
+		set_temp_variable = { tag_to_release = event_target:hungary }
+		199 = { transfer_state_and_notify = yes }
+		200 = { transfer_if_owned = yes }
+	}
+
+	option = { #Give to Romania
+		log = "[GetLogInfo]: event annex.16011 option annex.europe.give_to_romania"
+		name = annex.europe.give_to_romania
+		trigger = {
+			has_event_target = romania
+		}
+		ai_chance = { 
+			base = 60
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 0.1
+				is_ally_with = event_target:romania
+				NOT = { is_ally_with = event_target:hungary }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:romania }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Give to Hungary
+		log = "[GetLogInfo]: event annex.16011 option annex.europe.give_to_hungary"
+		name = annex.europe.give_to_hungary
+		trigger = {
+			has_event_target = hungary
+		}
+		ai_chance = { 
+			base = 10
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+			modifier = {
+				factor = 5
+				is_ally_with = event_target:hungary
+				NOT = { is_ally_with = event_target:romania }
+			}
+		}
+		set_temp_variable = { tag_to_release = event_target:hungary }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16011 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		TRA = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16011 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		if = {
+			limit = { 
+				23 = { is_claim_or_core_of_ROOT = yes }
+			}
+			every_owned_state = {
+				limit = { is_transylvania = yes }
+				remove_claim_and_add_core_of_ROOT = yes
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = { is_transylvania = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16011 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+country_event = { # Fate of Moldova
+	id = annex.16012
+	title = annexation_moldova
+	desc = annexation_moldova_desc
+	picture = GFX_report_event_generic_conference2
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			every_state = {
+				if = {
+					limit = { is_moldova = yes }
+					add_core_of = MOL
+				}
+				else = { remove_core_of = MOL }
+				remove_claim_by = MOL
+			}
+			if = {
+				limit = {
+					23 = { is_claim_or_core_of_ROOT = yes }
+				}
+				save_event_target_as = can_annex
+			}
+			if = {
+				limit = {
+					23 = {
+						annexations_state_owner_is_valid_grant_target = yes
+						owner = {
+							ROOT_can_grant_land = yes
+						}
+					}
+				}
+				var:23.owner = { save_event_target_as = romania }
+			}
+			205 = { retain_state = yes }
+		}
+	}
+
+	option = { # Release MOL
+		log = "[GetLogInfo]: event annex.16012 option annex.16012.a"
+		name = annex.16012.a
+		ai_chance = {
+			base = 100
+			modifier = {
+				factor = 0
+				annexations_can_annex = yes
+			}
+		}
+		set_temp_variable = { tag_to_release = MOL }
+		release_targeted_tag = yes
+	}
+
+	option = { #Split with Romania/Ukraine
+		log = "[GetLogInfo]: event annex.16012 option annex.16012.b"
+		name = annex.16012.b
+		trigger = {
+			has_event_target = romania
+			var:28.owner = {
+				owns_state = 245 
+				245 = { is_claim_or_core_of_PREV = yes }
+				is_subject = no
+			}
+			205 = { is_valid_annexation_state = yes }
+		}
+		ai_chance = { base = 0 }
+		set_temp_variable = { tag_to_release = var:28.owner }
+		205 = { clear_retain_state = yes }
+		205 = { transfer_if_owned = yes } #South Transylvania
+		custom_effect_tooltip = tooltip_white_line
+		set_temp_variable = { tag_to_release = event_target:romania }
+		202 = { transfer_state_and_notify = yes }
+		203 = { transfer_state_and_notify = yes }
+		204 = { transfer_state_and_notify = yes }
+		317 = { transfer_state_and_notify = yes }
+	}
+
+	option = { #give to overlord
+		log = "[GetLogInfo]: event annex.16012 option annex.give_to_overlord"
+		name = annex.give_to_overlord
+		trigger = {
+			annexations_should_give_lands_to_overlord = yes
+		}
+		set_temp_variable = { tag_to_release = overlord }
+		MOL = { set_transfer_target_cores = yes }
+		transfer_targeted_territory = yes
+	}
+
+	option = { #Integrate
+		log = "[GetLogInfo]: event annex.16012 option annex.integration"
+		name = annex.integration
+		trigger = {
+			annexations_can_annex = yes
+		}
+		if = {
+			limit = { 
+				23 = { is_claim_or_core_of_ROOT = yes }
+			}
+			every_owned_state = {
+				limit = { is_moldova = yes }
+				remove_claim_and_add_core_of_ROOT = yes
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = { is_moldova = yes }
+				add_claim_of_ROOT = yes
+			}
+		}
+	}
+
+	option = { #Cancel
+		log = "[GetLogInfo]: event annex.16012 option annex.cancel"
+		name = annex.cancel
+		ai_chance = { base = 0 }
+	}
+
+	after = {
+		recheck_annexations = yes
+	}
+}
+
+# Fate of Zara
+
+# Fate of Syrmia
+
+# Fate of Bachka
+
+# Fate of West Banat
+
+# Fate of Kosovo
+
+# Fate of Banat
+
+# Fate of Dobruja
+
+# Fate of Bessarabia
+
+# Fate of North Epirus
+
+# Fate of Constantinople
+
+# Fate of Adrianople
+
+# Fate of Aegean Macedonia (174+175)
+
+# Fate of Aegean Islands

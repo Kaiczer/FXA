@@ -310,7 +310,7 @@ is_belarusian_tag = {
 		original_tag = BSR 
 	}
 }
-is_yugoslavian_tag = {
+is_southern_slav_tag = {
 	custom_trigger_tooltip = {
 		tooltip = is_south_slav_tag
 		OR = {

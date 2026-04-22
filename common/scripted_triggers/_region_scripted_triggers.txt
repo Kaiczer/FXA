@@ -50,20 +50,11 @@ is_ireland = {
 }
 
 is_france = {
-	has_state_flag = is_mainland_france_state
-}
-
-is_european_italy = {
 	OR = {
-		region = 23 #Italy
-		state = 2 #Sardinia
-		AND = {
-			region = 181 #Po Valley
-			NOT = { state = 139 } #Trentino
-			NOT = { state = 149 } #Trieste
-			NOT = { state = 150 } #Gorizia
-			NOT = { state = 151 } #Istria
-		}
+		state = 1 #Coscica
+		region = 19 #Northern France
+		region = 20 #Southern France
+		region = 164 #Western France
 	}
 }
 
@@ -367,7 +358,7 @@ is_yugoslavia = {
 		is_serbia = yes
 		is_bosnia = yes
 		is_montenegro = yes
-		state = 117 #Macedonia
+		is_macedonia = yes
 	}
 }
 
@@ -414,6 +405,19 @@ is_montenegro = {
 	state = 162
 }
 
+is_macedonia = {
+	state = 177
+}
+
+is_greater_macedonia = {
+	OR = {
+		is_macedonia = yes
+		state = 173
+		state = 174
+		state = 181
+	}
+}
+
 is_albania = {
 	OR = {
 		state = 163 #Albania
@@ -443,11 +447,33 @@ is_greece = {
 }
 
 is_romania = {
-	region = 15 #Romania
+	OR = {
+		is_moldova = yes
+		is_wallachia = yes
+	}
 }
 
 is_transylvania = {
 	region = 144 #Transylvania
+}
+
+is_moldova = {
+	OR = {
+		state = 202
+		state = 203
+		state = 204
+		state = 205
+		state = 317
+	}
+}
+
+is_wallachia = {
+	OR = {
+		state = 23
+		state = 187
+		state = 188
+		state = 189
+	}
 }
 
 is_denmark = {
@@ -770,10 +796,6 @@ is_pacific_islands = {
 		region = 105 #Hawaii Ridge
 		region = 32 #Southeastern Pacific
 	}
-}
-
-is_mainland_america = {
-	has_state_flag = USA_mainland_state
 }
 
 is_new_england = {

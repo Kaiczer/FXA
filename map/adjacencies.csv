@@ -24,15 +24,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 990;1211;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia East
 990;786;;-1;-1;-1;-1;-1;ALAND_STRAIT;Finland-Bothnia West
 
-#### Land Routes
-
-8108;13748;;5081;3645;1029;3680;1021;SUMMAN_ROUTE;Rub al Khali
-2049;10788;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
-4903;5101;;-1;-1;-1;-1;-1;TRANSSAHARIAN_ROUTE;Transsaharian
-5035;5101;;-1;2871;1159;2807;938;TRANSSAHARIAN_ROUTE;Transsaharian
-8061;5101;;-1;2930;1148;2832;918;TRANSSAHARIAN_ROUTE;Transsaharian
-12842;10788;;-1;2800;1169;2769;944;TRANSSAHARIAN_ROUTE;Transsaharian
-
 #### Naval Crossings
 
 2196;13551;sea;-1;-1;-1;-1;-1;;Tanganyika-Zanzibar
@@ -245,14 +236,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13732;13733;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
 13733;13374;impassable;-1;-1;-1;-1;-1;;Xinjiang-Tibet
 4969;10482;impassable;-1;-1;-1;-1;-1;;Darien Gap
-761;9740;impassable;-1;-1;-1;-1;-1;;Canada Shield
-761;12701;impassable;-1;-1;-1;-1;-1;;Canada Shield
-761;7794;impassable;-1;-1;-1;-1;-1;;Canada Shield
-3736;7794;impassable;-1;-1;-1;-1;-1;;Canada Shield
-3736;13094;impassable;-1;-1;-1;-1;-1;;Canada Shield
-3736;11571;impassable;-1;-1;-1;-1;-1;;Canada Shield
-763;11571;impassable;-1;-1;-1;-1;-1;;Canada Shield
-763;4875;impassable;-1;-1;-1;-1;-1;;Canada Shield
-763;9615;impassable;-1;-1;-1;-1;-1;;Canada Shield
-763;13182;impassable;-1;-1;-1;-1;-1;;Canada Shield
 -1;-1;-1;-1;-1;-1;-1;-1;-1
