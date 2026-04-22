@@ -1462,7 +1462,7 @@ country_event = {
 		log = "[GetLogInfo]: event generic_events.121 option 1"
 		if = {
 			limit = {
-				# has_exceeded_maximum_divisions = yes
+				has_exceeded_maximum_divisions = yes
 				is_ai = yes
 				NOT = { has_game_rule = { rule = unit_limit_options option = NONE } }
 				country_has_any_active_threat = no
