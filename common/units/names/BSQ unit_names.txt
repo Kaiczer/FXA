@@ -1,4 +1,4 @@
-AMA = {
+BSQ = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarino" }
@@ -7,40 +7,31 @@ AMA = {
 	}
 	destroyer = {
 		prefix = ""
-		generic = { "Contratorpedeiro" }
+		generic = { "Destructor" }
 		unique = {
-			"Belém"
-			"Manáos"
-			"Santarém"
-			"Macapá"
-			"Altamira"
-			"Rio Branco"
 		}
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Cruzador" }
+		generic = { "Crucero" }
 		unique = {
-			"Pará"
-			"Amapá"
-			"Amazonas"
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = { "Cruzador Blindado" }
+		generic = { "Crucero Acorazado" }
 		unique = {
 		}
 	}
 	battleship = {
 		prefix = ""
-		generic = { "Couraçado" }
+		generic = { "Acorazado" }
 		unique = {
 		}
 	}
 	carrier = {
 		prefix = ""
-		generic = { "Porta-Aviões" }
+		generic = { "Portaaviones" }
 		unique = {
 		}
 	}

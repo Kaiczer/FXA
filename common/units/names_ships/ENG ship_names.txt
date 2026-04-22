@@ -3,7 +3,7 @@
 ENG_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -61,7 +61,7 @@ ENG_DD_HISTORICAL = {
 ENG_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -95,7 +95,7 @@ ENG_DE_HISTORICAL = {
 ENG_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -126,7 +126,7 @@ ENG_CL_HISTORICAL = {
 ENG_CLAA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CLAA
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -149,7 +149,7 @@ ENG_CLAA_HISTORICAL = {
 ENG_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -175,7 +175,7 @@ ENG_CA_HISTORICAL = {
 ENG_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -195,7 +195,7 @@ ENG_MINELAYERS_HISTORICAL = {
 ENG_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -219,7 +219,7 @@ ENG_BB_HISTORICAL = {
 ENG_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -241,7 +241,7 @@ ENG_BC_HISTORICAL = {
 ENG_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -265,7 +265,7 @@ ENG_CV_HISTORICAL = {
 ENG_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -290,7 +290,7 @@ ENG_CVL_HISTORICAL = {
 ENG_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -333,7 +333,7 @@ ENG_SS_HISTORICAL = {
 ENG_COUNTIES = {
 	name = NAME_THEME_COUNTIES
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		OR = {
@@ -364,7 +364,7 @@ ENG_COUNTIES = {
 ENG_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -389,7 +389,7 @@ ENG_CITIES = {
 ENG_COLONIES = {
 	name = NAME_THEME_COLONIES
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		OR = {
@@ -410,7 +410,7 @@ ENG_COLONIES = {
 ENG_KINGS = {
 	name = NAME_THEME_KINGS # 1066 - 1936
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		OR = {
@@ -437,7 +437,7 @@ ENG_KINGS = {
 ENG_BATTLES = {
 	name = NAME_THEME_BATTLES # 878 - 1916
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		OR = {
@@ -462,7 +462,7 @@ ENG_BATTLES = {
 ENG_RIVERS = {
 	name = NAME_THEME_RIVERS
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		tag = ENG
@@ -483,7 +483,7 @@ ENG_RIVERS = {
 ENG_MYTHOLOGY = {
 	name = NAME_THEME_MYTHOLOGY
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	can_use = {
 		OR = {
@@ -510,7 +510,7 @@ ENG_MYTHOLOGY = {
 ENG_INSPIRATIONAL = {
 	name = NAME_THEME_INSPIRATIONAL
 
-	for_countries = { IMP }
+	for_countries = { ENG }
 
 	type = ship
 

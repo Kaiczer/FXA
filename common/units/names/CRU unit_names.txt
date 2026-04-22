@@ -1,20 +1,26 @@
-FOP = {
+CRU = {
 	submarine = {
 		prefix = ""
 		generic = { "Submarino" }
 		unique = {
+			"Macana"
 		}
 	}
 	destroyer = {
 		prefix = ""
 		generic = { "Destructor" }
 		unique = {
+			"Mérida"
+			"Campeche"
+			"Chetumal"
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Crucero" }
 		unique = {
+			"Chak Ek"
+			"Patrimonio"
 		}
 	}
 	heavy_cruiser = {

@@ -1,4 +1,4 @@
-PRF = {
+IND = {
 	submarine = {
 		prefix = "INS"
 		generic = { "Submarine" }
@@ -12,7 +12,7 @@ PRF = {
 		generic = { "Destroyer" }
 		unique = {
 			"Puna Swaraj" "R.H. Tawney" "Zindabad"
-			"Dee" "Doon" "Eden" "Kale" "Rother" "Swale" "Durgam" "Durjoy" "Nirmul" "Nishan"
+			"Dee" "Doon" "Eden" "Kale" "Rother" "Swale"
 			"Sutlej" "Jumna" "Narbada" "Godavari" "Kistna" "Cauvery" "Sabarmati" "Vatrak" "Mohar" "Mahi" "Panam" "Anas" "Moran" "Banas" "Luni" "Sukari" "Bandi" "Chambel"
 			"Asan" "Ghaghara" "Sarda" "Gandak" "Koshi" "Mahananda" "Brahmaputra" "Kopili" "Digaru" "Puthimari" "Baralia" "Pagaldiya" "Kaladiya" "Beki" "Manas" "Champabati"
 			"Shil Torsa" "Tir" "Talwar" "Trishul" "Rajput" "Ranjit" "Rana" "Gomati" "Ganga" "Ranvijay" "Ranvir"
@@ -24,7 +24,6 @@ PRF = {
 		prefix = "INS"
 		generic = { "Cruiser" }
 		unique = {
-			"Somudra Avijan" "Somudra Joy"
 			"Tamar" "Neza" "Shamsher" "Dhanush" "Kukri" "Hooghly" "Tir" "Kirpan" "Kuthar" "Beas" "Betwa" "Nilgiri" "Himgiri" "Udaygiri" "Dunagiri" "Vindhyagiri" "Krishna" "Taragiri"
 			"Baluchi" "Pathan" "Indus" "Gondwana" "Mahratta" "Arnala" "Androth" "Anjadip" "Amini" "Kamorta" "Kadmatt" "Kiltan" "Kavaratti" "Katchali" "Amandivi" "Hosdurg"
 			"Vijaydurg" "Sindhudurg" "Prahar" "Veer" "Nipat"
@@ -34,7 +33,7 @@ PRF = {
 		prefix = "INS"
 		generic = { "Armoured Cruiser" }
 		unique = {
-			"Kolkata" "Kochi" "Chennai" "Delhi" "Mumbai" "Bengal" "Assam" "Punjab" "Ahmedabad" "Amritsar" "Karachi"
+			"Kolkata" "Kochi" "Chennai" "Delhi" "Mysore" "Mumbai" "Bengal" "Assam" "Punjab" "Ahmedabad" "Amritsar" "Karachi"
 		}
 	}
 	battle_cruiser = {
@@ -48,8 +47,7 @@ PRF = {
 		prefix = "INS"
 		generic = { "Battleship" }
 		unique = {
-			"Kraanti" "Ganatantr" "Shakti" "Pratidvandvee" "Buddhimatta" "Nidar" "Saahas"
-			"Dravida" "Asaf Jahi" "Wadiyar" "Kshatriya" "Bhonsle"
+			"Badala" "Pratikaar" "Pratishodh" "Pratipakshee" "Aajaadee"
 		}
 	}
 	carrier = {

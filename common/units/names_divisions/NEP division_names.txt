@@ -34,7 +34,7 @@
 NEP_INF_01 = {
 	name = div_infantry_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "infantry" }
 
@@ -79,7 +79,7 @@ NEP_INF_01 = {
 NEP_CAV_01 = {
 	name = div_cavalry_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "cavalry" }
 
@@ -120,7 +120,7 @@ NEP_CAV_01 = {
 NEP_MOT_01 = {
 	name = div_motorised_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "motorized" }
 
@@ -161,7 +161,7 @@ NEP_MOT_01 = {
 NEP_ARM_01 = {
 	name = div_armoured_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -202,7 +202,7 @@ NEP_ARM_01 = {
 NEP_MEC_01 = {
 	name = div_mechanised_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "mechanized" }
 
@@ -243,7 +243,7 @@ NEP_MEC_01 = {
 NEP_GAR_01 = {
 	name = div_garrison_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "infantry" }
 
@@ -290,7 +290,7 @@ NEP_GAR_01 = {
 NEP_MAR_01 = {
 	name = div_marine_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "marine" }
 
@@ -318,7 +318,7 @@ NEP_MAR_01 = {
 NEP_MTN_01 = {
 	name = div_mountain_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "mountaineers" }
 
@@ -346,7 +346,7 @@ NEP_MTN_01 = {
 NEP_PAR_01 = {
 	name = div_paratrooper_division
 
-	for_countries = { NEP }
+	for_countries = { NEP DRS }
 
 	division_types = { "paratrooper" }
 

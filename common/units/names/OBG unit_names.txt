@@ -1,38 +1,39 @@
-ANG = {
+OBG = {
 	submarine = {
 		prefix = ""
-		generic = { "Submarino" }
+		generic = { "Sous-Marin" }
 		unique = {
 		}
 	}
 	destroyer = {
 		prefix = ""
-		generic = { "Contratorpedeiro" }
+		generic = { "Contre-Torpilleur" }
 		unique = {
 		}
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Cruzador" }
+		generic = { "Croiseur Léger" }
 		unique = {
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = { "Cruzador Blindado" }
+		generic = { "Croiseur Lourd" }
 		unique = {
 		}
 	}
 	battleship = {
 		prefix = ""
-		generic = { "Couraçado" }
+		generic = { "Cuirassé" }
 		unique = {
 		}
 	}
 	carrier = {
 		prefix = ""
-		generic = { "Porta-Aviões" }
+		generic = { "Porte-Avions" }
 		unique = {
 		}
 	}
 }
+

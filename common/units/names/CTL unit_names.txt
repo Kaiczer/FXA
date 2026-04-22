@@ -1,7 +1,7 @@
-BAS = {
+CTL = {
 	submarine = {
 		prefix = ""
-		generic = { "Submarino" }
+		generic = { "Submari" }
 		unique = {
 		}
 	}
@@ -13,25 +13,25 @@ BAS = {
 	}
 	light_cruiser = {
 		prefix = ""
-		generic = { "Crucero" }
+		generic = { "Creuer" }
 		unique = {
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
-		generic = { "Crucero Acorazado" }
+		generic = { "Creuer Blindat" }
 		unique = {
 		}
 	}
 	battleship = {
 		prefix = ""
-		generic = { "Acorazado" }
+		generic = { "Cuirassat" }
 		unique = {
 		}
 	}
 	carrier = {
 		prefix = ""
-		generic = { "Portaaviones" }
+		generic = { "Portaavions" }
 		unique = {
 		}
 	}

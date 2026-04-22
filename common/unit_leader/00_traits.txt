@@ -580,10 +580,13 @@ leader_traits = {
 			allowed = {
 				FROM = {
 					OR = {
-						original_tag = NFA
-						original_tag = MAF
-						original_tag = GEA
+						original_tag = WEA
+						original_tag = EQA
+						original_tag = KEN
+						original_tag = SIE
+						original_tag = RHO
 						original_tag = DEI
+						original_tag = FIC
 					}
 				}
 			}
