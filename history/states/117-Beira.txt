@@ -13,9 +13,11 @@ state={
 		add_core_of = POR
 		add_to_array = { state_victory_points = 9787 }
 		add_to_array = { state_victory_points = 6996 }
-
+		add_to_array = { state_victory_points = 3798 }
+		
 		victory_points = { 9787 1 }
 		victory_points = { 6996 1 }
+		victory_points = { 3798 3 }
 
 		buildings = {
 			infrastructure = 2

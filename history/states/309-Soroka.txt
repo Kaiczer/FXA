@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 9195 }
+		
+		victory_points = { 9195 1 } #Kem
 
 		buildings = {
 			infrastructure = 1

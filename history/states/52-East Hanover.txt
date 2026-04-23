@@ -10,9 +10,11 @@ state={
 	history = {
 		owner = SHO
 		add_core_of = SHO
-		victory_points = { 3326 10 }
-
+		add_to_array = { state_victory_points = 6377 }
 		add_to_array = { state_victory_points = 3326 }
+
+		victory_points = { 3326 10 }
+		victory_points = { 6377 10 }
 		
 		buildings = {
 			dockyard = 3

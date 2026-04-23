@@ -7,9 +7,6 @@ state={
 	history = {
 		owner = DEN
 		add_core_of = DEN
-		add_to_array = { state_victory_points = 13579 }
-
-		victory_points = { 13579 1 } #Sonderborg
 
 		buildings = {
 			infrastructure = 2

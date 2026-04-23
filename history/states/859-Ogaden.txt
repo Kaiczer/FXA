@@ -7,7 +7,13 @@ state={
 		owner = ETH
 		add_core_of = ETH
 		add_core_of = SOM
+		add_to_array = { state_victory_points = 7980 }
 
+		victory_points = { 7980 2 } #Dire Dawa
+		
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={

@@ -13,12 +13,11 @@ state={
 		add_core_of = DEI
 		add_core_of = INS
 		add_to_array = { state_victory_points = 7381 }
-		victory_points = { 7381 20 }
 		add_to_array = { state_victory_points = 7421 }
 
+		victory_points = { 7381 20 }
 		victory_points = { 7421 5 }
-		victory_points = { 1413 5 }
-
+		
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

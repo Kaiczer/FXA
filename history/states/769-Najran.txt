@@ -8,9 +8,9 @@ state={
 		owner = YEM
 		add_core_of = YEM 
 		add_claim_by = HEJ 
-		add_to_array = { state_victory_points = 13875 }
+		add_to_array = { state_victory_points = 5006 }
 
-		victory_points = { 13875 1 } #Najran
+		victory_points = { 5006 1 } #Najran
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

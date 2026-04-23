@@ -12,10 +12,8 @@ state={
 		owner = CAN 
 		add_core_of = CAN
 		add_to_array = { state_victory_points = 7899 }
-		add_to_array = { state_victory_points = 9467 }
 
-		victory_points = { 7899 1 }
-		victory_points = { 9467 1 }
+		victory_points = { 7899 1 }	
 
 		buildings = {
 			infrastructure = 2

@@ -9,7 +9,9 @@ state={
 		add_core_of = FIN
 		add_to_array = { state_victory_points = 3137 }
 		add_to_array = { state_victory_points = 9167 }
-
+		add_to_array = { state_victory_points = 67 }
+		
+		victory_points = { 67 2 } #Lahti
 		victory_points = { 3137 3 } #Tampere
 		victory_points = { 9167 1 } #Hameenlinna
 

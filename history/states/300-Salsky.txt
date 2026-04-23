@@ -8,7 +8,9 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		add_to_array = { state_victory_points = 3417 }
+		add_to_array = { state_victory_points = 6794 }
 
+		victory_points = { 6794 1 } #Elista
 		victory_points = { 3417 3 } #Velikoknyazhesk
 
 		buildings = {

@@ -9,10 +9,12 @@ state={
 		add_core_of = BRA
 		add_to_array = { state_victory_points = 10946 }
 		add_to_array = { state_victory_points = 11002 }
+		add_to_array = { state_victory_points = 8143 }
 
 		victory_points = { 10946 20 }
 		victory_points = { 11002 3 }
-
+		victory_points = { 8143 1 }
+		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2

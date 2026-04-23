@@ -8,9 +8,12 @@ state={
 		owner = ARG
 		add_core_of = ARG
 		add_to_array = { state_victory_points = 10953 }
-
+		add_to_array = { state_victory_points = 13219 }
+		add_to_array = { state_victory_points = 13808 }
+		
 		victory_points = { 10953 2 }
-
+		victory_points = { 13219 2 }
+		victory_points = { 13808 2 }
 		buildings = {
 			infrastructure = 1
 			10953 = {

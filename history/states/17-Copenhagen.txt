@@ -11,7 +11,9 @@ state={
 		add_to_array = { state_victory_points = 3325 }
 		add_to_array = { state_victory_points = 6287 }
 		add_to_array = { state_victory_points = 6393 }
+		add_to_array = { state_victory_points = 13579 }
 
+		victory_points = { 13579 1 } #Sonderborg
 		victory_points = { 6287 20 } #Copenhagen
 		victory_points = { 6393 2 } #Roskilde
 		victory_points = { 3325 5 } #Odense

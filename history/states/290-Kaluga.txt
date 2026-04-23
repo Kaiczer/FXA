@@ -7,9 +7,11 @@ state={
 	history = {
 		owner = SOV
 		add_core_of = SOV
+		add_to_array = { state_victory_points = 382 }
 		add_to_array = { state_victory_points = 6290 }
 		add_to_array = { state_victory_points = 9282 }
-
+		
+		victory_points = { 382 3 }
 		victory_points = { 6290 1 } #Serpukhov
 		victory_points = { 9282 1 } #Kolomna
 
