@@ -1,48 +1,52 @@
-# add_namespace = war_exhaustion
-# country_event = {
-# 	# Bi-Weekly Update of Maximum WEP Cap
-# 	id = war_exhaustion.1
-# 	hidden = yes
-# 	trigger = {
-# 		has_war = yes
-# 		NOT = {
-# 			has_country_flag = war_exhaustion_update_time_limit
-# 		}
-# 	}
-# 	immediate = {
-# 		war_exhaustion_set_war_exhaustion_point_cap = yes
-# 	}
-# 	mean_time_to_happen = {
-# 		days = 1
-# 	}
-# 	option = {
-# 		set_country_flag = {
-# 			flag = war_exhaustion_update_time_limit
-# 			days = 13
-# 		}
-# 	}
-# }
+add_namespace = war_exhaustion
+country_event = {
+	# Bi-Weekly Update of Maximum WEP Cap
+	id = war_exhaustion.1
+	hidden = yes
+	trigger = {
+		has_war = yes
+		NOT = {
+			has_country_flag = war_exhaustion_update_time_limit
+		}
+	}
+	immediate = {
+		log = "[GetLogInfo]: event war_exhaustion.1 option war_exhaustion.1.on_launch"
+		war_exhaustion_set_war_exhaustion_point_cap = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		log = "[GetLogInfo]: event war_exhaustion.1 option war_exhaustion.1.update_war_exhaustion_cap"
+		set_country_flag = {
+			flag = war_exhaustion_update_time_limit
+			days = 13
+		}
+	}
+}
 
-# country_event = {
-# 	# War Exhaustion Effects Update
-# 	id = war_exhaustion.2
-# 	hidden = yes
-# 	trigger = {
-# 		check_variable = { war_exhaustion_point_actual > 0 }
-# 		NOT = {  
-# 			has_country_flag = war_exhaustion_effects_update_time_limit
-# 		}
-# 	}
-# 	immediate = {
-# 		war_exhaustion_effects_update = yes
-# 	}
-# 	mean_time_to_happen = {
-# 		days = 1
-# 	}
-# 	option = {
-# 		set_country_flag = {
-# 			flag = war_exhaustion_effects_update_time_limit
-# 			days = 29
-# 		}
-# 	}
-# }
+country_event = {
+	# War Exhaustion Effects Update
+	id = war_exhaustion.2
+	hidden = yes
+	trigger = {
+		check_variable = { war_exhaustion_point_actual > 0 }
+		NOT = {  
+			has_country_flag = war_exhaustion_effects_update_time_limit
+		}
+	}
+	immediate = {
+		log = "[GetLogInfo]: event war_exhaustion.2 option war_exhaustion.2.on_launch"
+		war_exhaustion_effects_update = yes
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		log = "[GetLogInfo]: event war_exhaustion.2 option war_exhaustion.2.war_exhaustion_effects"
+		set_country_flag = {
+			flag = war_exhaustion_effects_update_time_limit
+			days = 29
+		}
+	}
+}

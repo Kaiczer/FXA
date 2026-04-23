@@ -1,0 +1,304 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				unit_limit_calculation_effect = yes
+			}
+		}
+	}
+
+	# ROOT is country, this is ran for every country
+	on_daily = {
+		effect = {
+			# Unit Limit Calculation
+			unit_limit_calculation_effect = yes
+		}
+	}
+
+	on_war = {
+		effect = {
+			log = "[GetDateText]: [Root.GetName]: on_war"
+			# Check for puppets at war with their overlord
+			if = {
+				limit = {
+					is_subject = yes
+					any_enemy_country = { has_subject = ROOT }
+				}
+				overlord = {
+					set_autonomy = {
+						target = ROOT
+						autonomy_state = autonomy_free
+					}
+				}
+			}
+		}
+	}
+
+	#ROOT = attacking side
+	#FROM = defending side
+	#fired when two countries end up at war with each other (on_war is fired when a country goes to war against anyone and is not fired again when it enters war against another country unless it went to peace first)
+	on_war_relation_added = {
+		effect = {
+			log = "[GetDateText]: on_war_relation_added attacker: [Root.GetName] defender: [From.GetName]"
+
+			# Volunteers
+			save_event_target_as = volunteer_target
+			every_other_country = {
+				limit = { willing_to_send_volunteers_to_PREV = yes }
+				send_volunteers_to_TARGET = yes
+			}
+			FROM = {
+				save_event_target_as = volunteer_target
+				every_other_country = {
+					limit = { willing_to_send_volunteers_to_PREV = yes }
+					send_volunteers_to_TARGET = yes
+				}
+			}
+
+			# # Boot events
+			# country_event = ai_events.203 #WK3 - ENT vs GER
+			# country_event = ai_events.204 #WK3 - RUS vs INT
+			# country_event = ai_events.205 #2nd Sino-Japanese War
+			# country_event = ai_events.208 #GEA vs JAP
+
+			#TEMP WORKAROUND FOR ENGINE BUG: subjects cannot call their own subjects into wars
+			if = {
+				limit = {
+					is_subject = yes
+					num_subjects > 0
+				}
+				every_subject_country = {
+					limit = { NOT = { has_war_with = FROM } }
+					add_to_war = {
+						targeted_alliance = ROOT
+						enemy = FROM
+					}
+				}
+			}
+			FROM = {
+				if = {
+					limit = {
+						is_subject = yes
+						num_subjects > 0
+					}
+					every_subject_country = {
+						limit = { NOT = { has_war_with = ROOT } }
+						add_to_war = {
+							targeted_alliance = FROM
+							enemy = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_peace = {
+		effect = {
+			log = "[GetDateText]: [Root.GetName]: on_peace"
+			#Demobilization check for the AI
+			# if = {
+			# 	limit = {
+			# 		is_ai = yes
+			# 		NOT = { has_country_flag = has_demobilization_check }
+			# 	}
+			# 	set_country_flag = { flag = has_demobilization_check days = 6 value = 1 }
+			# 	country_event = { id = generic_events.120 days = 6 }
+			# }
+
+			# #Reduce units check for the AI
+			# if = {
+			# 	limit = {
+			# 		is_ai = yes
+			# 		NOT = { has_country_flag = has_reduce_units_check }
+			# 	}
+			# 	set_country_flag = has_reduce_units_check
+			# 	country_event = { id = generic_events.121 days = 7 random_days = 3 }
+			# }
+
+			# Independence
+			clr_country_flag = independence_war
+			clr_country_flag = independence_war_overlord
+
+			# Volunteers
+			save_event_target_as = volunteer_target
+			every_other_country = {
+				limit = { has_country_flag = sent_volunteers_@PREV }
+				clear_volunteers_to_TARGET = yes
+			}
+		}
+	}
+
+	# root country that invades
+	# scope state that is invaded
+	# from scope state that the invasion started
+	on_naval_invasion = {
+		effect = {
+			log = "[GetDateText]: [Root.GetName] has invaded [This.GetName] from [From.GetName]"
+			if = {
+				limit = {
+					ROOT = {
+						has_tech = marines_commandos_demolition
+						divisions_in_state = {
+							unit = marine_commando
+							size > 0
+							state = PREV
+						}
+					}
+					NOT = { has_state_flag = marines_commando_effect }
+					NOT = { is_owned_by = ROOT }
+				}
+				SF_marine_demoliton_effect = yes # Note that the state flag condition is not preventing it from doing 1 damage per division
+			}
+		}
+	}
+
+	# root country that paradrops
+	# scope state that is paradroped into
+	# from scope state that the paradrop started
+	on_paradrop = {
+		effect = {
+			log = "[GetDateText]: [Root.GetName] has paradropped into [This.GetName] from [From.GetName]"
+		}
+	}
+
+	# root is the state that was dropped into
+	# from is the dropping country
+	# this differs from on_paradrop in that it is run once per paradrop, not once per unit dropped
+	on_units_paradropped_in_state = {
+		effect = {
+			if = {
+				limit = {
+					FROM = { has_tech = paras_dispersed_drop }
+					NOT = { has_state_flag = para_drop_effect }
+					NOT = { is_controlled_by = FROM }
+				}
+				SF_PARA_sabotage_effect = yes
+			}
+			if = {
+				limit = {
+					FROM = { has_tech = paras_combat_drop }
+					NOT = { has_state_flag = para_drop_effect }
+				}
+				SF_PARA_combat_effect = yes
+			}
+		}
+	}
+
+	on_unit_leader_promote_from_ranks_veteran = { #Unit leader scope, FROM is unit
+		effect = {
+			FROM = {
+				add_random_valid_trait_from_unit = {
+					character = ROOT
+				}
+			}
+		}
+	}
+
+	on_unit_leader_promote_from_ranks_green = { #Unit leader scope, FROM is unit
+		effect = {
+		}
+	}
+
+	on_unit_leader_created = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_unit_leader_created"
+			if = {
+				limit = { is_exiled_leader = yes }
+				From.From = { save_event_target_as = exile_nation }
+				add_unit_leader_trait = exiled_leader
+				unit_leader_event = mtg_exile_leader_added.1
+			}
+		}
+	}
+
+	on_add_history = { #Unit Scope
+		effect = {
+		}
+	}
+
+	#FROM is state #ROOT is broken as hell
+	on_nuke_drop = {
+		# effect = {
+		# 	news_event = { id = nuke_dropped.2 days = 1 }
+		# 	news_event = { id = nuke_dropped.3 days = 1 }
+		# 	news_event = { id = nuke_dropped.4 days = 1 }
+		# 	news_event = { id = nuke_dropped.5 days = 1 }
+		# 	news_event = { id = nuke_dropped.6 days = 1 }
+		# 	news_event = { id = nuke_dropped.7 days = 1 }
+		# 	news_event = { id = nuke_dropped.8 days = 1 }
+		# 	news_event = { id = nuke_dropped.9 days = 1 }
+		# 	news_event = { id = nuke_dropped.10 days = 1 }
+		# 	news_event = { id = nuke_dropped.11 days = 1 }
+		# 	news_event = { id = nuke_dropped.12 days = 1 }
+		# 	news_event = { id = nuke_dropped.13 days = 1 }
+		# 	news_event = { id = nuke_dropped.14 days = 1 }
+		# }
+		random_events = {
+			100 = nuke_dropped.0
+		}
+	}
+
+	# Ace pilots
+	# country, FROM = ace
+	on_ace_promoted = {
+		random_events = {
+			100 = ace_promoted.1
+			5 = ace_promoted.2
+		}
+	}
+
+	# country, FROM = ace, PREV = enemy ace
+	# This event fires twice, once for each ace.
+	on_aces_killed_each_other = {
+		random_events = {
+			100 = aces_killed_each_other.1
+		}
+	}
+
+	# country, FROM = our ace,
+	# PREV = enemy ace, has killed FROM
+	on_ace_killed_by_ace = {
+		random_events = {
+			100 = ace_killed_by_ace.1
+		}
+	}
+
+	# country, FROM = our ace,
+	# PREV = enemy ace, killed by FROM
+	on_ace_killed_other_ace = {
+		random_events = {
+			100 = ace_killed_other_ace.1
+		}
+	}
+
+	# country, FROM = ace
+	on_ace_killed = {
+		random_events = {
+			100 = ace_died.1
+		}
+	}
+
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] (ROOT) on_capitulation FROM = [From.GetName]"
+			news_event = country_capitulated.0
+
+			# transfer the navy if set to
+			if = {
+				limit = { has_variable = transfer_navy_to }
+				if = {
+					limit = {
+						country_exists = var:transfer_navy_to
+						FROM = { is_ally_with = var:transfer_navy_to }
+					}
+					var:transfer_navy_to = {
+						ROOT = { transfer_navy = { target = PREV } }
+					}
+				}
+				clear_variable = transfer_navy_to
+			}
+		}
+	}
+}
