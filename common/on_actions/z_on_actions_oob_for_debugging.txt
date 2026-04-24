@@ -1,0 +1,23 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_possible_country = {
+				division_template = {
+					name = "Test"
+					division_cap = 20 
+					priority = 0
+					template_counter = 0
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 0 y = 3 }
+					}
+					support = {
+						military_police = { x = 0 y = 0 }
+					}
+				}
+			}
+		}
+	}
+}
