@@ -170,4 +170,34 @@ spriteTypes = {
 		name = "GFX_frontend_medal_dlc043"
 		texturefile = "gfx/interface/dlc_banners/got.png"
 	}
+
+	spriteType = { # GoE
+		name = "GFX_frontend_banner_dlc046"
+		texturefile = "gfx/interface/empty_64x52.png"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_medal_dlc046"
+		texturefile = "gfx/interface/dlc_banners/goe.png"
+	}
+
+	spriteType = { # NCNS
+		name = "GFX_frontend_banner_dlc049"
+		texturefile = "gfx/interface/empty_64x52.png"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_medal_dlc049"
+		texturefile = "gfx/interface/dlc_banners/ncns.png"
+	}
+
+	spriteType = { # PFOT
+		name = "GFX_frontend_banner_dlc051"
+		texturefile = "gfx/interface/empty_64x52.png"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_medal_dlc051"
+		texturefile = "gfx/interface/dlc_banners/pfot.png"
+	}
 }
