@@ -926,10 +926,10 @@ on_actions = {
 			}
 
 			#### Target Annexation - Additional States ####
-			every_state = {
-				limit = { NOT = { is_in_array = { annexation_target:annexation_extra_states = THIS } } }
-				add_to_array = { annexation_target:annexation_extra_states = THIS }
-			}
+			# every_state = {
+			# 	limit = { NOT = { is_in_array = { annexation_target:annexation_extra_states = THIS } } }
+			# 	add_to_array = { annexation_target:annexation_extra_states = THIS }
+			# }
 
 			every_state = {
 				limit = { check_variable = { annexation_extra_states^num = 1 } }

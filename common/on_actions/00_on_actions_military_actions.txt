@@ -280,25 +280,25 @@ on_actions = {
 	}
 
 	# ROOT is capitulated country, FROM is winner
-	on_capitulation = {
-		effect = {
-			log = "[GetDateText] [Root.GetName] (ROOT) on_capitulation FROM = [From.GetName]"
-			news_event = country_capitulated.0
+	# on_capitulation = {
+	# 	effect = {
+	# 		log = "[GetDateText] [Root.GetName] (ROOT) on_capitulation FROM = [From.GetName]"
+	# 		news_event = country_capitulated.0
 
-			# transfer the navy if set to
-			if = {
-				limit = { has_variable = transfer_navy_to }
-				if = {
-					limit = {
-						country_exists = var:transfer_navy_to
-						FROM = { is_ally_with = var:transfer_navy_to }
-					}
-					var:transfer_navy_to = {
-						ROOT = { transfer_navy = { target = PREV } }
-					}
-				}
-				clear_variable = transfer_navy_to
-			}
-		}
-	}
+	# 		# transfer the navy if set to
+	# 		if = {
+	# 			limit = { has_variable = transfer_navy_to }
+	# 			if = {
+	# 				limit = {
+	# 					country_exists = var:transfer_navy_to
+	# 					FROM = { is_ally_with = var:transfer_navy_to }
+	# 				}
+	# 				var:transfer_navy_to = {
+	# 					ROOT = { transfer_navy = { target = PREV } }
+	# 				}
+	# 			}
+	# 			clear_variable = transfer_navy_to
+	# 		}
+	# 	}
+	# }
 }
